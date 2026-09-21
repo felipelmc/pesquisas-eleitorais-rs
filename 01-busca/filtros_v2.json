@@ -1,0 +1,52 @@
+{
+  "versao": "filtros_v2",
+  "previsto_no_protocolo": false,
+  "_nota": "Protocolo, seção 4: igual à v1, exceto o filtro de ano em modo excluir (publicação anterior a 2010; definição operacional: publication_year do OpenAlex e ano de defesa na BDTD; sem ano segue).",
+  "filtros": [
+    {
+      "nome": "ano",
+      "tipo": "ano",
+      "min": 2010,
+      "modo": "excluir",
+      "previsto_no_protocolo": true,
+      "justificativa": "protocolo seção 4: recorte por ano de publicação a partir de 2010, exclusão determinística por metadado"
+    },
+    {
+      "nome": "tipo",
+      "tipo": "tipo",
+      "recusar": [
+        "editorial",
+        "errata"
+      ],
+      "modo": "etiquetar"
+    },
+    {
+      "nome": "idioma",
+      "tipo": "idioma",
+      "aceitar": [
+        "pt",
+        "en",
+        "es"
+      ],
+      "modo": "etiquetar",
+      "_nota": "sem restrição de idioma (decisão humana no G2): só etiqueta, para descrever"
+    },
+    {
+      "nome": "metodo",
+      "tipo": "dicionario",
+      "dicionario": "metodo_pt_en_es",
+      "grupos": [
+        "quantitativo",
+        "experimental",
+        "causalidade",
+        "revisao"
+      ],
+      "campos": [
+        "titulo",
+        "resumo",
+        "palavras_chave"
+      ],
+      "modo": "etiquetar"
+    }
+  ]
+}

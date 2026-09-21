@@ -1,0 +1,86 @@
+[
+ {
+  "id_rs": "RS4543",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Experimento de laboratório sobre incentivos de seleção e accountability; a exposição analisada não é resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4548",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Coordenação eleitoral pode envolver informação de pesquisas entre os 'contextos eleitorais'; o título não permite descartar sem margem."
+ },
+ {
+  "id_rs": "RS4568",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de competência e ambiguidade das propostas dos candidatos, não de exposição a resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4574",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "A exposição analisada é a experiência democrática prévia, não a divulgação de resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4578",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "O que varia no experimento é a regra de voto (obrigatório vs. voluntário), não o resultado de pesquisa mostrado."
+ },
+ {
+  "id_rs": "RS4587",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Estuda percepções de poder de agenda e atribuição de responsabilidade econômica, não exposição a pesquisas eleitorais."
+ },
+ {
+  "id_rs": "RS4591",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "A exposição é um mecanismo de revelação de preferências sociais em laboratório, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4593",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Experimento sobre promessas de campanha em ambiente de risco moral; a exposição analisada não é resultado de pesquisa."
+ },
+ {
+  "id_rs": "RS4598",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "A variação estudada é o tipo de primária no voto custoso, não a divulgação de resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4599",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Artigo de método de estimação de escolha discreta agregada; dados eleitorais são fonte de dados, não há exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS4609",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Experimento natural sobre voto retrospectivo e legado da RDA; a exposição analisada não é resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4629",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "A exposição estudada é a transparência sobre promessas de campanha, não a divulgação de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4632",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de vagueza programática e preocupação reputacional do candidato, não de exposição a resultado de pesquisa."
+ },
+ {
+  "id_rs": "RS4634",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema metodológico de anotação por LLM versus humanos; não analisa eleitores escolhendo entre candidatos, partidos ou opções."
+ }
+]

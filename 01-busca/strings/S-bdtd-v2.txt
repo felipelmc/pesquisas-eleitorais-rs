@@ -1,0 +1,1 @@
+"pesquisa eleitoral" OR "pesquisas eleitorais" OR "pesquisa pré-eleitoral" OR "pesquisas pré-eleitorais" OR "pesquisa de intenção de voto" OR "pesquisas de intenção de voto" OR "sondagem eleitoral" OR "sondagens eleitorais" OR "boca de urna" OR "divulgação de pesquisas eleitorais" OR "divulgação das pesquisas eleitorais" OR "voto útil" OR "efeito bandwagon" OR "efeito underdog"

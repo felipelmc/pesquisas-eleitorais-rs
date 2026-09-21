@@ -1,0 +1,911 @@
+{
+  "schema": "rs-estado/1",
+  "projeto": {
+    "titulo": "Exposição a pesquisas eleitorais publicadas → intenção de voto (bandwagon/underdog)",
+    "pergunta": "A exposição a resultados de pesquisas eleitorais publicadas altera a intenção de voto do eleitorado, em comparação com a não exposição ou com a exposição a outro resultado, e em que direção (bandwagon ou underdog)?",
+    "tipo_revisao": "efetividade_swim",
+    "idioma_produtos": "pt-BR",
+    "criado_em": "2026-09-19T10:14:39Z",
+    "parcial": null,
+    "etapas_ignoradas": [],
+    "variante": "rapida"
+  },
+  "modo": {
+    "autonomia": "autopiloto",
+    "triagem": "subagentes",
+    "definido_em": "2026-09-19T10:14:39Z"
+  },
+  "ambiente": {
+    "verificado_em": "2026-09-19T10:14:40Z",
+    "sistema": "Darwin",
+    "python": {
+      "versao": "3.13.12",
+      "ok": true,
+      "pacotes_obrigatorios": {
+        "pandas": "2.3.3",
+        "openpyxl": "3.1.5",
+        "xlrd": "2.0.2",
+        "requests": "2.32.5",
+        "pymupdf": "1.28.2"
+      },
+      "pacotes_opcionais": {
+        "rapidfuzz": "3.14.6",
+        "pyalex": "0.21",
+        "anthropic": "1.5.0",
+        "openai": "2.34.0",
+        "jsonschema": "4.26.0",
+        "bibtexparser": "2.0.1",
+        "rispy": "0.10.0"
+      },
+      "faltando_obrigatorios": [],
+      "faltando_opcionais": []
+    },
+    "r": {
+      "disponivel": true,
+      "versao": "4.5.2",
+      "pacotes": {
+        "meta": "8.5.0",
+        "metafor": "5.0.1",
+        "esc": "0.5.1",
+        "irr": "0.85",
+        "clubSandwich": "0.7.0",
+        "robvis": "0.3.1",
+        "jsonlite": "2.0.0"
+      },
+      "faltando": [],
+      "efeitos_faltando": {}
+    },
+    "quarto": {
+      "disponivel": true,
+      "versao": "1.9.35"
+    },
+    "chaves_api": {
+      "RS_EMAIL": false,
+      "OPENALEX_API_KEY": false,
+      "ANTHROPIC_API_KEY": false,
+      "OPENAI_API_KEY": false
+    },
+    "skills_irmas": {
+      "baixar-pdfs-academicos": {
+        "instalada": true,
+        "local": "skill_dir_vizinha",
+        "caminho": "~/.claude/skills/baixar-pdfs-academicos"
+      },
+      "fichamento-sistematico": {
+        "instalada": true,
+        "local": "skill_dir_vizinha",
+        "caminho": "~/.claude/skills/fichamento-sistematico"
+      },
+      "gerar-bibtex": {
+        "instalada": true,
+        "local": "skill_dir_vizinha",
+        "caminho": "~/.claude/skills/gerar-bibtex"
+      },
+      "tirar-cara-de-ia": {
+        "instalada": true,
+        "local": "skill_dir_vizinha",
+        "caminho": "~/.claude/skills/tirar-cara-de-ia"
+      }
+    },
+    "resumo": {
+      "python_ok": true,
+      "faltando_python": [],
+      "faltando_python_opcional": [],
+      "r_disponivel": true,
+      "faltando_r": [],
+      "quarto": true,
+      "irmas_ausentes": [],
+      "modo_api_possivel": false
+    }
+  },
+  "papeis": {},
+  "preferencias": {},
+  "versoes_ativas": {
+    "protocolo": "v1",
+    "filtros": "filtros_v2",
+    "criterios_ta": "02-triagem/prompts/ta_v1.md",
+    "rodada_ta": "ta_v1"
+  },
+  "artefatos": {
+    "00-protocolo/ancoras_validacao.csv": {
+      "caminho": "00-protocolo/ancoras_validacao.csv",
+      "sha256": "731f41e2233ff11c52144602e8a0685ec976554c5ac2b7867cfb9f3a2662de52",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/codebook_elegibilidade.csv": {
+      "caminho": "00-protocolo/codebook_elegibilidade.csv",
+      "sha256": "65dddc46db76bb2c17cf5c71ee60eb9f45b938f6632da8144b6d761cc2e7aee0",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/codebook_v0_efetividade.csv": {
+      "caminho": "00-protocolo/codebook_v0_efetividade.csv",
+      "sha256": "47a0cc5ad53896ed02ec012d86fdfac6768a043bb10d6f13374f8bafabde5e78",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 2,
+      "emendado_em": "2026-09-20T21:19:56Z"
+    },
+    "00-protocolo/dag_v1.mmd": {
+      "caminho": "00-protocolo/dag_v1.mmd",
+      "sha256": "761d620eb071f4ec818eff15679f91ce496f3c5ac83a8130ef14ced1b88371fa",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/exploracao_EX1.csv": {
+      "caminho": "00-protocolo/exploracao_EX1.csv",
+      "sha256": "0bab9d73a0d37d69e3c9fe8cdc5cd0ac98175f80251d952b71d6059702398374",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/exploracao_EX2.csv": {
+      "caminho": "00-protocolo/exploracao_EX2.csv",
+      "sha256": "a480ba19830ca555b51eca926b9720514505d73090af30961f59c74fe41cc2e1",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/exploracao_EX3.csv": {
+      "caminho": "00-protocolo/exploracao_EX3.csv",
+      "sha256": "6f41b6d852c081e9d9096902659b3238cc040b521535d39965011e8cc1aaa884",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/exploracao_EX4.csv": {
+      "caminho": "00-protocolo/exploracao_EX4.csv",
+      "sha256": "b16d20b937705df6461f9450fde796bf0c83b40126b0ef0fff7e1bfd763a8bf2",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/pergunta.md": {
+      "caminho": "00-protocolo/pergunta.md",
+      "sha256": "0720a97fc955772939a94760f83ca945e3624546acd76d12ea2834b1fd78323b",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/protocolo.md": {
+      "caminho": "00-protocolo/protocolo.md",
+      "sha256": "88530b9042361ced88bc41eebcf13774df3e04c51ac75d908b8912ce46c247b8",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 2,
+      "emendado_em": "2026-09-20T15:43:10Z"
+    },
+    "00-protocolo/revisao_metodologica_g2.md": {
+      "caminho": "00-protocolo/revisao_metodologica_g2.md",
+      "sha256": "a95b0b7d70b121ceea200924404d3c057e8ae7795b24b1cdbec229191e330cf1",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/revisao_metodologica_g2_respostas.md": {
+      "caminho": "00-protocolo/revisao_metodologica_g2_respostas.md",
+      "sha256": "204d20426bec6beecb3cc01e6e852c4d2961e51938a777b040dae34f30b6684e",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "00-protocolo/teoria_programa.md": {
+      "caminho": "00-protocolo/teoria_programa.md",
+      "sha256": "289112dcb327cbe25bea75d10a9ddcb8d8529530e926710358f568d5b921abc3",
+      "congelado_em": "2026-09-19T11:38:56Z",
+      "portao": "G2",
+      "versao": 1
+    },
+    "01-busca/strings/S-bdtd-v1.txt": {
+      "caminho": "01-busca/strings/S-bdtd-v1.txt",
+      "sha256": "89b2e11c4ceb93c26c096a1467ea0ce081e244101e35fda6d4736196d0237f2e",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-bdtd-v2.txt": {
+      "caminho": "01-busca/strings/S-bdtd-v2.txt",
+      "sha256": "f03b10647fc3f3b35c3e13a02e0760144070052ce88bd3e1133db6a914be0ca0",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-bdtd-v3.txt": {
+      "caminho": "01-busca/strings/S-bdtd-v3.txt",
+      "sha256": "f03b10647fc3f3b35c3e13a02e0760144070052ce88bd3e1133db6a914be0ca0",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-en-v1.txt": {
+      "caminho": "01-busca/strings/S-oa-en-v1.txt",
+      "sha256": "1071a7980897797892550020411f01913e49f222602af6cbf51acf3757cd7190",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-en-v2.txt": {
+      "caminho": "01-busca/strings/S-oa-en-v2.txt",
+      "sha256": "25c9cca884896e0ac8a7bc2115f217480b0d139fc2be249611b442b6dde9b4f6",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-en-v3.txt": {
+      "caminho": "01-busca/strings/S-oa-en-v3.txt",
+      "sha256": "aed66bc8fb692c51aa950c0b2b5aca44dc1aef83c6b54135e51b00c5be6d7cbe",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-en-v4.txt": {
+      "caminho": "01-busca/strings/S-oa-en-v4.txt",
+      "sha256": "7b443184e543b16f76ee323adb5b35d96a4bb91f77451bc71b97d7edcb17d917",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-en-v5.txt": {
+      "caminho": "01-busca/strings/S-oa-en-v5.txt",
+      "sha256": "af3e89a0287248ea47caf0a8b38159051aa66ceca86f80060946869252990201",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-es-v1.txt": {
+      "caminho": "01-busca/strings/S-oa-es-v1.txt",
+      "sha256": "333b47f42fdfae1312691146254be7c3aba812489d14659d29209d1a13d0db8b",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-es-v2.txt": {
+      "caminho": "01-busca/strings/S-oa-es-v2.txt",
+      "sha256": "2157a6b3c22d41eb97683d2179a843cea306b19b620317b2d256a78fab5b75a1",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-es-v3.txt": {
+      "caminho": "01-busca/strings/S-oa-es-v3.txt",
+      "sha256": "2a38c8afe85e75dc87c974ccf29a6e1154cdbd13302e37040685accf072ff0ff",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-pt-v1.txt": {
+      "caminho": "01-busca/strings/S-oa-pt-v1.txt",
+      "sha256": "fbda4662c1b9be9f9c96aea5c5764d6bda1189f1078694a95d9786fe45bf3bf4",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-pt-v2.txt": {
+      "caminho": "01-busca/strings/S-oa-pt-v2.txt",
+      "sha256": "585076412656ac0ce8c79b2c6f6738b0377e5fd7cee74df0769c5aeeb2787ca5",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/S-oa-pt-v3.txt": {
+      "caminho": "01-busca/strings/S-oa-pt-v3.txt",
+      "sha256": "2f5ef3866f7d51f0d7672b1a746f3708431d2486899d4a5070b2a44cff1282c3",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/desenvolvimento.csv": {
+      "caminho": "01-busca/strings/desenvolvimento.csv",
+      "sha256": "f7d090d94c1433fda38f22533634db562dc8280af70951a6fe574c77e1e8a856",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/termos_v1.md": {
+      "caminho": "01-busca/strings/termos_v1.md",
+      "sha256": "3866d9bd5975ce918df29d116457c2dad63857708b6d20d92caebf8a23144cf2",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/strings/termos_v2.md": {
+      "caminho": "01-busca/strings/termos_v2.md",
+      "sha256": "01053c723550722b70814d372986f7f0805b6cc84c1bfa16c0b0a84bd904c0c3",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/filtros_v1.json": {
+      "caminho": "01-busca/filtros_v1.json",
+      "sha256": "f36dbe2ecf5401f38d632b441486a526204202c4e274c3bd939714dfe2bbe5fa",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "01-busca/filtros_v2.json": {
+      "caminho": "01-busca/filtros_v2.json",
+      "sha256": "489aa8256c337ff8caccf96674557656d79127ecb2f7e65a4bd5a410813fb669",
+      "congelado_em": "2026-09-19T12:03:17Z",
+      "portao": "G3",
+      "versao": 1
+    },
+    "02-triagem/prompts/ta_v1.md": {
+      "caminho": "02-triagem/prompts/ta_v1.md",
+      "sha256": "cd9cbfe00d4e4e453b1bccea80f59649f684558389ac4daffe8d8dfdaec211e7",
+      "congelado_em": "2026-09-19T15:17:41Z",
+      "portao": "G4",
+      "versao": 1
+    }
+  },
+  "etapas": {
+    "00_configuracao": {
+      "status": "pendente",
+      "portao": null,
+      "aprovado_por": null,
+      "em": null
+    },
+    "01_pergunta": {
+      "status": "concluida",
+      "portao": "G1",
+      "aprovado_por": "revisor_humano_1",
+      "em": "2026-09-19T10:23:44Z"
+    },
+    "02_teoria_framework": {
+      "status": "pendente",
+      "portao": null,
+      "aprovado_por": null,
+      "em": null
+    },
+    "03_protocolo": {
+      "status": "concluida",
+      "portao": "G2",
+      "aprovado_por": "revisor_humano_1",
+      "em": "2026-09-19T11:38:56Z"
+    },
+    "04_busca": {
+      "status": "concluida",
+      "portao": "G3",
+      "aprovado_por": "autopiloto",
+      "em": "2026-09-19T12:03:17Z"
+    },
+    "05_organizacao": {
+      "status": "pendente",
+      "portao": null,
+      "aprovado_por": null,
+      "em": null
+    },
+    "06_triagem_ta": {
+      "status": "concluida",
+      "portao": "G4",
+      "aprovado_por": "autopiloto",
+      "em": "2026-09-19T15:17:41Z"
+    },
+    "07_textos_elegibilidade": {
+      "status": "concluida",
+      "portao": "G5",
+      "aprovado_por": "autopiloto",
+      "em": "2026-09-20T20:40:29Z"
+    },
+    "08_piloto_extracao": {
+      "status": "concluida",
+      "portao": "G6",
+      "aprovado_por": "autopiloto",
+      "em": "2026-09-20T21:34:06Z"
+    },
+    "09_extracao_rob": {
+      "status": "pendente",
+      "portao": "G7",
+      "aprovado_por": null,
+      "em": null
+    },
+    "10_sintese": {
+      "status": "pendente",
+      "portao": "G8",
+      "aprovado_por": null,
+      "em": null
+    },
+    "11_relato": {
+      "status": "pendente",
+      "portao": "G9",
+      "aprovado_por": null,
+      "em": null
+    }
+  },
+  "buscas": [
+    {
+      "id": "B01",
+      "fonte": "openalex",
+      "string_id": "S-oa-en-v4",
+      "executada_em": "2026-09-19T11:56:32Z",
+      "n_bruto": 1235,
+      "filtros_na_base": "publication_year:2008-2026",
+      "arquivo": "01-busca/brutos/B01_openalex.jsonl",
+      "sha256": "6539968587801a4706a665400886fa9f4e6389f92645b28a7089dc9c9705936f",
+      "importada": true,
+      "ativa": false,
+      "metodo_identificacao": "base",
+      "estrutura": "PECO-EN",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/B01_openalex.jsonl",
+          "sha256": "6539968587801a4706a665400886fa9f4e6389f92645b28a7089dc9c9705936f",
+          "formato": "openalex_json",
+          "n_registros": 1235,
+          "ids": "B01-00001..B01-01235",
+          "importado_em": "2026-09-19T11:56:32Z"
+        }
+      ],
+      "n_importado": 1235,
+      "query": "((poll OR polls OR polling OR \"election forecast\" OR \"election forecasting\") AND (bandwagon OR underdog OR \"band-wagon\")) OR ((\"pre-election survey\" OR \"preelection survey\" OR \"electoral survey\" OR \"survey results\" OR \"opinion survey\") AND (bandwagon OR underdog)) OR ((\"opinion poll\" OR \"election poll\" OR \"pre-election poll\" OR \"preelection poll\" OR \"poll result\" OR \"published poll\" OR \"exit poll\" OR \"polling information\" OR \"poll information\" OR \"poll numbers\" OR \"poll outcome\" OR \"horse race\" OR \"horse-race\" OR \"election forecast\" OR \"poll aggregator\" OR \"exposure to polls\" OR \"polling data\") AND (\"vote choice\" OR \"vote intention\" OR \"voting intention\" OR \"voting behavior\" OR \"voting behaviour\" OR \"vote preference\" OR \"electoral behavior\" OR \"electoral behaviour\" OR \"electoral preference\" OR \"voting decision\" OR \"party preference\" OR \"candidate preference\" OR \"vote share\" OR \"strategic voting\" OR \"tactical voting\" OR \"party choice\" OR \"electoral choice\" OR \"voter preference\" OR \"electoral support\" OR \"party support\" OR \"candidate support\")) OR ((\"opinion poll\" OR \"election poll\" OR \"pre-election poll\" OR \"preelection poll\" OR \"poll result\" OR \"published poll\" OR \"exit poll\" OR \"polling information\" OR \"poll information\" OR \"poll numbers\" OR \"poll outcome\" OR \"horse race\" OR \"horse-race\" OR \"election forecast\" OR \"poll aggregator\" OR \"exposure to polls\" OR \"polling data\") AND (turnout OR \"turn out\" OR abstention OR \"electoral participation\" OR \"voter participation\" OR \"voting participation\" OR demobilization OR demobilizes)) OR \"poll effects\"",
+      "campo": "title_and_abstract",
+      "n_api": 1235,
+      "truncada": false,
+      "substituida_por": "B05",
+      "substituida_em": "2026-09-19T12:02:20Z",
+      "motivo_substituicao": "âncoras de validação A01, A07, A08 e A19 perdidas na S-oa-en-v4 (vocabulário: polls sem qualificador com voto estratégico; cobertura de pesquisas e volatilidade de voto; efeitos das pesquisas; divulgação de pesquisa com comparecimento)"
+    },
+    {
+      "id": "B02",
+      "fonte": "openalex",
+      "string_id": "S-oa-pt-v3",
+      "executada_em": "2026-09-19T11:56:35Z",
+      "n_bruto": 118,
+      "filtros_na_base": "publication_year:2008-2026",
+      "arquivo": "01-busca/brutos/B02_openalex.jsonl",
+      "sha256": "6d7c1dd93b64b04e501a65046deb0854a58fe5e87749784b27cf8f65772bed9b",
+      "importada": true,
+      "ativa": true,
+      "metodo_identificacao": "base",
+      "estrutura": "PECO-PT",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/B02_openalex.jsonl",
+          "sha256": "6d7c1dd93b64b04e501a65046deb0854a58fe5e87749784b27cf8f65772bed9b",
+          "formato": "openalex_json",
+          "n_registros": 118,
+          "ids": "B02-00001..B02-00118",
+          "importado_em": "2026-09-19T11:56:35Z"
+        }
+      ],
+      "n_importado": 118,
+      "query": "((pesquisa OR pesquisas OR sondagem OR sondagens OR \"boca de urna\") AND (bandwagon OR underdog OR \"efeito manada\" OR \"efeito de manada\" OR \"efeito vagão\" OR \"efeito de arrasto\" OR \"efeito carona\" OR \"voto útil\")) OR ((\"pesquisa eleitoral\" OR \"pesquisas eleitorais\" OR \"pesquisa pré-eleitoral\" OR \"pesquisas pré-eleitorais\" OR \"pesquisa de intenção de voto\" OR \"pesquisas de intenção de voto\" OR \"sondagem eleitoral\" OR \"sondagens eleitorais\" OR \"boca de urna\" OR \"divulgação de pesquisas eleitorais\" OR \"divulgação das pesquisas eleitorais\") AND (\"intenção de voto\" OR \"intenções de voto\" OR \"decisão de voto\" OR \"decisão do voto\" OR \"escolha eleitoral\" OR \"comportamento eleitoral\" OR \"comportamento do eleitor\" OR \"preferência eleitoral\" OR \"voto útil\" OR \"voto estratégico\" OR efeito OR efeitos OR influência OR impacto)) OR ((\"pesquisa eleitoral\" OR \"pesquisas eleitorais\" OR \"pesquisa pré-eleitoral\" OR \"pesquisas pré-eleitorais\" OR \"pesquisa de intenção de voto\" OR \"pesquisas de intenção de voto\" OR \"sondagem eleitoral\" OR \"sondagens eleitorais\" OR \"boca de urna\") AND (comparecimento OR abstenção OR \"participação eleitoral\" OR \"abstenção eleitoral\" OR \"comparecimento eleitoral\"))",
+      "campo": "title_and_abstract",
+      "n_api": 118,
+      "truncada": false
+    },
+    {
+      "id": "B03",
+      "fonte": "openalex",
+      "string_id": "S-oa-es-v3",
+      "executada_em": "2026-09-19T11:56:36Z",
+      "n_bruto": 131,
+      "filtros_na_base": "publication_year:2008-2026",
+      "arquivo": "01-busca/brutos/B03_openalex.jsonl",
+      "sha256": "21a75b8cd7e3daa1e31cd2de32e61af623750c43f54efbc9daa6bc8e9eba455d",
+      "importada": true,
+      "ativa": true,
+      "metodo_identificacao": "base",
+      "estrutura": "PECO-ES",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/B03_openalex.jsonl",
+          "sha256": "21a75b8cd7e3daa1e31cd2de32e61af623750c43f54efbc9daa6bc8e9eba455d",
+          "formato": "openalex_json",
+          "n_registros": 131,
+          "ids": "B03-00001..B03-00131",
+          "importado_em": "2026-09-19T11:56:36Z"
+        }
+      ],
+      "n_importado": 131,
+      "query": "((encuesta OR encuestas OR sondeo OR sondeos OR \"boca de urna\") AND (bandwagon OR underdog OR \"efecto arrastre\" OR \"efecto de arrastre\" OR \"carro ganador\" OR \"carro del ganador\" OR \"voto útil\" OR \"voto estratégico\")) OR ((\"encuesta electoral\" OR \"encuestas electorales\" OR \"encuesta preelectoral\" OR \"encuestas preelectorales\" OR \"sondeo electoral\" OR \"sondeos electorales\" OR \"sondeos preelectorales\" OR \"encuestas de intención de voto\" OR \"boca de urna\" OR \"publicación de encuestas electorales\" OR \"difusión de encuestas electorales\" OR \"publicación de sondeos\") AND (\"intención de voto\" OR \"intenciones de voto\" OR \"decisión de voto\" OR \"comportamiento electoral\" OR \"preferencia electoral\" OR \"preferencias electorales\" OR \"voto útil\" OR \"voto estratégico\" OR efecto OR efectos OR influencia OR impacto)) OR ((\"encuesta electoral\" OR \"encuestas electorales\" OR \"encuesta preelectoral\" OR \"encuestas preelectorales\" OR \"sondeo electoral\" OR \"sondeos electorales\" OR \"sondeos preelectorales\" OR \"encuestas de intención de voto\" OR \"boca de urna\") AND (\"participación electoral\" OR \"abstención electoral\" OR abstención OR \"concurrencia a las urnas\" OR \"participación en las elecciones\"))",
+      "campo": "title_and_abstract",
+      "n_api": 131,
+      "truncada": false
+    },
+    {
+      "id": "B04",
+      "fonte": "bdtd",
+      "string_id": "S-bdtd-v3",
+      "executada_em": "2026-09-19",
+      "n_bruto": 80,
+      "filtros_na_base": "nenhum (campo AllFields)",
+      "arquivo": "01-busca/brutos/B04_bdtd.json",
+      "sha256": "4fddbe0ec0e86bb0d019e13ce3232ed70bdf2ec5d6c01f7a36d08a4bc3e1ace9",
+      "importada": true,
+      "ativa": true,
+      "executada_em_origem": "declarada",
+      "plataforma": "BDTD (IBICT), API VuFind",
+      "metodo_identificacao": "base",
+      "estrutura": "PECO-PT",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/B04_bdtd.json",
+          "sha256": "4fddbe0ec0e86bb0d019e13ce3232ed70bdf2ec5d6c01f7a36d08a4bc3e1ace9",
+          "formato": "bdtd_json",
+          "n_registros": 80,
+          "ids": "B04-00001..B04-00080",
+          "importado_em": "2026-09-19T11:57:16Z"
+        }
+      ],
+      "n_importado": 80
+    },
+    {
+      "id": "B05",
+      "fonte": "openalex",
+      "string_id": "S-oa-en-v5",
+      "executada_em": "2026-09-19T12:02:20Z",
+      "n_bruto": 1438,
+      "filtros_na_base": "publication_year:2008-2026",
+      "arquivo": "01-busca/brutos/B05_openalex.jsonl",
+      "sha256": "0ede9552c0d6f0f310074ae7364526c738f5d7c2f3cdb80c12d36e271feacdd7",
+      "importada": true,
+      "ativa": true,
+      "metodo_identificacao": "base",
+      "estrutura": "PECO-EN",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/B05_openalex.jsonl",
+          "sha256": "0ede9552c0d6f0f310074ae7364526c738f5d7c2f3cdb80c12d36e271feacdd7",
+          "formato": "openalex_json",
+          "n_registros": 1438,
+          "ids": "B05-00001..B05-01438",
+          "importado_em": "2026-09-19T12:02:20Z"
+        }
+      ],
+      "n_importado": 1438,
+      "query": "((poll OR polls OR polling OR \"election forecast\" OR \"election forecasting\") AND (bandwagon OR underdog OR \"band-wagon\")) OR ((\"pre-election survey\" OR \"preelection survey\" OR \"electoral survey\" OR \"survey results\" OR \"opinion survey\") AND (bandwagon OR underdog)) OR ((\"opinion poll\" OR \"election poll\" OR \"pre-election poll\" OR \"preelection poll\" OR \"poll result\" OR \"published poll\" OR \"exit poll\" OR \"polling information\" OR \"poll information\" OR \"poll numbers\" OR \"poll outcome\" OR \"horse race\" OR \"horse-race\" OR \"election forecast\" OR \"poll aggregator\" OR \"exposure to polls\" OR \"polling data\" OR \"poll news\" OR \"poll coverage\" OR \"coverage of polls\") AND (\"vote choice\" OR \"vote intention\" OR \"voting intention\" OR \"voting behavior\" OR \"voting behaviour\" OR \"vote preference\" OR \"electoral behavior\" OR \"electoral behaviour\" OR \"electoral preference\" OR \"voting decision\" OR \"party preference\" OR \"candidate preference\" OR \"vote share\" OR \"strategic voting\" OR \"tactical voting\" OR \"party choice\" OR \"electoral choice\" OR \"voter preference\" OR \"electoral support\" OR \"party support\" OR \"candidate support\" OR \"electoral volatility\" OR \"vote switching\" OR \"vote change\" OR \"party switching\")) OR ((\"opinion poll\" OR \"election poll\" OR \"pre-election poll\" OR \"preelection poll\" OR \"poll result\" OR \"published poll\" OR \"exit poll\" OR \"polling information\" OR \"poll information\" OR \"poll numbers\" OR \"poll outcome\" OR \"horse race\" OR \"horse-race\" OR \"election forecast\" OR \"poll aggregator\" OR \"exposure to polls\" OR \"polling data\" OR \"poll news\" OR \"poll coverage\" OR \"coverage of polls\") AND (turnout OR \"turn out\" OR abstention OR \"electoral participation\" OR \"voter participation\" OR \"voting participation\" OR demobilization OR demobilizes)) OR \"poll effects\" OR ((poll OR polls OR polling) AND (\"strategic voting\" OR \"tactical voting\")) OR (\"effect of polls\" OR \"effects of polls\" OR \"effect of election polls\" OR \"effects of election polls\" OR \"poll release\" OR \"poll releases\" OR \"release of polls\" OR \"release of a poll\")",
+      "campo": "title_and_abstract",
+      "n_api": 1438,
+      "truncada": false,
+      "substitui": [
+        "B01"
+      ]
+    },
+    {
+      "id": "SN1",
+      "fonte": "openalex",
+      "string_id": null,
+      "executada_em": "2026-09-19T22:21:45Z",
+      "n_bruto": 1189,
+      "filtros_na_base": "direcao=ambas",
+      "arquivo": "01-busca/brutos/SN1_openalex_citacao.jsonl",
+      "sha256": "9e4466fdd59674ad85847fb3420a9dcc11b33298c455b3259cfa558700bd0ba7",
+      "importada": true,
+      "ativa": true,
+      "metodo_identificacao": "citacao",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/SN1_openalex_citacao.jsonl",
+          "sha256": "9e4466fdd59674ad85847fb3420a9dcc11b33298c455b3259cfa558700bd0ba7",
+          "formato": "openalex_json",
+          "n_registros": 1189,
+          "ids": "SN1-00001..SN1-01189",
+          "importado_em": "2026-09-19T22:21:45Z"
+        }
+      ],
+      "n_importado": 1189,
+      "n_sementes": 38,
+      "n_encontrados": 1346
+    },
+    {
+      "id": "SN2",
+      "fonte": "openalex",
+      "string_id": null,
+      "executada_em": "2026-09-20T15:48:02Z",
+      "n_bruto": 411,
+      "filtros_na_base": "direcao=ambas",
+      "arquivo": "01-busca/brutos/SN2_openalex_citacao.jsonl",
+      "sha256": "7b7607843188a6ff7189a10e0b58a098eaa6ec216f62625a92e6be04490c4924",
+      "importada": true,
+      "ativa": true,
+      "metodo_identificacao": "citacao",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/SN2_openalex_citacao.jsonl",
+          "sha256": "7b7607843188a6ff7189a10e0b58a098eaa6ec216f62625a92e6be04490c4924",
+          "formato": "openalex_json",
+          "n_registros": 411,
+          "ids": "SN2-00001..SN2-00411",
+          "importado_em": "2026-09-20T15:48:02Z"
+        }
+      ],
+      "n_importado": 411,
+      "n_sementes": 12,
+      "n_encontrados": 650
+    },
+    {
+      "id": "SN3",
+      "fonte": "openalex",
+      "string_id": null,
+      "executada_em": "2026-09-20T18:36:51Z",
+      "n_bruto": 106,
+      "filtros_na_base": "direcao=ambas",
+      "arquivo": "01-busca/brutos/SN3_openalex_citacao.jsonl",
+      "sha256": "5c81738307e4329c9844a537e54054c944d7459ba1b171a6e50cad565c9ac049",
+      "importada": true,
+      "ativa": true,
+      "metodo_identificacao": "citacao",
+      "arquivos": [
+        {
+          "arquivo": "01-busca/brutos/SN3_openalex_citacao.jsonl",
+          "sha256": "5c81738307e4329c9844a537e54054c944d7459ba1b171a6e50cad565c9ac049",
+          "formato": "openalex_json",
+          "n_registros": 106,
+          "ids": "SN3-00001..SN3-00106",
+          "importado_em": "2026-09-20T18:36:51Z"
+        }
+      ],
+      "n_importado": 106,
+      "n_sementes": 3,
+      "n_encontrados": 152
+    }
+  ],
+  "pendencias": [
+    {
+      "id": "P001",
+      "tipo": "revisao_press",
+      "etapa": "04_busca",
+      "portao": "G3",
+      "descricao": "PRESS 2015 da estratégia S-oa-en-v4 por revisor humano; houve só pré-revisão por subagente (atalho A4; 01-busca/prepress_S-oa-en-v3_ia.md)",
+      "n": null,
+      "arquivo": "01-busca/strings/S-oa-en-v4.txt",
+      "status": "aberta"
+    },
+    {
+      "id": "P002",
+      "tipo": "dedup_candidatos",
+      "etapa": "05_organizacao",
+      "portao": null,
+      "descricao": "82 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv)",
+      "n": 82,
+      "arquivo": "01-busca/dedup_pares.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P003",
+      "tipo": "dedup_candidatos",
+      "etapa": "05_organizacao",
+      "portao": null,
+      "descricao": "97 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv) [substitui P002]",
+      "n": 97,
+      "arquivo": "01-busca/dedup_pares.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P004",
+      "tipo": "revisao_humana_portao",
+      "etapa": "04_busca",
+      "portao": "G3",
+      "descricao": "confirmar a aprovação automática do G3: P001 aberta: PRESS 2015 da estratégia S-oa-en-v4 por revisor humano; houve só pré-revisão por subagente (atalho A4; 01-busca/prepress_S-oa-en-v3_ia.md)",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
+    },
+    {
+      "id": "P005",
+      "tipo": "fila_humana_triagem",
+      "etapa": "06_triagem_ta",
+      "portao": "G4",
+      "descricao": "resolver 47 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv`",
+      "n": 47,
+      "arquivo": "02-triagem/fila_humana_ta_v1.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P006",
+      "tipo": "validacao_humana",
+      "etapa": "06_triagem_ta",
+      "portao": "G4",
+      "descricao": "codificar em dupla, às cegas, a amostra amostra01 (141 registros)",
+      "n": 141,
+      "arquivo": "02-triagem/validacao/ta_v1/amostra01_cega.xlsx",
+      "status": "aberta"
+    },
+    {
+      "id": "P007",
+      "tipo": "validacao_humana",
+      "etapa": "06_triagem_ta",
+      "portao": "G4",
+      "descricao": "codificar em dupla, às cegas, a amostra elusao01 (300 registros)",
+      "n": 300,
+      "arquivo": "02-triagem/validacao/ta_v1/elusao01_cega.xlsx",
+      "status": "aberta"
+    },
+    {
+      "id": "P008",
+      "tipo": "revisao_humana_portao",
+      "etapa": "06_triagem_ta",
+      "portao": "G4",
+      "descricao": "confirmar a aprovação automática do G4: nenhuma validação humana (finalidade validacao) calculada para a rodada ativa ta_v1 (rs.py validar calcular); P005 aberta: resolver 47 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv`; P006 aberta: codificar em dupla, às cegas, a amostra amostra01 (141 registros); P007 aberta: codificar em dupla, às cegas, a amostra elusao01 (300 registros)",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
+    },
+    {
+      "id": "P009",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 90 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro)",
+      "n": 90,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P010",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 83 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P009]",
+      "n": 83,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P011",
+      "tipo": "dedup_candidatos",
+      "etapa": "05_organizacao",
+      "portao": null,
+      "descricao": "137 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv) [substitui P003]",
+      "n": 137,
+      "arquivo": "01-busca/dedup_pares.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P012",
+      "tipo": "fila_humana_triagem",
+      "etapa": "06_triagem_ta",
+      "portao": "G4",
+      "descricao": "resolver 75 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv` [substitui P005]",
+      "n": 75,
+      "arquivo": "02-triagem/fila_humana_ta_v1.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P013",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 134 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P010]",
+      "n": 134,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P014",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 125 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P013]",
+      "n": 125,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P015",
+      "tipo": "dedup_candidatos",
+      "etapa": "05_organizacao",
+      "portao": null,
+      "descricao": "144 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv) [substitui P011]",
+      "n": 144,
+      "arquivo": "01-busca/dedup_pares.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P016",
+      "tipo": "fila_humana_triagem",
+      "etapa": "06_triagem_ta",
+      "portao": "G4",
+      "descricao": "resolver 80 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv` [substitui P012]",
+      "n": 80,
+      "arquivo": "02-triagem/fila_humana_ta_v1.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P017",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 148 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P014]",
+      "n": 148,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P018",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 145 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P017]",
+      "n": 145,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P019",
+      "tipo": "dedup_candidatos",
+      "etapa": "05_organizacao",
+      "portao": null,
+      "descricao": "145 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv) [substitui P015]",
+      "n": 145,
+      "arquivo": "01-busca/dedup_pares.csv",
+      "status": "aberta"
+    },
+    {
+      "id": "P020",
+      "tipo": "fila_humana_triagem",
+      "etapa": "06_triagem_ta",
+      "portao": "G4",
+      "descricao": "resolver 81 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv` [substitui P016]",
+      "n": 81,
+      "arquivo": "02-triagem/fila_humana_ta_v1.csv",
+      "status": "aberta"
+    },
+    {
+      "id": "P021",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 146 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P018]",
+      "n": 146,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P022",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 149 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P021]",
+      "n": 149,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "aberta"
+    },
+    {
+      "id": "P023",
+      "tipo": "revisao_humana_portao",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "confirmar a aprovação automática do G5: P022 aberta: conferir 149 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P021]",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
+    },
+    {
+      "id": "P024",
+      "tipo": "verificacao_humana_efeitos",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano",
+      "n": 28,
+      "arquivo": "05-decomposicao/verificacao_efeitos.csv",
+      "status": "aberta"
+    },
+    {
+      "id": "P025",
+      "tipo": "revisao_piloto",
+      "etapa": "08_piloto_extracao",
+      "portao": "G6",
+      "descricao": "conferir fichas e efeitos do piloto contra os PDFs (revisão de coordenador de IA já feita e documentada em 05-decomposicao/piloto/revisao_coordenador.md; falta conferência humana)",
+      "n": 3,
+      "arquivo": "05-decomposicao/piloto_fichamentos_master.csv",
+      "status": "aberta"
+    },
+    {
+      "id": "P026",
+      "tipo": "revisao_humana_portao",
+      "etapa": "08_piloto_extracao",
+      "portao": "G6",
+      "descricao": "confirmar a aprovação automática do G6: P025 aberta: conferir fichas e efeitos do piloto contra os PDFs (revisão de coordenador de IA já feita e documentada em 05-decomposicao/piloto/revisao_coordenador.md; falta conferência humana)",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
+    }
+  ],
+  "contagens_cache": {},
+  "ultimo_seq": 724
+}

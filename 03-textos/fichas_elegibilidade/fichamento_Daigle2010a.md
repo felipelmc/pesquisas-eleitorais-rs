@@ -1,0 +1,41 @@
+---
+citekey: Daigle2010a
+ficha_id: Daigle2010a
+n_fichas_do_texto: 1
+pdf_path: /Users/felipelmc/revisoes/pesquisas-eleitorais/03-textos/pdfs/Daigle2010a.pdf
+paginacao: indice-do-PDF
+offset_pagina: 0
+agente_fichador: elegib-opus5-095
+data_fichamento: 2026-09-19
+---
+
+## Identificacao
+- **texto_confere** — resposta: Sim, o documento é a tese de doutorado "Catching the Big Wave: Public Opinion Polls and Bandwagons in US and Canadian Elections", de Delton T. Daigle, The Ohio State University, 2010, com título, autor e ano iguais aos do registro — evidência: "Public Opinion Polls and Bandwagons in US and Canadian" (p. 1); "Delton T. Daigle, M.A." (p. 1)
+- **tipo_documento** — resposta: tese, dissertação de doutorado (PhD) apresentada ao Graduate Program in Political Science da The Ohio State University — evidência: "the Requirements for the Degree Doctor of Philosophy" (p. 1); "Graduate Program in Political Science" (p. 1)
+
+## Criterios de elegibilidade
+- **c1_populacao_contexto** — resposta: Sim, analisa eleitores dos Estados Unidos e do Canadá que declaram intenção de voto entre candidatos e partidos em quatro eleições nacionais reais (EUA 2000 e 2004; Canadá 2004 e 2006), a partir de surveys de cross-section móvel — evidência: "survey respondents choosing alternatives to either the Republicans or Democrats" (p. 55); "compares the 2000 and 2004 US elections" (p. 20)
+- **c2_intervencao_estudada** — resposta: parcial, o resultado de pesquisa eleitoral publicada é de fato a exposição analisada (variável LASTPOLL, construída a partir das pesquisas divulgadas e defasada um dia), mas é uma medida agregada diária atribuída pela data da entrevista em cross-section repetido, sem manipulação experimental, sem variação natural identificada e sem medida individual em painel — evidência: "a LASTPOLL variable has been constructed out of daily averaged" (p. 57); "The LASTPOLL variable is lagged one day so that it" (p. 58)
+- **c3_desfecho** — resposta: Sim, desfecho de voto: intenção e escolha de voto estimadas por logit binário (voto em dois partidos nos EUA; voto Liberal ou Conservador no Canadá), além da favorabilidade líquida dos candidatos como desfecho complementar; não há desfecho de comparecimento — evidência: "To estimate the impact that the previous poll has on vote choice" (p. 54); "dependent variable is a scale that typically runs from 0 to 100" (p. 53)
+- **c4_desenho_elegivel** — resposta: Não, desenho observacional de cross-section agrupado multivariado, com a exposição às pesquisas medida de forma agregada por dia de campanha e sem variação identificada; não há aleatorização, experimento natural ou quase-experimento, nem painel individual com o mesmo respondente medido antes e depois — evidência: "a pooled cross-section multivariate approach will be employed" (p. 50); "the current research will also utilize the pooled cross-section" (p. 53)
+- **c5_estudo_primario** — resposta: Sim, estudo primário com análise própria: o autor coleta e agrega as pesquisas publicadas para construir a variável LASTPOLL e estima modelos próprios de OLS e logit sobre os microdados do NAES 2000 e 2004 e do CES 2004 e 2006 — evidência: "The polls in the United States were collected from the website" (p. 57); "The data was taken from a website maintained by Simon Fraser" (p. 258)
+- **c6_nao_retratado** — resposta: Sim, não há marca "RETRACTED", nota nem página de retratação em nenhuma parte do documento; a primeira página traz apenas título, tipo de trabalho, autor, instituição e banca — evidência: "Public Opinion Polls and Bandwagons in US and Canadian" (p. 1)
+
+## Ligacao de relatos
+- **outros_relatos_mesmo_estudo** — resposta: 999 — evidência: 999
+- **fonte_dados_amostra** — resposta: Surveys de cross-section móvel do National Annenberg Election Study (EUA, 2000 e 2004) e do Canadian Election Study (Canadá, 2004 e 2006), combinados a pesquisas eleitorais publicadas coletadas e agregadas pelo autor (138 pesquisas no ciclo norte-americano de 2004, cuja janela de análise vai de 15 de junho a 1º de novembro de 2004) — evidência: "both the Annenberg and the CES datasets included exactly these" (p. 63); "The only dates included in analysis are June 15" (p. 250); "In 2004, 138 polls were used" (p. 243)
+- **registro_financiamento** — resposta: 999 — evidência: 999
+
+## Notas do codificador
+
+**Paginação e offset.** O documento mistura três numerações: folha de rosto e página de copyright sem número (PDF 1 e 2), pré-textuais em algarismos romanos com offset +1 (PDF 3 = "ii", PDF 12 = "xi", PDF 15 = "xiv") e corpo em algarismos arábicos com offset +15 (PDF 16 = impressa 1, PDF 76 = impressa 61, PDF 220 = impressa 205, PDF 241 = impressa 226; conferido em quatro páginas distantes). Como o próprio codebook exige, em `texto_confere` e em `c6_nao_retratado`, evidência tirada da folha de rosto, que não tem número impresso, nenhum offset único converteria todas as citações desta ficha. Por isso adotei `paginacao: indice-do-PDF` e `offset_pagina: 0`: **todas** as páginas citadas acima são o índice 1-based do PDF. Conversão para a numeração impressa do corpo: impressa = PDF menos 15 (assim, p. 50 = impressa 35, p. 53 = 38, p. 54 = 39, p. 55 = 40, p. 57 = 42, p. 58 = 43, p. 63 = 48, p. 243 = 228, p. 250 = 235, p. 258 = 243); p. 20 = impressa 5; p. 1 é a folha de rosto, sem número impresso.
+
+**Cobertura da leitura.** O documento tem 284 páginas de PDF, abaixo do limiar de 300, então foi lido por inteiro, em faixas: PDF 1 a 15 (pré-textuais), 16 a 75 (Seção I: capítulos 1, 2 e 3), 76 a 135 (Seção II: capítulos 4 e 5, EUA 2000 e 2004), 136 a 207 (Seção III: capítulos 6 e 7, Canadá 2004 e 2006), 208 a 231 (Seção IV: capítulos 8 e 9), 232 a 243 (conclusão, tabelas e Apêndice A), 244 a 267 (Apêndices B, C e D), 268 a 284 (fim do Apêndice D e bibliografia).
+
+**c2 limítrofe.** Respondi `parcial`, não `Sim`. A pesquisa eleitoral publicada não é contexto nem fonte de dados do desfecho: ela é o tratamento, operacionalizado na variável LASTPOLL (diferencial da última pesquisa divulgada, defasado um dia, média das pesquisas do dia quando há mais de uma). Nesse sentido o critério é atendido. Mas nenhuma das três formas listadas no prompt se aplica: não há manipulação experimental, não há fonte de variação natural identificada (proibição, embargo, fuso, calendário) e a exposição não é medida no indivíduo em painel, já que NAES e CES são cross-sections móveis com entrevista única por respondente (a própria tese registra, na p. 58, não dispor de painéis multiondas). Sob a leitura estrita da enumeração do prompt, a resposta seria `Não`; sob a leitura de que c2 só pergunta se a pesquisa é a exposição analisada, seria `Sim`. Marquei `parcial` para que a arbitragem humana decida, observando que a questão de desenho é resolvida em c4 de todo modo.
+
+**c4.** O desenho declarado é explicitamente observacional e agregado do lado da exposição: pooled cross-section multivariado, com controles demográficos, regionais, partidários e de consumo de mídia usados para "tentar isolar" o efeito bandwagon, sem nenhuma fonte exógena de variação nas pesquisas. Nos capítulos 4 a 7 e nas tabelas 9.2 a 9.4 os modelos são OLS de favorabilidade líquida e logit binário de escolha de voto, sempre estimados sobre cortes transversais agrupados por dia de campanha. Isso cai na cláusula de exclusão do protocolo (estudo observacional sem variação identificada da exposição), daí `Não`.
+
+**999.** `outros_relatos_mesmo_estudo`: li folha de rosto, agradecimentos, vita, os nove capítulos, os quatro apêndices e a bibliografia inteira e não há menção a versão anterior, working paper, relatório técnico ou artigo derivado desta mesma pesquisa (a tese de doutorado de Farrell, 2004, citada na bibliografia, é trabalho de outro autor). `registro_financiamento`: não há número de pré-registro (OSF, AEA, RIDIE, EGAP) nem identificador de projeto financiado; os agradecimentos (p. 5 e 6 do PDF) citam apenas orientador, banca, professores e família, sem bolsa, edital ou processo.
+
+**Fora do meu escopo.** A checagem externa de retratação (OpenAlex, Crossref ou, por não haver DOI, a página do repositório institucional da OhioLINK/OSU) é do coordenador; c6 responde apenas ao que consta no próprio documento.

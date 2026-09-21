@@ -1,0 +1,500 @@
+{
+  "ancoras_arquivo": "00-protocolo/ancoras_validacao.csv",
+  "ancoras_sha256": "731f41e2233ff11c52144602e8a0685ec976554c5ac2b7867cfb9f3a2662de52",
+  "unicos_sha256": "cad646e0a5f855d0eebb56fee1cb13250080ab081a47f8fb03a2ec6b0d261702",
+  "tem_indexada_em": true,
+  "n_ancoras": 19,
+  "n_sem_chave_de_casamento": 0,
+  "combinado": {
+    "n_ancoras": 19,
+    "n_encontradas": 19,
+    "recall": 1.0,
+    "ic95": [
+      0.8235,
+      1.0
+    ],
+    "perdidas": [],
+    "buscas": [
+      "B02",
+      "B03",
+      "B04",
+      "B05"
+    ]
+  },
+  "combinado_todos_metodos": {
+    "n_ancoras": 19,
+    "n_encontradas": 19,
+    "recall": 1.0,
+    "ic95": [
+      0.8235,
+      1.0
+    ],
+    "perdidas": [],
+    "buscas": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "SN1",
+      "SN2",
+      "SN3"
+    ]
+  },
+  "nao_indexadas": [],
+  "por_busca": {
+    "B02": {
+      "n_ancoras": 19,
+      "n_encontradas": 0,
+      "recall": 0.0,
+      "ic95": [
+        0.0,
+        0.1765
+      ],
+      "perdidas": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19"
+      ],
+      "fonte": "openalex",
+      "metodo": "base"
+    },
+    "B03": {
+      "n_ancoras": 19,
+      "n_encontradas": 0,
+      "recall": 0.0,
+      "ic95": [
+        0.0,
+        0.1765
+      ],
+      "perdidas": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19"
+      ],
+      "fonte": "openalex",
+      "metodo": "base"
+    },
+    "B04": {
+      "n_ancoras": 0,
+      "n_encontradas": 0,
+      "recall": null,
+      "ic95": null,
+      "perdidas": [],
+      "fonte": "bdtd",
+      "metodo": "base"
+    },
+    "B05": {
+      "n_ancoras": 19,
+      "n_encontradas": 19,
+      "recall": 1.0,
+      "ic95": [
+        0.8235,
+        1.0
+      ],
+      "perdidas": [],
+      "fonte": "openalex",
+      "metodo": "base"
+    },
+    "SN1": {
+      "n_ancoras": 19,
+      "n_encontradas": 0,
+      "recall": 0.0,
+      "ic95": [
+        0.0,
+        0.1765
+      ],
+      "perdidas": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19"
+      ],
+      "fonte": "openalex",
+      "metodo": "citacao"
+    },
+    "SN2": {
+      "n_ancoras": 19,
+      "n_encontradas": 0,
+      "recall": 0.0,
+      "ic95": [
+        0.0,
+        0.1765
+      ],
+      "perdidas": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19"
+      ],
+      "fonte": "openalex",
+      "metodo": "citacao"
+    },
+    "SN3": {
+      "n_ancoras": 19,
+      "n_encontradas": 0,
+      "recall": 0.0,
+      "ic95": [
+        0.0,
+        0.1765
+      ],
+      "perdidas": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19"
+      ],
+      "fonte": "openalex",
+      "metodo": "citacao"
+    }
+  },
+  "por_base": {
+    "openalex": {
+      "n_ancoras": 19,
+      "n_encontradas": 19,
+      "recall": 1.0,
+      "ic95": [
+        0.8235,
+        1.0
+      ],
+      "perdidas": [],
+      "buscas": [
+        "B02",
+        "B03",
+        "B05",
+        "SN1",
+        "SN2",
+        "SN3"
+      ]
+    }
+  },
+  "ancoras": [
+    {
+      "ancora": "A01",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1527"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A02",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1522"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A03",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1536"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A04",
+      "situacao": "etiquetada",
+      "ids_rs": [
+        "RS1548"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A05",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1744"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A06",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1524"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A07",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1577"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A08",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1579"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A09",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1661"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A10",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1574"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A11",
+      "situacao": "etiquetada",
+      "ids_rs": [
+        "RS1625"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A12",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1589"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A13",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1529"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A14",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1587"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A15",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1523"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A16",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1601"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A17",
+      "situacao": "etiquetada",
+      "ids_rs": [
+        "RS1596",
+        "RS1805",
+        "RS1914"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A18",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1611"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    },
+    {
+      "ancora": "A19",
+      "situacao": "mantida",
+      "ids_rs": [
+        "RS1705"
+      ],
+      "buscas": [
+        "B05"
+      ],
+      "indexada_em": [
+        "openalex"
+      ]
+    }
+  ],
+  "avisos": [],
+  "nota": "recall relativo ao conjunto de âncoras; 0,95 é referência de ordem de grandeza, não limiar"
+}

@@ -1,0 +1,24 @@
+# Notas do coordenador: candidatos a ligação de relatos
+
+- Ligação de relatos candidata: Dahlgaard2015a (Politica), Dahlgaard2016a (WPS), Dahlgaard2017a (SPS) — mesmos dados YouGov jan/2014 (nota 1 de Dahlgaard2017a)
+- Fairstein2019a (AAMAS 2019) e Fairstein2018a (arXiv): mesmos autores, possivelmente mesmos dados D32/D36; datasets TMG15 (Tal et al. 2015) e TS16 (Tyszler & Schram 2016) reutilizados
+- Klor2017a: PDF é manuscrito de set/2006 (texto_confere parcial), não o artigo JPET 2017; buscar versão publicada ou tratar como versão anterior
+- Morton2013a ↔ Morton2015a (mesmo estudo; WP 2013 × EER 2015)
+- Grillo2024c ↔ Grillo2024d (mesmo artigo, 2 DOIs)
+- Boukouras2020a ↔ Boukouras2023a (WP SSRN × EJPE)
+- Hodgson2012a ↔ Hodgson2025a (artigo Public Choice 2012 × depósito do post-print)
+- Grillo2024c ↔ Grillo2024d ↔ Grillo2024e (mesmo artigo, 3 DOIs)
+- Chernov2025b ↔ Chernov2026a (WP × J Econometrics)
+- Gerber2017b ↔ Gerber2017c? ↔ Gerber2020a (NBER WP × AEJ Applied)
+- Bursztyn2017b ↔ Bursztyn2023a (NBER WP × JEEA); Bursztyn2017c (Polls, the Press...) verificar se é o mesmo estudo
+- Alabrese2022a ↔ Alabrese2024a (Warwick WP × CAGE WP) verificar
+- Cornejo2023a: verificar se o painel de 2015 (Michoacán e Nuevo León) aparece em Castro Cornejo 2019 (POQ, RLOP), 2021 (IJPOR), 2021a (LARR)
+- Bursztyn2017b (NBER WP 23490) declara substituir 'Polls, the Press, and Political Participation' (= Bursztyn2017c): Bursztyn2017b ↔ Bursztyn2017c ↔ Bursztyn2023a, mesmo estudo
+- Tal2015a (AAMAS 2015): dados reutilizados por Fairstein2018a e Fairstein2019a (dataset TMG15); avaliar como mesmo estudo ou reanálise
+- Timotei2013a: checar se Vieraşu & Brătucu (2011) 'Polls and manipulation' e Vierasu (2012) MMK relatam o mesmo experimento 'Fake Poll'
+- Unkelbach2022a ↔ John2021a (pré-registro OSF ms3ek do mesmo estudo; o artigo cita osf.io/g6r7v)
+- Reveco2026 (Peru 2026): Dann et al. (2026) 'Missing voters?' (Stanford DAL) estuda o mesmo evento; verificar se está no corpus
+- Freden2016b: PDF é só a introdução da tese de compilação (Lund); o survey experiment está no Artigo 2 (Fredén 2016a, 'Coalitions, Polls and Expectations'); buscar versão publicada do artigo para a extração
+- Alabrese2022a (Warwick WP 1426, autora única) ↔ Alabrese2024a (CAGE WP 707, com Fetzer): mesmo desenho Understanding Society (datas de entrevista) e apêndice C em primeira pessoa; provável extensão do mesmo estudo
+- Stolwijk2017a (tese UvA): cap. 3 = Stolwijk2016a (IJPOR, Bundestag 2013); cap. 2 = painel de jovens holandeses, PE 2014 (= Stolwijk2019b, EUP); ligar os três relatos por estudo
+- Posavec2015a (livro, cap. pp. 289-313): dados de 2011 vêm de Ferić & Lamza Posavec (2013), EQPAM 2(4):4-15; ver também Lamza Posavec & Rihtar (2007), Društvena istraživanja 16(1-2):73-97 — candidatos à bola de neve

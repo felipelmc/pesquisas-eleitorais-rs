@@ -1,0 +1,1208 @@
+[
+ {
+  "id_rs": "RS2933",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema nao eleitoral (conhecimento sobre a UE), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS2942",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Manipulacao de regras de votacao (Condorcet, Borda), sem exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS2943",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere metodologia de analise de conteudo, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS2956",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo pergunta diretamente se pesquisas influenciaram o resultado eleitoral (voto estrategico e bandwagon)."
+ },
+ {
+  "id_rs": "RS2976",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo nao deixa claro se a exposicao estudada e pesquisa eleitoral ou apenas resultados eleitorais reais."
+ },
+ {
+  "id_rs": "RS2979",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere mercado de previsao/trading, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS2981",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Eleicao sindical de representacao (NLRB), nao eleicao de candidatos, partidos ou referendo."
+ },
+ {
+  "id_rs": "RS2984",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo teorico sobre referendo e pesquisas, sem dados proprios."
+ },
+ {
+  "id_rs": "RS3007",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo menciona 'informacao' de forma generica, sem indicar se e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3010",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e expectativas de inflacao ao consumidor, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3064",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo cita propaganda de campanha e 'informacao'; nao fica claro se pesquisa eleitoral e a exposicao."
+ },
+ {
+  "id_rs": "RS3075",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo trata de agenda noticiosa de partidos; nao fica claro se ha medida de voto/comparecimento."
+ },
+ {
+  "id_rs": "RS3095",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Esquema de voto iterativo (mecanismo), sem exposicao a resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3098",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Metodologia de desenho de experimentos em economia do desenvolvimento, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3107",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo cita fatores motivacionais e contextuais do comparecimento, sem indicar se inclui pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3152",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo trata diretamente de comportamento de voto bandwagon, tema central da revisao."
+ },
+ {
+  "id_rs": "RS3156",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema estatistico nao eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3171",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e mensagem de mobilizacao social no Facebook, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3190",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo ambiguo sobre teoria de voto; nao fica claro se estuda exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3200",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo cita explicitamente 'pre-election polls' e atualizacao de escolha do eleitor."
+ },
+ {
+  "id_rs": "RS3207",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Nao fica claro se a exposicao usada e resultado de pesquisa eleitoral ou resultado real do primeiro turno."
+ },
+ {
+  "id_rs": "RS3208",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo generico sobre consideracoes eleitorais estrategicas, sem indicar exposicao a pesquisa."
+ },
+ {
+  "id_rs": "RS3233",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre formacao de preferencia por coalizao, sem indicar se a exposicao e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3236",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Experimento de laboratorio sobre voto estrategico/sincero por regra eleitoral, sem exposicao a pesquisa."
+ },
+ {
+  "id_rs": "RS3253",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre voto tatico e informacao em laboratorio, compativel com exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3264",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo trata diretamente de identificacao do efeito bandwagon em eleicoes de dois turnos."
+ },
+ {
+  "id_rs": "RS3266",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere metodologia estatistica nao eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3271",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo trata de volatilidade e sofisticacao politica; nao especifica se a exposicao e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3281",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de idade (nao pesquisa), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3288",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Experimento de laboratorio sobre voto expressivo e pivotalidade, sem exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3299",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere teoria de eleicoes de segunda ordem, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3343",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo de tese muito amplo (logica midiatica e democracia eleitoral) para decidir por criterio especifico."
+ },
+ {
+  "id_rs": "RS3364",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere vies de mensuracao em surveys pos-eleitorais, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3371",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Estudo de painel sobre volatilidade de intencao de voto; nao fica claro se a exposicao e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3399",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Compara turnout entre sistemas de representacao proporcional e majoritario, sem exposicao a pesquisa."
+ },
+ {
+  "id_rs": "RS3404",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Artigo de metodologia estatistica (estrutura de efeitos aleatorios em LMEM), sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3410",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo trata de expectativas eleitorais (vies de 'wishful thinking'); nao fica claro exposicao nem desfecho."
+ },
+ {
+  "id_rs": "RS3416",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Tipo de publicacao e meta-analise; revisao: usar na bola de neve."
+ },
+ {
+  "id_rs": "RS3441",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo generico sobre voto estrategico em coalizao, sem indicar se a exposicao e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3446",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo amplo sobre comportamento expressivo em economia e politica, sem indicar tema especifico."
+ },
+ {
+  "id_rs": "RS3448",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre antecipacao de coalizoes pos-eleitorais; nao fica claro se o desfecho e voto/comparecimento."
+ },
+ {
+  "id_rs": "RS3467",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere metodologia de previsao eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3484",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e escolha de cursar faculdade, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3490",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e informacao de redes sociais sobre voto dividido, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3491",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de voto obrigatorio, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3495",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e propaganda de TV de campanha, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3498",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere bibliometria nao eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3501",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere participacao em protesto (nao voto), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3503",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Tipo de publicacao e meta-analise; revisao: usar na bola de neve."
+ },
+ {
+  "id_rs": "RS3505",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre sinais de coalizao como pistas ao eleitor; nao fica claro se deriva de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3525",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Jogo de votacao em laboratorio sobre conformidade, sem exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3529",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema nao eleitoral (moeda comum/identidade), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3533",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere desfecho de avaliacao de candidatos (nao voto), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3537",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Capitulo de resenha de obra classica (serie 'Klassiker der Sozialwissenschaften'), nao estudo primario."
+ },
+ {
+  "id_rs": "RS3541",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo pergunta diretamente se resultados de pesquisa publicados influenciam o eleitorado."
+ },
+ {
+  "id_rs": "RS3543",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere desfecho de comportamento do partido (nao voto), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3548",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre sinais de coalizao e voto estrategico; nao fica claro se deriva de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3549",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere experimento sobre payoffs (nao pesquisa eleitoral), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3550",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e a complexidade da proposta de referendo, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3551",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de horario de posto de votacao, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3552",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo trata de volatilidade eleitoral; nao especifica se a exposicao e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3555",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho e o esforco/estrategia de campanha do partido, nao voto ou comparecimento do eleitor."
+ },
+ {
+  "id_rs": "RS3556",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Revisao sobre fundamentos cognitivos da escolha do eleitor; revisao: usar na bola de neve."
+ },
+ {
+  "id_rs": "RS3561",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo generico de capitulo sobre experimentos em economia politica; nao fica claro o conteudo especifico."
+ },
+ {
+  "id_rs": "RS3562",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de horario de posto de votacao, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3565",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de custo de informacao procedimental, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3570",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "O proprio titulo indica se tratar de analise teorica comparando regras eleitorais, sem dados."
+ },
+ {
+  "id_rs": "RS3571",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre sinais de coalizao e comportamento de voto; nao fica claro se deriva de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3574",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e o turnout real de fase eleitoral anterior (resultado de eleicao), nao pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3575",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Titulo e verbete de enciclopedia (Stanford Encyclopedia of Philosophy) e tipo de publicacao e revisao; nao e estudo primario."
+ },
+ {
+  "id_rs": "RS3580",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere votacao corporativa (nao politica), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3581",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e participacao em protesto estudantil, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3587",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de personalidade (nao pesquisa), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3593",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de vies de resposta socialmente desejavel e precisao das pesquisas, nao do efeito no voto."
+ },
+ {
+  "id_rs": "RS3599",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo amplo sobre teoria comportamental da politica e instituicoes, sem indicar tema especifico."
+ },
+ {
+  "id_rs": "RS3602",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre desenho de 'assessment voting' em grandes eleitorados; nao fica claro se ha dados empiricos."
+ },
+ {
+  "id_rs": "RS3603",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e reforma eleitoral (voto cumulativo), nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3605",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere foco em estrategia partidaria (nao eleitor), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3613",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfechos sao emocao, elaboracao cognitiva e tolerancia, nao voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS3615",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Tema e sinal de qualidade do incumbente, nao exposicao a resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3619",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre estudo empirico do voto estrategico, possivelmente revisao metodologica; sem elementos para decidir."
+ },
+ {
+  "id_rs": "RS3621",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e acao pro-ambiental e status socioeconomico, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3626",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere mensuracao de ideologia (sem mencao a voto/pesquisa), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3629",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Testa modelo de eleitor pivotal com dados reais de sistema eleitoral, sem exposicao a pesquisa."
+ },
+ {
+  "id_rs": "RS3631",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Estrategia de voto de 'seguro' via modelo de consideracao com dados de painel, sem exposicao a pesquisa."
+ },
+ {
+  "id_rs": "RS3645",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e fraude eleitoral manipulada em laboratorio, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3648",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Analise teorica/experimental de conformidade e regras de voto, sem exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3649",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho e a retorica de campanha do partido, nao voto ou comparecimento do eleitor."
+ },
+ {
+  "id_rs": "RS3650",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo teorico de equilibrio sobre mandato e comparecimento, sem dados proprios."
+ },
+ {
+  "id_rs": "RS3661",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho e o esforco/estrategia de campanha do partido, nao voto ou comparecimento do eleitor."
+ },
+ {
+  "id_rs": "RS3663",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de vies de resposta socialmente desejavel e precisao das pesquisas, nao do efeito no voto."
+ },
+ {
+  "id_rs": "RS3664",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo cita explicitamente pesquisas de opiniao eleitoral e consequencias comportamentais."
+ },
+ {
+  "id_rs": "RS3666",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Estuda demanda por noticias de 'corrida de cavalos', nao o efeito da exposicao a pesquisa no voto."
+ },
+ {
+  "id_rs": "RS3667",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Efeito bandwagon/espiral do silencio em redes sociais em geral, sem relacao especificamente eleitoral (mesmo tema do registro RS3908)."
+ },
+ {
+  "id_rs": "RS3668",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema ambiental nao eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3670",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Bandwagon em consumo de luxo (Tunisia), tema de consumo, nao eleitoral."
+ },
+ {
+  "id_rs": "RS3671",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Analise teorica de handicaps e desenho da 'assessment voting', sem dados empiricos."
+ },
+ {
+  "id_rs": "RS3696",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo teorico de eleitor pivotal sobre redistribuicao, sem dados."
+ },
+ {
+  "id_rs": "RS3701",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Metodologia de previsao eleitoral (modelo bayesiano), nao efeito da pesquisa no voto."
+ },
+ {
+  "id_rs": "RS3703",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Estuda oferta/demanda por noticias de 'corrida de cavalos', nao o efeito da pesquisa no voto."
+ },
+ {
+  "id_rs": "RS3709",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e escolha de cursar faculdade, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3713",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre metodologia de pesquisa (numeros para palavras) usando o Brexit como caso; sem elementos para decidir."
+ },
+ {
+  "id_rs": "RS3715",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e sinalizacao de coalizao partidaria, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3721",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo dinamico teorico sobre convergencia de partidos, sem dados."
+ },
+ {
+  "id_rs": "RS3724",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de gasto de campanha, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3729",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Bandwagon entre torcedores de NBA, tema esportivo, nao eleitoral."
+ },
+ {
+  "id_rs": "RS3731",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Metodologia de mensuracao de 'closeness'; nao fica claro se a exposicao estudada e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3734",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo teorico de eleitor pivotal com informacao completa, sem dados."
+ },
+ {
+  "id_rs": "RS3743",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de endosso de candidatos, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3746",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Tema e deteccao de fraude eleitoral em cedulas, nao exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3747",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Comentario/ensaio sobre o valor do forecasting para a ciencia politica, sem dados proprios."
+ },
+ {
+  "id_rs": "RS3749",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Comentario/ensaio sobre a industria de previsao eleitoral, sem dados proprios."
+ },
+ {
+  "id_rs": "RS3751",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sujeitos sao 'preditores' inferindo comportamentos alheios em geral a partir de pesquisas, nao eleitores escolhendo voto."
+ },
+ {
+  "id_rs": "RS3762",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Revisao/guia metodologico sobre desenho de experimentos de informacao em varias areas, nao estudo primario sobre pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3764",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e participacao em protesto estudantil, nao resultado de pesquisa eleitoral (mesmo estudo do registro RS3581)."
+ },
+ {
+  "id_rs": "RS3766",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e expectativas sobre preco de imoveis, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3769",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Eleicao sindical de representacao (NLRB), nao eleicao de candidatos, partidos ou referendo."
+ },
+ {
+  "id_rs": "RS3771",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Artigo de metodologia estatistica (desenho de pareamento em RCTs), sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3779",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e rotatividade de emprego (turnover de trabalhadores), nao comparecimento eleitoral."
+ },
+ {
+  "id_rs": "RS3789",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre contagio euroceptico em eleicoes europeias; sem elementos para decidir exposicao/desfecho."
+ },
+ {
+  "id_rs": "RS3794",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre ativistas politicos como 'free-riders'; nao fica claro se a populacao/desfecho e de eleitores em geral."
+ },
+ {
+  "id_rs": "RS3802",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho e atitude/crenca sobre candidatos e apostas esportivas, nao escolha de voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS3806",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de regra de voto cumulativo, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3808",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Comentario sobre metodologia de mensuracao social em geral, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3814",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo de capitulo sobre alternativas a pesquisas de opiniao; sem elementos para saber se ha dados proprios."
+ },
+ {
+  "id_rs": "RS3815",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo de capitulo sobre reacoes de elites e publico a pesquisas; sem elementos para saber se ha dados proprios."
+ },
+ {
+  "id_rs": "RS3816",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo de capitulo sobre cobertura midiatica de pesquisas; sem elementos para saber se ha dados proprios."
+ },
+ {
+  "id_rs": "RS3818",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema nao eleitoral (orgulho nacional/nativismo), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3819",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Revisao/meta-analise sobre percepcoes sobre os outros em diversos dominios; revisao: usar na bola de neve."
+ },
+ {
+  "id_rs": "RS3821",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e a sobreposicao de eleicoes concorrentes, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3824",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho e ocorrencia de protestos de extrema-direita, nao voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS3828",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere estudo de previsao/comparacao com redes sociais, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3835",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Relatorio de reproducao computacional (Social Science Reproduction Platform), nao e pesquisa primaria nova."
+ },
+ {
+  "id_rs": "RS3836",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Relatorio de reproducao computacional (Social Science Reproduction Platform), nao e pesquisa primaria nova."
+ },
+ {
+  "id_rs": "RS3839",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "E o apendice de um livro, nao conteudo de pesquisa propria."
+ },
+ {
+  "id_rs": "RS3844",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "E a lista de referencias de um livro, nao conteudo de pesquisa propria."
+ },
+ {
+  "id_rs": "RS3846",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e adocao de tecnologia e representacao de trabalhadores, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3851",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "E o indice remissivo de um livro, nao conteudo de pesquisa propria."
+ },
+ {
+  "id_rs": "RS3853",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "E o prefacio/agradecimentos de um livro, nao conteudo de pesquisa propria."
+ },
+ {
+  "id_rs": "RS3854",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sugere forte aderencia ao tema (informacao sobre popularidade de candidatos e abstencao), sem elementos para excluir."
+ },
+ {
+  "id_rs": "RS3855",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere desfecho de decisao empresarial (nao eleitor), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3857",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e risco de contagio no trabalho (Covid-19), sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3863",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo generico ('Foundations of...') nao permite confirmar que nao ha dados proprios."
+ },
+ {
+  "id_rs": "RS3864",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo teorico sobre conformismo do eleitor e politicas ineficientes, sem dados."
+ },
+ {
+  "id_rs": "RS3875",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere populacao de representantes politicos (nao eleitores), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3876",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre efeito de coalizoes no comportamento de voto; nao fica claro se deriva de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3879",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e gasto de campanha, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3887",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "O proprio titulo indica se tratar de um artigo de revisao/sintese ('A Survey'); usar na bola de neve."
+ },
+ {
+  "id_rs": "RS3895",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere metodo estatistico geral nao eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3897",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de desigualdade de renda, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3899",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "E a introducao de uma coletanea (livro sobre experimentos de voto), nao estudo primario."
+ },
+ {
+  "id_rs": "RS3900",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo cita explicitamente consequencias atitudinais e comportamentais de pesquisas de opiniao publicadas."
+ },
+ {
+  "id_rs": "RS3903",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre qualidade da escolha democratica; nao fica claro se a exposicao e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3905",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de percepcao de probabilidade, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3906",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere relatorio sobre mobilidade social, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3908",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Efeito bandwagon/espiral do silencio em redes sociais em geral, sem relacao especificamente eleitoral (mesmo tema do registro RS3667)."
+ },
+ {
+  "id_rs": "RS3910",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de fim de conflito armado, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3913",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere foco em valor preditivo das pesquisas, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3919",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho e nivel de apoio/aprovacao declarado a um lider, nao escolha de voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS3920",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e custo de votar (realocacao de local de votacao), nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3925",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere desfecho de previsao do cidadao (expectativa), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3926",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e midia e decisoes financeiras, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3929",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de propaganda em redes sociais, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3941",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema generico de herding intergrupal, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3955",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e teste de HIV em Mocambique, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS3957",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de resultado real de primeiro turno, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS3958",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e causas de protestos sociais no sul da Africa, sem relacao com escolha eleitoral."
+ },
+ {
+  "id_rs": "RS3962",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e escolha estrategica de onde se registrar para votar, nao resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3965",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre bandwagon e aversao a perda em eleicoes custosas; nao fica claro se ha dados empiricos."
+ },
+ {
+  "id_rs": "RS3970",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo amplo (investimento sustentavel e comportamento politico); nao fica claro se inclui voto/eleicao."
+ },
+ {
+  "id_rs": "RS3975",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Tema e manipulacao de mapas eleitorais (gerrymandering), nao exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS3982",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho e crescimento economico/ciclos de negocios, nao voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS3984",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo de uma so palavra ('Ties'); sem elementos para decidir."
+ },
+ {
+  "id_rs": "RS3985",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Populacao e governos/municipios decidindo buscar assistencia financeira, nao eleitores escolhendo voto."
+ },
+ {
+  "id_rs": "RS3999",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere metodologia de visualizacao de dados nao eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4005",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre informacao social e sentir-se pivotal em 'acoes civicas'; nao fica claro se e voto/comparecimento."
+ },
+ {
+  "id_rs": "RS4020",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo sobre dependencia de referencia em comportamento de voto; compativel com exposicao a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4023",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e conformidade tributaria, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS4024",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere impacto macroeconomico de calendario eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4025",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de crescimento economico, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4028",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "E a introducao de um livro, nao estudo primario."
+ },
+ {
+  "id_rs": "RS4030",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere impacto macroeconomico de calendario eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4038",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de incerteza politica/RSC em empresas, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4049",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sujeitos sao 'preditores' inferindo comportamentos alheios a partir de pesquisas, nao eleitores escolhendo voto (mesmo estudo do registro RS3751)."
+ },
+ {
+  "id_rs": "RS4053",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo de uma so palavra ('Pivotality'); sem elementos para decidir."
+ },
+ {
+  "id_rs": "RS4056",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo amplo sobre sistemas de monitoramento de conteudo digital e democracia; sem elementos para decidir."
+ },
+ {
+  "id_rs": "RS4057",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema e reforma tributaria progressiva, sem relacao com eleicoes."
+ },
+ {
+  "id_rs": "RS4059",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Tipo de publicacao e revisao (Nature Reviews Psychology); revisao: usar na bola de neve."
+ },
+ {
+  "id_rs": "RS4062",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo repete o tema do registro RS4038 (incerteza politica/RSC em empresas), mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4063",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de percepcao de deepfakes, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4064",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de magnitude do sistema eleitoral, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4065",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere exposicao de entrada de terceiro partido, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4086",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de confianca na lideranca hoteleira, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4091",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de padroes morais, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4093",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere tema de ataques a DAOs, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4104",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de mudancas metodologicas e precisao da industria de pesquisas eleitorais, nao do efeito no voto."
+ },
+ {
+  "id_rs": "RS4110",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sem resumo; titulo sugere bandwagon em consumo de luxo, mas registro sem resumo nao e excluido."
+ },
+ {
+  "id_rs": "RS4112",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposicao e o proprio resultado da eleicao/voto do respondente, nao pesquisa eleitoral divulgada antes do voto."
+ },
+ {
+  "id_rs": "RS4114",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Titulo trata de volatilidade eleitoral; nao especifica se a exposicao e pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4115",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Numeracao do titulo ('1813.5') indica se tratar de verbete de obra de referencia/handbook, nao estudo primario."
+ },
+ {
+  "id_rs": "RS4116",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Tema e mercados de previsao/apostas, nao pesquisa eleitoral, e nao estuda efeito no voto."
+ }
+]

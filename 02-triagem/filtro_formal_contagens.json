@@ -1,0 +1,205 @@
+{
+  "versao": "filtros_v2",
+  "config_sha256": "489aa8256c337ff8caccf96674557656d79127ecb2f7e65a4bd5a410813fb669",
+  "dicionarios": {
+    "assets/dicionarios/metodo_pt_en_es.csv": "6c64aa78ae8d8c955c9f6c7d1dba5778588c73b29d6d09f64cdf898237aada5c"
+  },
+  "n_entrada": 3423,
+  "n_saida": 2627,
+  "n_excluidos": 796,
+  "n_etiquetados": 1560,
+  "filtros": [
+    {
+      "filtro": "ano",
+      "tipo": "ano",
+      "modo": "excluir",
+      "entrada": 3423,
+      "passa": 2624,
+      "etiqueta": 0,
+      "exclui": 796,
+      "sem_dado": 3,
+      "saida": 2627
+    },
+    {
+      "filtro": "tipo",
+      "tipo": "tipo",
+      "modo": "etiquetar",
+      "entrada": 2627,
+      "passa": 2607,
+      "etiqueta": 20,
+      "exclui": 0,
+      "sem_dado": 0,
+      "saida": 2627
+    },
+    {
+      "filtro": "idioma",
+      "tipo": "idioma",
+      "modo": "etiquetar",
+      "entrada": 2627,
+      "passa": 2438,
+      "etiqueta": 83,
+      "exclui": 0,
+      "sem_dado": 106,
+      "saida": 2627
+    },
+    {
+      "filtro": "metodo",
+      "tipo": "dicionario",
+      "modo": "etiquetar",
+      "entrada": 2627,
+      "passa": 712,
+      "etiqueta": 1528,
+      "exclui": 0,
+      "sem_dado": 387,
+      "saida": 2627
+    }
+  ],
+  "n_inativos_ignorados": 1211,
+  "ancoras": [
+    {
+      "ancora": "A01",
+      "ids_rs": [
+        "RS1527"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A02",
+      "ids_rs": [
+        "RS1522"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A03",
+      "ids_rs": [
+        "RS1536"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A04",
+      "ids_rs": [
+        "RS1548"
+      ],
+      "situacao": "etiquetada",
+      "filtros": [
+        "metodo"
+      ]
+    },
+    {
+      "ancora": "A05",
+      "ids_rs": [
+        "RS1744"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A06",
+      "ids_rs": [
+        "RS1524"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A07",
+      "ids_rs": [
+        "RS1577"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A08",
+      "ids_rs": [
+        "RS1579"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A09",
+      "ids_rs": [
+        "RS1661"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A10",
+      "ids_rs": [
+        "RS1574"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A11",
+      "ids_rs": [
+        "RS1625"
+      ],
+      "situacao": "etiquetada",
+      "filtros": [
+        "metodo"
+      ]
+    },
+    {
+      "ancora": "A12",
+      "ids_rs": [
+        "RS1589"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A13",
+      "ids_rs": [
+        "RS1529"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A14",
+      "ids_rs": [
+        "RS1587"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A15",
+      "ids_rs": [
+        "RS1523"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A16",
+      "ids_rs": [
+        "RS1601"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A17",
+      "ids_rs": [
+        "RS1596",
+        "RS1805",
+        "RS1914"
+      ],
+      "situacao": "etiquetada",
+      "filtros": [
+        "idioma",
+        "metodo"
+      ]
+    },
+    {
+      "ancora": "A18",
+      "ids_rs": [
+        "RS1611"
+      ],
+      "situacao": "mantida"
+    },
+    {
+      "ancora": "A19",
+      "ids_rs": [
+        "RS1705"
+      ],
+      "situacao": "mantida"
+    }
+  ]
+}

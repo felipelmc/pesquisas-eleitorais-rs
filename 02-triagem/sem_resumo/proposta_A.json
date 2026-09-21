@@ -1,0 +1,998 @@
+[
+ {
+  "id_rs": "RS0656",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre discrepâncias entre pesquisas e resultado eleitoral (house effects), não sobre efeito da exposição no eleitor."
+ },
+ {
+  "id_rs": "RS1226",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata da confiabilidade/precisão das pesquisas próximo à eleição, não do efeito da exposição no voto."
+ },
+ {
+  "id_rs": "RS1232",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "População são investidores reagindo a oscilações de pesquisas, não eleitores escolhendo voto."
+ },
+ {
+  "id_rs": "RS1353",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre por que pesquisas de intenção de voto variam (metodologia/precisão), não sobre efeito no eleitor."
+ },
+ {
+  "id_rs": "RS1557",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Pesquisas (exit polls) usadas como fonte de dados para medir partidarismo, não como exposição estudada."
+ },
+ {
+  "id_rs": "RS1559",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título genérico de capítulo sobre comportamento eleitoral; não fica claro se aborda exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS1565",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Usa resultados de eleições locais para prever eleição geral; não é exposição a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS1569",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre acurácia e antecedência de previsões eleitorais baseadas em pesquisas, não efeito no eleitor."
+ },
+ {
+  "id_rs": "RS1570",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Modelo teórico (pivotal voter model) sobre aversão a risco e bandwagon, sem dados."
+ },
+ {
+  "id_rs": "RS1572",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo quântico para inferir resultado de votação a partir de pesquisas agregadas; não testa efeito da exposição."
+ },
+ {
+  "id_rs": "RS1576",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre qualidade da cobertura jornalística das pesquisas, sem medir voto ou comparecimento."
+ },
+ {
+  "id_rs": "RS1577",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Efeito de notícias de pesquisa sobre volatilidade eleitoral pode envolver exposição e mudança de voto."
+ },
+ {
+  "id_rs": "RS1579",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título indica diretamente efeitos de pesquisas eleitorais numa campanha presidencial."
+ },
+ {
+  "id_rs": "RS1595",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre efeito de campanhas no comparecimento partidário, exposição não é resultado de pesquisa."
+ },
+ {
+  "id_rs": "RS1597",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho é preferência sobre temas (issue preferences), não voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS1600",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho é busca de informação eleitoral, não voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS1610",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Caso de calibração do próprio guia: incerto/C4, dados eleitorais históricos sem variação clara informada no título."
+ },
+ {
+  "id_rs": "RS1620",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Usa dados de exit poll para descrever preferências por grupo; pesquisa como fonte de dados, não exposição."
+ },
+ {
+  "id_rs": "RS1638",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão eleitoral (forecasting) para a Dinamarca, não sobre efeito da exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS1641",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo estrutural de previsão eleitoral incluindo variáveis de campanha, não efeito de exposição a pesquisa."
+ },
+ {
+  "id_rs": "RS1642",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título genérico de capítulo sobre desalinhamento eleitoral; não é claro que exclua o tema de pesquisas."
+ },
+ {
+  "id_rs": "RS1648",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Mesmo modelo quântico de inferência a partir de pesquisas agregadas (duplicata de RS1572), não é exposição."
+ },
+ {
+  "id_rs": "RS1654",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Capítulo sobre previsão de inflação, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS1664",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo bayesiano de previsão eleitoral incorporando bandwagon como mecanismo de modelagem, não estudo de exposição."
+ },
+ {
+  "id_rs": "RS1665",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Teste de modelo de previsão eleitoral para o Japão, não efeito de exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS1670",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Modelo de aquisição de informação e blackout de pesquisas; desfecho e desenho não ficam claros no título."
+ },
+ {
+  "id_rs": "RS1683",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Corrupção como exposição gerando efeito sobre números de pesquisas (pesquisa é o desfecho medido, não a exposição)."
+ },
+ {
+  "id_rs": "RS1684",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Exemplo explícito de desfecho inválido no guia: busca de informação política, não voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS1688",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição são sinais de política (policy signals), não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS1695",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre padrões de voto étnico em eleições locais, sem menção a exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS1697",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Painel próprio (RAND) testado quanto à sua própria acurácia preditiva, não exposição de eleitores a pesquisas de terceiros."
+ },
+ {
+  "id_rs": "RS1699",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Compara pesquisas e modelos estruturais para previsão eleitoral (forecasting), não efeito de exposição."
+ },
+ {
+  "id_rs": "RS1700",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo abrangente de previsão eleitoral baseado em 'apoio partidário', forecasting."
+ },
+ {
+  "id_rs": "RS1701",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho é efeito publicitário/avaliação do anúncio, sem medida de voto ou comparecimento."
+ },
+ {
+  "id_rs": "RS1703",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Modelo teórico de voto pivotal sobre pesquisas mal reportadas, sem dados."
+ },
+ {
+  "id_rs": "RS1713",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Revisão de modelos de economia política para previsão eleitoral (forecasting)."
+ },
+ {
+  "id_rs": "RS1718",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Previsão eleitoral para eleições municipais na Lituânia (forecasting)."
+ },
+ {
+  "id_rs": "RS1719",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Nota sobre bandwagon ou voto estratégico em Israel, tema diretamente relevante."
+ },
+ {
+  "id_rs": "RS1725",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Metodologia de previsão eleitoral (sistema CHAMPSKNOW) para a Jamaica, forecasting."
+ },
+ {
+  "id_rs": "RS1726",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é terrorismo/gênero, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS1727",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Mesma obra (duplicata) sobre terrorismo/gênero e comportamento de voto, exposição não é pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS1751",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição são estereótipos de gênero/raça na eleição de 2016, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS1753",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo computacional (network-oriented) simulando intenção de voto a partir de discursos, é simulação sem exposição real."
+ },
+ {
+  "id_rs": "RS1755",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Investiga o erro das pesquisas britânicas ('polling miss'), sobre precisão, não efeito no eleitor."
+ },
+ {
+  "id_rs": "RS1758",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão eleitoral (from polls to votes to seats), forecasting."
+ },
+ {
+  "id_rs": "RS1770",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "'Citizen forecasting': eleitores preveem o resultado da eleição, não são expostos a pesquisas de terceiros."
+ },
+ {
+  "id_rs": "RS1773",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Previsão eleitoral via Twitter, não envolve exposição a resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS1778",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "População são operadores de mercado de predição (traders), não eleitores escolhendo voto."
+ },
+ {
+  "id_rs": "RS1779",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Livro-texto sobre eleições e eleitores na Grã-Bretanha."
+ },
+ {
+  "id_rs": "RS1780",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título ambíguo sobre comovimento de preferências de eleitores via mercados de predição; não fica claro se estuda só o mercado ou os eleitores."
+ },
+ {
+  "id_rs": "RS1786",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Analisa fatores socioeconômicos (educação, desemprego) que influenciam o voto no Brexit, não exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS1792",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é o tipo de deliberação (presencial/online), desfecho é atitude sobre pesquisas, não pesquisa nem voto."
+ },
+ {
+  "id_rs": "RS1799",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Exemplo VÁLIDO citado nos próprios critérios (C3, comparecimento)."
+ },
+ {
+  "id_rs": "RS1801",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre representatividade demográfica de usuários de redes sociais, não sobre eleitores e voto."
+ },
+ {
+  "id_rs": "RS1807",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão eleitoral britânica de 2015 (forecasting)."
+ },
+ {
+  "id_rs": "RS1809",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão eleitoral britânica de 2015, comparação com 1992 (forecasting)."
+ },
+ {
+  "id_rs": "RS1816",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo agregado de previsão eleitoral (seats-votes) para a eleição britânica de 2010 (forecasting)."
+ },
+ {
+  "id_rs": "RS1819",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo bayesiano de previsão da eleição presidencial da Coreia do Sul (forecasting)."
+ },
+ {
+  "id_rs": "RS1825",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de local de votação física (poll site) e voto remoto pela internet, não de pesquisa eleitoral (resultado de survey)."
+ },
+ {
+  "id_rs": "RS1847",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Usa dados de exit poll para testar conceito de voto estratégico; pesquisa como fonte de dados, não exposição."
+ },
+ {
+  "id_rs": "RS1857",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo estrutural de previsão eleitoral canadense incorporando pesquisas (forecasting)."
+ },
+ {
+  "id_rs": "RS1863",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Método de estudar tendência agregada das pesquisas ao longo da campanha ('timeline method'), não exposição individual."
+ },
+ {
+  "id_rs": "RS1868",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Compara 'nowcasting' e pesquisas para a eleição britânica de 2010 (forecasting/metodologia)."
+ },
+ {
+  "id_rs": "RS1873",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de agregação de pesquisas para previsão eleitoral na América Latina (forecasting)."
+ },
+ {
+  "id_rs": "RS1882",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Usa dados de exit poll para descrever preferências de voto ao Congresso; pesquisa como fonte de dados."
+ },
+ {
+  "id_rs": "RS1886",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Analisa determinantes socioeconômicos e institucionais do voto islamista vs. secular, sem exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS1891",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre mercado de apostas em corrida de cavalos ('horse race betting'), não eleição."
+ },
+ {
+  "id_rs": "RS1892",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Agenda de pesquisa (ensaio) sobre pesquisas governamentais e vínculo democrático, sem dados próprios."
+ },
+ {
+  "id_rs": "RS1893",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Pesquisas pré-eleitorais afetando comparecimento e composição do voto; tema central da revisão."
+ },
+ {
+  "id_rs": "RS1900",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Introdução/editorial de número especial sobre novas abordagens de previsão eleitoral."
+ },
+ {
+  "id_rs": "RS1905",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Estatísticas de voto presidencial judaico (padrão demográfico de voto), sem exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS1914",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Exemplo VÁLIDO citado nos próprios critérios (C2, exit polls e comparecimento na França)."
+ },
+ {
+  "id_rs": "RS1918",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Análise experimental de pesquisas, partidarismo e tomada de decisão do eleitor; tema central."
+ },
+ {
+  "id_rs": "RS1919",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "'Wishful thinking' é viés de expectativa própria do eleitor, não voto/comparecimento medido."
+ },
+ {
+  "id_rs": "RS1923",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Pesquisas nacionais afetando comparecimento e composição do voto local no Reino Unido; tema central."
+ },
+ {
+  "id_rs": "RS1932",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre voto por tema vs. por líder (issue vs. leader voting), exposição não é resultado de pesquisa."
+ },
+ {
+  "id_rs": "RS1933",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Guia de pesquisa de biblioteca (research guide), não é estudo primário."
+ },
+ {
+  "id_rs": "RS1941",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Metodologia estatística de estimação de estratos sub-representados em pesquisas, não efeito no eleitor."
+ },
+ {
+  "id_rs": "RS1946",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Mobilização de minorias (GOTV) como exposição, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS1958",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Previsão eleitoral via análise de sentimento no Twitter, forecasting."
+ },
+ {
+  "id_rs": "RS1959",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Efeito de terceira pessoa sobre pesquisa de opinião e comportamento de voto defensivo; tema central."
+ },
+ {
+  "id_rs": "RS1961",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Usa dados de exit poll para explicar desvio de preferência partidária local/nacional; pesquisa como fonte de dados."
+ },
+ {
+  "id_rs": "RS1968",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho é cobertura jornalística das pesquisas, não voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS1970",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão das eleições espanholas (forecasting)."
+ },
+ {
+  "id_rs": "RS1981",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título sobre pesquisas criando 'momentum' na competição política; não fica claro se é modelo teórico sem dados."
+ },
+ {
+  "id_rs": "RS1986",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho principal é apoio à censura de pesquisas eleitorais, não voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS1998",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é odds de mercado de apostas, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS2016",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é choque de valor imobiliário (E-ZPass), pesquisa eleitoral usada só como fonte de dados do desfecho."
+ },
+ {
+  "id_rs": "RS2025",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão das eleições norueguesas (forecasting)."
+ },
+ {
+  "id_rs": "RS2034",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Metodologia estatística sobre não resposta e margem de erro em pesquisas, não efeito no eleitor."
+ },
+ {
+  "id_rs": "RS2038",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "'Externalidades eleitorais' em federações usando pesquisas como evidência/dado, não como exposição."
+ },
+ {
+  "id_rs": "RS2043",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "População são mercados financeiros (opções, mercados de predição), não eleitores escolhendo voto."
+ },
+ {
+  "id_rs": "RS2046",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "'Predictor' de sucesso eleitoral sugere modelo de previsão, não estudo de exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2059",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre uso metodológico de exit polls como ferramenta de pesquisa, pesquisa como fonte de dados."
+ },
+ {
+  "id_rs": "RS2078",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre a política de prever resultados eleitorais (pundits, líderes religiosos), previsão eleitoral."
+ },
+ {
+  "id_rs": "RS2082",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Teoria da escolha social sobre manipulação por coalizões com informação incompleta, modelo formal sem dados."
+ },
+ {
+  "id_rs": "RS2085",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Revisão do desempenho das pesquisas em 2017, sobre precisão das pesquisas."
+ },
+ {
+  "id_rs": "RS2089",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Machine learning para prever eleições na América Latina usando redes sociais e pesquisas (forecasting)."
+ },
+ {
+  "id_rs": "RS2107",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Consumo de informação e voto estratégico no Brasil; não fica claro se a informação é pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS2128",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Metodologia sobre não resposta e erro amostral em estudos eleitorais, não efeito no eleitor."
+ },
+ {
+  "id_rs": "RS2131",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Expectativas sobre o resultado influenciando o voto em democracia direta; tema central (bandwagon)."
+ },
+ {
+  "id_rs": "RS2144",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sobre previsões com preditores igualmente ponderados; não fica claro se o tema é eleitoral."
+ },
+ {
+  "id_rs": "RS2156",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Duplicata de RS1780 (mesmo título/autores), mesma ambiguidade sobre mercados de predição e preferências."
+ },
+ {
+  "id_rs": "RS2169",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre 'poll' como característica de gado (bovinos sem chifre), tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2183",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre isolacionismo na política externa dos EUA, tema não eleitoral no sentido da revisão."
+ },
+ {
+  "id_rs": "RS2194",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo autorregressivo de previsão eleitoral baseado em pesquisas para a Alemanha (forecasting)."
+ },
+ {
+  "id_rs": "RS2200",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre o que se pode aprender com previsões eleitorais (Wahlvorhersagen), forecasting/metodologia."
+ },
+ {
+  "id_rs": "RS2202",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Previsão da eleição geral de 2015 usando dados agregados de eleições locais (forecasting)."
+ },
+ {
+  "id_rs": "RS2204",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Ciclo de conflito sectário a partir de estruturas de apoio partidário; não fica claro o vínculo com pesquisas."
+ },
+ {
+  "id_rs": "RS2209",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Influências e preferências entre eleitores idosos; não fica claro se envolve exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2211",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Experimentos sobre efeitos de pesquisas de opinião e leis que proíbem pesquisas pré-eleitorais; tema central."
+ },
+ {
+  "id_rs": "RS2231",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre metodologia de 'robo-polls' (pesquisas automatizadas), não efeito da exposição no eleitor."
+ },
+ {
+  "id_rs": "RS2245",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Simulação multiagente de troca de opiniões na tomada de decisão de voto, é simulação/modelo teórico."
+ },
+ {
+  "id_rs": "RS2248",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição manipulada são indicações de partidos/jornais (endosso), não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS2249",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Précondições cognitivas para efeitos diretos de pesquisas sobre eleitores; tema central."
+ },
+ {
+  "id_rs": "RS2252",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre aceitação de vacina contra covid-19, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2265",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Usa dados de pesquisa (polling) como variável dependente (apoio eleitoral), exposição é coerência discursiva, não pesquisa."
+ },
+ {
+  "id_rs": "RS2296",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre preferências por tributação e redistribuição, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2323",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Relato descritivo/narrativo do desempenho eleitoral de um partido ('a disappointing success story')."
+ },
+ {
+  "id_rs": "RS2326",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Capítulo descritivo de panorama político de país (título 'Portugal'), sem desenho de exposição."
+ },
+ {
+  "id_rs": "RS2339",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é uma intervenção de transporte (pedágio eletrônico), pesquisa eleitoral (exit poll) só como fonte de dados."
+ },
+ {
+  "id_rs": "RS2350",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre efeito de 'poles' (varas) físicos na marcha de cavalos, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2352",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre conhecimento de enfermeiros franceses sobre sondagem urológica, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2401",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre cartas do público ao primeiro-ministro influenciando a agenda de políticas, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2418",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre viés de pesquisas eleitorais pagas por candidatos, precisão/viés das pesquisas, não efeito no eleitor."
+ },
+ {
+  "id_rs": "RS2450",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Previsão de eleições dos EUA via machine learning (forecasting)."
+ },
+ {
+  "id_rs": "RS2466",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título genérico sobre partidos políticos ao longo de 25 anos; não fica claro o desenho nem a exposição."
+ },
+ {
+  "id_rs": "RS2480",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Usa dados de exit poll para relacionar voto, atitudes raciais e contexto de vizinhança; pesquisa como fonte de dados."
+ },
+ {
+  "id_rs": "RS2485",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre validade externa de pesquisas eleitorais (comportamento estratégico ao responder), metodologia de pesquisas."
+ },
+ {
+  "id_rs": "RS2488",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre política de saúde/câncer após eleição irlandesa, tema não eleitoral no sentido da revisão."
+ },
+ {
+  "id_rs": "RS2503",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Pré-processamento de conteúdo não textual de tweets para análise de sentimento; contexto eleitoral não informado."
+ },
+ {
+  "id_rs": "RS2505",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Mesmos fatores socioeconômicos influenciando o voto no Brexit (duplicata de RS1786), não exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2506",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Combinação bayesiana de previsões estruturais e baseadas em pesquisas para eleição alemã (forecasting)."
+ },
+ {
+  "id_rs": "RS2516",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Sobre limites da divisão do Brexit em 2022; não fica claro o desenho nem a exposição."
+ },
+ {
+  "id_rs": "RS2523",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Compara metodologias de pesquisa (modo de aplicação, amostragem) e acurácia preditiva, não efeito no eleitor."
+ },
+ {
+  "id_rs": "RS2529",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre bem-estar de cavalos e código de prática do American Horse Council, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2536",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Jogos de laboratório (dilema do prisioneiro/stag hunt) com 'poll' como mecanismo de decisão em equipe, não eleição."
+ },
+ {
+  "id_rs": "RS2572",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Determinantes socioeconômicos e institucionais do voto islamista vs. secular no Egito (duplicata), sem exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2583",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Proposta de função de utilidade espacial do eleitor validada com dados de survey; não é estudo de exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2585",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Modelo baseado em agentes ('agent-based model') de dinâmica de opinião, é modelo/simulação teórica."
+ },
+ {
+  "id_rs": "RS2592",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Análise histórica descritiva de tendência de confiança em líderes/partidos usando dados de pesquisa ao longo do tempo."
+ },
+ {
+  "id_rs": "RS2600",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Método estatístico bayesiano geral para dados categóricos, pesquisas eleitorais só como exemplo de aplicação."
+ },
+ {
+  "id_rs": "RS2605",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Preferências baseadas em proximidade com dados de eleição austríaca; não fica claro se envolve exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2608",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Critérios de seleção em eleição interna de liderança partidária (regras institucionais), não exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2611",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Critérios de seleção em eleição interna de liderança partidária (regras institucionais), não exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2614",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Critérios de seleção em eleição interna de liderança partidária (regras institucionais), não exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2620",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Relato/briefing descritivo e narrativo da eleição presidencial romena de 2009."
+ },
+ {
+  "id_rs": "RS2621",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Revisão sistemática sobre infecção por bactéria multirresistente em UTI, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2625",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Comentário/opinião sobre a eleição de 2020 como oportunidade para direitos reprodutivos, sem dados próprios."
+ },
+ {
+  "id_rs": "RS2632",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Teste de voto por proximidade espacial e saliência de temas em eleições locais, sem exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS2644",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Voto étnico e histórico de desempenho de políticos na África, exposição não é resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS2692",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Previsão da eleição presidencial dos EUA de 2024 por estado usando dados de município (forecasting)."
+ },
+ {
+  "id_rs": "RS2696",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Capítulo descritivo de panorama político de país (título 'The Netherlands'), sem desenho de exposição."
+ },
+ {
+  "id_rs": "RS2706",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Relato narrativo de uma disputa eleitoral regional específica ('the battle for...'), descritivo."
+ },
+ {
+  "id_rs": "RS2717",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Editorial de aniversário de revista de oncologia, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2726",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão das eleições espanholas (forecasting, duplicata de RS1970)."
+ },
+ {
+  "id_rs": "RS2740",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Simula opiniões públicas sintéticas via modelos de linguagem, população não são eleitores reais."
+ },
+ {
+  "id_rs": "RS2777",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é um programa de transferência de renda (Auxílio Brasil), pesquisas usadas só para medir desaprovação."
+ },
+ {
+  "id_rs": "RS2818",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Nota do editor de revista científica."
+ },
+ {
+  "id_rs": "RS2863",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Sobre viés de sensibilidade política nas respostas a pesquisas de opinião em Hong Kong, metodologia de pesquisas."
+ },
+ {
+  "id_rs": "RS2884",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre efeito de varas físicas na marcha de cavalos (duplicata de RS2350), tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2891",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre o discurso conspiratório do 11 de setembro, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2902",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Estratégia normativa/advocacy para tirar dinheiro da política, sem desenho de exposição e desfecho de voto."
+ },
+ {
+  "id_rs": "RS2905",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre conhecimento da população sobre sítios Natura 2000 e proteção da natureza, tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2913",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre decisão da Suprema Corte dos EUA sobre subsídios do ACA (saúde), tema não eleitoral."
+ },
+ {
+  "id_rs": "RS2919",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Sobre comparação das políticas de saúde dos partidos antes da eleição no Reino Unido, tema não eleitoral."
+ }
+]

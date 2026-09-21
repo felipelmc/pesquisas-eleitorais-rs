@@ -1,0 +1,754 @@
+{
+  "versao": 1,
+  "amostra_id": "amostra01",
+  "tipo": "amostra",
+  "finalidade": "validacao",
+  "sem_ia": false,
+  "atalho_rapida": false,
+  "parametros": {
+    "etapa": "ta",
+    "rodada": "ta_v1",
+    "n": 100,
+    "semente": 12,
+    "enriquecer_incluidos": 60,
+    "elusao": 0,
+    "regra": "consenso",
+    "codificadores": 2,
+    "tipo": "amostra"
+  },
+  "criado_em": "2026-09-19T14:59:30Z",
+  "planilha": "02-triagem/validacao/ta_v1/amostra01_cega.xlsx",
+  "criterios_arquivo": "02-triagem/prompts/ta_v1.md",
+  "criterios_sha": "cd9cbfe00d4e4e453b1bccea80f59649f684558389ac4daffe8d8dfdaec211e7",
+  "populacao": {
+    "ia_positivo": 317,
+    "ia_negativo": 1256
+  },
+  "populacao_rodada": {
+    "ia_positivo": 317,
+    "ia_negativo": 1256
+  },
+  "n_excluidos_quadro": 0,
+  "n_inativos_ignorados": 0,
+  "n_amostra": 141,
+  "contagens_origem": {
+    "aleatoria": 100,
+    "enriquecimento": 41
+  },
+  "amostra_por_estrato": {
+    "ia_negativo": 81,
+    "ia_positivo": 60
+  },
+  "pesos_nominais": {
+    "ia_positivo": 5.283333333333333,
+    "ia_negativo": 15.506172839506172
+  },
+  "amostra": [
+    {
+      "id_rs": "RS0845",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1254",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1256",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1266",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1279",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1288",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1298",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1320",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1324",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1346",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1353",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1357",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1372",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1400",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1403",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1405",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1418",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1424",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1445",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1457",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1469",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1471",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1481",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1504",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1523",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1528",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1535",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1546",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1553",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1561",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1572",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1579",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1611",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1620",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1630",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1631",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1639",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1663",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1667",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1683",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1685",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1689",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1701",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1703",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1707",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1727",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1731",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1738",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1751",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1752",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1758",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1770",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1786",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1796",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1800",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1808",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1824",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1825",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1847",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1860",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1861",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1868",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1886",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1891",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1895",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1900",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1901",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1908",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1919",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1936",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1941",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1945",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS1961",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1978",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1987",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS1997",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2001",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2016",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2023",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2073",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2077",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2081",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2093",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2100",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2117",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2131",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2179",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2185",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2225",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2227",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2231",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2245",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2262",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2275",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2284",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2308",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2333",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2350",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2352",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2353",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2395",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2404",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2407",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2411",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2427",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2434",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2442",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2471",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2477",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2488",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2510",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2511",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2540",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2542",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2546",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2564",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2567",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2600",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2619",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2620",
+      "estrato": "ia_positivo",
+      "origem": "enriquecimento"
+    },
+    {
+      "id_rs": "RS2631",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2639",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2650",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2656",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2672",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2684",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2708",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2723",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2726",
+      "estrato": "ia_positivo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2730",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2738",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2753",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2763",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2780",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2796",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2829",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2840",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2856",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2868",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2918",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    },
+    {
+      "id_rs": "RS2924",
+      "estrato": "ia_negativo",
+      "origem": "aleatoria"
+    }
+  ],
+  "avisos": []
+}

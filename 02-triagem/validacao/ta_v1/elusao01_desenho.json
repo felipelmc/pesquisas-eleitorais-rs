@@ -1,0 +1,1549 @@
+{
+  "versao": 1,
+  "amostra_id": "elusao01",
+  "tipo": "elusao",
+  "finalidade": "elusao",
+  "sem_ia": false,
+  "atalho_rapida": false,
+  "parametros": {
+    "etapa": "ta",
+    "rodada": "ta_v1",
+    "n": 0,
+    "semente": 13,
+    "enriquecer_incluidos": null,
+    "elusao": 300,
+    "regra": "consenso",
+    "codificadores": 1,
+    "tipo": "elusao"
+  },
+  "criado_em": "2026-09-19T14:59:31Z",
+  "planilha": "02-triagem/validacao/ta_v1/elusao01_cega.xlsx",
+  "criterios_arquivo": "02-triagem/prompts/ta_v1.md",
+  "criterios_sha": "cd9cbfe00d4e4e453b1bccea80f59649f684558389ac4daffe8d8dfdaec211e7",
+  "populacao": {
+    "ia_positivo": 317,
+    "ia_negativo": 1256
+  },
+  "populacao_rodada": {
+    "ia_positivo": 317,
+    "ia_negativo": 1256
+  },
+  "n_excluidos_quadro": 0,
+  "n_inativos_ignorados": 0,
+  "n_amostra": 300,
+  "contagens_origem": {
+    "elusao": 300
+  },
+  "amostra_por_estrato": {
+    "ia_negativo": 300
+  },
+  "pesos_nominais": {
+    "ia_positivo": null,
+    "ia_negativo": 4.1866666666666665
+  },
+  "amostra": [
+    {
+      "id_rs": "RS1015",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1221",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1227",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1236",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1239",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1247",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1251",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1252",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1259",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1263",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1268",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1269",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1275",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1278",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1287",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1294",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1300",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1304",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1314",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1315",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1317",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1319",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1322",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1323",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1326",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1329",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1341",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1343",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1344",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1350",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1354",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1356",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1358",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1363",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1364",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1365",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1366",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1375",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1377",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1385",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1390",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1392",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1395",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1397",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1401",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1417",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1434",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1436",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1437",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1444",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1447",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1453",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1455",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1456",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1463",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1474",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1476",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1480",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1482",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1483",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1485",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1487",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1489",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1490",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1494",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1497",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1531",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1539",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1549",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1560",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1568",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1571",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1578",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1582",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1586",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1594",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1598",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1606",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1618",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1636",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1644",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1653",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1658",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1660",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1671",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1676",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1680",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1692",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1702",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1704",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1706",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1708",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1728",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1730",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1737",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1739",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1783",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1791",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1794",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1815",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1817",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1821",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1830",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1833",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1846",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1865",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1866",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1870",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1871",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1881",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1897",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1903",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1909",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1910",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1912",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1915",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1917",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1920",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1929",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1953",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1956",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1962",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1963",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS1985",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2003",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2013",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2019",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2024",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2032",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2036",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2056",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2058",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2061",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2062",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2064",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2074",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2076",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2079",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2084",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2086",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2088",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2091",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2101",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2106",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2109",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2121",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2122",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2127",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2136",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2137",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2145",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2147",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2152",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2163",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2168",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2180",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2182",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2184",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2187",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2188",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2193",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2198",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2201",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2206",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2207",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2208",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2214",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2226",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2232",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2236",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2246",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2250",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2254",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2266",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2267",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2269",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2291",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2303",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2305",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2309",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2310",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2320",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2321",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2324",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2325",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2332",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2334",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2336",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2340",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2348",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2349",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2362",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2366",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2367",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2372",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2373",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2375",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2383",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2388",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2389",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2390",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2391",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2393",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2397",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2398",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2416",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2421",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2422",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2423",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2425",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2428",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2430",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2432",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2433",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2438",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2439",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2443",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2448",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2455",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2469",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2479",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2483",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2484",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2487",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2490",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2494",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2501",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2509",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2515",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2518",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2522",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2526",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2550",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2554",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2561",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2568",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2570",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2586",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2591",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2602",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2603",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2626",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2629",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2638",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2641",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2642",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2645",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2652",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2654",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2658",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2665",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2675",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2679",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2680",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2681",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2688",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2691",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2710",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2711",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2714",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2721",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2725",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2729",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2736",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2741",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2742",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2752",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2758",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2785",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2787",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2795",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2804",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2810",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2812",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2813",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2817",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2819",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2822",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2826",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2836",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2838",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2843",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2847",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2852",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2853",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2867",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2871",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2879",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2881",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2887",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2899",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2900",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2908",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2910",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2917",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2925",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2927",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2928",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2929",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    },
+    {
+      "id_rs": "RS2932",
+      "estrato": "ia_negativo",
+      "origem": "elusao"
+    }
+  ],
+  "avisos": [
+    "141 IDs de amostras anteriores desta rodada ficaram de fora (amostra nova)"
+  ]
+}

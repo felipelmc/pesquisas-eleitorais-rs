@@ -1,0 +1,56 @@
+{
+  "rodada": "ta_v1",
+  "rodada_reexecucao": "ta_v1_estab",
+  "etapa": "ta",
+  "n_ids": 158,
+  "finalidade": "estabilidade",
+  "revisores": {
+    "A": {
+      "n": 158,
+      "faltando": 0,
+      "concordancia_3cat": 0.9746835443037974,
+      "kappa_3cat": 0.9022428460943541,
+      "concordancia_binaria": 0.9810126582278481,
+      "kappa_binario": 0.9250711349984193,
+      "pabak_binario": 0.9620253164556962,
+      "mudancas_de_seguimento": 3,
+      "mudancas": [
+        {
+          "id_rs": "RS1336",
+          "original": "incluir",
+          "reexecucao": "incerto"
+        },
+        {
+          "id_rs": "RS1381",
+          "original": "incerto",
+          "reexecucao": "excluir"
+        },
+        {
+          "id_rs": "RS1639",
+          "original": "incerto",
+          "reexecucao": "excluir"
+        },
+        {
+          "id_rs": "RS2653",
+          "original": "incerto",
+          "reexecucao": "excluir"
+        }
+      ]
+    },
+    "B": {
+      "n": 158,
+      "faltando": 0,
+      "concordancia_3cat": 1.0,
+      "kappa_3cat": 1.0,
+      "concordancia_binaria": 1.0,
+      "kappa_binario": 1.0,
+      "pabak_binario": 1.0,
+      "mudancas_de_seguimento": 0,
+      "mudancas": []
+    }
+  },
+  "atende_limiares": null,
+  "nota": "não há limiar vinculante para estabilidade (references/ia-validacao.md, seção 4 G); relate concordância e mudanças",
+  "avisos": [],
+  "calculado_em": "2026-09-19T15:17:12Z"
+}

@@ -1,0 +1,29 @@
+id_efeito,chave,pagina,status_trecho,pagina_encontrada,verificador,erros,alertas,g_aproximado,p_calculado,verificado_humano,apto_g7
+Araujo2021a-E01,Araujo2021a,12,OK,,verify_citacoes,,,0.127,,0,0
+Araujo2021a-E02,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E03,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E04,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E05,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E06,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E07,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E08,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E09,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Klor2017a-E01,Klor2017a,46,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Klor2017a-E02,Klor2017a,46,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Klor2017a-E03,Klor2017a,46,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Klor2017a-E04,Klor2017a,47,OK,,verify_citacoes,,,0.285,,0,0
+Klor2017a-E05,Klor2017a,47,OK,,verify_citacoes,,,-0.059,,0,0
+Klor2017a-E06,Klor2017a,14,OK,,verify_citacoes,,,,,0,0
+Klor2017a-E07,Klor2017a,15,OK,,verify_citacoes,,,,,0,0
+Klor2017a-E08,Klor2017a,15,OK,,verify_citacoes,,,,,0,0
+Klor2017a-E09,Klor2017a,15,OK,,verify_citacoes,,,,,0,0
+Meer2015a-E01,Meer2015a,29,OK,,verify_citacoes,,,0.127,,0,0
+Meer2015a-E02,Meer2015a,29,OK,,verify_citacoes,,,0.033,,0,0
+Meer2015a-E03,Meer2015a,29,OK,,verify_citacoes,,,0.094,,0,0
+Meer2015a-E04,Meer2015a,29,OK,,verify_citacoes,,,0.121,,0,0
+Meer2015a-E05,Meer2015a,30,OK,,verify_citacoes,,,0.105,,0,0
+Meer2015a-E06,Meer2015a,30,OK,,verify_citacoes,,,0.088,,0,0
+Meer2015a-E07,Meer2015a,15,OK,,verify_citacoes,,,0.004,,0,0
+Meer2015a-E08,Meer2015a,15,OK,,verify_citacoes,,,0.076,,0,0
+Meer2015a-E09,Meer2015a,15,OK,,verify_citacoes,,,0.012,,0,0
+Meer2015a-E10,Meer2015a,15,OK,,verify_citacoes,,,0.065,,0,0

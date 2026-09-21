@@ -1,0 +1,214 @@
+citekey,ficha,variavel,pagina_indicada,status,pagina_encontrada_impressa,offset_pagina,citacao
+Araujo2021a,fichamento_Araujo2021a.md,titulo,1,OK,,1,Casting Ballots When Knowing Results
+Araujo2021a,fichamento_Araujo2021a.md,ano,1,OK,,1,"© The Author(s), 2021. Published by Cambridge University Press"
+Araujo2021a,fichamento_Araujo2021a.md,tipo_publicacao,19,OK,,1,"Cite this article: Araújo V, Gatto MAC (2021)"
+Araujo2021a,fichamento_Araujo2021a.md,idioma,1,OK,,1,Access to information about candidates’ performance has long stood
+Araujo2021a,fichamento_Araujo2021a.md,pais_estudo,1,OK,,1,"In the 2018 Brazilian presidential elections, unpredictable technical glitches"
+Araujo2021a,fichamento_Araujo2021a.md,tipo_estudo,10,OK,,1,"Using the previously described data, we estimate whether late voters"
+Araujo2021a,fichamento_Araujo2021a.md,tipo_estudo,10,OK,,1,Ordinary Least Squares (OLS) models for each outcome variable
+Araujo2021a,fichamento_Araujo2021a.md,problema_pesquisa,15,OK,,1,Does having access to information about candidates’ electoral prospects
+Araujo2021a,fichamento_Araujo2021a.md,unidade_analise,9,OK,,1,voting stations and machines correspond to the same level of analysis
+Araujo2021a,fichamento_Araujo2021a.md,unidade_analise,12,OK,,1,The unit of analysis is voting machine
+Araujo2021a,fichamento_Araujo2021a.md,populacao,9,OK,,1,"all 454,490 of Brazil’s voting machines"
+Araujo2021a,fichamento_Araujo2021a.md,populacao,9,OK,,1,"On average, 323 voters are registered to cast ballots"
+Araujo2021a,fichamento_Araujo2021a.md,periodo_dados,9,OK,,1,"In the 2018 Brazilian elections, unpredictable technical glitches"
+Araujo2021a,fichamento_Araujo2021a.md,periodo_dados,2,OK,,1,in analyses with data from the previous 2014 elections
+Araujo2021a,fichamento_Araujo2021a.md,fonte_dados,9,OK,,1,Official data are available for each round of the election
+Araujo2021a,fichamento_Araujo2021a.md,intervencao_descricao,6,OK,,1,voters who cast ballots after the election’s official closing time
+Araujo2021a,fichamento_Araujo2021a.md,intervencao_descricao,10,OK,,1,machines that remained open after preliminary results started being announced
+Araujo2021a,fichamento_Araujo2021a.md,familia_intervencao,16,OK,,1,our results emerge from a situation of exposure to vote tallies
+Araujo2021a,fichamento_Araujo2021a.md,comparador,10,OK,,1,machines that closed before 19:00 BRT are in our control group
+Araujo2021a,fichamento_Araujo2021a.md,construto_outcome,9,OK,,1,we code five different outcome variables: (1) share of votes for Bolsonaro
+Araujo2021a,fichamento_Araujo2021a.md,outcome_medida,9,OK,,1,share of votes for Haddad (second place)
+Araujo2021a,fichamento_Araujo2021a.md,outcome_medida,12,OK,,1,The unit of analysis is voting machine
+Araujo2021a,fichamento_Araujo2021a.md,mecanismo_id,2,OK,,1,locate the mechanism driving the observed effects
+Araujo2021a,fichamento_Araujo2021a.md,mecanismo_tipo_evidencia,7,OK,,1,empirical strategy allow us to test five different hypothesized scenarios
+Araujo2021a,fichamento_Araujo2021a.md,mecanismo_descricao,15,OK,,1,information exposure encourages late voters to abandon their preferred
+Araujo2021a,fichamento_Araujo2021a.md,mecanismo_descricao,15,OK,,1,but losing candidates in favour of the predicted winner
+Araujo2021a,fichamento_Araujo2021a.md,moderador_id,13,OK,,1,we test for this by producing separate models for voting machines
+Araujo2021a,fichamento_Araujo2021a.md,moderador_descricao,13,OK,,1,Results across these models are largely consistent with the ones
+Araujo2021a,fichamento_Araujo2021a.md,moderador_descricao,13,OK,,1,but it also seems to have increased voter support for Gomes
+Araujo2021a,fichamento_Araujo2021a.md,het_metodo,13,OK,,1,producing separate models for voting machines
+Araujo2021a,fichamento_Araujo2021a.md,efeitos_nao_intencionais,11,OK,,1,information exposure does not benefit the frontrunner through demobilization
+Araujo2021a,fichamento_Araujo2021a.md,efeitos_nao_intencionais,15,OK,,1,it potentially increases their tendency to cast protest ballots
+Araujo2021a,fichamento_Araujo2021a.md,limitacoes_autores,14,OK,,1,our empirical strategy captures the impact of information exposure indirectly
+Araujo2021a,fichamento_Araujo2021a.md,limitacoes_autores,11,OK,,1,we cannot provide precise estimations for the number of votes Bolsonaro gained
+Araujo2021a,fichamento_Araujo2021a.md,b2_estrategia_identificacao,2,OK,,1,we exploit a unique source of exogenous
+Araujo2021a,fichamento_Araujo2021a.md,b2_estrategia_identificacao,4,OK,,1,a unique natural experimental setting
+Araujo2021a,fichamento_Araujo2021a.md,b2_hipoteses_testes,10,OK,,1,there is no reason to believe that the occurrence of technical glitches
+Araujo2021a,fichamento_Araujo2021a.md,b2_hipoteses_testes,15,OK,,1,our placebo treatment shows no indication of a bandwagon effect
+Araujo2021a,fichamento_Araujo2021a.md,b2_estimador,10,OK,,1,Ordinary Least Squares (OLS) models for each outcome variable
+Araujo2021a,fichamento_Araujo2021a.md,b2_estimando,14,OK,,1,our empirical strategy captures the impact of information exposure indirectly
+Araujo2021a,fichamento_Araujo2021a.md,b2_nivel_atribuicao_cluster,10,OK,,1,errors are clustered at the level of voting machines
+Araujo2021a,fichamento_Araujo2021a.md,b2_nivel_atribuicao_cluster,9,OK,,1,"On average, 323 voters are registered to cast ballots"
+Araujo2021a,fichamento_Araujo2021a.md,b2_controles,10,OK,,1,we control for the timing of closure of voting machines
+Araujo2021a,fichamento_Araujo2021a.md,b2_controles,12,OK,,1,"We run all OLS estimates with controls for time zone, age (avg.)"
+Araujo2021a,fichamento_Araujo2021a.md,b2_dp_y_tipo,11,OK,,1,for all variables are available in Online Appendix E
+Araujo2021a,fichamento_Araujo2021a.md,b2_teste_falsificacao,15,OK,,1,our placebo treatment shows no indication of a bandwagon effect
+Araujo2021a,fichamento_Araujo2021a.md,b2_modelo_principal,11,OK,,1,"Figure 2 summarizes our findings (for the table of results, see"
+Araujo2021a,fichamento_Araujo2021a.md,b2_modelo_principal,13,OK,,1,the treatment effect produced by Model 1
+Araujo2021a,fichamento_Araujo2021a.md,b2_criterio_modelo_principal,13,OK,,1,largely consistent with the ones from our main estimates
+Araujo2021a,fichamento_Araujo2021a.md,b2_direcao_estimativa_principal,13,OK,,1,information exposure still drives high levels of support to the frontrunner
+Araujo2021a,fichamento_Araujo2021a.md,b2_significancia_05,11,OK,,1,The positive and statistically significant treatment effect produced by Model 1
+Araujo2021a,fichamento_Araujo2021a.md,b2_interpretacao_autores,14,OK,,1,information exposure results in a vote-switching bandwagon effect (H2)
+Araujo2021a,fichamento_Araujo2021a.md,regiao,1,OK,,1,"In the 2018 Brazilian presidential elections, unpredictable technical glitches"
+Araujo2021a,fichamento_Araujo2021a.md,tipo_eleicao,4,OK,,1,The 2018 Brazilian presidential elections took place during contentious times
+Araujo2021a,fichamento_Araujo2021a.md,sistema_eleitoral,5,OK,,1,if none of the candidates is able to attain 50 per cent
+Araujo2021a,fichamento_Araujo2021a.md,voto_obrigatorio,5,OK,,1,"However, although voting is compulsory, the penalty for not voting"
+Araujo2021a,fichamento_Araujo2021a.md,desenho_fino,4,OK,,1,the 2018 Brazilian election provides a unique natural experimental setting
+Araujo2021a,fichamento_Araujo2021a.md,realismo_contexto,2,OK,,1,exposure to information impacts voters’ behaviour in a real election
+Araujo2021a,fichamento_Araujo2021a.md,ano_eleicao,1,OK,,1,"In the 2018 Brazilian presidential elections, unpredictable technical glitches"
+Araujo2021a,fichamento_Araujo2021a.md,comparador_tipo,10,OK,,1,machines that closed before 19:00 BRT are in our control group
+Araujo2021a,fichamento_Araujo2021a.md,nivel_desfecho,9,OK,,1,we code five different outcome variables: (1) share of votes for Bolsonaro
+Araujo2021a,fichamento_Araujo2021a.md,margem_mostrada,7,OK,,1,came 22.75 pp behind
+Araujo2021a,fichamento_Araujo2021a.md,margem_mostrada,7,OK,,1,an 11.4 pp lead over Haddad
+Araujo2021a,fichamento_Araujo2021a.md,mecanismo_testado,7,OK,,1,we can differentiate between bandwagon/underdog effects and strategic voting
+Araujo2021a,fichamento_Araujo2021a.md,moderadores_relatados,13,OK,,1,we test for this by producing separate models for voting machines
+Araujo2021a,fichamento_Araujo2021a.md,alvo_efeito,11,OK,,1,our finding that support for the announced frontrunner
+Araujo2021a,fichamento_Araujo2021a.md,n_competidores,9,OK,,1,While there were 13 candidates competing in the first round of elections
+Araujo2021a,fichamento_Araujo2021a.md,dias_ate_eleicao,6,OK,,1,voters who cast ballots after the election’s official closing time
+Araujo2021a,fichamento_Araujo2021a.md,ajuste_mediador,10,OK,,1,we control for the timing of closure of voting machines
+Araujo2021a,fichamento_Araujo2021a.md,ajuste_mediador,11,OK,,1,we also control for turnout rates
+Klor2017a,fichamento_Klor2017a.md,titulo,1,OK,,0,On Public Opinion Polls and Voters’Turnout
+Klor2017a,fichamento_Klor2017a.md,ano,1,OK,,0,September 2006
+Klor2017a,fichamento_Klor2017a.md,idioma,2,OK,,0,"Simply put, subjects overestimate the probability of casting a pivotal vote"
+Klor2017a,fichamento_Klor2017a.md,pais_estudo,11,OK,,0,Theory at The Hebrew University of Jerusalem
+Klor2017a,fichamento_Klor2017a.md,pais_estudo,2,OK,,0,gubernatorial elections in the U.S. between 1990 and 2005
+Klor2017a,fichamento_Klor2017a.md,tipo_estudo,12,OK,,0,equal probability rule randomly assigned each subject to one of two teams
+Klor2017a,fichamento_Klor2017a.md,tipo_estudo,46,OK,,0,Random Effect Probit Estimates of Voting Decisions in the Second Stage
+Klor2017a,fichamento_Klor2017a.md,problema_pesquisa,3,OK,,0,This paper analyses experimentally and empirically the impact that the provision of
+Klor2017a,fichamento_Klor2017a.md,unidade_analise,14,OK,,0,the unit of observation is the subject
+Klor2017a,fichamento_Klor2017a.md,populacao,11,OK,,0,recruited from the pool of undergraduate and graduate students from The Hebrew
+Klor2017a,fichamento_Klor2017a.md,populacao,24,OK,,0,Our data set consists of 143 gubernatorial elections in 47 states
+Klor2017a,fichamento_Klor2017a.md,periodo_dados,24,OK,,0,"elections between 1990 and 2005 where Mason-Dixon Polling and Research, Inc. conducted"
+Klor2017a,fichamento_Klor2017a.md,fonte_dados,12,OK,,0,Each experimental session entailed 20 independent rounds
+Klor2017a,fichamento_Klor2017a.md,fonte_dados,1,OK,,0,for providing us with the data on gubernatorial elections
+Klor2017a,fichamento_Klor2017a.md,intervencao_descricao,13,OK,,0,In this stage subjects are told the electorate’s distribution of preferences
+Klor2017a,fichamento_Klor2017a.md,intervencao_descricao,23,OK,,0,the results of pre-election polls on gubernatorial races in the
+Klor2017a,fichamento_Klor2017a.md,familia_intervencao,23,OK,,0,the results of pre-election polls on gubernatorial races in the
+Klor2017a,fichamento_Klor2017a.md,familia_intervencao,23,OK,,0,were published by newspaper media within
+Klor2017a,fichamento_Klor2017a.md,comparador,14,OK,,0,the average turnout rate before the provision of information
+Klor2017a,fichamento_Klor2017a.md,construto_outcome,2,OK,,0,preferences has on voters’turnout decisions
+Klor2017a,fichamento_Klor2017a.md,construto_outcome,2,OK,,0,leading according to the polls and the other party is larger than
+Klor2017a,fichamento_Klor2017a.md,outcome_medida,13,OK,,0,She decides whether to vote or abstain
+Klor2017a,fichamento_Klor2017a.md,outcome_medida,24,OK,,0,between the two parties according to the electoral
+Klor2017a,fichamento_Klor2017a.md,mecanismo_id,2,OK,,0,is driven by the subjects’(incorrect) beliefs of casting a pivotal vote
+Klor2017a,fichamento_Klor2017a.md,mecanismo_tipo_evidencia,22,OK,,0,by each subject’s beliefs of casting a pivotal vote conditional
+Klor2017a,fichamento_Klor2017a.md,mecanismo_descricao,5,OK,,0,when they belong to the team with a slight majority
+Klor2017a,fichamento_Klor2017a.md,mecanismo_descricao,5,OK,,0,choose the strategy that maximizes their utility based on their
+Klor2017a,fichamento_Klor2017a.md,moderador_id,17,OK,,0,We estimate equation (4.1) separately for each
+Klor2017a,fichamento_Klor2017a.md,moderador_id,15,OK,,0,the participation of voters supporting the slightly larger team
+Klor2017a,fichamento_Klor2017a.md,moderador_descricao,16,OK,,0,the turnout rate of subjects that belong to a team of three
+Klor2017a,fichamento_Klor2017a.md,moderador_descricao,16,OK,,0,but lowers the turnout of subjects supporting the large team
+Klor2017a,fichamento_Klor2017a.md,het_metodo,17,OK,,0,We estimate equation (4.1) separately for each
+Klor2017a,fichamento_Klor2017a.md,het_metodo,18,OK,,0,including the interaction between majority and number of rounds
+Klor2017a,fichamento_Klor2017a.md,het_pre_especificada,11,OK,,0,Note that in the QSNE for every distribution of preferences individuals in the minority
+Klor2017a,fichamento_Klor2017a.md,efeitos_nao_intencionais,16,OK,,0,but lowers the turnout of subjects supporting the large team
+Klor2017a,fichamento_Klor2017a.md,efeitos_nao_intencionais,16,OK,,0,after learning that they belong to a team of size seven
+Klor2017a,fichamento_Klor2017a.md,limitacoes_autores,26,OK,,0,the empirical analysis is correlational in nature – it can’t by itself
+Klor2017a,fichamento_Klor2017a.md,b2_estrategia_identificacao,12,OK,,0,equal probability rule randomly assigned each subject to one of two teams
+Klor2017a,fichamento_Klor2017a.md,b2_hipoteses_testes,6,OK,,0,we use a random and anonymous reassignment procedure
+Klor2017a,fichamento_Klor2017a.md,b2_hipoteses_testes,22,OK,,0,Our results don’t change if we use either survey instead of the
+Klor2017a,fichamento_Klor2017a.md,b2_estimador,46,OK,,0,Random Effect Probit Estimates of Voting Decisions in the Second Stage
+Klor2017a,fichamento_Klor2017a.md,b2_estimando,12,OK,,0,equal probability rule randomly assigned each subject to one of two teams
+Klor2017a,fichamento_Klor2017a.md,b2_nivel_atribuicao_cluster,12,OK,,0,divided 21 subjects into three electorates of seven participants each
+Klor2017a,fichamento_Klor2017a.md,b2_nivel_atribuicao_cluster,14,OK,,0,with the subject as the random factor
+Klor2017a,fichamento_Klor2017a.md,b2_n_total,46,OK,,0,Observations 854 378 203
+Klor2017a,fichamento_Klor2017a.md,b2_controles,46,OK,,0,First Stage Voting Decision
+Klor2017a,fichamento_Klor2017a.md,b2_controles,17,OK,,0,We also include in the analysis a time trend
+Klor2017a,fichamento_Klor2017a.md,b2_modelo_principal,17,OK,,0,Table 2 presents the estimated
+Klor2017a,fichamento_Klor2017a.md,b2_modelo_principal,25,OK,,0,the estimation of a fractional polynomial of
+Klor2017a,fichamento_Klor2017a.md,b2_criterio_modelo_principal,18,OK,,0,increases the probability of voting by slightly over 10 percent
+Klor2017a,fichamento_Klor2017a.md,b2_direcao_estimativa_principal,29,OK,,0,frontrunner alternative increases its relative support in the elections
+Klor2017a,fichamento_Klor2017a.md,b2_direcao_estimativa_principal,14,OK,,0,a distribution of teams of sizes three and four is 40 percent
+Klor2017a,fichamento_Klor2017a.md,b2_significancia_05,18,OK,,0,relative to the other coe¢ cients and statistically signi...cant
+Klor2017a,fichamento_Klor2017a.md,b2_significancia_05,26,OK,,0,is statistically greater than zero at the 2.5%
+Klor2017a,fichamento_Klor2017a.md,b2_interpretacao_autores,29,OK,,0,larger for the alternative with a slight majority according to the poll
+Klor2017a,fichamento_Klor2017a.md,regiao,2,OK,,0,gubernatorial elections in the U.S. between 1990 and 2005
+Klor2017a,fichamento_Klor2017a.md,regiao,11,OK,,0,Theory at The Hebrew University of Jerusalem
+Klor2017a,fichamento_Klor2017a.md,tipo_eleicao,12,OK,,0,assigned each subject to one of two teams: Green or Blue
+Klor2017a,fichamento_Klor2017a.md,sistema_eleitoral,12,OK,,0,the team she prefers is selected by majority voting in an election
+Klor2017a,fichamento_Klor2017a.md,desenho_fino,12,OK,,0,converted each token to NIS 0.25 and paid the subjects in cash
+Klor2017a,fichamento_Klor2017a.md,desenho_fino,12,OK,,0,equal probability rule randomly assigned each subject to one of two teams
+Klor2017a,fichamento_Klor2017a.md,realismo_contexto,12,OK,,0,assigned each subject to one of two teams: Green or Blue
+Klor2017a,fichamento_Klor2017a.md,realismo_contexto,12,OK,,0,Voting entails a cost of 4 tokens
+Klor2017a,fichamento_Klor2017a.md,ano_eleicao,24,OK,,0,"elections between 1990 and 2005 where Mason-Dixon Polling and Research, Inc. conducted"
+Klor2017a,fichamento_Klor2017a.md,comparador_tipo,14,OK,,0,the average turnout rate before the provision of information
+Klor2017a,fichamento_Klor2017a.md,nivel_desfecho,12,OK,,0,Voting entails a cost of 4 tokens
+Klor2017a,fichamento_Klor2017a.md,nivel_desfecho,13,OK,,0,She decides whether to vote or abstain
+Klor2017a,fichamento_Klor2017a.md,margem_mostrada,16,OK,,0,belong to teams of size three and four
+Klor2017a,fichamento_Klor2017a.md,margem_mostrada,25,OK,,0,was less than 10 percentage points and the rest of the elections
+Klor2017a,fichamento_Klor2017a.md,mecanismo_testado,22,OK,,0,by each subject’s beliefs of casting a pivotal vote conditional
+Klor2017a,fichamento_Klor2017a.md,moderadores_relatados,17,OK,,0,We estimate equation (4.1) separately for each
+Klor2017a,fichamento_Klor2017a.md,moderadores_relatados,15,OK,,0,the participation of voters supporting the slightly larger team
+Klor2017a,fichamento_Klor2017a.md,alvo_efeito,15,OK,,0,the participation of voters supporting the slightly larger team
+Klor2017a,fichamento_Klor2017a.md,alvo_efeito,16,OK,,0,the turnout rate of subjects that belong to a team of three
+Klor2017a,fichamento_Klor2017a.md,n_competidores,8,OK,,0,decide between two alternatives
+Klor2017a,fichamento_Klor2017a.md,ajuste_mediador,22,OK,,0,appear on Column (2) of Table 2
+Meer2015a,fichamento_Meer2015a.md,titulo,1,OK,,0,Off the fence onto the bandwagon? A large-scale survey experiment
+Meer2015a,fichamento_Meer2015a.md,ano,1,OK,,0,Armen Hakhverdian & Loes Aaldering (2016)
+Meer2015a,fichamento_Meer2015a.md,tipo_publicacao,1,OK,,0,"International Journal for Public Opinion Research 28(1), 46-72."
+Meer2015a,fichamento_Meer2015a.md,idioma,1,OK,,0,"Opinion polls, survey experiment, bandwagon, momentum, party preference, vote intention, voters"
+Meer2015a,fichamento_Meer2015a.md,pais_estudo,4,OK,,0,Our survey experiment is situated in the Netherlands
+Meer2015a,fichamento_Meer2015a.md,tipo_estudo,9,OK,,0,respondents were randomly (and automatically) assigned
+Meer2015a,fichamento_Meer2015a.md,problema_pesquisa,1,OK,,0,We test to what extent success in real-life polling outcomes
+Meer2015a,fichamento_Meer2015a.md,unidade_analise,9,OK,,0,"This wave of the 1VOP covers a total of 23,421 respondents"
+Meer2015a,fichamento_Meer2015a.md,populacao,1,OK,,0,"a diverse cross-section of the Dutch electorate (n=23,421)"
+Meer2015a,fichamento_Meer2015a.md,periodo_dados,9,OK,,0,was held in the days after May 16th 2012
+Meer2015a,fichamento_Meer2015a.md,periodo_dados,9,OK,,0,September 2006 and September 2012
+Meer2015a,fichamento_Meer2015a.md,fonte_dados,9,OK,,0,We embedded our survey experiment in the EenVandaag Opinion Panel (1VOP)
+Meer2015a,fichamento_Meer2015a.md,fonte_dados,14,OK,,0,electoral volatility in the 90 1VOP waves before
+Meer2015a,fichamento_Meer2015a.md,intervencao_descricao,11,OK,,0,five of the seven groups to the actual opinion poll results
+Meer2015a,fichamento_Meer2015a.md,intervencao_descricao,12,OK,,0,(+6 seats compared to 3 months before)
+Meer2015a,fichamento_Meer2015a.md,familia_intervencao,11,OK,,0,opinion poll results of the previous week
+Meer2015a,fichamento_Meer2015a.md,comparador,11,OK,,0,"The control group received no poll outcome, no interpretation, and no question"
+Meer2015a,fichamento_Meer2015a.md,comparador,29,OK,,0,Treatment (ref: dry poll outcome)
+Meer2015a,fichamento_Meer2015a.md,construto_outcome,12,OK,,0,Which party would you vote for if parliamentary elections were held today?
+Meer2015a,fichamento_Meer2015a.md,outcome_medida,12,OK,,0,all respondents received the same question on their current
+Meer2015a,fichamento_Meer2015a.md,mecanismo_id,6,OK,,0,Four mechanisms to explain the bandwagon effect
+Meer2015a,fichamento_Meer2015a.md,mecanismo_tipo_evidencia,8,OK,,0,we can disentangle some of the mechanisms that underlie the bandwagon
+Meer2015a,fichamento_Meer2015a.md,mecanismo_descricao,20,OK,,0,not the poll outcome itself that matters
+Meer2015a,fichamento_Meer2015a.md,mecanismo_descricao,6,OK,,0,the preferences of the collective as a useful heuristic cue
+Meer2015a,fichamento_Meer2015a.md,moderador_id,14,OK,,0,expand on these models for the conditional hypotheses by interacting the treatments
+Meer2015a,fichamento_Meer2015a.md,moderador_descricao,14,OK,,0,"(1) previous PvdA-preference, (2) electoral volatility, and (3) level of"
+Meer2015a,fichamento_Meer2015a.md,moderador_descricao,18,OK,,0,but not among those who are in doubt (on the fence)
+Meer2015a,fichamento_Meer2015a.md,het_metodo,20,OK,,0,none of the cross-level interaction effects in our main analyses were
+Meer2015a,fichamento_Meer2015a.md,het_pre_especificada,8,OK,,0,The bandwagon vote is more pronounced (a) among voters that had contemplated
+Meer2015a,fichamento_Meer2015a.md,equidade_progress_plus,17,OK,,0,treatments with level of education are significant
+Meer2015a,fichamento_Meer2015a.md,efeitos_nao_intencionais,20,OK,,0,We find no evidence that framing of parties as electoral losers
+Meer2015a,fichamento_Meer2015a.md,efeitos_nao_intencionais,22,OK,,0,might lead to a self-fulfilling prophecy
+Meer2015a,fichamento_Meer2015a.md,limitacoes_autores,20,OK,,0,"our study required more power than the 23,421 respondents we had"
+Meer2015a,fichamento_Meer2015a.md,limitacoes_autores,20,OK,,0,are borderline significant at the .05-level
+Meer2015a,fichamento_Meer2015a.md,b2_estrategia_identificacao,9,OK,,0,to one of ten treatment conditions
+Meer2015a,fichamento_Meer2015a.md,b2_hipoteses_testes,10,OK,,0,We confirmed that there were no significant or substantive differences
+Meer2015a,fichamento_Meer2015a.md,b2_hipoteses_testes,32,OK,,0,additional test of equivalence (Wellek 2010) within a predefined interval
+Meer2015a,fichamento_Meer2015a.md,b2_estimador,29,OK,,0,Logistic regression analyses. Standard errors between brackets; one-sided tests
+Meer2015a,fichamento_Meer2015a.md,b2_estimando,13,OK,,0,less likely to read the vignettes intensively
+Meer2015a,fichamento_Meer2015a.md,b2_nivel_atribuicao_cluster,9,OK,,0,respondents were randomly (and automatically) assigned
+Meer2015a,fichamento_Meer2015a.md,b2_nivel_atribuicao_cluster,29,OK,,0,Standard errors between brackets; one-sided tests
+Meer2015a,fichamento_Meer2015a.md,b2_n_total,29,OK,,0,10643
+Meer2015a,fichamento_Meer2015a.md,b2_n_total,16,OK,,0,including additional controls (model 1)
+Meer2015a,fichamento_Meer2015a.md,b2_controles,14,OK,,0,"by six control variables: gender, level"
+Meer2015a,fichamento_Meer2015a.md,b2_controles,14,OK,,0,"participation rate in the 1VOP before May 2012, electoral volatility"
+Meer2015a,fichamento_Meer2015a.md,b2_dp_y_tipo,15,OK,,0,ranges from 16.5% in the control groups to 18.5%
+Meer2015a,fichamento_Meer2015a.md,b2_teste_falsificacao,32,OK,,0,rule out any treatment effect of the survey question itself
+Meer2015a,fichamento_Meer2015a.md,b2_modelo_principal,16,OK,,0,In Table 2 we perform logistic regression analyses to explain the intention
+Meer2015a,fichamento_Meer2015a.md,b2_criterio_modelo_principal,16,OK,,0,findings support hypothesis 2 (point of reference) and hypothesis 3 (framing)
+Meer2015a,fichamento_Meer2015a.md,b2_direcao_estimativa_principal,16,OK,,0,the positive effect of a growth trigger is even stronger
+Meer2015a,fichamento_Meer2015a.md,b2_significancia_05,15,OK,,0,"had a significant, positive effect on subsequent vote"
+Meer2015a,fichamento_Meer2015a.md,b2_interpretacao_autores,19,OK,,0,Our results are consistent with the existence of bandwagon vote
+Meer2015a,fichamento_Meer2015a.md,regiao,4,OK,,0,Our survey experiment is situated in the Netherlands
+Meer2015a,fichamento_Meer2015a.md,tipo_eleicao,12,OK,,0,Which party would you vote for if parliamentary elections
+Meer2015a,fichamento_Meer2015a.md,sistema_eleitoral,4,OK,,0,the Netherlands has a proportional electoral system and a
+Meer2015a,fichamento_Meer2015a.md,desenho_fino,8,OK,,0,a large-scale panel survey experiment
+Meer2015a,fichamento_Meer2015a.md,realismo_contexto,4,OK,,0,Because our experiment does not use fabricated poll outcomes
+Meer2015a,fichamento_Meer2015a.md,ano_eleicao,4,OK,,0,elections of 12 September 2012
+Meer2015a,fichamento_Meer2015a.md,comparador_tipo,29,OK,,0,Treatment (ref: dry poll outcome)
+Meer2015a,fichamento_Meer2015a.md,nivel_desfecho,12,OK,,0,all respondents received the same question on their current
+Meer2015a,fichamento_Meer2015a.md,mecanismo_testado,21,OK,,0,(Ansolabehere & Iyengar 1994) or the cue taking mechanism (Mutz 1998)
+Meer2015a,fichamento_Meer2015a.md,mecanismo_testado,15,OK,,0,Being exposed to dry poll results did not affect intention to vote
+Meer2015a,fichamento_Meer2015a.md,moderadores_relatados,14,OK,,0,"(1) previous PvdA-preference, (2) electoral volatility, and (3) level of"
+Meer2015a,fichamento_Meer2015a.md,alvo_efeito,12,OK,,0,the score of the PvdA was mentioned as fourth
+Meer2015a,fichamento_Meer2015a.md,alvo_efeito,28,OK,,0,PvdA 20 seats; SP 29 seats
+Meer2015a,fichamento_Meer2015a.md,n_competidores,12,OK,,0,in a list of eleven parties
+Meer2015a,fichamento_Meer2015a.md,ajuste_mediador,14,OK,,0,"participation rate in the 1VOP before May 2012, electoral volatility"

@@ -1,0 +1,51 @@
+posicao,id_openalex,titulo,ano,doi,citado_por
+1,W2961388998,Gender stereotypes have changed: A cross-temporal meta-analysis of U.S. public opinion polls from 1946 to 2018.,2019,10.1037/amp0000494,1124
+2,W2039598650,Pre-election polls and the dynamics of the 1997 Canadian federal election,2001,10.1016/s0261-3794(00)00003-2,8
+3,W3009820143,The Bandwagon Effect in an Online Voting Experiment With Real Political Organizations,2020,10.1093/ijpor/edaa008,37
+4,W2078504413,A meta-analysis of the effects of viewing U.S. presidential debates,2003,10.1080/0363775032000179133,315
+5,W3159826748,Effect of Air Pollution on Obesity in Children: A Systematic Review and Meta-Analysis,2021,10.3390/children8050327,83
+6,W2753722652,Understanding Public Opinion Polls,2017,10.1201/9781315154220,13
+7,W2759900990,Interactions between physicians and the pharmaceutical industry generally and sales representatives specifically and their association with physicians’ attitudes and prescribing habits: a systematic review,2017,10.1136/bmjopen-2017-016408,298
+8,W4309561409,"Health effects of exposure to sulfur dioxide, nitrogen dioxide, ozone, and carbon monoxide between 1980 and 2019: A systematic review and meta‐analysis",2022,10.1111/ina.13170,101
+9,W1981941853,Pubertal timing in girls and depression: A systematic review,2013,10.1016/j.jad.2013.10.034,115
+10,W4250472182,Supplemental Material for Gender Stereotypes Have Changed: A Cross-Temporal Meta-Analysis of U.S. Public Opinion Polls From 1946 to 2018,2019,10.1037/amp0000494.supp,13
+11,W3196256417,Is There Any Research Evidence Beyond Surveys and Opinion Polls on Automatic Substitution of Biological Medicines? A Systematic Review,2021,10.1007/s40259-021-00493-8,8
+12,W2038250751,"Perfused, Pulseless, and Puzzling: A Systematic Review of Vascular Injuries in Pediatric Supracondylar Humerus Fractures and Results of a POSNA Questionnaire",2010,10.1097/bpo.0b013e3181da0452,123
+13,W4220892480,Effects of Frailty on Outcomes Following Surgery Among Patients With Hip Fractures: A Systematic Review and Meta-Analysis,2022,10.3389/fmed.2022.829762,35
+14,W2131627661,Long-term data resilience using opinion polls,2003,10.1109/pccc.2003.1203705,5
+15,W3091976268,Effectiveness of denture microwave disinfection for treatment of denture stomatitis: A systematic review and meta‐analysis,2020,10.1111/idh.12477,22
+16,W2900921661,"CAV1 polymorphisms rs1049334, rs1049337, rs7804372 might be the potential risk in tumorigenicity of urinary cancer: A systematic review and meta-analysis",2018,10.1016/j.prp.2018.11.009,32
+17,W4244193968,Opinion Polls and Volatile Electorates,2019,10.4324/9780429450815,2
+18,W2964410052,The Quality of Public Opinion Poll Coverage in German National Newspapers during Federal Election Campaigns,2019,10.1093/ijpor/edz024,5
+19,W4401867941,Factors Influencing the Physician Prescribing Behaviour of Medicines in Developed and Developing Countries: A Systematic Review,2023,10.51847/zs3boqgkso,31
+20,W4312457220,Digital Business Entrepreneurship Decisions: An E-Business Analysis (A Study Literature Review),2022,10.34306/sabda.v1i1.77,29
+21,W1498827460,Public Opinion Polls and Surveys as Evidence: Suggestions for Resolving Confusing and Conflicting Standards Governing Weight and Admissibility,1991,,3
+22,W4362455011,"The effectiveness of exercise on global cognitive function, balance, depression symptoms, and sleep quality in patients with mild cognitive impairment: A systematic review and meta-analysis",2023,10.1016/j.gerinurse.2023.03.013,15
+23,W4381624088,Digital Business Entrepreneurship Decisions: An E-Business Analysis (A Study Literature Review),2022,10.33050/sabda.v1i1.77,24
+24,W4413449577,Risks and benefits of artificial intelligence deepfakes: Systematic review and comparison of public attitudes in seven European Countries,2025,10.1016/j.jik.2025.100782,35
+25,W2504266396,Between alliance and home front considerations: The German armed forces and security-related opinion polls,2009,10.1108/s1572-8323(2009)000012b010,2
+26,W4321850418,The deviations of CD4 + T cells during peripheral blood and peritoneal fluid of endometriosis: a systematic review and meta-analysis,2023,10.1007/s00404-023-06964-3,9
+27,W1573737391,A critical review of studies investigating the quality of data obtained with online panels based on probability and nonprobability samples1,2014,10.1002/9781118763520.ch2,106
+28,W2593096751,Quality of Life and Gender Equality: Some Conclusions from a Public Opinion Poll in Poland,2017,10.1007/978-3-319-49899-7_7,1
+29,W2226412907,UK Public Opinion Review - Working Paper - An overview of public opinion polls since the Edward Snowden revelations in June 2013,2015,,1
+30,W1992848801,"The voter says no, but nobody listens: causes and consequences of the Eurosceptic vote in the 2014 European elections",2014,10.1080/13501763.2014.941534,275
+31,W1540299321,Biosimilars—why terminology matters,2011,10.1038/nbt.1936,213
+32,W2793506630,"Building Faith in Democracy: Deliberative Events, Political Trust and Efficacy",2018,10.1177/0032321718761466,134
+33,W2340899647,Research on stigma related to mental disorders in Finland: a systematic literature review,2011,,10
+34,W4294904467,"Ask a Political Scientist: A Conversation with Michael S. Lewis-Beck about Vote Choice, Election Forecasting, and the 2022 Midterms",2022,10.1086/721674,2
+35,W2185696714,MULTILEVEL MODELS IN META-ANALYSIS OF PRE-ELECTION POLL ACCURACY MEASURES,2013,,0
+36,W2161948654,Confusion Between Euthanasia and Other End-of-Life Decisions,2007,10.1007/bf03403719,63
+37,W2789629654,The effect of observable party cohesion on voter choice in liberal democracies,2018,,4
+38,W3157548755,Meta-analysis of association of microRNAs genetic variants with susceptibility to rheumatoid arthritis and systemic lupus erythematosus,2021,10.1097/md.0000000000025689,11
+39,W2410206355,[An overview on palliative care and the end of life. Results of a survey conducted in a sample of the French population].,2003,,13
+40,W2008280630,Solid waste management practices and review of recovery and recycling operations in Turkey,2003,10.1016/s0956-053x(03)00070-9,153
+41,W4393979066,MENINGKATKAN KETERAMPILAN BERPIKIR KRITIS SISWA MELALUI METODE DISKUSI KELOMPOK: LITERATURE REVIEW,2022,10.46306/jpee.v1i2.19,4
+42,W2361356608,The 2015 Portuguese Legislative Election: Widening the Coalitional Space and Bringing the Extreme Left in,2016,10.1080/13608746.2016.1181862,70
+43,W2576024706,Sentiment Analysis: A Comprehensive Overview and the State of Art Research Challenges,2016,10.17485/ijst/2016/v9i47/108465,5
+44,W2153536620,"Jeff Manza, Fay Lomax Cook, and Benjamin I. Page, eds. Navigating Public Opinion: Polls, Policy, and the Future of American Democracy. Oxford and New York: Oxford University Press. 2002. 376 pp. $72.00 (cloth); $19.95 (paper).",2004,10.1093/poq/nfh018,1
+45,W4408949971,Risk factors for colonization and infection by multi drug resistant Pseudomonas aeruginosa in Intensive Care Unit: a Systematic Review and Meta-analysis,2025,10.21203/rs.3.rs-5478983/v1,1
+46,W2346683826,The marriage equality referendum 2015,2016,10.1080/07907184.2016.1158162,53
+47,W4398156084,Comparison of the Effects of Full Median Sternotomy vs. Mini-Incision on Postoperative Pain in Cardiac Surgery: A Meta-Analysis,2024,10.21470/1678-9741-2023-0154,5
+48,W2094041443,"Ecologically Sustainable Development in a ‘Quarry’ Economy: One Step Forward, Two Steps Back",2006,10.1111/j.1745-5871.2006.00376.x,47
+49,W3012188633,Association between MTHFR C677T polymorphism and non-traumatic osteonecrosis of the femoral head: An update meta-analysis,2020,10.1515/pteridines-2020-0005,4
+50,W641321494,Compilation of Public Opinion Data on Tolls and Road Pricing,2008,10.17226/14151,55

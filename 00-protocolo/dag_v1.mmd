@@ -1,0 +1,31 @@
+%% DAG v1, 19/09/2026. Rascunho gerado por IA (Claude Opus 5), setas descritas em teoria_programa.md (tabela por elo e papéis).
+%% Moderadores ficam fora do grafo (tabela Z). Recorrência desdobrada no tempo (pesquisa_t1 -> apoio_t2 -> pesquisa_t2).
+%% Arestas declaradas: apoio_latente->pesquisa_t1; apoio_latente->apoio_ao_lider; interesse_politico->exposicao;
+%% interesse_politico->apoio_ao_lider; preferencia_previa->exposicao; preferencia_previa->apoio_ao_lider; pesquisa_t1->exposicao; exposicao->percepcao_viabilidade;
+%% percepcao_viabilidade->calculo_estrategico; calculo_estrategico->apoio_ao_lider; exposicao->heuristica_consenso;
+%% heuristica_consenso->apoio_ao_lider; exposicao->conformidade; conformidade->apoio_ao_lider;
+%% exposicao->simpatia_azarao; simpatia_azarao->apoio_ao_lider; exposicao->emocoes; emocoes->apoio_ao_lider;
+%% exposicao-.->complacencia; complacencia-.->desmobilizacao; divulgacao_enviesada-.->pesquisa_t1;
+%% exposicao->resposta_ao_survey; apoio_ao_lider->resposta_ao_survey; apoio_ao_lider->pesquisa_t2
+flowchart LR
+  AL[apoio_latente] --> P1[pesquisa_t1]
+  AL --> Y1[apoio_ao_lider]
+  IP[interesse_politico] --> X[exposicao]
+  IP --> Y1
+  PP[preferencia_previa] --> X
+  PP --> Y1
+  P1 --> X
+  X --> M1[percepcao_viabilidade] --> M2[calculo_estrategico] --> Y1
+  X --> M3[heuristica_consenso] --> Y1
+  X --> M4[conformidade] --> Y1
+  X --> M5[simpatia_azarao] --> Y1
+  X --> M6[emocoes] --> Y1
+  X -.-> PV[complacencia] -.-> Y2[desmobilizacao]
+  DE[divulgacao_enviesada] -.-> P1
+  X --> S[resposta_ao_survey]
+  Y1 --> S
+  Y1 --> P2[pesquisa_t2]
+  classDef perverso stroke-dasharray: 5 5
+  classDef colisor fill:#fde2e2
+  class PV,Y2,DE perverso
+  class S colisor

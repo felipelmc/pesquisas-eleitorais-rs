@@ -1,0 +1,37 @@
+---
+citekey: Schuck2011a
+ficha_id: Schuck2011a
+n_fichas_do_texto: 1
+pdf_path: /Users/felipelmc/revisoes/pesquisas-eleitorais/03-textos/pdfs/Schuck2011a.pdf
+paginacao: impressa
+offset_pagina: 1
+agente_fichador: elegib-opus5-077
+data_fichamento: 2026-09-19
+---
+
+## Identificacao
+- **texto_confere** — resposta: parcial; mesmo título principal ('Who's afraid of conflict?'), mesmos autores (Schuck, Vliegenthart, de Vreese) e mesmo ano (2011), mas o subtítulo do documento é 'How conflict framing in campaign news mobilizes voters', e não 'How conflict framing in campaign news coverage mobilized voters in the 2009 European Parliamentary elections'; trata-se do paper apresentado na 6th ECPR General Conference (versão 'Submitted manuscript' no UvA-DARE), ou seja, outra versão do mesmo trabalho sobre as eleições europeias de 2009 — evidência: "How conflict framing in campaign news mobilizes voters" (p. 1)
+- **tipo_documento** — resposta: evento (paper apresentado na 6th ECPR General Conference, Reykjavik, 25 a 27 de agosto de 2011) — evidência: "Paper presented at the" (p. 1); "ECPR General Conference" (p. 1)
+
+## Criterios de elegibilidade
+- **c1_populacao_contexto** — resposta: Sim, eleitores de 21 Estados-membros da UE entrevistados antes e depois das eleições para o Parlamento Europeu de 2009 (eleição real). — evidência: "panel survey was carried out in 21 European Union member states" (p. 13); "Respondents were interviewed about one month prior to the EP elections" (p. 13)
+- **c2_intervencao_estudada** — resposta: Não, a exposição analisada é o enquadramento de conflito e de estratégia (referência a vencedores ou perdedores) na cobertura noticiosa da campanha, ponderado pela exposição individual a cada veículo; resultados de pesquisas eleitorais não são a exposição estudada. — evidência: "The core independent variable in this study is news exposure." (p. 16); "A strategy frame was considered to be present when a given" (p. 13)
+- **c3_desfecho** — resposta: Sim, desfecho de comparecimento: comparecimento autodeclarado na onda 2 (votou = 1), controlando pela intenção de comparecer na onda 1; não há desfecho de voto em candidato ou partido. — evidência: "Our key dependent variable in the present study is turnout." (p. 14); "Respondents were asked to indicate if they voted in the election" (p. 15)
+- **c4_desenho_elegivel** — resposta: Sim, painel individual de duas ondas (antes e depois da eleição) com termo defasado de intenção de comparecer e comparação entre níveis de exposição a notícias ponderada pela análise de conteúdo (a exposição, porém, não é a pesquisas eleitorais). — evidência: "with data from a two-wave panel survey conducted in 21 countries" (p. 2); "We controlled for turnout intention at time 1 and assessed" (p. 14)
+- **c5_estudo_primario** — resposta: Sim, estudo primário com análise própria de dados de análise de conteúdo da mídia e de painel. — evidência: "study design we combine a media content analysis" (p. 2); "The data for this study come from the 2009 European Election Campaign" (p. 13)
+- **c6_nao_retratado** — resposta: Sim, não há aviso de retratação no documento (a checagem externa cabe ao coordenador). — evidência: "How conflict framing in campaign news mobilizes voters" (p. 1)
+
+## Ligacao de relatos
+- **outros_relatos_mesmo_estudo** — resposta: O documento remete a relatórios de documentação dos mesmos dados: Schuck et al. (2010), relatório de dados da análise de conteúdo PIREDEU, e de Vreese et al. (2010), '2009 European Election Campaign Study, Scenario I: Data and Documentation' (painel); cita também artigos dos mesmos autores com os mesmos dados de análise de conteúdo das eleições europeias de 2009 (Schuck et al. 2011a, Journal of Political Marketing, no prelo; Schuck et al. 2011b, Electoral Studies, no prelo). A folha de rosto do repositório identifica o arquivo como 'Submitted manuscript' do paper da ECPR 2011. — evidência: "see data documentation report in Schuck et al. 2010" (p. 12); "Campaign Study, Scenario I: Data and Documentation" (p. 23); "For more information, see de Vreese et al.," (p. 14)
+- **fonte_dados_amostra** — resposta: Análise de conteúdo (PIREDEU) de 52.009 notícias de TV e jornais nacionais dos 27 Estados-membros da UE nas três semanas anteriores às eleições europeias de 2009, combinada com painel online (CAWI) de duas ondas do 2009 European Election Campaign Study em 21 Estados-membros (onda 1, 6 a 18 de maio de 2009, 32.411 respondentes; onda 2, 8 a 19 de junho de 2009, 22.806 respondentes; N analítico dos modelos = 21.790). — evidência: "52,009 news stories have been coded in all 27 EU-member countries" (p. 12); "A total of 32,411 respondents participated" (p. 13); "and 22,806 respondents participated in wave two" (p. 13); "N= 21,790" (p. 33)
+- **registro_financiamento** — resposta: Sem pré-registro. Financiamento citado sem número de processo: PIREDEU financiado pelo 7º Programa-Quadro (FP7) da União Europeia; o estudo de painel foi financiado pela Dutch National Science Foundation (VICI grant), com bolsas adicionais da Danish Science Foundation, da University of Amsterdam e da Swedish Riksbanken Foundation. — evidência: "PIREDEU is funded by the European Union" (p. 12); "funded by the Dutch National Science Foundation (VICI grant)" (p. 36)
+
+## Notas do codificador
+- Documento lido por inteiro (páginas 1 a 40 do PDF, em duas faixas de 20).
+- Offset de página: a p. 1 do PDF é a folha de rosto do repositório UvA-DARE (sem número); a p. 2 do PDF é a folha de rosto do paper (sem número impresso, equivale à p. 1 impressa); o resumo traz o número impresso 2 na p. 3 do PDF. Confirmado em páginas distantes: impressa 19 = PDF 20, impressa 33 (Tabela 1) = PDF 34, impressa 36 (notas finais) = PDF 37, impressa 39 = PDF 40. Logo, offset_pagina = 1. As evidências de p. 1 vêm da folha de rosto do paper (PDF 2).
+- texto_confere: respondi "parcial" porque o subtítulo do PDF ("How conflict framing in campaign news mobilizes voters") difere do subtítulo do registro ("How conflict framing in campaign news coverage mobilized voters in the 2009 European Parliamentary elections"), embora título principal, autores, ano e objeto (eleições europeias de 2009) coincidam. O PDF é o paper da 6th ECPR General Conference (2011), marcado como "Submitted manuscript". Se o coordenador considerar que a diferença de subtítulo não indica outra versão, a resposta passa a "Sim".
+- c2: o "strategy frame" foi codificado como menção a vencedores ou perdedores quanto ao resultado presumido da eleição (cobertura de corrida eleitoral), mas o texto não trata resultados de pesquisas eleitorais como exposição; a exposição é o grau de enquadramento de conflito e de estratégia nos veículos, combinado com o uso individual de cada veículo. Por isso "Não".
+- c4: o texto não diz em qual onda foi medida a exposição individual aos veículos (dias por semana); o desenho é de painel com termo defasado (intenção de comparecer na onda 1 e comparecimento na onda 2). Classifiquei o tipo de desenho como "Sim", ressalvando que a exposição não é a pesquisas eleitorais (o que já leva ao "Não" em c2).
+- registro_financiamento: não há número de processo nem de edital; transcrevi os programas e agências citados (FP7, VICI grant). Não há pré-registro.
+- Nas evidências de título (texto_confere e c6), a palavra "conflict" é inevitável; o PDF parece gerado por processador de texto, sem ligaduras aparentes, mas se o gate falhar por ligadura "fl", é esse o motivo.
+- Nenhuma variável com 999.

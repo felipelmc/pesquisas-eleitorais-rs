@@ -1,0 +1,86 @@
+[
+ {
+  "id_rs": "RS4543",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título não indica se a exposição estudada é resultado de pesquisa eleitoral; incerto."
+ },
+ {
+  "id_rs": "RS4548",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "\"Contextos eleitorais\" é vago demais para saber se a exposição é pesquisa eleitoral ou fator institucional."
+ },
+ {
+  "id_rs": "RS4568",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título não permite saber se é estudo primário nem qual é a exposição estudada."
+ },
+ {
+  "id_rs": "RS4574",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Não fica claro se \"experiência democrática prévia\" é a única exposição ou um moderador num desenho sobre pesquisas."
+ },
+ {
+  "id_rs": "RS4578",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição estudada é voto obrigatório vs. voluntário, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4587",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfechos do título são percepção de poder de agenda e atribuição de responsabilidade, não voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS4591",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Mecanismo de revelação de preferências em economia experimental, não escolha entre candidatos/partidos em eleição."
+ },
+ {
+  "id_rs": "RS4593",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição estudada são promessas de campanha em ambiente de risco moral, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4598",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição estudada é o tipo de eleição primária, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4599",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Artigo de metodologia estatística (modelo de escolha discreta), não estudo do efeito de pesquisas eleitorais."
+ },
+ {
+  "id_rs": "RS4609",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Experimento natural baseado na experiência histórica da RDA, não em exposição a resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4629",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição estudada é transparência de promessas de campanha, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4632",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título não indica claramente se o estudo é sobre eleições nem qual é a exposição estudada."
+ },
+ {
+  "id_rs": "RS4634",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Título não tem qualquer conteúdo eleitoral; trata de anotação por LLM vs. humano."
+ }
+]

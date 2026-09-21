@@ -1,0 +1,476 @@
+[
+ {
+  "id_rs": "RS4119",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Trata de previsão econômica geral (forecasters), sem relação com eleições."
+ },
+ {
+  "id_rs": "RS4123",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Handbook de referência sobre um país, não é estudo primário."
+ },
+ {
+  "id_rs": "RS4129",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é autoritarismo de direita e medo, não eleitoral."
+ },
+ {
+  "id_rs": "RS4130",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo que usa expectativas de pesquisa para prever votos, não estuda efeito da exposição."
+ },
+ {
+  "id_rs": "RS4133",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título ambíguo sobre convergência política, não permite decidir."
+ },
+ {
+  "id_rs": "RS4201",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Artigo de neurociência sobre o cérebro, sem relação com eleições."
+ },
+ {
+  "id_rs": "RS4208",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Revisão sobre expectativas subjetivas em economia do desenvolvimento, não eleitoral."
+ },
+ {
+  "id_rs": "RS4209",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título não indica se aborda exposição a pesquisas eleitorais."
+ },
+ {
+  "id_rs": "RS4212",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título não indica se aborda exposição a pesquisas eleitorais."
+ },
+ {
+  "id_rs": "RS4213",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Unidade de análise são partidos formando coalizões, não eleitores."
+ },
+ {
+  "id_rs": "RS4215",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é comunicação de risco de câncer, não eleitoral."
+ },
+ {
+  "id_rs": "RS4220",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título trata diretamente de bandwagon em votação, experimento."
+ },
+ {
+  "id_rs": "RS4221",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Modelo de previsão eleitoral, não estudo de exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS4252",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título ambíguo, pode envolver expectativas e voto estratégico."
+ },
+ {
+  "id_rs": "RS4267",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de correção de desinformação política, não de exposição a pesquisas eleitorais."
+ },
+ {
+  "id_rs": "RS4268",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é gamificação em educação, não eleitoral."
+ },
+ {
+  "id_rs": "RS4272",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é metodologia de escalas Likert, não eleitoral."
+ },
+ {
+  "id_rs": "RS4281",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é percepção de previsão do tempo, não eleitoral."
+ },
+ {
+  "id_rs": "RS4293",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título trata de bandwagon e voto estratégico em comportamento eleitoral."
+ },
+ {
+  "id_rs": "RS4294",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Lista de siglas e abreviações de um livro, não é estudo."
+ },
+ {
+  "id_rs": "RS4296",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é tecnologia de votação eletrônica, não resultado de pesquisa."
+ },
+ {
+  "id_rs": "RS4297",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Capítulo introdutório/teórico de livro, sem dados próprios."
+ },
+ {
+  "id_rs": "RS4315",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título menciona informação e voto estratégico, sem indicar se é sobre pesquisas."
+ },
+ {
+  "id_rs": "RS4322",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título não deixa claro se é modelo teórico ou experimento."
+ },
+ {
+  "id_rs": "RS4335",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Trata de votação em comitês, não em eleições."
+ },
+ {
+  "id_rs": "RS4339",
+  "proposta": "excluir",
+  "criterio": "C3",
+  "justificativa": "Desfecho é viés na avaliação das pesquisas, não voto nem comparecimento."
+ },
+ {
+  "id_rs": "RS4344",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é assistência à promoção da democracia, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4346",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título genérico demais para decidir."
+ },
+ {
+  "id_rs": "RS4349",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é confiança em equipes humano-robô, não eleitoral."
+ },
+ {
+  "id_rs": "RS4351",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é endosso de candidato, não resultado de pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4353",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de sistemas de voto compulsório/voluntário e informação assimétrica, não de exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS4354",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é regularidade do ciclo eleitoral, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4355",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Trata de votação em comitês, não em eleições."
+ },
+ {
+  "id_rs": "RS4356",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é transparência de promessas de campanha, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4357",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é provisão de bens públicos e monitoramento, não eleitoral."
+ },
+ {
+  "id_rs": "RS4362",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título genérico sobre crenças, não permite decidir."
+ },
+ {
+  "id_rs": "RS4367",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Analisa cobertura da imprensa sobre pesquisas sem medir voto ou comparecimento."
+ },
+ {
+  "id_rs": "RS4369",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata da precisão de pesquisas de expectativa de voto na previsão eleitoral."
+ },
+ {
+  "id_rs": "RS4370",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "População são partidos negociando formação de governo, não eleitores."
+ },
+ {
+  "id_rs": "RS4372",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é conduta partidária/apoio à democracia, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4374",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é tecnologia de votação eletrônica, não resultado de pesquisa."
+ },
+ {
+  "id_rs": "RS4377",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título não deixa claro se envolve exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS4378",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Compara previsão eleitoral por intenção declarada vs. expectativa, é sobre metodologia de previsão."
+ },
+ {
+  "id_rs": "RS4382",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é conduta de incumbentes/polarização partidária, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4383",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é redistritamento, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4384",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é acesso a caixas eletrônicos, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4385",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de previsão de eleições nos EUA."
+ },
+ {
+  "id_rs": "RS4395",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Notas jornalísticas de uma repórter, não é estudo primário."
+ },
+ {
+  "id_rs": "RS4397",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "É explicitamente um survey da literatura experimental."
+ },
+ {
+  "id_rs": "RS4401",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Votação de acionistas em processo de procuração, mercado financeiro/corporativo."
+ },
+ {
+  "id_rs": "RS4402",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é comportamento diante do autoritarismo, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4413",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Synthesis lecture introdutória sobre voto estratégico, não estudo primário."
+ },
+ {
+  "id_rs": "RS4421",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é desqualificação/filtragem de candidatos, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4428",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Livro de história de um partido político, não é estudo primário de dados."
+ },
+ {
+  "id_rs": "RS4434",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Resenha de livro (tipo editorial, Choice Reviews Online)."
+ },
+ {
+  "id_rs": "RS4439",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é jornalismo preditivo computacional, não eleitoral."
+ },
+ {
+  "id_rs": "RS4440",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título sobre primárias presidenciais não permite saber se trata de exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS4445",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Trata de inferência estatística sobre viés de pesquisas, metodologia."
+ },
+ {
+  "id_rs": "RS4449",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Resenha de livro (tipo editorial, Choice Reviews Online)."
+ },
+ {
+  "id_rs": "RS4461",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título sobre turnout em eleições grandes pode envolver informação sobre resultados parciais."
+ },
+ {
+  "id_rs": "RS4466",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Votação sobre alocação orçamentária, não é eleição de candidatos, partidos ou referendo."
+ },
+ {
+  "id_rs": "RS4468",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título trata diretamente da pergunta da revisão (pesquisas influenciam o voto)."
+ },
+ {
+  "id_rs": "RS4471",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título sobre abstenção e informação em eleições não partidárias, ambíguo quanto à exposição."
+ },
+ {
+  "id_rs": "RS4476",
+  "proposta": "seguir",
+  "criterio": "",
+  "justificativa": "Título genérico sobre divulgação de informação, sem indicar tema não eleitoral."
+ },
+ {
+  "id_rs": "RS4481",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é alegação de fraude eleitoral, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4482",
+  "proposta": "excluir",
+  "criterio": "C5",
+  "justificativa": "Introdução a número especial de revista, não é estudo primário."
+ },
+ {
+  "id_rs": "RS4499",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Guia de redação de trabalho acadêmico, não eleitoral."
+ },
+ {
+  "id_rs": "RS4500",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Capítulo sobre causalidade (metodologia geral), não eleitoral."
+ },
+ {
+  "id_rs": "RS4501",
+  "proposta": "excluir",
+  "criterio": "C4",
+  "justificativa": "Crítica metodológica sobre falácia ecológica em dados eleitorais agregados, sem desenho de exposição."
+ },
+ {
+  "id_rs": "RS4502",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Exposição é nudge comportamental para aumentar comparecimento, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4503",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é metodologia de desenhos experimentais em geral, não eleitoral."
+ },
+ {
+  "id_rs": "RS4507",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é processo decisório em grupos/comitês, não eleição."
+ },
+ {
+  "id_rs": "RS4508",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Tema é preferência por coalizões pré-eleitorais, não exposição a pesquisas."
+ },
+ {
+  "id_rs": "RS4512",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Capítulo de handbook sobre comunicação em jogos em geral, não eleitoral."
+ },
+ {
+  "id_rs": "RS4513",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Tema é metodologia de desenhos experimentais em geral, não eleitoral."
+ },
+ {
+  "id_rs": "RS4516",
+  "proposta": "excluir",
+  "criterio": "C1",
+  "justificativa": "Capítulo sobre causalidade (metodologia geral), não eleitoral."
+ },
+ {
+  "id_rs": "RS4518",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Experimento sobre método de agregação de preferências (Borda), não exposição a pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4527",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Tema é defecção de elites e quebra de sistema de partido dominante, não pesquisa eleitoral."
+ },
+ {
+  "id_rs": "RS4528",
+  "proposta": "excluir",
+  "criterio": "C2",
+  "justificativa": "Tema é política de partido dominante na Malásia, não pesquisa eleitoral."
+ }
+]

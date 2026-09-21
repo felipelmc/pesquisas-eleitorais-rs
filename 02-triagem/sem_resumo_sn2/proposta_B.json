@@ -1,0 +1,476 @@
+[
+  {
+    "id_rs": "RS4119",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Capítulo de handbook de previsão econômica; não analisa eleitores nem escolha eleitoral."
+  },
+  {
+    "id_rs": "RS4123",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Handbook geral sobre a Malásia contemporânea; coletânea sem análise própria de dados."
+  },
+  {
+    "id_rs": "RS4129",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Experimento sobre autoritarismo de direita e medo; a escolha estudada não é eleitoral."
+  },
+  {
+    "id_rs": "RS4130",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "Usa expectativas para prever as votações na eleição alemã; é previsão eleitoral, não efeito da exposição a pesquisas."
+  },
+  {
+    "id_rs": "RS4133",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Título ambíguo sobre advocacy e convergência política; não dá para descartar contexto eleitoral nem desfecho de voto."
+  },
+  {
+    "id_rs": "RS4201",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Artigo de neurociência sobre processamento probabilístico; contexto não eleitoral."
+  },
+  {
+    "id_rs": "RS4208",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Mensuração de expectativas subjetivas em economia do desenvolvimento; população não eleitoral."
+  },
+  {
+    "id_rs": "RS4209",
+    "proposta": "excluir",
+    "criterio": "C4",
+    "justificativa": "Nota descritiva sobre a eleição presidencial de 2013 na Geórgia, sem variação identificada de exposição."
+  },
+  {
+    "id_rs": "RS4212",
+    "proposta": "excluir",
+    "criterio": "C4",
+    "justificativa": "Nota descritiva sobre as eleições de 2012 na Geórgia, sem desenho que identifique efeito de exposição."
+  },
+  {
+    "id_rs": "RS4213",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "A unidade de análise são partidos que formam coligações pré-eleitorais, não eleitores."
+  },
+  {
+    "id_rs": "RS4215",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Comunicação de risco de câncer; escolha e contexto não são eleitorais."
+  },
+  {
+    "id_rs": "RS4220",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Experimento econômico sobre informação social e comportamento bandwagon em votação; plausivelmente elegível."
+  },
+  {
+    "id_rs": "RS4221",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "Modelo descentralizado de previsão eleitoral; trata de previsão, não de efeito da exposição a pesquisas."
+  },
+  {
+    "id_rs": "RS4252",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Beauty contests e voto estratégico podem envolver informação de pesquisas e escolha de voto; o título não permite descartar."
+  },
+  {
+    "id_rs": "RS4267",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a correção de desinformação política, não resultado de pesquisa eleitoral."
+  },
+  {
+    "id_rs": "RS4268",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Gamificação no ensino e no treinamento; contexto não eleitoral."
+  },
+  {
+    "id_rs": "RS4272",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Texto metodológico sobre análise de escalas Likert em ensino de farmácia; contexto não eleitoral."
+  },
+  {
+    "id_rs": "RS4281",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Percepção de previsões meteorológicas; contexto não eleitoral."
+  },
+  {
+    "id_rs": "RS4293",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Distingue voto estratégico e efeito bandwagon no comportamento eleitoral; plausivelmente elegível."
+  },
+  {
+    "id_rs": "RS4294",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Lista de siglas e abreviaturas de um livro; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4296",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a tecnologia de voto eletrônico, não resultado de pesquisa eleitoral."
+  },
+  {
+    "id_rs": "RS4297",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Capítulo de introdução e teoria de livro, sem análise própria de dados."
+  },
+  {
+    "id_rs": "RS4315",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Voto estratégico e informação no Quênia; a informação analisada pode incluir resultados de pesquisa."
+  },
+  {
+    "id_rs": "RS4322",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Experimento de votação com informação em redes; o título não permite descartar exposição a resultados de pesquisa."
+  },
+  {
+    "id_rs": "RS4335",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Votação em comitês, órgão deliberativo, e não escolha eleitoral entre candidatos ou partidos."
+  },
+  {
+    "id_rs": "RS4339",
+    "proposta": "excluir",
+    "criterio": "C3",
+    "justificativa": "O desfecho é a avaliação das pesquisas eleitorais, não voto nem comparecimento."
+  },
+  {
+    "id_rs": "RS4344",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a assistência internacional à promoção da democracia, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4346",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Artigo de teoria econômica sobre o efeito consenso, sem dados próprios."
+  },
+  {
+    "id_rs": "RS4349",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Teoria sobre confiança em equipes humano-robô; contexto não eleitoral."
+  },
+  {
+    "id_rs": "RS4351",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição manipulada são endossos enviesados de candidatos, não resultados de pesquisa eleitoral."
+  },
+  {
+    "id_rs": "RS4353",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Experimento de votação com informação assimétrica e abstenção; a informação analisada pode incluir pesquisas."
+  },
+  {
+    "id_rs": "RS4354",
+    "proposta": "excluir",
+    "criterio": "C3",
+    "justificativa": "O desfecho é a estabilidade de regimes autocráticos, não voto nem comparecimento."
+  },
+  {
+    "id_rs": "RS4355",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Versão preprint do estudo sobre votação em comitês; órgão deliberativo, não eleição."
+  },
+  {
+    "id_rs": "RS4356",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a transparência de promessas de campanha, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4357",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Experimento sobre monitoramento na provisão de bens públicos; a escolha estudada não é eleitoral."
+  },
+  {
+    "id_rs": "RS4362",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Título genérico sobre crenças a respeito dos outros e negligência de informação; contexto e desfecho não informados."
+  },
+  {
+    "id_rs": "RS4367",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Trata da cobertura de pesquisas e de seus efeitos sobre cidadãos; o título não descarta desfecho de voto."
+  },
+  {
+    "id_rs": "RS4369",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "Trata da acurácia de surveys de expectativa para prever eleições; previsão, não efeito sobre o eleitor."
+  },
+  {
+    "id_rs": "RS4370",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Analisa a barganha entre partidos na formação de governo, não eleitores escolhendo candidatos."
+  },
+  {
+    "id_rs": "RS4372",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é o partidarismo e a polarização diante de violações democráticas, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4374",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a urna eletrônica, não resultado de pesquisa eleitoral."
+  },
+  {
+    "id_rs": "RS4377",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Inferência sobre voto estratégico pode envolver crenças formadas por pesquisas; o título não permite descartar."
+  },
+  {
+    "id_rs": "RS4378",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "Compara intenção e expectativa de voto para prever eleições; é previsão eleitoral."
+  },
+  {
+    "id_rs": "RS4382",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é o conflito partidário e a subversão da democracia por incumbentes, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4383",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é o redistritamento e o alinhamento partidário, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4384",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é o acesso a caixas eletrônicos em experimento de campo, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4385",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "Trata de previsão de eleições nos EUA, não do efeito da exposição a pesquisas sobre o eleitor."
+  },
+  {
+    "id_rs": "RS4395",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Livro-reportagem sobre fake news e violência digital, sem análise própria de dados."
+  },
+  {
+    "id_rs": "RS4397",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Survey de resultados experimentais em jogos de decisão coletiva; revisão: usar na bola de neve."
+  },
+  {
+    "id_rs": "RS4401",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Voto de acionistas no processo de proxy corporativo; não é escolha eleitoral."
+  },
+  {
+    "id_rs": "RS4402",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Título curto sobre votar contra a autocracia; não informa exposição nem desenho, então fica a dúvida."
+  },
+  {
+    "id_rs": "RS4413",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Monografia didática sobre voto estratégico em escolha social computacional, sem dados próprios."
+  },
+  {
+    "id_rs": "RS4421",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a filtragem de candidatos em Hong Kong, não resultado de pesquisa eleitoral."
+  },
+  {
+    "id_rs": "RS4428",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Livro de história de um partido político malaio; não analisa eleitores expostos a pesquisas."
+  },
+  {
+    "id_rs": "RS4434",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Resenha de livro em Choice Reviews sobre observação eleitoral internacional; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4439",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "Trata do jornalismo preditivo e da prospecção computacional na imprensa, não do efeito de pesquisas sobre o voto."
+  },
+  {
+    "id_rs": "RS4440",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Livro sobre a dinâmica da escolha pública em primárias presidenciais; pode analisar expectativas e pesquisas com dados de painel."
+  },
+  {
+    "id_rs": "RS4445",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Inferência a partir de pesquisas enviesadas tem a pesquisa como exposição; o título não descarta desfecho de voto."
+  },
+  {
+    "id_rs": "RS4449",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Resenha de livro em Choice Reviews sobre integridade eleitoral; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4461",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Comparecimento com informação interina durante a eleição; o título não permite descartar exposição do tipo projeção."
+  },
+  {
+    "id_rs": "RS4466",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Experimento de campo sobre participação em votação de alocação orçamentária; o título não basta para descartar população e exposição."
+  },
+  {
+    "id_rs": "RS4468",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Pergunta diretamente se as pesquisas influenciam o voto; plausivelmente elegível."
+  },
+  {
+    "id_rs": "RS4471",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Abstenção e nível de informação em eleições não partidárias; a informação analisada pode incluir pesquisas."
+  },
+  {
+    "id_rs": "RS4476",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Experimento sobre divulgação de informação multidimensional sem contexto informado; na dúvida, seguir."
+  },
+  {
+    "id_rs": "RS4481",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada são alegações de fraude feitas por elites, não resultado de pesquisa eleitoral."
+  },
+  {
+    "id_rs": "RS4482",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Introdução editorial da segunda parte de um dossiê sobre a Turquia; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4499",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Capítulo de livro-texto sobre como escrever um trabalho científico; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4500",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Capítulo de livro-texto sobre causalidade; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4501",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a heterogeneidade espacial e urbana do voto na Malásia, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4502",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada são nudges comportamentais para aumentar o comparecimento, não resultado de pesquisa."
+  },
+  {
+    "id_rs": "RS4503",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Texto metodológico sobre avaliação de desenhos experimentais; população e contexto não são eleitorais."
+  },
+  {
+    "id_rs": "RS4507",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Capítulo de livro-texto sobre elementos do processo de decisão em grupo; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4508",
+    "proposta": "seguir",
+    "criterio": "",
+    "justificativa": "Voto em coligações pré-eleitorais tem escolha de voto como desfecho e pode manipular sinais de pesquisa."
+  },
+  {
+    "id_rs": "RS4512",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Capítulo de handbook que revisa a literatura experimental sobre comunicação em jogos; revisão: usar na bola de neve."
+  },
+  {
+    "id_rs": "RS4513",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "Capítulo metodológico sobre avaliação de desenhos experimentais; população e contexto não são eleitorais."
+  },
+  {
+    "id_rs": "RS4516",
+    "proposta": "excluir",
+    "criterio": "C5",
+    "justificativa": "Capítulo de livro-texto sobre causalidade; não é estudo primário."
+  },
+  {
+    "id_rs": "RS4518",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é o formato de elicitação na agregação de Borda, não resultado de pesquisa eleitoral."
+  },
+  {
+    "id_rs": "RS4527",
+    "proposta": "excluir",
+    "criterio": "C1",
+    "justificativa": "A unidade de análise são elites e partidos dominantes, não eleitores."
+  },
+  {
+    "id_rs": "RS4528",
+    "proposta": "excluir",
+    "criterio": "C2",
+    "justificativa": "A exposição analisada é a intermediação territorial e os direitos ascritivos, não resultado de pesquisa eleitoral."
+  }
+]

@@ -1,0 +1,13 @@
+id_rs,chave,doi,id_openalex,metodo_resolucao,score_titulo,n_referencias,n_citacoes
+RS1529,Agranov2017a,10.1093/jeea/jvx023,W1513396528,id_fonte,,46,79
+RS1534,Gasperoni2015a,10.1017/ipo.2015.3,W2098279002,id_fonte,,41,11
+RS1575,Morton2013a,,W3124364990,id_fonte,,0,1
+RS2996,Tyszler2015,10.1007/s10683-015-9443-2,W1533108901,id_fonte,,53,26
+RS3658,Gandhi2019,10.1111/ajps.12441,W2949575272,id_fonte,,42,69
+RS3796,Araujo2021,10.33774/apsa-2021-5d090-v2,W3158366679,id_fonte,,69,0
+RS3802,Urminsky2019,10.2139/ssrn.3448172,W3165430852,id_fonte,,27,2
+RS3832,Araujo2021a,10.1017/s000712342100034x,W4205104454,id_fonte,,50,3
+RS3902,Dahlgaard2015b,10.7146/politica.v47i1.131474,W4252031645,id_fonte,,21,2
+RS3978,Yang2023d,10.31219/osf.io/qpyna,W4385242021,id_fonte,,74,1
+RS3980,Erlich2023,10.31219/osf.io/mwg7u,W4385363195,id_fonte,,86,0
+RS3994,Schlegel2023,10.1016/j.electstud.2023.102692,W4387418462,id_fonte,,37,8

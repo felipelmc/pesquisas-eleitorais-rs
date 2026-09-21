@@ -1,0 +1,9 @@
+# PDFs de artigos de terceiros (direitos autorais, não redistribuir)
+03-textos/pdfs/
+03-textos/pdfs_descartados/
+
+# lock file da skill (estado de execução, não histórico)
+.rs.lock
+
+# arquivos de sistema
+.DS_Store
