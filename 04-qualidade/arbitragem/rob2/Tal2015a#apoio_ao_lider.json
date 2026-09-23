@@ -1,0 +1,10 @@
+[{"dominio": "D1", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo", "segue": "A",
+  "justificativa": "Decide a 1.2 (ocultação). O software sorteia a configuração da pesquisa e a ordem de preferência automaticamente no início de cada partida (p. 2 e p. 5: 'Each game sampled a random poll'), o que equivale a alocação centralizada e computadorizada que ninguém pode prever nem manipular: 1.2 = PS. Com 1.1 PS, 1.2 PS e 1.3 SI (sem tabela de linha de base num contraste dentro do sujeito), o algoritmo do RoB 2 leva a baixo.",
+  "trecho": "In both settings, voters are automatically assigned a preference order",
+  "pagina": 2},
+ {"dominio": "D5", "julgamento_a": "alto", "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes", "segue": "outro",
+  "justificativa": "Não há menção a plano de análise prévio (5.1 = SI) e há uma só medida do desfecho (5.2 = N). Na 5.3, a restrição ao grupo C é declarada e justificada pela previsibilidade do padrão de voto dos grupos A e B, não pelos resultados do contraste de interesse, e os autores dizem que as outras condições de n tiveram padrões semelhantes; não há indício de escolha pelo resultado (5.3 = PN), e o viés da exclusão pós-atribuição já é tratado no D2. Com 5.2 e 5.3 N/PN e 5.1 sem informação, o algoritmo leva a algumas_preocupacoes (a proposta 'baixo' de B exigiria 5.1 S/PS).",
+  "trecho": "Since group B behaved in a completely predictable way,",
+  "pagina": 6}]

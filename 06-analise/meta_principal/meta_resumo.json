@@ -1,0 +1,533 @@
+{
+  "versao": "1",
+  "comando": "meta",
+  "gerado_em": "2026-09-23T18:58:43Z",
+  "entrada": "06-analise/efeitos_meta_principal.csv",
+  "parametros": {
+    "grupo": [
+      "familia_intervencao",
+      "construto_outcome",
+      "comparador_tipo"
+    ],
+    "separar_desenho": true,
+    "dependencia": "che",
+    "rho": 0.6,
+    "k_min": 3,
+    "delta": 0.044,
+    "delta_fonte": "argumento (confirmar no protocolo)",
+    "excluir_rob": "nenhum",
+    "moderadores": [],
+    "pacotes": {
+      "metafor": "5.0.1"
+    }
+  },
+  "linhas_excluidas": {
+    "rejeitado_revisao": 0,
+    "sem_efeito_calculado": 0,
+    "sem_direcao": 0
+  },
+  "n_excluidos_rob_critico": 0,
+  "contrato_campos": {
+    "ic_dentro_delta": "TRUE se -delta <= ic_inf e ic_sup <= delta (limites inclusivos, igual à regra Nulo de rs.py caixa); null sem --delta > 0",
+    "pi_cobre_beneficio_e_dano": "com --delta > 0: ip_inf <= -delta e ip_sup >= delta (condição de IP da regra Misto de rs.py caixa, que exige também k >= 5 e achado explicativo com CERQual >= baixa); sem delta: ip_inf < 0 < ip_sup; null sem intervalo de predição. pi_referencia diz qual critério foi usado ('delta' ou 'zero')",
+    "observacao": "rs.py caixa recalcula as regras a partir de ic/ip e do delta da célula (certeza.csv ou --delta); estes campos são descritivos e só coincidem com a caixa quando o delta é o mesmo"
+  },
+  "ressalvas": [
+    "yi positivo = benéfico (sinal alinhado por direcao_desejada em efeitos.R)",
+    "τ² e I² com k < 5 são imprecisos e não devem ser interpretados",
+    "rótulo da caixa de ferramentas exige certeza (GRADE); este resumo não define rótulo"
+  ],
+  "grupos": [
+    {
+      "grupo": "agregador_projecao | mobilizacao | outro | randomizado",
+      "familia_intervencao": "agregador_projecao",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "classe_desenho": "randomizado",
+      "arquivo_base": "01_agregador_projecao_mobilizacao_outro_randomizado",
+      "n_linhas": 2,
+      "comparabilidade": {
+        "estimandos": [
+          "ATE",
+          "ITT"
+        ],
+        "desenhos": [
+          "RCT (experimento comportamental online, sorteio dos valores exibidos a cada rodada)",
+          "RCT (survey experiment, atribuição individual)"
+        ],
+        "outcomes": [
+          "decision to vote ($1 cost)",
+          "self-reported likelihood of voting"
+        ],
+        "avisos": [
+          "estimandos diferentes no mesmo grupo: conferir comparabilidade (ATE × ITT/LATE/local)",
+          "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+        ]
+      },
+      "k_estudos": 2,
+      "k_efeitos": 2,
+      "estudos": [
+        "Urminsky2019",
+        "Westwood2020a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 2 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "boca_de_urna | apoio_ao_lider | antes_depois_proibicao | nao_randomizado",
+      "familia_intervencao": "boca_de_urna",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "antes_depois_proibicao",
+      "classe_desenho": "nao_randomizado",
+      "arquivo_base": "02_boca_de_urna_apoio_ao_lider_antes_depois_proibicao_nao_rando",
+      "n_linhas": 1,
+      "comparabilidade": {
+        "estimandos": [
+          "ATT"
+        ],
+        "desenhos": [
+          "DiD (experimento natural: proibicao de divulgacao de resultados de boca de urna na India, Representation of the People (Amendment) Act 2009, em vigor desde 1/2/2010)"
+        ],
+        "outcomes": [
+          "Winner - vote share of the eventual winner (Vote Share Winner, pontos percentuais)"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 1,
+      "estudos": [
+        "Chatterjee2019a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "boca_de_urna | mobilizacao | antes_depois_proibicao | nao_randomizado",
+      "familia_intervencao": "boca_de_urna",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "antes_depois_proibicao",
+      "classe_desenho": "nao_randomizado",
+      "arquivo_base": "03_boca_de_urna_mobilizacao_antes_depois_proibicao_nao_randomiz",
+      "n_linhas": 2,
+      "comparabilidade": {
+        "estimandos": [
+          "ATT"
+        ],
+        "desenhos": [
+          "DiD (experimento natural: proibicao de divulgacao de resultados de boca de urna na India, Representation of the People (Amendment) Act 2009, em vigor desde 1/2/2010)",
+          "DiD (experimento natural: reforma eleitoral francesa de 2005)"
+        ],
+        "outcomes": [
+          "turnout (comparecimento por departamento e turno)",
+          "Voter Turnout (Poll Percentage) - comparecimento na constituencia, pontos percentuais"
+        ],
+        "avisos": [
+          "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+        ]
+      },
+      "k_estudos": 2,
+      "k_efeitos": 2,
+      "estudos": [
+        "Chatterjee2019a",
+        "Morton2015a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 2 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "boca_de_urna | mobilizacao | outro | nao_randomizado",
+      "familia_intervencao": "boca_de_urna",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "classe_desenho": "nao_randomizado",
+      "arquivo_base": "04_boca_de_urna_mobilizacao_outro_nao_randomizado",
+      "n_linhas": 1,
+      "comparabilidade": {
+        "estimandos": [
+          "ATT"
+        ],
+        "desenhos": [
+          "DiD"
+        ],
+        "outcomes": [
+          "Voter turnout at closure (end of the day)"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 1,
+      "estudos": [
+        "Grillo2024c"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "outro | apoio_ao_lider | unidades_nao_expostas | nao_randomizado",
+      "familia_intervencao": "outro",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "unidades_nao_expostas",
+      "classe_desenho": "nao_randomizado",
+      "arquivo_base": "05_outro_apoio_ao_lider_unidades_nao_expostas_nao_randomizado",
+      "n_linhas": 2,
+      "comparabilidade": {
+        "estimandos": [
+          "ITT"
+        ],
+        "desenhos": [
+          "experimento natural"
+        ],
+        "outcomes": [
+          "share of votes for Bolsonaro (frontrunner)"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 2,
+      "estudos": [
+        "Araujo2021a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | mesmo_candidato_atras | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "mesmo_candidato_atras",
+      "classe_desenho": "randomizado",
+      "arquivo_base": "06_pesquisa_pre_eleitoral_apoio_ao_lider_mesmo_candidato_atras_",
+      "n_linhas": 2,
+      "comparabilidade": {
+        "estimandos": [
+          "ATE"
+        ],
+        "desenhos": [
+          "RCT (vinheta; atribuicao aleatoria individual a uma de quatro celulas de um desenho fatorial 2x2 entre participantes)"
+        ],
+        "outcomes": [
+          "self-reported likelihood (1-7) of switching voting intentions: switch to the leading candidate (bandwagon effect)"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 2,
+      "estudos": [
+        "Lammers2022a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | outro | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "outro",
+      "classe_desenho": "nao_randomizado",
+      "arquivo_base": "07_pesquisa_pre_eleitoral_apoio_ao_lider_outro_nao_randomizado",
+      "n_linhas": 1,
+      "comparabilidade": {
+        "estimandos": [
+          "ATT"
+        ],
+        "desenhos": [
+          "painel com efeitos fixos"
+        ],
+        "outcomes": [
+          "Vote Share for Trailing Side"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 1,
+      "estudos": [
+        "Bursztyn2023a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | outro | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "outro",
+      "classe_desenho": "randomizado",
+      "arquivo_base": "08_pesquisa_pre_eleitoral_apoio_ao_lider_outro_randomizado",
+      "n_linhas": 4,
+      "comparabilidade": {
+        "estimandos": [
+          "ATE"
+        ],
+        "desenhos": [
+          "RCT (survey experiment online, atribuição aleatória individual entre 15 versões do cenário 1)",
+          "RCT por cluster (laboratório; condição atribuída por sessão de 15 sujeitos)"
+        ],
+        "outcomes": [
+          "rounds won by party K (rate of electoral success)",
+          "Voted for Independent Candidate (voto no candidato independente preferido, binário)"
+        ],
+        "avisos": [
+          "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+        ]
+      },
+      "k_estudos": 2,
+      "k_efeitos": 4,
+      "estudos": [
+        "Boukouras2020a",
+        "Witsman2016a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 2 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | sem_pesquisa | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "sem_pesquisa",
+      "classe_desenho": "randomizado",
+      "arquivo_base": "09_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza",
+      "n_linhas": 3,
+      "comparabilidade": {
+        "estimandos": [
+          "ATE"
+        ],
+        "desenhos": [
+          "RCT (experimento de survey)",
+          "RCT por cluster (experimento de laboratório; informação variada entre eleitorados/sessões)",
+          "RCT por cluster (experimento de laboratório; tratamento informacional por sessão, grupos fixos de 9)"
+        ],
+        "outcomes": [
+          "% de respondentes em favor do candidato A (candidato anunciado como vencedor esperado nesse braço)",
+          "alternativa preferida pela maioria ex ante (cor da urna sorteada) eleita",
+          "Fração de eleições cujo vencedor está no Majoritarian Set (opção ou opções com mais apoio sincero)"
+        ],
+        "avisos": [
+          "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+        ]
+      },
+      "k_estudos": 3,
+      "k_efeitos": 3,
+      "estudos": [
+        "Agranov2017a",
+        "Timotei2013a",
+        "Tyszler2015"
+      ],
+      "status": "meta_ajustada",
+      "resultado": {
+        "modelo": "CHE (rma.mv estudo/efeito, REML) + RVE CR2 (Satterthwaite)",
+        "k_estudos": 3,
+        "k_efeitos": 3,
+        "rho": 0.6,
+        "estimativa": 0.403440387581583,
+        "ep": 0.25854412990736,
+        "ic": [-1.72015504183422, 2.52703581699739],
+        "p": 0.327173885081273,
+        "gl": 1.23414727408687,
+        "rve_confiavel": false,
+        "tau2": 0.0718883473607894,
+        "tau2_entre_estudos": 0.035944173210182,
+        "tau2_dentro_estudos": 0.0359441741506074,
+        "tau2_ic": null,
+        "tau": 0.268120024169754,
+        "I2": 37.9147245068077,
+        "I2_entre_estudos": 18.9573620054083,
+        "I2_dentro_estudos": 18.9573625013993,
+        "I2_ic": null,
+        "Q": 2.48885822504905,
+        "Q_gl": 2,
+        "Q_p": 0.288105336919601,
+        "pi": [-4.32923139361813, 5.13611216878129],
+        "pi_gl": 1,
+        "aviso_rve": "gl de Satterthwaite = 1.23 < 4: inferência robusta não confiável",
+        "ic_inf": -1.72015504183422,
+        "ic_sup": 2.52703581699739,
+        "ip_inf": -4.32923139361813,
+        "ip_sup": 5.13611216878129,
+        "direcao_alinhada": true,
+        "tau2_interpretavel": false,
+        "direcao": "benefica",
+        "ic_exclui_zero": false,
+        "pi_cobre_beneficio_e_dano": true,
+        "pi_referencia": "delta",
+        "ic_dentro_delta": false
+      },
+      "figuras": [
+        "06-analise/meta_principal/figuras/forest_09_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza.png",
+        "06-analise/meta_principal/figuras/forest_09_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza.pdf"
+      ],
+      "sensibilidade": {
+        "leave_one_out": {
+          "executado": true,
+          "estimativa_min": 0.142925859422262,
+          "estimativa_max": 0.673952134925807,
+          "estudos_que_mudam_conclusao": [],
+          "tabela": "06-analise/meta_principal/tabelas/loo_09_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza.csv"
+        },
+        "sem_aproximados": {
+          "executado": false,
+          "motivo": "nenhuma linha aproximada"
+        },
+        "sem_alto_risco": {
+          "executado": false,
+          "motivo": "nenhuma linha com risco de viés alto/crítico"
+        },
+        "rho": [
+          {
+            "rho": 0.2,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 3,
+            "estimativa": 0.403440387581583,
+            "ic": [-1.72015504183422, 2.52703581699739],
+            "pi": [-4.32923139361813, 5.13611216878129],
+            "tau2": 0.0718883473607894,
+            "ic_exclui_zero": false
+          },
+          {
+            "rho": 0.5,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 3,
+            "estimativa": 0.403440387581583,
+            "ic": [-1.72015504183422, 2.52703581699739],
+            "pi": [-4.32923139361813, 5.13611216878129],
+            "tau2": 0.0718883473607894,
+            "ic_exclui_zero": false
+          },
+          {
+            "rho": 0.8,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 3,
+            "estimativa": 0.403440387581583,
+            "ic": [-1.72015504183422, 2.52703581699739],
+            "pi": [-4.32923139361813, 5.13611216878129],
+            "tau2": 0.0718883473607894,
+            "ic_exclui_zero": false
+          }
+        ]
+      },
+      "vies_publicacao": {
+        "executado": false,
+        "motivo": "k = 3 < 10: funil, Egger, PET-PEESE e 3PSM não são informativos"
+      }
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | outro | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "classe_desenho": "nao_randomizado",
+      "arquivo_base": "10_pesquisa_pre_eleitoral_mobilizacao_outro_nao_randomizado",
+      "n_linhas": 1,
+      "comparabilidade": {
+        "estimandos": [
+          "ATT"
+        ],
+        "desenhos": [
+          "DiD (estudo de eventos)"
+        ],
+        "outcomes": [
+          "Net Turnout (%)"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 1,
+      "estudos": [
+        "Bursztyn2023a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | outro | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "classe_desenho": "randomizado",
+      "arquivo_base": "11_pesquisa_pre_eleitoral_mobilizacao_outro_randomizado",
+      "n_linhas": 1,
+      "comparabilidade": {
+        "estimandos": [
+          "ITT"
+        ],
+        "desenhos": [
+          "RCT por cluster (aleatorizado no domicílio)"
+        ],
+        "outcomes": [
+          "comparecimento (turnout 0-1) em registros administrativos"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 1,
+      "estudos": [
+        "Gerber2020a"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | sem_pesquisa | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "sem_pesquisa",
+      "classe_desenho": "randomizado",
+      "arquivo_base": "12_pesquisa_pre_eleitoral_mobilizacao_sem_pesquisa_randomizado",
+      "n_linhas": 2,
+      "comparabilidade": {
+        "estimandos": [
+          "ATE"
+        ],
+        "desenhos": [
+          "RCT (lab-in-the-field com blocagem multivariada contínua e randomização sequencial; 3 braços: placebo e dois tratamentos)",
+          "RCT por cluster (experimento de laboratório; tratamento informacional por sessão, grupos fixos de 9)"
+        ],
+        "outcomes": [
+          "Observed Vote Prob if Majority (propensão individual a votar)",
+          "Vote (comparecimento autodeclarado na pesquisa telefônica pós-eleitoral; binário)"
+        ],
+        "avisos": [
+          "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+        ]
+      },
+      "k_estudos": 2,
+      "k_efeitos": 2,
+      "estudos": [
+        "Agranov2017a",
+        "Erlich2023"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 2 < k-min = 3: não agregar; usar SWiM"
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | unidades_nao_expostas | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "unidades_nao_expostas",
+      "classe_desenho": "nao_randomizado",
+      "arquivo_base": "13_pesquisa_pre_eleitoral_mobilizacao_unidades_nao_expostas_nao",
+      "n_linhas": 1,
+      "comparabilidade": {
+        "estimandos": [
+          "ITT"
+        ],
+        "desenhos": [
+          "RDD (experimento natural)"
+        ],
+        "outcomes": [
+          "turnout intention (proporção de entrevistados que disseram que votariam nas eleições nacionais)"
+        ],
+        "avisos": []
+      },
+      "k_estudos": 1,
+      "k_efeitos": 1,
+      "estudos": [
+        "Brugarolas2021"
+      ],
+      "status": "k_insuficiente",
+      "motivo": "k = 1 < k-min = 3: não agregar; usar SWiM"
+    }
+  ]
+}

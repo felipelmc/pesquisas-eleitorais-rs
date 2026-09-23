@@ -1,0 +1,12 @@
+[
+ {
+  "id_efeito": "Morton2015a-E41",
+  "campo": "sdy",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Table 8: Estimating equation (2) with ∆treated,st as the dependent variable. Several standard error estimates are given for the t-test of H0 : the diﬀerence in pre- and post-2005 slopes is zero.",
+  "pagina": 34,
+  "justificativa": "A Tabela 8 dá só inclinações, a diferença delta, os erros-padrão e N; o PDF inteiro (texto, Tabelas 1 a 13, apêndice) não traz média nem desvio-padrão de ∆treated,st, no pré-período ou nas unidades de comparação. A Figura 5 mostra os dados brutos só da amostra sem outliers; nada foi estimado de figura."
+ }
+]

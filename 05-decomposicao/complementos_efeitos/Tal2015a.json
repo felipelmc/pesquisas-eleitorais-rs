@@ -1,0 +1,82 @@
+[
+ {
+  "id_efeito": "Tal2015a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "Fig. 5 shows the voting ratio for qi, q′ i, and q′′ i for the cases in which the qi coincided with the poll leader, or coincided with the runner-up of the poll.",
+  "pagina": 6,
+  "justificativa": "O desfecho é o voto em qi quando a pesquisa o mostra à frente (tratamento, 92%) contra quando o mostra em segundo (70%); o apoio medido é ao candidato na posição de líder. comparador_tipo já estava preenchido (mesmo_candidato_atras) e direcao_desejada = aumentar é coerente; nada corrigido."
+ },
+ {
+  "id_efeito": "Tal2015a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "compromises are slightly more common (73%) when q′ i is leading the poll (bottom bar), than when it is the runner-up (64% top bar).",
+  "pagina": 6,
+  "justificativa": "O desfecho é o voto em q′i quando a pesquisa o mostra liderando (73%) contra quando o mostra em segundo (64%); o apoio medido é ao candidato na posição de líder. comparador_tipo (mesmo_candidato_atras) e direcao_desejada = aumentar já estavam coerentes."
+ },
+ {
+  "id_efeito": "Tal2015a-E01",
+  "campo": "n1",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Table 2 summarizes the number of games and participants for each value of n.",
+  "pagina": 5,
+  "justificativa": "A Tabela 2 dá só totais por condição (n = 1.009: 966 jogos, 51 jogadores), sem contagem de participantes ou jogos por configuração da pesquisa, e só a fração do grupo C vem de figura (Fig. 3a, 72%). Não há número por braço."
+ },
+ {
+  "id_efeito": "Tal2015a-E01",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "In the poll game subjects played up to 20 instances in sequence, with the same n parameter.",
+  "pagina": 5,
+  "justificativa": "Cada participante joga várias instâncias com configuração sorteada, então os dois braços reúnem decisões dos mesmos sujeitos (comparação dentro do sujeito); o texto não informa quantos participantes ou decisões do grupo C caem em cada braço."
+ },
+ {
+  "id_efeito": "Tal2015a-E01",
+  "campo": "se_pp",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Unless noted otherwise, all results are statistically signiﬁcant within the p < 0.05 range.",
+  "pagina": 5,
+  "justificativa": "As proporções vêm só nas Figs. 5 e 6, sem erro-padrão, IC nem teste específico; o artigo diz apenas que os resultados são significativos a p < 0,05, sem estatística por contraste. ci_lo/ci_hi também ficam vazios."
+ },
+ {
+  "id_efeito": "Tal2015a-E02",
+  "campo": "n1",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Table 2 summarizes the number of games and participants for each value of n.",
+  "pagina": 5,
+  "justificativa": "A Tabela 2 dá só totais por condição (n = 1.009: 966 jogos, 51 jogadores), sem contagem de participantes ou jogos por configuração da pesquisa, e só a fração do grupo C vem de figura (Fig. 3a, 72%). Não há número por braço."
+ },
+ {
+  "id_efeito": "Tal2015a-E02",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "In the poll game subjects played up to 20 instances in sequence, with the same n parameter.",
+  "pagina": 5,
+  "justificativa": "Cada participante joga várias instâncias com configuração sorteada, então os dois braços reúnem decisões dos mesmos sujeitos (comparação dentro do sujeito); o texto não informa quantos participantes ou decisões do grupo C caem em cada braço."
+ },
+ {
+  "id_efeito": "Tal2015a-E02",
+  "campo": "se_pp",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Unless noted otherwise, all results are statistically signiﬁcant within the p < 0.05 range.",
+  "pagina": 5,
+  "justificativa": "As proporções vêm só nas Figs. 5 e 6, sem erro-padrão, IC nem teste específico; o artigo diz apenas que os resultados são significativos a p < 0,05, sem estatística por contraste. ci_lo/ci_hi também ficam vazios."
+ }
+]

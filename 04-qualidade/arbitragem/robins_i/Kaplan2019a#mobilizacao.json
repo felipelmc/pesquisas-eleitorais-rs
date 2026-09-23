@@ -1,0 +1,22 @@
+[
+ {
+  "dominio": "D1",
+  "julgamento_a": "critico",
+  "julgamento_b": "grave",
+  "julgamento_consenso": "critico",
+  "segue": "A",
+  "justificativa": "A e B concordam em 1.4 = PY (o próprio autor aponta que a troca pode vir da nova redação e da repetição da pergunta, não da previsão), o que é incompatível com 1.1 = WN: se há consideração de confundimento não controlado grave, 1.1 é SN. Os confundidores da lista ficam fixos pelo desenho intra-sujeito, mas não há braço sem previsão e o que muda entre as duas medidas não é controlado; com 1.1 = SN e 1.4 = PY, o algoritmo leva a crítico.",
+  "trecho": "the effect seen may not have much to do with election forecasts",
+  "pagina": 30
+ },
+ {
+  "dominio": "D6",
+  "julgamento_a": "moderado",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "moderado",
+  "segue": "A",
+  "justificativa": "Ambos respondem 6.1 = NI e 6.2 a 6.4 = PN; o texto não menciona pré-registro nem plano de análise na metodologia. Pela regra do ROBINS-I V2, baixo exige 6.1 = Y/PY; com 6.1 = NI e nenhum indício de seleção (6.2 a 6.4 = PN), o domínio é moderado. Não se presume seleção: o nível decorre só da regra para plano ausente.",
+  "trecho": "an experiment was conducted on Amazon’s Mechanical Turk. Eligible",
+  "pagina": 20
+ }
+]

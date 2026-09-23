@@ -1,0 +1,17 @@
+[
+  {"dominio": "cg_contaminacao", "julgamento_a": "incerto", "julgamento_b": "baixo",
+   "julgamento_consenso": "baixo", "segue": "B",
+   "justificativa": "A alocação foi por território, fixada em lei: só os OST do oeste passaram a votar no sábado, antes de existir qualquer resultado continental, e nenhum controle (OST do leste ou continente) recebeu essa intervenção, o que pelo codebook dá baixo. A difusão online de estimativas antecipadas no continente em 2007 e 2012 (p. 18) é uma mudança simultânea no grupo controle, não o controle recebendo a intervenção; por isso entra em outros riscos, não aqui.",
+   "trecho": "hence those voters do not have any knowledge of the choices",
+   "pagina": 5},
+  {"dominio": "cg_linha_base_outcome", "julgamento_a": "incerto", "julgamento_b": "baixo",
+   "julgamento_consenso": "incerto", "segue": "A",
+   "justificativa": "O comparecimento foi medido antes da reforma, mas com diferença de nível importante entre os grupos (46% nos OST do oeste contra 55% nos do leste em 2002, nota 30), então não cabe baixo ('sem diferenças importantes'). A diferença é ajustada pelo DiD com dummies e tendências por departamento, então não cabe alto ('não ajustada'). O paralelismo pré só é mostrado por inspeção visual (p. 21) e a estimativa muda com a especificação de tendência (0.06 contra 0.11 a 0.18, Tabelas 4 e 5): incerto.",
+   "trecho": "46% in 2002 and 65% in 2007 for the western OSTs.",
+   "pagina": 23},
+  {"dominio": "cg_outros_riscos", "julgamento_a": "incerto", "julgamento_b": "baixo",
+   "julgamento_consenso": "incerto", "segue": "A",
+   "justificativa": "A reforma também mudou o dia da votação de domingo para sábado só no grupo tratado. É a mudança simultânea num único grupo que o codebook cita, e o efeito do dia da semana sobre o comparecimento não é separado do efeito da informação. O placebo com eleições legislativas só afasta esse risco se elas também tiverem passado para o sábado nos OST, e o texto não diz isso. Os placebos de 1994 e do leste como falso tratado não são mostrados (p. 28), e o controle continental passou a ter estimativas online a partir de 2007 (p. 18). O risco é plausível, mas a direção e o tamanho não são claros: incerto.",
+   "trecho": "change allowed the western territories to switch their election day to Saturday.",
+   "pagina": 17}
+]

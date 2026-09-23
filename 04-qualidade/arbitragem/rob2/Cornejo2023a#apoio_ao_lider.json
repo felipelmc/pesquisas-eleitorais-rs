@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "D1",
+  "julgamento_a": "baixo",
+  "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo",
+  "segue": "A",
+  "justificativa": "Decide a 1.2 (ocultação). A atribuição foi feita pelo próprio questionário durante a entrevista da segunda onda de um painel cujos respondentes já estavam identificados desde a primeira onda (p. 18), então ninguém podia escolher quem entrava sabendo a condição seguinte: isso sustenta PS, não SI. Com 1.1 = PS, 1.2 = PS e 1.3 = N/PN (Tabela A4 sem diferenças além do acaso, p. 32-33), o algoritmo do RoB 2 leva a baixo.",
+  "trecho": "The survey randomly assigned a question asking if the respondent",
+  "pagina": 18
+ },
+ {
+  "dominio": "D2",
+  "julgamento_a": "baixo",
+  "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo",
+  "segue": "A",
+  "justificativa": "Decide a 2.3 (desvios decorrentes do contexto do estudo). A intervenção é uma vinheta roteirizada lida uma única vez na própria ligação, seguida logo da pergunta de voto aos dois grupos (p. 18-19), então desvios causados pelo contexto do estudo são implausíveis e cabe PN, não SI. Com 2.1/2.2 = S/PS, 2.3 = PN e 2.6 = PS/S (comparação por grupo designado, sem exclusão por adesão), o algoritmo leva a baixo; fica a ressalva de A de que o texto não diz quando foi medido o partidarismo que define o subgrupo analisado.",
+  "trecho": "Subsequently, both treatment and control groups were asked a question",
+  "pagina": 19
+ },
+ {
+  "dominio": "D5",
+  "julgamento_a": "algumas_preocupacoes",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes",
+  "segue": "A",
+  "justificativa": "Decide a 5.1: o texto não menciona pré-registro nem plano de análise (SI), e pelo algoritmo do RoB 2 a 5.1 = N/PN/SI com 5.2 e 5.3 = N/PN já leva a algumas preocupações, de modo que o baixo de B aplica mal o algoritmo. Não sobe para alto porque a restrição ao subgrupo de eleitores de oposição e indecisos é justificada pela teoria no texto e não há indício direto de escolha pelo resultado (5.3 fica em PN/SI).",
+  "trecho": "the analysis focuses on the portion of the sample in which",
+  "pagina": 20
+ }
+]

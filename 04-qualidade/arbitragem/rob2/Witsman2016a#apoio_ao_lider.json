@@ -1,0 +1,22 @@
+[
+  {"dominio": "D1", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "A pergunta 1.2 decide. A versão do cenário 1 foi sorteada pela própria plataforma do survey online (Qualtrics, p. 29 e p. 26), sem ninguém que pudesse prever ou manipular a alocação, então 1.2 = PS. Com 1.1 = S/PS e 1.2 = PS, o algoritmo do RoB 2 dá baixo mesmo que 1.3 fique SI. Além disso, os tamanhos dos braços (84, 71, 76, 77, 58) são compatíveis com o acaso.",
+   "trecho": "The email invited those interested to complete the survey online using Qualtrics",
+   "pagina": 26},
+  {"dominio": "D3", "julgamento_a": "alto", "julgamento_b": "baixo",
+   "julgamento_consenso": "alto", "segue": "A",
+   "justificativa": "A pergunta 3.1 decide. O denominador certo são os randomizados no cenário 1, e não os 377 que completaram o survey. O cenário 3, que vem depois, tem n = 384, e a Tabela 6 do cenário 1 tem n = 366: pelo menos 18 pessoas randomizadas ficaram de fora sem explicação, sem contagem por braço e sem análise de sensibilidade. No contraste 45% vs 5%, o braço de 45% tem só 8 eventos 'No', então 3.1 = PN, 3.2 = N e 3.3 = PS. Como 3.4 = SI (o texto não dá os motivos da perda), o algoritmo do RoB 2 leva a alto.",
+   "trecho": "The results were not significant [χ2 (2, n=384) = 1.676,",
+   "pagina": 37},
+  {"dominio": "D4", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "alto",
+   "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+   "justificativa": "A pergunta 4.5 decide. O desfecho é autorrelatado por quem conhece a própria condição, e a instrução favorece o independente em todos os braços (p. 47), então 4.4 = PS. Mas cada participante viu uma única versão entre 15 e nada indica que conhecesse as outras condições ou a hipótese, logo não é provável que a demanda tenha sido diferencial (4.5 = PN). A evidência de B para 4.5 = S é a própria direção do resultado (p. 33), o que a regra proíbe usar. O algoritmo dá algumas_preocupacoes.",
+   "trecho": "received one of 15 different versions of the question",
+   "pagina": 29},
+  {"dominio": "D5", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+   "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+   "justificativa": "A pergunta 5.1 decide. A tese declara hipóteses (p. 24), mas não menciona registro, projeto aprovado nem plano de análise finalizado antes dos dados. O fato de as hipóteses aparecerem antes da seção de Resultados, num texto escrito depois da coleta, não comprova que houve pré-especificação, então 5.1 = SI e não PS. Com 5.2 e 5.3 = N/PN, o algoritmo do RoB 2 leva a algumas_preocupacoes.",
+   "trecho": "Informed by prior research, this study formulated the following hypotheses for the",
+   "pagina": 24}
+]

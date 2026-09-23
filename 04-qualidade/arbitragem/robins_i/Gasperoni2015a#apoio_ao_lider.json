@@ -1,0 +1,22 @@
+[
+  {"dominio": "D1", "julgamento_a": "critico", "julgamento_b": "grave",
+   "julgamento_consenso": "critico", "segue": "A",
+   "justificativa": "Os dois avaliadores responderam 1.1 = SN e 1.4 = PY, e essa combinação leva a crítico pelo algoritmo, independentemente de B2. O resultado é uma taxa bruta de troca antes-depois sem grupo de comparação (nota 10). Os autores admitem que outras informações da fase final da campanha podem explicar a troca, e 8 eleitores trocaram para outros candidatos, o que mostra troca de fundo. Por isso a taxa não separa o efeito das pesquisas da mudança que ocorreria de qualquer forma (B2 = PY). O argumento de B para B2 = PN (p. 25) trata da relevância substantiva de 10%, não do confundimento.",
+   "trecho": "Moreover, unfortunately, there is no control group",
+   "pagina": 21},
+  {"dominio": "D3", "julgamento_a": "grave", "julgamento_b": "moderado",
+   "julgamento_consenso": "moderado", "segue": "B",
+   "justificativa": "A nota 9 junta duas causas de exclusão: perfil de preferência incompleto, registrado aos 9 minutos, antes da exposição, e recusa em votar, depois da exposição. O texto não diz quantos dos 26 excluídos (214 na Tabela A1 contra 188 analisados) saíram depois da exposição, então 3.4 fica NI. Pela regra, falta de informação não vira grave. A exclusão por não votar é, na prática, desfecho faltante, já avaliado no domínio 4. Mesmo no pior cenário, contar todos os excluídos como não trocadores leva a taxa de 10% para cerca de 9%, o que não sustenta um viés de seleção grave.",
+   "trecho": "some participants did not supply a complete candidate preference profile or preferred",
+   "pagina": 20},
+  {"dominio": "D5", "julgamento_a": "grave", "julgamento_b": "moderado",
+   "julgamento_consenso": "grave", "segue": "A",
+   "justificativa": "Neste resultado o contraste é entre o estado antes e o estado depois, não entre os Grupos 1 e 2, que estão agrupados. A medida muda entre os dois momentos: antes, uma pergunta intermediária sobre em quem o participante provavelmente votaria; depois, o voto final da simulação (p. 10). Por isso 5.1 = PY, e o argumento de B de que as medidas eram iguais nos dois grupos não se aplica. O desfecho é autodeclarado por participantes cientes da exposição, e a nota 10 admite reatividade (5.2 = Y, 5.3 = WY). Com 5.1 = Y/PY, o algoritmo leva a grave.",
+   "trecho": "candidate she/he would most likely vote for",
+   "pagina": 19},
+  {"dominio": "D6", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "Os dois avaliadores concordam que não há sinal de seleção por medidas, análises ou subgrupos (6.2 a 6.4 = N/PN): a linha Total, a divisão por grupo, as trocas para outros candidatos e a regressão da nota 11 são todas relatadas. Mas o texto não menciona nenhum plano de análise definido antes (6.1 = NI). Pela regra da ferramenta, baixo exige 6.1 = Y/PY, e sem plano prévio com 6.2 a 6.4 = N/PN o julgamento é moderado. O trecho citado mostra como o resultado é relatado; nenhum ponto do texto remete a um plano prévio.",
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled",
+   "pagina": 21}
+]

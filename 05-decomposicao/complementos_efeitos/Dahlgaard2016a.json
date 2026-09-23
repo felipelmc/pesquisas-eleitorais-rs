@@ -1,0 +1,142 @@
+[
+ {
+  "id_efeito": "Dahlgaard2016a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "For group 2, the Social Democrats advanced 5 percentage points in the article, whereas they declined 5 percentage points in group 3’s article.",
+  "pagina": 6,
+  "justificativa": "Partido Social-Democrata (partido grande, média de 22,3% nas pesquisas, p. 9): o tratamento manipula só a tendência do partido na pesquisa (ganho ou perda de 5 p.p.), sem mostrar sua posição relativa aos demais partidos numa disputa multipartidária; o desfecho é apoio a um partido em alta ou em baixa, não a quem a pesquisa mostra à frente, e o texto não informa a colocação do partido."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "For group 2, the Social Democrats advanced 5 percentage points in the article, whereas they declined 5 percentage points in group 3’s article.",
+  "pagina": 6,
+  "justificativa": "Partido Social-Democrata (partido grande, média de 22,3% nas pesquisas, p. 9): o tratamento manipula só a tendência do partido na pesquisa (ganho ou perda de 5 p.p.), sem mostrar sua posição relativa aos demais partidos numa disputa multipartidária; o desfecho é apoio a um partido em alta ou em baixa, não a quem a pesquisa mostra à frente, e o texto não informa a colocação do partido."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "For group 2, the Social Democrats advanced 5 percentage points in the article, whereas they declined 5 percentage points in group 3’s article.",
+  "pagina": 6,
+  "justificativa": "Partido Social-Democrata (partido grande, média de 22,3% nas pesquisas, p. 9): o tratamento manipula só a tendência do partido na pesquisa (ganho ou perda de 5 p.p.), sem mostrar sua posição relativa aos demais partidos numa disputa multipartidária; o desfecho é apoio a um partido em alta ou em baixa, não a quem a pesquisa mostra à frente, e o texto não informa a colocação do partido."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "partido_abaixo_clausula",
+  "status": "preenchido",
+  "trecho": "whereas they declined 2 percentage points, leaving them below the threshold of 2 percent.",
+  "pagina": 6,
+  "justificativa": "Partido Conservador (partido pequeno, média de 4,5% nas pesquisas, p. 9, cláusula de 2%): o artigo de perda o põe abaixo da cláusula (1,9%, 'New poll knocks the Conservatives out of Parliament', p. 8); o alvo das linhas do Conservador, inclusive do braço de ganho, é o partido perto da cláusula de barreira."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E05",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "partido_abaixo_clausula",
+  "status": "preenchido",
+  "trecho": "whereas they declined 2 percentage points, leaving them below the threshold of 2 percent.",
+  "pagina": 6,
+  "justificativa": "Partido Conservador (partido pequeno, média de 4,5% nas pesquisas, p. 9, cláusula de 2%): o artigo de perda o põe abaixo da cláusula (1,9%, 'New poll knocks the Conservatives out of Parliament', p. 8); o alvo das linhas do Conservador, inclusive do braço de ganho, é o partido perto da cláusula de barreira."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E06",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "partido_abaixo_clausula",
+  "status": "preenchido",
+  "trecho": "whereas they declined 2 percentage points, leaving them below the threshold of 2 percent.",
+  "pagina": 6,
+  "justificativa": "Partido Conservador (partido pequeno, média de 4,5% nas pesquisas, p. 9, cláusula de 2%): o artigo de perda o põe abaixo da cláusula (1,9%, 'New poll knocks the Conservatives out of Parliament', p. 8); o alvo das linhas do Conservador, inclusive do braço de ganho, é o partido perto da cláusula de barreira."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E07",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "For group 2, the Social Democrats advanced 5 percentage points in the article, whereas they declined 5 percentage points in group 3’s article.",
+  "pagina": 6,
+  "justificativa": "Partido Social-Democrata (partido grande, média de 22,3% nas pesquisas, p. 9): o tratamento manipula só a tendência do partido na pesquisa (ganho ou perda de 5 p.p.), sem mostrar sua posição relativa aos demais partidos numa disputa multipartidária; o desfecho é apoio a um partido em alta ou em baixa, não a quem a pesquisa mostra à frente, e o texto não informa a colocação do partido."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E08",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "For group 2, the Social Democrats advanced 5 percentage points in the article, whereas they declined 5 percentage points in group 3’s article.",
+  "pagina": 6,
+  "justificativa": "Partido Social-Democrata (partido grande, média de 22,3% nas pesquisas, p. 9): o tratamento manipula só a tendência do partido na pesquisa (ganho ou perda de 5 p.p.), sem mostrar sua posição relativa aos demais partidos numa disputa multipartidária; o desfecho é apoio a um partido em alta ou em baixa, não a quem a pesquisa mostra à frente, e o texto não informa a colocação do partido."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E09",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "partido_abaixo_clausula",
+  "status": "preenchido",
+  "trecho": "whereas they declined 2 percentage points, leaving them below the threshold of 2 percent.",
+  "pagina": 6,
+  "justificativa": "Partido Conservador (partido pequeno, média de 4,5% nas pesquisas, p. 9, cláusula de 2%): o artigo de perda o põe abaixo da cláusula (1,9%, 'New poll knocks the Conservatives out of Parliament', p. 8); o alvo das linhas do Conservador, inclusive do braço de ganho, é o partido perto da cláusula de barreira."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E10",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "partido_abaixo_clausula",
+  "status": "preenchido",
+  "trecho": "whereas they declined 2 percentage points, leaving them below the threshold of 2 percent.",
+  "pagina": 6,
+  "justificativa": "Partido Conservador (partido pequeno, média de 4,5% nas pesquisas, p. 9, cláusula de 2%): o artigo de perda o põe abaixo da cláusula (1,9%, 'New poll knocks the Conservatives out of Parliament', p. 8); o alvo das linhas do Conservador, inclusive do braço de ganho, é o partido perto da cláusula de barreira."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E11",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "For group 2, the Social Democrats advanced 5 percentage points in the article, whereas they declined 5 percentage points in group 3’s article.",
+  "pagina": 6,
+  "justificativa": "Partido Social-Democrata (partido grande, média de 22,3% nas pesquisas, p. 9): o tratamento manipula só a tendência do partido na pesquisa (ganho ou perda de 5 p.p.), sem mostrar sua posição relativa aos demais partidos numa disputa multipartidária; o desfecho é apoio a um partido em alta ou em baixa, não a quem a pesquisa mostra à frente, e o texto não informa a colocação do partido."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E12",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "For group 2, the Social Democrats advanced 5 percentage points in the article, whereas they declined 5 percentage points in group 3’s article.",
+  "pagina": 6,
+  "justificativa": "Partido Social-Democrata (partido grande, média de 22,3% nas pesquisas, p. 9): o tratamento manipula só a tendência do partido na pesquisa (ganho ou perda de 5 p.p.), sem mostrar sua posição relativa aos demais partidos numa disputa multipartidária; o desfecho é apoio a um partido em alta ou em baixa, não a quem a pesquisa mostra à frente, e o texto não informa a colocação do partido."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E13",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "partido_abaixo_clausula",
+  "status": "preenchido",
+  "trecho": "whereas they declined 2 percentage points, leaving them below the threshold of 2 percent.",
+  "pagina": 6,
+  "justificativa": "Partido Conservador (partido pequeno, média de 4,5% nas pesquisas, p. 9, cláusula de 2%): o artigo de perda o põe abaixo da cláusula (1,9%, 'New poll knocks the Conservatives out of Parliament', p. 8); o alvo das linhas do Conservador, inclusive do braço de ganho, é o partido perto da cláusula de barreira."
+ },
+ {
+  "id_efeito": "Dahlgaard2016a-E14",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "partido_abaixo_clausula",
+  "status": "preenchido",
+  "trecho": "whereas they declined 2 percentage points, leaving them below the threshold of 2 percent.",
+  "pagina": 6,
+  "justificativa": "Partido Conservador (partido pequeno, média de 4,5% nas pesquisas, p. 9, cláusula de 2%): o artigo de perda o põe abaixo da cláusula (1,9%, 'New poll knocks the Conservatives out of Parliament', p. 8); o alvo das linhas do Conservador, inclusive do braço de ganho, é o partido perto da cláusula de barreira."
+ }
+]

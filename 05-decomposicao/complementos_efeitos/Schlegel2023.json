@@ -1,0 +1,122 @@
+[
+ {
+  "id_efeito": "Schlegel2023-E01",
+  "campo": "ci_lo",
+  "valor_antigo": "",
+  "valor_novo": "4.51",
+  "status": "derivado",
+  "trecho": "Results from experimental study. Conditional treatment effects of information and cognitive resources on strategic voting (including 95% and 90% confidence intervals).",
+  "pagina": 6,
+  "justificativa": "Valor lido da Fig. 2 (painel High Incentive, linha Information & Cognitive Resources, estudo principal (círculo escuro, \"Pre-Registered Main Study\")), não impresso em texto ou tabela: extraído das coordenadas vetoriais do PDF, com eixo calibrado pelas linhas de grade (0 em x=212,81 pt; 0,1 a cada 39,42 pt). A barra mais larga (95%) vai de x=230,57 a 285,36 pt = [0,0451; 0,1841], simétrica em torno do ponto em 0,1146; a barra interna (90%) é compatível. IC95 convertido para p.p."
+ },
+ {
+  "id_efeito": "Schlegel2023-E01",
+  "campo": "ci_hi",
+  "valor_antigo": "",
+  "valor_novo": "18.41",
+  "status": "derivado",
+  "trecho": "Results from experimental study. Conditional treatment effects of information and cognitive resources on strategic voting (including 95% and 90% confidence intervals).",
+  "pagina": 6,
+  "justificativa": "Valor lido da Fig. 2 (painel High Incentive, linha Information & Cognitive Resources, estudo principal (círculo escuro, \"Pre-Registered Main Study\")), não impresso em texto ou tabela: extraído das coordenadas vetoriais do PDF, com eixo calibrado pelas linhas de grade (0 em x=212,81 pt; 0,1 a cada 39,42 pt). A barra mais larga (95%) vai de x=230,57 a 285,36 pt = [0,0451; 0,1841], simétrica em torno do ponto em 0,1146; a barra interna (90%) é compatível. IC95 convertido para p.p."
+ },
+ {
+  "id_efeito": "Schlegel2023-E01",
+  "campo": "se_pp",
+  "valor_antigo": "",
+  "valor_novo": "3.55",
+  "status": "derivado",
+  "trecho": "Results from experimental study. Conditional treatment effects of information and cognitive resources on strategic voting (including 95% and 90% confidence intervals).",
+  "pagina": 6,
+  "justificativa": "Valor lido da Fig. 2 (painel High Incentive, linha Information & Cognitive Resources, estudo principal (círculo escuro, \"Pre-Registered Main Study\")), não impresso em texto ou tabela: extraído das coordenadas vetoriais do PDF, com eixo calibrado pelas linhas de grade (0 em x=212,81 pt; 0,1 a cada 39,42 pt). A barra mais larga (95%) vai de x=230,57 a 285,36 pt = [0,0451; 0,1841], simétrica em torno do ponto em 0,1146; a barra interna (90%) é compatível. se_pp = meia-largura do IC95/1,96 = 0,0695/1,96=0,0355 (×100). efeito_pp mantido como impresso."
+ },
+ {
+  "id_efeito": "Schlegel2023-E01",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "In the high incentive condition, the proportion of strategic votes ranges between 26% and 34% (22% to 39% in the pilot study).",
+  "pagina": 5,
+  "justificativa": "O texto só dá a faixa de proporções entre as quatro condições de alto incentivo, sem dizer qual é a da condição de controle (baixa informação + carga cognitiva); a tabela por condição está no SM A.III, que não vem anexado ao PDF. Campo deixado vazio."
+ },
+ {
+  "id_efeito": "Schlegel2023-E01",
+  "campo": "n1",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "We randomly assign respondents to one of the eight conditions.",
+  "pagina": 4,
+  "justificativa": "O artigo só dá o N recrutado de cada amostra (piloto 1000, principal 2500) e diz que a alocação foi aleatória entre oito condições; não informa o n por condição (descritivas no SM A.II, não anexado). Dividir por 8 suporia alocação igual, então o campo fica vazio."
+ },
+ {
+  "id_efeito": "Schlegel2023-E01",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "We randomly assign respondents to one of the eight conditions.",
+  "pagina": 4,
+  "justificativa": "O artigo só dá o N recrutado de cada amostra (piloto 1000, principal 2500) e diz que a alocação foi aleatória entre oito condições; não informa o n por condição (descritivas no SM A.II, não anexado). Dividir por 8 suporia alocação igual, então o campo fica vazio."
+ },
+ {
+  "id_efeito": "Schlegel2023-E02",
+  "campo": "ci_lo",
+  "valor_antigo": "",
+  "valor_novo": "6.62",
+  "status": "derivado",
+  "trecho": "Results from experimental study. Conditional treatment effects of information and cognitive resources on strategic voting (including 95% and 90% confidence intervals).",
+  "pagina": 6,
+  "justificativa": "Valor lido da Fig. 2 (painel High Incentive, linha Information & Cognitive Resources, estudo piloto (triângulo claro, \"Pilot Study\")), não impresso em texto ou tabela: extraído das coordenadas vetoriais do PDF, com eixo calibrado pelas linhas de grade (0 em x=212,81 pt; 0,1 a cada 39,42 pt). A barra mais larga (95%) vai de x=238,89 a 317,51 pt = [0,0662; 0,2656], simétrica em torno do ponto em 0,1660; a barra interna (90%) é compatível. IC95 convertido para p.p."
+ },
+ {
+  "id_efeito": "Schlegel2023-E02",
+  "campo": "ci_hi",
+  "valor_antigo": "",
+  "valor_novo": "26.56",
+  "status": "derivado",
+  "trecho": "Results from experimental study. Conditional treatment effects of information and cognitive resources on strategic voting (including 95% and 90% confidence intervals).",
+  "pagina": 6,
+  "justificativa": "Valor lido da Fig. 2 (painel High Incentive, linha Information & Cognitive Resources, estudo piloto (triângulo claro, \"Pilot Study\")), não impresso em texto ou tabela: extraído das coordenadas vetoriais do PDF, com eixo calibrado pelas linhas de grade (0 em x=212,81 pt; 0,1 a cada 39,42 pt). A barra mais larga (95%) vai de x=238,89 a 317,51 pt = [0,0662; 0,2656], simétrica em torno do ponto em 0,1660; a barra interna (90%) é compatível. IC95 convertido para p.p."
+ },
+ {
+  "id_efeito": "Schlegel2023-E02",
+  "campo": "se_pp",
+  "valor_antigo": "",
+  "valor_novo": "5.09",
+  "status": "derivado",
+  "trecho": "Results from experimental study. Conditional treatment effects of information and cognitive resources on strategic voting (including 95% and 90% confidence intervals).",
+  "pagina": 6,
+  "justificativa": "Valor lido da Fig. 2 (painel High Incentive, linha Information & Cognitive Resources, estudo piloto (triângulo claro, \"Pilot Study\")), não impresso em texto ou tabela: extraído das coordenadas vetoriais do PDF, com eixo calibrado pelas linhas de grade (0 em x=212,81 pt; 0,1 a cada 39,42 pt). A barra mais larga (95%) vai de x=238,89 a 317,51 pt = [0,0662; 0,2656], simétrica em torno do ponto em 0,1660; a barra interna (90%) é compatível. se_pp = meia-largura do IC95/1,96 = 0,0997/1,96=0,0509 (×100). efeito_pp mantido como impresso."
+ },
+ {
+  "id_efeito": "Schlegel2023-E02",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "In the high incentive condition, the proportion of strategic votes ranges between 26% and 34% (22% to 39% in the pilot study).",
+  "pagina": 5,
+  "justificativa": "O texto só dá a faixa de proporções entre as quatro condições de alto incentivo, sem dizer qual é a da condição de controle (baixa informação + carga cognitiva); a tabela por condição está no SM A.III, que não vem anexado ao PDF. Campo deixado vazio."
+ },
+ {
+  "id_efeito": "Schlegel2023-E02",
+  "campo": "n1",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "We randomly assign respondents to one of the eight conditions.",
+  "pagina": 4,
+  "justificativa": "O artigo só dá o N recrutado de cada amostra (piloto 1000, principal 2500) e diz que a alocação foi aleatória entre oito condições; não informa o n por condição (descritivas no SM A.II, não anexado). Dividir por 8 suporia alocação igual, então o campo fica vazio."
+ },
+ {
+  "id_efeito": "Schlegel2023-E02",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "We randomly assign respondents to one of the eight conditions.",
+  "pagina": 4,
+  "justificativa": "O artigo só dá o N recrutado de cada amostra (piloto 1000, principal 2500) e diz que a alocação foi aleatória entre oito condições; não informa o n por condição (descritivas no SM A.II, não anexado). Dividir por 8 suporia alocação igual, então o campo fica vazio."
+ }
+]

@@ -1,0 +1,74 @@
+{
+ "Agranov2017a": {
+  "n_linhas": 14,
+  "principais": 1,
+  "master_alvo": "azarao + lider",
+  "master_comparador": "sem_pesquisa"
+ },
+ "Alabrese2024a": {
+  "n_linhas": 8,
+  "principais": 1,
+  "master_alvo": "azarao + lider",
+  "master_comparador": "outro_resultado"
+ },
+ "Araujo2021a": {
+  "n_linhas": 9,
+  "principais": 2,
+  "master_alvo": "azarao + lider + segundo_viavel + terceiro_inviavel",
+  "master_comparador": "unidades_nao_expostas"
+ },
+ "Chatterjee2019a": {
+  "n_linhas": 12,
+  "principais": 1,
+  "master_alvo": "lider + segundo_viavel + terceiro_inviavel",
+  "master_comparador": "antes_depois_proibicao"
+ },
+ "Cornejo2023a": {
+  "n_linhas": 18,
+  "principais": 1,
+  "master_alvo": "segundo_viavel + terceiro_inviavel",
+  "master_comparador": "sem_pesquisa"
+ },
+ "Dahlgaard2016a": {
+  "n_linhas": 14,
+  "principais": 1,
+  "master_alvo": "lider + partido_abaixo_clausula",
+  "master_comparador": "sem_pesquisa"
+ },
+ "Feltovich2022": {
+  "n_linhas": 4,
+  "principais": 2,
+  "master_alvo": "azarao + lider",
+  "master_comparador": "outro_resultado"
+ },
+ "Gasperoni2015a": {
+  "n_linhas": 37,
+  "principais": 1,
+  "master_alvo": "lider + segundo_viavel",
+  "master_comparador": "outro — especifique: preferência declarada pelo próprio eleitor antes da exposição, aos nove minutos de simulação, versus voto final, sem grupo de controle"
+ },
+ "Lammers2022a": {
+  "n_linhas": 5,
+  "principais": 2,
+  "master_alvo": "azarao + lider",
+  "master_comparador": "mesmo_candidato_atras"
+ },
+ "Meffert2011": {
+  "n_linhas": 4,
+  "principais": 1,
+  "master_alvo": "lider + partido_abaixo_clausula",
+  "master_comparador": "outro_resultado"
+ },
+ "Tal2015a": {
+  "n_linhas": 2,
+  "principais": 2,
+  "master_alvo": "lider + segundo_viavel",
+  "master_comparador": "mesmo_candidato_atras"
+ },
+ "Witsman2016a": {
+  "n_linhas": 9,
+  "principais": 1,
+  "master_alvo": "lider + terceiro_inviavel",
+  "master_comparador": "outro_resultado"
+ }
+}

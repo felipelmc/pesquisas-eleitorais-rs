@@ -1,0 +1,10 @@
+[{"dominio": "D1", "julgamento_a": "grave", "julgamento_b": "moderado",
+  "julgamento_consenso": "grave", "segue": "A",
+  "justificativa": "Decide a pergunta 1.1. A exposição é a margem nacional média das pesquisas interagida com LocalSafety t-1, e o modelo da Tabela A.7 só controla LocalSafety t-1 e EF de partido, distrito e região×ano; a preferência nacional real que as pesquisas acompanham (apoio_latente), em interação com a segurança local, não é controlada, e o modelo com EF distrito×ano (Tabela A.13) nem inclui a margem das pesquisas. Os próprios autores admitem que fatores distrito×eleição não ficam descartados, e a triangulação com outras análises não controla este resultado; logo 1.1 = SN, e sem controles negativos para este resultado (1.4 = PN) o algoritmo leva a grave, não a crítico.",
+  "trecho": "The specification may not entirely rule out the possibility that aggregate",
+  "pagina": 24},
+ {"dominio": "D2", "julgamento_a": "moderado", "julgamento_b": "baixo",
+  "julgamento_consenso": "moderado", "segue": "A",
+  "justificativa": "Os dois avaliadores responderam 2.1 = Y, 2.4 = N e 2.5 = PY; o julgamento baixo de B contradiz a própria resposta, pois pelo algoritmo 2.5 = Y/PY leva a moderado. O texto sustenta 2.5 = PY: LocalSafety t-1, parte da exposição, supõe que distritos com o mesmo nome mantiveram a fronteira apesar das revisões periódicas, e a margem nacional é uma média de institutos que variam de ano para ano (p. 15), erro não diferencial provável.",
+  "trecho": "Under the assumption that constituencies retaining the same name over",
+  "pagina": 12}]

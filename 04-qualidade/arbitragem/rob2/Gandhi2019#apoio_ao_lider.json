@@ -1,0 +1,22 @@
+[
+ {
+  "dominio": "D2",
+  "julgamento_a": "algumas_preocupacoes",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes",
+  "segue": "A",
+  "justificativa": "Decide 2.6: a análise exclui depois da randomização os 52 respondentes que ouviram a vinheta errada por erro do entrevistador, então não analisa todos no braço sorteado (2.6 = PN, como A e B responderam). A exclusão é pequena, cerca de 2% de 2.298 (2.7 = PN), e pelo algoritmo 2.6 PN com 2.7 N/PN dá algumas preocupações; o baixo de B contradiz as próprias respostas dele.",
+  "trecho": "52 respondents were found to have been wrongly asked questions",
+  "pagina": 7
+ },
+ {
+  "dominio": "D3",
+  "julgamento_a": "algumas_preocupacoes",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes",
+  "segue": "A",
+  "justificativa": "Decide 3.1: a amostra é de casos completos, e o texto não informa quantos randomizados ficaram sem o desfecho pós-tratamento nem a distribuição por braço, então 3.1 = SI (não S, como B respondeu), sem análise de sensibilidade (3.2 = N). A perda numa ligação telefônica logo depois da vinheta pode depender do apoio (3.3 = PS), mas os braços finais equilibrados (716, 736 e 743, Tabela 2) não indicam perda diferencial (3.4 = PN). Pelo algoritmo, isso dá algumas preocupações.",
+  "trecho": "as well as removing observations with missing responses,",
+  "pagina": 7
+ }
+]

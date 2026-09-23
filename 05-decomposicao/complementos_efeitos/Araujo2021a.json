@@ -1,0 +1,104 @@
+[
+ {
+  "id_efeito": "Araujo2021a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "When the results started being announced, Bolsonaro had 48.83 per cent of the counted votes, just 1.17 per cent short of reaching the 50 per cent (plus one vote) required to win on the first round.",
+  "pagina": 8,
+  "justificativa": "Desfecho é a votação de Bolsonaro, que a apuração divulgada às 19:00 mostrava à frente (48,83%) no primeiro turno."
+ },
+ {
+  "id_efeito": "Araujo2021a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "The second runner-up, the PT’s Fernando Haddad, came 22.75 pp behind, with 26.08 per cent of the votes, and the third runner-up, PDT’s Ciro Gomes, had 12.50 per cent of the votes.",
+  "pagina": 8,
+  "justificativa": "Haddad aparecia em segundo (26,08%) numa disputa com 13 candidatos (três analisados) e iria ao segundo turno: segundo colocado competitivo. direcao_desejada mantida, como manda a regra para alvos de viabilidade."
+ },
+ {
+  "id_efeito": "Araujo2021a-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "Meanwhile, upon learning that Gomes is in the third place and has no chance of moving to the second round, Gomes’s supporters could vote strategically.",
+  "pagina": 10,
+  "justificativa": "Gomes aparecia em terceiro (12,50%) e os autores o descrevem como sem chance de ir ao segundo turno. direcao_desejada mantida (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Araujo2021a-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "",
+  "pagina": "",
+  "justificativa": "Decidido por outcome (share of blank votes): voto em branco não é apoio a uma posição mostrada na informação. O construto na linha é apoio_ao_lider, mas o desfecho é de voto inválido."
+ },
+ {
+  "id_efeito": "Araujo2021a-E05",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "",
+  "pagina": "",
+  "justificativa": "Decidido por outcome (share of null votes): voto nulo não é apoio a uma posição mostrada na informação."
+ },
+ {
+  "id_efeito": "Araujo2021a-E06",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "In the second round, when results started being announced at 19:00 BRT, Bolsonaro had 55.7 per cent of the votes and an 11.4 pp lead over Haddad (G1 2018).",
+  "pagina": 8,
+  "justificativa": "Desfecho é a votação de Bolsonaro no segundo turno, que a apuração divulgada mostrava à frente (55,7%)."
+ },
+ {
+  "id_efeito": "Araujo2021a-E06",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "0.49",
+  "status": "derivado",
+  "trecho": "Substantively, our results translate into an estimated gain of 24 per cent of support for Bolsonaro (frontrunner) in treated units and a loss of 28 per cent for Haddad (second place).",
+  "pagina": 14,
+  "trecho_2": "As indicated by the treatment effect produced by Model 1, Bolsonaro’s vote share increases by 11.76 pp in voting machines where voters were exposed to information.",
+  "pagina_2": 14,
+  "justificativa": "O texto não imprime a votação média de Bolsonaro no segundo turno; ela sai do ganho relativo de 24% (crescimento percentual sobre o valor inicial, nota 18 da p. 12 do arquivo: \"We use the standard formula of percentage growth to estimate these effects.\") e do efeito de 11,76 p.p.: 11,76/0,24 = 49,0 → p0 = 0,49. Como 24% está arredondado, p0 fica entre 0,48 e 0,50; o valor inicial é a média de todas as urnas (99,76% controle), não só das de comparação."
+ },
+ {
+  "id_efeito": "Araujo2021a-E07",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "azarao",
+  "status": "preenchido",
+  "trecho": "In the second round, when results started being announced at 19:00 BRT, Bolsonaro had 55.7 per cent of the votes and an 11.4 pp lead over Haddad (G1 2018).",
+  "pagina": 8,
+  "justificativa": "Haddad aparecia atrás (11,4 p.p.) numa disputa de dois no segundo turno. direcao_desejada já é reduzir, coerente com alvo azarao; nada corrigido."
+ },
+ {
+  "id_efeito": "Araujo2021a-E08",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "",
+  "pagina": "",
+  "justificativa": "Decidido por outcome (share of blank votes): voto em branco não é apoio a uma posição mostrada na informação."
+ },
+ {
+  "id_efeito": "Araujo2021a-E09",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "",
+  "pagina": "",
+  "justificativa": "Decidido por outcome (share of null votes): voto nulo não é apoio a uma posição mostrada na informação."
+ }
+]

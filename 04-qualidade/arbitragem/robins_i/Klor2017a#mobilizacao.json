@@ -1,0 +1,12 @@
+[
+  {"dominio": "D1", "julgamento_a": "moderado", "julgamento_b": "baixo_exceto_confundimento",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "A pergunta 1.1 decide. O contraste é antes-depois dentro do sujeito: a informação vem sempre na segunda etapa, sem contrabalanceamento, e o teste de sinais não ajusta nada, então o confundimento por ordem/tempo não foi controlado (não cabe PY como em B). Ele provavelmente não é substancial, porque as decisões são quase simultâneas, sem retorno entre etapas e pagas de forma independente, e porque nas distribuições desequilibradas o comparecimento agregado não muda entre etapas (p. 14-15). Assim 1.1 = WN, com 1.3 e 1.4 = N, o que pelo algoritmo leva a moderado.",
+   "trecho": "we proceed to the second stage of the round. In this stage",
+   "pagina": 13},
+  {"dominio": "D6", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "A pergunta 6.1 decide. A e B concordam que 6.1 = NI e 6.2 a 6.4 = PN, mas B propôs baixo contra o algoritmo. O texto descreve os testes sem mencionar plano de análise prévio ou registro, e os contrastes das outras distribuições são relatados juntos, sem sinal de seleção. Pelo algoritmo, ausência de plano prévio com 6.2 a 6.4 = N/PN leva a moderado, não a baixo.",
+   "trecho": "For all the tests reported below the unit of observation",
+   "pagina": 14}
+]

@@ -1,0 +1,356 @@
+{
+ "Agranov2017a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Agranov2017a-E13",
+   "Agranov2017a-E14",
+   "Agranov2017a-E15",
+   "Agranov2017a-E16",
+   "Agranov2017a-E17",
+   "Agranov2017a-E18",
+   "Agranov2017a-E19",
+   "Agranov2017a-E20",
+   "Agranov2017a-E21",
+   "Agranov2017a-E22",
+   "Agranov2017a-E23",
+   "Agranov2017a-E24",
+   "Agranov2017a-E25",
+   "Agranov2017a-E26"
+  ],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Agranov2017a-E05",
+    "falta": "n1 e n2 (unidades independentes por braço nesta estimativa) ou se_pp/IC"
+   },
+   {
+    "id_efeito": "Agranov2017a-E13",
+    "falta": "n1 e n2 ou se_pp/IC"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Alabrese2024a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Alabrese2024a-E125",
+   "Alabrese2024a-E126",
+   "Alabrese2024a-E127",
+   "Alabrese2024a-E128",
+   "Alabrese2024a-E129",
+   "Alabrese2024a-E130",
+   "Alabrese2024a-E131",
+   "Alabrese2024a-E132"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Araujo2021a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Araujo2021a-E01",
+   "Araujo2021a-E02",
+   "Araujo2021a-E03",
+   "Araujo2021a-E04",
+   "Araujo2021a-E05",
+   "Araujo2021a-E06",
+   "Araujo2021a-E07",
+   "Araujo2021a-E08",
+   "Araujo2021a-E09"
+  ],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Araujo2021a-E06",
+    "falta": "p0 (proporção de votos do alvo nas unidades de comparação)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Chatterjee2019a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Chatterjee2019a-E01",
+   "Chatterjee2019a-E02",
+   "Chatterjee2019a-E03",
+   "Chatterjee2019a-E04",
+   "Chatterjee2019a-E05",
+   "Chatterjee2019a-E06",
+   "Chatterjee2019a-E07",
+   "Chatterjee2019a-E08",
+   "Chatterjee2019a-E09",
+   "Chatterjee2019a-E10",
+   "Chatterjee2019a-E11",
+   "Chatterjee2019a-E12"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Cornejo2023a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Cornejo2023a-E01",
+   "Cornejo2023a-E02",
+   "Cornejo2023a-E03",
+   "Cornejo2023a-E04",
+   "Cornejo2023a-E05",
+   "Cornejo2023a-E06",
+   "Cornejo2023a-E07",
+   "Cornejo2023a-E08",
+   "Cornejo2023a-E09",
+   "Cornejo2023a-E10",
+   "Cornejo2023a-E11",
+   "Cornejo2023a-E12",
+   "Cornejo2023a-E13",
+   "Cornejo2023a-E14",
+   "Cornejo2023a-E15",
+   "Cornejo2023a-E16",
+   "Cornejo2023a-E17",
+   "Cornejo2023a-E18"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Dahlgaard2016a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Dahlgaard2016a-E01",
+   "Dahlgaard2016a-E02",
+   "Dahlgaard2016a-E03",
+   "Dahlgaard2016a-E04",
+   "Dahlgaard2016a-E05",
+   "Dahlgaard2016a-E06",
+   "Dahlgaard2016a-E07",
+   "Dahlgaard2016a-E08",
+   "Dahlgaard2016a-E09",
+   "Dahlgaard2016a-E10",
+   "Dahlgaard2016a-E11",
+   "Dahlgaard2016a-E12",
+   "Dahlgaard2016a-E13",
+   "Dahlgaard2016a-E14"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Feltovich2022": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Feltovich2022-E01",
+   "Feltovich2022-E02",
+   "Feltovich2022-E03",
+   "Feltovich2022-E04"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Gasperoni2015a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Gasperoni2015a-E01",
+   "Gasperoni2015a-E02",
+   "Gasperoni2015a-E03",
+   "Gasperoni2015a-E04",
+   "Gasperoni2015a-E05",
+   "Gasperoni2015a-E06",
+   "Gasperoni2015a-E07",
+   "Gasperoni2015a-E08",
+   "Gasperoni2015a-E09",
+   "Gasperoni2015a-E10",
+   "Gasperoni2015a-E11",
+   "Gasperoni2015a-E12",
+   "Gasperoni2015a-E13",
+   "Gasperoni2015a-E14",
+   "Gasperoni2015a-E15",
+   "Gasperoni2015a-E16",
+   "Gasperoni2015a-E17",
+   "Gasperoni2015a-E18",
+   "Gasperoni2015a-E19",
+   "Gasperoni2015a-E20",
+   "Gasperoni2015a-E21",
+   "Gasperoni2015a-E22",
+   "Gasperoni2015a-E23",
+   "Gasperoni2015a-E24",
+   "Gasperoni2015a-E25",
+   "Gasperoni2015a-E26",
+   "Gasperoni2015a-E27",
+   "Gasperoni2015a-E28",
+   "Gasperoni2015a-E29",
+   "Gasperoni2015a-E30",
+   "Gasperoni2015a-E31",
+   "Gasperoni2015a-E32",
+   "Gasperoni2015a-E33",
+   "Gasperoni2015a-E34",
+   "Gasperoni2015a-E35",
+   "Gasperoni2015a-E36",
+   "Gasperoni2015a-E37"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Lammers2022a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Lammers2022a-E01",
+   "Lammers2022a-E02",
+   "Lammers2022a-E03",
+   "Lammers2022a-E04",
+   "Lammers2022a-E05"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Meffert2011": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Meffert2011-E01",
+   "Meffert2011-E02",
+   "Meffert2011-E03",
+   "Meffert2011-E04"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": [
+   "Meffert2011-E01"
+  ]
+ },
+ "Tal2015a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Tal2015a-E01",
+   "Tal2015a-E02"
+  ],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Tal2015a-E01",
+    "falta": "n1 e n2 (ou se_pp/IC)"
+   },
+   {
+    "id_efeito": "Tal2015a-E02",
+    "falta": "n1 e n2 (ou se_pp/IC)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Witsman2016a": {
+  "linhas_sem_alvo_ou_comparador": [
+   "Witsman2016a-E01",
+   "Witsman2016a-E02",
+   "Witsman2016a-E03",
+   "Witsman2016a-E04",
+   "Witsman2016a-E05",
+   "Witsman2016a-E06",
+   "Witsman2016a-E07",
+   "Witsman2016a-E08",
+   "Witsman2016a-E09"
+  ],
+  "dados_faltantes": [],
+  "estimando_a_revisar": []
+ },
+ "Brugarolas2021": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Brugarolas2021-E01",
+    "falta": "p0 (comparecimento no grupo de comparação, logo abaixo do limiar)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Farjam2020a": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Farjam2020a-E02",
+    "falta": "sdy (DP do desfecho no controle) ou, se o desfecho for binário e o coeficiente estiver em proporção, a rota dif_prop (efeito_pp, se_pp, p0)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Freden2024a": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Freden2024a-E01",
+    "falta": "n1 e n2 (ou se_pp/IC)"
+   },
+   {
+    "id_efeito": "Freden2024a-E04",
+    "falta": "n1 e n2 (ou se_pp/IC)"
+   },
+   {
+    "id_efeito": "Freden2024a-E07",
+    "falta": "n1 e n2 (ou se_pp/IC)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Gandhi2019": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Gandhi2019-E01",
+    "falta": "p0 (proporção do desfecho no grupo de comparação)"
+   },
+   {
+    "id_efeito": "Gandhi2019-E03",
+    "falta": "p0"
+   }
+  ],
+  "estimando_a_revisar": [
+   "Gandhi2019-E01",
+   "Gandhi2019-E03"
+  ]
+ },
+ "Kaplan2019a": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Kaplan2019a-E01",
+    "falta": "p0 (proporção no braço de comparação) e n2; conferir se há braço de comparação"
+   }
+  ],
+  "estimando_a_revisar": [
+   "Kaplan2019a-E01"
+  ]
+ },
+ "Klor2017a": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Klor2017a-E01",
+    "falta": "sdy ou rota dif_prop (desfecho binário: efeito_pp, se_pp, p0)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Morton2015a": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Morton2015a-E41",
+    "falta": "sdy (DP da votação agregada nas unidades de comparação ou pré-período)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Schlegel2023": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Schlegel2023-E01",
+    "falta": "p0 e se_pp/IC ou n1 e n2"
+   },
+   {
+    "id_efeito": "Schlegel2023-E02",
+    "falta": "p0 e se_pp/IC ou n1 e n2"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Stolwijk2019b": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Stolwijk2019b-E03",
+    "falta": "IC95 ou EP do OR (ou do log OR)"
+   }
+  ],
+  "estimando_a_revisar": []
+ },
+ "Westwood2020a": {
+  "linhas_sem_alvo_ou_comparador": [],
+  "dados_faltantes": [
+   {
+    "id_efeito": "Westwood2020a-E01",
+    "falta": "p0 (comparecimento no braço de comparação)"
+   }
+  ],
+  "estimando_a_revisar": []
+ }
+}

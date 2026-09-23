@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "cg_caracteristicas_base",
+  "julgamento_a": "alto",
+  "julgamento_b": "incerto",
+  "julgamento_consenso": "alto",
+  "segue": "A",
+  "justificativa": "O critério pede características de base dos grupos relatadas e semelhantes; o texto só mostra a distribuição da própria variável de apoio ao lado atrás (Figura C.5) e estatísticas descritivas agregadas (p. 38), sem nenhuma característica comparada entre municípios de mais e menos apoio. Não há características sequer mencionadas por grupo, e a regra da ferramenta para características não relatadas é alto, não incerto.",
+  "trecho": "distribution of Trailing Side’s Estimated Support accross 2176 municipalities and 57 votes",
+  "pagina": 52
+ },
+ {
+  "dominio": "cg_contaminacao",
+  "julgamento_a": "incerto",
+  "julgamento_b": "alto",
+  "julgamento_consenso": "alto",
+  "segue": "B",
+  "justificativa": "O critério dá alto quando é provável que as unidades de comparação tenham recebido a intervenção. Aqui não há incerteza: a mesma pesquisa nacional chega simultaneamente a todos os municípios, inclusive aos de baixo apoio ao lado atrás, e o contraste é só de intensidade. Como as unidades de comparação certamente receberam a intervenção, o algoritmo leva a alto.",
+  "trecho": "naturally-occurring exposure to poll information that arrives to entire populations",
+  "pagina": 6
+ },
+ {
+  "dominio": "cg_linha_base_outcome",
+  "julgamento_a": "alto",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "incerto",
+  "segue": "outro",
+  "justificativa": "Não pode ser baixo: o desfecho (voto municipal no lado atrás naquela votação) não foi medido antes da pesquisa, como os autores declaram, e os efeitos fixos de município não equivalem a uma medida de linha de base. Também não se enquadra em alto: a única diferença de base conhecida, o apoio estimado pela eleição legislativa anterior, entra no modelo como termo principal com efeitos fixos de município e de cantão×votação, e o texto não mostra diferença importante sem ajuste. Sem medida do desfecho na linha de base, a regra da ferramenta para falta de informação é incerto; a falta de placebo pré-1998 é ameaça de confundimento, já tratada em cg_outros_riscos.",
+  "trecho": "we do not observe municipality-level preferences regarding a referendum prior to",
+  "pagina": 21
+ }
+]

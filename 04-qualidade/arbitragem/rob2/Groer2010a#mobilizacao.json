@@ -1,0 +1,12 @@
+[
+  {"dominio": "D2", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "A pergunta decisiva é a 2.3. A queda do computador que encerrou uma sessão na rodada 94 (nota 13) é uma falha técnica que trunca rodadas de desfecho, e isso pertence ao D3. Não é um desvio da intervenção designada surgido porque participantes ou experimentadores conheciam a alocação: a informação continuou sendo entregue pelo software conforme o braço. Com 2.3 = PN e 2.6 = PS/S (os 6 eleitorados por tratamento são analisados no braço designado), o algoritmo do RoB 2 leva a baixo.",
+   "trecho": "Due to a computer crash, one session had to be stopped",
+   "pagina": 10},
+  {"dominio": "D5", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+   "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+   "justificativa": "Os dois avaliadores concordam em 5.1 = SI, 5.2 = N/PN e 5.3 = N/PN. O texto anuncia os testes não paramétricos no nível do eleitorado como regra geral, mas não menciona registro, protocolo nem plano de análise prévio. Pelo algoritmo do RoB 2, baixo exige 5.1 = S/PS. Com 5.1 = SI e 5.2/5.3 = N/PN, o resultado é algumas preocupações. A ausência do plano apenas impede o julgamento baixo; não é tratada como indício de viés.",
+   "trecho": "Many of our statistical tests are based on nonparametric statistics",
+   "pagina": 15}
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "id_efeito": "Feltovich2022-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "face reelection against a challenger. Both incumbents and challengers have private information about their own quality",
+  "pagina": 1,
+  "justificativa": "Disputa de dois (incumbente contra um desafiante); desfecho = voto no incumbente e regressor = parcela contínua de votos do incumbente na prévia, com outcome, modelo e direcao_desejada=aumentar no CSV. O regressor contínuo cobre todo o intervalo de posições, mas o sinal é codificado como bandwagon (mais apoio a quem tem mais votos na prévia), o que equivale a apoio a quem a prévia mostra à frente. comparador_tipo já estava preenchido ('outro') e direcao_desejada é coerente; nada alterado."
+ },
+ {
+  "id_efeito": "Feltovich2022-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "face reelection against a challenger. Both incumbents and challengers have private information about their own quality",
+  "pagina": 1,
+  "justificativa": "Disputa de dois (incumbente contra um desafiante); desfecho = voto no incumbente e regressor = parcela contínua de votos do incumbente na prévia, com outcome, modelo e direcao_desejada=aumentar no CSV. O regressor contínuo cobre todo o intervalo de posições, mas o sinal é codificado como bandwagon (mais apoio a quem tem mais votos na prévia), o que equivale a apoio a quem a prévia mostra à frente. comparador_tipo já estava preenchido ('outro') e direcao_desejada é coerente; nada alterado."
+ },
+ {
+  "id_efeito": "Feltovich2022-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "face reelection against a challenger. Both incumbents and challengers have private information about their own quality",
+  "pagina": 1,
+  "justificativa": "Disputa de dois (incumbente contra um desafiante); desfecho = voto no incumbente e regressor = dummy 'Incumbent wins straw vote', com outcome, modelo e direcao_desejada=aumentar no CSV. O incumbente vencer a prévia significa que a pesquisa o mostra à frente. comparador_tipo já estava preenchido ('outro') e direcao_desejada é coerente; nada alterado."
+ },
+ {
+  "id_efeito": "Feltovich2022-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "face reelection against a challenger. Both incumbents and challengers have private information about their own quality",
+  "pagina": 1,
+  "justificativa": "Disputa de dois (incumbente contra um desafiante); desfecho = voto no incumbente e regressor = dummy 'Incumbent wins straw vote', com outcome, modelo e direcao_desejada=aumentar no CSV. O incumbente vencer a prévia significa que a pesquisa o mostra à frente. comparador_tipo já estava preenchido ('outro') e direcao_desejada é coerente; nada alterado."
+ }
+]

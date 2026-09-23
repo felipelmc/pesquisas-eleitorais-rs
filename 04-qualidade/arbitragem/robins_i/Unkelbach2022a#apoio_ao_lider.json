@@ -1,0 +1,17 @@
+[
+  {"dominio": "D2", "julgamento_a": "baixo", "julgamento_b": "moderado",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 2.5 (outros erros de classificação). A exposição do protocolo é o resultado publicado, e o CMVI é justamente a projeção publicada (Wahlrecht.de, pesquisa do dia anterior, média quando há mais de uma), atribuída por data e sem relação com o desfecho (2.4 = N). A nota 6, citada por B, diz que as projeções não são marginais brutas: isso descreve a natureza da exposição publicada e não um erro de classificação dela, então 2.5 = PN e, com 2.1 = Y e 2.4 = N, o algoritmo dá baixo.",
+   "trecho": "The published poll results are a projection of the voting intentions",
+   "pagina": 13},
+  {"dominio": "D4", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "Decidem 4.2 e 4.5. A análise de casos completos exclui quem não tem dado de intenção de voto (o próprio desfecho), além de escolaridade e ocupação, e a amostra cai de 7068 (folha 9) para 5291 (folha 17), cerca de 25%, sem separar as perdas; logo 4.2 não é Y (é NI) e 4.5 é NI, porque manter indecisos e não votantes na categoria de referência não mostra que as recusas excluídas independem do voto verdadeiro. Pelo fluxo, 4.6 = WN (a exposição varia só entre dias, e a perda dificilmente depende da pesquisa do dia anterior), sem análise de sensibilidade (4.11 = PN), o que leva a moderado.",
+   "trecho": "we listwise excluded all cases with missing data on the focal measures",
+   "pagina": 9},
+  {"dominio": "D5", "julgamento_a": "baixo", "julgamento_b": "moderado",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 5.3. O desfecho é o mesmo item autodeclarado para todos os entrevistados de todos os dias (5.1 = N/PN) e o respondente pode saber das pesquisas (5.2 = PY), mas o item é a pergunta padrão de um survey eleitoral geral, sem referência às pesquisas nem à hipótese. O mecanismo de conformidade citado por B (folha 4) é o próprio efeito estudado, não um erro de medida; como o texto não mostra influência do conhecimento da exposição sobre o relato, 5.3 = PN e o algoritmo dá baixo.",
+   "trecho": "Which party will you vote for in the federal election?",
+   "pagina": 10}
+]

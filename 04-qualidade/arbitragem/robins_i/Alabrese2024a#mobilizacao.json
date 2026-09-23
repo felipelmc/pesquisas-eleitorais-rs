@@ -1,0 +1,10 @@
+[{"dominio": "D1", "julgamento_a": "grave", "julgamento_b": "moderado",
+  "julgamento_consenso": "grave", "segue": "A",
+  "justificativa": "A pergunta 1.1 decide. A exposição (margem das pesquisas nacionais) acompanha a competitividade nacional real. Os EF de distrito e de região×ano não absorvem a interação entre essa competitividade e a segurança local, por exemplo o esforço de campanha deslocado para cadeiras disputadas, que os próprios autores citam na p. 9 como correlato de disputas apertadas. Na p. 24 os autores admitem que fatores distrito×eleição não ficam descartados, e a análise com EF distrito×ano (Apêndice D) vale só para o nível de partido, não para o comparecimento. Isso é SN, e não WN. Como 1.4 = N/PN (não há controle negativo para este resultado), o algoritmo leva a grave, não a crítico.",
+  "trecho": "may not entirely rule out the possibility that aggregate results are driven",
+  "pagina": 24},
+ {"dominio": "D2", "julgamento_a": "moderado", "julgamento_b": "baixo",
+  "julgamento_consenso": "moderado", "segue": "A",
+  "justificativa": "Os dois avaliadores responderam 2.1 = Y, 2.4 = N e 2.5 = PY. Pelo algoritmo, 2.5 = Y/PY impede o nível baixo e leva a moderado; o julgamento baixo de B contradiz as respostas que o próprio B deu. O texto sustenta 2.5 = PY: a média inclui só os institutos ativos em 2017, o Apêndice C (p. 61) mostra viés sistemático entre institutos, e a margem local defasada supõe fronteiras estáveis quando o nome do distrito se mantém.",
+  "trecho": "averaging across the existing pollsters active during the 2017 general election campaign",
+  "pagina": 15}]

@@ -1,0 +1,401 @@
+{
+  "versao": "1",
+  "comando": "swim",
+  "gerado_em": "2026-09-23T19:00:28Z",
+  "entrada": "06-analise/swim_todas_linhas.csv",
+  "parametros": {
+    "grupo": [
+      "construto_outcome",
+      "celula_alvo"
+    ],
+    "limiar_consistencia": 0.7,
+    "nivel": 0.95,
+    "separar_desenho": true,
+    "excluir_rob": "nenhum"
+  },
+  "n_linhas_excluidas_revisao": 0,
+  "n_excluidos_rob_critico": 0,
+  "ressalvas": [
+    "direção pelo estimador pontual; significância não define direção",
+    "teste de sinal não estima magnitude nem considera precisão ou tamanho dos estudos",
+    "rótulo da caixa de ferramentas exige certeza (GRADE)"
+  ],
+  "figuras": [
+    "06-analise/swim_todas_linhas/figuras/direcao_efeito.png",
+    "06-analise/swim_todas_linhas/figuras/direcao_efeito.pdf"
+  ],
+  "grupos": [
+    {
+      "grupo": "apoio_ao_lider | momentum_outro | nao_randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "momentum_outro",
+      "familia_intervencao": "outro",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 0,
+      "n_beneficos": 0,
+      "n_danosos": 0,
+      "n_mistos": 1,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": null,
+      "ic_proporcao": null,
+      "p_sinal": null,
+      "so_risco_alto": null,
+      "teste_sinal": {
+        "n": 0,
+        "proporcao_benefica": null,
+        "ic": null,
+        "p_bilateral": null
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Araujo2021a"
+      ]
+    },
+    {
+      "grupo": "apoio_ao_lider | momentum_outro | randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "momentum_outro",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "classe_desenho": "randomizado",
+      "k_estudos": 2,
+      "n_estudos": 2,
+      "n_beneficos": 2,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.158113883008419, 1],
+      "p_sinal": 0.5,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 2,
+        "proporcao_benefica": 1,
+        "ic": [0.158113883008419, 1],
+        "p_bilateral": 0.5,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Dahlgaard2016a",
+        "Meffert2011"
+      ]
+    },
+    {
+      "grupo": "apoio_ao_lider | principal | nao_randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "principal",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 11,
+      "n_estudos": 9,
+      "n_beneficos": 6,
+      "n_danosos": 3,
+      "n_mistos": 1,
+      "n_nulos": 0,
+      "n_sem_direcao": 1,
+      "proporcao_benefica": 0.666666666666667,
+      "ic_proporcao": [0.29929505620854, 0.925145368580308],
+      "p_sinal": 0.5078125,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 9,
+        "proporcao_benefica": 0.666666666666667,
+        "ic": [0.29929505620854, 0.925145368580308],
+        "p_bilateral": 0.5078125,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": true,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Morton2015a",
+        "Stolwijk2016a",
+        "Lammers2022a",
+        "Unkelbach2022a",
+        "Araujo2021a",
+        "Feltovich2022",
+        "Chatterjee2019a",
+        "Bursztyn2023a",
+        "Alabrese2024a",
+        "Klor2017a",
+        "Gasperoni2015a"
+      ],
+      "albatross": {
+        "arquivo": "06-analise/swim_todas_linhas/figuras/albatross_03_apoio_ao_lider_principal_nao_randomizado.png",
+        "n_pontos": 18,
+        "n_so_p": 2,
+        "nota": "pontos = efeitos; círculo vazio = só p e n"
+      }
+    },
+    {
+      "grupo": "apoio_ao_lider | principal | randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "principal",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "classe_desenho": "randomizado",
+      "k_estudos": 13,
+      "n_estudos": 13,
+      "n_beneficos": 12,
+      "n_danosos": 1,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0.923076923076923,
+      "ic_proporcao": [0.639702564732123, 0.998054371502653],
+      "p_sinal": 0.00341796875,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 13,
+        "proporcao_benefica": 0.923076923076923,
+        "ic": [0.639702564732123, 0.998054371502653],
+        "p_bilateral": 0.00341796875,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": true,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": true,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Agranov2017a",
+        "Tal2015a",
+        "Farjam2020a",
+        "Klor2017a",
+        "Lammers2022a",
+        "Fichnova2015a",
+        "Timotei2013a",
+        "Witsman2016a",
+        "Boukouras2020a",
+        "Tyszler2015",
+        "Schlegel2023",
+        "Tyszler2013",
+        "Gandhi2019"
+      ],
+      "albatross": {
+        "arquivo": "06-analise/swim_todas_linhas/figuras/albatross_04_apoio_ao_lider_principal_randomizado.png",
+        "n_pontos": 46,
+        "n_so_p": 9,
+        "nota": "pontos = efeitos; círculo vazio = só p e n"
+      }
+    },
+    {
+      "grupo": "apoio_ao_lider | viabilidade | nao_randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "viabilidade",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 6,
+      "n_estudos": 3,
+      "n_beneficos": 2,
+      "n_danosos": 1,
+      "n_mistos": 2,
+      "n_nulos": 0,
+      "n_sem_direcao": 1,
+      "proporcao_benefica": 0.666666666666667,
+      "ic_proporcao": [0.0942993240502461, 0.991596241340387],
+      "p_sinal": 1,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 3,
+        "proporcao_benefica": 0.666666666666667,
+        "ic": [0.0942993240502461, 0.991596241340387],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Araujo2021a",
+        "Lago2015",
+        "Alabrese2024a",
+        "Chatterjee2019a",
+        "Cornejo2023a",
+        "Gasperoni2015a"
+      ]
+    },
+    {
+      "grupo": "apoio_ao_lider | viabilidade | randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "viabilidade",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "classe_desenho": "randomizado",
+      "k_estudos": 6,
+      "n_estudos": 6,
+      "n_beneficos": 3,
+      "n_danosos": 3,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0.5,
+      "ic_proporcao": [0.118117248757025, 0.881882751242975],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 6,
+        "proporcao_benefica": 0.5,
+        "ic": [0.118117248757025, 0.881882751242975],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": true,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Dahlgaard2016a",
+        "Meer2015a",
+        "Meffert2012a",
+        "Cornejo2023a",
+        "Witsman2016a",
+        "Freden2024a"
+      ],
+      "albatross": {
+        "arquivo": "06-analise/swim_todas_linhas/figuras/albatross_06_apoio_ao_lider_viabilidade_randomizado.png",
+        "n_pontos": 39,
+        "n_so_p": 1,
+        "nota": "pontos = efeitos; círculo vazio = só p e n"
+      }
+    },
+    {
+      "grupo": "mobilizacao | mobilizacao | nao_randomizado",
+      "construto_outcome": "mobilizacao",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 11,
+      "n_estudos": 9,
+      "n_beneficos": 4,
+      "n_danosos": 5,
+      "n_mistos": 1,
+      "n_nulos": 0,
+      "n_sem_direcao": 1,
+      "proporcao_benefica": 0.444444444444444,
+      "ic_proporcao": [0.136995662265167, 0.787991493221132],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 9,
+        "proporcao_benefica": 0.444444444444444,
+        "ic": [0.136995662265167, 0.787991493221132],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": true,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Bursztyn2023a",
+        "Stolwijk2019b",
+        "Brugarolas2021",
+        "Yang2023d",
+        "Morton2015a",
+        "Chatterjee2019a",
+        "Geers2018",
+        "Grillo2024c",
+        "Alabrese2024a",
+        "Gerber2020a",
+        "Kaplan2019a"
+      ],
+      "albatross": {
+        "arquivo": "06-analise/swim_todas_linhas/figuras/albatross_07_mobilizacao_mobilizacao_nao_randomizado.png",
+        "n_pontos": 167,
+        "n_so_p": 19,
+        "nota": "pontos = efeitos; círculo vazio = só p e n"
+      }
+    },
+    {
+      "grupo": "mobilizacao | mobilizacao | randomizado",
+      "construto_outcome": "mobilizacao",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "randomizado",
+      "k_estudos": 9,
+      "n_estudos": 8,
+      "n_beneficos": 5,
+      "n_danosos": 3,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 1,
+      "proporcao_benefica": 0.625,
+      "ic_proporcao": [0.244863216366552, 0.914766585862746],
+      "p_sinal": 0.7265625,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 8,
+        "proporcao_benefica": 0.625,
+        "ic": [0.244863216366552, 0.914766585862746],
+        "p_bilateral": 0.7265625,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": true,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Agranov2017a",
+        "Klor2017a",
+        "Gerber2020a",
+        "Groer2010a",
+        "Yang2023d",
+        "Westwood2020a",
+        "Urminsky2019",
+        "Erlich2023",
+        "Kaplan2019a"
+      ],
+      "albatross": {
+        "arquivo": "06-analise/swim_todas_linhas/figuras/albatross_08_mobilizacao_mobilizacao_randomizado.png",
+        "n_pontos": 31,
+        "n_so_p": 1,
+        "nota": "pontos = efeitos; círculo vazio = só p e n"
+      }
+    }
+  ]
+}

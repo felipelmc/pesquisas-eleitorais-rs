@@ -1,0 +1,10 @@
+[{"dominio": "D1", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo", "segue": "A",
+  "justificativa": "Decide a 1.2: cada bloco de 30 sujeitos já recrutados e presentes no laboratório foi repartido aleatoriamente entre duas sessões simultâneas, o que equivale a alocar todas as unidades de uma vez, então a ocultação é PS e não SI. Com 1.1 = PS e 1.3 = PN (o voto na fase de pesquisa não difere entre condições, p. 23; valências sorteadas uma vez para todas as sessões, p. 13), o algoritmo leva a baixo. As três sessões fora de bloco (nota 14) formam, em E1, um par controle/tratamento, e nada indica que os participantes conhecessem a condição ao se inscrever.",
+  "trecho": "taking place at the same time in the lab",
+  "pagina": 15},
+ {"dominio": "D2", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo", "segue": "A",
+  "justificativa": "Decide a 2.3: as sessões sem par de bloco e o 4 contra 5 sessões em E3 são questões de alocação e de tamanho amostral, não desvios da intervenção designada; cada sessão recebeu pelo software o regime de pesquisas da sua condição e só essa etapa difere, logo 2.3 = PN. Com a Tabela VI comparando todas as rodadas por condição designada, sem exclusões (2.6 = S/PS), o algoritmo leva a baixo; as respostas de B (2.3 S, 2.4 SI, 2.5 N) levariam a alto, não a algumas preocupações, o que confirma que o fluxo foi mal aplicado.",
+  "trecho": "that differs across the two experimental conditions in each of our",
+  "pagina": 15}]

@@ -1,0 +1,32 @@
+[
+ {
+  "id_efeito": "Stolwijk2019b-E03",
+  "campo": "se",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Note: Logistic regression on turnout, odds ratios in brackets *p < 0.05; **p < 0.01; ***p < 0.001.",
+  "pagina": 12,
+  "justificativa": "A Tabela 1 so reporta o coeficiente logit (0.57) e o odds ratio (1.77) com estrelas de significancia (p < 0.01); nao ha EP, estatistica z nem IC do coeficiente em nenhuma parte do PDF (os resultados completos ficam num apendice online nao anexado). Campo deixado vazio."
+ },
+ {
+  "id_efeito": "Stolwijk2019b-E03",
+  "campo": "ci_lo",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Note: Logistic regression on turnout, odds ratios in brackets *p < 0.05; **p < 0.01; ***p < 0.001.",
+  "pagina": 12,
+  "justificativa": "Nenhum IC95 do OR ou do log OR da coluna CBPS logit e impresso no PDF; so ha significancia por estrelas. O apendice online citado nao esta anexado. Campo deixado vazio."
+ },
+ {
+  "id_efeito": "Stolwijk2019b-E03",
+  "campo": "ci_hi",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Note: Logistic regression on turnout, odds ratios in brackets *p < 0.05; **p < 0.01; ***p < 0.001.",
+  "pagina": 12,
+  "justificativa": "Idem ci_lo: a Tabela 1 nao traz IC95 do OR, apenas coeficiente, OR entre parenteses e estrelas de p. Campo deixado vazio."
+ }
+]

@@ -1,0 +1,58 @@
+citekey,ficha,variavel,pagina_indicada,status,pagina_encontrada_impressa,offset_pagina,citacao
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,desenho_epoc,22,OK,,0,estimate the following model on a balanced panel of
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,resultado_avaliado,42,OK,,0,vote share for the trailing side (column 2) as dependent
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_sequencia_aleatoria,42,OK,,0,predetermined pre-disposition to vote for the side trailing
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_ocultacao_alocacao,42,OK,,0,"vote share, in percent of votes cast, in the preceding"
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_linha_base_outcome,22,OK,,0,municipality fixed effects are captured by
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_caracteristicas_base,52,OK,,0,distribution of Trailing Side's Estimated Support accross 2176
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_dados_incompletos,42,OK,,0,balanced panel of 2176 municipalities observed in all 57
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_conhecimento_alocacao,9,OK,,0,are available in disaggregate form for all levels
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_contaminacao,8,OK,,0,national-level poll (and its closeness) before each vote provides
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_relato_seletivo,22,OK,,0,"estimate equation 4, but now examining municipality vote share"
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_outros_riscos,22,OK,,0,vote shares in the preceding legislative election to minimize
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,desenho_epoc,13,OK,,0,"This is a simple event study, examining voter turnout"
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,resultado_avaliado,39,OK,,0,1 day after poll × Ex Ante Closeness (std.)
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_teste_t_sem_tendencia,13,OK,,0,estimated as coefficients on the interaction of poll closeness
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_intervencao_independente,15,OK,,0,absence of pre-trends suggests that the supply side was
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_forma_efeito_pre_especificada,13,OK,,0,with a full set of day-to-poll indicators
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_coleta_nao_afetada,9,OK,,0,registered on the very same day of any
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_conhecimento_alocacao,8,OK,,0,Data on daily voter turnout in the canton of Geneva
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_dados_incompletos,15,OK,,0,some votes do not have voting data for earlier
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_relato_seletivo,15,OK,,0,we examine the log of the daily turnout level
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_outros_riscos,39,OK,,0,Test of Joint Significance of Leads (p-value)
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,desenho_epoc,18,OK,,0,We have used difference-in-difference setup
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,resultado_avaliado,21,OK,,0,2.921*
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_sequencia_aleatoria,18,OK,,0,conducting such experiment is infeasible and impractical
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_ocultacao_alocacao,18,OK,,0,comparing the same states from an earlier round
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_linha_base_outcome,23,OK,,0,it is statistically not possible to accurately test this
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_caracteristicas_base,15,OK,,0,"These variables include population, sex ratio, literacy , total electors and urban employment"
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_conhecimento_alocacao,14,OK,,0,We use administrative data from the statistical reports
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_contaminacao,18,OK,,0,cannot affect the behavior of voters of single-phase election
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_relato_seletivo,19,OK,,0,Our final set of outcomes include voter turnout and winning margin
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_outros_riscos,22,OK,,0,electorate in the states chosen for the analysis systematically differ
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,desenho_epoc,18,OK,,0,We have used difference-in-difference setup
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,resultado_avaliado,28,OK,,0,4.706***
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_sequencia_aleatoria,18,OK,,0,conducting such experiment is infeasible and impractical
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_ocultacao_alocacao,18,OK,,0,comparing the same states from an earlier round
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_linha_base_outcome,23,OK,,0,it is statistically not possible to accurately test this
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_caracteristicas_base,15,OK,,0,"These variables include population, sex ratio, literacy , total electors and urban employment"
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_conhecimento_alocacao,14,OK,,0,We use administrative data from the statistical reports
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_contaminacao,18,OK,,0,cannot affect the behavior of voters of single-phase election
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_relato_seletivo,19,OK,,0,Our final set of outcomes include voter turnout and winning margin
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_outros_riscos,22,OK,,0,electorate in the states chosen for the analysis systematically differ
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,desenho_epoc,3,OK,,0,We compare the turnout rates in the second round to those
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,resultado_avaliado,13,OK,,0,Closure X 2nd Round
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,desenho_epoc,33,OK,,0,We use only the vote difference in the western OST
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,desenho_epoc,33,OK,,0,test for a bandwagon effect using simple t-tests on
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,resultado_avaliado,34,OK,,0,"Estimating equation (2) with ∆treated,st as the dependent variable"
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_intervencao_independente,18,OK,,0,"the growth of the Internet, making access to information easier"
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_intervencao_independente,18,OK,,0,the spread of online election result information after 5:00PM had grown
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_forma_efeito_pre_especificada,17,OK,,0,This reform became effective in 2005
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_coleta_nao_afetada,18,OK,,0,The data were collected from the French ministry of Internal Affairs
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_conhecimento_alocacao,18,OK,,0,The data were collected from the French ministry of Internal Affairs
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_dados_incompletos,18,OK,,0,comprises French presidential election results
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_relato_seletivo,34,OK,,0,such outlier observations are not a problem
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_outros_riscos,34,OK,,0,−4.04∗
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_outros_riscos,34,OK,,0,(2.89)
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,desenho_epoc,5,OK,,0,allows us to use a difference-in-difference strategy
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,resultado_avaliado,27,OK,,0,Separate time trends for each of the 105 departments are included

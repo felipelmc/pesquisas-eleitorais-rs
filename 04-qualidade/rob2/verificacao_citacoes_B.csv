@@ -1,0 +1,346 @@
+citekey,ficha,variavel,pagina_indicada,status,pagina_encontrada_impressa,offset_pagina,citacao
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,unidade_randomizacao,13,OK,,0,Each experimental session implemented one of the information treatments
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,resultado_avaliado,39,OK,,0,"is 74% when no polls are available, 91% when perfect"
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d2_q1_participantes_cientes,12,OK,,0,Subjects are perfectly informed of the realized jar in each period
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d2_q2_executores_cientes,13,OK,,0,Each experimental session implemented one of the information treatments
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d2_q6_analise_apropriada,13,OK,,0,we report results aggregated across all sessions
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d3_q1_dados_completos,6,OK,,0,groups of 9 subjects each participated in a total of 440 elections
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d4_q1_metodo_inadequado,13,OK,,0,the alternative receiving the majority of votes is selected
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d4_q2_medida_diferiu,13,OK,,0,"each decides whether to abstain, vote red, or vote blue"
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,6,OK,,0,In all treatments subjects knew their own preferred color
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,13,OK,,0,the alternative receiving the majority of votes is selected
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d5_q2_selecao_medidas,39,OK,,0,"is 74% when no polls are available, 91% when perfect"
+Agranov2017a,fichamento_Agranov2017a#apoio_ao_lider.md,d5_q3_selecao_analises,22,OK,,0,All of the observations hold true when separating treatments by costs
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,unidade_randomizacao,13,OK,,0,Each experimental session implemented one of the information treatments
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,resultado_avaliado,21,OK,,0,Table 3: Observed Participation Propensities
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d2_q1_participantes_cientes,12,OK,,0,Subjects are perfectly informed of the realized jar in each period
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d2_q2_executores_cientes,13,OK,,0,Each experimental session implemented one of the information treatments
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d2_q6_analise_apropriada,13,OK,,0,we report results aggregated across all sessions
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d3_q1_dados_completos,13,OK,,0,"Overall, 198 subjects participated"
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d4_q1_metodo_inadequado,13,OK,,0,"each decides whether to abstain, vote red, or vote blue"
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d4_q2_medida_diferiu,13,OK,,0,"each decides whether to abstain, vote red, or vote blue"
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d4_q3_avaliadores_cientes,6,OK,,0,In all treatments subjects knew their own preferred color
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d4_q4_avaliacao_influenciavel,13,OK,,0,"each decides whether to abstain, vote red, or vote blue"
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d5_q2_selecao_medidas,13,OK,,0,we report results aggregated across all sessions
+Agranov2017a,fichamento_Agranov2017a#mobilizacao.md,d5_q3_selecao_analises,22,OK,,0,All of the observations hold true when separating treatments by costs
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,unidade_randomizacao,16,OK,,0,participants being randomly allocated between the two
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,resultado_avaliado,50,OK,,0,Number of elections won for each party in each treatment
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d1b_q1_identificados_antes,16,OK,,0,each experimental block (of 30 subjects) to achieve perfect randomisation
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,16,OK,,0,participants being randomly allocated between the two
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d2_q1_participantes_cientes,32,OK,,0,All participants will observe the fraction of votes
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d2_q2_executores_cientes,16,OK,,0,We programmed the experiments using O-tree
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d2_q3_desvios_contexto,16,OK,,0,were the only sessions of their block
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d2_q5_desvios_equilibrados,15,OK,,0,four control sessions and five treatment sessions
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d2_q6_analise_apropriada,50,OK,,0,number of rounds won in the treatment condition
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d3_q1_dados_completos,15,OK,,0,eight 15-subject sessions (four control sessions and four treatment sessions)
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d4_q1_metodo_inadequado,15,OK,,0,"simple majority, with ties broken by a 50-50 coin toss"
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d4_q2_medida_diferiu,15,OK,,0,"simple majority, with ties broken by a 50-50 coin toss"
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,16,OK,,0,We programmed the experiments using O-tree
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,15,OK,,0,"simple majority, with ties broken by a 50-50 coin toss"
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d5_q2_selecao_medidas,5,OK,,0,"in terms of average vote share, candidate K performed better"
+Boukouras2020a,fichamento_Boukouras2020a#apoio_ao_lider.md,d5_q3_selecao_analises,50,OK,,0,number of rounds won in the treatment condition
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,unidade_randomizacao,18,OK,,0,The sample was divided into two randomly-assigned groups
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,resultado_avaliado,34,OK,,0,Table A6. Logistic Regression Model – Vote Choice Effect (among opposition
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,18,OK,,0,The sample was divided into two randomly-assigned groups
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d1_q3_desequilibrio_base,18,OK,,0,The treatment appears balanced across observed covariates
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d2_q1_participantes_cientes,19,OK,,0,"Did you know that an electoral poll, recently released"
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d2_q2_executores_cientes,18,OK,,0,The survey randomly assigned a question asking if
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d2_q6_analise_apropriada,18,OK,,0,provides an estimate of the impact of being informed about the electoral poll
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d3_q1_dados_completos,20,OK,,0,the portion of the sample in which strategic behavior is anticipated
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d4_q1_metodo_inadequado,19,OK,,0,which candidate would you vote for
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d4_q2_medida_diferiu,19,OK,,0,both treatment and control groups were asked a question
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,18,OK,,0,were not asked whether they were aware of the results
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,19,OK,,0,"Did you know that an electoral poll, recently released"
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,18,OK,,0,vignette did not include any message inviting third-party supporters to defect
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d5_q2_selecao_medidas,34,OK,,0,Support for the anti-PRI candidate with better standing in the polls
+Cornejo2023a,fichamento_Cornejo2023a#apoio_ao_lider.md,d5_q3_selecao_analises,20,OK,,0,table A6 in the Appendix reports the complete regressions including
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,unidade_randomizacao,6,OK,,0,The respondents were randomly split into five groups
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,resultado_avaliado,10,OK,,0,Figure 3 shows support toward the Social Democratic party in the left panel
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,6,OK,,0,The respondents were randomly split into five groups
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d1_q3_desequilibrio_base,9,OK,,0,no sign of imbalance in relation to gender
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d2_q1_participantes_cientes,6,OK,,0,Four of the groups read a fictive article from a newspaper including
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d2_q2_executores_cientes,6,OK,,0,The survey experiment was conducted as an online survey
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d2_q3_desvios_contexto,6,OK,,0,no differences in drop-out rates across the different experimental groups
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d2_q6_analise_apropriada,9,OK,,0,The analysis consists of simple comparisons between the experimental groups
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d3_q1_dados_completos,10,OK,,0,approximately 30 respondents in each group did not want to answer
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d4_q1_metodo_inadequado,10,OK,,0,"parliamentary election was held tomorrow, which party would you vote"
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d4_q2_medida_diferiu,6,OK,,0,all of the respondents answered a few identical questions
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,6,OK,,0,Four of the groups read a fictive article from a newspaper including
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,8,OK,,0,"After having read the articles, the respondents were asked different questions, including"
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d5_q2_selecao_medidas,11,OK,,0,Not all of the differences examined above were statistically significant
+Dahlgaard2016a,fichamento_Dahlgaard2016a#apoio_ao_lider.md,d5_q3_selecao_analises,9,OK,,0,The analysis consists of simple comparisons between the experimental groups
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,unidade_randomizacao,15,OK,,0,to allocate respondents to either the placebo or one
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,resultado_avaliado,56,OK,,0,Outcome of MIPO|X analysis
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,resultado_avaliado,56,OK,,0,Table N.12: Outcome of MIPO|X analysis
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d1_q1_sequencia_aleatoria,15,OK,,0,conducted my randomized experiment by either exposing respondents
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d1_q3_desequilibrio_base,48,OK,,0,p = 0.0034
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d2_q1_participantes_cientes,16,OK,,0,the second story varied across my three experimental conditions
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d2_q6_analise_apropriada,56,OK,,0,vote is a binary variable and logistic regression is
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d3_q1_dados_completos,15,OK,,0,"recruited 208 subjects, who had not participated"
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d3_q1_dados_completos,56,OK,,0,Num. obs. 172 181
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d3_q2_evidencia_sem_vies,55,OK,,0,I cannot rule out that this attrition is not
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d3_q3_faltante_pode_depender,55,OK,,0,none came from the American Treatment Group
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d3_q4_faltante_provavelmente_depende,55,OK,,0,unclear why priming an American polling firm in a
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d4_q1_metodo_inadequado,18,OK,,0,asked respondents about their voting behavior (turnout and vote
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d4_q2_medida_diferiu,18,OK,,0,recontacted subjects via a post-election phone survey
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d4_q3_avaliadores_cientes,16,OK,,0,the second story varied across my three experimental conditions
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d4_q4_avaliacao_influenciavel,25,OK,,0,view the election results as less legitimate than do
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d5_q2_selecao_medidas,55,OK,,0,vote choice question is plagued by multiple issues
+Erlich2023,fichamento_Erlich2023#mobilizacao.md,d5_q3_selecao_analises,56,OK,,0,vote is a binary variable and logistic regression is used
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,unidade_randomizacao,3,OK,,0,"assigned to groups of approximately 190 participants, with each group"
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,resultado_avaliado,6,OK,,0,Predicting Votes for the Most Popular Option
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,3,OK,,0,"assigned to groups of approximately 190 participants, with each group"
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,3,OK,,0,one of the political issues was randomly selected by computer
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d2_q1_participantes_cientes,3,OK,,0,"For treatments that included the poll, participants were informed"
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d2_q2_executores_cientes,3,OK,,0,the experiment was programed using oTree
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d2_q6_analise_apropriada,5,OK,,0,Table 2 lists the estimates of the models
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d3_q1_dados_completos,3,OK,,0,which only two participants did
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d4_q1_metodo_inadequado,1,OK,,0,an experimental design in which votes have real political consequences
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d4_q2_medida_diferiu,3,OK,,0,the experiment was programed using oTree
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,3,OK,,0,"based on votes within the group, $200 was distributed"
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d5_q2_selecao_medidas,5,OK,,0,Voting for the minority option was coded as 0
+Farjam2020a,fichamento_Farjam2020a#apoio_ao_lider.md,d5_q3_selecao_analises,5,OK,,0,The models only differ in that model 1 does not control
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,unidade_randomizacao,5,OK,,0,the respondents were put into groups randomly
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,resultado_avaliado,6,OK,,0,for the Slovak file with the value R = 0.909
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,resultado_avaliado,6,OK,,0,the value R = 0.973 (for f = n-2 = 5)
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,5,OK,,0,the respondents were put into groups randomly
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d2_q1_participantes_cientes,5,OK,,0,The experimental group received written and graphical information
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d2_q6_analise_apropriada,6,OK,,0,"consisted of 79 respondents, including 37 Slovak nationals"
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d3_q1_dados_completos,6,OK,,0,"consisted of 79 respondents, including 37 Slovak nationals"
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d4_q1_metodo_inadequado,6,OK,,0,respondent's task was to order the candidates based on his/her preference
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d4_q2_medida_diferiu,6,OK,,0,The research tool was an unstandardised questionnaire
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,6,OK,,0,the respondents would elect from the group of presented candidates
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,6,OK,,0,voted almost without an exception in accord with the presented poll
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,6,OK,,0,The accord in the ranking was also confirmed statistically
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d5_q2_selecao_medidas,8,OK,,0,In the C and D versions there was the same tendency
+Fichnova2015a,fichamento_Fichnova2015a#apoio_ao_lider.md,d5_q3_selecao_analises,11,OK,,0,Both effects have approximately the same strength across the two
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,unidade_randomizacao,4,OK,,0,"After this, the participants were randomized into nine"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,resultado_avaliado,6,OK,,0,"Table 1. Response to the Question “Given This State of Opinion, Which"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,4,OK,,0,"After this, the participants were randomized into nine"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d1_q3_desequilibrio_base,4,OK,,0,The randomization check revealed no significant differences between respondents in the different
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d2_q1_participantes_cientes,5,OK,,0,you were exposed to a fictional opinion poll
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d2_q6_analise_apropriada,6,OK,,0,"the parties the respondents chose, given by their"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d3_q1_dados_completos,5,OK,,0,"and 3,288 in both waves. From those, 3,259 respondents completed"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d4_q1_metodo_inadequado,5,OK,,0,respondents were asked which party they would vote for in
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d4_q2_medida_diferiu,5,OK,,0,"Here, they could choose for each of the eight parties"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,5,OK,,0,"After being exposed to the opinion poll, respondents were asked"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,5,OK,,0,"In the study you participated in, you were exposed to"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,5,OK,,0,"In the study you participated in, you were exposed to"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d5_q2_selecao_medidas,6,OK,,0,"none of the differences is significant, given the overall low"
+Freden2024a,fichamento_Freden2024a#apoio_ao_lider.md,d5_q3_selecao_analises,5,OK,,0,"In Table 1, we use row-wise percentages for each"
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,unidade_randomizacao,7,OK,,0,assigned to one of the three groups via a random number generator
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,resultado_avaliado,10,OK,,0,Coalition Support for Supporters of BERSATU versus Other Coalition
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,resultado_avaliado,11,OK,,0,Coalition Support for Supporters of DAP versus Other Coalition
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,7,OK,,0,assigned to one of the three groups via a random number generator
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d1_q2_ocultacao,7,OK,,0,assigned to one of the three groups via a random number generator
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d1_q3_desequilibrio_base,8,OK,,0,substantial balance in pretreatment covariates
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d2_q1_participantes_cientes,7,OK,,0,treatment groups receive a message that has the same opening line
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d2_q2_executores_cientes,7,OK,,0,wrongly asked questions for the treatment vignettes
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d2_q3_desvios_contexto,7,OK,,0,52 respondents were found to have been wrongly asked questions
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d2_q4_desvios_afetam,7,OK,,0,"leaves us with a sample of 2,195 opposition supporters"
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d2_q6_analise_apropriada,7,OK,,0,"removing observations with missing responses, underage respondents, or enumerator error"
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d2_q7_impacto_analise,7,OK,,0,Enumerator error was low
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d3_q1_dados_completos,7,OK,,0,who provided full responses to all questions
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d4_q1_metodo_inadequado,9,OK,,0,very or somewhat likely to vote for PH
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d4_q2_medida_diferiu,7,OK,,0,Responses to these questions provide a posttreatment measure of support for PH
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d4_q3_avaliadores_cientes,7,OK,,0,treatment groups receive a message that has the same opening line
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,7,OK,,0,the DAP [BERSATU] leader will be the next prime minister
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,7,OK,,0,How likely would you cast a vote for
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d5_q2_selecao_medidas,10,OK,,0,Our results also hold using binary logistic regression
+Gandhi2019,fichamento_Gandhi2019#apoio_ao_lider.md,d5_q3_selecao_analises,9,OK,,0,"Therefore, we use generalized ordered"
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,unidade_randomizacao,28,OK,,0,We restricted attention to households with three or fewer registered voters
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,resultado_avaliado,53,OK,,0,"Beliefs About the Closeness of the Election and Voter Turnout, IV Results"
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,resultado_avaliado,54,OK,,0,Impact of Close/Not Close Postcard Treatments on Turnout
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d1b_q1_identificados_antes,28,OK,,0,We restricted attention to households with three or fewer registered voters
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d1b_q3_desequilibrio_participantes,28,OK,,0,the samples are well-balanced in terms of
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d1_q1_sequencia_aleatoria,17,OK,,0,"age, and a random number"
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d1_q1_sequencia_aleatoria,27,OK,,0,"we randomly selected roughly 11,500 households"
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d1_q2_ocultacao,17,OK,,0,Randomization was carried out by Knowledge Networks
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d1_q2_ocultacao,27,OK,,0,The randomization was conducted using voter
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d1_q3_desequilibrio_base,18,OK,,0,voters in the not-close group had a slightly higher pre-treatment belief
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d2_q1_participantes_cientes,5,OK,,0,results of a poll indicating the narrowest margin between the two
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d2_q2_executores_cientes,13,OK,,0,"The experiment was administered by Knowledge Networks, a large online survey"
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d2_q3_desvios_contexto,15,OK,,0,The rate was 62% both among those assigned to receive the Close
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d2_q6_analise_apropriada,23,OK,,0,Table 6 shows IV regressions of turnout on beliefs instrumenting with
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d2_q6_analise_apropriada,29,OK,,0,Table 7 regresses turnout on treatment dummies
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d3_q1_dados_completos,16,OK,,0,"restricting to these 6,705 individuals who did the survey"
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d4_q1_metodo_inadequado,18,OK,,0,we do not use the self-reported information on whether someone voted
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d4_q2_medida_diferiu,17,OK,,0,We obtained administrative voting data on the voters in the sample
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d4_q3_avaliadores_cientes,17,OK,,0,collects administrative records on whether people voted from the Secretaries of State
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d5_q2_selecao_medidas,24,OK,,0,"Among columns 4-12, we have the most power in column 12."
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d5_q2_selecao_medidas,29,OK,,0,Column 4 further adds the cross treatment on whether the number
+Gerber2020a,fichamento_Gerber2020a#mobilizacao.md,d5_q3_selecao_analises,22,OK,,0,we present our main IV results without controlling for past
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,unidade_randomizacao,9,OK,,0,three sessions (six electorates) per cell
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,resultado_avaliado,16,OK,,0,Polls increase turnout levels by 22-28%.
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d2_q1_participantes_cientes,10,OK,,0,were announced at the beginning of each round
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d2_q2_executores_cientes,9,OK,,0,the online appendix for the read-aloud instructions
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d2_q3_desvios_contexto,10,OK,,0,one session had to be stopped after 94 rounds
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d2_q5_desvios_equilibrados,10,OK,,0,one session had to be stopped after 94 rounds
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d2_q6_analise_apropriada,11,OK,,0,We have observations from 6 independent electorates per treatment.
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d3_q1_dados_completos,11,OK,,0,We have observations from 6 independent electorates per treatment.
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d4_q1_metodo_inadequado,6,OK,,0,Each voter individually and privately decides between voting
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d4_q2_medida_diferiu,9,OK,,0,The experimental software was programmed using RatImage
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d4_q3_avaliadores_cientes,9,OK,,0,and knew her or his type right from the start
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d4_q4_avaliacao_influenciavel,19,OK,,0,binary choice between voting (= 1) and abstaining (= 0)
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d5_q2_selecao_medidas,15,OK,,0,turnout rates averaged over blocks of 20 rounds each
+Groer2010a,fichamento_Groer2010a#mobilizacao.md,d5_q3_selecao_analises,15,OK,,0,Many of our statistical tests are based on nonparametric statistics
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,unidade_randomizacao,12,OK,,0,an equal probability rule randomly assigned each subject to one of
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,resultado_avaliado,46,OK,,0,Random Effect Probit Estimates of Voting Decisions in the Second Stage
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,resultado_avaliado,46,OK,,0,0.305
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,12,OK,,0,an equal probability rule randomly assigned each subject to one of
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d1_q2_ocultacao,38,OK,,0,performs a separate draw for each participant as to his
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d2_q1_participantes_cientes,13,OK,,0,In this stage subjects are told the electorate's distribution of preferences
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d2_q6_analise_apropriada,14,OK,,0,"we use all the available data, adopting a random"
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d3_q1_dados_completos,11,OK,,0,84 subjects in this experiment were recruited from the pool
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d3_q1_dados_completos,46,OK,,0,84
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d4_q1_metodo_inadequado,38,OK,,0,will be implemented by keying appropriate commands
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d4_q2_medida_diferiu,12,OK,,0,an experimental administrator read the instructions aloud
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,13,OK,,0,In this stage subjects are told the electorate's distribution of preferences
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d5_q2_selecao_medidas,9,OK,,0,Each individual has to decide whether to vote or abstain
+Klor2017a,fichamento_Klor2017a#apoio_ao_lider.md,d5_q3_selecao_analises,18,OK,,0,We test the same model including the interaction between majority and
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,unidade_randomizacao,9,OK,,0,randomly assigned to one of four cells of a
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,resultado_avaliado,10,OK,,0,were more likely to switch to the leading candidate
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,9,OK,,0,randomly assigned to one of four cells of a
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d2_q1_participantes_cientes,9,OK,,0,"In the heuristic processing condition, participants read that"
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d2_q2_executores_cientes,9,OK,,0,took part in a simulated upcoming election for a
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d2_q6_analise_apropriada,10,OK,,0,"F(1, 198) = 29.71, p < .0001"
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d2_q6_analise_apropriada,10,OK,,0,"F(1, 196) = 11.46, p < .0001"
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d3_q1_dados_completos,10,OK,,0,"F(1, 198) = 29.71, p < .0001"
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d3_q1_dados_completos,10,OK,,0,"F(1, 196) = 11.46, p < .0001"
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d4_q1_metodo_inadequado,9,OK,,0,the likelihood (between 1 very unlikely and 7 very
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d4_q2_medida_diferiu,9,OK,,0,which after recoding we combined into one index of
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,9,OK,,0,the likelihood (between 1 very unlikely and 7 very
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,12,OK,,0,"do not directly induce the underlying psychological construct, but"
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,12,OK,,0,our experimental design has little bearing on how
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d5_q1_plano_previo,9,OK,,0,We preregistered the studies (see Supplementary Materials)
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d5_q2_selecao_medidas,9,OK,,0,We preregistered the studies (see Supplementary Materials)
+Lammers2022a,fichamento_Lammers2022a#apoio_ao_lider.md,d5_q3_selecao_analises,9,OK,,0,We preregistered the studies (see Supplementary Materials)
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,unidade_randomizacao,4,OK,,0,respondents were randomly assigned to 10 different groups
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,resultado_avaliado,29,OK,,0,Reference point: growth
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,9,OK,,0,respondents were randomly (and automatically) assigned
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d1_q2_ocultacao,9,OK,,0,respondents cannot realistically be expecting to receive
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d1_q3_desequilibrio_base,10,OK,,0,no significant or substantive differences between the ten
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d2_q1_participantes_cientes,11,OK,,0,we expose five of the seven groups to
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d2_q2_executores_cientes,9,OK,,0,Each of the ten groups got a slightly different treatment
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d2_q3_desvios_contexto,13,OK,,0,less likely to read the vignettes intensively
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d2_q4_desvios_afetam,13,OK,,0,our survey experiment is a conservative test
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d2_q5_desvios_equilibrados,13,OK,,0,embedded at the tail end of a lengthy questionnaire
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d2_q6_analise_apropriada,14,OK,,0,we eliminated those respondents who refused to answer
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d3_q1_dados_completos,14,OK,,0,we eliminated those respondents who refused to answer
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d3_q2_evidencia_sem_vies,32,OK,,0,"leads, as expected, to substantially the same effects"
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d4_q1_metodo_inadequado,12,OK,,0,commonly asked at the end of surveys
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d4_q2_medida_diferiu,10,OK,,0,all groups were presented with the same final
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,11,OK,,0,asked for their vote intention directly after
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,13,OK,,0,position of the treatment in the questionnaire might undermine
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,22,OK,,0,"it cannot explain why we only find significant, positive"
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d5_q2_selecao_medidas,12,OK,,0,This vote intention question forms our dependent variable
+Meer2015a,fichamento_Meer2015a#apoio_ao_lider.md,d5_q3_selecao_analises,20,OK,,0,All bandwagon effects are borderline significant at the
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,unidade_randomizacao,12,OK,,0,were randomly assigned to one of three poll conditions
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,resultado_avaliado,26,OK,,0,Close poll (manipulation)
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,12,OK,,0,were randomly assigned to one of three poll conditions
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d2_q1_participantes_cientes,3,OK,,0,were unobtrusively manipulated
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d2_q6_analise_apropriada,26,OK,,0,Close poll (manipulation)
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d3_q1_dados_completos,9,OK,,0,"the analyses, only the 200 participants who were eligible"
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d4_q1_metodo_inadequado,25,OK,,0,vote for a party other than the one ranked highest
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d4_q2_medida_diferiu,16,OK,,0,"After the information search ended, participants were asked to vote"
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d4_q3_avaliadores_cientes,13,OK,,0,All participants encountered and read this page before continuing
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,3,OK,,0,were unobtrusively manipulated
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,10,OK,,0,including the manipulated and unobtrusively embedded polls and coalition signals
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d5_q2_selecao_medidas,25,OK,,0,not possible to conduct further in-depth analyses of this group
+Meffert2011,fichamento_Meffert2011#apoio_ao_lider.md,d5_q3_selecao_analises,25,OK,,0,the model is reported with and without the perceptions
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,unidade_randomizacao,4,OK,,0,We randomly assign respondents to one of the eight conditions
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,resultado_avaliado,5,OK,,0,the probability to vote strategically is increased by 11 percentage points
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,4,OK,,0,We randomly assign respondents to one of the eight conditions
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d1_q3_desequilibrio_base,4,OK,,0,randomization assured balance with respect to covariates
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d2_q1_participantes_cientes,5,OK,,0,we increase our respondents' cognitive load during the voting task by
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d2_q6_analise_apropriada,5,OK,,0,the probability to vote strategically is increased by 11 percentage points
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d3_q1_dados_completos,5,OK,,0,a pilot study with 1000 respondents
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d3_q1_dados_completos,5,OK,,0,main study with 2500 respondents
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d4_q1_metodo_inadequado,4,OK,,0,participants are asked to cast their vote for one of the candidates
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d4_q2_medida_diferiu,4,OK,,0,participants are asked to cast their vote for one of the candidates
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d4_q3_avaliadores_cientes,4,OK,,0,"According to the polls, Candidate"
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,4,OK,,0,"After reviewing the polls, participants are asked to cast their vote"
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,4,OK,,0,respondents took the vote advice application task seriously
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d5_q1_plano_previo,4,OK,,0,The analysis for the main-study is pre-registered and can
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d5_q2_selecao_medidas,5,OK,,0,the pattern is not as clear for the low incentive condition
+Schlegel2023,fichamento_Schlegel2023#apoio_ao_lider.md,d5_q3_selecao_analises,5,OK,,0,See SM A.VI for full regression tables and marginal
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,unidade_randomizacao,5,OK,,0,the subject was assigned a random preference order over the candidates
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,resultado_avaliado,6,OK,,0,"Voting behavior for 1,009 voters"
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,resultado_avaliado,7,OK,,0,candidate qi is ranked last in the poll
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,5,OK,,0,the subject was assigned a random preference order over the candidates
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d2_q1_participantes_cientes,4,OK,,0,presented in the voting bar to the left of each candidate
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d2_q6_analise_apropriada,6,OK,,0,we focused our analysis on group C
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d2_q7_impacto_analise,6,OK,,0,Since group B behaved in a completely predictable way
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d3_q1_dados_completos,5,OK,,0,We collected at least 10 game instances for any combination of poll
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d4_q1_metodo_inadequado,3,OK,,0,each participant to vote (only once) for one of the
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d4_q2_medida_diferiu,4,OK,,0,"For every instance of the game, a poll was generated using"
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,4,OK,,0,presented in the voting bar to the left of each candidate
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,5,OK,,0,The reward to the subject was determined solely by the winning
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,5,OK,,0,"in contrast to our first hypothesis, about 5% of votes were cast"
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d5_q2_selecao_medidas,6,OK,,0,"neither of these correlations was statistically significant, and thus the effect"
+Tal2015a,fichamento_Tal2015a#apoio_ao_lider.md,d5_q3_selecao_analises,6,OK,,0,"As for the sixth hypothesis, we observed very similar qualitative and"
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,unidade_randomizacao,8,OK,,0,The subjects were divided into six groups of 20
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,resultado_avaliado,8,OK,,0,respondents who are in favour of candidate B has decrease to 54%
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d1b_q1_identificados_antes,8,OK,,0,The sampling has been done by randomly selecting students from a list
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d2_q1_participantes_cientes,8,OK,,0,The other groups received information about the expected winner
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d2_q6_analise_apropriada,8,OK,,0,Their answers will be compared with the answers of the other groups
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d3_q1_dados_completos,8,OK,,0,we have a 1% non-response (NR)
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d4_q1_metodo_inadequado,9,OK,,0,which of the following candidates will you vote?
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d4_q2_medida_diferiu,9,OK,,0,which of the following candidates will you vote?
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,8,OK,,0,The other groups received information about the expected winner
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,7,OK,,0,he tends to go with the majority or the group
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,7,OK,,0,he tends to go with the majority or the group
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d5_q2_selecao_medidas,9,OK,,0,which of the following candidates will you vote?
+Timotei2013a,fichamento_Timotei2013a#apoio_ao_lider.md,d5_q3_selecao_analises,9,OK,,0,Pearson's chi-squared test showed that we can reject the alternative
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,unidade_randomizacao,15,OK,,0,value of the intermediate option is constant for a given electorate
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,resultado_avaliado,31,OK,,0,"Low Importance (u = 3), Uninformed"
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,resultado_avaliado,28,OK,,0,Bars show for each treatment the fraction of election outcomes
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d2_q1_participantes_cientes,15,OK,,0,participants know the aggregate induced preferences of all voters before casting their
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d2_q6_analise_apropriada,15,OK,,0,"For each cell, we have observations from six electorates"
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d3_q1_dados_completos,15,OK,,0,"For each cell, we have observations from six electorates"
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d4_q1_metodo_inadequado,16,OK,,0,"figure 4 shows, across treatments, the fraction of elections where the winner"
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d4_q2_medida_diferiu,15,OK,,0,"Plurality rule determines the winner, with ties broken by equal probability random"
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d4_q3_avaliadores_cientes,15,OK,,0,"Plurality rule determines the winner, with ties broken by equal probability random"
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d5_q2_selecao_medidas,28,OK,,0,Bars show for each treatment the fraction of election outcomes
+Tyszler2015,fichamento_Tyszler2015#apoio_ao_lider.md,d5_q3_selecao_analises,22,OK,,0,we observe this 72-88% of the time with uninformed voters and 93-96%
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,unidade_randomizacao,9,OK,,0,saw an election forecast that displayed either the chance
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,resultado_avaliado,49,OK,,0,non-significant difference in the self-reported likelihood of voting
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d1_q1_sequencia_aleatoria,9,OK,,0,the chance-forecast-displayed condition) or Clinton's predicted margin of victory
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d2_q1_participantes_cientes,9,OK,,0,displayed either the chance of Clinton winning
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d2_q2_executores_cientes,9,OK,,0,"N = 225 valid participants from Amazon Mechanical Turk, or AMT"
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d2_q3_desvios_contexto,9,OK,,0,Participants were asked to rate their opinion of the prediction
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d2_q6_analise_apropriada,9,OK,,0,excluding those with duplicate IP addresses and failed attention checks
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d3_q1_dados_completos,49,OK,,0,"t(223) = 1.47, d = - 0.20, p = .143)"
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d4_q2_medida_diferiu,9,OK,,0,answering several other questions (see Appendix 1)
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d4_q3_avaliadores_cientes,49,OK,,0,self-reported likelihood of voting
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d4_q4_avaliacao_influenciavel,48,OK,,0,showing chance forecasts might demotivate voters
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d4_q5_avaliacao_provavelmente_influenciada,49,OK,,0,non-significant difference in the self-reported likelihood of voting
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d5_q1_plano_previo,7,OK,,0,the majority of which are pre-registered
+Urminsky2019,fichamento_Urminsky2019#mobilizacao.md,d5_q2_selecao_medidas,56,OK,,0,between forecast format conditions for all behavioral intention measures
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,unidade_randomizacao,10,OK,,0,assigned to either team A or team B
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,resultado_avaliado,10,OK,,0,less likely to vote (b p 20:17
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d1_q1_sequencia_aleatoria,10,OK,,0,"the probability that each team would win, randomly assigned"
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d2_q1_participantes_cientes,10,OK,,0,Presentation of vote share and probability of victory.
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d2_q6_analise_apropriada,11,OK,,0,Data were analyzed using a multilevel model with random
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d3_q1_dados_completos,10,OK,,0,"1,171 respondents (5,845 trials) drawn from a national"
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d4_q1_metodo_inadequado,10,OK,,0,Decision to vote ($1 cost) or not vote (no cost).
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d4_q2_medida_diferiu,10,OK,,0,Game stages (stages 2–6 repeated in each of the five
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d4_q3_avaliadores_cientes,10,OK,,0,Presentation of vote share and probability of victory.
+Westwood2020a,fichamento_Westwood2020a#mobilizacao.md,d4_q4_avaliacao_influenciavel,10,OK,,0,"voting for their team ($1 cost), increased the chance"
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,unidade_randomizacao,29,OK,,0,was assigned at random to the participant from a set of
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,resultado_avaliado,33,OK,,0,Percent in Polls * Voted for Independent Candidate Crosstabulation
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d1_q1_sequencia_aleatoria,29,OK,,0,was assigned at random to the participant from a set of
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d2_q1_participantes_cientes,29,OK,,0,presented participants with a scenario in which they were told
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d2_q2_executores_cientes,26,OK,,0,invited those interested to complete the survey online using Qualtrics
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d2_q3_desvios_contexto,29,OK,,0,"Then, using a table, the scenario explained the percentages"
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d2_q6_analise_apropriada,32,OK,,0,chi-square test of independence was conducted for scenario one
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d3_q1_dados_completos,26,OK,,0,however only 377 surveys were completed
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d3_q1_dados_completos,33,OK,,0,"results were significant [χ2 (4, n=366) = 22.444"
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d4_q1_metodo_inadequado,30,OK,,0,indicating which candidate they would likely vote for
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d4_q2_medida_diferiu,30,OK,,0,Participants answered the three scenario based questions by indicating
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d4_q3_avaliadores_cientes,30,OK,,0,Participants answered the three scenario based questions by indicating
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d4_q4_avaliacao_influenciavel,24,OK,,0,Polling numbers will influence the likelihood of voting for a preferred
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d4_q5_avaliacao_provavelmente_influenciada,33,OK,,0,with frequencies of Independent voting continually increasing in the conditions
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d5_q1_plano_previo,24,OK,,0,Polling numbers will influence the likelihood of voting for a preferred
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d5_q2_selecao_medidas,30,OK,,0,Participants answered the three scenario based questions by indicating
+Witsman2016a,fichamento_Witsman2016a#apoio_ao_lider.md,d5_q3_selecao_analises,32,OK,,0,chi-square test of independence was conducted for scenario one

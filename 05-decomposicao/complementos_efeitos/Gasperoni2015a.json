@@ -1,0 +1,372 @@
+[
+ {
+  "id_efeito": "Gasperoni2015a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "predicted the voter’s second preferred candidate would beat the most preferred candidate (by 4 or 5 percentage points); the other two candidates were described as being out of the running",
+  "pagina": 19,
+  "justificativa": "Grupo 1: as pesquisas mostram o segundo preferido à frente do mais preferido, com os outros dois fora da disputa; a troca é para quem a pesquisa mostra à frente. direcao_desejada = aumentar, já coerente."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the voter’s least preferred candidate was ahead, beating the second preferred candidate (by 4 or 5 percentage points), who in turn, was ahead of the voter’s most preferred candidate",
+  "pagina": 20,
+  "justificativa": "Grupo 2: disputa de quatro em que as pesquisas mostram o menos preferido à frente e o segundo preferido em segundo; a troca é deserção estratégica para o segundo colocado viável. Alvo de viabilidade: direcao_desejada (reduzir) não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E05",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E06",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E07",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E08",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E09",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E10",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E11",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E12",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E13",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E14",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E15",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E16",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E17",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E18",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E19",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E20",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E21",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E22",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E23",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E24",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E25",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E26",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E27",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E28",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E29",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E30",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E31",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E32",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E33",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E34",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the great majority of Group 1 and Group 2 voters (161 out of 188, i.e. 86%) confirmed their initial preference",
+  "pagina": 20,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada. As contagens da folha 24 somam os 188 casos dos dois grupos (146+42=188)."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E35",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the great majority of Group 1 and Group 2 voters (161 out of 188, i.e. 86%) confirmed their initial preference",
+  "pagina": 20,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada. As contagens da folha 24 somam os 188 casos dos dois grupos (146+42=188)."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E36",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the great majority of Group 1 and Group 2 voters (161 out of 188, i.e. 86%) confirmed their initial preference",
+  "pagina": 20,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada. As contagens da folha 24 somam os 188 casos dos dois grupos (146+42=188)."
+ },
+ {
+  "id_efeito": "Gasperoni2015a-E37",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the great majority of Group 1 and Group 2 voters (161 out of 188, i.e. 86%) confirmed their initial preference",
+  "pagina": 20,
+  "justificativa": "Linha agrupa os Grupos 1 e 2: no Grupo 1 o destino da troca é o líder da pesquisa (lider); no Grupo 2, o segundo colocado viável numa disputa de quatro em que o menos preferido lidera (segundo_viavel). Como só há um valor por linha e o protocolo proíbe somar deserção estratégica para o segundo colocado à célula principal, codificado como segundo_viavel (conservador); o efeito puro sobre o líder está em Gasperoni2015a-E02. direcao_desejada não alterada. As contagens da folha 24 somam os 188 casos dos dois grupos (146+42=188)."
+ }
+]

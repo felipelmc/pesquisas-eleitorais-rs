@@ -1,0 +1,12 @@
+[
+  {"dominio": "D2", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 2.3: a intervenção é uma exposição única a um áudio padronizado, ouvida em fones numa só sessão de laboratório, sem espaço para desvios causados pelo contexto do estudo. Por isso 2.3 = PN, e não SI, mesmo que 2.1 fosse S (os participantes também não sabiam dos outros braços, porque havia uma história de mascaramento e um placebo análogo). Com a análise pelos grupos designados (2.6 PS), o algoritmo leva a baixo.",
+   "trecho": "listen to the story only once carefully",
+   "pagina": 67},
+  {"dominio": "D4", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 4.3: quem avalia o comparecimento autodeclarado é o próprio participante, mas ele não sabia a que braço pertencia. O placebo também ouvia uma notícia de campanha, a primeira história servia de máscara e o debriefing é descrito depois da pergunta sobre o voto na pesquisa telefônica. Logo, 4.3 = PN, com 4.1 e 4.2 = PN, e o algoritmo leva a baixo. A analogia de B com o efeito sobre a legitimidade trata um efeito do tratamento como viés de mensuração, e isso é julgar pelo resultado.",
+   "trecho": "This story served to mask the fact for the treatment groups",
+   "pagina": 16}
+]

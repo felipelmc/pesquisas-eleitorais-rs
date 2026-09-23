@@ -3,7 +3,7 @@ Agranov2017a-E01,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para d
 Agranov2017a-E02,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.381,,0,0
 Agranov2017a-E03,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.067,,0,0
 Agranov2017a-E04,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.334,,0,0
-Agranov2017a-E05,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.200,,0,0
+Agranov2017a-E05,Agranov2017a,21,OK,,verify_citacoes,,,0.200,,0,0
 Agranov2017a-E06,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.393,,0,0
 Agranov2017a-E07,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.155,,0,0
 Agranov2017a-E08,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.286,,0,0
@@ -11,7 +11,7 @@ Agranov2017a-E09,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para 
 Agranov2017a-E10,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, n1, sd2, n2",,,0,0
 Agranov2017a-E11,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, n1, sd2, n2",,,0,0
 Agranov2017a-E12,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, n1, sd2, n2",,,0,0
-Agranov2017a-E13,Agranov2017a,39,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.699,,0,0
+Agranov2017a-E13,Agranov2017a,39,OK,,verify_citacoes,,,0.699,,0,0
 Agranov2017a-E14,Agranov2017a,39,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.298,,0,0
 Agranov2017a-E15,Agranov2017a,35,OK,,verify_citacoes,,,0.489,,0,0
 Agranov2017a-E16,Agranov2017a,35,OK,,verify_citacoes,,,0.194,,0,0
@@ -21,7 +21,7 @@ Agranov2017a-E19,Agranov2017a,35,OK,,verify_citacoes,,,0.447,,0,0
 Agranov2017a-E20,Agranov2017a,35,OK,,verify_citacoes,,,0.192,,0,0
 Agranov2017a-E21,Agranov2017a,35,OK,,verify_citacoes,,,0.631,,0,0
 Agranov2017a-E22,Agranov2017a,35,OK,,verify_citacoes,,,0.395,,0,0
-Agranov2017a-E23,Agranov2017a,35,OK,,verify_citacoes,"p1 fora de (0, 1)",,,,0,0
+Agranov2017a-E23,Agranov2017a,35,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p1 ou efeito_pp,,,0,0
 Agranov2017a-E24,Agranov2017a,35,OK,,verify_citacoes,,,-0.541,,0,0
 Agranov2017a-E25,Agranov2017a,35,OK,,verify_citacoes,,,0.662,,0,0
 Agranov2017a-E26,Agranov2017a,35,OK,,verify_citacoes,,,0.150,,0,0
@@ -153,16 +153,16 @@ Alabrese2024a-E125,Alabrese2024a,57,OK,,verify_citacoes,,,-0.696,,0,0
 Alabrese2024a-E126,Alabrese2024a,57,OK,,verify_citacoes,,,-1.056,,0,0
 Alabrese2024a-E127,Alabrese2024a,57,OK,,verify_citacoes,,"|g| aproximado = 5.99 > 2: confira unidade, DP x EP e sinal",5.989,,0,0
 Alabrese2024a-E128,Alabrese2024a,57,OK,,verify_citacoes,,"|g| aproximado = 13.77 > 2: confira unidade, DP x EP e sinal",-13.772,,0,0
-Alabrese2024a-E129,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
-Alabrese2024a-E130,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
-Alabrese2024a-E131,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
-Alabrese2024a-E132,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
+Alabrese2024a-E129,Alabrese2024a,57,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E130,Alabrese2024a,57,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E131,Alabrese2024a,57,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E132,Alabrese2024a,57,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
 Araujo2021a-E01,Araujo2021a,12,OK,,verify_citacoes,,,0.127,,0,0
 Araujo2021a-E02,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E03,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E04,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E05,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
-Araujo2021a-E06,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Araujo2021a-E06,Araujo2021a,14,OK,,verify_citacoes,,,0.263,,0,0
 Araujo2021a-E07,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E08,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E09,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
@@ -178,7 +178,7 @@ Boukouras2020a-E09,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes pa
 Boukouras2020a-E10,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.636,,0,0
 Boukouras2020a-E11,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.518,,0,0
 Boukouras2020a-E12,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.468,,0,0
-Brugarolas2021-E01,Brugarolas2021,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Brugarolas2021-E01,Brugarolas2021,6,OK,,verify_citacoes,,,0.259,,0,0
 Bursztyn2023a-E01,Bursztyn2023a,39,OK,,verify_citacoes,,,0.196,,0,0
 Bursztyn2023a-E02,Bursztyn2023a,39,OK,,verify_citacoes,,,0.177,,0,0
 Bursztyn2023a-E03,Bursztyn2023a,39,OK,,verify_citacoes,,,0.213,,0,0
@@ -262,9 +262,18 @@ Fichnova2015a-E05,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 8.43 > 
 Fichnova2015a-E06,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 2.52 > 2: confira unidade, DP x EP e sinal",2.518,,0,0
 Fichnova2015a-E07,Fichnova2015a,8,OK,,verify_citacoes,,,1.983,,0,0
 Fichnova2015a-E08,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 2.63 > 2: confira unidade, DP x EP e sinal",2.630,,0,0
-Gandhi2019-E01,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Freden2024a-E01,Freden2024a,6,OK,,verify_citacoes,,,-0.412,,0,0
+Freden2024a-E02,Freden2024a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.072,,0,0
+Freden2024a-E03,Freden2024a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.340,,0,0
+Freden2024a-E04,Freden2024a,6,OK,,verify_citacoes,,,-0.187,,0,0
+Freden2024a-E05,Freden2024a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.202,,0,0
+Freden2024a-E06,Freden2024a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.015,,0,0
+Freden2024a-E07,Freden2024a,6,OK,,verify_citacoes,,,0.038,,0,0
+Freden2024a-E08,Freden2024a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.016,,0,0
+Freden2024a-E09,Freden2024a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.054,,0,0
+Gandhi2019-E01,Gandhi2019,10,OK,,verify_citacoes,,,-0.991,,0,0
 Gandhi2019-E02,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
-Gandhi2019-E03,Gandhi2019,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E03,Gandhi2019,11,OK,,verify_citacoes,,,-0.370,,0,0
 Gandhi2019-E04,Gandhi2019,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gandhi2019-E05,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gandhi2019-E06,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
@@ -291,7 +300,7 @@ Gasperoni2015a-E13,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes pa
 Gasperoni2015a-E14,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E15,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E16,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
-Gasperoni2015a-E17,Gasperoni2015a,37,OK,,verify_citacoes,"p1 fora de (0, 1)",dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E17,Gasperoni2015a,37,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, p1 ou efeito_pp",,,0,0
 Gasperoni2015a-E18,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E19,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E20,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
@@ -306,7 +315,7 @@ Gasperoni2015a-E28,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes pa
 Gasperoni2015a-E29,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E30,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E31,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
-Gasperoni2015a-E32,Gasperoni2015a,37,OK,,verify_citacoes,"p1 fora de (0, 1)",dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E32,Gasperoni2015a,37,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, p1 ou efeito_pp",,,0,0
 Gasperoni2015a-E33,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E34,Gasperoni2015a,24,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Gasperoni2015a-E35,Gasperoni2015a,24,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
@@ -343,7 +352,7 @@ Gerber2020a-E26,Gerber2020a,18,OK,,verify_citacoes,,,-0.005,,0,0
 Gerber2020a-E27,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
 Gerber2020a-E28,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
 Gerber2020a-E29,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
-Gerber2020a-E30,Gerber2020a,54,OK,,verify_citacoes,p1 − p0 (0.0002) incoerente com efeito_pp/100 (0.0005),,0.000,,0,0
+Gerber2020a-E30,Gerber2020a,54,OK,,verify_citacoes,,,0.001,,0,0
 Gerber2020a-E31,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
 Gerber2020a-E32,Gerber2020a,54,OK,,verify_citacoes,,,-0.004,,0,0
 Gerber2020a-E33,Gerber2020a,55,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
@@ -434,7 +443,7 @@ Meer2015a-E10,Meer2015a,15,OK,,verify_citacoes,,,0.065,,0,0
 Meffert2011-E01,Meffert2011,26,OK,,verify_citacoes,,,-0.281,,0,0
 Meffert2011-E02,Meffert2011,26,OK,,verify_citacoes,,,-0.099,,0,0
 Meffert2011-E03,Meffert2011,25,OK,,verify_citacoes,,,-0.027,,0,0
-Meffert2011-E04,Meffert2011,25,OK,,verify_citacoes,"p0 fora de (0, 1)",,,,0,0
+Meffert2011-E04,Meffert2011,25,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Meffert2012a-E01,Meffert2012a,24,OK,,verify_citacoes,,,0.285,,0,0
 Meffert2012a-E02,Meffert2012a,24,OK,,verify_citacoes,,,0.238,,0,0
 Meffert2012a-E03,Meffert2012a,24,OK,,verify_citacoes,,,0.072,,0,0
@@ -481,8 +490,8 @@ Morton2015a-E39,Morton2015a,39,OK,,verify_citacoes,,,-0.273,,0,0
 Morton2015a-E40,Morton2015a,39,OK,,verify_citacoes,,,-0.339,,0,0
 Morton2015a-E41,Morton2015a,34,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
 Morton2015a-E42,Morton2015a,34,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
-Schlegel2023-E01,Schlegel2023,5,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
-Schlegel2023-E02,Schlegel2023,5,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Schlegel2023-E01,Schlegel2023,5,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Schlegel2023-E02,Schlegel2023,5,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Stolwijk2016a-E01,Stolwijk2016a,14,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,0.005,,0,0
 Stolwijk2016a-E02,Stolwijk2016a,13,OK,,verify_citacoes,,,0.116,,0,0
 Stolwijk2016a-E03,Stolwijk2016a,13,OK,,verify_citacoes,,,0.115,,0,0
@@ -523,7 +532,7 @@ Urminsky2019-E01,Urminsky2019,49,OK,,verify_citacoes,,,,0.143,0,0
 Urminsky2019-E02,Urminsky2019,57,OK,,verify_citacoes,,,,,0,0
 Urminsky2019-E03,Urminsky2019,57,OK,,verify_citacoes,,,,,0,0
 Urminsky2019-E04,Urminsky2019,56,OK,,verify_citacoes,,,,,0,0
-Westwood2020a-E01,Westwood2020a,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Westwood2020a-E01,Westwood2020a,11,OK,,verify_citacoes,,,-0.095,,0,0
 Westwood2020a-E02,Westwood2020a,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Westwood2020a-E03,Westwood2020a,11,OK,,verify_citacoes,,dados insuficientes para t: faltam df ou n1/n2,,,0,0
 Westwood2020a-E04,Westwood2020a,13,OK,,verify_citacoes,,dados insuficientes para t: faltam df ou n1/n2,,,0,0

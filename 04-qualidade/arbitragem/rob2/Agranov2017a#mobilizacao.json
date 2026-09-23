@@ -1,0 +1,12 @@
+[
+ {
+  "dominio": "D2",
+  "julgamento_a": "baixo",
+  "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo",
+  "segue": "A",
+  "justificativa": "Decide a 2.3 (desvios decorrentes do contexto do estudo). A intervenção é informação exibida pelo próprio procedimento computadorizado e padronizado do laboratório, cada sessão rodou um único tratamento e os autores mantiveram grupos fixos justamente para evitar contaminação entre grupos (nota 11, p. 8 impressa), então o contexto torna desvios implausíveis e sustenta PN, não SI. Com 2.1/2.2 = S/PS, 2.3 = PN e 2.6 = PS (todas as sessões analisadas, p. 10 impressa), o algoritmo do RoB 2 leva a baixo.",
+  "trecho": "same group throughout each session in order to avoid potential",
+  "pagina": 11
+ }
+]

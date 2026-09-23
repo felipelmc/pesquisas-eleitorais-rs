@@ -1,0 +1,42 @@
+[
+ {
+  "id_efeito": "Klor2017a-E01",
+  "campo": "sdy",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Table 2: Random Effect Probit Estimates of Voting Decisions in the Second Stage (Standard errors in Parentheses).",
+  "pagina": 46,
+  "justificativa": "O estudo não imprime DP da decisão de votar (Vote_Inf) nem no grupo minoritário nem na amostra toda; os únicos DPs relatados (p. 21) são das crenças de pivotalidade. Além disso, o coeficiente é de probit de efeitos aleatórios (escala latente), que não se padroniza pelo DP do desfecho observado; pelo protocolo §6, probit sem efeito marginal fica só na síntese por direção."
+ },
+ {
+  "id_efeito": "Klor2017a-E01",
+  "campo": "efeito_pp",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "It increases the probability of voting by slightly over 10 percent for the average subject.",
+  "pagina": 18,
+  "justificativa": "Rota dif_prop vedada (probit, não MPL). O texto dá só um efeito marginal aproximado ('slightly over 10 percent'), sem valor exato nem erro-padrão; não preenchido para não inventar precisão."
+ },
+ {
+  "id_efeito": "Klor2017a-E01",
+  "campo": "se_pp",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Majority 0.305*** (0.108) 0.175 (0.184) -0.339 (0.332)",
+  "pagina": 46,
+  "justificativa": "A Tabela 2 só dá o erro-padrão do coeficiente probit (0.108); nenhum erro-padrão ou IC do efeito marginal em p.p. é relatado."
+ },
+ {
+  "id_efeito": "Klor2017a-E01",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "The turnout rate for subjects that belong to a team with four supporters is more than twenty percent higher than the turnout rate of subjects that belong to a team of three.",
+  "pagina": 16,
+  "justificativa": "A taxa de comparecimento da minoria (time de 3) com informação só aparece graficamente na Figura 2 (p. 42), sem valor impresso; o texto dá apenas a média conjunta de 40 por cento para 3 vs. 4. Não estimado de figura."
+ }
+]

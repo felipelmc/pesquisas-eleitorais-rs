@@ -397,10 +397,10 @@
       "em": "2026-09-20T21:34:06Z"
     },
     "09_extracao_rob": {
-      "status": "pendente",
+      "status": "concluida",
       "portao": "G7",
-      "aprovado_por": null,
-      "em": null
+      "aprovado_por": "autopiloto",
+      "em": "2026-09-23T18:55:58Z"
     },
     "10_sintese": {
       "status": "pendente",
@@ -913,7 +913,7 @@
       "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P024]",
       "n": 545,
       "arquivo": "05-decomposicao/verificacao_efeitos.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P028",
@@ -924,8 +924,58 @@
       "n": 150,
       "arquivo": "03-textos/elegibilidade_tc_final.csv",
       "status": "aberta"
+    },
+    {
+      "id": "P029",
+      "tipo": "consenso_rob",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "resolver desacordos de risco de viés (robins_i) por domínio: julgamento_consenso e resolvido_por humano",
+      "n": 34,
+      "arquivo": "04-qualidade/rob_robins_i_consenso.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P030",
+      "tipo": "consenso_rob",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "resolver desacordos de risco de viés (rob2) por domínio: julgamento_consenso e resolvido_por humano",
+      "n": 45,
+      "arquivo": "04-qualidade/rob_rob2_consenso.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P031",
+      "tipo": "consenso_rob",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "resolver desacordos de risco de viés (epoc) por domínio: julgamento_consenso e resolvido_por humano",
+      "n": 9,
+      "arquivo": "04-qualidade/rob_epoc_consenso.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P032",
+      "tipo": "verificacao_humana_efeitos",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P027]",
+      "n": 554,
+      "arquivo": "05-decomposicao/verificacao_efeitos.csv",
+      "status": "aberta"
+    },
+    {
+      "id": "P033",
+      "tipo": "revisao_humana_portao",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "confirmar a aprovação automática do G7: 554 efeitos sem verificação humana na página do PDF (apto_g7 = 0; ex.: Agranov2017a-E01, Agranov2017a-E02, Agranov2017a-E03, Agranov2017a-E04, Agranov2017a-E05); RoB de rob2 (seq 745) com 23 de 23 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de robins_i (seq 747) com 13 de 13 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de epoc (seq 749) com 7 de 7 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; P032 aberta: conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P027]",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
     }
   ],
   "contagens_cache": {},
-  "ultimo_seq": 734
+  "ultimo_seq": 766
 }

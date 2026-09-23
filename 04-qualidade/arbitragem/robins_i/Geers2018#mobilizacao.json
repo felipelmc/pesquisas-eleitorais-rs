@@ -1,0 +1,22 @@
+[
+  {"dominio": "D3", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "Decide a 3.1: a exposição conta desde 22/08, antes da linha de base t-1 (30/08), e os autores admitem que parte do efeito pode ter ocorrido antes de t-1 (exposição prevalente), então não é PY; o teste t-2→t-1 sem efeitos (nota 2) indica risco não substancial, logo WN. A perda de painel é dado faltante (D4), não seleção; com 3.1 = WN o algoritmo leva a moderado.",
+   "trecho": "by campaign news that appeared before t-1. Therefore, we include campaign news",
+   "pagina": 9},
+  {"dominio": "D4", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "A 4.1/4.2 se refere a todos os participantes elegíveis, não só aos analisados: a análise usa 765 de 1537 (e de 1187 em t-1), casos completos (4.4 = Y), com saída plausivelmente ligada ao comparecimento (4.5 = PY). Interesse político e uso de mídia estão no modelo e os saídos 'não diferem muito' neles (4.6 = WN), mas só há comparação descritiva (4.11 = PN); pelo algoritmo, WN em 4.6 dá moderado.",
+   "trecho": "we only included those respondents that have participated in all waves",
+   "pagina": 7},
+  {"dominio": "D5", "julgamento_a": "baixo", "julgamento_b": "moderado",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "O desfecho é o voto/abstenção autodeclarado na onda pós-eleição, com a mesma pergunta para todos (5.1 = PN/N); o respondente conhece os veículos que usa (5.2 = PY), mas não há razão para que isso altere o relato do voto (5.3 = PN). O argumento de B para 5.3 = WY trata do autorrelato da exposição (erro de classificação, D2), não da mensuração do desfecho; pelo algoritmo, baixo.",
+   "trecho": "which party they ended up voting for in the elections.",
+   "pagina": 8},
+  {"dominio": "D6", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "A e B concordam nas respostas (6.1 = NI; 6.2 a 6.4 = PN, com as especificações alternativas divulgadas nas notas 14 a 16). O algoritmo do ROBINS-I só dá baixo com 6.1 = Y/PY (plano prévio disponível); o texto não menciona pré-registro nem plano de análise, e a regra da ferramenta para 6.1 sem informação com 6.2 a 6.4 = N/PN é moderado.",
+   "trecho": "As robustness check, we also estimated a multinomial regression model",
+   "pagina": 11}
+]

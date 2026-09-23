@@ -1,0 +1,82 @@
+[
+ {
+  "id_efeito": "Alabrese2024a-E125",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "In Panels A and C, we observe scenarios where the party of the local MP leads the national opinion polls.",
+  "pagina": 36,
+  "justificativa": "Col. 1 da Tabela A.7, I = P: o partido do incumbente local lidera as pesquisas nacionais; o desfecho e a votacao desse partido."
+ },
+ {
+  "id_efeito": "Alabrese2024a-E126",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "takes value one if the party is the incumbent at the local level but is predicted to lose at the national level",
+  "pagina": 67,
+  "justificativa": "Col. 2 da Tabela A.7, I != P: desfecho do partido incumbente local, que a pesquisa nacional mostra atras. Disputa nacional com tres ou mais partidos (p. 6 do arquivo: minor parties), pluralidade; a margem nacional Con-Lab mostra o partido do desfecho (so Con ou Lab, eq. 3, p. 67) como segundo competitivo, logo alvo de viabilidade, nao azarao de disputa de dois; direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Alabrese2024a-E127",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "Safe seats limit minor party influence, fostering concentrated competition among major parties.",
+  "pagina": 6,
+  "justificativa": "Col. 3 da Tabela A.7, I = P: desfecho do partido seguidor local, que a pesquisa nacional mostra atras do partido do incumbente. Disputa nacional com tres ou mais partidos (p. 6 do arquivo: minor parties), pluralidade; a margem nacional Con-Lab mostra o partido do desfecho (so Con ou Lab, eq. 3, p. 67) como segundo competitivo, logo alvo de viabilidade, nao azarao de disputa de dois; direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Alabrese2024a-E128",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "takes value one if the party is not the incumbent at the local level but is leading national polls",
+  "pagina": 67,
+  "justificativa": "Col. 4 da Tabela A.7 (subgrupo do CSV): o partido seguidor local lidera as pesquisas nacionais; o desfecho e a votacao desse partido (grupo Ip,c,t,0,1)."
+ },
+ {
+  "id_efeito": "Alabrese2024a-E129",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "In Panels A and C, we observe scenarios where the party of the local MP leads the national opinion polls.",
+  "pagina": 36,
+  "justificativa": "Col. 5 da Tabela A.7, I = P: o partido do incumbente local lidera as pesquisas nacionais; o desfecho e a chance de vitoria desse partido."
+ },
+ {
+  "id_efeito": "Alabrese2024a-E130",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "takes value one if the party is the incumbent at the local level but is predicted to lose at the national level",
+  "pagina": 67,
+  "justificativa": "Col. 6 da Tabela A.7, I != P: desfecho do partido incumbente local, que a pesquisa nacional mostra atras. Disputa nacional com tres ou mais partidos (p. 6 do arquivo: minor parties), pluralidade; a margem nacional Con-Lab mostra o partido do desfecho (so Con ou Lab, eq. 3, p. 67) como segundo competitivo, logo alvo de viabilidade, nao azarao de disputa de dois; direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Alabrese2024a-E131",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "Safe seats limit minor party influence, fostering concentrated competition among major parties.",
+  "pagina": 6,
+  "justificativa": "Col. 7 da Tabela A.7, I = P: desfecho do partido seguidor local, que a pesquisa nacional mostra atras do partido do incumbente. Disputa nacional com tres ou mais partidos (p. 6 do arquivo: minor parties), pluralidade; a margem nacional Con-Lab mostra o partido do desfecho (so Con ou Lab, eq. 3, p. 67) como segundo competitivo, logo alvo de viabilidade, nao azarao de disputa de dois; direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Alabrese2024a-E132",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "takes value one if the party is not the incumbent at the local level but is leading national polls",
+  "pagina": 67,
+  "justificativa": "Col. 8 da Tabela A.7 (subgrupo do CSV): o partido seguidor local lidera as pesquisas nacionais; o desfecho e a chance de vitoria desse partido (grupo Ip,c,t,0,1)."
+ }
+]

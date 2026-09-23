@@ -1,0 +1,10 @@
+[{"dominio": "D2", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+  "justificativa": "A pergunta 2.3 decide: os dois avaliadores responderam SI, e o algoritmo do RoB 2 com 2.3 = SI leva a algumas preocupações, seja qual for a resposta a 2.1 e 2.2 (B aplicou o algoritmo errado ao propor baixo). O SI se sustenta: são os mesmos 120 estudantes e a mesma divisão em seis grupos do experimento 'Yes Sir' (formulários B/C manipulados), e o texto não diz se as duas manipulações estavam no mesmo questionário de 45 perguntas. Por isso uma cointervenção desequilibrada não pode ser descartada. A 2.6 = PS (comparação por grupo alocado) não muda o nível.",
+  "trecho": "The subjects of the experiment are the same students from Transilvania University",
+  "pagina": 7},
+ {"dominio": "D4", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "algumas_preocupacoes", "segue": "B",
+  "justificativa": "O desfecho é a intenção de voto autodeclarada, então o avaliador é o participante, e ele necessariamente sabia a informação de pesquisa que recebeu, porque essa informação é a intervenção (4.3 = S, contra o PN de A). A declaração de voto hipotético entre candidatos fictícios, feita logo após a informação, pode sofrer demanda do experimentador (4.4 = PS). Mas a história de cobertura ('normal questioner about politics') e a falta de indício de que os participantes perceberam a manipulação tornam improvável essa influência (4.5 = PN), e o algoritmo leva a algumas preocupações. O 4.5 = PS de B se apoia no próprio mecanismo bandwagon, ou seja, no efeito esperado, e não num viés de mensuração.",
+  "trecho": "The other groups received information about the expected winner supposedly from",
+  "pagina": 8}]

@@ -1,0 +1,32 @@
+[
+ {
+  "dominio": "D1",
+  "julgamento_a": "grave",
+  "julgamento_b": "moderado",
+  "julgamento_consenso": "grave",
+  "segue": "A",
+  "justificativa": "Pergunta 1.1 decide: nenhum dos confundidores importantes (apoio latente, preferência prévia/partidarismo, interesse político) é ajustado, os autores admitem que tratadas e controles diferem por região e perfil do eleitorado, e o teste com 2014 (p. 15) mostra desequilíbrio de preferência prévia não ajustado, o que sustenta SN e não WN. Mesmo com as respostas de B, o algoritmo leva a grave, porque o modelo controla o comparecimento, que os autores dizem poder ser deprimido pela exposição (p. 12; 1.3 = PY); com 1.4 = N/PN (placebo e 2014 não apontam confundimento a favor do líder), o nível é grave e não crítico.",
+  "trecho": "means that treated and untreated units are dissimilar across",
+  "pagina": 11
+ },
+ {
+  "dominio": "D4",
+  "julgamento_a": "baixo",
+  "julgamento_b": "moderado",
+  "julgamento_consenso": "baixo",
+  "segue": "A",
+  "justificativa": "Pergunta 4.2 decide: há dados oficiais para as 454.490 urnas e o Modelo 1 usa 452.656 (Figura 2, p. 13) e 453.016 (Figura 3), mais de 99% das unidades; a nota 13 explica a pequena variação de N. Com dados quase completos de intervenção, desfecho e covariáveis (4.1 a 4.3 = Y/PY), o algoritmo leva a baixo sem acionar 4.4 a 4.11; o NI de B em 4.5, 4.6 e 4.11 não se aplica.",
+  "trecho": "are available for each round of the election for all 454,490",
+  "pagina": 10
+ },
+ {
+  "dominio": "D6",
+  "julgamento_a": "moderado",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "moderado",
+  "segue": "A",
+  "justificativa": "Pergunta 6.1 decide: o texto não cita pré-registro nem plano de análise prévio, só dados de replicação no Dataverse (6.1 = NI, como A e B responderam). Os cinco desfechos derivam das hipóteses e as robustezes são relatadas, então 6.2 a 6.4 = N/PN; pela regra do ROBINS-I V2 para 6.1 sem plano prévio disponível e sem sinal de seleção, o domínio fica moderado, não baixo.",
+  "trecho": "Replication data for this article can be found in Harvard Dataverse",
+  "pagina": 18
+ }
+]

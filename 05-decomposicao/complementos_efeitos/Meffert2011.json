@@ -1,0 +1,52 @@
+[
+ {
+  "id_efeito": "Meffert2011-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "any vote for a different party than the one preferred most or ranked highest",
+  "pagina": 25,
+  "justificativa": "O desfecho e o voto insincero (voto em partido diferente do mais preferido), nao o apoio a uma posicao na pesquisa; agrega apoiadores de partido grande que migram para o pequeno partido a '5 per cent' e apoiadores de pequeno partido que abandonam o partido a '4 per cent', com alvos opostos. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Meffert2011-E01",
+  "campo": "estimando",
+  "valor_antigo": "outro",
+  "valor_novo": "ATE",
+  "status": "corrigido",
+  "trecho": "Next, participants were randomly assigned to one of three poll conditions",
+  "pagina": 12,
+  "justificativa": "O coeficiente de 'Close poll (manipulation)' contrasta bracos de pesquisa atribuidos aleatoriamente. Ressalva: o modelo 'With perceptions' ajusta por percepcoes pos-tratamento (efeito direto, ajuste por mediador), entao nao deve ser agregado com efeito total."
+ },
+ {
+  "id_efeito": "Meffert2011-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "any vote for a different party than the one preferred most or ranked highest",
+  "pagina": 25,
+  "justificativa": "O desfecho e o voto insincero (voto em partido diferente do mais preferido), nao o apoio a uma posicao na pesquisa; agrega apoiadores de partido grande que migram para o pequeno partido a '5 per cent' e apoiadores de pequeno partido que abandonam o partido a '4 per cent', com alvos opostos. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Meffert2011-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "any vote for a different party than the one preferred most or ranked highest",
+  "pagina": 25,
+  "justificativa": "O desfecho e o voto insincero (voto em partido diferente do mais preferido), nao o apoio a uma posicao na pesquisa; agrega apoiadores de partido grande que migram para o pequeno partido a '5 per cent' e apoiadores de pequeno partido que abandonam o partido a '4 per cent', com alvos opostos. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Meffert2011-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "nao_se_aplica",
+  "status": "preenchido",
+  "trecho": "any vote for a different party than the one preferred most or ranked highest",
+  "pagina": 25,
+  "justificativa": "O desfecho e o voto insincero (voto em partido diferente do mais preferido), nao o apoio a uma posicao na pesquisa; agrega apoiadores de partido grande que migram para o pequeno partido a '5 per cent' e apoiadores de pequeno partido que abandonam o partido a '4 per cent', com alvos opostos. direcao_desejada mantida."
+ }
+]

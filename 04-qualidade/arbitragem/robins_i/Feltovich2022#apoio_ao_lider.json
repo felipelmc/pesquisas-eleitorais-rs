@@ -1,0 +1,12 @@
+[
+ {
+  "dominio": "D1",
+  "julgamento_a": "grave",
+  "julgamento_b": "moderado",
+  "julgamento_consenso": "grave",
+  "segue": "A",
+  "justificativa": "Em 1.1 cabe WN, não SN: a nota da Tabela 9 (p. 16) diz que qualidade e desempenho dos candidatos entram como controles, além do voto do próprio sujeito na prévia. Mas 1.3 = Y na coluna Message, que integra o resultado: o modelo inclui dummies de características das mensagens (e interações com a parcela na prévia). Essas mensagens são enviadas depois do anúncio da prévia (p. 5) e podem ser afetadas por ela, ou seja, são variáveis pós-exposição. Pelo algoritmo, controlar variáveis pós-intervenção leva a grave, e a estabilidade do sinal entre colunas, alegada por B, não pode rebaixar o julgamento. A coluna Election-Only isolada ficaria em moderado (WN, 1.3 = N, 1.4 = N).",
+  "trecho": "we include those variables, message-characteristic dummies, their products with the incumbency dummy",
+  "pagina": 15
+ }
+]

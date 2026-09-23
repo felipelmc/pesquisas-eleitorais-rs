@@ -1,0 +1,17 @@
+[
+  {"dominio": "D1", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 1.2 (ocultação). Os estudos 2a/2b são experimentos online autoadministrados (MTurk e Prolific), em que a condição é sorteada no momento da participação sem pessoal de recrutamento que pudesse prever ou manipular a sequência; isso equivale a alocação central/automatizada, logo 1.2 = PS, e não SI. Com 1.1 = PS e 1.3 = SI (sem tabela por condição, o que não é viés), o algoritmo do RoB 2 leva a baixo.",
+   "trecho": "Participants in Study 2a were 202 American Amazon Mechanical Turk users",
+   "pagina": 9},
+  {"dominio": "D2", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 2.3. A intervenção é a leitura de uma vinheta e o desfecho é respondido logo em seguida, na mesma sessão online curta e sem aplicadores; não há espaço para desvios da intervenção decorrentes do contexto do estudo, então 2.3 = PN (a implausibilidade vem do desenho, não de presunção). Com 2.1 = S, 2.3 = PN e 2.6 = S/PS (graus de liberdade F(1,198) com N = 202 e F(1,196) com N = 200, todos analisados no braço sorteado), o algoritmo dá baixo.",
+   "trecho": "Participants then indicated on two items the likelihood",
+   "pagina": 9},
+  {"dominio": "D4", "julgamento_a": "alto", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "alto", "segue": "A",
+   "justificativa": "Decide a 4.5, que os dois avaliadores responderam PS. O desfecho é a probabilidade autodeclarada de trocar de voto, informada pelo próprio participante, que sabe a condição (4.3 = S), e a vinheta lhe diz a disposição a adotar (achar justo incluir os dois candidatos, ou ter esquecido a eleição), tornando a resposta esperada óbvia e suscetível a demanda; os autores reconhecem que as vinhetas instruem os participantes a imaginar a situação (folha 12). Pelo algoritmo do RoB 2, 4.5 = S/PS leva a alto; a proposta de B (algumas_preocupacoes) contradiz suas próprias respostas.",
+   "trecho": "be fair if both candidates were included in important decisions",
+   "pagina": 9}
+]

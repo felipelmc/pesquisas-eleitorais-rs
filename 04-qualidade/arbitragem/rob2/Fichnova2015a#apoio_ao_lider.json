@@ -1,0 +1,12 @@
+[
+  {"dominio": "D2", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "A pergunta decisiva é a 2.3. A exposição (gráfico da pesquisa forjada e CV) e o desfecho (ordenar os candidatos) estão no mesmo questionário, aplicado uma única vez, então não havia período em que o contexto do estudo pudesse gerar desvios da intervenção designada: 2.3 = PN, e não SI. Com 2.3 = PN e 2.6 = PS (os 79 respondentes aparecem analisados na condição sorteada, sem exclusões relatadas), o algoritmo do RoB 2 leva a baixo.",
+   "trecho": "The research tool was an unstandardised questionnaire identifying which candidates",
+   "pagina": 6},
+  {"dominio": "D5", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+   "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+   "justificativa": "A e B concordam em 5.1 = SI: o texto descreve a análise (estatística descritiva e inferencial no Excel) sem registro, protocolo ou plano prévio. Pelo algoritmo do RoB 2, 5.1 N/PN/SI com 5.2 e 5.3 N/PN já leva a algumas preocupações; o baixo exige 5.1 S/PS, então o julgamento de B não segue das próprias respostas. Além disso, o texto diz que o questionário era amplo e só a parte de ordenação foi usada (p. 6), o que sustenta 5.2 = SI e não PN.",
+   "trecho": "The data obtained were then analysed statistically via descriptive as well",
+   "pagina": 6}
+]

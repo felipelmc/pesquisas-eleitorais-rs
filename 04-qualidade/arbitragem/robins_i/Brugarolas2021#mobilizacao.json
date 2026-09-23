@@ -1,0 +1,22 @@
+[
+  {"dominio": "D2", "julgamento_a": "baixo", "julgamento_b": "moderado",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 2.5. A exposição do protocolo é a divulgação da pesquisa, e o status é definido pelo horário da entrevista em relação à divulgação, com a faixa ambígua de 12:05 a 14:00 excluída (p. 3). Não medir se o respondente viu a pesquisa (p. 4) muda a leitura para intenção de tratar, mas não classifica errado a exposição atribuída. Com 2.1 = Y, 2.4 = N e 2.5 = PN, o algoritmo leva a baixo.",
+   "trecho": "the treatment status changes on 9 April at 2:05 p.m.",
+   "pagina": 3},
+  {"dominio": "D3", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "Decide a 3.2. A pesquisa foi divulgada às 12:30 de 9/4 e toda a faixa de 12:05 a 14:00 foi retirada da análise, então as respostas dadas na primeira hora e meia após o início da intervenção ficaram de fora (3.2 = Y, e não N como marcou B). A exclusão é simétrica por tipo de faixa e não depende do desfecho, e o texto diz que excluir o dia inteiro mantém o resultado (Tabela A6, SI não anexado), mas pelo algoritmo 3.2 = Y leva a moderado, e não a baixo.",
+   "trecho": "uncertainty about whether respondents interviewed in the 12:05 p.m. to 2 p.m.",
+   "pagina": 3},
+  {"dominio": "D5", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "Decidem a 5.2 e a 5.3. O desfecho é autodeclarado, e o texto sustenta que a maioria dos entrevistados após a divulgação conhecia a previsão (p. 4), então 5.2 = PY e não NI. A nota 8 levanta a hipótese de que ver a pesquisa aumenta a desejabilidade social de declarar intenção de votar, o que pode inflar a resposta, mas só como hipótese dos autores (5.3 = WY). Pelo algoritmo, isso leva a moderado; mesmo as respostas de B (NI e NI) levariam a moderado, e não a baixo.",
+   "trecho": "the social desirability of turnout intention questions increases.",
+   "pagina": 6},
+  {"dominio": "D6", "julgamento_a": "moderado", "julgamento_b": "baixo",
+   "julgamento_consenso": "moderado", "segue": "A",
+   "justificativa": "Decide a 6.1. O texto não menciona pré-registro nem plano de análise prévio (6.1 = NI). A janela foi escolhida por procedimento de balanço de covariáveis, sem olhar o desfecho, e as 13 janelas são relatadas, com medida e amostra únicas (6.2 a 6.4 = N/PN). Pelo algoritmo, 6.1 sem Y/PY com 6.2 a 6.4 N/PN leva a moderado; B marcou 6.1 = PN, o que também leva a moderado, e não a baixo.",
+   "trecho": "we used the automatic data-driven window selection procedure",
+   "pagina": 4}
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id_efeito": "Cornejo2023a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "PRI partisans were more likely to defect when they were aware that their co-partisan candidate was unlikely to win the election than when they were not aware",
+  "pagina": 14,
+  "justificativa": "Eleição presidencial de 2006 com três competidores: nas pesquisas o PRI caiu para terceiro e PAN e PRD disputavam o primeiro lugar (p. 10 do arquivo). O desfecho (voto «Not PRI» entre partidários do PRI) mede a deserção do candidato mostrado sem chance; alvo = terceiro_inviavel. direcao_desejada mantida (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "PRI partisans were more likely to defect when they were aware that their co-partisan candidate was unlikely to win the election than when they were not aware",
+  "pagina": 14,
+  "justificativa": "Eleição presidencial de 2006 com três competidores: nas pesquisas o PRI caiu para terceiro e PAN e PRD disputavam o primeiro lugar (p. 10 do arquivo). O desfecho (voto «Not PRI» entre partidários do PRI) mede a deserção do candidato mostrado sem chance; alvo = terceiro_inviavel. direcao_desejada mantida (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "PRI partisans were more likely to defect when they were aware that their co-partisan candidate was unlikely to win the election than when they were not aware",
+  "pagina": 14,
+  "justificativa": "Eleição presidencial de 2006 com três competidores: nas pesquisas o PRI caiu para terceiro e PAN e PRD disputavam o primeiro lugar (p. 10 do arquivo). O desfecho (voto «Not PRI» entre partidários do PRI) mede a deserção do candidato mostrado sem chance; alvo = terceiro_inviavel. direcao_desejada mantida (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "PRI partisans were more likely to defect when they were aware that their co-partisan candidate was unlikely to win the election than when they were not aware",
+  "pagina": 14,
+  "justificativa": "Eleição presidencial de 2006 com três competidores: nas pesquisas o PRI caiu para terceiro e PAN e PRD disputavam o primeiro lugar (p. 10 do arquivo). O desfecho (voto «Not PRI» entre partidários do PRI) mede a deserção do candidato mostrado sem chance; alvo = terceiro_inviavel. direcao_desejada mantida (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E05",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In both states, the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate (the PRD candidate in Michoacán,",
+  "pagina": 18,
+  "justificativa": "Disputa com três ou mais: a vinheta põe o PRI à frente e o PAN em terceiro; o desfecho é o apoio ao candidato anti-PRI mais bem colocado (independente em 2º em Nuevo León; PRD empatado com o PRI em Michoacán), isto é, coordenação estratégica no segundo viável. Linha agrega os dois estados; em Michoacán o PRD aparece empatado (36 vs 36), mas o autor trata o PRI como líder da vinheta. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E06",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In both states, the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate (the PRD candidate in Michoacán,",
+  "pagina": 18,
+  "justificativa": "Disputa com três ou mais: a vinheta põe o PRI à frente e o PAN em terceiro; o desfecho é o apoio ao candidato anti-PRI mais bem colocado (independente em 2º em Nuevo León; PRD empatado com o PRI em Michoacán), isto é, coordenação estratégica no segundo viável. Linha agrega os dois estados; em Michoacán o PRD aparece empatado (36 vs 36), mas o autor trata o PRI como líder da vinheta. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E07",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In both states, the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate (the PRD candidate in Michoacán,",
+  "pagina": 18,
+  "justificativa": "Disputa com três ou mais: a vinheta põe o PRI à frente e o PAN em terceiro; o desfecho é o apoio ao candidato anti-PRI mais bem colocado (independente em 2º em Nuevo León; PRD empatado com o PRI em Michoacán), isto é, coordenação estratégica no segundo viável. Linha agrega os dois estados; em Michoacán o PRD aparece empatado (36 vs 36), mas o autor trata o PRI como líder da vinheta. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E08",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In both states, the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate (the PRD candidate in Michoacán,",
+  "pagina": 18,
+  "justificativa": "Disputa com três ou mais: a vinheta põe o PRI à frente e o PAN em terceiro; o desfecho é o apoio ao candidato anti-PRI mais bem colocado (independente em 2º em Nuevo León; PRD empatado com o PRI em Michoacán), isto é, coordenação estratégica no segundo viável. Linha agrega os dois estados; em Michoacán o PRD aparece empatado (36 vs 36), mas o autor trata o PRI como líder da vinheta. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E09",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In both states, the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate (the PRD candidate in Michoacán,",
+  "pagina": 18,
+  "justificativa": "Disputa com três ou mais: a vinheta põe o PRI à frente e o PAN em terceiro; o desfecho é o apoio ao candidato anti-PRI mais bem colocado (independente em 2º em Nuevo León; PRD empatado com o PRI em Michoacán), isto é, coordenação estratégica no segundo viável. Linha agrega os dois estados; em Michoacán o PRD aparece empatado (36 vs 36), mas o autor trata o PRI como líder da vinheta. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E10",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "In both states, the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate (the PRD candidate in Michoacán,",
+  "pagina": 18,
+  "justificativa": "Disputa com três ou mais: a vinheta põe o PRI à frente e o PAN em terceiro; o desfecho é o apoio ao candidato anti-PRI mais bem colocado (independente em 2º em Nuevo León; PRD empatado com o PRI em Michoacán), isto é, coordenação estratégica no segundo viável. Linha agrega os dois estados; em Michoacán o PRD aparece empatado (36 vs 36), mas o autor trata o PRI como líder da vinheta. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E11",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "The independent candidate is in second place with 32 percent of vote intention, and the PAN candidate, Felipe de Jesús Cantú, is in third place with 20 percent of vote intention.",
+  "pagina": 19,
+  "justificativa": "Nuevo León: vinheta mostra PRI à frente (38), independente em segundo (32) e PAN em terceiro (20); o desfecho é o voto no independente, segundo colocado competitivo numa disputa com três ou mais. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E12",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the PRI candidate, Ascensión Orihuela, and the PRD candidate, Silvano Aureoles, are tied with the 36 percent of the vote",
+  "pagina": 19,
+  "justificativa": "Michoacán: vinheta mostra PRI e PRD empatados (36) e PAN em terceiro (23); o autor diz que a vinheta 'deu a liderança' ao PRI e trata o PRD como o candidato anti-PRI viável. Como o desfecho é deserção estratégica para o desafiante viável, codificado segundo_viavel; atenção: o PRD está empatado no primeiro lugar, não abaixo. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E13",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "The independent candidate is in second place with 32 percent of vote intention, and the PAN candidate, Felipe de Jesús Cantú, is in third place with 20 percent of vote intention.",
+  "pagina": 19,
+  "justificativa": "Nuevo León: vinheta mostra PRI à frente (38), independente em segundo (32) e PAN em terceiro (20); o desfecho é o voto no independente, segundo colocado competitivo numa disputa com três ou mais. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E14",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the PRI candidate, Ascensión Orihuela, and the PRD candidate, Silvano Aureoles, are tied with the 36 percent of the vote",
+  "pagina": 19,
+  "justificativa": "Michoacán: vinheta mostra PRI e PRD empatados (36) e PAN em terceiro (23); o autor diz que a vinheta 'deu a liderança' ao PRI e trata o PRD como o candidato anti-PRI viável. Como o desfecho é deserção estratégica para o desafiante viável, codificado segundo_viavel; atenção: o PRD está empatado no primeiro lugar, não abaixo. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E15",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "The independent candidate is in second place with 32 percent of vote intention, and the PAN candidate, Felipe de Jesús Cantú, is in third place with 20 percent of vote intention.",
+  "pagina": 19,
+  "justificativa": "Nuevo León: vinheta mostra PRI à frente (38), independente em segundo (32) e PAN em terceiro (20); o desfecho é o voto no independente, segundo colocado competitivo numa disputa com três ou mais. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E16",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the PRI candidate, Ascensión Orihuela, and the PRD candidate, Silvano Aureoles, are tied with the 36 percent of the vote",
+  "pagina": 19,
+  "justificativa": "Michoacán: vinheta mostra PRI e PRD empatados (36) e PAN em terceiro (23); o autor diz que a vinheta 'deu a liderança' ao PRI e trata o PRD como o candidato anti-PRI viável. Como o desfecho é deserção estratégica para o desafiante viável, codificado segundo_viavel; atenção: o PRD está empatado no primeiro lugar, não abaixo. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E17",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "The independent candidate is in second place with 32 percent of vote intention, and the PAN candidate, Felipe de Jesús Cantú, is in third place with 20 percent of vote intention.",
+  "pagina": 19,
+  "justificativa": "Nuevo León: vinheta mostra PRI à frente (38), independente em segundo (32) e PAN em terceiro (20); o desfecho é o voto no independente, segundo colocado competitivo numa disputa com três ou mais. direcao_desejada mantida."
+ },
+ {
+  "id_efeito": "Cornejo2023a-E18",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "the PRI candidate, Ascensión Orihuela, and the PRD candidate, Silvano Aureoles, are tied with the 36 percent of the vote",
+  "pagina": 19,
+  "justificativa": "Michoacán: vinheta mostra PRI e PRD empatados (36) e PAN em terceiro (23); o autor diz que a vinheta 'deu a liderança' ao PRI e trata o PRD como o candidato anti-PRI viável. Como o desfecho é deserção estratégica para o desafiante viável, codificado segundo_viavel; atenção: o PRD está empatado no primeiro lugar, não abaixo. direcao_desejada mantida."
+ }
+]

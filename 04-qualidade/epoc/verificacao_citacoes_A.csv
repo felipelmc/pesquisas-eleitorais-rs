@@ -1,0 +1,134 @@
+citekey,ficha,variavel,pagina_indicada,status,pagina_encontrada_impressa,offset_pagina,citacao
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,desenho_epoc,22,OK,,0,"estimate the following model on a balanced panel of 2,176 municipalities"
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,desenho_epoc,22,OK,,0,all of our analysis will consider estimated support for the trailing side
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,resultado_avaliado,42,OK,,0,Ex Ante Closeness (std.) × Trailing Side’s Estimated Support
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,resultado_avaliado,22,OK,,0,now examining municipality vote share for the trailing side
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_sequencia_aleatoria,21,OK,,0,we estimate support for the trailing side in the poll
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_ocultacao_alocacao,22,OK,,0,"estimate the following model on a balanced panel of 2,176 municipalities"
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_linha_base_outcome,21,OK,,0,we do not observe municipality-level preferences regarding a referendum prior to
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_caracteristicas_base,22,OK,,0,all of our analysis will consider estimated support for the trailing side
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_dados_incompletos,22,OK,,0,"balanced panel of 2,176 municipalities observed in all"
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_dados_incompletos,12,OK,,0,"We are missing 26 out of 2,202 municipalities"
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_conhecimento_alocacao,9,OK,,0,These data are available in disaggregate form for all levels
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_contaminacao,6,OK,,0,naturally-occurring exposure to poll information that arrives to entire populations
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_relato_seletivo,22,OK,,0,now examining municipality vote share for the trailing side
+Bursztyn2023a,fichamento_Bursztyn2023a#apoio_ao_lider.md,cg_outros_riscos,12,OK,,0,unobserved issue type may drive both closeness and turnout
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,desenho_epoc,13,OK,,0,"This is a simple event study, examining voter turnout by"
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,desenho_epoc,13,OK,,0,Using unique data from the canton of Geneva that allow us to
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,resultado_avaliado,39,OK,,0,1 day after poll × Ex Ante Closeness (std.)
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,resultado_avaliado,39,OK,,0,0.3905**
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_teste_t_sem_tendencia,39,OK,,0,The table presents OLS estimates with two measures of daily turnout
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_teste_t_sem_tendencia,13,OK,,0,"This is a simple event study, examining voter turnout by"
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_intervencao_independente,4,OK,,0,"But, this response appears only three days"
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_intervencao_independente,15,OK,,0,Nor can the political supply side account for the response of voter
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_intervencao_independente,14,OK,,0,"Prior to the day when polls are released, we see no difference"
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_forma_efeito_pre_especificada,14,OK,,0,with the day of poll release
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_forma_efeito_pre_especificada,14,OK,,0,how polls released on day t can produce an increase
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_coleta_nao_afetada,9,OK,,0,of incoming ballots from early voters at a daily level.
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_coleta_nao_afetada,9,OK,,0,Incoming postal ballots (around 90% of the
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_conhecimento_alocacao,8,OK,,0,administrative records on the timing of voter turnout
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_dados_incompletos,15,OK,,0,as some votes do not have voting data for earlier days.
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_dados_incompletos,15,OK,,0,that our results are not sensitive to this choice of sample window.
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_relato_seletivo,9,OK,,0,We consider cumulative turnout rate as of
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_relato_seletivo,30,OK,,0,Panel A: Cumulative Turnout
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_relato_seletivo,32,OK,,0,Panel B: Turnout / All Voters
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_outros_riscos,39,OK,,0,Day to Vote Fixed Effects
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_outros_riscos,39,OK,,0,from 5 voting days before to the last voting day after
+Bursztyn2023a,fichamento_Bursztyn2023a#mobilizacao.md,its_outros_riscos,31,OK,,0,prior to poll release is the omitted category of reference.
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,desenho_epoc,4,OK,,0,compare states having single and multi phase elections before and after
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,desenho_epoc,18,OK,,0,comparing the same states from an earlier round of elections
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,resultado_avaliado,21,OK,,0,Impact of Exit Poll Bans on Vote Shares of Candidates
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,resultado_avaliado,21,OK,,0,2.921*
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_sequencia_aleatoria,18,OK,,0,As conducting such experiment is infeasible and impractical
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_sequencia_aleatoria,18,OK,,0,we have to compare states that had elections just before
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_ocultacao_alocacao,3,OK,,0,the ban given predetermined electoral calendar in India
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_ocultacao_alocacao,18,OK,,0,"Luckily, the states that went to elections just before and just"
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_linha_base_outcome,18,OK,,0,comparing the same states from an earlier round of elections
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_linha_base_outcome,23,OK,,0,the national election data provides relatively high frequency pre-ban data
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_caracteristicas_base,18,OK,,0,these groups of states may have intrinsically
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_caracteristicas_base,17,OK,,0,Table 2: Summary Statistics
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_dados_incompletos,14,OK,,0,the dataset consists of 681 constituencies of four
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_dados_incompletos,21,OK,,0,1352
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_conhecimento_alocacao,14,OK,,0,We use administrative data from the statistical reports published
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_contaminacao,18,OK,,0,results of exit polls are reported at the end of the day
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_contaminacao,11,OK,,0,"Interestingly, all these states had single phase elections and therefore"
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_relato_seletivo,19,OK,,0,"outcomes such as vote share of winner, vote share of runner up"
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_outros_riscos,14,OK,,0,Bihar was the only state which had multi-phase election
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_outros_riscos,16,OK,,0,"Due to this delimitation exercise, we are unable to"
+Chatterjee2019a,fichamento_Chatterjee2019a#apoio_ao_lider.md,cg_outros_riscos,21,OK,,0,Robust Standard Errors in parentheses
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,desenho_epoc,4,OK,,0,compare states having single and multi phase elections before and after
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,desenho_epoc,18,OK,,0,comparing the same states from an earlier round of elections
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,resultado_avaliado,28,OK,,0,Impact of Exit Poll Bans on Voter Turnout and Winning Margins
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,resultado_avaliado,28,OK,,0,4.706***
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_sequencia_aleatoria,18,OK,,0,As conducting such experiment is infeasible and impractical
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_sequencia_aleatoria,18,OK,,0,we have to compare states that had elections just before
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_ocultacao_alocacao,3,OK,,0,the ban given predetermined electoral calendar in India
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_ocultacao_alocacao,18,OK,,0,"Luckily, the states that went to elections just before and just"
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_linha_base_outcome,18,OK,,0,comparing the same states from an earlier round of elections
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_linha_base_outcome,28,OK,,0,9.492***
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_caracteristicas_base,18,OK,,0,these groups of states may have intrinsically
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_caracteristicas_base,17,OK,,0,Table 2: Summary Statistics
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_dados_incompletos,14,OK,,0,the dataset consists of 681 constituencies of four
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_dados_incompletos,28,OK,,0,1355
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_conhecimento_alocacao,14,OK,,0,We use administrative data from the statistical reports published
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_contaminacao,18,OK,,0,results of exit polls are reported at the end of the day
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_contaminacao,11,OK,,0,"Interestingly, all these states had single phase elections and therefore"
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_relato_seletivo,19,OK,,0,include voter turnout and winning margin
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_outros_riscos,14,OK,,0,Bihar was the only state which had multi-phase election
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_outros_riscos,16,OK,,0,"Due to this delimitation exercise, we are unable to"
+Chatterjee2019a,fichamento_Chatterjee2019a#mobilizacao.md,cg_outros_riscos,30,OK,,0,any clear evidence of an impact on voter turnout
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,desenho_epoc,6,OK,,0,turnout rates at 12:00 as the pre-period and turnout rates at
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,desenho_epoc,6,OK,,0,17:00 and at the closing time as post-periods
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,resultado_avaliado,13,OK,,0,Closure X 2nd Round
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,resultado_avaliado,13,OK,,0,-3.440
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_sequencia_aleatoria,3,OK,,0,We compare the turnout rates in the second round to those
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_ocultacao_alocacao,6,OK,,0,turnout rates at 12:00 as the pre-period and turnout rates at
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_linha_base_outcome,13,OK,,0,Baseline is the turnout at 12:00 in the
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_linha_base_outcome,13,OK,,0,-0.316
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_linha_base_outcome,13,OK,,0,(0.360)
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_caracteristicas_base,17,OK,,0,Indicator of rain in round 1
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_caracteristicas_base,17,OK,,0,Indicator of rain in round 2
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_caracteristicas_base,17,OK,,0,0.552
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_caracteristicas_base,8,OK,,0,hence all raining variation comes from
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_dados_incompletos,13,OK,,0,presidential elections for all French mainland departments
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_dados_incompletos,13,OK,,0,576
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_conhecimento_alocacao,13,OK,,0,Turnout data from the French Ministry of Interior.
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_contaminacao,6,OK,,0,Belgian broadcaster RTBF predicted early in the day that Macron
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_relato_seletivo,6,OK,,0,"Voter turnout is measured at 12:00, 17:00 and when polling stations closed."
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_outros_riscos,2,OK,,0,similar trends were observed in previous elections
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_outros_riscos,7,OK,,0,"In all three elections, the increase in turnout from"
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_outros_riscos,14,OK,,0,-3.091
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_outros_riscos,14,OK,,0,-0.349
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_outros_riscos,14,OK,,0,(0.488)
+Grillo2024c,fichamento_Grillo2024c#mobilizacao.md,cg_outros_riscos,3,OK,,0,As also forecasted by most opinion polls
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,desenho_epoc,33,OK,,0,equation (2) estimates a pre- and post-2005 slope
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,resultado_avaliado,33,OK,,0,is therefore negative (−5.22) and statistically
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,resultado_avaliado,34,OK,,0,Clustered by department
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_teste_t_sem_tendencia,33,OK,,0,This approach allows us to test for a bandwagon
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_teste_t_sem_tendencia,33,OK,,0,simple t-tests on δ
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_intervencao_independente,17,OK,,0,four potentially relevant events happened over the period studied
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_forma_efeito_pre_especificada,33,OK,,0,equation (2) estimates a pre- and post-2005 slope
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_coleta_nao_afetada,18,OK,,0,data were collected from the French ministry of Internal
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_coleta_nao_afetada,19,OK,,0,count their results and population in the 2012 elections jointly
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_conhecimento_alocacao,18,OK,,0,data were collected from the French ministry of Internal
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_dados_incompletos,19,OK,,0,"Pierre and Miquelon, Guadeloupe, French Guiana, and Martinique."
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_dados_incompletos,18,OK,,0,second election rounds from 1981 onwards
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_relato_seletivo,34,OK,,0,Several standard error estimates are given for the t-test
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_outros_riscos,28,OK,,0,observe four elections at two time points after the law changed
+Morton2015a,fichamento_Morton2015a#apoio_ao_lider.md,its_outros_riscos,33,OK,,0,Visual inspection of the raw data suggests
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,desenho_epoc,20,OK,,0,only the eastern OST as a control group
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,desenho_epoc,20,OK,,0,departments from the mainland as an additional control group
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,resultado_avaliado,27,OK,,0,Separate time trends for each of the 105 departments are included.
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_sequencia_aleatoria,5,OK,,0,we exploit a 2005 voting reform in France
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_ocultacao_alocacao,17,OK,,0,it was decided to change the voting day to Saturday
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_linha_base_outcome,21,OK,,0,turnout trends seem to be reasonably parallel before the legislative change
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_linha_base_outcome,23,OK,,0,46% in 2002 and 65% in 2007 for the western OSTs.
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_caracteristicas_base,21,OK,,0,it is not immediately clear what observable characteristics could
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_caracteristicas_base,18,OK,,0,majority of the population in the overseas territories
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_dados_incompletos,23,OK,,0,"all six elections and all 105 departments, which makes a total"
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_conhecimento_alocacao,18,OK,,0,data were collected from the French ministry of Internal
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_contaminacao,18,OK,,0,the spread of online election result information after 5:00PM had grown substantially
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_relato_seletivo,36,OK,,0,knowing the outcome of early voting decreases turnout by about 12
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_relato_seletivo,28,OK,,0,the results are not reported here
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_outros_riscos,17,OK,,0,allowed the western territories to switch their election day to Saturday
+Morton2015a,fichamento_Morton2015a#mobilizacao.md,cg_outros_riscos,23,OK,,0,nine clusters which is not enough to estimate clustered standard errors

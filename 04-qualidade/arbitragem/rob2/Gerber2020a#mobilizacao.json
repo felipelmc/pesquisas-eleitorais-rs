@@ -1,0 +1,22 @@
+[
+ {
+  "dominio": "D3",
+  "julgamento_a": "baixo",
+  "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo",
+  "segue": "A",
+  "justificativa": "Decide a 3.1. Em 2010 ficam de fora os 38% que não fizeram a pesquisa, mas essa perda ocorre antes de qualquer exposição (o tratamento vinha no meio da pesquisa, com resposta de 62% nos dois braços), então é uma exclusão anterior ao tratamento que não depende da alocação, já tratada na 2.6 do D2, e não perda do desfecho. O comparecimento administrativo existe para 6.688 dos 6.705 analisados em 2010 e para toda a amostra de 2014, logo 3.1 = PS e o algoritmo leva a baixo.",
+  "trecho": "because the treatment was only provided halfway through the survey.",
+  "pagina": 15
+ },
+ {
+  "dominio": "D5",
+  "julgamento_a": "algumas_preocupacoes",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes",
+  "segue": "A",
+  "justificativa": "A e B concordam nas respostas: 5.1 = SI (o texto não menciona pré-registro nem plano de análise prévio) e 5.2/5.3 = N/PN (uma só medida de comparecimento administrativo, todas as colunas relatadas). Pelo algoritmo do RoB 2, baixo exige 5.1 = S/PS; com 5.1 = SI e 5.2/5.3 = N/PN o domínio é algumas preocupações, sem presumir seleção. A coluna 12 é escolhida pelo poder, sem remissão a plano prévio.",
+  "trecho": "Among columns 4-12, we have the most power in column 12.",
+  "pagina": 24
+ }
+]

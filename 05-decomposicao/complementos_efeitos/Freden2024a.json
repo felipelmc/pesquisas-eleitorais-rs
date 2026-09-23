@@ -1,0 +1,62 @@
+[
+ {
+  "id_efeito": "Freden2024a-E01",
+  "campo": "n1",
+  "valor_antigo": "",
+  "valor_novo": "368",
+  "status": "derivado",
+  "trecho": "between 2.5% and 4.0% (t(1,759) = 0.12, p = .37), it was significant between 4.0% and 5.5% (t(1,751) = 3.06, p < .05) and between 2.5% and 5.5% (t(1,744) = 4.88, p < .05)",
+  "pagina": 6,
+  "justificativa": "O número em t(1,NNN) é a soma dos n dos dois grupos comparados; resolvendo as três somas do partido KD (2,5%+4,0%=707, 4,0%+5,5%=703, 2,5%+5,5%=694) obtém-se n(2,5%)=376, n(4,0%)=383, n(5,5%)=368, aqui o grupo 5,5% (tratamento). Conferência: esses n reproduzem exatamente os percentuais da Tabela 1 (p. 6; 31/376 = 8,24% e 15/368 = 4,08%) e os nove grupos somam 3.258 de N = 3.259; a distribuição oficial (Online Appendix B) não está no PDF."
+ },
+ {
+  "id_efeito": "Freden2024a-E01",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "376",
+  "status": "derivado",
+  "trecho": "between 2.5% and 4.0% (t(1,759) = 0.12, p = .37), it was significant between 4.0% and 5.5% (t(1,751) = 3.06, p < .05) and between 2.5% and 5.5% (t(1,744) = 4.88, p < .05)",
+  "pagina": 6,
+  "justificativa": "O número em t(1,NNN) é a soma dos n dos dois grupos comparados; resolvendo as três somas do partido KD (2,5%+4,0%=707, 4,0%+5,5%=703, 2,5%+5,5%=694) obtém-se n(2,5%)=376, n(4,0%)=383, n(5,5%)=368, aqui o grupo 2,5% (comparação). Conferência: esses n reproduzem exatamente os percentuais da Tabela 1 (p. 6; 31/376 = 8,24% e 15/368 = 4,08%) e os nove grupos somam 3.258 de N = 3.259; a distribuição oficial (Online Appendix B) não está no PDF."
+ },
+ {
+  "id_efeito": "Freden2024a-E04",
+  "campo": "n1",
+  "valor_antigo": "",
+  "valor_novo": "365",
+  "status": "derivado",
+  "trecho": "That is, the decrease is not significant between 2.5% and 4.0% (t(1,714) = 0.95, p = .16), between 4.0% and 5.5% (t(1,740) = 0.00, p = .50), nor between 2.5% and 5.5% (t(1,704) = 0.79, p = .19)",
+  "pagina": 6,
+  "justificativa": "O número em t(1,NNN) é a soma dos n dos dois grupos comparados; resolvendo as três somas do partido L (2,5%+4,0%=707, 4,0%+5,5%=703, 2,5%+5,5%=694) obtém-se n(2,5%)=339, n(4,0%)=375, n(5,5%)=365, aqui o grupo 5,5% (tratamento). Conferência: esses n reproduzem exatamente os percentuais da Tabela 1 (p. 6; 23/339 = 6,78% e 18/365 = 4,93%) e os nove grupos somam 3.258 de N = 3.259; a distribuição oficial (Online Appendix B) não está no PDF."
+ },
+ {
+  "id_efeito": "Freden2024a-E04",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "339",
+  "status": "derivado",
+  "trecho": "That is, the decrease is not significant between 2.5% and 4.0% (t(1,714) = 0.95, p = .16), between 4.0% and 5.5% (t(1,740) = 0.00, p = .50), nor between 2.5% and 5.5% (t(1,704) = 0.79, p = .19)",
+  "pagina": 6,
+  "justificativa": "O número em t(1,NNN) é a soma dos n dos dois grupos comparados; resolvendo as três somas do partido L (2,5%+4,0%=707, 4,0%+5,5%=703, 2,5%+5,5%=694) obtém-se n(2,5%)=339, n(4,0%)=375, n(5,5%)=365, aqui o grupo 2,5% (comparação). Conferência: esses n reproduzem exatamente os percentuais da Tabela 1 (p. 6; 23/339 = 6,78% e 18/365 = 4,93%) e os nove grupos somam 3.258 de N = 3.259; a distribuição oficial (Online Appendix B) não está no PDF."
+ },
+ {
+  "id_efeito": "Freden2024a-E07",
+  "campo": "n1",
+  "valor_antigo": "",
+  "valor_novo": "345",
+  "status": "derivado",
+  "trecho": "between 2.5% and 4.0% (t(1,707) = 0.00, p = 1.00), between 4.0% and 5.5% (t(1,703) = 0.09, p = .77), nor between 2.5% and 5.5% (t(1,694) = 0.03, p = .86)",
+  "pagina": 6,
+  "justificativa": "O número em t(1,NNN) é a soma dos n dos dois grupos comparados; resolvendo as três somas do partido MP (2,5%+4,0%=707, 4,0%+5,5%=703, 2,5%+5,5%=694) obtém-se n(2,5%)=349, n(4,0%)=358, n(5,5%)=345, aqui o grupo 5,5% (tratamento). Conferência: esses n reproduzem exatamente os percentuais da Tabela 1 (p. 6; 40/349 = 11,46% e 42/345 = 12,17%) e os nove grupos somam 3.258 de N = 3.259; a distribuição oficial (Online Appendix B) não está no PDF."
+ },
+ {
+  "id_efeito": "Freden2024a-E07",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "349",
+  "status": "derivado",
+  "trecho": "between 2.5% and 4.0% (t(1,707) = 0.00, p = 1.00), between 4.0% and 5.5% (t(1,703) = 0.09, p = .77), nor between 2.5% and 5.5% (t(1,694) = 0.03, p = .86)",
+  "pagina": 6,
+  "justificativa": "O número em t(1,NNN) é a soma dos n dos dois grupos comparados; resolvendo as três somas do partido MP (2,5%+4,0%=707, 4,0%+5,5%=703, 2,5%+5,5%=694) obtém-se n(2,5%)=349, n(4,0%)=358, n(5,5%)=345, aqui o grupo 2,5% (comparação). Conferência: esses n reproduzem exatamente os percentuais da Tabela 1 (p. 6; 40/349 = 11,46% e 42/345 = 12,17%) e os nove grupos somam 3.258 de N = 3.259; a distribuição oficial (Online Appendix B) não está no PDF."
+ }
+]

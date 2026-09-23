@@ -1,0 +1,7 @@
+ferramenta,dominio,n,n_concordantes,n_desacordos,concordancia,kappa,pabak,k_niveis,sinalizado
+rob2,D1,23,13,10,0.5652,0.2675,0.3478,3,1
+rob2,D1b,7,7,0,1.0,1.0,1.0,3,0
+rob2,D2,23,10,13,0.4348,-0.0717,0.1522,3,1
+rob2,D3,23,17,6,0.7391,0.1687,0.6087,3,1
+rob2,D4,23,17,6,0.7391,0.5306,0.6087,3,1
+rob2,D5,23,13,10,0.5652,0.193,0.3478,3,1

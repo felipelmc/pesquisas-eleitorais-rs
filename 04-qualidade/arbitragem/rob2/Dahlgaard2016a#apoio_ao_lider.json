@@ -1,0 +1,5 @@
+[{"dominio": "D3", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+  "justificativa": "A pergunta 3.1 decide o caso. A nota 5 compara taxas de abandono entre os grupos experimentais, então os 744 respondentes parciais saíram depois do sorteio. Junto com os cerca de 30 por grupo sem resposta ao desfecho (p. 10), isso deixa uns 20% dos randomizados sem dado, o que dá 3.1 PN. A análise que inclui os parciais não trata quem não respondeu ao desfecho e não testa hipóteses sobre a ausência, por isso 3.2 fica PN. Como a recusa em declarar o voto pode depender da preferência (3.3 PS) e o abandono é parecido entre os braços (3.4 PN), o algoritmo leva a algumas preocupações.",
+  "trecho": "There were no differences in drop-out rates across the different experimental groups.",
+  "pagina": 6}]

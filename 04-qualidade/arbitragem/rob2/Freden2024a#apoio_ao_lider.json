@@ -1,0 +1,5 @@
+[{"dominio": "D3", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+  "justificativa": "Decide a 3.1: o PDF não informa quantos foram randomizados nem em que onda a randomização ocorreu (a distribuição por condição está no Apêndice B online, não anexado); dos 3.759 que participaram, só os 3.259 que completaram o questionário são analisados, então a perda pós-randomização pode ir de cerca de 1% a 13% (3.1 = SI). Sem análise de sensibilidade (3.2 = N), a falta de uma intenção de voto pode depender do seu valor (3.3 = PS), mas a maior parte da perda ocorreu na primeira onda e não há indício de perda ligada ao desfecho ou diferente entre braços (3.4 = PN), o que pelo algoritmo dá algumas preocupações; a leitura de B (3.1 = S) supõe um denominador que o texto não fixa.",
+  "trecho": "In total, 3,759 respondents took part in the survey, of which",
+  "pagina": 5}]

@@ -1,0 +1,42 @@
+[
+ {
+  "id_efeito": "Gandhi2019-E01",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "0.899",
+  "status": "derivado",
+  "trecho": "Constant 0.907 0.010 .000 0.604 0.082 .000 DAP treatment 0.012 0.021 .596 0.010 0.021 .638 Time 0.021 0.013 .147 0.021 0.013 .148 BERSATU supporter –0.008",
+  "pagina": 10,
+  "justificativa": "Proporção pré-tratamento de apoio à PH (dummy) entre apoiadores do BERSATU fora do braço DAP, pela Tabela 3 Modelo 1 (saturado, sem controles): constante 0.907 + BERSATU supporter –0.008 = 0.899. O Modelo 2 (linha E01) tem covariáveis e sua constante não é proporção; usado o pré-período por ser DiD (pré-tratamento independe do braço pela aleatorização). Alternativa: 0.907 nos apoiadores dos demais partidos."
+ },
+ {
+  "id_efeito": "Gandhi2019-E03",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "0.901",
+  "status": "derivado",
+  "trecho": "Constant 0.923 0.015 0.000 0.600 0.082 0.000 BERSATU treatment –0.026 0.033 0.453 –0.027 0.032 0.409 Time –0.047 0.013 0.005 0.032 –0.047 0.013 0.005 0.055 DAP supporter –0.022",
+  "pagina": 11,
+  "justificativa": "Proporção pré-tratamento de apoio à PH (dummy) entre apoiadores do DAP fora do braço BERSATU, pela Tabela 4 Modelo 1 (sem controles): constante 0.923 + DAP supporter –0.022 = 0.901. Constante do Modelo 2 (linha E03) não é proporção; pré-período usado por ser DiD. Alternativa: 0.923 nos apoiadores dos demais partidos."
+ },
+ {
+  "id_efeito": "Gandhi2019-E01",
+  "campo": "estimando",
+  "valor_antigo": "outro",
+  "valor_novo": "associacao",
+  "status": "corrigido",
+  "trecho": "captures the within-subject Treatment × Covariate interaction effect of the DAP treatment on",
+  "pagina": 8,
+  "justificativa": "A interação tripla contrasta o efeito DiD entre apoiadores do BERSATU e dos demais partidos, grupos definidos por apoio partidário pré-tratamento (não atribuído); é diferença de efeitos entre subgrupos não aleatorizados, não contraste de braços."
+ },
+ {
+  "id_efeito": "Gandhi2019-E03",
+  "campo": "estimando",
+  "valor_antigo": "outro",
+  "valor_novo": "associacao",
+  "status": "corrigido",
+  "trecho": "The same procedure applies in determining whether DAP voters are more likely to turn away from the coalition after receiving the BERSATU treatment.",
+  "pagina": 8,
+  "justificativa": "Mesma lógica da E01: a interação tripla BERSATU Treatment × Time × DAP Supporter compara o efeito entre apoiadores do DAP e dos demais partidos, moderador não atribuído; não é contraste de braços aleatorizados."
+ }
+]

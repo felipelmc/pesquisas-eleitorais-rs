@@ -1,0 +1,17 @@
+[
+  {"dominio": "D1", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+   "julgamento_consenso": "baixo", "segue": "A",
+   "justificativa": "Decide a 1.2: a condição foi sorteada pelo software do experimento no momento em que o participante, já incluído, terminou o ranking de partidos, o que equivale a alocação central e sustenta 1.2 = PS (B marcou SI). Com 1.1 = PS e 1.3 = SI (sem tabela de linha de base, o que não é evidência de problema), o algoritmo do RoB 2 dá baixo. O tamanho desigual dos grupos close/safe se explica pelo agrupamento das três condições e não indica falha do sorteio.",
+   "trecho": "used for the systematic assignment to the poll and signal conditions",
+   "pagina": 14},
+  {"dominio": "D2", "julgamento_a": "alto", "julgamento_b": "baixo",
+   "julgamento_consenso": "alto", "segue": "A",
+   "justificativa": "Decide a 2.6: o coeficiente avaliado (coluna With perceptions da Tabela 4) ajusta por percepções medidas depois da designação e afetadas por ela (distância percebida do limiar, percepção do sinal), e os autores dizem que a manipulação age por essas percepções, então ele não estima o efeito da atribuição (2.6 = PN). O coeficiente muda de -0.18 para -0.51 com esse ajuste (2.7 = PS), e o algoritmo do RoB 2 leva 2.6 PN com 2.7 PS a alto. Mesmo pelas respostas de B, 2.2 e 2.3 = SI não permitiriam baixo.",
+   "trecho": "objective conditions affect the respective perceptions and thus exert an indirect effect",
+   "pagina": 27},
+  {"dominio": "D5", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+   "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+   "justificativa": "Decide a 5.1: A e B concordam que não há plano de análise nem pré-registro (SI), e o texto mostra especificação guiada por análises preliminares (inclusão do sexo). Pelo algoritmo do RoB 2, 5.1 sem plano prévio com 5.2 e 5.3 = N/PN dá algumas preocupações. Baixo exige plano pré-especificado (5.1 = S/PS).",
+   "trecho": "Because preliminary analyses showed that the sex of the participant",
+   "pagina": 17}
+]

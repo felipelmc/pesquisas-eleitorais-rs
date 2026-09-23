@@ -1,0 +1,92 @@
+[
+ {
+  "id_efeito": "Witsman2016a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "have the independent candidate polling at 5%, 15%, 25%, 35%, and 45%, with the Republican and Democratic candidates each receiving approximately half the remaining percent.",
+  "pagina": 29,
+  "justificativa": "Cenário 1: com o independente a 45% e R e D com cerca da metade do restante (~27,5% cada), o independente é mostrado à frente; desfecho = voto nele (campos outcome/modelo). Contraste com ele a 5% (terceiro). Disputa de três, mas o braço de tratamento mostra o alvo como líder; direcao_desejada = aumentar, coerente. comparador_tipo já preenchido ('outro'), não alterado, embora o contraste seja do mesmo candidato mostrado atrás."
+ },
+ {
+  "id_efeito": "Witsman2016a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "have the independent candidate polling at 5%, 15%, 25%, 35%, and 45%, with the Republican and Democratic candidates each receiving approximately half the remaining percent.",
+  "pagina": 29,
+  "justificativa": "Cenário 1: independente a 35% vs R e D com ~32,5% cada, logo mostrado à frente (margem pequena, que o autor trataria como empate estatístico) no braço de tratamento; desfecho = voto nele; comparação a 5% (terceiro). direcao_desejada = aumentar, coerente; comparador_tipo ('outro') mantido."
+ },
+ {
+  "id_efeito": "Witsman2016a-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "have the independent candidate polling at 5%, 15%, 25%, 35%, and 45%, with the Republican and Democratic candidates each receiving approximately half the remaining percent.",
+  "pagina": 29,
+  "justificativa": "Cenário 1: independente a 25% vs R e D com ~37,5% cada; o alvo aparece em terceiro numa disputa de três nos dois braços (25% vs 5%), e o contraste varia só sua viabilidade. Fica fora da célula principal; direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Witsman2016a-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "have the independent candidate polling at 5%, 15%, 25%, 35%, and 45%, with the Republican and Democratic candidates each receiving approximately half the remaining percent.",
+  "pagina": 29,
+  "justificativa": "Cenário 1: independente a 15% vs R e D com ~42,5% cada; terceiro colocado numa disputa de três nos dois braços (15% vs 5%), contraste de viabilidade. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Witsman2016a-E05",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "have the independent candidate polling at 5%, 15%, 25%, 35%, and 45%, with the Republican and Democratic candidates each receiving approximately half the remaining percent.",
+  "pagina": 29,
+  "justificativa": "Qui-quadrado omnibus sobre os cinco níveis do cenário 1 (5% a 45%): mede a associação entre a parcela do candidato independente (terceira via) na pesquisa e o voto nele, misturando níveis em que ele é terceiro (5, 15, 25%) e líder (35, 45%); não isola contraste de líder, por isso classificado como efeito de viabilidade do terceiro candidato, fora da célula principal. Os contrastes de líder já estão em E01/E02. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Witsman2016a-E06",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "the Republican candidate was polling at 39% with the Democrat at 36% and in the other, the Democrat was polling at 39% and the Republican at 36%.",
+  "pagina": 29,
+  "justificativa": "Cenário 2: desfecho = voto no democrata; tratamento = versão com o democrata à frente (39% vs 36% do republicano, independente a 25%), comparação = versão com o republicano à frente. Alvo mostrado à frente no tratamento; direcao_desejada = aumentar, coerente. comparador_tipo ('outro') mantido, embora o contraste seja o mesmo candidato mostrado atrás."
+ },
+ {
+  "id_efeito": "Witsman2016a-E07",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "the Republican candidate was polling at 39% with the Democrat at 36% and in the other, the Democrat was polling at 39% and the Republican at 36%.",
+  "pagina": 29,
+  "justificativa": "Cenário 2: desfecho = voto no republicano; tratamento = versão com o republicano à frente (39% vs 36%), comparação = versão com o democrata à frente. Alvo mostrado à frente no tratamento; direcao_desejada = aumentar, coerente; comparador_tipo ('outro') mantido."
+ },
+ {
+  "id_efeito": "Witsman2016a-E08",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "In one version, the independent candidate was performing better than before, in the second the candidate was performing the same, and in the third the candidate was performing more poorly.",
+  "pagina": 30,
+  "justificativa": "Cenário 3: desfecho = voto no independente, que o campo modelo do CSV e o exemplo do apêndice (imagem, folha 61, sem camada de texto: D 35%, R 35%, I 30% na pesquisa mais recente) mostram em terceiro numa disputa de três; o contraste manipula a tendência (subiu vs caiu), isto é, a viabilidade do terceiro. O texto não confirma que a pesquisa final é igual nas três versões. direcao_desejada não alterada."
+ },
+ {
+  "id_efeito": "Witsman2016a-E09",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "In one version, the independent candidate was performing better than before, in the second the candidate was performing the same, and in the third the candidate was performing more poorly.",
+  "pagina": 30,
+  "justificativa": "Cenário 3: mesmo alvo de E08 (independente em terceiro na pesquisa mais recente numa disputa de três, conforme campo modelo e o exemplo do apêndice em imagem, folha 61); contraste subiu vs manteve, efeito de viabilidade. direcao_desejada não alterada."
+ }
+]

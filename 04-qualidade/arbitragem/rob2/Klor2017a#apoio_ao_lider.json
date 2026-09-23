@@ -1,0 +1,22 @@
+[
+ {
+  "dominio": "D2",
+  "julgamento_a": "baixo",
+  "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo",
+  "segue": "A",
+  "justificativa": "Decide a 2.3 (desvios decorrentes do contexto do estudo). A intervenção é a informação sobre a distribuição de preferências exibida pelo computador, com sujeitos isolados em cubículos, anônimos e proibidos de se comunicar (p. 12), de modo que o contexto torna desvios da condição sorteada implausíveis e sustenta PN, não SI; ausência de relato de desvios não é viés. Com 2.1 = S, 2.3 = PN e 2.6 = S (todos os dados disponíveis, p. 14), o algoritmo do RoB 2 leva a baixo.",
+  "trecho": "Communication among subjects was not allowed throughout the",
+  "pagina": 12
+ },
+ {
+  "dominio": "D5",
+  "julgamento_a": "algumas_preocupacoes",
+  "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes",
+  "segue": "A",
+  "justificativa": "Decide a 5.1 (plano prévio). O texto não menciona registro ou plano de análise e descreve a diferença entre times, base do regressor Majority na Tabela 2, como inesperada e revelada pela Figura 2 (p. 15), o que indica PN (e, no mínimo, SI). Pelo algoritmo do RoB 2, 5.2 e 5.3 = N/PN com 5.1 = N/PN/SI leva a algumas preocupações; B respondeu 5.1 = SI mas propôs baixo, o que o algoritmo não permite.",
+  "trecho": "masks important and unexpected di¤erences between teams for a given",
+  "pagina": 15
+ }
+]

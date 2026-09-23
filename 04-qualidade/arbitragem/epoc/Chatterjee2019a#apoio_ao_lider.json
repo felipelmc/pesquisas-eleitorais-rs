@@ -1,0 +1,12 @@
+[
+ {
+  "dominio": "cg_dados_incompletos",
+  "julgamento_a": "baixo",
+  "julgamento_b": "incerto",
+  "julgamento_consenso": "baixo",
+  "segue": "A",
+  "trecho": "For assembly elections,the dataset consists of 681 constituencies of four",
+  "pagina": 14,
+  "justificativa": "O critério dá baixo quando a proporção de dados faltantes é menor que o efeito e improvável de reverter o resultado. O texto informa 681 circunscrições em duas eleições (1362 observações, N que aparece na Tabela 5), e a Tabela 3 (p. 21) usa 1352, ou seja, cerca de 0,7% faltando; a perda é conhecida em magnitude, embora não explicada, e mesmo concentrada toda em Bihar não reverteria um efeito de 2,9 pontos. Como a extensão da perda é informada pelos N e é muito menor que o efeito, o algoritmo leva a baixo, não a incerto."
+ }
+]

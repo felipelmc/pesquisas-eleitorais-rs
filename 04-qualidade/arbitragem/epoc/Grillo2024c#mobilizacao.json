@@ -1,0 +1,5 @@
+[{"dominio": "cg_caracteristicas_base", "julgamento_a": "alto", "julgamento_b": "baixo",
+  "julgamento_consenso": "baixo", "segue": "B",
+  "justificativa": "O critério pergunta se as características de base das unidades comparadas foram relatadas e são semelhantes. Aqui os dois 'grupos' são os mesmos 96 departamentos continentais nos dois turnos (Tabela 1: 96 departamentos, 576 obs.), com o mesmo eleitorado inscrito, então as características das unidades são idênticas por construção, e o comparecimento às 12h também não difere (2nd Round = -0.316, p = 0.360). A chuva no 2º turno (55% contra 1%, Tabela 5), a menor competitividade e o conjunto de candidatos são mudanças simultâneas ao choque informacional, não características de base das unidades. Esse problema já está em cg_outros_riscos (alto) e não deve ser contado duas vezes, por isso o julgamento é baixo.",
+  "trecho": "the 2017 French presidential elections for all French mainland departments",
+  "pagina": 13}]

@@ -1,0 +1,342 @@
+citekey,ficha,variavel,pagina_indicada,status,pagina_encontrada_impressa,offset_pagina,citacao
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,resultado_avaliado,57,OK,,0,Table A.7: The effect of national opinion poll margins interacted
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,desenho_resultado,24,OK,,0,"Within a constituency, we test whether national"
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,confundidores_controlados,24,OK,,0,specification may not entirely rule out the possibility that aggregate
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,confundidores_controlados,25,OK,,0,includes previous level effects along with party-level fixed
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,b1_tentou_controlar,23,OK,,0,"includes controls that vary by specification, such as constituency"
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,b3_medida_inadequada,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d1a_q1_controlou_importantes,24,OK,,0,specification may not entirely rule out the possibility that aggregate
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d1a_q2_medidos_validamente,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d1a_q3_controlou_pos_intervencao,23,OK,,0,"includes controls that vary by specification, such as constituency"
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,qe_testes_pressupostos,29,OK,,0,coefficients remain largely unchanged when different fixed
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,qe_testes_pressupostos,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d2_q1_distinguiveis_inicio,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d2_q4_classificacao_influenciada,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d2_q5_outros_erros,61,OK,,0,"Take the example of Rasmussen, results suggest this polling"
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d3_q1_seguimento_inicio,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d3_q3_selecao_pos_inicio,13,OK,,0,where both a Conservative and a Labour candidate competed
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d3_q4_associadas_intervencao,13,OK,,0,eliminates the constituencies of Northern Ireland (60 percent of
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d3_q5_influenciadas_outcome,13,OK,,0,where both a Conservative and a Labour candidate competed
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d4_q1_intervencao_completa,57,OK,,0,"2,026"
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d4_q2_outcome_completo,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d4_q3_confundidores_completos,57,OK,,0,"2,026"
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d4_q5_exclusao_relacionada,12,OK,,0,Under the assumption that constituencies retaining the same name over
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d5_q1_medida_diferiu,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d5_q2_avaliadores_cientes,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d6_q2_selecao_medidas,57,OK,,0,Dep. var.: Vote Share Pr. of Winning Incumbent Follower
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d6_q3_selecao_analises,30,OK,,0,results suggest that effects are particularly relevant to the
+Alabrese2024a,fichamento_Alabrese2024a#apoio_ao_lider.md,d6_q4_selecao_subgrupos,57,OK,,0,Dep. var.: Vote Share Pr. of Winning Incumbent Follower
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,resultado_avaliado,30,OK,,0,Table 2: The effect of national opinion poll margins interacted
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,desenho_resultado,23,OK,,0,"includes controls that vary by specification, such as constituency"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,confundidores_controlados,24,OK,,0,specification may not entirely rule out the possibility that aggregate
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,confundidores_controlados,23,OK,,0,"includes controls that vary by specification, such as constituency"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,b1_tentou_controlar,23,OK,,0,"includes controls that vary by specification, such as constituency"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,b3_medida_inadequada,30,OK,,0,Turnout is the ratio between the total number of
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d1a_q1_controlou_importantes,24,OK,,0,specification may not entirely rule out the possibility that aggregate
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d1a_q2_medidos_validamente,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d1a_q3_controlou_pos_intervencao,23,OK,,0,"includes controls that vary by specification, such as constituency"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,qe_testes_pressupostos,29,OK,,0,coefficients remain largely unchanged when different fixed
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,qe_testes_pressupostos,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d2_q1_distinguiveis_inicio,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d2_q4_classificacao_influenciada,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d2_q5_outros_erros,61,OK,,0,"Take the example of Rasmussen, results suggest this polling"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d3_q1_seguimento_inicio,23,OK,,0,both national and local margins are measured before the vote
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d3_q3_selecao_pos_inicio,13,OK,,0,where both a Conservative and a Labour candidate competed
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d3_q4_associadas_intervencao,13,OK,,0,eliminates the constituencies of Northern Ireland (60 percent of
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d3_q5_influenciadas_outcome,13,OK,,0,where both a Conservative and a Labour candidate competed
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d4_q1_intervencao_completa,28,OK,,0,"5,599"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d4_q1_intervencao_completa,30,OK,,0,"4,676"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d4_q2_outcome_completo,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d4_q3_confundidores_completos,28,OK,,0,"5,599"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d4_q3_confundidores_completos,30,OK,,0,"4,676"
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d4_q5_exclusao_relacionada,12,OK,,0,Under the assumption that constituencies retaining the same name over
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d5_q1_medida_diferiu,30,OK,,0,Turnout is the ratio between the total number of
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d5_q2_avaliadores_cientes,18,OK,,0,Data come from different sources. Electoral results
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d6_q2_selecao_medidas,30,OK,,0,Turnout is the ratio between the total number of
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d6_q3_selecao_analises,30,OK,,0,results suggest that effects are particularly relevant to the
+Alabrese2024a,fichamento_Alabrese2024a#mobilizacao.md,d6_q4_selecao_subgrupos,30,OK,,0,Table 2: The effect of national opinion poll margins interacted
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,variante_d1,11,OK,,0,Treatment is a dummy that takes a value of 1
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,resultado_avaliado,12,OK,,0,support for the announced frontrunner is 5.69 pp higher
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,resultado_avaliado,14,OK,,0,Bolsonaro’s vote share increases by 11.76 pp in voting
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,desenho_resultado,14,OK,,0,"in natural experiments, it is possible that certain"
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,desenho_resultado,11,OK,,0,Treatment is a dummy that takes a value of 1
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,confundidores_controlados,12,OK,,0,control for the characteristics of voters registered to cast ballots
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,confundidores_controlados,15,OK,,0,examine the electoral preferences of treated and untreated units
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,b1_tentou_controlar,12,OK,,0,control for the characteristics of voters registered to cast ballots
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,b3_medida_inadequada,10,OK,,0,data are available for each round of the election for all
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d1a_q1_controlou_importantes,11,OK,,0,there is no reason to believe that the occurrence of technical
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d1a_q1_controlou_importantes,15,OK,,0,examine the electoral preferences of treated and untreated units
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d1a_q2_medidos_validamente,12,OK,,0,control for the characteristics of voters registered to cast ballots
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d1a_q3_controlou_pos_intervencao,9,OK,,0,we account for this by controlling for turnout rates
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d1a_q4_controles_negativos,16,OK,,0,our placebo treatment shows no indication of a bandwagon effect
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,qe_testes_pressupostos,14,OK,,0,"in natural experiments, it is possible that certain"
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,qe_testes_pressupostos,15,OK,,0,examine the electoral preferences of treated and untreated units
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,qe_testes_pressupostos,16,OK,,0,our placebo treatment shows no indication of a bandwagon effect
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,qe_testes_pressupostos,14,OK,,0,The only difference comes from our analyses of the first
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d2_q1_distinguiveis_inicio,11,OK,,0,data also include the time of actual closure of each
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d2_q4_classificacao_influenciada,11,OK,,0,machines that remained open after preliminary results started being announced
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d2_q5_outros_erros,15,OK,,0,it is virtually impossible to know whether the release
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d3_q1_seguimento_inicio,10,OK,,0,data are available for each round of the election for all
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d3_q2_eventos_excluidos,10,OK,,0,we code five different outcome variables
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d3_q3_selecao_pos_inicio,10,OK,,0,Not all voting machines contained ballots cast for our five outcome variables
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d4_q1_intervencao_completa,10,OK,,0,data are available for each round of the election for all
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d4_q2_outcome_completo,10,OK,,0,Not all voting machines contained ballots cast for our five outcome variables
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d4_q3_confundidores_completos,12,OK,,0,control for the characteristics of voters registered to cast ballots
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d4_q4_casos_completos,10,OK,,0,hence the varying number of observations
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d5_q1_medida_diferiu,7,OK,,0,electronic voting machines means that electoral results are calculated speedily
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d5_q2_avaliadores_cientes,7,OK,,0,electronic voting machines means that electoral results are calculated speedily
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d6_q2_selecao_medidas,10,OK,,0,we code five different outcome variables
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d6_q3_selecao_analises,14,OK,,0,Our results also remain stable in a series of robustness checks
+Araujo2021a,fichamento_Araujo2021a#apoio_ao_lider.md,d6_q4_selecao_subgrupos,14,OK,,0,The only difference comes from our analyses of the first
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,variante_d1,4,OK,,0,could be treated as an intention to treat (ITT) effect rather than
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,resultado_avaliado,6,OK,,0,"increased the turnout intention by 5.1% (CI: [2.0,9.0])"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,desenho_resultado,1,OK,,0,local randomization regression discontinuity approach
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,confundidores_controlados,4,OK,,0,"predetermined covariates (gender, age, and town size) are balanced"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,b1_tentou_controlar,2,OK,,0,"To deal with this potential bias, we use a local randomization approach"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,b3_medida_inadequada,2,OK,,0,strong but imperfect correlation between turnout intention and reported vote
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d1a_q1_controlou_importantes,4,OK,,0,similar in terms of both their observable and nonobservable characteristics
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d1a_q2_medidos_validamente,2,OK,,0,"gender, age, and town size quotas"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d1a_q3_controlou_pos_intervencao,4,OK,,0,"predetermined covariates (gender, age, and town size) are balanced"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d1a_q4_controles_negativos,6,OK,,0,little evidence of RD effects for any of the possible windows
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,qe_testes_pressupostos,4,OK,,0,This window comprises four time intervals (mass points) before and
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,qe_testes_pressupostos,4,OK,,0,we used the automatic data-driven window selection procedure
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,qe_testes_pressupostos,6,OK,,0,the ATE in the 13 windows reported in Table A2
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,qe_testes_pressupostos,6,OK,,0,little evidence of RD effects for any of the possible windows
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d2_q1_distinguiveis_inicio,2,OK,,0,every unit whose score exceeds the cutoff is assigned to the treatment
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d2_q4_classificacao_influenciada,2,OK,,0,the day and time of the interview define the running variable
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d2_q5_outros_erros,4,OK,,0,did not ask whether the respondent had seen the newly released poll
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d3_q1_seguimento_inicio,2,OK,,0,the day and time of the interview define the running variable
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d3_q2_eventos_excluidos,3,OK,,0,We removed all observations from this interval following the
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d3_q3_selecao_pos_inicio,4,OK,,0,"predetermined covariates (gender, age, and town size) are balanced"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d4_q1_intervencao_completa,2,OK,,0,the day and time of the interview define the running variable
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d4_q2_outcome_completo,4,OK,,0,comprises 296 respondents
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d4_q3_confundidores_completos,2,OK,,0,"gender, age, and town size quotas"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d5_q1_medida_diferiu,2,OK,,0,"Our outcome variable is turnout intention, defined as the proportion"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d6_q1_plano_previo,4,OK,,0,we used the automatic data-driven window selection procedure
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d6_q2_selecao_medidas,2,OK,,0,"Our outcome variable is turnout intention, defined as the proportion"
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d6_q3_selecao_analises,6,OK,,0,the ATE in the 13 windows reported in Table A2
+Brugarolas2021,fichamento_Brugarolas2021#mobilizacao.md,d6_q4_selecao_subgrupos,2,OK,,0,"Our outcome variable is turnout intention, defined as the proportion"
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,variante_d1,3,OK,,0,the election takes place immediately after the straw poll
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,resultado_avaliado,16,OK,,0,Vote for Incumbent (Election-Only)
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,resultado_avaliado,16,OK,,0,Vote for Incumbent (Message)
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,desenho_resultado,15,OK,,0,"sample is all subject-rounds, excluding candidates, or all group-rounds"
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,confundidores_controlados,16,OK,,0,"Other variables: Quality, performance, message length (both candidates), and group size."
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,b1_tentou_controlar,16,OK,,0,"Other variables: Quality, performance, message length (both candidates), and group size."
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,b3_medida_inadequada,5,OK,,0,programmed in z-Tree
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d1a_q1_controlou_importantes,16,OK,,0,"Other variables: Quality, performance, message length (both candidates), and group size."
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d1a_q2_medidos_validamente,5,OK,,0,Quality was randomly drawn for challengers
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d1a_q3_controlou_pos_intervencao,5,OK,,0,after the poll vote counts and winner were announced
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d1a_q4_controles_negativos,6,OK,,0,"Clustering by group instead of session, using linear models"
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d2_q1_distinguiveis_inicio,3,OK,,0,"simultaneously and costlessly votes, and then the results are announced"
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d2_q4_classificacao_influenciada,5,OK,,0,programmed in z-Tree
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d2_q5_outros_erros,5,OK,,0,programmed in z-Tree
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d3_q1_seguimento_inicio,3,OK,,0,the election takes place immediately after the straw poll
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d3_q3_selecao_pos_inicio,15,OK,,0,"sample is all subject-rounds, excluding candidates, or all group-rounds"
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d4_q1_intervencao_completa,3,OK,,0,we do not allow abstention in polling and the election
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d4_q2_outcome_completo,3,OK,,0,we do not allow abstention in polling and the election
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d4_q3_confundidores_completos,5,OK,,0,Quality was randomly drawn for challengers
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d5_q1_medida_diferiu,5,OK,,0,programmed in z-Tree
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d5_q2_avaliadores_cientes,5,OK,,0,programmed in z-Tree
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d6_q1_plano_previo,6,OK,,0,especially important in experiments—like ours—that were not preregistered
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d6_q2_selecao_medidas,15,OK,,0,We examine voters’ responses to campaigning with four probits
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d6_q3_selecao_analises,6,OK,,0,"Clustering by group instead of session, using linear models"
+Feltovich2022,fichamento_Feltovich2022#apoio_ao_lider.md,d6_q4_selecao_subgrupos,15,OK,,0,"sample is all subject-rounds, excluding candidates, or all group-rounds"
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,variante_d1,8,OK,,0,independently of the voter's will
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,resultado_avaliado,21,OK,,0,"Table 5, the results for Groups 1 and 2 are pooled"
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,desenho_resultado,19,OK,,0,the campaign was suspended after nine minutes
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,confundidores_controlados,21,OK,,0,"Table 5, the results for Groups 1 and 2 are pooled"
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,b1_tentou_controlar,21,OK,,0,"Table 5, the results for Groups 1 and 2 are pooled"
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,b2_confundimento_descarta,25,OK,,0,it is usually more than enough to decide an election
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,b3_medida_inadequada,19,OK,,0,ask the participant to indicate which candidate she/he would most likely vote
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d1a_q1_controlou_importantes,20,OK,,0,other factors may have played a role
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d1a_q4_controles_negativos,21,OK,,0,any causal inference is also constrained by the fact that
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,qe_testes_pressupostos,20,OK,,0,some participants did not supply a complete candidate preference
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d2_q1_distinguiveis_inicio,9,OK,,0,to one of four groups that were associated with different potential
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d2_q4_classificacao_influenciada,9,OK,,0,to one of four groups that were associated with different potential
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d2_q5_outros_erros,8,OK,,0,independently of the voter's will
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d3_q1_seguimento_inicio,19,OK,,0,the campaign was suspended after nine minutes
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d3_q2_eventos_excluidos,19,OK,,0,The campaign flow items then resumed
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d3_q3_selecao_pos_inicio,20,OK,,0,some participants did not supply a complete candidate preference
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d4_q1_intervencao_completa,9,OK,,0,to one of four groups that were associated with different potential
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d4_q2_outcome_completo,20,OK,,0,some participants did not supply a complete candidate preference
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d4_q4_casos_completos,20,OK,,0,the analysis is based on 188 cases
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d5_q1_medida_diferiu,19,OK,,0,For members of both subsets
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d5_q2_avaliadores_cientes,19,OK,,0,ask the participant to indicate which candidate
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d5_q3_influenciada,21,OK,,0,have changed their preference due to being rendered more sensitive to
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d6_q2_selecao_medidas,21,OK,,0,"Table 5, the results for Groups 1 and 2 are pooled"
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d6_q3_selecao_analises,22,OK,,0,A logistic regression (in which independent variables coincide with those listed in
+Gasperoni2015a,fichamento_Gasperoni2015a#apoio_ao_lider.md,d6_q4_selecao_subgrupos,21,OK,,0,"Table 5, the results for Groups 1 and 2 are pooled"
+Geers2018,fichamento_Geers2018#mobilizacao.md,variante_d1,10,OK,,0,we asked respondents about their exposure to the various media outlets
+Geers2018,fichamento_Geers2018#mobilizacao.md,resultado_avaliado,13,OK,,0,The impact of media content on crystallization and conversion
+Geers2018,fichamento_Geers2018#mobilizacao.md,desenho_resultado,7,OK,,0,we use a panel dataset and link this
+Geers2018,fichamento_Geers2018#mobilizacao.md,confundidores_controlados,8,OK,,0,"We also included several control variables, starting with the usual sociodemographic variables"
+Geers2018,fichamento_Geers2018#mobilizacao.md,confundidores_controlados,8,OK,,0,"First, political interest, which is measured with an item"
+Geers2018,fichamento_Geers2018#mobilizacao.md,b1_tentou_controlar,11,OK,,0,The effect of issue news and poll news on conversion and crystallization
+Geers2018,fichamento_Geers2018#mobilizacao.md,b3_medida_inadequada,8,OK,,0,We constructed a dependent variable with four possible outcomes
+Geers2018,fichamento_Geers2018#mobilizacao.md,d1a_q1_controlou_importantes,8,OK,,0,"We also included several control variables, starting with the usual sociodemographic variables"
+Geers2018,fichamento_Geers2018#mobilizacao.md,d2_q1_distinguiveis_inicio,10,OK,,0,"For each respondent, exposure to media content was weighted on"
+Geers2018,fichamento_Geers2018#mobilizacao.md,d2_q4_classificacao_influenciada,9,OK,,0,All items with political content were coded in collaboration with
+Geers2018,fichamento_Geers2018#mobilizacao.md,d2_q5_outros_erros,17,OK,,0,"we are restricted to self-reported measures of news exposure, of"
+Geers2018,fichamento_Geers2018#mobilizacao.md,d3_q1_seguimento_inicio,7,OK,,0,we are interested in the influence of the media's campaign coverage
+Geers2018,fichamento_Geers2018#mobilizacao.md,d3_q2_eventos_excluidos,8,OK,,0,respondents were asked which party they ended up voting
+Geers2018,fichamento_Geers2018#mobilizacao.md,d3_q3_selecao_pos_inicio,7,OK,,0,Panel attrition does not seem to affect our findings
+Geers2018,fichamento_Geers2018#mobilizacao.md,d3_q4_associadas_intervencao,7,OK,,0,did not differ a lot from the drop-outs
+Geers2018,fichamento_Geers2018#mobilizacao.md,d4_q1_intervencao_completa,7,OK,,0,we only included those respondents that have participated in all waves
+Geers2018,fichamento_Geers2018#mobilizacao.md,d4_q2_outcome_completo,7,OK,,0,we only included those respondents that have participated in all waves
+Geers2018,fichamento_Geers2018#mobilizacao.md,d4_q3_confundidores_completos,8,OK,,0,"due to missing values on this variable, we decided to not include"
+Geers2018,fichamento_Geers2018#mobilizacao.md,d5_q1_medida_diferiu,8,OK,,0,"At t, the post-election wave, respondents were asked which party"
+Geers2018,fichamento_Geers2018#mobilizacao.md,d5_q2_avaliadores_cientes,7,OK,,0,using computer-assisted self-interviewing
+Geers2018,fichamento_Geers2018#mobilizacao.md,d5_q3_influenciada,17,OK,,0,"we are restricted to self-reported measures of news exposure, of which"
+Geers2018,fichamento_Geers2018#mobilizacao.md,d6_q2_selecao_medidas,11,OK,,0,"As robustness check, we also estimated a multinomial regression model"
+Geers2018,fichamento_Geers2018#mobilizacao.md,d6_q3_selecao_analises,12,OK,,0,We also estimated multinomial regressions models including general newspaper and television exposure
+Geers2018,fichamento_Geers2018#mobilizacao.md,d6_q4_selecao_subgrupos,14,OK,,0,The findings revealed a marginally significant effect of issue
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,variante_d1,2,OK,,0,they were asked again whether or not they’d vote
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,resultado_avaliado,25,OK,,0,14.5% of subjects changed their initial turnout decision after
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,desenho_resultado,21,OK,,0,"Next, they’re asked if they would vote for their"
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,confundidores_controlados,2,OK,,0,"Overall, participants’ decision to turnout switched 14% of"
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,b1_tentou_controlar,2,OK,,0,"Overall, participants’ decision to turnout switched 14% of"
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,b2_confundimento_descarta,29,OK,,0,There’s a possibility that the survey question biased participants
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,b3_medida_inadequada,36,OK,,0,"hypothetical presidential election scenario was used, with two"
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d1a_q1_controlou_importantes,21,OK,,0,which of the two candidates they would support based
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d1a_q4_controles_negativos,29,OK,,0,survey question biased participants to consider factors outside of
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,qe_testes_pressupostos,21,OK,,0,Subjects are then randomly assigned to one of four
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d2_q1_distinguiveis_inicio,21,OK,,0,Subjects are then randomly assigned to one of four
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d2_q4_classificacao_influenciada,21,OK,,0,Subjects are then randomly assigned to one of four
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d2_q5_outros_erros,23,OK,,0,they’re shown only one of the four election forecasts
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d3_q1_seguimento_inicio,23,OK,,0,"Subjects are then asked “considering your typical weekly schedule, would"
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d3_q2_eventos_excluidos,25,OK,,0,Participants (N = 186) came from Amazon’s Mechanical Turk
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d3_q3_selecao_pos_inicio,20,OK,,0,Eligibility required that subjects were registered voters in the
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d4_q1_intervencao_completa,31,OK,,0,"Of the 186 subjects surveyed, only six switched their"
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d4_q3_confundidores_completos,20,OK,,0,The survey had three components
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d5_q1_medida_diferiu,29,OK,,0,The wording of the question after the forecast was
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d5_q2_avaliadores_cientes,23,OK,,0,would you make time to go to the polls to
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d5_q3_influenciada,29,OK,,0,There’s a possibility that the survey question biased participants
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d6_q2_selecao_medidas,23,OK,,0,would you make time to go to the polls to
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d6_q3_selecao_analises,2,OK,,0,"Overall, participants’ decision to turnout switched 14% of"
+Kaplan2019a,fichamento_Kaplan2019a#mobilizacao.md,d6_q4_selecao_subgrupos,2,OK,,0,"Overall, participants’ decision to turn out switched 14%"
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,variante_d1,14,OK,,0,using the normal approximation to the binomial distribution
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,resultado_avaliado,14,OK,,0,the di¤erence between the two is statistically signi…cant with z = 3:125
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,desenho_resultado,14,OK,,0,the unit of observation is the subject
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,confundidores_controlados,12,OK,,0,equal probability rule randomly assigned each subject to one of two
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,confundidores_controlados,13,OK,,0,subjects are told the electorate’s distribution of preferences
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,confundidores_controlados,13,OK,,0,each subject’s preferred color is again randomly decided
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,b1_tentou_controlar,6,OK,,0,a random and anonymous reassignment procedure speci…cally to reduce repeated game incentives
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,b3_medida_inadequada,13,OK,,0,Subjects have to decide again whether or not to vote
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d1a_q1_controlou_importantes,12,OK,,0,equal probability rule randomly assigned each subject to one of two
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d1a_q1_controlou_importantes,13,OK,,0,subjects are told the electorate’s distribution of preferences
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d1a_q3_controlou_pos_intervencao,13,OK,,0,subjects don’t receive any information on the subjects’ participation decisions
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d1a_q4_controles_negativos,18,OK,,0,the signi…cant di¤erences between majority and minority don’t disappear over rounds
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d2_q1_distinguiveis_inicio,13,OK,,0,the …rst stage of each round each subject knows only her preferred
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d2_q4_classificacao_influenciada,13,OK,,0,After all the participants make their decisions we proceed to the second
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d2_q5_outros_erros,38,OK,,0,the computer will collect the seven decisions of the members
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d3_q1_seguimento_inicio,11,OK,,0,The 84 subjects in this experiment were recruited
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d3_q2_eventos_excluidos,12,OK,,0,Each experimental session entailed 20 independent rounds
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d3_q3_selecao_pos_inicio,13,OK,,0,each subject’s preferred color is again randomly decided
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d4_q1_intervencao_completa,46,OK,,0,Number of Subjects 84
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d4_q2_outcome_completo,46,OK,,0,Observations 854
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d4_q4_casos_completos,46,OK,,0,Observations 854
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d4_q5_exclusao_relacionada,46,OK,,0,Number of Subjects 84
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d5_q1_medida_diferiu,12,OK,,0,Every subject knows that her decision in one stage is independent
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d5_q2_avaliadores_cientes,38,OK,,0,the computer will collect the seven decisions
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d6_q2_selecao_medidas,17,OK,,0,re‡ects subject i’s participation decision in the second stage of round
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d6_q3_selecao_analises,14,OK,,0,closeness in the division of preferences induces a signi…cant increase in turnout
+Klor2017a,fichamento_Klor2017a#mobilizacao.md,d6_q4_selecao_subgrupos,10,OK,,0,For the purposes of our experimental study we focus on electorates of
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,variante_d1,11,OK,,0,last Lower-House election held in a sample of 46 democracies
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,resultado_avaliado,34,OK,,0,ENEP*#Days of Poll Embargo .002**
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,desenho_resultado,14,OK,,0,Estimation is by OLS with robust standard errors.
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,confundidores_controlados,13,OK,,0,We control for three standard variables affecting the amount
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,b1_tentou_controlar,13,OK,,0,We control for three standard variables affecting the amount
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,b3_medida_inadequada,12,OK,,0,Wasted votes are a standard variable used to capture electoral coordination
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d1a_q1_controlou_importantes,13,OK,,0,We control for three standard variables affecting the amount
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d1a_q4_controles_negativos,14,OK,,0,there are no outliers or influential observations
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d2_q1_distinguiveis_inicio,13,OK,,0,Number of Days of Poll Embargo prior the Election Day
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d2_q4_classificacao_influenciada,13,OK,,0,The source is Chung (2012)
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d2_q5_outros_erros,13,OK,,0,Effective Number of Electoral Parties (ENEP) by Laakso and
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d3_q1_seguimento_inicio,11,OK,,0,the data are dependent on the availability of information
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d3_q2_eventos_excluidos,12,OK,,0,at the national level in the last parliamentary election held
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d3_q3_selecao_pos_inicio,12,OK,,0,An election is deemed to be democratic when and where
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d4_q1_intervencao_completa,33,OK,,0,# Days of Poll Embargo 46 2.478 4.902
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d4_q2_outcome_completo,33,OK,,0,% of Wasted Votes 46 .063 .062
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d4_q3_confundidores_completos,33,OK,,0,ENEP 46 5.039 2.180 1.932 11.209
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d5_q1_medida_diferiu,12,OK,,0,We have several sources for the electoral results:
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d5_q2_avaliadores_cientes,13,OK,,0,and the respective Electoral Commissions
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d6_q2_selecao_medidas,12,OK,,0,The dependent variable is the percentage of wasted votes
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d6_q3_selecao_analises,14,OK,,0,we have run three specifications: a first model
+Lago2015,fichamento_Lago2015#apoio_ao_lider.md,d6_q4_selecao_subgrupos,34,OK,,0,Observations 46
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,variante_d1,11,OK,,0,sums these weighted poll report totals per party over all outlets
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,resultado_avaliado,14,OK,,0,Results of a Logistic Regression Predicting Vote Choice by Poll Exposure
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,desenho_resultado,7,OK,,0,tested using a two-wave panel survey at the start and end
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,confundidores_controlados,14,OK,,0,Vote choice (wave 1)
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,confundidores_controlados,14,OK,,0,Party rating (wave 1)
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,confundidores_controlados,13,OK,,0,"interest in polls, and interest in politics likewise did not substantially"
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,b1_tentou_controlar,13,OK,,0,"results controlling for amount of poll exposure, poll valence, precampaign"
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,b3_medida_inadequada,9,OK,,0,exactly resembling the layout as was used in the elections
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d1a_q1_controlou_importantes,13,OK,,0,"interest in polls, and interest in politics likewise did not substantially"
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d1a_q2_medidos_validamente,10,OK,,0,rated each party on an 11-point scale from don't like this
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d1a_q3_controlou_pos_intervencao,14,OK,,0,Anxiety (wave 1)
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d2_q2_eventos_depois,8,OK,,0,"completed on September 24, yielding a net sample of 1,064"
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d2_q4_classificacao_influenciada,8,OK,,0,individual poll exposure scores in this study are calculated based
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d2_q5_outros_erros,10,OK,,0,coded for containing a reference to polls about the Bundestag
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d3_q1_seguimento_inicio,10,OK,,0,covers the same period as the panel survey and starts
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d3_q2_eventos_excluidos,8,OK,,0,"completed on September 24, yielding a net sample of 1,064"
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d3_q3_selecao_pos_inicio,8,OK,,0,includes a slightly larger share of men and a lower
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d4_q1_intervencao_completa,11,OK,,0,sums these weighted poll report totals per party over all
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d4_q3_confundidores_completos,13,OK,,0,imputed values of the CFA were used for the anxiety and
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d4_q4_casos_completos,13,OK,,0,imputed values of the CFA were used for the anxiety and
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d4_q7_imputacao,13,OK,,0,imputed values of the CFA were used for the anxiety and
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d5_q1_medida_diferiu,9,OK,,0,exactly resembling the layout as was used in the elections
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d5_q2_avaliadores_cientes,9,OK,,0,Respondents could indicate their vote choice on this form
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d5_q3_influenciada,9,OK,,0,exactly resembling the layout as was used in the elections
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d6_q2_selecao_medidas,9,OK,,0,exactly resembling the layout as was used in the elections
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d6_q3_selecao_analises,13,OK,,0,Similar results are obtained if this model is estimated as
+Stolwijk2016a,fichamento_Stolwijk2016a#apoio_ao_lider.md,d6_q4_selecao_subgrupos,8,OK,,0,"This resulted in a new data set of 6,384 cases"
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,variante_d1,10,OK,,0,we used as much relevant information from the three waves preceding
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,resultado_avaliado,12,OK,,0,The more precise CBPS approach for correcting sample composition
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,desenho_resultado,10,OK,,0,various matching procedures are being developed
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,confundidores_controlados,10,OK,,0,"The predictors include intention to turn out, campaign"
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,confundidores_controlados,12,OK,,0,left-right self-placement (wave 1) and attention
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,b1_tentou_controlar,10,OK,,0,report results using a CBPS (Imai and Ratkovic
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,b3_medida_inadequada,18,OK,,0,tried to minimize this potential by providing answer options
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d1a_q1_controlou_importantes,10,OK,,0,"The predictors include intention to turn out, campaign"
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,qe_testes_pressupostos,10,OK,,0,does not only serve as a control for different
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d2_q1_distinguiveis_inicio,11,OK,,0,each participant was asked (both in wave 3 and
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d3_q3_selecao_pos_inicio,10,OK,,0,Panel attrition did not lead to a significant difference
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d4_q1_intervencao_completa,12,OK,,0,"it has a slightly lower N, due to missing values"
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d4_q2_outcome_completo,10,OK,,0,whether they had voted (n ¼ 319/43%) or not
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d4_q4_casos_completos,18,OK,,0,we have rerun this model on an imputed dataset
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d4_q6_explicada_modelo,10,OK,,0,does not only serve as a control for different
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d4_q11_evidencia_sem_vies,18,OK,,0,rerun this model on an imputed dataset and found similar results
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d5_q1_medida_diferiu,10,OK,,0,Turnout was measured directly after the elections (wave 4)
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d5_q2_avaliadores_cientes,9,OK,,0,The survey was conducted using Computer Assisted Web Interviewing
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d5_q3_influenciada,18,OK,,0,Self-reported turnout is prone to over-reporting
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d6_q2_selecao_medidas,10,OK,,0,by asking respondents whether they had voted
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d6_q3_selecao_analises,11,OK,,0,Table 1 shows the results of logistic regressions with and
+Stolwijk2019b,fichamento_Stolwijk2019b#mobilizacao.md,d6_q4_selecao_subgrupos,11,OK,,0,Table 1 shows the results of logistic regressions with and
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,variante_d1,8,OK,,0,"RCS is a large-scale, cross-sectional survey based on phone"
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,resultado_avaliado,17,OK,,0,"For the SPD, CMVI was positively associated with voting intention"
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,desenho_resultado,12,OK,,0,"the RCS data were matched with external data, namely"
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,confundidores_controlados,14,OK,,0,we included CMVI as a level 2 predictor and the index
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,confundidores_controlados,20,OK,,0,"we included covariates (gender, age, general interest in politics"
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,b1_tentou_controlar,14,OK,,0,we included CMVI as a level 2 predictor and the index
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,b2_confundimento_descarta,23,OK,,0,voting intention was also associated with poll results published the day after
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,b3_medida_inadequada,10,OK,,0,Individuals' voting intention was assessed by the single item
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d1a_q1_controlou_importantes,14,OK,,0,we included CMVI as a level 2 predictor and the index
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d1a_q4_controles_negativos,23,OK,,0,we did not find evidence for the assumed causality direction of a
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,qe_testes_pressupostos,9,OK,,0,unobserved confounders such as external events during the investigated time span could
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,qe_testes_pressupostos,23,OK,,0,we did not find evidence for the assumed causality direction of a
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d2_q1_distinguiveis_inicio,9,OK,,0,We matched each field day's RCS data with the results of
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d2_q4_classificacao_influenciada,9,OK,,0,We used data from the eight leading polling institutes in Germany
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d2_q5_outros_erros,13,OK,,0,"The published poll results, however, are not raw marginals."
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d3_q1_seguimento_inicio,8,OK,,0,"RCS is a large-scale, cross-sectional survey based on phone"
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d3_q3_selecao_pos_inicio,13,OK,,0,We excluded participants whose postal codes indicated that they cast
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d4_q1_intervencao_completa,9,OK,,0,In the event that no new polls were published on a
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d4_q2_outcome_completo,9,OK,,0,we listwise excluded all cases with missing data on the
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d4_q4_casos_completos,13,OK,,0,We did not impute incomplete or missing data and instead used
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d4_q5_exclusao_relacionada,10,OK,,0,reference category was defined as the voting intention for another political party
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d5_q1_medida_diferiu,10,OK,,0,Individuals' voting intention was assessed by the single item
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d5_q2_avaliadores_cientes,2,OK,,0,the proportion of people who reported to have paid attention to such
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d5_q3_influenciada,4,OK,,0,leads to individuals evaluating this attitude or object more positively
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d6_q1_plano_previo,8,OK,,0,We preregistered all our analyses on the open science framework
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d6_q2_selecao_medidas,8,OK,,0,We preregistered all our analyses on the open science framework
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d6_q3_selecao_analises,8,OK,,0,We preregistered all our analyses on the open science framework
+Unkelbach2022a,fichamento_Unkelbach2022a#apoio_ao_lider.md,d6_q4_selecao_subgrupos,8,OK,,0,We preregistered all our analyses on the open science framework

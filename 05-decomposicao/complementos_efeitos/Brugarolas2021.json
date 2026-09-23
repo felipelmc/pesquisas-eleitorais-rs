@@ -1,0 +1,12 @@
+[
+ {
+  "id_efeito": "Brugarolas2021-E01",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "0.849",
+  "status": "derivado",
+  "trecho": "The two horizontal lines provide the average turnout intention level before and afer the cutoﬀand the vertical diﬀerence between these two lines should be interpreted as the ATE.",
+  "pagina": 5,
+  "justificativa": "Valor lido da FIGURA 2 (nao impresso no texto; Tabelas A2-A6 estao no SI Appendix, nao anexado): linha horizontal da media antes do corte (controle, janela 0.8) extraida das coordenadas vetoriais do PDF, y=386.24 com eixo 0.5 em y=548.95 e 1.0 em y=315.69, logo p0=0.5+(548.95-386.24)/(548.95-315.69)*0.5=0.849. A linha apos o corte da 0.899; diferenca 5.0 p.p., coerente com o efeito impresso de 5.1."
+ }
+]

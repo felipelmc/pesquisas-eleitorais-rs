@@ -1,0 +1,40 @@
+robins_i|Alabrese2024a|apoio_ao_lider|D1: A=grave, B=moderado; D2: A=moderado, B=baixo|feito
+robins_i|Alabrese2024a|mobilizacao|D1: A=grave, B=moderado; D2: A=moderado, B=baixo|feito
+robins_i|Araujo2021a|apoio_ao_lider|D1: A=grave, B=moderado; D4: A=baixo, B=moderado; D6: A=moderado, B=baixo|feito
+robins_i|Brugarolas2021|mobilizacao|D2: A=baixo, B=moderado; D3: A=moderado, B=baixo; D5: A=moderado, B=baixo; D6: A=moderado, B=baixo|feito
+robins_i|Feltovich2022|apoio_ao_lider|D1: A=grave, B=moderado|feito
+robins_i|Gasperoni2015a|apoio_ao_lider|D1: A=critico, B=grave; D3: A=grave, B=moderado; D5: A=grave, B=moderado; D6: A=moderado, B=baixo|feito
+robins_i|Geers2018|mobilizacao|D3: A=moderado, B=baixo; D4: A=moderado, B=baixo; D5: A=baixo, B=moderado; D6: A=moderado, B=baixo|feito
+robins_i|Kaplan2019a|mobilizacao|D1: A=critico, B=grave; D6: A=moderado, B=baixo|feito
+robins_i|Klor2017a|mobilizacao|D1: A=moderado, B=baixo_exceto_confundimento; D6: A=moderado, B=baixo|feito
+robins_i|Stolwijk2016a|apoio_ao_lider|D1: A=grave, B=moderado; D3: A=baixo, B=moderado; D5: A=moderado, B=baixo; D6: A=moderado, B=baixo|feito
+robins_i|Stolwijk2019b|mobilizacao|D2: A=moderado, B=baixo; D5: A=moderado, B=baixo; D6: A=moderado, B=baixo|feito
+robins_i|Unkelbach2022a|apoio_ao_lider|D2: A=baixo, B=moderado; D4: A=moderado, B=baixo; D5: A=baixo, B=moderado|feito
+rob2|Agranov2017a|apoio_ao_lider|D2: A=baixo, B=algumas_preocupacoes|feito
+rob2|Agranov2017a|mobilizacao|D2: A=baixo, B=algumas_preocupacoes|feito
+rob2|Boukouras2020a|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D2: A=baixo, B=algumas_preocupacoes|feito
+rob2|Cornejo2023a|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D2: A=baixo, B=algumas_preocupacoes; D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Dahlgaard2016a|apoio_ao_lider|D3: A=algumas_preocupacoes, B=baixo|feito
+rob2|Erlich2023|mobilizacao|D2: A=baixo, B=algumas_preocupacoes; D4: A=baixo, B=algumas_preocupacoes|feito
+rob2|Farjam2020a|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D2: A=baixo, B=algumas_preocupacoes; D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Fichnova2015a|apoio_ao_lider|D2: A=baixo, B=algumas_preocupacoes; D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Freden2024a|apoio_ao_lider|D3: A=algumas_preocupacoes, B=baixo|feito
+rob2|Gandhi2019|apoio_ao_lider|D2: A=algumas_preocupacoes, B=baixo; D3: A=algumas_preocupacoes, B=baixo|feito
+rob2|Gerber2020a|mobilizacao|D3: A=baixo, B=algumas_preocupacoes; D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Groer2010a|mobilizacao|D2: A=baixo, B=algumas_preocupacoes; D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Klor2017a|apoio_ao_lider|D2: A=baixo, B=algumas_preocupacoes; D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Lammers2022a|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D2: A=baixo, B=algumas_preocupacoes; D4: A=alto, B=algumas_preocupacoes|feito
+rob2|Meer2015a|apoio_ao_lider|D4: A=baixo, B=algumas_preocupacoes|feito
+rob2|Meffert2011|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D2: A=alto, B=baixo; D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Schlegel2023|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D4: A=algumas_preocupacoes, B=baixo|feito
+rob2|Tal2015a|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D5: A=alto, B=baixo|feito
+rob2|Timotei2013a|apoio_ao_lider|D2: A=algumas_preocupacoes, B=baixo; D4: A=baixo, B=algumas_preocupacoes|feito
+rob2|Tyszler2015|apoio_ao_lider|D5: A=algumas_preocupacoes, B=baixo|feito
+rob2|Urminsky2019|mobilizacao|D1: A=baixo, B=algumas_preocupacoes; D3: A=algumas_preocupacoes, B=baixo|feito
+rob2|Westwood2020a|mobilizacao|D1: A=baixo, B=algumas_preocupacoes|feito
+rob2|Witsman2016a|apoio_ao_lider|D1: A=baixo, B=algumas_preocupacoes; D3: A=alto, B=baixo; D4: A=algumas_preocupacoes, B=alto; D5: A=algumas_preocupacoes, B=baixo|feito
+epoc|Bursztyn2023a|apoio_ao_lider|cg_caracteristicas_base: A=alto, B=incerto; cg_contaminacao: A=incerto, B=alto; cg_linha_base_outcome: A=alto, B=baixo|feito
+epoc|Chatterjee2019a|apoio_ao_lider|cg_dados_incompletos: A=baixo, B=incerto|feito
+epoc|Chatterjee2019a|mobilizacao|cg_dados_incompletos: A=baixo, B=incerto|feito
+epoc|Grillo2024c|mobilizacao|cg_caracteristicas_base: A=alto, B=baixo|feito
+epoc|Morton2015a|mobilizacao|cg_contaminacao: A=incerto, B=baixo; cg_linha_base_outcome: A=incerto, B=baixo; cg_outros_riscos: A=incerto, B=baixo|feito

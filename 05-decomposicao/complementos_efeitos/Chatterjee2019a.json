@@ -1,0 +1,122 @@
+[
+ {
+  "id_efeito": "Chatterjee2019a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "As exit polls usually would predict the front-runners to win (eventual winner or runner up), we expect underdog votes to vote less for them and hence with exit polls their vote share are likely to be lower.",
+  "pagina": 20,
+  "justificativa": "Desfecho = votacao do vencedor final (Winner), que os autores tratam como o front-runner que a boca de urna aponta a frente; em linha com o texto, o alvo e o lider. direcao_desejada = aumentar ja coerente; sinal do CSV mantido."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "As exit polls usually would predict the front-runners to win (eventual winner or runner up), we expect underdog votes to vote less for them and hence with exit polls their vote share are likely to be lower.",
+  "pagina": 20,
+  "justificativa": "Desfecho = votacao do vencedor final (Winner), que os autores tratam como o front-runner que a boca de urna aponta a frente; em linha com o texto, o alvo e o lider. direcao_desejada = aumentar ja coerente; sinal do CSV mantido."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "On average, more than 10 candidates contest in every constituency, in both assembly and parliamentary elections. However, except the top two candidates most of the others usually end up forfeiting their monetary deposit",
+  "pagina": 17,
+  "justificativa": "Desfecho = votacao do segundo colocado (Runner-Up) em disputas com mais de 10 candidatos, nas quais os dois primeiros sao os competitivos: segundo colocado viavel numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "On average, more than 10 candidates contest in every constituency, in both assembly and parliamentary elections. However, except the top two candidates most of the others usually end up forfeiting their monetary deposit",
+  "pagina": 17,
+  "justificativa": "Desfecho = votacao do segundo colocado (Runner-Up) em disputas com mais de 10 candidatos, nas quais os dois primeiros sao os competitivos: segundo colocado viavel numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E05",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "As a result, candidates who ﬁnish in the third position or below are usually the fringe candidates.",
+  "pagina": 16,
+  "justificativa": "Desfecho = votacao somada dos candidatos em 3o lugar ou abaixo (Others), descritos como candidatos marginais que em geral perdem o deposito: candidatos sem chance numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E06",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "As a result, candidates who ﬁnish in the third position or below are usually the fringe candidates.",
+  "pagina": 16,
+  "justificativa": "Desfecho = votacao somada dos candidatos em 3o lugar ou abaixo (Others), descritos como candidatos marginais que em geral perdem o deposito: candidatos sem chance numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E07",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "As exit polls usually would predict the front-runners to win (eventual winner or runner up), we expect underdog votes to vote less for them and hence with exit polls their vote share are likely to be lower.",
+  "pagina": 20,
+  "justificativa": "Desfecho = votacao do vencedor final (Winner), que os autores tratam como o front-runner que a boca de urna aponta a frente; em linha com o texto, o alvo e o lider. direcao_desejada = aumentar ja coerente; sinal do CSV mantido."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E08",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "As exit polls usually would predict the front-runners to win (eventual winner or runner up), we expect underdog votes to vote less for them and hence with exit polls their vote share are likely to be lower.",
+  "pagina": 20,
+  "justificativa": "Desfecho = votacao do vencedor final (Winner), que os autores tratam como o front-runner que a boca de urna aponta a frente; em linha com o texto, o alvo e o lider. direcao_desejada = aumentar ja coerente; sinal do CSV mantido."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E09",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "On average, more than 10 candidates contest in every constituency, in both assembly and parliamentary elections. However, except the top two candidates most of the others usually end up forfeiting their monetary deposit",
+  "pagina": 17,
+  "justificativa": "Desfecho = votacao do segundo colocado (Runner-Up) em disputas com mais de 10 candidatos, nas quais os dois primeiros sao os competitivos: segundo colocado viavel numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E10",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "segundo_viavel",
+  "status": "preenchido",
+  "trecho": "On average, more than 10 candidates contest in every constituency, in both assembly and parliamentary elections. However, except the top two candidates most of the others usually end up forfeiting their monetary deposit",
+  "pagina": 17,
+  "justificativa": "Desfecho = votacao do segundo colocado (Runner-Up) em disputas com mais de 10 candidatos, nas quais os dois primeiros sao os competitivos: segundo colocado viavel numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E11",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "As a result, candidates who ﬁnish in the third position or below are usually the fringe candidates.",
+  "pagina": 16,
+  "justificativa": "Desfecho = votacao somada dos candidatos em 3o lugar ou abaixo (Others), descritos como candidatos marginais que em geral perdem o deposito: candidatos sem chance numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ },
+ {
+  "id_efeito": "Chatterjee2019a-E12",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "terceiro_inviavel",
+  "status": "preenchido",
+  "trecho": "As a result, candidates who ﬁnish in the third position or below are usually the fringe candidates.",
+  "pagina": 16,
+  "justificativa": "Desfecho = votacao somada dos candidatos em 3o lugar ou abaixo (Others), descritos como candidatos marginais que em geral perdem o deposito: candidatos sem chance numa disputa com tres ou mais. direcao_desejada nao alterada (alvo de viabilidade)."
+ }
+]

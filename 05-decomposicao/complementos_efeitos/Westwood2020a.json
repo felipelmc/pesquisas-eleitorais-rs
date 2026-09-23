@@ -1,0 +1,12 @@
+[
+ {
+  "id_efeito": "Westwood2020a-E01",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "0.748",
+  "status": "derivado",
+  "trecho": "Figure 8. Effects of probabilistic forecasts on voting behavior. When presented with both the probability of victory and vote share, participants are less likely to",
+  "pagina": 12,
+  "justificativa": "Valor lido da FIGURA 8A (raster; nao impresso no texto, e as tabelas A15-A18 do apendice nao estao anexadas): proporcao prevista de participantes que pagam $1 para votar na distancia 0 de 50:50 (braco de comparacao do contraste de +20 pontos), medida em pixels contra os ticks do eixo (0.748; extrapolando a reta entre as distancias 0.05 e 0.48). E valor ajustado pelo modelo de probabilidade linear, nao media observada; coerente com a queda impressa de 3.4 p.p. em +20 (0.748 para 0.714 na mesma figura)."
+ }
+]

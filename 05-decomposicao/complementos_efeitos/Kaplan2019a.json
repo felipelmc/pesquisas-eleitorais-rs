@@ -1,0 +1,32 @@
+[
+ {
+  "id_efeito": "Kaplan2019a-E01",
+  "campo": "p0",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Subjects are then randomly assigned to one of four experimental conditions.",
+  "pagina": 21,
+  "justificativa": "Não há braço de comparação sem prognóstico: todos os 186 participantes são alocados a uma das quatro condições com prognóstico, e o desfecho (troca da decisão) só existe após a exposição; logo não há p0 do mesmo desfecho."
+ },
+ {
+  "id_efeito": "Kaplan2019a-E01",
+  "campo": "n2",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Depending on the condition the subject is randomly assigned to, they’re shown only one of the four election forecasts",
+  "pagina": 23,
+  "justificativa": "Cada participante vê um dos quatro prognósticos; não existe grupo não exposto, então não há n2. O artigo também não relata n por condição (só a distribuição percentual das trocas)."
+ },
+ {
+  "id_efeito": "Kaplan2019a-E01",
+  "campo": "estimando",
+  "valor_antigo": "outro",
+  "valor_novo": "associacao",
+  "status": "corrigido",
+  "trecho": "The purpose of this component of the survey is to understand if there’s a change in an individual’s choice of whether or not to vote for a candidate after being introduced to an election forecast",
+  "pagina": 23,
+  "justificativa": "A estimativa é a taxa de troca antes-depois dentro do sujeito agregada sobre as quatro condições, e não um contraste entre braços aleatorizados; por isso é associacao."
+ }
+]

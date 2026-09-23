@@ -1,0 +1,52 @@
+[
+ {
+  "id_efeito": "Lammers2022a-E01",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "Participants were first shown the two candidates (A and B), well before the actual elections.",
+  "pagina": 9,
+  "justificativa": "Eleicao simulada de dois candidatos com posicao mostrada (90% x 10%); desfecho = probabilidade de migrar para o candidato lider, logo alvo = lider. direcao_desejada = aumentar ja coerente; comparador_tipo ja preenchido, nao alterado."
+ },
+ {
+  "id_efeito": "Lammers2022a-E02",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "Participants were first shown the two candidates (A and B), well before the actual elections.",
+  "pagina": 9,
+  "justificativa": "Eleicao simulada de dois candidatos com posicao mostrada (90% x 10%); desfecho impresso (migrar para o candidato atras) ja reorientado como apoio ao lider, logo alvo = lider. direcao_desejada = aumentar ja coerente; comparador_tipo ja preenchido, nao alterado."
+ },
+ {
+  "id_efeito": "Lammers2022a-E03",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "Participants were first shown the two candidates (A and B), well before the actual elections.",
+  "pagina": 9,
+  "justificativa": "Eleicao simulada de dois candidatos com posicao mostrada (90% x 10%); desfecho = probabilidade de migrar para o candidato lider, logo alvo = lider. direcao_desejada = aumentar ja coerente; comparador_tipo ja preenchido, nao alterado."
+ },
+ {
+  "id_efeito": "Lammers2022a-E04",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "Participants were first shown the two candidates (A and B), well before the actual elections.",
+  "pagina": 9,
+  "justificativa": "Eleicao simulada de dois candidatos com posicao mostrada (90% x 10%); desfecho impresso (migrar para o candidato atras) ja reorientado como apoio ao lider, logo alvo = lider. direcao_desejada = aumentar ja coerente; comparador_tipo ja preenchido, nao alterado."
+ },
+ {
+  "id_efeito": "Lammers2022a-E05",
+  "campo": "alvo_efeito",
+  "valor_antigo": "",
+  "valor_novo": "lider",
+  "status": "preenchido",
+  "trecho": "One month before the elections, 64.1% of participants intended to vote for a leading (Civic Coalition or Law and Justice)",
+  "pagina": 7,
+  "justificativa": "Estudo 1 (eleicao polonesa multipartidaria): o desfecho e a troca de campo em direcao aos partidos lideres nas pesquisas (Civic Coalition ou Law and Justice), com construto apoio_ao_lider; logo alvo = lider. direcao_desejada = aumentar ja coerente; comparador_tipo ja preenchido, nao alterado."
+ }
+]

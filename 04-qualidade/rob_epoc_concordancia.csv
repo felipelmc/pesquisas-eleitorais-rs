@@ -1,0 +1,17 @@
+ferramenta,dominio,n,n_concordantes,n_desacordos,concordancia,kappa,pabak,k_niveis,sinalizado
+epoc,cg_caracteristicas_base,5,3,2,0.6,0.0,0.4,3,1
+epoc,cg_conhecimento_alocacao,5,5,0,1.0,,1.0,3,0
+epoc,cg_contaminacao,5,3,2,0.6,0.375,0.4,3,1
+epoc,cg_dados_incompletos,5,3,2,0.6,0.0,0.4,3,1
+epoc,cg_linha_base_outcome,5,3,2,0.6,0.375,0.4,3,1
+epoc,cg_ocultacao_alocacao,5,5,0,1.0,,1.0,3,0
+epoc,cg_outros_riscos,5,4,1,0.8,0.4444,0.7,3,0
+epoc,cg_relato_seletivo,5,5,0,1.0,,1.0,3,0
+epoc,cg_sequencia_aleatoria,5,5,0,1.0,,1.0,3,0
+epoc,its_coleta_nao_afetada,2,2,0,1.0,,1.0,3,0
+epoc,its_conhecimento_alocacao,2,2,0,1.0,,1.0,3,0
+epoc,its_dados_incompletos,2,2,0,1.0,,1.0,3,0
+epoc,its_forma_efeito_pre_especificada,2,2,0,1.0,,1.0,3,0
+epoc,its_intervencao_independente,2,2,0,1.0,1.0,1.0,3,0
+epoc,its_outros_riscos,2,2,0,1.0,1.0,1.0,3,0
+epoc,its_relato_seletivo,2,2,0,1.0,,1.0,3,0

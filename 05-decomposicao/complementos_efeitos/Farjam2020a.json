@@ -1,0 +1,22 @@
+[
+ {
+  "id_efeito": "Farjam2020a-E02",
+  "campo": "sdy",
+  "valor_antigo": "",
+  "valor_novo": "",
+  "status": "nao_relatado",
+  "trecho": "Bayesian Estimates for Mixed-Effect Models Predicting Votes for the Most Popular Option",
+  "pagina": 6,
+  "justificativa": "Procurei no PDF inteiro (texto, Tabelas 1 e 2, notas, Figuras 1 e 2): o artigo não traz estatísticas descritivas nem DP do desfecho ordinal (0/1/2) no grupo sem pesquisa ou na amostra toda; a Tabela 2 só dá estimativas, IC95 e fatores de Bayes."
+ },
+ {
+  "id_efeito": "Farjam2020a-E02",
+  "campo": "tipo_estatistica",
+  "valor_antigo": "beta_sd",
+  "valor_novo": "beta_sd",
+  "status": "nao_relatado",
+  "trecho": "we estimated ordinal mixed-effect models. Voting for the minority option was coded as 0, voting for the middle as 1, and",
+  "pagina": 5,
+  "justificativa": "Rota dif_prop não se aplica: o desfecho é ordinal de três categorias (0/1/2), não binário, e o coeficiente vem de regressão ordinal (não é modelo de probabilidade linear em proporção). efeito_pp, se_pp e p0 ficam vazios; tipo_estatistica mantido."
+ }
+]

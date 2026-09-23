@@ -1,0 +1,10 @@
+[{"dominio": "D1", "julgamento_a": "baixo", "julgamento_b": "algumas_preocupacoes",
+  "julgamento_consenso": "baixo", "segue": "A",
+  "justificativa": "Decide a 1.2 (ocultação). O experimento é autoadministrado online (Prolific), com a condição atribuída dentro do próprio questionário a quem já entrou no estudo, sem recrutador que pudesse prever ou manipular a sequência; isso equivale a alocação remota automatizada (1.2 = PS), não a ausência de informação. Com 1.1 = PS e 1.3 = PN/N (texto afirma equilíbrio de covariáveis, nota 4), o algoritmo do RoB 2 dá baixo.",
+  "trecho": "both of which were collected through the online survey platform Prolific",
+  "pagina": 5},
+ {"dominio": "D4", "julgamento_a": "algumas_preocupacoes", "julgamento_b": "baixo",
+  "julgamento_consenso": "algumas_preocupacoes", "segue": "A",
+  "justificativa": "A e B dão as mesmas respostas (4.1/4.2 = N/PN, 4.3 = S/PS, 4.4 = PS, 4.5 = PN): o desfecho é o voto hipotético do próprio participante, dado logo após ver o estímulo, logo influenciável por saber a condição, mas sem indício de que tenha sido. No algoritmo do RoB 2, 4.4 = PS com 4.5 = PN leva a algumas preocupações; o baixo de B aplicou o algoritmo incorretamente.",
+  "trecho": "After reviewing the polls, participants are asked to cast their vote",
+  "pagina": 4}]
