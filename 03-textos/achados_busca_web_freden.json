@@ -1,0 +1,19 @@
+[
+  {
+    "chave": "Freden2016a",
+    "encontrado": false,
+    "motivo": "Não encontrado em nenhuma fonte permitida. Lund University Publications/Pure (portal.research.lu.se e lup.lub.lu.se) só tem metadados, sem arquivo. Karlstad DiVA (kau.diva-portal.org, registro diva2:1263696, urn:nbn:se:kau:diva-70130) diz explicitamente 'Open Access in DiVA: No full text in DiVA' (checado via Wayback Machine, pois o host kau.diva-portal.org está inacessível pela rede deste agente). GUPEA (Gothenburg), o blog pessoal da autora (annikafreden.blogspot.com) e seu perfil do Google Scholar não trazem link de PDF. Unpaywall confirma is_oa=false, oa_locations=[] para o DOI 10.1111/1467-9477.12087. A versão publicada na Wiley (Scandinavian Political Studies) é paywalled; onlinelibrary.wiley.com devolveu 403 (bloqueio anti-bot), não contornado."
+  },
+  {
+    "chave": "Freden2024a",
+    "encontrado": true,
+    "url": "https://academic.oup.com/ijpor/article-pdf/36/3/edae041/58780727/edae041.pdf",
+    "fonte": "agente_busca_web",
+    "motivo": "Artigo é Open Access (CC BY) na própria editora, Oxford Academic (International Journal of Public Opinion Research, v.36 n.3, edae041, DOI 10.1093/ijpor/edae041). Baixado via link de PDF da página do artigo (redireciona para watermark02.silverchair.com, servidor de distribuição de PDF da OUP). Confirmado com pdftotext/pdfinfo: 11 páginas, título 'Insurance Voting in the Centre: An Experimental Approach' e autoria (Annika Fredén, Bastiaan Bruinsma, Nora Theorin, Henrik Oscarsson) na primeira página, com seções de abstract, introdução, métodos, resultados e Tabelas 1-4 (texto completo, não apenas resumo)."
+  },
+  {
+    "chave": "Freden2014",
+    "encontrado": false,
+    "motivo": "Não encontrado em nenhuma fonte permitida. Lund University Publications/Pure só tem metadados e o DOI, sem arquivo local. Karlstad DiVA (kau.diva-portal.org, registro diva2:1263481, urn:nbn:se:kau:diva-70119) diz explicitamente 'Open Access in DiVA: No full text in DiVA' (checado via Wayback Machine, pois o host kau.diva-portal.org está inacessível pela rede deste agente). GUPEA, blog pessoal e Google Scholar da autora não trazem PDF. Unpaywall confirma is_oa=false, oa_locations=[] para o DOI 10.1080/17457289.2013.872118. A versão publicada é paywalled na Taylor & Francis (tandfonline.com); tanto o link direto de PDF quanto a página 'full' devolveram bloqueio anti-bot Cloudflare (403 / cf-mitigated: challenge), não contornado."
+  }
+]

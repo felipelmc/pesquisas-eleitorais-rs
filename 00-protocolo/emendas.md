@@ -28,6 +28,7 @@ D método planejado não executado · E correção de erro ou incoerência.
 | E002 | 2026-09-19 | v1.0 (protocolo não alterado) | seção 3, estratégia B01 → B05 | A | após a busca, antes da triagem | re-deduplicação e recall |
 | Emenda 1 | 2026-09-20 | protocolo.md v2 | critério C2 | C | elegibilidade, ciclo 2 | não (afeta só Araujo2021/2021a) |
 | Emenda 2 | 2026-09-20 | codebook_v0_efetividade.csv v2 | b2_estimando, b2_modelo_principal, b2_criterio_modelo_principal | C | piloto de extração (G6) | não (piloto não repetido; recodificação nos 3 textos do piloto na rodada completa) |
+| Emenda 3 | 2026-09-23 | codebook_v0_rob2/robins_i/epoc.csv (novos) | seção 7, codebooks de risco de viés | E | extração e RoB (G7), antes de qualquer avaliação | não |
 
 ## E001
 
@@ -85,3 +86,15 @@ D método planejado não executado · E correção de erro ou incoerência.
 **Alcance.** Vale a partir de já para a rodada completa de extração. As três fichas do piloto (`05-decomposicao/piloto/fichas/`) não foram refeitas com a redação nova — repetir o piloto seria exigido só para uma mudança grande de desenho do codebook, e esta é uma clarificação pontual de três variáveis. Quando esses três textos entrarem na rodada completa de extração, serão fichados de novo (não reaproveitados do piloto), já com a redação desta emenda.
 
 **Efeito na síntese.** Nenhum efeito direto nas células de síntese; efeito indireto esperado de melhorar a consistência de `b2_estimando` (usado para registrar o estimando do efeito, não a direção) e da localização do modelo principal (usada para saber qual estimativa de cada estudo entra na meta-análise/SWiM).
+
+## Emenda 3 — 23/09/2026 — codebooks de risco de viés copiados para o protocolo
+
+**O que muda.** Entram em `00-protocolo/` os arquivos `codebook_v0_rob2.csv`, `codebook_v0_robins_i.csv` e `codebook_v0_epoc.csv`, cópias sem alteração dos codebooks da skill que a seção 7 do protocolo já nomeava como "codebook de partida". A única mudança de conteúdo é o preenchimento do placeholder de confundidores do ROBINS-I com a lista do DAG congelado no G2 (`apoio_latente`, `interesse_politico`, `preferencia_previa`/partidarismo; `00-protocolo/teoria_programa.md` e `dag_v1.mmd`).
+
+**Por quê.** Correção de omissão (tipo E): a ferramenta e o codebook de cada desenho foram decididos no G2, mas os arquivos não foram copiados para a pasta congelada. Sem a cópia, os avaliadores de risco de viés não teriam um arquivo do projeto para ler.
+
+**Quando.** Na etapa 9 (G7), antes de qualquer avaliação de risco de viés. Nenhum julgamento foi feito com outra versão.
+
+**Alcance e efeito na síntese.** Nenhum: as perguntas e os algoritmos são os da versão nomeada no protocolo. O comando `rs emenda` não se aplica porque os arquivos são novos (não estavam congelados); a emenda fica registrada só aqui.
+
+**Também registrado nesta data (desvio do plano de IA, seção 10):** o protocolo previa o árbitro dos desacordos de risco de viés em `claude-fable-5-1`. Por decisão de custo do revisor humano (19/09/2026), o árbitro será `claude-opus-5-5` em contexto novo, sem ver a própria avaliação A. Como A também é Opus, o árbitro não é um terceiro modelo independente; a limitação vai para o relato.

@@ -863,7 +863,7 @@
       "descricao": "conferir 149 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P021]",
       "n": 149,
       "arquivo": "03-textos/elegibilidade_tc_final.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P023",
@@ -883,7 +883,7 @@
       "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano",
       "n": 28,
       "arquivo": "05-decomposicao/verificacao_efeitos.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P025",
@@ -904,8 +904,28 @@
       "n": null,
       "arquivo": null,
       "status": "aberta"
+    },
+    {
+      "id": "P027",
+      "tipo": "verificacao_humana_efeitos",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P024]",
+      "n": 545,
+      "arquivo": "05-decomposicao/verificacao_efeitos.csv",
+      "status": "aberta"
+    },
+    {
+      "id": "P028",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 150 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P022]",
+      "n": 150,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "aberta"
     }
   ],
   "contagens_cache": {},
-  "ultimo_seq": 724
+  "ultimo_seq": 734
 }

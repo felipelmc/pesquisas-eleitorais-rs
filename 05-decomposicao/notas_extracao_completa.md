@@ -58,3 +58,90 @@ cegas. Decisão: deixar como está e deixar o alerta de plausibilidade de `anali
 verificar-efeitos` (|g| > 2) sinalizar Geers2018 quando a etapa rodar, para conferência humana
 específica desse caso (conferir se o EP foi lido como DP, a unidade do preditor, ou se o
 coeficiente reportado é de fato log-odds por unidade cheia do índice 0-1).
+
+## Retomada em 23/09/2026: sobreposição de dados entre estudos incluídos
+
+- **Agranov2012a ↔ Agranov2017a: mesmo estudo, não estavam ligados.** Mesmo título, mesmos
+  quatro autores, mesmo experimento (198 sujeitos, 440 eleições); 2012a é o manuscrito de
+  dez/2014 (registro SSRN) e 2017a o WZB DP de set/2016 (registro do artigo JEEA). Ligados
+  com `textos ligar-relatos` (03-textos/pares_relatos_g7.csv), relato principal Agranov2017a.
+  Os estudos incluídos passam de 41 para 40. Os efeitos já extraídos de Agranov2012a saem de
+  `05-decomposicao/efeitos/` (vão para `efeitos_descartados/`) quando os de Agranov2017a
+  estiverem prontos, para não contar o mesmo experimento duas vezes.
+- **Meffert2012a contém os dados de Meffert2011.** O capítulo reúne três experimentos; o
+  "psicológico" (laboratório em Mannheim, janeiro de 2006, duas campanhas estaduais alemãs,
+  voto insincero) é o experimento publicado em Meffert2011. Na extração de efeitos de
+  Meffert2012a entram só o experimento econômico e o survey experiment austríaco; o psicológico
+  fica com Meffert2011.
+- **Tyszler2013 reusa dados de Tyszler2015.** As comparações com eleitorados homogêneos em
+  Tyszler2013 usam dados do artigo-companheiro (TS11 = Tyszler2015). Na extração de efeitos de
+  Tyszler2013 entram só os dados heterogêneos próprios.
+- Correção do meu commit anterior: a lista de "17 estudos sem efeitos" incluía Westwood2020a
+  por engano (já tinha efeitos); eram 16 mais Freden2016b.
+
+## Polaridade de desfechos de apoio a quem está atrás: harmonizar antes do G7
+
+O codebook manda: desfecho que mede apoio a quem a pesquisa mostra atrás continua
+`apoio_ao_lider`, com `direcao_desejada = reduzir` e sinal como impresso. Alguns extratores
+inverteram o sinal em vez disso (Araujo2021a E02-E09, Lammers2022a E02/E04) — matematicamente
+equivalente se `direcao_desejada = aumentar`. Outros deixaram o sinal como impresso e só
+avisaram (Bursztyn2023a E17/E18). Antes de `preparar-efeitos` final, conferir linha a linha que
+toda linha de apoio a quem está atrás tem OU sinal invertido com `aumentar` OU sinal impresso
+com `reduzir` — nunca sinal impresso com `aumentar`. A partir desta retomada os prompts dos
+extratores fixam a segunda forma.
+
+## Notas da retomada, por estudo (para a verificação e a síntese)
+
+- **Witsman2016a**: p1/p0 calculados pelo extrator das contagens Yes/Total impressas nas
+  Tabelas 6 e 8 (divisão exata, mas não é número impresso) — conferir na verificação humana.
+  E05 é um phi omnibus 5x2, não direcional: não usar na agregação.
+- **Alabrese2024a**: 132 linhas. As linhas do survey com desfecho "não apoia nenhum partido"
+  (Tab. 4, A.8-A.10) foram classificadas pelo extrator como `mobilizacao`/`reduzir`, mas o
+  protocolo define mobilização como comparecimento ou intenção de comparecer (interesse só como
+  complemento). Não entram na agregação de mobilização; o principal de mobilização é E002
+  (Tabela 2, col. 2, comparecimento). Exposição contínua (margem nacional 0-1), sem tratamento
+  binário: a conversão para d não é comparável com os experimentos.
+- **Tyszler2015**: a Figura 4 não imprime valores; os números vêm das faixas da conclusão
+  (72-88% sem informação, 93-96% com informação), que se referem às barras "Majoritarian Set"
+  e não "Majoritarian Candidate". A ligação de cada ponta da faixa a uma condição (u=3, u=8) foi
+  feita pelo extrator lendo o gráfico, e no braço informado a ordem 93/96 vem só do gráfico.
+  Conferência visual humana obrigatória; sem EP nem teste — entra na síntese narrativa (SWiM),
+  não na meta-análise.
+- **Boukouras2020a**: E04-E06 ("vote share" 20/11,7/7,3 p.p.) são numericamente idênticos às
+  diferenças de taxa de vitória de E01-E03 — possível erro de rótulo dos próprios autores;
+  marcados nao, não agregar junto com E01-E03.
+- **Meffert2012a**: sem o experimento psicológico (que é o de Meffert2011), sobram 4 linhas do
+  experimento econômico cujo desfecho é "decisão ótima" (maximiza o pagamento), sem relação
+  definida com apoio ao líder; o survey austríaco só varia o sinal de coalizão, sem pesquisa.
+  Nenhuma linha principal: o estudo entra só na síntese narrativa.
+- **Yang2023d** e **Urminsky2019**: os contrastes disponíveis são entre FORMATOS de apresentação
+  da mesma previsão (intervalo vs. dotplot; chance vs. margem), não exposição vs. não exposição
+  nem resultados diferentes. Yang2023d ficou sem linha principal (7 linhas nao); Urminsky2019
+  tem 1 principal (Estudo 1, chance vs. margem). Célula própria na síntese (formato da previsão),
+  não agregar com os experimentos de exposição.
+- **Gandhi2019**: dois principais (um por braço, interações triplas DAP e BERSATU); o p impresso
+  é maior que o calculado por z=beta/EP (t com poucos gl por cluster no estado) — o verificador
+  pode acusar incoerência de p, que é esperada aqui.
+
+## Harmonização de polaridade aplicada (23/09/2026)
+
+Conferi todas as linhas `apoio_ao_lider` cujo desfecho sugere apoio a quem está atrás.
+Corrigido para `direcao_desejada = reduzir` (sinal como impresso):
+- Bursztyn2023a E17, E18 (parcela de votos do lado atrás; E17 é o principal) — estavam `aumentar`.
+- Chatterjee2019a E03-E06, E09-E12 (segundo colocado e demais candidatos) — estavam `aumentar`.
+  O sinal destas linhas continua trocado em relação ao impresso por outro motivo, legítimo: o
+  artigo estima o efeito da PROIBIÇÃO da boca de urna, e a linha registra o da exposição.
+- Cornejo2023a E05-E18 (survey experiment: apoio ao candidato anti-PRI mostrado atrás do PRI na
+  vinheta; E05 é o principal do experimento) — estavam `aumentar`.
+- Araujo2021a E02-E05, E07-E09: tinham o sinal invertido por polaridade com `aumentar`;
+  restaurado o sinal impresso e posto `reduzir` (mesmo resultado, mas agora o número bate com a
+  página para a conferência humana).
+Mantidos como estão, com ressalva: Lammers2022a E02/E04 (reorientados pelo extrator; o estudo
+já está marcado para não entrar na agregação do efeito principal); Gasperoni2015a E01 e
+estratos (misturam os dois alvos de troca, líder e segundo colocado); Tyszler2013 E01/E02
+(fração de voto estratégico mistura deserções para o líder e para outro candidato).
+
+## Agranov2012a fora da rodada completa
+
+Ficha movida para `05-decomposicao/fichas_relatos_secundarios/` e efeitos para
+`efeitos_descartados/`: é relato secundário do estudo ES1529 (principal Agranov2017a).

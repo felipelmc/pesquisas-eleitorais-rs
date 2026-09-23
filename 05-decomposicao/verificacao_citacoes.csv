@@ -1,78 +1,4 @@
 citekey,ficha,variavel,pagina_indicada,status,pagina_encontrada_impressa,offset_pagina,citacao
-Agranov2012a,fichamento_Agranov2012a.md,titulo,1,OK,,0,What Makes Voters Turn Out:
-Agranov2012a,fichamento_Agranov2012a.md,ano,1,OK,,0,"December 29, 2014"
-Agranov2012a,fichamento_Agranov2012a.md,tipo_publicacao,1,OK,,0,"December 29, 2014"
-Agranov2012a,fichamento_Agranov2012a.md,tipo_publicacao,1,OK,,0,"Keywords: Collective Choice, Polls, Strategic Voting."
-Agranov2012a,fichamento_Agranov2012a.md,idioma,1,OK,,0,We use laboratory experiments to test for one of the
-Agranov2012a,fichamento_Agranov2012a.md,pais_estudo,10,OK,,0,"(CASSEL) at UCLA. Overall, 198 subjects participated."
-Agranov2012a,fichamento_Agranov2012a.md,tipo_estudo,1,OK,,0,We use laboratory experiments to test for one of the
-Agranov2012a,fichamento_Agranov2012a.md,tipo_estudo,10,OK,,0,Each experimental session implemented one of the information treatments
-Agranov2012a,fichamento_Agranov2012a.md,problema_pesquisa,3,OK,,0,we consider the impact of information revealed through polls
-Agranov2012a,fichamento_Agranov2012a.md,unidade_analise,3,OK,,0,each subject had to decide whether to cast a costly vote
-Agranov2012a,fichamento_Agranov2012a.md,populacao,10,OK,,0,"Overall, 198 subjects participated."
-Agranov2012a,fichamento_Agranov2012a.md,populacao,3,OK,,0,"In detail, 22 groups of 9 subjects each participated"
-Agranov2012a,fichamento_Agranov2012a.md,fonte_dados,3,OK,,0,The experimental data reveal several interesting insights.
-Agranov2012a,fichamento_Agranov2012a.md,intervencao_descricao,9,OK,,0,Subjects are perfectly informed of the realized jar in each period.
-Agranov2012a,fichamento_Agranov2012a.md,intervencao_descricao,9,OK,,0,"subjects are asked to declare their intended actions: abstain, vote for red"
-Agranov2012a,fichamento_Agranov2012a.md,familia_intervencao,11,OK,,0,"Second, we allow for pre-election polls"
-Agranov2012a,fichamento_Agranov2012a.md,comparador,9,OK,,0,observe no information on the realized jar other than their private draw
-Agranov2012a,fichamento_Agranov2012a.md,construto_outcome,1,OK,,0,voting propensity increases systematically with subjects
-Agranov2012a,fichamento_Agranov2012a.md,construto_outcome,34,OK,,0,realized leads surpass those suggested by the poll
-Agranov2012a,fichamento_Agranov2012a.md,outcome_medida,18,OK,,0,Table 3 contains the observed voting propensities
-Agranov2012a,fichamento_Agranov2012a.md,outcome_medida,34,OK,,0,Figure 4 depicts the realized lead as a function
-Agranov2012a,fichamento_Agranov2012a.md,mecanismo_id,17,OK,,0,We then consider information and consequent beliefs as channels
-Agranov2012a,fichamento_Agranov2012a.md,mecanismo_tipo_evidencia,17,OK,,0,We then consider information and consequent beliefs as channels
-Agranov2012a,fichamento_Agranov2012a.md,mecanismo_descricao,4,OK,,0,the more likely subjects thought their preferred color was to win
-Agranov2012a,fichamento_Agranov2012a.md,mecanismo_descricao,27,OK,,0,but also have a desire to vote for the winner
-Agranov2012a,fichamento_Agranov2012a.md,moderador_id,18,OK,,0,minorities participate less than majorities
-Agranov2012a,fichamento_Agranov2012a.md,moderador_descricao,18,OK,,0,higher costs generating lower participation
-Agranov2012a,fichamento_Agranov2012a.md,moderador_descricao,19,OK,,0,elections that are perceived to be close generate
-Agranov2012a,fichamento_Agranov2012a.md,het_metodo,18,OK,,0,Table 3 contains the observed voting propensities
-Agranov2012a,fichamento_Agranov2012a.md,het_metodo,24,OK,,0,Lead of the majority if in majority (belief)
-Agranov2012a,fichamento_Agranov2012a.md,efeitos_nao_intencionais,18,OK,,0,the availability of information reduces the probability of minority participation
-Agranov2012a,fichamento_Agranov2012a.md,efeitos_nao_intencionais,32,OK,,0,pre-election polls consistently overestimate voter turnout
-Agranov2012a,fichamento_Agranov2012a.md,limitacoes_autores,5,OK,,0,participation in large political elections that are not tied to pivotality
-Agranov2012a,fichamento_Agranov2012a.md,limitacoes_autores,36,OK,,0,which the current design is not tailored for
-Agranov2012a,fichamento_Agranov2012a.md,b2_estrategia_identificacao,8,OK,,0,subjects are randomized into a group of nine subjects
-Agranov2012a,fichamento_Agranov2012a.md,b2_estrategia_identificacao,10,OK,,0,Each experimental session implemented one of the information treatments
-Agranov2012a,fichamento_Agranov2012a.md,b2_hipoteses_testes,10,OK,,0,we ran several sessions in each information treatment
-Agranov2012a,fichamento_Agranov2012a.md,b2_hipoteses_testes,23,OK,,0,suggesting that behavior in our experiments exhibited very little learning
-Agranov2012a,fichamento_Agranov2012a.md,b2_estimador,23,OK,,0,"For each treatment, we run a Probit regression predicting the dependence"
-Agranov2012a,fichamento_Agranov2012a.md,b2_estimando,8,OK,,0,subjects are randomized into a group of nine subjects
-Agranov2012a,fichamento_Agranov2012a.md,b2_estimando,10,OK,,0,Each experimental session implemented one of the information treatments
-Agranov2012a,fichamento_Agranov2012a.md,b2_nivel_atribuicao_cluster,3,OK,,0,22 groups of 9 subjects each participated in a total of 440 elections
-Agranov2012a,fichamento_Agranov2012a.md,b2_nivel_atribuicao_cluster,24,OK,,0,standard errors were clustered by individuals
-Agranov2012a,fichamento_Agranov2012a.md,b2_n_total,10,OK,,0,"Overall, 198 subjects participated."
-Agranov2012a,fichamento_Agranov2012a.md,b2_controles,18,OK,,0,Table 3 contains the observed voting propensities
-Agranov2012a,fichamento_Agranov2012a.md,b2_controles,30,OK,,0,"with dummy variables for treatments, while clustering observations by groups"
-Agranov2012a,fichamento_Agranov2012a.md,b2_dp_y_tipo,24,OK,,0,standard errors were clustered by individuals
-Agranov2012a,fichamento_Agranov2012a.md,b2_teste_falsificacao,30,OK,,0,there were no persistent biases toward the blue or red alternatives
-Agranov2012a,fichamento_Agranov2012a.md,b2_modelo_principal,30,OK,,0,"with dummy variables for treatments, while clustering observations by groups"
-Agranov2012a,fichamento_Agranov2012a.md,b2_modelo_principal,18,OK,,0,Table 3 contains the observed voting propensities
-Agranov2012a,fichamento_Agranov2012a.md,b2_criterio_modelo_principal,30,OK,,0,in the No Polls treatment than in either of the two treatments
-Agranov2012a,fichamento_Agranov2012a.md,b2_criterio_modelo_principal,18,OK,,0,Table 3 contains the observed voting propensities
-Agranov2012a,fichamento_Agranov2012a.md,b2_direcao_estimativa_principal,1,OK,,0,more participation by the expected majority and generate more landslide elections
-Agranov2012a,fichamento_Agranov2012a.md,b2_significancia_05,30,OK,,0,a negative coeﬃcient for the corresponding Polls dummy that is signiﬁcant
-Agranov2012a,fichamento_Agranov2012a.md,b2_significancia_05,18,OK,,0,Table 3 contains the observed voting propensities
-Agranov2012a,fichamento_Agranov2012a.md,b2_interpretacao_autores,1,OK,,0,pre-election polls do not exhibit the detrimental welfare
-Agranov2012a,fichamento_Agranov2012a.md,regiao,10,OK,,0,"(CASSEL) at UCLA. Overall, 198 subjects participated."
-Agranov2012a,fichamento_Agranov2012a.md,tipo_eleicao,3,OK,,0,Subjects had to choose one of two colors: Red or Blue
-Agranov2012a,fichamento_Agranov2012a.md,tipo_eleicao,8,OK,,0,a metaphor for the inclination of the decision-making group
-Agranov2012a,fichamento_Agranov2012a.md,sistema_eleitoral,10,OK,,0,the alternative receiving the majority of votes is selected (ties broken randomly)
-Agranov2012a,fichamento_Agranov2012a.md,desenho_fino,9,OK,,0,The individual color each subject draws corresponds to the subject
-Agranov2012a,fichamento_Agranov2012a.md,desenho_fino,10,OK,,0,"receives $2 for that period, while others receive no additional payments"
-Agranov2012a,fichamento_Agranov2012a.md,realismo_contexto,10,OK,,0,"receives $2 for that period, while others receive no additional payments"
-Agranov2012a,fichamento_Agranov2012a.md,comparador_tipo,9,OK,,0,observe no information on the realized jar other than their private draw
-Agranov2012a,fichamento_Agranov2012a.md,nivel_desfecho,3,OK,,0,each subject had to decide whether to cast a costly vote
-Agranov2012a,fichamento_Agranov2012a.md,mecanismo_testado,27,OK,,0,but also have a desire to vote for the winner
-Agranov2012a,fichamento_Agranov2012a.md,mecanismo_testado,1,OK,,0,that voters respond to probabilities of being pivotal
-Agranov2012a,fichamento_Agranov2012a.md,moderadores_relatados,19,OK,,0,elections that are perceived to be close generate
-Agranov2012a,fichamento_Agranov2012a.md,moderadores_relatados,18,OK,,0,minorities participate less than majorities
-Agranov2012a,fichamento_Agranov2012a.md,alvo_efeito,1,OK,,0,more participation by the expected majority and generate more landslide elections
-Agranov2012a,fichamento_Agranov2012a.md,alvo_efeito,18,OK,,0,the availability of information reduces the probability of minority participation
-Agranov2012a,fichamento_Agranov2012a.md,n_competidores,3,OK,,0,Subjects had to choose one of two colors: Red or Blue
-Agranov2012a,fichamento_Agranov2012a.md,ajuste_mediador,18,OK,,0,Table 3 contains the observed voting propensities
-Agranov2012a,fichamento_Agranov2012a.md,ajuste_mediador,30,OK,,0,"with dummy variables for treatments, while clustering observations by groups"
 Agranov2017a,fichamento_Agranov2017a.md,titulo,1,OK,,3,What makes voters turn out: The effects of polls and beliefs
 Agranov2017a,fichamento_Agranov2017a.md,tipo_publicacao,0,OK,,3,does not constitute publication and should not limit publication
 Agranov2017a,fichamento_Agranov2017a.md,idioma,1,OK,,3,We use laboratory experiments to test for one of the
@@ -1181,6 +1107,73 @@ Freden2016b,fichamento_Freden2016b.md,mecanismo_testado,19,OK,,3,have incentives
 Freden2016b,fichamento_Freden2016b.md,moderadores_relatados,35,OK,,3,the tendency to cast an insurance vote is highest when coalition signals
 Freden2016b,fichamento_Freden2016b.md,moderadores_relatados,36,OK,,3,Ideological distances matter more for compensational voting than for insurance voting
 Freden2016b,fichamento_Freden2016b.md,alvo_efeito,35,OK,,3,a small coalition party has polling levels slightly below the electoral threshold
+Freden2024a,fichamento_Freden2024a.md,titulo,1,OK,,0,Insurance Voting in the Centre: An Experimental Approach
+Freden2024a,fichamento_Freden2024a.md,ano,1,OK,,0,Advance access publication 9 August 2024
+Freden2024a,fichamento_Freden2024a.md,tipo_publicacao,1,OK,,0,"International Journal of Public Opinion Research, 36, edae041"
+Freden2024a,fichamento_Freden2024a.md,idioma,1,OK,,0,Insurance Voting in the Centre: An Experimental Approach
+Freden2024a,fichamento_Freden2024a.md,pais_estudo,1,OK,,0,The focus is the 2022 Swedish general election
+Freden2024a,fichamento_Freden2024a.md,tipo_estudo,1,OK,,0,Building on an original survey experiment
+Freden2024a,fichamento_Freden2024a.md,tipo_estudo,4,OK,,0,the participants were randomized into nine
+Freden2024a,fichamento_Freden2024a.md,problema_pesquisa,1,OK,,0,we analyze the influence of opinion polls on switching vote choice
+Freden2024a,fichamento_Freden2024a.md,unidade_analise,4,OK,,0,"In total, 3,259 respondents filled out all responses."
+Freden2024a,fichamento_Freden2024a.md,populacao,4,OK,,0,We collected our data by using the Swedish Citizen Panel
+Freden2024a,fichamento_Freden2024a.md,populacao,4,OK,,0,"from the panel is a nonprobability sample, stratified by"
+Freden2024a,fichamento_Freden2024a.md,periodo_dados,4,OK,,0,"took place over 10 days, starting on August 31, and ending"
+Freden2024a,fichamento_Freden2024a.md,fonte_dados,4,OK,,0,We collected our data by using the Swedish Citizen Panel
+Freden2024a,fichamento_Freden2024a.md,intervencao_descricao,2,OK,,0,respondents received a fictitious opinion poll
+Freden2024a,fichamento_Freden2024a.md,intervencao_descricao,4,OK,,0,"or MP, whose support ranged from 2.5%, 4%, and 5.5%."
+Freden2024a,fichamento_Freden2024a.md,intervencao_descricao,4,OK,,0,all our data were collected at least 2
+Freden2024a,fichamento_Freden2024a.md,familia_intervencao,4,OK,,0,Each group received a separate edition of a
+Freden2024a,fichamento_Freden2024a.md,comparador,4,OK,,0,"shown for each party was similar, except for L, KD,"
+Freden2024a,fichamento_Freden2024a.md,construto_outcome,5,OK,,0,asked which party they would vote for in the elections given
+Freden2024a,fichamento_Freden2024a.md,outcome_medida,5,OK,,0,asked which party they would vote for in the elections given
+Freden2024a,fichamento_Freden2024a.md,outcome_medida,5,OK,,0,we use row-wise percentages for each of
+Freden2024a,fichamento_Freden2024a.md,mecanismo_id,1,OK,,0,this could help a party reach an electoral threshold
+Freden2024a,fichamento_Freden2024a.md,mecanismo_id,4,OK,,0,whether insurance voting was indeed on a voter’s mind
+Freden2024a,fichamento_Freden2024a.md,mecanismo_tipo_evidencia,7,OK,,0,looked at the free-text responses that voters gave
+Freden2024a,fichamento_Freden2024a.md,mecanismo_descricao,4,OK,,0,voters may decide to cast an insurance vote to aid them
+Freden2024a,fichamento_Freden2024a.md,mecanismo_descricao,8,OK,,0,the Christian Democrats from a very early point indicated
+Freden2024a,fichamento_Freden2024a.md,moderador_id,6,OK,,0,we divide the sample into right-wing supporters and
+Freden2024a,fichamento_Freden2024a.md,moderador_descricao,6,OK,,0,"Again, we find the most consistent pattern of"
+Freden2024a,fichamento_Freden2024a.md,moderador_descricao,6,OK,,0,SD supporters mostly voted for their preference
+Freden2024a,fichamento_Freden2024a.md,moderador_descricao,6,OK,,0,we find little difference among the
+Freden2024a,fichamento_Freden2024a.md,het_metodo,6,OK,,0,we divide the sample into right-wing supporters and
+Freden2024a,fichamento_Freden2024a.md,het_pre_especificada,4,OK,,0,H2 Voters are more likely to cast an insurance vote for a
+Freden2024a,fichamento_Freden2024a.md,limitacoes_autores,9,OK,,0,A limitation of our study is that it assumes polls
+Freden2024a,fichamento_Freden2024a.md,limitacoes_autores,5,OK,,0,"is overrepresented by an older, higher-educated, male group"
+Freden2024a,fichamento_Freden2024a.md,limitacoes_autores,6,OK,,0,poll levels need to be exaggerated in an experimental setup
+Freden2024a,fichamento_Freden2024a.md,b2_estrategia_identificacao,4,OK,,0,the participants were randomized into nine
+Freden2024a,fichamento_Freden2024a.md,b2_hipoteses_testes,4,OK,,0,The randomization check revealed no significant differences between
+Freden2024a,fichamento_Freden2024a.md,b2_estimador,5,OK,,0,we use row-wise percentages for each of
+Freden2024a,fichamento_Freden2024a.md,b2_estimador,7,OK,,0,we draw upon the Structural Topic Model (STM)
+Freden2024a,fichamento_Freden2024a.md,b2_estimando,4,OK,,0,the participants were randomized into nine
+Freden2024a,fichamento_Freden2024a.md,b2_nivel_atribuicao_cluster,4,OK,,0,the participants were randomized into nine
+Freden2024a,fichamento_Freden2024a.md,b2_n_total,5,OK,,0,"From those, 3,259 respondents completed the questionnaire."
+Freden2024a,fichamento_Freden2024a.md,b2_controles,5,OK,,0,we use row-wise percentages for each of
+Freden2024a,fichamento_Freden2024a.md,b2_modelo_principal,5,OK,,0,"In Table 1, we use row-wise percentages for each of"
+Freden2024a,fichamento_Freden2024a.md,b2_criterio_modelo_principal,5,OK,,0,"In Table 1, we use row-wise percentages for each of"
+Freden2024a,fichamento_Freden2024a.md,b2_direcao_estimativa_principal,6,OK,,0,KD loses about half of its support between the
+Freden2024a,fichamento_Freden2024a.md,b2_direcao_estimativa_principal,6,OK,,0,The party received their highest support in the
+Freden2024a,fichamento_Freden2024a.md,b2_direcao_estimativa_principal,6,OK,,0,when they are at 5.5%
+Freden2024a,fichamento_Freden2024a.md,b2_significancia_05,6,OK,,0,it was significant between 4.0% and 5.5%
+Freden2024a,fichamento_Freden2024a.md,b2_significancia_05,6,OK,,0,"Yet, none of the differences is"
+Freden2024a,fichamento_Freden2024a.md,b2_significancia_05,6,OK,,0,differences between either of the three groups
+Freden2024a,fichamento_Freden2024a.md,b2_interpretacao_autores,1,OK,,0,poll-induced insurance voting is most prevalent for the party
+Freden2024a,fichamento_Freden2024a.md,regiao,1,OK,,0,The focus is the 2022 Swedish general election
+Freden2024a,fichamento_Freden2024a.md,tipo_eleicao,5,OK,,0,asked which party they would vote for in the elections given
+Freden2024a,fichamento_Freden2024a.md,sistema_eleitoral,1,OK,,0,voting for smaller parties under proportional representation
+Freden2024a,fichamento_Freden2024a.md,desenho_fino,4,OK,,0,we draw on a survey experiment
+Freden2024a,fichamento_Freden2024a.md,realismo_contexto,4,OK,,0,the eight political parties on how much they liked or disliked
+Freden2024a,fichamento_Freden2024a.md,ano_eleicao,3,OK,,0,"place on September 11, 2022."
+Freden2024a,fichamento_Freden2024a.md,comparador_tipo,4,OK,,0,"shown for each party was similar, except for L, KD,"
+Freden2024a,fichamento_Freden2024a.md,nivel_desfecho,5,OK,,0,asked which party they would vote for in the elections given
+Freden2024a,fichamento_Freden2024a.md,mecanismo_testado,7,OK,,0,strategic reasons is associated with poll treatments
+Freden2024a,fichamento_Freden2024a.md,moderadores_relatados,7,OK,,0,for Self-declared Party Supporters (Columns)
+Freden2024a,fichamento_Freden2024a.md,moderadores_relatados,6,OK,,0,"Again, we find the most consistent pattern of"
+Freden2024a,fichamento_Freden2024a.md,alvo_efeito,5,OK,,0,propensity to vote for a political party close to the parliamentary threshold
+Freden2024a,fichamento_Freden2024a.md,n_competidores,5,OK,,0,"Here, they could choose for each of the eight"
+Freden2024a,fichamento_Freden2024a.md,dias_ate_eleicao,4,OK,,0,all our data were collected at least 2
+Freden2024a,fichamento_Freden2024a.md,ajuste_mediador,5,OK,,0,we use row-wise percentages for each of
 Gandhi2019,fichamento_Gandhi2019.md,titulo,948,OK,,-947,Committed or Conditional Democrats? Opposition Dynamics in Electoral Autocracies
 Gandhi2019,fichamento_Gandhi2019.md,ano,948,OK,,-947,"Vol. 63, No. 4, October 2019"
 Gandhi2019,fichamento_Gandhi2019.md,tipo_publicacao,948,OK,,-947,"American Journal of Political Science, Vol. 63, No. 4"

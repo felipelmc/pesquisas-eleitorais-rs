@@ -1,4 +1,162 @@
 id_efeito,chave,pagina,status_trecho,pagina_encontrada,verificador,erros,alertas,g_aproximado,p_calculado,verificado_humano,apto_g7
+Agranov2017a-E01,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.183,,0,0
+Agranov2017a-E02,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.381,,0,0
+Agranov2017a-E03,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.067,,0,0
+Agranov2017a-E04,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.334,,0,0
+Agranov2017a-E05,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.200,,0,0
+Agranov2017a-E06,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.393,,0,0
+Agranov2017a-E07,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.155,,0,0
+Agranov2017a-E08,Agranov2017a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,-0.286,,0,0
+Agranov2017a-E09,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, n1, sd2, n2",,,0,0
+Agranov2017a-E10,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, n1, sd2, n2",,,0,0
+Agranov2017a-E11,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, n1, sd2, n2",,,0,0
+Agranov2017a-E12,Agranov2017a,35,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, n1, sd2, n2",,,0,0
+Agranov2017a-E13,Agranov2017a,39,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.699,,0,0
+Agranov2017a-E14,Agranov2017a,39,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.298,,0,0
+Agranov2017a-E15,Agranov2017a,35,OK,,verify_citacoes,,,0.489,,0,0
+Agranov2017a-E16,Agranov2017a,35,OK,,verify_citacoes,,,0.194,,0,0
+Agranov2017a-E17,Agranov2017a,35,OK,,verify_citacoes,,,0.164,,0,0
+Agranov2017a-E18,Agranov2017a,35,OK,,verify_citacoes,,,0.164,,0,0
+Agranov2017a-E19,Agranov2017a,35,OK,,verify_citacoes,,,0.447,,0,0
+Agranov2017a-E20,Agranov2017a,35,OK,,verify_citacoes,,,0.192,,0,0
+Agranov2017a-E21,Agranov2017a,35,OK,,verify_citacoes,,,0.631,,0,0
+Agranov2017a-E22,Agranov2017a,35,OK,,verify_citacoes,,,0.395,,0,0
+Agranov2017a-E23,Agranov2017a,35,OK,,verify_citacoes,"p1 fora de (0, 1)",,,,0,0
+Agranov2017a-E24,Agranov2017a,35,OK,,verify_citacoes,,,-0.541,,0,0
+Agranov2017a-E25,Agranov2017a,35,OK,,verify_citacoes,,,0.662,,0,0
+Agranov2017a-E26,Agranov2017a,35,OK,,verify_citacoes,,,0.150,,0,0
+Alabrese2024a-E001,Alabrese2024a,30,OK,,verify_citacoes,,"|g| aproximado = 2.15 > 2: confira unidade, DP x EP e sinal",-2.154,,0,0
+Alabrese2024a-E002,Alabrese2024a,30,OK,,verify_citacoes,,"|g| aproximado = 2.14 > 2: confira unidade, DP x EP e sinal",-2.140,,0,0
+Alabrese2024a-E003,Alabrese2024a,30,OK,,verify_citacoes,,,-1.924,,0,0
+Alabrese2024a-E004,Alabrese2024a,30,OK,,verify_citacoes,,"|g| aproximado = 2.08 > 2: confira unidade, DP x EP e sinal",-2.083,,0,0
+Alabrese2024a-E005,Alabrese2024a,30,OK,,verify_citacoes,,,-1.350,,0,0
+Alabrese2024a-E006,Alabrese2024a,30,OK,,verify_citacoes,,,-1.555,,0,0
+Alabrese2024a-E007,Alabrese2024a,30,OK,,verify_citacoes,,,-0.778,,0,0
+Alabrese2024a-E008,Alabrese2024a,30,OK,,verify_citacoes,,,-0.859,,0,0
+Alabrese2024a-E009,Alabrese2024a,28,OK,,verify_citacoes,,,-0.216,,0,0
+Alabrese2024a-E010,Alabrese2024a,28,OK,,verify_citacoes,,,-1.030,,0,0
+Alabrese2024a-E011,Alabrese2024a,28,OK,,verify_citacoes,,,-1.824,,0,0
+Alabrese2024a-E012,Alabrese2024a,28,OK,,verify_citacoes,,,-0.693,,0,0
+Alabrese2024a-E013,Alabrese2024a,54,OK,,verify_citacoes,,,-0.029,,0,0
+Alabrese2024a-E014,Alabrese2024a,54,OK,,verify_citacoes,,,-0.633,,0,0
+Alabrese2024a-E015,Alabrese2024a,54,OK,,verify_citacoes,,,-1.942,,0,0
+Alabrese2024a-E016,Alabrese2024a,54,OK,,verify_citacoes,,,-1.084,,0,0
+Alabrese2024a-E017,Alabrese2024a,55,OK,,verify_citacoes,,,-1.159,,0,0
+Alabrese2024a-E018,Alabrese2024a,55,OK,,verify_citacoes,,"|g| aproximado = 3.68 > 2: confira unidade, DP x EP e sinal",-3.683,,0,0
+Alabrese2024a-E019,Alabrese2024a,55,OK,,verify_citacoes,,,-1.828,,0,0
+Alabrese2024a-E020,Alabrese2024a,55,OK,,verify_citacoes,,"|g| aproximado = 3.49 > 2: confira unidade, DP x EP e sinal",-3.490,,0,0
+Alabrese2024a-E021,Alabrese2024a,55,OK,,verify_citacoes,,"|g| aproximado = 2.08 > 2: confira unidade, DP x EP e sinal",-2.076,,0,0
+Alabrese2024a-E022,Alabrese2024a,55,OK,,verify_citacoes,,"|g| aproximado = 2.50 > 2: confira unidade, DP x EP e sinal",-2.495,,0,0
+Alabrese2024a-E023,Alabrese2024a,55,OK,,verify_citacoes,,,-0.790,,0,0
+Alabrese2024a-E024,Alabrese2024a,55,OK,,verify_citacoes,,,-1.797,,0,0
+Alabrese2024a-E025,Alabrese2024a,56,OK,,verify_citacoes,,"|g| aproximado = 2.90 > 2: confira unidade, DP x EP e sinal",-2.903,,0,0
+Alabrese2024a-E026,Alabrese2024a,56,OK,,verify_citacoes,,"|g| aproximado = 3.57 > 2: confira unidade, DP x EP e sinal",-3.574,,0,0
+Alabrese2024a-E027,Alabrese2024a,56,OK,,verify_citacoes,,,-0.648,,0,0
+Alabrese2024a-E028,Alabrese2024a,56,OK,,verify_citacoes,,,-0.870,,0,0
+Alabrese2024a-E029,Alabrese2024a,40,OK,,verify_citacoes,,"|g| aproximado = 2.25 > 2: confira unidade, DP x EP e sinal",2.245,,0,0
+Alabrese2024a-E030,Alabrese2024a,40,OK,,verify_citacoes,,"|g| aproximado = 2.35 > 2: confira unidade, DP x EP e sinal",2.354,,0,0
+Alabrese2024a-E031,Alabrese2024a,40,OK,,verify_citacoes,,,1.869,,0,0
+Alabrese2024a-E032,Alabrese2024a,40,OK,,verify_citacoes,,"|g| aproximado = 2.08 > 2: confira unidade, DP x EP e sinal",2.084,,0,0
+Alabrese2024a-E033,Alabrese2024a,40,OK,,verify_citacoes,,,-1.449,,0,0
+Alabrese2024a-E034,Alabrese2024a,40,OK,,verify_citacoes,,,-1.487,,0,0
+Alabrese2024a-E035,Alabrese2024a,40,OK,,verify_citacoes,,,-1.279,,0,0
+Alabrese2024a-E036,Alabrese2024a,40,OK,,verify_citacoes,,,-0.613,,0,0
+Alabrese2024a-E037,Alabrese2024a,40,OK,,verify_citacoes,,,-1.733,,0,0
+Alabrese2024a-E038,Alabrese2024a,40,OK,,verify_citacoes,,,-1.619,,0,0
+Alabrese2024a-E039,Alabrese2024a,40,OK,,verify_citacoes,,,0.279,,0,0
+Alabrese2024a-E040,Alabrese2024a,40,OK,,verify_citacoes,,,-0.126,,0,0
+Alabrese2024a-E041,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E042,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E043,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E044,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E045,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E046,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E047,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E048,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E049,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E050,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E051,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E052,Alabrese2024a,40,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E053,Alabrese2024a,58,OK,,verify_citacoes,,,1.609,,0,0
+Alabrese2024a-E054,Alabrese2024a,58,OK,,verify_citacoes,,"|g| aproximado = 2.01 > 2: confira unidade, DP x EP e sinal",2.015,,0,0
+Alabrese2024a-E055,Alabrese2024a,58,OK,,verify_citacoes,,,1.025,,0,0
+Alabrese2024a-E056,Alabrese2024a,58,OK,,verify_citacoes,,,1.691,,0,0
+Alabrese2024a-E057,Alabrese2024a,58,OK,,verify_citacoes,,,-1.057,,0,0
+Alabrese2024a-E058,Alabrese2024a,58,OK,,verify_citacoes,,,0.704,,0,0
+Alabrese2024a-E059,Alabrese2024a,58,OK,,verify_citacoes,,,-1.031,,0,0
+Alabrese2024a-E060,Alabrese2024a,58,OK,,verify_citacoes,,,1.153,,0,0
+Alabrese2024a-E061,Alabrese2024a,58,OK,,verify_citacoes,,"|g| aproximado = 2.27 > 2: confira unidade, DP x EP e sinal",-2.267,,0,0
+Alabrese2024a-E062,Alabrese2024a,58,OK,,verify_citacoes,,"|g| aproximado = 2.24 > 2: confira unidade, DP x EP e sinal",-2.240,,0,0
+Alabrese2024a-E063,Alabrese2024a,58,OK,,verify_citacoes,,,-0.671,,0,0
+Alabrese2024a-E064,Alabrese2024a,58,OK,,verify_citacoes,,,-0.859,,0,0
+Alabrese2024a-E065,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E066,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E067,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E068,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E069,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E070,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E071,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E072,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E073,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E074,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E075,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E076,Alabrese2024a,58,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E077,Alabrese2024a,59,OK,,verify_citacoes,,"|g| aproximado = 2.61 > 2: confira unidade, DP x EP e sinal",2.611,,0,0
+Alabrese2024a-E078,Alabrese2024a,59,OK,,verify_citacoes,,"|g| aproximado = 2.42 > 2: confira unidade, DP x EP e sinal",2.418,,0,0
+Alabrese2024a-E079,Alabrese2024a,59,OK,,verify_citacoes,,"|g| aproximado = 2.22 > 2: confira unidade, DP x EP e sinal",2.220,,0,0
+Alabrese2024a-E080,Alabrese2024a,59,OK,,verify_citacoes,,"|g| aproximado = 2.13 > 2: confira unidade, DP x EP e sinal",2.126,,0,0
+Alabrese2024a-E081,Alabrese2024a,59,OK,,verify_citacoes,,,-1.291,,0,0
+Alabrese2024a-E082,Alabrese2024a,59,OK,,verify_citacoes,,,-1.604,,0,0
+Alabrese2024a-E083,Alabrese2024a,59,OK,,verify_citacoes,,,-1.177,,0,0
+Alabrese2024a-E084,Alabrese2024a,59,OK,,verify_citacoes,,,-0.838,,0,0
+Alabrese2024a-E085,Alabrese2024a,59,OK,,verify_citacoes,,,-0.255,,0,0
+Alabrese2024a-E086,Alabrese2024a,59,OK,,verify_citacoes,,,-0.230,,0,0
+Alabrese2024a-E087,Alabrese2024a,59,OK,,verify_citacoes,,,0.415,,0,0
+Alabrese2024a-E088,Alabrese2024a,59,OK,,verify_citacoes,,,0.002,,0,0
+Alabrese2024a-E089,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E090,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E091,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E092,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E093,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E094,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E095,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E096,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E097,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E098,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E099,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E100,Alabrese2024a,59,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E101,Alabrese2024a,60,OK,,verify_citacoes,,"|g| aproximado = 2.49 > 2: confira unidade, DP x EP e sinal",2.485,,0,0
+Alabrese2024a-E102,Alabrese2024a,60,OK,,verify_citacoes,,"|g| aproximado = 2.37 > 2: confira unidade, DP x EP e sinal",2.371,,0,0
+Alabrese2024a-E103,Alabrese2024a,60,OK,,verify_citacoes,,"|g| aproximado = 2.10 > 2: confira unidade, DP x EP e sinal",2.099,,0,0
+Alabrese2024a-E104,Alabrese2024a,60,OK,,verify_citacoes,,"|g| aproximado = 2.05 > 2: confira unidade, DP x EP e sinal",2.050,,0,0
+Alabrese2024a-E105,Alabrese2024a,60,OK,,verify_citacoes,,,-1.260,,0,0
+Alabrese2024a-E106,Alabrese2024a,60,OK,,verify_citacoes,,,-1.026,,0,0
+Alabrese2024a-E107,Alabrese2024a,60,OK,,verify_citacoes,,,-1.084,,0,0
+Alabrese2024a-E108,Alabrese2024a,60,OK,,verify_citacoes,,,-0.074,,0,0
+Alabrese2024a-E109,Alabrese2024a,60,OK,,verify_citacoes,,,-0.109,,0,0
+Alabrese2024a-E110,Alabrese2024a,60,OK,,verify_citacoes,,,-0.069,,0,0
+Alabrese2024a-E111,Alabrese2024a,60,OK,,verify_citacoes,,,-0.088,,0,0
+Alabrese2024a-E112,Alabrese2024a,60,OK,,verify_citacoes,,,-0.525,,0,0
+Alabrese2024a-E113,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E114,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E115,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E116,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E117,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E118,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E119,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E120,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E121,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E122,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E123,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E124,Alabrese2024a,60,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Alabrese2024a-E125,Alabrese2024a,57,OK,,verify_citacoes,,,-0.696,,0,0
+Alabrese2024a-E126,Alabrese2024a,57,OK,,verify_citacoes,,,-1.056,,0,0
+Alabrese2024a-E127,Alabrese2024a,57,OK,,verify_citacoes,,"|g| aproximado = 5.99 > 2: confira unidade, DP x EP e sinal",5.989,,0,0
+Alabrese2024a-E128,Alabrese2024a,57,OK,,verify_citacoes,,"|g| aproximado = 13.77 > 2: confira unidade, DP x EP e sinal",-13.772,,0,0
+Alabrese2024a-E129,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
+Alabrese2024a-E130,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
+Alabrese2024a-E131,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
+Alabrese2024a-E132,Alabrese2024a,57,OK,,verify_citacoes,|efeito_pp| > 100 pontos percentuais,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E01,Araujo2021a,12,OK,,verify_citacoes,,,0.127,,0,0
 Araujo2021a-E02,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E03,Araujo2021a,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
@@ -8,6 +166,244 @@ Araujo2021a-E06,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif
 Araujo2021a-E07,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E08,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
 Araujo2021a-E09,Araujo2021a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Boukouras2020a-E01,Boukouras2020a,16,OK,,verify_citacoes,,,0.541,,0,0
+Boukouras2020a-E02,Boukouras2020a,16,OK,,verify_citacoes,,,0.296,,0,0
+Boukouras2020a-E03,Boukouras2020a,16,OK,,verify_citacoes,,,0.169,,0,0
+Boukouras2020a-E04,Boukouras2020a,5,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Boukouras2020a-E05,Boukouras2020a,5,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Boukouras2020a-E06,Boukouras2020a,5,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Boukouras2020a-E07,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.492,,0,0
+Boukouras2020a-E08,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.248,,0,0
+Boukouras2020a-E09,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.033,,0,0
+Boukouras2020a-E10,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.636,,0,0
+Boukouras2020a-E11,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.518,,0,0
+Boukouras2020a-E12,Boukouras2020a,51,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.468,,0,0
+Brugarolas2021-E01,Brugarolas2021,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Bursztyn2023a-E01,Bursztyn2023a,39,OK,,verify_citacoes,,,0.196,,0,0
+Bursztyn2023a-E02,Bursztyn2023a,39,OK,,verify_citacoes,,,0.177,,0,0
+Bursztyn2023a-E03,Bursztyn2023a,39,OK,,verify_citacoes,,,0.213,,0,0
+Bursztyn2023a-E04,Bursztyn2023a,39,OK,,verify_citacoes,,,0.186,,0,0
+Bursztyn2023a-E05,Bursztyn2023a,39,OK,,verify_citacoes,,,0.205,,0,0
+Bursztyn2023a-E06,Bursztyn2023a,60,OK,,verify_citacoes,,,0.203,,0,0
+Bursztyn2023a-E07,Bursztyn2023a,61,OK,,verify_citacoes,,,0.293,,0,0
+Bursztyn2023a-E08,Bursztyn2023a,40,OK,,verify_citacoes,,,0.054,,0,0
+Bursztyn2023a-E09,Bursztyn2023a,40,OK,,verify_citacoes,,,0.061,,0,0
+Bursztyn2023a-E10,Bursztyn2023a,40,OK,,verify_citacoes,,,0.042,,0,0
+Bursztyn2023a-E11,Bursztyn2023a,40,OK,,verify_citacoes,,,0.043,,0,0
+Bursztyn2023a-E12,Bursztyn2023a,63,OK,,verify_citacoes,,,0.062,,0,0
+Bursztyn2023a-E13,Bursztyn2023a,64,OK,,verify_citacoes,,,0.110,,0,0
+Bursztyn2023a-E14,Bursztyn2023a,41,OK,,verify_citacoes,,,0.048,,0,0
+Bursztyn2023a-E15,Bursztyn2023a,42,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Bursztyn2023a-E16,Bursztyn2023a,66,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Bursztyn2023a-E17,Bursztyn2023a,42,OK,,verify_citacoes,,,0.003,,0,0
+Bursztyn2023a-E18,Bursztyn2023a,66,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Chatterjee2019a-E01,Chatterjee2019a,21,OK,,verify_citacoes,,,-0.065,,0,0
+Chatterjee2019a-E02,Chatterjee2019a,21,OK,,verify_citacoes,,,-0.293,,0,0
+Chatterjee2019a-E03,Chatterjee2019a,21,OK,,verify_citacoes,,,0.296,,0,0
+Chatterjee2019a-E04,Chatterjee2019a,21,OK,,verify_citacoes,,,-0.096,,0,0
+Chatterjee2019a-E05,Chatterjee2019a,21,OK,,verify_citacoes,,,-0.130,,0,0
+Chatterjee2019a-E06,Chatterjee2019a,21,OK,,verify_citacoes,,,0.214,,0,0
+Chatterjee2019a-E07,Chatterjee2019a,23,OK,,verify_citacoes,,,-0.291,,0,0
+Chatterjee2019a-E08,Chatterjee2019a,23,OK,,verify_citacoes,,,-0.416,,0,0
+Chatterjee2019a-E09,Chatterjee2019a,23,OK,,verify_citacoes,,,0.002,,0,0
+Chatterjee2019a-E10,Chatterjee2019a,23,OK,,verify_citacoes,,,-0.172,,0,0
+Chatterjee2019a-E11,Chatterjee2019a,23,OK,,verify_citacoes,,,0.198,,0,0
+Chatterjee2019a-E12,Chatterjee2019a,23,OK,,verify_citacoes,,,0.387,,0,0
+Chatterjee2019a-E13,Chatterjee2019a,28,OK,,verify_citacoes,,,-0.715,,0,0
+Chatterjee2019a-E14,Chatterjee2019a,28,OK,,verify_citacoes,,,-0.354,,0,0
+Chatterjee2019a-E15,Chatterjee2019a,29,OK,,verify_citacoes,,,0.297,,0,0
+Chatterjee2019a-E16,Chatterjee2019a,29,OK,,verify_citacoes,,,0.076,,0,0
+Cornejo2023a-E01,Cornejo2023a,15,OK,,verify_citacoes,,,1.340,,0,0
+Cornejo2023a-E02,Cornejo2023a,15,OK,,verify_citacoes,,,1.362,,0,0
+Cornejo2023a-E03,Cornejo2023a,15,OK,,verify_citacoes,,,-0.888,,0,0
+Cornejo2023a-E04,Cornejo2023a,15,OK,,verify_citacoes,,,-0.777,,0,0
+Cornejo2023a-E05,Cornejo2023a,34,OK,,verify_citacoes,,,0.193,,0,0
+Cornejo2023a-E06,Cornejo2023a,34,OK,,verify_citacoes,,,0.331,,0,0
+Cornejo2023a-E07,Cornejo2023a,34,OK,,verify_citacoes,,,0.358,,0,0
+Cornejo2023a-E08,Cornejo2023a,34,OK,,verify_citacoes,,,0.088,,0,0
+Cornejo2023a-E09,Cornejo2023a,34,OK,,verify_citacoes,,,0.364,,0,0
+Cornejo2023a-E10,Cornejo2023a,34,OK,,verify_citacoes,,,-0.050,,0,0
+Cornejo2023a-E11,Cornejo2023a,33,OK,,verify_citacoes,,,0.195,,0,0
+Cornejo2023a-E12,Cornejo2023a,33,OK,,verify_citacoes,,,0.177,,0,0
+Cornejo2023a-E13,Cornejo2023a,33,OK,,verify_citacoes,,,0.359,,0,0
+Cornejo2023a-E14,Cornejo2023a,33,OK,,verify_citacoes,,,0.271,,0,0
+Cornejo2023a-E15,Cornejo2023a,33,OK,,verify_citacoes,,,0.349,,0,0
+Cornejo2023a-E16,Cornejo2023a,33,OK,,verify_citacoes,,,0.425,,0,0
+Cornejo2023a-E17,Cornejo2023a,34,OK,,verify_citacoes,,,0.307,,0,0
+Cornejo2023a-E18,Cornejo2023a,34,OK,,verify_citacoes,,,0.447,,0,0
+Dahlgaard2016a-E01,Dahlgaard2016a,10,OK,,verify_citacoes,,,0.118,,0,0
+Dahlgaard2016a-E02,Dahlgaard2016a,10,OK,,verify_citacoes,,,-0.094,,0,0
+Dahlgaard2016a-E03,Dahlgaard2016a,14,OK,,verify_citacoes,,,0.213,,0,0
+Dahlgaard2016a-E04,Dahlgaard2016a,11,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E05,Dahlgaard2016a,11,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E06,Dahlgaard2016a,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Dahlgaard2016a-E07,Dahlgaard2016a,12,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E08,Dahlgaard2016a,12,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E09,Dahlgaard2016a,12,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E10,Dahlgaard2016a,13,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E11,Dahlgaard2016a,12,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E12,Dahlgaard2016a,12,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E13,Dahlgaard2016a,13,OK,,verify_citacoes,,,,,0,0
+Dahlgaard2016a-E14,Dahlgaard2016a,13,OK,,verify_citacoes,,,,,0,0
+Erlich2023-E01,Erlich2023,56,OK,,verify_citacoes,,,-0.050,,0,0
+Erlich2023-E02,Erlich2023,56,OK,,verify_citacoes,,,-0.243,,0,0
+Farjam2020a-E01,Farjam2020a,6,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Farjam2020a-E02,Farjam2020a,6,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Farjam2020a-E03,Farjam2020a,3,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Feltovich2022-E01,Feltovich2022,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Feltovich2022-E02,Feltovich2022,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Feltovich2022-E03,Feltovich2022,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Feltovich2022-E04,Feltovich2022,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Fichnova2015a-E01,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 4.36 > 2: confira unidade, DP x EP e sinal",4.362,,0,0
+Fichnova2015a-E02,Fichnova2015a,8,OK,,verify_citacoes,,,1.870,,0,0
+Fichnova2015a-E03,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 4.13 > 2: confira unidade, DP x EP e sinal",4.129,,0,0
+Fichnova2015a-E04,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 4.01 > 2: confira unidade, DP x EP e sinal",4.013,,0,0
+Fichnova2015a-E05,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 8.43 > 2: confira unidade, DP x EP e sinal",8.431,,0,0
+Fichnova2015a-E06,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 2.52 > 2: confira unidade, DP x EP e sinal",2.518,,0,0
+Fichnova2015a-E07,Fichnova2015a,8,OK,,verify_citacoes,,,1.983,,0,0
+Fichnova2015a-E08,Fichnova2015a,8,OK,,verify_citacoes,,"|g| aproximado = 2.63 > 2: confira unidade, DP x EP e sinal",2.630,,0,0
+Gandhi2019-E01,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E02,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E03,Gandhi2019,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E04,Gandhi2019,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E05,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E06,Gandhi2019,10,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E07,Gandhi2019,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E08,Gandhi2019,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E09,Gandhi2019,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E10,Gandhi2019,12,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E11,Gandhi2019,13,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E12,Gandhi2019,13,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gandhi2019-E13,Gandhi2019,9,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Gasperoni2015a-E01,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E02,Gasperoni2015a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E03,Gasperoni2015a,21,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E04,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E05,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E06,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E07,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E08,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E09,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E10,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E11,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E12,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E13,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E14,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E15,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E16,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E17,Gasperoni2015a,37,OK,,verify_citacoes,"p1 fora de (0, 1)",dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E18,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E19,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E20,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E21,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E22,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E23,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E24,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E25,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E26,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E27,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E28,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E29,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E30,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E31,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E32,Gasperoni2015a,37,OK,,verify_citacoes,"p1 fora de (0, 1)",dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E33,Gasperoni2015a,37,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E34,Gasperoni2015a,24,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E35,Gasperoni2015a,24,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E36,Gasperoni2015a,24,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Gasperoni2015a-E37,Gasperoni2015a,24,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Geers2018-E01,Geers2018,13,OK,,verify_citacoes,,dados insuficientes para or: faltam or_,,,0,0
+Geers2018-E02,Geers2018,13,OK,,verify_citacoes,,dados insuficientes para or: faltam or_,,,0,0
+Gerber2020a-E01,Gerber2020a,53,OK,,verify_citacoes,,,0.003,,0,0
+Gerber2020a-E02,Gerber2020a,53,OK,,verify_citacoes,,,0.004,,0,0
+Gerber2020a-E03,Gerber2020a,53,OK,,verify_citacoes,,,0.004,,0,0
+Gerber2020a-E04,Gerber2020a,53,OK,,verify_citacoes,,,-0.014,,0,0
+Gerber2020a-E05,Gerber2020a,53,OK,,verify_citacoes,,,-0.006,,0,0
+Gerber2020a-E06,Gerber2020a,53,OK,,verify_citacoes,,,-0.005,,0,0
+Gerber2020a-E07,Gerber2020a,53,OK,,verify_citacoes,,,0.007,,0,0
+Gerber2020a-E08,Gerber2020a,53,OK,,verify_citacoes,,,0.008,,0,0
+Gerber2020a-E09,Gerber2020a,53,OK,,verify_citacoes,,,0.010,,0,0
+Gerber2020a-E10,Gerber2020a,53,OK,,verify_citacoes,,,0.002,,0,0
+Gerber2020a-E11,Gerber2020a,53,OK,,verify_citacoes,,,0.001,,0,0
+Gerber2020a-E12,Gerber2020a,53,OK,,verify_citacoes,,,0.002,,0,0
+Gerber2020a-E13,Gerber2020a,52,OK,,verify_citacoes,,,0.001,,0,0
+Gerber2020a-E14,Gerber2020a,52,OK,,verify_citacoes,,,-0.000,,0,0
+Gerber2020a-E15,Gerber2020a,52,OK,,verify_citacoes,,,-0.001,,0,0
+Gerber2020a-E16,Gerber2020a,52,OK,,verify_citacoes,,,-0.001,,0,0
+Gerber2020a-E17,Gerber2020a,52,OK,,verify_citacoes,,,0.000,,0,0
+Gerber2020a-E18,Gerber2020a,52,OK,,verify_citacoes,,,0.001,,0,0
+Gerber2020a-E19,Gerber2020a,52,OK,,verify_citacoes,,,0.000,,0,0
+Gerber2020a-E20,Gerber2020a,52,OK,,verify_citacoes,,,0.000,,0,0
+Gerber2020a-E21,Gerber2020a,52,OK,,verify_citacoes,,,0.001,,0,0
+Gerber2020a-E22,Gerber2020a,52,OK,,verify_citacoes,,,-0.001,,0,0
+Gerber2020a-E23,Gerber2020a,52,OK,,verify_citacoes,,,0.000,,0,0
+Gerber2020a-E24,Gerber2020a,52,OK,,verify_citacoes,,,0.001,,0,0
+Gerber2020a-E25,Gerber2020a,31,OK,,verify_citacoes,,"dados insuficientes para md_sd: faltam sd1, sd2",,,0,0
+Gerber2020a-E26,Gerber2020a,18,OK,,verify_citacoes,,,-0.005,,0,0
+Gerber2020a-E27,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
+Gerber2020a-E28,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
+Gerber2020a-E29,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
+Gerber2020a-E30,Gerber2020a,54,OK,,verify_citacoes,p1 − p0 (0.0002) incoerente com efeito_pp/100 (0.0005),,0.000,,0,0
+Gerber2020a-E31,Gerber2020a,54,OK,,verify_citacoes,,,0.008,,0,0
+Gerber2020a-E32,Gerber2020a,54,OK,,verify_citacoes,,,-0.004,,0,0
+Gerber2020a-E33,Gerber2020a,55,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E01,Grillo2024c,13,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E02,Grillo2024c,13,OK,,verify_citacoes,,,-0.112,,0,0
+Grillo2024c-E03,Grillo2024c,13,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E04,Grillo2024c,13,OK,,verify_citacoes,,,-0.101,,0,0
+Grillo2024c-E05,Grillo2024c,13,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E06,Grillo2024c,13,OK,,verify_citacoes,,,-0.117,,0,0
+Grillo2024c-E07,Grillo2024c,13,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E08,Grillo2024c,13,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E09,Grillo2024c,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E10,Grillo2024c,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E11,Grillo2024c,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E12,Grillo2024c,14,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E13,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E14,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E15,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E16,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E17,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E18,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E19,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E20,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E21,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E22,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E23,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E24,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E25,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E26,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E27,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E28,Grillo2024c,15,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E29,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E30,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E31,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E32,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E33,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E34,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E35,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E36,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E37,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E38,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E39,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E40,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E41,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E42,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E43,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E44,Grillo2024c,16,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E45,Grillo2024c,18,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E46,Grillo2024c,18,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E47,Grillo2024c,18,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Grillo2024c-E48,Grillo2024c,18,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Groer2010a-E01,Groer2010a,16,OK,,verify_citacoes,,,,,0,0
+Groer2010a-E02,Groer2010a,16,OK,,verify_citacoes,,,,,0,0
+Groer2010a-E03,Groer2010a,21,OK,,verify_citacoes,,,,,0,0
+Groer2010a-E04,Groer2010a,21,OK,,verify_citacoes,,dados insuficientes para mann_whitney: faltam t ou p,,,0,0
+Kaplan2019a-E01,Kaplan2019a,25,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Kaplan2019a-E02,Kaplan2019a,25,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Kaplan2019a-E03,Kaplan2019a,25,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Kaplan2019a-E04,Kaplan2019a,30,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Kaplan2019a-E05,Kaplan2019a,30,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
 Klor2017a-E01,Klor2017a,46,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
 Klor2017a-E02,Klor2017a,46,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
 Klor2017a-E03,Klor2017a,46,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
@@ -17,6 +413,14 @@ Klor2017a-E06,Klor2017a,14,OK,,verify_citacoes,,,,,0,0
 Klor2017a-E07,Klor2017a,15,OK,,verify_citacoes,,,,,0,0
 Klor2017a-E08,Klor2017a,15,OK,,verify_citacoes,,,,,0,0
 Klor2017a-E09,Klor2017a,15,OK,,verify_citacoes,,,,,0,0
+Lago2015-E01,Lago2015,34,OK,,verify_citacoes,,,-0.032,,0,0
+Lago2015-E02,Lago2015,34,OK,,verify_citacoes,,,0.129,,0,0
+Lago2015-E03,Lago2015,34,OK,,verify_citacoes,,,-0.000,,0,0
+Lammers2022a-E01,Lammers2022a,10,OK,,verify_citacoes,,,,,0,0
+Lammers2022a-E02,Lammers2022a,10,OK,,verify_citacoes,,,,,0,0
+Lammers2022a-E03,Lammers2022a,10,OK,,verify_citacoes,,,,,0,0
+Lammers2022a-E04,Lammers2022a,10,OK,,verify_citacoes,,,,,0,0
+Lammers2022a-E05,Lammers2022a,7,OK,,verify_citacoes,,,0.288,,0,0
 Meer2015a-E01,Meer2015a,29,OK,,verify_citacoes,,,0.127,,0,0
 Meer2015a-E02,Meer2015a,29,OK,,verify_citacoes,,,0.033,,0,0
 Meer2015a-E03,Meer2015a,29,OK,,verify_citacoes,,,0.094,,0,0
@@ -27,3 +431,116 @@ Meer2015a-E07,Meer2015a,15,OK,,verify_citacoes,,,0.004,,0,0
 Meer2015a-E08,Meer2015a,15,OK,,verify_citacoes,,,0.076,,0,0
 Meer2015a-E09,Meer2015a,15,OK,,verify_citacoes,,,0.012,,0,0
 Meer2015a-E10,Meer2015a,15,OK,,verify_citacoes,,,0.065,,0,0
+Meffert2011-E01,Meffert2011,26,OK,,verify_citacoes,,,-0.281,,0,0
+Meffert2011-E02,Meffert2011,26,OK,,verify_citacoes,,,-0.099,,0,0
+Meffert2011-E03,Meffert2011,25,OK,,verify_citacoes,,,-0.027,,0,0
+Meffert2011-E04,Meffert2011,25,OK,,verify_citacoes,"p0 fora de (0, 1)",,,,0,0
+Meffert2012a-E01,Meffert2012a,24,OK,,verify_citacoes,,,0.285,,0,0
+Meffert2012a-E02,Meffert2012a,24,OK,,verify_citacoes,,,0.238,,0,0
+Meffert2012a-E03,Meffert2012a,24,OK,,verify_citacoes,,,0.072,,0,0
+Meffert2012a-E04,Meffert2012a,24,OK,,verify_citacoes,,,0.425,,0,0
+Morton2015a-E01,Morton2015a,23,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E02,Morton2015a,23,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E03,Morton2015a,23,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E04,Morton2015a,23,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E05,Morton2015a,25,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E06,Morton2015a,25,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E07,Morton2015a,25,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E08,Morton2015a,25,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E09,Morton2015a,25,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E10,Morton2015a,25,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E11,Morton2015a,25,OK,,verify_citacoes,,,-0.317,,0,0
+Morton2015a-E12,Morton2015a,27,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E13,Morton2015a,27,OK,,verify_citacoes,,,-0.207,,0,0
+Morton2015a-E14,Morton2015a,27,OK,,verify_citacoes,,,-0.317,,0,0
+Morton2015a-E15,Morton2015a,27,OK,,verify_citacoes,,,-0.406,,0,0
+Morton2015a-E16,Morton2015a,29,OK,,verify_citacoes,,,-0.207,,0,0
+Morton2015a-E17,Morton2015a,29,OK,,verify_citacoes,,,-0.207,,0,0
+Morton2015a-E18,Morton2015a,29,OK,,verify_citacoes,,,-0.317,,0,0
+Morton2015a-E19,Morton2015a,29,OK,,verify_citacoes,,,-0.317,,0,0
+Morton2015a-E20,Morton2015a,37,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E21,Morton2015a,37,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E22,Morton2015a,37,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E23,Morton2015a,37,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E24,Morton2015a,37,OK,,verify_citacoes,,,-0.317,,0,0
+Morton2015a-E25,Morton2015a,37,OK,,verify_citacoes,,,-0.317,,0,0
+Morton2015a-E26,Morton2015a,38,OK,,verify_citacoes,,,-0.229,,0,0
+Morton2015a-E27,Morton2015a,38,OK,,verify_citacoes,,,-0.229,,0,0
+Morton2015a-E28,Morton2015a,38,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E29,Morton2015a,38,OK,,verify_citacoes,,,-0.251,,0,0
+Morton2015a-E30,Morton2015a,38,OK,,verify_citacoes,,,-0.162,,0,0
+Morton2015a-E31,Morton2015a,38,OK,,verify_citacoes,,,-0.162,,0,0
+Morton2015a-E32,Morton2015a,38,OK,,verify_citacoes,,,-0.229,,0,0
+Morton2015a-E33,Morton2015a,38,OK,,verify_citacoes,,,-0.229,,0,0
+Morton2015a-E34,Morton2015a,39,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E35,Morton2015a,39,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E36,Morton2015a,39,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E37,Morton2015a,39,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E38,Morton2015a,39,OK,,verify_citacoes,,,-0.139,,0,0
+Morton2015a-E39,Morton2015a,39,OK,,verify_citacoes,,,-0.273,,0,0
+Morton2015a-E40,Morton2015a,39,OK,,verify_citacoes,,,-0.339,,0,0
+Morton2015a-E41,Morton2015a,34,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Morton2015a-E42,Morton2015a,34,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Schlegel2023-E01,Schlegel2023,5,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Schlegel2023-E02,Schlegel2023,5,OK,,verify_citacoes,,"dados insuficientes para dif_prop: faltam p0, se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total",,,0,0
+Stolwijk2016a-E01,Stolwijk2016a,14,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,0.005,,0,0
+Stolwijk2016a-E02,Stolwijk2016a,13,OK,,verify_citacoes,,,0.116,,0,0
+Stolwijk2016a-E03,Stolwijk2016a,13,OK,,verify_citacoes,,,0.115,,0,0
+Stolwijk2016a-E04,Stolwijk2016a,14,OK,,verify_citacoes,,"|g| aproximado = 3.26 > 2: confira unidade, DP x EP e sinal",3.262,,0,0
+Stolwijk2016a-E05,Stolwijk2016a,15,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Stolwijk2016a-E06,Stolwijk2016a,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Stolwijk2016a-E07,Stolwijk2016a,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Stolwijk2016a-E08,Stolwijk2016a,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Stolwijk2016a-E09,Stolwijk2016a,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Stolwijk2016a-E10,Stolwijk2016a,16,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Stolwijk2019b-E01,Stolwijk2019b,12,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,0.691,,0,0
+Stolwijk2019b-E02,Stolwijk2019b,12,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,0.379,,0,0
+Stolwijk2019b-E03,Stolwijk2019b,12,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,0.315,,0,0
+Stolwijk2019b-E04,Stolwijk2019b,13,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,0.011,,0,0
+Stolwijk2019b-E05,Stolwijk2019b,13,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,-0.006,,0,0
+Stolwijk2019b-E06,Stolwijk2019b,13,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,-0.006,,0,0
+Stolwijk2019b-E07,Stolwijk2019b,13,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,0.032,,0,0
+Stolwijk2019b-E08,Stolwijk2019b,13,OK,,verify_citacoes,,dados insuficientes para or: faltam se ou IC,-0.023,,0,0
+Tal2015a-E01,Tal2015a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.879,,0,0
+Tal2015a-E02,Tal2015a,6,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.231,,0,0
+Timotei2013a-E01,Timotei2013a,8,OK,,verify_citacoes,,,0.135,,0,0
+Timotei2013a-E02,Timotei2013a,8,OK,,verify_citacoes,,,0.069,,0,0
+Tyszler2013-E01,Tyszler2013,15,OK,,verify_citacoes,,,,,0,0
+Tyszler2013-E02,Tyszler2013,15,OK,,verify_citacoes,,,,,0,0
+Tyszler2015-E01,Tyszler2015,22,OK,,verify_citacoes,,,0.328,,0,0
+Tyszler2015-E02,Tyszler2015,22,OK,,verify_citacoes,,,1.231,,0,0
+Unkelbach2022a-E01,Unkelbach2022a,19,OK,,verify_citacoes,,dados insuficientes para or: faltam or_,,,0,0
+Unkelbach2022a-E02,Unkelbach2022a,17,OK,,verify_citacoes,,,0.056,,0,0
+Unkelbach2022a-E03,Unkelbach2022a,19,OK,,verify_citacoes,,dados insuficientes para or: faltam or_,,,0,0
+Unkelbach2022a-E04,Unkelbach2022a,19,OK,,verify_citacoes,,dados insuficientes para or: faltam or_,,,0,0
+Unkelbach2022a-E05,Unkelbach2022a,19,OK,,verify_citacoes,,dados insuficientes para or: faltam or_,,,0,0
+Unkelbach2022a-E06,Unkelbach2022a,19,OK,,verify_citacoes,,dados insuficientes para or: faltam or_,,,0,0
+Unkelbach2022a-E07,Unkelbach2022a,17,OK,,verify_citacoes,,,0.053,,0,0
+Unkelbach2022a-E08,Unkelbach2022a,20,OK,,verify_citacoes,,,0.060,,0,0
+Unkelbach2022a-E09,Unkelbach2022a,20,OK,,verify_citacoes,,,0.058,,0,0
+Unkelbach2022a-E10,Unkelbach2022a,21,OK,,verify_citacoes,,,0.045,,0,0
+Urminsky2019-E01,Urminsky2019,49,OK,,verify_citacoes,,,,0.143,0,0
+Urminsky2019-E02,Urminsky2019,57,OK,,verify_citacoes,,,,,0,0
+Urminsky2019-E03,Urminsky2019,57,OK,,verify_citacoes,,,,,0,0
+Urminsky2019-E04,Urminsky2019,56,OK,,verify_citacoes,,,,,0,0
+Westwood2020a-E01,Westwood2020a,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Westwood2020a-E02,Westwood2020a,11,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam p0,,,0,0
+Westwood2020a-E03,Westwood2020a,11,OK,,verify_citacoes,,dados insuficientes para t: faltam df ou n1/n2,,,0,0
+Westwood2020a-E04,Westwood2020a,13,OK,,verify_citacoes,,dados insuficientes para t: faltam df ou n1/n2,,,0,0
+Westwood2020a-E05,Westwood2020a,13,OK,,verify_citacoes,,dados insuficientes para t: faltam df ou n1/n2,,,0,0
+Witsman2016a-E01,Witsman2016a,33,OK,,verify_citacoes,,,0.905,,0,0
+Witsman2016a-E02,Witsman2016a,33,OK,,verify_citacoes,,,0.549,,0,0
+Witsman2016a-E03,Witsman2016a,33,OK,,verify_citacoes,,,0.321,,0,0
+Witsman2016a-E04,Witsman2016a,33,OK,,verify_citacoes,,,0.035,,0,0
+Witsman2016a-E05,Witsman2016a,33,OK,,verify_citacoes,,,0.512,,0,0
+Witsman2016a-E06,Witsman2016a,36,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.280,,0,0
+Witsman2016a-E07,Witsman2016a,36,OK,,verify_citacoes,,dados insuficientes para dif_prop: faltam se_pp ou ci_lo+ci_hi ou n1+n2 ou n_total,0.117,,0,0
+Witsman2016a-E08,Witsman2016a,38,OK,,verify_citacoes,,,0.160,,0,0
+Witsman2016a-E09,Witsman2016a,38,OK,,verify_citacoes,,,0.193,,0,0
+Yang2023d-E01,Yang2023d,7,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Yang2023d-E02,Yang2023d,7,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Yang2023d-E03,Yang2023d,7,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Yang2023d-E04,Yang2023d,7,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Yang2023d-E05,Yang2023d,7,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Yang2023d-E06,Yang2023d,7,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0
+Yang2023d-E07,Yang2023d,8,OK,,verify_citacoes,,dados insuficientes para beta_sd: faltam sdy,,,0,0

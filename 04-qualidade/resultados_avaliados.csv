@@ -1,0 +1,43 @@
+chave,id_estudo,construto_outcome,resultado,ferramenta,classificador
+Agranov2017a,ES1529,apoio_ao_lider,Seção 7 (Conclusões); probabilidade de eleger a alternativa majoritária ex ante: Perfect Polls vs. No Polls; agregado no,rob2,
+Agranov2017a,ES1529,mobilizacao,Tabela 3; Perfect Polls (maioria esperada) vs. No Polls (Observed Vote Prob); linha Cost = 50,rob2,
+Alabrese2024a,ES1893,apoio_ao_lider,Tabela A.7; coluna 5: interacao NationalPollmargin w1 x LocalSafety t-1; EF partido + EF distrito + EF regiao*ano; LPM [,robins_i,a
+Alabrese2024a,ES1893,mobilizacao,Tabela 2; coluna 2: interacao NationalPollmargin w1 x LocalSafety t-1; EF distrito + EF regiao*ano; EP cluster distrito,robins_i,a
+Araujo2021a,ES3796,apoio_ao_lider,Figura 2; Modelo 1 (frontrunner); OLS; primeiro turno | Figura 3; Modelo 1 (frontrunner); OLS; segundo turno,robins_i,a
+Boukouras2020a,ES2149,apoio_ao_lider,E1: Tabela VI; teste exato de Fisher unilateral; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas; se | E2: Tabela VI; teste exato de Fisher unilateral; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas; se | E3: Tabela VI; teste exato de Fisher unilateral; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas; co,rob2,
+Brugarolas2021,ES1705,mobilizacao,"Seção 3.2 ""Main Result"": diferença de médias entre tratados e controles na janela [-0.8; 0.8] dias em torno da divulgaçã",robins_i,a
+Bursztyn2023a,ES1601,apoio_ao_lider,Tabela 6; coluna 2 (interacao proximidade × apoio estimado ao lado atras; parcela municipal de votos do lado atras),epoc,grupo_controle
+Bursztyn2023a,ES1601,mobilizacao,Tabela 3; coluna 1 (comparecimento liquido diario em Genebra); coeficiente do dia +1 apos a divulgacao,epoc,grupo_controle
+Chatterjee2019a,ES1538,apoio_ao_lider,Tabela 3; bloco Winner; coluna 2 (com controles: population; sex ratio; literacy; total electors; urban employment); DiD,epoc,grupo_controle
+Chatterjee2019a,ES1538,mobilizacao,Tabela 7; bloco Voter Turnout; coluna 2 (com controles: population; sex ratio; literacy; total electors; urban employmen,epoc,grupo_controle
+Cornejo2023a,ES1625,apoio_ao_lider,Tabela A6 (Logistic Regression Model - Vote Choice Effect; among opposition and undecided voters); col. (1) «Aggregate E,rob2,
+Dahlgaard2016a,ES1524,apoio_ao_lider,Figura 3; painel esquerdo (Social-Democratas): artigo de ganho vs. grupo de controle,rob2,
+Erlich2023,ES3980,mobilizacao,Tabela N.12 (Apêndice N.2; 'Outcome of MIPO|X analysis'); coluna Vote; regressão logística; controles: Female; coeficien,rob2,
+Farjam2020a,ES1556,apoio_ao_lider,Tabela 2 (p. 417); Modelo 2; linha Poll: mesma regressao ordinal de efeitos mistos bayesiana; acrescentando atitude poli,rob2,
+Feltovich2022,ES4448,apoio_ao_lider,Tabela 9 (probit; efeitos marginais médios; EP agrupado por sessão); coluna 'Vote for Incumbent (Election-Only)'; célula | Tabela 9 (probit; efeitos marginais médios; EP agrupado por sessão); coluna 'Vote for Incumbent (Message)'; células de m,robins_i,a
+Fichnova2015a,ES1803,apoio_ao_lider,Tabela 1 (arquivo eslovaco); Versão A: linha final da tabela; R de Spearman entre o ranking da pesquisa forjada e a orde | Tabela 2 (arquivo polonês); Versão A: linha final da tabela; R de Spearman entre o ranking da pesquisa forjada e a orden,rob2,
+Gandhi2019,ES3658,apoio_ao_lider,Tabela 3 (braço DAP: vinheta diz que o DAP terá mais cadeiras na PH e o líder do DAP será PM; controle placebo); Modelo  | Tabela 4 (braço BERSATU: vinheta diz que o BERSATU terá mais cadeiras na PH e o líder do BERSATU será PM; controle place,rob2,
+Gasperoni2015a,ES1534,apoio_ao_lider,Tabela 5; linha Total (Grupos 1 e 2 agrupados; percentual que transferiu o voto do candidato mais preferido; declarado a,robins_i,a
+Geers2018,ES1577,mobilizacao,Tabela 2 (p. 533 impressa; folha 13 do PDF); regressao logistica multinomial; coluna “Crystallization (vs abstention)”; ,robins_i,a
+Gerber2020a,ES1587,mobilizacao,Tabela 6; coluna 12 (rodada 2010): MQ2E do comparecimento sobre Pr(margem < 100 ou 1.000 votos) pós-tratamento; instrume | Tabela 7; coluna 4 (rodada 2014): postal com pesquisa apertada vs. postal com pesquisa folgada; no modelo que acrescenta,rob2,
+Grillo2024c,ES1596,mobilizacao,Tabela 1; coluna 1 (baseline DiD ponderado por eleitores registrados; sem controles de clima); coeficiente Closure X 2nd,epoc,grupo_controle
+Groer2010a,ES1589,mobilizacao,ER1; teste de Wilcoxon-Mann-Whitney no nivel do eleitorado; comparacao IF-UF (eleitorados so de flutuantes; Figura 2) | ER1; teste de Wilcoxon-Mann-Whitney no nivel do eleitorado; comparacao IM-UM (eleitorados mistos; Figura 2),rob2,
+Kaplan2019a,ES1622,mobilizacao,Seção 5 Results (p. 24 impressa; folha 25 do PDF); texto: percentual global de troca da decisão de comparecer sobre N = ,robins_i,a
+Klor2017a,ES1563,apoio_ao_lider,Tabela 2; coluna (1); distribuição 3 vs. 4 (probit de efeitos aleatórios),rob2,
+Klor2017a,ES1563,mobilizacao,Figura 1 e teste de sinais bilateral relatado no texto,robins_i,a
+Lago2015,ES4157,apoio_ao_lider,Tabela 2; Modelo 3 (interativo; MQO; EP robustos): termo de interação ENEP × nº de dias de embargo de pesquisas antes do,robins_i,a
+Lammers2022a,ES1621,apoio_ao_lider,Estudo 2a (EUA; N = 202); Tabela 3 e texto da p. 685 impressa (folha 10 do PDF): ANOVA 2x2 (posicao inicial x fator) e t | Estudo 2b (replicacao pre-registrada na UE/Reino Unido; N = 200); Tabela 4 e texto da p. 685 impressa (folha 10 do PDF):,rob2,
+Meer2015a,ES1536,apoio_ao_lider,Tabela 2 (p. 29); Modelo 1: ponto de referencia crescimento vs. resultado seco da pesquisa,rob2,
+Meffert2011,ES1527,apoio_ao_lider,Tabela 4; coluna 'With perceptions'; logit; coeficiente de 'Close poll (manipulation)'; controles: percepcoes (distancia,rob2,
+Morton2015a,ES1522,apoio_ao_lider,Tabela 8; coluna 'Full Sample' (amostra completa; diferenca delta das inclinacoes pre e pos-2005 da equacao (2); MQO; EP,epoc,grupo_controle
+Morton2015a,ES1522,mobilizacao,Tabela 5; coluna (1) (tendencia linear por departamento (105); dummies de OST e de turno; EP agrupado),epoc,grupo_controle
+Schlegel2023,ES3994,apoio_ao_lider,Fig. 2; painel High Incentive; linha Information & Cognitive Resources: alta informação (pesquisas com menor variação en | Fig. 2; painel High Incentive; linha Information & Cognitive Resources: alta informação (pesquisas com menor variação en,rob2,
+Stolwijk2016a,ES1548,apoio_ao_lider,Tabela 1 (p. 567); regressão logística da escolha de voto: linha Poll exposure index (índice contínuo de exposição a rep,robins_i,a
+Stolwijk2019b,ES1611,mobilizacao,Tabela 1 (p. 351 impressa; folha 12 do PDF); coluna 3 (CBPS logit); linha Poll exposure; unica covariavel = Propensity t,robins_i,a
+Tal2015a,ES1544,apoio_ao_lider,Figura 5 (condição n = 1.009 eleitores; grupo C): qi coincide com o líder da pesquisa vs. qi é o segundo colocado | Figura 6 (condição n = 1.009 eleitores; grupo C; qi em último na pesquisa): q'i lidera a pesquisa vs. q'i é o segundo co,rob2,
+Timotei2013a,ES1876,apoio_ao_lider,"Experimento ""Fake Poll"": Figura 8 (grupo A: informado que o candidato A é o vencedor esperado) vs. Figura 7 (grupo de co",rob2,
+Tyszler2015,ES2996,apoio_ao_lider,Figura 4 (p. 27 impressa); barras Majoritarian Set; informado (pesquisa sem ruído com a distribuição de preferências) vs,rob2,
+Unkelbach2022a,ES1652,apoio_ao_lider,Tabela 2 (p. 69 impressa; folha 19 do PDF); coluna SPD: regressao logistica multinivel (lme4); CMVI como preditor de niv,robins_i,a
+Urminsky2019,ES3802,mobilizacao,Estudo 1: comparação de médias chance vs. margem (teste t); sem controles; General Discussion,rob2,
+Westwood2020a,ES1523,mobilizacao,Estudo 2 (jogo comportamental; Qualtrics Panels): modelo multinivel de probabilidade linear com interceptos aleatorios p,rob2,
+Witsman2016a,ES1901,apoio_ao_lider,Tabela 6 (cenário 1); tabulação cruzada Percent in Polls x Voted for Independent Candidate; qui-quadrado de independênci,rob2,

@@ -1,0 +1,229 @@
+{
+"Agranov2017a|rob2": {
+"n_paginas": 45,
+"resultados": [
+"apoio_ao_lider | Seção 7 (Conclusões); probabilidade de eleger a alternativa majoritária ex ante: Perfect Polls vs. No Polls; agregado no",
+"mobilizacao | Tabela 3; Perfect Polls (maioria esperada) vs. No Polls (Observed Vote Prob); linha Cost = 50"
+]
+},
+"Alabrese2024a|robins_i": {
+"n_paginas": 69,
+"resultados": [
+"apoio_ao_lider | Tabela A.7; coluna 5: interacao NationalPollmargin w1 x LocalSafety t-1; EF partido + EF distrito + EF regiao*ano; LPM [",
+"mobilizacao | Tabela 2; coluna 2: interacao NationalPollmargin w1 x LocalSafety t-1; EF distrito + EF regiao*ano; EP cluster distrito"
+]
+},
+"Araujo2021a|robins_i": {
+"n_paginas": 20,
+"resultados": [
+"apoio_ao_lider | Figura 2; Modelo 1 (frontrunner); OLS; primeiro turno | Figura 3; Modelo 1 (frontrunner); OLS; segundo turno"
+]
+},
+"Boukouras2020a|rob2": {
+"n_paginas": 62,
+"resultados": [
+"apoio_ao_lider | E1: Tabela VI; teste exato de Fisher unilateral; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas; se | E2: Tabela VI; teste exato de Fisher unilateral; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas; se | E3: Tabela VI; teste exato de Fisher unilateral; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas; co"
+]
+},
+"Brugarolas2021|robins_i": {
+"n_paginas": 8,
+"resultados": [
+"mobilizacao | Seção 3.2 \"Main Result\": diferença de médias entre tratados e controles na janela [-0.8; 0.8] dias em torno da divulgaçã"
+]
+},
+"Bursztyn2023a|epoc": {
+"n_paginas": 66,
+"resultados": [
+"apoio_ao_lider | Tabela 6; coluna 2 (interacao proximidade × apoio estimado ao lado atras; parcela municipal de votos do lado atras)",
+"mobilizacao | Tabela 3; coluna 1 (comparecimento liquido diario em Genebra); coeficiente do dia +1 apos a divulgacao"
+]
+},
+"Chatterjee2019a|epoc": {
+"n_paginas": 33,
+"resultados": [
+"apoio_ao_lider | Tabela 3; bloco Winner; coluna 2 (com controles: population; sex ratio; literacy; total electors; urban employment); DiD",
+"mobilizacao | Tabela 7; bloco Voter Turnout; coluna 2 (com controles: population; sex ratio; literacy; total electors; urban employmen"
+]
+},
+"Cornejo2023a|rob2": {
+"n_paginas": 36,
+"resultados": [
+"apoio_ao_lider | Tabela A6 (Logistic Regression Model - Vote Choice Effect; among opposition and undecided voters); col. (1) «Aggregate E"
+]
+},
+"Dahlgaard2016a|rob2": {
+"n_paginas": 18,
+"resultados": [
+"apoio_ao_lider | Figura 3; painel esquerdo (Social-Democratas): artigo de ganho vs. grupo de controle"
+]
+},
+"Erlich2023|rob2": {
+"n_paginas": 73,
+"resultados": [
+"mobilizacao | Tabela N.12 (Apêndice N.2; 'Outcome of MIPO|X analysis'); coluna Vote; regressão logística; controles: Female; coeficien"
+]
+},
+"Farjam2020a|rob2": {
+"n_paginas": 10,
+"resultados": [
+"apoio_ao_lider | Tabela 2 (p. 417); Modelo 2; linha Poll: mesma regressao ordinal de efeitos mistos bayesiana; acrescentando atitude poli"
+]
+},
+"Feltovich2022|robins_i": {
+"n_paginas": 19,
+"resultados": [
+"apoio_ao_lider | Tabela 9 (probit; efeitos marginais médios; EP agrupado por sessão); coluna 'Vote for Incumbent (Election-Only)'; célula | Tabela 9 (probit; efeitos marginais médios; EP agrupado por sessão); coluna 'Vote for Incumbent (Message)'; células de m"
+]
+},
+"Fichnova2015a|rob2": {
+"n_paginas": 12,
+"resultados": [
+"apoio_ao_lider | Tabela 1 (arquivo eslovaco); Versão A: linha final da tabela; R de Spearman entre o ranking da pesquisa forjada e a orde | Tabela 2 (arquivo polonês); Versão A: linha final da tabela; R de Spearman entre o ranking da pesquisa forjada e a orden"
+]
+},
+"Gandhi2019|rob2": {
+"n_paginas": 16,
+"resultados": [
+"apoio_ao_lider | Tabela 3 (braço DAP: vinheta diz que o DAP terá mais cadeiras na PH e o líder do DAP será PM; controle placebo); Modelo  | Tabela 4 (braço BERSATU: vinheta diz que o BERSATU terá mais cadeiras na PH e o líder do BERSATU será PM; controle place"
+]
+},
+"Gasperoni2015a|robins_i": {
+"n_paginas": 40,
+"resultados": [
+"apoio_ao_lider | Tabela 5; linha Total (Grupos 1 e 2 agrupados; percentual que transferiu o voto do candidato mais preferido; declarado a"
+]
+},
+"Geers2018|robins_i": {
+"n_paginas": 19,
+"resultados": [
+"mobilizacao | Tabela 2 (p. 533 impressa; folha 13 do PDF); regressao logistica multinomial; coluna “Crystallization (vs abstention)”; "
+]
+},
+"Gerber2020a|rob2": {
+"n_paginas": 55,
+"resultados": [
+"mobilizacao | Tabela 6; coluna 12 (rodada 2010): MQ2E do comparecimento sobre Pr(margem < 100 ou 1.000 votos) pós-tratamento; instrume | Tabela 7; coluna 4 (rodada 2014): postal com pesquisa apertada vs. postal com pesquisa folgada; no modelo que acrescenta"
+]
+},
+"Grillo2024c|epoc": {
+"n_paginas": 20,
+"resultados": [
+"mobilizacao | Tabela 1; coluna 1 (baseline DiD ponderado por eleitores registrados; sem controles de clima); coeficiente Closure X 2nd"
+]
+},
+"Groer2010a|rob2": {
+"n_paginas": 35,
+"resultados": [
+"mobilizacao | ER1; teste de Wilcoxon-Mann-Whitney no nivel do eleitorado; comparacao IF-UF (eleitorados so de flutuantes; Figura 2) | ER1; teste de Wilcoxon-Mann-Whitney no nivel do eleitorado; comparacao IM-UM (eleitorados mistos; Figura 2)"
+]
+},
+"Kaplan2019a|robins_i": {
+"n_paginas": 43,
+"resultados": [
+"mobilizacao | Seção 5 Results (p. 24 impressa; folha 25 do PDF); texto: percentual global de troca da decisão de comparecer sobre N = "
+]
+},
+"Klor2017a|rob2": {
+"n_paginas": 47,
+"resultados": [
+"apoio_ao_lider | Tabela 2; coluna (1); distribuição 3 vs. 4 (probit de efeitos aleatórios)"
+]
+},
+"Klor2017a|robins_i": {
+"n_paginas": 47,
+"resultados": [
+"mobilizacao | Figura 1 e teste de sinais bilateral relatado no texto"
+]
+},
+"Lago2015|robins_i": {
+"n_paginas": 40,
+"resultados": [
+"apoio_ao_lider | Tabela 2; Modelo 3 (interativo; MQO; EP robustos): termo de interação ENEP × nº de dias de embargo de pesquisas antes do"
+]
+},
+"Lammers2022a|rob2": {
+"n_paginas": 17,
+"resultados": [
+"apoio_ao_lider | Estudo 2a (EUA; N = 202); Tabela 3 e texto da p. 685 impressa (folha 10 do PDF): ANOVA 2x2 (posicao inicial x fator) e t | Estudo 2b (replicacao pre-registrada na UE/Reino Unido; N = 200); Tabela 4 e texto da p. 685 impressa (folha 10 do PDF):"
+]
+},
+"Meer2015a|rob2": {
+"n_paginas": 32,
+"resultados": [
+"apoio_ao_lider | Tabela 2 (p. 29); Modelo 1: ponto de referencia crescimento vs. resultado seco da pesquisa"
+]
+},
+"Meffert2011|rob2": {
+"n_paginas": 33,
+"resultados": [
+"apoio_ao_lider | Tabela 4; coluna 'With perceptions'; logit; coeficiente de 'Close poll (manipulation)'; controles: percepcoes (distancia"
+]
+},
+"Morton2015a|epoc": {
+"n_paginas": 43,
+"resultados": [
+"apoio_ao_lider | Tabela 8; coluna 'Full Sample' (amostra completa; diferenca delta das inclinacoes pre e pos-2005 da equacao (2); MQO; EP",
+"mobilizacao | Tabela 5; coluna (1) (tendencia linear por departamento (105); dummies de OST e de turno; EP agrupado)"
+]
+},
+"Schlegel2023|rob2": {
+"n_paginas": 7,
+"resultados": [
+"apoio_ao_lider | Fig. 2; painel High Incentive; linha Information & Cognitive Resources: alta informação (pesquisas com menor variação en | Fig. 2; painel High Incentive; linha Information & Cognitive Resources: alta informação (pesquisas com menor variação en"
+]
+},
+"Stolwijk2016a|robins_i": {
+"n_paginas": 21,
+"resultados": [
+"apoio_ao_lider | Tabela 1 (p. 567); regressão logística da escolha de voto: linha Poll exposure index (índice contínuo de exposição a rep"
+]
+},
+"Stolwijk2019b|robins_i": {
+"n_paginas": 21,
+"resultados": [
+"mobilizacao | Tabela 1 (p. 351 impressa; folha 12 do PDF); coluna 3 (CBPS logit); linha Poll exposure; unica covariavel = Propensity t"
+]
+},
+"Tal2015a|rob2": {
+"n_paginas": 9,
+"resultados": [
+"apoio_ao_lider | Figura 5 (condição n = 1.009 eleitores; grupo C): qi coincide com o líder da pesquisa vs. qi é o segundo colocado | Figura 6 (condição n = 1.009 eleitores; grupo C; qi em último na pesquisa): q'i lidera a pesquisa vs. q'i é o segundo co"
+]
+},
+"Timotei2013a|rob2": {
+"n_paginas": 10,
+"resultados": [
+"apoio_ao_lider | Experimento \"Fake Poll\": Figura 8 (grupo A: informado que o candidato A é o vencedor esperado) vs. Figura 7 (grupo de co"
+]
+},
+"Tyszler2015|rob2": {
+"n_paginas": 33,
+"resultados": [
+"apoio_ao_lider | Figura 4 (p. 27 impressa); barras Majoritarian Set; informado (pesquisa sem ruído com a distribuição de preferências) vs"
+]
+},
+"Unkelbach2022a|robins_i": {
+"n_paginas": 28,
+"resultados": [
+"apoio_ao_lider | Tabela 2 (p. 69 impressa; folha 19 do PDF); coluna SPD: regressao logistica multinivel (lme4); CMVI como preditor de niv"
+]
+},
+"Urminsky2019|rob2": {
+"n_paginas": 91,
+"resultados": [
+"mobilizacao | Estudo 1: comparação de médias chance vs. margem (teste t); sem controles; General Discussion"
+]
+},
+"Westwood2020a|rob2": {
+"n_paginas": 15,
+"resultados": [
+"mobilizacao | Estudo 2 (jogo comportamental; Qualtrics Panels): modelo multinivel de probabilidade linear com interceptos aleatorios p"
+]
+},
+"Witsman2016a|rob2": {
+"n_paginas": 61,
+"resultados": [
+"apoio_ao_lider | Tabela 6 (cenário 1); tabulação cruzada Percent in Polls x Voted for Independent Candidate; qui-quadrado de independênci"
+]
+}
+}
