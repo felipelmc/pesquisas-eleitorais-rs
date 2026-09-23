@@ -11,8 +11,8 @@ Estado em 23/09/2026: G1 a G9 aprovados (G1 e G2 pelo revisor humano, o resto pe
 ## Como começar uma sessão
 
 ```bash
-rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }; rs --dir ~/revisoes/pesquisas-eleitorais status
-rs --dir ~/revisoes/pesquisas-eleitorais pendencia listar
+rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }; rs --dir ~/Desktop/pesquisas-eleitorais-rs status
+rs --dir ~/Desktop/pesquisas-eleitorais-rs pendencia listar
 ```
 
 Defina a função `rs` em cada chamada de Bash (cada chamada abre um shell novo). Não deduza o estado da conversa: o `status` e o `rs_log.jsonl` são a fonte. A cadeia completa para refazer efeitos, síntese e relato está no `README.md`, seção "Refazer os produtos depois de fechar pendências".
@@ -25,6 +25,7 @@ Defina a função `rs` em cada chamada de Bash (cada chamada abre um shell novo)
 - Subagentes só em Sonnet (volume) e Opus (texto completo, julgamentos difíceis). Nunca Fable.
 - Registro sem resumo nunca é excluído por filtro ou por LLM.
 - PDFs de terceiros nunca vão para o GitHub (`03-textos/pdfs/` e `03-textos/pdfs_descartados/` estão no `.gitignore`). Repositório remoto: `felipelmc/pesquisas-eleitorais-rs`, privado.
+- Cópia de trabalho: `~/Desktop/pesquisas-eleitorais-rs`, com os PDFs só no disco local (README, seção "Cópia de trabalho e PDFs"). O caminho antigo `~/revisoes/pesquisas-eleitorais` que aparece em fichas, prompts e no `pdf_path` do master é proveniência: não reescreva esses registros. Em prompts reaproveitados, troque a raiz pela da cópia de trabalho.
 - Commits terminam com `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Commit e push só quando o usuário pedir.
 
 ## Regras da skill que mais pesam aqui

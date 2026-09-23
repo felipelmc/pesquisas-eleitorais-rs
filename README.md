@@ -40,13 +40,20 @@ O manuscrito completo está em `07-relatorio/relatorio.html` e `07-relatorio/rel
 | `00-protocolo/` | pergunta, teoria do programa e DAG, protocolo congelado no G2, codebooks, âncoras, `emendas.md` (Emendas 1 a 5) |
 | `01-busca/` | strings versionadas, `log_buscas.csv`, recall das âncoras, pré-PRESS por IA, pares de duplicata |
 | `02-triagem/` | lotes e respostas dos triadores A e B, árbitro, fila humana, amostras de validação e elusão (não codificadas) |
-| `03-textos/` | lista para baixar, relatório de PDFs, fichas de elegibilidade, `elegibilidade_tc_final.csv`, ligação de relatos. Os PDFs (`pdfs/`) **não são versionados** |
+| `03-textos/` | lista para baixar, relatório de PDFs, fichas de elegibilidade, `elegibilidade_tc_final.csv`, ligação de relatos. Os PDFs (`pdfs/`, `pdfs_descartados/`) **não são versionados** (ver abaixo) |
 | `04-qualidade/` | RoB 2, ROBINS-I V2 e EPOC: fichas A e B, propostas do árbitro (`arbitragem/`), consenso, `rob_geral.csv`, `notas_rob.md` |
 | `05-decomposicao/` | fichamentos (`fichamentos_master.csv`), efeitos por estudo (`efeitos/<chave>.csv`), verificação, validação da extração, `notas_extracao_completa.md` |
 | `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades), meta exploratória, `certeza.csv`, `revisao_metodologica_g8.md`. `_superado_pre_revisao_g8/` guarda a síntese anterior à Emenda 5, só para histórico |
 | `07-relatorio/` | manuscrito, PRISMA (contagens, SVG, PNG), checklists PRISMA e SWiM, `references.bib`, declaração de uso de IA |
 | `dados/` | registros e decisões. Só a skill escreve aqui |
 | `rs_estado.json`, `rs_log.jsonl` | estado e registro de eventos da skill (append-only). Nunca editar à mão |
+| `ferramentas/` | conferências auxiliares: `checar_arbitros.py <raiz> [max_palavras] [subpasta]` confere vocabulário e trecho literal na página das propostas do árbitro de RoB; `achar_trecho.py <verificacao_citacoes.csv> <pasta_pdfs>` sugere o trecho literal mais próximo para citações reprovadas no gate |
+
+## Cópia de trabalho e PDFs
+
+- **Cópia de trabalho:** `~/Desktop/pesquisas-eleitorais-rs`, clone deste repositório. A revisão foi conduzida até 23/09/2026 em `~/revisoes/pesquisas-eleitorais`; arquivos antigos (fichas, `pdf_path` de `05-decomposicao/fichamentos_master.csv`, prompts) guardam esse caminho como registro de proveniência. Não trabalhe em duas cópias ao mesmo tempo: `rs_estado.json` e `rs_log.jsonl` não se juntam bem.
+- **PDFs:** 181 em `03-textos/pdfs/` (textos completos obtidos, nomeados `<chave>.pdf`) e 20 em `03-textos/pdfs_descartados/` (cópias de outra versão do mesmo trabalho, só folha de rosto ou documento errado; motivos em `03-textos/conferencia_pdfs.csv`). Ficam **só no disco local** da cópia de trabalho, fora do Git (`.gitignore`), porque são obras de terceiros. Sem eles não rodam `rs analise verificar-efeitos`, a conferência humana dos efeitos (P032) nem os scripts de `ferramentas/`.
+- **Clone novo sem PDFs:** copie a pasta `03-textos/pdfs/` de uma cópia existente, ou baixe de novo com a skill `baixar-pdfs-academicos` a partir de `03-textos/para_baixar.csv` (`03-textos/relatorio_pdfs.csv` diz de onde veio cada um). Os que só vieram de páginas de autor ou repositórios podem não ser encontrados de novo; confira com `03-textos/verificacao_conteudo.csv`. Nunca use Sci-Hub ou fontes não autorizadas.
 
 ## Pendências humanas abertas
 
