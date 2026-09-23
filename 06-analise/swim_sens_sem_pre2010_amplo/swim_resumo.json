@@ -1,0 +1,412 @@
+{
+  "versao": "1",
+  "comando": "swim",
+  "gerado_em": "2026-09-23T19:18:30Z",
+  "entrada": "06-analise/swim_entrada_sem_pre2010.csv",
+  "parametros": {
+    "grupo": [
+      "construto_outcome",
+      "celula_alvo"
+    ],
+    "limiar_consistencia": 0.7,
+    "nivel": 0.95,
+    "separar_desenho": true,
+    "excluir_rob": "critico"
+  },
+  "n_linhas_excluidas_revisao": 0,
+  "n_excluidos_rob_critico": 3,
+  "ressalvas": [
+    "direção pelo estimador pontual; significância não define direção",
+    "teste de sinal não estima magnitude nem considera precisão ou tamanho dos estudos",
+    "rótulo da caixa de ferramentas exige certeza (GRADE)"
+  ],
+  "figuras": [
+    "06-analise/swim_sens_sem_pre2010_amplo/figuras/direcao_efeito.png",
+    "06-analise/swim_sens_sem_pre2010_amplo/figuras/direcao_efeito.pdf"
+  ],
+  "grupos": [
+    {
+      "grupo": "apoio_ao_lider | momentum | randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "momentum",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "classe_desenho": "randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Dahlgaard2016a"
+      ],
+      "excluidos_rob_critico": {
+        "n_estudos": 0,
+        "estudos": [],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora do teste de sinal principal; a contagem com esses estudos está em sensibilidade$com_rob_critico"
+      },
+      "sensibilidade": {
+        "com_rob_critico": {
+          "executado": false,
+          "motivo": "nenhum estudo com risco de viés crítico no grupo"
+        }
+      }
+    },
+    {
+      "grupo": "apoio_ao_lider | principal | nao_randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "principal",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 3,
+      "n_estudos": 3,
+      "n_beneficos": 3,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.292401773821287, 1],
+      "p_sinal": 0.25,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 3,
+        "proporcao_benefica": 1,
+        "ic": [0.292401773821287, 1],
+        "p_bilateral": 0.25,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Stolwijk2016a",
+        "Araujo2021a",
+        "Feltovich2022"
+      ],
+      "excluidos_rob_critico": {
+        "n_estudos": 1,
+        "estudos": [
+          "Unkelbach2022a"
+        ],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora do teste de sinal principal; a contagem com esses estudos está em sensibilidade$com_rob_critico"
+      },
+      "sensibilidade": {
+        "com_rob_critico": {
+          "executado": true,
+          "n_incluidos": 1,
+          "k_estudos": 4,
+          "n_estudos": 4,
+          "n_beneficos": 4,
+          "n_danosos": 0,
+          "proporcao_benefica": 1,
+          "ic_proporcao": [0.397635364383525, 1],
+          "p_sinal": 0.125
+        }
+      }
+    },
+    {
+      "grupo": "apoio_ao_lider | principal | randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "principal",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "classe_desenho": "randomizado",
+      "k_estudos": 7,
+      "n_estudos": 7,
+      "n_beneficos": 7,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.590383602774997, 1],
+      "p_sinal": 0.015625,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 7,
+        "proporcao_benefica": 1,
+        "ic": [0.590383602774997, 1],
+        "p_bilateral": 0.015625,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": true,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": true,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Agranov2017a",
+        "Tal2015a",
+        "Farjam2020a",
+        "Timotei2013a",
+        "Witsman2016a",
+        "Boukouras2020a",
+        "Schlegel2023"
+      ],
+      "excluidos_rob_critico": {
+        "n_estudos": 0,
+        "estudos": [],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora do teste de sinal principal; a contagem com esses estudos está em sensibilidade$com_rob_critico"
+      },
+      "sensibilidade": {
+        "com_rob_critico": {
+          "executado": false,
+          "motivo": "nenhum estudo com risco de viés crítico no grupo"
+        }
+      }
+    },
+    {
+      "grupo": "apoio_ao_lider | viabilidade | nao_randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "viabilidade",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Lago2015"
+      ],
+      "excluidos_rob_critico": {
+        "n_estudos": 1,
+        "estudos": [
+          "Gasperoni2015a"
+        ],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora do teste de sinal principal; a contagem com esses estudos está em sensibilidade$com_rob_critico"
+      },
+      "sensibilidade": {
+        "com_rob_critico": {
+          "executado": true,
+          "n_incluidos": 1,
+          "k_estudos": 2,
+          "n_estudos": 1,
+          "n_beneficos": 1,
+          "n_danosos": 0,
+          "proporcao_benefica": 1,
+          "ic_proporcao": [0.025, 1],
+          "p_sinal": 1
+        }
+      }
+    },
+    {
+      "grupo": "apoio_ao_lider | viabilidade | randomizado",
+      "construto_outcome": "apoio_ao_lider",
+      "celula_alvo": "viabilidade",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "classe_desenho": "randomizado",
+      "k_estudos": 3,
+      "n_estudos": 2,
+      "n_beneficos": 2,
+      "n_danosos": 0,
+      "n_mistos": 1,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.158113883008419, 1],
+      "p_sinal": 0.5,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 2,
+        "proporcao_benefica": 1,
+        "ic": [0.158113883008419, 1],
+        "p_bilateral": 0.5,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Meer2015a",
+        "Cornejo2023a",
+        "Freden2024a"
+      ],
+      "excluidos_rob_critico": {
+        "n_estudos": 0,
+        "estudos": [],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora do teste de sinal principal; a contagem com esses estudos está em sensibilidade$com_rob_critico"
+      },
+      "sensibilidade": {
+        "com_rob_critico": {
+          "executado": false,
+          "motivo": "nenhum estudo com risco de viés crítico no grupo"
+        }
+      }
+    },
+    {
+      "grupo": "mobilizacao | mobilizacao | nao_randomizado",
+      "construto_outcome": "mobilizacao",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 3,
+      "n_estudos": 3,
+      "n_beneficos": 2,
+      "n_danosos": 1,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0.666666666666667,
+      "ic_proporcao": [0.0942993240502461, 0.991596241340387],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 3,
+        "proporcao_benefica": 0.666666666666667,
+        "ic": [0.0942993240502461, 0.991596241340387],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Stolwijk2019b",
+        "Brugarolas2021",
+        "Grillo2024c"
+      ],
+      "excluidos_rob_critico": {
+        "n_estudos": 1,
+        "estudos": [
+          "Kaplan2019a"
+        ],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora do teste de sinal principal; a contagem com esses estudos está em sensibilidade$com_rob_critico"
+      },
+      "sensibilidade": {
+        "com_rob_critico": {
+          "executado": true,
+          "n_incluidos": 1,
+          "k_estudos": 4,
+          "n_estudos": 3,
+          "n_beneficos": 2,
+          "n_danosos": 1,
+          "proporcao_benefica": 0.666666666666667,
+          "ic_proporcao": [0.0942993240502461, 0.991596241340387],
+          "p_sinal": 1
+        }
+      }
+    },
+    {
+      "grupo": "mobilizacao | mobilizacao | randomizado",
+      "construto_outcome": "mobilizacao",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "randomizado",
+      "k_estudos": 5,
+      "n_estudos": 4,
+      "n_beneficos": 2,
+      "n_danosos": 2,
+      "n_mistos": 0,
+      "n_nulos": 1,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0.5,
+      "ic_proporcao": [0.067585986488543, 0.932414013511457],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 4,
+        "proporcao_benefica": 0.5,
+        "ic": [0.067585986488543, 0.932414013511457],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Agranov2017a",
+        "Groer2010a",
+        "Westwood2020a",
+        "Erlich2023",
+        "Gerber2020a"
+      ],
+      "excluidos_rob_critico": {
+        "n_estudos": 0,
+        "estudos": [],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora do teste de sinal principal; a contagem com esses estudos está em sensibilidade$com_rob_critico"
+      },
+      "sensibilidade": {
+        "com_rob_critico": {
+          "executado": false,
+          "motivo": "nenhum estudo com risco de viés crítico no grupo"
+        }
+      }
+    }
+  ]
+}

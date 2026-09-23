@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1228" height="766" viewBox="0 0 1228 766" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<title>PRISMA 2020 — RASCUNHO NÃO VALIDADO</title>
+<rect x="0" y="0" width="1228" height="766" fill="#ffffff"/>
+<text x="54" y="34" font-size="15" font-weight="bold" fill="#b91c1c">RASCUNHO NÃO VALIDADO — Pendências abertas: P001, P004, P006, P007, P008, P019, P020, P023, P025, P026, P028, P032, P033, P035, P036, P037</text>
+<rect x="54" y="50" width="540" height="30" rx="4" fill="#d9e5f2" stroke="#333"/>
+<text x="324.0" y="70" text-anchor="middle" font-weight="bold">Identificação de estudos via bases de dados e registros</text>
+<rect x="664" y="50" width="540" height="30" rx="4" fill="#d9e5f2" stroke="#333"/>
+<text x="934.0" y="70" text-anchor="middle" font-weight="bold">Identificação de estudos via outros métodos</text>
+<rect x="12" y="104" width="28" height="162" rx="4" fill="#c7d7ea" stroke="#333"/>
+<text x="26" y="185.0" text-anchor="middle" font-weight="bold" transform="rotate(-90 26 185.0)" dominant-baseline="middle">Identificação</text>
+<rect x="12" y="300" width="28" height="282" rx="4" fill="#c7d7ea" stroke="#333"/>
+<text x="26" y="441.0" text-anchor="middle" font-weight="bold" transform="rotate(-90 26 441.0)" dominant-baseline="middle">Triagem</text>
+<rect x="12" y="616" width="28" height="82" rx="4" fill="#c7d7ea" stroke="#333"/>
+<text x="26" y="657.0" text-anchor="middle" font-weight="bold" transform="rotate(-90 26 657.0)" dominant-baseline="middle">Incluídos</text>
+<rect x="54" y="104" width="250" height="98" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="63" y="125" font-weight="bold">Registros identificados de:</text>
+<text x="63" y="141">Bases de dados (n = 1767)</text>
+<text x="69" y="157">bdtd (n = 80)</text>
+<text x="69" y="173">openalex (n = 1687)</text>
+<text x="63" y="189">Registros de estudos (n = 0)</text>
+<rect x="344" y="104" width="250" height="162" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="353" y="125" font-weight="bold">Registros removidos antes da</text>
+<text x="359" y="141" font-weight="bold">triagem:</text>
+<text x="353" y="157">Registros duplicados removidos</text>
+<text x="359" y="173">(n = 46)</text>
+<text x="353" y="189">Marcados como inelegíveis por</text>
+<text x="359" y="205">automação (n = 148)</text>
+<text x="359" y="221">ano (n = 148)</text>
+<text x="353" y="237">Removidos por outros motivos</text>
+<text x="359" y="253">(n = 0)</text>
+<rect x="664" y="104" width="250" height="82" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="673" y="125" font-weight="bold">Registros identificados de:</text>
+<text x="673" y="141">Sites e organizações (n = 0)</text>
+<text x="673" y="157">Busca de citações (n = 1706)</text>
+<text x="673" y="173">Outros (n = 0)</text>
+<rect x="954" y="104" width="250" height="114" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="963" y="125" font-weight="bold">Registros removidos antes da</text>
+<text x="969" y="141" font-weight="bold">triagem:</text>
+<text x="963" y="157">Duplicados ou já identificados nas</text>
+<text x="969" y="173">bases (n = 4)</text>
+<text x="963" y="189">Marcados como inelegíveis por</text>
+<text x="969" y="205">automação (n = 648)</text>
+<rect x="54" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="63" y="321" font-weight="bold">Registros triados</text>
+<text x="63" y="337">(n = 1573)</text>
+<rect x="344" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="353" y="321" font-weight="bold">Registros excluídos</text>
+<text x="353" y="337">(n = 1383)</text>
+<rect x="664" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="673" y="321" font-weight="bold">Registros triados</text>
+<text x="673" y="337">(n = 1054)</text>
+<rect x="954" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="963" y="321" font-weight="bold">Registros excluídos</text>
+<text x="963" y="337">(n = 898)</text>
+<rect x="54" y="384" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="63" y="405" font-weight="bold">Relatórios buscados para</text>
+<text x="69" y="421" font-weight="bold">recuperação</text>
+<text x="63" y="437">(n = 190)</text>
+<rect x="344" y="384" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="353" y="405" font-weight="bold">Relatórios não recuperados</text>
+<text x="353" y="421">(n = 95)</text>
+<rect x="664" y="384" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="673" y="405" font-weight="bold">Relatórios buscados para</text>
+<text x="679" y="421" font-weight="bold">recuperação</text>
+<text x="673" y="437">(n = 156)</text>
+<rect x="954" y="384" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="963" y="405" font-weight="bold">Relatórios não recuperados</text>
+<text x="963" y="421">(n = 82)</text>
+<rect x="54" y="484" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="63" y="505" font-weight="bold">Relatórios avaliados para</text>
+<text x="69" y="521" font-weight="bold">elegibilidade</text>
+<text x="63" y="537">(n = 95)</text>
+<rect x="344" y="484" width="250" height="98" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="353" y="505" font-weight="bold">Relatórios excluídos: (n = 53)</text>
+<text x="359" y="521">c2_intervencao_estudada (n = 36)</text>
+<text x="359" y="537">c4_desenho_elegivel (n = 10)</text>
+<text x="359" y="553">c1_populacao_contexto (n = 6)</text>
+<text x="359" y="569">c3_desfecho (n = 1)</text>
+<rect x="664" y="484" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="673" y="505" font-weight="bold">Relatórios avaliados para</text>
+<text x="679" y="521" font-weight="bold">elegibilidade</text>
+<text x="673" y="537">(n = 74)</text>
+<rect x="954" y="484" width="250" height="98" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="963" y="505" font-weight="bold">Relatórios excluídos: (n = 61)</text>
+<text x="969" y="521">c2_intervencao_estudada (n = 44)</text>
+<text x="969" y="537">c1_populacao_contexto (n = 11)</text>
+<text x="969" y="553">c4_desenho_elegivel (n = 4)</text>
+<text x="969" y="569">c3_desfecho (n = 2)</text>
+<rect x="54" y="616" width="250" height="82" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+<text x="63" y="637" font-weight="bold">Estudos incluídos na revisão</text>
+<text x="63" y="653">(n = 41)</text>
+<text x="63" y="669">Relatórios dos estudos incluídos</text>
+<text x="63" y="685">(n = 55)</text>
+<line x1="179.0" y1="202" x2="179.0" y2="298" stroke="#333" stroke-width="1.3"/><path d="M179.0,298.0 L175.0,289.0 L183.0,289.0 z" fill="#333"/>
+<line x1="179.0" y1="350" x2="179.0" y2="382" stroke="#333" stroke-width="1.3"/><path d="M179.0,382.0 L175.0,373.0 L183.0,373.0 z" fill="#333"/>
+<line x1="179.0" y1="450" x2="179.0" y2="482" stroke="#333" stroke-width="1.3"/><path d="M179.0,482.0 L175.0,473.0 L183.0,473.0 z" fill="#333"/>
+<line x1="179.0" y1="550" x2="179.0" y2="614" stroke="#333" stroke-width="1.3"/><path d="M179.0,614.0 L175.0,605.0 L183.0,605.0 z" fill="#333"/>
+<line x1="304" y1="132" x2="342" y2="132" stroke="#333" stroke-width="1.3"/><path d="M342.0,132.0 L333.0,136.0 L333.0,128.0 z" fill="#333"/>
+<line x1="304" y1="325.0" x2="342" y2="325.0" stroke="#333" stroke-width="1.3"/><path d="M342.0,325.0 L333.0,329.0 L333.0,321.0 z" fill="#333"/>
+<line x1="304" y1="412" x2="342" y2="412" stroke="#333" stroke-width="1.3"/><path d="M342.0,412.0 L333.0,416.0 L333.0,408.0 z" fill="#333"/>
+<line x1="304" y1="512" x2="342" y2="512" stroke="#333" stroke-width="1.3"/><path d="M342.0,512.0 L333.0,516.0 L333.0,508.0 z" fill="#333"/>
+<line x1="914" y1="132" x2="952" y2="132" stroke="#333" stroke-width="1.3"/><path d="M952.0,132.0 L943.0,136.0 L943.0,128.0 z" fill="#333"/>
+<line x1="789.0" y1="186" x2="789.0" y2="298" stroke="#333" stroke-width="1.3"/><path d="M789.0,298.0 L785.0,289.0 L793.0,289.0 z" fill="#333"/>
+<line x1="789.0" y1="350" x2="789.0" y2="382" stroke="#333" stroke-width="1.3"/><path d="M789.0,382.0 L785.0,373.0 L793.0,373.0 z" fill="#333"/>
+<line x1="914" y1="325.0" x2="952" y2="325.0" stroke="#333" stroke-width="1.3"/><path d="M952.0,325.0 L943.0,329.0 L943.0,321.0 z" fill="#333"/>
+<line x1="789.0" y1="450" x2="789.0" y2="482" stroke="#333" stroke-width="1.3"/><path d="M789.0,482.0 L785.0,473.0 L793.0,473.0 z" fill="#333"/>
+<line x1="914" y1="412" x2="952" y2="412" stroke="#333" stroke-width="1.3"/><path d="M952.0,412.0 L943.0,416.0 L943.0,408.0 z" fill="#333"/>
+<line x1="914" y1="512" x2="952" y2="512" stroke="#333" stroke-width="1.3"/><path d="M952.0,512.0 L943.0,516.0 L943.0,508.0 z" fill="#333"/>
+<polyline points="789.0,550 789.0,644 306,644" fill="none" stroke="#333" stroke-width="1.3"/><path d="M306.0,644.0 L315.0,640.0 L315.0,648.0 z" fill="#333"/>
+<text x="54" y="736" font-size="10" fill="#555">Modelo: PRISMA 2020 (Page et al., BMJ 2021;372:n71; CC BY 4.0). NR = não reportado.</text>
+<text x="54" y="750" font-size="10" fill="#555">Adaptação: ramo de outros métodos com remoção de já identificados e triagem de título/resumo.</text>
+<g opacity="0.16"><text x="614.0" y="383.0" text-anchor="middle" font-size="52" font-weight="bold" fill="#b91c1c" transform="rotate(-28 614.0 383.0)">RASCUNHO NÃO VALIDADO</text></g>
+</svg>

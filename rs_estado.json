@@ -403,16 +403,16 @@
       "em": "2026-09-23T18:55:58Z"
     },
     "10_sintese": {
-      "status": "pendente",
+      "status": "concluida",
       "portao": "G8",
-      "aprovado_por": null,
-      "em": null
+      "aprovado_por": "autopiloto",
+      "em": "2026-09-23T19:27:39Z"
     },
     "11_relato": {
-      "status": "pendente",
+      "status": "concluida",
       "portao": "G9",
-      "aprovado_por": null,
-      "em": null
+      "aprovado_por": "autopiloto",
+      "em": "2026-09-23T19:56:23Z"
     }
   },
   "buscas": [
@@ -974,8 +974,67 @@
       "n": null,
       "arquivo": null,
       "status": "aberta"
+    },
+    {
+      "id": "P034",
+      "tipo": "certeza_humana",
+      "etapa": "10_sintese",
+      "portao": null,
+      "descricao": "GRADE das 7 células em 06-analise/certeza.csv rascunhado por subagente (claude-opus-5-5), validado_humano vazio; revisor humano deve confirmar ou alterar cada juízo (ver ponto sobre viés de publicação na célula 1)",
+      "n": null,
+      "arquivo": null,
+      "status": "fechada"
+    },
+    {
+      "id": "P035",
+      "tipo": "revisao_humana_portao",
+      "etapa": "10_sintese",
+      "portao": "G8",
+      "descricao": "confirmar a aprovação automática do G8: P034 aberta: GRADE das 7 células em 06-analise/certeza.csv rascunhado por subagente (claude-opus-5-5), validado_humano vazio; revisor humano deve confirmar ou alterar cada juízo (ver ponto sobre viés de publicação na célula 1)",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
+    },
+    {
+      "id": "P036",
+      "tipo": "certeza_humana",
+      "etapa": "10_sintese",
+      "portao": null,
+      "descricao": "GRADE refeito após a Emenda 5: 21 linhas em 06-analise/certeza.csv (17 células do protocolo + 4 do agrupamento amplo descritivo), rascunhadas por subagente (claude-opus-5-5) com validado_humano vazio; decidir em especial o rebaixamento por viés de publicação no agrupamento amplo de apoio randomizado (baixa × moderada)",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
+    },
+    {
+      "id": "P037",
+      "tipo": "concordancia_extracao",
+      "etapa": "09_extracao_rob",
+      "portao": null,
+      "descricao": "Recodificação cega (Sonnet) de 10 estudos: concordância de valores 58,5% (560 comparações), 37 variáveis sinalizadas, entre elas alvo_efeito (50%, κ 0,38), comparador_tipo (50%, κ 0,38), b2_estimando (60%, κ 0,15) e direção do principal (50%); humano deve arbitrar as divergências em 05-decomposicao/validacao_extracao/concordancia/concordancia.csv ou redefinir e recodificar",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
+    },
+    {
+      "id": "P038",
+      "tipo": "revisao_humana_portao",
+      "etapa": "11_relato",
+      "portao": "G9",
+      "descricao": "confirmar a aprovação automática do G9",
+      "n": null,
+      "arquivo": null,
+      "status": "aberta"
     }
   ],
-  "contagens_cache": {},
-  "ultimo_seq": 766
+  "contagens_cache": {
+    "prisma": {
+      "hash_insumos": "2de6da3e0562d2f42d6c083741407ac185e05dc699f4f5e37b43d5330005f677",
+      "gerado_em": "2026-09-23T19:52:01Z",
+      "incluidos": {
+        "estudos": 41,
+        "relatos": 55
+      }
+    }
+  },
+  "ultimo_seq": 791
 }

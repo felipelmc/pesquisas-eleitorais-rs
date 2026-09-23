@@ -1,0 +1,196 @@
+{
+  "schema": "rs-prisma/1",
+  "tipo": "2020",
+  "origem": "calculado",
+  "gerado_em": "2026-09-23T19:52:01Z",
+  "bases": {
+    "identificados": {
+      "bases": 1767,
+      "registros_estudos": 0,
+      "por_fonte": {
+        "openalex": 1687,
+        "bdtd": 80
+      }
+    },
+    "removidos_antes_triagem": {
+      "duplicatas": 46,
+      "automacao": 148,
+      "outros_motivos": 0,
+      "automacao_por_filtro": {
+        "ano": 148
+      }
+    },
+    "a_triar": 1573,
+    "triados": 1573,
+    "excluidos_triagem": 1383,
+    "buscados": 190,
+    "nao_recuperados": 95,
+    "avaliados": 95,
+    "excluidos_elegibilidade": {
+      "total": 53,
+      "motivos": {
+        "c2_intervencao_estudada": 36,
+        "c4_desenho_elegivel": 10,
+        "c1_populacao_contexto": 6,
+        "c3_desfecho": 1
+      }
+    },
+    "aguardando_classificacao": 0,
+    "incluidos_relatos": 42
+  },
+  "outros_metodos": {
+    "identificados": {
+      "sites_organizacoes": 0,
+      "busca_citacoes": 1706,
+      "outros": 0
+    },
+    "removidos_antes_triagem": {
+      "duplicatas": 4,
+      "automacao": 648,
+      "outros_motivos": 0,
+      "automacao_por_filtro": {
+        "ano": 648
+      }
+    },
+    "a_triar": 1054,
+    "triados": 1054,
+    "excluidos_triagem": 898,
+    "buscados": 156,
+    "nao_recuperados": 82,
+    "avaliados": 74,
+    "excluidos_elegibilidade": {
+      "total": 61,
+      "motivos": {
+        "c2_intervencao_estudada": 44,
+        "c1_populacao_contexto": 11,
+        "c4_desenho_elegivel": 4,
+        "c3_desfecho": 2
+      }
+    },
+    "aguardando_classificacao": 0,
+    "incluidos_relatos": 13
+  },
+  "incluidos": {
+    "estudos": 41,
+    "relatos": 55
+  },
+  "etapas_nr": [],
+  "invariantes": [
+    {
+      "nome": "identificacao_fecha",
+      "ramo": "bases",
+      "ok": true,
+      "detalhe": "identificados − removidos antes da triagem = a triar: 1573 = 1573"
+    },
+    {
+      "nome": "triagem_fecha",
+      "ramo": "bases",
+      "ok": true,
+      "detalhe": "triados = excluídos na triagem + buscados: 1573 = 1573"
+    },
+    {
+      "nome": "recuperacao_fecha",
+      "ramo": "bases",
+      "ok": true,
+      "detalhe": "avaliados = buscados − não recuperados: 95 = 95"
+    },
+    {
+      "nome": "elegibilidade_fecha",
+      "ramo": "bases",
+      "ok": true,
+      "detalhe": "avaliados = excluídos no texto completo + incluídos + aguardando classificação: 95 = 95"
+    },
+    {
+      "nome": "motivos_fecham",
+      "ramo": "bases",
+      "ok": true,
+      "detalhe": "excluídos no texto completo = soma dos motivos: 53 = 53"
+    },
+    {
+      "nome": "identificacao_fecha",
+      "ramo": "outros_metodos",
+      "ok": true,
+      "detalhe": "identificados − removidos antes da triagem = a triar: 1054 = 1054"
+    },
+    {
+      "nome": "triagem_fecha",
+      "ramo": "outros_metodos",
+      "ok": true,
+      "detalhe": "triados = excluídos na triagem + buscados: 1054 = 1054"
+    },
+    {
+      "nome": "recuperacao_fecha",
+      "ramo": "outros_metodos",
+      "ok": true,
+      "detalhe": "avaliados = buscados − não recuperados: 74 = 74"
+    },
+    {
+      "nome": "elegibilidade_fecha",
+      "ramo": "outros_metodos",
+      "ok": true,
+      "detalhe": "avaliados = excluídos no texto completo + incluídos + aguardando classificação: 74 = 74"
+    },
+    {
+      "nome": "motivos_fecham",
+      "ramo": "outros_metodos",
+      "ok": true,
+      "detalhe": "excluídos no texto completo = soma dos motivos: 61 = 61"
+    },
+    {
+      "nome": "incluidos_somam_ramos",
+      "ramo": "geral",
+      "ok": true,
+      "detalhe": "relatos incluídos = soma dos ramos: 55 = 55"
+    },
+    {
+      "nome": "estudos_ate_relatos",
+      "ramo": "geral",
+      "ok": true,
+      "detalhe": "estudos (41) ≤ relatos (55)"
+    }
+  ],
+  "avisos": [
+    "1235 registros de buscas substituídas (B01) ficaram fora dos identificados.",
+    "1211 registros únicos marcados busca_inativa (só registros de buscas substituídas) ficaram fora do fluxo, como previsto."
+  ],
+  "insumos": {
+    "dados/registros.csv": "0e15f164d9f4f868661442348fdef2ff73dba4982b76686812c234aef37026b0",
+    "dados/registros_unicos.csv": "37ca3707238d5b0f88f0b553804a20f2e5df5d350ed8539d1db54f306a65f79f",
+    "02-triagem/filtro_formal.csv": "65ce2e985d785d6255b20c9a9841d53b171de8df46848addf9868bb2f0ef039b",
+    "02-triagem/triagem_ta_final.csv": "b8ee13b35431d955085e49fa0fc2b9b526c51dcd2cd16c20c6d871eadfafcab5",
+    "03-textos/relatorio_pdfs.csv": "2bf04daf85da3f613a8ac5feb280361b444dd358cf775be912e454d891e5fd22",
+    "03-textos/elegibilidade_tc_final.csv": "370d1035a374e2547b441ea4d18459f58f08bfcafe73647ef0341d663e679ff4",
+    "03-textos/inventario_textos.csv": "fd91118d6ddf18468e3d6ecf4d0071b52d1f341471f4243d7676ce665797ae34",
+    "estado.buscas_inativas": "56cf912309df96fa22ed2677075e4c5f8b5b64e563ba29ffda134e023ec10e96",
+    "estado.buscas_truncadas": null
+  },
+  "rascunho": true,
+  "pendencias_abertas": [
+    "P001",
+    "P004",
+    "P006",
+    "P007",
+    "P008",
+    "P019",
+    "P020",
+    "P023",
+    "P025",
+    "P026",
+    "P028",
+    "P032",
+    "P033",
+    "P035",
+    "P036",
+    "P037"
+  ],
+  "buscas_truncadas": [],
+  "motivos_rascunho": [
+    "16 pendências abertas"
+  ],
+  "buscas_inativas": {
+    "buscas": [
+      "B01"
+    ],
+    "n_registros": 1235
+  }
+}

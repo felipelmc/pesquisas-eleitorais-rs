@@ -1,0 +1,508 @@
+citekey,ficha,variavel,pagina_indicada,status,pagina_encontrada_impressa,offset_pagina,citacao
+Agranov2017a,fichamento_Agranov2017a.md,titulo,1,OK,,3,What makes voters turn out: The effects of polls and beliefs
+Agranov2017a,fichamento_Agranov2017a.md,idioma,1,OK,,3,"Keywords: Collective Choice, Polls, Strategic Voting."
+Agranov2017a,fichamento_Agranov2017a.md,pais_estudo,10,OK,,3,California Social Sciences Experimental Laboratory (CASSEL) at UCLA
+Agranov2017a,fichamento_Agranov2017a.md,tipo_estudo,10,OK,,3,the experiments employ a 3 × 2 design based on
+Agranov2017a,fichamento_Agranov2017a.md,problema_pesquisa,1,OK,,3,We use laboratory experiments to test for one of
+Agranov2017a,fichamento_Agranov2017a.md,unidade_analise,10,OK,,3,"each decides whether to abstain, vote red, or vote blue"
+Agranov2017a,fichamento_Agranov2017a.md,populacao,10,OK,,3,"Overall, 198 subjects participated."
+Agranov2017a,fichamento_Agranov2017a.md,fonte_dados,1,OK,,3,We use laboratory experiments to test for one of
+Agranov2017a,fichamento_Agranov2017a.md,intervencao_descricao,3,OK,,3,subjects participated in a poll reporting their voting intentions
+Agranov2017a,fichamento_Agranov2017a.md,familia_intervencao,9,OK,,3,subjects are asked to declare their intended actions
+Agranov2017a,fichamento_Agranov2017a.md,comparador,3,OK,,3,subjects were provided with no further information
+Agranov2017a,fichamento_Agranov2017a.md,construto_outcome,1,OK,,3,voting propensity increases systematically with subjects' predictions of their
+Agranov2017a,fichamento_Agranov2017a.md,outcome_medida,10,OK,,3,"each decides whether to abstain, vote red, or vote blue"
+Agranov2017a,fichamento_Agranov2017a.md,mecanismo_id,3,PAGINA_ERRADA,4,3,voters receive a benefit from voting for the winner
+Agranov2017a,fichamento_Agranov2017a.md,mecanismo_tipo_evidencia,28,OK,,3,we estimate the parameter a that maximizes the likelihood
+Agranov2017a,fichamento_Agranov2017a.md,mecanismo_descricao,3,PAGINA_ERRADA,4,3,voters receive a benefit from voting for the winner
+Agranov2017a,fichamento_Agranov2017a.md,moderador_id,18,OK,,3,the availability of information reduces the probability of minority participation
+Agranov2017a,fichamento_Agranov2017a.md,moderador_descricao,18,OK,,3,the availability of information reduces the probability of minority participation
+Agranov2017a,fichamento_Agranov2017a.md,het_metodo,24,OK,,3,Lead of the majority if in majority (belief)
+Agranov2017a,fichamento_Agranov2017a.md,efeitos_nao_intencionais,18,OK,,3,the availability of information reduces the probability of minority participation
+Agranov2017a,fichamento_Agranov2017a.md,limitacoes_autores,36,OK,,3,the current design is not tailored for
+Agranov2017a,fichamento_Agranov2017a.md,b2_estrategia_identificacao,10,OK,,3,Each experimental session implemented one of the information treatments
+Agranov2017a,fichamento_Agranov2017a.md,b2_estimador,23,OK,,3,we run a Probit regression predicting the dependence of participation
+Agranov2017a,fichamento_Agranov2017a.md,b2_estimando,10,OK,,3,Each experimental session implemented one of the information treatments
+Agranov2017a,fichamento_Agranov2017a.md,b2_nivel_atribuicao_cluster,23,OK,,3,clustering standard errors by individuals
+Agranov2017a,fichamento_Agranov2017a.md,b2_n_total,24,OK,,3,# of obs. 879 1174 1024
+Agranov2017a,fichamento_Agranov2017a.md,b2_controles,24,OK,,3,High Cost of Voting
+Agranov2017a,fichamento_Agranov2017a.md,b2_modelo_principal,23,OK,,3,we run a Probit regression predicting the dependence of participation
+Agranov2017a,fichamento_Agranov2017a.md,b2_criterio_modelo_principal,23,OK,,3,we run a Probit regression predicting the dependence of participation
+Agranov2017a,fichamento_Agranov2017a.md,b2_direcao_estimativa_principal,31,OK,,3,Participation costs are not significantly different across treatments
+Agranov2017a,fichamento_Agranov2017a.md,b2_significancia_05,31,OK,,3,Participation costs are not significantly different across treatments
+Agranov2017a,fichamento_Agranov2017a.md,b2_interpretacao_autores,35,OK,,3,pre-election polls do not exhibit the detrimental effects on welfare
+Agranov2017a,fichamento_Agranov2017a.md,regiao,10,OK,,3,California Social Sciences Experimental Laboratory (CASSEL) at UCLA
+Agranov2017a,fichamento_Agranov2017a.md,tipo_eleicao,3,OK,,3,Subjects had to choose one of two colors: Red or
+Agranov2017a,fichamento_Agranov2017a.md,sistema_eleitoral,3,OK,,3,using majority rule
+Agranov2017a,fichamento_Agranov2017a.md,desenho_fino,10,OK,,3,receives $2 for that period
+Agranov2017a,fichamento_Agranov2017a.md,realismo_contexto,3,OK,,3,represented the subject's preferred alternative
+Agranov2017a,fichamento_Agranov2017a.md,comparador_tipo,3,OK,,3,subjects were provided with no further information
+Agranov2017a,fichamento_Agranov2017a.md,nivel_desfecho,10,OK,,3,receives $2 for that period
+Agranov2017a,fichamento_Agranov2017a.md,mecanismo_testado,3,PAGINA_ERRADA,4,3,voters receive a benefit from voting for the winner
+Agranov2017a,fichamento_Agranov2017a.md,moderadores_relatados,18,OK,,3,the availability of information reduces the probability of minority participation
+Agranov2017a,fichamento_Agranov2017a.md,moderadores_relatados,20,OK,,3,voting propensities are significantly lower when the preferred candidate
+Agranov2017a,fichamento_Agranov2017a.md,alvo_efeito,18,OK,,3,the availability of information reduces the probability of minority participation
+Agranov2017a,fichamento_Agranov2017a.md,n_competidores,3,OK,,3,one of two colors: Red or Blue
+Agranov2017a,fichamento_Agranov2017a.md,ajuste_mediador,24,OK,,3,Lead of the majority if in majority (belief)
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,titulo,73,OK,,-72,"DO (PERCEPTIONS OF) ELECTORAL POLLING AFFECT THE VOTE? CAMPAIGN EFFECTS, PARTISAN BIAS, AND STRATEGIC VOTING IN MEXICO"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,ano,73,OK,,-72,"RLOP. Vol. 11, 2 (2022), 73-108"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,tipo_publicacao,73,OK,,-72,ISSN: 1852-9003 - eISSN: 2660-700X
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,idioma,89,NAO_ENCONTRADA,,-72,5. EXPERIMENTAL DATA: 2015 GUBERNATORIAL ELECTIONS IN MEXICO
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,pais_estudo,90,OK,,-72,in two Mexican states (Michoacán and Nuevo León)
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,tipo_estudo,90,OK,,-72,The survey experiment was embedded in the second-wave of an original gubernatorial panel survey
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,problema_pesquisa,95,OK,,-72,the survey experiment establishes that the source of the polling information can shape voters' strategic behavior
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,unidade_analise,90,OK,,-72,The sample was divided into two randomly-assigned groups
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,populacao,90,OK,,-72,"roughly consisted of 650 respondents, representative at the state level"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,periodo_dados,90,OK,,-72,conducted a telephone survey between the 1st and 3rd of June
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,fonte_dados,93,OK,,-72,Author's original survey
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,intervencao_descricao,90,OK,,-72,"the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,familia_intervencao,90,OK,,-72,if the respondent was aware of the results of a recently released poll
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,comparador,90,OK,,-72,Respondents who were randomly assigned to the control group were not asked whether they were aware of the results of such a poll
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,construto_outcome,93,OK,,-72,Probability of Engaging in Strategic Voting
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,outcome_medida,106,OK,,-72,Support for the anti-PRI candidate with better standing in the polls
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,mecanismo_id,93,OK,,-72,the treatment weakened the connection between partisanship and vote choice among third-party supporters
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,mecanismo_tipo_evidencia,94,OK,,-72,polling information not only triggers vote-choice shifts among supporters of candidates trailing in the polls
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,mecanismo_descricao,93,OK,,-72,vote shifts in response to polling information are stronger among voters who consistently self-identified with the PAN
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,moderador_id,92,OK,,-72,the effect is stronger among partisans (12 percentage points
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,moderador_descricao,93,OK,,-72,"82 percent of PAN respondents supported their co-partisan candidate in the control group, this number declined to 76"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,het_metodo,106,OK,,-72,Independents
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,efeitos_nao_intencionais,93,OK,,-72,this number declined to 76 % in the treatment group
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,limitacoes_autores,95,NAO_ENCONTRADA,,-72,this study cannot place a value on... or speak about how non-respondents would have responded
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_estrategia_identificacao,90,OK,,-72,The sample was divided into two randomly-assigned groups
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_hipoteses_testes,90,OK,,-72,The treatment appears balanced across observed covariates
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_estimador,106,OK,,-72,Logistic Regression Model
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_estimando,90,OK,,-72,the treatment and control groups in the sample are on average identical
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_nivel_atribuicao_cluster,91,NAO_ENCONTRADA,,-72,the analysis include a state dummy variable
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_n_total,106,OK,,-72,545
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_controles,106,OK,,-72,State dummy
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_modelo_principal,92,OK,,-72,the strategic voting effect is seven percentage points in the treatment group (p < 0.06
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_direcao_estimativa_principal,106,OK,,-72,0.35*
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_significancia_05,92,OK,,-72,p < 0.06
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,b2_interpretacao_autores,94,PAGINA_ERRADA,95,-72,partisans who are informed of polls are able to overcome their partisan bias and engage in strategic voting
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,regiao,94,PAGINA_ERRADA,95,-72,Latin American presidential election campaigns
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,tipo_eleicao,89,OK,,-72,the 2015 gubernatorial elections in Mexico
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,sistema_eleitoral,78,OK,,-72,The single-round plurality rule in Mexico
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,desenho_fino,90,OK,,-72,The survey experiment was embedded in the second-wave
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,realismo_contexto,91,OK,,-72,"the PRI candidate, Ascensión Orihuela"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,ano_eleicao,90,OK,,-72,"The election was held on Sunday, June 7th"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,comparador_tipo,90,OK,,-72,not asked whether they were aware of the results of such a poll
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,nivel_desfecho,91,OK,,-72,which candidate would you vote for?
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,margem_mostrada,91,OK,,-72,tied with the 36 percent of the vote intention
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,mecanismo_testado,94,OK,,-72,polling information not only triggers vote-choice shifts among supporters of candidates trailing in the polls
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,moderadores_relatados,92,OK,,-72,the effect is stronger among partisans
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,alvo_efeito,106,OK,,-72,Support for the anti-PRI candidate with better standing in the polls
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,n_competidores,91,OK,,-72,"the PAN candidate, Felipe de Jesús Cantú, is in third place"
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,dias_ate_eleicao,90,OK,,-72,between the 1st and 3rd of June
+Cornejo2023a,fichamento_Cornejo2023a#exp2015.md,ajuste_mediador,106,OK,,-72,State dummy
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,titulo,73,OK,,-72,"DO (PERCEPTIONS OF) ELECTORAL POLLING AFFECT THE VOTE? CAMPAIGN EFFECTS, PARTISAN BIAS, AND STRATEGIC VOTING IN MEXICO"
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,ano,73,OK,,-72,"RLOP. Vol. 11, 2 (2022), 73-108"
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,tipo_publicacao,73,OK,,-72,ISSN: 1852-9003 - eISSN: 2660-700X
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,idioma,74,OK,,-72,1. INTRODUCTION
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,pais_estudo,75,OK,,-72,Based on a survey conducted during the 2006 presidential election in Mexico
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,tipo_estudo,81,OK,,-72,using cross-sectional data and a survey experiment conducted during the 2015
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,problema_pesquisa,78,OK,,-72,the interesting puzzle is why partisans defect
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,unidade_analise,79,OK,,-72,voters' perceptions of polling information
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,populacao,108,OK,,-72,citizens over 18 years old with a voting ID who live in the country
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,periodo_dados,82,OK,,-72,conducted in the weeks before election day
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,fonte_dados,84,OK,,-72,Source: BGC Beltrán y Asocs
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,intervencao_descricao,82,PAGINA_ERRADA,84,-72,Which candidate is leading the polls?
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,familia_intervencao,82,OK,,-72,nationally representative surveys conducted a few days before election day
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,comparador,84,OK,,-72,voters who are aware of polling information
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,construto_outcome,88,OK,,-72,Probability of defecting from the PRI candidate (among PRI partisans)
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,outcome_medida,86,OK,,-72,PRI partisans' probability of voting for the PRI
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,mecanismo_id,80,OK,,-72,Strategic voting requires some understanding of which candidate has a lead
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,mecanismo_tipo_evidencia,80,OK,,-72,Partisans aware of polling information will be the most likely to understand the logic
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,mecanismo_descricao,80,OK,,-72,less likely to engage in partisan reinforcement or wishful thinking
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,moderador_id,84,OK,,-72,particularly strong among independents who do not have a co-partisan candidate to support
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,het_metodo,85,OK,,-72,Independents
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,limitacoes_autores,96,OK,,-72,this article provides a lower bound for strategic behavior
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_estrategia_identificacao,84,OK,,-72,even when variables that might affect information acquisition
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_estimador,87,OK,,-72,Multinomial Logistic Regressions
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_estimando,84,OK,,-72,"even when variables that might affect information acquisition, such as campaign interest and voters' levels of education, are controlled for"
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_n_total,87,OK,,-72,494
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_controles,87,OK,,-72,Campaign Interest
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_teste_falsificacao,84,OK,,-72,the results do not substantially differ when controlling for such a variable
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_modelo_principal,87,OK,,-72,Age
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_direcao_estimativa_principal,87,OK,,-72,2.43***
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_significancia_05,87,OK,,-72,2.43***
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,b2_interpretacao_autores,86,OK,,-72,vote for the PRI candidate decreases from 95 to 67 percent when PRI partisans are aware
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,regiao,94,PAGINA_ERRADA,95,-72,Latin American presidential election campaigns
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,tipo_eleicao,75,OK,,-72,the 2006 presidential election in Mexico
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,sistema_eleitoral,78,OK,,-72,The single-round plurality rule in Mexico
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,desenho_fino,82,OK,,-72,pooled data from three national polls
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,realismo_contexto,78,OK,,-72,candidates that have no chance of winning the election
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,ano_eleicao,75,OK,,-72,the 2006 presidential election in Mexico
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,comparador_tipo,84,OK,,-72,voters who are aware of polling information
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,nivel_desfecho,85,OK,,-72,Vote Intention (1=Don't know; 0=Defined Vote Choice)
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,mecanismo_testado,80,OK,,-72,Strategic voting requires some understanding of which candidate has a lead
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,moderadores_relatados,84,OK,,-72,particularly strong among independents who do not have a co-partisan candidate to support
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,alvo_efeito,84,OK,,-72,1st place: PRD
+Cornejo2023a,fichamento_Cornejo2023a#obs2006.md,n_competidores,83,OK,,-72,PRD
+Gasperoni2015a,fichamento_Gasperoni2015a.md,titulo,1,OK,,0,The Impact of Exposure to Pre-Election Polls on Voting Behaviour
+Gasperoni2015a,fichamento_Gasperoni2015a.md,ano,1,OK,,0,"2015, pp. 1-23"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,tipo_publicacao,1,OK,,0,final peer-reviewed accepted manuscript
+Gasperoni2015a,fichamento_Gasperoni2015a.md,idioma,3,OK,,0,In the domain of electoral studies
+Gasperoni2015a,fichamento_Gasperoni2015a.md,pais_estudo,2,OK,,0,Italian voters' perception of pre-election polls
+Gasperoni2015a,fichamento_Gasperoni2015a.md,tipo_estudo,9,OK,,0,were randomly assigned—according to pre-established quotas—to one of four groups
+Gasperoni2015a,fichamento_Gasperoni2015a.md,problema_pesquisa,7,OK,,0,explore the perception of pre-election polls by voters
+Gasperoni2015a,fichamento_Gasperoni2015a.md,unidade_analise,9,OK,,0,895 participants
+Gasperoni2015a,fichamento_Gasperoni2015a.md,populacao,9,NAO_ENCONTRADA,,0,Recruitment of study participants was performed thorough quota sampling
+Gasperoni2015a,fichamento_Gasperoni2015a.md,periodo_dados,9,OK,,0,from March to December 2011
+Gasperoni2015a,fichamento_Gasperoni2015a.md,fonte_dados,9,OK,,0,Fieldwork was carried out in the period
+Gasperoni2015a,fichamento_Gasperoni2015a.md,intervencao_descricao,18,PAGINA_ERRADA,19,0,the timed items reported the findings of two distinct pre-election polls
+Gasperoni2015a,fichamento_Gasperoni2015a.md,familia_intervencao,18,PAGINA_ERRADA,19,0,the timed items reported the findings of two distinct pre-election polls
+Gasperoni2015a,fichamento_Gasperoni2015a.md,comparador,20,PAGINA_ERRADA,21,0,there is no control group
+Gasperoni2015a,fichamento_Gasperoni2015a.md,construto_outcome,19,PAGINA_ERRADA,20,0,voted for the second preferred candidate
+Gasperoni2015a,fichamento_Gasperoni2015a.md,outcome_medida,10,OK,,0,invited to 'vote' for one of the four candidates
+Gasperoni2015a,fichamento_Gasperoni2015a.md,mecanismo_id,18,PAGINA_ERRADA,20,0,'jumping on the bandwagon' without appreciably violating his/her preference profile
+Gasperoni2015a,fichamento_Gasperoni2015a.md,mecanismo_tipo_evidencia,19,PAGINA_ERRADA,20,0,"a typical example of preventative tactical, or strategic, voting"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,mecanismo_descricao,19,PAGINA_ERRADA,20,0,in order to help prevent the worst possible outcome
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderador_id,22,OK,,0,"voters more likely to switch are young, well-educated"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderador_descricao,22,OK,,0,were the most likely to yield to them
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderador_descricao,22,OK,,0,"supporters of 'sincere' voting were, consistently, less prone"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderador_descricao,23,PAGINA_ERRADA,24,0,belonged to the same half of the political spectrum
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderador_descricao,23,PAGINA_ERRADA,24,0,initially preferring extreme candidates switched to the second preferred candidate
+Gasperoni2015a,fichamento_Gasperoni2015a.md,het_metodo,20,PAGINA_ERRADA,21,0,results for Groups 1 and 2 are pooled
+Gasperoni2015a,fichamento_Gasperoni2015a.md,het_pre_especificada,20,PAGINA_ERRADA,21,0,one might expect voters with low interest and knowledge
+Gasperoni2015a,fichamento_Gasperoni2015a.md,equidade_progress_plus,22,OK,,0,"voters more likely to switch are young, well-educated"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,limitacoes_autores,20,PAGINA_ERRADA,21,0,any causal inference is also constrained by the fact
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_estrategia_identificacao,9,OK,,0,were randomly assigned—according to pre-established quotas—to one of four groups
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_estimador,21,PAGINA_ERRADA,22,0,basically confirms the findings reported in Table 5
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_estimando,9,OK,,0,were randomly assigned—according to pre-established quotas—to one of four groups
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_nivel_atribuicao_cluster,9,OK,,0,"Within each research unit, participants were randomly assigned"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_n_total,19,PAGINA_ERRADA,20,0,the analysis is based on 188 cases
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_controles,20,PAGINA_ERRADA,21,0,results for Groups 1 and 2 are pooled
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_modelo_principal,2,OK,,0,only one-tenth of voters switched votes
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_criterio_modelo_principal,2,OK,,0,only one-tenth of voters switched votes
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_direcao_estimativa_principal,19,PAGINA_ERRADA,20,0,may be plausibly attributed to knowledge of the pre-election poll findings
+Gasperoni2015a,fichamento_Gasperoni2015a.md,b2_interpretacao_autores,2,OK,,0,usually more than enough to decide an election
+Gasperoni2015a,fichamento_Gasperoni2015a.md,regiao,2,OK,,0,Italian voters' perception of pre-election polls
+Gasperoni2015a,fichamento_Gasperoni2015a.md,tipo_eleicao,8,OK,,0,whose ideological profiles range from far left to far right
+Gasperoni2015a,fichamento_Gasperoni2015a.md,sistema_eleitoral,8,OK,,0,there are four candidates
+Gasperoni2015a,fichamento_Gasperoni2015a.md,desenho_fino,8,OK,,0,online simulation of a mayoral election campaign
+Gasperoni2015a,fichamento_Gasperoni2015a.md,realismo_contexto,8,OK,,0,"four candidates, about whom the voter knows nothing"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,ano_eleicao,9,OK,,0,from March to December 2011
+Gasperoni2015a,fichamento_Gasperoni2015a.md,comparador_tipo,18,PAGINA_ERRADA,19,0,the timed items reported the findings of two distinct pre-election polls
+Gasperoni2015a,fichamento_Gasperoni2015a.md,nivel_desfecho,10,OK,,0,invited to 'vote' for one of the four candidates
+Gasperoni2015a,fichamento_Gasperoni2015a.md,margem_mostrada,18,PAGINA_ERRADA,19,0,beat the most preferred candidate (by 4 or 5 percentage points)
+Gasperoni2015a,fichamento_Gasperoni2015a.md,margem_mostrada,19,PAGINA_ERRADA,20,0,beating the second preferred candidate (by 4 or 5 percentage points)
+Gasperoni2015a,fichamento_Gasperoni2015a.md,mecanismo_testado,18,PAGINA_ERRADA,20,0,'jumping on the bandwagon' without appreciably violating his/her preference profile
+Gasperoni2015a,fichamento_Gasperoni2015a.md,mecanismo_testado,19,PAGINA_ERRADA,20,0,"a typical example of preventative tactical, or strategic, voting"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderadores_relatados,22,OK,,0,were the most likely to yield to them
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderadores_relatados,22,OK,,0,"voters more likely to switch are young, well-educated"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,moderadores_relatados,22,OK,,0,hold extreme ideological stances and strongly identify with a political coalition
+Gasperoni2015a,fichamento_Gasperoni2015a.md,alvo_efeito,19,PAGINA_ERRADA,20,0,voted for the second preferred candidate
+Gasperoni2015a,fichamento_Gasperoni2015a.md,alvo_efeito,19,PAGINA_ERRADA,20,0,"who in turn, was ahead of the voter's most preferred candidate"
+Gasperoni2015a,fichamento_Gasperoni2015a.md,n_competidores,8,OK,,0,there are four candidates
+Grillo2024c,fichamento_Grillo2024c.md,titulo,0,OK,,2,Exit polls and voter turnout in the 2017 French elections
+Grillo2024c,fichamento_Grillo2024c.md,ano,0,OK,,2,"March 15, 2022"
+Grillo2024c,fichamento_Grillo2024c.md,idioma,1,OK,,2,Elections take place under a given degree of uncertainty
+Grillo2024c,fichamento_Grillo2024c.md,pais_estudo,1,OK,,2,in the context of the 2017 French presidential elections
+Grillo2024c,fichamento_Grillo2024c.md,tipo_estudo,4,OK,,2,"As in a difference-in-differences setting, we use turnout rates at 12:00"
+Grillo2024c,fichamento_Grillo2024c.md,problema_pesquisa,1,OK,,2,will citizens still make the effort to vote?
+Grillo2024c,fichamento_Grillo2024c.md,unidade_analise,5,OK,,2,Standard errors are clustered at the department level
+Grillo2024c,fichamento_Grillo2024c.md,populacao,11,OK,,2,for all French mainland departments
+Grillo2024c,fichamento_Grillo2024c.md,periodo_dados,4,OK,,2,"at the department level in 2017, 2012 and 2007"
+Grillo2024c,fichamento_Grillo2024c.md,fonte_dados,4,OK,,2,obtained from the French interior ministry
+Grillo2024c,fichamento_Grillo2024c.md,intervencao_descricao,1,OK,,2,"RTBF reported already at 16:00 that, according to the exit polls"
+Grillo2024c,fichamento_Grillo2024c.md,familia_intervencao,1,OK,,2,while polling stations remained open until 19:00 or 20:00
+Grillo2024c,fichamento_Grillo2024c.md,construto_outcome,4,OK,,2,"Voter turnout is measured at 12:00, 17:00 and when polling stations closed."
+Grillo2024c,fichamento_Grillo2024c.md,outcome_medida,4,OK,,2,"Voter turnout is measured at 12:00, 17:00 and when polling stations closed."
+Grillo2024c,fichamento_Grillo2024c.md,mecanismo_id,7,PAGINA_ERRADA,8,2,could be more likely to opt for abstention after the information shock
+Grillo2024c,fichamento_Grillo2024c.md,mecanismo_tipo_evidencia,2,OK,,2,have a stronger decrease in turnout.
+Grillo2024c,fichamento_Grillo2024c.md,mecanismo_descricao,7,PAGINA_ERRADA,8,2,could be more likely to opt for abstention after the information shock
+Grillo2024c,fichamento_Grillo2024c.md,moderador_id,7,OK,,2,"we investigate possible heterogeneous effects along two dimensions, namely geography and the"
+Grillo2024c,fichamento_Grillo2024c.md,moderador_descricao,7,OK,,2,"we investigate possible heterogeneous effects along two dimensions, namely geography and the"
+Grillo2024c,fichamento_Grillo2024c.md,het_metodo,13,OK,,2,17h X 2nd Round X Very close BE
+Grillo2024c,fichamento_Grillo2024c.md,het_pre_especificada,2,OK,,2,We complement the analysis by checking whether the effect varies geographically
+Grillo2024c,fichamento_Grillo2024c.md,efeitos_nao_intencionais,0,OK,,2,which reduced the winning margin by around 1 percentage point
+Grillo2024c,fichamento_Grillo2024c.md,limitacoes_autores,0,OK,,2,although similar trends were observed in previous elections
+Grillo2024c,fichamento_Grillo2024c.md,b2_estrategia_identificacao,5,OK,,2,"if the exit polls had not been released, voter turnout"
+Grillo2024c,fichamento_Grillo2024c.md,b2_hipoteses_testes,1,OK,,2,we compare the trends in turnout to those in the two previous
+Grillo2024c,fichamento_Grillo2024c.md,b2_estimador,5,OK,,2,Standard errors are clustered at the department level
+Grillo2024c,fichamento_Grillo2024c.md,b2_estimando,5,OK,,2,"if the exit polls had not been released, voter turnout"
+Grillo2024c,fichamento_Grillo2024c.md,b2_nivel_atribuicao_cluster,5,OK,,2,Standard errors are clustered at the department level
+Grillo2024c,fichamento_Grillo2024c.md,b2_n_total,11,OK,,2,576
+Grillo2024c,fichamento_Grillo2024c.md,b2_controles,6,OK,,2,The results are also robust to controlling for rain and maximal temperature
+Grillo2024c,fichamento_Grillo2024c.md,b2_teste_falsificacao,6,OK,,2,"In table 2, we compare turnout trends with those in the previous"
+Grillo2024c,fichamento_Grillo2024c.md,b2_modelo_principal,6,OK,,2,Table 1 shows the results of our baseline analysis
+Grillo2024c,fichamento_Grillo2024c.md,b2_criterio_modelo_principal,6,OK,,2,Table 1 shows the results of our baseline analysis
+Grillo2024c,fichamento_Grillo2024c.md,b2_direcao_estimativa_principal,11,NAO_ENCONTRADA,,2,-3.821***
+Grillo2024c,fichamento_Grillo2024c.md,b2_significancia_05,11,OK,,2,(0.000)
+Grillo2024c,fichamento_Grillo2024c.md,b2_interpretacao_autores,0,OK,,2,which is suggestive of a causal effect
+Grillo2024c,fichamento_Grillo2024c.md,regiao,3,OK,,2,The 2017 French presidential elections took place on April 23
+Grillo2024c,fichamento_Grillo2024c.md,tipo_eleicao,3,OK,,2,a second round was held between the two top candidates
+Grillo2024c,fichamento_Grillo2024c.md,sistema_eleitoral,3,OK,,2,none of the 11 candidates won an absolute majority
+Grillo2024c,fichamento_Grillo2024c.md,desenho_fino,0,OK,,2,We exploit the unusual timing and degree of confidence with which exit
+Grillo2024c,fichamento_Grillo2024c.md,realismo_contexto,3,OK,,2,Emmanuel Macron (who had obtained 24% of the votes)
+Grillo2024c,fichamento_Grillo2024c.md,ano_eleicao,3,OK,,2,The 2017 French presidential elections took place on April 23
+Grillo2024c,fichamento_Grillo2024c.md,comparador_tipo,4,OK,,2,"As in a difference-in-differences setting, we use turnout rates at 12:00"
+Grillo2024c,fichamento_Grillo2024c.md,nivel_desfecho,4,OK,,2,"turnout rates, election results for each candidate, and the number"
+Grillo2024c,fichamento_Grillo2024c.md,margem_mostrada,4,OK,,2,predicted to win with at least 60% of the votes
+Grillo2024c,fichamento_Grillo2024c.md,mecanismo_testado,2,OK,,2,"theories of voting as an act which is, at least partially, strategic"
+Grillo2024c,fichamento_Grillo2024c.md,moderadores_relatados,7,OK,,2,"we investigate possible heterogeneous effects along two dimensions, namely geography and the"
+Grillo2024c,fichamento_Grillo2024c.md,alvo_efeito,1,OK,,2,Macron was clearly ahead and would beat Marine Le Pen
+Grillo2024c,fichamento_Grillo2024c.md,n_competidores,3,OK,,2,a second round was held between the two top candidates
+Grillo2024c,fichamento_Grillo2024c.md,dias_ate_eleicao,1,OK,,2,while polling stations remained open until 19:00 or 20:00
+Grillo2024c,fichamento_Grillo2024c.md,ajuste_mediador,11,OK,,2,Weather trends include the maximum temperature and the amount of rainfall at
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,titulo,676,OK,,-675,Disentangling the Factors Behind Shifting Voting Intentions
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,ano,676,OK,,-675,"Journal of Social and Political Psychology, 2022, Vol. 10(2)"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,tipo_publicacao,676,OK,,-675,Original Research Reports
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,idioma,676,OK,,-675,abundantly available polls inform voters what parties lead
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,pais_estudo,680,OK,,-675,the 2019 Polish parliamentary elections
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,tipo_estudo,682,OK,,-675,logistic regression testing the effect of each of the seven predictors
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,problema_pesquisa,678,OK,,-675,how interpersonal differences in psychological motives predict individual shifts in voting intentions
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,unidade_analise,680,OK,,-675,"1,022 adult Polish participants took part"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,populacao,680,OK,,-675,"1,022 adult Polish participants took part"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,periodo_dados,680,OK,,-675,one month before the 2019 Polish parliamentary elections
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,fonte_dados,680,OK,,-675,an external agency collected the data on our behalf
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,intervencao_descricao,680,OK,,-675,featured two clearly leading parties
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,intervencao_descricao,680,OK,,-675,and three trailing parties
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,familia_intervencao,680,OK,,-675,we test how shifts in voting intentions between leading and trailing parties
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,comparador,682,OK,,-675,split the sample according to initial voting preference (leading vs. trailing)
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,construto_outcome,682,OK,,-675,22.1% switched to a leading party (a bandwagon effect)
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,outcome_medida,681,OK,,-675,participants indicated which party they were planning to vote for
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,mecanismo_id,684,OK,,-675,superficial processing of information associated with low expertise
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,mecanismo_tipo_evidencia,682,OK,,-675,expertise only increased the bandwagon but did not reduce the underdog effect
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,mecanismo_descricao,682,OK,,-675,expertise only increased the bandwagon but did not reduce the underdog effect
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,moderador_id,681,OK,,-675,age negatively predicted the underdog effect
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,moderador_descricao,681,OK,,-675,age negatively predicted the underdog effect
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,moderador_descricao,682,OK,,-675,showed a significant interaction
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,het_metodo,682,OK,,-675,split the sample according to initial voting preference (leading vs. trailing)
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,het_pre_especificada,681,OK,,-675,We found only weak evidence for the finding reported by
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,equidade_progress_plus,681,OK,,-675,age negatively predicted the underdog effect
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,limitacoes_autores,687,OK,,-675,we operationalized the bandwagon effect as all switching from
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,limitacoes_autores,688,OK,,-675,"our correlational Study 1 was based on observing shifts in a single, national parliamentary election in Poland"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_estrategia_identificacao,682,OK,,-675,logistic regression testing the effect of each of the seven predictors
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_estimador,682,OK,,-675,logistic regression testing the effect of each of the seven predictors
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_estimando,680,OK,,-675,the correlational nature of this finding precludes making causal inferences
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_n_total,680,OK,,-675,"yielding a final sample of N = 1,007 valid participants"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_controles,682,OK,,-675,tested the predictive power of each of the seven predictors
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_modelo_principal,682,OK,,-675,We split the sample according to initial voting preference
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_criterio_modelo_principal,682,OK,,-675,Main Analyses
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,b2_interpretacao_autores,684,OK,,-675,political expertise is the only significant predictor of the bandwagon effect
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,regiao,680,OK,,-675,the 2019 Polish parliamentary elections
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,tipo_eleicao,680,OK,,-675,the 2019 Polish parliamentary elections
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,sistema_eleitoral,688,OK,,-675,continental system of proportional representation that typically features many parties
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,desenho_fino,680,OK,,-675,"After the elections, they disclosed their actual voting decision"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,realismo_contexto,682,OK,,-675,Final voting choices roughly mirrored those of the actual national elections
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,ano_eleicao,680,OK,,-675,the 2019 Polish parliamentary elections
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,comparador_tipo,682,OK,,-675,split the sample according to initial voting preference (leading vs. trailing)
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,nivel_desfecho,681,OK,,-675,participants indicated which party they had voted for
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,margem_mostrada,680,OK,,-675,"that both consistently polled 40% and 25% of the vote, respectively"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,mecanismo_testado,681,OK,,-675,"participants completed measures of interpersonal, strategic, moral, and epistemic factors"
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,moderadores_relatados,681,OK,,-675,age negatively predicted the underdog effect
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,alvo_efeito,680,OK,,-675,featured two clearly leading parties
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,alvo_efeito,680,OK,,-675,and three trailing parties
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,n_competidores,681,OK,,-675,one of the nine parties registered to take part
+Lammers2022a,fichamento_Lammers2022a#estudo1.md,dias_ate_eleicao,680,OK,,-675,one month before the 2019 Polish parliamentary elections
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,titulo,676,OK,,-675,Disentangling the Factors Behind Shifting Voting Intentions
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,ano,676,OK,,-675,"Journal of Social and Political Psychology, 2022, Vol. 10(2)"
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,tipo_publicacao,676,OK,,-675,Original Research Reports
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,idioma,676,OK,,-675,abundantly available polls inform voters what parties lead
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,pais_estudo,684,OK,,-675,Participants in Study 2a were 202 American Amazon Mechanical Turk users
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,pais_estudo,684,OK,,-675,Participants in Study 2b were 200 Prolific Academic users from the EU
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,tipo_estudo,684,NAO_ENCONTRADA,,-675,Studies 2a and 2b use a full experimental design
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,problema_pesquisa,676,OK,,-675,Studies 2a and 2b manipulate these two factors in a simulated election design
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,unidade_analise,684,OK,,-675,Participants in Study 2a were 202 American Amazon Mechanical Turk users
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,populacao,684,OK,,-675,Participants in Study 2a were 202 American Amazon Mechanical Turk users
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,populacao,684,OK,,-675,Participants in Study 2b were 200 Prolific Academic users from the EU
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,fonte_dados,684,OK,,-675,Participants in Study 2a were 202 American Amazon Mechanical Turk users
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,intervencao_descricao,684,OK,,-675,90% of the other voters were also planning to support the candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,familia_intervencao,684,OK,,-675,90% of the other voters were also planning to support the candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,comparador,684,NAO_ENCONTRADA,,-675,only 10% of other voters were planning to do so
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,construto_outcome,684,OK,,-675,that they would stick with their candidate or switch to the other candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,outcome_medida,684,OK,,-675,Participants then indicated on two items the likelihood
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,mecanismo_id,684,NAO_ENCONTRADA,,-675,they had forgotten a little about the elections as time passed
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,mecanismo_tipo_evidencia,684,OK,,-675,it would be fair if both candidates were included
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,mecanismo_descricao,685,OK,,-675,were more likely to switch to the leading candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,moderador_id,685,OK,,-675,showed the predicted interaction-effect
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,moderador_descricao,685,OK,,-675,showed the predicted interaction-effect
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,het_metodo,685,OK,,-675,showed the predicted interaction-effect
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,het_pre_especificada,684,OK,,-675,We preregistered the studies
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,limitacoes_autores,687,OK,,-675,These types of manipulations do not directly induce the underlying
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,limitacoes_autores,687,OK,,-675,the fictional elections used in Study 2 were void of any meaning
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,limitacoes_autores,688,OK,,-675,we relied on relatively small convenience samples
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_estrategia_identificacao,684,OK,,-675,randomly assigned to one of four cells of a
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_estimador,685,OK,,-675,ANOVA on the likelihood of switching voting intentions index
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_estimando,684,OK,,-675,randomly assigned to one of four cells of a
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_nivel_atribuicao_cluster,684,OK,,-675,between-participants design
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_n_total,684,OK,,-675,Participants in Study 2a were 202 American Amazon Mechanical Turk users
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_n_total,684,OK,,-675,Participants in Study 2b were 200 Prolific Academic users from the EU
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_controles,685,OK,,-675,A 2 (position of initial party: leading vs. trailing)
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_dp_y_tipo,685,OK,,-675,Data show cell means (SDs) and the difference between participants
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_modelo_principal,684,OK,,-675,"Given the similarity of the studies, we present and discuss them together"
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_criterio_modelo_principal,684,OK,,-675,"Given the similarity of the studies, we present and discuss them together"
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_direcao_estimativa_principal,685,OK,,-675,were more likely to switch to the leading candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_direcao_estimativa_principal,685,OK,,-675,were more likely to switch to the trailing candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_significancia_05,685,OK,,-675,"t(99) = 3.67, p < .001"
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_significancia_05,685,OK,,-675,"t(98) = 2.88, p = .005"
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_significancia_05,685,OK,,-675,"t(99) = 4.04, p < .001"
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_significancia_05,685,OK,,-675,"t(98) = 1.83, p = .071"
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_interpretacao_autores,676,OK,,-675,low expertise increases the bandwagon effect
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,b2_interpretacao_autores,676,OK,,-675,fairness concerns increase the underdog effect
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,regiao,684,OK,,-675,Participants in Study 2a were 202 American Amazon Mechanical Turk users
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,tipo_eleicao,684,OK,,-675,Participants took part in a simulated upcoming election for
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,sistema_eleitoral,684,OK,,-675,Participants took part in a simulated upcoming election for
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,desenho_fino,684,OK,,-675,Participants took part in a simulated upcoming election for
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,realismo_contexto,684,OK,,-675,Participants were first shown the two candidates (A and B)
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,comparador_tipo,684,NAO_ENCONTRADA,,-675,only 10% of other voters were planning to do so
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,nivel_desfecho,684,OK,,-675,that they would stick with their candidate or switch to the other candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,margem_mostrada,684,OK,,-675,90% of the other voters were also planning to support the candidate
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,margem_mostrada,684,NAO_ENCONTRADA,,-675,only 10% of other voters were planning to do so
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,mecanismo_testado,684,NAO_ENCONTRADA,,-675,they had forgotten a little about the elections as time passed
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,mecanismo_testado,684,OK,,-675,it would be fair if both candidates were included
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,alvo_efeito,684,OK,,-675,Participants were first shown the two candidates (A and B)
+Lammers2022a,fichamento_Lammers2022a#estudo2.md,n_competidores,684,OK,,-675,Participants were first shown the two candidates (A and B)
+Meffert2011,fichamento_Meffert2011.md,titulo,1,OK,,1,"Polls, coalition signals and strategic voting: An experimental investigation"
+Meffert2011,fichamento_Meffert2011.md,ano,1,OK,,1,© 2011 The Author(s)
+Meffert2011,fichamento_Meffert2011.md,tipo_publicacao,1,OK,,1,European Journal of Political Research
+Meffert2011,fichamento_Meffert2011.md,idioma,1,OK,,1,Polls and coalition signals can help strategic voters
+Meffert2011,fichamento_Meffert2011.md,pais_estudo,7,OK,,1,German states of Baden-Württemberg and Rhineland-Palatinate
+Meffert2011,fichamento_Meffert2011.md,tipo_estudo,7,OK,,1,test the causal effects of polls and coalition signals
+Meffert2011,fichamento_Meffert2011.md,problema_pesquisa,2,OK,,1,test whether voters in multiparty systems conform to the expectations
+Meffert2011,fichamento_Meffert2011.md,unidade_analise,8,OK,,1,A total of 280 students
+Meffert2011,fichamento_Meffert2011.md,populacao,8,OK,,1,A total of 280 students (105 female and 169 male
+Meffert2011,fichamento_Meffert2011.md,periodo_dados,8,OK,,1,two German state election campaigns in January 2006
+Meffert2011,fichamento_Meffert2011.md,fonte_dados,8,OK,,1,participated in the computer-based experiment conducted
+Meffert2011,fichamento_Meffert2011.md,intervencao_descricao,11,OK,,1,The poll results were manipulated to affect the expectation of
+Meffert2011,fichamento_Meffert2011.md,familia_intervencao,11,OK,,1,randomly assigned to one of three poll conditions that
+Meffert2011,fichamento_Meffert2011.md,comparador,11,OK,,1,one of three poll conditions that suggested election outcomes
+Meffert2011,fichamento_Meffert2011.md,outcome_medida,24,OK,,1,any vote for a different party than the one preferred
+Meffert2011,fichamento_Meffert2011.md,mecanismo_id,26,OK,,1,the objective conditions affect the respective perceptions and thus
+Meffert2011,fichamento_Meffert2011.md,mecanismo_tipo_evidencia,24,OK,,1,the model is reported with and without the perceptions
+Meffert2011,fichamento_Meffert2011.md,mecanismo_descricao,26,OK,,1,the objective conditions affect the respective perceptions and thus
+Meffert2011,fichamento_Meffert2011.md,moderador_id,20,OK,,1,show a significant interaction effect as well
+Meffert2011,fichamento_Meffert2011.md,moderador_descricao,20,OK,,1,the error reducing effect of reading poll articles diminishes
+Meffert2011,fichamento_Meffert2011.md,het_metodo,21,OK,,1,Poll articles x knowledge
+Meffert2011,fichamento_Meffert2011.md,het_pre_especificada,20,NAO_ENCONTRADA,,1,can be expected to show a declining error-reduction effect
+Meffert2011,fichamento_Meffert2011.md,limitacoes_autores,26,OK,,1,small and non-representative sample and the country-specific context
+Meffert2011,fichamento_Meffert2011.md,b2_estrategia_identificacao,11,OK,,1,were randomly assigned to one of three poll conditions
+Meffert2011,fichamento_Meffert2011.md,b2_hipoteses_testes,19,OK,,1,the poll manipulation can be considered successful
+Meffert2011,fichamento_Meffert2011.md,b2_hipoteses_testes,21,OK,,1,the signal manipulation was successful as well
+Meffert2011,fichamento_Meffert2011.md,b2_estimador,25,OK,,1,"unstandardised logistic regression coefficients, with standard errors in"
+Meffert2011,fichamento_Meffert2011.md,b2_estimando,11,OK,,1,were randomly assigned to one of three poll conditions
+Meffert2011,fichamento_Meffert2011.md,b2_nivel_atribuicao_cluster,11,OK,,1,were randomly assigned to one of three poll conditions
+Meffert2011,fichamento_Meffert2011.md,b2_n_total,8,OK,,1,only the 200 participants who were eligible to vote
+Meffert2011,fichamento_Meffert2011.md,b2_controles,25,OK,,1,"political knowledge, small party supporter and sex of the"
+Meffert2011,fichamento_Meffert2011.md,b2_modelo_principal,26,OK,,1,the objective conditions affect the respective perceptions and thus
+Meffert2011,fichamento_Meffert2011.md,b2_criterio_modelo_principal,26,OK,,1,the objective conditions affect the respective perceptions and thus
+Meffert2011,fichamento_Meffert2011.md,b2_direcao_estimativa_principal,25,OK,,1,the manipulated poll condition did not have any direct
+Meffert2011,fichamento_Meffert2011.md,b2_direcao_estimativa_principal,25,OK,,1,The manipulated coalition signal does not induce insincere voting
+Meffert2011,fichamento_Meffert2011.md,b2_significancia_05,25,OK,,1,"unstandardised logistic regression coefficients, with standard errors in"
+Meffert2011,fichamento_Meffert2011.md,b2_interpretacao_autores,26,OK,,1,insincere voting is caused by a variety of factors
+Meffert2011,fichamento_Meffert2011.md,regiao,7,OK,,1,German states of Baden-Württemberg and Rhineland-Palatinate
+Meffert2011,fichamento_Meffert2011.md,tipo_eleicao,7,OK,,1,a single party list vote that determines who will
+Meffert2011,fichamento_Meffert2011.md,sistema_eleitoral,7,OK,,1,electoral system with proportional representation in which voters have
+Meffert2011,fichamento_Meffert2011.md,desenho_fino,28,OK,,1,our small laboratory experiment
+Meffert2011,fichamento_Meffert2011.md,realismo_contexto,7,OK,,1,the five parties that could reasonably be expected to
+Meffert2011,fichamento_Meffert2011.md,ano_eleicao,7,OK,,1,Both elections were held on 26 March
+Meffert2011,fichamento_Meffert2011.md,comparador_tipo,11,OK,,1,one of three poll conditions that suggested election outcomes
+Meffert2011,fichamento_Meffert2011.md,nivel_desfecho,15,OK,,1,participants were asked to vote for their final
+Meffert2011,fichamento_Meffert2011.md,mecanismo_testado,4,OK,,1,who pays attention to polls and who uses such
+Meffert2011,fichamento_Meffert2011.md,mecanismo_testado,3,OK,,1,close election and plausible alternative choices should increase the
+Meffert2011,fichamento_Meffert2011.md,moderadores_relatados,20,OK,,1,show a significant interaction effect as well
+Meffert2011,fichamento_Meffert2011.md,alvo_efeito,11,OK,,1,just on the threshold required for entering parliament and
+Meffert2011,fichamento_Meffert2011.md,n_competidores,7,OK,,1,the five parties that could reasonably be expected to
+Meffert2011,fichamento_Meffert2011.md,ajuste_mediador,25,OK,,1,if the perceived distance of the preferred small party
+Morton2015a,fichamento_Morton2015a.md,titulo,1,OK,,2,"Exit Polls, Turnout, and Bandwagon Voting: Evidence from a Natural Experiment"
+Morton2015a,fichamento_Morton2015a.md,ano,1,OK,,2,"April 10, 2015"
+Morton2015a,fichamento_Morton2015a.md,tipo_publicacao,0,OK,,2,To appear in: European Economic Review
+Morton2015a,fichamento_Morton2015a.md,idioma,1,OK,,2,We exploit a voting reform in France to estimate the causal effect
+Morton2015a,fichamento_Morton2015a.md,pais_estudo,8,OK,,2,France has a semi-presidential system
+Morton2015a,fichamento_Morton2015a.md,tipo_estudo,3,OK,,2,This reform allows us to use a difference-in-difference strategy.
+Morton2015a,fichamento_Morton2015a.md,problema_pesquisa,1,OK,,2,the causal effect of exit poll information on turnout and bandwagon voting
+Morton2015a,fichamento_Morton2015a.md,unidade_analise,17,OK,,2,We treat each OST as a department in the analysis.
+Morton2015a,fichamento_Morton2015a.md,populacao,16,OK,,2,turnout for first and second election rounds from 1981
+Morton2015a,fichamento_Morton2015a.md,periodo_dados,25,OK,,2,Sample includes all presidential elections between 1981 and 2012
+Morton2015a,fichamento_Morton2015a.md,fonte_dados,16,OK,,2,collected from the French ministry of Internal Affairs and from the
+Morton2015a,fichamento_Morton2015a.md,intervencao_descricao,9,NAO_ENCONTRADA,,2,TV channels release highly precise early estimations of the real results
+Morton2015a,fichamento_Morton2015a.md,familia_intervencao,9,OK,,2,the release of exit polls is therefore not allowed until
+Morton2015a,fichamento_Morton2015a.md,comparador,4,OK,,2,counterfactual situation (same constituencies with and without exit poll information)
+Morton2015a,fichamento_Morton2015a.md,construto_outcome,1,OK,,2,exit poll information significantly increases bandwagon voting
+Morton2015a,fichamento_Morton2015a.md,construto_outcome,1,OK,,2,knowing the exit poll information decreases voter turnout by about 11
+Morton2015a,fichamento_Morton2015a.md,outcome_medida,18,OK,,2,the turnout by department s in year t
+Morton2015a,fichamento_Morton2015a.md,outcome_medida,31,OK,,2,the normalized difference of votes between the candidate with the most votes
+Morton2015a,fichamento_Morton2015a.md,mecanismo_id,7,OK,,2,learning that one's own decision will not affect the outcome
+Morton2015a,fichamento_Morton2015a.md,mecanismo_tipo_evidencia,7,OK,,2,learning that one's own decision will not affect the outcome
+Morton2015a,fichamento_Morton2015a.md,mecanismo_descricao,7,OK,,2,learning that one's own decision will not affect the outcome
+Morton2015a,fichamento_Morton2015a.md,limitacoes_autores,33,OK,,2,Our data does not allow us to distinguish between the
+Morton2015a,fichamento_Morton2015a.md,b2_estrategia_identificacao,3,OK,,2,This reform allows us to use a difference-in-difference strategy.
+Morton2015a,fichamento_Morton2015a.md,b2_hipoteses_testes,26,OK,,2,we first calculate placebo estimates using 1994 as the year
+Morton2015a,fichamento_Morton2015a.md,b2_estimador,19,OK,,2,we apply weighted least squares to equation (1) using the
+Morton2015a,fichamento_Morton2015a.md,b2_estimando,3,OK,,2,This reform allows us to use a difference-in-difference strategy.
+Morton2015a,fichamento_Morton2015a.md,b2_nivel_atribuicao_cluster,21,OK,,2,there is some within-department correlation of the error term
+Morton2015a,fichamento_Morton2015a.md,b2_n_total,25,OK,,2,N = 1260
+Morton2015a,fichamento_Morton2015a.md,b2_controles,25,OK,,2,Department-specific linear time trend
+Morton2015a,fichamento_Morton2015a.md,b2_controles,31,OK,,2,Our approach minimizes endogeneity concerns because the regressors are predetermined.
+Morton2015a,fichamento_Morton2015a.md,b2_teste_falsificacao,26,OK,,2,we first calculate placebo estimates using 1994 as the year
+Morton2015a,fichamento_Morton2015a.md,b2_modelo_principal,24,OK,,2,remains remarkably stable at around 11 percentage points in the baseline specification
+Morton2015a,fichamento_Morton2015a.md,b2_modelo_principal,1,OK,,2,exit poll information significantly increases bandwagon voting
+Morton2015a,fichamento_Morton2015a.md,b2_criterio_modelo_principal,24,OK,,2,remains remarkably stable at around 11 percentage points in the baseline specification
+Morton2015a,fichamento_Morton2015a.md,b2_criterio_modelo_principal,1,OK,,2,exit poll information significantly increases bandwagon voting
+Morton2015a,fichamento_Morton2015a.md,b2_direcao_estimativa_principal,1,OK,,2,knowing the exit poll information decreases voter turnout by about 11
+Morton2015a,fichamento_Morton2015a.md,b2_direcao_estimativa_principal,31,NAO_ENCONTRADA,,2,"find a pre-reform slope coefficient of 1.17, which is statistically"
+Morton2015a,fichamento_Morton2015a.md,b2_significancia_05,25,OK,,2,"indicate significance at the 10%, 5% and 1% level respectively"
+Morton2015a,fichamento_Morton2015a.md,b2_significancia_05,32,PAGINA_ERRADA,31,2,statistically significant at the 10% level using ordinary clustered
+Morton2015a,fichamento_Morton2015a.md,b2_interpretacao_autores,34,OK,,2,decreases turnout by about 12 percentage points in our preferred specification
+Morton2015a,fichamento_Morton2015a.md,tipo_eleicao,8,OK,,2,In the first round a large number of candidates can participate.
+Morton2015a,fichamento_Morton2015a.md,sistema_eleitoral,9,OK,,2,participate in a second round to determine the winner
+Morton2015a,fichamento_Morton2015a.md,desenho_fino,3,OK,,2,we make use of a unique natural experiment to consider
+Morton2015a,fichamento_Morton2015a.md,realismo_contexto,16,OK,,2,Our primary data set comprises French presidential election results
+Morton2015a,fichamento_Morton2015a.md,ano_eleicao,16,OK,,2,"1981, 1988, 1995, 2002, 2007, and 2012"
+Morton2015a,fichamento_Morton2015a.md,comparador_tipo,15,OK,,2,decided to change the voting day to Saturday in all
+Morton2015a,fichamento_Morton2015a.md,nivel_desfecho,18,OK,,2,the turnout by department s in year t
+Morton2015a,fichamento_Morton2015a.md,nivel_desfecho,31,OK,,2,the normalized difference of votes between the candidate with the most votes
+Morton2015a,fichamento_Morton2015a.md,alvo_efeito,31,OK,,2,the candidate with the most votes and the runner–up
+Morton2015a,fichamento_Morton2015a.md,dias_ate_eleicao,9,OK,,2,on Sunday at 8:00PM CET
+Schlegel2023,fichamento_Schlegel2023.md,titulo,1,OK,,1,When information is not enough for strategic voting
+Schlegel2023,fichamento_Schlegel2023.md,ano,1,OK,,1,Electoral Studies 86 (2023) 102692
+Schlegel2023,fichamento_Schlegel2023.md,tipo_publicacao,1,OK,,1,Notes on recent elections
+Schlegel2023,fichamento_Schlegel2023.md,idioma,1,OK,,1,When information is not enough for strategic voting
+Schlegel2023,fichamento_Schlegel2023.md,pais_estudo,4,OK,,1,We fielded our study in the United Kingdom
+Schlegel2023,fichamento_Schlegel2023.md,tipo_estudo,3,OK,,1,We randomly assign respondents to one of the eight conditions.
+Schlegel2023,fichamento_Schlegel2023.md,problema_pesquisa,1,OK,,1,political information from the effect of cognitive capacity
+Schlegel2023,fichamento_Schlegel2023.md,unidade_analise,3,OK,,1,We randomly assign respondents to one of the eight conditions.
+Schlegel2023,fichamento_Schlegel2023.md,populacao,4,OK,,1,a pilot study with 1000 respondents
+Schlegel2023,fichamento_Schlegel2023.md,populacao,4,OK,,1,a pre-registered main study with 2500 respondents
+Schlegel2023,fichamento_Schlegel2023.md,periodo_dados,4,OK,,1,"on Jan 29 and Sep 24, 2020, respectively"
+Schlegel2023,fichamento_Schlegel2023.md,fonte_dados,4,OK,,1,collected through the online survey platform Prolific
+Schlegel2023,fichamento_Schlegel2023.md,intervencao_descricao,3,OK,,1,results from three separate polls as part of an animated visualization
+Schlegel2023,fichamento_Schlegel2023.md,intervencao_descricao,3,OK,,1,Candidate 𝐴 has almost perfect issue overlap (95%)
+Schlegel2023,fichamento_Schlegel2023.md,familia_intervencao,3,OK,,1,providing the results from recent polls indicating the candidates' relative support
+Schlegel2023,fichamento_Schlegel2023.md,comparador,5,NAO_ENCONTRADA,,1,(vs. Low Levels in Control Condition)
+Schlegel2023,fichamento_Schlegel2023.md,construto_outcome,4,OK,,1,supporting Candidate 𝐵 instead of Candidate 𝐴
+Schlegel2023,fichamento_Schlegel2023.md,outcome_medida,3,OK,,1,participants are asked to cast their vote for one of the candidates
+Schlegel2023,fichamento_Schlegel2023.md,mecanismo_id,2,OK,,1,information and capabilities are key preconditions of a strategic vote
+Schlegel2023,fichamento_Schlegel2023.md,mecanismo_tipo_evidencia,2,OK,,1,cognitive ability and resources to process the information
+Schlegel2023,fichamento_Schlegel2023.md,mecanismo_descricao,2,OK,,1,information and capabilities are key preconditions of a strategic vote
+Schlegel2023,fichamento_Schlegel2023.md,mecanismo_descricao,2,OK,,1,cognitive ability and resources to process the information
+Schlegel2023,fichamento_Schlegel2023.md,moderador_id,4,OK,,1,none of the treatments have a significant and replicable effect
+Schlegel2023,fichamento_Schlegel2023.md,moderador_descricao,4,OK,,1,none of the treatments have a significant and replicable effect
+Schlegel2023,fichamento_Schlegel2023.md,het_metodo,4,OK,,1,conditional treatment effects of information and cognitive resources for different levels
+Schlegel2023,fichamento_Schlegel2023.md,het_pre_especificada,3,OK,,1,The analysis for the main-study is pre-registered
+Schlegel2023,fichamento_Schlegel2023.md,limitacoes_autores,3,OK,,1,the lack of a counterfactual condition in which respondents face no incentives
+Schlegel2023,fichamento_Schlegel2023.md,b2_estrategia_identificacao,3,OK,,1,We randomly assign respondents to one of the eight conditions.
+Schlegel2023,fichamento_Schlegel2023.md,b2_hipoteses_testes,4,OK,,1,We conducted a set of manipulation checks for all three treatments.
+Schlegel2023,fichamento_Schlegel2023.md,b2_estimando,3,OK,,1,We randomly assign respondents to one of the eight conditions.
+Schlegel2023,fichamento_Schlegel2023.md,b2_nivel_atribuicao_cluster,3,OK,,1,We randomly assign respondents to one of the eight conditions.
+Schlegel2023,fichamento_Schlegel2023.md,b2_n_total,4,OK,,1,a pre-registered main study with 2500 respondents
+Schlegel2023,fichamento_Schlegel2023.md,b2_teste_falsificacao,4,OK,,1,We conducted a set of manipulation checks for all three treatments.
+Schlegel2023,fichamento_Schlegel2023.md,b2_modelo_principal,4,OK,,1,by replicating the results of our pilot in a pre-registered main study
+Schlegel2023,fichamento_Schlegel2023.md,b2_criterio_modelo_principal,4,OK,,1,by replicating the results of our pilot in a pre-registered main study
+Schlegel2023,fichamento_Schlegel2023.md,b2_direcao_estimativa_principal,4,OK,,1,increased by 11 percentage points in the high information/cognitive resources condition
+Schlegel2023,fichamento_Schlegel2023.md,b2_significancia_05,4,OK,,1,We do not find a replicable significant increase in strategic voting
+Schlegel2023,fichamento_Schlegel2023.md,b2_interpretacao_autores,4,OK,,1,our experimental results support the hypothesis that information and cognitive resources
+Schlegel2023,fichamento_Schlegel2023.md,regiao,4,OK,,1,We fielded our study in the United Kingdom
+Schlegel2023,fichamento_Schlegel2023.md,tipo_eleicao,3,OK,,1,Subjects participate in a mock election between three candidates
+Schlegel2023,fichamento_Schlegel2023.md,sistema_eleitoral,4,OK,,1,We fielded our study in the United Kingdom
+Schlegel2023,fichamento_Schlegel2023.md,desenho_fino,4,OK,,1,collected through the online survey platform Prolific
+Schlegel2023,fichamento_Schlegel2023.md,realismo_contexto,3,OK,,1,Subjects participate in a mock election between three candidates
+Schlegel2023,fichamento_Schlegel2023.md,ano_eleicao,4,OK,,1,"Sep 24, 2020, respectively"
+Schlegel2023,fichamento_Schlegel2023.md,comparador_tipo,5,NAO_ENCONTRADA,,1,(vs. Low Levels in Control Condition)
+Schlegel2023,fichamento_Schlegel2023.md,nivel_desfecho,3,OK,,1,participants are asked to cast their vote for one of the candidates
+Schlegel2023,fichamento_Schlegel2023.md,mecanismo_testado,3,PAGINA_ERRADA,4,1,we induce uncertainty about each candidate's electoral prospects
+Schlegel2023,fichamento_Schlegel2023.md,mecanismo_testado,4,OK,,1,count the number of times they blink while completing the survey
+Schlegel2023,fichamento_Schlegel2023.md,moderadores_relatados,4,OK,,1,none of the treatments have a significant and replicable effect
+Schlegel2023,fichamento_Schlegel2023.md,alvo_efeito,3,OK,,1,Candidate 𝐵 and 𝐶 are tied for the lead
+Schlegel2023,fichamento_Schlegel2023.md,n_competidores,3,OK,,1,Subjects participate in a mock election between three candidates

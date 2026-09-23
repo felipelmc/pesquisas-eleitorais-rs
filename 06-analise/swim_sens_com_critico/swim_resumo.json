@@ -1,0 +1,763 @@
+{
+  "versao": "1",
+  "comando": "swim",
+  "gerado_em": "2026-09-23T19:18:28Z",
+  "entrada": "06-analise/swim_entrada_principal.csv",
+  "parametros": {
+    "grupo": [
+      "familia_intervencao",
+      "construto_outcome",
+      "comparador_tipo",
+      "celula_alvo"
+    ],
+    "limiar_consistencia": 0.7,
+    "nivel": 0.95,
+    "separar_desenho": true,
+    "excluir_rob": "nenhum"
+  },
+  "n_linhas_excluidas_revisao": 0,
+  "n_excluidos_rob_critico": 0,
+  "ressalvas": [
+    "direção pelo estimador pontual; significância não define direção",
+    "teste de sinal não estima magnitude nem considera precisão ou tamanho dos estudos",
+    "rótulo da caixa de ferramentas exige certeza (GRADE)"
+  ],
+  "figuras": [
+    "06-analise/swim_sens_com_critico/figuras/direcao_efeito.png",
+    "06-analise/swim_sens_com_critico/figuras/direcao_efeito.pdf"
+  ],
+  "grupos": [
+    {
+      "grupo": "agregador_projecao | mobilizacao | outro | mobilizacao | nao_randomizado",
+      "familia_intervencao": "agregador_projecao",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 0,
+      "n_beneficos": 0,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 1,
+      "proporcao_benefica": null,
+      "ic_proporcao": null,
+      "p_sinal": null,
+      "so_risco_alto": null,
+      "teste_sinal": {
+        "n": 0,
+        "proporcao_benefica": null,
+        "ic": null,
+        "p_bilateral": null
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Kaplan2019a"
+      ]
+    },
+    {
+      "grupo": "agregador_projecao | mobilizacao | outro | mobilizacao | randomizado",
+      "familia_intervencao": "agregador_projecao",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 0,
+      "n_danosos": 1,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0,
+      "ic_proporcao": [0, 0.975],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 0,
+        "ic": [0, 0.975],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": true,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Westwood2020a"
+      ]
+    },
+    {
+      "grupo": "boca_de_urna | apoio_ao_lider | antes_depois_proibicao | principal | nao_randomizado",
+      "familia_intervencao": "boca_de_urna",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "antes_depois_proibicao",
+      "celula_alvo": "principal",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 2,
+      "n_estudos": 2,
+      "n_beneficos": 1,
+      "n_danosos": 1,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0.5,
+      "ic_proporcao": [0.0125791170934251, 0.987420882906575],
+      "p_sinal": 1,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 2,
+        "proporcao_benefica": 0.5,
+        "ic": [0.0125791170934251, 0.987420882906575],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Morton2015a",
+        "Chatterjee2019a"
+      ]
+    },
+    {
+      "grupo": "boca_de_urna | mobilizacao | antes_depois_proibicao | mobilizacao | nao_randomizado",
+      "familia_intervencao": "boca_de_urna",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "antes_depois_proibicao",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 2,
+      "n_estudos": 2,
+      "n_beneficos": 0,
+      "n_danosos": 2,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0,
+      "ic_proporcao": [0, 0.841886116991581],
+      "p_sinal": 0.5,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 2,
+        "proporcao_benefica": 0,
+        "ic": [0, 0.841886116991581],
+        "p_bilateral": 0.5,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": true,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Morton2015a",
+        "Chatterjee2019a"
+      ]
+    },
+    {
+      "grupo": "boca_de_urna | mobilizacao | outro | mobilizacao | nao_randomizado",
+      "familia_intervencao": "boca_de_urna",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 0,
+      "n_danosos": 1,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0,
+      "ic_proporcao": [0, 0.975],
+      "p_sinal": 1,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 0,
+        "ic": [0, 0.975],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": true,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Grillo2024c"
+      ]
+    },
+    {
+      "grupo": "outro | apoio_ao_lider | unidades_nao_expostas | principal | nao_randomizado",
+      "familia_intervencao": "outro",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "unidades_nao_expostas",
+      "celula_alvo": "principal",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Araujo2021a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | mesmo_candidato_atras | principal | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "mesmo_candidato_atras",
+      "celula_alvo": "principal",
+      "classe_desenho": "randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Tal2015a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | outro | principal | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "outro",
+      "celula_alvo": "principal",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 3,
+      "n_estudos": 3,
+      "n_beneficos": 3,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.292401773821287, 1],
+      "p_sinal": 0.25,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 3,
+        "proporcao_benefica": 1,
+        "ic": [0.292401773821287, 1],
+        "p_bilateral": 0.25,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Stolwijk2016a",
+        "Unkelbach2022a",
+        "Feltovich2022"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | outro | principal | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "outro",
+      "celula_alvo": "principal",
+      "classe_desenho": "randomizado",
+      "k_estudos": 3,
+      "n_estudos": 3,
+      "n_beneficos": 3,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.292401773821287, 1],
+      "p_sinal": 0.25,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 3,
+        "proporcao_benefica": 1,
+        "ic": [0.292401773821287, 1],
+        "p_bilateral": 0.25,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Witsman2016a",
+        "Boukouras2020a",
+        "Schlegel2023"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | outro | viabilidade | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "outro",
+      "celula_alvo": "viabilidade",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 0,
+      "n_beneficos": 0,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 1,
+      "proporcao_benefica": null,
+      "ic_proporcao": null,
+      "p_sinal": null,
+      "so_risco_alto": null,
+      "teste_sinal": {
+        "n": 0,
+        "proporcao_benefica": null,
+        "ic": null,
+        "p_bilateral": null
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Gasperoni2015a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | outro | viabilidade | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "outro",
+      "celula_alvo": "viabilidade",
+      "classe_desenho": "randomizado",
+      "k_estudos": 2,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 1,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Meer2015a",
+        "Freden2024a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | sem_pesquisa | momentum | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "sem_pesquisa",
+      "celula_alvo": "momentum",
+      "classe_desenho": "randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Dahlgaard2016a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | sem_pesquisa | principal | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "sem_pesquisa",
+      "celula_alvo": "principal",
+      "classe_desenho": "randomizado",
+      "k_estudos": 4,
+      "n_estudos": 4,
+      "n_beneficos": 4,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.397635364383525, 1],
+      "p_sinal": 0.125,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 4,
+        "proporcao_benefica": 1,
+        "ic": [0.397635364383525, 1],
+        "p_bilateral": 0.125,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Agranov2017a",
+        "Farjam2020a",
+        "Timotei2013a",
+        "Tyszler2015"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | sem_pesquisa | viabilidade | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "sem_pesquisa",
+      "celula_alvo": "viabilidade",
+      "classe_desenho": "randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Cornejo2023a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | unidades_nao_expostas | viabilidade | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "unidades_nao_expostas",
+      "celula_alvo": "viabilidade",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": true,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Lago2015"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | outro | mobilizacao | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "outro",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "randomizado",
+      "k_estudos": 1,
+      "n_estudos": 0,
+      "n_beneficos": 0,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 1,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": null,
+      "ic_proporcao": null,
+      "p_sinal": null,
+      "so_risco_alto": null,
+      "teste_sinal": {
+        "n": 0,
+        "proporcao_benefica": null,
+        "ic": null,
+        "p_bilateral": null
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Gerber2020a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | sem_pesquisa | mobilizacao | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "sem_pesquisa",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 1,
+      "n_estudos": 1,
+      "n_beneficos": 1,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.025, 1],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 1,
+        "proporcao_benefica": 1,
+        "ic": [0.025, 1],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Klor2017a"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | sem_pesquisa | mobilizacao | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "sem_pesquisa",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "randomizado",
+      "k_estudos": 3,
+      "n_estudos": 3,
+      "n_beneficos": 2,
+      "n_danosos": 1,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 0.666666666666667,
+      "ic_proporcao": [0.0942993240502461, 0.991596241340387],
+      "p_sinal": 1,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 3,
+        "proporcao_benefica": 0.666666666666667,
+        "ic": [0.0942993240502461, 0.991596241340387],
+        "p_bilateral": 1,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": false,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Agranov2017a",
+        "Groer2010a",
+        "Erlich2023"
+      ]
+    },
+    {
+      "grupo": "pesquisa_pre_eleitoral | mobilizacao | unidades_nao_expostas | mobilizacao | nao_randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "mobilizacao",
+      "comparador_tipo": "unidades_nao_expostas",
+      "celula_alvo": "mobilizacao",
+      "classe_desenho": "nao_randomizado",
+      "k_estudos": 2,
+      "n_estudos": 2,
+      "n_beneficos": 2,
+      "n_danosos": 0,
+      "n_mistos": 0,
+      "n_nulos": 0,
+      "n_sem_direcao": 0,
+      "proporcao_benefica": 1,
+      "ic_proporcao": [0.158113883008419, 1],
+      "p_sinal": 0.5,
+      "so_risco_alto": false,
+      "teste_sinal": {
+        "n": 2,
+        "proporcao_benefica": 1,
+        "ic": [0.158113883008419, 1],
+        "p_bilateral": 0.5,
+        "metodo": "binomial exato; IC Clopper-Pearson"
+      },
+      "insumos_regra_caixa": {
+        "k_minimo": 5,
+        "proporcao_minima": 0.7,
+        "atinge_k": false,
+        "atinge_proporcao_benefica": true,
+        "atinge_proporcao_danosa": false,
+        "p_menor_005": false,
+        "nota": "n_estudos = estudos com direção definida (entram no teste de sinal); rótulo exige certeza GRADE e é decidido em rs.py caixa"
+      },
+      "estudos": [
+        "Stolwijk2019b",
+        "Brugarolas2021"
+      ]
+    }
+  ]
+}
