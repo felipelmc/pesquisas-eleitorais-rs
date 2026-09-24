@@ -49,5 +49,8 @@ $endif$
 $if(rascunho)$
   rascunho: true,
 $endif$
+$if(paisagem)$
+  paisagem: true,
+$endif$
   doc,
 )

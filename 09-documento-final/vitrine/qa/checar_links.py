@@ -73,6 +73,8 @@ def main():
                 continue
             vistos.add((h, origem))
             u = urlparse(h)
+            if u.scheme in ("data", "javascript", "blob") or h.startswith("data:"):
+                continue  # recursos embutidos das páginas do Quarto
             if u.scheme in ("http", "https", "mailto"):
                 info.append(f"{alvo.name}: link externo {h}")
                 continue

@@ -6,6 +6,7 @@ keywords:
   - pesquisas eleitorais
   - material suplementar
   - revisão sistemática rápida
+paisagem: true
 metadata-files: [revista/_revista.yml]
 bibliography: revista/referencias.json
 number-sections: false

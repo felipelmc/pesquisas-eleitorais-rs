@@ -18,7 +18,8 @@ export PYTHONDONTWRITEBYTECODE=1
 # 0. versões
 qv="$(quarto --version)"
 [[ "$qv" == 1.9.* ]] || { echo "Quarto $qv; o projeto foi montado com 1.9.35" >&2; exit 1; }
-quarto typst --version | grep -q "0.14" || { echo "Typst embutido no Quarto não é 0.14" >&2; exit 1; }
+tv="$(quarto typst --version 2>&1)"
+[[ "$tv" == *"0.14"* ]] || { echo "Typst embutido no Quarto não é 0.14: $tv" >&2; exit 1; }
 export TYPST_IGNORE_SYSTEM_FONTS=true TYPST_IGNORE_EMBEDDED_FONTS=true
 export SOURCE_DATE_EPOCH="$(git -C "$raiz" log -1 --format=%ct -- 09-documento-final/)"
 
@@ -69,7 +70,7 @@ python3 09-documento-final/vitrine/exportar_dados.py
 python3 09-documento-final/vitrine/montar_vitrine.py
 python3 09-documento-final/vitrine/qa/testar_sanitizacao.py "$docs"
 python3 09-documento-final/vitrine/qa/testar_textos.py
-python3 09-documento-final/vitrine/qa/checar_links.py "$docs"
+python3 09-documento-final/vitrine/qa/checar_links.py "$docs/index.html" "$docs/revisao.html" "$docs/suplemento.html" "$docs/linguagem-simples.html"
 python3 09-documento-final/vitrine/qa/verificar_licencas.py
 
 # 7. docs/ só com a lista branca

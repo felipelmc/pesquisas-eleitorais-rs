@@ -259,7 +259,7 @@ def s3_emendas():
               "executado; E, correção de erro ou incoerência. As emendas E001 e E002 aplicam regras de validação "
               "da busca previstas no protocolo e não mudaram o protocolo.", "tbl-s3-emendas",
               [9, 9, 20, 16, 16, 18, 12])
-    return envolver("landscape", t)
+    return envolver("tabela-larga", t)
 
 
 # ================================================================ S4 a S10: tabelas copiadas
@@ -271,7 +271,7 @@ def s4_caracteristicas():
               "parênteses. Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por "
               "resultado (ferramenta: julgamento), rascunho de IA não validado; \"não avaliado\" quando o estudo não "
               "tem efeito principal.", "tbl-s4-caracteristicas", [15, 5, 15, 10, 13, 9, 7, 9, 17])
-    return envolver("landscape", t) + "\n\n" + s4_excluidos()
+    return envolver("tabela-larga", t) + "\n\n" + s4_excluidos()
 
 
 CRITERIO = {  # critérios de elegibilidade do protocolo (seção 3; 00-protocolo/codebook_elegibilidade.csv)
@@ -347,7 +347,7 @@ def s5_rob():
                  "A = alto; I = incerto; n.a. = critério que não se aplica ao desenho. GC = critérios para desenho com "
                  "grupo controle; ITS = série temporal interrompida. Sequência aleatória e ocultação da alocação ficam "
                  "fora do geral (Emenda 4a). † como nas tabelas anteriores.", "tbl-s5-epoc", [10, 7] + [5] * 16 + [3])
-    return envolver("landscape", rob2 + "\n\n" + robins + "\n\n" + epoc)
+    return envolver("tabela-larga", rob2 + "\n\n" + robins + "\n\n" + epoc)
 
 
 def s6_efeitos():
@@ -383,7 +383,7 @@ def s8_sensibilidades():
                       "cada estudo como nas células do protocolo (artigo, Tabela 2). A certeza qualifica a direção, não "
                       "a magnitude. Esta análise não aparece no resumo dos achados do artigo.", "tbl-s8-sof-amplo",
                       [24, 26, 20, 8, 22])
-    return envolver("landscape", sens + "\n\n" + sof_amplo)
+    return envolver("tabela-larga", sens + "\n\n" + sof_amplo)
 
 
 FAMILIA_PAINEL = {"Agregador ou projeção": "agregador_projecao", "Boca de urna": "boca_de_urna",
@@ -424,7 +424,7 @@ def s9_caixa():
                    "desfecho × desenho. Com todas as células, o rótulo segue Inconclusivo em todas as linhas; a força "
                    "da linha de pesquisa pré-eleitoral × comparecimento foi calculada pela ferramenta com certeza "
                    "baixa e depende da revisão da caixa (P042).", "tbl-s9-painel")
-    return envolver("landscape", cel) + "\n\n" + painel
+    return envolver("tabela-larga", cel) + "\n\n" + painel
 
 
 def s10_regional():
@@ -436,7 +436,7 @@ def s10_regional():
                  "menos à mostrada como inviável ou abaixo da cláusula, ou mais apoio ao partido mostrado ganhando "
                  "apoio. Direção do estudo na síntese principal (NR quando o estudo não entra nela).",
                  "tbl-s10-viabilidade", [13, 5, 9, 11, 11, 9, 11, 9, 10, 12])
-    return envolver("tabela-larga", reg) + "\n\n" + envolver("landscape", viab)
+    return envolver("tabela-larga", reg) + "\n\n" + envolver("tabela-larga", viab)
 
 
 def s11_checklists():

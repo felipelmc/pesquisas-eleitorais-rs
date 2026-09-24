@@ -17,6 +17,11 @@ Checa:
       geram coincidências curtas legítimas; 50 caracteres pegam cópia de trecho);
   - títulos (inteiros) e resumos (janelas de 40 caracteres) de registros não incluídos;
   - trechos de 50 caracteres dos prompts do projeto (AVISO) e a menção a pontos_para_o_revisor.
+Política por tipo de arquivo: a vitrine (index.html) segue todas as regras acima. Os documentos (artigo, suplemento,
+relatório técnico, guia) publicam de propósito tabelas derivadas da extração, notas GRADE e a lista de pendências;
+neles, FALHA só para e-mail, caminho local, citação literal dos PDFs (evidencia, trecho) e resumo de registro não
+incluído; o resto vira AVISO. Títulos de obras citadas na bibliografia (revista/referencias.json) são públicos e
+não contam como título de registro não incluído.
 """
 import argparse
 import csv
@@ -107,6 +112,19 @@ def main():
         res = r.get("resumo") or ""
         if len(res) >= 80 and t not in incl:
             resumo_proib |= janelas(res, passo=40, n=40)
+    # obras citadas na bibliografia do artigo e do suplemento: título é dado bibliográfico público
+    citados = set()
+    try:
+        for it in json.load(open(RAIZ / "09-documento-final/revista/referencias.json", encoding="utf-8")):
+            for campo in ("title", "container-title", "collection-title"):
+                tt = norm(it.get(campo, ""))
+                if tt:
+                    citados.add(tt)
+    except OSError:
+        pass
+    titulos_proib = {t for t in titulos_proib if not any(t in c or c in t for c in citados)}
+    for c in citados:
+        resumo_proib -= janelas(c, passo=1, n=40)
     # prompts do projeto
     prompts = set()
     for p in list(RAIZ.glob("**/prompt*.md")) + list(RAIZ.glob("**/prompts*/**/*.md")) + list(RAIZ.glob("**/INSTRUCOES*.md")):
@@ -132,27 +150,34 @@ def main():
     campos = r'"(evidencia|trecho|justificativa|ator_registrado|observacao|aviso|pdf_path|descricao|verificado_humano|validado_humano|outcome|modelo|subgrupo)"\s*:'
     for p in arquivos:
         nome = p.relative_to(pasta)
+        estrito = p.name == "index.html"
+        regra = falhas if estrito else avisos
         bruto = texto_arquivo(p)
         if not bruto:
             continue
         for m in re.finditer(r"[\w.+-]+@[\w-]+\.[\w.-]+", bruto):
             if not re.search(r"@(?:\d|media|font-face|keyframes|supports|import|charset|unpublished|misc|article|book)", m.group(0)):
                 falhas.append(f"{nome}: e-mail: {m.group(0)}")
-        for pad in ("/Users/", "~/", "revisoes/pesquisas-eleitorais", "pontos_para_o_revisor"):
+        for pad in ("/Users/", "revisoes/pesquisas-eleitorais"):
             if pad in bruto:
                 falhas.append(f"{nome}: contém {pad!r}")
+        if "~/" in bruto:
+            regra.append(f"{nome}: contém '~/'")
+        if "pontos_para_o_revisor" in bruto:
+            regra.append(f"{nome}: contém 'pontos_para_o_revisor'")
         for m in re.finditer(campos, bruto):
             falhas.append(f"{nome}: campo proibido {m.group(1)!r} em JSON")
         for pad in ("verificado_humano", "validado_humano"):
             if pad in bruto:
-                falhas.append(f"{nome}: nome de campo {pad!r} no texto")
+                regra.append(f"{nome}: nome de campo {pad!r} no texto")
         t = norm(re.sub(r"<[^>]+>", " ", bruto))
         vaz = {n: {t[i:i + n] for i in range(max(0, len(t) - n + 1)) if t[i:i + n] in proib[n]} for n in proib}
         vaz_res = {t[i:i + 40] for i in range(max(0, len(t) - 39)) if t[i:i + 40] in resumo_proib}
         vaz_pr = {t[i:i + 50] for i in range(max(0, len(t) - 49)) if t[i:i + 50] in prompts}
         for n, v in vaz.items():
             if v:
-                falhas.append(f"{nome}: {len(v)} trecho(s) literais de {n}+ caracteres de campo proibido, ex.: {sorted(v)[:3]}")
+                (falhas if (estrito or n == 25) else avisos).append(
+                    f"{nome}: {len(v)} trecho(s) literais de {n}+ caracteres de campo proibido, ex.: {sorted(v)[:3]}")
         if vaz_res:
             falhas.append(f"{nome}: {len(vaz_res)} trecho(s) de resumos de registros não incluídos, ex.: {sorted(vaz_res)[:3]}")
         if vaz_pr:

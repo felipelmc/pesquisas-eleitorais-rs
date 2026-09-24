@@ -6,6 +6,7 @@ keywords:
   - pesquisas eleitorais
   - material suplementar
   - revisão sistemática rápida
+paisagem: true
 metadata-files: [revista/_revista.yml]
 bibliography: revista/referencias.json
 number-sections: false
@@ -126,11 +127,11 @@ Três leituras das tabelas abaixo são generosas. Na recomendação 5, "no limit
 
 : Outras recomendações que a revisão não segue ou segue em parte, fora dos atalhos declarados. {#tbl-s2-outras tbl-colwidths="[35,65]"}
 
-::: {.landscape}
-
 # S3 Emendas e desvios do protocolo {#s3-emendas .unnumbered}
 
 Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da revisão no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados. Três ressalvas à tabela: a Emenda 2 foi decidida pelo coordenador de IA, e não pelo autor; a Emenda 3, além de copiar os *codebooks*, registrou uma decisão de método do autor, a troca do árbitro do risco de viés por custo, antes de qualquer avaliação; e a Emenda 4 veio depois da extração, com os efeitos já vistos.
+
+::: {.tabela-larga}
 
 | Emenda | Data | Objeto | Tipo | Etapa no momento | Antes ou depois de ver os dados | Reexecução exigida |
 |---|---|---|---|---|---|---|
@@ -147,11 +148,11 @@ Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, c
 
 :::
 
-::: {.landscape}
-
 # S4 Características dos estudos incluídos {#s4-caracteristicas .unnumbered}
 
 Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1). A segunda tabela lista os estudos excluídos na leitura do texto completo que poderiam parecer elegíveis, com o motivo de cada exclusão.
+
+::: {.tabela-larga}
 
 | Estudo (relatos adicionais) | Ano | Desenho | Exposição | País (região) | Eleição | Contexto | Construto | Risco de viés geral |
 |---|---|---|---|---|---|---|---|---|
@@ -219,11 +220,11 @@ Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses
 
 : Estudos excluídos na leitura do texto completo que poderiam parecer elegíveis (PRISMA 16b), com o critério de elegibilidade que não atenderam. As exclusões decididas pela IA aguardam conferência humana (P041). {#tbl-s4-excluidos tbl-colwidths="[30,45,25]"}
 
-::: {.landscape}
-
 # S5 Risco de viés por domínio {#s5-risco-de-vies .unnumbered}
 
 Julgamentos de consenso por domínio e o geral de cada resultado avaliado, com RoB 2, ROBINS-I V2 e EPOC. Todos são rascunho de IA: dois avaliadores independentes e um árbitro nos desacordos, sem validação humana.
+
+::: {.tabela-larga}
 
 | Estudo | Construto | D1 randomização | D1b recrutamento (conglomerado) | D2 desvios | D3 dados faltantes | D4 mensuração | D5 relato seletivo | Geral |
 |---|---|---|---|---|---|---|---|---|
@@ -397,11 +398,11 @@ Efeitos principais que não estimam o contraste da exposição e, por isso, fica
 
 :::
 
-::: {.landscape}
-
 # S8 Agrupamento amplo e análises de sensibilidade {#s8-sensibilidades .unnumbered}
 
 O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal. Os valores de p vêm de teste de sinal em agrupamentos *post hoc*: indicam só que a proporção numa direção difere de metade, não informam a magnitude nem distinguem estudos grandes de pequenos, e não definem rótulo.
+
+::: {.tabela-larga}
 
 | Análise | Desfecho (célula) | Classe | Estudos | Direções | Proporção (IC 95%) | p (sinal) | Certeza |
 |---|---|---|---|---|---|---|---|
@@ -460,11 +461,11 @@ O agrupamento amplo junta formatos de exposição e comparadores que o protocolo
 
 :::
 
-::: {.landscape}
-
 # S9 Caixa de ferramentas célula a célula {#s9-caixa .unnumbered}
 
 A caixa de ferramentas no formato OQF, célula a célula e no painel por formato de exposição e desfecho. O rótulo segue a regra `caixa-3`, e a certeza é a GRADE da célula.
+
+::: {.tabela-larga}
 
 | Intervenção | Resultado | Comparador | Desenho | Estudos | Direção (a favor / contra / nulo) | p do teste de sinal | Rótulo | Certeza |
 |---|---|---|---|---|---|---|---|---|
@@ -518,7 +519,7 @@ Os estudos com alguma ligação com o Brasil ou a América Latina e os efeitos p
 
 :::
 
-::: {.landscape}
+::: {.tabela-larga}
 
 | Estudo | Efeito | Célula | Alvo | Comparador | Classe | g (EP) | Direção do estudo | Risco de viés | Certeza da célula |
 |---|---|---|---|---|---|---|---|---|---|

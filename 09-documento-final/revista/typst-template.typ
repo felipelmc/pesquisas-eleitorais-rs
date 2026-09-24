@@ -110,6 +110,7 @@
   ultima-busca: none,
   rascunho: false,
   pendencias: none,
+  paisagem: false,
   doc,
 ) = {
   set document(title: if rascunho [#title (RASCUNHO NÃO VALIDADO)] else { title }, keywords: keywords)
@@ -119,7 +120,8 @@
 
   set page(
     paper: "a4",
-    margin: (x: 35mm, top: 27mm, bottom: 25mm),
+    flipped: paisagem,
+    margin: if paisagem { (x: 24mm, top: 24mm, bottom: 22mm) } else { (x: 35mm, top: 27mm, bottom: 25mm) },
     header: context {
       if here().page() > 1 {
         set text(font: sans, size: 7.2pt, fill: luma(80))
@@ -160,7 +162,9 @@
   show figure.caption: it => {
     set text(font: sans, size: 7.9pt)
     set par(justify: true, first-line-indent: 0pt, leading: 0.48em)
-    align(left)[#text(weight: "semibold", fill: acento)[#it.supplement #context it.counter.display(it.numbering).] #it.body]
+    let corpo = align(left)[#text(weight: "semibold", fill: acento)[#it.supplement #context it.counter.display(it.numbering).] #it.body]
+    // legenda no topo (tabelas, quadros) nunca fica sozinha no pé da página
+    if it.position == top { block(sticky: true, width: 100%, corpo) } else { corpo }
   }
   show figure: set block(above: 1.4em, below: 1.4em)
   show figure: set align(left)
