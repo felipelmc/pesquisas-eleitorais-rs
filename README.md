@@ -34,7 +34,9 @@ A certeza GRADE (`06-analise/certeza.csv`, rascunho de IA) qualifica a **direç�
   - Quase tudo é laboratório ou vinheta hipotética: considerando só contexto real, sobra um experimento.
 - **Estudos não randomizados:** as direções se dividem (3 de 4 no agrupamento amplo), com certeza muito baixa.
 - **Mobilização:** não há direção consistente. Um experimento de campo (Gerber2020a) dá um efeito nulo ou trivial, com o IC inteiro dentro de ±2 p.p. (certeza moderada). Os estudos de boca de urna apontam desmobilização, com certeza muito baixa.
-- **Tamanho do efeito:** não há meta-análise principal. A exploratória (3 estudos e 4 efeitos, CHE + RVE) dá g = 0,48, com IC95% de −1,51 a 2,47. Os graus de liberdade de Satterthwaite ficam abaixo de 4, o que torna o RVE não confiável.
+- **Tamanho do efeito:** não há meta-análise principal. As duas meta-análises exploratórias usam CHE + RVE, e as duas têm graus de liberdade de Satterthwaite abaixo de 4, o que torna o RVE não confiável:
+  - célula "sem pesquisa" (3 estudos, 4 efeitos): g = 0,48, com IC95% de −1,51 a 2,47;
+  - célula "mesmo candidato atrás" (3 estudos, 6 efeitos, desfechos em escalas diferentes): g = 0,62, com IC95% de −0,48 a 1,72.
 - **Brasil:** o único estudo brasileiro, Araujo2021a, trata da apuração parcial oficial, não de pesquisa (Emenda 1).
 
 O manuscrito está em `07-relatorio/relatorio.html` e `07-relatorio/relatorio.docx` (fonte: `relatorio.qmd`). A versão publicada é `docs/index.html`.
@@ -56,7 +58,7 @@ A sessão fez tudo o que não depende de decisão humana e preparou o que depend
 2. **Triagem complementar dos registros sem resumo (Emenda 6b).** Por decisão do revisor, nenhum registro é excluído só pelo título.
    - Os resumos foram recuperados de fontes legítimas para 169 dos 336 registros.
    - Dois triadores de IA independentes decidiram (concordância de 160 em 169): 156 exclusões e 180 registros seguindo ao texto completo.
-   - Dos 181 textos buscados, 15 foram obtidos e fichados; nenhum é elegível.
+   - Dos 181 textos buscados, 10 foram obtidos agora e 5 já estavam em disco. Os 15 foram fichados, e nenhum é elegível.
    - O conjunto de incluídos não mudou. Os arquivos estão em `02-triagem/sem_resumo_revisao/`.
 3. **Relatos e versões.**
    - Cinco relatos foram ligados ao estudo de origem: Grillo2024d e Grillo2024e, John2021a (pré-registro de Unkelbach2022a), Hodgson2025a e Granziersd.
@@ -66,7 +68,7 @@ A sessão fez tudo o que não depende de decisão humana e preparou o que depend
 4. **Conferência dos efeitos por IA** (preparação da P039, antes P032).
    - **Re-extração cega** dos efeitos principais dos 40 estudos, por subagentes Opus, um PDF por agente.
    - **Comparação** da re-extração com a original.
-   - **Arbitragem** de 28 estudos, com 771 correções aplicadas, uma a uma, em `05-decomposicao/correcoes_sessao_2026-09-23.csv`.
+   - **Arbitragem** de 28 estudos, com 771 correções aplicadas, mais uma por erro de plausibilidade, registradas uma a uma em `05-decomposicao/correcoes_sessao_2026-09-23.csv`.
    - **Erros reais encontrados:**
      - em Freden2024a, os braços estavam trocados, o que invertia a direção;
      - em Fichnova2015a e Lammers2022a, o contraste da exposição não tinha sido extraído (os g de 3,7 e 7,1 vinham de uma correlação entre rankings);
@@ -78,6 +80,7 @@ A sessão fez tudo o que não depende de decisão humana e preparou o que depend
    - O dicionário `FORA` foi atualizado e a célula de *momentum* segue a Emenda 4b.
    - A sensibilidade ICC 0,20 (Emenda 4c) voltou.
    - A meta exploratória passou a usar CHE, como o protocolo manda quando um estudo tem mais de um efeito principal.
+   - A nova célula "mesmo candidato atrás" chegou a k = 3 com g, e rodou a meta-análise que o protocolo prevê (exploratória).
    - As 58 mudanças de `ano_eleicao_pre2010` que faltavam foram registradas.
 6. **GRADE refeito por IA** (`06-analise/prompt_grade_v2.md`):
    - a conta de rebaixamentos ficou coerente;
@@ -166,6 +169,10 @@ for s in com_excluidos so_contexto_real sem_pre2010 sem_araujo; do
   rs --dir . analise swim --in 06-analise/swim_entrada_$s.csv --out-dir 06-analise/swim_sens_${s}_amplo --grupo $A --separar-desenho sim --excluir-rob critico
 done
 rs --dir . analise swim --in 06-analise/swim_entrada_principal_icc020.csv --out-dir 06-analise/swim_sens_icc020 --grupo $G --separar-desenho sim --excluir-rob critico
+for suf in "" _icc020; do
+  rs --dir . analise meta --in 06-analise/meta_entrada_mesmo_candidato$suf.csv --out-dir 06-analise/meta_mesmo_candidato$suf \
+    --grupo familia_intervencao,construto_outcome,comparador_tipo --dependencia che --delta 0.044 --separar-desenho sim --excluir-rob critico
+done
 for suf in "" _icc020; do
   rs --dir . analise meta --in 06-analise/meta_entrada_exploratoria$suf.csv --out-dir 06-analise/meta_exploratoria$suf \
     --grupo familia_intervencao,construto_outcome,comparador_tipo --dependencia che \

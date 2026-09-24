@@ -31,3 +31,15 @@ w = csv.DictWriter(open(f'06-analise/meta_entrada_exploratoria{SUFIXO}.csv', 'w'
 w.writeheader(); w.writerows(cel)
 if not SUFIXO:
     open('06-analise/_delta_celula.txt', 'w').write(f'{d:.4f}')
+
+# Célula mesmo_candidato_atras × principal × randomizado (24/09/2026): depois das correções de 23/09 ela
+# passou a ter 3 estudos com g (Lammers2022a, Fichnova2015a, Witsman2016a). O protocolo (seção 8) pede
+# meta-análise com k >= 3 comparáveis; roda-se com CHE e δ = 0,044 (apoio), relatada como exploratória
+# pela comparabilidade limitada (desfechos em escalas diferentes: Likert, posto e proporção).
+cel2 = [r for r in rows if r['familia_intervencao'] == 'pesquisa_pre_eleitoral'
+        and r['construto_outcome'] == 'apoio_ao_lider' and r['comparador_tipo'] == 'mesmo_candidato_atras'
+        and r['celula_alvo'] == 'principal']
+print('mesmo_candidato_atras:', [(r['id_efeito'], r['yi'][:6]) for r in cel2])
+w = csv.DictWriter(open(f'06-analise/meta_entrada_mesmo_candidato{SUFIXO}.csv', 'w', encoding='utf-8', newline=''),
+                   fieldnames=list(cel2[0].keys()))
+w.writeheader(); w.writerows(cel2)

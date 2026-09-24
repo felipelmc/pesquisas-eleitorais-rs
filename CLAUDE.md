@@ -71,7 +71,7 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
 - Estimando pela regra congelada de `b2_estimando`: diferença-em-diferenças sem sorteio é ATT; antes e depois só nos tratados, ou interação com moderador não sorteado, é `associacao`.
 - Estudos com RoB crítico saem da análise principal (`--excluir-rob critico`) e entram na sensibilidade `com_critico`.
 - ICC imputado 0,05 em desenhos com cluster, com sensibilidade 0,20 (Emenda 4c). No EPOC, sequência e ocultação são ignoradas no geral (Emenda 4a, `--ignorar-no-geral`).
-- Não há meta-análise principal. A meta exploratória (3 estudos, 4 efeitos, inclui Tyszler2015 lido de figura) sai de `06-analise/montar_meta_exploratoria.py`, com `--dependencia che` (protocolo, seção 8), porque Tyszler2015 tem dois efeitos principais.
+- Não há meta-análise principal. Há duas metas exploratórias: a da célula "mesmo candidato atrás" (`meta_mesmo_candidato/`, 3 estudos) e a da célula principal "sem pesquisa" (3 estudos, 4 efeitos, inclui Tyszler2015 lido de figura). Esta última sai de `06-analise/montar_meta_exploratoria.py`, com `--dependencia che` (protocolo, seção 8), porque Tyszler2015 tem dois efeitos principais.
 - Sensibilidade ICC 0,20: `06-analise/montar_sens_icc020.py` e os argumentos opcionais dos dois scripts `montar_*` (cadeia no README).
 
 ## Armadilhas já encontradas
