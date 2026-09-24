@@ -1,0 +1,8 @@
+# Bibliotecas e dados de terceiros (baixados de cdn.jsdelivr.net/npm em 24/09/2026, sem modificação)
+3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4  vendor/LICENSE-d3.txt
+4c4d15b635e04e691825a76db7d33f7f2033b55669a7430011694f31e6c65999  vendor/LICENSE-topojson-client.txt
+8048290dfdb6e83fbed17e8985c8cfc4ce9da9b842642f3d3e497280790cfa31  vendor/LICENSE-world-atlas.txt
+9c19043a10bc8faacb0b3deef8a2dfa6ad22c9e1e7585d4d403a06cdcacb5dcf  vendor/SHA256SUMS
+f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539  vendor/d3-7.9.0.min.js
+25cd02ae486cc5063e0215a4e4cfb15de83700c87ac48bac4d57dc6aaf3ebb89  vendor/topojson-client-3.1.0.min.js
+2516c915867c7baf18ddec727aec46c315541a07cfb3d79a6559b05d5e94eee8  vendor/world-atlas-2.0.2-countries-110m.json

@@ -1,0 +1,602 @@
+{
+ "descricao": "Células da síntese principal com certeza GRADE (06-analise/certeza.csv), com contagens da SWiM principal. Gerado por 09-documento-final/revista/gerar_celulas.py; não edite à mão.",
+ "fontes": {
+  "06-analise/certeza.csv": "c075097a6f119c0551beab82619cf9b01a5cc6adff640a324633e0bfff83beea",
+  "06-analise/swim_principal/swim_resumo.json": "a140b57602eb755e3ae68274c2db794151c3210aa537faae63d113bfa50a8a80"
+ },
+ "chave": [
+  "familia_intervencao",
+  "construto_outcome",
+  "comparador_tipo",
+  "celula_alvo",
+  "classe_desenho"
+ ],
+ "n_celulas": 18,
+ "n_vazias": 1,
+ "celulas": [
+  {
+   "id": "C01",
+   "bloco": "apoio_principal",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "sem_pesquisa",
+   "celula_alvo": "principal",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se ver pesquisa que mostra quem está à frente, frente a não ver pesquisa, aumenta o apoio ao líder (4 de 4 estudos na direção bandwagon, 3 deles de laboratório ou vinheta; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Agranov2017a",
+    "Farjam2020a",
+    "Timotei2013a",
+    "Tyszler2015"
+   ],
+   "k": 4,
+   "n_estudos_com_direcao": 4,
+   "n_beneficos": 4,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.397635364383525,
+    1
+   ],
+   "p_sinal": 0.125,
+   "delta": 0.0573,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C02",
+   "bloco": "apoio_principal",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "mesmo_candidato_atras",
+   "celula_alvo": "principal",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se ver o candidato à frente numa pesquisa, em vez de atrás, aumenta o apoio a ele (4 de 4 estudos na direção bandwagon, todos de laboratório ou vinheta e em risco de viés alto; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Tal2015a",
+    "Lammers2022a",
+    "Fichnova2015a",
+    "Witsman2016a"
+   ],
+   "k": 4,
+   "n_estudos_com_direcao": 4,
+   "n_beneficos": 4,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.397635364383525,
+    1
+   ],
+   "p_sinal": 0.125,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C03",
+   "bloco": "apoio_principal",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "outro_resultado",
+   "celula_alvo": "principal",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se revelar um conjunto de pesquisas diferente, da mesma eleição, aumenta a vitória do candidato à frente (1 estudo de laboratório, 3 de 3 efeitos na direção bandwagon; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Boukouras2020a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C04",
+   "bloco": "apoio_principal",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "outro_resultado",
+   "celula_alvo": "principal",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "A evidência é muito incerta sobre se ver uma prévia com maior parcela do incumbente aumenta o voto nele (1 estudo de laboratório, com contraste não sorteado; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Feltovich2022"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C05",
+   "bloco": "apoio_principal",
+   "familia_intervencao": "boca_de_urna",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "antes_depois_proibicao",
+   "celula_alvo": "principal",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas aumenta ou reduz o apoio ao líder (2 estudos em direções opostas; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Morton2015a",
+    "Chatterjee2019a"
+   ],
+   "k": 2,
+   "n_estudos_com_direcao": 2,
+   "n_beneficos": 1,
+   "n_danosos": 1,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 0.5,
+   "ic_proporcao": [
+    0.0125791170934251,
+    0.987420882906575
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C06",
+   "bloco": "apoio_principal",
+   "familia_intervencao": "outro",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "unidades_nao_expostas",
+   "celula_alvo": "principal",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "A evidência é muito incerta sobre se a divulgação oficial de apuração parcial enquanto a votação continua aumenta o voto no candidato à frente (1 estudo brasileiro na direção bandwagon; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Araujo2021a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C07",
+   "bloco": "viabilidade",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "sem_pesquisa",
+   "celula_alvo": "viabilidade",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se ver pesquisa que mostra um candidato de oposição como segundo colocado viável aumenta o apoio a ele (1 estudo no México; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Cornejo2023a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C08",
+   "bloco": "viabilidade",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "outro_resultado",
+   "celula_alvo": "viabilidade",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se pesquisas que mostram quais opções são viáveis levam eleitores a desertar para a opção viável (1 estudo a favor e 1 misto, com 2 de 3 efeitos contrários; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Schlegel2023",
+    "Freden2024a"
+   ],
+   "k": 2,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 1,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C09",
+   "bloco": "momentum",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "sem_pesquisa",
+   "celula_alvo": "momentum",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio, frente a não ver pesquisa, aumenta o voto nele (momentum; 1 estudo; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Dahlgaard2016a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C10",
+   "bloco": "momentum",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "outro",
+   "celula_alvo": "momentum",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio aumenta o voto nele (momentum; 1 estudo; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Meer2015a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C11",
+   "bloco": "momentum",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "apoio_ao_lider",
+   "comparador_tipo": "outro_resultado",
+   "celula_alvo": "momentum",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "A evidência é muito incerta sobre se a cobertura de pesquisas favorável a um partido aumenta o voto nele (momentum; 1 estudo observacional; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Stolwijk2016a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.044,
+   "excluidos_rob_critico": [
+    "Unkelbach2022a"
+   ],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C12",
+   "bloco": "mobilizacao",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "sem_pesquisa",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "randomizado",
+   "enunciado": "A evidência é muito incerta sobre se ver pesquisa, frente a não ver, aumenta ou reduz o comparecimento (2 estudos de laboratório na direção de mobilização e 1 com candidatos reais na de desmobilização; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Agranov2017a",
+    "Groer2010a",
+    "Erlich2023"
+   ],
+   "k": 3,
+   "n_estudos_com_direcao": 3,
+   "n_beneficos": 2,
+   "n_danosos": 1,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 0.666666666666667,
+   "ic_proporcao": [
+    0.0942993240502461,
+    0.991596241340387
+   ],
+   "p_sinal": 1,
+   "delta": 0.046,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C13",
+   "bloco": "mobilizacao",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "outro_resultado",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "randomizado",
+   "enunciado": "Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 p.p. para mais ou para menos (efeito nulo ou trivial; 1 experimento de campo; certeza moderada).",
+   "certeza": "moderada",
+   "certeza_texto": "moderada",
+   "estudos": [
+    "Gerber2020a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 0,
+   "n_beneficos": 0,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 1,
+   "n_sem_direcao": 0,
+   "proporcao": null,
+   "ic_proporcao": null,
+   "p_sinal": null,
+   "delta": 0.046,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C14",
+   "bloco": "mobilizacao",
+   "familia_intervencao": "agregador_projecao",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "outro_resultado",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "randomizado",
+   "enunciado": "Ver projeções de agregador que mostram probabilidade de vitória mais distante de 50:50 pode reduzir a decisão de votar (direção de desmobilização; 1 estudo; certeza baixa).",
+   "certeza": "baixa",
+   "certeza_texto": "baixa",
+   "estudos": [
+    "Westwood2020a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 0,
+   "n_danosos": 1,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 0,
+   "ic_proporcao": [
+    0,
+    0.975
+   ],
+   "p_sinal": 1,
+   "delta": 0.046,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C15",
+   "bloco": "mobilizacao",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "sem_pesquisa",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "A evidência é muito incerta sobre se revelar a distribuição de preferências do eleitorado aumenta o comparecimento (1 estudo de laboratório, antes e depois no mesmo sujeito; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Klor2017a"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 1,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.025,
+    1
+   ],
+   "p_sinal": 1,
+   "delta": 0.046,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C16",
+   "bloco": "mobilizacao",
+   "familia_intervencao": "boca_de_urna",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "outro_resultado",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "A evidência é muito incerta sobre se a boca de urna divulgada mais cedo durante a votação reduz o comparecimento (1 estudo na direção de desmobilização, com IC que cruza zero; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Grillo2024c"
+   ],
+   "k": 1,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 0,
+   "n_danosos": 1,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 0,
+   "ic_proporcao": [
+    0,
+    0.975
+   ],
+   "p_sinal": 1,
+   "delta": 0.046,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C17",
+   "bloco": "mobilizacao",
+   "familia_intervencao": "boca_de_urna",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "antes_depois_proibicao",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas reduz o comparecimento (1 estudo na direção de desmobilização e 1 misto; certeza muito baixa).",
+   "certeza": "muito_baixa",
+   "certeza_texto": "muito baixa",
+   "estudos": [
+    "Morton2015a",
+    "Chatterjee2019a"
+   ],
+   "k": 2,
+   "n_estudos_com_direcao": 1,
+   "n_beneficos": 0,
+   "n_danosos": 1,
+   "n_mistos": 1,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 0,
+   "ic_proporcao": [
+    0,
+    0.975
+   ],
+   "p_sinal": 1,
+   "delta": 0.046,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  },
+  {
+   "id": "C18",
+   "bloco": "mobilizacao",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "unidades_nao_expostas",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "nao_randomizado",
+   "enunciado": "Ter visto a divulgação de pesquisas pode aumentar a intenção de votar ou o comparecimento (2 estudos observacionais em eleições reais, ambos na direção de mobilização; certeza baixa).",
+   "certeza": "baixa",
+   "certeza_texto": "baixa",
+   "estudos": [
+    "Stolwijk2019b",
+    "Brugarolas2021"
+   ],
+   "k": 2,
+   "n_estudos_com_direcao": 2,
+   "n_beneficos": 2,
+   "n_danosos": 0,
+   "n_mistos": 0,
+   "n_nulos": 0,
+   "n_sem_direcao": 0,
+   "proporcao": 1,
+   "ic_proporcao": [
+    0.158113883008419,
+    1
+   ],
+   "p_sinal": 0.5,
+   "delta": 0.046,
+   "excluidos_rob_critico": [],
+   "validado_humano": "0"
+  }
+ ],
+ "vazias": [
+  {
+   "familia_intervencao": "agregador_projecao",
+   "construto_outcome": "mobilizacao",
+   "comparador_tipo": "sem_pesquisa",
+   "celula_alvo": "mobilizacao",
+   "classe_desenho": "nao_randomizado",
+   "k": 0,
+   "estudos": [],
+   "excluidos_rob_critico": [
+    "Kaplan2019a"
+   ],
+   "motivo": "k = 0 na SWiM principal; sem linha em certeza.csv (não julgada)"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "relatos_buscados_total": {
+  "valor": 526,
+  "formatado": "526",
+  "formula": "relatos buscados para texto completo: bases.buscados + outros_metodos.buscados = 259 + 267",
+  "fontes": [
+   "07-relatorio/prisma_contagens.json"
+  ]
+ },
+ "relatos_nao_recuperados_total": {
+  "valor": 342,
+  "formatado": "342",
+  "formula": "relatos buscados e não recuperados: bases.nao_recuperados + outros_metodos.nao_recuperados = 158 + 184",
+  "fontes": [
+   "07-relatorio/prisma_contagens.json"
+  ]
+ },
+ "relatos_avaliados_total": {
+  "valor": 184,
+  "formatado": "184",
+  "formula": "relatos avaliados no texto completo: bases.avaliados + outros_metodos.avaliados = 101 + 83",
+  "fontes": [
+   "07-relatorio/prisma_contagens.json"
+  ]
+ },
+ "excluidos_filtro_ano_bases": {
+  "valor": 148,
+  "formatado": "148",
+  "formula": "bases.removidos_antes_triagem.automacao_por_filtro.ano (exclusão automática por script, antes da triagem)",
+  "fontes": [
+   "07-relatorio/prisma_contagens.json"
+  ]
+ },
+ "excluidos_filtro_ano_outros_metodos": {
+  "valor": 648,
+  "formatado": "648",
+  "formula": "outros_metodos.removidos_antes_triagem.automacao_por_filtro.ano (exclusão automática por script, antes da triagem)",
+  "fontes": [
+   "07-relatorio/prisma_contagens.json"
+  ]
+ },
+ "excluidos_filtro_ano_total": {
+  "valor": 796,
+  "formatado": "796",
+  "formula": "soma dos dois ramos: bases = 148 + outros_metodos = 648",
+  "fontes": [
+   "07-relatorio/prisma_contagens.json"
+  ]
+ },
+ "estudos_fora_da_sintese_principal": {
+  "valor": 14,
+  "formatado": "14",
+  "formula": "estudos incluídos (41) − estudos da SWiM principal (27) = 3 em risco crítico + 7 só com efeitos fora da contagem + 4 sem efeito principal",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv",
+   "06-analise/efeitos.csv",
+   "06-analise/swim_principal/swim_resumo.json",
+   "06-analise/swim_entrada_principal.csv",
+   "04-qualidade/rob_geral.csv",
+   "06-analise/montar_entradas_swim.py",
+   "09-documento-final/insumos/tabelas/numeros.json",
+   "07-relatorio/incluidos.csv",
+   "07-relatorio/prisma_contagens.json",
+   "07-relatorio/relatorio.qmd"
+  ],
+  "chaves": [
+   "Alabrese2024a",
+   "Bursztyn2023a",
+   "Freden2016b",
+   "Gandhi2019",
+   "Gasperoni2015a",
+   "Geers2018",
+   "Kaplan2019a",
+   "Lago2015",
+   "Meffert2011",
+   "Meffert2012a",
+   "Tyszler2013",
+   "Unkelbach2022a",
+   "Urminsky2019",
+   "Yang2023d"
+  ]
+ },
+ "estudos_risco_critico": {
+  "valor": 3,
+  "formatado": "3",
+  "formula": "estudos com rob_geral = critico em rob_geral.csv (fora da SWiM principal pelo --excluir-rob critico; Gasperoni2015a também tem o principal no dicionário FORA)",
+  "fontes": [
+   "04-qualidade/rob_geral.csv",
+   "06-analise/swim_principal/swim_resumo.json",
+   "06-analise/montar_entradas_swim.py"
+  ],
+  "chaves": [
+   "Gasperoni2015a",
+   "Kaplan2019a",
+   "Unkelbach2022a"
+  ]
+ },
+ "estudos_so_fora_da_contagem": {
+  "valor": 7,
+  "formatado": "7",
+  "formula": "estudos com efeito principal, fora da SWiM principal e sem risco crítico; todos os efeitos principais de cada um estão no dicionário FORA",
+  "fontes": [
+   "06-analise/efeitos.csv",
+   "06-analise/swim_principal/swim_resumo.json",
+   "06-analise/montar_entradas_swim.py",
+   "04-qualidade/rob_geral.csv"
+  ],
+  "chaves": [
+   "Alabrese2024a",
+   "Bursztyn2023a",
+   "Gandhi2019",
+   "Geers2018",
+   "Lago2015",
+   "Meffert2011",
+   "Urminsky2019"
+  ]
+ },
+ "estudos_sem_efeito_principal": {
+  "valor": 4,
+  "formatado": "4",
+  "formula": "estudos do master de extração sem nenhuma linha com modelo_principal = sim em efeitos.csv",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv",
+   "06-analise/efeitos.csv"
+  ],
+  "chaves": [
+   "Freden2016b",
+   "Meffert2012a",
+   "Tyszler2013",
+   "Yang2023d"
+  ]
+ },
+ "pendencias_abertas": {
+  "valor": 18,
+  "formatado": "18",
+  "formula": "pendências com status aberta em _pendencias_abertas.json (o JSON do PRISMA lista uma a menos, anterior à P042)",
+  "fontes": [
+   "07-relatorio/_pendencias_abertas.json"
+  ],
+  "chaves": [
+   "P001",
+   "P004",
+   "P006",
+   "P007",
+   "P008",
+   "P019",
+   "P020",
+   "P023",
+   "P025",
+   "P026",
+   "P033",
+   "P035",
+   "P036",
+   "P037",
+   "P038",
+   "P039",
+   "P041",
+   "P042"
+  ]
+ }
+}

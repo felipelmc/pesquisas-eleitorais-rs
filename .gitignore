@@ -14,3 +14,11 @@ __pycache__/
 09-documento-final/revisao_final_files/
 09-documento-final/_mensagens_principais.md
 09-documento-final/index.html
+# saídas locais do artigo, do suplemento e da versão em linguagem simples (publicadas só em docs/)
+09-documento-final/*.typ
+09-documento-final/*.pdf
+09-documento-final/suplemento.html
+09-documento-final/suplemento.docx
+09-documento-final/linguagem_simples.html
+09-documento-final/*_files/
+09-documento-final/.quarto/

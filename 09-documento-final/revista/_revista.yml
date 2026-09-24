@@ -1,0 +1,38 @@
+# Metadados comuns ao artigo (revisao_final.qmd) e ao suplemento (suplemento.qmd).
+lang: pt-BR
+date-format: "DD/MM/YYYY"
+author:
+  - name: Felipe Lamarca
+    affiliations:
+      - name: MAPE/IESP-UERJ
+rascunho: true
+revista:
+  masthead: "Documento de trabalho · Revisão sistemática · Rascunho não validado"
+  cabeca: "Lamarca · Pesquisas eleitorais e voto"
+  nota-ia: "Rascunho redigido por IA a partir dos arquivos do projeto e ajustado ao estilo do autor; não revisado pelo autor (P038)."
+  ultima-busca: "19/09/2026 (bases) e 20/09/2026 (busca por citação)"
+csl: revista/american-political-science-association.csl
+link-citations: true
+tbl-cap-location: top
+crossref:
+  custom:
+    - kind: float
+      key: qdr
+      reference-prefix: Quadro
+      caption-prefix: Quadro
+      space-before-numbering: true
+format:
+  typst:
+    papersize: a4
+    fontsize: 10pt
+    number-sections: true
+    section-numbering: "1.1.1"
+    toc: false
+    citeproc: true
+    font-paths: [revista/fontes/otf]
+    template-partials: [revista/typst-template.typ, revista/typst-show.typ]
+    filters:
+      - at: pre-quarto
+        path: revista/inline.lua
+    default-image-extension: svg
+    keep-typ: true

@@ -1,0 +1,93 @@
+# Contrato de rótulos do artigo (revisao_final.qmd) e do suplemento (suplemento.qmd).
+# Vale para o redator, o programador das figuras e tabelas e as travas (conferir_reestruturacao.py).
+# Regras:
+# - Figuras e tabelas geradas entram por marcador em linha própria: @@FIGURA <nome>@@ ou @@TABELA <nome>@@;
+#   montar_revisao_final.py troca o marcador pela imagem ou tabela com legenda e rótulo abaixo.
+# - Quadros (qdr-) são escritos pelo redator no esqueleto, como tabela Markdown com legenda {#qdr-...}.
+# - Seções: @sec-... só para seções NUMERADAS (o Typst falha ao referenciar seção sem número).
+#   Para seções sem número (Mensagens, Resumo executivo, Resumo, Abstract, Informações adicionais, Referências,
+#   Apêndice A), use link Markdown [texto](#id).
+# - Nada de classes column-* no .qmd (ligam a geometria de margem no Typst); use .tabela-larga / .figura-larga.
+# - Suplemento: não há referência cruzada entre documentos; use links suplemento.html#<id>.
+
+figuras:              # marcador -> rótulo
+  modelo_logico: fig-modelo-logico     # Fig. 1  modelo lógico (DAG do protocolo)
+  prisma:        fig-prisma            # Fig. 2  fluxo PRISMA 2020
+  rob:           fig-rob               # Fig. 3  resumo do risco de viés por ferramenta e domínio
+  celulas:       fig-celulas           # Fig. 4  proporção na direção positiva por célula (Clopper-Pearson) e certeza
+  direcao:       fig-direcao           # Fig. 5  direção do efeito por estudo (effect direction plot)
+  metas:         fig-metas             # Fig. 6  metas exploratórias A e B
+  realismo:      fig-realismo          # Fig. 7  direção por realismo do contexto (descritivo)
+
+tabelas:              # marcador -> rótulo
+  caracteristicas:   tbl-caracteristicas    # Tab. 1  características agregadas dos 41 estudos
+  sof:               tbl-sof                # Tab. 2  resumo dos achados (SoF narrativa), página deitada
+  hipoteses:         tbl-hipoteses          # Tab. 3  hipóteses do protocolo x evidência
+  oqf_principal:     tbl-oqf                # Tab. 4  caixa de ferramentas OQF da pergunta principal
+  transferibilidade: tbl-transferibilidade  # Tab. 5  transferibilidade ao Brasil
+  pendencias:        tbl-pendencias         # Apêndice A  pendências humanas abertas
+
+quadros:              # escritos pelo redator
+  glossario: qdr-glossario   # Quadro 1  glossário e "como ler"
+  picoc:     qdr-picoc       # Quadro 2  PICOC
+
+secoes:               # seções numeradas do artigo
+  - sec-introducao
+  - sec-problema
+  - sec-como-agiria
+  - sec-por-que
+  - sec-objetivos
+  - sec-metodos
+  - sec-protocolo
+  - sec-elegibilidade
+  - sec-busca
+  - sec-selecao
+  - sec-extracao
+  - sec-rob-metodos
+  - sec-sintese
+  - sec-certeza
+  - sec-ia
+  - sec-resultados
+  - sec-incluidos
+  - sec-rob
+  - sec-efeito          # 3.3 visão geral da síntese (mantém a âncora antiga #sec-efeito)
+  - sec-apoio
+  - sec-viabilidade
+  - sec-momentum
+  - sec-comparecimento
+  - sec-sensibilidades
+  - sec-mecanismo
+  - sec-moderadores
+  - sec-percepcao
+  - sec-discussao
+  - sec-achados
+  - sec-revisoes-anteriores
+  - sec-limitacoes-evidencia
+  - sec-limitacoes-processo
+  - sec-pratica
+  - sec-caixa
+  - sec-brasil
+  - sec-pesquisa-futura
+  - sec-conclusoes
+
+ancoras_sem_numero:   # use [texto](#id)
+  - mensagens-principais
+  - resumo-executivo
+  - resumo
+  - abstract
+  - informacoes-adicionais
+  - referencias
+  - sec-pendencias     # Apêndice A (mantém a âncora antiga)
+
+suplemento:           # suplemento.qmd, links suplemento.html#<id>
+  - s1-busca
+  - s2-atalhos
+  - s3-emendas
+  - s4-caracteristicas
+  - s5-risco-de-vies
+  - s6-efeitos
+  - s7-fora-da-contagem
+  - s8-sensibilidades
+  - s9-caixa
+  - s10-regional
+  - s11-checklists
