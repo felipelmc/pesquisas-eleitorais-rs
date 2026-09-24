@@ -1,0 +1,170 @@
+[
+ {
+  "id_item": "C060",
+  "variavel": "titulo",
+  "tipo": "textual",
+  "valor_original": "The Impact of Exposure to Pre-Election Polls on Voting Behaviour",
+  "valor_revalidacao": "The Impact of Exposure to Pre-Election Polls on Voting Behaviour"
+ },
+ {
+  "id_item": "C061",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "Itália",
+  "valor_revalidacao": "Itália"
+ },
+ {
+  "id_item": "C062",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Explorar a percepção das pesquisas pré-eleitorais pelos eleitores e o papel da exposição a resultados de pesquisa sobre as decisões de voto, bem como sua associação com outras características do eleitor",
+  "valor_revalidacao": "Explorar a percepção dos eleitores sobre pesquisas pré-eleitorais e o papel da exposição a resultados de pesquisa nas decisões de voto"
+ },
+ {
+  "id_item": "C063",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Eleitores recrutados por amostragem por cotas em seis unidades de pesquisa que operaram em diferentes áreas da Itália, com espectro completo de idades; a amostra não pretendia ser representativa do eleitorado",
+  "valor_revalidacao": "Amostra por cotas de eleitores adultos italianos (espectro etário completo), recrutados em seis unidades de pesquisa em diferentes áreas da Itália para participar de uma campanha eleitoral simulada online; amostra não representativa do eleitorado geral"
+ },
+ {
+  "id_item": "C064",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Exposição forçada a resultados de pesquisas de intenção de voto dentro de uma campanha eleitoral municipal simulada online (DPTE). Para os participantes dos Grupos 1 e 2 (unidades de pesquisa E e F), a campanha foi interrompida aos nove minutos para registrar o candidato mais preferido, o segundo preferido e o menos preferido; após a retomada, dois timed items (caixas que aparecem na tela independentemente da vontade do eleitor), um dois minutos depois e outro cerca de um minuto antes do fim da simulação, apresentaram os achados de duas pesquisas pré-eleitorais distintas. No Grupo 1, as pesquisas previam que o segundo candidato preferido bateria o mais preferido por 4 ou 5 pontos percentuais, com os outros dois fora da disputa; no Grupo 2, mostravam o candidato menos preferido à frente, batendo o segundo preferido por 4 ou 5 pontos, que por sua vez estava à frente do mais preferido por outros 4 ou 5 pontos. Além disso, todos os participantes tinham acesso a 4 flow items com resultados de pesquisa que não tratavam especificamente de intenção de voto",
+  "valor_revalidacao": "Exposição forçada, via \"timed items\" (caixas de informação exibidas independentemente da vontade do eleitor) na campanha simulada online, a dois resultados distintos de pesquisas pré-eleitorais mostrando o candidato preferido do eleitor perdendo (Grupo 1: segundo colocado bate o preferido por 4-5 p.p., demais fora de disputa; Grupo 2: o menos preferido lidera sobre o segundo preferido, que por sua vez lidera sobre o preferido, cada margem de 4-5 p.p.). Exibida cerca de 1 minuto antes do fim da campanha simulada (~14,5 min de duração total)"
+ },
+ {
+  "id_item": "C065",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "Comparação antes e depois dentro do próprio eleitor: a preferência declarada aos nove minutos de campanha simulada versus o voto declarado no fim da simulação; os autores afirmam explicitamente que não existe grupo de controle. Os Grupos 0A e 0B, que não receberam estímulos particulares, são usados apenas para comparar resolução e dificuldade da decisão, não a troca de voto",
+  "valor_revalidacao": "Sem grupo controle explícito; a comparação é entre a preferência inicial do eleitor (registrada aos 9 minutos de campanha) e o voto final após a exposição forçada aos dois resultados de pesquisa desfavoráveis; os autores reconhecem a ausência de um grupo não exposto medido no mesmo momento"
+ },
+ {
+  "id_item": "C066",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Voto declarado ao fim da campanha simulada, entre os quatro candidatos, operacionalizado como transferência (ou não) do voto do candidato mais preferido, declarado aos nove minutos, para o segundo candidato preferido, que a pesquisa mostrava à frente dele; medida individual de apoio ao candidato mostrado à frente do preferido do eleitor",
+  "valor_revalidacao": "Escolha final de voto (individual, autorrelatada) entre os quatro candidatos ao final da campanha simulada; indicador de troca de voto do candidato inicialmente mais preferido para o segundo preferido"
+ },
+ {
+  "id_item": "C067",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: resultados de duas pesquisas pré-eleitorais mostrando o candidato preferido do eleitor atrás, exibidos como timed items no fim da campanha simulada; Raciocínio: a informação dá ao eleitor boa razão para transferir a preferência ao segundo candidato, seja aderindo ao vencedor presumido (jumping on the bandwagon, Grupo 1), seja votando taticamente para evitar a vitória do candidato menos preferido (Grupo 2), desde que ele considere as pesquisas confiáveis e úteis, pré-requisito que os autores dizem ser amplamente ausente; Contexto: campanha eleitoral municipal simulada online, com quatro candidatos fictícios sobre os quais o eleitor nada sabe",
+  "valor_revalidacao": "Recurso: pesquisa pré-eleitoral apontando derrota do candidato preferido do eleitor; Raciocínio: (Grupo 1) o eleitor migraria para o candidato indicado como vencedor sem violar apreciavelmente seu perfil de preferências (bandwagon); (Grupo 2) o eleitor migraria estrategicamente para o segundo colocado, um candidato \"aceitável\", para ajudar a evitar o pior resultado possível (voto estratégico preventivo); Contexto: campanha eleitoral simulada online (DPTE), com exposição forçada a dois resultados de pesquisa desfavoráveis ao candidato preferido"
+ },
+ {
+  "id_item": "C068",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "Segundo a Tabela 5 e o texto, trocam mais de voto os eleitores jovens, com alta escolaridade, com pouco conhecimento político, mais interessados em política, com posições ideológicas extremas e que se identificam fortemente com uma coalizão; contra a expectativa, os eleitores hostis às pesquisas (que as julgam nem confiáveis nem úteis) foram os mais propensos a ceder a elas, e os adeptos do voto sincero, os menos propensos; quem trocou também julga as pesquisas comparativamente menos confiáveis e menos úteis. Trocaram mais também os eleitores que preferiam inicialmente candidatos extremos e aqueles cujos dois candidatos preferidos pertenciam à mesma metade do espectro político. Nenhuma das diferenças comentadas é estatisticamente significativa",
+  "valor_revalidacao": "Atitude quanto às pesquisas: eleitores \"hostis\" às pesquisas (que as consideram nem confiáveis nem úteis) foram os mais propensos a trocar de voto, ao contrário do esperado; apoiadores do voto \"sincero\" foram consistentemente menos propensos a trocar. Congruência ideológica: quando os dois candidatos preferidos pertenciam à mesma metade do espectro político, a troca de voto foi mais frequente do que quando pertenciam a lados diferentes. Extremismo ideológico: eleitores que inicialmente preferiam candidatos extremos trocaram de voto com mais frequência do que os que preferiam candidatos moderados (estimativas por subgrupo no CSV de efeitos)"
+ },
+ {
+  "id_item": "C069",
+  "variavel": "equidade_progress_plus",
+  "tipo": "textual",
+  "valor_original": "escolaridade: o texto relata que os eleitores que trocaram de voto são mais escolarizados, com diferença não estatisticamente significativa ; posição socioeconômica ou classe social: 999 ; idade: o texto relata que os eleitores que trocaram de voto são mais jovens, com diferença não estatisticamente significativa, e que os mais jovens expressam atitudes mais desfavoráveis às pesquisas",
+  "valor_revalidacao": "escolaridade: eleitores mais escolarizados (com diploma universitário) trocaram de voto com mais frequência ; idade: eleitores mais jovens trocaram de voto com mais frequência ; posição socioeconômica/classe social: 999 (não relatado)"
+ },
+ {
+  "id_item": "C070",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "O texto trata a própria troca de voto como deserção da preferência sincera, descrita como voto tático preventivo para evitar a vitória do candidato menos preferido, e relata que quem trocou de voto ficou menos resoluto e admitiu mais dificuldade na decisão. Desmobilização não é examinada, pois a simulação não mede comparecimento",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C071",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Ausência de grupo de controle, isto é, de eleitores cujas intenções de voto fossem registradas no mesmo marco de nove minutos; suposição de que os participantes identificaram corretamente seus candidatos preferidos nas duas medições; possibilidade de que registrar a preferência inicial tenha induzido confirmação por consistência (subestimando a influência) ou maior sensibilidade às pesquisas (superestimando-a); amostra por cotas não representativa do eleitorado; margem de 4 a 5 pontos percentuais possivelmente pequena demais para induzir troca; técnica possivelmente menos eficaz entre eleitores mais velhos",
+  "valor_revalidacao": "Ausência de grupo controle; possível viés de consistência (eleitor confirma a preferência inicial no voto final) ou de sensibilização (eleitor fica mais sensível a notícias negativas de pesquisa), o que pode subestimar ou sobrestimar a influência das pesquisas; amostra por cotas não representativa do eleitorado geral"
+ },
+ {
+  "id_item": "C072",
+  "variavel": "b2_estrategia_identificacao",
+  "tipo": "categorica",
+  "valor_original": "antes_depois",
+  "valor_revalidacao": "experimento_aleatorizado_individual"
+ },
+ {
+  "id_item": "C073",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "Os autores declaram, em nota de rodapé, a suposição de que os participantes identificaram corretamente seus candidatos preferidos nas duas medições e reconhecem que a inferência causal é limitada pela ausência de grupo de controle e por possíveis efeitos de consistência ou de sensibilização. Nenhum teste de balanceamento, placebo, tendências prévias ou primeiro estágio é apresentado",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C074",
+  "variavel": "b2_estimando",
+  "tipo": "categorica",
+  "valor_original": "associacao",
+  "valor_revalidacao": "ATE — não há instrumentalização (afasta LATE), nenhuma discussão explícita de adesão/exposição imperfeita ao item forçado (\"timed item\", exibido independentemente da vontade do eleitor, afasta ITT), e há atribuição aleatória (afasta ATT)"
+ },
+ {
+  "id_item": "C075",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "Atribuição individual: dentro de cada unidade de pesquisa, os participantes foram alocados aleatoriamente, segundo cotas pré-estabelecidas, a um de quatro grupos, sendo os Grupos 1 e 2 das unidades E e F os expostos às pesquisas pré-eleitorais. O texto não reporta agrupamento de erros-padrão, tamanho médio de cluster nem ICC; o modelo principal não apresenta erros-padrão",
+  "valor_revalidacao": "Atribuição no nível individual, dentro de cada uma das seis unidades de pesquisa, por cotas pré-estabelecidas; não há menção de agrupamento (cluster) na atribuição nem de erros-padrão agrupados; tamanho médio de cluster e ICC não informados"
+ },
+ {
+  "id_item": "C076",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "nenhum",
+  "valor_revalidacao": "nenhum"
+ },
+ {
+  "id_item": "C077",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Tabela 5, linha \"Total\" (Grupos 1 e 2 agrupados, incidência de eleitores que transferiram o voto do candidato mais preferido para o segundo preferido), número retomado no texto da p. 20 e no resumo",
+  "valor_revalidacao": "apoio_ao_lider: Tabela 5 (percentuais agregados de troca de voto, Grupos 1 e 2 combinados, N=188)"
+ },
+ {
+  "id_item": "C078",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que as pesquisas pré-eleitorais tiveram pouca tração sobre o voto e não são uma heurística importante para os eleitores italianos, ainda que reconheçam que um décimo dos eleitores costuma ser mais do que suficiente para decidir uma eleição",
+  "valor_revalidacao": "As pesquisas pré-eleitorais tiveram pouca influência sobre a troca de voto, mas a proporção observada ainda é relevante porque normalmente seria suficiente para decidir uma eleição"
+ },
+ {
+  "id_item": "C079",
+  "variavel": "comparador_tipo",
+  "tipo": "categorica",
+  "valor_original": "outro — especifique: preferência declarada pelo próprio eleitor antes da exposição, aos nove minutos de simulação, versus voto final, sem grupo de controle",
+  "valor_revalidacao": "mesmo_candidato_atras"
+ },
+ {
+  "id_item": "C080",
+  "variavel": "nivel_desfecho",
+  "tipo": "categorica",
+  "valor_original": "intencao_declarada",
+  "valor_revalidacao": "outro — escolha de voto simulada, declarada ao final da campanha online, sem incentivo monetário e sem eleição real subsequente"
+ },
+ {
+  "id_item": "C081",
+  "variavel": "margem_mostrada",
+  "tipo": "textual",
+  "valor_original": "Grupo 1: 4 ou 5 pontos percentuais do segundo candidato preferido sobre o mais preferido ; Grupo 2: 4 ou 5 pontos percentuais do candidato menos preferido sobre o segundo preferido e outros 4 ou 5 pontos do segundo preferido sobre o mais preferido",
+  "valor_revalidacao": "Grupo 1: 4-5 p.p. (segundo colocado preferido bate o mais preferido) ; Grupo 2: 4-5 p.p. entre o líder mostrado (candidato menos preferido) e o segundo colocado, que por sua vez está 4-5 p.p. acima do candidato mais preferido"
+ },
+ {
+  "id_item": "C082",
+  "variavel": "mecanismo_testado",
+  "tipo": "categorica",
+  "valor_original": "conformidade + viabilidade_estrategico",
+  "valor_revalidacao": "consenso_heuristica + viabilidade_estrategico"
+ },
+ {
+  "id_item": "C083",
+  "variavel": "moderadores_relatados",
+  "tipo": "categorica",
+  "valor_original": "confianca_pesquisas + escolaridade + idade + outro + partidarismo + preferencia_previa + sofisticacao_interesse",
+  "valor_revalidacao": "confianca_pesquisas + escolaridade + idade + outro + partidarismo + sofisticacao_interesse"
+ }
+]

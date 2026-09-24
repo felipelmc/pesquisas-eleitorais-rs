@@ -1,0 +1,163 @@
+[
+ {
+  "id_item": "C084",
+  "variavel": "titulo",
+  "tipo": "textual",
+  "valor_original": "Exit polls and voter turnout in the 2017 French elections",
+  "valor_revalidacao": "Exit polls and voter turnout in the 2017 French elections"
+ },
+ {
+  "id_item": "C085",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "França",
+  "valor_revalidacao": "França"
+ },
+ {
+  "id_item": "C086",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Estimar o efeito da divulgação antecipada de bocas de urna por mídias estrangeiras sobre o comparecimento eleitoral no segundo turno da eleição presidencial francesa de 2017",
+  "valor_revalidacao": "Investigar o efeito causal da divulgação antecipada (por mídia belga/suíça) de exit polls, no segundo turno das eleições presidenciais francesas de 2017, sobre o comparecimento eleitoral"
+ },
+ {
+  "id_item": "C087",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Os 96 departamentos da França metropolitana nas eleições presidenciais de 2017 e, na análise de tripla diferença, também em 2012 e 2007",
+  "valor_revalidacao": "Dados agregados de comparecimento eleitoral dos 96 departamentos da França continental (não indivíduos)"
+ },
+ {
+  "id_item": "C088",
+  "variavel": "periodo_dados",
+  "tipo": "textual",
+  "valor_original": "Dias de votação das eleições presidenciais francesas de 2007, 2012 e 2017, com o segundo turno de 2017 em 7 de maio de 2017; comparecimento medido às 12:00, às 17:00 e no fechamento das urnas",
+  "valor_revalidacao": "Eleições presidenciais francesas de 2007, 2012 e 2017 (primeiro e segundo turnos)"
+ },
+ {
+  "id_item": "C089",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Divulgação antecipada de resultados de boca de urna por mídias francófonas da Bélgica e da Suíça no dia do segundo turno, com as urnas ainda abertas até 19:00 ou 20:00: a emissora belga RTBF informou por volta das 16:00 que Macron venceria com pelo menos 60% dos votos e às 16:20 atualizou sua projeção de votação, notícia replicada rapidamente por outras mídias estrangeiras e por redes sociais como o Twitter. A fonte da variação é a lei francesa que proíbe a publicação antes do fechamento das urnas e à qual as mídias estrangeiras não se submetem, somada ao fato de que, em 2017, a vantagem prevista era grande o bastante para que essas mídias divulgassem mais cedo e com mais confiança do que em 2012 e 2007",
+  "valor_revalidacao": "Exposição à divulgação antecipada, no dia da eleição e antes do fechamento das urnas, de resultados de exit poll do segundo turno (Macron amplamente na frente), por emissoras belgas e suíças (rádio, TV, Twitter), difundida a partir de cerca de 16h enquanto as urnas seguiam abertas até 19h/20h"
+ },
+ {
+  "id_item": "C090",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "Comparecimento às 12:00, antes da divulgação, contra o comparecimento às 17:00 e no fechamento, depois dela, tendo o primeiro turno de 2017 como grupo de controle e, na tripla diferença, as eleições de 2012 e 2007",
+  "valor_revalidacao": "Comparecimento antes do choque informacional (12h) versus depois (17h e fechamento), tomando o primeiro turno da mesma eleição como grupo de controle (delineamento de diferenças-em-diferenças)"
+ },
+ {
+  "id_item": "C091",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Taxa de comparecimento por departamento, medida agregada e não individual, registrada às 12:00, às 17:00 e no fechamento das urnas; o estudo não mede apoio ao líder nem ao candidato mostrado atrás",
+  "valor_revalidacao": "Taxa de comparecimento eleitoral agregada por departamento, medida em três momentos do dia do pleito (12h, 17h, fechamento das urnas)"
+ },
+ {
+  "id_item": "C092",
+  "variavel": "mecanismo_tipo_evidencia",
+  "tipo": "categorica",
+  "valor_original": "hipotese_dos_autores",
+  "valor_revalidacao": "teste_de_canal (testam heterogeneidade por participação de eleitores de esquerda no 1º turno como proxy do mecanismo, embora com significância fraca)"
+ },
+ {
+  "id_item": "C093",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: divulgação antecipada da boca de urna mostrando o candidato à frente com larga vantagem enquanto as urnas seguiam abertas; Raciocínio: a incerteza sobre o resultado cai drasticamente e, sendo o voto ao menos em parte estratégico e instrumental, parte do eleitorado deixa de fazer o esforço de votar mais tarde no dia; Contexto: segundo turno de 2017 apresentado como já decidido, com mídias belgas e suíças fora do alcance da proibição francesa de publicar antes do fechamento",
+  "valor_revalidacao": "Recurso: divulgação antecipada de exit poll indicando vitória folgada de Macron; Raciocínio: ao tornar o resultado da eleição percebido como já decidido, reduz o benefício instrumental/estratégico de votar, sobretudo para quem tem preferência mais fraca entre os dois candidatos remanescentes; Contexto: segundo turno das eleições presidenciais francesas de 2017, comparação entre departamentos com maior e menor participação de eleitores de esquerda (Hamon + Mélenchon) no primeiro turno"
+ },
+ {
+  "id_item": "C094",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "(1) Geografia, medida pela distância do departamento à Bélgica ou à Suíça: nos departamentos próximos e muito próximos da Bélgica a queda de comparecimento às 17:00 é significativamente maior do que nos demais, e no fechamento o coeficiente vai na mesma direção mas não é significativo; os departamentos próximos da Suíça não diferem dos demais. (2) Preferências expressas no primeiro turno: a queda é maior nos departamentos em que Macron foi o mais votado, com significância apenas a 10%, e nos departamentos no topo 50% da soma dos votos dos dois candidatos de esquerda, sem significância nos níveis convencionais; não há heterogeneidade nos departamentos em que Le Pen foi a mais votada nem no topo 50% do candidato de direita",
+  "valor_revalidacao": "Duas dimensões de heterogeneidade: (1) proximidade geográfica à Bélgica e à Suíça (departamentos \"muito próximos\" e \"próximos\"), com queda maior e estatisticamente significativa às 17h para os próximos à Bélgica, e nenhuma diferença significativa para a Suíça; (2) preferência expressa no 1º turno — queda adicional de 1,1 p.p., fracamente significativa (p=0,099), em departamentos onde Macron venceu o 1º turno, e queda adicional de 1,1 p.p., fracamente significativa (p=0,113), em departamentos com maior participação de esquerda (Hamon+Mélenchon); sem heterogeneidade significativa por vitória de Le Pen ou por votação em Fillon"
+ },
+ {
+  "id_item": "C095",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "Desmobilização, isto é, queda do comparecimento depois da divulgação da boca de urna; e possível efeito underdog, com abstenção relativamente maior entre eleitores de esquerda e nos departamentos em que o candidato à frente havia vencido o primeiro turno, o que segundo os autores teria reduzido a margem de vitória",
+  "valor_revalidacao": "Possível efeito underdog não intencional sobre a margem de vitória (distinto do comparecimento, que é o outcome principal): a queda diferencial de comparecimento por preferência política pode ter reduzido levemente a margem de vitória de Macron"
+ },
+ {
+  "id_item": "C096",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Tendências semelhantes de comparecimento ao longo do dia já apareciam em eleições anteriores, o que enfraquece a leitura causal; a identificação de efeito causal com dados de eleições reais é difícil porque o voto é secreto e os efeitos podem vir tanto do comparecimento quanto da escolha de voto; a leitura de efeito underdog depende de supor que eleitores de esquerda preferiam em média Macron a Le Pen",
+  "valor_revalidacao": "Os próprios autores reconhecem que tendências semelhantes de comparecimento já eram observadas em eleições anteriores, o que atenua a força causal da inferência"
+ },
+ {
+  "id_item": "C097",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "Hipótese declarada de tendências paralelas: sem a divulgação das bocas de urna, o comparecimento do segundo turno teria seguido ao longo do dia a mesma trajetória do primeiro; na tripla diferença, supõe-se que a diferença de tendências entre turnos teria sido igual à observada em 2012 e 2007. Checagens apresentadas: comparação gráfica das trajetórias horárias de 2007, 2012 e 2017; estimação de tripla diferença contra 2012 e contra 2007; robustez à ponderação dos departamentos, a controles de chuva e temperatura máxima e à subamostra de departamentos onde não choveu",
+  "valor_revalidacao": "Hipótese de tendências paralelas (na ausência do choque, o comparecimento do 2º turno seguiria a mesma tendência do 1º turno); testada por comparação com as tendências de comparecimento nas eleições de 2012 e 2007 (estimador de triplas diferenças), além de robustez a controles climáticos e a subamostra sem chuva"
+ },
+ {
+  "id_item": "C098",
+  "variavel": "b2_estimador",
+  "tipo": "categorica",
+  "valor_original": "did_twfe",
+  "valor_revalidacao": "mqo"
+ },
+ {
+  "id_item": "C099",
+  "variavel": "b2_estimando",
+  "tipo": "categorica",
+  "valor_original": "ATT",
+  "valor_revalidacao": "ATE"
+ },
+ {
+  "id_item": "C100",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "A exposição não foi atribuída por desenho: a divulgação atingiu todo o país no mesmo horário e os dados são agregados por departamento, que é o nível efetivo de análise. Os erros-padrão são agrupados no nível do departamento e os departamentos são ponderados pelo número de eleitores registrados; tamanho médio de cluster e ICC não são reportados",
+  "valor_revalidacao": "Exposição varia no nível do departamento (e do tempo/turno); erros-padrão agrupados por departamento; tamanho médio de cluster e ICC não reportados"
+ },
+ {
+  "id_item": "C101",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "nenhum (o modelo principal tem apenas os indicadores de horário, o indicador de segundo turno e suas interações, com ponderação pelo número de eleitores registrados)",
+  "valor_revalidacao": "nenhum (especificação principal — coluna 1 da Tabela 1 — contém apenas os termos de tempo, turno e interação; controles climáticos só entram nas colunas de robustez 2-4)"
+ },
+ {
+  "id_item": "C102",
+  "variavel": "b2_dp_y_tipo",
+  "tipo": "categorica",
+  "valor_original": "controle",
+  "valor_revalidacao": "nao_reportado"
+ },
+ {
+  "id_item": "C103",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que a divulgação antecipada das bocas de urna reduziu o comparecimento no segundo turno de 2017, efeito que consideram sugestivo de causalidade ainda que tendências semelhantes apareçam em eleições anteriores",
+  "valor_revalidacao": "Os autores interpretam a queda de comparecimento após a publicação dos exit polls como sugestiva de um efeito causal, dando crédito a teorias de voto estratégico/instrumental"
+ },
+ {
+  "id_item": "C104",
+  "variavel": "voto_obrigatorio",
+  "tipo": "categorica",
+  "valor_original": "Não",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C105",
+  "variavel": "margem_mostrada",
+  "tipo": "textual",
+  "valor_original": "999",
+  "valor_revalidacao": "Macron previsto com pelo menos 60% dos votos, depois atualizado para 62%-64%, ante Le Pen (margem implícita de aproximadamente 24 a 28 pontos percentuais)"
+ },
+ {
+  "id_item": "C106",
+  "variavel": "alvo_efeito",
+  "tipo": "categorica",
+  "valor_original": "999",
+  "valor_revalidacao": "lider"
+ }
+]

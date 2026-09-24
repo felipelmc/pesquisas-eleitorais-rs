@@ -1,0 +1,163 @@
+[
+ {
+  "id_item": "C190",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Separar experimentalmente o efeito da informação política do efeito da capacidade cognitiva sobre o voto estratégico, e verificar se esses dois componentes da sofisticação política só operam quando o eleitor tem incentivo para votar estrategicamente.",
+  "valor_revalidacao": "Desentrelaçar o efeito da informação política do efeito da capacidade cognitiva sobre o voto estratégico."
+ },
+ {
+  "id_item": "C191",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Residentes do Reino Unido recrutados em duas amostras por quota na plataforma online Prolific: um estudo piloto com 1000 respondentes e um estudo principal pré-registrado com 2500 respondentes.",
+  "valor_revalidacao": "Amostras por cota de residentes do Reino Unido recrutadas na Prolific (estudo piloto e estudo principal pré-registrado)."
+ },
+ {
+  "id_item": "C192",
+  "variavel": "periodo_dados",
+  "tipo": "textual",
+  "valor_original": "Coletas em 29 de janeiro de 2020 (piloto) e 24 de setembro de 2020 (estudo principal); a análise observacional complementar de validade externa usa o British Election Study de 2015.",
+  "valor_revalidacao": "Coleta em janeiro e setembro de 2020 (piloto e estudo principal, respectivamente)."
+ },
+ {
+  "id_item": "C193",
+  "variavel": "fonte_dados",
+  "tipo": "categorica",
+  "valor_original": "ambos",
+  "valor_revalidacao": "primarios"
+ },
+ {
+  "id_item": "C194",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Exposição a resultados de pesquisas pré-eleitorais dentro de uma eleição simulada online com três candidatos fictícios (A, B e C) sem rótulo partidário, cujas posições são definidas pelas próprias preferências temáticas do respondente (sobreposição de temas alta com A, intermediária com B, baixa com C). As pesquisas mostram o candidato A, o mais próximo do respondente, com a menor chance de vitória, e B e C empatados na liderança. Formato: resultados de três institutos distintos, apresentados em uma visualização animada embutida no questionário. O resultado médio das pesquisas é mantido constante entre os participantes; o que é manipulado é a incerteza entre institutos, isto é, a variação entre as pesquisas (alta informação = menor variação entre institutos; baixa informação = maior variação). Momento: imediatamente antes do voto simulado, sem eleição real, portanto sem contagem de dias até a votação.",
+  "valor_revalidacao": "Exposição, dentro de uma pesquisa online (mock election), a informação sobre a sobreposição de posições com três candidatos fictícios (A, B, C) e, em seguida, a resultados de pesquisas eleitorais pré-eleitorais apresentados em visualização animada, mostrando o candidato preferido (A) com a menor chance de vitória e B/C empatados na liderança; a incerteza entre as pesquisas (tratamento de informação) e uma tarefa de carga cognitiva (contar piscadas) são manipuladas antes do voto simulado."
+ },
+ {
+  "id_item": "C195",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "A comparação é entre condições da própria exposição a pesquisas, não com ausência de pesquisa: condição de alta informação (pesquisas com pouca variação entre institutos, portanto incerteza baixa sobre o resultado provável) contra condição de baixa informação (maior variação entre institutos), com o resultado médio das pesquisas mantido constante. Esse contraste é cruzado com a manipulação de recursos cognitivos e com o nível de incentivo monetário, num desenho fatorial entre sujeitos. Todos os participantes veem pesquisas e todos recebem incentivo para o voto estratégico; os próprios autores registram que não há condição contrafactual sem incentivo.",
+  "valor_revalidacao": "Condição de níveis baixos de informação, recursos cognitivos e incentivo (grupo controle) versus níveis altos desses fatores, em desenho fatorial 2x2x2."
+ },
+ {
+  "id_item": "C196",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Voto estratégico na eleição simulada, medido no nível individual como a escolha do candidato B, que as pesquisas mostram empatado na liderança, em vez do candidato A, o mais próximo das preferências do respondente mas mostrado sem chance. É, portanto, apoio a um candidato mostrado à frente, medido por escolha individual incentivada por bônus monetário e não por intenção declarada.",
+  "valor_revalidacao": "Escolha de voto declarada (individual) na eleição simulada, classificada como voto estratégico quando o participante muda do candidato preferido (A) para o candidato viável (B)."
+ },
+ {
+  "id_item": "C197",
+  "variavel": "mecanismo_tipo_evidencia",
+  "tipo": "categorica",
+  "valor_original": "teste_de_canal",
+  "valor_revalidacao": "hipotese_dos_autores"
+ },
+ {
+  "id_item": "C198",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: pesquisas pré-eleitorais com menor variação entre institutos, ou seja, informação mais precisa sobre as chances de cada candidato, somada a recursos cognitivos não ocupados por uma tarefa concorrente e a incentivos monetários condicionados ao resultado da eleição simulada; Raciocínio: a informação permite formar expectativas precisas sobre quem pode vencer, os recursos cognitivos permitem processar essa informação e reconhecer o retorno de desviar do candidato preferido, e os dois fatores precisam operar juntos, com efeito potencialmente multiplicativo, condicionados a o eleitor ter incentivo para agir estrategicamente; Contexto: eleição simulada online no Reino Unido, com três candidatos fictícios sem rótulo partidário e referência a distrito uninominal.",
+  "valor_revalidacao": "Recurso: informação precisa sobre a viabilidade eleitoral dos candidatos e recursos cognitivos disponíveis para processá-la; Raciocínio: informação permite formar expectativas precisas sobre o resultado eleitoral, mas só é útil se o eleitor tiver capacidade cognitiva para processá-la e reconhecer o payoff estratégico, dado incentivo suficiente; Contexto: eleição fictícia experimental (mock election) com desenho fatorial 2x2x2 de incentivo, informação e carga cognitiva."
+ },
+ {
+  "id_item": "C199",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "O moderador central é o nível de incentivo monetário para o voto estratégico, alto contra baixo, manipulado experimentalmente: os efeitos de informação e de recursos cognitivos são estimados separadamente dentro de cada condição de incentivo e, na condição de baixo incentivo, nenhum tratamento apresenta efeito significativo e replicável. Há ainda a interação entre os dois tratamentos de sofisticação, informação e recursos cognitivos combinados contra cada um isolado, e a comparação entre as duas amostras, piloto e estudo principal pré-registrado.",
+  "valor_revalidacao": "Moderador: nível de incentivo monetário experimental (alto vs. baixo). Nos subgrupos de baixo incentivo, nenhum tratamento (informação, recursos cognitivos, combinação) tem efeito significativo e replicável sobre o voto estratégico; no subgrupo de alto incentivo, a combinação de informação e recursos cognitivos aumenta o voto estratégico."
+ },
+ {
+  "id_item": "C200",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "O texto não testa efeitos não intencionais da exposição a pesquisas: não há medida de comparecimento, de deserção estratégica de terceiros candidatos nem de qualidade informacional do voto. Relata apenas, como consideração normativa e não como resultado estimado, que o voto estratégico pode inflar o apoio aparente a certas plataformas políticas e que diferenças sistemáticas em recursos cognitivos entre grupos sociais podem comprometer a representação igualitária.",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C201",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Ausência de uma condição contrafactual em que os respondentes não enfrentem incentivos para o voto estratégico, o que impede saber se quem desvia do voto sincero o faz apenas por incentivo estratégico; os aumentos de voto estratégico com informação mais precisa observados no piloto não se replicam no estudo principal; e, no piloto, o tratamento alternativo de carga cognitiva por história de distração não afetou o desempenho no teste de lógica.",
+  "valor_revalidacao": "Os próprios autores reconhecem a ausência de uma condição contrafactual sem qualquer incentivo estratégico, o que limita a interpretação causal do papel isolado do incentivo."
+ },
+ {
+  "id_item": "C202",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "Aleatorização individual entre oito condições de um fatorial entre sujeitos, com checagem de balanceamento das covariáveis relevantes relatada no material suplementar (SM IV) e checagens de manipulação para os três tratamentos (SM V), que mostram que a informação mais precisa reduz a probabilidade percebida de vitória do candidato preferido, que a carga cognitiva piorou o desempenho em tarefa de lógica e que quem estava na condição de alto incentivo justificou mais o voto pela chance realista de vitória. A análise do estudo principal é pré-registrada.",
+  "valor_revalidacao": "Os autores reportam testes de manipulação (checagem de que os tratamentos de informação, incentivo e carga cognitiva funcionaram como planejado), descritos no material suplementar (SM V) e apenas resumidos no texto principal."
+ },
+ {
+  "id_item": "C203",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "Atribuição no nível do indivíduo, isto é, do respondente do questionário online, sem unidade de agrupamento no desenho; o texto não informa agrupamento dos erros-padrão, tamanho médio de cluster nem ICC (999 para esses itens).",
+  "valor_revalidacao": "Atribuição aleatória em nível individual (por respondente); o texto principal não menciona clusterização de erros-padrão, tamanho de cluster ou ICC."
+ },
+ {
+  "id_item": "C204",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Fig. 2, painel High Incentive, linha Information & Cognitive Resources, estudo principal pré-registrado (tabelas de regressão completas em SM A.VI) ; apoio_ao_lider: Fig. 2, painel High Incentive, linha Information & Cognitive Resources, estudo piloto",
+  "valor_revalidacao": "apoio_ao_lider: Fig. 2, estimativas condicionais do estudo principal pré-registrado (condição de alto incentivo, alta informação e recursos cognitivos)"
+ },
+ {
+  "id_item": "C205",
+  "variavel": "b2_criterio_modelo_principal",
+  "tipo": "categorica",
+  "valor_original": "declarado_pelos_autores ; declarado_pelos_autores",
+  "valor_revalidacao": "apoio_ao_lider: declarado_pelos_autores"
+ },
+ {
+  "id_item": "C206",
+  "variavel": "b2_significancia_05",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: sim",
+  "valor_revalidacao": "apoio_ao_lider: nao_reportada"
+ },
+ {
+  "id_item": "C207",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que informação e recursos cognitivos são duas dimensões necessárias e complementares para viabilizar o voto estratégico, de modo que informação sozinha não basta para que o eleitor tire proveito do resultado das pesquisas.",
+  "valor_revalidacao": "Os autores concluem que informação e recursos cognitivos são duas dimensões importantes que, em conjunto e sob incentivo suficiente, facilitam o voto estratégico."
+ },
+ {
+  "id_item": "C208",
+  "variavel": "sistema_eleitoral",
+  "tipo": "categorica",
+  "valor_original": "pluralidade",
+  "valor_revalidacao": "regra_do_experimento"
+ },
+ {
+  "id_item": "C209",
+  "variavel": "comparador_tipo",
+  "tipo": "categorica",
+  "valor_original": "outro — especifique: pesquisas com baixa variação entre institutos, isto é, informação mais precisa, contra pesquisas com alta variação entre institutos, mantendo constante o resultado médio mostrado; não há braço sem exposição a pesquisa.",
+  "valor_revalidacao": "unidades_nao_expostas"
+ },
+ {
+  "id_item": "C210",
+  "variavel": "mecanismo_testado",
+  "tipo": "categorica",
+  "valor_original": "informacao + viabilidade_estrategico",
+  "valor_revalidacao": "informacao + outro (recursos cognitivos / carga cognitiva)"
+ },
+ {
+  "id_item": "C211",
+  "variavel": "alvo_efeito",
+  "tipo": "categorica",
+  "valor_original": "lider",
+  "valor_revalidacao": "segundo_viavel"
+ },
+ {
+  "id_item": "C212",
+  "variavel": "ajuste_mediador",
+  "tipo": "categorica",
+  "valor_original": "Não — a expectativa de vitória (probabilidade percebida de o candidato preferido vencer) aparece no texto apenas como checagem de manipulação, não como controle do modelo principal.",
+  "valor_revalidacao": "999"
+ }
+]

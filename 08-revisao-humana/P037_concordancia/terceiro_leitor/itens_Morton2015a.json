@@ -1,0 +1,135 @@
+[
+ {
+  "id_item": "C171",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "França — territórios ultramarinos a oeste (Polinésia Francesa, São Pedro e Miquelão, Guadalupe, Guiana Francesa e Martinica), com os OST orientais e a França metropolitana como comparação",
+  "valor_revalidacao": "França"
+ },
+ {
+  "id_item": "C172",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Estimar o efeito causal da informação de boca de urna (resultado já conhecido do continente) sobre o comparecimento eleitoral e sobre o voto bandwagon dos eleitores que votam depois",
+  "valor_revalidacao": "Estimar o efeito causal do conhecimento antecipado do resultado eleitoral (via boca de urna) sobre o comparecimento e sobre o voto de bandwagon, explorando uma reforma eleitoral francesa de 2005 como experimento natural."
+ },
+ {
+  "id_item": "C173",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Departamentos franceses (96 do continente mais nove territórios ultramarinos, total de 105), observados no comparecimento dos dois turnos das eleições presidenciais; nas checagens de robustez, os mesmos departamentos nas eleições legislativas",
+  "valor_revalidacao": "Eleitores registrados da França continental e dos territórios ultramarinos (departamentos), agregados por departamento-ano, nas eleições presidenciais."
+ },
+ {
+  "id_item": "C174",
+  "variavel": "periodo_dados",
+  "tipo": "textual",
+  "valor_original": "1981 a 2012 (eleições presidenciais de 1981, 1988, 1995, 2002, 2007 e 2012); 1997 a 2012 para as eleições legislativas usadas na robustez",
+  "valor_revalidacao": "1981 a 2012 (seis eleições presidenciais: 1981, 1988, 1995, 2002, 2007, 2012)."
+ },
+ {
+  "id_item": "C175",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Exposição ao resultado eleitoral já divulgado do continente: às 20h CET, no fechamento das urnas metropolitanas, as TVs francesas divulgam estimativas muito precisas do resultado final (percentuais e ranking dos candidatos), baseadas em grandes pesquisas de boca de urna e nos primeiros resultados apurados. Antes da reforma de 2005, os eleitores dos territórios ultramarinos a oeste do continente ainda tinham urnas abertas quando essa informação circulava e, portanto, votavam sabendo quem venceria. A fonte de variação exógena é a reforma constitucional de 2003, efetiva em 2005, que passou a votação desses territórios para sábado, eliminando o acesso à informação",
+  "valor_revalidacao": "Conhecimento do resultado eleitoral por boca de urna/apuração precoce, divulgado por canais de TV às 20h CET no dia da eleição na França continental, antes de os territórios ultramarinos ocidentais fecharem suas urnas (antes da reforma de 2005); meio = televisão/mídia; momento = mesmo dia da votação, antes do fechamento das seções ocidentais."
+ },
+ {
+  "id_item": "C176",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "Os mesmos territórios ultramarinos ocidentais depois da reforma de 2005, quando passaram a votar sem conhecer o resultado do continente, tendo como grupo de controle unidades não expostas (os OST orientais e, nas especificações maiores, os departamentos do continente)",
+  "valor_revalidacao": "Unidades expostas à informação de boca de urna (OST ocidentais antes da reforma de 2005, quando votavam depois do resultado do continente ser conhecido) comparadas com si mesmas após a reforma (quando passaram a votar sem essa informação) e com as OST orientais, que nunca tiveram acesso a essa informação (grupo de controle não exposto)."
+ },
+ {
+  "id_item": "C177",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Mobilização: comparecimento agregado por departamento e turno (proporção de eleitores registrados que votaram), variável dependente dos modelos de diferenças em diferenças. Apoio ao líder: diferença normalizada de votos entre o primeiro e o segundo colocado nos departamentos ultramarinos ocidentais, medida agregada que capta se o candidato à frente no continente recebe mais votos nesses departamentos",
+  "valor_revalidacao": "mobilizacao: comparecimento eleitoral agregado por departamento-ano (percentual de votantes registrados). apoio_ao_lider: diferença normalizada de votos entre o candidato mais votado e o segundo colocado (agregada, comparando OST tratada e continente)."
+ },
+ {
+  "id_item": "C178",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: divulgação, no fechamento das urnas do continente, de estimativas precisas do resultado final, acessíveis a eleitores ultramarinos cujas urnas ainda estavam abertas; Raciocínio: ao aprender que a eleição já está decidida, o eleitor conclui que seu voto não será pivotal e, sendo o voto custoso, tende a se abster; entre os que comparecem, parte obtém utilidade de votar no vencedor (ou de conformar-se à maioria) e desconsidera sua informação ou preferência privada, produzindo voto bandwagon, seja por troca de voto, seja por comparecimento seletivo, canais que os dados não permitem separar; Contexto: eleições presidenciais francesas em dois turnos, com cerca de 96% do eleitorado no continente, o que torna o resultado praticamente definido antes de os territórios ocidentais votarem",
+  "valor_revalidacao": "Recurso: teoria da votação sequencial com informação incompleta e utilidade de conformidade (Battaglini 2005; Battaglini, Morton e Palfrey 2007; Callander 2007); Raciocínio: ao saber o resultado provável (via boca de urna), o eleitor tardio percebe menor probabilidade de seu voto ser pivotal — o que, dado custo de votar, reduz o incentivo a comparecer — e/ou obtém utilidade própria em votar pelo candidato que já parece vencedor, gerando bandwagon; Contexto: modelo teórico de votação sequencial testado no cenário do vazamento de boca de urna na eleição presidencial francesa."
+ },
+ {
+  "id_item": "C179",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "Desmobilização (queda de cerca de 11 pontos percentuais no comparecimento quando os eleitores conhecem o resultado) e vantagem eleitoral para candidatos e partidos favorecidos pelos eleitores que votam primeiro, via voto bandwagon; os autores também apontam o incentivo de candidatos e partidos a manipular o momento da votação e o tipo e a acurácia da informação divulgada",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C180",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Os dados não permitem distinguir entre o canal de troca de voto e o canal de comparecimento seletivo no efeito bandwagon; o número pequeno de clusters quando se descartam os departamentos do continente impede erros-padrão agrupados, obrigando ao bootstrap em blocos, e reduz a precisão nas amostras menores; há ainda a escolha do grupo de controle em desenhos de diferenças em diferenças e eventos atípicos do período (candidato guianense em 2002 e a eleição 'Le Pen')",
+  "valor_revalidacao": "Os próprios autores reconhecem que os dados não permitem distinguir entre as duas explicações possíveis para o efeito bandwagon encontrado (troca de voto por bandwagon vs. efeito de comparecimento por bandwagon)."
+ },
+ {
+  "id_item": "C181",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "Hipótese de tendências paralelas, sustentada pela inspeção gráfica das trajetórias de comparecimento antes da reforma (Figuras 2 e 3) e pela inclusão de tendências temporais lineares e quadráticas específicas por departamento; testes apresentados: placebo com 1994 como ano falso da reforma, placebo com os OST orientais como grupo tratado falso, placebo com o comparecimento nas eleições legislativas, dummy para a Guiana no primeiro turno de 2002 e reestimação excluindo o primeiro turno de 2002",
+  "valor_revalidacao": "Testes de robustez reportados: (i) estimativas placebo usando 1994 como falso ano de reforma; (ii) OST orientais como falso grupo tratado; (iii) tendências temporais lineares e quadráticas específicas por departamento (teste de tendências paralelas); (iv) placebo com dados de eleições parlamentares (mesmas unidades, resultado não deveria ser afetado); (v) exclusão do primeiro turno de 2002 (\"efeito Le Pen\") e de outliers de margem de voto."
+ },
+ {
+  "id_item": "C182",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "A exposição foi atribuída por lei ao nível do território/departamento (os cinco OST a oeste do continente, tratados como departamentos), e os erros-padrão são agrupados no nível do departamento; quando o continente é descartado restam apenas nove clusters, insuficientes para o agrupamento, e os autores usam bootstrap em blocos; tamanho médio de cluster e ICC não são reportados",
+  "valor_revalidacao": "Nível: departamento (a exposição/remoção da informação de boca de urna é atribuída no nível do território/departamento, não do indivíduo). Erros-padrão agrupados por departamento nas especificações em que há clusters suficientes; com poucos clusters (grupo de controle apenas OST orientais) usam-se erros bootstrapados em bloco por departamento. Tamanho médio de cluster e ICC não reportados."
+ },
+ {
+  "id_item": "C183",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "dummy de OST ; dummy de turno (round dummy) ; tendência temporal linear específica por departamento",
+  "valor_revalidacao": "mobilizacao: dummy de OST ; dummy de turno (round) ; tendência temporal linear específica por departamento ; tendência temporal quadrática específica por departamento (variando por especificação, ver Tabelas 4 e 5). apoio_ao_lider: nenhum controle adicional — a equação (2) usa apenas a diferença de votos no continente, uma dummy pós-2005 e a interação entre ambos."
+ },
+ {
+  "id_item": "C184",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Tabela 8, coluna 'Full Sample' (diferença δ entre as inclinações pré e pós-2005) ; mobilizacao: Tabela 5, col. (1)",
+  "valor_revalidacao": "mobilizacao: Tabela 5, coluna (1) (especificação de base, \"baseline\", com tendência linear específica por departamento) ; apoio_ao_lider: Tabela 8, coluna \"Full Sample\" (diferença δ entre os coeficientes pré- e pós-2005 da equação 2)"
+ },
+ {
+  "id_item": "C185",
+  "variavel": "b2_criterio_modelo_principal",
+  "tipo": "categorica",
+  "valor_original": "regra_do_protocolo ; usado_na_interpretacao",
+  "valor_revalidacao": "mobilizacao: declarado_pelos_autores ; apoio_ao_lider: usado_na_interpretacao"
+ },
+ {
+  "id_item": "C186",
+  "variavel": "b2_direcao_estimativa_principal",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: benefica ; mobilizacao: danosa",
+  "valor_revalidacao": "mobilizacao: danosa (conhecer o resultado antecipadamente reduz o comparecimento, o oposto do aumento desejado) ; apoio_ao_lider: benefica (exposição à boca de urna aumenta a correlação positiva com o candidato líder no continente, isto é, bandwagon)"
+ },
+ {
+  "id_item": "C187",
+  "variavel": "b2_significancia_05",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: nao ; mobilizacao: sim",
+  "valor_revalidacao": "mobilizacao: sim ; apoio_ao_lider: sim"
+ },
+ {
+  "id_item": "C188",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que a informação de boca de urna tem efeitos consequentes sobre o comportamento eleitoral, reduzindo o comparecimento em cerca de 11 a 12 pontos percentuais e aumentando o voto bandwagon entre os que comparecem",
+  "valor_revalidacao": "Os autores concluem que o conhecimento do resultado eleitoral antecipado reduz o comparecimento e aumenta o voto de bandwagon nos eleitores tardios."
+ },
+ {
+  "id_item": "C189",
+  "variavel": "margem_mostrada",
+  "tipo": "textual",
+  "valor_original": "Varia por eleição e turno: a Tabela 1 reporta a diferença prevista às 20h entre os candidatos pivotais em cada uma das seis eleições (por exemplo, diferença prevista de 3,4% entre os dois candidatos no segundo turno de 1981); na análise de outliers os autores excluem as observações em que a vantagem no continente superou 20 pontos percentuais",
+  "valor_revalidacao": "2º turno, diferença 1º vs. 2º colocado nas previsões de boca de urna (Tabela 1, coluna \"Diff pivotal candidates\", Forecast): 1981: 3.4 ; 1988: 7.8 ; 1995: 4 ; 2002: 64.2 ; 2007: 6 ; 2012: 3.80. 1º turno: 999 (a tabela reporta a diferença entre o 2º e o 3º colocados, não entre 1º e 2º — ver Notas)."
+ }
+]

@@ -1,0 +1,233 @@
+[
+ {
+  "id_item": "C027",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "México — Michoacán e Nuevo León (experimento nas eleições estaduais de 2015); também dados nacionais da eleição presidencial mexicana de 2006",
+  "valor_revalidacao": "México"
+ },
+ {
+  "id_item": "C028",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Qual o efeito da informação de pesquisas eleitorais sobre o comportamento do eleitor e, em particular, qual o papel do partidarismo em moderar a interpretação dessa informação e os incentivos para desertar do candidato co-partidário e votar estrategicamente",
+  "valor_revalidacao": "Investigar se a informação sobre o resultado das pesquisas eleitorais afeta o comportamento estratégico dos eleitores, e como o partidarismo modera essa resposta."
+ },
+ {
+  "id_item": "C029",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Dados observacionais: eleitores mexicanos entrevistados em três pesquisas nacionalmente representativas conduzidas nas semanas anteriores à eleição presidencial de 2006, face a face, com cidadãos maiores de 18 anos e com credencial de eleitor. Experimento: cerca de 650 respondentes da segunda onda de um painel telefônico representativo no nível estadual em Michoacán e Nuevo León",
+  "valor_revalidacao": "Amostra nacional representativa de eleitores mexicanos entrevistados face a face nos meses anteriores à eleição presidencial de 2006."
+ },
+ {
+  "id_item": "C030",
+  "variavel": "periodo_dados",
+  "tipo": "textual",
+  "valor_original": "2006 (três pesquisas nacionais realizadas no mês anterior ao dia da eleição, 2 de julho de 2006) e 2015 (painel de duas ondas: 1ª onda de 14 a 16 de março de 2015; 2ª onda de 1 a 3 de junho de 2015; eleição em 7 de junho de 2015)",
+  "valor_revalidacao": "Maio-junho de 2006 (três pesquisas: 31 mai-3 jun; 16-19 jun; 24-26 jun)"
+ },
+ {
+  "id_item": "C031",
+  "variavel": "fonte_dados",
+  "tipo": "categorica",
+  "valor_original": "ambos",
+  "valor_revalidacao": "secundarios"
+ },
+ {
+  "id_item": "C032",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Duas exposições. (i) Nos dados observacionais de 2006, estar informado sobre os resultados das pesquisas de intenção de voto divulgadas na campanha presidencial mexicana, medido por o respondente ter uma resposta definida sobre qual candidato lidera as pesquisas, um mês antes do dia da eleição. (ii) No experimento de survey de 2015, uma vinheta atribuída aleatoriamente dentro de um survey telefônico, informando o resultado de uma pesquisa recém-divulgada por um jornal nacional: em Michoacán, o candidato do PRI e o do PRD empatados com 36 % e o do PAN com 23 %; em Nuevo León, o candidato do PRI à frente com 38 %, o candidato independente em segundo com 32 % e o do PAN em terceiro com 20 %. O texto é lido ao respondente (sem gráfico e sem o nome do jornal ou do instituto), sem qualquer apelo à deserção, a poucos dias da votação de 7 de junho de 2015",
+  "valor_revalidacao": "Exposição (autorreportada) à informação de pesquisas eleitorais nacionais divulgadas pela mídia sobre a posição dos candidatos (PAN, PRI, PRD) nos dias/semanas antes da eleição presidencial de 2006; não é uma manipulação experimental, é medida pela pergunta sobre quem lidera as pesquisas."
+ },
+ {
+  "id_item": "C033",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "Sem pesquisa: no experimento, o grupo de controle não foi perguntado sobre os resultados da pesquisa e não recebeu a informação; nos dados observacionais, eleitores não informados sobre o que as pesquisas mostravam",
+  "valor_revalidacao": "Eleitores não informados/conscientes do resultado das pesquisas (resposta \"não sei\" à pergunta sobre quem lidera) versus eleitores informados."
+ },
+ {
+  "id_item": "C034",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Medidas individuais e declaradas em survey. No experimento, indicador binário de intenção de voto igual a 1 quando o respondente apoia o candidato anti-PRI mais bem colocado nas pesquisas, isto é, o adversário mostrado atrás do líder da vinheta, e 0 caso contrário. Nos dados observacionais de 2006, intenção de voto declarada entre partidários do PRI, com voto no candidato do PRI (mostrado atrás nas pesquisas) como categoria de referência e as categorias \"Not PRI\" e \"DK\", além de um indicador de resposta \"não sei\" à pergunta de intenção de voto",
+  "valor_revalidacao": "Escolha de voto declarada (para quem o eleitor votaria), operacionalizada nos modelos como defecção do voto no PRI (partido então em queda nas pesquisas) para PAN/PRD (candidatos líderes); indicador individual, autorreportado."
+ },
+ {
+  "id_item": "C035",
+  "variavel": "mecanismo_tipo_evidencia",
+  "tipo": "categorica",
+  "valor_original": "teste_de_canal",
+  "valor_revalidacao": "hipotese_dos_autores"
+ },
+ {
+  "id_item": "C036",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: a informação divulgada por pesquisas de intenção de voto durante a campanha e a percepção que o eleitor forma sobre quem lidera; Raciocínio: a informação atualiza as expectativas sobre as chances de vitória de cada candidato; partidários que percebem que seu candidato co-partidário não pode vencer superam o viés partidário e desertam para uma alternativa viável, votando estrategicamente, enquanto o partidarismo prioriza motivos expressivos e leva a superestimar as chances do próprio candidato; Contexto: democracia jovem com sistema multipartidário e regra de pluralidade em turno único no México, em que um terceiro competidor aparece atrás nas pesquisas",
+  "valor_revalidacao": "Recurso: informação sobre o resultado das pesquisas eleitorais divulgada pela mídia; Raciocínio: a informação permite ao eleitor partidário compreender que seu candidato está atrás e por isso reduz o reforço partidário/wishful thinking, liberando-o para votar estrategicamente; Contexto: campanha presidencial mexicana de 2006, disputa tripartidária competitiva."
+ },
+ {
+  "id_item": "C037",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "O moderador central é o partidarismo. Nos dados observacionais, os modelos da Tabela 2 são estimados separadamente para \"All Voters\", \"Partisans\" e \"Independents\", e a Tabela 3 restringe a análise a partidários do PRI. No experimento, os resultados aparecem por subgrupo na Figura 4 (\"3rd Parties + DK\", \"Partisans\", \"Independents\", \"3rd Party Partisans\"), na Figura 5 (eleitores anti-PRI) e na Tabela A6, cujas colunas são efeito agregado, partidários, partidários de partidos atrás nas pesquisas, independentes, anti-PRI > PRI e PRI > anti-PRI. O efeito do tratamento é maior entre partidários e entre partidários que apoiam candidatos atrás nas pesquisas do que no agregado, e é maior entre eleitores anti-PRI; entre independentes o efeito é pequeno. A preferência prévia também segmenta a amostra, já que a análise se restringe a quem apoia partidos atrás nas pesquisas e a indecisos",
+  "valor_revalidacao": "Partidarismo (partidário vs. independente) modera a probabilidade de resposta \"não sei\" à intenção de voto: cai de 43% para 22% entre independentes e de 10% para 5% entre partidários quando informados sobre as pesquisas. Entre partidários do PRI, a expectativa de que o PRI vai perder (vs. vencer) aumenta a defecção para outro candidato."
+ },
+ {
+  "id_item": "C038",
+  "variavel": "het_pre_especificada",
+  "tipo": "categorica",
+  "valor_original": "sim",
+  "valor_revalidacao": "nao_declarado"
+ },
+ {
+  "id_item": "C039",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "O texto relata deserção estratégica de apoiadores de terceiros candidatos: o tratamento enfraquece a ligação entre partidarismo e escolha de voto entre apoiadores do PAN, terceiro colocado na vinheta, reduzindo o apoio ao próprio candidato co-partidário; nos dados observacionais, partidários do PRI, cujo candidato aparecia atrás, abandonam o candidato do próprio partido quando informados das pesquisas. Os autores tratam esses movimentos como voto estratégico, não como efeito indesejado. Não há medida de comparecimento nem de desmobilização",
+  "valor_revalidacao": "deserção estratégica de terceiro candidato (PAN): apoio dos partidários do PAN ao próprio candidato cai de 82% no controle para 76% no tratamento."
+ },
+ {
+  "id_item": "C040",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores reconhecem que a generalização do experimento para contextos reais é uma questão em aberto, já que efeitos de tratamento no mundo real podem ser atenuados por outros eventos de campanha ou pela desatenção dos eleitores à mídia; que, como todo experimento de survey, o estudo não permite dizer como não respondentes reagiriam ao estímulo; que parte do grupo de controle provavelmente já conhecia a informação das pesquisas, o que torna os resultados conservadores e faz do artigo um limite inferior para o comportamento estratégico; que o estudo não analisa endossos de terceiros, sinais de coordenação ou endossos da mídia; que não há observações suficientes para estudar variações entre os dois estados; e que a variável de informação política só estava em duas das três pesquisas de 2006",
+  "valor_revalidacao": "O estudo não analisa a influência de endossos de candidatos de terceiros partidos, sinais de coordenação ou endossos da mídia, entre outros eventos que também podem gerar comportamento estratégico; por isso o artigo apresenta um limite inferior (lower bound) do comportamento estratégico."
+ },
+ {
+  "id_item": "C041",
+  "variavel": "b2_estrategia_identificacao",
+  "tipo": "categorica",
+  "valor_original": "experimento_aleatorizado_individual",
+  "valor_revalidacao": "regressao_com_controles"
+ },
+ {
+  "id_item": "C042",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "A hipótese de identificação declarada é a aleatorização, que garantiria grupos de tratamento e controle idênticos em média em características observáveis e não observáveis. O texto apresenta teste de balanceamento entre tratamento e controle na Tabela A4, com número de observações, médias, erros-padrão e p-valores para sexo, idade, escolaridade, partidarismo por partido, condição de independente e probabilidades declaradas de voto em cada candidato, e reporta a taxa de atrito da segunda onda do painel na Tabela A3. Não há placebo, corte falso, outcome falso nem análise de tendências prévias",
+  "valor_revalidacao": "Teste de balanceamento entre tratamento e controle apresentado na Tabela A4; o texto indica que os grupos ficaram balanceados nas covariáveis observadas."
+ },
+ {
+  "id_item": "C043",
+  "variavel": "b2_estimador",
+  "tipo": "categorica",
+  "valor_original": "logit_probit",
+  "valor_revalidacao": "outro — regressão logística multinomial (multinomial logit)"
+ },
+ {
+  "id_item": "C044",
+  "variavel": "b2_estimando",
+  "tipo": "categorica",
+  "valor_original": "ATE",
+  "valor_revalidacao": "associacao"
+ },
+ {
+  "id_item": "C045",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "A exposição foi atribuída no nível do indivíduo, dentro da segunda onda de um painel telefônico conduzido em dois estados. Os modelos incluem uma dummy de estado, mas o texto não afirma que os erros-padrão foram agrupados em qualquer nível e não informa tamanho médio de cluster nem ICC",
+  "valor_revalidacao": "Atribuição no nível individual (sorteio aleatório entre tratamento e controle); não há menção de agrupamento de erros-padrão por cluster; o modelo inclui apenas uma variável dummy de estado como controle."
+ },
+ {
+  "id_item": "C046",
+  "variavel": "b2_n_total",
+  "tipo": "numerica_int",
+  "valor_original": "545",
+  "valor_revalidacao": "494"
+ },
+ {
+  "id_item": "C047",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "Modelo principal do experimento (Tabela A6): State dummy, sem nenhum outro controle. Modelo observacional principal (Tabela 3, bloco com controles): Education ; Campaign Interest ; Female ; Age ; Survey 1 ; Survey 2",
+  "valor_revalidacao": "Education ; Campaign Interest ; Female ; Age ; Survey 1 ; Survey 2"
+ },
+ {
+  "id_item": "C048",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider (experimento de 2015, amostra de potenciais eleitores estratégicos): Figura 4, primeiro painel \"3rd Parties + DK\", cuja regressão completa é a Tabela A6, col. (1) \"Aggregate Effect\" ; apoio_ao_lider (dados observacionais de 2006, partidários do PRI): Tabela 3, bloco \"PRI Partisans\" com controles, cols. (1) \"Other\" e (2) \"DK\"",
+  "valor_revalidacao": "apoio_ao_lider: Tabela 3, colunas com controles (3-4)"
+ },
+ {
+  "id_item": "C049",
+  "variavel": "b2_criterio_modelo_principal",
+  "tipo": "categorica",
+  "valor_original": "regra_do_protocolo ; regra_do_protocolo",
+  "valor_revalidacao": "regra_do_protocolo"
+ },
+ {
+  "id_item": "C050",
+  "variavel": "b2_direcao_estimativa_principal",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider (experimento de 2015): danosa ; apoio_ao_lider (dados observacionais de 2006): benefica",
+  "valor_revalidacao": "apoio_ao_lider: benefica"
+ },
+ {
+  "id_item": "C051",
+  "variavel": "b2_significancia_05",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider (experimento de 2015): nao ; apoio_ao_lider (dados observacionais de 2006): sim",
+  "valor_revalidacao": "apoio_ao_lider: sim"
+ },
+ {
+  "id_item": "C052",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que a informação de pesquisas eleitorais leva eleitores, sobretudo partidários informados de que seu candidato não pode vencer, a superar o viés partidário, abandonar o candidato co-partidário e votar estrategicamente, o que explica parte das mudanças de intenção de voto no fim das campanhas",
+  "valor_revalidacao": "Partidários do PRI que sabiam que seu candidato provavelmente perderia a eleição tinham maior probabilidade de defeccionar do que os que não sabiam; um em cada três partidários do PRI defeccionou estrategicamente nos últimos dias da campanha."
+ },
+ {
+  "id_item": "C053",
+  "variavel": "desenho_fino",
+  "tipo": "categorica",
+  "valor_original": "survey_experiment",
+  "valor_revalidacao": "outro — pesquisas transversais repetidas e agrupadas (pooled cross-sectional), sem atribuição aleatória"
+ },
+ {
+  "id_item": "C054",
+  "variavel": "ano_eleicao",
+  "tipo": "numerica_int",
+  "valor_original": "2015",
+  "valor_revalidacao": "2006"
+ },
+ {
+  "id_item": "C055",
+  "variavel": "comparador_tipo",
+  "tipo": "categorica",
+  "valor_original": "sem_pesquisa",
+  "valor_revalidacao": "unidades_nao_expostas"
+ },
+ {
+  "id_item": "C056",
+  "variavel": "margem_mostrada",
+  "tipo": "textual",
+  "valor_original": "Michoacán: 0 ponto percentual, com o candidato do PRI e o do PRD empatados com 36 % e o do PAN com 23 % ; Nuevo León: 6 pontos percentuais, com o candidato do PRI à frente com 38 %, o independente com 32 % e o do PAN com 20 %",
+  "valor_revalidacao": "Michoacán: 0 pontos percentuais (empate 36% PRI vs. 36% PRD) ; Nuevo León: 6 pontos percentuais (38% PRI vs. 32% independente)"
+ },
+ {
+  "id_item": "C057",
+  "variavel": "moderadores_relatados",
+  "tipo": "categorica",
+  "valor_original": "partidarismo + preferencia_previa",
+  "valor_revalidacao": "partidarismo"
+ },
+ {
+  "id_item": "C058",
+  "variavel": "alvo_efeito",
+  "tipo": "categorica",
+  "valor_original": "segundo_viavel + terceiro_inviavel",
+  "valor_revalidacao": "lider"
+ },
+ {
+  "id_item": "C059",
+  "variavel": "dias_ate_eleicao",
+  "tipo": "numerica_int",
+  "valor_original": "7",
+  "valor_revalidacao": "4 a 6 dias"
+ }
+]

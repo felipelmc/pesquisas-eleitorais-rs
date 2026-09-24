@@ -1,0 +1,177 @@
+[
+ {
+  "id_item": "C146",
+  "variavel": "titulo",
+  "tipo": "textual",
+  "valor_original": "Polls, coalition signals and strategic voting: An experimental investigation of perceptions and effects",
+  "valor_revalidacao": "Polls, coalition signals and strategic voting: An experimental investigation of perceptions and effects"
+ },
+ {
+  "id_item": "C147",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "Alemanha — Baden-Württemberg e Renânia-Palatinado",
+  "valor_revalidacao": "Alemanha (estados de Baden-Württemberg e Rheinland-Pfalz/Rhineland-Palatinate)"
+ },
+ {
+  "id_item": "C148",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Testar se eleitores em sistemas multipartidários com representação proporcional e governos de coalizão se comportam conforme as expectativas da teoria do voto estratégico quando pesquisas pré-eleitorais e sinais de coalizão são manipulados experimentalmente.",
+  "valor_revalidacao": "Testar se eleitores em sistemas multipartidários se comportam de acordo com as expectativas da teoria do voto estratégico, usando um experimento de laboratório embutido em duas campanhas eleitorais reais para manipular pesquisas e sinais de coalizão."
+ },
+ {
+  "id_item": "C149",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Estudantes alemães em sessões de laboratório informatizadas (280 recrutados; 200 analisados, os elegíveis para votar em eleições alemãs), designados à campanha estadual que melhor correspondia às suas preferências partidárias.",
+  "valor_revalidacao": "Estudantes universitários alemães recrutados para um experimento de laboratório computadorizado (280 no total, 105 mulheres e 169 homens, idade média 25 anos); apenas os 200 participantes aptos a votar em eleições alemãs foram usados nas análises."
+ },
+ {
+  "id_item": "C150",
+  "variavel": "periodo_dados",
+  "tipo": "textual",
+  "valor_original": "janeiro de 2006",
+  "valor_revalidacao": "Janeiro de 2006 (experimento conduzido no início das campanhas eleitorais estaduais, cuja eleição ocorreu em 26 de março de 2006)"
+ },
+ {
+  "id_item": "C151",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Resultados de pesquisas de intenção de voto manipulados dentro de duas campanhas estaduais alemãs reais (janeiro de 2006). Os participantes foram designados aleatoriamente a três condições de pesquisa que variavam a proximidade do resultado para o pequeno partido preferido em relação à cláusula de 5 por cento: controle (partido grande preferido em '41 per cent' e pequeno em '10 per cent'), close/failure (pequeno partido em '5 per cent' ou '4 per cent') e competition (os três pequenos partidos em torno de '7 per cent'). A informação apareceu em formato de pesquisa isolada, numa página de resultados com tabela de percentuais e resumo verbal da disputa, vista por todos após responderem a uma pesquisa pré-eleitoral simulada, e também em cinco artigos jornalísticos disponíveis no information board. Cruzada com essa manipulação, uma manipulação independente de sinal de coalizão (presente ou ausente) em manchetes atribuídas aos dois partidos preferidos do participante. O cenário simulado situava a exposição no início da campanha, a 14 semanas da eleição.",
+  "valor_revalidacao": "Resultados de pesquisa pré-eleitoral manipulados mostrando o percentual de intenção de voto do partido pequeno preferido do participante em três condições de proximidade ao limiar de 5% (controle ≈10%; fechada/fracasso 5% ou 4%; competição ≈7% cada partido pequeno), cruzados com um sinal de coalizão (presente/ausente) mencionando a coalizão preferida do participante. Meio: (1) uma pergunta de \"pesquisa pré-eleitoral\" respondida pelo participante seguida de uma página de resultados com tabela numérica e resumo verbal (Figura 2); (2) cinco manchetes/artigos de jornal fictício (\"Landesanzeiger\") dentro de um quadro de informação dinâmico com 90 manchetes ao longo de 15 \"semanas\" simuladas. Momento: embutido no início real de duas campanhas eleitorais estaduais alemãs de janeiro de 2006, antes da eleição de 26 de março de 2006."
+ },
+ {
+  "id_item": "C152",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "Outro resultado de pesquisa: as condições foram agrupadas em pesquisa que criava resultado apertado (close/failure) versus resultado seguro (controle e competition); para o sinal de coalizão, condição com sinal versus sem sinal. Não há braço sem pesquisa alguma.",
+  "valor_revalidacao": "Comparação entre três condições de pesquisa pré-eleitoral de proximidade variável para o partido pequeno preferido (controle ≈10% vs. fechada/fracasso 5%/4% vs. competição ≈7% cada), cruzada ortogonalmente com a presença vs. ausência do sinal de coalizão nas manchetes."
+ },
+ {
+  "id_item": "C153",
+  "variavel": "construto_outcome",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider",
+  "valor_revalidacao": "999 (não corresponde a nenhum dos construtos do protocolo — ver Notas)"
+ },
+ {
+  "id_item": "C154",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Voto insincero, indicador individual dicotômico: voto declarado no experimento em partido diferente do ranqueado em primeiro lugar pelo próprio participante, medido na votação final após a busca de informação; medida secundária, descritiva, de voto estratégico explícito (voto insincero somado a razão estratégica declarada espontaneamente). O apoio medido é o desvio para fora do partido preferido, majoritariamente para o pequeno partido mostrado atrás, perto da cláusula. Individual, não agregado.",
+  "valor_revalidacao": "Indicador de \"voto insincero\" (dicotômico): qualquer voto para partido diferente do mais preferido/melhor ranqueado (ou empatado com ele) pelo próprio participante no ranking inicial; subconjunto de \"voto estratégico\" exige, além disso, que o participante tenha oferecido espontaneamente uma razão estratégica na tarefa aberta pós-voto. Medida individual, escolha declarada dentro do experimento (não outcome eleitoral real)."
+ },
+ {
+  "id_item": "C155",
+  "variavel": "mecanismo_tipo_evidencia",
+  "tipo": "categorica",
+  "valor_original": "teste_de_canal",
+  "valor_revalidacao": "mediacao_estatistica"
+ },
+ {
+  "id_item": "C156",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: pesquisas pré-eleitorais manipuladas e sinais de coalizão embutidos num fluxo de informação de campanha, mais os artigos de pesquisa que o participante escolhe ler; Raciocínio: as pistas objetivas só mudam o voto se forem atendidas e traduzidas em percepções, de modo que a manipulação altera as previsões de resultado, a proximidade percebida da cláusula e a percepção do sinal, e são essas percepções que aumentam a defecção do partido preferido, restando às pistas objetivas um efeito apenas indireto; Contexto: sistema proporcional com cláusula de 5 por cento e governos de coalizão, em duas campanhas estaduais alemãs reais.",
+  "valor_revalidacao": "Recurso: pesquisa pré-eleitoral manipulada (proximidade do limiar de 5%) e sinal de coalizão manipulado; Raciocínio: a manipulação objetiva altera a percepção subjetiva de proximidade/viabilidade e a percepção do sinal de coalizão, e é essa percepção que aumenta a probabilidade de defecção do partido preferido (voto insincero), não a condição objetiva diretamente; Contexto: laboratório embutido em campanha eleitoral real, comparando modelos com e sem as variáveis de percepção."
+ },
+ {
+  "id_item": "C157",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "Moderador principal: conhecimento político (sofisticação), em interação com o número de artigos de pesquisa lidos, no modelo de erro de previsão (Tabela 2, Figura 6): o efeito de ler mais artigos sobre a redução do erro diminui conforme a sofisticação aumenta e desaparece entre os mais sofisticados, de modo que ler mais artigos beneficia sobretudo os pouco sofisticados. No modelo de percepção do sinal de coalizão (Tabela 3) a mesma interação não é significativa e o conhecimento não prediz a percepção do sinal, ao passo que a força da identificação partidária a aumenta. Apoiadores de pequenos partidos aparecem como mais precisos nas previsões que os de grandes partidos. Nos modelos de voto insincero (Tabela 4) não há termo de interação: conhecimento, apoiador de pequeno partido e sexo entram apenas como controles.",
+  "valor_revalidacao": "Conhecimento político modera o efeito de ler mais artigos de pesquisa manipulados sobre a acurácia da previsão do resultado eleitoral (erro médio absoluto, MAE): o efeito redutor de erro de ler mais artigos diminui conforme aumenta a sofisticação política, desaparecendo para os participantes mais sofisticados (Tabela 2; Figura 6)."
+ },
+ {
+  "id_item": "C158",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "Os autores relatam que a defecção induzida pela percepção do sinal de coalizão, quando as pesquisas não a justificam, é em termos instrumentais uma decisão errada, e que os eleitores que seguem esses sinais são seguidores passivos dos partidos, não eleitores estratégicos informados; registram ainda que eleitores partidários sensíveis ao sinal podem se abster caso não gostem do parceiro de coalizão indicado. Desmobilização (comparecimento, interesse, busca de informação) não é medida nem testada.",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C159",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Amostra pequena e não representativa (estudantes) e contexto específico de um país, o que torna as conclusões tentativas e exige corroboração futura; número muito baixo de eleitores estratégicos explícitos (dez casos), que impede análises aprofundadas desse grupo; a operacionalização de voto estratégico deixa de contar eleitores estratégicos que não verbalizam uma razão estratégica na tarefa aberta.",
+  "valor_revalidacao": "Amostra pequena e não representativa (estudantes) e contexto específico de um país, o que torna as conclusões tentativas e carentes de corroboração futura."
+ },
+ {
+  "id_item": "C160",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "A identificação declarada é a atribuição aleatória individual das condições de pesquisa (com probabilidades 20, 50 e 30 por cento) e de sinal de coalizão (probabilidade igual e independente da condição de pesquisa), combinada à designação sistemática, não aleatória, do estado e do partido usado na manipulação segundo o ranking de preferências do participante. Não há tabela de balanceamento de covariáveis nem teste placebo. São apresentadas checagens de manipulação: ANOVA das previsões de voto do pequeno partido preferido por condição de pesquisa e comparação das percepções corretas do sinal de coalizão entre condições, ambas bem-sucedidas; uma nota verifica ainda que a exposição a pesquisas reais publicadas durante o estudo não afetou as previsões.",
+  "valor_revalidacao": "Testes de verificação da manipulação (manipulation checks), não testes de falsificação: (1) ANOVA mostrando que a previsão do participante para o percentual do partido pequeno caiu significativamente conforme a condição de pesquisa ficava mais fechada (F[3,196]=9,85, p<0,001); (2) qui-quadrado mostrando que a percepção correta do sinal de coalizão aumentou significativamente quando o sinal estava presente (χ²[3]=24,83, p<0,001). Nenhum teste de pré-tendência, placebo ou corte falso é reportado."
+ },
+ {
+  "id_item": "C161",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "Atribuição no nível do indivíduo (participante), tanto para a condição de pesquisa quanto para a de sinal de coalizão; não há agrupamento de erros-padrão declarado (as tabelas reportam erros-padrão convencionais entre parênteses) e não há menção a sessões de laboratório como cluster. Tamanho médio de cluster e ICC não reportados (999).",
+  "valor_revalidacao": "Indivíduo (participante do experimento de laboratório); não há atribuição em cluster, nem menção a agrupamento de erros-padrão, tamanho de cluster ou ICC."
+ },
+ {
+  "id_item": "C162",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "distância ideológica absoluta em relação ao partido preferido ; força da identificação partidária ; preferência partidária (distância avaliativa entre o partido preferido e o segundo mais bem avaliado) ; concordância com a afirmação de eleitor habitual do partido ; concordância com a afirmação de que o partido preferido não tem chance ; conhecimento político ; apoiador de pequeno partido ; sexo (masculino) ; além das duas variáveis de percepção incluídas na coluna com percepções (distância percebida da cláusula e percepção do sinal de coalizão)",
+  "valor_revalidacao": "distância ideológica do partido preferido ; preferência pelo partido (distância avaliativa do segundo colocado) ; força da identificação partidária ; concordância com \"sempre voto neste partido\" (eleitor habitual) ; conhecimento político ; apoiador de partido pequeno ; sexo"
+ },
+ {
+  "id_item": "C163",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Tabela 4, coluna 'With perceptions' (B)",
+  "valor_revalidacao": "voto_insincero (outcome não corresponde a construto do protocolo — ver Notas): Tabela 4, coluna \"With perceptions\" (modelo com as variáveis de percepção subjetiva — distância percebida do limiar e percepção do sinal de coalizão — incluídas como mediadoras); esta é a especificação cujos resultados (percepções, não condições objetivas) sustentam a interpretação central dos autores na discussão."
+ },
+ {
+  "id_item": "C164",
+  "variavel": "b2_criterio_modelo_principal",
+  "tipo": "categorica",
+  "valor_original": "regra_do_protocolo",
+  "valor_revalidacao": "usado_na_interpretacao"
+ },
+ {
+  "id_item": "C165",
+  "variavel": "b2_direcao_estimativa_principal",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: benefica",
+  "valor_revalidacao": "voto_insincero (pesquisa fechada manipulada): zero/não significativa, sinal negativo (redutor da defecção, oposto ao esperado, não significativo) ; voto_insincero (sinal de coalizão manipulado): zero/não significativa, sinal positivo (aumenta a defecção, conforme esperado, não significativo). A convenção \"benéfica/danosa\" do protocolo (definida para apoio_ao_lider/mobilizacao) não é aplicável a este outcome — ver Notas."
+ },
+ {
+  "id_item": "C166",
+  "variavel": "b2_significancia_05",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: nao",
+  "valor_revalidacao": "voto_insincero (pesquisa fechada manipulada): nao ; voto_insincero (sinal de coalizão manipulado): nao"
+ },
+ {
+  "id_item": "C167",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que a pesquisa que sugere eleição apertada e o sinal de coalizão não afetam diretamente o voto insincero, influenciando-o no máximo de forma indireta, por meio das percepções individuais, enquanto o voto estratégico explícito, muito raro, só apareceu quando as pesquisas sugeriam eleição apertada.",
+  "valor_revalidacao": "O voto insincero é causado por uma variedade de fatores; as pistas contextuais centrais do voto estratégico (pesquisas e sinais de coalizão) só têm papel indireto, mediado pelas percepções subjetivas dos eleitores, e não efeito direto sobre o comportamento; poucos eleitores votam estrategicamente no sentido estrito (com razão estratégica explícita), o que torna equivocada a prática de tratar todo eleitor insincero como estratégico."
+ },
+ {
+  "id_item": "C168",
+  "variavel": "voto_obrigatorio",
+  "tipo": "categorica",
+  "valor_original": "999",
+  "valor_revalidacao": "999 (o texto não discute se o voto era obrigatório)"
+ },
+ {
+  "id_item": "C169",
+  "variavel": "alvo_efeito",
+  "tipo": "categorica",
+  "valor_original": "lider + partido_abaixo_clausula",
+  "valor_revalidacao": "partido_abaixo_clausula"
+ },
+ {
+  "id_item": "C170",
+  "variavel": "dias_ate_eleicao",
+  "tipo": "numerica_int",
+  "valor_original": "999",
+  "valor_revalidacao": "999 (o texto informa apenas \"janeiro de 2006\" e \"26 de março\", sem a data exata de início do experimento; não é possível calcular a contagem exata de dias)"
+ }
+]

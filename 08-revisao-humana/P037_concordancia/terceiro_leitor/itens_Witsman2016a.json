@@ -1,0 +1,156 @@
+[
+ {
+  "id_item": "C238",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "Estados Unidos",
+  "valor_revalidacao": "Estados Unidos - Kansas"
+ },
+ {
+  "id_item": "C239",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Investigar se, e em que ponto, o percentual que um candidato independente preferido carrega nas pesquisas influencia a decisão de voto em uma eleição de três candidatos",
+  "valor_revalidacao": "Do polls influence Independent voting behavior"
+ },
+ {
+  "id_item": "C240",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Estudantes, docentes e funcionários de uma grande universidade metropolitana do Meio-Oeste dos Estados Unidos, maiores de 18 anos e aptos a votar, recrutados por convite de e-mail e por Facebook para um survey online",
+  "valor_revalidacao": "Students, faculty and staff at a large metropolitan Midwestern university, recruited by e-mail and by Facebook"
+ },
+ {
+  "id_item": "C241",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Exposição a resultados de pesquisa de intenção de voto fictícios, apresentados em tabela dentro de um survey online sobre uma eleição hipotética para o Senado com três candidatos (republicano, democrata e independente), em que se diz ao participante que o candidato independente é o seu preferido. Três cenários: no primeiro, o percentual do independente varia entre 5%, 15%, 25%, 35% e 45%, com republicano e democrata dividindo aproximadamente o restante (15 versões, três permutações de ordem por percentual, para evitar efeito de ordem); no segundo, o independente fica em 25% e varia qual dos dois grandes partidos lidera por pequena margem; no terceiro, são mostradas duas tabelas de pesquisa, uma de dois meses antes e outra de dois dias antes da eleição, com o independente subindo, estável ou caindo",
+  "valor_revalidacao": "Tabela de pesquisa hipotética (formato \"pesquisa isolada\") mostrando os percentuais de intenção de voto do candidato Independente preferido e dos candidatos Republicano e Democrata para uma eleição senatorial hipotética do Kansas, com o percentual do Independente sorteado aleatoriamente entre 5 valores (cenário 1), a liderança entre Republicano/Democrata sorteada (cenário 2), ou a tendência entre duas pesquisas no tempo (cenário 3); apresentada como texto/tabela no próprio survey online, sem menção a mídia externa."
+ },
+ {
+  "id_item": "C242",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "Outros resultados de pesquisa: no cenário 1, os braços com percentuais diferentes do mesmo candidato independente preferido são comparados entre si; no cenário 2, a versão com o democrata à frente é comparada à versão com o republicano à frente; no cenário 3, as tendências de alta, estabilidade e queda são comparadas entre si. Não há braço sem pesquisa",
+  "valor_revalidacao": "outro — diferentes percentuais do candidato Independente (5/15/25/35/45%) e diferentes candidatos na liderança (Republicano vs. Democrata), sem grupo controle sem pesquisa"
+ },
+ {
+  "id_item": "C243",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Escolha de voto declarada entre os três candidatos do cenário hipotético (republicano, democrata, independente), recodificada em binária para indicar se o participante votou ou não no candidato independente preferido; é apoio ao candidato preferido, que aparece atrás nos braços de percentual baixo e à frente nos de percentual alto; medida individual",
+  "valor_revalidacao": "Escolha declarada hipotética entre três candidatos (Republicano/Democrata/Independente) numa vinheta de pesquisa online; individual, não incentivada."
+ },
+ {
+  "id_item": "C244",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: os percentuais de pesquisa mostrados para o candidato independente preferido e para os dois candidatos dos grandes partidos; Raciocínio: ao ver que o candidato preferido carrega pouco na pesquisa, o eleitor conclui que ele não tem chance de ganhar e desloca o voto para o segundo mais preferido, a fim de impedir a vitória do menos preferido, o que a autora testa pelo item de chance de vitória como preditor do voto na condição de 5%; Contexto: eleição de três candidatos em sistema de pluralidade, na qual o candidato independente é tratado como terceira via",
+  "valor_revalidacao": "Recurso: item \"Chance of Winning\" (percepção de que o candidato Independente não tem chance de vencer); Raciocínio: quanto mais o respondente concorda que o candidato pode não vencer, menor a probabilidade de votar nele mesmo o preferindo, consistente com voto estratégico; Contexto: condição de 5% do cenário 1, testado por regressão logística."
+ },
+ {
+  "id_item": "C245",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "Gênero e etnia: examinados em cada um dos três cenários, sem relação significativa com a tendência de votar no independente. Grau de partidarismo: escala de quatro pontos construída a partir do histórico de voto e comparada às respostas na condição de 45% do cenário 1; não foi preditor significativo, embora todos os participantes da metade menos partidária tenham escolhido o independente. Filiação partidária: regressões logísticas nos três cenários, todas fortemente não significativas. Idade: as tendências encontradas se mantiveram consistentes entre faixas etárias, mas a idade se correlacionou positivamente com o item de chance de vitória e com a atenção às pesquisas",
+  "valor_revalidacao": "Gênero e etnia não se relacionaram nem previram o voto Independente em nenhum cenário; grau de partidarismo não foi preditor significativo na condição de 45% do cenário 1, apesar de tamanho de efeito quase moderado (phi=.291) e de 100% dos respondentes menos partidários terem votado no Independente nessa condição."
+ },
+ {
+  "id_item": "C246",
+  "variavel": "equidade_progress_plus",
+  "tipo": "textual",
+  "valor_original": "escolaridade: 999 ; posição socioeconômica ou classe social: 999 ; idade: o texto relata que as tendências encontradas para o voto no independente se mantiveram consistentes entre faixas etárias, sem diferença perceptível entre grupos, mas que a idade se relacionou positivamente com o item de chance de vitória e com a atenção às pesquisas",
+  "valor_revalidacao": "escolaridade: 999 ; posição socioeconômica ou classe social: 999 ; idade: relação positiva pequena entre idade e a percepção de baixa chance de vitória do candidato Independente (mediador/item Chance of Winning), sem teste direto de idade x voto Independente por percentual de pesquisa"
+ },
+ {
+  "id_item": "C247",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "Deserção estratégica do candidato terceiro: é o próprio objeto do estudo, que mede o abandono do candidato independente preferido quando ele aparece mal na pesquisa, e registra que parte dos respondentes já deixou de votar num candidato preferido por causa das pesquisas. Desmobilização: não foi medida; a autora reconhece que o questionário deveria ter incluído um item sobre supressão de voto e levanta o efeito sobre o comparecimento apenas como questão para pesquisa futura",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C248",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Amostra não representativa da população geral, por ser majoritariamente universitária, mais escolarizada, mais branca, mais feminina e mais jovem; necessidade de reduzir etnia a branco e não branco por causa dos tamanhos de subgrupo; dados demográficos coletados depois de itens de filtro, impedindo analisar quem não é registrado ou não pretende votar; questionário não perguntou se o respondente votaria em algum independente nem mediu supressão de voto ou percepção sobre a validade das pesquisas; ambiente hipotético e artificial de teste",
+  "valor_revalidacao": "Amostra não representativa da população geral (mais educada, mais feminina, mais branca e mais jovem que o eleitorado); dados demográficos coletados após alguns itens de filtro, impedindo análise para quem não vota; etnia teve que ser recodificada em branco/não-branco por tamanho de amostra; ausência de item sobre se o respondente algum dia votaria em um Independente; ausência de item sobre supressão de voto."
+ },
+ {
+  "id_item": "C249",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "Não há declaração formal de hipóteses de identificação. A autora reporta checagens de equilíbrio entre condições: distribuições iguais de republicanos e democratas entre as duas versões do cenário 2 e ausência de diferenças significativas entre os grupos de respondentes do cenário 1; a ordem dos candidatos na tabela foi permutada para afastar efeito de ordem. Não há placebo, pré-tendências nem primeiro estágio",
+  "valor_revalidacao": "Controle de efeito de ordem por permutação da ordem de apresentação dos candidatos (3 permutações por percentual); não há teste formal de balanceamento pré-tratamento além da checagem descritiva de gênero/etnia por condição."
+ },
+ {
+  "id_item": "C250",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "Atribuição no nível do indivíduo: cada participante recebeu ao acaso uma das 15 versões do cenário 1 e uma das duas versões do cenário 2. O texto não reporta agrupamento de erros-padrão, tamanho médio de cluster nem ICC",
+  "valor_revalidacao": "Atribuição no nível do indivíduo (cada respondente recebeu uma permutação de percentuais sorteada aleatoriamente); não há menção de erros-padrão agrupados, tamanho médio de cluster ou ICC."
+ },
+ {
+  "id_item": "C251",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "nenhum",
+  "valor_revalidacao": "nenhum — o teste do modelo principal (qui-quadrado, Tabela 6) é bivariado, sem covariáveis"
+ },
+ {
+  "id_item": "C252",
+  "variavel": "b2_teste_falsificacao",
+  "tipo": "categorica",
+  "valor_original": "Não — o texto só traz checagens de equilíbrio e de confundimento (partido, gênero, etnia), sem placebo, pré-tendências, desfecho falso ou corte falso",
+  "valor_revalidacao": "Sim — checagem de balanceamento por gênero e etnia entre as condições experimentais, mostrando ausência de relação com o voto Independente em qualquer cenário, compatível com sucesso da randomização"
+ },
+ {
+  "id_item": "C253",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Tabela 6 (cenário 1), qui-quadrado de independência entre o percentual do candidato independente na pesquisa e o voto binário no independente, p. 27, com a mesma distribuição no Chart 1 (p. 28)",
+  "valor_revalidacao": "apoio_ao_lider: Cenário 1 (teste qui-quadrado de independência sobre percentual de pesquisa x voto Independente, Tabela 6, Resultados)"
+ },
+ {
+  "id_item": "C254",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "A autora conclui que as pesquisas influenciam o voto independente, porque a probabilidade de votar no candidato independente preferido cresce conforme o percentual que ele carrega na pesquisa, o que ela lê como voto estratégico numa eleição de três candidatos",
+  "valor_revalidacao": "O aumento do percentual de pesquisa do candidato Independente aumenta a probabilidade de voto nele, confirmando a hipótese de que dados de pesquisa influenciam o voto Independente."
+ },
+ {
+  "id_item": "C255",
+  "variavel": "sistema_eleitoral",
+  "tipo": "categorica",
+  "valor_original": "pluralidade",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C256",
+  "variavel": "comparador_tipo",
+  "tipo": "categorica",
+  "valor_original": "outro_resultado",
+  "valor_revalidacao": "outro — variação de percentuais atribuídos ao candidato Independente e variação de qual dos dois grandes partidos lidera, sem grupo sem-pesquisa"
+ },
+ {
+  "id_item": "C257",
+  "variavel": "margem_mostrada",
+  "tipo": "textual",
+  "valor_original": "cenário 1: 1 ponto percentual entre o democrata e o republicano, tratado como empate estatístico, com o independente em 5%, 15%, 25%, 35% ou 45% ; cenário 2: 3 pontos percentuais entre o democrata e o republicano, com o independente em 25% ; cenário 3: 999 quanto à margem entre primeiro e segundo colocado, sendo relatada apenas a variação de 10 pontos percentuais do independente entre as duas pesquisas",
+  "valor_revalidacao": "cenário 1 (exemplo do Apêndice): Independente 25% vs. Republicano 38% vs. Democrata 37% (margem de 1 ponto entre os dois maiores) ; cenário 2: Republicano 39% vs. Democrata 36% (ou o inverso) — margem de 3 pontos entre o segundo e o terceiro colocados"
+ },
+ {
+  "id_item": "C258",
+  "variavel": "alvo_efeito",
+  "tipo": "categorica",
+  "valor_original": "lider + terceiro_inviavel",
+  "valor_revalidacao": "azarao + lider — nas condições de 5/15/25% o Independente está atrás dos outros dois candidatos; nas condições de 35/45% ele passa a liderar"
+ },
+ {
+  "id_item": "C259",
+  "variavel": "dias_ate_eleicao",
+  "tipo": "numerica_int",
+  "valor_original": "999",
+  "valor_revalidacao": "0"
+ }
+]

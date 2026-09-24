@@ -1,0 +1,177 @@
+[
+ {
+  "id_item": "C213",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "Países Baixos — Amsterdã",
+  "valor_revalidacao": "Holanda"
+ },
+ {
+  "id_item": "C214",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Saber se os resultados sobre voto estratégico e informação obtidos com preferências homogêneas se mantêm quando o eleitorado é heterogêneo na intensidade da preferência pela segunda opção, e qual componente da informação explica o comportamento observado.",
+  "valor_revalidacao": "Estudar o voto estratégico num ambiente com três opções e possíveis ciclos de Condorcet, quando as preferências do eleitorado são heterogêneas na importância relativa atribuída à opção intermediária."
+ },
+ {
+  "id_item": "C215",
+  "variavel": "unidade_analise",
+  "tipo": "categorica",
+  "valor_original": "outro (eleitorado experimental, grupo de 12 votantes por sessão, usado como unidade de observação nos testes; as decisões de voto são individuais)",
+  "valor_revalidacao": "individuo"
+ },
+ {
+  "id_item": "C216",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Sujeitos recrutados para o laboratório CREED da Universidade de Amsterdã: 204 participantes em dez sessões, formando 17 eleitorados independentes de 12 votantes cada; quem participara das sessões homogêneas anteriores foi excluído.",
+  "valor_revalidacao": "Sujeitos de laboratório (estudantes) formando eleitorados experimentais de 12 votantes cada."
+ },
+ {
+  "id_item": "C217",
+  "variavel": "periodo_dados",
+  "tipo": "textual",
+  "valor_original": "Junho de 2009 (coleta das sessões com preferências heterogêneas)",
+  "valor_revalidacao": "Junho de 2009"
+ },
+ {
+  "id_item": "C218",
+  "variavel": "fonte_dados",
+  "tipo": "categorica",
+  "valor_original": "ambos",
+  "valor_revalidacao": "primarios"
+ },
+ {
+  "id_item": "C219",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Nos tratamentos informados, antes de cada votação o experimentador exibe em tabela a distribuição agregada realizada das preferências do eleitorado de 12 votantes, isto é, quantos participantes receberam cada uma das três ordenações (A B C, B C A, C A B). No tratamento aggregate information aparecem apenas as ordenações agregadas (primeira e última colunas da Tabela 1); no full information aparece também a distribuição realizada da intensidade da preferência, ou seja, quantos votantes de cada ordenação recebem 3 e quantos recebem 8 pela opção intermediária. No tratamento uninformed nada disso é exibido e o votante conhece apenas as distribuições a priori, a própria ordenação e o próprio valor intermediário. A informação é apresentada na tela, em texto/tabela, imediatamente antes do voto, em cada uma das 40 rodadas de uma eleição de laboratório entre três opções abstratas.",
+  "valor_revalidacao": "Antes de votar em cada rodada (eleição simulada com 3 opções, A/B/C), os sujeitos recebem um de três níveis de informação sobre as preferências do eleitorado: nenhuma informação além das distribuições a priori (uninformed); a distribuição agregada realizada das ordens de preferência do eleitorado, análoga a um resultado de pesquisa eleitoral (aggregate information); ou essa mesma distribuição agregada acrescida da distribuição realizada da intensidade de preferência dentro de cada grupo (full information)."
+ },
+ {
+  "id_item": "C220",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "O tratamento uninformed, em que o votante conhece apenas as distribuições a priori e a própria preferência; e, para separar os dois componentes da informação, o tratamento aggregate information comparado ao full information.",
+  "valor_revalidacao": "Tratamento sem informação (uninformed): sujeito só conhece as distribuições a priori, não a distribuição realizada do eleitorado."
+ },
+ {
+  "id_item": "C221",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Duas medidas. (i) Fração de votos estratégicos: voto na segunda opção preferida em vez da preferida, escolha individual incentivada em pontos convertidos em euros, agregada em média por eleitorado. (ii) Fração de eleições vencidas pelo \"Majoritarian Candidate\", o candidato com maior apoio sincero, isto é, apoio ao líder medido de forma agregada no nível da eleição.",
+  "valor_revalidacao": "Fração de votos estratégicos (voto no segundo colocado em vez do preferido) e probabilidade de vitória do \"candidato majoritário\" (a opção com maior apoio sincero a priori), agregadas por eleitorado/período."
+ },
+ {
+  "id_item": "C222",
+  "variavel": "mecanismo_tipo_evidencia",
+  "tipo": "categorica",
+  "valor_original": "teste_de_canal",
+  "valor_revalidacao": "hipotese_dos_autores"
+ },
+ {
+  "id_item": "C223",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: informação, entregue antes do voto, sobre a distribuição agregada realizada das ordenações de preferência do eleitorado e, no full information, também sobre a distribuição realizada da intensidade das preferências. Raciocínio: com essa informação o votante atualiza por Bayes as probabilidades de ser pivô e compara os ganhos esperados de votar na primeira, na segunda ou na última opção, de modo que votar na segunda compensa quando a opção intermediária vale mais e quando o candidato preferido tem o menor apoio sincero; quando as preferências são heterogêneas o ambiente fica mais complexo e o votante recorre a heurísticas mais simples, como o voto sincero. Contexto: eleitorado de 12 votantes, regra de pluralidade, voto obrigatório dentro do experimento, ciclo de Condorcet entre três opções, preferências induzidas por pagamento, 40 rodadas em laboratório.",
+  "valor_revalidacao": "Recurso: aumento da complexidade do ambiente (heterogeneidade na intensidade de preferências); Raciocínio: reduz o valor esperado de votar estrategicamente (pois depende do comportamento esperado de outros votantes com a mesma ordenação), levando à adoção de heurísticas mais simples (voto sincero); Contexto: eleitorados de laboratório com ciclos de Condorcet potenciais e informação sobre a distribuição de preferências."
+ },
+ {
+  "id_item": "C224",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "(i) Valor induzido da opção intermediária: o voto estratégico é maior quando ela vale 8 do que quando vale 3, em todos os tratamentos de informação. (ii) Rank-Type: os votantes Rank 3rd, cujo candidato preferido tem o menor apoio sincero, são os que mais votam estrategicamente, e os Rank 1st quase nunca o fazem. (iii) Heterogeneidade das preferências: sem efeito nos eleitorados sem informação, mas com redução do voto estratégico nos eleitorados informados, diferença estatisticamente significativa entre os votantes de valor intermediário baixo e não significativa entre os de valor alto. (iv) Tipo de informação: aggregate e full information não diferem em nenhum subgrupo, exceto entre os Rank 3rd heterogêneos com valor intermediário alto.",
+  "valor_revalidacao": "Moderadores: (i) \"Rank-Type\" do votante — se sua opção preferida é a 1ª, 2ª ou 3ª mais votada sinceramente no eleitorado — sendo que votantes Rank 3rd votam estrategicamente com muito mais frequência que Rank 1st/2nd; (ii) valor da opção intermediária (baixo=3 vs. alto=8), aumentando o voto estratégico quando alto; (iii) o próprio tratamento de heterogeneidade interage com esses dois fatores (efeitos de sinal oposto para Rank 2nd vs. Rank 3rd com valor alto)."
+ },
+ {
+  "id_item": "C225",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "A deserção estratégica de candidatos em desvantagem é o próprio desfecho central do estudo: os votantes Rank 3rd, cujo candidato preferido tem o menor apoio sincero, são os que mais abandonam o preferido, e a informação aumenta a probabilidade de vitória do candidato majoritário. O texto não relata desmobilização (o voto é obrigatório dentro do experimento), voto menos informado nem uso estratégico de pesquisas enviesadas.",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C226",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores reconhecem que, antes de derivar implicações de política, é preciso testar a robustez dos resultados a eleitorados maiores e a outros conjuntos de participantes, e sugerem experimentos de campo com eleições online como passo seguinte.",
+  "valor_revalidacao": "Os autores reconhecem que é preciso testar a robustez dos resultados a eleitorados maiores e outros públicos de sujeitos antes de extrair implicações de política."
+ },
+ {
+  "id_item": "C227",
+  "variavel": "b2_estrategia_identificacao",
+  "tipo": "categorica",
+  "valor_original": "experimento_aleatorizado_cluster",
+  "valor_revalidacao": "outro — experimento de laboratório controlado, com o nível de informação atribuído por eleitorado (grupo de 12 sujeitos), desenho entre-sujeitos; o texto não declara explicitamente o mecanismo (aleatório ou não) de alocação dos eleitorados/sessões aos três tratamentos de informação — apenas que o desenho é \"between-subject\"."
+ },
+ {
+  "id_item": "C228",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "A comparabilidade é garantida por desenho: todos os eleitorados experimentais enfrentaram as mesmas realizações sorteadas da distribuição de ordenações de preferência, o que permite comparação direta entre grupos, e os testes levam em conta que subgrupos de votantes do mesmo eleitorado não são independentes. Não há teste de balanceamento, de tendências prévias, de densidade no corte, de primeiro estágio nem placebo.",
+  "valor_revalidacao": "Todos os eleitorados (de todos os tratamentos) foram expostos às mesmas realizações sorteadas da distribuição de ordens de preferência, o que permite comparação direta entre grupos; não há teste formal de balanceamento ou pré-tendência relatado."
+ },
+ {
+  "id_item": "C229",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "A informação é atribuída no nível da sessão/eleitorado, em desenho entre sujeitos, e não no nível do indivíduo; cada eleitorado tem 12 votantes e os testes usam a média por eleitorado como unidade de observação, levando em conta a não independência dos subgrupos dentro do eleitorado. Tamanho de cluster: 12 votantes; ICC não reportado.",
+  "valor_revalidacao": "Atribuição no nível do eleitorado (grupo de 12 votantes, mantido fixo durante toda a sessão): 5 eleitorados uninformed, 6 aggregate information, 6 full information (17 no total). Os testes estatísticos tratam o eleitorado como unidade de observação e levam em conta que subgrupos de votantes dentro do mesmo eleitorado não são independentes; nenhum ICC é reportado."
+ },
+ {
+  "id_item": "C230",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "nenhum",
+  "valor_revalidacao": "nenhum — as comparações entre tratamentos são feitas por testes não paramétricos de diferença de médias/proporções por eleitorado, sem covariáveis de controle; nenhuma variável de controle é mencionada em nenhuma parte da análise."
+ },
+ {
+  "id_item": "C231",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Seção 4.2 \"Aggregate Behavior\" (Figuras 6 e 7 e os testes não paramétricos relatados no corpo do texto; o contraste entre o tratamento sem informação e os tratamentos informados está na p. 638) e, para o desfecho agregado de vitória do candidato com maior apoio sincero, Seção 4.1, Figura 5 (p. 635)",
+  "valor_revalidacao": "apoio_ao_lider: comparação da fração de votos estratégicos (e da probabilidade de vitória do candidato majoritário) entre eleitorados informados (aggregate/full information) e não informados (uninformed), Figuras 1, 3, 5, 6 e 7, com testes de Mann-Whitney reportados na Seção 4.2 (predição comportamental 5)."
+ },
+ {
+  "id_item": "C232",
+  "variavel": "b2_criterio_modelo_principal",
+  "tipo": "categorica",
+  "valor_original": "regra_do_protocolo",
+  "valor_revalidacao": "usado_na_interpretacao"
+ },
+ {
+  "id_item": "C233",
+  "variavel": "b2_significancia_05",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: sim",
+  "valor_revalidacao": "apoio_ao_lider: sim para valor intermediário baixo (MW, p=0,013); não significativo a 5% para valor intermediário alto (MW, p=0,058), reportado como significativo apenas de forma geral pelos autores."
+ },
+ {
+  "id_item": "C234",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que há mais voto estratégico com informação do que sem, que a heterogeneidade das preferências reduz o nível geral de voto estratégico e que o componente determinante é a informação sobre a distribuição agregada das ordenações, não sobre a intensidade das preferências.",
+  "valor_revalidacao": "Os autores concluem que mais voto estratégico ocorre com informação do que sem informação, e que a heterogeneidade reduz o nível geral de voto estratégico."
+ },
+ {
+  "id_item": "C235",
+  "variavel": "sistema_eleitoral",
+  "tipo": "categorica",
+  "valor_original": "regra_do_experimento",
+  "valor_revalidacao": "pluralidade"
+ },
+ {
+  "id_item": "C236",
+  "variavel": "voto_obrigatorio",
+  "tipo": "categorica",
+  "valor_original": "999",
+  "valor_revalidacao": "Sim"
+ },
+ {
+  "id_item": "C237",
+  "variavel": "mecanismo_testado",
+  "tipo": "categorica",
+  "valor_original": "informacao + viabilidade_estrategico",
+  "valor_revalidacao": "viabilidade_estrategico"
+ }
+]

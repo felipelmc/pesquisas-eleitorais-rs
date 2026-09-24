@@ -1,0 +1,275 @@
+[
+ {
+  "id_item": "C107",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "Polônia (Estudo 1) ; Estados Unidos (Estudo 2a) ; União Europeia ou Reino Unido (Estudo 2b, país não especificado)",
+  "valor_revalidacao": "Polônia"
+ },
+ {
+  "id_item": "C108",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Identificar quais fatores psicológicos (interpessoais, estratégicos, morais e epistêmicos) produzem as mudanças de intenção de voto em direção ao partido que lidera as pesquisas (efeito bandwagon) ou ao que está atrás (efeito underdog)",
+  "valor_revalidacao": "Testar como diferenças interpessoais em motivos psicológicos (interpessoais, estratégicos, morais/justiça e epistêmicos) predizem mudanças individuais de intenção de voto em direção a partidos à frente (bandwagon) ou atrás (underdog) nas pesquisas antes das eleições parlamentares polonesas de 2019."
+ },
+ {
+  "id_item": "C109",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Estudo 1: eleitores adultos poloneses recrutados por agência externa antes das eleições parlamentares de 2019; Estudo 2a: usuários adultos do Amazon Mechanical Turk nos Estados Unidos; Estudo 2b: usuários do Prolific Academic da União Europeia ou do Reino Unido",
+  "valor_revalidacao": "Painel online de participantes adultos poloneses, recrutado por agência externa; amostra final de 1.007 participantes válidos (58,6% homens, 41,4% mulheres; idade média 40,9 anos) após exclusão de quem não indicou preferência inicial ou votou em branco/\"contra todos\"."
+ },
+ {
+  "id_item": "C110",
+  "variavel": "periodo_dados",
+  "tipo": "textual",
+  "valor_original": "Estudo 1: um mês antes das eleições parlamentares polonesas de 2019 e um ou dois dias depois delas; Estudos 2a e 2b: 999 (data de coleta não informada)",
+  "valor_revalidacao": "Cerca de um mês antes das eleições parlamentares polonesas de 2019 (medidas iniciais) até um ou dois dias após a eleição (voto declarado)."
+ },
+ {
+  "id_item": "C111",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Nos Estudos 2a e 2b (desenho que identifica o efeito), participantes de uma eleição simulada para um novo membro do conselho de uma organização escolhem entre dois candidatos (A e B) e, em seguida, recebem em texto (vinheta) a informação sobre a posição do candidato que escolheram: na condição líder, que 90% dos demais eleitores também pretendem apoiá-lo; na condição atrás, que apenas 10% pretendem. A informação é apresentada como intenção declarada dos demais eleitores, antes de uma votação que ocorreria imediatamente depois (\"o tempo passou e a eleição vai acontecer agora\"). No Estudo 1, não há exposição manipulada: o contexto é o das pesquisas públicas das eleições parlamentares polonesas de 2019, em que dois partidos lideravam consistentemente com 40% e 25% e três partidos ficavam atrás, e os participantes declaram a intenção um mês antes e o voto efetivo depois",
+  "valor_revalidacao": "Não há manipulação experimental: mede-se a posição inicial de voto dos participantes (partido líder vs. partido atrás) num contexto real de pesquisas eleitorais divulgadas antes das eleições parlamentares polonesas de 2019, em que dois partidos lideravam consistentemente (40% e 25%) e três seguiam atrás (15%, 8% e 7%), medido cerca de um mês antes da eleição."
+ },
+ {
+  "id_item": "C112",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "O mesmo candidato preferido pelo participante mostrado atrás (apoio de apenas 10% dos demais eleitores) em vez de à frente (90%), por atribuição aleatória; no Estudo 1, a comparação é entre participantes cuja preferência inicial era por um partido líder e participantes cuja preferência inicial era por um partido atrás nas pesquisas",
+  "valor_revalidacao": "Comparação intraindividual entre manter a intenção inicial de voto e mudar para o lado oposto (líder vs. atrás), estratificada pela posição inicial de voto (líder vs. atrás), sem grupo não exposto (todos os participantes estavam expostos ao mesmo ambiente real de pesquisas)."
+ },
+ {
+  "id_item": "C113",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Probabilidade autodeclarada de troca de voto, medida em dois itens de 7 pontos (de 1 muito improvável a 7 muito provável) sobre manter o candidato escolhido ou migrar para o outro, recodificados e combinados em um índice único; medida individual. Na condição em que o candidato preferido aparece atrás, a troca é apoio ao líder mostrado (bandwagon); na condição em que aparece à frente, a troca é apoio ao candidato atrás (underdog). No Estudo 1, a medida é individual e comportamental declarada: partido escolhido entre os nove registrados um mês antes e partido efetivamente votado, informado um ou dois dias depois da eleição",
+  "valor_revalidacao": "Escolha declarada de partido: intenção de voto declarada um mês antes da eleição e voto efetivamente declarado após a eleição, entre nove partidos registrados; medida individual, recodificada em mudança sim/não entre partido líder e partido atrás."
+ },
+ {
+  "id_item": "C114",
+  "variavel": "mecanismo_tipo_evidencia",
+  "tipo": "categorica",
+  "valor_original": "teste_de_canal",
+  "valor_revalidacao": "hipotese_dos_autores"
+ },
+ {
+  "id_item": "C115",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: informação de pesquisa sobre a posição do candidato preferido (apoio de 90% ou de 10% dos demais eleitores) numa eleição simulada, combinada à indução, por vinheta, de processamento heurístico (imaginar que se esqueceu dos detalhes e não tem conhecimento para decidir de forma informada) ou de preocupação moral com igualdade distributiva (imaginar que é justo que os dois candidatos sejam incluídos em decisões importantes); no Estudo 1, os mesmos fatores são medidos como diferenças interpessoais, estratégicas, morais e epistêmicas. Raciocínio: quem processa a informação de forma superficial, por falta de expertise política, segue a heurística de que a maioria está certa e migra para o partido que lidera (bandwagon); quem tem preocupação moral com igualdade e sente pena do partido que deve perder migra para o partido que está atrás (underdog); os autores sustentam que os dois canais são assimétricos, isto é, o fator que aumenta um efeito não reduz o outro. Contexto: eleições parlamentares polonesas de 2019 (Estudo 1) e eleição simulada para um conselho de organização, com dois candidatos sem conteúdo político (Estudos 2a e 2b)",
+  "valor_revalidacao": "Recurso: baixa expertise política (baixo escore no teste de conhecimento sobre política polonesa); Raciocínio: baixa expertise leva a processamento superficial da informação e ao uso do atalho heurístico de que a maioria/o líder nas pesquisas é provavelmente a escolha superior, produzindo o efeito bandwagon (o mesmo mecanismo não reduz o efeito underdog); Contexto: interpretação dos autores sobre os resultados correlacionais do Estudo 1 (Tabela 2)."
+ },
+ {
+  "id_item": "C116",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "Moderador manipulado nos Estudos 2a e 2b: o modo de decisão induzido (processamento heurístico vs. consideração moral de igualdade), cruzado com a posição inicial do candidato preferido (à frente vs. atrás). Entre quem apoiava inicialmente o candidato mostrado atrás, a probabilidade declarada de migrar para o líder é maior sob processamento heurístico do que sob consideração moral (nos dois estudos); entre quem apoiava o candidato mostrado à frente, a migração para o candidato atrás é maior sob consideração moral de igualdade (significativa no Estudo 2a e apenas marginal no Estudo 2b). Moderadores no Estudo 1: a amostra é dividida pela preferência inicial (partido líder vs. partido atrás) e a expertise política prevê a migração para o partido líder mas não a migração para o partido atrás, enquanto o motivo de igualdade prevê o inverso; notas de rodapé relatam interação significativa entre expertise política e preferência inicial e entre preocupação com igualdade e preferência inicial, além de a idade prever negativamente o efeito underdog. As estimativas por subgrupo vão para o CSV de efeitos",
+  "valor_revalidacao": "Idade foi adicionada como preditor extra às análises principais: idade previu negativamente o efeito underdog (participantes mais jovens mudaram mais para um partido atrás do que os mais velhos); adicionalmente, uma regressão logística testando expertise política, preferência inicial de voto e a interação entre ambas sobre a decisão final de voto (amostra combinada) mostrou interação significativa, confirmando que os efeitos de expertise sobre bandwagon e underdog são assimétricos."
+ },
+ {
+  "id_item": "C117",
+  "variavel": "het_pre_especificada",
+  "tipo": "categorica",
+  "valor_original": "sim",
+  "valor_revalidacao": "nao_declarado — a divisão da amostra por posição inicial é o desenho central e pré-registrado do estudo, mas as análises adicionais de idade e da interação expertise×posição (notas de rodapé) não têm declaração explícita de pré-especificação; parecem exploratórias, motivadas por achados de outros autores."
+ },
+ {
+  "id_item": "C118",
+  "variavel": "equidade_progress_plus",
+  "tipo": "textual",
+  "valor_original": "escolaridade: 999 (nenhuma análise por escolaridade; a expertise política medida por quiz não é escolaridade e não foi tratada como tal pelos autores) ; posição socioeconômica ou classe social: 999 (nenhuma análise) ; idade: o Estudo 1 relata em nota de rodapé que a idade prediz negativamente o efeito underdog, isto é, participantes mais jovens tinham maior probabilidade de migrar para um partido que estava atrás nas pesquisas do que participantes mais velhos; nenhuma análise por idade nos Estudos 2a e 2b",
+  "valor_revalidacao": "escolaridade: 999 ; posição socioeconômica/classe: 999 ; idade: idade previu negativamente o efeito underdog (participantes mais jovens mudaram mais para um partido atrás)"
+ },
+ {
+  "id_item": "C119",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "O texto não mede nem testa nenhum dos efeitos não intencionais do protocolo. Os autores declaram que o desenho das três pesquisas só permitiu testar a conversão entre partidos, e não efeitos de mobilização ou comparecimento, que ficam explicitamente como agenda futura; motivos estratégicos (evitar desperdiçar o voto num partido sem impacto e evitar monopólio de poder) aparecem apenas como preditores medidos no Estudo 1, não como efeito não intencional estimado; na conclusão, os autores levantam o uso estratégico da informação de pesquisa por campanhas de partidos que lideram, para ampliar a vantagem junto a eleitores com pouca expertise política",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C120",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "(1) o Estudo 1 é correlacional e não permite conclusão causal; (2) a operacionalização é frouxa, tratando como bandwagon ou underdog toda troca de partido, sem testar se a troca foi de fato motivada por consciência da informação das pesquisas, de modo que parte das trocas captadas pode não resultar de mudanças nas pesquisas; (3) as manipulações por vinheta têm baixa validade, pois instruem o participante a imaginar uma perspectiva em vez de induzi-la, e as eleições fictícias dos Estudos 2a e 2b são desprovidas do significado e da emoção de eleições reais; (4) os Estudos 2a e 2b usam amostras de conveniência pequenas e não representativas, com pouca validade externa; (5) o Estudo 1 observa uma única eleição parlamentar nacional na Polônia; (6) os desenhos só permitiram testar efeitos estáticos de pesquisa, não efeitos dinâmicos de mudanças de curto prazo nas pesquisas; (7) o desenho não permitiu estudar expectativas de coalizão, e nas eleições simuladas essa informação não foi fornecida; (8) a seleção de sete estilos de personalidade não é exaustiva",
+  "valor_revalidacao": "Os autores reconhecem que operacionalizaram o efeito bandwagon/underdog como qualquer mudança de voto entre partido líder e atrás, sem testar se a mudança foi de fato motivada pela consciência das pesquisas (podendo captar mudanças não relacionadas a pesquisas); e que o Estudo 1 correlacional se baseou em uma única eleição nacional na Polônia, limitando a generalização a outros sistemas eleitorais."
+ },
+ {
+  "id_item": "C121",
+  "variavel": "b2_estrategia_identificacao",
+  "tipo": "categorica",
+  "valor_original": "experimento_aleatorizado_individual",
+  "valor_revalidacao": "regressao_com_controles"
+ },
+ {
+  "id_item": "C122",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "A hipótese de identificação declarada é a atribuição aleatória individual às quatro células do desenho fatorial entre participantes, com os dois estudos pré-registrados e cálculo de poder a priori (N fixado em 200 para mais de 90% de poder de detectar uma interação de tamanho médio, com G*Power). O Estudo 2b é descrito como replicação pré-registrada do Estudo 2a na União Europeia. Não há teste de balanceamento das covariáveis entre braços, checagem de manipulação, teste de placebo nem análise de tendências prévias reportados",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C123",
+  "variavel": "b2_estimador",
+  "tipo": "categorica",
+  "valor_original": "outro — ANOVA fatorial 2 x 2 entre participantes sobre o índice contínuo de probabilidade de troca, com testes t de efeitos simples dentro de cada posição inicial (equivalente a mínimos quadrados sobre dummies, mas o texto nomeia ANOVA)",
+  "valor_revalidacao": "logit_probit"
+ },
+ {
+  "id_item": "C124",
+  "variavel": "b2_estimando",
+  "tipo": "categorica",
+  "valor_original": "ATE",
+  "valor_revalidacao": "associacao"
+ },
+ {
+  "id_item": "C125",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "Indivíduo: cada participante foi designado aleatoriamente a uma das quatro células do desenho entre participantes, sem agrupamento por sessão, domicílio ou unidade geográfica. Os autores não mencionam agrupamento de erros-padrão em nenhum nível; tamanho médio de cluster e ICC: 999",
+  "valor_revalidacao": "Atribuição no nível individual (participante), sem menção de agrupamento (cluster) ou erros padrão agrupados."
+ },
+ {
+  "id_item": "C126",
+  "variavel": "b2_n_total",
+  "tipo": "numerica_int",
+  "valor_original": "202 ; 200 (Estudo 2a ; Estudo 2b, na mesma ordem de b2_modelo_principal)",
+  "valor_revalidacao": "1007"
+ },
+ {
+  "id_item": "C127",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "nenhum",
+  "valor_revalidacao": "nenhum — cada um dos sete preditores (interpessoais, estratégicos, de justiça e epistêmico) foi testado separadamente sobre a probabilidade de mudança, sem controles adicionais mencionados no modelo principal."
+ },
+ {
+  "id_item": "C128",
+  "variavel": "b2_dp_y_tipo",
+  "tipo": "categorica",
+  "valor_original": "controle",
+  "valor_revalidacao": "nao_reportado"
+ },
+ {
+  "id_item": "C129",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Estudo 2a, Tabela 3 (ANOVA 2 x 2 sobre o índice de probabilidade de troca; colunas Heuristic e Moral: Equality, nas linhas Trailing e Leading) ; apoio_ao_lider: Estudo 2b, Tabela 4 (mesma especificação na amostra de replicação da União Europeia)",
+  "valor_revalidacao": "apoio_ao_lider: Tabela 2 (\"Main Analyses\"), regressão logística com os sete preditores padronizados — coluna esquerda (\"Bandwagon Effect\") para mudança de partido atrás→líder, coluna direita (\"Underdog Effect\") para mudança de líder→atrás."
+ },
+ {
+  "id_item": "C130",
+  "variavel": "b2_criterio_modelo_principal",
+  "tipo": "categorica",
+  "valor_original": "regra_do_protocolo ; regra_do_protocolo",
+  "valor_revalidacao": "declarado_pelos_autores — a seção é explicitamente intitulada \"Main Analyses\" e remete diretamente à Tabela 2, não havendo outro modelo alternativo apresentado no corpo do texto."
+ },
+ {
+  "id_item": "C131",
+  "variavel": "b2_direcao_estimativa_principal",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: benefica",
+  "valor_revalidacao": "apoio_ao_lider: 999 — o \"modelo principal\" (Tabela 2) estima o efeito de sete preditores individuais (traços psicológicos) sobre a probabilidade de mudança de voto, e não o efeito de uma exposição a pesquisa em si; não há uma estimativa pontual única de \"efeito da exposição\" cuja direção (benéfica/danosa) possa ser lida sem inferir além do texto. Ver Notas."
+ },
+ {
+  "id_item": "C132",
+  "variavel": "b2_significancia_05",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: sim",
+  "valor_revalidacao": "apoio_ao_lider: 999 — mesma razão da variável anterior: a Tabela 2 reporta significância de sete preditores distintos (não de um único \"efeito principal\" da exposição), o que impede uma resposta única sem inferência. Ver Notas."
+ },
+ {
+  "id_item": "C133",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que a informação sobre a posição nas pesquisas muda a intenção de voto nas duas direções, e que o efeito bandwagon reflete processamento heurístico superficial associado à falta de expertise política, enquanto o efeito underdog reflete preocupação moral com igualdade e justiça, sendo os dois efeitos assimétricos",
+  "valor_revalidacao": "Os autores concluem que a expertise política é o único preditor significativo do efeito bandwagon (efeito pequeno) e que apenas a preocupação com equidade distributiva prediz significativamente o efeito underdog (efeito também pequeno), sendo esses efeitos assimétricos entre si."
+ },
+ {
+  "id_item": "C134",
+  "variavel": "tipo_eleicao",
+  "tipo": "categorica",
+  "valor_original": "simulada_abstrata",
+  "valor_revalidacao": "candidato_partido"
+ },
+ {
+  "id_item": "C135",
+  "variavel": "sistema_eleitoral",
+  "tipo": "categorica",
+  "valor_original": "regra_do_experimento",
+  "valor_revalidacao": "proporcional"
+ },
+ {
+  "id_item": "C136",
+  "variavel": "desenho_fino",
+  "tipo": "categorica",
+  "valor_original": "survey_experiment",
+  "valor_revalidacao": "painel_individual"
+ },
+ {
+  "id_item": "C137",
+  "variavel": "realismo_contexto",
+  "tipo": "categorica",
+  "valor_original": "hipotetico",
+  "valor_revalidacao": "real"
+ },
+ {
+  "id_item": "C138",
+  "variavel": "ano_eleicao",
+  "tipo": "numerica_int",
+  "valor_original": "999",
+  "valor_revalidacao": "2019"
+ },
+ {
+  "id_item": "C139",
+  "variavel": "comparador_tipo",
+  "tipo": "categorica",
+  "valor_original": "mesmo_candidato_atras",
+  "valor_revalidacao": "outro — posição inicial de voto observacional (líder vs. atrás), não manipulada pelos pesquisadores."
+ },
+ {
+  "id_item": "C140",
+  "variavel": "nivel_desfecho",
+  "tipo": "categorica",
+  "valor_original": "intencao_declarada",
+  "valor_revalidacao": "escolha_declarada_pos_eleicao"
+ },
+ {
+  "id_item": "C141",
+  "variavel": "margem_mostrada",
+  "tipo": "textual",
+  "valor_original": "Disputa de dois candidatos com 90% contra 10% das intenções dos demais eleitores; a mesma distribuição aparece nos dois braços, invertida conforme a posição do candidato preferido pelo participante (90% na condição líder, 10% na condição atrás). O texto não imprime a diferença em pontos percentuais",
+  "valor_revalidacao": "40% (líder 1) vs. 25% (líder 2) nas pesquisas reais, ou seja, cerca de 15 p.p. entre os dois primeiros colocados; partidos atrás em 15%, 8% e 7%."
+ },
+ {
+  "id_item": "C142",
+  "variavel": "moderadores_relatados",
+  "tipo": "categorica",
+  "valor_original": "idade + outro + preferencia_previa + sofisticacao_interesse",
+  "valor_revalidacao": "idade"
+ },
+ {
+  "id_item": "C143",
+  "variavel": "n_competidores",
+  "tipo": "numerica_int",
+  "valor_original": "2",
+  "valor_revalidacao": "9"
+ },
+ {
+  "id_item": "C144",
+  "variavel": "dias_ate_eleicao",
+  "tipo": "numerica_int",
+  "valor_original": "999",
+  "valor_revalidacao": "30"
+ },
+ {
+  "id_item": "C145",
+  "variavel": "ajuste_mediador",
+  "tipo": "categorica",
+  "valor_original": "Não",
+  "valor_revalidacao": "999"
+ }
+]

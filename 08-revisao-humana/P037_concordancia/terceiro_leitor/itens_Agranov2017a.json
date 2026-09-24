@@ -1,0 +1,184 @@
+[
+ {
+  "id_item": "C001",
+  "variavel": "pais_estudo",
+  "tipo": "textual",
+  "valor_original": "Estados Unidos — Los Angeles, Califórnia (laboratório CASSEL, UCLA)",
+  "valor_revalidacao": "Estados Unidos — Califórnia, Los Angeles (local do experimento; não a afiliação institucional dos autores)"
+ },
+ {
+  "id_item": "C002",
+  "variavel": "problema_pesquisa",
+  "tipo": "textual",
+  "valor_original": "Testar se os eleitores respondem à probabilidade de serem pivotais e qual é o impacto da informação revelada por pesquisas sobre a decisão custosa de participar e sobre o bem-estar coletivo.",
+  "valor_revalidacao": "Testar se eleitores respondem a probabilidades de serem decisivos (pivotal) e como crenças eliciadas sobre o resultado, formadas via pesquisas de intenção de voto, afetam a decisão de participar."
+ },
+ {
+  "id_item": "C003",
+  "variavel": "populacao",
+  "tipo": "textual",
+  "valor_original": "Sujeitos de laboratório recrutados no CASSEL/UCLA, 198 no total, organizados em 22 grupos fixos de 9 pessoas que jogaram 440 eleições entre duas alternativas.",
+  "valor_revalidacao": "Sujeitos de laboratório (pool de participantes do CASSEL/UCLA), organizados em grupos de 9 por sessão."
+ },
+ {
+  "id_item": "C004",
+  "variavel": "intervencao_descricao",
+  "tipo": "textual",
+  "valor_original": "Em eleições de laboratório com preferências induzidas entre duas cores (Red ou Blue), em grupos de nove sujeitos, a exposição analisada é a informação sobre a distribuição de preferências do grupo, entregue logo antes da decisão de votar no mesmo período. No tratamento Perfect Polls os sujeitos são informados com precisão da urna sorteada, o que equivale a uma pesquisa que revela perfeitamente a distribuição de preferências. No tratamento Lab Polls os sujeitos declaram antes a ação pretendida (abster-se, votar red, votar blue) e recebem as estatísticas agregadas dessa pesquisa antes de decidir se pagam o custo de votar. No tratamento de linha de base No Polls não há informação além do sorteio privado.",
+  "valor_revalidacao": "Informação sobre a distribuição de preferências do grupo (o \"jarro\"/estado) fornecida antes da decisão de votar em cada período: no tratamento No Polls, nenhuma informação além do próprio sorteio; no Perfect Polls, revelação do jarro realizado (informação perfeita); no Lab Polls, pesquisa de intenção de voto entre os 9 sujeitos do grupo, com o resultado agregado (nº de abstenções, votos red, votos blue) divulgado antes do voto real. Meio: tela do experimento; momento: imediatamente antes de cada decisão de voto."
+ },
+ {
+  "id_item": "C005",
+  "variavel": "comparador",
+  "tipo": "textual",
+  "valor_original": "Tratamento de linha de base No Polls, em que os sujeitos conhecem apenas o próprio sorteio privado e a probabilidade a priori de 50-50 entre as urnas; a comparação se dá entre sessões e grupos designados a No Polls, Perfect Polls e Lab Polls.",
+  "valor_revalidacao": "Tratamento No Polls (sem qualquer informação sobre a distribuição de preferências) como linha de base; Perfect Polls (informação perfeita) como comparador do extremo oposto ao Lab Polls (pesquisa ruidosa e não vinculante)."
+ },
+ {
+  "id_item": "C006",
+  "variavel": "construto_outcome",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider + mobilizacao",
+  "valor_revalidacao": "mobilizacao"
+ },
+ {
+  "id_item": "C007",
+  "variavel": "outcome_medida",
+  "tipo": "textual",
+  "valor_original": "Mobilização: decisão individual de pagar o custo e votar ou se abster em cada período, medida como propensão a votar observada e reportada separadamente para membros do grupo majoritário esperado (o lado que a pesquisa mostra à frente) e do minoritário (o lado mostrado atrás); medida individual. Apoio ao líder: vantagem efetiva em votos do vencedor indicado pela pesquisa na eleição realizada, comparada à vantagem prevista pela própria pesquisa; medida agregada por eleição.",
+  "valor_revalidacao": "Decisão binária de votar (red ou blue, sempre pela alternativa preferida do próprio sujeito) versus abster-se em cada período (comparecimento individual), com recompensa de $2 condicionada à vitória da alternativa preferida e custo de participação de 25 ou 50 centavos."
+ },
+ {
+  "id_item": "C008",
+  "variavel": "mecanismo_descricao",
+  "tipo": "textual",
+  "valor_original": "Recurso: informação sobre a distribuição de preferências divulgada por pesquisa perfeita ou por pesquisa de laboratório, somada à eliciação incentivada das crenças de cada sujeito sobre a composição do grupo e sobre a vantagem da alternativa preferida; Raciocínio: as pesquisas alteram as crenças sobre a vantagem esperada da alternativa preferida e, pelo modelo do eleitor pivotal, isso deveria elevar a participação da minoria e reduzir a da maioria, mas os autores encontram propensão a votar crescente na vantagem esperada, padrão que atribuem à coexistência de dois grupos, um que responde à probabilidade de ser pivotal e outro movido pelo desejo de votar no vencedor a-la Callander (2007); Contexto: grupos de nove sujeitos em laboratório, com custo de votar de 25 ou 50 centavos e prêmio de $2, ambiente em que as probabilidades de ser pivotal são substanciais.",
+  "valor_revalidacao": "Recurso: benefício adicional 'a' por votar com o vencedor da eleição (além do benefício V/2 de ser decisivo); Raciocínio: sujeitos com utilidade u_i = V/2·Prob[alternativa preferida vence] + a·Prob[votar com o vencedor] − c votam mais quando esperam grande vantagem, pois o segundo termo cresce com a probabilidade de estar do lado vencedor; Contexto: estimado por sujeito, ajustando 'a' às 20 decisões de cada um, comparado entre os três tratamentos informacionais."
+ },
+ {
+  "id_item": "C009",
+  "variavel": "moderador_descricao",
+  "tipo": "textual",
+  "valor_original": "Moderadores relatados: (i) pertencimento ao grupo majoritário ou minoritário esperado, com propensões observadas separadas na Tabela 3 e com termos de crença específicos por condição na Tabela 4 (\"Lead of the majority if in majority\" e \"Lead of the majority if in minority\"), sendo que as minorias participam menos que as maiorias e a informação reduz a participação da minoria e aumenta a da maioria; (ii) custo de votar, 25 contra 50 centavos, com participação menor no custo alto; (iii) tratamento informacional, com a resposta às crenças estatisticamente indistinguível entre tratamentos nos últimos 10 períodos; (iv) proximidade percebida da eleição, com participação significativamente maior nas eleições percebidas como apertadas nos tratamentos com pesquisa; (v) extremidade das crenças, com resultados replicados nos dois subgrupos.",
+  "valor_revalidacao": "Pertencimento a maioria/minoria (conforme a distribuição de preferências revelada ou percebida) modera o efeito da informação: com Perfect Polls e Lab Polls, a probabilidade de participação da maioria aumenta e a da minoria diminui, em comparação com o tratamento No Polls."
+ },
+ {
+  "id_item": "C010",
+  "variavel": "efeitos_nao_intencionais",
+  "tipo": "textual",
+  "valor_original": "A disponibilidade de informação reduz a probabilidade de participação do grupo minoritário, isto é, desmobiliza quem apoia a alternativa mostrada atrás, e torna as eleições de goleada significativamente mais frequentes do que no tratamento sem pesquisa. Os autores também registram que a pesquisa pré-eleitoral superestima sistematicamente o comparecimento declarado: 82% dos sujeitos disseram que votariam e menos de 50% votaram.",
+  "valor_revalidacao": "Desmobilização do grupo minoritário associada à disponibilidade de informação sobre a distribuição de preferências (redução da participação da minoria quando há Perfect Polls ou Lab Polls, em contraste com a previsão teórica de maior participação da minoria informada)."
+ },
+ {
+  "id_item": "C011",
+  "variavel": "limitacoes_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores reconhecem que o experimento não captura motivos de participação relevantes em eleições reais de grande escala, como dever cívico e pressão social; que a análise do conjunto completo de equilíbrios com mistura na etapa da pesquisa está fora do escopo do artigo; e, em nota final, que o desenho não foi talhado para separar o motivo de votar com o vencedor do motivo de votar com a maioria.",
+  "valor_revalidacao": "Os próprios autores reconhecem que o desenho não permite separar o desejo de votar com o vencedor do desejo de votar com a maioria."
+ },
+ {
+  "id_item": "C012",
+  "variavel": "b2_hipoteses_testes",
+  "tipo": "textual",
+  "valor_original": "Os autores reportam que as dummies de grupo não diferem de zero em nenhum dos três tratamentos, que não há efeitos de período (pouco aprendizado), que as sessões com a ordem dos custos invertida geram resultados qualitativamente idênticos, que os resultados se replicam quando a atenção se restringe aos últimos 10 períodos e que testes de Kolmogorov-Smirnov comparam as distribuições do parâmetro estimado entre tratamentos. Não há teste de balanceamento de covariáveis pré-tratamento nem plano de análise registrado.",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C013",
+  "variavel": "b2_nivel_atribuicao_cluster",
+  "tipo": "textual",
+  "valor_original": "A exposição à pesquisa foi atribuída no nível da sessão experimental, com cada sessão rodando um dos três tratamentos informacionais, e os sujeitos foram alocados em grupos fixos de nove no início da sessão (Tabela 1: 7 grupos em No Polls, 8 em Perfect Polls e 7 em Lab Polls, todos com 9 sujeitos). Os erros-padrão da Tabela 4 são agrupados por indivíduo, não pelo grupo; testes agregados reportados em notas de rodapé agrupam por grupo. Tamanho médio de cluster de 9 sujeitos por grupo; ICC não reportado.",
+  "valor_revalidacao": "Atribuição do tratamento informacional ao nível da sessão/grupo (9 sujeitos por grupo); os erros-padrão da regressão Probit (Tabela 4) foram agrupados por indivíduo (não por grupo/sessão); tamanho médio do cluster de tratamento = 9; ICC não reportado."
+ },
+ {
+  "id_item": "C014",
+  "variavel": "b2_n_total",
+  "tipo": "numerica_int",
+  "valor_original": "198 (sujeitos; a Tabela 4 reporta 879, 1174 e 1024 observações nas colunas No Polls, Perfect Polls e Lab Polls, depois das exclusões)",
+  "valor_revalidacao": "No Polls: 879 observações; Perfect Polls: 1174 observações; Lab Polls: 1024 observações (198 sujeitos no total do experimento)."
+ },
+ {
+  "id_item": "C015",
+  "variavel": "b2_controles",
+  "tipo": "textual",
+  "valor_original": "Na Tabela 3 (modelo principal para mobilizacao) não há controles: são propensões observadas estratificadas por tratamento, custo e pertencimento ao grupo majoritário ou minoritário. Na Tabela 4, que é a regressão individual de mecanismo, os controles são: dummies de grupo (Group 2 a Group 8) ; Period ; High Cost of Voting ; Cumulative profit at t-1 ; Profit at t-1 ; Voted at t-1 ; Voted and Won at t-1 ; Abstained and Won at t-1 ; Composition lead of the preferred alternative (belief) ; Lead of the majority if in majority (belief) ; Lead of the majority if in minority (belief) ; Lead of the preferred candidate (poll), este último só na coluna Lab Polls.",
+  "valor_revalidacao": "Dummies de grupo (Group 2 a Group 8) ; Period ; High Cost of Voting ; Cumulative profit at t-1 ; Profit at t-1 ; Voted at t-1 ; Voted and won at t-1 ; Abstained and won at t-1 ; Composition lead of the preferred alternative (belief) ; Lead of the majority if in majority (belief) ; Lead of the majority if in minority (belief) ; Lead of the preferred candidate (poll, apenas Lab Polls)"
+ },
+ {
+  "id_item": "C016",
+  "variavel": "b2_teste_falsificacao",
+  "tipo": "categorica",
+  "valor_original": "Sim — os autores reportam ausência de viés persistente a favor das alternativas blue ou red, teste sobre um rótulo irrelevante equivalente a um placebo, além de dummies de grupo e de período não significativas.",
+  "valor_revalidacao": "Não — justificativa: não há menção a placebo, pré-tendência, outcome falso ou corte falso no texto lido; há apenas testes de ausência de efeitos de grupo/tempo na regressão (não configuram teste de falsificação no sentido do codebook)."
+ },
+ {
+  "id_item": "C017",
+  "variavel": "b2_modelo_principal",
+  "tipo": "textual",
+  "valor_original": "apoio_ao_lider: Figura 4 (Bandwagon and Underdog Effects), Seção 6 ; mobilizacao: Tabela 3 (Observed Participation Propensities), comparação entre as colunas No Polls, Perfect Polls e Lab Polls",
+  "valor_revalidacao": "mobilizacao: Tabela 4, regressões Probit por tratamento (colunas No Polls, Perfect Polls, Lab Polls)"
+ },
+ {
+  "id_item": "C018",
+  "variavel": "b2_criterio_modelo_principal",
+  "tipo": "categorica",
+  "valor_original": "regra_do_protocolo ; regra_do_protocolo",
+  "valor_revalidacao": "regra_do_protocolo"
+ },
+ {
+  "id_item": "C019",
+  "variavel": "b2_direcao_estimativa_principal",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: benefica ; mobilizacao: benefica",
+  "valor_revalidacao": "mobilizacao: zero"
+ },
+ {
+  "id_item": "C020",
+  "variavel": "b2_significancia_05",
+  "tipo": "categorica",
+  "valor_original": "apoio_ao_lider: nao_reportada ; mobilizacao: nao_reportada",
+  "valor_revalidacao": "mobilizacao: nao"
+ },
+ {
+  "id_item": "C021",
+  "variavel": "b2_interpretacao_autores",
+  "tipo": "textual",
+  "valor_original": "Os autores concluem que a propensão a votar cresce com a vantagem prevista da alternativa preferida, contrariando o modelo do eleitor pivotal, e que as pesquisas pré-eleitorais não produzem os efeitos negativos de bem-estar previstos pela teoria, levando a mais participação da maioria esperada e a mais eleições de goleada.",
+  "valor_revalidacao": "As pesquisas pré-eleitorais não geram os efeitos negativos de bem-estar previstos pela teoria; ao contrário, aumentam a participação da maioria esperada e geram mais eleições com grande margem."
+ },
+ {
+  "id_item": "C022",
+  "variavel": "nivel_desfecho",
+  "tipo": "categorica",
+  "valor_original": "comparecimento_individual",
+  "valor_revalidacao": "escolha_incentivada_experimento"
+ },
+ {
+  "id_item": "C023",
+  "variavel": "margem_mostrada",
+  "tipo": "textual",
+  "valor_original": "A vantagem é informada em votos, não em pontos percentuais, e não é fixada por braço: no Lab Polls a pesquisa informa o número de sujeitos que declaram abstenção, voto em red e voto em blue num grupo de nove, de modo que a vantagem prevista varia endogenamente a cada período (a Figura 4 cobre vantagens previstas de 0 a 5 votos); no Perfect Polls revela-se a urna sorteada, o que implica probabilidade 2/3 de cada sujeito preferir a cor da urna.",
+  "valor_revalidacao": "999"
+ },
+ {
+  "id_item": "C024",
+  "variavel": "mecanismo_testado",
+  "tipo": "categorica",
+  "valor_original": "conformidade + informacao + viabilidade_estrategico",
+  "valor_revalidacao": "conformidade"
+ },
+ {
+  "id_item": "C025",
+  "variavel": "moderadores_relatados",
+  "tipo": "categorica",
+  "valor_original": "competitividade + outro (outro: pertencimento ao grupo majoritário ou minoritário esperado; custo de votar de 25 contra 50 centavos; tratamento informacional; extremidade das crenças)",
+  "valor_revalidacao": "competitividade + preferencia_previa"
+ },
+ {
+  "id_item": "C026",
+  "variavel": "ajuste_mediador",
+  "tipo": "categorica",
+  "valor_original": "Não — o modelo principal escolhido para mobilizacao é a Tabela 3, que traz propensões observadas por tratamento sem qualquer controle; as crenças sobre a vantagem esperada entram como regressores apenas na Tabela 4, que é a análise de mecanismo.",
+  "valor_revalidacao": "Sim"
+ }
+]
