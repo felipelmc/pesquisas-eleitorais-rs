@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Revisão humana: o que falta e como fazer</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Revisão humana: o que falta e como fazer</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#revisão-humana-o-que-falta-e-como-fazer" id="toc-revisão-humana-o-que-falta-e-como-fazer">Revisão humana: o que
+falta e como fazer</a>
+<ul>
+<li><a href="#ordem-sugerida-e-esforço" id="toc-ordem-sugerida-e-esforço">Ordem sugerida e esforço</a></li>
+<li><a href="#p039-conferência-dos-efeitos-pasta-efeitos" id="toc-p039-conferência-dos-efeitos-pasta-efeitos">P039: conferência
+dos efeitos (pasta <code>efeitos/</code>)</a></li>
+<li><a href="#portões-aprovados-pelo-autopiloto-p004-p008-p023-p026-p035-e-p038" id="toc-portões-aprovados-pelo-autopiloto-p004-p008-p023-p026-p035-e-p038">Portões
+aprovados pelo autopiloto (P004, P008, P023, P026, P035 e P038)</a></li>
+<li><a href="#depois-de-fechar-pendências" id="toc-depois-de-fechar-pendências">Depois de fechar
+pendências</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="revisão-humana-o-que-falta-e-como-fazer">Revisão humana: o que
+falta e como fazer</h1>
+<p>A revisão tem <strong>18 pendências abertas</strong>
+(<code>rs --dir . pendencia listar</code>). Todas exigem decisão humana.
+A IA não fecha nenhuma: o skill registra fechamento só com ator humano,
+e as regras do projeto não permitem atribuir papel humano a decisões de
+IA.</p>
+<p>Esta pasta prepara cada uma para decisão rápida. As sugestões de IA
+ficam sempre em colunas ou arquivos separados, e as colunas humanas vêm
+vazias. <strong>Nenhuma sugestão de IA conta como
+validação.</strong></p>
+<p>Definições de rs:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rs()</span> <span class="kw">{</span> <span class="ex">python3</span> ~/.claude/skills/revisao-sistematica/scripts/rs.py <span class="st">&quot;</span><span class="va">$@</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">}</span></span></code></pre></div>
+<h2 id="ordem-sugerida-e-esforço">Ordem sugerida e esforço</h2>
+<p>A ordem segue as etapas, porque decisões de busca e de triagem podem
+mudar o conjunto de incluídos, e isso muda tudo o que vem depois.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Pendência</th>
+<th>Etapa</th>
+<th>O que fazer</th>
+<th>Pacote</th>
+<th>Esforço</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>P001</td>
+<td>busca (G3)</td>
+<td>PRESS humano da string <strong>ativa</strong>, S-oa-en-v5. A
+pendência cita a v4, que foi substituída</td>
+<td><code>P001_press/</code></td>
+<td>2,5 a 3,5 h</td>
+</tr>
+<tr>
+<td>2</td>
+<td>P004</td>
+<td>portão G3</td>
+<td>confirmar o G3</td>
+<td>seção abaixo</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>3</td>
+<td>P019</td>
+<td>organização</td>
+<td>145 pares candidatos de duplicata, com sugestão da IA por par</td>
+<td><code>P019_dedup/</code></td>
+<td>1 a 1,5 h</td>
+</tr>
+<tr>
+<td>4</td>
+<td>P020</td>
+<td>triagem T/A</td>
+<td>81 divergências entre os triadores A e B, com sugestão de um
+terceiro leitor cego</td>
+<td><code>P020_triagem/</code></td>
+<td>1 h</td>
+</tr>
+<tr>
+<td>5</td>
+<td>P006</td>
+<td>triagem T/A</td>
+<td>amostra de validação cega: 141 registros, dois codificadores</td>
+<td><code>P006_P007_validacao/</code></td>
+<td>2 × 1,5 h</td>
+</tr>
+<tr>
+<td>6</td>
+<td>P007</td>
+<td>triagem T/A</td>
+<td>amostra de elusão cega: 300 registros excluídos pela IA</td>
+<td><code>P006_P007_validacao/</code></td>
+<td>2 h</td>
+</tr>
+<tr>
+<td>7</td>
+<td>P008</td>
+<td>portão G4</td>
+<td>confirmar o G4</td>
+<td>seção abaixo</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>8</td>
+<td>P041</td>
+<td>texto completo</td>
+<td>165 decisões de elegibilidade propostas pela IA (antes P028)</td>
+<td><code>P041_elegibilidade/</code></td>
+<td>3 a 4 h</td>
+</tr>
+<tr>
+<td>9</td>
+<td>P023</td>
+<td>portão G5</td>
+<td>confirmar o G5</td>
+<td>seção abaixo</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>10</td>
+<td>P025</td>
+<td>piloto</td>
+<td>conferir os 3 estudos do piloto</td>
+<td><code>P025_piloto/</code></td>
+<td>1 h</td>
+</tr>
+<tr>
+<td>11</td>
+<td>P026</td>
+<td>portão G6</td>
+<td>confirmar o G6</td>
+<td>seção abaixo</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>12</td>
+<td>P039</td>
+<td>extração</td>
+<td>conferir os 560 efeitos na página do PDF (antes P032). Comece pelos
+principais e pelos pontos que os árbitros levantaram</td>
+<td><code>efeitos/</code></td>
+<td>6 a 10 h</td>
+</tr>
+<tr>
+<td>13</td>
+<td>P037</td>
+<td>extração</td>
+<td>259 divergências da recodificação cega, com sugestão de um terceiro
+leitor</td>
+<td><code>P037_concordancia/</code></td>
+<td>2 a 3 h</td>
+</tr>
+<tr>
+<td>14</td>
+<td>P033</td>
+<td>portão G7 e RoB</td>
+<td>validar os 259 domínios de RoB (88 desacordos primeiro)</td>
+<td><code>P033_rob/</code></td>
+<td>4 a 6 h</td>
+</tr>
+<tr>
+<td>15</td>
+<td>P036 e P042</td>
+<td>síntese</td>
+<td>validar os juízos GRADE. A P042 foi aberta pelo
+<code>rs caixa</code> em 24/09 e pede o mesmo</td>
+<td><code>P036_grade/</code></td>
+<td>1 h</td>
+</tr>
+<tr>
+<td>16</td>
+<td>P035</td>
+<td>portão G8</td>
+<td>confirmar o G8</td>
+<td>seção abaixo</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>17</td>
+<td>P038</td>
+<td>portão G9</td>
+<td>ler o manuscrito e confirmar o G9</td>
+<td><code>07-relatorio/relatorio.html</code></td>
+<td>2 h</td>
+</tr>
+</tbody>
+</table>
+<h2 id="p039-conferência-dos-efeitos-pasta-efeitos">P039: conferência
+dos efeitos (pasta <code>efeitos/</code>)</h2>
+<ul>
+<li><code>efeitos/cega/&lt;chave&gt;.json</code>: re-extração
+<strong>cega</strong> dos efeitos principais dos 40 estudos, feita por
+outro agente sem ver a original.</li>
+<li><code>efeitos/comparacao_cega.csv</code>: original × cega, por
+efeito principal.</li>
+<li><code>efeitos/arbitragem/&lt;chave&gt;.json</code>: decisão de um
+árbitro de IA em 28 estudos com divergência, com trecho e página.</li>
+<li><code>05-decomposicao/correcoes_sessao_2026-09-23.csv</code>: as 771
+correções aplicadas.</li>
+<li><code>efeitos/aplicacao_arbitragem.csv</code>: o que não foi
+aplicado, e por quê.</li>
+<li><strong><code>efeitos/pontos_para_o_revisor.md</code></strong>:
+decisões de julgamento que os árbitros deixaram para você. Entre elas:
+se Gerber2020a-E12, Feltovich2022-E01/E02 e Schlegel2023 entram no
+dicionário <code>FORA</code>; se Geers2018 volta à contagem; e o alvo de
+Witsman2016a-E01.</li>
+</ul>
+<p>Como registrar: marque <code>verificado_humano = sim</code> em
+<code>05-decomposicao/efeitos_extraidos.csv</code> nas linhas que você
+conferir. Depois rode <code>rs --dir . analise verificar-efeitos</code>.
+A pendência fecha quando todas as linhas estiverem aptas. Qualquer
+correção de valor se faz em
+<code>05-decomposicao/efeitos/&lt;chave&gt;.csv</code>, e depois a
+cadeia do README roda de novo desde <code>preparar-efeitos</code>.</p>
+<h2 id="portões-aprovados-pelo-autopiloto-p004-p008-p023-p026-p035-e-p038">Portões
+aprovados pelo autopiloto (P004, P008, P023, P026, P035 e P038)</h2>
+<p>Cada portão foi aprovado automaticamente com as checagens de artefato
+do skill. Confirmar um portão é declarar que você leu o que ele aprovou.
+Ordem de fechamento: <strong>primeiro as pendências de conteúdo daquela
+etapa, depois o portão.</strong></p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Portão</th>
+<th>Aprovou</th>
+<th>Depende de</th>
+<th>Riscos principais</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G3 (P004)</td>
+<td>a busca: B05 no OpenAlex em inglês (substituiu a B01), B02, B03 e
+B04 em PT e ES, BDTD, e a bola de neve SN1 a SN3</td>
+<td>P001</td>
+<td>o PRESS só foi feito por IA. Lacunas: termos de proibição e de
+apuração parcial, e comparecimento na BDTD
+(<code>P001_press/</code>)</td>
+</tr>
+<tr>
+<td>G4 (P008)</td>
+<td>a triagem de títulos e resumos, com a rodada ta_v1 e dois triadores
+de IA</td>
+<td>P006, P007, P020</td>
+<td>não há validação humana nem recall calculado. A Emenda 6b refez por
+IA os 336 registros sem resumo</td>
+</tr>
+<tr>
+<td>G5 (P023)</td>
+<td>a elegibilidade no texto completo: 55 relatos incluídos, 41 estudos
+(40 com efeitos)</td>
+<td>P041</td>
+<td>propostas de IA; 17 decisões limítrofes suas; 3 extensões de regra
+feitas pela IA</td>
+</tr>
+<tr>
+<td>G6 (P026)</td>
+<td>o piloto de extração (3 estudos) e a Emenda 2</td>
+<td>P025</td>
+<td>a Emenda 2 foi decidida pela IA</td>
+</tr>
+<tr>
+<td>G8 (P035)</td>
+<td>a síntese (SWiM) e o GRADE</td>
+<td>P036</td>
+<td>decisões da Emenda 5 tomadas depois de ver os dados; GRADE
+rascunhado por IA</td>
+</tr>
+<tr>
+<td>G9 (P038)</td>
+<td>o relato</td>
+<td>todas as outras</td>
+<td>o manuscrito foi redigido por IA a partir dos arquivos</td>
+</tr>
+</tbody>
+</table>
+<p>Comando para fechar cada portão, <strong>só depois</strong> de fechar
+as pendências de que ele depende:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rs</span> <span class="at">--dir</span> . pendencia fechar P004 <span class="at">--motivo</span> <span class="st">&quot;G3 conferido: &lt;resumo&gt;&quot;</span> <span class="at">--por</span> revisor_humano_1</span></code></pre></div>
+<p>Troque <code>P004</code> por P008, P023, P026, P035 ou P038 conforme
+o portão.</p>
+<h2 id="depois-de-fechar-pendências">Depois de fechar pendências</h2>
+<p>Refaça os produtos pela cadeia do <code>README.md</code> da raiz,
+seção “Refazer os produtos depois de fechar pendências”. Quando a última
+pendência fechar, o <code>rs status</code> deixa de marcar rascunho. Aí
+tire a faixa “RASCUNHO NÃO VALIDADO” do
+<code>07-relatorio/relatorio.qmd</code>.</p>
+</body>
+</html>

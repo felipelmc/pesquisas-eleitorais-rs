@@ -30,5 +30,5 @@ if 'Guia da revisão humana' not in s:
     open(p, "w", encoding="utf-8").write(s)
 EOF
 touch "$raiz/docs/.nojekyll"
-rm -rf "$raiz/docs/index_files" "$raiz/docs/relatorio_files"
+rm -rf "$raiz/docs/index_files" "$raiz/docs/relatorio_files" "$raiz/docs/prisma.png"
 ls -la "$raiz/docs"
