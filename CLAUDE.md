@@ -17,6 +17,13 @@ rs --dir ~/Desktop/pesquisas-eleitorais-rs pendencia listar
 
 Defina a função `rs` em cada chamada de Bash (cada chamada abre um shell novo). Não deduza o estado da conversa: o `status` e o `rs_log.jsonl` são a fonte. A cadeia completa para refazer efeitos, síntese e relato está no `README.md`, seção "Refazer os produtos depois de fechar pendências".
 
+Como ler o `status` (sai em JSON):
+- `etapa_atual` aparece como `05_organizacao` mesmo com G9 aprovado, porque a deduplicação (P019) segue aberta. Isso é esperado; o campo `proxima_acao` diz o que vem a seguir.
+- Algumas descrições de pendência citam IDs já substituídos (P005, P022, P034). Vale a lista de `pendencia listar`, não os IDs citados dentro do texto.
+- `buscas_inativas: B01` é a busca em inglês substituída pela B05 (emenda E002). Não é um erro.
+
+Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`efeitos.R`, `swim.R`, `_cli.R`) ficam em `~/.claude/skills/revisao-sistematica/scripts/R/`, não no repositório. No repositório, os únicos scripts são os de junção e montagem da síntese (`05-decomposicao/juntar_rob.py`, `06-analise/montar_*.py`), os de conferência em `ferramentas/` (uso no README) e o `03-textos/prompts_fichamento/gate_sem_heuristica.py` (`<ficha.md> <pdf>`). Este último roda o gate de citação do `fichamento-sistematico` sem a heurística de "PDF sem texto", que reprova teses por engano.
+
 ## Regras do usuário (valem em toda sessão)
 
 - Decisões e aprovações vão ao usuário pelo AskUserQuestion, com a opção recomendada em primeiro lugar e marcada "(Recomendado)".
@@ -31,7 +38,7 @@ Defina a função `rs` em cada chamada de Bash (cada chamada abre um shell novo)
 ## Regras da skill que mais pesam aqui
 
 - Nunca edite à mão `rs_estado.json`, `rs_log.jsonl`, `dados/`. Só `rs.py` escreve neles.
-- O protocolo está congelado desde o G2. Qualquer mudança de método é emenda em `00-protocolo/emendas.md` registrada com `rs emenda`, declarando se foi decidida antes ou depois de ver os dados. Hoje há as Emendas 1 a 5; a 5 (pós-revisão metodológica do G8) define a síntese atual.
+- O protocolo está congelado desde o G2. Qualquer mudança de método é emenda em `00-protocolo/emendas.md` registrada com `rs emenda`, declarando se foi decidida antes ou depois de ver os dados. Hoje há E001 e E002 (busca) e as Emendas 1 a 5; a 5 (pós-revisão metodológica do G8) define a síntese atual.
 - `resolvido_por`, `verificado_humano`, `validado_humano` e `--por revisor_humano_1` só recebem papel humano quando o usuário declarar que fez aquela revisão. Concordância entre dois avaliadores de IA não valida nada.
 - Direção pelo estimador, nunca pela significância. A certeza GRADE qualifica a direção, não a magnitude.
 - Junções só por `id_rs`, `id_registro`, `chave` ou `chave + construto_outcome`, nunca por título.
