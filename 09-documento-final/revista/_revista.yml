@@ -1,6 +1,9 @@
 # Metadados comuns ao artigo (revisao_final.qmd) e ao suplemento (suplemento.qmd).
 lang: pt-BR
 date-format: "DD/MM/YYYY"
+language:
+  title-block-published: "Versão de trabalho"
+  title-block-author-single: "Autor"
 author:
   - name: Felipe Lamarca
     affiliations:
@@ -37,6 +40,18 @@ format:
     default-image-extension: svg
     keep-typ: true
   html:
+    theme: [cosmo, revista/revista.scss]
+    css: revista/fontes_web.css
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    number-sections: true
+    citations-hover: true
+    crossrefs-hover: true
+    fig-cap-location: bottom
+    lightbox: true
+    format-links: false
+    embed-resources: true
     default-image-extension: png
     filters:
       - at: pre-quarto

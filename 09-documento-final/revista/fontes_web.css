@@ -1,0 +1,11 @@
+/* Fontes do artigo em HTML (OFL; arquivos oficiais sem modificação, em fontes/woff2/). */
+@font-face { font-family: "STIX Two Text"; src: url("fontes/woff2/STIXTwoText-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "STIX Two Text"; src: url("fontes/woff2/STIXTwoText-Italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "STIX Two Text"; src: url("fontes/woff2/STIXTwoText-SemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "STIX Two Text"; src: url("fontes/woff2/STIXTwoText-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Fira Sans"; src: url("fontes/woff2/FiraSans-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Fira Sans"; src: url("fontes/woff2/FiraSans-Italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Fira Sans"; src: url("fontes/woff2/FiraSans-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Fira Sans"; src: url("fontes/woff2/FiraSans-SemiBold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Fira Sans"; src: url("fontes/woff2/FiraSans-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Fira Mono"; src: url("fontes/woff2/FiraMono-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }

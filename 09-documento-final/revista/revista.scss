@@ -1,0 +1,57 @@
+/*-- scss:defaults --*/
+$primary: #1f4e79;
+$link-color: #1f4e79;
+$body-color: #1b1d22;
+$font-family-sans-serif: "Fira Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-family-monospace: "Fira Mono", ui-monospace, monospace;
+$font-family-base: "STIX Two Text", "STIX Two Math", Georgia, serif;
+$headings-font-family: "Fira Sans", system-ui, sans-serif;
+$headings-font-weight: 600;
+$headings-color: #1f4e79;
+$font-size-root: 17px;
+$line-height-base: 1.6;
+$toc-font-size: 0.82rem;
+
+/*-- scss:rules --*/
+body { font-feature-settings: "kern", "liga", "onum" 0; hyphens: auto; -webkit-hyphens: auto; }
+main p { text-align: justify; }
+h1.title { font-weight: 600; letter-spacing: -0.01em; color: #15171b; }
+.subtitle { font-family: $font-family-base; font-style: italic; color: #3d3f44; }
+.quarto-title-meta, .quarto-title-meta-heading, .quarto-title-meta-contents { font-family: $font-family-sans-serif; }
+#title-block-header { border-bottom: 1.5px solid $primary; padding-bottom: 0.8rem; margin-bottom: 1.4rem; }
+h2, h3, h4 { letter-spacing: -0.005em; }
+h2 { font-size: 1.35rem; margin-top: 2.2rem; }
+h3 { font-size: 1.1rem; margin-top: 1.6rem; }
+.header-section-number { color: #6b6a66; font-weight: 500; }
+
+/* sumário, legendas, tabelas e caixas em sans */
+#TOC, .sidebar, figcaption, .figure-caption, caption, .table, .callout, .quarto-float-caption, .csl-entry { font-family: $font-family-sans-serif; }
+figcaption, .quarto-float-caption, caption { font-size: 0.86rem; line-height: 1.45; color: #2b2d31; text-align: left; }
+.table { font-size: 0.84rem; }
+.table thead th { border-bottom: 1px solid #1b1d22; font-weight: 600; }
+.table > :not(caption) > * > * { padding: 0.35rem 0.45rem; }
+table { border-top: 1.4px solid #1b1d22; border-bottom: 1.4px solid #1b1d22; }
+
+/* blocos do artigo */
+.mensagens-principais { border-left: 4px solid $primary; background: rgba(31, 78, 121, 0.06); padding: 1rem 1.2rem 0.6rem; margin: 1.4rem 0; font-family: $font-family-sans-serif; }
+.mensagens-principais h1, .mensagens-principais h2 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 0; }
+.mensagens-principais p, .mensagens-principais li { text-align: left; font-size: 0.97rem; }
+.resumo { background: #f4f4f2; border-top: 1px solid $primary; border-bottom: 1px solid $primary; padding: 1rem 1.2rem 0.4rem; margin: 1.4rem 0; font-family: $font-family-sans-serif; font-size: 0.93rem; }
+.resumo h1, .resumo h2 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 0; }
+.grade { color: $primary; letter-spacing: 0.04em; font-family: "STIX Two Math", "Segoe UI Symbol", "Apple Symbols", sans-serif; }
+
+/* caixas: rascunho (vermelho), pendente de revisão humana (âmbar) */
+.callout.callout-style-default { border-radius: 2px; }
+.callout-important { border-left-color: #b45309 !important; }
+.callout-important .callout-header { background-color: #fff6e8 !important; }
+.callout-important .callout-title-container { color: #9a4a08; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.8rem; }
+.callout-important .callout-icon::before { filter: hue-rotate(20deg); }
+.callout-warning { border-left-color: #b91c1c !important; }
+.callout-warning .callout-title-container { color: #b91c1c; font-weight: 700; }
+
+/* referências */
+#refs .csl-entry { font-size: 0.86rem; padding-left: 1.4em; text-indent: -1.4em; margin-bottom: 0.35rem; }
+
+/* strings de busca e códigos longos quebram a linha */
+pre, pre code, div.sourceCode pre { white-space: pre-wrap; word-break: break-word; }
+code { font-size: 0.86em; }
