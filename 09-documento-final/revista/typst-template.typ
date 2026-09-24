@@ -50,7 +50,7 @@
 
 // blocos de classe (inline.lua): .resumo, .mensagens-principais
 #let resumo(titulo: none, body) = block(
-  width: 100%, breakable: true, above: 1.2em, below: 1.2em,
+  width: 100%, breakable: false, above: 1.2em, below: 1.2em,
   inset: (x: 11pt, y: 10pt), fill: cinza-fundo, stroke: (top: 0.8pt + acento, bottom: 0.8pt + acento))[
   #set text(font: sans, size: 8.6pt)
   #set par(first-line-indent: 0pt, justify: true, leading: 0.5em, spacing: 0.62em)
@@ -68,7 +68,9 @@
   #body
 ]
 
-#let largura-total(body) = pad(x: -14mm, body)
+#let largura-total(body) = block(width: 100%, above: 1.4em, below: 1.4em, pad(x: -14mm, body))
+// figura larga flutua (topo ou pé da página), para o texto preencher o espaço que sobraria
+#let figura-larga(body) = place(auto, float: true, clearance: 1.4em, pad(x: -14mm, body))
 #let grade(s) = box(text(font: "STIX Two Math", size: 1.02em, fill: acento, tracking: 0.02em, s))
 
 // ---------------------------------------------------------------- artigo
@@ -142,7 +144,7 @@
            number-type: "lining", costs: (hyphenation: 70%, widow: 100%, orphan: 100%))
   set par(justify: true, leading: 0.6em, spacing: 0.6em,
           first-line-indent: (amount: 1.2em, all: false))
-  show regex("\\b(bandwagon|underdog|momentum|survey|surveys|leave-one-out|forest plot|harvest plot)\\b"): it => text(lang: "en", it)
+  show regex("\\b(bandwagon|underdog|momentum|survey|surveys|leave-one-out|forest plot|harvest plot)\\b"): it => text(lang: "en", hyphenate: false, it)
   show raw: set text(font: mono, size: 0.88em)
   show math.equation: set text(font: "STIX Two Math")
 
@@ -183,7 +185,11 @@
   show <refs>: set par(hanging-indent: 1.4em, first-line-indent: 0pt, justify: false, leading: 0.5em, spacing: 0.55em)
 
   // links e referências cruzadas
-  show link: set text(fill: acento)
+  show link: set text(fill: acento, hyphenate: false)
+  show link: it => if type(it.dest) == str { text(lang: "en", it) } else { it }
+  set table.cell(breakable: false)
+  // o Apêndice A abre página nova
+  show <sec-pendencias>: it => { pagebreak(weak: true); it }
   show ref: set text(fill: acento)
 
   // ------------------------------------------------ bloco de título (página 1)
@@ -196,10 +202,10 @@
       line(length: 100%, stroke: 1.4pt + acento)
     }
     #v(1.1em)
-    #text(font: sans, size: 19pt, weight: "semibold", fill: luma(15))[#title]
+    #block(width: 82%, text(font: sans, size: 19pt, weight: "semibold", fill: luma(15), hyphenate: false)[#title])
     #if subtitle != none {
       v(0.25em)
-      text(font: serif, size: 12pt, style: "italic", fill: luma(40), subtitle)
+      text(font: serif, size: 12pt, style: "italic", fill: luma(40), hyphenate: false, subtitle)
     }
     #v(0.9em)
     #if authors != none and authors != () {

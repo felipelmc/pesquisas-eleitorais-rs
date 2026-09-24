@@ -23,6 +23,7 @@ crossref:
       key: qdr
       reference-prefix: Quadro
       caption-prefix: Quadro
+      caption-location: top
       space-before-numbering: true
 format:
   typst:

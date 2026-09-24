@@ -33,7 +33,9 @@ function Div(el)
       return envolve("#resumo[", el.content, "]")
     elseif tem(el, "mensagens-principais") then
       return envolve("#mensagens[", el.content, "]")
-    elseif tem(el, "tabela-larga") or tem(el, "figura-larga") then
+    elseif tem(el, "figura-larga") then
+      return envolve("#figura-larga[", el.content, "]")
+    elseif tem(el, "tabela-larga") then
       return envolve("#largura-total[", el.content, "]")
     end
   elseif quarto.doc.is_format("html") then
@@ -59,8 +61,8 @@ function Code(el)
   if quarto.doc.is_format("typst") then
     local t = el.text:gsub('\\', '\\\\'):gsub('"', '\\"')
     -- ponto de quebra (U+200B) depois de / _ .
-    t = t:gsub("([/_%.])", "%1\u{200B}")
-    return pandoc.RawInline("typst", '#text(font: ("Fira Mono", "STIX Two Math"), size: 0.86em, "' .. t .. '")')
+    t = t:gsub("([/_%.%-])", "%1\u{200B}")
+    return pandoc.RawInline("typst", '#text(font: ("Fira Mono", "STIX Two Math"), size: 0.86em, lang: "en", hyphenate: false, "' .. t .. '")')
   end
   return nil
 end
