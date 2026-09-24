@@ -11,6 +11,7 @@ contagens, proporções, IC, p, g e certezas vêm de 05-decomposicao/, 04-qualid
 e 08-revisao-humana/. Junções só por chave, id_rs, id_estudo ou chave + construto_outcome.
 """
 import ast, csv, json, os, re, sys, collections
+from decimal import Decimal, ROUND_HALF_UP
 
 R = '.'
 def ler(p):
@@ -25,6 +26,16 @@ def num(x, d=2):
     if x is None or x == '':
         return 'NR'
     s = f'{float(x):,.{d}f}'
+    return s.replace(',', 'X').replace('.', ',').replace('X', '.')
+def num_dec(x, d=2):
+    # como num(), mas com arredondamento decimal meio para cima sobre repr(x): 0,975 vira 0,98 (num() arredonda o
+    # binário 0,97499... e dá 0,97). Usado nas proporções e nos IC (ic_fmt, prop_fmt); zero sai sem sinal.
+    if x is None or x == '':
+        return 'NR'
+    v = Decimal(repr(float(x))).quantize(Decimal(1).scaleb(-d), rounding=ROUND_HALF_UP)
+    if v.is_zero():
+        v = v.copy_abs()
+    s = f'{v:,.{d}f}'
     return s.replace(',', 'X').replace('.', ',').replace('X', '.')
 def inteiro(x):
     if x in (None, '', 'NA'):
@@ -48,7 +59,7 @@ def p_fmt(p):
 def ic_fmt(ic):
     if not ic:
         return 'NR'
-    return f'{num(ic[0])} a {num(ic[1])}'
+    return f'{num_dec(ic[0])} a {num_dec(ic[1])}'
 
 ROTULO = {
     'pesquisa_pre_eleitoral': 'pesquisa pré-eleitoral', 'agregador_projecao': 'agregador ou projeção',
@@ -92,7 +103,7 @@ def contagem(g, construto, celula):
 def prop_fmt(g):
     if g['proporcao_benefica'] is None:
         return 'NR'
-    return f"{num(g['proporcao_benefica'])} ({ic_fmt(g['ic_proporcao'])})"
+    return f"{num_dec(g['proporcao_benefica'])} ({ic_fmt(g['ic_proporcao'])})"
 def cit(chaves):
     return '; '.join(f'@{c}' for c in chaves)
 

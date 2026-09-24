@@ -119,6 +119,138 @@
   },
   "consultado_em": "2026-09-24"
  },
+ "10.1016/j.ejpoleco.2015.04.009": {
+  "ok": {
+   "DOI": "10.1016/j.ejpoleco.2015.04.009",
+   "type": "journal-article",
+   "title": [
+    "What motivates bandwagon voting behavior: Altruism or a desire to win?"
+   ],
+   "container-title": [
+    "European Journal of Political Economy"
+   ],
+   "volume": "40",
+   "issue": null,
+   "page": "224-241",
+   "article-number": null,
+   "publisher": "Elsevier BV",
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      12
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Rebecca B.",
+     "family": "Morton",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6435-1887",
+     "authenticated-orcid": false,
+     "given": "Kai",
+     "family": "Ou",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1016/j.ejpoleco.2025.102646": {
+  "ok": {
+   "DOI": "10.1016/j.ejpoleco.2025.102646",
+   "type": "journal-article",
+   "title": [
+    "Jumping on the bandwagon and off the Titanic: An experimental study of turnout in two-tier voting"
+   ],
+   "container-title": [
+    "European Journal of Political Economy"
+   ],
+   "volume": "86",
+   "issue": null,
+   "page": "102646",
+   "article-number": "102646",
+   "publisher": "Elsevier BV",
+   "issued": {
+    "date-parts": [
+     [
+      2025,
+      1
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Yoichi",
+     "family": "Hizen",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Kazuya",
+     "family": "Kikuchi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Yukio",
+     "family": "Koriyama",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-9639-2480",
+     "authenticated-orcid": false,
+     "given": "Takehito",
+     "family": "Masuda",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
  "10.1016/j.electstud.2023.102692": {
   "ok": {
    "DOI": "10.1016/j.electstud.2023.102692",
@@ -254,6 +386,58 @@
       {
        "vocabulary": "crossref",
        "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1016/j.geb.2025.02.009": {
+  "ok": {
+   "DOI": "10.1016/j.geb.2025.02.009",
+   "type": "journal-article",
+   "title": [
+    "An experimental study of prisoners' dilemma and stag hunt games played by teams of players"
+   ],
+   "container-title": [
+    "Games and Economic Behavior"
+   ],
+   "volume": "157",
+   "issue": null,
+   "page": "395-417",
+   "article-number": null,
+   "publisher": "Elsevier BV",
+   "issued": {
+    "date-parts": [
+     [
+      2026,
+      3
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jeongbin",
+     "family": "Kim",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Thomas R.",
+     "family": "Palfrey",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
       }
      ]
     }
@@ -504,6 +688,58 @@
     {
      "given": "Holger J.",
      "family": "Schünemann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1016/j.joep.2012.10.009": {
+  "ok": {
+   "DOI": "10.1016/j.joep.2012.10.009",
+   "type": "journal-article",
+   "title": [
+    "Social information and bandwagon behavior in voting: An economic experiment"
+   ],
+   "container-title": [
+    "Journal of Economic Psychology"
+   ],
+   "volume": "34",
+   "issue": null,
+   "page": "270-284",
+   "article-number": null,
+   "publisher": "Elsevier BV",
+   "issued": {
+    "date-parts": [
+     [
+      2013,
+      2
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Ivo",
+     "family": "Bischoff",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Henrik",
+     "family": "Egbert",
      "sequence": "additional",
      "affiliation": [],
      "role": [
@@ -3702,6 +3938,118 @@
   },
   "consultado_em": "2026-09-24"
  },
+ "10.1145/3106426.3106532": {
+  "ok": {
+   "DOI": "10.1145/3106426.3106532",
+   "type": "proceedings-article",
+   "title": [
+    "Haste makes waste"
+   ],
+   "subtitle": [
+    "a case to favour voting bots"
+   ],
+   "container-title": [
+    "Proceedings of the International Conference on Web Intelligence"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "419-425",
+   "article-number": null,
+   "publisher": "ACM",
+   "issued": {
+    "date-parts": [
+     [
+      2017,
+      8,
+      23
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "David Ben",
+     "family": "Yosef",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Ariel University, Israel"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Lihi",
+     "family": "Naamani-Dery",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Ariel University, Israel"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Svetlana",
+     "family": "Obraztsova",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Nanyang Technological University, Singapore"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Zinovi",
+     "family": "Rabinovich",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Nanyang Technological University, Singapore"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Marina",
+     "family": "Bannikova",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Universitat Autònoma de Barcelona, Spain"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
  "10.1177/1465116519837351": {
   "ok": {
    "DOI": "10.1177/1465116519837351",
@@ -4057,6 +4405,83 @@
   },
   "consultado_em": "2026-09-24"
  },
+ "10.1609/aaai.v35i6.16716": {
+  "ok": {
+   "DOI": "10.1609/aaai.v35i6.16716",
+   "type": "journal-article",
+   "title": [
+    "Modeling Voters in Multi-Winner Approval Voting"
+   ],
+   "container-title": [
+    "Proceedings of the AAAI Conference on Artificial Intelligence"
+   ],
+   "volume": "35",
+   "issue": "6",
+   "page": "5709-5716",
+   "article-number": null,
+   "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      18
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jaelle",
+     "family": "Scheuerman",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Jason",
+     "family": "Harman",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Nicholas",
+     "family": "Mattei",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "K. Brent",
+     "family": "Venable",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
  "10.18637/jss.v036.i03": {
   "ok": {
    "DOI": "10.18637/jss.v036.i03",
@@ -4089,6 +4514,86 @@
       {
        "vocabulary": "crossref",
        "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.22174/jcr.2018.55.4.216": {
+  "ok": {
+   "DOI": "10.22174/jcr.2018.55.4.216",
+   "type": "journal-article",
+   "title": [
+    "The Impacts of Perceived Effects of Polling News"
+   ],
+   "container-title": [
+    "Journal of Communication Research"
+   ],
+   "volume": "55",
+   "issue": "4",
+   "page": "216-251",
+   "article-number": null,
+   "publisher": "Institute of Communication Research",
+   "issued": {
+    "date-parts": [
+     [
+      2018,
+      11
+     ]
+    ]
+   },
+   "author": [
+    {
+     "family": "김현정",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.3389/fpos.2021.598771": {
+  "ok": {
+   "DOI": "10.3389/fpos.2021.598771",
+   "type": "journal-article",
+   "title": [
+    "How Polling Trends Influence Compensational Coalition-Voting"
+   ],
+   "container-title": [
+    "Frontiers in Political Science"
+   ],
+   "volume": "3",
+   "issue": null,
+   "page": null,
+   "article-number": "598771",
+   "publisher": "Frontiers Media SA",
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      2,
+      3
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Annika",
+     "family": "Fredén",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
       }
      ]
     }
@@ -4146,6 +4651,61 @@
        "name": "Center for Research in Experimental Economics and political Decision making (CREED),  Amsterdam School of Economics, Roetersstraat 11, Amsterdam 1018 WB, The Netherlands"
       }
      ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.36253/qoe-9561": {
+  "ok": {
+   "DOI": "10.36253/qoe-9561",
+   "type": "journal-article",
+   "title": [
+    "Uso delle euristiche nella scelta elettorale: un approccio basato sulla simulazione della decisione di voto"
+   ],
+   "container-title": [
+    "Quaderni dell Osservatorio elettorale QOE - IJES"
+   ],
+   "volume": "70",
+   "issue": "2",
+   "page": "7-30",
+   "article-number": null,
+   "publisher": "Firenze University Press",
+   "issued": {
+    "date-parts": [
+     [
+      2013,
+      12,
+      30
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Piergiorgio",
+     "family": "Corbetta",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0163-266X",
+     "authenticated-orcid": false,
+     "given": "Pasquale",
+     "family": "Colloca",
+     "sequence": "additional",
+     "affiliation": [],
      "role": [
       {
        "role": "author",
@@ -4331,6 +4891,84 @@
       {
        "vocabulary": "crossref",
        "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.65109/bwyg4163": {
+  "ok": {
+   "DOI": "10.65109/bwyg4163",
+   "type": "proceedings-article",
+   "title": [
+    "Heuristic Strategies in Uncertain Approval Voting Environments"
+   ],
+   "container-title": [
+    "International Joint Conference on Autonomous Agents and Multiagent Systems",
+    "Proceedings of the Third International Joint Conference on Autonomous Agents and Multiagent Systems - Volume 1"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "1993-1995",
+   "article-number": null,
+   "publisher": "IEEE Computer Society",
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      5
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jaelle",
+     "family": "Scheuerman",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Jason L.",
+     "family": "Harman",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Nicholas",
+     "family": "Mattei",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "K. Brent",
+     "family": "Venable",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
       }
      ]
     }

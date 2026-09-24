@@ -3614,5 +3614,386 @@
   "type": "article-journal",
   "volume": "11",
   "language": "en"
+ },
+ {
+  "DOI": "10.48550/arxiv.1905.12104",
+  "author": [
+   {
+    "family": "Scheuerman",
+    "given": "Jaelle"
+   },
+   {
+    "family": "Harman",
+    "given": "Jason L."
+   },
+   {
+    "family": "Mattei",
+    "given": "Nicholas"
+   },
+   {
+    "family": "Venable",
+    "given": "K. Brent"
+   }
+  ],
+  "id": "Scheuerman2019",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "title": "Heuristics in Multi-Winner Approval Voting",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.65109/bwyg4163",
+  "author": [
+   {
+    "family": "Scheuerman",
+    "given": "Jaelle"
+   },
+   {
+    "family": "Harman",
+    "given": "Jason L."
+   },
+   {
+    "family": "Mattei",
+    "given": "Nicholas"
+   },
+   {
+    "family": "Venable",
+    "given": "K. Brent"
+   }
+  ],
+  "container-title": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "id": "Scheuerman2020",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "title": "Heuristic Strategies in Uncertain Approval Voting Environments",
+  "type": "paper-conference",
+  "language": "en",
+  "page": "1993-1995"
+ },
+ {
+  "DOI": "10.1609/aaai.v35i6.16716",
+  "author": [
+   {
+    "family": "Scheuerman",
+    "given": "Jaelle"
+   },
+   {
+    "family": "Harman",
+    "given": "Jason"
+   },
+   {
+    "family": "Mattei",
+    "given": "Nicholas"
+   },
+   {
+    "family": "Venable",
+    "given": "K. Brent"
+   }
+  ],
+  "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "id": "Scheuerman2021",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "title": "Modeling Voters in Multi-Winner Approval Voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "35",
+  "issue": "6",
+  "page": "5709-5716"
+ },
+ {
+  "DOI": "10.1145/3106426.3106532",
+  "author": [
+   {
+    "family": "Yosef",
+    "given": "David Ben"
+   },
+   {
+    "family": "Naamani-Dery",
+    "given": "Lihi"
+   },
+   {
+    "family": "Obraztsova",
+    "given": "Svetlana"
+   },
+   {
+    "family": "Rabinovich",
+    "given": "Zinovi"
+   },
+   {
+    "family": "Bannikova",
+    "given": "Marina"
+   }
+  ],
+  "container-title": "Proceedings of the International Conference on Web Intelligence",
+  "id": "Yosef2017",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "title": "Haste makes waste: a case to favour voting bots",
+  "title-short": "Haste makes waste",
+  "type": "paper-conference",
+  "language": "en",
+  "page": "419-425"
+ },
+ {
+  "DOI": "10.1016/j.joep.2012.10.009",
+  "author": [
+   {
+    "family": "Bischoff",
+    "given": "Ivo"
+   },
+   {
+    "family": "Egbert",
+    "given": "Henrik"
+   }
+  ],
+  "container-title": "Journal of Economic Psychology",
+  "id": "Bischoff2012",
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "title": "Social information and bandwagon behavior in voting: An economic experiment",
+  "title-short": "Social information and bandwagon behavior in voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "34",
+  "page": "270-284"
+ },
+ {
+  "DOI": "10.1016/j.ejpoleco.2025.102646",
+  "author": [
+   {
+    "family": "Hizen",
+    "given": "Yoichi"
+   },
+   {
+    "family": "Kikuchi",
+    "given": "Kazuya"
+   },
+   {
+    "family": "Koriyama",
+    "given": "Yukio"
+   },
+   {
+    "family": "Masuda",
+    "given": "Takehito"
+   }
+  ],
+  "container-title": "European Journal of Political Economy",
+  "id": "Hizen2025",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "title": "Jumping on the bandwagon and off the Titanic: An experimental study of turnout in two-tier voting",
+  "title-short": "Jumping on the bandwagon and off the Titanic",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "86",
+  "page": "102646"
+ },
+ {
+  "DOI": "10.1016/j.ejpoleco.2015.04.009",
+  "author": [
+   {
+    "family": "Morton",
+    "given": "Rebecca B."
+   },
+   {
+    "family": "Ou",
+    "given": "Kai"
+   }
+  ],
+  "container-title": "European Journal of Political Economy",
+  "id": "Morton2015b",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "What motivates bandwagon voting behavior: Altruism or a desire to win?",
+  "title-short": "What motivates bandwagon voting behavior",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "40",
+  "page": "224-241"
+ },
+ {
+  "DOI": "10.31235/osf.io/dzntx_v1",
+  "author": [
+   {
+    "family": "Plaza",
+    "given": "Alejandro"
+   }
+  ],
+  "id": "Reveco2026",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "publisher": "SocArXiv",
+  "title": "Voting When You Already Know the Results: Electoral Information and Strategic Coordination in Peru’s 2026 Presidential Election",
+  "title-short": "Voting When You Already Know the Results",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.36253/qoe-9561",
+  "author": [
+   {
+    "family": "Corbetta",
+    "given": "Piergiorgio"
+   },
+   {
+    "family": "Colloca",
+    "given": "Pasquale"
+   }
+  ],
+  "container-title": "Quaderni dell’Osservatorio elettorale QOE - IJES",
+  "id": "Corbetta2013",
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "title": "Uso delle euristiche nella scelta elettorale: un approccio basato sulla simulazione della decisione di voto",
+  "title-short": "Uso delle euristiche nella scelta elettorale",
+  "type": "article-journal",
+  "language": "it",
+  "volume": "70",
+  "issue": "2",
+  "page": "7-30"
+ },
+ {
+  "DOI": "10.22174/jcr.2018.55.4.216",
+  "author": [
+   {
+    "family": "Kim",
+    "given": "Hyeon Jeong"
+   }
+  ],
+  "container-title": "Journal of Communication Research",
+  "id": "Kim2018b",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "title": "The Impacts of Perceived Effects of Polling News",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "55",
+  "issue": "4",
+  "page": "216-251"
+ },
+ {
+  "DOI": "10.1016/j.geb.2025.02.009",
+  "author": [
+   {
+    "family": "Kim",
+    "given": "Jeongbin"
+   },
+   {
+    "family": "Palfrey",
+    "given": "Thomas R."
+   }
+  ],
+  "container-title": "Games and Economic Behavior",
+  "id": "Kim2025a",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "title": "An experimental study of prisoners’ dilemma and stag hunt games played by teams of players",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "157",
+  "page": "395-417"
+ },
+ {
+  "DOI": "10.3389/fpos.2021.598771",
+  "author": [
+   {
+    "family": "Fredén",
+    "given": "Annika"
+   }
+  ],
+  "container-title": "Frontiers in Political Science",
+  "id": "Freden2021",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "title": "How Polling Trends Influence Compensational Coalition-Voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "3",
+  "page": "598771"
+ },
+ {
+  "URL": "https://hdl.handle.net/10016/23308",
+  "author": [
+   {
+    "family": "Mavridis",
+    "given": "Christos"
+   }
+  ],
+  "genre": "PhD thesis",
+  "id": "Mavridis2016a",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "publisher": "Universidad Carlos III de Madrid",
+  "title": "Essays in political economy",
+  "type": "thesis",
+  "language": "en"
  }
 ]

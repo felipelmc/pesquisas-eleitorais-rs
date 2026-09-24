@@ -7,8 +7,12 @@ Cada linha @@TABELA <nome>@@ do esqueleto vira o conteúdo da seção, lido dos 
   s2_atalhos         S2   atalhos A1 a A5 × recomendações de Garritty et al. (2024) × consequência provável, de
                           09-documento-final/insumos/garritty_2024.md, seção 4 (se o arquivo não existir: "em preparação")
   s3_emendas         S3   emendas, uma linha cada, da tabela "Resumo" de 00-protocolo/emendas.md, com a data e se foram
-                          decididas antes ou depois de ver os dados (pelo tipo da emenda)
-  s4_caracteristicas S4   09-documento-final/insumos/tabelas/caracteristicas.md
+                          decididas antes ou depois de ver os dados (pelo tipo da emenda; a Emenda 3 tem texto próprio,
+                          porque, além da correção de registro, trocou o árbitro do risco de viés)
+  s4_caracteristicas S4   09-documento-final/insumos/tabelas/caracteristicas.md e, na segunda tabela (tbl-s4-excluidos),
+                          os excluídos no texto completo que poderiam parecer elegíveis (PRISMA 16b): as chaves de
+                          09-documento-final/referencias_excluidos.bib, com o critério de 03-textos/elegibilidade_tc_final.csv
+                          e quem decidiu, de 00-protocolo/correcao_atribuicao.csv
   s5_rob             S5   insumos/tabelas/rob2.md, robins.md e epoc.md; o EPOC recodificado em B/A/I/n.a., com legenda
   s6_efeitos         S6   insumos/tabelas/individuais.md
   s7_fora            S7   insumos/tabelas/fora.md
@@ -30,6 +34,7 @@ USO (de qualquer pasta):  python3 09-documento-final/montar_suplemento.py
 Render (só este arquivo):  cd 09-documento-final && TYPST_IGNORE_SYSTEM_FONTS=true TYPST_IGNORE_EMBEDDED_FONTS=true \\
                            quarto render suplemento.qmd --to typst
 """
+import csv
 import importlib.util
 import json
 import re
@@ -216,6 +221,14 @@ ANTES_DEPOIS = {"A": "antes de ver os dados dos estudos (contingência prevista 
                 "E": "correção de registro ou de omissão, sem nova decisão de método"}
 
 
+# Emenda 3: 00-protocolo/emendas.md, seção da Emenda 3 (codebooks copiados e troca do árbitro previsto no protocolo por
+# decisão de custo do autor) e linha do Resumo ("extração e RoB (G7), antes de qualquer avaliação")
+EMENDA3_OBJETO = ("codebooks de risco de viés copiados para o protocolo; troca do árbitro do RoB (decisão de custo do "
+                  "autor, antes de qualquer avaliação)")
+EMENDA3_QUANDO = ("correção de registro (codebooks) e decisão de método (árbitro), ambas antes de qualquer avaliação de "
+                  "risco de viés")
+
+
 def s3_emendas():
     txt = mrf.ler(R / "00-protocolo/emendas.md")
     resumo = txt.split("## Resumo", 1)[1].split("\n## ", 1)[0]
@@ -232,6 +245,9 @@ def s3_emendas():
         quando = "; ".join(ANTES_DEPOIS[t] for t in tipos)
         if idd == "Emenda 6":
             quando = "6a: " + ANTES_DEPOIS["E"] + "; 6b: " + ANTES_DEPOIS["C"]
+        if idd == "Emenda 3":  # tipo E, mas a emenda também registrou uma decisão de método do autor
+            objeto = EMENDA3_OBJETO
+            quando = EMENDA3_QUANDO
         linhas.append([idd, f"{d}/{m_}/{a}", sem_caminhos(objeto), " e ".join(f"{t} ({TIPO_EMENDA[t]})" for t in tipos),
                        sem_caminhos(etapa), quando, sem_caminhos(reexec)])
     if not linhas:
@@ -255,7 +271,51 @@ def s4_caracteristicas():
               "parênteses. Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por "
               "resultado (ferramenta: julgamento), rascunho de IA não validado; \"não avaliado\" quando o estudo não "
               "tem efeito principal.", "tbl-s4-caracteristicas", [15, 5, 15, 10, 13, 9, 7, 9, 17])
-    return envolver("landscape", t)
+    return envolver("landscape", t) + "\n\n" + s4_excluidos()
+
+
+CRITERIO = {  # critérios de elegibilidade do protocolo (seção 3; 00-protocolo/codebook_elegibilidade.csv)
+    "c1_populacao_contexto": "C1: população ou contexto fora do escopo",
+    "c2_intervencao_estudada": "C2: pesquisa não é a exposição estudada",
+    "c3_desfecho": "C3: sem desfecho de voto ou comparecimento",
+    "c4_desenho_elegivel": "C4: desenho não elegível",
+    "c5_estudo_primario": "C5: não é estudo primário",
+    "c6_nao_retratado": "C6: retratado",
+}
+
+
+def s4_excluidos():
+    """Excluídos no texto completo que poderiam parecer elegíveis (PRISMA 16b), um por linha: as chaves de
+    referencias_excluidos.bib (as citadas na seção 3.1 do artigo), o critério que falhou (elegibilidade_tc_final.csv)
+    e quem decidiu (correcao_atribuicao.csv: autor no caso limítrofe; IA estendendo regra do autor; ou IA)."""
+    chaves = re.findall(r"(?m)^@\w+\s*\{\s*([^,\s]+)\s*,", mrf.ler(D / "referencias_excluidos.bib"))
+    if not chaves:
+        raise SystemExit("ERRO: referencias_excluidos.bib sem entradas")
+    elig = {r["chave"]: r for r in csv.DictReader(open(R / "03-textos/elegibilidade_tc_final.csv", encoding="utf-8-sig"))}
+    quem = {}
+    for r in csv.DictReader(open(R / "00-protocolo/correcao_atribuicao.csv", encoding="utf-8-sig")):
+        if r["etapa"] == "07_textos_elegibilidade" and r["evento"] == "decisao_override":
+            quem[r["objeto"].split()[0]] = (r["classificacao"], r["ator_real"])
+    linhas = []
+    for k in chaves:
+        e = elig.get(k)
+        if e is None or e["decisao"] != "excluir" or e["criterio_falhou"] not in CRITERIO:
+            raise SystemExit(f"ERRO: {k} não está como exclusão com critério conhecido em elegibilidade_tc_final.csv")
+        cls, ator = quem.get(e["id_rs"], ("", ""))
+        if (cls, ator) == ("mantida", "humano"):
+            decisor = "autor (caso limítrofe)"
+        elif ator.startswith("ia_"):
+            decisor = "IA, estendendo regra do autor"
+        elif not ator:
+            decisor = "IA"
+        else:
+            raise SystemExit(f"ERRO: atribuição inesperada de {k} ({e['id_rs']}): {cls} / {ator}")
+        linhas.append((e["criterio_falhou"], k.lower(), [f"@{k}", CRITERIO[e["criterio_falhou"]], decisor]))
+    linhas = [l for _, _, l in sorted(linhas)]
+    return bloco([mrf.pipe(["Estudo", "Motivo da exclusão (critério do protocolo)", "Quem decidiu"], linhas)],
+                 "Estudos excluídos na leitura do texto completo que poderiam parecer elegíveis (PRISMA 16b), com o "
+                 "critério de elegibilidade que não atenderam. As exclusões decididas pela IA aguardam conferência "
+                 "humana (P041).", "tbl-s4-excluidos", [30, 45, 25])
 
 
 def recodificar_epoc(linhas):

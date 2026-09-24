@@ -5,8 +5,8 @@ USO (de qualquer pasta; o script muda para a raiz do projeto):
 
 Só lê arquivos do projeto. Grava apenas 09-documento-final/vitrine/build/vitrine.json.
 Nenhum número é digitado aqui: contagens, proporções, IC, p, g e certezas vêm dos arquivos de síntese, e a
-formatação reusa as funções de 07-relatorio/gerar_tabelas_relatorio.py (num, g_fmt, p_fmt, ic_fmt, rot, dir_rot,
-contagem, pais_fmt, desenho_cod, fam_cod, rebaix). O módulo lê dados/ e o master na importação; nada disso sai no
+formatação reusa as funções de 07-relatorio/gerar_tabelas_relatorio.py (num, num_dec, g_fmt, p_fmt, ic_fmt, rot,
+dir_rot, contagem, pais_fmt, desenho_cod, fam_cod, rebaix). O módulo lê dados/ e o master na importação; nada disso sai no
 JSON, e a lista de campos permitidos (SCHEMA) barra qualquer chave que não esteja prevista.
 
 Asserts (a exportação falha se algum quebrar):
@@ -36,7 +36,7 @@ DOCFINAL = RAIZ / "09-documento-final"
 SAIDA = VITRINE / "build" / "vitrine.json"
 
 BIBS = ["07-relatorio/references.bib", "09-documento-final/referencias_contexto.bib",
-        "09-documento-final/referencias_metodo.bib"]
+        "09-documento-final/referencias_metodo.bib", "09-documento-final/referencias_excluidos.bib"]
 CSL = "09-documento-final/revista/american-political-science-association.csl"
 TERMOS_EN = {"bandwagon", "underdog", "momentum", "survey", "surveys", "online", "post hoc", "leave-one-out",
              "rolling cross-section", "forest plot", "abstract", "working paper"}
@@ -409,7 +409,8 @@ def main():
             "pos_rot": md_en(pos), "neg_rot": md_en(neg),
             "contagem": md_en(gt.contagem(g, construto, alvo)),
             "x_de_y": (f"{c['n_beneficos']} de {n_dir}" if n_dir else None),
-            "proporcao": c["proporcao"], "proporcao_fmt": num(c["proporcao"]) if c["proporcao"] is not None else None,
+            "proporcao": c["proporcao"],  # proporção e IC com arredondamento decimal meio para cima (0,975 -> 0,98)
+            "proporcao_fmt": gt.num_dec(c["proporcao"]) if c["proporcao"] is not None else None,
             "ic": c["ic_proporcao"], "ic_fmt": ic_fmt(c["ic_proporcao"]) if c["ic_proporcao"] else None,
             "p": c["p_sinal"], "p_fmt": p_fmt(c["p_sinal"]) if c["p_sinal"] is not None else None,
             "delta_fmt": num(c["delta"], 4 if c["delta"] and round(c["delta"], 3) != c["delta"] else 3),

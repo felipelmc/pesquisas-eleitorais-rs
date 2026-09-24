@@ -13,7 +13,7 @@
 | Só contexto real | apoio (*momentum*) | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
 | Só contexto real | apoio (*momentum*) | randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
 | Só contexto real | mobilização (mobilização) | não randomizado | @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Grillo2024c; @Chatterjee2019a | 2 mobilização; 2 desmobilização; 1 misto | 0,50 (0,07 a 0,93) | 1 | sem GRADE próprio |
-| Só contexto real | mobilização (mobilização) | randomizado | @Erlich2023; @Gerber2020a | 0 mobilização; 1 desmobilização; 1 nulo | 0,00 (0,00 a 0,97) | 1 | sem GRADE próprio |
+| Só contexto real | mobilização (mobilização) | randomizado | @Erlich2023; @Gerber2020a | 0 mobilização; 1 desmobilização; 1 nulo | 0,00 (0,00 a 0,98) | 1 | sem GRADE próprio |
 | Sem dados anteriores a 2010 | apoio (principal) | não randomizado | @Araujo2021a; @Feltovich2022 | 2 *bandwagon*; 0 *underdog* | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
 | Sem dados anteriores a 2010 | apoio (principal) | randomizado | @Agranov2017a; @Tal2015a; @Farjam2020a; @Lammers2022a; @Fichnova2015a; @Timotei2013a; @Witsman2016a; @Boukouras2020a | 8 *bandwagon*; 0 *underdog* | 1,00 (0,63 a 1,00) | 0,008 | sem GRADE próprio |
 | Sem dados anteriores a 2010 | apoio (viabilidade) | randomizado | @Cornejo2023a; @Schlegel2023; @Freden2024a | 2 viabilidade; 0 contra; 1 misto | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |

@@ -2,11 +2,9 @@ caixa,ramo,fase,linha,texto,n,caminho_json,estilo
 b_ident,bases,identificacao,1,Registros identificados em bases (n = 1.767),1767,bases.identificados.bases,titulo
 b_ident,bases,identificacao,2,OpenAlex (n = 1.687),1687,bases.identificados.por_fonte.openalex,normal
 b_ident,bases,identificacao,3,BDTD (n = 80),80,bases.identificados.por_fonte.bdtd,normal
-b_ident,bases,identificacao,4,registros de estudos (n = 0),0,bases.identificados.registros_estudos,normal
 b_removidos,bases,identificacao,1,Removidos por script antes da triagem (sem IA):,,,titulo
 b_removidos,bases,identificacao,2,duplicatas (n = 46),46,bases.removidos_antes_triagem.duplicatas,normal
 b_removidos,bases,identificacao,3,"publicados antes de 2010, filtro de ano (n = 148)",148,bases.removidos_antes_triagem.automacao_por_filtro.ano,normal
-b_removidos,bases,identificacao,4,outros motivos (n = 0),0,bases.removidos_antes_triagem.outros_motivos,normal
 b_triados,bases,triagem,1,Títulos e resumos triados por IA (n = 1.573),1573,bases.triados,titulo
 b_excl_triagem,bases,triagem,1,Registros excluídos na triagem por IA (n = 1.314),1314,bases.excluidos_triagem,titulo
 b_buscados,bases,triagem,1,Relatos buscados para recuperação (n = 259),259,bases.buscados,titulo
@@ -19,12 +17,9 @@ b_excl_tc,bases,triagem,4,população ou contexto fora do escopo (n = 8),8,bases
 b_excl_tc,bases,triagem,5,sem desfecho de voto ou comparecimento (n = 2),2,bases.excluidos_elegibilidade.motivos.c3_desfecho,normal
 b_seta_incl,bases,inclusao,1,42 relatos,42,bases.incluidos_relatos,seta
 o_ident,outros_metodos,identificacao,1,Registros identificados por busca de citações (n = 1.706),1706,outros_metodos.identificados.busca_citacoes,titulo
-o_ident,outros_metodos,identificacao,2,sites e organizações (n = 0),0,outros_metodos.identificados.sites_organizacoes,normal
-o_ident,outros_metodos,identificacao,3,outros (n = 0),0,outros_metodos.identificados.outros,normal
 o_removidos,outros_metodos,identificacao,1,Removidos por script antes da triagem (sem IA):,,,titulo
 o_removidos,outros_metodos,identificacao,2,duplicatas ou já identificados nas bases (n = 4),4,outros_metodos.removidos_antes_triagem.duplicatas,normal
 o_removidos,outros_metodos,identificacao,3,"publicados antes de 2010, filtro de ano (n = 648)",648,outros_metodos.removidos_antes_triagem.automacao_por_filtro.ano,normal
-o_removidos,outros_metodos,identificacao,4,outros motivos (n = 0),0,outros_metodos.removidos_antes_triagem.outros_motivos,normal
 o_triados,outros_metodos,triagem,1,Títulos e resumos triados por IA (n = 1.054),1054,outros_metodos.triados,titulo
 o_excl_triagem,outros_metodos,triagem,1,Registros excluídos na triagem por IA (n = 787),787,outros_metodos.excluidos_triagem,titulo
 o_buscados,outros_metodos,triagem,1,Relatos buscados para recuperação (n = 267),267,outros_metodos.buscados,titulo

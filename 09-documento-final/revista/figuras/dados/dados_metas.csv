@@ -1,13 +1,13 @@
-painel,painel_titulo,ordem,tipo,chave,id_efeito,rotulo_extra,estimativa,ep,ic_inf,ic_sup,delta,k_estudos,k_efeitos
-a,Pesquisa × sem pesquisa,1,efeito,Agranov2017a,Agranov2017a-E13,,0.697140645563968,0.258649283698566,0.19019736488769579,1.2040839262402403,0.0573,3,4
-a,Pesquisa × sem pesquisa,2,efeito,Timotei2013a,Timotei2013a-E01,,0.133839462898274,0.345060147149819,-0.5424659980154626,0.8101449238120105,0.0573,3,4
-a,Pesquisa × sem pesquisa,3,efeito,Tyszler2015,Tyszler2015-E01,opção intermediária de valor baixo,0.302429775671195,1.0353026612991,-1.7267261535735114,2.3315857049159012,0.0573,3,4
-a,Pesquisa × sem pesquisa,4,efeito,Tyszler2015,Tyszler2015-E02,opção intermediária de valor alto,1.13671747597497,1.1568252729335,-1.130618395380408,3.4040533473303483,0.0573,3,4
-a,Pesquisa × sem pesquisa,5,combinado,,,,0.479309452588661,0.248176921545491,-1.51007056107242,2.46868946624975,0.0573,3,4
-b,Mesmo candidato à frente × atrás,1,efeito,Fichnova2015a,Fichnova2015a-E10,,0.891322112379345,0.45228599251097,0.004857856345891198,1.7777863684127988,0.044,3,6
-b,Mesmo candidato à frente × atrás,2,efeito,Lammers2022a,Lammers2022a-E06,"estudo 2a, vinheta heurística",1.24503625665025,0.217115454154804,0.819497786019777,1.670574727280723,0.044,3,6
-b,Mesmo candidato à frente × atrás,3,efeito,Lammers2022a,Lammers2022a-E07,"estudo 2a, vinheta de igualdade",-0.385896347793447,0.200332533521592,-0.7785408984274305,0.006748202840536399,0.044,3,6
-b,Mesmo candidato à frente × atrás,4,efeito,Lammers2022a,Lammers2022a-E08,"estudo 2b, vinheta heurística",1.02533583680308,0.211293899396413,0.6112074038330811,1.439464269773079,0.044,3,6
-b,Mesmo candidato à frente × atrás,5,efeito,Lammers2022a,Lammers2022a-E09,"estudo 2b, vinheta de igualdade",0.0601781917732245,0.198511085596759,-0.32889638652837105,0.44925277007482,0.044,3,6
-b,Mesmo candidato à frente × atrás,6,efeito,Witsman2016a,Witsman2016a-E01,,0.900164106815191,0.240942941795629,0.42792461856662767,1.3724035950637543,0.044,3,6
-b,Mesmo candidato à frente × atrás,7,combinado,,,,0.617582690154998,0.175145590647994,-0.480608814329287,1.71577419463928,0.044,3,6
+painel,painel_titulo,ordem,tipo,chave,id_efeito,rotulo_extra,estimativa,ep,ic_inf,ic_sup,rotulo_valor,rob_geral,delta,k_estudos,k_efeitos
+a,Pesquisa × sem pesquisa,1,efeito,Agranov2017a,Agranov2017a-E13,,0.697140645563968,0.258649283698566,0.19019736488769579,1.2040839262402403,"0,70 (0,19 a 1,20)",algumas_preocupacoes,0.0573,3,4
+a,Pesquisa × sem pesquisa,2,efeito,Timotei2013a,Timotei2013a-E01,,0.133839462898274,0.345060147149819,-0.5424659980154626,0.8101449238120105,"0,13 (−0,54 a 0,81)",algumas_preocupacoes,0.0573,3,4
+a,Pesquisa × sem pesquisa,3,efeito,Tyszler2015,Tyszler2015-E01,opção intermediária de valor baixo,0.302429775671195,1.0353026612991,-1.7267261535735114,2.3315857049159012,"0,30 (−1,73 a 2,33)",algumas_preocupacoes,0.0573,3,4
+a,Pesquisa × sem pesquisa,4,efeito,Tyszler2015,Tyszler2015-E02,opção intermediária de valor alto,1.13671747597497,1.1568252729335,-1.130618395380408,3.4040533473303483,"1,14 (−1,13 a 3,40)",algumas_preocupacoes,0.0573,3,4
+a,Pesquisa × sem pesquisa,5,combinado,,,,0.479309452588661,0.248176921545491,-1.51007056107242,2.46868946624975,"0,48 (−1,51 a 2,47)",,0.0573,3,4
+b,Mesmo candidato à frente × atrás,1,efeito,Lammers2022a,Lammers2022a-E09,"estudo 2b, vinheta de igualdade",0.0601781917732245,0.198511085596759,-0.32889638652837105,0.44925277007482,"0,06 (−0,33 a 0,45)",alto,0.044,3,6
+b,Mesmo candidato à frente × atrás,2,efeito,Lammers2022a,Lammers2022a-E07,"estudo 2a, vinheta de igualdade",-0.385896347793447,0.200332533521592,-0.7785408984274305,0.006748202840536399,"−0,39 (−0,78 a 0,01)",alto,0.044,3,6
+b,Mesmo candidato à frente × atrás,3,efeito,Lammers2022a,Lammers2022a-E08,"estudo 2b, vinheta heurística",1.02533583680308,0.211293899396413,0.6112074038330811,1.439464269773079,"1,03 (0,61 a 1,44)",alto,0.044,3,6
+b,Mesmo candidato à frente × atrás,4,efeito,Lammers2022a,Lammers2022a-E06,"estudo 2a, vinheta heurística",1.24503625665025,0.217115454154804,0.819497786019777,1.670574727280723,"1,25 (0,82 a 1,67)",alto,0.044,3,6
+b,Mesmo candidato à frente × atrás,5,efeito,Witsman2016a,Witsman2016a-E01,,0.900164106815191,0.240942941795629,0.42792461856662767,1.3724035950637543,"0,90 (0,43 a 1,37)",alto,0.044,3,6
+b,Mesmo candidato à frente × atrás,6,efeito,Fichnova2015a,Fichnova2015a-E10,,0.891322112379345,0.45228599251097,0.004857856345891198,1.7777863684127988,"0,89 (0,00 a 1,78)",alto,0.044,3,6
+b,Mesmo candidato à frente × atrás,7,combinado,,,,0.617582690154998,0.175145590647994,-0.480608814329287,1.71577419463928,"0,62 (−0,48 a 1,72)",,0.044,3,6

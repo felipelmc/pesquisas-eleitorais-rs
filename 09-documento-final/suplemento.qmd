@@ -2,6 +2,10 @@
 title: "Material suplementar"
 subtitle: "Pesquisas eleitorais publicadas mudam o voto? Rascunho de revisão sistemática rápida, conduzida por agentes de IA e não validada, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
 date: 2026-09-24
+keywords:
+  - pesquisas eleitorais
+  - material suplementar
+  - revisão sistemática rápida
 metadata-files: [revista/_revista.yml]
 bibliography: revista/referencias.json
 number-sections: false
@@ -134,7 +138,7 @@ Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, c
 | E002 | 19/09/2026 | seção 3, estratégia B01 → B05 | A (contingência prevista no protocolo) | após a busca, antes da triagem | antes de ver os dados dos estudos (contingência prevista no protocolo) | re-deduplicação e recall |
 | Emenda 1 | 20/09/2026 | ampliação do critério C2 | C (emenda depois de ver dados) | elegibilidade, ciclo 2 | depois de ver os dados | não (afeta só Araujo2021/2021a) |
 | Emenda 2 | 20/09/2026 | redefinição de três variáveis do codebook de extração (b2) | C (emenda depois de ver dados) | piloto de extração (G6) | depois de ver os dados | não (piloto não repetido; recodificação nos 3 textos do piloto na rodada completa) |
-| Emenda 3 | 23/09/2026 | codebooks de risco de viés copiados para o protocolo | E (correção de erro ou incoerência) | extração e RoB (G7), antes de qualquer avaliação | correção de registro ou de omissão, sem nova decisão de método | não |
+| Emenda 3 | 23/09/2026 | codebooks de risco de viés copiados para o protocolo; troca do árbitro do RoB (decisão de custo do autor, antes de qualquer avaliação) | E (correção de erro ou incoerência) | extração e RoB (G7), antes de qualquer avaliação | correção de registro (codebooks) e decisão de método (árbitro), ambas antes de qualquer avaliação de risco de viés | não |
 | Emenda 4 | 23/09/2026 | convenções de síntese decididas na etapa 9 (G7) | C (emenda depois de ver dados) | depois da extração, antes de qualquer análise de efeito | depois de ver os dados | não (4d substituída pela Emenda 6a) |
 | Emenda 5 | 23/09/2026 | correções da síntese após o revisor metodológico do G8 | C (emenda depois de ver dados) | depois da primeira síntese (G8) | depois de ver os dados | SWiM, meta exploratória e GRADE refeitos |
 | Emenda 6 | 23/09/2026 | correção de atribuição humana e triagem complementar dos registros sem resumo | E (correção de erro ou incoerência) e C (emenda depois de ver dados) | depois do G9 | 6a: correção de registro ou de omissão, sem nova decisão de método; 6b: depois de ver os dados | triagem complementar de 336 registros; texto completo dos que seguirem; síntese e relato refeitos |
@@ -147,7 +151,7 @@ Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, c
 
 # S4 Características dos estudos incluídos {#s4-caracteristicas .unnumbered}
 
-Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1).
+Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1). A segunda tabela lista os estudos excluídos na leitura do texto completo que poderiam parecer elegíveis, com o motivo de cada exclusão.
 
 | Estudo (relatos adicionais) | Ano | Desenho | Exposição | País (região) | Eleição | Contexto | Construto | Risco de viés geral |
 |---|---|---|---|---|---|---|---|---|
@@ -196,6 +200,24 @@ Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses
 : Características dos estudos incluídos, um por linha, com os relatos adicionais do mesmo estudo entre parênteses. Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por resultado (ferramenta: julgamento), rascunho de IA não validado; "não avaliado" quando o estudo não tem efeito principal. {#tbl-s4-caracteristicas tbl-colwidths="[15,5,15,10,13,9,7,9,17]"}
 
 :::
+
+| Estudo | Motivo da exclusão (critério do protocolo) | Quem decidiu |
+|---|---|---|
+| @Kim2025a | C1: população ou contexto fora do escopo | autor (caso limítrofe) |
+| @Bischoff2012 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor |
+| @Corbetta2013 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor |
+| @Hizen2025 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor |
+| @Morton2015b | C2: pesquisa não é a exposição estudada | IA |
+| @Reveco2026 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
+| @Scheuerman2019 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
+| @Scheuerman2020 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
+| @Scheuerman2021 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
+| @Yosef2017 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
+| @Kim2018b | C3: sem desfecho de voto ou comparecimento | autor (caso limítrofe) |
+| @Freden2021 | C4: desenho não elegível | IA |
+| @Mavridis2016a | C4: desenho não elegível | autor (caso limítrofe) |
+
+: Estudos excluídos na leitura do texto completo que poderiam parecer elegíveis (PRISMA 16b), com o critério de elegibilidade que não atenderam. As exclusões decididas pela IA aguardam conferência humana (P041). {#tbl-s4-excluidos tbl-colwidths="[30,45,25]"}
 
 ::: {.landscape}
 
@@ -396,7 +418,7 @@ O agrupamento amplo junta formatos de exposição e comparadores que o protocolo
 | Só contexto real | apoio (*momentum*) | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
 | Só contexto real | apoio (*momentum*) | randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
 | Só contexto real | mobilização (mobilização) | não randomizado | @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Grillo2024c; @Chatterjee2019a | 2 mobilização; 2 desmobilização; 1 misto | 0,50 (0,07 a 0,93) | 1 | sem GRADE próprio |
-| Só contexto real | mobilização (mobilização) | randomizado | @Erlich2023; @Gerber2020a | 0 mobilização; 1 desmobilização; 1 nulo | 0,00 (0,00 a 0,97) | 1 | sem GRADE próprio |
+| Só contexto real | mobilização (mobilização) | randomizado | @Erlich2023; @Gerber2020a | 0 mobilização; 1 desmobilização; 1 nulo | 0,00 (0,00 a 0,98) | 1 | sem GRADE próprio |
 | Sem dados anteriores a 2010 | apoio (principal) | não randomizado | @Araujo2021a; @Feltovich2022 | 2 *bandwagon*; 0 *underdog* | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
 | Sem dados anteriores a 2010 | apoio (principal) | randomizado | @Agranov2017a; @Tal2015a; @Farjam2020a; @Lammers2022a; @Fichnova2015a; @Timotei2013a; @Witsman2016a; @Boukouras2020a | 8 *bandwagon*; 0 *underdog* | 1,00 (0,63 a 1,00) | 0,008 | sem GRADE próprio |
 | Sem dados anteriores a 2010 | apoio (viabilidade) | randomizado | @Cornejo2023a; @Schlegel2023; @Freden2024a | 2 viabilidade; 0 contra; 1 misto | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |

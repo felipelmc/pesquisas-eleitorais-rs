@@ -7,10 +7,14 @@ Checagens
   (i)   contagens dos dados_*.csv iguais às da origem:
           células       x celulas.json e swim_principal/swim_resumo.json
           direção       x swim_principal e swim_sens_com_excluidos_amplo (tabelas/swim_direcao.csv) e celulas.json
-          PRISMA        x 07-relatorio/prisma_contagens.json (e cada n desenhado no SVG)
+          PRISMA        x 07-relatorio/prisma_contagens.json (e cada n desenhado no SVG); contagem do JSON fora da
+                        figura só se for 0 (caixa que não se aplica); os casos limítrofes da legenda (n, inclusões e
+                        exclusões) x 00-protocolo/correcao_atribuicao.csv e rs_log.jsonl
           risco de viés x 04-qualidade/rob_*_consenso.csv e rob_geral.csv
           realismo      x tabelas T9 e T14 impressas por insumos/contagens_mecanismos_moderadores.py
-          metas         x meta_entrada_*.csv e meta_*/meta_resumo.json
+          metas         x meta_entrada_*.csv e meta_*/meta_resumo.json; efeitos em ordem de erro-padrão crescente;
+                        risco de viés de cada efeito x 04-qualidade/rob_geral.csv e a frase da legenda sobre ele;
+                        rótulo "g (IC)" com arredondamento decimal meio para cima e presente no SVG
   (ii)  texto dos SVG sem termo proibido (benéfic, danos, Neutro, "sem efeito", significativ, travessão) nem
         número com ponto decimal (ponto só como separador de milhar: 1.767); sem espaço inicial ou final em
         <text> (o Typst o descarta e estica o resto); só a família Fira Sans; corpo mínimo de 6,5 pt; PNG a
@@ -26,6 +30,7 @@ import json
 import re
 import subprocess
 import sys
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 sys.dont_write_bytecode = True  # não deixa __pycache__ nas pastas dos módulos importados por caminho
@@ -163,7 +168,30 @@ def valor_json(obj, caminho):
     return obj
 
 
-def conf_prisma(textos_svg):
+def casos_limitrofes():
+    """Casos limítrofes do texto completo decididos pelo autor: linhas da etapa 07 mantidas como humanas em
+    00-protocolo/correcao_atribuicao.csv, conferidas no rs_log.jsonl (evento decisao_override de ator humano na mesma
+    seq). Conta registros distintos (a linha de teste repete a decisão de outra). Devolve (total, inclusões, exclusões)."""
+    log = {}
+    for l in open(R / "rs_log.jsonl", encoding="utf-8"):
+        e = json.loads(l)
+        log[e.get("seq")] = e
+    dec = {}
+    for r in ler_csv(R / "00-protocolo/correcao_atribuicao.csv"):
+        if (r["etapa"], r["classificacao"], r["ator_real"]) != ("07_textos_elegibilidade", "mantida", "humano"):
+            continue
+        e = log.get(int(r["seq"]))
+        if not e or e.get("evento") != "decisao_override" or (e.get("ator") or {}).get("tipo") != "humano":
+            erro(f"PRISMA: seq {r['seq']} de correcao_atribuicao.csv não é decisão humana no rs_log.jsonl")
+            continue
+        for o in e["dados"]["overrides"]:
+            if o["rodada"] != "tc" or dec.get(o["id_rs"], o["decisao"]) != o["decisao"]:
+                erro(f"PRISMA: override {o} fora do texto completo ou em conflito com outro do mesmo registro")
+            dec[o["id_rs"]] = o["decisao"]
+    return len(dec), sum(d == "incluir" for d in dec.values()), sum(d == "excluir" for d in dec.values())
+
+
+def conf_prisma(textos_svg, legenda=""):
     pj = ler_json("07-relatorio/prisma_contagens.json")
     d = ler_csv(DADOS / "dados_prisma.csv")
     usados = set()
@@ -194,9 +222,15 @@ def conf_prisma(textos_svg):
         if "por_fonte" in b["identificados"]:
             obrig += [f"{ramo}.identificados.por_fonte.{k}" for k in b["identificados"]["por_fonte"]]
     obrig += ["incluidos.estudos", "incluidos.relatos"]
-    faltam = [c for c in obrig if c not in usados]
+    faltam = [c for c in obrig if c not in usados and valor_json(pj, c) != 0]
     if faltam:
         erro(f"PRISMA: contagens do JSON que a figura não desenha: {faltam}")
+    if "(n = 0)" in textos_svg["prisma"]:
+        erro("PRISMA: caixa ou item com n = 0 desenhado (deveria ser omitido)")
+    n, ni, ne = casos_limitrofes()
+    frase = f"exceto {n} casos limítrofes decididos pelo autor ({ni} inclusões e {ne} exclusões)"
+    if frase not in re.sub(r"\s+", " ", legenda):
+        erro(f"PRISMA: a legenda não traz '{frase}' (contagem de correcao_atribuicao.csv e rs_log.jsonl)")
     for ramo in ("bases", "outros_metodos"):
         b = pj[ramo]
         if b["removidos_antes_triagem"]["automacao"] != sum(b["removidos_antes_triagem"]["automacao_por_filtro"].values()):
@@ -262,7 +296,20 @@ def conf_realismo():
             erro(f"realismo {tab}: categorias no CSV que não estão na tabela: {extra}")
 
 
-def conf_metas():
+ROB_GERAL = {(r["chave"], r["construto_outcome"]): r["rob_geral"] for r in ler_csv(R / "04-qualidade/rob_geral.csv")}
+ROB_LEGENDA = {"baixo": "risco baixo", "algumas_preocupacoes": "algumas preocupações", "alto": "risco alto",
+               "critico": "risco crítico"}
+
+
+def dec_br(x, casas=2):
+    d = Decimal(repr(float(x))).quantize(Decimal(1).scaleb(-casas), rounding=ROUND_HALF_UP)
+    if d.is_zero():
+        d = d.copy_abs()
+    return f"{d:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".").replace("-", "\u2212")
+
+
+def conf_metas(textos_svg=None, legenda=""):
+    legenda = re.sub(r"\s+", " ", legenda)
     d = ler_csv(DADOS / "dados_metas.csv")
     for painel, f_ent, f_res in (("a", "06-analise/meta_entrada_exploratoria.csv", "06-analise/meta_exploratoria/meta_resumo.json"),
                                  ("b", "06-analise/meta_entrada_mesmo_candidato.csv", "06-analise/meta_mesmo_candidato/meta_resumo.json")):
@@ -279,6 +326,24 @@ def conf_metas():
                 erro(f"metas {painel}: {r['id_efeito']} difere da entrada")
             if e and not quase(float(r["ic_sup"]) - float(r["ic_inf"]), 2 * 1.959963984540054 * float(e["sei"]), 1e-9):
                 erro(f"metas {painel}: IC de {r['id_efeito']} não é g ± 1,96 EP")
+        eps = [float(r["ep"]) for r in sorted(ef, key=lambda r: int(r["ordem"]))]
+        if eps != sorted(eps):
+            erro(f"metas {painel}: efeitos fora da ordem de erro-padrão crescente")
+        for r in x:
+            partes = [float(r["estimativa"]), float(r["ic_inf"]), float(r["ic_sup"])]
+            esperado = "{} ({} a {})".format(*(dec_br(v) for v in partes))
+            if r["rotulo_valor"] != esperado:
+                erro(f"metas {painel}: rótulo '{r['rotulo_valor']}' difere de '{esperado}'")
+            elif textos_svg is not None and r["rotulo_valor"] not in textos_svg:
+                erro(f"metas {painel}: rótulo '{r['rotulo_valor']}' não aparece no SVG")
+        for r in ef:
+            e = ent.get(r["id_efeito"])
+            if e and ROB_GERAL.get((e["chave"], e["construto_outcome"])) != r["rob_geral"]:
+                erro(f"metas {painel}: risco de viés de {r['id_efeito']} difere de 04-qualidade/rob_geral.csv")
+        niveis = {r["rob_geral"] for r in ef}
+        m = re.search(rf"painel \*\*{painel}\*\*(?: estão em|, em) (algumas preocupações|risco \w+)", legenda)
+        if len(niveis) != 1 or not m or m.group(1) != ROB_LEGENDA.get(niveis.pop()):
+            erro(f"metas {painel}: a frase da legenda sobre o risco de viés não bate com rob_geral.csv")
         cb = [r for r in x if r["tipo"] == "combinado"]
         if len(cb) != 1 or not (quase(cb[0]["estimativa"], g["estimativa"]) and quase(cb[0]["ic_inf"], g["ic"][0])
                                 and quase(cb[0]["ic_sup"], g["ic"][1])):
@@ -374,9 +439,13 @@ def conf_svg(nome, largura_mm):
 
 
 # ================================================================ (iv) legendas
+LEGENDAS = {}
+
+
 def conf_legendas():
     import yaml
     leg = yaml.safe_load(open(FIG / "legendas.yml", encoding="utf-8"))
+    LEGENDAS.update({k: str(v.get("legenda", "")) for k, v in leg.items() if isinstance(v, dict) and k in NOMES})
     arqs = leg.get("_arquivos", {})
     cache = {}
     larguras = {}
@@ -429,10 +498,10 @@ def main():
     conf_celulas()
     conf_direcao()
     if "prisma" in textos:
-        conf_prisma(textos)
+        conf_prisma(textos, LEGENDAS.get("prisma", ""))
     conf_rob()
     conf_realismo()
-    conf_metas()
+    conf_metas(textos.get("metas"), LEGENDAS.get("metas", ""))
     conf_dag()
     # rótulos de célula (x de y) e estudos desenhados
     if "celulas" in textos:

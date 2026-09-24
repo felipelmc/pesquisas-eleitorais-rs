@@ -7,6 +7,8 @@ Fontes (só leitura; nenhum .bib é alterado):
     07-relatorio/references.bib                    estudos incluídos, relatos secundários e revisões anteriores
     09-documento-final/referencias_contexto.bib    contexto brasileiro (leis, PLs, notícias) e Cosgun2026
     09-documento-final/referencias_metodo.bib      referências metodológicas (se não existir, avisa e segue)
+    09-documento-final/referencias_excluidos.bib   excluídos no texto completo que poderiam parecer elegíveis
+                                                   (PRISMA 16b; artigo, seção 3.1, e suplemento, S4)
 
 Passos:
  1. Cada .bib é convertido com `quarto pandoc -f bibtex -t csljson`. Antes da conversão, uma cópia temporária de
@@ -48,7 +50,8 @@ from pathlib import Path
 R = Path(__file__).resolve().parents[2]
 D = R / "09-documento-final"
 REV = D / "revista"
-BIBS = [R / "07-relatorio/references.bib", D / "referencias_contexto.bib", D / "referencias_metodo.bib"]
+BIBS = [R / "07-relatorio/references.bib", D / "referencias_contexto.bib", D / "referencias_metodo.bib",
+        D / "referencias_excluidos.bib"]
 SAIDA = REV / "referencias.json"
 CACHE = REV / "crossref_cache.json"
 LOG = REV / "referencias_log.md"
@@ -121,6 +124,7 @@ IDIOMA_FIXO = {  # só onde a detecção automática poderia errar; o log mostra
     "Schaefer2025OQF": "pt-BR",
     "Lamarca2026Livro": "pt-BR",
     "Cosgun2026": "en",
+    "Corbetta2013": "it",  # título em italiano: sem "it", o CSL o trataria como inglês e poria em caixa de título
 }
 PAL_EN = {"the", "of", "and", "in", "on", "to", "for", "with", "a", "an", "how", "what", "is", "are", "from", "by",
           "do", "does", "when", "more", "polls", "poll", "voting", "voters", "vote", "election", "elections",
@@ -243,8 +247,8 @@ def crossref(doi, cache, sem_rede):
     try:
         with urllib.request.urlopen(req, timeout=30, context=contexto_ssl()) as resp:
             msg = json.loads(resp.read().decode("utf-8"))["message"]
-            guardar = {k: msg.get(k) for k in ("DOI", "type", "title", "container-title", "volume", "issue", "page",
-                                               "article-number", "publisher", "issued", "author")}
+            guardar = {k: msg.get(k) for k in ("DOI", "type", "title", "subtitle", "container-title", "volume", "issue",
+                                               "page", "article-number", "publisher", "issued", "author")}
             cache[chave] = {"ok": guardar, "consultado_em": time.strftime("%Y-%m-%d")}
     except urllib.error.HTTPError as e:
         cache[chave] = {"erro": f"HTTP {e.code}", "consultado_em": time.strftime("%Y-%m-%d")}
@@ -277,6 +281,9 @@ def completar_crossref(item, cache, sem_rede, log, contagem):
     cr = resp["ok"]
     t_bib, t_cr = " ".join(normaliza(item.get("title", ""))), " ".join(normaliza(primeiro(cr.get("title")) or ""))
     sim = difflib.SequenceMatcher(None, t_bib, t_cr).ratio()
+    if primeiro(cr.get("subtitle")):  # o Crossref guarda o subtítulo à parte (ex.: "Haste makes waste" + subtítulo)
+        t_sub = " ".join(normaliza(f"{primeiro(cr.get('title'))}: {primeiro(cr.get('subtitle'))}"))
+        sim = max(sim, difflib.SequenceMatcher(None, t_bib, t_sub).ratio())
     if sim < 0.6:
         log.aviso(item["id"], f"título do Crossref não bate com o do .bib (similaridade {sim:.2f}: "
                               f"«{primeiro(cr.get('title'))}»); nada completado")

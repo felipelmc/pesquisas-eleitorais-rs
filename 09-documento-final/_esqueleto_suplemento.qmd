@@ -2,6 +2,10 @@
 title: "Material suplementar"
 subtitle: "Pesquisas eleitorais publicadas mudam o voto? Rascunho de revisão sistemática rápida, conduzida por agentes de IA e não validada, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
 date: 2026-09-24
+keywords:
+  - pesquisas eleitorais
+  - material suplementar
+  - revisão sistemática rápida
 metadata-files: [revista/_revista.yml]
 bibliography: revista/referencias.json
 number-sections: false
@@ -40,7 +44,7 @@ Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, c
 
 # S4 Características dos estudos incluídos {#s4-caracteristicas .unnumbered}
 
-Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1).
+Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1). A segunda tabela lista os estudos excluídos na leitura do texto completo que poderiam parecer elegíveis, com o motivo de cada exclusão.
 
 @@TABELA s4_caracteristicas@@
 

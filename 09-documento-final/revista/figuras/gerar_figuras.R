@@ -632,8 +632,10 @@ fig_metas <- function() {
   d$rotulo[d$tipo == "efeito"] <- autor_ano(d$chave[d$tipo == "efeito"])
   tem_extra <- !is.na(d$rotulo_extra) & d$rotulo_extra != ""
   d$rotulo[tem_extra] <- paste0(d$rotulo[tem_extra], ", ", d$rotulo_extra[tem_extra])
-  f2 <- num_br(0.01)
-  d$txt <- paste0(f2(d$estimativa), " (", f2(d$ic_inf), " a ", f2(d$ic_sup), ")")
+  # "g (IC)" já formatado em preparar_dados_figuras.py, com arredondamento decimal meio para cima (0,975 -> 0,98);
+  # a ordem das linhas (menor erro-padrão no topo) também vem do CSV
+  if (!"rotulo_valor" %in% names(d) || anyNA(d$rotulo_valor)) stop("dados_metas.csv sem rotulo_valor")
+  d$txt <- d$rotulo_valor
   painel <- function(pn) {
     x <- d[d$painel == pn, ]
     x$y <- rev(seq_len(nrow(x)))

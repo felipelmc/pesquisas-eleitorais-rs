@@ -2,10 +2,10 @@
 
 Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à mão. Uma linha por mudança em relação ao que o `quarto pandoc -f bibtex -t csljson` produz dos .bib (que não são alterados).
 
-- Entradas: 94 (58 de 07-relatorio/references.bib, 13 de 09-documento-final/referencias_contexto.bib, 23 de 09-documento-final/referencias_metodo.bib).
-- Entradas completadas pelo Crossref: 35.
+- Entradas: 107 (58 de 07-relatorio/references.bib, 13 de 09-documento-final/referencias_contexto.bib, 13 de 09-documento-final/referencias_excluidos.bib, 23 de 09-documento-final/referencias_metodo.bib).
+- Entradas completadas pelo Crossref: 45.
 - Avisos: 11.
-- Com DOI, mas de tipo que não usa periódico, volume, número ou páginas (report, thesis, book, article), por isso sem consulta ao Crossref: Agranov2012a, Alabrese2022a, Alabrese2024a, Araujo2021, Boukouras2020a, Bursztyn2017b, Chatterjee2019a, Erlich2023, Fairstein2018a, Freden2016b, Gerber2017b, Kaplan2019a, Urminsky2019, Yang2023d, Pustejovsky2026ClubSandwich, CampbellCollaboration2016PLS, Schaefer2025OQF.
+- Com DOI, mas de tipo que não usa periódico, volume, número ou páginas (report, thesis, book, article), por isso sem consulta ao Crossref: Agranov2012a, Alabrese2022a, Alabrese2024a, Araujo2021, Boukouras2020a, Bursztyn2017b, Chatterjee2019a, Erlich2023, Fairstein2018a, Freden2016b, Gerber2017b, Kaplan2019a, Urminsky2019, Yang2023d, Pustejovsky2026ClubSandwich, CampbellCollaboration2016PLS, Schaefer2025OQF, Scheuerman2019, Reveco2026.
 
 | Chave | Campo | Antes | Depois | Fonte ou motivo |
 |---|---|---|---|---|
@@ -134,6 +134,19 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | Schaefer2025OQF | language | (ausente) | pt-BR | detecção: IDIOMA_FIXO |
 | Lamarca2026Livro | language | (ausente) | pt-BR | detecção: IDIOMA_FIXO |
 | Nikolakopoulos2020SignTest | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |
+| Scheuerman2019 | language | (ausente) | en | detecção: palavras funcionais (en 2, pt 0) |
+| Scheuerman2020 | language | (ausente) | en | detecção: palavras funcionais (en 4, pt 0) |
+| Scheuerman2021 | language | (ausente) | en | detecção: palavras funcionais (en 6, pt 0) |
+| Yosef2017 | language | (ausente) | en | detecção: palavras funcionais (en 6, pt 0) |
+| Bischoff2012 | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |
+| Hizen2025 | language | (ausente) | en | detecção: palavras funcionais (en 10, pt 0) |
+| Morton2015b | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |
+| Reveco2026 | language | (ausente) | en | detecção: palavras funcionais (en 6, pt 0) |
+| Corbetta2013 | language | (ausente) | it | detecção: IDIOMA_FIXO |
+| Kim2018b | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |
+| Kim2025a | language | (ausente) | en | detecção: palavras funcionais (en 7, pt 0) |
+| Freden2021 | language | (ausente) | en | detecção: palavras funcionais (en 3, pt 0) |
+| Mavridis2016a | language | (ausente) | en | detecção: palavras funcionais (en 1, pt 0) |
 | Agranov2017a | volume | (ausente) | 16 | Crossref 10.1093/jeea/jvx023 (similaridade de título 1.00) |
 | Agranov2017a | issue | (ausente) | 3 | Crossref 10.1093/jeea/jvx023 (similaridade de título 1.00) |
 | Agranov2017a | page | (ausente) | 825-856 | Crossref 10.1093/jeea/jvx023 (similaridade de título 1.00) |
@@ -236,3 +249,24 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | Sterne2019RoB2 | AVISO |  | Crossref 10.1136/bmj.l4898 sem os campos que faltam (issue) |  |
 | Sterne2016ROBINSI | AVISO |  | Crossref 10.1136/bmj.i4919 sem os campos que faltam (issue) |  |
 | Viechtbauer2010Metafor | AVISO |  | Crossref 10.18637/jss.v036.i03 sem os campos que faltam (page) |  |
+| Scheuerman2020 | page | (ausente) | 1993-1995 | Crossref 10.65109/bwyg4163 (similaridade de título 1.00) |
+| Scheuerman2021 | volume | (ausente) | 35 | Crossref 10.1609/aaai.v35i6.16716 (similaridade de título 1.00) |
+| Scheuerman2021 | issue | (ausente) | 6 | Crossref 10.1609/aaai.v35i6.16716 (similaridade de título 1.00) |
+| Scheuerman2021 | page | (ausente) | 5709-5716 | Crossref 10.1609/aaai.v35i6.16716 (similaridade de título 1.00) |
+| Yosef2017 | page | (ausente) | 419-425 | Crossref 10.1145/3106426.3106532 (similaridade de título 1.00) |
+| Bischoff2012 | volume | (ausente) | 34 | Crossref 10.1016/j.joep.2012.10.009 (similaridade de título 1.00) |
+| Bischoff2012 | page | (ausente) | 270-284 | Crossref 10.1016/j.joep.2012.10.009 (similaridade de título 1.00) |
+| Hizen2025 | volume | (ausente) | 86 | Crossref 10.1016/j.ejpoleco.2025.102646 (similaridade de título 1.00) |
+| Hizen2025 | page | (ausente) | 102646 | Crossref 10.1016/j.ejpoleco.2025.102646 (similaridade de título 1.00) |
+| Morton2015b | volume | (ausente) | 40 | Crossref 10.1016/j.ejpoleco.2015.04.009 (similaridade de título 1.00) |
+| Morton2015b | page | (ausente) | 224-241 | Crossref 10.1016/j.ejpoleco.2015.04.009 (similaridade de título 1.00) |
+| Corbetta2013 | volume | (ausente) | 70 | Crossref 10.36253/qoe-9561 (similaridade de título 1.00) |
+| Corbetta2013 | issue | (ausente) | 2 | Crossref 10.36253/qoe-9561 (similaridade de título 1.00) |
+| Corbetta2013 | page | (ausente) | 7-30 | Crossref 10.36253/qoe-9561 (similaridade de título 1.00) |
+| Kim2018b | volume | (ausente) | 55 | Crossref 10.22174/jcr.2018.55.4.216 (similaridade de título 1.00) |
+| Kim2018b | issue | (ausente) | 4 | Crossref 10.22174/jcr.2018.55.4.216 (similaridade de título 1.00) |
+| Kim2018b | page | (ausente) | 216-251 | Crossref 10.22174/jcr.2018.55.4.216 (similaridade de título 1.00) |
+| Kim2025a | volume | (ausente) | 157 | Crossref 10.1016/j.geb.2025.02.009 (similaridade de título 1.00) |
+| Kim2025a | page | (ausente) | 395-417 | Crossref 10.1016/j.geb.2025.02.009 (similaridade de título 1.00) |
+| Freden2021 | volume | (ausente) | 3 | Crossref 10.3389/fpos.2021.598771 (similaridade de título 1.00) |
+| Freden2021 | page | (ausente) | 598771 | Crossref 10.3389/fpos.2021.598771 (similaridade de título 1.00) |

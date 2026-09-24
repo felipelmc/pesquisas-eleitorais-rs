@@ -45,6 +45,7 @@ import json
 import os
 import re
 import sys
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 import yaml
@@ -77,7 +78,8 @@ def lyaml(p):
 
 def chaves_bib():
     ks = set()
-    for bib in (R / "07-relatorio/references.bib", D / "referencias_contexto.bib", D / "referencias_metodo.bib"):
+    for bib in (R / "07-relatorio/references.bib", D / "referencias_contexto.bib", D / "referencias_metodo.bib",
+                D / "referencias_excluidos.bib"):
         if bib.exists():
             ks |= set(re.findall(r"^@\w+\{([^,]+),", ler(bib), flags=re.M))
     return ks
@@ -93,18 +95,27 @@ def citar(texto):
     return texto
 
 
+def meio_para_cima(x, casas=2):
+    """Arredonda com `casas` decimais, meio para cima, sobre a representação decimal curta do float (repr): 0,975 vira
+    0,98. O f-string arredonda o binário (0,97499...) e daria 0,97, e o limite inferior 0,025 já dava 0,03. Zero sai
+    sem sinal (nunca "−0,00")."""
+    d = Decimal(repr(float(x))).quantize(Decimal(1).scaleb(-casas), rounding=ROUND_HALF_UP)
+    return d.copy_abs() if d.is_zero() else d
+
+
 def virgula(x, casas=2):
-    return f"{x:.{casas}f}".replace(".", ",")
+    return f"{meio_para_cima(x, casas):.{casas}f}".replace(".", ",")
 
 
 def pt(x, casas=2):
-    """Número em pt-BR: vírgula decimal, ponto de milhar e sinal de menos U+2212."""
+    """Número em pt-BR: vírgula decimal, ponto de milhar e sinal de menos U+2212. Decimais arredondados meio para cima
+    (meio_para_cima), em toda proporção, IC e marcador que passa por aqui."""
     if isinstance(x, bool):
         return str(x)
     if isinstance(x, int):
         s = f"{x:,}".replace(",", ".")
     else:
-        s = f"{float(x):,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        s = f"{meio_para_cima(x, casas):,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
     return s.replace("-", "−")
 
 

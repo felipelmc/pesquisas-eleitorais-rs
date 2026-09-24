@@ -12,11 +12,14 @@ pelas colunas-chave da célula. O desenho (posições, cores, fontes) fica em ge
 Saídas
     dados/dados_modelo_logico.csv   nós do DAG (00-protocolo/dag_v1.mmd) e moderadores (tabela Z da teoria)
     dados/dag_arestas.csv           arestas do DAG, na ordem do .mmd
-    dados/dados_prisma.csv          linhas das caixas do fluxo PRISMA 2020 (07-relatorio/prisma_contagens.json)
+    dados/dados_prisma.csv          linhas das caixas do fluxo PRISMA 2020 (07-relatorio/prisma_contagens.json), sem
+                                    os itens com n = 0, que não se aplicam a esta revisão (PRISMA 2020: omitir caixas
+                                    que não se aplicam)
     dados/dados_rob.csv             julgamentos de risco de viés por ferramenta, domínio e nível (04-qualidade/)
     dados/dados_celulas.csv         células de revista/celulas.json (proporção, IC, x de y, certeza) e a vazia
     dados/dados_direcao.csv         direção por estudo e célula (SWiM principal e painel fora da contagem)
-    dados/dados_metas.csv           efeitos e estimativas combinadas das duas metas exploratórias
+    dados/dados_metas.csv           efeitos das duas metas exploratórias, em ordem de precisão (menor erro-padrão
+                                    primeiro), com o risco de viés do resultado, e as estimativas combinadas
     dados/dados_realismo.csv        um registro por estudo x célula, realismo x direção (T9 e T14)
 """
 import collections
@@ -28,6 +31,7 @@ import json
 import os
 import re
 import sys
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 sys.dont_write_bytecode = True  # não deixa __pycache__ nas pastas dos módulos importados por caminho
@@ -86,6 +90,15 @@ def dir_rotulo(d, construto, celula):
 
 
 INT = gtr.inteiro  # inteiro pt-BR com ponto de milhar
+
+
+def dec_br(x, casas=2):
+    """Decimal pt-BR arredondado meio para cima sobre repr(x) (0,975 -> 0,98; o f-string daria 0,97), com vírgula e
+    sinal de menos U+2212; zero sai sem sinal."""
+    d = Decimal(repr(float(x))).quantize(Decimal(1).scaleb(-casas), rounding=ROUND_HALF_UP)
+    if d.is_zero():
+        d = d.copy_abs()
+    return f"{d:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".").replace("-", "\u2212")
 
 # ------------------------------------------------------------------ vocabulário comum
 FAM_CURTA = {"pesquisa_pre_eleitoral": "pesquisa", "agregador_projecao": "agregador ou projeção",
@@ -245,6 +258,8 @@ def fig_prisma():
             for p in caminho.split("."):
                 v = v[p]
             n = v
+            if v == 0 and estilo == "normal":
+                return  # item com n = 0 não se aplica: fica fora da caixa (verificar_figuras.py confere que é 0)
             texto = texto.replace("{n}", INT(v))
         linhas.append({"caixa": caixa, "ramo": ramo, "fase": fase, "linha": sum(1 for l in linhas if l["caixa"] == caixa) + 1,
                        "texto": texto, "n": n, "caminho_json": caminho or "", "estilo": estilo})
@@ -502,6 +517,7 @@ ROTULO_EFEITO = {  # subgrupo de efeitos.csv, abreviado (só texto, sem números
     "Lammers2022a-E08": "estudo 2b, vinheta heurística",
     "Lammers2022a-E09": "estudo 2b, vinheta de igualdade",
 }
+ROB_GERAL = {(r["chave"], r["construto_outcome"]): r["rob_geral"] for r in ler_csv("04-qualidade/rob_geral.csv")}
 METAS = [("a", "06-analise/meta_entrada_exploratoria.csv", "06-analise/meta_exploratoria/meta_resumo.json",
           "Pesquisa × sem pesquisa"),
          ("b", "06-analise/meta_entrada_mesmo_candidato.csv", "06-analise/meta_mesmo_candidato/meta_resumo.json",
@@ -516,7 +532,8 @@ def fig_metas():
             sys.exit(f"ERRO: {f_res} deveria ter um grupo")
         g = res["grupos"][0]
         r = g["resultado"]
-        ent = sorted(ler_csv(f_ent), key=lambda e: (e["chave"].lower(), e["id_efeito"]))
+        # ordem por precisão, do menor ao maior erro-padrão (declarada na legenda); empate por chave e efeito
+        ent = sorted(ler_csv(f_ent), key=lambda e: (float(e["sei"]), e["chave"].lower(), e["id_efeito"]))
         if {e["chave"] for e in ent} != set(g["estudos"]) or len(ent) != g["k_efeitos"]:
             sys.exit(f"ERRO: entrada {f_ent} não bate com {f_res}")
         n_por = collections.Counter(e["chave"] for e in ent)
@@ -528,14 +545,19 @@ def fig_metas():
                 if e["id_efeito"] not in ROTULO_EFEITO:
                     sys.exit(f"ERRO: efeito {e['id_efeito']} precisa de rótulo próprio")
                 extra = ROTULO_EFEITO[e["id_efeito"]]
+            rob = ROB_GERAL.get((e["chave"], e["construto_outcome"]))
+            if rob is None or (e.get("rob_geral") and e["rob_geral"] != rob):
+                sys.exit(f"ERRO: risco de viés de {e['id_efeito']} ausente ou diferente entre rob_geral.csv e {f_ent}")
+            lo, hi = yi - 1.959963984540054 * sei, yi + 1.959963984540054 * sei
             linhas.append({"painel": painel, "painel_titulo": titulo, "ordem": o, "tipo": "efeito", "chave": e["chave"],
                            "id_efeito": e["id_efeito"], "rotulo_extra": extra, "estimativa": yi, "ep": sei,
-                           "ic_inf": yi - 1.959963984540054 * sei, "ic_sup": yi + 1.959963984540054 * sei,
-                           "delta": delta, "k_estudos": g["k_estudos"], "k_efeitos": g["k_efeitos"]})
+                           "ic_inf": lo, "ic_sup": hi, "rotulo_valor": f"{dec_br(yi)} ({dec_br(lo)} a {dec_br(hi)})",
+                           "rob_geral": rob, "delta": delta, "k_estudos": g["k_estudos"], "k_efeitos": g["k_efeitos"]})
         linhas.append({"painel": painel, "painel_titulo": titulo, "ordem": len(ent) + 1, "tipo": "combinado",
                        "chave": "", "id_efeito": "", "rotulo_extra": "", "estimativa": r["estimativa"], "ep": r["ep"],
-                       "ic_inf": r["ic"][0], "ic_sup": r["ic"][1], "delta": delta, "k_estudos": g["k_estudos"],
-                       "k_efeitos": g["k_efeitos"]})
+                       "ic_inf": r["ic"][0], "ic_sup": r["ic"][1],
+                       "rotulo_valor": f"{dec_br(r['estimativa'])} ({dec_br(r['ic'][0])} a {dec_br(r['ic'][1])})",
+                       "rob_geral": "", "delta": delta, "k_estudos": g["k_estudos"], "k_efeitos": g["k_efeitos"]})
     gravar("dados_metas.csv", linhas, list(linhas[0]))
 
 

@@ -11,7 +11,10 @@ Categorias
   Datas         dd/mm/aaaa só da lista permitida (v1, 00-protocolo/*.md, 24/09/2026 e 25/09/2026); dd/mm só se casar
                 com uma data dessa lista.
   Números       todo número do texto novo, depois do pré-processamento, tem de estar na lista branca: números do v1,
-                folhas numéricas dos JSON e CSV de síntese (com arredondamentos de 0 a 3 casas e ×100 nas proporções),
+                folhas numéricas dos JSON e CSV de síntese (com arredondamentos de 0 a 3 casas e ×100 nas proporções;
+                cada arredondamento entra nas duas variantes, meio para cima sobre a representação decimal, que é a
+                dos montadores desde a etapa 6c (0,975 → 0,98), e a do f-string do Python, que arredonda o binário
+                (0,975 → 0,97) e é a dos insumos gerados antes),
                 numeros_v2.json e celulas.json. Decimal, porcentagem ou inteiro > 10 fora da lista = FALHA; inteiro
                 ≤ 10 = AVISO. Anos (19xx/20xx) passam também se estiverem no v1, nos .bib ou em incluidos.csv.
                 Número sem sinal casa com o valor absoluto; número com sinal negativo só com valor negativo.
@@ -54,7 +57,8 @@ R = Path(__file__).resolve().parents[1]
 D = R / "09-documento-final"
 REV = D / "revista"
 
-BIBS = [R / "07-relatorio/references.bib", D / "referencias_contexto.bib", D / "referencias_metodo.bib"]
+BIBS = [R / "07-relatorio/references.bib", D / "referencias_contexto.bib", D / "referencias_metodo.bib",
+        D / "referencias_excluidos.bib"]
 LISTA_JSON = (["07-relatorio/prisma_contagens.json"]
               + sorted(str(p.relative_to(R)) for p in (R / "06-analise").glob("swim_*/swim_resumo.json"))
               + sorted(str(p.relative_to(R)) for p in (R / "06-analise").glob("meta_*/meta_resumo.json"))
@@ -367,6 +371,7 @@ class ListaBranca:
             self._put(a, fonte)
             for casas in range(4):
                 q = Decimal(1).scaleb(-casas)
+                # meio para cima sobre repr (0,975 -> 0,98, formatadores atuais) e f-string (0,975 -> 0,97, insumos antigos)
                 self._put(a.quantize(q, rounding=ROUND_HALF_UP), fonte)
                 self._put(Decimal(f"{float(a):.{casas}f}"), fonte)
 
