@@ -1,0 +1,186 @@
+[
+ {
+  "id_item": "C190",
+  "sugestao": "original",
+  "valor_sugerido": "Separar experimentalmente o efeito da informação política do efeito da capacidade cognitiva sobre o voto estratégico, e verificar se esses dois componentes da sofisticação política só operam quando o eleitor tem incentivo para votar estrategicamente.",
+  "trecho": "we develop an experiment that allows us to (1) independently manipulate incentives for strategic voting, and the two factors of political sophistication (political information and cognitive resources) and (2) examine the conditional effects of information and cognitive resources.",
+  "pagina": 3,
+  "justificativa": "O objetivo declarado tem duas partes: separar informação e recursos cognitivos e examinar seus efeitos condicionais ao incentivo. A revalidação registra só a primeira."
+ },
+ {
+  "id_item": "C191",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Residentes do Reino Unido recrutados em duas amostras por quota na plataforma online Prolific: um estudo piloto com 1000 respondentes e um estudo principal pré-registrado com 2500 respondentes.",
+  "trecho": "We present results from two quota samples of UK residents: a pilot study with 1000 respondents and a pre-registered main study with 2500 respondents, both of which were collected through the online survey platform Prolific",
+  "pagina": 5,
+  "justificativa": "As duas descrevem a mesma população (amostras por cota de residentes do Reino Unido na Prolific, piloto e estudo principal); a original só acrescenta os tamanhos amostrais."
+ },
+ {
+  "id_item": "C192",
+  "sugestao": "original",
+  "valor_sugerido": "Coletas em 29 de janeiro de 2020 (piloto) e 24 de setembro de 2020 (estudo principal); a análise observacional complementar de validade externa usa o British Election Study de 2015.",
+  "trecho": "In order to answer whether our experimental results transfer to real- world elections, we leverage data from the 2015 British Election Study.",
+  "pagina": 6,
+  "justificativa": "O período coberto pelos dados inclui, além das coletas de 2020 (p. 5), o BES 2015 usado na análise de validade externa relatada no texto; a revalidação omite essa fonte."
+ },
+ {
+  "id_item": "C193",
+  "sugestao": "original",
+  "valor_sugerido": "ambos",
+  "trecho": "In order to answer whether our experimental results transfer to real- world elections, we leverage data from the 2015 British Election Study.",
+  "pagina": 6,
+  "justificativa": "O experimento gera dados primários e a análise de validade externa usa dados secundários do British Election Study 2015, relatada no corpo do artigo; logo, ambos."
+ },
+ {
+  "id_item": "C194",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Exposição, numa eleição simulada online com três candidatos fictícios, a resultados de três pesquisas pré-eleitorais em visualização animada, com o candidato preferido (A) em último e B e C empatados na liderança; o resultado médio é constante e a incerteza entre pesquisas é manipulada (menor variação = alta informação), cruzada com uma tarefa de carga cognitiva (contar piscadas), imediatamente antes do voto simulado.",
+  "trecho": "we present results from three separate polls as part of an animated visualization embedded in the survey. In other words, the variation across polls provides participants with a direct and intuitive illustration of the degree of uncertainty around their predictions.",
+  "pagina": 4,
+  "justificativa": "As duas descrevem a mesma exposição (pesquisas em animação, A em último, B e C empatados, incerteza manipulada antes do voto). A original detalha a média constante; a revalidação lembra a carga cognitiva, que integra o contraste principal (Information & Cognitive Resources)."
+ },
+ {
+  "id_item": "C195",
+  "sugestao": "original",
+  "valor_sugerido": "A comparação é entre condições da própria exposição a pesquisas, não com ausência de pesquisa: condição de alta informação (pesquisas com pouca variação entre institutos, portanto incerteza baixa sobre o resultado provável) contra condição de baixa informação (maior variação entre institutos), com o resultado médio das pesquisas mantido constante. Esse contraste é cruzado com a manipulação de recursos cognitivos e com o nível de incentivo monetário, num desenho fatorial entre sujeitos. Todos os participantes veem pesquisas e todos recebem incentivo para o voto estratégico; os próprios autores registram que não há condição contrafactual sem incentivo.",
+  "trecho": "we present conditional treatment effects of information and cognitive resources for different levels of incentives in Fig. 2.",
+  "pagina": 5,
+  "justificativa": "Os efeitos são estimados dentro de cada nível de incentivo, contra baixa informação e carga cognitiva (\"vs. Low Levels in Control Condition\", Fig. 2); o incentivo não faz parte do grupo controle, como afirma a revalidação."
+ },
+ {
+  "id_item": "C196",
+  "sugestao": "original",
+  "valor_sugerido": "Voto estratégico na eleição simulada, medido no nível individual como a escolha do candidato B, que as pesquisas mostram empatado na liderança, em vez do candidato A, o mais próximo das preferências do respondente mas mostrado sem chance. É, portanto, apoio a um candidato mostrado à frente, medido por escolha individual incentivada por bônus monetário e não por intenção declarada.",
+  "trecho": "After reviewing the polls, participants are asked to cast their vote for one of the candidates.",
+  "pagina": 4,
+  "justificativa": "É uma escolha no experimento (com bônus na condição de alto incentivo, onde está o efeito principal), não intenção declarada, e o codebook pede dizer se o apoio é ao líder ou ao candidato atrás, o que só a original faz."
+ },
+ {
+  "id_item": "C197",
+  "sugestao": "original",
+  "valor_sugerido": "teste_de_canal",
+  "trecho": "By experimentally isolating and testing differ- ent underlying mechanisms, we show that information and cognitive resources have to go hand in hand to help voters find optimal electoral outcomes.",
+  "pagina": 2,
+  "justificativa": "Os canais (informação e recursos cognitivos) são manipulados de forma independente e testados com dados, com checagem de manipulação da probabilidade percebida de vitória; é teste de canal, não só hipótese dos autores."
+ },
+ {
+  "id_item": "C198",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Recurso: pesquisas com menor variação entre institutos (informação precisa sobre a viabilidade) e recursos cognitivos livres, sob incentivo monetário; Raciocínio: a informação permite formar expectativas precisas sobre o resultado, e os recursos cognitivos permitem processá-la e reconhecer o retorno de desviar do preferido, com efeito potencialmente multiplicativo condicionado ao incentivo; Contexto: eleição simulada online no Reino Unido, com três candidatos fictícios.",
+  "trecho": "Voters require information to form precise expectations about support for different candidates, but they also need the cognitive ability and resources to process the information.",
+  "pagina": 3,
+  "justificativa": "As duas seguem o formato Recurso/Raciocínio/Contexto com o mesmo conteúdo; a original é mais detalhada, sem divergência substantiva."
+ },
+ {
+  "id_item": "C199",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Moderador: nível de incentivo monetário (alto vs. baixo), manipulado. Sob baixo incentivo, nenhum tratamento tem efeito significativo e replicável; sob alto incentivo, a combinação de informação e recursos cognitivos aumenta o voto estratégico (11 p.p. no estudo principal, 17 p.p. no piloto).",
+  "trecho": "Furthermore, the results show that none of the treatments have a significant and replicable effect on strategic voting in the low incentive condition.",
+  "pagina": 5,
+  "justificativa": "Ambas identificam o incentivo como moderador e o mesmo resultado por subgrupo; diferem só em detalhe."
+ },
+ {
+  "id_item": "C200",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "999",
+  "trecho": "At the same time, there is a potential downside of strategic voting, since it may inflate perceived support for certain policy platforms.",
+  "pagina": 3,
+  "justificativa": "O texto não relata nem testa efeitos não intencionais da exposição; a observação sobre inflar apoio é normativa, na revisão de literatura. A original ainda erra ao dizer que não há deserção de terceiro candidato, pois o próprio outcome é abandonar A, mostrado sem chance."
+ },
+ {
+  "id_item": "C201",
+  "sugestao": "nenhum",
+  "valor_sugerido": "Ausência de uma condição contrafactual em que os respondentes não enfrentem incentivos para o voto estratégico, o que impede saber se quem desvia do voto sincero o faz apenas em resposta aos incentivos estratégicos ou por outros fatores.",
+  "trecho": "However, it is crucial to acknowledge the lack of a counterfactual condition in which respondents face no incentives for strategic voting.",
+  "pagina": 4,
+  "justificativa": "A única limitação declarada como tal é a falta de contrafactual sem incentivo, que impede saber se o desvio responde ao incentivo estratégico ou a outros fatores (não o 'papel isolado do incentivo', como diz a revalidação). A não replicação do piloto e a falha da história de distração são resultados, não limitações declaradas, como a original lista."
+ },
+ {
+  "id_item": "C202",
+  "sugestao": "original",
+  "valor_sugerido": "Aleatorização individual entre oito condições de um fatorial entre sujeitos, com checagem de balanceamento das covariáveis relevantes relatada no material suplementar (SM IV) e checagens de manipulação para os três tratamentos (SM V), que mostram que a informação mais precisa reduz a probabilidade percebida de vitória do candidato preferido, que a carga cognitiva piorou o desempenho em tarefa de lógica e que quem estava na condição de alto incentivo justificou mais o voto pela chance realista de vitória. A análise do estudo principal é pré-registrada.",
+  "trecho": "SM IV shows that randomization assured balance with respect to covariates that are considered relevant to strategic voting",
+  "pagina": 4,
+  "justificativa": "O codebook pede os testes apresentados, incluindo balanceamento; o texto cita a checagem de balanceamento (nota 4) além das checagens de manipulação, e a revalidação omite o balanceamento."
+ },
+ {
+  "id_item": "C203",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Atribuição aleatória no nível do indivíduo (respondente); o texto não informa agrupamento dos erros-padrão, tamanho de cluster nem ICC.",
+  "trecho": "We randomly assign respondents to one of the eight conditions.",
+  "pagina": 4,
+  "justificativa": "As duas dizem o mesmo: atribuição individual e nenhuma informação sobre cluster ou ICC."
+ },
+ {
+  "id_item": "C204",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "apoio_ao_lider: Fig. 2, estimativas condicionais do estudo principal pré-registrado (condição de alto incentivo, alta informação e recursos cognitivos)",
+  "trecho": "In the high incentive condition, the prob- ability to vote strategically is increased by 11 percentage points in the high information/cognitive resources condition (17 percentage points in the pilot study).",
+  "pagina": 5,
+  "justificativa": "Os autores tratam o estudo pré-registrado como o principal: o resumo e a introdução repetem só os 11 p.p. dele, e o piloto aparece entre parênteses como réplica. Piloto e principal não são igualmente centrais, então não se listam os dois."
+ },
+ {
+  "id_item": "C205",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "apoio_ao_lider: declarado_pelos_autores",
+  "trecho": "In order to directly test our hypothesis, we present conditional treatment effects of information and cognitive resources for different levels of incentives in Fig. 2.",
+  "pagina": 5,
+  "justificativa": "Segue o C204: uma única especificação principal (Fig. 2, estudo principal), indicada pelos autores como o teste direto da hipótese."
+ },
+ {
+  "id_item": "C206",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider: sim",
+  "trecho": "Results from experimental study. Conditional treatment effects of information and cognitive resources on strategic voting (including 95% and 90% confidence intervals).",
+  "pagina": 6,
+  "justificativa": "Na Fig. 2 (renderizada), o IC95% do estudo principal para Information & Cognitive Resources sob alto incentivo vai de cerca de 0,045 a 0,18 e exclui zero; o texto contrasta esse efeito com os tratamentos isolados, sem aumento significativo replicável."
+ },
+ {
+  "id_item": "C207",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Os autores concluem que informação e recursos cognitivos, combinados e sob incentivo suficiente, facilitam o voto estratégico, e que a informação sozinha não basta.",
+  "trecho": "In sum, our experimental results support the hypothesis that in- formation and cognitive resources are two important dimensions to facilitate strategic voting.",
+  "pagina": 5,
+  "justificativa": "As duas frases dizem a mesma conclusão (as duas dimensões precisam andar juntas; informação sozinha não basta), com ênfases diferentes."
+ },
+ {
+  "id_item": "C208",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "regra_do_experimento",
+  "trecho": "Subjects participate in a mock election between three candidates 𝐴, 𝐵, and 𝐶—leaving out explicit party labels.",
+  "pagina": 4,
+  "justificativa": "A eleição é simulada, com candidatos fictícios e payoff definido pelo desenho (voto sempre pivotal entre B e C); o texto não declara a regra de apuração da eleição simulada. O distrito uninominal britânico é só a referência de familiaridade dos participantes."
+ },
+ {
+  "id_item": "C209",
+  "sugestao": "original",
+  "valor_sugerido": "outro — especifique: pesquisas com baixa variação entre institutos, isto é, informação mais precisa, contra pesquisas com alta variação entre institutos, mantendo constante o resultado médio mostrado; não há braço sem exposição a pesquisa.",
+  "trecho": "we induce uncertainty about each candidate’s electoral prospects by increasing the between-poll variation in pre- election candidate support (holding constant average support for each candidate).",
+  "pagina": 5,
+  "justificativa": "Todos veem pesquisas, com o mesmo resultado médio; o que muda é a dispersão entre pesquisas. Não há unidades não expostas. Vale acrescentar ao 'outro' que o contraste principal também cruza a carga cognitiva."
+ },
+ {
+  "id_item": "C210",
+  "sugestao": "nenhum",
+  "valor_sugerido": "informacao + outro + viabilidade_estrategico",
+  "trecho": "pro- viding respondents with more accurate polling information reduces the perceived likelihood of Candidate A (most preferred candidate) winning the election.",
+  "pagina": 5,
+  "justificativa": "O estudo testa com dados a informação (tratamento de incerteza), os recursos cognitivos (outro: carga cognitiva) e o canal de viabilidade estratégica (probabilidade percebida de vitória de A e voto no viável B). A original omite 'outro'; a revalidação omite viabilidade_estrategico."
+ },
+ {
+  "id_item": "C211",
+  "sugestao": "original",
+  "valor_sugerido": "lider",
+  "trecho": "According to the polls, Candidate 𝐴(the most preferred candidate) has the lowest chance of winning the election, while Candidate 𝐵and 𝐶are tied for the lead",
+  "pagina": 4,
+  "justificativa": "O apoio medido é a B, que as pesquisas mostram empatado na liderança com C; pelo critério posicional do codebook, é quem aparece à frente (lider), não um segundo colocado. O caso é limítrofe, porque B ganha voto por ser viável."
+ },
+ {
+  "id_item": "C212",
+  "sugestao": "original",
+  "valor_sugerido": "Não",
+  "trecho": "We conducted a set of manipulation checks for all three treatments. SM V presents results that show that the treatments work. First, pro- viding respondents with more accurate polling information reduces the perceived likelihood of Candidate A",
+  "pagina": 5,
+  "justificativa": "A expectação de vitória aparece só como checagem de manipulação; os efeitos da Fig. 2 são contrastes de tratamento contra o controle, sem indicação de que controlem pelo mediador. As tabelas de regressão estão no SM A.VI, fora do PDF."
+ }
+]

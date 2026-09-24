@@ -1,0 +1,202 @@
+[
+ {
+  "id_item": "C213",
+  "sugestao": "original",
+  "valor_sugerido": "Países Baixos — Amsterdã",
+  "trecho": "Ten sessions were run at the CREED laboratory at the University of Amsterdam in June 2009.",
+  "pagina": 11,
+  "justificativa": "Os dois apontam o mesmo país, mas o codebook manda acrescentar o município depois de travessão quando o local é subnacional, e os participantes são do laboratório CREED, em Amsterdã. O nome oficial do país é Países Baixos; Holanda é uma de suas províncias."
+ },
+ {
+  "id_item": "C214",
+  "sugestao": "original",
+  "valor_sugerido": "Saber se os resultados sobre voto estratégico e informação obtidos com preferências homogêneas se mantêm quando o eleitorado é heterogêneo na intensidade da preferência pela opção intermediária, e qual componente da informação (distribuição agregada das ordenações ou intensidade das preferências) explica o comportamento.",
+  "trecho": "It is possible, however, that such results do not carry over to an environment with heterogeneous preferences. This is the main question we will pursue here.",
+  "pagina": 3,
+  "justificativa": "Os autores declaram como pergunta central se os resultados do caso homogêneo valem com heterogeneidade, e a Seção 4 acrescenta qual componente da informação importa mais. A revalidação descreve o cenário, não a pergunta declarada."
+ },
+ {
+  "id_item": "C215",
+  "sugestao": "original",
+  "valor_sugerido": "outro — eleitorado experimental (grupo de 12 votantes); as decisões são individuais, mas os testes usam a média por eleitorado como unidade de observação",
+  "trecho": "Statistical tests are non-parametric, using average behavior of (sub-groups of) voters per electorate as the unit of observation.",
+  "pagina": 11,
+  "justificativa": "Os autores tratam o eleitorado como unidade de observação em todos os testes. As decisões são individuais, mas a análise não é feita no nível do indivíduo, então o valor é outro."
+ },
+ {
+  "id_item": "C216",
+  "sugestao": "original",
+  "valor_sugerido": "Sujeitos recrutados para o laboratório CREED da Universidade de Amsterdã: 204 participantes em dez sessões, formando 17 eleitorados independentes de 12 votantes; quem participou das sessões homogêneas anteriores foi excluído.",
+  "trecho": "Ten sessions were run at the CREED laboratory at the University of Amsterdam in June 2009. 204 subjects11 participated, allowing for 17 independent electorates12.",
+  "pagina": 11,
+  "justificativa": "O texto fala em subjects do laboratório CREED e nunca diz que são estudantes. A revalidação acrescenta um dado que o texto não traz, e a original descreve os participantes como os autores os descrevem."
+ },
+ {
+  "id_item": "C217",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Junho de 2009",
+  "trecho": "Ten sessions were run at the CREED laboratory at the University of Amsterdam in June 2009.",
+  "pagina": 11,
+  "justificativa": "Os dois valores dão o mesmo período, junho de 2009. A original só acrescenta que a data se refere às sessões heterogêneas."
+ },
+ {
+  "id_item": "C218",
+  "sugestao": "original",
+  "valor_sugerido": "ambos",
+  "trecho": "Results for the homogenous case are taken from TS11.",
+  "pagina": 14,
+  "justificativa": "Os dados das sessões heterogêneas foram coletados para este artigo, e as comparações com o caso homogêneo reusam dados publicados no estudo anterior TS11. Se o revisor considerar que o experimento anterior dos mesmos autores também é dado primário, o valor passa a ser primarios; o contraste com e sem informação no caso heterogêneo usa só dados novos."
+ },
+ {
+  "id_item": "C219",
+  "sugestao": "original",
+  "valor_sugerido": "Antes de cada uma das 40 votações (eleição de laboratório entre três opções abstratas, A, B e C), os tratamentos informados mostram em tabela a distribuição agregada realizada das ordenações de preferência do eleitorado de 12 votantes (aggregate information: primeira e última colunas da Tabela 1); o full information mostra também quantos votantes de cada ordenação têm valor intermediário 3 ou 8. O uninformed não mostra nada além das distribuições a priori e da própria preferência.",
+  "trecho": "With full information in each round, before casting their vote, subjects are informed about the realization of the aggregate preferences orderings and for each preference ordering, they are also told the realized distribution of intermediate preferences.",
+  "pagina": 10,
+  "justificativa": "As duas descrevem a mesma manipulação. A original cobre formato, conteúdo, meio (tabela, Tabela 1) e momento (antes de cada rodada), como pede o codebook, e a revalidação omite o meio e o número de rodadas."
+ },
+ {
+  "id_item": "C220",
+  "sugestao": "original",
+  "valor_sugerido": "Tratamento uninformed (o votante conhece só as distribuições a priori e a própria preferência); para separar os componentes da informação, o aggregate information também é comparado ao full information.",
+  "trecho": "In the uninformed treatment this is all that the subjects know when deciding whether or not to vote.",
+  "pagina": 10,
+  "justificativa": "Os dois valores trazem o comparador sem informação. A original acrescenta a comparação aggregate × full, que o artigo testa explicitamente (Seções 4.1 a 4.3), e o codebook não limita o comparador a um só."
+ },
+ {
+  "id_item": "C221",
+  "sugestao": "original",
+  "valor_sugerido": "Duas medidas: (i) fração de votos estratégicos (voto na segunda opção preferida em vez da preferida), escolha individual incentivada e agregada em média por eleitorado; (ii) fração de eleições vencidas pelo Majoritarian Candidate, o candidato com maior apoio sincero na distribuição realizada, uma medida agregada de apoio ao líder.",
+  "trecho": "we define a sincere vote as a vote for one’s preferred option and a strategic vote as a vote for one’s second best option.",
+  "pagina": 5,
+  "justificativa": "O voto estratégico é o voto na segunda opção preferida do próprio votante, não no segundo colocado, como diz a revalidação. O candidato majoritário é o de maior apoio sincero na distribuição realizada, não a priori. A original também diz se a medida é individual ou agregada, como pede o codebook."
+ },
+ {
+  "id_item": "C222",
+  "sugestao": "original",
+  "valor_sugerido": "teste_de_canal",
+  "trecho": "For each intermediate value, Rank 3rd voters are most likely to vote strategically.",
+  "pagina": 15,
+  "justificativa": "Os autores derivam do modelo de pivô (QRE) implicações do canal estratégico, como a maior deserção dos Rank 3rd e o papel da informação agregada contra o da informação sobre intensidade, e testam essas implicações com dados. Só a explicação da heterogeneidade por heurísticas simples fica como hipótese."
+ },
+ {
+  "id_item": "C223",
+  "sugestao": "original",
+  "valor_sugerido": "Recurso: informação, antes do voto, sobre a distribuição agregada realizada das ordenações de preferência (e, no full information, sobre a intensidade); Raciocínio: o votante atualiza por Bayes a probabilidade de ser pivô e compara os ganhos esperados de votar na primeira, na segunda ou na última opção, e votar na segunda compensa quando a opção intermediária vale mais e quando o preferido tem o menor apoio sincero; com heterogeneidade, o ambiente fica mais complexo e o votante recorre a heurísticas como o voto sincero; Contexto: eleitorado de 12, pluralidade, voto obrigatório, ciclo de Condorcet, preferências induzidas, 40 rodadas.",
+  "trecho": "With the latter information, the voter can update the probability distributions using Bayes’ rule and use this to calculate the probability of being pivotal given others’ strategies.",
+  "pagina": 4,
+  "justificativa": "O codebook pede o mecanismo pelo qual a intervenção (a informação) produz o resultado. A revalidação descreve só o mecanismo da heterogeneidade, que é outra manipulação, e a original descreve o canal da informação sem deixar de fora a heurística."
+ },
+ {
+  "id_item": "C224",
+  "sugestao": "original",
+  "valor_sugerido": "(i) Valor intermediário: mais voto estratégico com valor 8 do que com 3, em todos os tratamentos; (ii) Rank-Type: os Rank 3rd votam estrategicamente mais, os Rank 1st raramente; (iii) heterogeneidade: sem efeito sem informação, e redução do voto estratégico com informação, significativa para valor baixo e não para valor alto; (iv) tipo de informação: aggregate e full não diferem em nenhum subgrupo, exceto nos Rank 3rd heterogêneos com valor alto.",
+  "trecho": "In contrast to the case without information, when information is provided, heterogeneity does reduce the extent of strategic voting for voters who attribute a relatively low value to the intermediate option.",
+  "pagina": 13,
+  "justificativa": "No item (iii), a revalidação dá como resultado os efeitos de sinal oposto para Rank 2nd e Rank 3rd, que são previsões do QRE (7 e 8) não confirmadas pelos dados (p. 638-639). A original relata o que se observou por subgrupo."
+ },
+ {
+  "id_item": "C225",
+  "sugestao": "original",
+  "valor_sugerido": "Deserção estratégica de candidatos em desvantagem: os votantes Rank 3rd, cujo preferido tem o menor apoio sincero, são os que mais abandonam o preferido. O texto não relata desmobilização (voto obrigatório no experimento), voto menos informado nem uso de pesquisas enviesadas.",
+  "trecho": "For each intermediate value, Rank 3rd voters are most likely to vote strategically.",
+  "pagina": 15,
+  "justificativa": "O codebook lista a deserção estratégica de terceiros candidatos como efeito não intencional a registrar quando o texto a relata. O artigo relata e testa essa deserção, então 999 não serve."
+ },
+ {
+  "id_item": "C226",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Os autores reconhecem que, antes de derivar implicações de política, é preciso testar a robustez dos resultados a eleitorados maiores e a outros conjuntos de participantes (sugerem experimentos de campo com eleições online).",
+  "trecho": "Before one can derive possible policy implications from our results, future analysis is needed that test their robustness to increased electorate size and different subject pools.",
+  "pagina": 17,
+  "justificativa": "As duas relatam a mesma limitação declarada. A original só acrescenta a sugestão de experimentos de campo, que é o passo seguinte proposto pelos autores."
+ },
+ {
+  "id_item": "C227",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "outro — experimento de laboratório com o nível de informação atribuído por eleitorado de 12 sujeitos, entre sujeitos; o texto não declara que a alocação dos eleitorados ou sessões aos tratamentos foi aleatória",
+  "trecho": "We vary information across treatments in a between-subject design.",
+  "pagina": 10,
+  "justificativa": "O artigo diz só que o desenho é entre sujeitos e em nenhum lugar declara alocação aleatória de sessões ou eleitorados aos tratamentos (o sorteio descrito é o das preferências, igual em todos os grupos). Classificar como experimento_aleatorizado_cluster seria inferir uma randomização que o texto não relata; o revisor pode optar por ela se aceitar a convenção de que tratamentos de laboratório são atribuídos ao acaso."
+ },
+ {
+  "id_item": "C228",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Todos os eleitorados enfrentaram as mesmas realizações sorteadas das ordenações de preferência (e dos valores intermediários), o que permite comparação direta entre grupos; não há teste de balanceamento, de tendências prévias nem placebo.",
+  "trecho": "Every experimental electorate experienced the same realizations of the random distribution of preference orderings, making it possible to directly compare across groups.",
+  "pagina": 10,
+  "justificativa": "As duas dão a mesma hipótese (realizações idênticas entre grupos) e dizem que não há teste formal. A menção da original à não independência dos subgrupos é sobre inferência e não muda o conteúdo."
+ },
+ {
+  "id_item": "C229",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Atribuição por eleitorado (12 votantes, fixo na sessão): 5 uninformed, 6 aggregate e 6 full information (17 no total); os testes não paramétricos usam a média por eleitorado como unidade de observação e levam em conta a não independência dos subgrupos do mesmo eleitorado; ICC não reportado.",
+  "trecho": "Statistical tests are non-parametric, using average behavior of (sub-groups of) voters per electorate as the unit of observation.",
+  "pagina": 11,
+  "justificativa": "As duas dão atribuição no nível do eleitorado, cluster de 12, eleitorado como unidade de inferência e ICC ausente. A revalidação só acrescenta a contagem por braço da nota 12, e a original escreve sessão/eleitorado, embora as 10 sessões tenham formado 17 eleitorados."
+ },
+ {
+  "id_item": "C230",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "nenhum",
+  "trecho": "Statistical tests are non-parametric, using average behavior of (sub-groups of) voters per electorate as the unit of observation.",
+  "pagina": 11,
+  "justificativa": "As duas dizem nenhum; a revalidação só explica por quê (testes não paramétricos sem covariáveis)."
+ },
+ {
+  "id_item": "C231",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider: Seção 4.2, Figuras 6 e 7, testes de Mann-Whitney entre uninformed e informados (p. 638) ; vitória do candidato majoritário: Seção 4.1, Figura 5 (p. 635)",
+  "trecho": "Finally, behavioral prediction 5 concerns the comparative static of strategic behavior in the uninformed treatments versus the informed treatments.",
+  "pagina": 14,
+  "justificativa": "As Figuras 1 e 3 que a revalidação cita são correspondências teóricas do QRE, não dados, e não podem ser o modelo principal. A original aponta a seção, as figuras e os testes empíricos do contraste com e sem informação."
+ },
+ {
+  "id_item": "C232",
+  "sugestao": "original",
+  "valor_sugerido": "regra_do_protocolo",
+  "trecho": "In particular, we observe (i) that strategic voting increases as the value of a voter’s second best option increases and (ii) more strategic voting occurs with information than without.",
+  "pagina": 16,
+  "justificativa": "Os autores não declaram uma especificação preferida, e o resumo e a conclusão repetem o achado só em palavras, sem nenhum número. O passo usado_na_interpretacao exige que o número se repita, então vale o passo 3, regra_do_protocolo."
+ },
+ {
+  "id_item": "C233",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "apoio_ao_lider: sim (valor intermediário baixo, MW p = 0,013) ; nao (valor intermediário alto, MW p = 0,058)",
+  "trecho": "The differences are statistically significant (for low intermediate values: MW, Z = −2.485, p = 0.013, N = 17; for high intermediate values: MW, Z = −1.899, p = 0.058, N = 17).",
+  "pagina": 15,
+  "justificativa": "O codebook define sim como p < 0,05 conforme reportado. O contraste principal vem em dois testes igualmente centrais, e o de valor alto tem p = 0,058, embora os autores chamem as duas diferenças de significativas. A revalidação está certa no conteúdo; o valor sugerido só a põe no vocabulário do codebook."
+ },
+ {
+  "id_item": "C234",
+  "sugestao": "original",
+  "valor_sugerido": "Os autores concluem que há mais voto estratégico com informação do que sem, que a heterogeneidade das preferências reduz o nível geral de voto estratégico e que o que determina o comportamento é a informação sobre a distribuição agregada das ordenações, não a sobre a intensidade.",
+  "trecho": "Finally, data support the behavioral prediction that (vi) information about the aggregate preferences is determinant for behavior.",
+  "pagina": 17,
+  "justificativa": "As duas trazem a mesma conclusão sobre o efeito da informação. A original também traz a conclusão sobre qual componente da informação importa, que os autores destacam no resumo e na conclusão e que diz respeito à própria exposição."
+ },
+ {
+  "id_item": "C235",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "pluralidade",
+  "trecho": "Plurality rule determines the winner, with ties broken by equal probability random draw.",
+  "pagina": 10,
+  "justificativa": "A regra de decisão do experimento é a pluralidade, e esse rótulo está no vocabulário do codebook. regra_do_experimento serve para regras de laboratório que não correspondem a um sistema nomeado, o que não é o caso aqui."
+ },
+ {
+  "id_item": "C236",
+  "sugestao": "original",
+  "valor_sugerido": "999",
+  "trecho": "They are set in an environment characterized by plurality rule and mandatory voting.",
+  "pagina": 3,
+  "justificativa": "O voto é obrigatório dentro do experimento, mas o codebook manda registrar 999 em experimento sem eleição real, e a eleição aqui é de laboratório com opções abstratas."
+ },
+ {
+  "id_item": "C237",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "viabilidade_estrategico",
+  "trecho": "Moreover, information about the realized aggregate distribution of preferences seems to be the element that best explains observed differences in voting behavior.",
+  "pagina": 1,
+  "justificativa": "Todos os testes tratam do voto estratégico em resposta à distribuição de apoio (pivô, Rank-Type). A comparação aggregate × full só identifica qual conteúdo alimenta esse cálculo, e como as opções são abstratas não há outro canal informativo, como aprender sobre a qualidade dos candidatos, para testar."
+ }
+]

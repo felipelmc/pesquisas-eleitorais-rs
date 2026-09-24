@@ -1,0 +1,178 @@
+[
+ {
+  "id_item": "C238",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "Estados Unidos — Kansas",
+  "trecho": "were asked if they were 18 years of age and eligible to vote in the United States",
+  "pagina": 26,
+  "justificativa": "Participantes de uma universidade do Meio-Oeste aptos a votar nos EUA, e a eleição dos três cenários é a de senador do Kansas (apêndice, p. 60, só em imagem: 'voting for Kansas' senator'); o codebook manda acrescentar o estado depois de travessão quando a eleição é subnacional."
+ },
+ {
+  "id_item": "C239",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Investigar se, e em que ponto, o percentual que um candidato independente preferido carrega nas pesquisas influencia a decisão de voto em uma eleição de três candidatos",
+  "trecho": "Q1: Does the percentage a preferred independent candidate carries in polls influence voting behavior?",
+  "pagina": 23,
+  "justificativa": "As duas versões dão a mesma pergunta central (as pesquisas influenciam o voto no independente); a original só a traduz e acrescenta o 'em que ponto', também declarado na p. 17 impressa."
+ },
+ {
+  "id_item": "C240",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Estudantes, docentes e funcionários de uma grande universidade metropolitana do Meio-Oeste dos Estados Unidos, maiores de 18 anos e aptos a votar, recrutados por convite de e-mail e por Facebook para um survey online",
+  "trecho": "Students, faculty and staff at a large metropolitan Midwestern university were recruited to participate in the study via an email invitation.",
+  "pagina": 26,
+  "justificativa": "Mesma população; a original acrescenta os filtros de idade e elegibilidade que o texto também declara."
+ },
+ {
+  "id_item": "C241",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Exposição a resultados de pesquisa de intenção de voto fictícios (pesquisa isolada de 1000 prováveis eleitores), em tabela dentro de um survey online, sobre uma eleição hipotética para senador do Kansas com três candidatos, em que se diz ao participante que o independente é o seu preferido. Cenário 1: independente em 5%, 15%, 25%, 35% ou 45%, republicano e democrata dividindo o restante (15 versões com permutação de ordem); cenário 2: independente em 25% e sorteio de qual grande partido lidera por 3 pontos; cenário 3: duas tabelas, de dois meses e de dois dias antes da eleição, com o independente subindo, estável ou caindo",
+  "trecho": "the percentage each of the three candidates received was assigned at random to the participant from a set of 15 options to determine the effect of polling percentages on independent voting likelihood.",
+  "pagina": 29,
+  "justificativa": "As duas descrevem a mesma exposição (pesquisa isolada em tabela no survey, três cenários sorteados); a original detalha os percentuais e a revalidação acrescenta o Kansas, e o valor sugerido junta as duas."
+ },
+ {
+  "id_item": "C242",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Outros resultados de pesquisa: no cenário 1, os braços com percentuais diferentes do mesmo candidato independente preferido são comparados entre si; no cenário 2, a versão com o democrata à frente é comparada à versão com o republicano à frente; no cenário 3, as tendências de alta, estabilidade e queda são comparadas entre si. Não há braço sem pesquisa",
+  "trecho": "The five versions of the first scenario have the independent candidate polling at 5%, 15%, 25%, 35%, and 45%, with the Republican and Democratic candidates each receiving approximately half the remaining percent.",
+  "pagina": 29,
+  "justificativa": "Os dois dizem que o comparador é outro resultado de pesquisa, sem braço sem pesquisa; a original também cobre o cenário 3."
+ },
+ {
+  "id_item": "C243",
+  "sugestao": "original",
+  "valor_sugerido": "Escolha de voto declarada entre os três candidatos do cenário hipotético (republicano, democrata, independente), recodificada em binária para indicar se o participante votou ou não no candidato independente preferido; é apoio ao candidato preferido, que aparece atrás nos braços de percentual baixo e à frente nos de percentual alto; medida individual",
+  "trecho": "the data in the five permutations (levels) was changed from three possible values (Republican, Democrat, Independent) to binary values (2=voted Independent, 1=didn’t vote Independent)",
+  "pagina": 32,
+  "justificativa": "O codebook pede dizer de quem é o apoio e se é individual ou agregado; só a original diz que o desfecho é o voto binário no independente e a posição dele na pesquisa."
+ },
+ {
+  "id_item": "C244",
+  "sugestao": "original",
+  "valor_sugerido": "Recurso: os percentuais de pesquisa mostrados para o candidato independente preferido e para os dois candidatos dos grandes partidos; Raciocínio: ao ver que o candidato preferido carrega pouco na pesquisa, o eleitor conclui que ele não tem chance de ganhar e desloca o voto para o segundo mais preferido, a fim de impedir a vitória do menos preferido, o que a autora testa pelo item de chance de vitória como preditor do voto na condição de 5%; Contexto: eleição de três candidatos em sistema de pluralidade, na qual o candidato independente é tratado como terceira via",
+  "trecho": "when a preferred candidate is not seen as likely to win, a voter will often vote for the second most preferred candidate to prevent a win for the least preferred candidate",
+  "pagina": 8,
+  "justificativa": "O recurso é a informação que a exposição entrega (os percentuais), não o item de survey usado para testar o mecanismo; e 'condição de 5% testada por regressão' não é contexto. A original preenche os três campos como o codebook pede."
+ },
+ {
+  "id_item": "C245",
+  "sugestao": "original",
+  "valor_sugerido": "Gênero e etnia: examinados em cada um dos três cenários, sem relação significativa com a tendência de votar no independente. Grau de partidarismo: escala de quatro pontos construída a partir do histórico de voto e comparada às respostas na condição de 45% do cenário 1; não foi preditor significativo (phi = 0,291), embora todos os participantes da metade menos partidária tenham escolhido o independente. Filiação partidária: regressões logísticas nos três cenários, todas fortemente não significativas. Idade: as tendências encontradas se mantiveram consistentes entre faixas etárias, mas a idade se correlacionou positivamente com o item de chance de vitória e com a atenção às pesquisas",
+  "trecho": "Logistic regressions were conducted for all three scenarios but in each case the results came back strongly insignificant",
+  "pagina": 46,
+  "justificativa": "A revalidação omite filiação partidária (p. 40 impressa) e idade (p. 44 impressa), que o texto examina como moderadores; a original cobre todos. O valor sugerido só acrescenta o phi da revalidação."
+ },
+ {
+  "id_item": "C246",
+  "sugestao": "original",
+  "valor_sugerido": "escolaridade: 999 ; posição socioeconômica ou classe social: 999 ; idade: o texto relata que as tendências encontradas para o voto no independente se mantiveram consistentes entre faixas etárias, sem diferença perceptível entre grupos, mas que a idade se relacionou positivamente com o item de chance de vitória e com a atenção às pesquisas",
+  "trecho": "Gender, ethnicity and age were all examined as they related to the tendency to vote strategically. In this case, there was no noticeable difference between these groups in likelihood to vote for the preferred Independent candidate.",
+  "pagina": 45,
+  "justificativa": "O texto examina idade frente ao voto no independente e não acha diferença; a revalidação diz que não há esse teste, o que o trecho contradiz."
+ },
+ {
+  "id_item": "C247",
+  "sugestao": "original",
+  "valor_sugerido": "Deserção estratégica do candidato terceiro: é o próprio objeto do estudo, que mede o abandono do candidato independente preferido quando ele aparece mal na pesquisa, e registra que parte dos respondentes (12,5%) já deixou de votar num candidato preferido por causa das pesquisas. Desmobilização: não foi medida; a autora reconhece que o questionário deveria ter incluído um item sobre supressão de voto e levanta o efeito sobre o comparecimento apenas como questão para pesquisa futura",
+  "trecho": "12.5% indicated they had in fact not voted for a preferred candidate because of the polls.",
+  "pagina": 32,
+  "justificativa": "O codebook lista a deserção estratégica de terceiros candidatos como efeito não intencional, e o texto a relata e testa; 999 não se sustenta."
+ },
+ {
+  "id_item": "C248",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Amostra não representativa da população geral (mais escolarizada, mais feminina, mais branca e mais jovem); etnia reduzida a branco e não branco pelos tamanhos de subgrupo; dados demográficos coletados depois de itens de filtro, impedindo analisar quem não é registrado ou não pretende votar; questionário não perguntou se o respondente votaria em algum independente nem mediu supressão de voto ou percepção sobre a validade das pesquisas",
+  "trecho": "Unfortunately, this research did not measure perceptions of the validity of polls, which is recommended for future research of this nature.",
+  "pagina": 49,
+  "justificativa": "As duas listam as mesmas limitações da seção Limitations. A original acrescenta a validade das pesquisas, que tem apoio no trecho, e o 'ambiente hipotético e artificial', que a autora não trata como limitação (ela defende o método); o valor sugerido tira esse item."
+ },
+ {
+  "id_item": "C249",
+  "sugestao": "original",
+  "valor_sugerido": "Não há declaração formal de hipóteses de identificação. A autora reporta checagens de equilíbrio entre condições: distribuições iguais de republicanos e democratas entre as duas versões do cenário 2 e ausência de diferenças significativas entre os grupos de respondentes do cenário 1; a ordem dos candidatos na tabela foi permutada para afastar efeito de ordem. Não há placebo, pré-tendências nem primeiro estágio",
+  "trecho": "despite no other changes to the model and no significant differences between the groups of respondents.",
+  "pagina": 43,
+  "justificativa": "O texto reporta equilíbrio de partido entre as versões do cenário 2 e ausência de diferenças entre grupos no cenário 1, que a revalidação omite; a checagem de gênero e etnia é sobre o voto, não por condição, como a revalidação diz."
+ },
+ {
+  "id_item": "C250",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Atribuição no nível do indivíduo: cada participante recebeu ao acaso uma das 15 versões do cenário 1 e uma das duas versões do cenário 2. O texto não reporta agrupamento de erros-padrão, tamanho médio de cluster nem ICC",
+  "trecho": "the percentage each of the three candidates received was assigned at random to the participant from a set of 15 options",
+  "pagina": 29,
+  "justificativa": "Os dois dizem atribuição individual e nenhuma informação sobre cluster ou ICC."
+ },
+ {
+  "id_item": "C251",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "nenhum",
+  "trecho": "a chi square test for independence was performed.",
+  "pagina": 32,
+  "justificativa": "Os dois dizem nenhum; a revalidação só acrescenta a justificativa (qui-quadrado bivariado)."
+ },
+ {
+  "id_item": "C252",
+  "sugestao": "original",
+  "valor_sugerido": "Não — o texto só traz checagens de equilíbrio e de confundimento (partido, gênero, etnia), sem placebo, pré-tendências, desfecho falso ou corte falso",
+  "trecho": "This result was not impacted by differences in the distribution of Republicans or Democrats between the",
+  "pagina": 35,
+  "justificativa": "O codebook só aceita Sim para placebo, pré-tendências, desfecho ou corte falso; checagem de balanceamento não é teste de falsificação."
+ },
+ {
+  "id_item": "C253",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "apoio_ao_lider: Tabela 6 (cenário 1), qui-quadrado de independência entre o percentual do candidato independente na pesquisa e o voto binário no independente, p. 27, com a mesma distribuição no Chart 1 (p. 28)",
+  "trecho": "A chi-square test of independence was conducted for scenario one to determine if respondents voted for their preferred independent candidate at different frequencies depending on what percentage that candidate is carrying in the polls.",
+  "pagina": 32,
+  "justificativa": "Os dois apontam o mesmo modelo, a Tabela 6 do cenário 1; a original só acrescenta as páginas."
+ },
+ {
+  "id_item": "C254",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "A autora conclui que as pesquisas influenciam o voto independente, porque a probabilidade de votar no candidato independente preferido cresce conforme o percentual que ele carrega na pesquisa, o que ela lê como voto estratégico numa eleição de três candidatos",
+  "trecho": "as poll numbers go up for the preferred Independent candidate, the likelihood of voters willing to vote for the candidate will also increase, confirming the hypothesis that polling data influence Independent voting behavior.",
+  "pagina": 6,
+  "justificativa": "As duas dão a mesma conclusão; a original acrescenta a leitura como voto estratégico, que a Discussão também faz (p. 37 impressa)."
+ },
+ {
+  "id_item": "C255",
+  "sugestao": "original",
+  "valor_sugerido": "pluralidade",
+  "trecho": "This is not the case, however, under simple plurality electoral rules where more than two parties compete.",
+  "pagina": 16,
+  "justificativa": "A eleição hipotética é para senador do Kansas, e o estudo se enquadra em eleições de três partidos sob regra de pluralidade (Duverger, voto estratégico). O experimento não tem regra de decisão própria, e o contexto sustenta pluralidade em vez de 999."
+ },
+ {
+  "id_item": "C256",
+  "sugestao": "original",
+  "valor_sugerido": "outro_resultado",
+  "trecho": "in the second question the preferred independent candidate was polling at 25%, while in one version of the two randomly assigned versions of the question, the Republican candidate was polling at 39%",
+  "pagina": 29,
+  "justificativa": "Os braços se comparam entre si por percentuais ou líderes diferentes, que é exatamente a categoria outro_resultado do codebook; 'outro' só vale quando nenhuma categoria serve."
+ },
+ {
+  "id_item": "C257",
+  "sugestao": "nenhum",
+  "valor_sugerido": "cenário 1, braços de 5%, 15% e 25%: 1 ponto percentual entre republicano e democrata, que lideram (ex.: 38% vs. 37% com o independente em 25%) ; cenário 1, braços de 35% e 45%: 999 (o independente passa à frente e os percentuais exatos de republicano e democrata não são reportados; pela regra de dividir o restante ao meio, a margem seria de cerca de 2 e 17 pontos) ; cenário 2: 3 pontos percentuais (39% vs. 36%) ; cenário 3, pesquisa mais recente: 0 ponto percentual (democrata 35% vs. republicano 35%, apêndice)",
+  "trecho": "For this reason, a one percent difference between the democratic and republican candidates in the first scenario was deemed a statistical tie",
+  "pagina": 30,
+  "justificativa": "A margem pedida é entre o primeiro e o segundo colocado. Nos braços de 35% e 45% o primeiro é o independente, logo 1 ponto entre D e R não é essa margem (erro da original). No cenário 2, os 3 pontos separam o primeiro do segundo, não o segundo do terceiro (erro da revalidação). O cenário 3 tem margem de 0 na pesquisa recente, que é igual em todos os braços (p. 39 impressa e apêndice na p. 61)."
+ },
+ {
+  "id_item": "C258",
+  "sugestao": "original",
+  "valor_sugerido": "lider + terceiro_inviavel",
+  "trecho": "When the Democratic candidate was in the lead in the poll, with the preferred candidate trailing in third",
+  "pagina": 44,
+  "justificativa": "A disputa tem três candidatos, e o codebook reserva azarao para disputas de dois. O independente aparece em terceiro nos braços de 5% a 25% e à frente nos de 35% e 45%, o que dá lider + terceiro_inviavel."
+ },
+ {
+  "id_item": "C259",
+  "sugestao": "original",
+  "valor_sugerido": "999",
+  "trecho": "One important question that was addressed in this research was whether hypothetical candidates can be used to measure the influence of polls.",
+  "pagina": 46,
+  "justificativa": "A eleição é hipotética, e o codebook manda 999 para experimento sem eleição real, ainda que a vinheta diga 'today you will be voting'."
+ }
+]
