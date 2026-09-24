@@ -1,0 +1,3 @@
+texto_A: v1
+texto_B: v2
+(não mostrar ao avaliador)

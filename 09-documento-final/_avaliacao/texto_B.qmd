@@ -1,0 +1,734 @@
+---
+title: "Pesquisas eleitorais publicadas mudam o voto?"
+subtitle: "Revisão sistemática rápida sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
+date: 2026-09-25
+keywords:
+  - pesquisas eleitorais
+  - efeito bandwagon
+  - efeito underdog
+  - comparecimento eleitoral
+  - revisão sistemática rápida
+  - síntese sem meta-análise
+  - GRADE
+  - Brasil
+metadata-files: [revista/_revista.yml]
+bibliography: revista/referencias.json
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-title: "Sumário"
+    number-sections: true
+  typst: default
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+# gerado por montar_revisao_final.py / montar_suplemento.py
+pendencias-abertas: 18
+rascunho: true
+nocite: |
+  @Agranov2012a, @Agranov2017a, @Alabrese2022a, @Alabrese2024a, @Araujo2021, @Araujo2021a, @Boukouras2020a, @Brugarolas2021, @Bursztyn2017b, @Bursztyn2017c, @Bursztyn2023a, @Chatterjee2019a, @Cornejo2023a, @Dahlgaard2015a, @Dahlgaard2015b, @Dahlgaard2016a, @Dahlgaard2017a, @Erlich2023, @Fairstein2018a, @Fairstein2019a, @Farjam2020a, @Feltovich2022, @Fichnova2015a, @Freden2016b, @Freden2024a, @Gandhi2019, @Gasperoni2015a, @Geers2018, @Gerber2017b, @Gerber2017c, @Gerber2020a, @Grillo2024c, @Groer2010a, @Kaplan2019a, @Klor2017a, @Lago2015, @Lammers2022a, @Meer2015a, @Meffert2011, @Meffert2012a, @Morton2013a, @Morton2015a, @Schlegel2023, @Stolwijk2016a, @Stolwijk2017a, @Stolwijk2019b, @Tal2015a, @Timotei2013a, @Tyszler2013, @Tyszler2015, @Unkelbach2022a, @Urminsky2019, @Westwood2020a, @Witsman2016a, @Yang2023d
+---
+
+<!--
+Este esqueleto é a fonte do texto do artigo. O revisao_final.qmd é gerado a partir dele por montar_revisao_final.py,
+que troca cada marcador de figura ou tabela pelo conteúdo gerado dos arquivos do projeto. Não edite o revisao_final.qmd.
+-->
+
+::: {.callout-warning}
+## RASCUNHO NÃO VALIDADO: 18 pendências humanas abertas
+
+Todas as etapas depois do protocolo foram conduzidas por agentes de IA, sem validação humana, e há 18 pendências humanas abertas. Por isso, os achados não devem ser citados como finais. Rascunho redigido por IA a partir dos arquivos do projeto e ajustado ao estilo do autor; não revisado pelo autor (P038). A última busca foi feita em 19/09/2026 nas bases e em 20/09/2026 na busca por citação, e o [Apêndice A](#sec-pendencias) lista as pendências.
+:::
+
+::: {.mensagens-principais}
+# Mensagens principais {#mensagens-principais .unnumbered}
+
+- **Apoio ao líder.** Nas duas células com mais estudos, os 4 experimentos de cada uma foram na direção *bandwagon*, quase todos em laboratório ou vinheta. A evidência é muito incerta sobre se ver uma pesquisa aumenta o apoio a quem ela mostra à frente (duas células, cada uma com [⊕◯◯◯]{.grade} certeza muito baixa). Uma decisão pendente pode tirar @Witsman2016a da célula do mesmo candidato atrás.
+- **Comparecimento.** Pesquisa apertada, frente a folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais (1 experimento de campo; [⊕⊕⊕◯]{.grade} certeza moderada). Ter visto pesquisas divulgadas pode aumentá-lo (2 estudos não randomizados; [⊕⊕◯◯]{.grade} certeza baixa), e projeções longe de 50:50 podem reduzi-lo (1 jogo *online*; [⊕⊕◯◯]{.grade} certeza baixa).
+- **Brasil.** O único estudo com dados só do Brasil [@Araujo2021a] trata da apuração parcial divulgada durante a votação, e não de pesquisa. A evidência é muito incerta sobre se ela aumenta o voto em quem aparece à frente (1 experimento natural; [⊕◯◯◯]{.grade} certeza muito baixa).
+- **O que não se sabe.** Se as pesquisas mudam o voto e, se mudam, quanto. Sozinha, a evidência não sustenta nem a restrição nem a manutenção das regras atuais de divulgação.
+
+:::
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Todo o documento depende da P038: o autor ainda não leu nem confirmou o relato que o autopiloto aprovou no portão G9. As demais pendências estão no [Apêndice A](#sec-pendencias), e cada seção indica as que a afetam.
+:::
+
+# Resumo executivo {#resumo-executivo .unnumbered}
+
+Pesquisas eleitorais voltam ao centro do debate brasileiro a cada eleição em que as urnas se afastam das estimativas dos institutos. Depois do primeiro turno de 2022, projetos de lei propuseram tornar crime a publicação de pesquisa que divergisse do resultado além da margem de erro e punir as empresas [@BrasilCamara2022PL2567; @BrasilSenado2022PL2558]. Em 2006, o STF derrubou o embargo que vedava a divulgação a partir do décimo quinto dia anterior à eleição, com base no direito à informação, e não em evidência sobre o efeito das pesquisas [@STF2006ADI3741]. A pergunta de fundo, raramente respondida com dados, é se ver uma pesquisa muda o voto de quem a vê.
+
+A resposta curta é que se sabe pouco. Nos experimentos, a direção dominante é *bandwagon*, a favor de quem aparece à frente, com certeza muito baixa e sem estimativa de tamanho. No comparecimento, o quadro é misto, e o único achado com certeza moderada é um efeito nulo ou trivial. Sobre o Brasil, a principal mensagem é a lacuna. A evidência não diz de quanto é o efeito das pesquisas sobre o voto, e tampouco permite afirmar que elas não têm efeito.
+
+Esta é uma revisão sistemática rápida, com protocolo congelado antes da busca. A busca cobriu o OpenAlex, em inglês, português e espanhol, e a Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) em 19/09/2026 e seguiu as citações dos estudos incluídos até 20/09/2026. Entraram 41 estudos (55 relatos), publicados de 2010 a 2024, a maioria dos Estados Unidos e da Europa, entre experimentos de *survey* e de laboratório, um experimento de campo, experimentos naturais e painéis. A evidência foi separada em células, que só juntam estudos com a mesma comparação e o mesmo tipo de desenho. Em cada uma, agentes de IA contaram para que lado apontam as estimativas e julgaram a certeza pelo GRADE.
+
+Nas duas células com mais estudos, que comparam ver pesquisa com não ver e ver o mesmo candidato à frente ou atrás, todos os experimentos foram na direção *bandwagon*. A evidência é muito incerta sobre se ver uma pesquisa aumenta o apoio a quem ela mostra à frente (8 experimentos em duas células, cada uma com certeza muito baixa; quase todos em laboratório ou com vinheta hipotética). Duas meta-análises exploratórias, com 3 estudos cada, deram estimativas positivas com intervalos de confiança que cruzam zero e inferência robusta não confiável. A regularidade rareia quando se olha só para eleições reais. Voto estratégico e *momentum* têm 1 ou 2 estudos por célula, todos com certeza muito baixa.
+
+O achado mais firme sobre o comparecimento vem do único experimento de campo, com 126.126 eleitores nos Estados Unidos. Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 pontos percentuais para mais ou para menos (certeza moderada). É evidência de que o efeito, se houver, é menor que isso, e não ausência de evidência. Ter visto a divulgação de pesquisas pode aumentar a intenção de votar ou o comparecimento (2 estudos não randomizados em eleições reais; certeza baixa), e ver projeções que mostram probabilidade de vitória mais distante de 50:50 pode reduzir a decisão de votar (1 jogo *online*; certeza baixa). A evidência é muito incerta sobre se divulgar boca de urna antes do fechamento das urnas muda o apoio ao líder ou reduz o comparecimento, com certeza muito baixa em todas as células.
+
+O único estudo com dados só do Brasil [@Araujo2021a] trata da divulgação oficial da apuração parcial com a votação ainda em curso, na eleição presidencial de 2018, e não de pesquisa eleitoral. Nenhum estudo incluído estima, com dados só do Brasil, o efeito de pesquisas pré-eleitorais publicadas, e o país aparece apenas entre os 46 do corte transversal de @Lago2015, que ficou fora da contagem principal. Tampouco se sabe se o voto obrigatório fecha o canal da desmobilização, porque nenhum estudo de comparecimento da síntese foi feito sob voto obrigatório. Sozinha, a evidência não sustenta nem a restrição nem a manutenção das regras atuais de divulgação. A decisão cabe a quem tem mandato para tomá-la, e o fundamento do STF em 2006 não depende desta evidência.
+
+Este documento é um rascunho. Todas as etapas depois do protocolo foram conduzidas por agentes de IA, sem validação humana, e há 18 pendências humanas abertas. A validação pode mudar a composição das células e, com ela, estas mensagens. Decisões de julgamento que podem mover estudos entre células ou mudar a certeza de algumas delas ficaram em aberto para o autor (@sec-limitacoes-processo), e o [Apêndice A](#sec-pendencias) lista as pendências.
+
+::: {.resumo}
+# Resumo {#resumo .unnumbered}
+
+**Contexto.** Regular a divulgação de pesquisas exige saber se elas mudam o voto.
+
+**Objetivos.** Avaliar se pesquisas eleitorais publicadas mudam o voto ou o comparecimento, e em que direção (*bandwagon* ou *underdog*).
+
+**Métodos.** Experimentos, experimentos naturais, quase-experimentos e painéis desde 2010, em qualquer idioma, sobre pesquisas, projeções, boca de urna ou apuração parcial. Busca no OpenAlex e na BDTD (19/09/2026) e por citação (20/09/2026). Risco de viés por RoB 2, ROBINS-I V2 e EPOC; contagem da direção por célula (SWiM); certeza GRADE. Agentes de IA fizeram tudo após o protocolo.
+
+**Resultados.** Dos 41 estudos incluídos (amostras em unidades diferentes), 27 formaram 18 células na síntese principal. Nas duas maiores, os 4 experimentos de cada uma foram *bandwagon*, quase todos em laboratório ou vinheta (IC 95% da proporção, 0,40 a 1,00), mas a evidência é muito incerta (cada uma com [⊕◯◯◯]{.grade} certeza muito baixa). Pesquisa apertada, frente a folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais ([⊕⊕⊕◯]{.grade} certeza moderada). Ter visto pesquisas pode aumentá-lo, e projeções longe de 50:50 podem reduzi-lo ([⊕⊕◯◯]{.grade} certeza baixa). A evidência sobre boca de urna é muito incerta. O único estudo com dados só do Brasil trata de apuração parcial, não de pesquisa.
+
+**Limitações.** Sem validação humana (18 pendências); 342 de 526 relatos não recuperados.
+
+**Conclusões.** A direção *bandwagon* nos experimentos tem certeza muito baixa, e não se sabe o tamanho do efeito, nem se ele existe.
+
+**Registro e financiamento.** Não registrada; sem financiamento.
+
+**Palavras-chave:** pesquisas eleitorais; efeito *bandwagon*; efeito *underdog*; comparecimento eleitoral; revisão sistemática rápida; síntese sem meta-análise; GRADE; Brasil.
+
+:::
+
+::: {.resumo lang="en"}
+# Abstract {#abstract .unnumbered}
+
+**Background.** Regulating poll publication depends on knowing whether polls change votes.
+
+**Objectives.** To assess whether published election polls change vote choice or turnout, and in which direction (bandwagon or underdog).
+
+**Methods.** Experiments, natural experiments, quasi-experiments and panels since 2010, in any language, on polls, forecasts, exit polls or partial counts. OpenAlex, BDTD and citations were searched on 19 and 20 September 2026. Risk of bias by RoB 2, ROBINS-I V2 and EPOC; direction counts per cell (SWiM); GRADE certainty. AI agents did every stage after the protocol.
+
+**Results.** Of the 41 included studies (samples in different units), 27 formed 18 cells in the main synthesis. In each of the two largest, all 4 experiments pointed in the bandwagon direction, almost all in laboratories or vignettes (proportion 1.00; 95% CI 0.40 to 1.00), but the evidence is very uncertain (each with [⊕◯◯◯]{.grade} very low certainty). A close rather than a lopsided poll probably does not change turnout by more than 2 percentage points ([⊕⊕⊕◯]{.grade} moderate certainty). Having seen poll releases may increase turnout, and forecasts far from 50:50 may reduce it ([⊕⊕◯◯]{.grade} low certainty). We are very uncertain about exit polls. The only study with data from Brazil alone concerns partial counts, not polls.
+
+**Limitations.** No human validation (18 open tasks); 342 of 526 reports were not retrieved.
+
+**Conclusions.** The bandwagon direction in experiments has very low certainty, and neither the size nor the existence of an effect is known.
+
+**Registration and funding.** Not registered; no funding.
+
+**Keywords:** election polls; bandwagon effect; underdog effect; voter turnout; rapid systematic review; synthesis without meta-analysis; GRADE; Brazil.
+
+:::
+
+# Introdução {#sec-introducao}
+
+## O problema e o debate brasileiro {#sec-problema}
+
+Pesquisas eleitorais estão entre as informações mais difundidas de uma campanha e, no Brasil, voltam ao centro do debate a cada eleição em que as urnas se afastam das estimativas dos institutos. Regular a divulgação depende de duas perguntas empíricas. A primeira é se ver uma pesquisa muda o voto de quem a vê. A segunda é em que direção, se a favor de quem lidera ou de quem está atrás. A pergunta é antiga na ciência política, e a resposta continua disputada.
+
+A Lei das Eleições obriga as entidades e empresas que realizam pesquisas eleitorais para conhecimento público a registrá-las na Justiça Eleitoral até cinco dias antes da divulgação, com contratante, valor, metodologia, plano amostral, margem de erro e questionário. A divulgação sem registro é punida com multa, e a de pesquisa fraudulenta é crime [@Brasil1997Lei9504]. A Resolução-TSE nº 23.600/2019 organiza o registro no PesqEle, exige a assinatura do estatístico e fixa a multa entre R$ 53.205,00 e R$ 106.410,00 [@TSE2019Res23600]. Não há período de silêncio. O art. 35-A, incluído pela Lei nº 11.300/2006, vedava a divulgação do décimo quinto dia anterior até as 18 horas do dia da eleição, mas o STF, nas ADIs 3.741, 3.742 e 3.743, declarou-o inconstitucional por restringir o direito do eleitor à informação, sem que o efeito das pesquisas sobre o voto entrasse no fundamento [@STF2006ADI3741].
+
+Depois do primeiro turno de 2022, o PL nº 2.567/2022, na Câmara, propôs tipificar como crime a publicação de pesquisa que diverge do resultado além da margem de erro [@BrasilCamara2022PL2567], e o PL nº 2.558/2022, no Senado, propôs punir as empresas [@BrasilSenado2022PL2558]. Em 24/09/2026, o primeiro tramitava apensado ao PL nº 96/2011, pronto para pauta,^[Tramitação na Câmara dos Deputados, consultada em 24/09/2026: <https://dadosabertos.camara.leg.br/api/v2/proposicoes/491042>.] e o segundo aguardava relator. Um requerimento de CPI sobre os institutos reuniu 30 assinaturas [@SenadoNoticias2022CPIPesquisas]. O levantamento da ESOMAR e da WAPOR cita o Brasil entre os países em que lideranças cogitaram multar ou prender responsáveis por pesquisas que não batessem com as urnas e aponta a América Latina como a região com maior proporção de países com embargo, de sete dias na mediana [@ESOMARWAPOR2022].
+
+O debate sobre os "erros das pesquisas" mistura outras duas perguntas. Uma é a da precisão. @Meireles2022 analisaram mais de 2 mil pesquisas registradas em cinco eleições, de 2012 a 2020, e mostram que ela melhora perto da eleição e com amostras maiores, em nível comparável ao de outros países. A outra é a da mudança real de opinião na reta final. @PereiraNunes2024 atribuem parte da distância entre pesquisas e urnas em 2022 ao voto estratégico e à decisão tardia, e, nos cenários de realocação, a diferença de cerca de 10 pontos percentuais cai para 7,4 a 7,9 pontos. Nenhuma das duas é a pergunta desta revisão.
+
+## Como a exposição poderia agir {#sec-como-agiria}
+
+Seguimos a distinção conceitual de @Barnfield2019. O *bandwagon* é a mudança individual da escolha de voto ou da decisão de comparecer na direção de quem está mais popular ou ganhando popularidade, motivada por essa popularidade, e o *underdog* é o padrão oposto. O voto estratégico, em que o eleitor abandona uma opção sem chance, pode ser confundido com *bandwagon* sem que a popularidade o atraia. Barnfield separa ainda o *bandwagon* estático (nível) do dinâmico (variação) e a conversão (preferência) da mobilização (comparecimento). Retoma também a distinção entre *bandwagon* e efeito "Titanic". Deixar de votar porque o próprio partido não tem chance não é *bandwagon*, e por isso a desmobilização tem célula própria aqui.
+
+O modelo lógico do protocolo (@fig-modelo-logico) parte da exposição, que atualiza a percepção de viabilidade (E1), e só o cálculo estratégico (E2) passa por ela. Heurística de consenso (E3), conformidade ou desejo de estar com quem vence (E4), simpatia pelo azarão (E5) e emoções (E6) saem direto da exposição. E2 a E4 levam ao *bandwagon*, E5 ao *underdog*, e E6 tem direção ambígua. Tracejados, há dois efeitos não intencionais: a complacência, que reduz o comparecimento (E7), e a divulgação de pesquisas enviesadas por atores interessados (E8), que age sobre o conteúdo da pesquisa. Nos desenhos observacionais, o apoio latente move pesquisa e voto, e o interesse político e a preferência prévia movem exposição e voto. São esses os confundidores que o risco de viés examina. Responder ao *survey* é um colisor, e o apoio de hoje alimenta a pesquisa seguinte. Com canais de sinais opostos, um efeito médio perto de zero não significa que ninguém mude de voto. O modelo é rascunho de IA aprovado no portão G2, sem seta conferida em texto completo.
+
+::: {.figura-larga}
+
+![Modelo lógico da exposição a pesquisas eleitorais publicadas, redesenhado do grafo acíclico dirigido do protocolo. A percepção de viabilidade (E1) só chega ao apoio pelo cálculo estratégico (E2); heurística de consenso, conformidade, simpatia pelo azarão e emoções (E3 a E6) saem direto da exposição. Complacência, desmobilização e divulgação enviesada (E7 e E8) são efeitos indesejados e aparecem em tracejado. Apoio latente, interesse político e preferência prévia são confundidores (em cinza), e a resposta ao *survey* é um colisor: condicionar a análise a ela abre um caminho espúrio entre exposição e apoio. A recorrência entre pesquisas e voto aparece desdobrada no tempo (pesquisa anterior e pesquisa seguinte). Os moderadores da teoria ficam fora do grafo, no quadro à direita. Rascunho de IA aprovado no G2; nenhuma seta foi conferida em texto completo.](revista/figuras/saida/modelo_logico){#fig-modelo-logico fig-alt="Diagrama de setas que liga a exposição à pesquisa ao apoio a quem aparece à frente por cinco mecanismos, com confundidores à esquerda, um colisor, efeitos indesejados tracejados e, à direita, um quadro com os moderadores."}
+
+:::
+
+Cada teoria prevê um padrão numa célula. O *bandwagon* dá estimativa positiva na célula principal, a do apoio a quem a pesquisa mostra à frente, e o *underdog*, negativa. O voto estratégico aparece na viabilidade, como deserção para a opção viável; o *bandwagon* dinâmico, no *momentum*; e a complacência, como estimativa negativa no comparecimento. O protocolo registrou ainda três teorias rivais: (i) efeitos que se anulam no agregado; (ii) efeito só sobre a expectativa, que muda o que o eleitor espera, e não o que faz; e (iii) efeito artefatual, maior em laboratório e vinheta que em eleição real. O @qdr-glossario resume os termos e diz como ler a revisão.
+
+::: {#qdr-glossario tbl-colwidths="[24,76]"}
+
+| Termo | Como é usado nesta revisão |
+|------------------------|----------------------------------------------------------------------------|
+| Como ler | A revisão não estima o tamanho do efeito. Ela conta em que direção apontam os estudos de cada célula, e a certeza GRADE qualifica essa direção, e não a magnitude. |
+| Exposição | Contato com resultado de pesquisa eleitoral em quatro formatos: pesquisa pré-eleitoral; agregador ou projeção; boca de urna divulgada antes do fechamento das urnas; e, pela Emenda 1, apuração parcial oficial divulgada com a votação em curso. |
+| *Bandwagon* e *underdog* | Estimativa positiva (*bandwagon*) ou negativa (*underdog*) no apoio a quem a pesquisa mostra à frente, na célula principal. |
+| Viabilidade | Efeito sobre opções mostradas como viáveis ou inviáveis (segundo colocado viável, terceiro sem chance, partido perto da cláusula de barreira). Positivo quer dizer deserção para a opção viável. |
+| *Momentum* | Pesquisa que mostra um partido ganhando ou perdendo apoio sem mostrar sua posição (Emenda 4b). Positivo quer dizer a favor de quem ganha apoio. |
+| Mobilização e desmobilização | Efeito sobre o comparecimento ou a intenção de comparecer. Negativo quer dizer desmobilização, o efeito indesejado previsto pela teoria. |
+| Célula | Formato de exposição × desfecho × comparador × alvo × classe de desenho. Estudos randomizados e não randomizados nunca se juntam. |
+| Direção e "x de y" | x estudos na direção positiva entre os y com direção definida. Estudos nulos e mistos ficam fora do denominador. A direção vem da estimativa pontual, nunca da significância. Um estudo com vários efeitos tem direção quando 70% deles apontam para o mesmo lado; se não, é misto. |
+| δ e nulo por ±δ | δ vale 2 pontos percentuais, isto é, 2 em cada 100 eleitores, convertidos em g: 0,044 no apoio, 0,046 no comparecimento e 0,0573 na célula de pesquisa frente a nenhuma pesquisa. Efeito com IC 95% inteiro dentro de ±δ é nulo ou trivial. |
+| Fora da contagem | Efeitos principais que não estimam o contraste da exposição (interações com moderadores contínuos, contrastes de formato da mesma previsão, alvos opostos somados) ou que aguardam conferência. Entram só na narrativa e numa sensibilidade ([S7](suplemento.html#s7-fora-da-contagem)). |
+| Certeza (GRADE) | ⊕⊕⊕⊕ alta, ⊕⊕⊕◯ moderada, ⊕⊕◯◯ baixa e ⊕◯◯◯ muito baixa, com as frases "provavelmente" (moderada), "pode" (baixa) e "a evidência é muito incerta sobre" (muito baixa). |
+| Inconclusivo | Rótulo da caixa de ferramentas (regra caixa-3) para certeza muito baixa ou estudos insuficientes. Não quer dizer que as pesquisas não têm efeito. |
+| Estudo e relato | Um estudo pode ter vários relatos (artigo, *working paper*, tese). |
+
+Glossário e como ler esta revisão.
+
+:::
+
+## Por que esta revisão {#sec-por-que}
+
+Quatro revisões tocam o tema. @Hardmeier2008 é um capítulo de síntese sobre efeitos de pesquisas publicadas no *SAGE Handbook of Public Opinion Research*; sem texto aberto, não verificamos seu conteúdo, e ele entra aqui só como referência para o recorte de 2010. @MoyRinke2012, numa revisão narrativa sem método de seleção descrito, organizam os efeitos em comparecimento (mobilizador ou desmobilizador) e preferência (*bandwagon*, *underdog* e voto estratégico) e concluem que a literatura não permitia dizer qual dos dois efeitos era mais comum. @Barnfield2019 é uma revisão conceitual, que declara não ser meta-análise nem revisão sistemática. @Cosgun2026 é uma revisão sistemática sobre campanhas, numa só base e só em inglês, em que as pesquisas são uma entre várias linhas teóricas e nenhum efeito é estimado. A checagem de 19/09/2026, no OpenAlex, no OSF Registries e na BDTD, não achou síntese posterior a 2008 sobre o efeito de pesquisas publicadas no voto nem revisão registrada em andamento, e listou a revisão de campanhas como periférica.
+
+Esta revisão faz três contribuições: (i) a primeira síntese, com protocolo congelado e busca documentada, da evidência causal publicada desde 2010; (ii) a separação da evidência em células, que distingue *bandwagon* de voto estratégico e de *momentum* e nunca junta sorteio com observação, com risco de viés por desenho e certeza por célula; e (iii) uma leitura dirigida ao debate brasileiro, com os fatores de transferibilidade fixados no protocolo. É também um rascunho produzido por agentes de IA, e tudo o que vem depois do protocolo espera validação humana.
+
+## Objetivos {#sec-objetivos}
+
+A pergunta principal do protocolo é: "A exposição a resultados de pesquisas eleitorais publicadas altera a intenção ou a escolha de voto do eleitorado, em comparação com a não exposição ou com a exposição a outro resultado, e em que direção (*bandwagon* ou *underdog*)?" As secundárias são se ela reduz o comparecimento (a desmobilização, efeito indesejado), por quais mecanismos, para quem, onde e quando, e se os achados diferem entre Brasil e América Latina e as demais regiões. É avaliação *ex post* de um fenômeno, e não de um programa.
+
+De forma antecipada, é possível destacar que, nos experimentos, a direção é *bandwagon*, com certeza muito baixa e sem estimativa de tamanho. Uma pesquisa apertada, frente a uma folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais (certeza moderada), e os demais achados têm certeza baixa ou muito baixa. Não há estudo de pesquisas com dados só do Brasil. Seguem os métodos (@sec-metodos), os resultados (@sec-resultados), a discussão (@sec-discussao), as implicações (@sec-pratica) e as conclusões (@sec-conclusoes).
+
+# Métodos {#sec-metodos}
+
+## Protocolo, tipo de revisão e desvios {#sec-protocolo}
+
+O autor aprovou o protocolo no portão G2, em 19/09/2026, e ele foi congelado com sha256 no *log* do projeto, sem registro. É uma revisão sistemática de efetividade com síntese sem meta-análise (SWiM), na variante rápida, relatada pelo PRISMA 2020 [@Page2021PRISMA; @Page2021PRISMAEE], pelo PRISMA-S na busca [@Rethlefsen2021PRISMAS] e pelo SWiM nas sínteses [@Campbell2020SWiM], com o PRISMA-trAIce só como lista de conferência ([S11](suplemento.html#s11-checklists) dá o local de cada item). A estrutura OQF [@Schaefer2025OQF; @Lamarca2026Livro] ganhou, por acréscimo declarado, a Discussão das revisões Campbell e Cochrane. A variante rápida foi escolha do autor para cortar etapas. Não houve prazo externo nem consulta a *stakeholders*, que a diretriz de revisões rápidas associa a esse tipo de revisão [@Garritty2024Rapid].
+
+Cada atalho foi cruzado com essa diretriz. (i) As fontes restritas a OpenAlex e BDTD, mais busca por citação (A1), atendem no limite à recomendação 5, "Select a small number (but at least two) bibliographic databases that are likely to contain relevant literature", porque a BDTD é catálogo de teses, e atendem à 7, "Assess the need for grey literature and supplemental searching. Justify the sources to be searched". (ii) Triagem, elegibilidade, extração, risco de viés e certeza por IA, sem validação humana (A2), não correspondem a nenhum atalho aceito: as recomendações 9, 12, 16 e 23 pedem uma segunda pessoa, como a 16, "Have one person perform the risk of bias assessment, with a second person verifying the judgements". (iii) As âncoras montadas por subagente isolado (A3) não têm recomendação correspondente. (iv) O PRESS só por subagente (A4) atende à recomendação 6, "Use the PRESS checklist to peer review the primary search strategy", apenas na forma mínima que ela admite, e a 4, de envolver um especialista em informação, não foi seguida nem declarada como atalho. (v) A falta de contato com autores (A5) também não tem recomendação correspondente. O cruzamento completo está em [S2](suplemento.html#s2-atalhos).
+
+As contingências E001 e E002 foram acionadas antes da triagem, as Emendas 3 e 4 fixaram convenções antes de qualquer análise de efeito, e as Emendas 1, 2, 5 e 6b vieram depois de ver dados. Em particular, a estrutura de células, com o alvo do efeito como quinta dimensão, e a lista de efeitos fora da contagem foram fixadas pela Emenda 5, depois da primeira síntese. Por isso, o agrupamento amplo é só descritivo. Detalhes em [Informações adicionais](#informacoes-adicionais) e em [S3](suplemento.html#s3-emendas).
+
+## Critérios de elegibilidade {#sec-elegibilidade}
+
+Os critérios, resumidos no @qdr-picoc, foram população e contexto (C1), exposição estudada como objeto empírico (C2), desfecho de voto ou de comparecimento (C3), desenho experimental, experimento natural, quase-experimento com variação identificada ou painel individual com exposição medida antes do desfecho (C4), estudo primário (C5) e ausência de retratação (C6). Ficaram de fora a percepção autodeclarada de influência, simulações, estudos agregados sem variação identificada e os que usam a pesquisa só como fonte de dados. Valeram relatos publicados desde 01/01/2010 (ano do OpenAlex e ano de defesa na BDTD), pela mudança do ambiente informacional, sem restrição de idioma nem de status de publicação. Texto não obtido ficou como não recuperado, nunca como excluído. A Emenda 1 pôs a apuração parcial oficial no C2 depois de conhecer o estudo brasileiro. O agrupamento em cada síntese está na @sec-sintese.
+
+::: {#qdr-picoc tbl-colwidths="[18,82]"}
+
+| Elemento | Definição |
+|------------------|----------------------------------------------------------------------------------|
+| População (P) | Eleitores ou participantes que escolhem entre candidatos, partidos ou opções de referendo, em eleição real, hipotética ou de laboratório (inclusive com preferências induzidas), em qualquer país; unidades eleitorais agregadas |
+| Exposição (I) | Contato com resultado de pesquisa eleitoral, em três formatos: pesquisa pré-eleitoral, agregador ou projeção e boca de urna divulgada antes do fechamento das urnas; pela Emenda 1, também a divulgação oficial de apuração parcial durante a votação. Vale a exposição manipulada, a variação natural identificada e a exposição medida no indivíduo |
+| Comparador (C) | Nenhuma pesquisa; o mesmo candidato mostrado atrás; outro resultado de pesquisa; antes e depois de uma proibição; unidades não expostas |
+| Desfechos (O) | Apoio a quem a pesquisa mostra à frente (intenção de voto, escolha declarada ou incentivada, votação agregada), com sinal positivo para *bandwagon*; comparecimento (declarado, validado, agregado ou intenção), com sinal negativo para desmobilização |
+| Contexto (Co) | Estudos primários publicados desde 2010, em qualquer idioma; Brasil e América Latina marcados para a análise regional |
+
+Pergunta e critérios no formato PICOC (protocolo, seções 2 e 4).
+
+:::
+
+## Fontes e busca {#sec-busca}
+
+No OpenAlex, a busca usou título e resumo, com três estratégias: inglês (B05, 1.438 registros), português (B02, 118) e espanhol (B03, 131). Na BDTD, usou todos os campos (B04, 80). Todas rodaram em 19/09/2026, com quatro fios unidos por OR: pesquisa ou projeção com efeito nomeado; *survey* eleitoral com efeito nomeado; exposição a resultado de pesquisa com desfecho de voto; e exposição com comparecimento. O filtro de ano do OpenAlex foi de 2008 a 2026, e o corte de 2010 veio depois, por *script*. A busca por citação no OpenAlex, para trás e para frente, a partir dos incluídos e das revisões achadas, teve três rodadas: SN1 (38 sementes, 1.189 registros, 19/09/2026), SN2 (12, 411, 20/09/2026) e SN3 (3, 106, 20/09/2026). A B01 foi substituída pela B05 (E002), e seus 1.235 registros ficaram fora dos identificados. Não houve Web of Science, Scopus, SciELO nem sites de literatura cinzenta. A deduplicação foi por *script*, com os pares incertos sem decisão, e as estratégias, como executadas, estão em [S1](suplemento.html#s1-busca).
+
+A validação usou 19 âncoras, montadas por subagente isolado (A3). A versão v4 da estratégia em inglês recuperou 15 de 19, e a v5, 19 de 19. Como as 4 perdidas orientaram a correção, o *recall* final não é evidência independente. Não houve âncora em português ou espanhol. Uma pré-revisão por IA da estratégia ativa, em 23/09/2026, apontou lacunas: faltam termos de proibição ou embargo de divulgação e de apuração parcial (@Lago2015 e @Araujo2021a só vieram pela busca por citação), o fio de comparecimento é estreito, e a BDTD não tem termo de comparecimento.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+A estratégia de busca não teve revisão PRESS humana (P001), e o portão G3, que aprovou a busca, espera confirmação (P004). Uma busca suplementar com os termos que faltam pode mudar o conjunto de estudos incluídos.
+:::
+
+## Seleção dos estudos {#sec-selecao}
+
+Antes da triagem, *scripts* removeram os duplicados (46 nas bases e 4 nos outros métodos) e os relatos publicados antes de 2010 (148 e 648, 796 no total), exclusão determinística por metadado prevista no protocolo. Na triagem de títulos e resumos, dois triadores de IA independentes (A = `claude-sonnet-5`; B = `claude-opus-5`) aplicaram critérios versionados pela regra liberal, em que bastava um incluir ou marcar incerto para o registro seguir. Nenhuma pessoa triou, e as 81 divergências ficaram na fila humana, sem arbitragem. A concordância A × B na primeira onda foi de 0,97 (κ 0,90; PABAK 0,94), que mede consistência, e não acurácia. O *recall* não foi calculado, porque as amostras de validação (141 registros) e de elusão (300) não foram codificadas por humanos.
+
+Pela Emenda 6b, os 336 registros sem resumo, antes excluídos pelo título sem conferência do autor, foram triados de novo por dois triadores de IA (A = `claude-sonnet-5`; B = `claude-opus-5-5`), com resumo recuperado em fontes legítimas para 172. Só se excluía quando os dois excluíam, com trecho literal do resumo. Houve 156 exclusões, e 180 registros seguiram ao texto completo: 15 foram recuperados e excluídos, e 165 ficaram como não recuperados. O autor dispensou a conferência humana dessa etapa.
+
+No texto completo, um subagente de IA por PDF propôs a elegibilidade com trecho literal e página, conferidos por *script*, e ficha reprovada foi refeita por outro subagente. O autor decidiu 17 casos limítrofes, e em 3 a IA estendeu a caso novo uma regra que ele tinha decidido para outro grupo. As 165 decisões propostas (47 de inclusão e 118 de exclusão) aguardam conferência. Relatos do mesmo estudo foram ligados antes da extração, as retratações foram checadas, e nenhum PDF veio de Sci-Hub ou de outra fonte não autorizada.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+A seleção não tem validação humana. Faltam revisar os 145 pares candidatos de duplicata (P019), resolver as 81 divergências da triagem (P020), codificar às cegas as amostras de validação e de elusão (P006 e P007), conferir as 165 decisões de elegibilidade (P041) e confirmar os portões G4 e G5 (P008 e P023). Qualquer uma pode mudar o conjunto de incluídos.
+:::
+
+## Extração {#sec-extracao}
+
+O *codebook* tem variáveis próprias desta literatura (realismo do contexto, comparador, alvo do efeito, sistema eleitoral, voto obrigatório, região, ano da eleição). O piloto com três estudos [@Meer2015a; @Klor2017a; @Araujo2021a] levou à Emenda 2, decidida pelo coordenador de IA. Na rodada completa, um subagente `claude-opus-5` por texto preencheu a ficha, com trecho e página conferidos por *script*: 560 efeitos de 40 estudos, 70 deles principais. O modelo principal seguiu regra escrita antes (o declarado pelos autores; na falta, o usado na interpretação; por fim, a regra do protocolo; nunca o de menor valor-p). Um segundo subagente (`claude-sonnet-5`) recodificou às cegas 10 estudos sorteados, com 58,5% de concordância em 560 comparações e 37 variáveis abaixo do limiar. Não houve contato com autores (A5).
+
+O g de Hedges é a métrica comum. Proporções, pontos percentuais e razões de chances foram convertidos pelo log da razão de chances com a proporção do grupo de comparação (d = ln(OR)·√3/π), com as conversões aproximadas marcadas, e o logit que não relatou efeito marginal, por OR = exp(β). O probit na mesma situação e os estudos sem t, β ou r entraram só pela direção, com o sinal dos pontos percentuais, de p1 − p0 ou de ln(OR). Nos conglomerados sem ICC relatado, a variância foi multiplicada pelo efeito de desenho, com ICC imputado de 0,05 (Emenda 4c) e sensibilidade em 0,20. Os efeitos principais de @Tyszler2015 e a proporção de referência de @Brugarolas2021 foram lidos de figura, o n por célula foi derivado em @Lammers2022a e @Meffert2011, e o efeito de @Kaplan2019a é valor derivado.
+
+Antes da síntese, um subagente `claude-opus-5-5` reextraiu às cegas os efeitos do modelo principal dos 40 estudos com dados. Nos 56 efeitos principais originais, 15 concordaram, 23 tinham o mesmo valor com outra classificação, 12 tinham outro valor e 6, outro sinal. Nos 28 estudos com divergência, um árbitro de IA do mesmo modelo, um PDF por agente, decidiu pelo texto, com trecho e página. O coordenador de IA aplicou 772 correções, 240 delas estendidas a linhas análogas sem nova arbitragem, e barrou 40 que dependiam de um erro dele no *prompt* do árbitro.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Nenhum dos 560 efeitos foi conferido por humano na página do texto completo (P039). Faltam arbitrar as 259 divergências da recodificação cega (P037), conferir o piloto (P025) e confirmar o portão G6 (P026).
+:::
+
+## Risco de viés {#sec-rob-metodos}
+
+Experimentos aleatorizados foram avaliados com o RoB 2, com a variante por conglomerado [@Sterne2019RoB2], e experimentos naturais, quase-experimentos com dados individuais e painéis, com o ROBINS-I V2, versão ainda em rascunho [@Sterne2016ROBINSI; @Sterne2025ROBINSIV2]. Para exposição não atribuída, o instrumento canônico seria o ROBINS-E, que os *scripts* da revisão não traziam, o que fica como limitação. Proibições e embargos com unidades agregadas foram avaliados com os critérios EPOC [@EPOC2017RoB], com sequência e ocultação fora do julgamento geral (Emenda 4a). Os *codebooks*, com os confundidores do modelo lógico, foram copiados para o protocolo antes de qualquer avaliação (Emenda 3). Dois avaliadores de IA independentes (A = `claude-opus-5-5`; B = `claude-sonnet-5`) julgaram cada resultado, com trecho e página, e a concordância virou consenso automático. Nos desacordos, decidiu um árbitro de IA do mesmo modelo do avaliador A, em contexto novo, escolhido pelo autor por custo no lugar do previsto no protocolo (Emenda 3). Nenhum julgamento foi validado por humano. Resultados em risco crítico ficaram fora da análise principal e entraram numa sensibilidade, e o risco de viés entrou no domínio correspondente do GRADE.
+
+## Síntese {#sec-sintese}
+
+A unidade da síntese é a célula: formato de exposição × desfecho × comparador × alvo (principal, viabilidade, *momentum*, mobilização) × classe de desenho. Randomizados e não randomizados nunca se juntaram, e contrastes antes e depois no mesmo sujeito foram à classe não randomizada (Emenda 5). O alvo separa *bandwagon*, voto estratégico e *momentum*, como prevê o modelo lógico (@sec-como-agiria). A estrutura foi fixada depois de ver a primeira síntese, e o agrupamento amplo (desfecho × alvo × classe) é só descritivo.
+
+A métrica é o g de Hedges, com o sinal da convenção de cada alvo. Na célula principal, positivo é *bandwagon*, e negativo, *underdog*. Na viabilidade, positivo é mais apoio à opção mostrada como viável ou menos à inviável; no *momentum*, a favor do partido mostrado ganhando apoio; no comparecimento, mobilização. Nas proibições [@Chatterjee2019a; @Morton2015a], o efeito foi reorientado para o da exposição. A convenção é técnica, sem juízo normativo.
+
+A contagem usou a direção da estimativa pontual, nunca a significância [@Boon2021EffectDirection], e um estudo com vários efeitos teve direção quando 70% deles iam para o mesmo lado. Por célula, calcularam-se a proporção na direção positiva, com IC 95% exato de Clopper-Pearson [@Clopper1934IC], e o teste de sinal binomial exato bilateral [@Nikolakopoulos2020SignTest]. O método responde se há evidência de efeito numa direção, e não qual é o efeito médio [@Campbell2020SWiM]. O δ de 2 pontos percentuais, convenção do protocolo sem *benchmark* de campo, foi convertido em g de 0,044 no apoio (referência 0,50), 0,046 no comparecimento (0,60) e 0,0573 na célula de pesquisa frente a nenhuma pesquisa (mediana das proporções de comparação da célula), e efeito com IC 95% inteiro dentro de ±δ foi classificado como nulo. A análise principal excluiu os resultados em risco crítico, como previa o protocolo, e os efeitos principais que não estimam o contraste da exposição ou aguardam conferência, por decisão da Emenda 5 tomada depois de ver os dados (motivos em [S7](suplemento.html#s7-fora-da-contagem)). O teste de sinal combina direções, não informa a magnitude e não distingue estudos grandes com efeitos pequenos de estudos pequenos com efeitos grandes. Com p < 0,05, indicaria só que a proporção numa direção difere de metade, e, com poucos estudos pequenos, p acima de 0,05 não indica ausência de efeito. É análise secundária e não define rótulo.
+
+Nas duas células com 3 estudos com g, houve meta-análise exploratória por CHE (REML), com variância robusta CR2, graus de liberdade de Satterthwaite e ρ = 0,6 (sensibilidade em 0,2, 0,5 e 0,8), e graus de liberdade abaixo de 4 foram lidos como inferência não confiável [@Pustejovsky2022CHE]. Os pacotes foram o metafor 5.0.1 [@Viechtbauer2010Metafor] e o clubSandwich [@Pustejovsky2026ClubSandwich]. τ², τ, I² e intervalo de predição são relatados, mas não interpretados com k < 5. Com menos de dez estudos por célula, não testamos assimetria. A certeza de cada meta é a da célula.
+
+Nenhuma célula teve 3 estudos por nível de moderador, e a comparação ficou descritiva, sem teste. As sensibilidades foram, nas células do protocolo, com os críticos e com ICC de 0,20; no agrupamento amplo, *post hoc*, só com contexto real, sem dados anteriores a 2010, sem @Araujo2021a e com os efeitos fora da contagem; e, nas metas, *leave-one-out*, ρ e ICC. Os gráficos são a proporção por célula (@fig-celulas), a direção por estudo, ordenada por célula, desenho e risco de viés, com símbolo de tamanho constante porque os n estão em unidades diferentes (@fig-direcao; desvio declarado do *effect direction plot*), e *forest plots* sem intervalo de predição.
+
+## Certeza da evidência {#sec-certeza}
+
+A certeza foi julgada pelo GRADE, por célula [@Guyatt2008GRADE], com randomizados e não randomizados em corpos separados e os domínios adaptados para síntese sem meta-análise [@Murad2017GRADE]. Randomizados e não randomizados avaliados com ROBINS-I V2 partiram de alta, estes com rebaixamento por risco de viés, e corpos só com EPOC ou com as duas ferramentas, de baixa. A indireção considerou o contexto eleitoral, o realismo e o estimando; a inconsistência, a coerência das direções; a imprecisão, o número de estudos e de participantes e a largura do IC da proporção, frente a δ; e o viés de publicação, a limitação de fontes, a triagem complementar só por IA, a ausência de nulos e o tamanho dos estudos. Um subagente (`claude-opus-5-5`) rascunhou os juízos em 24/09/2026, sem segundo avaliador, com cada rebaixamento justificado por escrito (notas da @tbl-sof). A certeza qualifica a direção, e não a magnitude, e, na célula com efeito nulo por ±δ, a classificação como nulo ou trivial. Os enunciados usam as frases padronizadas [@Santesso2020GRADE].
+
+A caixa de ferramentas aplica por *script* a regra caixa-3 [@Schaefer2025OQF; @Lamarca2026Livro] à mesma tabela de achados, nesta ordem: Pendente, sem certeza; Inconclusivo, com certeza muito baixa; Misto, só com meta-análise de 5 ou mais estudos, intervalo de predição além de ±δ dos dois lados e explicação com certeza própria; Positivo ou Negativo, com meta-análise de IC de um só lado de zero e certeza pelo menos baixa ou, sem meta-análise, com teste de sinal de p < 0,05, 5 ou mais estudos, 70% numa direção, não só estudos em risco alto e certeza pelo menos baixa; Nulo, com meta-análise de IC dentro de ±δ e certeza pelo menos moderada; e Inconclusivo nos demais casos. A "Força" da caixa é a certeza, e não o tamanho.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Nenhum juízo GRADE foi validado por humano (P036 e P042), e o portão G8 espera confirmação (P035). O rascunho deixou três decisões para o autor, descritas na @sec-limitacoes-processo.
+:::
+
+## Uso de IA e supervisão humana {#sec-ia}
+
+Um coordenador de IA, o Claude Opus 5.5 (`claude-opus-5-5`), executou os *scripts* da ferramenta de revisão sistemática no Claude Code e distribuiu o trabalho entre subagentes, com os modelos de cada etapa dados da @sec-selecao à @sec-certeza. O único humano, o autor, aprovou a pergunta e o protocolo (portões G1 e G2), decidiu as Emendas 1, 4 (itens 4a a 4c) e 6b e 17 casos limítrofes de elegibilidade, e escolheu por custo o árbitro do risco de viés (Emenda 3). Os portões G3 a G9 foram aprovados em autopiloto quando as checagens do *script* passaram, e cada aprovação abriu uma pendência humana. Em 23/09/2026, o autor declarou que não tinha conferido decisões que o *log* registrava como dele, e a Emenda 6a corrigiu a atribuição.
+
+A reescrita deste texto, em 24/09/2026 e 25/09/2026, usou subagentes Opus (`claude-opus-5-5`) para ler, só em textos abertos e legítimos, as regras do livro que orienta a revisão, revisões exemplares, a diretriz de revisões rápidas e as revisões anteriores, e para escrever a especificação, o corpo, a abertura, as figuras e as tabelas. Um subagente Sonnet conferiu as referências de método no Crossref, e subagentes Opus fizeram a verificação independente, uma rubrica cega e duas leituras críticas simuladas (editor de métodos e cientista político), que não substituem a leitura do autor nem validam nada. Programas conferiram os números contra os arquivos. Pelo critério do livro [@Lamarca2026Livro], um produto executado de ponta a ponta por agentes não conta como revisão sistemática concluída, e por isso este texto sai como rascunho.
+
+<!-- coordenador: conferir ao fim da etapa 7 os agentes e as etapas efetivamente rodados -->
+
+# Resultados {#sec-resultados}
+
+## Estudos incluídos {#sec-incluidos}
+
+A busca identificou 1.767 registros nas bases (1.687 no OpenAlex e 80 na BDTD) e 1.706 pela busca por citação. Antes da triagem, saíram 46 e 4 duplicados e 148 e 648 relatos pelo filtro de ano, nas bases e nos outros métodos. Os triadores de IA triaram 1.573 e 1.054 registros e excluíram 1.314 e 787. Dos 259 e 267 relatos buscados, 158 e 184 não foram recuperados (342 de 526). Dos 101 e 83 avaliados, 59 e 70 foram excluídos, sobretudo por exposição fora do critério C2 (39 e 50), depois por população ou contexto (8 e 13), desenho (10 e 4) e desfecho (2 e 3). Foram incluídos 41 estudos, em 55 relatos (42 das bases e 13 dos outros métodos). Os 1.235 registros da busca substituída ficaram fora do fluxo, e, na triagem complementar, os 15 registros recuperados foram excluídos e 165 ficaram como não recuperados (@fig-prisma).
+
+::: {.figura-larga}
+
+![Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação: bases de dados e busca por citações. A remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA; a triagem de títulos e resumos e a avaliação dos textos completos foram feitas por agentes de IA. Os motivos de exclusão seguem os critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível contam como não recuperados. O fluxo é rascunho: há 18 pendências humanas abertas, entre elas a revisão dos pares candidatos a duplicata (P019), a validação da triagem (P006, P007 e P020) e a conferência das decisões de elegibilidade (P041), listadas no [Apêndice A](#sec-pendencias).](revista/figuras/saida/prisma){#fig-prisma fig-alt="Fluxograma em dois ramos paralelos, bases de dados e busca por citações, que descem da identificação à triagem e convergem numa caixa final com os estudos e relatos incluídos."}
+
+:::
+
+Alguns estudos pareciam elegíveis e foram excluídos: experimentos de laboratório em que o participante vê a contagem de votos ou o placar do jogo, e não uma pesquisa (Scheuerman 2019, 2020 e 2021; Yosef 2017; Bischoff 2012; Hizen 2025; Morton 2015b; C2); um experimento natural no Peru que juntava boca de urna e contagem parcial oficial (Reveco 2026; C2, decisão do autor); um artigo que não analisa o experimento de exposição que menciona (Corbetta 2013; C2); um estudo de efeito de terceira pessoa (Kim 2018b; C3); jogos em equipe sem escolha eleitoral (Kim 2025a; C1); e estudos com a pesquisa como medida agregada (Freden 2021; Mavridis 2016a; C4).
+
+Publicados de 2010 a 2024, os estudos são 14 experimentos de *survey*, 9 de laboratório com preferências induzidas, 3 de laboratório com candidatos reais, 1 de campo, 6 experimentos naturais, 3 painéis individuais e 5 outros desenhos. A exposição é pesquisa pré-eleitoral em 33, agregador ou projeção em 4, boca de urna em 3 e apuração parcial em 1; o contexto, real em 25, induzido em 9 e hipotético em 7; a eleição, de candidatos ou partidos em 32, simulada em 8 e referendo em 1. Medem só o apoio 24, só o comparecimento 10, e os dois, 7. Há 1 estudo do Brasil, 1 do México, 1 multinacional com o Brasil, 1 sem região e 37 de outras regiões, sobretudo Estados Unidos e Europa (@tbl-caracteristicas; estudo a estudo em [S4](suplemento.html#s4-caracteristicas)).
+
+| Característica | n (%) |
+|---|---|
+| **Desenho** |  |
+| experimento de *survey* | 14 (34,1) |
+| laboratório, preferências induzidas | 9 (22,0) |
+| experimento natural | 6 (14,6) |
+| outros desenhos | 5 (12,2) |
+| laboratório, candidatos reais | 3 (7,3) |
+| painel individual | 3 (7,3) |
+| experimento de campo | 1 (2,4) |
+| **Formato da exposição** |  |
+| pesquisa pré-eleitoral | 33 (80,5) |
+| agregador ou projeção | 4 (9,8) |
+| boca de urna antes do fechamento | 3 (7,3) |
+| apuração parcial oficial | 1 (2,4) |
+| **Realismo do contexto** |  |
+| eleição real | 25 (61,0) |
+| preferências induzidas em laboratório | 9 (22,0) |
+| eleição hipotética (vinheta) | 7 (17,1) |
+| **Região** |  |
+| fora da América Latina | 37 (90,2) |
+| Brasil | 1 (2,4) |
+| América Latina (sem o Brasil) | 1 (2,4) |
+| multinacional, com Brasil e América Latina | 1 (2,4) |
+| não informada | 1 (2,4) |
+| **Tipo de eleição** |  |
+| candidatos ou partidos | 32 (78,0) |
+| simulada, abstrata | 8 (19,5) |
+| referendo | 1 (2,4) |
+| **Desfechos extraídos** |  |
+| só apoio a quem aparece à frente | 24 (58,5) |
+| só comparecimento | 10 (24,4) |
+| os dois | 7 (17,1) |
+| **Ano de publicação (relato principal)** |  |
+| 2010 a 2014 | 5 (12,2) |
+| 2015 a 2019 | 19 (46,3) |
+| 2020 a 2024 | 17 (41,5) |
+| **Risco de viés geral, RoB 2 (23 resultados randomizados)** |  |
+| algumas preocupações | 17 (73,9) |
+| alto | 6 (26,1) |
+| **Risco de viés geral, ROBINS-I V2 (13 resultados)** |  |
+| grave | 8 (61,5) |
+| crítico | 3 (23,1) |
+| moderado | 2 (15,4) |
+| **Risco de viés geral, EPOC (7 resultados)** |  |
+| alto | 6 (85,7) |
+| baixo | 1 (14,3) |
+
+: Características dos 41 estudos incluídos. n (%) de estudos; no risco de viés, n (%) de resultados avaliados com cada ferramenta (43 resultados de 37 estudos; os julgamentos de IA não foram validados por humano). "Outros desenhos": painel de distritos, campanha simulada, corte transversal de países, desenho múltiplo e *rolling cross-section*. Tabela estudo a estudo no suplemento, S4 e S5. {#tbl-caracteristicas tbl-colwidths="[72,28]"}
+
+Dos 41 estudos, 27 entram na síntese principal. Os outros 14 não contribuem para a contagem: 3 estão em risco de viés crítico [@Gasperoni2015a, também fora da contagem; @Kaplan2019a; @Unkelbach2022a]; 7 têm todos os efeitos principais fora da contagem [@Alabrese2024a; @Bursztyn2023a; @Gandhi2019; @Geers2018; @Lago2015; @Meffert2011; @Urminsky2019]; e 4 não têm efeito principal extraído [@Freden2016b, cujo PDF é só o capítulo introdutório da tese; @Meffert2012a; @Tyszler2013; @Yang2023d]. Esses 14 entram na leitura de mecanismos e moderadores e nas sensibilidades.
+
+## Risco de viés nos estudos {#sec-rob}
+
+Foram avaliados 43 resultados de 37 estudos: 23 com RoB 2 (17 com algumas preocupações e 6 em risco alto), 13 com ROBINS-I V2 (2 em risco moderado, 8 grave e 3 crítico) e 7 com EPOC (6 alto e 1 baixo). Nenhum resultado randomizado ficou em risco baixo. Nos experimentos, a preocupação mais comum foi a seleção do resultado relatado, sem plano de análise prévio, com algumas preocupações nesse domínio em 21 dos 23 resultados do RoB 2. Nos não randomizados, o que mais pesou foi o confundimento, grave ou crítico em 11 dos 13. Por síntese, os 4 estudos da célula do mesmo candidato atrás estão em risco alto, e os 4 da célula sem pesquisa, em algumas preocupações. Dos 259 domínios julgados, 171 tiveram consenso automático e 88 foram arbitrados. O árbitro seguiu o avaliador A em 79, B em 7 e propôs terceiro valor em 2. Como A e o árbitro são o mesmo modelo, pode haver viés de afinidade (@fig-rob; domínio a domínio em [S5](suplemento.html#s5-risco-de-vies)).
+
+::: {.figura-larga}
+
+![Risco de viés por ferramenta e domínio, em proporção dos resultados avaliados (cada resultado é um par estudo × desfecho): **a**, RoB 2, nos estudos randomizados; **b**, ROBINS-I V2, nos não randomizados; **c**, critérios EPOC, nos desenhos com grupo de comparação ou série temporal interrompida. São 43 resultados de 37 estudos; o domínio D1b só se aplica à randomização por conglomerado. Os julgamentos são o consenso proposto por agentes de IA (dois avaliadores e um árbitro nas divergências), sem validação humana. Cores da paleta para daltonismo do robvis.](revista/figuras/saida/rob){#fig-rob fig-alt="Barras horizontais empilhadas mostram, para cada domínio das três ferramentas de risco de viés, a proporção de resultados julgados em cada nível, do baixo ao crítico."}
+
+:::
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Nenhum dos 259 julgamentos de risco de viés foi validado por humano, e o portão G7 espera confirmação (P033). A arbitragem dos efeitos apontou um caso para essa revisão: em @Fichnova2015a, 17 dos 37 respondentes eslovacos não aparecem nas tabelas, e o domínio de dados faltantes foi julgado baixo.
+:::
+
+## Visão geral da síntese {#sec-efeito}
+
+Dos 41 estudos, 40 têm efeitos extraídos (560 no total), e 37 têm ao menos um efeito principal. A síntese principal reúne 27 estudos em 18 células com estudo. A célula restante, de projeções frente a nenhuma pesquisa no comparecimento, com desenho não randomizado, ficou vazia depois da exclusão de @Kaplan2019a, em risco crítico. Nenhuma célula tem mais de 4 estudos. Das 18, 15 ficaram com certeza muito baixa, 2 com baixa e 1 com moderada. A @tbl-sof dá, por célula, a comparação, os estudos, a direção (x de y, com o IC), a certeza e o enunciado. O agrupamento amplo, decidido depois de ver os dados, ficou fora dela (@sec-sensibilidades e [S8](suplemento.html#s8-sensibilidades)).
+
+::: {.landscape}
+
+| Comparação e desenho | Estudos (k; n do efeito principal) | Direção (x de y com direção definida) | Certeza | O que a evidência diz | Notas |
+|---|---|---|---|---|---|
+| **Apoio a quem aparece à frente** |  |  |  |  |  |
+| Pesquisa pré-eleitoral, frente a nenhuma pesquisa (randomizados) | 4 estudos: [@Agranov2017a, 300 eleições de grupo; @Farjam2020a, 1.113 participantes; @Timotei2013a, 80 respondentes; @Tyszler2015, 12 eleitorados] | 4 de 4 na direção *bandwagon* (proporção 1,00; IC 95% 0,40 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se ver pesquisa que mostra quem está à frente, frente a não ver pesquisa, aumenta o apoio ao líder (4 de 4 estudos na direção bandwagon, 3 deles de laboratório ou vinheta; certeza muito baixa).]{.enunciado cel="C01"} | a, d, e, g |
+| Pesquisa pré-eleitoral, candidato mostrado à frente, frente ao mesmo candidato mostrado atrás (randomizados) | 4 estudos: [@Tal2015a, n não relatado; @Lammers2022a, n = 100; @Fichnova2015a, 24 respondentes; @Witsman2016a, n = 142] | 4 de 4 na direção *bandwagon* (proporção 1,00; IC 95% 0,40 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se ver o candidato à frente numa pesquisa, em vez de atrás, aumenta o apoio a ele (4 de 4 estudos na direção bandwagon, todos de laboratório ou vinheta e em risco de viés alto; certeza muito baixa).]{.enunciado cel="C02"} | b, d, e, g |
+| Pesquisa pré-eleitoral, frente a outro resultado de pesquisa (randomizados) | 1 estudo: [@Boukouras2020a, 135 observações] | 1 de 1 na direção *bandwagon* (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se revelar um conjunto de pesquisas diferente, da mesma eleição, aumenta a vitória do candidato à frente (1 estudo de laboratório, 3 de 3 efeitos na direção bandwagon; certeza muito baixa).]{.enunciado cel="C03"} | d, f |
+| Pesquisa pré-eleitoral, frente a outro resultado de pesquisa (não randomizados) | 1 estudo: [@Feltovich2022, n não relatado] | 1 de 1 na direção *bandwagon* (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se ver uma prévia com maior parcela do incumbente aumenta o voto nele (1 estudo de laboratório, com contraste não sorteado; certeza muito baixa).]{.enunciado cel="C04"} | b, d, e |
+| Boca de urna antes do fechamento das urnas, antes e depois da proibição (não randomizados) | 2 estudos: [@Morton2015a, 60 observações; @Chatterjee2019a, 1.737 distritos] | 1 de 2 na direção *bandwagon*, 1 *underdog* (proporção 0,50; IC 95% 0,01 a 0,99) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas aumenta ou reduz o apoio ao líder (2 estudos em direções opostas; certeza muito baixa).]{.enunciado cel="C05"} | a, c, d, e, h |
+| Apuração parcial oficial, unidades expostas frente a não expostas (não randomizados) | 1 estudo: [@Araujo2021a, 453.016 seções eleitorais] | 1 de 1 na direção *bandwagon* (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se a divulgação oficial de apuração parcial enquanto a votação continua aumenta o voto no candidato à frente (1 estudo brasileiro na direção bandwagon; certeza muito baixa).]{.enunciado cel="C06"} | b, d, e |
+| **Viabilidade: apoio à opção mostrada como viável** |  |  |  |  |  |
+| Pesquisa pré-eleitoral, frente a nenhuma pesquisa (randomizados) | 1 estudo: [@Cornejo2023a, 545 respondentes] | 1 de 1 na direção de viabilidade (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se ver pesquisa que mostra um candidato de oposição como segundo colocado viável aumenta o apoio a ele (1 estudo no México; certeza muito baixa).]{.enunciado cel="C07"} | a, f |
+| Pesquisa pré-eleitoral, frente a outro resultado de pesquisa (randomizados) | 2 estudos: [@Schlegel2023, n não relatado; @Freden2024a, 744 respondentes] | 1 de 1 na direção de viabilidade; 1 misto (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se pesquisas que mostram quais opções são viáveis levam eleitores a desertar para a opção viável (1 estudo a favor e 1 misto, com 2 de 3 efeitos contrários; certeza muito baixa).]{.enunciado cel="C08"} | a, c, d, e |
+| ***Momentum*: partido mostrado ganhando ou perdendo apoio** |  |  |  |  |  |
+| Pesquisa pré-eleitoral, frente a nenhuma pesquisa (randomizados) | 1 estudo: [@Dahlgaard2016a, 1.700 respondentes] | 1 de 1 a favor (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio, frente a não ver pesquisa, aumenta o voto nele (momentum; 1 estudo; certeza muito baixa).]{.enunciado cel="C09"} | a, d, f |
+| Pesquisa pré-eleitoral, frente a outra apresentação do resultado (randomizados) | 1 estudo: [@Meer2015a, 10.643 respondentes] | 1 de 1 a favor (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio aumenta o voto nele (momentum; 1 estudo; certeza muito baixa).]{.enunciado cel="C10"} | d, f |
+| Pesquisa pré-eleitoral, frente a outro resultado de pesquisa (não randomizados) | 1 estudo: [@Stolwijk2016a, 6.384 observações] | 1 de 1 a favor (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se a cobertura de pesquisas favorável a um partido aumenta o voto nele (momentum; 1 estudo observacional; certeza muito baixa).]{.enunciado cel="C11"} | b, d, e |
+| **Comparecimento** |  |  |  |  |  |
+| Pesquisa pré-eleitoral, frente a nenhuma pesquisa (randomizados) | 3 estudos: [@Agranov2017a, 135 observações; @Groer2010a, 12 eleitorados; @Erlich2023, 181 participantes] | 2 de 3 na direção de mobilização, 1 de desmobilização (proporção 0,67; IC 95% 0,09 a 0,99) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se ver pesquisa, frente a não ver, aumenta ou reduz o comparecimento (2 estudos de laboratório na direção de mobilização e 1 com candidatos reais na de desmobilização; certeza muito baixa).]{.enunciado cel="C12"} | a, c, d, e |
+| Pesquisa pré-eleitoral, frente a outro resultado de pesquisa (randomizados) | 1 estudo: [@Gerber2020a, 126.126 pessoas] | nenhum estudo com direção definida; 1 nulo por ±δ | [⊕⊕⊕◯]{.grade} moderada | [Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 p.p. para mais ou para menos (efeito nulo ou trivial; 1 experimento de campo; certeza moderada).]{.enunciado cel="C13"} | e |
+| Agregador ou projeção, frente a outro resultado de pesquisa (randomizados) | 1 estudo: [@Westwood2020a, 5.845 decisões] | 0 de 1 na direção de mobilização, 1 de desmobilização (proporção 0,00; IC 95% 0,00 a 0,97) | [⊕⊕◯◯]{.grade} baixa | [Ver projeções de agregador que mostram probabilidade de vitória mais distante de 50:50 pode reduzir a decisão de votar (direção de desmobilização; 1 estudo; certeza baixa).]{.enunciado cel="C14"} | d, e |
+| Pesquisa pré-eleitoral, frente a nenhuma pesquisa (não randomizados) | 1 estudo: [@Klor2017a, 84 participantes] | 1 de 1 na direção de mobilização (proporção 1,00; IC 95% 0,03 a 1,00) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se revelar a distribuição de preferências do eleitorado aumenta o comparecimento (1 estudo de laboratório, antes e depois no mesmo sujeito; certeza muito baixa).]{.enunciado cel="C15"} | a, d, e |
+| Boca de urna antes do fechamento das urnas, frente a outro resultado de pesquisa (não randomizados) | 1 estudo: [@Grillo2024c, 576 observações] | 0 de 1 na direção de mobilização, 1 de desmobilização (proporção 0,00; IC 95% 0,00 a 0,97) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se a boca de urna divulgada mais cedo durante a votação reduz o comparecimento (1 estudo na direção de desmobilização, com IC que cruza zero; certeza muito baixa).]{.enunciado cel="C16"} | a, d, f, h |
+| Boca de urna antes do fechamento das urnas, antes e depois da proibição (não randomizados) | 2 estudos: [@Morton2015a, 1.260 observações; @Chatterjee2019a, 1.737 distritos] | 0 de 1 na direção de mobilização, 1 de desmobilização; 1 misto (proporção 0,00; IC 95% 0,00 a 0,97) | [⊕◯◯◯]{.grade} muito baixa | [A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas reduz o comparecimento (1 estudo na direção de desmobilização e 1 misto; certeza muito baixa).]{.enunciado cel="C17"} | a, c, d, e, h |
+| Pesquisa pré-eleitoral, unidades expostas frente a não expostas (não randomizados) | 2 estudos: [@Stolwijk2019b, 747 respondentes; @Brugarolas2021, n não relatado] | 2 de 2 na direção de mobilização (proporção 1,00; IC 95% 0,16 a 1,00) | [⊕⊕◯◯]{.grade} baixa | [Ter visto a divulgação de pesquisas pode aumentar a intenção de votar ou o comparecimento (2 estudos observacionais em eleições reais, ambos na direção de mobilização; certeza baixa).]{.enunciado cel="C18"} | a, e |
+
+: Resumo dos achados por célula da síntese principal (SWiM, sem os estudos em risco de viés crítico). Direção: x de y = estudos na direção indicada entre os y que têm direção definida; estudos mistos e nulos por ±δ ficam fora do denominador; proporção com IC 95% de Clopper-Pearson. Certeza GRADE: ⊕⊕⊕⊕ alta, ⊕⊕⊕◯ moderada, ⊕⊕◯◯ baixa, ⊕◯◯◯ muito baixa; ela qualifica a direção, não a magnitude, e é rascunho de IA não validado. n na unidade de cada estudo, quando a unidade está registrada; os n não são somados. O agrupamento amplo, decidido depois de ver os dados, fica fora desta tabela (suplemento, S8). {#tbl-sof tbl-colwidths="[15,18,17,9,33,8]"}
+
+*Notas.* *a* Rebaixada 1 nível por risco de viés nos estudos da célula (RoB 2, ROBINS-I V2 ou EPOC). *b* Rebaixada 2 níveis por risco de viés nos estudos da célula (RoB 2, ROBINS-I V2 ou EPOC). *c* Rebaixada 1 nível por inconsistência entre os estudos na direção. *d* Rebaixada 1 nível por indireção (realismo do contexto, tipo de eleição, contraste ou estimando; protocolo, seção 9). *e* Rebaixada 1 nível por imprecisão (poucos estudos, IC da proporção largo ou efeitos frente a ±δ). *f* Rebaixada 2 níveis por imprecisão (poucos estudos, IC da proporção largo ou efeitos frente a ±δ). *g* Rebaixada 1 nível por suspeita de viés de publicação. *h* Ponto de partida baixo: corpo de evidência avaliado com a ferramenta EPOC (protocolo, seção 9); nas demais células, alto. 1 célula prevista ficou sem estudo na análise principal (agregador ou projeção, comparecimento, frente a nenhuma pesquisa, não randomizados), porque o único estudo (@Kaplan2019a) está em risco de viés crítico; ela não foi julgada.
+
+:::
+
+A @fig-celulas mostra, por célula, a proporção de estudos na direção positiva, com o IC de Clopper-Pearson, e a certeza. A célula só com nulos ganha marca própria (nulo por ±δ). A @fig-direcao mostra a direção de cada estudo, ordenada por célula, desenho e risco de viés, com um painel à parte, *post hoc*, para os efeitos fora da contagem, e os efeitos individuais estão em [S6](suplemento.html#s6-efeitos). Note que a proporção conta estudos, e não participantes, e que o tamanho do símbolo é constante.
+
+::: {.figura-larga}
+
+![Proporção de estudos que apontam a favor em cada uma das 18 células da síntese principal, com intervalo de confiança de 95% de Clopper-Pearson. Cada célula junta exposição, desfecho, comparação e classe de desenho; o sentido "a favor" de cada bloco está no título dele. Na coluna x de y, x é o número de estudos a favor e y o de estudos com direção definida; mistos e nulos por ±δ ficam fora do denominador e aparecem entre parênteses. A linha tracejada marca a divisão meio a meio. O anel indica a célula só com efeitos nulos por ±δ, sem proporção calculável; a célula sem estudo tem k = 0 porque o único estudo dela, @Kaplan2019a, está em risco crítico e saiu da análise principal. A certeza (GRADE) qualifica a direção, não a magnitude, e é rascunho de IA não validado. O agrupamento amplo *post hoc* não aparece aqui.](revista/figuras/saida/celulas){#fig-celulas fig-alt="Gráfico de pontos com intervalos: para cada célula, a proporção de estudos a favor, com o número de estudos e a certeza em círculos à direita, em quatro blocos (apoio a quem aparece à frente, viabilidade, momentum e comparecimento)."}
+
+:::
+
+::: {.figura-larga}
+
+![Direção do efeito principal por estudo e célula. **a**, síntese principal: estudos agrupados por desfecho, classe de desenho e comparação e ordenados por desenho e risco de viés; os de risco crítico (†) aparecem, mas ficam fora do teste de sinal. **b**, efeitos fora da contagem, no agrupamento amplo decidido depois de ver os dados (*post hoc*): só estudos e células que não entram na síntese principal, seja porque o efeito principal não estima o contraste da exposição, seja por risco crítico ou por alvo sem posição única de líder ou azarão ("outro alvo", em que o sinal é só positivo ou negativo). A direção vem do estimador pontual; o efeito é nulo quando o intervalo de 95% fica inteiro dentro de ±δ. O tamanho do símbolo é constante, porque os estudos medem em unidades diferentes. Risco de viés com os símbolos do robvis; julgamentos de IA não validados.](revista/figuras/saida/direcao){#fig-direcao fig-alt="Tabela gráfica com um estudo por linha: triângulo azul para cima quando o efeito aponta a favor, triângulo laranja para baixo quando aponta contra, losango para misto e anel para nulo, com o risco de viés num símbolo colorido na última coluna."}
+
+:::
+
+A ressalva do teste de sinal (@sec-sintese) pesa aqui. Nas células com 4 estudos, mesmo 4 de 4 na mesma direção dão p = 0,125, e p < 0,05 exigiria pelo menos 6 estudos na mesma direção. Por isso, p acima de 0,05 nestas células não indica ausência de efeito, e o teste não define nenhum rótulo.
+
+## Apoio a quem aparece à frente {#sec-apoio}
+
+Quatro experimentos compararam ver uma pesquisa com não ver [@Agranov2017a; @Farjam2020a; @Timotei2013a; @Tyszler2015], todos com algumas preocupações de risco de viés. Três dos quatro usaram laboratório com preferências induzidas ou vinheta hipotética, e só @Farjam2020a usou partidos e organizações reais. Em @Agranov2017a e @Tyszler2015, o desfecho é a eleição do grupo, e não o voto individual. Foram 4 de 4 na direção *bandwagon* (proporção 1,00; IC 95% 0,40 a 1,00; p = 0,125), a que os elos E2 a E4 preveem, e não a do E5. [A evidência é muito incerta sobre se ver pesquisa que mostra quem está à frente, frente a não ver pesquisa, aumenta o apoio ao líder (4 de 4 estudos na direção bandwagon, 3 deles de laboratório ou vinheta; certeza muito baixa).]{.enunciado cel="C01"}
+
+A meta-análise exploratória dessa célula (@fig-metas, painel a), com os três estudos com g [@Agranov2017a; @Timotei2013a; @Tyszler2015] e 4 efeitos, por CHE (REML) com RVE (CR2) e ρ = 0,6, deu g = 0,48 (IC 95% −1,51 a 2,47; p = 0,263), com 1,25 grau de liberdade, abaixo de 4, e inferência robusta não confiável. O IC cruza zero e ±δ (0,0573). Com k = 3, τ² = 0,04 (τ = 0,20), I² = 15% e o intervalo de predição, de −3,55 a 4,51, não são interpretados. Com ρ de 0,2, 0,5 e 0,8, g foi 0,49, 0,48 e 0,47, com IC sempre cruzando zero, e, com ICC de 0,20, 0,51 (IC 95% −0,97 a 1,98). No *leave-one-out*, g foi de 0,19 a 0,69, e o IC só deixou de cruzar zero sem @Timotei2013a (0,40 a 0,98). Os efeitos de @Tyszler2015 vieram de figura, e a certeza da meta é a da célula (muito baixa).
+
+Outros quatro experimentos compararam o mesmo candidato mostrado à frente ou atrás [@Tal2015a; @Lammers2022a; @Fichnova2015a; @Witsman2016a], todos em risco alto e em laboratório com preferências induzidas ou vinheta hipotética. Também aqui, foram 4 de 4 na direção *bandwagon* (proporção 1,00; IC 95% 0,40 a 1,00; p = 0,125). Em @Lammers2022a, os sinais se opõem conforme o raciocínio induzido (g = 1,25 e 1,03 no modo heurístico; −0,39 e 0,06 no moral), e o estudo recebeu a direção *bandwagon* pela regra de 70% (3 de 4 efeitos). A condição moral é compatível, dentro do estudo, com o canal de equidade (E5). [A evidência é muito incerta sobre se ver o candidato à frente numa pesquisa, em vez de atrás, aumenta o apoio a ele (4 de 4 estudos na direção bandwagon, todos de laboratório ou vinheta e em risco de viés alto; certeza muito baixa).]{.enunciado cel="C02"}
+
+A meta-análise dessa célula (@fig-metas, painel b), com 3 estudos e 6 efeitos [@Fichnova2015a; @Lammers2022a; @Witsman2016a], o mesmo modelo e δ = 0,044, deu g = 0,62 (IC 95% −0,48 a 1,72; p = 0,111), com 1,46 grau de liberdade e IC que cruza zero e ±δ. Os desfechos pouco se comparam: posto num *ranking* de 7 candidatos, probabilidade autodeclarada numa escala de 1 a 7 e proporção de voto. τ² = 0,41 (τ = 0,64), I² = 94% e o intervalo de predição, de −7,82 a 9,05, não são interpretados. Com ρ de 0,2, 0,5 e 0,8, g foi 0,61, 0,62 e 0,62. No *leave-one-out*, foi de 0,55 a 0,90, e o IC só deixou de cruzar zero sem @Lammers2022a (0,85 a 0,94). Como todos os efeitos estão em risco alto, a sensibilidade sem eles não pôde ser rodada, e a meta foi rodada depois do GRADE, que não a considerou. Com menos de dez estudos, não testamos assimetria. @Witsman2016a lê o contraste entre o candidato bem à frente e bem atrás como voto estratégico, e, se o alvo passar a viabilidade, o estudo sai da célula e da meta.
+
+::: {.figura-larga}
+
+![Meta-análises exploratórias, em g de Hedges (positivo = *bandwagon*): **a**, pesquisa pré-eleitoral frente a nenhuma pesquisa (3 estudos e 4 efeitos; os dois efeitos de @Tyszler2015 vêm de valores diferentes da opção intermediária); **b**, o mesmo candidato mostrado à frente ou atrás (3 estudos e 6 efeitos). Os quadrados são os efeitos, com o intervalo de 95% de cada um; o losango vazado é a estimativa combinada do modelo de efeitos correlacionados e hierárquicos (CHE) com erro-padrão robusto (RVE). Os graus de liberdade de Satterthwaite (1,25 em **a** e 1,46 em **b**) ficam abaixo de 4, e a inferência robusta, por isso, não é confiável. A faixa sombreada é ±δ (0,0573 em **a**; 0,044 em **b**). O intervalo de predição fica fora do gráfico (−3,55 a 4,51 em **a**; −7,82 a 9,05 em **b**) e não é interpretado, porque há menos de 5 estudos; o mesmo vale para τ² (0,04 e 0,41). Os painéis têm escalas diferentes.](revista/figuras/saida/metas){#fig-metas fig-alt="Dois gráficos de floresta com o efeito de cada estudo e um losango para a estimativa combinada, sobre uma faixa estreita em torno de zero; nos dois painéis o intervalo combinado cruza o zero."}
+
+:::
+
+Frente a outro resultado de pesquisa, um experimento de laboratório com preferências induzidas e algumas preocupações de risco de viés [@Boukouras2020a] teve os 3 efeitos positivos. O grupo de comparação também viu pesquisas reais da mesma eleição, com outro conjunto revelado, e o desfecho é a taxa de vitória, uma medida de grupo. [A evidência é muito incerta sobre se revelar um conjunto de pesquisas diferente, da mesma eleição, aumenta a vitória do candidato à frente (1 estudo de laboratório, 3 de 3 efeitos na direção bandwagon; certeza muito baixa).]{.enunciado cel="C03"}
+
+Na classe não randomizada, um estudo de laboratório [@Feltovich2022], com contraste não sorteado e risco grave, foi na direção *bandwagon* (efeitos marginais de 0,25 e 0,44). [A evidência é muito incerta sobre se ver uma prévia com maior parcela do incumbente aumenta o voto nele (1 estudo de laboratório, com contraste não sorteado; certeza muito baixa).]{.enunciado cel="C04"} A decisão sobre ele está pendente. A parcela do incumbente na prévia se confunde com o sinal de desempenho que todos recebem, e, se os efeitos saírem da contagem, a célula fica vazia.
+
+Dois experimentos naturais de proibição de boca de urna, ambos em risco alto no EPOC, foram em direções opostas: @Morton2015a, nos territórios franceses de ultramar, na direção *bandwagon*, e @Chatterjee2019a, na Índia, na direção *underdog*, com dois efeitos principais (g −0,29 e −0,42). Os efeitos da proibição foram reorientados para o da exposição, e a proporção ficou em 0,50 (IC 95% 0,01 a 0,99; p = 1). [A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas aumenta ou reduz o apoio ao líder (2 estudos em direções opostas; certeza muito baixa).]{.enunciado cel="C05"}
+
+No Brasil, as urnas que seguiram recebendo votos depois da divulgação oficial da apuração parcial deram mais votos ao candidato mostrado à frente nos dois turnos da eleição presidencial de 2018 (+5,69 e +11,76 pontos percentuais) [@Araujo2021a]. O estudo está em risco grave, puxado pelo confundimento. Entrou pela Emenda 1, decidida depois de conhecê-lo, e forma célula própria, porque não trata de pesquisa. [A evidência é muito incerta sobre se a divulgação oficial de apuração parcial enquanto a votação continua aumenta o voto no candidato à frente (1 estudo brasileiro na direção bandwagon; certeza muito baixa).]{.enunciado cel="C06"}
+
+## Viabilidade e voto estratégico {#sec-viabilidade}
+
+Frente a nenhuma pesquisa, um experimento de *survey* no México [@Cornejo2023a], com 545 respondentes e algumas preocupações de risco de viés, foi na direção de viabilidade ao mostrar o candidato de oposição como segundo colocado viável (g = 0,19, EP 0,105). É o único estudo latino-americano sobre pesquisa pré-eleitoral na análise principal. [A evidência é muito incerta sobre se ver pesquisa que mostra um candidato de oposição como segundo colocado viável aumenta o apoio a ele (1 estudo no México; certeza muito baixa).]{.enunciado cel="C07"}
+
+Frente a outro resultado de pesquisa, há dois experimentos. @Schlegel2023 (vinheta hipotética, Reino Unido) foi na direção da deserção para a opção viável (+11 e +17 pontos percentuais), mas seu contraste principal mistura a precisão da pesquisa com a retirada de carga cognitiva, decisão pendente. @Freden2024a (eleição real, Suécia) ficou misto, com 2 de 3 efeitos contrários: mostrar uma legenda pequena abaixo da cláusula de 4% aumentou o voto nela (g = −0,41 na convenção da célula), o que os autores leem como voto de seguro. Um estudo é compatível com a previsão de voto estratégico, e o outro a contraria. [A evidência é muito incerta sobre se pesquisas que mostram quais opções são viáveis levam eleitores a desertar para a opção viável (1 estudo a favor e 1 misto, com 2 de 3 efeitos contrários; certeza muito baixa).]{.enunciado cel="C08"} Os efeitos de viabilidade de @Lago2015 e @Alabrese2024a ficaram fora da contagem, por serem interações com moderadores contínuos.
+
+## *Momentum* {#sec-momentum}
+
+*Momentum* é a pesquisa que mostra um partido ganhando apoio sem mostrar sua posição. A célula veio da Emenda 4b, antes de qualquer análise de efeito, mas três dos quatro estudos de *momentum* (um em risco crítico) foram reclassificados para ela pelos árbitros de IA em 23/09/2026, depois de ver os dados. A pergunta que ela responde não é a da célula principal.
+
+Frente a nenhuma pesquisa, @Dahlgaard2016a, experimento de *survey* na Dinamarca com 1.700 respondentes e algumas preocupações de risco de viés, deu +3,40 pontos percentuais (g = 0,12, EP 0,080), com IC que cruza zero. [A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio, frente a não ver pesquisa, aumenta o voto nele (momentum; 1 estudo; certeza muito baixa).]{.enunciado cel="C09"}
+
+Em @Meer2015a, experimento de *survey* nos Países Baixos com 10.643 respondentes, a pesquisa com ponto de referência de crescimento, frente ao mesmo resultado sem esse enquadramento, deu g = 0,13 (EP 0,072), com IC que cruza zero. [A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio aumenta o voto nele (momentum; 1 estudo; certeza muito baixa).]{.enunciado cel="C10"}
+
+Na classe não randomizada, @Stolwijk2016a, painel na Alemanha com a valência da cobertura de pesquisas, em risco grave, foi a favor do partido com cobertura favorável, e @Unkelbach2022a ficou fora por risco crítico. [A evidência é muito incerta sobre se a cobertura de pesquisas favorável a um partido aumenta o voto nele (momentum; 1 estudo observacional; certeza muito baixa).]{.enunciado cel="C11"}
+
+## Comparecimento {#sec-comparecimento}
+
+Nos randomizados que comparam ver pesquisa com não ver, há três estudos: dois de laboratório na direção de mobilização [@Agranov2017a; @Groer2010a] e um com candidatos reais, em risco alto, na de desmobilização [@Erlich2023]. A proporção ficou em 0,67 (IC 95% 0,09 a 0,99; p = 1). A complacência prevista pelo E7 aparece só no estudo com candidatos reais. [A evidência é muito incerta sobre se ver pesquisa, frente a não ver, aumenta ou reduz o comparecimento (2 estudos de laboratório na direção de mobilização e 1 com candidatos reais na de desmobilização; certeza muito baixa).]{.enunciado cel="C12"}
+
+No experimento de campo de @Gerber2020a, em eleições para governador nos Estados Unidos, 126.126 eleitores receberam cartas com uma pesquisa de disputa apertada ou folgada, e o comparecimento veio de registros administrativos. As duas estimativas tiveram IC 95% inteiro dentro de ±δ (0,046). A certeza moderada qualifica a classificação como nulo ou trivial: é evidência de que o efeito, se houver, é menor que 2 pontos percentuais, e não ausência de evidência. [Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 p.p. para mais ou para menos (efeito nulo ou trivial; 1 experimento de campo; certeza moderada).]{.enunciado cel="C13"}
+
+Num jogo *online* com preferências induzidas e 5.845 decisões [@Westwood2020a], a decisão de votar caiu quando a probabilidade de vitória exibida se afastava de 50:50 (g = −0,10, EP 0,023, com IC 95% inteiro abaixo de −δ). É a direção que a complacência e a pivotalidade preveem. [Ver projeções de agregador que mostram probabilidade de vitória mais distante de 50:50 pode reduzir a decisão de votar (direção de desmobilização; 1 estudo; certeza baixa).]{.enunciado cel="C14"}
+
+No contraste antes e depois no mesmo sujeito de @Klor2017a, em laboratório, com risco moderado e na classe não randomizada pela Emenda 5, revelar a distribuição de preferências foi na direção de mobilização. [A evidência é muito incerta sobre se revelar a distribuição de preferências do eleitorado aumenta o comparecimento (1 estudo de laboratório, antes e depois no mesmo sujeito; certeza muito baixa).]{.enunciado cel="C15"}
+
+@Grillo2024c, na França, compara momentos de divulgação de boca de urna, porque o turno de comparação também teve boca de urna da mídia estrangeira, divulgada mais tarde. A direção foi de desmobilização, com IC que cruza zero e risco alto no EPOC, e o comparador é decisão pendente. [A evidência é muito incerta sobre se a boca de urna divulgada mais cedo durante a votação reduz o comparecimento (1 estudo na direção de desmobilização, com IC que cruza zero; certeza muito baixa).]{.enunciado cel="C16"}
+
+Nos dois experimentos naturais de proibição de boca de urna, @Morton2015a foi na direção de desmobilização (−11 pontos percentuais), e @Chatterjee2019a ficou misto. A proporção ficou em 0,00 (IC 95% 0,00 a 0,97; p = 1). [A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas reduz o comparecimento (1 estudo na direção de desmobilização e 1 misto; certeza muito baixa).]{.enunciado cel="C17"}
+
+Dois estudos não randomizados em eleições reais, @Stolwijk2019b (painel na eleição para o Parlamento Europeu, em risco grave) e @Brugarolas2021 (descontinuidade no horário de divulgação na Espanha, em risco moderado), foram na direção de mobilização, 2 de 2 (IC 95% 0,16 a 1,00; p = 0,5). O rebaixamento por risco de viés foi de um nível, e não de dois, decisão que o rascunho do GRADE deixou ao autor. [Ter visto a divulgação de pesquisas pode aumentar a intenção de votar ou o comparecimento (2 estudos observacionais em eleições reais, ambos na direção de mobilização; certeza baixa).]{.enunciado cel="C18"}
+
+O contraste entre boca de urna e projeções, na direção de desmobilização, e pesquisas pré-eleitorais, na de mobilização, foi notado depois de ver os dados e não foi testado. Ele se confunde com o desenho, porque toda boca de urna aqui é experimento natural em eleição real.
+
+## Sensibilidades e viés de relato {#sec-sensibilidades}
+
+Num agrupamento decidido depois de ver os dados, que junta formatos e comparadores, 9 de 9 experimentos foram na direção *bandwagon* (proporção 1,00; IC 95% 0,66 a 1,00; p = 0,004), mas só @Farjam2020a tem contexto real. O rascunho do GRADE deu certeza muito baixa a esse corpo, rebaixado por viés de publicação (estudos pequenos, todos positivos, busca limitada). Sem esse rebaixamento, a certeza seria baixa, e a decisão é do autor.
+
+A sensibilidade que mais pesa é a que fica só com contexto real. No agrupamento amplo, os experimentos de apoio se reduzem a @Farjam2020a (1 de 1), e os não randomizados ficam com 2 estudos *bandwagon* e 1 *underdog*. Na mobilização, os randomizados ficam com 1 estudo de desmobilização e 1 nulo, e os não randomizados se dividem, 2 a 2, com 1 misto. Disso segue que a regularidade *bandwagon* depende dos experimentos de laboratório e com vinheta.
+
+Com os estudos em risco crítico, a célula de projeções frente a nenhuma pesquisa recebe @Kaplan2019a, na direção de desmobilização, e a de *momentum* não randomizado recebe @Unkelbach2022a, a favor, e fica com 2 de 2 (IC 95% 0,16 a 1,00; p = 0,5). @Gasperoni2015a não entra em célula, porque também está fora da contagem.
+
+O ICC de 0,20 não mudou nenhuma contagem. Com os efeitos fora da contagem, os randomizados de apoio passam a 10 de 11 (@Gandhi2019 contra; p = 0,012), e a mobilização não randomizada fica 4 a 4, com 1 misto. Sem dados anteriores a 2010, os randomizados de apoio ficam com 8 de 8 (p = 0,008), porque @Tyszler2015 sai pelo ano da coleta, numa regra ainda inconsistente nos experimentos de laboratório. Sem @Araujo2021a, os não randomizados de apoio ficam com 2 de 3. Nenhuma dessas análises tem GRADE próprio ([S8](suplemento.html#s8-sensibilidades)).
+
+Nenhuma célula teve 10 ou mais estudos, e não houve funil, teste de Egger nem modelo de seleção. O GRADE rebaixou por viés de publicação as duas células randomizadas de apoio e o agrupamento amplo randomizado, só com estudos pequenos e positivos, sem nenhum nulo. Nas demais células havia resultado nulo ou contrário ou um só estudo, mas a suspeita fica em aberto pela limitação de fontes. Não houve avaliação de evidência faltante por célula.
+
+Decisões em aberto mudariam células: (i) com o alvo de @Witsman2016a em viabilidade, a célula do mesmo candidato atrás fica com 3 estudos, e sua meta muda; (ii) com os efeitos de @Feltovich2022 fora da contagem, a célula não randomizada de outro resultado fica vazia; (iii) com @Schlegel2023 fora, a viabilidade com outro resultado fica só com @Freden2024a; (iv) com a volta do efeito de @Klor2017a hoje fora da contagem, a célula do mesmo candidato atrás ganha um estudo; (v) com @Geers2018 de volta pela direção, o comparecimento não randomizado ganha um estudo de desmobilização; (vi) sem o efeito de variável instrumental de @Gerber2020a, a célula de pesquisa apertada muda de composição, mas não de direção; (vii) com o comparador de @Grillo2024c em unidades não expostas, o estudo muda de célula; e (viii) a regra de ano nos experimentos de laboratório muda a sensibilidade sem dados anteriores a 2010. Nenhuma dessas mudanças levaria uma célula a 6 estudos numa só direção, o mínimo para p < 0,05 no teste de sinal.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Os achados da @sec-efeito à @sec-sensibilidades dependem da conferência dos 560 efeitos na página do texto completo (P039), da arbitragem da recodificação cega (P037), da validação do risco de viés (P033) e da validação do GRADE (P036 e P042). As decisões de julgamento que podem mudar as células estão no último parágrafo desta seção.
+:::
+
+## Mecanismos {#sec-mecanismo}
+
+Nenhuma célula teve estudos suficientes para uma síntese formal de mecanismos. O que segue vem do fichamento por IA, não conferido por humano, e compara estudos ou relata o que cada um testou, com certeza só quando a afirmação coincide com uma célula.
+
+Dos 41 estudos, 34 marcam algum mecanismo como testado, mas só 3 por mediação estatística. Nos demais, o canal é inferido de um contraste, relatado pelos participantes ou só hipotetizado. Os codificadores de IA concordaram em 60% dos casos sobre qual mecanismo foi testado e em 40% sobre o tipo de evidência, abaixo do limiar do protocolo.
+
+Só @Gerber2020a testa se a expectativa de quem vence transmite o efeito ao comportamento. A pesquisa apertada move a crença sobre a proximidade da disputa, mas 1 ponto percentual a mais de crença muda o comparecimento em 0,08 ponto. É o padrão da teoria rival do efeito só de expectativa. O nulo da exposição tem certeza moderada, mas a leitura como mediação é descritiva, e ninguém testou essa mediação no apoio a quem aparece à frente.
+
+O único estudo que manipula o modo de processamento, @Lammers2022a, acha *bandwagon* sob raciocínio heurístico e *underdog* ou efeito perto de zero sob o motivo moral de igualdade, em vinheta e risco alto. Em @Meer2015a, a ênfase sobre quem está ganhando pesa mais que o número. Nenhum estudo isola a conformidade. Em @Agranov2017a, com pesquisa, a maioria vota mais e a minoria menos, o que os autores atribuem, pelo menos em parte, ao desejo de votar no vencedor. Em @Stolwijk2016a, os efeitos indiretos da cobertura de pesquisas passam mais pelo entusiasmo que pela ansiedade, numa mediação observacional em risco grave. Tudo isso é descritivo ou está em células de certeza muito baixa.
+
+O voto estratégico é o canal com mais estudos (25 o marcam) e com os testes mais diretos, em laboratório com incentivos, onde a informação sobre a distribuição de preferências aparece associada a mais deserção para a opção viável [@Tyszler2015; @Tal2015a; @Tyszler2013]. O achado é descritivo: @Tyszler2015 e @Tal2015a estão em células de apoio principal com certeza muito baixa, e @Tyszler2013 em nenhuma célula. Fora do laboratório, @Cornejo2023a acha a direção de viabilidade no México, e @Freden2024a, o contrário na Suécia. @Araujo2021a testou e descartou o voto estratégico no caso brasileiro, porque o efeito aparece maior no segundo turno, com dois candidatos.
+
+Ver projeções longe de 50:50 pode reduzir a decisão de votar (certeza baixa), e a evidência é muito incerta sobre se a boca de urna divulgada antes do fechamento reduz o comparecimento (certeza muito baixa) [@Westwood2020a; @Morton2015a; @Grillo2024c]. Em @Klor2017a, revelar a distribuição de preferências aparece associado a mais comparecimento só em eleitorados quase divididos, achado descritivo, dentro do estudo, numa célula de certeza muito baixa.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Mecanismos e tipos de evidência vêm do fichamento por IA, com concordância abaixo do limiar entre os dois codificadores (P037), e os valores citados aguardam a conferência na página do texto (P039). As leituras de @Lammers2022a (n por célula derivado) e do efeito de variável instrumental de @Gerber2020a são as que mais dependem dessa conferência.
+:::
+
+## Moderadores {#sec-moderadores}
+
+Esta parte também é descritiva. O protocolo só permite estimativa por subgrupo com pelo menos 3 estudos por nível, e teste com pelo menos 4, e nenhuma célula chegou lá. O que segue compara a direção de estudos que diferem num moderador, uma comparação mais fraca, ou relata subgrupos de um mesmo estudo, lado a lado e sem teste.
+
+A @tbl-hipoteses põe cada elo do modelo lógico e cada teoria rival ao lado do que a evidência diz, com certeza só onde há célula. A direção prevista pelos elos E2 a E4 domina os experimentos, com certeza muito baixa. A direção *underdog*, prevista pelo E5, só aparece na condição moral de @Lammers2022a e numa proibição de boca de urna [@Chatterjee2019a], que os autores leem como voto no azarão ou de protesto. O efeito só de expectativa é compatível com @Gerber2020a, os efeitos que se anulam ficaram sem teste, e o efeito artefatual é compatível com o padrão de realismo a seguir, sem teste formal.
+
+::: {.tabela-larga}
+
+| Hipótese do protocolo | Estudos que testam com dados | O que a evidência diz | Certeza |
+|---|---|---|---|
+| **E1** Exposição → percepção de viabilidade: o eleitor atualiza a expectativa de quem vence (elo intermediário) | [@Gerber2020a, mediação; @Bursztyn2023a; @Erlich2023; @Westwood2020a; @Boukouras2020a; @Meffert2011; @Lago2015]; só interpretação: [@Feltovich2022; @Meffert2012a] | A pesquisa move expectativas. O único teste formal, uma mediação em experimento de campo (@Gerber2020a), não acha efeito da expectativa sobre o comparecimento; os demais estudos inferem o canal por contraste. | [⊕⊕⊕◯]{.grade} moderada, só para o efeito nulo de @Gerber2020a no comparecimento; o elo em si, sem GRADE |
+| **E2** Viabilidade → cálculo estratégico → apoio: abandonar o candidato inviável e migrar para um viável (esperado: *bandwagon* ou migração para o segundo colocado competitivo) | [@Tyszler2013; @Tyszler2015; @Tal2015a; @Agranov2017a; @Cornejo2023a; @Freden2024a, relato; @Schlegel2023; @Witsman2016a; @Gandhi2019; @Alabrese2024a; @Lago2015]; só interpretação: [@Grillo2024c; @Groer2010a; @Kaplan2019a; @Gasperoni2015a; @Meffert2012a] | É o canal com mais estudos e com os testes mais diretos (laboratório com incentivos). A direção de viabilidade aparece no laboratório e no México (@Cornejo2023a); na Suécia, o voto de seguro vai contra a deserção do partido pequeno (@Freden2024a). | [⊕◯◯◯]{.grade} muito baixa, nas duas células de viabilidade |
+| **E3** Exposição → heurística de consenso → apoio: "se muitos apoiam, deve ser bom" (esperado: *bandwagon*) | [@Lammers2022a, manipulação; @Meer2015a; @Boukouras2020a; @Tal2015a; @Fichnova2015a]; só interpretação: [@Unkelbach2022a] | Direção *bandwagon* sob processamento heurístico, e a ênfase em quem ganha pesa mais que o número. Um único estudo manipula o canal, em vinheta hipotética (@Lammers2022a); os demais inferem o canal do padrão de resultados. | [⊕◯◯◯]{.grade} muito baixa, para o efeito nas células em que esses estudos estão; o canal em si, sem GRADE |
+| **E4** Exposição → conformidade ou desejo de vencer → apoio: aderir ao lado vencedor (esperado: *bandwagon*) | [@Agranov2017a; @Stolwijk2019b, mediação; @Yang2023d, relato]; só interpretação: [@Morton2015a; @Timotei2013a; @Dahlgaard2016a; @Unkelbach2022a; @Gasperoni2015a; @Kaplan2019a] | Padrão compatível em @Agranov2017a, em que a maioria vota mais com pesquisa; em @Stolwijk2019b, a mediação aponta o interesse pela campanha, não a conformidade. Nenhum estudo isola o canal. | sem GRADE (descritivo) |
+| **E5** Exposição → simpatia pelo azarão ou equidade → apoio a quem está atrás (esperado: *underdog*) | [@Lammers2022a, manipulação; @Yang2023d, relato]; só interpretação: [@Dahlgaard2016a] | Direção *underdog* ou nula sob o motivo moral de igualdade, com sinais diferentes entre as duas replicações de uma única manipulação, em vinheta (@Lammers2022a). | sem GRADE (descritivo) |
+| **E6** Exposição → emoções (ansiedade, entusiasmo) → apoio (direção esperada ambígua) | [@Stolwijk2016a, mediação; @Yang2023d, relato] | Efeitos indiretos positivos, maiores pelo entusiasmo que pela ansiedade, numa mediação observacional em painel (@Stolwijk2016a). | sem GRADE (descritivo) |
+| **E7** Exposição → complacência → desmobilização (efeito indesejado): apoiadores deixam de votar | [@Gerber2020a; @Westwood2020a; @Klor2017a; @Agranov2017a; @Bursztyn2023a; @Alabrese2024a]; só interpretação: [@Morton2015a; @Grillo2024c; @Groer2010a; @Kaplan2019a; @Brugarolas2021] | Previsões que fazem a eleição parecer decidida (boca de urna, projeção probabilística) vão na direção de desmobilização; a disputa apertada, na de mobilização; a crença de proximidade isolada não muda o comparecimento. São estudos isolados em cada célula. | de [⊕◯◯◯]{.grade} muito baixa a [⊕⊕⊕◯]{.grade} moderada, conforme a célula de comparecimento |
+| **E8** Divulgação estratégica de pesquisas enviesadas → exposição: quem tem interesse publica números favoráveis para induzir *bandwagon* (afeta o conteúdo da exposição, não o sinal do efeito) | [@Boukouras2020a]; só interpretação: [@Alabrese2024a; @Farjam2020a; @Lammers2022a; @Morton2015a; @Timotei2013a; @Tyszler2015] | Só um estudo testa a divulgação seletiva: revelar apenas as pesquisas mais favoráveis a um candidato aumentou a vitória dele nos três experimentos de laboratório, inclusive quando o eleitor foi avisado do viés (@Boukouras2020a). Nos demais, o tema é só discussão, e @Timotei2013a usa uma pesquisa fabricada como tratamento. | [⊕◯◯◯]{.grade} muito baixa, para o efeito na célula de @Boukouras2020a |
+| **R1** Teoria rival 1, efeitos que se anulam: *bandwagon* e *underdog* coexistem, e um efeito médio perto de zero esconde efeitos individuais opostos | [@Cornejo2023a; @Lammers2022a] | Seis estudos têm linhas de subgrupo com sinais opostos no apoio, mas só dois entre grupos de eleitores ou de processamento (@Cornejo2023a; @Lammers2022a). O protocolo exige pelo menos três; a hipótese fica não testada. | sem GRADE (descritivo); sem teste formal (menos de 3 estudos com subgrupos de sinais opostos, como exige o protocolo) |
+| **R2** Teoria rival 2, efeito só de expectativa: a pesquisa muda expectativas, mas não o voto | [@Gerber2020a, mediação] | É o padrão de @Gerber2020a: a pesquisa de disputa apertada move a crença sobre a proximidade, mas não o comparecimento. Nenhum estudo testa formalmente a mediação da expectativa para o apoio ao líder. | [⊕⊕⊕◯]{.grade} moderada, só para o comparecimento; para o apoio, sem GRADE |
+| **R3** Teoria rival 3, efeito artefatual do experimento: com candidatos hipotéticos, o efeito reflete a demanda do experimentador (esperado: maior em contextos hipotéticos e induzidos) | nenhum | No apoio a quem aparece à frente, os 9 estudos hipotéticos ou induzidos vão todos na direção *bandwagon*, e um dos 4 em eleição real vai na direção oposta. No comparecimento, a direção majoritária muda com o realismo. É comparação entre estudos, e o realismo é o principal motivo de rebaixamento por indireção nas células de apoio. | sem GRADE (descritivo); sem teste formal (menos de 4 estudos por nível) |
+
+: Hipóteses e elos da teoria da exposição registrada no protocolo e o que a evidência incluída diz sobre cada um. E1 a E8: elos do modelo lógico; R1 a R3: teorias rivais. Síntese descritiva a partir do fichamento por IA, não conferido por humano. A certeza GRADE só aparece quando a hipótese coincide com uma célula da síntese principal e qualifica a direção do efeito nessa célula, não o mecanismo; nas demais linhas, sem GRADE. Nenhuma célula tem 4 estudos por nível de moderador, e por isso nenhuma hipótese de moderação teve teste formal. {#tbl-hipoteses tbl-colwidths="[24,22,36,18]"}
+
+:::
+
+Quanto ao realismo, na célula principal de apoio, os 4 estudos com vinheta hipotética e os 5 com preferências induzidas foram todos *bandwagon*, e, dos 4 em eleição real, 3 foram *bandwagon* e 1 *underdog* [@Chatterjee2019a]. No comparecimento, 3 de 4 estudos com preferências induzidas foram na direção de mobilização, e os 7 em eleição real tiveram 2 de mobilização, 3 de desmobilização, 1 misto e 1 nulo. O realismo foi o principal motivo de rebaixamento por indireção nas células de apoio (@fig-realismo; comparação descritiva, sem teste).
+
+![Direção do efeito por realismo do contexto (eleição hipotética, preferências induzidas em laboratório ou eleição real), separada por classe de desenho, no apoio a quem aparece à frente (célula principal) e no comparecimento. Cada bloco é um estudo numa célula da síntese principal; o bloco claro e tracejado é um estudo em risco crítico, fora do teste de sinal. Comparação descritiva, sem teste.](revista/figuras/saida/realismo){#fig-realismo fig-alt="Barras horizontais feitas de blocos, um por estudo, coloridos pela direção do efeito, para cada nível de realismo do contexto, em painéis por desfecho e classe de desenho."}
+
+O número de competidores não muda a direção: foram *bandwagon* 5 de 5 estudos com dois competidores e 7 de 8 com três ou mais. Dos 13 estudos da célula principal, 8 usam a regra do próprio experimento como sistema eleitoral, e, sem estimativa de tamanho, a hipótese de efeito maior com pluralidade não pode ser avaliada.
+
+Nos estudos que variam a proximidade, a disputa apertada aparece com mais comparecimento, e a decidida, com menos [@Bursztyn2023a; @Klor2017a; @Alabrese2024a]. No desenho mais forte [@Gerber2020a], receber pesquisa apertada, em vez de folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais (certeza moderada). A mobilização do lado que está atrás, prevista pela teoria, aparece como padrão de comparecimento em @Bursztyn2023a, mas o efeito na parcela de votos é nulo por ±δ.
+
+Os dias até a eleição só estão informados em 11 dos 41 estudos. As exposições do dia da votação (boca de urna e apuração parcial) têm efeitos grandes, mas são as únicas de variação natural em eleição real, e o momento se confunde com o desenho. Só um estudo é de referendo [@Bursztyn2023a], e a hipótese de efeito maior em referendos não pôde ser examinada.
+
+Em @Cornejo2023a, com heterogeneidade pré-especificada, o efeito de viabilidade foi maior entre partidários (g = 0,33) que entre independentes (0,09), ao contrário do esperado, e perto de zero, com sinal oposto, entre quem prefere o PRI (−0,05). @Meer2015a não achou interação com preferência prévia, volatilidade ou escolaridade. Quanto à sofisticação, as duas teorias rivais do protocolo têm algum apoio. Os menos informados atualizam mais as crenças e respondem mais à heurística induzida [@Gerber2020a; @Lammers2022a], mas em @Gasperoni2015a, em risco crítico, quem trocou de voto era mais interessado. Nenhum estudo testa as duas no mesmo desenho.
+
+A hipótese de efeitos que se anulam exige pelo menos 3 estudos com subgrupos de eleitores de sinais opostos, e só 2 os têm [@Cornejo2023a; @Lammers2022a], de modo que fica sem teste. Quanto à equidade, dos três estudos que testaram a escolaridade, dois não acharam diferença [@Dahlgaard2016a; @Meer2015a] e um achou a direção prevista para um só partido [@Unkelbach2022a, em risco crítico], e o único teste de classe social não achou moderação. A hipótese de *bandwagon* maior entre os de menor escolaridade ou classe não tem apoio consistente.
+
+Nenhum dos 11 estudos de comparecimento da síntese principal tem voto obrigatório codificado como sim: 2 estão como não, e 9, como não informado. A hipótese de que o voto obrigatório elimina o canal da desmobilização não pode ser examinada.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Os moderadores relatados, a margem mostrada, os dias até a eleição e o voto obrigatório tiveram concordância abaixo do limiar entre os codificadores de IA (P037), e as estimativas por subgrupo aguardam a conferência dos efeitos (P039). As decisões sobre @Feltovich2022 e @Witsman2016a mudariam as contagens de realismo e de número de competidores.
+:::
+
+## Percepção, implementação e custo {#sec-percepcao}
+
+O formato OQF avalia também como os envolvidos percebem uma política, o que a implementação exige e quanto ela custa, dimensões que aqui não se aplicam. A exposição a pesquisas é um fenômeno de informação, sem gestor que a implemente, e chega ao eleitor por escolha, por acaso ou por manipulação experimental. Não há fidelidade de implementação nem custo por beneficiário a calcular, e a revisão, restrita ao efeito, não sintetizou achados qualitativos (sem GRADE-CERQual). A caixa gerada pelo *script* marca a implementação como "Não avaliada" e o custo como "Pendente", e o texto as trata como "não se aplica". Estudos de percepção e de custo regulatório estão na agenda de pesquisa (@sec-pesquisa-futura).
+
+# Discussão {#sec-discussao}
+
+## Resumo dos achados {#sec-achados}
+
+Nas três células randomizadas de apoio a quem aparece à frente, todos os estudos foram na direção *bandwagon*, com certeza muito baixa em cada uma e sem estimativa de tamanho. Duas meta-análises exploratórias, com 3 estudos cada, deram estimativas positivas com intervalos de confiança que cruzam zero e inferência robusta não confiável. Nas três células não randomizadas, o quadro é mais dividido: duas vão na direção *bandwagon*, e a de boca de urna tem um estudo em cada direção. As classes não se contradizem, mas a não randomizada é mais fraca e mais dividida. A regularidade repousa em laboratório e vinheta e rareia quando se olha só para eleições reais (@sec-sensibilidades).
+
+No comparecimento, o quadro é misto, e o achado de maior certeza é um nulo. O maior experimento de campo permite descartar, com certeza moderada, efeitos de pesquisa apertada, frente a folgada, maiores que 2 pontos percentuais. Ter visto a divulgação de pesquisas pode aumentar a participação, e projeções longe de 50:50 podem reduzi-la, com certeza baixa nos dois casos. A evidência sobre a boca de urna é muito incerta. A diferença entre formatos, com boca de urna e projeções na direção de desmobilização e pesquisas pré-eleitorais na de mobilização, foi notada depois de ver os dados.
+
+As três contribuições anunciadas na introdução se confirmam em termos modestos: (i) o inventário com protocolo da evidência causal publicada desde 2010 existe agora, com risco de viés e certeza por célula; (ii) a separação por células mostra que a regularidade *bandwagon* vem de um tipo de desenho e que voto estratégico e *momentum* têm poucos estudos; e (iii) o mapa brasileiro é, sobretudo, de lacunas.
+
+## Relação com revisões anteriores {#sec-revisoes-anteriores}
+
+@Barnfield2019 argumenta que experimentos que apresentam a pesquisa como único estímulo tendem a achar efeito, com pouco a ensinar por falta de realismo, e que pistas de contexto, como a identificação partidária, atenuam o efeito da pesquisa. O achado desta revisão, de que a regularidade *bandwagon* repousa em laboratório e vinheta e rareia em eleições reais, está em linha com essa advertência. A separação que Barnfield faz entre conversão e mobilização, e entre *bandwagon* e a desmobilização de quem vê o próprio partido afundar, também está nas células desta revisão.
+
+@MoyRinke2012 concluíram que a literatura não permitia dizer se o *bandwagon* ou o *underdog* era mais comum, por inconsistências teóricas e operacionais, que havia evidência de efeitos mobilizadores e desmobilizadores no comparecimento e que os efeitos dependem do contexto político e midiático. Esta revisão não fecha essa questão. Nas células randomizadas, a direção pende para o *bandwagon*, mas com certeza muito baixa. No comparecimento, o quadro segue misto, e a dependência do contexto reaparece no padrão de realismo e na transferibilidade. A diferença de método (protocolo, células, risco de viés, GRADE e só evidência desde 2010) explica por que a comparação é de enquadramento, e não de estimativas.
+
+@Cosgun2026, revisão sistemática sobre campanhas numa só base e só em inglês, registra que as afirmações causais mais fortes da área vêm de laboratório e de experimentos de *survey*, concentrados nos Estados Unidos e em painéis de conveniência, o que coincide com a composição dos estudos incluídos aqui. A sobreposição com esta revisão é pequena. Sobre @Hardmeier2008, sem texto aberto, não há como comparar conclusões. Esta revisão atualiza a evidência, e não um resultado verificado daquele capítulo.
+
+## Completude, aplicabilidade e limitações da evidência {#sec-limitacoes-evidencia}
+
+Os 41 estudos vêm, na maioria, dos Estados Unidos e da Europa. Dos 9 experimentos de apoio do agrupamento amplo, 8 usaram laboratório com preferências induzidas ou vinheta hipotética, e, com contexto real, sobra 1. O único estudo com dados só do Brasil [@Araujo2021a] trata da divulgação oficial da apuração parcial com a votação ainda em curso, e não de pesquisa eleitoral. Nenhum estudo incluído estima, com dados só do Brasil, o efeito de pesquisas pré-eleitorais publicadas; o país aparece apenas entre os 46 do corte transversal de @Lago2015, que ficou fora da contagem principal. Os fatores de transferibilidade ao Brasil ficam, por isso, sem estudo (@sec-brasil).
+
+Quanto à qualidade, cada célula tem de 1 a 4 estudos, abaixo do necessário para teste de sinal com poder, análise de moderadores ou avaliação de viés de publicação, e, nas de 1 estudo, o IC 95% da proporção vai de 0,03 a 1,00 ou de 0,00 a 0,97. Há efeitos lidos de figura (@Tyszler2015), medidas de grupo (@Agranov2017a e @Tyszler2015 medem quem vence a eleição do grupo), n derivado (@Lammers2022a e @Meffert2011) e valor derivado (@Kaplan2019a). Sem meta-análise principal, não há tamanho do efeito, e as duas metas misturam medidas, têm menos de 4 graus de liberdade e dependem de um estudo cada no *leave-one-out*. Nenhum resultado randomizado ficou em risco baixo, os 4 experimentos da célula do mesmo candidato atrás estão em risco alto, e o confundimento foi grave ou crítico na maioria dos não randomizados. Contrastes e estimandos são heterogêneos, e 7 estudos só têm efeitos fora da contagem. Por fim, alguns estudos publicados depois de 2010 usam eleições ou coletas anteriores [@Morton2015a; @Chatterjee2019a; @Tyszler2015; @Klor2017a].
+
+A evidência nada diz sobre oito pontos: (i) o tamanho do efeito das pesquisas sobre o voto, porque não há meta-análise principal; (ii) o efeito de pesquisas pré-eleitorais publicadas sobre eleitores brasileiros, porque não há estudo; (iii) um embargo de pesquisas pré-eleitorais como o que o STF derrubou em 2006, que só @Lago2015 aborda, num corte transversal fora da contagem; (iv) se o voto obrigatório fecha o canal da desmobilização, porque nenhum estudo de comparecimento da síntese foi feito sob voto obrigatório; (v) se a confiança nas pesquisas modera o efeito, moderador relatado por um só estudo; (vi) o efeito de agregadores e projeções sobre a escolha de voto, porque os estudos desse formato só mediram o comparecimento; (vii) referendos, com um só estudo; e (viii) os mecanismos, além do teste de expectativa de @Gerber2020a, porque os demais canais foram inferidos de contrastes, e não testados por desenho próprio.
+
+## Limitações do processo e da síntese {#sec-limitacoes-processo}
+
+As limitações do processo seguem as etapas. Em cada uma, a direção provável do viés é inferência, e não medida, e, pelo critério do livro que orienta a revisão, nada disso é compensado pela concordância entre agentes.
+
+Na busca, as fontes ficaram restritas (A1), sem Web of Science, Scopus, SciELO nem literatura cinzenta, as âncoras foram montadas por IA, com *recall* final não independente (A3), e o PRESS foi só por IA, com lacunas conhecidas (A4). As estratégias cobrem três idiomas. O recorte de 2010 deixa de fora o intervalo entre o fim da cobertura de @Hardmeier2008, não verificado, e 2009. Estudos perdidos, se forem mais vezes nulos e não publicados, inflariam a proporção na direção dominante, e proibições, embargos e comparecimento tendem a ficar sub-representados. Sobre o sinal *bandwagon* × *underdog*, a direção do viés é indeterminada. Resolvem P001 e P004.
+
+Na seleção, a triagem foi só por IA (A2), sem *recall*, e 81 divergências e 145 pares de duplicata seguem sem decisão. A triagem complementar dos 336 registros sem resumo também foi só por IA, sem estimativa de quantos elegíveis se perderam nas 156 exclusões, e o comando que registrou essas decisões grava o ator como humano, embora elas sejam de IA. As 165 decisões de elegibilidade seguem sem conferência. Não foram recuperados 342 de 526 relatos, sem contato com autores (A5), parte deles de acesso aberto bloqueado por desafio antirrobô, que não foi contornado, e o PDF de @Freden2016b não traz o artigo empírico. A regra liberal reduz exclusões erradas, mas exclusões concordantes e erradas dos dois agentes não aparecem na concordância, e, se os não recuperados forem mais vezes nulos, a direção dominante fica superestimada. Resolvem P006, P007, P019, P020, P041, P008 e P023.
+
+Na extração, a recodificação cega concordou em 58,5%, com alvo e comparador em κ 0,38, estimando em κ 0,15 e a direção da estimativa principal em 50%. Reextração e arbitragem usaram o mesmo modelo, e o coordenador de IA aplicou 772 correções, 240 delas estendidas sem nova arbitragem, e barrou 40 que vinham de um erro dele. Erros aleatórios de sinal aproximam as contagens de metade e atenuam a direção dominante, e erros sistemáticos do mesmo modelo têm direção imprevisível. Resolvem P039, P037, P025 e P026.
+
+No risco de viés, os julgamentos são só de IA, e o árbitro é do mesmo modelo do avaliador A, que ele seguiu em 79 de 88 domínios. A confirmação em bloco registrada na Emenda 4d não aconteceu (Emenda 6a), o ROBINS-I V2 ficou no lugar do ROBINS-E, e os classificadores de desenho em desacordo foram fixados pelo coordenador. Isso afeta a certeza e a exclusão por risco crítico (3 estudos), e não o sinal dos efeitos. Resolve a P033.
+
+Na síntese, a estrutura de células, o sinal por alvo, a lista de efeitos fora da contagem, a classe de desenho de dois estudos, os nulos por ±δ e o sinal por *proxy* foram decididos depois de ver os dados (Emenda 5), assim como as reclassificações de alvo e de comparador dos árbitros, e por isso o agrupamento amplo é descritivo. A contagem por direção responde se há evidência numa direção, e não o tamanho, e ignora a precisão dos estudos. As metas misturam medidas, têm menos de 4 graus de liberdade, e a do mesmo candidato atrás foi rodada depois do GRADE. Ficaram planejadas e não feitas as análises de moderadores e subgrupos (k insuficiente), de equidade, de evidência faltante por célula, do artigo como conglomerado e de modelo de seleção. As decisões pendentes da @sec-sensibilidades podem mover estudos entre células, mas nenhuma levaria uma célula a outro rótulo. Resolvem P035, P036 e P039.
+
+Na certeza, o GRADE foi rascunhado por um só subagente, sem segundo avaliador, e três decisões ficaram para o autor: (i) não rebaixar os corpos cuja única preocupação de risco de viés é o relato seletivo [@Westwood2020a; @Meer2015a; @Boukouras2020a; @Gerber2020a], e, se forem rebaixados, as células de @Westwood2020a e @Gerber2020a descem um nível; (ii) rebaixar só um nível a célula de @Stolwijk2019b e @Brugarolas2021; e (iii) rebaixar por viés de publicação o agrupamento amplo de apoio randomizado, que sem isso teria certeza baixa. Nenhuma delas dá a uma célula estudos suficientes para outro rótulo da caixa. Resolvem P036, P042 e P035.
+
+No relato, este texto foi redigido por agentes de IA a partir dos arquivos e ajustado ao estilo do autor, que ainda não o leu, e todos os modelos são do mesmo provedor, de modo que erros correlacionados não aparecem na concordância. A ferramenta de revisão teve dois defeitos: o conferidor de trechos literais removia o travessão sem inserir espaço e recusou citações corretas de dois triadores, e o classificador de respostas tratava como inconclusiva qualquer resposta com a sequência "incert". Não houve consulta a *stakeholders*. Os dois primeiros problemas podem reforçar erros sem sinal definido, e os defeitos da ferramenta afetaram registros de triagem, e não efeitos. Resolve a P038.
+
+# Da evidência à prática: implicações {#sec-pratica}
+
+## Caixa de ferramentas {#sec-caixa}
+
+A @tbl-oqf traz a caixa no formato OQF para a pergunta principal, pesquisa pré-eleitoral e apoio a quem aparece à frente. Ela foi gerada pela regra caixa-3 (@sec-certeza) a partir da mesma tabela de achados que alimenta a @tbl-sof. Cada linha informa a certeza, e a "Força" é a certeza, e não o tamanho. A caixa célula a célula e o painel estão em [S9](suplemento.html#s9-caixa).
+
+| Dimensão | Resultado para pesquisa pré-eleitoral × apoio a quem aparece à frente | Evidência | Certeza |
+|---|---|---|---|
+| Escala | Não estimada. Não há meta-análise principal. As duas metas exploratórias deram g = 0,48 (IC 95% −1,51 a 2,47; 3 estudos) e g = 0,62 (IC 95% −0,48 a 1,72; 3 estudos), ambas com menos de 4 graus de liberdade | @sec-apoio; @fig-metas; suplemento, S6 | muito baixa (a das células) |
+| Força | Inconclusivo (randomizados: Inconclusivo, força insuficiente; não randomizados: Inconclusivo, força insuficiente). São 9 células com 16 estudos, somando o alvo principal, a viabilidade e o *momentum* | @sec-efeito; @tbl-sof; suplemento, S9 | muito baixa em todas as células |
+| Mecanismo | Descritivo. Voto estratégico e viabilidade é o canal com mais estudos e com testes diretos em laboratório; a heurística de consenso tem uma manipulação, em vinheta (@Lammers2022a); nenhum estudo isolou a conformidade | @sec-mecanismo; @tbl-hipoteses | sem GRADE (descritivo) |
+| Moderador | Descritivo. Na célula principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e só um experimento de pesquisa usou eleição real (@Farjam2020a); o partidarismo não atenuou o efeito no único teste pré-especificado dentro da síntese principal (@Cornejo2023a); nenhum moderador teve estudos suficientes para teste | @sec-moderadores; @fig-realismo | sem GRADE (descritivo) |
+| Implementação | Não se aplica: a exposição a pesquisas não é um programa implementado por um gestor. A caixa gerada registra "Não avaliada" por falta das variáveis de implementação | @sec-percepcao | não se aplica |
+| Percepção | Não se aplica: a revisão é só de efeito e não sintetizou achados qualitativos sobre como eleitores percebem as pesquisas | @sec-percepcao | não se aplica |
+| Custo | Não se aplica à exposição. A caixa gerada registra "Pendente" porque não há dado de custo no fichamento | @sec-percepcao; suplemento, S9 | não se aplica |
+
+: Caixa de ferramentas no formato OQF para a pergunta principal: pesquisa pré-eleitoral e apoio a quem aparece à frente. Rótulos pela regra `caixa-3`; a certeza GRADE qualifica a direção e é rascunho de IA não validado. {#tbl-oqf tbl-colwidths="[12,50,24,14]"}
+
+Todas as células ficaram Inconclusivo, e o motivo é aritmético antes de ser substantivo. Quinze das 18 células têm certeza muito baixa, o que leva direto a esse rótulo. As outras três não têm meta-análise nem estudos suficientes para o teste de sinal. Com o teste binomial exato bilateral, p < 0,05 exige pelo menos 6 estudos na mesma direção, e nenhuma célula tem mais de 4. A célula de @Gerber2020a, nula por ±δ e com certeza moderada, também fica Inconclusivo, porque a regra só dá Nulo a uma meta-análise e o rótulo é calculado no nível formato × desfecho × desenho e repetido nas células. Inconclusivo não quer dizer que as pesquisas não têm efeito. Quer dizer que a evidência não permite afirmar direção e tamanho com a confiança que a regra exige.
+
+As linhas de percepção, implementação e custo não se aplicam (@sec-percepcao). Os rótulos seguem a regra versionada, aplicada à tabela de achados, e nenhuma implicação desta seção é mais forte que a certeza que a sustenta.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+Os rótulos e a força dependem das certezas GRADE, rascunhadas por IA e não validadas (P036 e P042), e da confirmação do portão G8 (P035). Nenhuma das decisões em aberto dá a uma célula estudos suficientes para outro rótulo que não Inconclusivo.
+:::
+
+## O que isso significa para o debate brasileiro {#sec-brasil}
+
+A evidência reunida permite dizer pouco: (i) nos experimentos que isolam a informação da pesquisa, a direção dominante é *bandwagon*, com certeza muito baixa; (ii) uma pesquisa apertada, frente a uma folgada, provavelmente não muda o comparecimento além de 2 pontos percentuais, num país de voto facultativo; e (iii) o único estudo com dados só do Brasil trata da apuração parcial oficial, e não de pesquisa, e nenhum estudo incluído estima, com dados só do Brasil, o efeito de pesquisas pré-eleitorais publicadas. A evidência não permite afirmar que as pesquisas mudam o resultado das eleições, nem de quanto, nem que não têm efeito. Ela também não trata da precisão das pesquisas, objeto dos projetos de lei de 2022.
+
+Do ponto de vista da restrição à divulgação, a evidência direta vem de proibições de boca de urna na França e na Índia, em direções opostas no apoio ao líder e com certeza muito baixa, e de um corte transversal de 46 países que ficou fora da contagem [@Lago2015]. Nenhum estudo da síntese principal avalia um embargo de pesquisas pré-eleitorais como o que o STF derrubou em 2006. Com certeza muito baixa, a evidência não permite concluir, e não cabe implicação de adoção nem de revogação baseada em efeito. Sozinha, a evidência não sustenta nem a restrição nem a manutenção das regras atuais de divulgação. O fundamento de 2006, o direito à informação, não depende desta evidência, e a decisão cabe a quem tem mandato para tomá-la.
+
+A transferibilidade foi julgada, e não presumida, pelos quatro fatores fixados no protocolo antes dos dados: voto obrigatório, dois turnos nas eleições executivas, regulação da divulgação e confiança nas pesquisas. A @tbl-transferibilidade diz, para cada um, como é o Brasil, quantos estudos têm a condição e o que se pode dizer. O julgamento é por fator e não gera um segundo rebaixamento, porque a diferença de contexto e de realismo já entrou na indireção do GRADE. Em síntese, nenhum estudo de comparecimento da síntese principal tem voto obrigatório codificado, só o estudo brasileiro mede os dois turnos da mesma eleição, os experimentos de viabilidade vêm de sistemas de pluralidade ou proporcionais, a evidência sobre regulação vem de outros países, e a confiança nas pesquisas foi relatada por um só estudo.
+
+::: {.tabela-larga}
+
+| Fator | Como é no Brasil | Estudos incluídos com a condição | O que se pode dizer |
+|---|---|---|---|
+| Voto obrigatório | O levantamento de contexto desta revisão não tratou deste fator. O único estudo brasileiro incluído registra que o voto é obrigatório, com multa pequena para quem não vota [@Araujo2021a]. | 3 de 41 estudos têm voto obrigatório codificado [@Araujo2021a; @Feltovich2022; @Tyszler2015], dois deles por regra do jogo de laboratório; 10 informam o dado. Nenhum dos 11 estudos de comparecimento da síntese principal foi feito sob voto obrigatório | A hipótese de que o voto obrigatório elimina o canal da desmobilização não pode ser examinada com estes estudos. O estudo brasileiro não teve o comparecimento como desfecho extraído. |
+| Dois turnos | Eleição presidencial em dois turnos, como em 2018, quando o estudo brasileiro mediu os dois [@Araujo2021a], e em 2022, quando a divergência entre as pesquisas e o resultado do primeiro turno levou a acusações contra os institutos [@PereiraNunes2024]. | 4 de 41 estudos em sistema de maioria em dois turnos [@Araujo2021a; @Erlich2023; @Grillo2024c; @Morton2015a] | O estudo brasileiro achou a mesma direção nos dois turnos. Os experimentos de viabilidade vêm de sistemas de pluralidade [@Cornejo2023a; @Schlegel2023] ou proporcionais [@Freden2024a], e nenhum trata do primeiro turno de uma eleição em dois turnos. |
+| Regulação da divulgação | Registro prévio obrigatório de cada pesquisa na Justiça Eleitoral, até cinco dias antes da divulgação [@Brasil1997Lei9504; @TSE2019Res23600]. Não há período de embargo desde 2006, quando o STF derrubou a proibição de divulgar pesquisas nos quinze dias anteriores ao pleito [@STF2006ADI3741]. Projetos de lei de 2022 propõem punir pesquisas que divirjam do resultado além da margem de erro; nenhum dos dois tinha sido votado em plenário na consulta de 24/09/2026 [@BrasilCamara2022PL2567; @BrasilSenado2022PL2558]. | 3 estudos com variação vinda de regra de divulgação: proibição de boca de urna [@Chatterjee2019a; @Morton2015a] e embargo de pesquisas [@Lago2015]; 2 deles estão na síntese principal | Nenhum estudo avalia a regulação brasileira. As proibições de boca de urna na França e na Índia foram em direções opostas no apoio ao líder (certeza muito baixa), e o corte transversal de 46 países ficou fora da contagem [@Lago2015]. |
+| Confiança nas pesquisas | O levantamento de contexto não traz medida da confiança do público nas pesquisas. Depois do primeiro turno de 2022 houve projetos de lei e um pedido de CPI contra os institutos [@BrasilCamara2022PL2567; @SenadoNoticias2022CPIPesquisas]. Entre 2012 e 2020, o desempenho das pesquisas brasileiras foi comparável ao de outros países [@Meireles2022]. | 1 estudo relata a confiança nas pesquisas como moderador [@Gasperoni2015a], em risco de viés crítico | A teoria prevê efeito menor quando a confiança é baixa, mas esse moderador foi relatado por um único estudo e não foi sintetizado. |
+
+: Fatores de transferibilidade previstos no protocolo e a evidência incluída. As contagens vêm da codificação dos estudos no fichamento por IA, não conferida por humano. {#tbl-transferibilidade tbl-colwidths="[14,32,24,30]"}
+
+:::
+
+Em @Araujo2021a, falhas da identificação biométrica deixaram eleitores votando depois das 19:00 na eleição presidencial de 2018, quando a apuração parcial oficial já mostrava Bolsonaro à frente. O estudo entrou pela Emenda 1, decidida depois de conhecê-lo, e forma célula própria. @Cornejo2023a é o único estudo latino-americano sobre pesquisa pré-eleitoral na análise principal, e @Lago2015 ficou fora da contagem. A tabela regional está em [S10](suplemento.html#s10-regional).
+
+As implicações por ator acompanham essa certeza. Para o Congresso e a Justiça Eleitoral, um argumento sobre o efeito das pesquisas no voto, a favor ou contra restrições, só é fiel a esta evidência se disser que a certeza é muito baixa ou baixa na maior parte das células e que não há evidência sobre pesquisas com dados só do Brasil. Se as regras de divulgação mudarem, a mudança pode ser desenhada de modo a permitir avaliação, única implicação admissível com certeza muito baixa. Para a imprensa e os institutos, a revisão não dá base para afirmar que a divulgação move votos, nem que é inócua.
+
+::: {.callout-important}
+## Pendente de revisão humana
+
+As implicações acompanham certezas ainda não validadas (P036 e P042) e efeitos ainda não conferidos (P039). Se o autor mudar o alvo do efeito principal de @Witsman2016a ou a lista de efeitos fora da contagem, a primeira mensagem principal precisa ser revista.
+:::
+
+## Implicações para a pesquisa {#sec-pesquisa-futura}
+
+As implicações para a pesquisa saem dos domínios que rebaixaram a certeza. Faltam: (i) estudos com eleições reais no Brasil, sejam experimentos de *survey* com pesquisas verdadeiras em campanhas em curso, sejam experimentos naturais que aproveitem variações no calendário ou no alcance da divulgação, o que responderia à indireção; (ii) desenhos com comparador sem pesquisa, porque é esse contraste que responde à pergunta regulatória; (iii) pré-registro e relato completo, que reduziriam a preocupação de risco de viés mais comum nos experimentos, o relato seletivo; (iv) estudos maiores, com o efeito relatado em pontos percentuais e erro-padrão, o que responderia à imprecisão; (v) medidas, no mesmo desenho, do apoio a quem lidera, da deserção estratégica e do comparecimento; (vi) estimativas por subgrupo de eleitores que permitam testar a hipótese de efeitos que se anulam, com a confiança nas pesquisas e o voto obrigatório como moderadores; e (vii) estudos sobre a percepção das pesquisas pelos eleitores e sobre o custo regulatório de restrições à divulgação, que seriam avaliação da regulação, e não da exposição. Uma atualização desta revisão deveria incluir outras bases e revisão PRESS humana.
+
+# Conclusões {#sec-conclusoes}
+
+Nos experimentos, a direção é *bandwagon*, sem estimativa de tamanho, e a evidência é muito incerta sobre se ver uma pesquisa aumenta o apoio a quem ela mostra à frente (8 experimentos em duas células, cada uma com certeza muito baixa; quase todos em laboratório ou com vinheta hipotética). Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 pontos percentuais para mais ou para menos (1 experimento de campo; certeza moderada). Ter visto a divulgação de pesquisas pode aumentar a intenção de votar ou o comparecimento (2 estudos não randomizados em eleições reais; certeza baixa), e ver projeções que mostram probabilidade de vitória mais distante de 50:50 pode reduzir a decisão de votar (1 jogo *online*; certeza baixa). A evidência é muito incerta sobre se divulgar boca de urna antes do fechamento das urnas reduz o comparecimento (3 experimentos naturais em duas células; certeza muito baixa).
+
+A evidência não diz de quanto é o efeito das pesquisas sobre o voto, e tampouco permite afirmar que elas não têm efeito. O único estudo com dados só do Brasil [@Araujo2021a] trata da divulgação oficial da apuração parcial com a votação ainda em curso, e não de pesquisa eleitoral. Sozinha, a evidência não sustenta nem a restrição nem a manutenção das regras atuais de divulgação. Todas as etapas depois do protocolo foram conduzidas por agentes de IA, sem validação humana, e há 18 pendências humanas abertas. A validação pode mudar a composição das células e, com ela, estas conclusões.
+
+# Informações adicionais {#informacoes-adicionais .unnumbered}
+
+**Diferenças entre protocolo e revisão.** Houve nove desvios: (i) E001, em 19/09/2026, contingência prevista, antes da busca definitiva, que ampliou a estratégia em inglês depois da pré-revisão PRESS por IA; (ii) E002, em 19/09/2026, depois da busca e antes da triagem, que trocou a B01 pela B05 pela perda de 4 âncoras, e o *recall* final deixou de ser independente; (iii) Emenda 1, em 20/09/2026, depois de ver o estudo, que pôs a apuração parcial oficial no C2 e afeta só @Araujo2021a, em célula própria (sem ele, os não randomizados de apoio ficam com 2 de 3); (iv) Emenda 2, em 20/09/2026, depois do piloto e decidida pelo coordenador de IA, que redefiniu três variáveis do *codebook*, o que não mexe diretamente nas células; (v) Emenda 3, em 23/09/2026, antes de avaliar o risco de viés, que copiou os *codebooks* para o protocolo e registrou a troca do árbitro, por custo e decisão do autor, por outro do mesmo modelo do avaliador A (possível viés de afinidade); (vi) Emenda 4, em 23/09/2026, depois da extração e antes de analisar efeitos, sobre o geral do EPOC, a célula de *momentum* e o ICC imputado, cujo valor de 0,20 não mudou contagens (o item 4d foi substituído pela Emenda 6a); (vii) Emenda 5, em 23/09/2026, depois da primeira síntese, com células pelo alvo, sinal por alvo, efeitos fora da contagem, críticos fora, classe de dois estudos, metas exploratórias, nulos por ±δ, sinal por *proxy* e sensibilidades (as sensibilidades com os efeitos fora da contagem e com os críticos não inverteram a direção dominante no apoio randomizado); (viii) Emenda 6, em 23/09/2026, depois do G9, com a correção da atribuição humana (6a) e a nova triagem por IA dos 336 registros sem resumo (6b), sem novo incluído; e (ix) outros: classificadores de desenho em desacordo fixados pelo coordenador, e não pelo árbitro; a meta do mesmo candidato atrás rodada depois do GRADE; metas pelo CHE com RVE previsto no protocolo para efeitos dependentes, e não pelo estimador citado na Emenda 5; e análises planejadas e não feitas (moderadores e subgrupos, equidade, evidência faltante por célula, artigo como conglomerado, modelo de seleção). A tabela completa está em [S3](suplemento.html#s3-emendas).
+
+**Registro e protocolo.** A revisão não foi registrada, por decisão do autor em 19/09/2026. O protocolo foi aprovado no portão G2 em 19/09/2026 e congelado com sha256 no *log* do projeto, e as emendas estão registradas com a mudança, o motivo e a etapa.
+
+**Financiamento.** Esta revisão não recebeu financiamento específico, por declaração do autor.
+
+**Conflitos de interesse.** Nenhum, por declaração do autor, inclusive com o provedor das ferramentas de IA.
+
+**Contribuições (CRediT).** Conceituação: Felipe Lamarca (pergunta aprovada no portão G1). Metodologia: Felipe Lamarca, no protocolo aprovado no portão G2; nas demais escolhas de método, **[A confirmar pelo autor]**. Curadoria de dados, análise formal, investigação, *software*, visualização, administração do projeto, recursos, supervisão, validação e escrita (revisão e edição): **[A confirmar pelo autor]**. Escrita (rascunho original): agentes de IA, que não são autores (ver a declaração de uso de inteligência artificial). Obtenção de financiamento: não se aplica. As decisões que o *log* registra como do autor estão na @sec-ia.
+
+**Disponibilidade de dados, código e materiais.** Material por material: (i) estão abertos, na página do projeto (<https://felipelamarca.com/pesquisas-eleitorais-rs/>), este artigo em HTML, PDF e .docx, o [material suplementar](suplemento.html) (S1 a S11: estratégias, atalhos, emendas, características, risco de viés, efeitos, efeitos fora da contagem, sensibilidades, caixa, estudos regionais e listas de conferência), o resumo em linguagem simples, o relatório técnico no formato PRISMA 2020, com a declaração de IA gerada do *log* (<https://felipelamarca.com/pesquisas-eleitorais-rs/relatorio-tecnico.html>), o guia da revisão humana e a página de entrada; (ii) estão fechados, no repositório privado do GitHub `felipelmc/pesquisas-eleitorais-rs`, protocolo e emendas, *log* de buscas e registros, registro das decisões, *codebooks*, fichas com trechos literais, efeitos extraídos e conversões, julgamentos de risco de viés, entradas e saídas das análises, *prompts* dos agentes, *log* auditável e pacotes de revisão humana, com condições de acesso **[A confirmar pelo autor]**; (iii) fica fora do repositório, no ambiente do autor, o código de análise da ferramenta de revisão (os *scripts* em R de efeitos e de síntese que ela chama), com as versões registradas metafor 5.0.1, clubSandwich 0.7.0, Quarto 1.9.35 e Typst 0.14.2; (iv) os PDFs dos estudos não são redistribuídos; e (v) não há identificador persistente nem depósito em repositório aberto, e a licença do material próprio fica **[A confirmar pelo autor]**.
+
+**Declaração de uso de inteligência artificial.** RASCUNHO NÃO VALIDADO: 18 pendências humanas abertas ([Apêndice A](#sec-pendencias)). Usamos modelos da Anthropic, pelo Claude Code, entre 19/09/2026 e 25/09/2026, com o coordenador `claude-opus-5-5` e os subagentes `claude-sonnet-5`, `claude-opus-5` e `claude-opus-5-5` e, nesta versão, subagentes Opus e Sonnet (@sec-ia). A IA decidiu a triagem de títulos e resumos e a triagem complementar dos registros sem resumo, e propôs, sem validação humana, a elegibilidade, a extração, as correções dos efeitos, o risco de viés e a certeza. Agentes redigiram este texto e o resumo em linguagem simples a partir dos arquivos, e os números foram conferidos por programas. A concordância A × B foi de 0,97 (κ 0,90) na triagem e de 58,5% na recodificação da extração, medidas de consistência, e não de acurácia, e o *recall* não foi calculado. As limitações são um só provedor, um árbitro do mesmo modelo do avaliador A e versões de modelo que mudam. A responsabilidade pelo conteúdo é humana, e o autor ainda não revisou este texto (P038). A declaração completa, gerada do *log*, está no relatório técnico.
+
+**Versão e citação.** Versão de trabalho de 25/09/2026; não citar como final. Como citar esta versão: Lamarca, Felipe. 2026. *Pesquisas eleitorais publicadas mudam o voto? Revisão sistemática rápida sobre os efeitos* bandwagon *e* underdog *e o comparecimento*. Documento de trabalho, rascunho não validado, versão de 25/09/2026. <https://felipelamarca.com/pesquisas-eleitorais-rs/>.
+
+**O que mudou desde 24/09/2026.** Seis mudanças: (i) a estrutura passou à de artigo de revisão, com os métodos antes dos resultados, uma Discussão nova, um só resumo mais o resumo executivo, título com "revisão sistemática" e o resumo em linguagem simples em documento separado; (ii) entraram tabelas e figuras novas (resumo dos achados, características, hipóteses, transferibilidade, modelo lógico, risco de viés e proporção por célula), as antigas foram redesenhadas em português, com vírgula decimal, e as tabelas estudo a estudo foram para o suplemento; (iii) três correções de texto, na frase sobre o Brasil (o corte transversal de 46 países inclui o Brasil), na descrição de @Hardmeier2008, que deixou de ser chamada de meta-análise porque não foi verificada, e na do modelo lógico, e a comparação com revisões anteriores passou a usar só conteúdo verificado; (iv) entraram as referências de método e o cruzamento dos atalhos com a diretriz de revisões rápidas; (v) nada mudou na análise, com as mesmas células, contagens, certezas e metas e as mesmas 18 pendências da versão de 24/09/2026; e (vi) há novos formatos, em PDF, .docx, suplemento e página de entrada.
+
+# Referências {#referencias .unnumbered}
+
+::: {#refs}
+:::
+
+# Apêndice A: pendências humanas abertas {#sec-pendencias .unnumbered}
+
+Estas são as 18 pendências abertas no estado atual da revisão, e todas exigem decisão humana. A IA não fecha nenhuma, e nenhuma sugestão de IA preparada nos pacotes conta como validação. A ordem segue as etapas, porque decisões de busca e de triagem podem mudar o conjunto de incluídos e tudo o que vem depois. Os pontos marcados no texto para confirmação do autor são contados à parte e não são pendências. O guia da revisão humana está em <https://felipelamarca.com/pesquisas-eleitorais-rs/revisao-humana.html>.
+
+| Id | Etapa | O que falta | Pacote em `08-revisao-humana/` | Esforço |
+|---|---|---|---|---|
+| P001 | busca (G3) | PRESS humano da string **ativa**, S-oa-en-v5. A pendência cita a v4, que foi substituída | `P001_press/` | 2,5 a 3,5 h |
+| P004 | portão G3 | confirmar o G3 | `README.md`, seção dos portões | 5 min |
+| P019 | organização | 145 pares candidatos de duplicata, com sugestão da IA por par | `P019_dedup/` | 1 a 1,5 h |
+| P020 | triagem T/A | 81 divergências entre os triadores A e B, com sugestão de um terceiro leitor cego | `P020_triagem/` | 1 h |
+| P006 | triagem T/A | amostra de validação cega: 141 registros, dois codificadores | `P006_P007_validacao/` | 2 × 1,5 h |
+| P007 | triagem T/A | amostra de elusão cega: 300 registros excluídos pela IA | `P006_P007_validacao/` | 2 h |
+| P008 | portão G4 | confirmar o G4 | `README.md`, seção dos portões | 5 min |
+| P041 | texto completo | 165 decisões de elegibilidade propostas pela IA (antes P028) | `P041_elegibilidade/` | 3 a 4 h |
+| P023 | portão G5 | confirmar o G5 | `README.md`, seção dos portões | 5 min |
+| P025 | piloto | conferir os 3 estudos do piloto | `P025_piloto/` | 1 h |
+| P026 | portão G6 | confirmar o G6 | `README.md`, seção dos portões | 5 min |
+| P039 | extração | conferir os 560 efeitos na página do PDF (antes P032). Comece pelos principais e pelos pontos que os árbitros levantaram | `efeitos/` | 6 a 10 h |
+| P037 | extração | 259 divergências da recodificação cega, com sugestão de um terceiro leitor | `P037_concordancia/` | 2 a 3 h |
+| P033 | portão G7 e RoB | validar os 259 domínios de RoB (88 desacordos primeiro) | `P033_rob/` | 4 a 6 h |
+| P036 | síntese | validar os juízos GRADE. A P042 foi aberta pelo `rs caixa` em 24/09 e pede o mesmo | `P036_grade/` | 1 h |
+| P042 | síntese | completar a certeza (GRADE/CERQual) e os enunciados das 22 células pendentes que o `rs caixa` apontou; na prática, pede a mesma validação da P036 | `P036_grade/` | 1 h |
+| P035 | portão G8 | confirmar o G8 | `README.md`, seção dos portões | 5 min |
+| P038 | portão G9 | ler o manuscrito e confirmar o G9 | `07-relatorio/relatorio.html` | 2 h |
+
+: Pendências humanas abertas (18), na ordem das etapas, do registro de estado da revisão; etapa, tarefa, pacote de revisão e esforço estimado vêm do guia de revisão humana do projeto (a tarefa da P042, do registro da própria pendência). {#tbl-pendencias tbl-colwidths="[7,15,48,18,12]"}
