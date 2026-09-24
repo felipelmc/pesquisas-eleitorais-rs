@@ -182,51 +182,7 @@ Estudos que pareciam elegíveis e foram excluídos: experimentos de laboratório
 
 Os 41 estudos incluídos (55 relatos) foram publicados de 2010 a 2024 (ano do relato principal). Os desenhos foram: 14 experimentos de survey, 9 experimentos de laboratório com preferências induzidas, 3 de laboratório com candidatos reais, 1 experimento de campo, 6 experimentos naturais, 3 painéis individuais e 5 outros desenhos. A exposição foi pesquisa pré-eleitoral em 33 estudos, agregador ou projeção em 4, boca de urna em 3 e apuração parcial oficial em 1. O contexto foi real em 25 estudos, com preferências induzidas em 9 e hipotético em 7; 32 estudos trataram de eleições com candidatos ou partidos, 8 de eleições simuladas abstratas e 1 de referendo. Mediram só apoio ao líder 24 estudos, só mobilização 10 e os dois 7. A região foi codificada como Brasil em 1 estudo, América Latina em 1, as três categorias em 1 (corte transversal de 46 países) e não relatada em 1; os outros 37 são de outras regiões, sobretudo Estados Unidos e Europa.
 
-| Estudo (relatos adicionais) | Ano | Desenho | Exposição | País (região) | Eleição | Contexto | Construto | Risco de viés geral |
-|---|---|---|---|---|---|---|---|---|
-| @Agranov2017a (@Agranov2012a) | 2017 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Estados Unidos (outras) | simulada abstrata | induzido | apoio e mobilização | RoB 2: algumas preocupações (apoio); RoB 2: algumas preocupações (mobilização) |
-| @Alabrese2024a (@Alabrese2022a) | 2024 | painel de distritos com data de entrevista quase aleatória | pesquisa pré-eleitoral | Reino Unido (outras) | candidatos ou partidos | real | apoio e mobilização | ROBINS-I: grave (apoio); ROBINS-I: grave (mobilização) |
-| @Araujo2021a (@Araujo2021) | 2021 | experimento natural | apuração parcial oficial | Brasil (Brasil) | candidatos ou partidos | real | apoio | ROBINS-I: grave |
-| @Boukouras2020a | 2020 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Reino Unido; Estados Unidos (outras) | candidatos ou partidos | induzido | apoio | RoB 2: algumas preocupações |
-| @Brugarolas2021 | 2021 | experimento natural | pesquisa pré-eleitoral | Espanha (outras) | candidatos ou partidos | real | mobilização | ROBINS-I: moderado |
-| @Bursztyn2023a (@Bursztyn2017b; @Bursztyn2017c) | 2023 | experimento natural | pesquisa pré-eleitoral | Suíça (outras) | referendo | real | apoio e mobilização | EPOC: alto (apoio); EPOC: baixo (mobilização) |
-| @Chatterjee2019a | 2019 | experimento natural | boca de urna | Índia (outras) | candidatos ou partidos | real | apoio e mobilização | EPOC: alto (apoio); EPOC: alto (mobilização) |
-| @Cornejo2023a | 2023 | experimento de survey | pesquisa pré-eleitoral | México (América Latina) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
-| @Dahlgaard2016a (@Dahlgaard2015a; @Dahlgaard2015b; @Dahlgaard2017a) | 2016 | experimento de survey | pesquisa pré-eleitoral | Dinamarca (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
-| @Erlich2023 | 2023 | laboratório, candidatos reais | pesquisa pré-eleitoral | Geórgia (outras) | candidatos ou partidos | real | mobilização | RoB 2: alto |
-| @Farjam2020a | 2020 | laboratório, candidatos reais | pesquisa pré-eleitoral | Estados Unidos (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
-| @Feltovich2022 | 2022 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Austrália (outras) | candidatos ou partidos | induzido | apoio | ROBINS-I: grave |
-| @Fichnova2015a | 2015 | experimento de survey | pesquisa pré-eleitoral | Eslováquia; Polônia (outras) | candidatos ou partidos | hipotético | apoio | RoB 2: alto |
-| @Freden2016b | 2016 | experimento de survey (artigo 2 da tese) | pesquisa pré-eleitoral | Suécia; Canadá (outras) | candidatos ou partidos | real | apoio | não avaliado (sem efeito principal extraído) |
-| @Freden2024a | 2024 | experimento de survey | pesquisa pré-eleitoral | Suécia (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
-| @Gandhi2019 | 2019 | experimento de survey | pesquisa pré-eleitoral | Malásia (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
-| @Gasperoni2015a | 2015 | campanha simulada online (DPTE) | pesquisa pré-eleitoral | Itália (outras) | candidatos ou partidos | hipotético | apoio | ROBINS-I: crítico |
-| @Geers2018 | 2018 | painel individual | pesquisa pré-eleitoral | Países Baixos (outras) | candidatos ou partidos | real | mobilização | ROBINS-I: grave |
-| @Gerber2020a (@Gerber2017b; @Gerber2017c) | 2020 | experimento de campo | pesquisa pré-eleitoral | Estados Unidos (outras) | candidatos ou partidos | real | apoio e mobilização | RoB 2: algumas preocupações (mobilização) |
-| @Grillo2024c | 2024 | experimento natural | boca de urna | França (outras) | candidatos ou partidos | real | mobilização | EPOC: alto |
-| @Groer2010a | 2010 | laboratório, preferências induzidas | pesquisa pré-eleitoral | NR (NR) | simulada abstrata | induzido | mobilização | RoB 2: algumas preocupações |
-| @Kaplan2019a | 2019 | experimento de survey | agregador ou projeção | Estados Unidos (outras) | candidatos ou partidos | hipotético | mobilização | ROBINS-I: crítico |
-| @Klor2017a | 2017 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Israel; Estados Unidos (outras) | simulada abstrata | induzido | apoio e mobilização | RoB 2: algumas preocupações (apoio); ROBINS-I: moderado (mobilização) |
-| @Lago2015 | 2015 | corte transversal agregado de 46 países | pesquisa pré-eleitoral | 46 países, entre eles o Brasil (América Latina, Brasil, outras) | candidatos ou partidos | real | apoio | ROBINS-I: grave |
-| @Lammers2022a | 2022 | experimento de survey | pesquisa pré-eleitoral | Polônia; Estados Unidos; União Europeia ou Reino Unido (outras) | simulada abstrata | hipotético | apoio | RoB 2: alto |
-| @Meer2015a | 2015 | experimento de survey | pesquisa pré-eleitoral | Países Baixos (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
-| @Meffert2011 | 2011 | laboratório, candidatos reais | pesquisa pré-eleitoral | Alemanha (outras) | candidatos ou partidos | real | apoio | RoB 2: alto |
-| @Meffert2012a | 2012 | três desenhos (laboratório induzido, laboratório real, vinheta) | pesquisa pré-eleitoral | Alemanha; Áustria (outras) | candidatos ou partidos | real | apoio | não avaliado (sem efeito principal extraído) |
-| @Morton2015a (@Morton2013a) | 2015 | experimento natural | boca de urna | França (outras) | candidatos ou partidos | real | apoio e mobilização | EPOC: alto (apoio); EPOC: alto (mobilização) |
-| @Schlegel2023 | 2023 | experimento de survey | pesquisa pré-eleitoral | Reino Unido (outras) | candidatos ou partidos | hipotético | apoio | RoB 2: algumas preocupações |
-| @Stolwijk2016a (@Stolwijk2017a) | 2016 | painel individual | pesquisa pré-eleitoral | Alemanha (outras) | candidatos ou partidos | real | apoio | ROBINS-I: grave |
-| @Stolwijk2019b | 2019 | painel individual | pesquisa pré-eleitoral | Países Baixos (outras) | candidatos ou partidos | real | mobilização | ROBINS-I: grave |
-| @Tal2015a (@Fairstein2018a; @Fairstein2019a) | 2015 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Estados Unidos (outras) | simulada abstrata | induzido | apoio | RoB 2: alto |
-| @Timotei2013a | 2013 | experimento de survey | pesquisa pré-eleitoral | Romênia (outras) | candidatos ou partidos | hipotético | apoio | RoB 2: algumas preocupações |
-| @Tyszler2013 | 2013 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Países Baixos (outras) | simulada abstrata | induzido | apoio | não avaliado (sem efeito principal extraído) |
-| @Tyszler2015 | 2015 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Países Baixos (outras) | simulada abstrata | induzido | apoio | RoB 2: algumas preocupações |
-| @Unkelbach2022a | 2022 | *rolling cross-section* com pesquisas do dia anterior | pesquisa pré-eleitoral | Alemanha (outras) | candidatos ou partidos | real | apoio | ROBINS-I: crítico |
-| @Urminsky2019 | 2019 | experimento de survey | agregador ou projeção | Estados Unidos (outras) | candidatos ou partidos | real | mobilização | RoB 2: algumas preocupações |
-| @Westwood2020a | 2020 | laboratório, preferências induzidas | agregador ou projeção | Estados Unidos (outras) | simulada abstrata | induzido | mobilização | RoB 2: algumas preocupações |
-| @Witsman2016a | 2016 | experimento de survey | pesquisa pré-eleitoral | Estados Unidos (outras) | candidatos ou partidos | hipotético | apoio | RoB 2: alto |
-| @Yang2023d | 2023 | experimento de survey | agregador ou projeção | Estados Unidos (outras) | candidatos ou partidos | real | mobilização | não avaliado (sem efeito principal extraído) |
-
-: Características dos estudos incluídos (`05-decomposicao/fichamentos_master.csv`; ano do relato principal em `07-relatorio/incluidos.csv`; risco de viés em `04-qualidade/rob_geral.csv`). Construto: desfechos extraídos do estudo. Risco de viés geral por resultado (ferramenta: julgamento), nenhum validado por humano. {#tbl-caracteristicas tbl-colwidths="[15,5,15,10,13,9,7,9,17]"}
+<!-- TABELA:caracteristicas -->
 
 Destino de cada estudo na síntese: 27 entram na SWiM principal; 3 têm os resultados principais em risco de viés crítico e ficam só na sensibilidade (@Gasperoni2015a, que também está no dicionário `FORA`, @Kaplan2019a e @Unkelbach2022a); 7 têm todos os efeitos principais fora da contagem e ficam só na síntese narrativa e na sensibilidade com esses efeitos (@Alabrese2024a, @Bursztyn2023a, @Gandhi2019, @Geers2018, @Lago2015, @Meffert2011, @Urminsky2019); e 4 não têm efeito principal extraído. Em @Freden2016b, o PDF recuperado é o capítulo introdutório da tese; o artigo que manipula pesquisas foi publicado à parte, como Freden2016a no corpus, e não foi recuperado por fonte legítima (`03-textos/sessao_2026-09-23/relatorio_textos_versoes.md`). Em @Meffert2012a, os desfechos restantes não se relacionam ao apoio ao líder (o experimento de laboratório com partidos reais é o de @Meffert2011); em @Tyszler2013, os efeitos misturam deserções para o líder e para outro candidato; em @Yang2023d, os contrastes são entre formatos de apresentação da mesma previsão.
 
@@ -234,63 +190,11 @@ Destino de cada estudo na síntese: 27 entram na SWiM principal; 3 têm os resul
 
 Foram avaliados 43 resultados de 37 estudos: 23 com RoB 2 (17 com algumas preocupações e 6 em risco alto), 13 com ROBINS-I V2 (2 moderado, 8 grave e 3 crítico) e 7 com EPOC (6 alto e 1 baixo). Nenhum resultado randomizado ficou em risco baixo no geral; o domínio de relato seletivo (D5) teve algumas preocupações em 21 dos 23 resultados avaliados com RoB 2. Nos não randomizados, o confundimento foi grave ou crítico em 11 dos 13 resultados avaliados com ROBINS-I. A concordância entre os avaliadores A e B antes da arbitragem foi baixa: no RoB 2, de 0,43 (D2) a 0,74 (D3 e D4), com 1,00 em D1b; no ROBINS-I, de 0,38 (D1 e D6) a 0,77 (D4); no EPOC, de 0,60 a 1,00. Dos 259 domínios julgados, 171 tiveram consenso automático e 88 foram arbitrados. O árbitro seguiu o avaliador A em 79 dos 88 domínios, B em 7 e propôs terceiro valor em 2; como A e o árbitro são o mesmo modelo, a proporção é declarada como possível viés de afinidade. Nenhum dos 259 julgamentos foi validado por humano (P033). A arbitragem dos efeitos de 23/09/2026 não mudou nenhum julgamento de risco de viés, mas levantou um ponto para a revisão humana: em @Fichnova2015a, 17 dos 37 respondentes eslovacos não aparecem nas tabelas, com D3 julgado baixo.
 
-| Estudo | Construto | D1 randomização | D1b recrutamento (conglomerado) | D2 desvios | D3 dados faltantes | D4 mensuração | D5 relato seletivo | Geral |
-|---|---|---|---|---|---|---|---|---|
-| @Agranov2017a | apoio | algumas preocupações | algumas preocupações | baixo† | baixo | baixo | algumas preocupações | algumas preocupações |
-| @Agranov2017a | mobilização | algumas preocupações | algumas preocupações | baixo† | baixo | baixo | algumas preocupações | algumas preocupações |
-| @Boukouras2020a | apoio | baixo† | baixo | baixo† | baixo | baixo | algumas preocupações | algumas preocupações |
-| @Cornejo2023a | apoio | baixo† | não se aplica | baixo† | baixo | algumas preocupações | algumas preocupações† | algumas preocupações |
-| @Dahlgaard2016a | apoio | baixo | não se aplica | baixo | algumas preocupações† | algumas preocupações | algumas preocupações | algumas preocupações |
-| @Erlich2023 | mobilização | algumas preocupações | não se aplica | baixo† | alto | baixo† | algumas preocupações | alto |
-| @Farjam2020a | apoio | baixo† | não se aplica | baixo† | baixo | baixo | algumas preocupações† | algumas preocupações |
-| @Fichnova2015a | apoio | algumas preocupações | não se aplica | baixo† | baixo | alto | algumas preocupações† | alto |
-| @Freden2024a | apoio | baixo | não se aplica | baixo | algumas preocupações† | algumas preocupações | algumas preocupações | algumas preocupações |
-| @Gandhi2019 | apoio | baixo | não se aplica | algumas preocupações† | algumas preocupações† | algumas preocupações | algumas preocupações | algumas preocupações |
-| @Gerber2020a | mobilização | baixo | baixo | baixo | baixo† | baixo | algumas preocupações† | algumas preocupações |
-| @Groer2010a | mobilização | algumas preocupações | algumas preocupações | baixo† | baixo | baixo | algumas preocupações† | algumas preocupações |
-| @Klor2017a | apoio | baixo | não se aplica | baixo† | baixo | baixo | algumas preocupações† | algumas preocupações |
-| @Lammers2022a | apoio | baixo† | não se aplica | baixo† | baixo | alto† | baixo | alto |
-| @Meer2015a | apoio | baixo | não se aplica | baixo | baixo | baixo† | algumas preocupações | algumas preocupações |
-| @Meffert2011 | apoio | baixo† | não se aplica | alto† | baixo | baixo | algumas preocupações† | alto |
-| @Schlegel2023 | apoio | baixo† | não se aplica | baixo | baixo | algumas preocupações† | baixo | algumas preocupações |
-| @Tal2015a | apoio | baixo† | não se aplica | alto | baixo | baixo | algumas preocupações† | alto |
-| @Timotei2013a | apoio | algumas preocupações | baixo | algumas preocupações† | baixo | algumas preocupações† | algumas preocupações | algumas preocupações |
-| @Tyszler2015 | apoio | algumas preocupações | algumas preocupações | baixo | baixo | baixo | algumas preocupações† | algumas preocupações |
-| @Urminsky2019 | mobilização | algumas preocupações† | não se aplica | baixo | algumas preocupações† | algumas preocupações | algumas preocupações | algumas preocupações |
-| @Westwood2020a | mobilização | baixo† | não se aplica | baixo | baixo | baixo | algumas preocupações | algumas preocupações |
-| @Witsman2016a | apoio | baixo† | não se aplica | baixo | alto† | algumas preocupações† | algumas preocupações† | alto |
+<!-- TABELA:rob2 -->
 
-: RoB 2 por domínio (consenso). † = domínio em desacordo entre os avaliadores de IA A e B, com consenso proposto pelo árbitro de IA (`claude-opus-5-5`); nenhum julgamento validado por humano (Emenda 6a). {#tbl-rob2}
+<!-- TABELA:robins -->
 
-| Estudo | Construto | D1 confundimento | D2 classificação da exposição | D3 seleção | D4 dados faltantes | D5 mensuração | D6 relato seletivo | Geral |
-|---|---|---|---|---|---|---|---|---|
-| @Alabrese2024a | apoio | grave† | moderado† | baixo | baixo | baixo | moderado | grave |
-| @Alabrese2024a | mobilização | grave† | moderado† | baixo | baixo | baixo | moderado | grave |
-| @Araujo2021a | apoio | grave† | moderado | baixo | baixo† | baixo | moderado† | grave |
-| @Brugarolas2021 | mobilização | moderado | baixo† | moderado† | baixo | moderado† | moderado† | moderado |
-| @Feltovich2022 | apoio | grave† | baixo | baixo | baixo | baixo | moderado | grave |
-| @Gasperoni2015a | apoio | crítico† | baixo | moderado† | moderado | grave† | moderado† | crítico |
-| @Geers2018 | mobilização | grave | moderado | moderado† | moderado† | baixo† | moderado† | grave |
-| @Kaplan2019a | mobilização | crítico† | baixo | baixo | baixo | grave | moderado† | crítico |
-| @Klor2017a | mobilização | moderado† | baixo | baixo | baixo | baixo | moderado† | moderado |
-| @Lago2015 | apoio | grave | baixo | baixo | baixo | baixo | moderado | grave |
-| @Stolwijk2016a | apoio | grave† | moderado | baixo† | moderado | baixo† | moderado† | grave |
-| @Stolwijk2019b | mobilização | grave | moderado† | baixo | moderado | moderado† | moderado† | grave |
-| @Unkelbach2022a | apoio | crítico | baixo† | baixo | moderado† | baixo† | baixo | crítico |
-
-: ROBINS-I V2 por domínio (consenso). † como na tabela anterior. {#tbl-robins}
-
-| Estudo | Construto | GC seq. | GC ocult. | GC caract. base | GC desfecho base | GC dados incompl. | GC conhec. | GC contam. | GC relato sel. | GC outros | ITS indep. | ITS forma pré-esp. | ITS coleta | ITS conhec. | ITS dados incompl. | ITS relato sel. | ITS outros | Geral |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| @Bursztyn2023a | apoio | alto | alto | alto† | incerto† | baixo | baixo | alto† | baixo | alto | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | alto |
-| @Bursztyn2023a | mobilização | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | baixo | baixo | baixo | baixo | baixo | baixo | baixo | baixo |
-| @Chatterjee2019a | apoio | alto | alto | alto | incerto | baixo† | baixo | baixo | baixo | alto | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | alto |
-| @Chatterjee2019a | mobilização | alto | alto | alto | incerto | baixo† | baixo | baixo | baixo | alto | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | alto |
-| @Grillo2024c | mobilização | alto | alto | baixo† | baixo | baixo | baixo | incerto | baixo | alto | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | alto |
-| @Morton2015a | apoio | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | alto | baixo | baixo | baixo | baixo | baixo | alto | alto |
-| @Morton2015a | mobilização | alto | alto | alto | incerto† | baixo | baixo | baixo† | baixo | incerto† | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica | alto |
-
-: EPOC por critério (consenso). GC = critérios para desenho com grupo controle; ITS = série temporal interrompida. Sequência aleatória e ocultação da alocação ficam fora do geral (Emenda 4a). † como nas tabelas anteriores. {#tbl-epoc}
+<!-- TABELA:epoc -->
 
 ## Resultados dos estudos individuais (19)
 
@@ -305,80 +209,7 @@ A @tbl-individuais traz os 70 efeitos principais dos 37 estudos que tiveram mode
 - **Modelos principais:** em @Alabrese2024a, o modelo principal de apoio passou da probabilidade de vitória para a participação nos votos. Em @Chatterjee2019a, @Tyszler2015, @Geers2018 e @Unkelbach2022a, efeitos antes secundários passaram a principais. Em @Kaplan2019a, o efeito passou de taxa de troca, sem direção, para mudança líquida da intenção de votar (−8,06 p.p., valor derivado).
 - **Nova composição das células:** surgiu a célula randomizada de pesquisa × mesmo candidato atrás × apoio principal, com 4 estudos. A célula de viabilidade não randomizada deixou a análise principal, porque o efeito de @Lago2015 é uma interação com moderador contínuo e foi para o dicionário `FORA`. @Araujo2021a aparece com a família `outro`, que é a apuração parcial oficial da Emenda 1.
 
-| Estudo | Efeito | Desfecho | Célula de alvo | Comparador | g (EP) | Outra medida | Na contagem? |
-|---|---|---|---|---|---|---|---|
-| @Agranov2017a | E05 | mobilização | mobilização | sem pesquisa | 0,20 (0,225) | p0 = 0,43; p1 = 0,52 | sim |
-| @Agranov2017a | E13 | apoio | principal | sem pesquisa | 0,70 (0,259) | p0 = 0,74; p1 = 0,91 | sim |
-| @Alabrese2024a | E002 | mobilização | mobilização | outro resultado | −2,14 (0,334) | NR | não (fora da contagem) |
-| @Alabrese2024a | E125 | apoio | principal | outro resultado | −0,70 (0,901) | NR | não (fora da contagem) |
-| @Alabrese2024a | E126 | apoio | viabilidade | outro resultado | −1,06 (0,668) | NR | não (fora da contagem) |
-| @Alabrese2024a | E127 | apoio | viabilidade | outro resultado | 5,99 (0,770) | NR | não (fora da contagem) |
-| @Alabrese2024a | E128 | apoio | principal | outro resultado | −13,76 (1,914) | NR | não (fora da contagem) |
-| @Araujo2021a | E01 | apoio | principal | unidades não expostas | 0,13 (0,003) | 5,69 p.p.; p0 = 0,41; conversão aproximada | sim |
-| @Araujo2021a | E06 | apoio | principal | unidades não expostas | 0,26 (0,003) | 11,76 p.p.; p0 = 0,49; conversão aproximada | sim |
-| @Boukouras2020a | E01 | apoio | principal | outro resultado | 0,54 (0,298) | p0 = 0,60; p1 = 0,80 | sim |
-| @Boukouras2020a | E02 | apoio | principal | outro resultado | 0,29 (0,282) | p0 = 0,62; p1 = 0,73 | sim |
-| @Boukouras2020a | E03 | apoio | principal | outro resultado | 0,17 (0,253) | p0 = 0,57; p1 = 0,64 | sim |
-| @Brugarolas2021 | E01 | mobilização | mobilização | unidades não expostas | 0,26 (0,109) | 5,10 p.p.; p0 = 0,85; conversão aproximada | sim |
-| @Bursztyn2023a | E01 | mobilização | mobilização | outro resultado | 0,20 (0,087) | NR | não (fora da contagem) |
-| @Bursztyn2023a | E17 | apoio | principal | outro resultado | −0,003 (0,001); nulo por ±δ | NR | não (fora da contagem) |
-| @Chatterjee2019a | E02 | apoio | principal | antes e depois da proibição | −0,29 (0,120) | −2,92 p.p.; p0 = 0,44 | sim |
-| @Chatterjee2019a | E08 | apoio | principal | antes e depois da proibição | −0,42 (0,153) | −3,50 p.p.; p0 = 0,47 | sim |
-| @Chatterjee2019a | E14 | mobilização | mobilização | antes e depois da proibição | −0,35 (0,097) | −4,71 p.p.; p0 = 0,60 | sim |
-| @Chatterjee2019a | E16 | mobilização | mobilização | antes e depois da proibição | 0,08 (0,109) | 0,90 p.p.; p0 = 0,62 | sim |
-| @Cornejo2023a | E05 | apoio | viabilidade | sem pesquisa | 0,19 (0,105) | NR | sim |
-| @Dahlgaard2016a | E01 | apoio | *momentum* | sem pesquisa | 0,12 (0,080) | 3,40 p.p.; p0 = 0,18; p1 = 0,21 | sim |
-| @Erlich2023 | E01 | mobilização | mobilização | sem pesquisa | −0,05 (0,296) | NR | sim |
-| @Farjam2020a | E02 | apoio | principal | sem pesquisa | NR | β = 0,310 | sim |
-| @Feltovich2022 | E01 | apoio | principal | outro resultado | NR | β = 0,248 | sim |
-| @Feltovich2022 | E02 | apoio | principal | outro resultado | NR | β = 0,442 | sim |
-| @Fichnova2015a | E09 | apoio | principal | mesmo candidato atrás | NR | NR | sim |
-| @Fichnova2015a | E10 | apoio | principal | mesmo candidato atrás | 0,89 (0,452) | NR | sim |
-| @Freden2024a | E01 | apoio | viabilidade | outro resultado | −0,41 (0,178) | p0 = 0,04; p1 = 0,08 | sim |
-| @Freden2024a | E04 | apoio | viabilidade | outro resultado | −0,19 (0,179) | p0 = 0,05; p1 = 0,07 | sim |
-| @Freden2024a | E07 | apoio | viabilidade | outro resultado | 0,04 (0,130) | p0 = 0,12; p1 = 0,11 | sim |
-| @Gandhi2019 | E01 | apoio | principal | outro resultado | −0,99 (0,181) | −30,30 p.p.; p0 = 0,90; conversão aproximada | não (fora da contagem) |
-| @Gandhi2019 | E03 | apoio | principal | outro resultado | −0,37 (0,166) | −7,80 p.p.; p0 = 0,90; conversão aproximada | não (fora da contagem) |
-| @Gasperoni2015a | E01 | apoio | outro alvo | sem pesquisa | NR | 10,11 p.p.; sinal por efeito em p.p. | não (fora da contagem; risco crítico) |
-| @Geers2018 | E01 | mobilização | mobilização | outro | NR | β = −30,835 | não (fora da contagem) |
-| @Geers2018 | E02 | mobilização | mobilização | outro | NR | β = −5,675 | não (fora da contagem) |
-| @Gerber2020a | E12 | mobilização | mobilização | outro resultado | 0,002 (0,009); nulo por ±δ | 0,08 p.p.; p0 = 0,72; conversão aproximada | sim |
-| @Gerber2020a | E31 | mobilização | mobilização | outro resultado | 0,01 (0,006); nulo por ±δ | 0,29 p.p.; p0 = 0,53; p1 = 0,54; conversão aproximada | sim |
-| @Grillo2024c | E02 | mobilização | mobilização | outro resultado | −0,11 (0,112) | −3,44 p.p.; p0 = 0,80; conversão aproximada | sim |
-| @Groer2010a | E01 | mobilização | mobilização | sem pesquisa | NR | p0 = 0,31; p1 = 0,40 | sim |
-| @Groer2010a | E02 | mobilização | mobilização | sem pesquisa | NR | p0 = 0,37; p1 = 0,45 | sim |
-| @Kaplan2019a | E01 | mobilização | mobilização | sem pesquisa | −0,33 (0,092) | −8,06 p.p.; p0 = 0,88; p1 = 0,80; conversão aproximada | não (risco crítico) |
-| @Klor2017a | E01 | apoio | principal | mesmo candidato atrás | NR | β = 0,305 | não (fora da contagem) |
-| @Klor2017a | E06 | mobilização | mobilização | sem pesquisa | NR | NR | sim |
-| @Lago2015 | E01 | apoio | viabilidade | unidades não expostas | 0,03 (0,016) | NR | não (fora da contagem) |
-| @Lammers2022a | E06 | apoio | principal | mesmo candidato atrás | 1,25 (0,217) | NR | sim |
-| @Lammers2022a | E07 | apoio | principal | mesmo candidato atrás | −0,39 (0,200) | NR | sim |
-| @Lammers2022a | E08 | apoio | principal | mesmo candidato atrás | 1,03 (0,211) | NR | sim |
-| @Lammers2022a | E09 | apoio | principal | mesmo candidato atrás | 0,06 (0,199) | NR | sim |
-| @Meer2015a | E01 | apoio | *momentum* | outro | 0,13 (0,072) | NR | sim |
-| @Meffert2011 | E01 | apoio | outro alvo | outro resultado | 0,28 (0,286) | p0 = 0,25 | não (fora da contagem) |
-| @Morton2015a | E12 | mobilização | mobilização | antes e depois da proibição | −0,25 (0,044) | −11,00 p.p.; p0 = 0,64; conversão aproximada | sim |
-| @Morton2015a | E41 | apoio | principal | antes e depois da proibição | NR | β = 5,220 | sim |
-| @Schlegel2023 | E01 | apoio | viabilidade | outro resultado | NR | 11,00 p.p.; sinal por efeito em p.p. | sim |
-| @Schlegel2023 | E02 | apoio | viabilidade | outro resultado | NR | 17,00 p.p.; sinal por efeito em p.p. | sim |
-| @Stolwijk2016a | E01 | apoio | *momentum* | outro resultado | NR | β = 0,010 | sim |
-| @Stolwijk2019b | E03 | mobilização | mobilização | unidades não expostas | NR | p0 = 0,36; p1 = 0,50; sinal por p1-p0 | sim |
-| @Tal2015a | E01 | apoio | principal | mesmo candidato atrás | NR | p0 = 0,70; p1 = 0,92; sinal por p1-p0 | sim |
-| @Tal2015a | E02 | apoio | principal | mesmo candidato atrás | NR | p0 = 0,64; p1 = 0,73; sinal por p1-p0 | sim |
-| @Timotei2013a | E01 | apoio | principal | sem pesquisa | 0,13 (0,345) | p0 = 0,40; p1 = 0,46 | sim |
-| @Tyszler2015 | E01 | apoio | principal | sem pesquisa | 0,30 (1,035) | p0 = 0,88; p1 = 0,93 | sim |
-| @Tyszler2015 | E02 | apoio | principal | sem pesquisa | 1,14 (1,157) | p0 = 0,72; p1 = 0,96 | sim |
-| @Unkelbach2022a | E01 | apoio | *momentum* | outro resultado | 0,02 (0,021) | NR | não (risco crítico) |
-| @Unkelbach2022a | E02 | apoio | *momentum* | outro resultado | 0,06 (0,023) | NR | não (risco crítico) |
-| @Unkelbach2022a | E03 | apoio | *momentum* | outro resultado | 0,01 (0,039) | NR | não (risco crítico) |
-| @Unkelbach2022a | E04 | apoio | *momentum* | outro resultado | 0,02 (0,021) | NR | não (risco crítico) |
-| @Unkelbach2022a | E05 | apoio | *momentum* | outro resultado | 0,05 (0,036) | NR | não (risco crítico) |
-| @Unkelbach2022a | E06 | apoio | *momentum* | outro resultado | −0,04 (0,038) | NR | não (risco crítico) |
-| @Urminsky2019 | E01 | mobilização | mobilização | outro | −0,20 (0,133) | conversão aproximada | não (fora da contagem) |
-| @Westwood2020a | E01 | mobilização | mobilização | outro resultado | −0,10 (0,023) | −3,40 p.p.; p0 = 0,75; conversão aproximada | sim |
-| @Witsman2016a | E01 | apoio | principal | mesmo candidato atrás | 0,90 (0,241) | p0 = 0,55; p1 = 0,86 | sim |
-
-: Efeitos principais por estudo (`06-analise/efeitos.csv`, `modelo_principal = sim`; célula e situação na contagem em `06-analise/swim_entrada_com_excluidos.csv`). g de Hedges alinhado: positivo = *bandwagon*, viabilidade, *momentum* a favor ou mobilização. NR = não calculado ou não relatado; nulo por ±δ = IC 95% inteiro dentro de ±δ. {#tbl-individuais tbl-colwidths="[14,6,9,10,13,14,24,10]"}
+<!-- TABELA:individuais -->
 
 **Pontos de julgamento deixados para o revisor humano.** Os árbitros levantaram decisões que mudariam a composição das células e não foram aplicadas pelo coordenador, porque seriam decisões novas de síntese tomadas depois de ver os dados (`08-revisao-humana/efeitos/pontos_para_o_revisor.md`). Os principais são:
 
@@ -395,29 +226,7 @@ A @tbl-individuais traz os 70 efeitos principais dos 37 estudos que tiveram mode
 
 A @tbl-swim resume a SWiM principal, com uma linha por célula do protocolo. Das 19 células, 18 têm estudo em risco não crítico; a de agregador ou projeção × mobilização × sem pesquisa × não randomizado ficou vazia depois da exclusão de @Kaplan2019a (risco crítico). A direção é a do estimador pontual, e o teste de sinal não estima magnitude nem considera a precisão e o tamanho dos estudos. A sensibilidade com ICC = 0,20 (`06-analise/swim_sens_icc020/`) não mudou nenhuma contagem de direção em nenhuma célula.
 
-| Exposição | Desfecho (célula de alvo) | Comparador | Classe | Estudos | Direções | Proporção (IC 95%) | p (sinal) | Certeza |
-|---|---|---|---|---|---|---|---|---|
-| pesquisa pré-eleitoral | apoio (principal) | mesmo candidato atrás | randomizado | @Tal2015a; @Lammers2022a; @Fichnova2015a; @Witsman2016a | 4 *bandwagon*; 0 *underdog* | 1,00 (0,40 a 1,00) | 0,125 | muito baixa |
-| pesquisa pré-eleitoral | apoio (principal) | outro resultado | não randomizado | @Feltovich2022 | 1 *bandwagon*; 0 *underdog* | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | apoio (principal) | outro resultado | randomizado | @Boukouras2020a | 1 *bandwagon*; 0 *underdog* | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | apoio (principal) | sem pesquisa | randomizado | @Agranov2017a; @Farjam2020a; @Timotei2013a; @Tyszler2015 | 4 *bandwagon*; 0 *underdog* | 1,00 (0,40 a 1,00) | 0,125 | muito baixa |
-| pesquisa pré-eleitoral | apoio (viabilidade) | outro resultado | randomizado | @Schlegel2023; @Freden2024a | 1 viabilidade; 0 contra; 1 misto | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | apoio (viabilidade) | sem pesquisa | randomizado | @Cornejo2023a | 1 viabilidade; 0 contra | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | apoio (*momentum*) | outro | randomizado | @Meer2015a | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | apoio (*momentum*) | outro resultado | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | apoio (*momentum*) | sem pesquisa | randomizado | @Dahlgaard2016a | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | mobilização (mobilização) | outro resultado | randomizado | @Gerber2020a | 0 mobilização; 0 desmobilização; 1 nulo | NR | NR | moderada |
-| pesquisa pré-eleitoral | mobilização (mobilização) | sem pesquisa | não randomizado | @Klor2017a | 1 mobilização; 0 desmobilização | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| pesquisa pré-eleitoral | mobilização (mobilização) | sem pesquisa | randomizado | @Agranov2017a; @Groer2010a; @Erlich2023 | 2 mobilização; 1 desmobilização | 0,67 (0,09 a 0,99) | 1 | muito baixa |
-| pesquisa pré-eleitoral | mobilização (mobilização) | unidades não expostas | não randomizado | @Stolwijk2019b; @Brugarolas2021 | 2 mobilização; 0 desmobilização | 1,00 (0,16 a 1,00) | 0,5 | baixa |
-| agregador ou projeção | mobilização (mobilização) | outro resultado | randomizado | @Westwood2020a | 0 mobilização; 1 desmobilização | 0,00 (0,00 a 0,97) | 1 | baixa |
-| agregador ou projeção | mobilização (mobilização) | sem pesquisa | não randomizado | nenhum (fora, risco crítico: @Kaplan2019a) | nenhum estudo | NR | NR | não julgada (célula vazia) |
-| boca de urna | apoio (principal) | antes e depois da proibição | não randomizado | @Morton2015a; @Chatterjee2019a | 1 *bandwagon*; 1 *underdog* | 0,50 (0,01 a 0,99) | 1 | muito baixa |
-| boca de urna | mobilização (mobilização) | antes e depois da proibição | não randomizado | @Morton2015a; @Chatterjee2019a | 0 mobilização; 1 desmobilização; 1 misto | 0,00 (0,00 a 0,97) | 1 | muito baixa |
-| boca de urna | mobilização (mobilização) | outro resultado | não randomizado | @Grillo2024c | 0 mobilização; 1 desmobilização | 0,00 (0,00 a 0,97) | 1 | muito baixa |
-| outro | apoio (principal) | unidades não expostas | não randomizado | @Araujo2021a | 1 *bandwagon*; 0 *underdog* | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-
-: SWiM principal por célula do protocolo (`06-analise/swim_principal/swim_resumo.json`, sem risco crítico). Proporção = estudos na direção positiva entre os estudos com direção definida (nulos e mistos fora do denominador), com IC 95% de Clopper-Pearson; p do teste de sinal binomial exato bilateral. Certeza de `06-analise/certeza.csv`, sobre a direção, rascunho de IA não validado. {#tbl-swim tbl-colwidths="[11,12,11,9,20,14,11,5,7]"}
+<!-- TABELA:swim -->
 
 ![Direção do efeito por estudo e célula na SWiM principal.](../06-analise/swim_principal/figuras/direcao_efeito.png){#fig-direcao}
 
@@ -446,98 +255,17 @@ O padrão boca de urna em desmobilização e pesquisa em mobilização foi obser
 
 **Viabilidade e *momentum* (achados secundários).** Os efeitos sobre o segundo viável, o terceiro inviável ou o partido perto da cláusula de barreira, e os de ganho de apoio sem posição mostrada, não entram na célula principal (@tbl-viabilidade). Nos experimentos de viabilidade com outro resultado como comparador, @Schlegel2023 foi na direção da deserção para a opção viável (+11 e +17 p.p.), e @Freden2024a foi misto, com 2 de 3 efeitos contrários: é muito incerto se pesquisas que mostram quais opções são viáveis levam eleitores a desertar para a opção viável (certeza muito baixa). Com nenhuma pesquisa como comparador, @Cornejo2023a (México) foi na direção de viabilidade (g = 0,19, EP 0,105): é muito incerto se ver pesquisa que mostra um candidato de oposição como segundo colocado viável aumenta o apoio a ele (certeza muito baixa). No *momentum*, @Dahlgaard2016a (frente a nenhuma pesquisa; +3,40 p.p., g = 0,12, EP 0,080) e @Meer2015a (g = 0,13, EP 0,072) foram a favor do partido mostrado ganhando apoio, com IC do g que cruza zero nos dois; @Stolwijk2016a, painel com a valência da cobertura de pesquisas, também foi a favor. Nas três células, é muito incerto se uma pesquisa que mostra um partido ganhando apoio aumenta o voto nele (certeza muito baixa). @Lago2015, corte transversal de países, e o efeito de viabilidade de @Alabrese2024a ficaram fora da contagem por serem interações com moderadores contínuos.
 
-| Estudo | Efeito | Célula | Alvo | Comparador | Classe | g (EP) | Direção do estudo | Risco de viés | Certeza da célula |
-|---|---|---|---|---|---|---|---|---|---|
-| @Alabrese2024a | E126 | viabilidade | segundo viável | outro resultado | não randomizado | −1,06 (0,668) | NR | grave | fora da contagem principal (sem certeza) |
-| @Alabrese2024a | E127 | viabilidade | segundo viável | outro resultado | não randomizado | 5,99 (0,770) | NR | grave | fora da contagem principal (sem certeza) |
-| @Cornejo2023a | E05 | viabilidade | segundo viável | sem pesquisa | randomizado | 0,19 (0,105) | viabilidade | algumas preocupações | muito baixa |
-| @Freden2024a | E01 | viabilidade | partido perto da cláusula | outro resultado | randomizado | −0,41 (0,178) | misto | algumas preocupações | muito baixa |
-| @Freden2024a | E04 | viabilidade | partido perto da cláusula | outro resultado | randomizado | −0,19 (0,179) | misto | algumas preocupações | muito baixa |
-| @Freden2024a | E07 | viabilidade | partido perto da cláusula | outro resultado | randomizado | 0,04 (0,130) | misto | algumas preocupações | muito baixa |
-| @Lago2015 | E01 | viabilidade | terceiro inviável | unidades não expostas | não randomizado | 0,03 (0,016) | NR | grave | fora da contagem principal (sem certeza) |
-| @Schlegel2023 | E01 | viabilidade | segundo viável | outro resultado | randomizado | NR | viabilidade | algumas preocupações | muito baixa |
-| @Schlegel2023 | E02 | viabilidade | segundo viável | outro resultado | randomizado | NR | viabilidade | algumas preocupações | muito baixa |
-| @Dahlgaard2016a | E01 | *momentum* | não se aplica | sem pesquisa | randomizado | 0,12 (0,080) | a favor | algumas preocupações | muito baixa |
-| @Meer2015a | E01 | *momentum* | não se aplica | outro | randomizado | 0,13 (0,072) | a favor | algumas preocupações | muito baixa |
-| @Stolwijk2016a | E01 | *momentum* | não se aplica | outro resultado | não randomizado | NR | a favor | grave | muito baixa |
-| @Unkelbach2022a | E01 | *momentum* | não se aplica | outro resultado | não randomizado | 0,02 (0,021) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E02 | *momentum* | não se aplica | outro resultado | não randomizado | 0,06 (0,023) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E03 | *momentum* | não se aplica | outro resultado | não randomizado | 0,01 (0,039) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E04 | *momentum* | não se aplica | outro resultado | não randomizado | 0,02 (0,021) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E05 | *momentum* | não se aplica | outro resultado | não randomizado | 0,05 (0,036) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E06 | *momentum* | não se aplica | outro resultado | não randomizado | −0,04 (0,038) | a favor | crítico | fora da análise principal (risco crítico) |
-
-: Efeitos principais de viabilidade e de *momentum* (achados secundários). Positivo = mais apoio à opção mostrada como viável, menos à mostrada como inviável ou abaixo da cláusula, ou mais apoio ao partido mostrado ganhando apoio. Direção do estudo na SWiM principal (NR quando o estudo não entra nela). {#tbl-viabilidade tbl-colwidths="[13,5,9,11,11,9,11,9,10,12]"}
+<!-- TABELA:viabilidade -->
 
 **Efeitos fora da contagem principal.** Os efeitos da @tbl-fora são os principais dos seus estudos, mas ficaram fora do teste de sinal, com o motivo registrado antes da certeza (Emenda 5, item 4) e atualizado depois das arbitragens. Eles entram na sensibilidade com os efeitos fora da contagem e na leitura de mecanismos e moderadores. @Gasperoni2015a está no dicionário e também em risco crítico.
 
-| Estudo | Efeito | Desfecho | g (EP) ou outra medida | Motivo registrado para ficar fora do teste de sinal |
-|---|---|---|---|---|
-| @Alabrese2024a | E002 | mobilização | −2,14 (0,334) | interação margem nacional × segurança local (exposição contínua, estimando associação) |
-| @Alabrese2024a | E125 | apoio | −0,70 (0,901) | interação margem nacional × segurança local (moderador contínuo) |
-| @Alabrese2024a | E126 | apoio | −1,06 (0,668) | idem à linha anterior |
-| @Alabrese2024a | E127 | apoio | 5,99 (0,770) | idem à linha anterior |
-| @Alabrese2024a | E128 | apoio | −13,76 (1,914) | idem à linha anterior |
-| @Bursztyn2023a | E01 | mobilização | 0,20 (0,087) | interação dia após a pesquisa × proximidade ex ante (moderador contínuo) |
-| @Bursztyn2023a | E17 | apoio | −0,003 (0,001); nulo por ±δ | interação proximidade × apoio estimado ao lado atrás (moderador contínuo) |
-| @Gandhi2019 | E01 | apoio | −0,99 (0,181) | interação tripla: diferença de efeito entre apoiadores (moderador não atribuído) |
-| @Gandhi2019 | E03 | apoio | −0,37 (0,166) | idem à linha anterior |
-| @Gasperoni2015a | E01 | apoio | 10,11 p.p.; sinal por efeito em p.p. | troca para o segundo preferido com alvos agregados (líder no Grupo 1, segundo viável no Grupo 2) |
-| @Geers2018 | E01 | mobilização | β = −30,835 | conferência humana pendente (o motivo anterior, β implausível, partia de leitura errada do DP; ver 08-revisao-humana/efeitos/pontos_para_o_revisor.md) |
-| @Geers2018 | E02 | mobilização | β = −5,675 | idem à linha anterior (E02 passou a principal na arbitragem; mesmo tratamento que E01) |
-| @Klor2017a | E01 | apoio | β = 0,305 | coeficiente de pertencer ao time maior sobre a decisão de votar (não é apoio ao líder nem contraste de exposição) |
-| @Lago2015 | E01 | apoio | 0,03 (0,016) | interação dias de proibição × ENEP (moderador contínuo não atribuído) |
-| @Meffert2011 | E01 | apoio | 0,28 (0,286) | voto insincero com alvos opostos agregados (sem posição única do alvo) |
-| @Urminsky2019 | E01 | mobilização | −0,20 (0,133) | contraste de formato da mesma previsão (chance × margem), não exposição × não exposição |
-
-: Efeitos principais fora da contagem e motivo registrado no dicionário `FORA` de `06-analise/montar_entradas_swim.py` (versão depois das arbitragens de 23/09/2026). {#tbl-fora tbl-colwidths="[14,6,9,16,55]"}
+<!-- TABELA:fora -->
 
 **Mecanismos e moderadores (20c).** Nenhuma célula teve estudos suficientes para estimativa por subgrupo (pelo menos 3 por nível) nem para teste de moderador (pelo menos 4). Os efeitos que isolam moderadores ou mecanismos estão na @tbl-fora e não foram sintetizados de forma estruturada nesta versão: as interações de proximidade em @Bursztyn2023a, de posição nacional e local em @Alabrese2024a, de apoio partidário em @Gandhi2019 e de dias de proibição com o número efetivo de partidos em @Lago2015. O único indício de sinais opostos por subgrupo vem de dentro de um estudo, @Lammers2022a (*bandwagon* no modo heurístico, *underdog* ou nulo no modo moral), com células condicionais a uma vinheta sem condição neutra. A hipótese de *bandwagon* num grupo e *underdog* em outro, anulando-se no agregado, exige pelo menos 3 estudos com estimativas por subgrupo de sinais opostos e permanece não testada. Os subgrupos PROGRESS-Plus previstos (escolaridade, posição socioeconômica, idade) não foram sintetizados (NR).
 
 **Sensibilidade (20d).** No agrupamento do protocolo, a sensibilidade com os resultados em risco crítico muda duas células. A de agregador ou projeção × mobilização × sem pesquisa × não randomizado passa a ter @Kaplan2019a, na direção de desmobilização (1 de 1). A de *momentum* não randomizado passa a ter @Unkelbach2022a, a favor, e fica com 2 de 2 (IC 95% 0,16 a 1,00; p = 0,5). @Gasperoni2015a não entra em nenhuma célula, porque também está no dicionário `FORA`. A sensibilidade com ICC = 0,20 não mudou nenhuma contagem. A @tbl-sens traz o agrupamento amplo (construto × célula de alvo × classe), decidido depois de ver os dados (Emenda 5), e as sensibilidades rodadas nele.
 
-| Análise | Desfecho (célula) | Classe | Estudos | Direções | Proporção (IC 95%) | p (sinal) | Certeza |
-|---|---|---|---|---|---|---|---|
-| Agrupamento amplo (descritivo, *post hoc*) | apoio (principal) | não randomizado | @Morton2015a; @Araujo2021a; @Feltovich2022; @Chatterjee2019a | 3 *bandwagon*; 1 *underdog* | 0,75 (0,19 a 0,99) | 0,625 | muito baixa |
-| Agrupamento amplo (descritivo, *post hoc*) | apoio (principal) | randomizado | @Agranov2017a; @Tal2015a; @Farjam2020a; @Lammers2022a; @Fichnova2015a; @Timotei2013a; @Witsman2016a; @Boukouras2020a; @Tyszler2015 | 9 *bandwagon*; 0 *underdog* | 1,00 (0,66 a 1,00) | 0,004 | muito baixa |
-| Agrupamento amplo (descritivo, *post hoc*) | apoio (viabilidade) | randomizado | @Cornejo2023a; @Schlegel2023; @Freden2024a | 2 viabilidade; 0 contra; 1 misto | 1,00 (0,16 a 1,00) | 0,5 | muito baixa |
-| Agrupamento amplo (descritivo, *post hoc*) | apoio (*momentum*) | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | muito baixa |
-| Agrupamento amplo (descritivo, *post hoc*) | apoio (*momentum*) | randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra | 1,00 (0,16 a 1,00) | 0,5 | muito baixa |
-| Agrupamento amplo (descritivo, *post hoc*) | mobilização (mobilização) | não randomizado | @Klor2017a; @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Grillo2024c; @Chatterjee2019a (fora, risco crítico: @Kaplan2019a) | 3 mobilização; 2 desmobilização; 1 misto | 0,60 (0,15 a 0,95) | 1 | muito baixa |
-| Agrupamento amplo (descritivo, *post hoc*) | mobilização (mobilização) | randomizado | @Agranov2017a; @Groer2010a; @Westwood2020a; @Erlich2023; @Gerber2020a | 2 mobilização; 2 desmobilização; 1 nulo | 0,50 (0,07 a 0,93) | 1 | muito baixa |
-| Só contexto real | apoio (principal) | não randomizado | @Morton2015a; @Araujo2021a; @Chatterjee2019a | 2 *bandwagon*; 1 *underdog* | 0,67 (0,09 a 0,99) | 1 | sem GRADE próprio |
-| Só contexto real | apoio (principal) | randomizado | @Farjam2020a | 1 *bandwagon*; 0 *underdog* | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Só contexto real | apoio (viabilidade) | randomizado | @Cornejo2023a; @Freden2024a | 1 viabilidade; 0 contra; 1 misto | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Só contexto real | apoio (*momentum*) | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Só contexto real | apoio (*momentum*) | randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Só contexto real | mobilização (mobilização) | não randomizado | @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Grillo2024c; @Chatterjee2019a | 2 mobilização; 2 desmobilização; 1 misto | 0,50 (0,07 a 0,93) | 1 | sem GRADE próprio |
-| Só contexto real | mobilização (mobilização) | randomizado | @Erlich2023; @Gerber2020a | 0 mobilização; 1 desmobilização; 1 nulo | 0,00 (0,00 a 0,97) | 1 | sem GRADE próprio |
-| Sem dados anteriores a 2010 | apoio (principal) | não randomizado | @Araujo2021a; @Feltovich2022 | 2 *bandwagon*; 0 *underdog* | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Sem dados anteriores a 2010 | apoio (principal) | randomizado | @Agranov2017a; @Tal2015a; @Farjam2020a; @Lammers2022a; @Fichnova2015a; @Timotei2013a; @Witsman2016a; @Boukouras2020a | 8 *bandwagon*; 0 *underdog* | 1,00 (0,63 a 1,00) | 0,008 | sem GRADE próprio |
-| Sem dados anteriores a 2010 | apoio (viabilidade) | randomizado | @Cornejo2023a; @Schlegel2023; @Freden2024a | 2 viabilidade; 0 contra; 1 misto | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Sem dados anteriores a 2010 | apoio (*momentum*) | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Sem dados anteriores a 2010 | apoio (*momentum*) | randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Sem dados anteriores a 2010 | mobilização (mobilização) | não randomizado | @Stolwijk2019b; @Brugarolas2021; @Grillo2024c (fora, risco crítico: @Kaplan2019a) | 2 mobilização; 1 desmobilização | 0,67 (0,09 a 0,99) | 1 | sem GRADE próprio |
-| Sem dados anteriores a 2010 | mobilização (mobilização) | randomizado | @Agranov2017a; @Groer2010a; @Westwood2020a; @Erlich2023; @Gerber2020a | 2 mobilização; 2 desmobilização; 1 nulo | 0,50 (0,07 a 0,93) | 1 | sem GRADE próprio |
-| Sem @Araujo2021a | apoio (principal) | não randomizado | @Morton2015a; @Feltovich2022; @Chatterjee2019a | 2 *bandwagon*; 1 *underdog* | 0,67 (0,09 a 0,99) | 1 | sem GRADE próprio |
-| Sem @Araujo2021a | apoio (principal) | randomizado | @Agranov2017a; @Tal2015a; @Farjam2020a; @Lammers2022a; @Fichnova2015a; @Timotei2013a; @Witsman2016a; @Boukouras2020a; @Tyszler2015 | 9 *bandwagon*; 0 *underdog* | 1,00 (0,66 a 1,00) | 0,004 | sem GRADE próprio |
-| Sem @Araujo2021a | apoio (viabilidade) | randomizado | @Cornejo2023a; @Schlegel2023; @Freden2024a | 2 viabilidade; 0 contra; 1 misto | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Sem @Araujo2021a | apoio (*momentum*) | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Sem @Araujo2021a | apoio (*momentum*) | randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Sem @Araujo2021a | mobilização (mobilização) | não randomizado | @Klor2017a; @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Grillo2024c; @Chatterjee2019a (fora, risco crítico: @Kaplan2019a) | 3 mobilização; 2 desmobilização; 1 misto | 0,60 (0,15 a 0,95) | 1 | sem GRADE próprio |
-| Sem @Araujo2021a | mobilização (mobilização) | randomizado | @Agranov2017a; @Groer2010a; @Westwood2020a; @Erlich2023; @Gerber2020a | 2 mobilização; 2 desmobilização; 1 nulo | 0,50 (0,07 a 0,93) | 1 | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (principal) | não randomizado | @Morton2015a; @Araujo2021a; @Feltovich2022; @Chatterjee2019a; @Alabrese2024a; @Bursztyn2023a | 3 *bandwagon*; 2 *underdog*; 1 nulo | 0,60 (0,15 a 0,95) | 1 | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (principal) | randomizado | @Agranov2017a; @Tal2015a; @Farjam2020a; @Klor2017a; @Lammers2022a; @Fichnova2015a; @Timotei2013a; @Witsman2016a; @Boukouras2020a; @Tyszler2015; @Gandhi2019 | 10 *bandwagon*; 1 *underdog* | 0,91 (0,59 a 1,00) | 0,012 | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (viabilidade) | não randomizado | @Lago2015; @Alabrese2024a | 1 viabilidade; 0 contra; 1 misto | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (viabilidade) | randomizado | @Cornejo2023a; @Schlegel2023; @Freden2024a | 2 viabilidade; 0 contra; 1 misto | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (*momentum*) | não randomizado | @Stolwijk2016a (fora, risco crítico: @Unkelbach2022a) | 1 a favor; 0 contra | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (*momentum*) | randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra | 1,00 (0,16 a 1,00) | 0,5 | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (outro alvo) | não randomizado | nenhum (fora, risco crítico: @Gasperoni2015a) | nenhum estudo | NR | NR | sem GRADE próprio |
-| Com os efeitos fora da contagem | apoio (outro alvo) | randomizado | @Meffert2011 | 1 positivo; 0 negativo | 1,00 (0,03 a 1,00) | 1 | sem GRADE próprio |
-| Com os efeitos fora da contagem | mobilização (mobilização) | não randomizado | @Klor2017a; @Bursztyn2023a; @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Geers2018; @Grillo2024c; @Alabrese2024a; @Chatterjee2019a (fora, risco crítico: @Kaplan2019a) | 4 mobilização; 4 desmobilização; 1 misto | 0,50 (0,16 a 0,84) | 1 | sem GRADE próprio |
-| Com os efeitos fora da contagem | mobilização (mobilização) | randomizado | @Agranov2017a; @Groer2010a; @Westwood2020a; @Urminsky2019; @Erlich2023; @Gerber2020a | 2 mobilização; 3 desmobilização; 1 nulo | 0,40 (0,05 a 0,85) | 1 | sem GRADE próprio |
-
-: Análises de sensibilidade da SWiM no agrupamento amplo (construto × célula de alvo × classe; saídas em `06-analise/swim_sens_*_amplo/`). O agrupamento amplo junta famílias e comparadores que o protocolo manda separar e é descritivo, decidido depois de ver os dados (Emenda 5). Certeza só para o agrupamento amplo sem outras mudanças (`06-analise/certeza_agrupamento_amplo.csv`). {#tbl-sens tbl-colwidths="[15,13,9,25,14,11,5,8]"}
+<!-- TABELA:sens -->
 
 No agrupamento amplo, 9 de 9 experimentos foram na direção *bandwagon* (proporção 1,00; IC 95% 0,66 a 1,00; p = 0,004). Mesmo assim, na análise descritiva, é muito incerto se ver pesquisas aumenta o apoio ao candidato mostrado à frente (certeza muito baixa). O rascunho do GRADE rebaixou esse corpo por risco de viés, indireção e viés de publicação; sem o rebaixamento por viés de publicação, a certeza seria baixa, e essa decisão está na P036. Só 1 dos 9 experimentos tem contexto real (@Farjam2020a), e na sensibilidade só com contexto real a célula randomizada fica com esse estudo. Nos não randomizados do agrupamento amplo, 3 de 4 foram *bandwagon* (IC 95% 0,19 a 0,99; p = 0,625): é muito incerto se exposições não sorteadas a pesquisas, boca de urna ou apuração parcial aumentam o apoio ao líder (certeza muito baixa). Na viabilidade randomizada ampla, 2 estudos foram a favor e 1 foi misto, e no *momentum* randomizado, 2 de 2 foram a favor: nas duas, é muito incerto se as pesquisas deslocam o voto (certeza muito baixa). Na mobilização ampla, as direções se dividiram nos randomizados (2 a 2, mais 1 nulo) e nos não randomizados (3 a 2, mais 1 misto): nas duas classes, é muito incerto se a exposição muda o comparecimento (certeza muito baixa).
 
@@ -547,13 +275,7 @@ As demais sensibilidades não têm GRADE próprio e são lidas como contagens. S
 
 Três estudos têm `regiao` igual a Brasil ou América Latina no *master* de extração, e nenhum deles estima o efeito de pesquisa eleitoral publicada no Brasil.
 
-| Estudo | País e eleição | Exposição | Efeito principal, g (EP) | Risco de viés; certeza da célula |
-|---|---|---|---|---|
-| @Araujo2021a | Brasil; ano da eleição codificado: 2018 | apuração parcial oficial | E01: 0,13 (0,003) (5,69 p.p.); E06: 0,26 (0,003) (11,76 p.p.) | ROBINS-I: grave; certeza: muito baixa |
-| @Cornejo2023a | México; ano da eleição codificado: 2015 | pesquisa pré-eleitoral | E05: 0,19 (0,105) | RoB 2: algumas preocupações; certeza: muito baixa |
-| @Lago2015 | 46 países, entre eles o Brasil; ano da eleição codificado: 2013 | pesquisa pré-eleitoral | E01: 0,03 (0,016) | ROBINS-I: grave; certeza: sem certeza atribuída; fora da contagem principal: interação dias de proibição × ENEP (moderador contínuo não atribuído) |
-
-: Estudos com `regiao` igual a Brasil ou América Latina no *master* de extração. {#tbl-regional tbl-colwidths="[13,20,14,23,30]"}
+<!-- TABELA:regional -->
 
 - **@Araujo2021a (Brasil, eleição presidencial de 2018, dois turnos).** Experimento natural com a votação agregada de todas as urnas do país (453.016 observações de urna na entrada da síntese; média de 323 eleitores registrados por urna, segundo a ficha). Falhas da identificação biométrica deixaram eleitores votando depois das 19:00, quando a apuração parcial oficial já era divulgada e mostrava Bolsonaro à frente; a comparação é com urnas que fecharam antes. As urnas expostas deram mais votos ao líder mostrado nos dois turnos (+5,69 e +11,76 p.p.), o que os autores interpretam como *bandwagon* por troca de voto, e não por desmobilização. É muito incerto se essa divulgação aumenta a votação do líder (certeza muito baixa).
 - **@Cornejo2023a (México, eleições estaduais de 2015 em Michoacán e Nuevo León).** Experimento de survey com vinheta de pesquisa recém-divulgada, frente a nenhuma pesquisa, sobre o apoio ao candidato anti-PRI mais bem colocado. A direção foi de viabilidade (g = 0,19, EP 0,105), e é muito incerto se ver pesquisa que mostra um candidato de oposição como segundo colocado viável aumenta o apoio a ele (certeza muito baixa). É o único estudo latino-americano sobre pesquisa pré-eleitoral na análise principal.
@@ -578,35 +300,7 @@ Nenhuma célula teve 10 ou mais estudos, e não houve funil, teste de Egger, PET
 
 Das 18 células do protocolo, 15 ficaram com certeza muito baixa, 2 com baixa (@Westwood2020a; @Stolwijk2019b e @Brugarolas2021) e 1 com moderada (@Gerber2020a, efeito nulo dentro de ±δ). As 7 linhas do agrupamento amplo ficaram com certeza muito baixa. O rascunho deixou explícitas decisões para o revisor humano (`08-revisao-humana/P036_grade/LEIA.md`). A primeira é não ter rebaixado 4 corpos cuja única preocupação de risco de viés é o domínio de relato seletivo do RoB 2 (@Westwood2020a, @Meer2015a, @Boukouras2020a e @Gerber2020a). A segunda é o rebaixamento de 1 nível, e não 2, por risco de viés na célula de @Stolwijk2019b e @Brugarolas2021. A terceira é o rebaixamento por viés de publicação no agrupamento amplo.
 
-| Célula (exposição; desfecho; comparador; classe) | Estudos (n de cada estudo, unidade própria) | Direção (proporção; IC 95%) | Certeza | Rebaixamentos (ponto de partida) |
-|---|---|---|---|---|
-| pesquisa pré-eleitoral; apoio (principal); mesmo candidato atrás; randomizado | @Tal2015a (NR); @Lammers2022a (100); @Fichnova2015a (24); @Witsman2016a (142) | 4 *bandwagon*; 0 *underdog* (1,00; 0,40 a 1,00) | muito baixa | risco de viés −2; indireção −1; imprecisão −1; viés de publicação −1 (partida alta) |
-| pesquisa pré-eleitoral; apoio (principal); outro resultado; não randomizado | @Feltovich2022 (NR) | 1 *bandwagon*; 0 *underdog* (1,00; 0,03 a 1,00) | muito baixa | risco de viés −2; indireção −1; imprecisão −1 (partida alta) |
-| pesquisa pré-eleitoral; apoio (principal); outro resultado; randomizado | @Boukouras2020a (135) | 1 *bandwagon*; 0 *underdog* (1,00; 0,03 a 1,00) | muito baixa | indireção −1; imprecisão −2 (partida alta) |
-| pesquisa pré-eleitoral; apoio (principal); sem pesquisa; randomizado | @Agranov2017a (300); @Farjam2020a (1.113); @Timotei2013a (80); @Tyszler2015 (12) | 4 *bandwagon*; 0 *underdog* (1,00; 0,40 a 1,00) | muito baixa | risco de viés −1; indireção −1; imprecisão −1; viés de publicação −1 (partida alta) |
-| pesquisa pré-eleitoral; apoio (viabilidade); outro resultado; randomizado | @Schlegel2023 (NR); @Freden2024a (744) | 1 viabilidade; 0 contra; 1 misto (1,00; 0,03 a 1,00) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida alta) |
-| pesquisa pré-eleitoral; apoio (viabilidade); sem pesquisa; randomizado | @Cornejo2023a (545) | 1 viabilidade; 0 contra (1,00; 0,03 a 1,00) | muito baixa | risco de viés −1; imprecisão −2 (partida alta) |
-| pesquisa pré-eleitoral; apoio (*momentum*); outro; randomizado | @Meer2015a (10.643) | 1 a favor; 0 contra (1,00; 0,03 a 1,00) | muito baixa | indireção −1; imprecisão −2 (partida alta) |
-| pesquisa pré-eleitoral; apoio (*momentum*); outro resultado; não randomizado | @Stolwijk2016a (6.384) | 1 a favor; 0 contra (1,00; 0,03 a 1,00) | muito baixa | risco de viés −2; indireção −1; imprecisão −1 (partida alta) |
-| pesquisa pré-eleitoral; apoio (*momentum*); sem pesquisa; randomizado | @Dahlgaard2016a (1.700) | 1 a favor; 0 contra (1,00; 0,03 a 1,00) | muito baixa | risco de viés −1; indireção −1; imprecisão −2 (partida alta) |
-| pesquisa pré-eleitoral; mobilização (mobilização); outro resultado; randomizado | @Gerber2020a (126.126) | 0 mobilização; 0 desmobilização; 1 nulo | moderada | imprecisão −1 (partida alta) |
-| pesquisa pré-eleitoral; mobilização (mobilização); sem pesquisa; não randomizado | @Klor2017a (84) | 1 mobilização; 0 desmobilização (1,00; 0,03 a 1,00) | muito baixa | risco de viés −1; indireção −1; imprecisão −1 (partida alta) |
-| pesquisa pré-eleitoral; mobilização (mobilização); sem pesquisa; randomizado | @Agranov2017a (135); @Groer2010a (12); @Erlich2023 (181) | 2 mobilização; 1 desmobilização (0,67; 0,09 a 0,99) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida alta) |
-| pesquisa pré-eleitoral; mobilização (mobilização); unidades não expostas; não randomizado | @Stolwijk2019b (747); @Brugarolas2021 (NR) | 2 mobilização; 0 desmobilização (1,00; 0,16 a 1,00) | baixa | risco de viés −1; imprecisão −1 (partida alta) |
-| agregador ou projeção; mobilização (mobilização); outro resultado; randomizado | @Westwood2020a (5.845) | 0 mobilização; 1 desmobilização (0,00; 0,00 a 0,97) | baixa | indireção −1; imprecisão −1 (partida alta) |
-| boca de urna; apoio (principal); antes e depois da proibição; não randomizado | @Morton2015a (60); @Chatterjee2019a (1.737) | 1 *bandwagon*; 1 *underdog* (0,50; 0,01 a 0,99) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida baixa) |
-| boca de urna; mobilização (mobilização); antes e depois da proibição; não randomizado | @Morton2015a (1.260); @Chatterjee2019a (1.737) | 0 mobilização; 1 desmobilização; 1 misto (0,00; 0,00 a 0,97) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida baixa) |
-| boca de urna; mobilização (mobilização); outro resultado; não randomizado | @Grillo2024c (576) | 0 mobilização; 1 desmobilização (0,00; 0,00 a 0,97) | muito baixa | risco de viés −1; indireção −1; imprecisão −2 (partida baixa) |
-| outro; apoio (principal); unidades não expostas; não randomizado | @Araujo2021a (453.016) | 1 *bandwagon*; 0 *underdog* (1,00; 0,03 a 1,00) | muito baixa | risco de viés −2; indireção −1; imprecisão −1 (partida alta) |
-| agrupamento amplo, *post hoc*; apoio (principal); vários; não randomizado | @Morton2015a; @Araujo2021a; @Feltovich2022; @Chatterjee2019a | 3 *bandwagon*; 1 *underdog* (0,75; 0,19 a 0,99) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida baixa) |
-| agrupamento amplo, *post hoc*; apoio (principal); vários; randomizado | @Agranov2017a; @Tal2015a; @Farjam2020a; @Lammers2022a; @Fichnova2015a; @Timotei2013a; @Witsman2016a; @Boukouras2020a; @Tyszler2015 | 9 *bandwagon*; 0 *underdog* (1,00; 0,66 a 1,00) | muito baixa | risco de viés −1; indireção −1; viés de publicação −1 (partida alta) |
-| agrupamento amplo, *post hoc*; apoio (viabilidade); vários; randomizado | @Cornejo2023a; @Schlegel2023; @Freden2024a | 2 viabilidade; 0 contra; 1 misto (1,00; 0,16 a 1,00) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida alta) |
-| agrupamento amplo, *post hoc*; apoio (*momentum*); vários; não randomizado | @Stolwijk2016a | 1 a favor; 0 contra (1,00; 0,03 a 1,00) | muito baixa | risco de viés −2; indireção −1; imprecisão −1 (partida alta) |
-| agrupamento amplo, *post hoc*; apoio (*momentum*); vários; randomizado | @Dahlgaard2016a; @Meer2015a | 2 a favor; 0 contra (1,00; 0,16 a 1,00) | muito baixa | risco de viés −1; indireção −1; imprecisão −1 (partida alta) |
-| agrupamento amplo, *post hoc*; mobilização (mobilização); vários; não randomizado | @Klor2017a; @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Grillo2024c; @Chatterjee2019a | 3 mobilização; 2 desmobilização; 1 misto (0,60; 0,15 a 0,95) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida baixa) |
-| agrupamento amplo, *post hoc*; mobilização (mobilização); vários; randomizado | @Agranov2017a; @Groer2010a; @Westwood2020a; @Erlich2023; @Gerber2020a | 2 mobilização; 2 desmobilização; 1 nulo (0,50; 0,07 a 0,93) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida alta) |
-
-: Resumo dos achados (GRADE, rascunho de IA não validado; `06-analise/certeza.csv` e `06-analise/certeza_agrupamento_amplo.csv`). n do efeito principal na unidade própria de cada estudo (`06-analise/swim_principal/tabelas/swim_direcao.csv`); no agrupamento amplo, os n são os mesmos das células do protocolo. Com SWiM, a certeza qualifica a direção, não a magnitude. {#tbl-sof tbl-colwidths="[24,26,20,8,22]"}
+<!-- TABELA:sof -->
 
 # Discussão
 
@@ -694,28 +388,7 @@ Desvio adicional: os classificadores de desenho do risco de viés em desacordo f
 
 Lista copiada de `07-relatorio/_pendencias_abertas.json` (18 pendências abertas, o mesmo número do `rs_estado.json`), com o pacote de preparação e o esforço estimado de `08-revisao-humana/README.md`. A ordem sugerida é a das etapas, porque decisões de busca e de triagem podem mudar o conjunto de incluídos. Nenhuma sugestão de IA nos pacotes conta como validação.
 
-| Id | Tipo | Etapa | Portão | N | Descrição (registrada no estado) | Pacote em `08-revisao-humana/` | Esforço estimado |
-|---|---|---|---|---|---|---|---|
-| P001 | revisao_press | 04_busca | G3 | não se aplica | PRESS 2015 da estratégia S-oa-en-v4 por revisor humano; houve só pré-revisão por subagente (atalho A4; 01-busca/prepress_S-oa-en-v3_ia.md) | `P001_press/` | 2,5 a 3,5 h |
-| P004 | revisao_humana_portao | 04_busca | G3 | não se aplica | confirmar a aprovação automática do G3: P001 aberta: PRESS 2015 da estratégia S-oa-en-v4 por revisor humano; houve só pré-revisão por subagente (atalho A4; 01-busca/prepress_S-oa-en-v3_ia.md) | seção de portões do README da pasta | 5 min |
-| P006 | validacao_humana | 06_triagem_ta | G4 | 141 | codificar em dupla, às cegas, a amostra amostra01 (141 registros) | `P006_P007_validacao/` | 2 × 1,5 h |
-| P007 | validacao_humana | 06_triagem_ta | G4 | 300 | codificar em dupla, às cegas, a amostra elusao01 (300 registros) | `P006_P007_validacao/` | 2 h |
-| P008 | revisao_humana_portao | 06_triagem_ta | G4 | não se aplica | confirmar a aprovação automática do G4: nenhuma validação humana (finalidade validacao) calculada para a rodada ativa ta_v1 (rs.py validar calcular); P005 aberta: resolver 47 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv`; P006 aberta: codificar em dupla, às cegas, a amostra amostra01 (141 registros); P007 aberta: codificar em dupla, às cegas, a amostra elusao01 (300 registros) | seção de portões do README da pasta | 5 min |
-| P019 | dedup_candidatos | 05_organizacao | nenhum | 145 | 145 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv) [substitui P015] | `P019_dedup/` | 1 a 1,5 h |
-| P020 | fila_humana_triagem | 06_triagem_ta | G4 | 81 | resolver 81 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv` [substitui P016] | `P020_triagem/` | 1 h |
-| P023 | revisao_humana_portao | 07_textos_elegibilidade | G5 | não se aplica | confirmar a aprovação automática do G5: P022 aberta: conferir 149 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P021] | seção de portões do README da pasta | 5 min |
-| P025 | revisao_piloto | 08_piloto_extracao | G6 | 3 | conferir fichas e efeitos do piloto contra os PDFs (revisão de coordenador de IA já feita e documentada em 05-decomposicao/piloto/revisao_coordenador.md; falta conferência humana) | `P025_piloto/` | 1 h |
-| P026 | revisao_humana_portao | 08_piloto_extracao | G6 | não se aplica | confirmar a aprovação automática do G6: P025 aberta: conferir fichas e efeitos do piloto contra os PDFs (revisão de coordenador de IA já feita e documentada em 05-decomposicao/piloto/revisao_coordenador.md; falta conferência humana) | seção de portões do README da pasta | 5 min |
-| P033 | revisao_humana_portao | 09_extracao_rob | G7 | não se aplica | confirmar a aprovação automática do G7: 554 efeitos sem verificação humana na página do PDF (apto_g7 = 0; ex.: Agranov2017a-E01, Agranov2017a-E02, Agranov2017a-E03, Agranov2017a-E04, Agranov2017a-E05); RoB de rob2 (seq 745) com 23 de 23 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de robins_i (seq 747) com 13 de 13 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de epoc (seq 749) com 7 de 7 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; P032 aberta: conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P027] | `P033_rob/` | 4 a 6 h |
-| P035 | revisao_humana_portao | 10_sintese | G8 | não se aplica | confirmar a aprovação automática do G8: P034 aberta: GRADE das 7 células em 06-analise/certeza.csv rascunhado por subagente (claude-opus-5-5), validado_humano vazio; revisor humano deve confirmar ou alterar cada juízo (ver ponto sobre viés de publicação na célula 1) | seção de portões do README da pasta | 5 min |
-| P036 | certeza_humana | 10_sintese | nenhum | não se aplica | GRADE refeito após a Emenda 5: 21 linhas em 06-analise/certeza.csv (17 células do protocolo + 4 do agrupamento amplo descritivo), rascunhadas por subagente (claude-opus-5-5) com validado_humano vazio; decidir em especial o rebaixamento por viés de publicação no agrupamento amplo de apoio randomizado (baixa × moderada) | `P036_grade/` | 1 h |
-| P037 | concordancia_extracao | 09_extracao_rob | nenhum | não se aplica | Recodificação cega (Sonnet) de 10 estudos: concordância de valores 58,5% (560 comparações), 37 variáveis sinalizadas, entre elas alvo_efeito (50%, κ 0,38), comparador_tipo (50%, κ 0,38), b2_estimando (60%, κ 0,15) e direção do principal (50%); humano deve arbitrar as divergências em 05-decomposicao/validacao_extracao/concordancia/concordancia.csv ou redefinir e recodificar | `P037_concordancia/` | 2 a 3 h |
-| P038 | revisao_humana_portao | 11_relato | G9 | não se aplica | confirmar a aprovação automática do G9 | `07-relatorio/relatorio.html` | 2 h |
-| P039 | verificacao_humana_efeitos | 09_extracao_rob | G7 | 560 | conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P032] | `efeitos/` | 6 a 10 h |
-| P041 | conferencia_elegibilidade_tc | 07_textos_elegibilidade | G5 | 165 | conferir 165 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P040] | `P041_elegibilidade/` | 3 a 4 h |
-| P042 | certeza_caixa | 10_sintese | G8 | 22 | completar certeza (GRADE/CERQual) e enunciados das células pendentes | `P036_grade/` | 1 h |
-
-: Pendências humanas abertas (18), copiadas de `07-relatorio/_pendencias_abertas.json`; pacote e esforço de `08-revisao-humana/README.md`. As descrições são as registradas quando cada pendência foi aberta e podem citar contagens anteriores (por exemplo, P001 cita a string v4, substituída pela v5). {#tbl-pendencias tbl-colwidths="[5,10,10,6,5,40,14,10]"}
+<!-- TABELA:pendencias -->
 
 # Apêndice B: estratégias de busca (PRISMA-S) {.unnumbered}
 

@@ -1,10 +1,10 @@
 # Declaração de uso de inteligência artificial
 
-**RASCUNHO NÃO VALIDADO** (17 pendências abertas; decisões de IA na triagem sem validação calculada com finalidade validação da rodada ativa).
+**RASCUNHO NÃO VALIDADO** (18 pendências abertas; decisões de IA na triagem sem validação calculada com finalidade validação da rodada ativa).
 
 Projeto: Exposição a pesquisas eleitorais publicadas → intenção de voto (bandwagon/underdog). Tipo de revisão: efetividade_swim. Modo de autonomia: autopiloto; triagem: subagentes.
 
-Gerado a partir de `rs_log.jsonl` até o evento seq 828 (sha256 dos eventos `9dea159c702a0eff…`) e de `dados/decisoes.jsonl` (6262 decisões). Nenhum número foi digitado à mão.
+Gerado a partir de `rs_log.jsonl` até o evento seq 833 (sha256 dos eventos `8199f6eec1cee496…`) e de `dados/decisoes.jsonl` (6262 decisões). Nenhum número foi digitado à mão.
 
 ## 1. Ferramentas e modelos
 
@@ -56,7 +56,8 @@ Gerado a partir de `rs_log.jsonl` até o evento seq 828 (sha256 dos eventos `9de
 | 10_sintese | humano | revisor_humano_1 | pendencia_fechada | 1 |
 | 10_sintese | ia_coordenador | autopiloto | portao | 1 |
 | 10_sintese | script | autopiloto | pendencia_aberta | 1 |
-| 10_sintese | script | rs.py analise | analise_executada | 35 |
+| 10_sintese | script | rs.py analise | analise_executada | 37 |
+| 10_sintese | script | rs.py caixa | caixa_gerada, pendencia_aberta | 2 |
 | 10_sintese | script | script | pendencia_aberta | 2 |
 | 11_relato | ia_coordenador | autopiloto | portao | 1 |
 | 11_relato | script | autopiloto | pendencia_aberta | 1 |
@@ -178,6 +179,7 @@ Nenhum evento do log traz custo ou uso de tokens de API. A triagem por subagente
 | P038 | revisao_humana_portao | 11_relato | G9 | confirmar a aprovação automática do G9 |  |
 | P039 | verificacao_humana_efeitos | 09_extracao_rob | G7 | conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P032] | 560 |
 | P041 | conferencia_elegibilidade_tc | 07_textos_elegibilidade | G5 | conferir 165 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P040] | 165 |
+| P042 | certeza_caixa | 10_sintese | G8 | completar certeza (GRADE/CERQual) e enunciados das células pendentes | 22 |
 
 ## 7. Declaração de responsabilidade
 
