@@ -2,7 +2,7 @@
 
 > **RASCUNHO NÃO VALIDADO.** Todas as etapas depois do protocolo foram feitas por subagentes de IA no modo autopiloto. Há 18 pendências humanas abertas; a lista, a ordem e os pacotes prontos estão em [`08-revisao-humana/README.md`](08-revisao-humana/README.md). Nenhum resultado deve ser citado como final antes de elas serem fechadas.
 
-**Relatório no navegador:** <https://felipelmc.github.io/pesquisas-eleitorais-rs/>. O repositório é privado, mas a página do Pages é acessível a quem tiver o link. Na mesma página estão o guia da revisão humana e o `.docx`.
+**Relatório no navegador:** <https://felipelamarca.com/pesquisas-eleitorais-rs/>. O repositório é privado, mas a página do Pages é acessível a quem tiver o link. Na mesma página estão o guia da revisão humana e o `.docx`.
 
 ## Pergunta
 
