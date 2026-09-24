@@ -2,7 +2,14 @@
 
 > **RASCUNHO NÃO VALIDADO.** Todas as etapas depois do protocolo foram feitas por subagentes de IA no modo autopiloto. Há 18 pendências humanas abertas; a lista, a ordem e os pacotes prontos estão em [`08-revisao-humana/README.md`](08-revisao-humana/README.md). Nenhum resultado deve ser citado como final antes de elas serem fechadas.
 
-**Relatório no navegador:** <https://felipelamarca.com/pesquisas-eleitorais-rs/>. O repositório é privado, mas a página do Pages é acessível a quem tiver o link. Na mesma página estão o guia da revisão humana e o `.docx`.
+**No navegador:** <https://felipelamarca.com/pesquisas-eleitorais-rs/>. A página de entrada leva a quatro coisas:
+
+- a **revisão final**, no formato *O que funciona?* do MAPE adaptado (`revisao.html` e `.docx`);
+- o **relatório técnico** PRISMA (`relatorio-tecnico.html` e `.docx`);
+- o **guia da revisão humana**;
+- as mensagens principais.
+
+O repositório é privado, mas as páginas do Pages são acessíveis a quem tiver o link.
 
 ## Pergunta
 
@@ -39,7 +46,10 @@ A certeza GRADE (`06-analise/certeza.csv`, rascunho de IA) qualifica a **direç�
   - célula "mesmo candidato atrás" (3 estudos, 6 efeitos, desfechos em escalas diferentes): g = 0,62, com IC95% de −0,48 a 1,72.
 - **Brasil:** o único estudo brasileiro, Araujo2021a, trata da apuração parcial oficial, não de pesquisa (Emenda 1).
 
-O manuscrito está em `07-relatorio/relatorio.html` e `07-relatorio/relatorio.docx` (fonte: `relatorio.qmd`). A versão publicada é `docs/index.html`.
+Há dois documentos, e os dois estão publicados:
+
+- **Revisão final**, fonte `09-documento-final/revisao_final.qmd`, publicada em `docs/revisao.html`. É o documento principal, no formato *O que funciona?* (OQF) do MAPE/IESP-UERJ adaptado: mensagens principais, efeito, mecanismos, moderadores, caixa de ferramentas, implicações para o debate brasileiro, metodologia e limitações, com as marcações do que ainda depende de revisão humana.
+- **Relatório técnico**, fonte `07-relatorio/relatorio.qmd`, publicado em `docs/relatorio-tecnico.html`. É o manuscrito PRISMA 2020 completo, com tabelas estudo a estudo.
 
 ## Sessão de 23 e 24/09/2026: o que foi feito
 
@@ -110,7 +120,8 @@ Os commits da sessão vão de `0309f24` em diante (`git log`).
 | `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades, inclusive ICC 0,20), meta exploratória, `certeza.csv`, `certeza_agrupamento_amplo.csv`, `revisao_metodologica_g8.md`. `_superado_pre_revisao_g8/` guarda a síntese anterior à Emenda 5, só para histórico |
 | `07-relatorio/` | manuscrito, PRISMA (contagens, SVG, PNG), checklists PRISMA e SWiM, `references.bib`, declaração de uso de IA, prompts do redator |
 | `08-revisao-humana/` | pacotes das 18 pendências: índice, ordem, esforço, comandos, re-extração cega e arbitragens dos efeitos |
-| `docs/` | versão publicada no GitHub Pages: relatório autocontido (`index.html`), guia da revisão humana, `.docx` |
+| `09-documento-final/` | revisão final no formato OQF adaptado. O texto fica em `_esqueleto_revisao_final.qmd`, e `montar_revisao_final.py` insere as tabelas geradas e grava `revisao_final.qmd`. Também estão aqui: insumos (contexto brasileiro com fontes, mecanismos e moderadores, números, caixa OQF), prompts do redator, do estilo e da verificação, `conferir_numeros.py` (trava dos passes de estilo), `verificacao.md` e a página de entrada (`index.qmd`) |
+| `docs/` | versão publicada no GitHub Pages: `index.html` (entrada), `revisao.html`, `relatorio-tecnico.html`, `revisao-humana.html` e os `.docx`. Tudo é gerado por `docs/publicar.sh` |
 | `dados/` | registros e decisões. Só a skill escreve aqui |
 | `rs_estado.json`, `rs_log.jsonl` | estado e registro de eventos da skill (append-only). Nunca editar à mão |
 | `ferramentas/` | conferências auxiliares: `checar_arbitros.py <raiz> [max_palavras] [subpasta]` confere vocabulário e trecho literal na página das propostas do árbitro de RoB; `achar_trecho.py <verificacao_citacoes.csv> <pasta_pdfs>` sugere o trecho literal mais próximo para citações reprovadas no gate |
@@ -186,13 +197,14 @@ rs --dir . pendencia listar > 07-relatorio/_pendencias_abertas.json
 # manuscrito: subagente com 07-relatorio/prompt_redator_v2.md
 rs --dir . declaracao-ia     # sempre por último, antes do render
 cd 07-relatorio && quarto render relatorio.qmd --to html && quarto render relatorio.qmd --to docx && cd ..
-bash docs/publicar.sh        # versão autocontida em docs/ (GitHub Pages)
+python3 09-documento-final/gerar_caixa_oqf.py && python3 09-documento-final/montar_revisao_final.py   # documento final
+bash docs/publicar.sh        # entrada, revisão final, relatório técnico e guia em docs/ (GitHub Pages)
 ```
 
 Cuidados:
 
 - `rs bib` regrava `07-relatorio/references.bib` e apaga as três referências acrescentadas à mão (Hardmeier2008, MoyRinke2012, Barnfield2019). Se rodar, acrescente-as de novo.
-- Os números do manuscrito são copiados dos arquivos por um subagente redator. Se a síntese mudar, o texto precisa ser reescrito, não só renderizado.
+- Os números do manuscrito e da revisão final são copiados dos arquivos por subagentes redatores. Se a síntese mudar, os dois textos precisam ser reescritos, não só renderizados. Na revisão final, isso significa editar o esqueleto, remontar, conferir com `09-documento-final/prompt_verificacao.md` e passar a trava de números em todo passe de estilo.
 - `rs caixa` é opcional neste tipo de revisão. Rodá-lo abre a pendência `certeza_caixa`, que repete a validação do GRADE.
 - Quando a última pendência fechar, o `rs status` deixa de marcar rascunho. Aí tire a faixa "RASCUNHO NÃO VALIDADO" do topo do `relatorio.qmd`.
 

@@ -57,7 +57,8 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
   - `03-textos/prompts_fichamento/fichador_elegibilidade.md`, com a raiz trocada;
   - `08-revisao-humana/efeitos/prompt_reextracao_cega.md` e `prompt_arbitro_efeitos.md`;
   - `08-revisao-humana/P037_concordancia/prompt_terceiro_leitor.md`;
-  - `02-triagem/sem_resumo_revisao/INSTRUCOES_triagem.md`.
+  - `02-triagem/sem_resumo_revisao/INSTRUCOES_triagem.md`;
+  - `09-documento-final/prompt_redator_final.md`, `prompt_estilo.md` e `prompt_verificacao.md`.
 
 ## Convenções da síntese (Emenda 5)
 
@@ -93,7 +94,11 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
 - `rs caixa` é opcional neste tipo de revisão, e rodá-lo abre uma pendência `certeza_caixa` (foi o que criou a P042, que repete a P036).
 - Pendências mudam de ID quando o comando as reabre: P032 virou P039, e P028 virou P040 e depois P041. Confira no `rs pendencia listar`.
 - O gate de citações das fichas de elegibilidade é `03-textos/prompts_fichamento/gate_sem_heuristica.py <ficha> <pdf>`. Ficha reprovada vai para `_reprovadas/` como `<nome>.tentativaN.md` e é refeita por um fichador novo, nunca corrigida à mão.
-- Na publicação, `bash docs/publicar.sh` gera `docs/` depois do `quarto render`. Nada de dados brutos, fichas ou PDFs entra em `docs/`.
+- Na publicação, `bash docs/publicar.sh` gera `docs/`: a entrada (`09-documento-final/index.qmd`, com as mensagens principais extraídas da revisão final), `revisao.html`, `relatorio-tecnico.html` e `revisao-humana.html`. Nada de dados brutos, fichas ou PDFs entra em `docs/`. O endereço é <https://felipelamarca.com/pesquisas-eleitorais-rs/>, o domínio próprio do Pages do usuário.
+- Revisão final (`09-documento-final/`):
+  - Edite só `_esqueleto_revisao_final.qmd` e depois rode `montar_revisao_final.py`. Rodar o script sobrescreve `revisao_final.qmd`.
+  - Passes de estilo seguem `prompt_estilo.md`, com as regras de `~/.claude/commands/my-voice.md` e a skill `tirar-cara-de-ia`. Cada passe exige a trava `conferir_numeros.py` vazia.
+  - Os callouts "Pendente de revisão humana" e o apêndice de pendências ficam até o usuário fechar as pendências.
 
 ## Onde está o raciocínio de cada decisão
 

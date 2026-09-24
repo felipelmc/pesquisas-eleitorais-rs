@@ -109,7 +109,7 @@ def t_oqf_principal():
         ("Moderador",
          "Descritivo. Na célula principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e "
          "só um experimento de pesquisa usou eleição real (@Farjam2020a); o partidarismo não atenuou o efeito no único teste "
-         "pré-especificado (@Cornejo2023a); nenhum moderador teve estudos suficientes para teste",
+         "pré-especificado dentro da síntese principal (@Cornejo2023a); nenhum moderador teve estudos suficientes para teste",
          "fichamento por IA e SWiM principal; @sec-moderadores",
          "sem GRADE (descritivo)"),
         ("Implementação",
@@ -168,6 +168,14 @@ def t_pendencias():
         for pid in re.findall(r"P\d{3}", ids):
             info[pid] = (etapa, tarefa, pacote, esforco)
             ordem[pid] = int(n)
+    # A linha "P036 e P042" do README descreve as duas pela P036. Para a P042, a tarefa vem do registro
+    # da própria pendência em _pendencias_abertas.json (descrição e n), sem alterar o README.
+    p042 = next((p for p in pend if p["id"] == "P042"), None)
+    if p042 and "P042" in info:
+        etapa, _, pacote, esforco = info["P042"]
+        tarefa = (f"completar a certeza (GRADE/CERQual) e os enunciados das {p042['n']} células pendentes que o "
+                  "`rs caixa` apontou; na prática, pede a mesma validação da P036")
+        info["P042"] = (etapa, tarefa, pacote, esforco)
     pend = sorted(pend, key=lambda p: (ordem.get(p["id"], 99), p["id"]))
     cab = "| Id | Etapa | O que falta | Pacote em `08-revisao-humana/` | Esforço |\n|---|---|---|---|---|\n"
     corpo = ""
@@ -175,7 +183,8 @@ def t_pendencias():
         etapa, tarefa, pacote, esforco = info.get(p["id"], ("NR", p["descricao"], "NR", "NR"))
         corpo += f"| {p['id']} | {etapa} | {tarefa} | {pacote} | {esforco} |\n"
     leg = (f"\n: Pendências humanas abertas ({len(pend)}), de `07-relatorio/_pendencias_abertas.json`; etapa, tarefa, "
-           "pacote e esforço copiados de `08-revisao-humana/README.md`, na ordem das etapas. {#tbl-pendencias "
+           "pacote e esforço copiados de `08-revisao-humana/README.md` (a tarefa da P042, do registro da pendência), "
+           "na ordem das etapas. {#tbl-pendencias "
            "tbl-colwidths=\"[7,15,48,18,12]\"}")
     return cab + corpo + leg
 
