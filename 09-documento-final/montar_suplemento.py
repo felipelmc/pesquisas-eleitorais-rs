@@ -19,7 +19,7 @@ Cada linha @@TABELA <nome>@@ do esqueleto vira o conteúdo da seção, lido dos 
   s8_sensibilidades  S8   insumos/tabelas/sens.md e as linhas do agrupamento amplo de insumos/tabelas/sof.md
   s9_caixa           S9   insumos/caixa_oqf_celulas.md e insumos/caixa_oqf_painel.md
   s10_regional       S10  insumos/tabelas/regional.md e viabilidade.md
-  s11_checklists     S11  "em preparação" (os checklists são preenchidos depois do texto final)
+  s11_checklists     S11  listas de conferência (PRISMA 2020, resumo, PRISMA-S, SWiM, PRISMA-trAIce), de insumos/tabelas/checklist_*.md
 
 As tabelas copiadas ganham legendas novas, sem caminhos de arquivo, e rótulos tbl-s<n>-... próprios do suplemento.
 Tabelas largas vão em ::: {.tabela-larga} ou ::: {.landscape}, sempre no nível de cima. Nenhum travessão (U+2014): em
@@ -440,9 +440,52 @@ def s10_regional():
 
 
 def s11_checklists():
-    return ("Em preparação. As listas de conferência do PRISMA 2020, do SWiM, do PRISMA-S e do PRISMA-trAIce (esta "
-            "última só como lista de conferência) serão preenchidas depois da versão final do texto, com o local de "
-            "cada item no artigo.")
+    """S11: cinco listas de conferência lidas de insumos/tabelas/checklist_*.md (colunas Item, Onde no artigo,
+    Situação, Observação), cada uma com legenda, rótulo tbl-s11-... e a contagem por situação calculada aqui.
+    Sai com erro se o cabeçalho, o número de itens ou uma situação fugir do esperado."""
+    cab = ["Item", "Onde no artigo", "Situação", "Observação"]
+    situacoes = {"relatado": ("relatado", "relatados"), "parcial": ("parcial", "parciais"),
+                 "não se aplica": ("não se aplica", "não se aplicam"),
+                 "não relatado": ("não relatado", "não relatados")}
+    listas = [  # arquivo, rótulo, número de linhas (itens e subitens), legenda
+        ("checklist_prisma2020.md", "tbl-s11-prisma2020", 42,
+         "Lista de conferência do PRISMA 2020 [@Page2021PRISMA; @Page2021PRISMAEE]: 27 itens, com os subitens. Os "
+         "itens 13 e 20 são relatados também pelo SWiM (quarta tabela desta seção). Todo o texto depende da leitura "
+         "e da confirmação do autor (P038)."),
+        ("checklist_prisma_resumo.md", "tbl-s11-resumo", 12,
+         "Lista de conferência do PRISMA 2020 para resumos [@Page2021PRISMA], 12 itens, aplicada ao Resumo; o "
+         "*Abstract*, em inglês, tem a mesma estrutura e o mesmo conteúdo."),
+        ("checklist_prisma_s.md", "tbl-s11-prisma-s", 16,
+         "Lista de conferência do PRISMA-S [@Rethlefsen2021PRISMAS], 16 itens sobre o relato da busca."),
+        ("checklist_swim.md", "tbl-s11-swim", 10,
+         "Lista de conferência do SWiM [@Campbell2020SWiM], 9 itens, o primeiro em duas partes; nas sínteses sem "
+         "meta-análise, ele relata os itens 13 e 20 do PRISMA 2020."),
+        ("checklist_trAIce.md", "tbl-s11-traice", 17,
+         "PRISMA-trAIce, 17 itens, na versão publicada por [Holst et al. (2025)](https://doi.org/10.2196/80247), "
+         "usado só como lista de conferência, sem declaração de conformidade: é uma proposta que o PRISMA Executive "
+         "não endossa ([Moher et al. 2026](https://doi.org/10.2196/104210)), e o livro que orienta esta revisão "
+         "manda usá-la ao lado dos itens 8, 9 e 11 do PRISMA 2020 [@Lamarca2026Livro]."),
+    ]
+    partes = ["As listas do PRISMA 2020, com os 12 itens do resumo, do PRISMA-S, do SWiM e do PRISMA-trAIce dão, para "
+              "cada item, o local no artigo ou neste suplemento e a situação do relato, que diz se o item está no "
+              "texto, e não se a revisão o cumpre bem."]
+    for arq, rotulo, n, texto in listas:
+        linhas = tabela_sem_legenda(INS / "tabelas" / arq)
+        if celulas(linhas[0]) != cab:
+            raise SystemExit(f"ERRO: {arq} com cabeçalho {celulas(linhas[0])}; esperado {cab}")
+        corpo = linhas[2:]
+        if len(corpo) != n:
+            raise SystemExit(f"ERRO: {arq} com {len(corpo)} itens; esperados {n}")
+        cont = {s: 0 for s in situacoes}
+        for l in corpo:
+            cs = celulas(l)
+            if len(cs) != len(cab) or cs[2] not in situacoes:
+                raise SystemExit(f"ERRO: {arq}, linha com situação ou colunas inesperadas: {l[:80]}")
+            cont[cs[2]] += 1
+        resumo = ", ".join(f"{k} {situacoes[s][k != 1]}" for s, k in cont.items() if k)
+        t = bloco(linhas, f"{texto} Situação: {resumo}.", rotulo, [28, 28, 10, 34])
+        partes.append(envolver("tabela-larga", t))
+    return "\n\n".join(partes)
 
 
 SECOES = {"s1_busca": s1_busca, "s2_atalhos": s2_atalhos, "s3_emendas": s3_emendas,
