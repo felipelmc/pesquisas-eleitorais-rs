@@ -55,3 +55,7 @@ table { border-top: 1.4px solid #1b1d22; border-bottom: 1.4px solid #1b1d22; }
 /* strings de busca e códigos longos quebram a linha */
 pre, pre code, div.sourceCode pre { white-space: pre-wrap; word-break: break-word; }
 code { font-size: 0.86em; }
+
+/* tabelas e legendas alinhadas à esquerda (grid tables do pandoc vêm centralizadas) */
+main table td, main table th { text-align: left !important; vertical-align: top; }
+main caption, .quarto-float-caption, figcaption { text-align: left !important; }

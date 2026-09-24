@@ -827,6 +827,6 @@ Estas são as 18 pendências abertas no estado atual da revisão, e todas exigem
 | P036 | síntese | validar os juízos GRADE. A P042 foi aberta pelo `rs caixa` em 24/09 e pede o mesmo | `P036_grade/` | 1 h |
 | P042 | síntese | completar a certeza (GRADE/CERQual) e os enunciados das 22 células pendentes que o `rs caixa` apontou; na prática, pede a mesma validação da P036 | `P036_grade/` | 1 h |
 | P035 | portão G8 | confirmar o G8 | `README.md`, seção dos portões | 5 min |
-| P038 | portão G9 | ler o manuscrito e confirmar o G9 | `07-relatorio/relatorio.html` | 2 h |
+| P038 | portão G9 | ler o artigo (e o relatório técnico) e confirmar o G9; decidir o título e os marcadores [A confirmar pelo autor] | artigo em `docs/revisao.pdf` ou `revisao.html`; `09-documento-final/resposta_pareceres.md`; relatório técnico em `docs/relatorio-tecnico.html` | 3 h |
 
 : Pendências humanas abertas (18), na ordem das etapas, do registro de estado da revisão; etapa, tarefa, pacote de revisão e esforço estimado vêm do guia de revisão humana do projeto (a tarefa da P042, do registro da própria pendência). {#tbl-pendencias tbl-colwidths="[7,15,48,18,12]"}
