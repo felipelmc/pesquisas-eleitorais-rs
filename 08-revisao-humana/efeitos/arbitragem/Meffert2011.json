@@ -1,0 +1,141 @@
+{
+ "chave": "Meffert2011",
+ "resumo": "Valores numericos das duas extracoes coincidem. Corrigido comparador_tipo para outro_resultado nas 4 linhas, estimando de E02 para ATE, p0 = 0,246 em E01/E02, n1/n2 derivados (135/65) em E03/E04. Mantido 'With perceptions' como principal pela regra do protocolo, com a ressalva de efeito direto (a linha ja esta no FORA). O `modelo` das 4 linhas atribuia a comparacao a controle + competition inteira; a aritmetica (n_close = 135, 67,5% contra 50% sorteado) indica que competition dos apoiadores de partido grande entrou como 'close', e o texto passa a dizer isso com ressalva.",
+ "decisoes": [
+  {
+   "id_efeito": "Meffert2011-E01",
+   "divergencia": "comparador_tipo outro (orig.) x outro_resultado (cega); p0 ausente na original e 0,246 na cega; descricao do grupo de comparacao no `modelo` nao sustentada pelo texto (nao apontado pelo script)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "p0",
+     "de": "",
+     "para": "0.246"
+    },
+    {
+     "campo": "modelo",
+     "de": "Tabela 4, coluna 'With perceptions', logit, coeficiente de 'Close poll (manipulation)'; controles: percepcoes (distancia percebida da clausula, percepcao do sinal), 'Party no chance', sinal de coalizao, ideologia, PID, preferencia, voto habitual, conhecimento, pequeno partido, sexo; tratamento = condicao close/failure (pequeno partido preferido na pesquisa manipulada a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno); comparacao = condicoes seguras agrupadas: controle (partido grande '41 per cent' e pequeno '10 per cent') e competition (tres pequenos a cerca de '7 per cent')",
+     "para": "Tabela 4, coluna 'With perceptions', logit, coeficiente de 'Close poll (manipulation)'; controles: percepcoes (distancia percebida da clausula, percepcao do sinal), 'Party no chance', sinal de coalizao, ideologia, PID, preferencia, voto habitual, conhecimento, pequeno partido, sexo; tratamento = pesquisas agrupadas pelos autores como 'close' (inclui a condicao close/failure: pequeno partido preferido a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno; provavelmente inclui tambem a condicao competition, tres pequenos a cerca de '7 per cent', para apoiadores de partido grande, que segundo os autores cria incentivo estrategico para eles); comparacao = pesquisas 'safe' (controle: partido grande '41 per cent' e pequeno '10 per cent'; e, provavelmente, competition para apoiadores de partido pequeno); a composicao exata da dicotomia nao e declarada: inferida de n_close = 135 (10 votantes estrategicos = 7,4%), acima dos 50% de probabilidade da close/failure"
+    }
+   ],
+   "trecho": "with 23.7 and 24.6 per cent in each case.",
+   "pagina": 25,
+   "justificativa": "Todos os bracos viram uma pesquisa manipulada; o grupo de comparacao viu outro resultado ('41/10 per cent' ou '7 per cent'), logo outro_resultado (trecho da randomizacao na folha 12: 'Next, participants were randomly assigned to one of three poll conditions that suggested election outcomes of varying closeness. First, in the control condition, the preferred major party (‘41 per cent’)'). p0 = 24,6% de voto insincero nas condicoes safe, mesmo desfecho e mesmo contraste (impresso). Composicao da dicotomia: com 10 votantes estrategicos todos na 'close' e 7,4%, n_close = 135 (10/135 = 7,41%; 32/135 = 23,7% e 16/65 = 24,6% de voto insincero, total 48, batem exatamente), 67,5% da amostra contra 50% de probabilidade da close/failure; o valor bate com close/failure + competition dos apoiadores de partido grande (50% + 30% x ~metade), coerente com 'This scenario provided an incentive for strategic voting for major party supporters' (folha 13). A descricao original (comparacao = controle + competition inteira) afirma o que o texto nao declara; o `modelo` passa a dizer isso com a ressalva. Conferencia humana recomendada."
+  },
+  {
+   "id_efeito": "Meffert2011-E01",
+   "divergencia": "modelo principal: a cega lista as duas colunas da Tabela 4 e aponta que 'With perceptions' ajusta pelo mediador (distancia percebida da clausula), sendo efeito direto; a original escolheu 'With perceptions'",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "In order to make the effects of objective and perceived indicators more transparent, the model is reported with and without the perceptions.",
+   "pagina": 25,
+   "justificativa": "Nao ha modelo declarado principal nem numero repetido no resumo ou na conclusao; a regra do protocolo (codebook b2_modelo_principal, passo 3: mais controles no corpo do artigo) leva a 'With perceptions', e a lista de varias especificacoes vale para amostras ou rodadas, nao para colunas do mesmo modelo. Ressalva para o revisor: e efeito direto ajustado pelo mediador (ajuste_mediador = Sim, protocolo secao 6), que nao se agrega com efeito total; hoje a linha ja esta no FORA de montar_entradas_swim.py e so entra na narrativa, entao a escolha nao muda a contagem."
+  },
+  {
+   "id_efeito": "Meffert2011-E02",
+   "divergencia": "comparador_tipo outro x outro_resultado; estimando 'outro' na original (a cega da ATE; o script nao compara estimando nesta linha); p0 ausente; descricao do grupo de comparacao no `modelo`",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "ATE"
+    },
+    {
+     "campo": "p0",
+     "de": "",
+     "para": "0.246"
+    },
+    {
+     "campo": "modelo",
+     "de": "Tabela 4, coluna 'Without perceptions', logit, coeficiente de 'Close poll (manipulation)'; controles: 'Party no chance', sinal de coalizao, ideologia, PID, preferencia, voto habitual, conhecimento, pequeno partido, sexo; tratamento = condicao close/failure (pequeno partido preferido na pesquisa manipulada a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno); comparacao = condicoes seguras agrupadas: controle (partido grande '41 per cent' e pequeno '10 per cent') e competition (tres pequenos a cerca de '7 per cent')",
+     "para": "Tabela 4, coluna 'Without perceptions', logit, coeficiente de 'Close poll (manipulation)'; controles: 'Party no chance', sinal de coalizao, ideologia, PID, preferencia, voto habitual, conhecimento, pequeno partido, sexo; tratamento = pesquisas agrupadas pelos autores como 'close' (inclui a condicao close/failure: pequeno partido preferido a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno; provavelmente inclui tambem a condicao competition, tres pequenos a cerca de '7 per cent', para apoiadores de partido grande, que segundo os autores cria incentivo estrategico para eles); comparacao = pesquisas 'safe' (controle: partido grande '41 per cent' e pequeno '10 per cent'; e, provavelmente, competition para apoiadores de partido pequeno); a composicao exata da dicotomia nao e declarada: inferida de n_close = 135 (10 votantes estrategicos = 7,4%), acima dos 50% de probabilidade da close/failure"
+    }
+   ],
+   "trecho": "Next, participants were randomly assigned to one of three poll conditions that suggested election outcomes of varying closeness. First, in the control condition, the preferred major party (‘41 per cent’)",
+   "pagina": 12,
+   "justificativa": "Coeficiente de 'Close poll (manipulation)', contraste entre bracos sorteados sem instrumento, sem discussao de adesao ('All participants encountered and read this page', folha 13) e sem DiD: pela regra b2_estimando e ATE (a mesma correcao ja feita em E01 no complemento). Comparador e p0 como em E01. Composicao da dicotomia: com 10 votantes estrategicos todos na 'close' e 7,4%, n_close = 135 (10/135 = 7,41%; 32/135 = 23,7% e 16/65 = 24,6% de voto insincero, total 48, batem exatamente), 67,5% da amostra contra 50% de probabilidade da close/failure; o valor bate com close/failure + competition dos apoiadores de partido grande (50% + 30% x ~metade), coerente com 'This scenario provided an incentive for strategic voting for major party supporters' (folha 13). A descricao original (comparacao = controle + competition inteira) afirma o que o texto nao declara; o `modelo` passa a dizer isso com a ressalva. Conferencia humana recomendada."
+  },
+  {
+   "id_efeito": "Meffert2011-E03",
+   "divergencia": "comparador_tipo outro x outro_resultado; n1, n2 e efeito_pp ausentes na original (cega: 135, 65, -0,9); descricao do grupo de comparacao no `modelo`",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "135"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "65"
+    },
+    {
+     "campo": "efeito_pp",
+     "de": "",
+     "para": "-0.9"
+    },
+    {
+     "campo": "modelo",
+     "de": "Comparacao descritiva de proporcoes no texto (sem modelo): tratamento = condicao close/failure (pequeno partido preferido na pesquisa manipulada a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno); comparacao = condicoes seguras agrupadas: controle (partido grande '41 per cent' e pequeno '10 per cent') e competition (tres pequenos a cerca de '7 per cent')",
+     "para": "Comparacao descritiva de proporcoes no texto (sem modelo): tratamento = pesquisas agrupadas pelos autores como 'close' (inclui a condicao close/failure: pequeno partido preferido a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno; provavelmente inclui tambem a condicao competition, tres pequenos a cerca de '7 per cent', para apoiadores de partido grande, que segundo os autores cria incentivo estrategico para eles); comparacao = pesquisas 'safe' (controle: partido grande '41 per cent' e pequeno '10 per cent'; e, provavelmente, competition para apoiadores de partido pequeno); a composicao exata da dicotomia nao e declarada: inferida de n_close = 135 (10 votantes estrategicos = 7,4%), acima dos 50% de probabilidade da close/failure"
+    }
+   ],
+   "trecho": "Explicit strategic voters, on the other hand, voted this way only when the polls suggested a close election (7.4 per cent).",
+   "pagina": 25,
+   "justificativa": "n1 e n2 derivados por aritmetica de numeros impressos ('10 (5 per cent) strategic voters', todos na close, = 7,4% -> n1 = 135; n2 = 200 - 135 = 65), conferidos pelas proporcoes de voto insincero (32/135 = 23,7%, 16/65 = 24,6%, total 48 impresso); efeito_pp = 23,7 - 24,6. Sem n1 e n2 a rota dif_prop nao converte. Comparador como em E01. Composicao da dicotomia: com 10 votantes estrategicos todos na 'close' e 7,4%, n_close = 135 (10/135 = 7,41%; 32/135 = 23,7% e 16/65 = 24,6% de voto insincero, total 48, batem exatamente), 67,5% da amostra contra 50% de probabilidade da close/failure; o valor bate com close/failure + competition dos apoiadores de partido grande (50% + 30% x ~metade), coerente com 'This scenario provided an incentive for strategic voting for major party supporters' (folha 13). A descricao original (comparacao = controle + competition inteira) afirma o que o texto nao declara; o `modelo` passa a dizer isso com a ressalva. Conferencia humana recomendada."
+  },
+  {
+   "id_efeito": "Meffert2011-E04",
+   "divergencia": "comparador_tipo outro x outro_resultado; n1, n2 e efeito_pp ausentes; p0 vazio na original e 0,0 na cega; descricao do grupo de comparacao no `modelo`",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "135"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "65"
+    },
+    {
+     "campo": "efeito_pp",
+     "de": "",
+     "para": "7.4"
+    },
+    {
+     "campo": "modelo",
+     "de": "Comparacao descritiva de proporcoes no texto (sem modelo): tratamento = condicao close/failure (pequeno partido preferido na pesquisa manipulada a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno); comparacao = condicoes seguras agrupadas: controle (partido grande '41 per cent' e pequeno '10 per cent') e competition (tres pequenos a cerca de '7 per cent') [coordenador: p0 impresso = 0 (nenhum voto estratégico sem eleição apertada); p0=0 impede a conversão, por isso ficou vazio]",
+     "para": "Comparacao descritiva de proporcoes no texto (sem modelo): tratamento = pesquisas agrupadas pelos autores como 'close' (inclui a condicao close/failure: pequeno partido preferido a '5 per cent' para apoiadores de partido grande ou '4 per cent' para apoiadores de partido pequeno; provavelmente inclui tambem a condicao competition, tres pequenos a cerca de '7 per cent', para apoiadores de partido grande, que segundo os autores cria incentivo estrategico para eles); comparacao = pesquisas 'safe' (controle: partido grande '41 per cent' e pequeno '10 per cent'; e, provavelmente, competition para apoiadores de partido pequeno); a composicao exata da dicotomia nao e declarada: inferida de n_close = 135 (10 votantes estrategicos = 7,4%), acima dos 50% de probabilidade da close/failure [coordenador: p0 impresso = 0 (nenhum voto estratégico sem eleição apertada); p0=0 impede a conversão, por isso ficou vazio]"
+    }
+   ],
+   "trecho": "Without the incentive of a close election, and consistent with our expectation, not a single strategic voter was found.",
+   "pagina": 25,
+   "justificativa": "n1, n2 derivados como em E03; efeito_pp = 7,4 - 0. p0 fica vazio, como o coordenador decidiu (p0 = 0 impede a conversao; a nota no `modelo` e preservada). Comparador como em E01. Composicao da dicotomia: com 10 votantes estrategicos todos na 'close' e 7,4%, n_close = 135 (10/135 = 7,41%; 32/135 = 23,7% e 16/65 = 24,6% de voto insincero, total 48, batem exatamente), 67,5% da amostra contra 50% de probabilidade da close/failure; o valor bate com close/failure + competition dos apoiadores de partido grande (50% + 30% x ~metade), coerente com 'This scenario provided an incentive for strategic voting for major party supporters' (folha 13). A descricao original (comparacao = controle + competition inteira) afirma o que o texto nao declara; o `modelo` passa a dizer isso com a ressalva. Conferencia humana recomendada."
+  }
+ ],
+ "linhas_novas": []
+}

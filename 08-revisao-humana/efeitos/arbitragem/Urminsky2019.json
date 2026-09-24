@@ -1,0 +1,82 @@
+{
+ "chave": "Urminsky2019",
+ "resumo": "A única divergência numérica (sinal do t no E01) é legítima: o t é impresso sem sinal e o d impresso é negativo, e a original reproduz esse d. Comparador `outro` (formato chance × margem da mesma previsão) e estimando ATE ficam nas quatro linhas; o modelo principal continua só o Estudo 1, que já está em FORA. Corrige-se apenas o texto de `desenho` em E01 e E04 para registrar que a atribuição aleatória não é declarada nesses dois estudos.",
+ "decisoes": [
+  {
+   "id_efeito": "Urminsky2019-E01",
+   "divergencia": "Sinal de t: original t = -1.47, cega t = 1.47 (comparacao_cega: sinal_diferente).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Mchance-forecast-displayed = 4.20 vs. Mmargin-forecast-displayed = 4.46, t(223) = 1.47, d = - 0.20, p = .143)",
+   "pagina": 49,
+   "justificativa": "O t é impresso sem sinal, mas o d impresso é negativo (-0,20; Tabela A1, folha 57: -.196) e M1 (chance) < M2 (margem). Com tipo_estatistica = t o efeitos.R tira o sinal do t; -1,47 reproduz d ≈ -0,196, e +1,47 inverteria o d impresso."
+  },
+  {
+   "id_efeito": "Urminsky2019-E01",
+   "divergencia": "Revisão obrigatória de comparador_tipo (outro) e estimando (ATE); não divergem da cega.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Since the forecasts were presumably statistically equivalent, the diverging attitudes were attributable to the difference in forecast format.",
+   "pagina": 10,
+   "justificativa": "Os dois braços veem a mesma previsão do fivethirtyeight.com em formatos diferentes (chance × margem): não é outra pesquisa nem outro resultado, nem ausência de pesquisa, logo `outro`. ATE segue a classificação de desenho (ver decisão de desenho); o efeito já está em FORA e não entra na contagem principal."
+  },
+  {
+   "id_efeito": "Urminsky2019-E01",
+   "divergencia": "Desenho: a original afirma 'RCT'; a cega registra que a aleatorização não é declarada no Estudo 1.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "desenho",
+     "de": "RCT (survey experiment, atribuição individual)",
+     "para": "RCT presumido (survey experiment entre sujeitos, atribuição individual; atribuição aleatória não declarada no texto do Estudo 1; RoB 2 D1 = algumas preocupações)"
+    }
+   ],
+   "trecho": "saw an election forecast that displayed either the chance of Clinton winning (i.e., the chance-forecast-displayed condition) or Clinton’s predicted margin of victory (i.e., the margin-",
+   "pagina": 9,
+   "justificativa": "O método do Estudo 1 não diz 'randomly assigned' (o Estudo 2 diz, folha 12). A classe continua randomizada, coerente com a avaliação por RoB 2, que já pontua a falta de informação em D1; o texto novo só deixa a lacuna visível para a conferência humana, que pode reclassificar."
+  },
+  {
+   "id_efeito": "Urminsky2019-E02",
+   "divergencia": "Sem divergência numérica. A cega marca o Estudo 2d como modelo principal (usado_na_interpretacao); a original, nao. Revisão de comparador_tipo (outro) e estimando (ATE).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Participants in each wave were randomly assigned to one of two conditions.",
+   "pagina": 12,
+   "justificativa": "Braços sorteados, logo ATE; contraste de formato (chance × margem), logo `outro`. Pela Emenda 2, só o número do Estudo 1 é repetido na General Discussion (folha 49); as ondas 2d e 2e aparecem só na Tabela A1 do apêndice, e marcá-las como principais as poria na contagem principal sem estarem em FORA."
+  },
+  {
+   "id_efeito": "Urminsky2019-E03",
+   "divergencia": "Sem divergência numérica. A cega marca o Estudo 2e como modelo principal; a original, nao. Revisão de comparador_tipo (outro) e estimando (ATE).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Participants in each wave were randomly assigned to one of two conditions.",
+   "pagina": 12,
+   "justificativa": "Mesmo raciocínio do E02: braços sorteados (ATE), contraste de formato (`outro`), número não repetido na interpretação dos autores, que citam só o Estudo 1 e a meta interna."
+  },
+  {
+   "id_efeito": "Urminsky2019-E04",
+   "divergencia": "Desenho: a original afirma 'RCT'; a cega registra que a aleatorização não é declarada no Estudo A1.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "desenho",
+     "de": "RCT (survey experiment, atribuição individual)",
+     "para": "RCT presumido (survey experiment entre sujeitos, atribuição individual; atribuição aleatória não declarada no texto do Estudo A1)"
+    }
+   ],
+   "trecho": "AMT participants read about changes over the last 10 days in the election forecast, framed as either a shift in the chance (e.g., from an 85% chance to a 69% chance",
+   "pagina": 56,
+   "justificativa": "O apêndice descreve as duas condições sem declarar sorteio. Mantida a classe randomizada por analogia ao Estudo 1 (mesmo procedimento no AMT); a lacuna fica registrada para a conferência humana."
+  },
+  {
+   "id_efeito": "Urminsky2019-E04",
+   "divergencia": "Números impressos incoerentes (t = 0,70 com d = 0,044, N = 198 e p = .758); a cega aponta. Cega marca como principal. Revisão de comparador_tipo (outro) e estimando (ATE).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "did not yield a significant difference in self-reported likelihood of voting (Mchance-forecast-displayed = 4.44 vs. Mmargin-forecast-displayed = 4.39, t(196) = 0.70, d = 0.044, p = .758)",
+   "pagina": 56,
+   "justificativa": "A original já usa tipo_estatistica = d com beta = 0,044, que bate com a Tabela A1 (folha 57) e com p = .758; o t = 0,70 fica como impresso, sem uso na conversão. Contraste de formato (`outro`); não é principal pela mesma razão do E02."
+  }
+ ],
+ "linhas_novas": []
+}

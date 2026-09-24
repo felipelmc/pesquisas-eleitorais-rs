@@ -1,0 +1,119 @@
+{
+ "chave": "Westwood2020a",
+ "resumo": "A original está certa nos números e no modelo principal (E01: inclinação da probabilidade de vitória do estudo 2, −3,4 p.p. para +20 pontos sobre 50:50, IC impresso). As correções são de rótulo: comparador_tipo passa de `outro` a `outro_resultado` nas 5 linhas (todos viram uma projeção; o contraste é o valor exibido sorteado) e estimando passa a ATE nas duas linhas da réplica MTurk, sem discussão de adesão. Mantidos: ITT nas linhas do estudo 2 (checagem de recordação com falha relatada), n_total = 5845 rodadas e E03 (fatia de votos) como não principal.",
+ "decisoes": [
+  {
+   "id_efeito": "Westwood2020a-E01",
+   "divergencia": "comparador_tipo: original `outro`; cega `outro_resultado`",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Participants were then shown the results ostensibly calculated from this poll, which included the two-team electoral vote share, randomly assigned to 40–60, and the probability that each team would win",
+   "pagina": 10,
+   "justificativa": "Todos os participantes viram uma projeção (fatia de votos e probabilidade de vitória); o contraste é entre valores exibidos sorteados (distância de 50:50), isto é, o grupo de comparação viu outro resultado. `outro` não se aplica."
+  },
+  {
+   "id_efeito": "Westwood2020a-E01",
+   "divergencia": "estimando: original ITT; cega ATE",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Of those respondents who gave a valid response, 161 respondents reported incorrect probabilities only once, while 36 made the mistake more than once.",
+   "pagina": 11,
+   "justificativa": "Regra 2 de b2_estimando: o texto relata explicitamente uma checagem de recordação do tratamento com falha (participantes que não registraram a probabilidade exibida) e analisa todos, com remoção só como robustez (tabela A15). Isso é exposição imperfeita declarada, logo ITT, não ATE."
+  },
+  {
+   "id_efeito": "Westwood2020a-E01",
+   "divergencia": "n_total (original 5845 rodadas; cega 1171 participantes), tipo_estatistica (dif_prop × beta), beta vazio na original, p0 (0,748 lido de figura × vazio na cega)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Our data come from 1,171 respondents (5,845 trials) drawn from a national online nonprobability survey panel recruited by Qualtrics Panels.",
+   "pagina": 10,
+   "justificativa": "b2_n_total é o N analisado no modelo; o modelo multinível é por rodada (gl residual ~5552, nota 16), e 5845 rodadas com cluster = 5 rodadas por participante é coerente com a Emenda 4c; como a linha traz IC impresso, o efeitos.R não aplica o efeito de desenho. A rota dif_prop com efeito_pp −3,4 (IC −5,1; −1,8) usa números impressos e é equivalente a 0,2 × b = −0,17; p0 = 0,748 veio da fig. 8A e está declarado em complementos_efeitos/Westwood2020a.json (a cega lê ~0,75 da mesma figura)."
+  },
+  {
+   "id_efeito": "Westwood2020a-E02",
+   "divergencia": "comparador_tipo `outro` (revisão obrigatória de todas as linhas); sem divergência numérica",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Participants were then shown the results ostensibly calculated from this poll, which included the two-team electoral vote share, randomly assigned to 40–60, and the probability that each team would win",
+   "pagina": 10,
+   "justificativa": "Todos os participantes viram uma projeção (fatia de votos e probabilidade de vitória); o contraste é entre valores exibidos sorteados (distância de 50:50), isto é, o grupo de comparação viu outro resultado. `outro` não se aplica. Estimando ITT mantido pela mesma checagem de recordação da E01."
+  },
+  {
+   "id_efeito": "Westwood2020a-E03",
+   "divergencia": "comparador_tipo `outro` (revisão obrigatória de todas as linhas)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Participants were then shown the results ostensibly calculated from this poll, which included the two-team electoral vote share, randomly assigned to 40–60, and the probability that each team would win",
+   "pagina": 10,
+   "justificativa": "Todos os participantes viram uma projeção (fatia de votos e probabilidade de vitória); o contraste é entre valores exibidos sorteados (distância de 50:50), isto é, o grupo de comparação viu outro resultado. `outro` não se aplica. Estimando ITT mantido pela mesma checagem de recordação da E01."
+  },
+  {
+   "id_efeito": "Westwood2020a-E03",
+   "divergencia": "modelo_principal: a cega trata o coeficiente da fatia de votos (b = −0,13, T = −0,7) como segundo efeito principal; a original deixa `nao`",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "an increase of 20% over even odds in this study lowered voting by 3.4% (95% CI: 1.8%, 5.1%) and an advantage of 40% lowered the voting by 6.9%",
+   "pagina": 11,
+   "justificativa": "A cega não escolhe outro modelo: E01 e E03 são coeficientes do mesmo modelo multinível do estudo 2. O número que os autores usam na interpretação é o da probabilidade (E01); a regra de listar vários principais vale para amostras ou rodadas igualmente centrais, não para dois coeficientes do mesmo modelo. E03 fica como não principal (narrativa: nulo da fatia de votos)."
+  },
+  {
+   "id_efeito": "Westwood2020a-E04",
+   "divergencia": "linha não principal (efeito principal da probabilidade (b = −0,34), réplica MTurk da nota 17): comparador_tipo `outro` e estimando ITT sem discussão de adesão nessa amostra",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ITT",
+     "para": "ATE"
+    }
+   ],
+   "trecho": "we replicate this robustness test on Amazon Mechanical Turk with 662 participants using groups ranging in size between 4 and 21 and report the results in table A22.",
+   "pagina": 13,
+   "justificativa": "Mesmo paradigma de valores exibidos sorteados, logo outro_resultado. A nota 17 só descreve a réplica e seus coeficientes; não relata checagem de recordação nem adesão imperfeita nessa amostra, e o codebook proíbe inferir ITT sem discussão explícita: ATE."
+  },
+  {
+   "id_efeito": "Westwood2020a-E05",
+   "divergencia": "linha não principal (efeito da fatia de votos (b = 0,37), réplica MTurk da nota 17): comparador_tipo `outro` e estimando ITT sem discussão de adesão nessa amostra",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ITT",
+     "para": "ATE"
+    }
+   ],
+   "trecho": "we replicate this robustness test on Amazon Mechanical Turk with 662 participants using groups ranging in size between 4 and 21 and report the results in table A22.",
+   "pagina": 13,
+   "justificativa": "Mesmo paradigma de valores exibidos sorteados, logo outro_resultado. A nota 17 só descreve a réplica e seus coeficientes; não relata checagem de recordação nem adesão imperfeita nessa amostra, e o codebook proíbe inferir ITT sem discussão explícita: ATE."
+  }
+ ],
+ "linhas_novas": []
+}

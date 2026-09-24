@@ -1,0 +1,314 @@
+[
+ {
+  "id_item": "C107",
+  "sugestao": "original",
+  "valor_sugerido": "Polônia (Estudo 1) ; Estados Unidos (Estudo 2a) ; União Europeia ou Reino Unido (Estudo 2b)",
+  "trecho": "Participants in Study 2a were 202 American Amazon Mechanical Turk users",
+  "pagina": 9,
+  "justificativa": "O artigo tem três estudos e o codebook pede os países dos participantes; a revalidação lista só a Polônia do Estudo 1 e omite os EUA (2a) e a UE/Reino Unido (2b)."
+ },
+ {
+  "id_item": "C108",
+  "sugestao": "original",
+  "valor_sugerido": "Identificar quais fatores psicológicos (interpessoais, estratégicos, morais e epistêmicos) produzem as mudanças de intenção de voto em direção ao partido que lidera as pesquisas (efeito bandwagon) ou ao que está atrás (efeito underdog)",
+  "trecho": "we aim to take an individual perspective and tests how interpersonal differences in psychological motives predict individual shifts in voting intentions toward trailing parties (underdog effect) or toward leading parties (bandwagon effect)",
+  "pagina": 3,
+  "justificativa": "O objetivo declarado vale para os três estudos; a revalidação o restringe às eleições polonesas de 2019, que são só o contexto do Estudo 1."
+ },
+ {
+  "id_item": "C109",
+  "sugestao": "original",
+  "valor_sugerido": "Estudo 1: eleitores adultos poloneses recrutados por agência externa antes das eleições parlamentares de 2019; Estudo 2a: usuários adultos do Amazon Mechanical Turk nos Estados Unidos; Estudo 2b: usuários do Prolific Academic da União Europeia ou do Reino Unido",
+  "trecho": "Participants in Study 2b were 200 Prolific Academic users from the EU or UK",
+  "pagina": 9,
+  "justificativa": "A população inclui as amostras dos Estudos 2a e 2b, que são as do desenho experimental; a revalidação descreve só o painel polonês do Estudo 1."
+ },
+ {
+  "id_item": "C110",
+  "sugestao": "original",
+  "valor_sugerido": "Estudo 1: um mês antes das eleições parlamentares polonesas de 2019 e um ou dois dias depois delas; Estudos 2a e 2b: 999 (data de coleta não informada)",
+  "trecho": "Participants indicated their initial voting prefer­ ence (and completed additional measures) one month before the 2019 Polish parliamentary elections. After the elections, they disclosed their actual voting decision.",
+  "pagina": 5,
+  "justificativa": "O período do Estudo 1 está correto nas duas; o original acrescenta corretamente que o texto não informa quando os Estudos 2a e 2b foram coletados (as datas das citações dos pré-registros não são datas de coleta)."
+ },
+ {
+  "id_item": "C111",
+  "sugestao": "original",
+  "valor_sugerido": "Nos Estudos 2a e 2b (desenho que identifica o efeito), participantes de uma eleição simulada para um novo membro do conselho de uma organização escolhem entre dois candidatos (A e B) e, em seguida, recebem em texto (vinheta) a informação sobre a posição do candidato que escolheram: na condição líder, que 90% dos demais eleitores também pretendem apoiá-lo; na condição atrás, que apenas 10% pretendem. A informação é apresentada como intenção declarada dos demais eleitores, antes de uma votação que ocorreria imediatamente depois (\"o tempo passou e a eleição vai acontecer agora\"). No Estudo 1, não há exposição manipulada: o contexto é o das pesquisas públicas das eleições parlamentares polonesas de 2019, em que dois partidos lideravam consistentemente com 40% e 25% e três partidos ficavam atrás, e os participantes declaram a intenção um mês antes e o voto efetivo depois",
+  "trecho": "participants assigned to the leading position condition were told that 90% of the other voters were also planning to support the candidate favored by the participant, while in the trailing position condition they read that only 10%",
+  "pagina": 9,
+  "justificativa": "A exposição a resultado de pesquisa efetivamente manipulada está nos Estudos 2a e 2b (90% vs. 10%); a revalidação diz que não há manipulação, o que só vale para o Estudo 1."
+ },
+ {
+  "id_item": "C112",
+  "sugestao": "original",
+  "valor_sugerido": "O mesmo candidato preferido pelo participante mostrado atrás (apoio de apenas 10% dos demais eleitores) em vez de à frente (90%), por atribuição aleatória; no Estudo 1, a comparação é entre participantes cuja preferência inicial era por um partido líder e participantes cuja preferência inicial era por um partido atrás nas pesquisas",
+  "trecho": "Participants were randomly assigned to one of four cells of a 2 (position of initial party: leading vs. trailing) × 2 (factor: heuristic vs. moral) between-participants design.",
+  "pagina": 9,
+  "justificativa": "O comparador do desenho aleatorizado é o mesmo candidato mostrado atrás em vez de à frente, categoria do codebook; a revalidação só descreve a comparação observacional do Estudo 1."
+ },
+ {
+  "id_item": "C113",
+  "sugestao": "original",
+  "valor_sugerido": "Probabilidade autodeclarada de troca de voto, medida em dois itens de 7 pontos (de 1 muito improvável a 7 muito provável) sobre manter o candidato escolhido ou migrar para o outro, recodificados e combinados em um índice único; medida individual. Na condição em que o candidato preferido aparece atrás, a troca é apoio ao líder mostrado (bandwagon); na condição em que aparece à frente, a troca é apoio ao candidato atrás (underdog). No Estudo 1, a medida é individual e comportamental declarada: partido escolhido entre os nove registrados um mês antes e partido efetivamente votado, informado um ou dois dias depois da eleição",
+  "trecho": "Participants then indicated on two items the likelihood (between 1 very unlikely and 7 very likely) that they would stick with their candidate or switch to the other candidate",
+  "pagina": 9,
+  "justificativa": "O original descreve as medidas dos três estudos, incluindo o índice de probabilidade de troca dos Estudos 2a e 2b; a revalidação cobre só a escolha declarada do Estudo 1."
+ },
+ {
+  "id_item": "C114",
+  "sugestao": "original",
+  "valor_sugerido": "teste_de_canal",
+  "trecho": "To provide experimental evidence, Studies 2a and 2b manipulate these two factors in a simulated election design.",
+  "pagina": 1,
+  "justificativa": "Os autores manipulam experimentalmente os canais propostos (processamento heurístico vs. preocupação com igualdade) e medem seu efeito sobre a troca; isso é teste de canal, não só hipótese dos autores."
+ },
+ {
+  "id_item": "C115",
+  "sugestao": "original",
+  "valor_sugerido": "Recurso: informação de pesquisa sobre a posição do candidato preferido (apoio de 90% ou de 10% dos demais eleitores) numa eleição simulada, combinada à indução, por vinheta, de processamento heurístico (imaginar que se esqueceu dos detalhes e não tem conhecimento para decidir de forma informada) ou de preocupação moral com igualdade distributiva (imaginar que é justo que os dois candidatos sejam incluídos em decisões importantes); no Estudo 1, os mesmos fatores são medidos como diferenças interpessoais, estratégicas, morais e epistêmicas. Raciocínio: quem processa a informação de forma superficial, por falta de expertise política, segue a heurística de que a maioria está certa e migra para o partido que lidera (bandwagon); quem tem preocupação moral com igualdade e sente pena do partido que deve perder migra para o partido que está atrás (underdog); os autores sustentam que os dois canais são assimétricos, isto é, o fator que aumenta um efeito não reduz o outro. Contexto: eleições parlamentares polonesas de 2019 (Estudo 1) e eleição simulada para um conselho de organização, com dois candidatos sem conteúdo político (Estudos 2a e 2b)",
+  "trecho": "Results suggest that the bandwagon effect reflects a lack of political expertise, whereas the underdog effect reflects fairness concerns.",
+  "pagina": 1,
+  "justificativa": "O mecanismo declarado tem dois canais (expertise/heurística para bandwagon, igualdade para underdog) testados nos três estudos; a revalidação omite o canal moral e os Estudos 2a e 2b."
+ },
+ {
+  "id_item": "C116",
+  "sugestao": "original",
+  "valor_sugerido": "Moderador manipulado nos Estudos 2a e 2b: o modo de decisão induzido (processamento heurístico vs. consideração moral de igualdade), cruzado com a posição inicial do candidato preferido (à frente vs. atrás). Entre quem apoiava inicialmente o candidato mostrado atrás, a probabilidade declarada de migrar para o líder é maior sob processamento heurístico do que sob consideração moral (nos dois estudos); entre quem apoiava o candidato mostrado à frente, a migração para o candidato atrás é maior sob consideração moral de igualdade (significativa no Estudo 2a e apenas marginal no Estudo 2b). Moderadores no Estudo 1: a amostra é dividida pela preferência inicial (partido líder vs. partido atrás) e a expertise política prevê a migração para o partido líder mas não a migração para o partido atrás, enquanto o motivo de igualdade prevê o inverso; notas de rodapé relatam interação significativa entre expertise política e preferência inicial e entre preocupação com igualdade e preferência inicial, além de a idade prever negativamente o efeito underdog. As estimativas por subgrupo vão para o CSV de efeitos",
+  "trecho": "were marginally more likely to switch to the trailing candidate (show an underdog effect) if they based their decision on moral considerations for equality (M = 2.83, SD = 1.21)",
+  "pagina": 10,
+  "justificativa": "O original descreve o moderador manipulado nos Estudos 2a e 2b e os do Estudo 1 (inclusive as interações das notas 3 e 4 e a idade); a revalidação cobre só as notas de rodapé."
+ },
+ {
+  "id_item": "C117",
+  "sugestao": "original",
+  "valor_sugerido": "sim",
+  "trecho": "A 2 (position of initial party: leading vs. trailing) × 2 (factor: heuristic vs. moral) ANOVA on the likelihood of switching voting intentions index, showed the predicted interaction-effect",
+  "pagina": 10,
+  "justificativa": "Os estudos são pré-registrados e a interação posição × fator é declarada como prevista, o que satisfaz a exigência de trecho com hipótese a priori; as análises de idade são extras, mas não mudam a classificação da heterogeneidade central."
+ },
+ {
+  "id_item": "C118",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "escolaridade: 999 ; posição socioeconômica ou classe social: 999 ; idade: o Estudo 1 relata que a idade prediz negativamente o efeito underdog (mais jovens migram mais para um partido atrás); sem análise por idade nos Estudos 2a e 2b",
+  "trecho": "Adding age to the main analyses, we also found that age negatively predicted the underdog effect",
+  "pagina": 6,
+  "justificativa": "As duas dizem o mesmo para os três fatores; o original só detalha que a análise de idade é do Estudo 1."
+ },
+ {
+  "id_item": "C119",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "999",
+  "trecho": "The research design of our studies only allowed testing the likelihood that voters switch their voting intention between a party that is leading and a party that is trailing in the polls",
+  "pagina": 11,
+  "justificativa": "Nenhum efeito não intencional do protocolo é relatado ou testado; o próprio original começa dizendo isso, e o resto é contexto (mobilização como agenda futura, sugestão sobre campanhas), então a divergência é de forma."
+ },
+ {
+  "id_item": "C120",
+  "sugestao": "original",
+  "valor_sugerido": "(1) o Estudo 1 é correlacional e não permite conclusão causal; (2) a operacionalização é frouxa, tratando como bandwagon ou underdog toda troca de partido, sem testar se a troca foi de fato motivada por consciência da informação das pesquisas, de modo que parte das trocas captadas pode não resultar de mudanças nas pesquisas; (3) as manipulações por vinheta têm baixa validade, pois instruem o participante a imaginar uma perspectiva em vez de induzi-la, e as eleições fictícias dos Estudos 2a e 2b são desprovidas do significado e da emoção de eleições reais; (4) os Estudos 2a e 2b usam amostras de conveniência pequenas e não representativas, com pouca validade externa; (5) o Estudo 1 observa uma única eleição parlamentar nacional na Polônia; (6) os desenhos só permitiram testar efeitos estáticos de pesquisa, não efeitos dinâmicos de mudanças de curto prazo nas pesquisas; (7) o desenho não permitiu estudar expectativas de coalizão, e nas eleições simuladas essa informação não foi fornecida; (8) a seleção de sete estilos de personalidade não é exaustiva",
+  "trecho": "A limitation to our Approach in Studies 2a/b is that we relied on relatively small convenience samples.",
+  "pagina": 13,
+  "justificativa": "O original lista as limitações que os autores declaram nas seções de pesquisa futura e de limitações, incluindo as dos Estudos 2a e 2b; a revalidação traz só duas delas."
+ },
+ {
+  "id_item": "C121",
+  "sugestao": "original",
+  "valor_sugerido": "experimento_aleatorizado_individual",
+  "trecho": "Participants were randomly assigned to one of four cells of a 2 (position of initial party: leading vs. trailing) × 2 (factor: heuristic vs. moral) between-participants design.",
+  "pagina": 9,
+  "justificativa": "Só nos Estudos 2a e 2b a posição do candidato na pesquisa é atribuída ao acaso, e é esse o desenho que estima o contraste da exposição; o Estudo 1 é declaradamente correlacional e não compara expostos com não expostos."
+ },
+ {
+  "id_item": "C122",
+  "sugestao": "original",
+  "valor_sugerido": "A hipótese de identificação declarada é a atribuição aleatória individual às quatro células do desenho fatorial entre participantes, com os dois estudos pré-registrados e cálculo de poder a priori (N fixado em 200 para mais de 90% de poder de detectar uma interação de tamanho médio, com G*Power). O Estudo 2b é descrito como replicação pré-registrada do Estudo 2a na União Europeia. Não há teste de balanceamento das covariáveis entre braços, checagem de manipulação, teste de placebo nem análise de tendências prévias reportados",
+  "trecho": "The sample size was set to N = 200, to provide more than 90% power to detect a medium-sized interaction (using G*Power; Faul et al., 2007).",
+  "pagina": 9,
+  "justificativa": "O texto declara atribuição aleatória, pré-registro e cálculo de poder, e não relata balanceamento nem placebo; há informação, então 999 está errado."
+ },
+ {
+  "id_item": "C123",
+  "sugestao": "original",
+  "valor_sugerido": "outro — ANOVA fatorial 2 x 2 entre participantes sobre o índice contínuo de probabilidade de troca, com testes t de efeitos simples dentro de cada posição inicial (equivalente a mínimos quadrados sobre dummies, mas o texto nomeia ANOVA)",
+  "trecho": "A 2 (position of initial party: leading vs. trailing) × 2 (factor: heuristic vs. moral) ANOVA on the likelihood of switching voting intentions index",
+  "pagina": 10,
+  "justificativa": "O modelo dos Estudos 2a e 2b é uma ANOVA fatorial com testes t; logit é o estimador do Estudo 1, que não estima o contraste da exposição."
+ },
+ {
+  "id_item": "C124",
+  "sugestao": "original",
+  "valor_sugerido": "ATE",
+  "trecho": "Participants were randomly assigned to one of four cells of a 2 (position of initial party: leading vs. trailing) × 2 (factor: heuristic vs. moral) between-participants design.",
+  "pagina": 9,
+  "justificativa": "Há atribuição aleatória e o texto não discute adesão imperfeita, então a regra do codebook dá ATE; associacao só se aplicaria ao Estudo 1."
+ },
+ {
+  "id_item": "C125",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Indivíduo; sem agrupamento de erros-padrão; tamanho médio de cluster e ICC: 999",
+  "trecho": "Participants were randomly assigned to one of four cells",
+  "pagina": 9,
+  "justificativa": "As duas dizem atribuição individual sem erros-padrão agrupados."
+ },
+ {
+  "id_item": "C126",
+  "sugestao": "original",
+  "valor_sugerido": "202 ; 200",
+  "trecho": "Participants in Study 2a were 202 American Amazon Mechanical Turk users",
+  "pagina": 9,
+  "justificativa": "Com os modelos principais nas Tabelas 3 e 4, os N são 202 e 200 (gl de F(1, 198) e F(1, 196)); 1007 é o N do Estudo 1."
+ },
+ {
+  "id_item": "C127",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "nenhum",
+  "trecho": "",
+  "pagina": 0,
+  "justificativa": "As duas dizem nenhum; a revalidação só acrescenta comentário sobre o Estudo 1."
+ },
+ {
+  "id_item": "C128",
+  "sugestao": "original",
+  "valor_sugerido": "controle",
+  "trecho": "Data show cell means (SDs) and the difference between participants who rely on heuristics and who follow moral motives for equality.",
+  "pagina": 10,
+  "justificativa": "As Tabelas 3 e 4 trazem o DP de cada célula, inclusive a do braço de comparação, então há DP do grupo controle; nao_reportado só valeria para o Estudo 1."
+ },
+ {
+  "id_item": "C129",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider: Estudo 2a, Tabela 3 (ANOVA 2 x 2 sobre o índice de probabilidade de troca; colunas Heuristic e Moral: Equality, nas linhas Trailing e Leading) ; apoio_ao_lider: Estudo 2b, Tabela 4 (mesma especificação na amostra de replicação da União Europeia)",
+  "trecho": "showed the predicted interaction-effect, F(1, 198) = 29.71, p < .0001, ηp 2 = .130. See Table 3.",
+  "pagina": 10,
+  "justificativa": "O contraste da exposição (mesmo candidato à frente vs. atrás) só existe nas Tabelas 3 e 4; a Tabela 2 estima preditores psicológicos no Estudo 1, não a exposição. As réplicas 2a e 2b são igualmente centrais e são listadas juntas, como pede o codebook."
+ },
+ {
+  "id_item": "C130",
+  "sugestao": "original",
+  "valor_sugerido": "regra_do_protocolo ; regra_do_protocolo",
+  "trecho": "",
+  "pagina": 0,
+  "justificativa": "Para as Tabelas 3 e 4 não há frase de especificação preferida nem número repetido no resumo ou conclusão, então vale o passo 3; o 'Main Analyses' citado pela revalidação se refere à Tabela 2 do Estudo 1."
+ },
+ {
+  "id_item": "C131",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider: benefica",
+  "trecho": "Trailing 4.02 (1.41) 2.92 (1.60) p < .001, d = .73 Leading 2.36 (1.23) 3.57 (1.74) p < .001, d = .80",
+  "pagina": 10,
+  "justificativa": "Pelas médias das células, a probabilidade de trocar é maior quando o candidato preferido aparece atrás (2a: 3,47 vs. 2,97; 2b: 3,33 vs. 2,62), ou seja, o candidato mostrado à frente retém mais apoio: estimativa na direção bandwagon. A direção é calculada das médias porque os autores não reportam o efeito principal da posição."
+ },
+ {
+  "id_item": "C132",
+  "sugestao": "nenhum",
+  "valor_sugerido": "apoio_ao_lider: nao_reportada",
+  "trecho": "showed the predicted interaction-effect, F(1, 198) = 29.71, p < .0001",
+  "pagina": 10,
+  "justificativa": "Os autores reportam só a significância da interação e dos efeitos simples do fator heurístico vs. moral, não a do contraste à frente vs. atrás; pela regra 'como reportado', a significância do efeito da exposição não foi reportada."
+ },
+ {
+  "id_item": "C133",
+  "sugestao": "original",
+  "valor_sugerido": "Os autores concluem que a informação sobre a posição nas pesquisas muda a intenção de voto nas duas direções, e que o efeito bandwagon reflete processamento heurístico superficial associado à falta de expertise política, enquanto o efeito underdog reflete preocupação moral com igualdade e justiça, sendo os dois efeitos assimétricos",
+  "trecho": "The results confirm that low expertise increases the bandwagon effect and that fairness concerns increase the underdog effect.",
+  "pagina": 1,
+  "justificativa": "A conclusão do artigo cobre os três estudos (bandwagon por processamento heurístico, underdog por preocupação com igualdade, efeitos assimétricos); a revalidação resume só a discussão do Estudo 1."
+ },
+ {
+  "id_item": "C134",
+  "sugestao": "original",
+  "valor_sugerido": "simulada_abstrata",
+  "trecho": "Participants took part in a simulated upcoming election for a new board member of an organization that they were a member of.",
+  "pagina": 9,
+  "justificativa": "No desenho que estima a exposição, a eleição é simulada, com candidatos A e B sem conteúdo político; candidato_partido só vale para o Estudo 1."
+ },
+ {
+  "id_item": "C135",
+  "sugestao": "original",
+  "valor_sugerido": "regra_do_experimento",
+  "trecho": "Participants were first shown the two candidates (A and B), well before the actual elections.",
+  "pagina": 9,
+  "justificativa": "A eleição dos Estudos 2a e 2b é definida pelo experimento (um cargo, dois candidatos); proporcional descreve a eleição polonesa do Estudo 1."
+ },
+ {
+  "id_item": "C136",
+  "sugestao": "original",
+  "valor_sugerido": "survey_experiment",
+  "trecho": "We use a vignette manipulation (Atzmüller & Steiner, 2010) to experimentally manipulate those factors that Study 1 identified to be most relevant.",
+  "pagina": 9,
+  "justificativa": "Os Estudos 2a e 2b são experimentos de vinheta em amostras online (MTurk e Prolific), isto é, survey_experiment; painel_individual descreve o Estudo 1."
+ },
+ {
+  "id_item": "C137",
+  "sugestao": "original",
+  "valor_sugerido": "hipotetico",
+  "trecho": "Participants resolved a hypothetical voting decision",
+  "pagina": 9,
+  "justificativa": "Os candidatos A e B são fictícios e não há pagamentos que induzam preferências; o mais próximo no codebook é hipotetico. Real só vale para o Estudo 1."
+ },
+ {
+  "id_item": "C138",
+  "sugestao": "original",
+  "valor_sugerido": "999",
+  "trecho": "",
+  "pagina": 0,
+  "justificativa": "Os Estudos 2a e 2b não têm eleição real e o texto não informa o ano de coleta (os anos das citações dos pré-registros não são datas de coleta), daí 999; 2019 é a eleição do Estudo 1, que não estima a exposição."
+ },
+ {
+  "id_item": "C139",
+  "sugestao": "original",
+  "valor_sugerido": "mesmo_candidato_atras",
+  "trecho": "Independent of their choice, participants assigned to the leading position condition were told that 90% of the other voters were also planning to support the candidate favored by the participant",
+  "pagina": 9,
+  "justificativa": "O mesmo candidato preferido aparece à frente ou atrás por atribuição aleatória, que é a categoria mesmo_candidato_atras."
+ },
+ {
+  "id_item": "C140",
+  "sugestao": "original",
+  "valor_sugerido": "intencao_declarada",
+  "trecho": "Participants then indicated on two items the likelihood (between 1 very unlikely and 7 very likely) that they would stick with their candidate or switch to the other candidate",
+  "pagina": 9,
+  "justificativa": "No desenho experimental, o desfecho é intenção declarada de manter ou trocar; escolha pós-eleição é só do Estudo 1."
+ },
+ {
+  "id_item": "C141",
+  "sugestao": "original",
+  "valor_sugerido": "Disputa de dois candidatos com 90% contra 10% das intenções dos demais eleitores; a mesma distribuição aparece nos dois braços, invertida conforme a posição do candidato preferido pelo participante (90% na condição líder, 10% na condição atrás). O texto não imprime a diferença em pontos percentuais",
+  "trecho": "participants assigned to the leading position condition were told that 90% of the other voters were also planning to support the candidate favored by the participant, while in the trailing position condition they read that only 10%",
+  "pagina": 9,
+  "justificativa": "A informação mostrada é 90% vs. 10% nos dois braços, com a posição invertida; 40% vs. 25% são as pesquisas reais do Estudo 1, que não são manipuladas."
+ },
+ {
+  "id_item": "C142",
+  "sugestao": "original",
+  "valor_sugerido": "idade + outro + preferencia_previa + sofisticacao_interesse",
+  "trecho": "a logistic regression testing the effect of political expertise, initial voting preference, and their interaction on final voting decision (using the combined sample) showed a significant interaction",
+  "pagina": 7,
+  "justificativa": "Há resultados relatados para idade, expertise política (sofisticacao_interesse), preferência inicial (interações nas notas 3 e 4 e no desenho 2 × 2) e motivo de igualdade (outro); a revalidação lista só idade."
+ },
+ {
+  "id_item": "C143",
+  "sugestao": "original",
+  "valor_sugerido": "2",
+  "trecho": "Participants were first shown the two candidates (A and B), well before the actual elections.",
+  "pagina": 9,
+  "justificativa": "A informação de pesquisa no desenho experimental envolve dois candidatos; 9 é o número de partidos registrados no Estudo 1."
+ },
+ {
+  "id_item": "C144",
+  "sugestao": "original",
+  "valor_sugerido": "999",
+  "trecho": "Then participants learned that time had passed and the actual elections would now take place.",
+  "pagina": 9,
+  "justificativa": "Pelo codebook, experimento sem eleição real recebe 999; os 30 dias são do Estudo 1."
+ },
+ {
+  "id_item": "C145",
+  "sugestao": "original",
+  "valor_sugerido": "Não",
+  "trecho": "",
+  "pagina": 0,
+  "justificativa": "O modelo principal (ANOVA 2 × 2) não controla expectativa de vitória nem viabilidade percebida, então a resposta é Não, e não 999."
+ }
+]

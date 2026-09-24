@@ -1,0 +1,49 @@
+# Pontos que os árbitros de IA levantaram e que pedem decisão humana
+
+Estes pontos **não** foram alterados pelo coordenador: mudar qualquer um deles seria uma decisão nova de síntese, tomada depois de ver os dados. As correções que foram aplicadas estão em `aplicacao_arbitragem.csv`.
+
+- **Gerber2020a-E12:** a estimativa é o efeito de 1 p.p. de **crença** sobre o comparecimento (IV), não o efeito da exposição, que move a crença em cerca de 2,42 p.p. Avalie se entra no dicionário `FORA` (`06-analise/montar_entradas_swim.py`), como Klor2017a-E01. A direção e o nulo por ±δ não mudam.
+- **Fichnova2015a:** 17 dos 37 respondentes eslovacos não aparecem nas tabelas. É perda de dados não relatada, e o RoB D3 do estudo está como baixo. Pode justificar rever o domínio (P033).
+- **Alabrese2024a:** o modelo principal de apoio passou de probabilidade de vitória (cols. 5 a 8) para participação nos votos (cols. 1 a 4 da Tabela A.7), pela definição de apoio da seção 2 do protocolo. Os autores preferem a probabilidade de vitória. É uma decisão de julgamento.
+- **Klor2017a:**
+  - Pelo protocolo §6, a análise das eleições para governador nos EUA (E04 e E05) seria um estudo à parte, e sem contraste de exposição.
+  - O motivo que o dicionário `FORA` dá para a E01 ("não é contraste de exposição") conflita com o comparador `mesmo_candidato_atras`, que o protocolo aceita. Revise se a E01 deve voltar à contagem.
+  - Os números das versões de 2006 e de 2014 do manuscrito coincidem.
+- **Kaplan2019a-E01:** o efeito passou de taxa de troca (sem direção) para mudança líquida da intenção de votar: −8,06 p.p., valor derivado. Nas contagens da folha 26 houve 21 trocas de "sim" para "não", e não as 27 impressas.
+- **Morton2015a:**
+  - Modelo principal de mobilização: a original (Tab. 5, col. 1; EP 2; N 1260) foi mantida. A leitura alternativa é a Tab. 3, col. 1 (EP 4; N 36). A frase "preferred specification, 12 p.p." só casa com uma robustez do apêndice. As duas leituras dão o mesmo sinal.
+  - O estimando das linhas de diferença-em-diferenças continua ATT, pela regra congelada do codebook. O prompt do árbitro dizia `associacao`; esse erro foi do coordenador e foi corrigido.
+  - Na E41, o EP agrupado tem só 5 clusters: dá significância a 10%, contra 1% com bootstrap.
+- **Feltovich2022:** a parcela do incumbente na prévia está confundida com o sinal de desempenho que todos recebem, a renda. Os autores tratam a prévia como mecanismo de identificação, não como exposição. Avalie se E01 e E02 entram no dicionário `FORA`.
+- **Witsman2016a:**
+  - Alvo da E01: o autor lê o contraste 45% × 5% como voto estratégico, de viabilidade. Se o alvo mudar, a E01 sai da célula principal.
+  - E02: a liderança a 35% está dentro do empate estatístico que o próprio autor aponta.
+  - Cenário 3: o texto não diz que as versões foram sorteadas.
+- **Geers2018:**
+  - O motivo da E01 no dicionário `FORA` ("β = −30,8 implausível") parte de uma leitura errada: o DP de 0,21 é o de *issue news*, não o de *poll news*. O coeficiente é plausível para um preditor de faixa estreita.
+  - A E02 (TV) passou a principal, porque escolher só o coeficiente de jornal seria escolher pela significância.
+  - Para manter o tratamento igual, a E02 entrou no `FORA` junto com a E01, com o motivo "conferência humana pendente". O árbitro sugere pôr as duas de volta na contagem, só pela direção: ambas são negativas, de desmobilização.
+- **Tyszler2015:**
+  - A E02 (u = 8) passou a principal, porque a conclusão trata as duas condições como igualmente centrais. Os valores foram conferidos pelas coordenadas vetoriais da Figura 4: são as barras "Majoritarian Set", 0,72 → 0,96.
+  - A atribuição aleatória dos eleitorados não é declarada no texto; a classe de desenho continua randomizada.
+- **Ano da eleição em experimentos de laboratório:** a codificação é inconsistente. Agranov2017a, Groer2010a, Tal2015a e Westwood2020a usam 999; Tyszler2015 e outros usam o ano da coleta, e isso marca `ano_eleicao_pre2010 = sim`. Isso afeta a sensibilidade `sem_pre2010`, e a regra precisa ser uniformizada.
+- **Schlegel2023:** o alvo passou de `lider` para `segundo_viavel`, e com isso o estudo sai da célula principal. O contraste principal mistura a precisão das pesquisas com a retirada da carga cognitiva. Avalie se entra no dicionário `FORA` ou se recebe só uma ressalva na narrativa. O contraste só de informação dá cerca de 5,2 p.p., com IC que cruza zero.
+- **Meer2015a:**
+  - A troca de n2 e p0 em E08 a E10 depende da leitura da Figura 1.
+  - O sinal da diferença de 0,1 p.p. da E07 não está impresso.
+  - O E01 foi para a célula de *momentum* (Emenda 4b).
+- **Grillo2024c:**
+  - O comparador passou a `outro_resultado`, porque o primeiro turno também teve boca de urna da mídia estrangeira, divulgada mais tarde. Os autores chamam o primeiro turno de "control group". Se o revisor preferir `unidades_nao_expostas`, o estudo muda de célula.
+  - O g da E02 trata 576 observações de departamento × turno × horário como dois grupos de pessoas. A variância não tem sentido, mas hoje a SWiM usa só o sinal.
+- **Brugarolas2021:** o árbitro sugeriu `sistema_eleitoral = proporcional` por conhecimento externo. A sugestão não foi aplicada, porque o codebook pede 999 quando o texto não informa.
+- **Stolwijk2016a:** nas linhas E02 a E04, as probabilidades preditas são tratadas como dois grupos. O g de 3,26 da E04 é artefato. São linhas não principais.
+- **Unkelbach2022a:**
+  - As seis colunas por partido passaram a principais (defasagem de 1 dia, declarada pelos autores).
+  - O alvo passou a `nao_se_aplica`: o CMVI não informa a posição do partido, e o efeito foi para a célula de *momentum*.
+  - O `or_` foi derivado como exp(β).
+  - Os EPs do CMVI na Tabela 2 são quase iguais aos EPs do intercepto da Tabela 1; pode haver erro de cópia no próprio artigo. Só o do SPD confere com o IC impresso.
+- **Lammers2022a:**
+  - Quatro linhas principais novas (E06 a E09) trazem o contraste da posição sorteada, 90% × 10%. As E01 e E03 antigas mediam o modo de raciocínio e deixaram de ser principais.
+  - O n por célula é aproximado: 50, derivado.
+  - Os sinais se opõem entre os níveis do fator: com o modo heurístico, *bandwagon*; com o modo moral, *underdog* ou nulo. As células são condicionais a uma vinheta sem condição neutra.
+- **Meffert2011:** o texto não diz como as condições foram divididas entre apertada e tranquila. O n1 de 135 e o n2 de 65 foram derivados.

@@ -1,0 +1,266 @@
+[
+ {
+  "id_item": "C027",
+  "sugestao": "original",
+  "valor_sugerido": "México — Michoacán e Nuevo León (experimento nas eleições estaduais de 2015); também dados nacionais da eleição presidencial mexicana de 2006",
+  "trecho": "This study focuses on the 2006 presidential election and the 2015 gubernatorial elections in Mexico",
+  "pagina": 6,
+  "justificativa": "O estudo usa dados nacionais de 2006 e um experimento subnacional em dois estados; o codebook manda acrescentar o estado depois de travessão quando subnacional, o que só a original faz."
+ },
+ {
+  "id_item": "C028",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Qual o efeito da informação de pesquisas eleitorais sobre o comportamento do eleitor e qual o papel do partidarismo em moderar a resposta a essa informação e os incentivos para votar estrategicamente",
+  "trecho": "this research focuses on electoral polls’ effects on voters’ behavior. Specifically, it studies the role that partisanship plays in moderating voters’ responsiveness to polling information",
+  "pagina": 2,
+  "justificativa": "As duas versões dizem o mesmo objetivo (efeito da informação de pesquisas no voto estratégico, moderado pelo partidarismo); a diferença é só de redação."
+ },
+ {
+  "id_item": "C029",
+  "sugestao": "original",
+  "valor_sugerido": "Dados observacionais: eleitores mexicanos maiores de 18 anos com credencial de eleitor, entrevistados face a face em três pesquisas nacionais antes da eleição presidencial de 2006. Experimento: cerca de 650 respondentes da segunda onda de um painel telefônico representativo no nível estadual em Michoacán e Nuevo León",
+  "trecho": "The sample of the survey experiment roughly consisted of 650 respondents, representative at the state level",
+  "pagina": 18,
+  "justificativa": "O estudo tem duas populações; a revalidação descreve só a amostra de 2006 e omite a do experimento de 2015, que a original descreve corretamente."
+ },
+ {
+  "id_item": "C030",
+  "sugestao": "original",
+  "valor_sugerido": "2006 (três pesquisas nacionais: 31 mai–3 jun, 16–19 jun e 24–26 jun; eleição em 2 jul) e 2015 (painel: 1ª onda 14–16 mar; 2ª onda 1–3 jun; eleição em 7 jun)",
+  "trecho": "First Wave: Mar, 14-16, 2015. Second Wave: June 1-3, 2015",
+  "pagina": 18,
+  "justificativa": "O período cobre os dois conjuntos de dados; a revalidação omite as ondas de 2015 do painel com o experimento."
+ },
+ {
+  "id_item": "C031",
+  "sugestao": "original",
+  "valor_sugerido": "ambos",
+  "trecho": "The survey experiment was embedded in the second-wave of an original gubernatorial panel survey conducted in two Mexican states",
+  "pagina": 18,
+  "justificativa": "Os dados de 2006 são pesquisas da BGC Beltrán y Asocs. (secundários) e o experimento vem de painel original do autor (primários), logo ambos."
+ },
+ {
+  "id_item": "C032",
+  "sugestao": "original",
+  "valor_sugerido": "Duas exposições. (i) Nos dados observacionais de 2006, estar informado sobre os resultados das pesquisas de intenção de voto divulgadas na campanha presidencial mexicana, medido por o respondente ter uma resposta definida sobre qual candidato lidera as pesquisas, um mês antes do dia da eleição. (ii) No experimento de survey de 2015, uma vinheta atribuída aleatoriamente dentro de um survey telefônico, informando o resultado de uma pesquisa recém-divulgada por um jornal nacional: em Michoacán, o candidato do PRI e o do PRD empatados com 36 % e o do PAN com 23 %; em Nuevo León, o candidato do PRI à frente com 38 %, o candidato independente em segundo com 32 % e o do PAN em terceiro com 20 %. O texto é lido ao respondente (sem gráfico e sem o nome do jornal ou do instituto), sem qualquer apelo à deserção, a poucos dias da votação de 7 de junho de 2015",
+  "trecho": "MICHOACÁN: Did you know that an electoral poll, recently released by a national newspaper, reports that the PRI candidate, Ascensión Orihuela, and the PRD candidate, Silvano Aureoles, are tied with the 36 percent of the vote",
+  "pagina": 19,
+  "justificativa": "A exposição analisada inclui a vinheta randomizada do experimento de 2015 (conteúdo, margens e momento), que a revalidação omite; a original descreve as duas exposições conforme o texto."
+ },
+ {
+  "id_item": "C033",
+  "sugestao": "original",
+  "valor_sugerido": "Sem pesquisa: no experimento, o grupo de controle não foi perguntado sobre os resultados da pesquisa e não recebeu a informação; nos dados observacionais, eleitores não informados sobre o que as pesquisas mostravam",
+  "trecho": "Respondents who were randomly assigned to the control group were not asked whether they were aware of the results of such a poll.",
+  "pagina": 18,
+  "justificativa": "No experimento o controle não recebe a informação (sem pesquisa); a revalidação só descreve o comparador observacional de 2006."
+ },
+ {
+  "id_item": "C034",
+  "sugestao": "original",
+  "valor_sugerido": "Medidas individuais e declaradas em survey. No experimento, indicador binário de intenção de voto igual a 1 quando o respondente apoia o candidato anti-PRI mais bem colocado nas pesquisas, isto é, o adversário mostrado atrás do líder da vinheta, e 0 caso contrário. Nos dados observacionais de 2006, intenção de voto declarada entre partidários do PRI, com voto no candidato do PRI (mostrado atrás nas pesquisas) como categoria de referência e as categorias \"Not PRI\" e \"DK\", além de um indicador de resposta \"não sei\" à pergunta de intenção de voto",
+  "trecho": "which constitutes the dependent variable in the following section (1=support for anti-PRI leading candidate; 0=otherwise)",
+  "pagina": 19,
+  "justificativa": "A original descreve os indicadores dos dois componentes, inclusive o binário do experimento, e diz de quem é o apoio medido, como pede o codebook; a revalidação cobre só 2006."
+ },
+ {
+  "id_item": "C035",
+  "sugestao": "original",
+  "valor_sugerido": "teste_de_canal",
+  "trecho": "The main independent variable is PRI partisans’ expectation that (1) the PRI was trailing in the polls; (2) the PRI was leading in the polls, and; (3) they were unaware of the polling information",
+  "pagina": 14,
+  "justificativa": "O autor não só propõe o canal das expectativas: testa a assimilação enviesada da informação por partidarismo (Tabela 1, H1) e estima a ligação entre expectativa de derrota e deserção (Tabela 3). Classificação discutível, pois no experimento as expectativas não são medidas após o tratamento."
+ },
+ {
+  "id_item": "C036",
+  "sugestao": "original",
+  "valor_sugerido": "Recurso: a informação divulgada por pesquisas de intenção de voto durante a campanha e a percepção que o eleitor forma sobre quem lidera; Raciocínio: a informação atualiza as expectativas sobre as chances de vitória de cada candidato; partidários que percebem que seu candidato co-partidário não pode vencer superam o viés partidário e desertam para uma alternativa viável, votando estrategicamente, enquanto o partidarismo prioriza motivos expressivos e leva a superestimar as chances do próprio candidato; Contexto: democracia jovem com sistema multipartidário e regra de pluralidade em turno único no México, em que um terceiro competidor aparece atrás nas pesquisas",
+  "trecho": "a three-party system where a party or a candidate wins if it or he gets the most votes and a third-party trails in the polls",
+  "pagina": 6,
+  "justificativa": "Recurso e raciocínio coincidem nas duas; o contexto da revalidação se limita a 2006, enquanto o texto descreve o contexto comum às duas eleições (três partidos, pluralidade, terceiro atrás nas pesquisas), como a original."
+ },
+ {
+  "id_item": "C037",
+  "sugestao": "original",
+  "valor_sugerido": "O moderador central é o partidarismo. Nos dados observacionais, os modelos da Tabela 2 são estimados separadamente para \"All Voters\", \"Partisans\" e \"Independents\", e a Tabela 3 restringe a análise a partidários do PRI. No experimento, os resultados aparecem por subgrupo na Figura 4 (\"3rd Parties + DK\", \"Partisans\", \"Independents\", \"3rd Party Partisans\"), na Figura 5 (eleitores anti-PRI) e na Tabela A6, cujas colunas são efeito agregado, partidários, partidários de partidos atrás nas pesquisas, independentes, anti-PRI > PRI e PRI > anti-PRI. O efeito do tratamento é maior entre partidários e entre partidários que apoiam candidatos atrás nas pesquisas do que no agregado, e é maior entre eleitores anti-PRI; entre independentes o efeito é pequeno. A preferência prévia também segmenta a amostra, já que a análise se restringe a quem apoia partidos atrás nas pesquisas e a indecisos",
+  "trecho": "Among voters who support parties trailing in the polls and don’t-know voters, the effect is stronger among partisans (12 percentage points, p < 0.05)",
+  "pagina": 20,
+  "justificativa": "A original descreve os subgrupos do experimento (partidários, partidários de partidos atrás, independentes, anti-PRI) e da análise de 2006; a revalidação trata só do efeito de aprendizado de 2006 e omite a moderação do efeito sobre o voto no experimento."
+ },
+ {
+  "id_item": "C038",
+  "sugestao": "original",
+  "valor_sugerido": "sim",
+  "trecho": "Polling information also triggers a strategic voting effect and this effect is also moderated by partisan attachments.",
+  "pagina": 8,
+  "justificativa": "A moderação pelo partidarismo é declarada como hipótese a priori (H2 e H3, seção teórica, e de novo no desenho do experimento), o que o codebook aceita como trecho para sim."
+ },
+ {
+  "id_item": "C039",
+  "sugestao": "original",
+  "valor_sugerido": "O texto relata deserção estratégica de apoiadores de terceiros candidatos: o tratamento enfraquece a ligação entre partidarismo e escolha de voto entre apoiadores do PAN, terceiro colocado na vinheta, reduzindo o apoio ao próprio candidato co-partidário; nos dados observacionais, partidários do PRI, cujo candidato aparecia atrás, abandonam o candidato do próprio partido quando informados das pesquisas. Os autores tratam esses movimentos como voto estratégico, não como efeito indesejado. Não há medida de comparecimento nem de desmobilização",
+  "trecho": "While 82 percent of PAN respondents supported their co-partisan candidate in the control group, this number declined to 76 % in the treatment group.",
+  "pagina": 21,
+  "justificativa": "Ambas registram a deserção de partidários do PAN; a original também traz a deserção de partidários do PRI em 2006 e a ausência de medida de comparecimento, e é mais completa."
+ },
+ {
+  "id_item": "C040",
+  "sugestao": "original",
+  "valor_sugerido": "Os autores reconhecem que a generalização do experimento para contextos reais é uma questão em aberto, já que efeitos de tratamento no mundo real podem ser atenuados por outros eventos de campanha ou pela desatenção dos eleitores à mídia; que, como todo experimento de survey, o estudo não permite dizer como não respondentes reagiriam ao estímulo; que parte do grupo de controle provavelmente já conhecia a informação das pesquisas, o que torna os resultados conservadores e faz do artigo um limite inferior para o comportamento estratégico; que o estudo não analisa endossos de terceiros, sinais de coordenação ou endossos da mídia; que não há observações suficientes para estudar variações entre os dois estados; e que a variável de informação política só estava em duas das três pesquisas de 2006",
+  "trecho": "how this result generalizes to real-life settings remains an open question. Treatment effects in real world contexts could be diminished by other campaign events or voters’ inattention to the media.",
+  "pagina": 23,
+  "justificativa": "O texto reconhece várias limitações (generalização, não respondentes, controle possivelmente informado, endossos não analisados, N insuficiente por estado na nota 8); a revalidação lista só uma."
+ },
+ {
+  "id_item": "C041",
+  "sugestao": "original",
+  "valor_sugerido": "experimento_aleatorizado_individual",
+  "trecho": "The sample was divided into two randomly-assigned groups that varied according to whether the respondent was informed about the results of an electoral poll.",
+  "pagina": 18,
+  "justificativa": "A identificação causal declarada pelo autor é a aleatorização individual do experimento de 2015; regressão com controles só descreve o componente observacional de 2006."
+ },
+ {
+  "id_item": "C042",
+  "sugestao": "original",
+  "valor_sugerido": "A hipótese de identificação declarada é a aleatorização, que garantiria grupos de tratamento e controle idênticos em média em características observáveis e não observáveis. O texto apresenta teste de balanceamento entre tratamento e controle na Tabela A4, com número de observações, médias, erros-padrão e p-valores para sexo, idade, escolaridade, partidarismo por partido, condição de independente e probabilidades declaradas de voto em cada candidato, e reporta a taxa de atrito da segunda onda do painel na Tabela A3. Não há placebo, corte falso, outcome falso nem análise de tendências prévias",
+  "trecho": "Randomization guarantees that the treatment and control groups in the sample are on average identical in both observable and unobservable characteristics.",
+  "pagina": 18,
+  "justificativa": "A original traz a hipótese declarada (aleatorização), o balanceamento da Tabela A4 e o atrito da Tabela A3; a revalidação só menciona o balanceamento."
+ },
+ {
+  "id_item": "C043",
+  "sugestao": "original",
+  "valor_sugerido": "logit_probit",
+  "trecho": "To account for potential state variations, the logistic models reported in the next section include a state dummy variable.",
+  "pagina": 19,
+  "justificativa": "O modelo do experimento é logístico (Tabela A6) e o de 2006 é logit multinomial, da mesma família; logit_probit cabe nos dois e dispensa o 'outro'."
+ },
+ {
+  "id_item": "C044",
+  "sugestao": "original",
+  "valor_sugerido": "ATE",
+  "trecho": "Any systematic difference in the answers to the treatment provides an estimate of the impact of being informed about the electoral poll on vote choice.",
+  "pagina": 18,
+  "justificativa": "Com atribuição aleatória e sem discussão explícita de adesão imperfeita ao tratamento, a regra do codebook dá ATE; associacao só valeria se o principal fosse o componente de 2006."
+ },
+ {
+  "id_item": "C045",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "A exposição foi atribuída no nível do indivíduo; os modelos incluem dummy de estado; o texto não diz que os erros-padrão foram agrupados e não informa tamanho de cluster nem ICC",
+  "trecho": "The sample was divided into two randomly-assigned groups",
+  "pagina": 18,
+  "justificativa": "As duas dizem atribuição individual, dummy de estado e nenhuma menção a erros agrupados; a diferença é só de forma."
+ },
+ {
+  "id_item": "C046",
+  "sugestao": "original",
+  "valor_sugerido": "545",
+  "trecho": "Observations 545 257 198 288 218 73",
+  "pagina": 34,
+  "justificativa": "Com o experimento como principal (Tabela A6, col. 1, efeito agregado), N = 545; 494 é o N da Tabela 3 com controles, do componente de 2006."
+ },
+ {
+  "id_item": "C047",
+  "sugestao": "original",
+  "valor_sugerido": "Modelo principal do experimento (Tabela A6): State dummy, sem nenhum outro controle. Modelo observacional principal (Tabela 3, bloco com controles): Education ; Campaign Interest ; Female ; Age ; Survey 1 ; Survey 2",
+  "trecho": "To account for potential state variations, the logistic models reported in the next section include a state dummy variable.",
+  "pagina": 19,
+  "justificativa": "O modelo do experimento só tem dummy de estado; a revalidação lista apenas os controles do modelo de 2006 e omite o do experimento."
+ },
+ {
+  "id_item": "C048",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider (experimento de 2015, amostra de potenciais eleitores estratégicos): Figura 4, primeiro painel \"3rd Parties + DK\", cuja regressão completa é a Tabela A6, col. (1) \"Aggregate Effect\" ; apoio_ao_lider (dados observacionais de 2006, partidários do PRI): Tabela 3, bloco \"PRI Partisans\" com controles, cols. (1) \"Other\" e (2) \"DK\"",
+  "trecho": "When voters are informed of polling results, on average, the strategic voting effect is seven percentage points in the treatment group (p < 0.06, figure 4",
+  "pagina": 20,
+  "justificativa": "O autor trata os dois componentes como centrais (o experimento para identificar o efeito causal); o codebook manda listar os dois. A revalidação omite o experimento, e suas 'colunas (3-4)' coincidem com o bloco com controles da Tabela 3 da original."
+ },
+ {
+  "id_item": "C049",
+  "sugestao": "original",
+  "valor_sugerido": "regra_do_protocolo ; regra_do_protocolo",
+  "trecho": "",
+  "pagina": 0,
+  "justificativa": "Derivada de b2_modelo_principal: com duas especificações listadas, o critério se repete para cada uma, separado por ' ; '."
+ },
+ {
+  "id_item": "C050",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider (experimento de 2015): danosa ; apoio_ao_lider (dados observacionais de 2006): benefica",
+  "trecho": "the vignette gave the lead to the PRI candidate who was tied, or closely tied with an opposition candidate",
+  "pagina": 18,
+  "justificativa": "No experimento, a estimativa positiva (0,35) aumenta o apoio ao candidato anti-PRI mostrado atrás do PRI na vinheta, o que a regra literal do codebook chama de danosa; em 2006, a expectativa de derrota do PRI aumenta o voto nos líderes (benefica). Atenção: se o alvo for tratado como segundo_viavel com direção aumentar, o experimento vira benefica."
+ },
+ {
+  "id_item": "C051",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider (experimento de 2015): nao ; apoio_ao_lider (dados observacionais de 2006): sim",
+  "trecho": "When voters are informed of polling results, on average, the strategic voting effect is seven percentage points in the treatment group (p < 0.06, figure 4",
+  "pagina": 20,
+  "justificativa": "O efeito agregado do experimento tem p < 0,06 (0,35*, só a 10%), logo nao; o coeficiente de 2006 com controles (2,43***) é significativo a 5%."
+ },
+ {
+  "id_item": "C052",
+  "sugestao": "original",
+  "valor_sugerido": "Os autores concluem que a informação de pesquisas eleitorais leva eleitores, sobretudo partidários informados de que seu candidato não pode vencer, a superar o viés partidário, abandonar o candidato co-partidário e votar estrategicamente, o que explica parte das mudanças de intenção de voto no fim das campanhas",
+  "trecho": "Some voters are willing to abandon their co-partisan candidate as a product of strategic considerations: partisans who are informed of polls are able to overcome their partisan bias and engage in strategic voting.",
+  "pagina": 23,
+  "justificativa": "A conclusão geral do autor, na discussão, é a da original; a revalidação resume só o resultado de 2006 com os partidários do PRI."
+ },
+ {
+  "id_item": "C053",
+  "sugestao": "original",
+  "valor_sugerido": "survey_experiment",
+  "trecho": "The survey experiment was embedded in the second-wave of an original gubernatorial panel survey conducted in two Mexican states",
+  "pagina": 18,
+  "justificativa": "O desenho que identifica o efeito é um experimento de survey com vinheta aleatória; classificar como transversal agrupado descreve só o componente de 2006."
+ },
+ {
+  "id_item": "C054",
+  "sugestao": "original",
+  "valor_sugerido": "2015",
+  "trecho": "a survey experiment conducted during the 2015 gubernatorial elections in Mexico",
+  "pagina": 17,
+  "justificativa": "Com duas eleições (2006 e 2015), o codebook manda registrar a mais recente, 2015, com 2006 nas Notas."
+ },
+ {
+  "id_item": "C055",
+  "sugestao": "original",
+  "valor_sugerido": "sem_pesquisa",
+  "trecho": "Respondents who were randomly assigned to the control group were not asked whether they were aware of the results of such a poll.",
+  "pagina": 18,
+  "justificativa": "No experimento, o controle não recebe nenhuma informação de pesquisa (sem_pesquisa); unidades_nao_expostas só descreve o comparador observacional de 2006."
+ },
+ {
+  "id_item": "C056",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Michoacán: 0 ponto percentual (PRI e PRD empatados com 36 %) ; Nuevo León: 6 pontos percentuais (PRI 38 %, independente 32 %)",
+  "trecho": "the PRI candidate, Ivonne Álvarez, is leading with 38 percent of vote intention? The independent candidate is in second place with 32 percent of vote intention",
+  "pagina": 19,
+  "justificativa": "As duas dão as mesmas margens (0 e 6 p.p.) por estado; a original só acrescenta a parcela do PAN."
+ },
+ {
+  "id_item": "C057",
+  "sugestao": "original",
+  "valor_sugerido": "partidarismo + preferencia_previa",
+  "trecho": "The results also include an analysis of anti-PRI voters; specifically, it identifies voters who are more likely to support the leading opposition candidate over the PRI candidate, and vice versa",
+  "pagina": 19,
+  "justificativa": "Além do partidarismo, o texto relata resultados por preferência prévia entre candidatos (anti-PRI > PRI e PRI > anti-PRI, Figura 5 e Tabela A6, cols. 5 e 6)."
+ },
+ {
+  "id_item": "C058",
+  "sugestao": "original",
+  "valor_sugerido": "segundo_viavel + terceiro_inviavel",
+  "trecho": "which constitutes the dependent variable in the following section (1=support for anti-PRI leading candidate; 0=otherwise)",
+  "pagina": 19,
+  "justificativa": "No experimento, o apoio medido é o do candidato anti-PRI mais bem colocado, segundo numa disputa de três (segundo_viavel); em 2006, o desfecho é o voto no PRI, terceiro atrás nas pesquisas (terceiro_inviavel). Em nenhum dos dois o apoio medido é o do líder mostrado."
+ },
+ {
+  "id_item": "C059",
+  "sugestao": "nenhum",
+  "valor_sugerido": "5",
+  "trecho": "The polling firm BGC Beltrán y Asocs. conducted a telephone survey between the 1st and 3rd of June7. The election was held on Sunday, June 7th.",
+  "pagina": 18,
+  "justificativa": "A exposição ocorreu entre 1 e 3 de junho e a eleição foi em 7 de junho: 4 a 6 dias, com ponto médio 5. O '7' vem do 'a week before' aproximado do autor (p. 17), e a revalidação não é um inteiro."
+ }
+]

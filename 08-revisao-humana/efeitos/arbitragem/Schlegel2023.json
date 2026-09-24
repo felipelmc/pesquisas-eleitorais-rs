@@ -1,0 +1,85 @@
+{
+ "chave": "Schlegel2023",
+ "resumo": "Números, página, modelo principal (11 e 17 p.p., repetidos na introdução e nos resultados) e estimando ATE da original conferem com o texto e com a Fig. 2; as correções são de classificação nas duas linhas: alvo lider → segundo_viavel (B aparece empatado com C, e o desfecho é deserção estratégica do preferido A, mostrado inviável) e comparador outro → outro_resultado. Para o coordenador: a mudança tira Schlegel2023 da célula principal randomizada de apoio_ao_lider (certeza.csv linha 9 fica com 2 estudos) e o leva à célula de viabilidade; além disso, o contraste principal mistura precisão das pesquisas com retirada da carga cognitiva, e vale ponderar incluí-lo no FORA ou ressalvá-lo na narrativa (o contraste só de informação, fora do modelo principal, dá cerca de 5 p.p. com IC cruzando zero no estudo principal).",
+ "decisoes": [
+  {
+   "id_efeito": "Schlegel2023-E01",
+   "divergencia": "alvo_efeito: lider (original) × segundo_viavel (cega)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "segundo_viavel"
+    }
+   ],
+   "trecho": "as the average poll results indicate that only Candidate B and Candidate C have a chance of winning the election, and only Candidate B has more than 50% issue overlap",
+   "pagina": 4,
+   "justificativa": "Todos os braços veem as mesmas médias (A último; B e C empatados à frente) e o desfecho é a deserção do preferido inviável para o viável B, que só é escolhido por ser o único viável com mais de 50% de afinidade, não por liderar. Pelo protocolo (seção 2), deserção estratégica em disputa de três vai para a célula de viabilidade, e pela Emenda 5 o positivo ali é mais apoio à opção mostrada como viável: segundo_viavel, direcao_desejada aumentar (inalterada)."
+  },
+  {
+   "id_efeito": "Schlegel2023-E01",
+   "divergencia": "comparador_tipo = outro nas duas extrações (não detectado pelo script)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we induce uncertainty about each candidate’s electoral prospects by increasing the between-poll variation",
+   "pagina": 5,
+   "justificativa": "O grupo de comparação viu outras pesquisas (três sondagens com mais variação, mesmas médias), não ausência de pesquisa: outro_resultado. O contraste também retira a carga cognitiva, mas isso não muda o que o comparador viu de pesquisa. Estimando ATE confere (braços sorteados, sem discussão de adesão)."
+  },
+  {
+   "id_efeito": "Schlegel2023-E01",
+   "divergencia": "valores (11 p.p.; IC 4,51 a 18,41 × 4,5 a 18,4; se 3,55 × 3,5) e página (5 × 2); cega extraiu 6 linhas extras (só informação; baixo incentivo)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "is increased by 11 percentage points in the high information/cognitive resources condition (17 percentage points in the pilot study)",
+   "pagina": 5,
+   "justificativa": "As diferenças de IC e EP são arredondamento da mesma leitura vetorial da Fig. 2; a folha 5 traz o número nos resultados e a folha 2 o repete na introdução, as duas valem. A regra usado_na_interpretacao aponta este contraste, e a cega concorda; as linhas extras dela não são principais e não viram linhas novas."
+  },
+  {
+   "id_efeito": "Schlegel2023-E02",
+   "divergencia": "alvo_efeito: lider (original) × segundo_viavel (cega)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "segundo_viavel"
+    }
+   ],
+   "trecho": "as the average poll results indicate that only Candidate B and Candidate C have a chance of winning the election, and only Candidate B has more than 50% issue overlap",
+   "pagina": 4,
+   "justificativa": "Todos os braços veem as mesmas médias (A último; B e C empatados à frente) e o desfecho é a deserção do preferido inviável para o viável B, que só é escolhido por ser o único viável com mais de 50% de afinidade, não por liderar. Pelo protocolo (seção 2), deserção estratégica em disputa de três vai para a célula de viabilidade, e pela Emenda 5 o positivo ali é mais apoio à opção mostrada como viável: segundo_viavel, direcao_desejada aumentar (inalterada)."
+  },
+  {
+   "id_efeito": "Schlegel2023-E02",
+   "divergencia": "comparador_tipo = outro nas duas extrações (não detectado pelo script)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we induce uncertainty about each candidate’s electoral prospects by increasing the between-poll variation",
+   "pagina": 5,
+   "justificativa": "O grupo de comparação viu outras pesquisas (três sondagens com mais variação, mesmas médias), não ausência de pesquisa: outro_resultado. O contraste também retira a carga cognitiva, mas isso não muda o que o comparador viu de pesquisa. Estimando ATE confere (braços sorteados, sem discussão de adesão)."
+  },
+  {
+   "id_efeito": "Schlegel2023-E02",
+   "divergencia": "valores do piloto (17 p.p.; IC 6,62 a 26,56 × 6,6 a 26,6; se 5,09 × 5,1)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "is increased by 11 percentage points in the high information/cognitive resources condition (17 percentage points in the pilot study)",
+   "pagina": 5,
+   "justificativa": "Mesmo número impresso e mesma leitura da Fig. 2, com diferença só de arredondamento; o piloto é apresentado em paralelo ao estudo principal e fica como segunda amostra central."
+  }
+ ],
+ "linhas_novas": []
+}

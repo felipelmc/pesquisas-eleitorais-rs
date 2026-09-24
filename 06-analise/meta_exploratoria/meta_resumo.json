@@ -1,7 +1,7 @@
 {
   "versao": "1",
   "comando": "meta",
-  "gerado_em": "2026-09-23T19:18:46Z",
+  "gerado_em": "2026-09-24T02:10:51Z",
   "entrada": "06-analise/meta_entrada_exploratoria.csv",
   "parametros": {
     "grupo": [
@@ -10,10 +10,10 @@
       "comparador_tipo"
     ],
     "separar_desenho": true,
-    "dependencia": "um_por_estudo",
+    "dependencia": "che",
     "rho": 0.6,
     "k_min": 3,
-    "delta": 0.0588,
+    "delta": 0.0573,
     "delta_fonte": "argumento (confirmar no protocolo)",
     "excluir_rob": "critico",
     "moderadores": [],
@@ -45,15 +45,15 @@
       "comparador_tipo": "sem_pesquisa",
       "classe_desenho": "randomizado",
       "arquivo_base": "01_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza",
-      "n_linhas": 3,
+      "n_linhas": 4,
       "comparabilidade": {
         "estimandos": [
           "ATE"
         ],
         "desenhos": [
           "RCT (experimento de survey)",
-          "RCT por cluster (experimento de laboratório; informação variada entre eleitorados/sessões)",
-          "RCT por cluster (experimento de laboratório; tratamento informacional por sessão, grupos fixos de 9)"
+          "RCT por cluster (experimento de laboratório; tratamento informacional por sessão, grupos fixos de 9)",
+          "RCT por cluster presumido (experimento de laboratório; informação variada entre eleitorados/sessões; atribuição aleatória dos eleitorados aos tratamentos não declarada no texto)"
         ],
         "outcomes": [
           "% de respondentes em favor do candidato A (candidato anunciado como vencedor esperado nesse braço)",
@@ -64,7 +64,6 @@
           "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
         ]
       },
-      "n_descartados_nao_principais": 0,
       "excluidos_rob_critico": {
         "n_linhas": 0,
         "estudos": [],
@@ -72,7 +71,7 @@
         "nota": "risco de viés crítico fora da análise principal; a análise com essas linhas está em sensibilidade$com_rob_critico"
       },
       "k_estudos": 3,
-      "k_efeitos": 3,
+      "k_efeitos": 4,
       "estudos": [
         "Agranov2017a",
         "Timotei2013a",
@@ -80,29 +79,35 @@
       ],
       "status": "meta_ajustada",
       "resultado": {
-        "modelo": "efeitos aleatórios REML + HKSJ modificado (metafor test='adhoc')",
+        "modelo": "CHE (rma.mv estudo/efeito, REML) + RVE CR2 (Satterthwaite)",
         "k_estudos": 3,
-        "k_efeitos": 3,
-        "estimativa": 0.459743701863931,
-        "ep": 0.249787352670793,
-        "ic": [-0.615004532961949, 1.53449193668981],
-        "p": 0.207045764666762,
-        "gl": 2,
-        "tau2": 0.0441552831748514,
-        "tau2_ic": [0, 3.18624085195528],
-        "tau": 0.210131585381283,
-        "I2": 21.1310441966046,
-        "I2_ic": [0, 95.0820108830735],
-        "H2": 1.26792600436197,
-        "Q": 1.73936539435906,
-        "Q_gl": 2,
-        "Q_p": 0.419084504848335,
-        "pi": [-3.6877959579527, 4.60728336168056],
+        "k_efeitos": 4,
+        "rho": 0.6,
+        "estimativa": 0.479309452588661,
+        "ep": 0.248176921545491,
+        "ic": [-1.51007056107242, 2.46868946624975],
+        "p": 0.263363552814063,
+        "gl": 1.25105113716868,
+        "rve_confiavel": false,
+        "tau2": 0.0389374752317877,
+        "tau2_entre_estudos": 0.0389374735660996,
+        "tau2_dentro_estudos": 1.6656880605577e-09,
+        "tau2_ic": null,
+        "tau": 0.197325809847034,
+        "I2": 15.2855798867575,
+        "I2_entre_estudos": 15.2855792328628,
+        "I2_dentro_estudos": 6.53894680240776e-07,
+        "I2_ic": null,
+        "Q": 2.43415313833879,
+        "Q_gl": 3,
+        "Q_p": 0.487308692646427,
+        "pi": [-3.5493642243988, 4.50798312957612],
         "pi_gl": 1,
-        "ic_inf": -0.615004532961949,
-        "ic_sup": 1.53449193668981,
-        "ip_inf": -3.6877959579527,
-        "ip_sup": 4.60728336168056,
+        "aviso_rve": "gl de Satterthwaite = 1.25 < 4: inferência robusta não confiável",
+        "ic_inf": -1.51007056107242,
+        "ic_sup": 2.46868946624975,
+        "ip_inf": -3.5493642243988,
+        "ip_sup": 4.50798312957612,
         "direcao_alinhada": true,
         "tau2_interpretavel": false,
         "direcao": "benefica",
@@ -118,9 +123,11 @@
       "sensibilidade": {
         "leave_one_out": {
           "executado": true,
-          "estimativa_min": 0.150694911857411,
-          "estimativa_max": 0.673952134940179,
-          "estudos_que_mudam_conclusao": [],
+          "estimativa_min": 0.18667092197606,
+          "estimativa_max": 0.691063893231188,
+          "estudos_que_mudam_conclusao": [
+            "ES1876"
+          ],
           "tabela": "06-analise/meta_exploratoria/tabelas/loo_01_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza.csv"
         },
         "sem_aproximados": {
@@ -134,7 +141,42 @@
         "com_rob_critico": {
           "executado": false,
           "motivo": "nenhuma linha com risco de viés crítico no grupo"
-        }
+        },
+        "rho": [
+          {
+            "rho": 0.2,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 4,
+            "estimativa": 0.487730157439309,
+            "ic": [-1.28856283704939, 2.26402315192801],
+            "pi": [-3.34881648399147, 4.32427679887009],
+            "tau2": 0.0334394377547948,
+            "ic_exclui_zero": false
+          },
+          {
+            "rho": 0.5,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 4,
+            "estimativa": 0.481623661477975,
+            "ic": [-1.45965163447654, 2.42289895743249],
+            "pi": [-3.50446954175141, 4.46771686470736],
+            "tau2": 0.0377129084077355,
+            "ic_exclui_zero": false
+          },
+          {
+            "rho": 0.8,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 4,
+            "estimativa": 0.469841521646288,
+            "ic": [-1.5204189447192, 2.46010198801177],
+            "pi": [-3.86382682832648, 4.80350987161906],
+            "tau2": 0.053717642906839,
+            "ic_exclui_zero": false
+          }
+        ]
       },
       "vies_publicacao": {
         "executado": false,

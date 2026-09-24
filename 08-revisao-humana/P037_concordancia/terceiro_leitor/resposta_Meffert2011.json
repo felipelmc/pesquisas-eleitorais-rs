@@ -1,0 +1,202 @@
+[
+ {
+  "id_item": "C146",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Polls, coalition signals and strategic voting: An experimental investigation of perceptions and effects",
+  "trecho": "Polls, coalition signals and strategic voting: An experimental investigation of perceptions and effects",
+  "pagina": 2,
+  "justificativa": "Os dois valores são idênticos e reproduzem o título da primeira página do artigo (folha 2; a folha 1 é a capa do SSOAR)."
+ },
+ {
+  "id_item": "C147",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Alemanha — Baden-Württemberg e Renânia-Palatinado",
+  "trecho": "First, participants were assigned to the state in which their highest ranked major party was the incumbent and was expected to win again in the upcoming election (CDU in Baden-Württemberg and SPD in Rhineland-Palatinate).",
+  "pagina": 12,
+  "justificativa": "Os dois indicam Alemanha e os mesmos dois estados. O codebook pede o estado depois de travessão, forma que o original segue e a revalidação não (parênteses)."
+ },
+ {
+  "id_item": "C148",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Testar se eleitores em sistemas multipartidários com representação proporcional e governos de coalizão se comportam conforme as expectativas da teoria do voto estratégico, manipulando experimentalmente pesquisas pré-eleitorais e sinais de coalizão.",
+  "trecho": "The purpose of this study is to test whether voters in multiparty systems conform to the expectations of the theory of strategic voting.",
+  "pagina": 3,
+  "justificativa": "Os dois parafraseiam o mesmo objetivo declarado; um acrescenta o sistema eleitoral e o outro o desenho, sem divergência de conteúdo."
+ },
+ {
+  "id_item": "C149",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Estudantes alemães num experimento de laboratório informatizado (280 participantes; 200 analisados, os aptos a votar em eleições alemãs), designados à campanha estadual que correspondia à sua preferência partidária.",
+  "trecho": "For the analyses, only the 200 participants who were eligible to vote in German elections were used.",
+  "pagina": 9,
+  "justificativa": "Os dois descrevem os mesmos estudantes, 280 recrutados e 200 analisados. A diferença é de detalhe: uma traz a designação por estado, a outra traz sexo e idade."
+ },
+ {
+  "id_item": "C150",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "janeiro de 2006",
+  "trecho": "The study took place in January 2006, at the beginning of two",
+  "pagina": 8,
+  "justificativa": "Os dois dão janeiro de 2006. A revalidação só acrescenta a data da eleição (26 de março), que é contexto e não amplia o período dos dados."
+ },
+ {
+  "id_item": "C151",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Pesquisa isolada manipulada sobre o pequeno partido preferido perto da cláusula de 5% (controle: 10%; apertada/fracasso: 5% ou 4%; competição: cerca de 7% cada pequeno partido), cruzada com sinal de coalizão presente/ausente; exibida numa página de resultados (tabela e resumo verbal) vista por todos após uma pesquisa pré-eleitoral simulada, no início do quadro de informação, e em cinco artigos de jornal simulado que o participante podia escolher ler; campanha estadual real de janeiro de 2006, eleição em 26 de março.",
+  "trecho": "Participants encountered the manipulated information in two ways. Early during the information search, after two screens with headlines, all participants were asked to participate in a pre-election poll.",
+  "pagina": 13,
+  "justificativa": "Formato, conteúdo, meio e momento coincidem nos dois. Os detalhes que cada um acrescenta ('14 semanas' e 'Landesanzeiger') aparecem nas capturas de tela da Figura 1 e da Figura 2 (folhas 11 e 14)."
+ },
+ {
+  "id_item": "C152",
+  "sugestao": "original",
+  "valor_sugerido": "Outro resultado de pesquisa: pesquisa com resultado apertado (close/failure) versus resultado seguro (controle e competição agrupados); para o sinal de coalizão, com sinal versus sem sinal. Não há braço sem pesquisa.",
+  "trecho": "For the analyses reported below, the different conditions are combined in two categories depending on whether or not the poll created a close election outcome assumed to facilitate strategic voting or a safe outcome",
+  "pagina": 13,
+  "justificativa": "A comparação analisada é a dicotomia apertado × seguro que os autores declaram, não as três condições separadas. O original a registra e usa o rótulo 'outro resultado' do codebook."
+ },
+ {
+  "id_item": "C153",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider",
+  "trecho": "we carefully distinguish explicit strategic voting from so-called ‘insincere voting’ – that is, any vote for a different party than the one preferred most or ranked highest.",
+  "pagina": 25,
+  "justificativa": "O outcome é escolha de voto dentro do experimento, e o codebook põe escolha de voto em apoio_ao_lider mesmo quando o apoio medido não é o do líder. '999' não pertence ao vocabulário da variável."
+ },
+ {
+  "id_item": "C154",
+  "sugestao": "nenhum",
+  "valor_sugerido": "Voto insincero, indicador individual dicotômico: voto final no experimento em partido diferente do mais bem ranqueado pelo participante (ou de um empatado com ele); subconjunto de voto estratégico explícito, que exige também uma razão estratégica dada espontaneamente na pergunta aberta. Mede a defecção do próprio partido preferido, que é o líder (partido grande a 41%) para apoiadores de partido grande e o pequeno partido perto ou abaixo da cláusula para apoiadores de partido pequeno; o texto não informa para qual partido vão os votos desertores. Individual, não agregado.",
+  "trecho": "To be classiﬁed as a strategic voter,participants not only had to vote for a party other than the one ranked highest – or any other party that was tied (rated the same) with this party",
+  "pagina": 25,
+  "justificativa": "O original diz que a defecção vai 'majoritariamente para o pequeno partido perto da cláusula', o que o texto não informa. A revalidação não diz se o apoio é ao líder ou a quem está atrás, informação que o codebook exige."
+ },
+ {
+  "id_item": "C155",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "mediacao_estatistica",
+  "trecho": "However, as shown above, the objective conditions affect the respective perceptions and thus exert an indirect effect.",
+  "pagina": 27,
+  "justificativa": "Os autores estimam o efeito da manipulação sobre as percepções (Figura 5, Tabela 3) e comparam o modelo de voto com e sem as percepções (Tabela 4). É a lógica de mediação estatística, sem teste formal do efeito indireto."
+ },
+ {
+  "id_item": "C156",
+  "sugestao": "original",
+  "valor_sugerido": "Recurso: pesquisas pré-eleitorais manipuladas e sinais de coalizão num fluxo de informação de campanha, mais os artigos de pesquisa que o participante escolhe ler; Raciocínio: a manipulação altera as previsões, a proximidade percebida da cláusula e a percepção do sinal, e são essas percepções que aumentam a defecção do partido preferido, restando às pistas objetivas efeito apenas indireto; Contexto: sistema proporcional com cláusula de 5% e governos de coalizão, em duas campanhas estaduais alemãs reais.",
+  "trecho": "Parties have to pass a 5 per cent minimum vote threshold to enter parliament.",
+  "pagina": 8,
+  "justificativa": "Recurso e Raciocínio coincidem nos dois. No Contexto, o original descreve o cenário institucional que os autores apontam como condição do mecanismo. A revalidação põe ali o desenho de análise (modelos com e sem percepções), que é método e não contexto."
+ },
+ {
+  "id_item": "C157",
+  "sugestao": "original",
+  "valor_sugerido": "Conhecimento político modera o efeito de ler mais artigos de pesquisa sobre o erro de previsão (Tabela 2, Figura 6): o efeito redutor de erro diminui com a sofisticação e desaparece entre os mais sofisticados. No modelo de percepção do sinal de coalizão (Tabela 3) a mesma interação não é significativa. Nos modelos de voto insincero (Tabela 4) não há termo de interação.",
+  "trecho": "Both political knowledge and poll articles signiﬁcantly reduce the errors in the forecasts and show a signiﬁcant interaction effect as well.",
+  "pagina": 21,
+  "justificativa": "Os dois acertam o moderador principal. Só o original registra que a interação não é significativa na Tabela 3 e que não há moderação testada no outcome de voto, o que o texto sustenta e importa para a revisão."
+ },
+ {
+  "id_item": "C158",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "999",
+  "trecho": "Second, perceived coalition signals by the parties also seem to persuade some voters to defect. If the polls do not justify such behaviour, it is, in instrumental or rational terms, in fact a wrong decision.",
+  "pagina": 28,
+  "justificativa": "Os dois efeitos listados no original vêm dos sinais de coalizão, não da exposição à pesquisa, e a abstenção aparece só como conjectura entre parênteses (folha 28). O texto não relata nem testa efeito não intencional das pesquisas. Caso limítrofe: o revisor pode querer registrar a nota do original."
+ },
+ {
+  "id_item": "C159",
+  "sugestao": "original",
+  "valor_sugerido": "Amostra pequena e não representativa (estudantes) e contexto de um só país, o que torna as conclusões tentativas; número muito baixo de eleitores estratégicos explícitos (dez), que impede análises aprofundadas desse grupo; a operacionalização de voto estratégico não conta os eleitores estratégicos que não verbalizam uma razão estratégica na tarefa aberta.",
+  "trecho": "Given the low number of just ten explicitly strategic voters, it is not possible to conduct further in-depth analyses of this group.",
+  "pagina": 25,
+  "justificativa": "Os autores reconhecem as três limitações: amostra (folha 27), dez casos (folha 25) e operacionalização (nota 12, folha 30). A revalidação traz só a primeira."
+ },
+ {
+  "id_item": "C160",
+  "sugestao": "original",
+  "valor_sugerido": "Identificação pela atribuição aleatória individual das condições de pesquisa (probabilidades de 20, 50 e 30%) e do sinal de coalizão (probabilidade igual, independente da pesquisa), com designação sistemática, não aleatória, do estado e do partido manipulado segundo o ranking do participante. Sem tabela de balanceamento nem placebo. Checagens de manipulação: ANOVA das previsões do pequeno partido por condição (F[3,196] = 9,85, p < 0,001) e qui-quadrado da percepção correta do sinal (χ²[3] = 24,83, p < 0,001); nota sobre exposição a pesquisa real publicada durante o estudo.",
+  "trecho": "Participants were assigned to the three conditions with 20, 50 and 30 per cent probability",
+  "pagina": 13,
+  "justificativa": "O codebook pede as hipóteses de identificação declaradas e os testes. Só o original registra a hipótese (atribuição aleatória com designação sistemática). As checagens de manipulação aparecem nos dois."
+ },
+ {
+  "id_item": "C161",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Indivíduo (participante); erros-padrão não agrupados; tamanho de cluster e ICC não reportados (999).",
+  "trecho": "Next, participants were randomly assigned to one of three poll conditions that suggested election outcomes of varying closeness.",
+  "pagina": 12,
+  "justificativa": "Os dois dizem atribuição individual, sem agrupamento de erros-padrão e sem ICC. A diferença é só de redação."
+ },
+ {
+  "id_item": "C162",
+  "sugestao": "original",
+  "valor_sugerido": "distância ideológica absoluta em relação ao partido preferido ; força da identificação partidária ; preferência partidária (distância avaliativa do segundo partido mais bem avaliado) ; concordância com 'eleitor habitual do partido' ; concordância com 'o partido preferido não tem chance' ; conhecimento político ; apoiador de pequeno partido ; sexo (masculino) ; na coluna com percepções, também a distância percebida da cláusula e a percepção do sinal de coalizão",
+  "trecho": "Finally, political knowledge, small party supporter and sex of the participant were included as control variables.",
+  "pagina": 26,
+  "justificativa": "A Tabela 4 (folhas 26-27) inclui 'Party no chance' (agreement) nas duas colunas. O original o lista e a revalidação o omite; nas demais variáveis os dois coincidem."
+ },
+ {
+  "id_item": "C163",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider: Tabela 4, coluna 'With perceptions' (B)",
+  "trecho": "In order to make the effects of objective and perceived indicators more transparent, the model is reported with and without the perceptions.",
+  "pagina": 25,
+  "justificativa": "Os dois apontam a mesma coluna. O codebook pede o rótulo do construto do protocolo (apoio_ao_lider, ver C153), não 'voto_insincero'."
+ },
+ {
+  "id_item": "C164",
+  "sugestao": "original",
+  "valor_sugerido": "regra_do_protocolo",
+  "trecho": "",
+  "pagina": 25,
+  "justificativa": "Os autores não declaram a especificação preferida, e nenhum coeficiente da Tabela 4 é repetido no resumo ou na conclusão. Pela ordem do codebook vale o passo 3, a especificação com mais controles, que é a coluna 'With perceptions'."
+ },
+ {
+  "id_item": "C165",
+  "sugestao": "indecidivel",
+  "valor_sugerido": "apoio_ao_lider: 999 (estimativa pontual da pesquisa apertada B = -0,51, menos voto insincero; a orientação em relação ao líder não é determinável)",
+  "trecho": "Major party supporters might decide to defect from their safe and dominant major party and cast a rental vote for the preferred small coalition partner to ensure this party’s entry into",
+  "pagina": 12,
+  "justificativa": "O outcome junta dois grupos em que a defecção tem sentidos opostos. Para apoiadores de partido grande, defecção é sair do líder rumo ao pequeno partido na cláusula; para apoiadores de partido pequeno, é abandonar o partido abaixo dela. B = -0,51 não se traduz em 'benefica' nem em 'danosa', e o 'zero' da revalidação viola a regra (zero só para estimativa exatamente 0)."
+ },
+ {
+  "id_item": "C166",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider: nao",
+  "trecho": "As expected, the manipulated poll condition did not have any direct effect on insincere voting, no matter whether or not perceived closeness is included in the model (Table 4).",
+  "pagina": 26,
+  "justificativa": "Pesquisa apertada: B = -0,51 (EP 0,52), não significativo a 5%. Os dois concordam no 'nao'. O original usa o rótulo do construto do protocolo; a revalidação acrescenta o sinal de coalizão, que não é exposição a pesquisa."
+ },
+ {
+  "id_item": "C167",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Os autores concluem que pesquisas que indicam eleição apertada e sinais de coalizão não afetam diretamente o voto insincero, influenciando-o no máximo de forma indireta, pelas percepções individuais, e que o voto estratégico explícito, raro, só apareceu quando as pesquisas sugeriam eleição apertada.",
+  "trecho": "Insincere voting might have many different reasons, but according to our study, polls indicating a close election outcome have at best an indirect inﬂuence.",
+  "pagina": 28,
+  "justificativa": "Os dois reproduzem a mesma conclusão: efeito das pistas só indireto, mediado por percepções, e voto estratégico raro. A diferença é de ênfase."
+ },
+ {
+  "id_item": "C168",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "999",
+  "trecho": "",
+  "pagina": 8,
+  "justificativa": "Os dois dão 999. O voto é dado dentro do experimento, e o texto não trata de obrigatoriedade."
+ },
+ {
+  "id_item": "C169",
+  "sugestao": "original",
+  "valor_sugerido": "lider + partido_abaixo_clausula",
+  "trecho": "Third, depending on which party was ranked highest overall, participants were categorised as either major-party (CDU, SPD) or small-party (FDP, Green Party, Left Party) supporters.",
+  "pagina": 12,
+  "justificativa": "O apoio medido é o voto no próprio partido preferido. Para apoiadores de partido grande esse partido é o líder (41%); para apoiadores de partido pequeno, é o partido posto na cláusula ou abaixo dela. Por isso o alvo é duplo, como no original."
+ },
+ {
+  "id_item": "C170",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "999",
+  "trecho": "Both elections were held on 26 March.",
+  "pagina": 8,
+  "justificativa": "Os dois dão 999. O texto só informa 'janeiro de 2006' e a eleição em 26 de março, sem data exata da sessão; a contagem de dias não é calculável."
+ }
+]

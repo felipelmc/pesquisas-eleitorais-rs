@@ -1,0 +1,103 @@
+{
+ "chave": "Lago2015",
+ "resumo": "Números, página, sinal (reorientado para exposição pela Emenda 5, item 3), comparador, estimando, construto e alvo da original estão certos; a divergência com a cega (termo constitutivo -.008 × interação .002 do Model 3) não justifica trocar a linha principal, porque nenhum dos dois termos estima o contraste médio da exposição. Recomendo ao coordenador acrescentar Lago2015-E01 ao dicionário FORA de 06-analise/montar_entradas_swim.py (interação com moderador contínuo não atribuído, ENEP, como Bursztyn2023a-E01 e Alabrese2024a-E002); a única correção de CSV é o rótulo do coeficiente no campo modelo de E01. O valor composto de regiao é o formato que o codebook prescreve e fica.",
+ "decisoes": [
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "Termo principal: a original usa a interação ENEP × dias de proibição (.002, EP .001); a cega usa o termo constitutivo do embargo (-.008, EP .002), ambos do Model 3 da Tabela 2.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "More importantly, the interaction between ENEP and the Number of Days of Poll Embargo is positive and statistically significant at the 0.01 level. As predicted by our hypothesis, poll restriction increases the amount of wasted votes",
+   "pagina": 15,
+   "justificativa": "Sem modelo declarado nem número repetido no resumo ou na conclusão, a regra do protocolo leva ao Model 3, e o coeficiente que os autores interpretam nele é a interação; o termo constitutivo é o efeito com ENEP = 0, fora da amplitude observada (mín. 1,932, folha 33), e a cega também o diz. Nenhum dos dois é o contraste médio da exposição: recomendo incluir Lago2015-E01 no FORA com o motivo 'interação dias de proibição × ENEP (moderador contínuo não atribuído); efeito por dia × unidade de ENEP' e levá-lo à narrativa de viabilidade e à sensibilidade com_excluidos. O efeito médio aditivo está em E03 (Model 2, .000, EP .002)."
+  },
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "Sinal: a original registra -0.002 (impresso .002) e E02/E03 com sinal trocado; a cega manteve o sinal impresso e anotou que ele precisa ser reorientado.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "In this paper, we argue that the prohibition on pre-Election Day polls deliberately generates informational failures which lead to coordination failures.",
+   "pagina": 5,
+   "justificativa": "É um desenho de proibição: a variável é o número de dias de embargo (menos exposição). Pela Emenda 5, item 3 (mesma regra de Chatterjee2019a e Morton2015a), a linha registra o efeito da exposição, com o sinal invertido; as três linhas documentam a inversão no campo modelo. Com direcao_desejada = reduzir, o sinal alinhado de E01 fica positivo (exposição com mais partidos reduz votos em partidos sem assento, deserção estratégica)."
+  },
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "alvo_efeito: terceiro_inviavel (original) × partido_abaixo_clausula (cega). Vale também para E02 e E03, que têm terceiro_inviavel.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "If coordination fails, vote dispersion across competitors will increase, including those parties not seriously in the running for seats.",
+   "pagina": 5,
+   "justificativa": "O desfecho é o voto em partidos que não obtiveram assento, não em partidos abaixo de uma cláusula legal: em 22 dos 46 países a cláusula nacional é 0 (Tabela A1, folha 39), e a cláusula entra como controle (folha 13). Os dois rótulos caem na mesma célula (viabilidade) com a mesma direcao_desejada (reduzir), então a escolha não muda a síntese. Ressalva para o GRADE: o estudo não observa a posição que as pesquisas mostravam, só a inviabilidade ex post (indireção)."
+  },
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "construto_outcome (votos desperdiçados): as duas extrações usam apoio_ao_lider; a cega marca a classificação como duvidosa. Vale para E01 a E03.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "The dependent variable is the percentage of wasted votes (i.e., votes for parties that did not obtain parliamentary representation) at the national level in the last parliamentary election held in every country.",
+   "pagina": 12,
+   "justificativa": "O codebook só tem apoio_ao_lider e mobilizacao, e apoio_ao_lider cobre a votação agregada, inclusive o apoio a quem está atrás, com direcao_desejada reduzir. Votação em partidos sem assento é votação agregada em opções inviáveis, não comparecimento. A classificação está certa pelo vocabulário. A distância entre 'sem assento ex post' e 'mostrado atrás na pesquisa' é indireção a declarar, não motivo de reclassificação."
+  },
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "Erro não detectado pelo script: o campo modelo chama o .002 impresso de 'coeficiente impresso do embargo', mas ele é o coeficiente da interação ENEP*#Days of Poll Embargo (o do embargo no Model 3 é -.008, linha E02).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 2, Modelo 3 (interativo; MQO, EP robustos): termo de interação ENEP × nº de dias de embargo de pesquisas antes do dia da eleição, com sinal trocado para orientar como exposição a pesquisas (−dias de embargo); coeficiente impresso do embargo = .002; unidade: proporção de votos desperdiçados por dia × unidade de ENEP; controles: ENEP, cláusula legal nacional, % assentos no tier superior, (inverso) idade da democracia",
+     "para": "Tabela 2, Modelo 3 (interativo; MQO, EP robustos): termo de interação ENEP × nº de dias de embargo de pesquisas antes do dia da eleição, com sinal trocado para orientar como exposição a pesquisas (−dias de embargo); coeficiente impresso da interação ENEP*#Days of Poll Embargo = .002 (EP .001); unidade: proporção de votos desperdiçados por dia × unidade de ENEP; controles: ENEP, cláusula legal nacional, % assentos no tier superior, (inverso) idade da democracia"
+    }
+   ],
+   "trecho": "ENEP*#Days of Poll Embargo",
+   "pagina": 34,
+   "justificativa": "Só o rótulo do coeficiente muda; beta, se, sinal e demais campos ficam. Evita que o conferente humano procure .002 na linha do embargo da Tabela 2."
+  },
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "comparador_tipo e estimando (revisão de todas as linhas; sem divergência com a cega): unidades_nao_expostas e associacao em E01, E02 e E03.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "The value 0 means that there is no blackout period on the publication of polls (for instance in Australia, Finland, Japan or South Africa).",
+   "pagina": 13,
+   "justificativa": "O contraste é entre países com e sem dias de proibição (dose contínua entre unidades observacionais), não antes e depois de uma proibição no mesmo país, então unidades_nao_expostas é o comparador certo. É regressão MQO transversal com controles e moderador não sorteado ('Estimation is by OLS with robust standard errors', folha 14): estimando associacao pela regra 5 de b2_estimando. O campo desenho não contém 'randomizado', o que está certo."
+  },
+  {
+   "id_efeito": "Lago2015-E02",
+   "divergencia": "Sem divergência numérica: -.008 (.002) impresso, registrado como 0.008 pela reorientação; modelo_principal = nao. Revisados comparador e estimando.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "# Days of Poll Embargo",
+   "pagina": 34,
+   "justificativa": "Os valores conferem com a Tabela 2 (Model 3), o sinal segue a Emenda 5, item 3, e a linha continua não principal porque é o efeito com ENEP = 0, fora da amplitude dos dados. unidades_nao_expostas e associacao, como em E01."
+  },
+  {
+   "id_efeito": "Lago2015-E03",
+   "divergencia": "Sem divergência (a cega só cita o Model 2 na nota: .000, EP .002). Revisados comparador e estimando.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Election Day poll restrictions do not significantly affect electoral coordination, although the sign is positive.",
+   "pagina": 15,
+   "justificativa": "Os valores conferem com a Tabela 2 (Model 2), e o -0.000 registra o sinal positivo relatado pelos autores já reorientado para exposição. É a única estimativa do efeito médio da proibição e serve à narrativa quando E01 sair da contagem. unidades_nao_expostas e associacao, como em E01."
+  },
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "regiao = 'america_latina + brasil + outro' (valor composto) em E01, E02 e E03; o coordenador pediu o valor correto pelo codebook.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table A1. Elections Included in the Analysis",
+   "pagina": 39,
+   "justificativa": "O codebook manda, com vários países de regiões diferentes, listar 'a região de cada um em ordem alfabética separada por ' + ''. A Tabela A1 tem o Brasil (2010), 7 países da América Latina e Caribe (Argentina, Costa Rica, El Salvador, Peru, República Dominicana, Trinidad e Tobago, Uruguai) e 38 de outras regiões, então o valor atual é o correto. O coeficiente é único para os 46 países e não separa a região. Na seção regional e no moderador, o coordenador deve tratá-lo como multinacional, não como estudo do Brasil nem da América Latina: um filtro de igualdade já o exclui."
+  },
+  {
+   "id_efeito": "Lago2015-E01",
+   "divergencia": "Campos de contexto (sem divergência; conferidos): ano_eleicao_pre2010 = nao, sistema_eleitoral = outro, desenho_fino = outro, realismo_contexto = real, familia_intervencao = pesquisa_pre_eleitoral.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Relying on aggregated data from the most recent Lower House elections in 46 democracies",
+   "pagina": 6,
+   "justificativa": "Pelo codebook, ano_eleicao recebe o ano mais recente com vários anos (2013), logo pre2010 = nao; registro que 4 das 46 eleições são de 2009 (Índia, Indonésia, África do Sul, Uruguai; Tabela A1). A amostra mistura sistemas proporcionais, mistos e majoritários, e 'misto' no codebook designa o sistema de membros mistos; outro está certo. Valem para E02 e E03."
+  }
+ ],
+ "linhas_novas": []
+}

@@ -1,0 +1,152 @@
+{
+ "chave": "Alabrese2024a",
+ "resumo": "Números das duas extrações coincidem e conferem com as Tabelas 2, A.1 e A.7. Mobilização: modelo principal mantido (Tabela 2 col. 2); corrigidos o comparador (outro_resultado) e o estimando (associacao). Apoio ao líder: Pr. of Winning não é medida aceita de apoio, então o principal passa de E129 (col. 5) às quatro colunas de votação da Tabela A.7 (E125-E128, subamostras igualmente centrais, Emenda 2), com os alvos da original mantidos. Coordenador: trocar E129 por E125-E128 no FORA (continuam termos de interação) e, se quiser coerência, aplicar outro_resultado/associacao às demais 126 linhas não principais, que têm o mesmo erro de classificação.",
+ "decisoes": [
+  {
+   "id_efeito": "Alabrese2024a-E002",
+   "divergencia": "Valores iguais (beta -0.1763, EP 0.0275, n 4676, sdy 0.0824, Tabela 2 col. 2, folha 30); classificação divergente: comparador_tipo outro x outro_resultado; estimando outro x associacao.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "The coefficient β captures the mechanism under investigation, which is the interaction between national competitiveness as inferred by NationalPollmargin (one to four weeks w before the election day)",
+   "pagina": 23,
+   "justificativa": "Todas as circunscrições foram expostas às pesquisas; o contraste é entre eleições cujas pesquisas mostraram margens diferentes, isto é, outro resultado ('outro' só quando nada serve; a ficha já registra outro_resultado). A margem nacional não é atribuída (regressão sobre variável não atribuída, regra do estimando de prompt_complemento_efeitos.md e 'painéis com estimando de associação' do protocolo, seção 8), e E009-E023 do mesmo estudo já usam associacao. Números e modelo principal conferidos: manter (col. 2 é a decomposta na Figura 5, folha 30). Continua no FORA."
+  },
+  {
+   "id_efeito": "Alabrese2024a-E129",
+   "divergencia": "Modelo principal de apoio_ao_lider: original = Tabela A.7 col. 5 (Pr. of Winning do incumbente, I = P); cega = Tabela A.7 cols. 1-4 (vote share). Também comparador_tipo outro x outro_resultado e estimando outro x associacao.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "sim",
+     "para": "nao"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "vote shares for local incumbents are statistically unaffected by variations in poll lead with no differences across local safeness",
+   "pagina": 36,
+   "justificativa": "Pr. of Winning (indicador de o partido vencer a cadeira) não está entre as medidas aceitas de apoio_ao_lider (protocolo, seção 2: intenção, escolha ou votação agregada), e o próprio texto mostra que vitória e apoio divergem (vitória cai com votação inalterada; no caso I != P, a folha 38 atribui a vitória do incumbente à fragmentação dos rivais). A regra da Emenda 2 escolhe entre modelos da medida aceita: votação, Tabela A.7 cols. 1-4 (E125-E128). Os autores preferem a vitória na eq. 2 (folha 24), mas isso decide só entre medidas elegíveis."
+  },
+  {
+   "id_efeito": "Alabrese2024a-E125",
+   "divergencia": "Não comparada pelo script: é a linha da cega para o modelo principal (Tabela A.7 col. 1, vote share do incumbente, I = P, alvo lider). Valores iguais aos da cega (beta -0.0634, EP 0.0821, sdy 0.0911, n 2026). Original com modelo_principal = nao, comparador outro, estimando outro.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Dependent variables are: constituency-level party vote shares, and an indicator for whether the party won the constituency race.",
+   "pagina": 57,
+   "justificativa": "Votação do partido é a medida aceita de apoio_ao_lider (rota beta_sd, protocolo seção 6); as cols. 1-4 são o mesmo modelo da col. 5-8 com essa medida. Pela Emenda 2, as subamostras I = P e I != P e os dois partidos (Figura 7, painéis A-D, discutidos em paralelo) são igualmente centrais: listar todas. É coeficiente de interação: o coordenador deve pôr E125-E128 no FORA no lugar de E129, com o mesmo motivo."
+  },
+  {
+   "id_efeito": "Alabrese2024a-E126",
+   "divergencia": "Não comparada pelo script. Cega marca como principal (col. 2, vote share do incumbente, I != P) com alvo azarao; original: nao, alvo segundo_viavel, comparador outro, estimando outro.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "takes value one if the party is the incumbent at the local level but is predicted to lose at the national level",
+   "pagina": 67,
+   "justificativa": "Principal pela Emenda 2 (subamostra I != P igualmente central). Alvo mantido segundo_viavel: a pesquisa mostra o partido (Con ou Lab) atrás na margem Con-Lab de uma disputa nacional com três ou mais partidos, não azarão de disputa de dois; direcao_desejada aumentar (correção G8) fica. Valores conferidos (-0.0984; 0.0623; n 1706; sdy 0.0932). Entra no FORA."
+  },
+  {
+   "id_efeito": "Alabrese2024a-E127",
+   "divergencia": "Não comparada pelo script. Cega marca como principal (col. 3, vote share do seguidor, I = P) com alvo azarao; original: nao, alvo segundo_viavel, comparador outro, estimando outro.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "The lower turnout associated with a more favorable national lead proves detrimental for the local incumbent but advantageous for the local follower.",
+   "pagina": 36,
+   "justificativa": "Principal pela Emenda 2 (resultado do seguidor discutido no corpo e na nota 24, cols. 1 e 3). Alvo mantido segundo_viavel pela mesma razão de E126 (disputa nacional com três ou mais partidos). Valores conferidos (0.5588; 0.0719; n 1337; sdy 0.0933; p<0.01). Entra no FORA."
+  },
+  {
+   "id_efeito": "Alabrese2024a-E128",
+   "divergencia": "Não comparada pelo script. Cega marca como principal (col. 4, vote share do seguidor, I != P, alvo lider); original: nao, comparador outro, estimando outro.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "takes value one if the party is not the incumbent at the local level but is leading national polls",
+   "pagina": 67,
+   "justificativa": "Principal pela Emenda 2 (subamostra I != P). Alvo lider concorda nas duas extrações. Valores conferidos (-1.3001; 0.1808; n 1252; sdy 0.0944; p<0.01). Entra no FORA."
+  }
+ ],
+ "linhas_novas": []
+}

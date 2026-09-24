@@ -963,7 +963,7 @@
       "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P027]",
       "n": 554,
       "arquivo": "05-decomposicao/verificacao_efeitos.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P033",
@@ -1024,6 +1024,16 @@
       "n": null,
       "arquivo": null,
       "status": "aberta"
+    },
+    {
+      "id": "P039",
+      "tipo": "verificacao_humana_efeitos",
+      "etapa": "09_extracao_rob",
+      "portao": "G7",
+      "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P032]",
+      "n": 560,
+      "arquivo": "05-decomposicao/verificacao_efeitos.csv",
+      "status": "aberta"
     }
   ],
   "contagens_cache": {
@@ -1036,5 +1046,5 @@
       }
     }
   },
-  "ultimo_seq": 796
+  "ultimo_seq": 816
 }

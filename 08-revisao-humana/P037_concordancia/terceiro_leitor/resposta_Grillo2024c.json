@@ -1,0 +1,186 @@
+[
+ {
+  "id_item": "C084",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Exit polls and voter turnout in the 2017 French elections",
+  "trecho": "Exit polls and voter turnout in the 2017 French elections",
+  "pagina": 2,
+  "justificativa": "Os dois valores são idênticos e reproduzem o título da folha de rosto do artigo."
+ },
+ {
+  "id_item": "C085",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "França",
+  "trecho": "The 2017 French presidential elections took place on April 23 and May 7 2017.",
+  "pagina": 5,
+  "justificativa": "Os dois valores são idênticos; a eleição estudada é a presidencial francesa de 2017."
+ },
+ {
+  "id_item": "C086",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Estimar o efeito da divulgação antecipada de bocas de urna por mídias estrangeiras sobre o comparecimento eleitoral no segundo turno da eleição presidencial francesa de 2017",
+  "trecho": "We exploit the unusual timing and degree of conﬁdence with which exit polls were released in the second round of the 2017 presidential elections to investigate their eﬀect on voter turnout.",
+  "pagina": 2,
+  "justificativa": "As duas formulações descrevem o mesmo objetivo (efeito da divulgação antecipada de bocas de urna por mídia estrangeira no segundo turno de 2017 sobre o comparecimento); a diferença é só de redação."
+ },
+ {
+  "id_item": "C087",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Os 96 departamentos da França continental (metropolitana), com dados agregados de comparecimento; em 2017 e, na tripla diferença, também em 2012 e 2007",
+  "trecho": "Our dataset contains turnout rates, election results for each candidate, and the number of registered voter at the department level in 2017, 2012 and 2007",
+  "pagina": 6,
+  "justificativa": "Ambos identificam as unidades como os 96 departamentos continentais com dados agregados; um acrescenta os anos, o outro frisa que não são indivíduos, sem contradição."
+ },
+ {
+  "id_item": "C088",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "2007 a 2017 (eleições presidenciais de 2007, 2012 e 2017, primeiro e segundo turnos; comparecimento às 12:00, 17:00 e no fechamento)",
+  "trecho": "the number of registered voter at the department level in 2017, 2012 and 2007, obtained from the French interior ministry. Voter turnout is measured at 12:00, 17:00 and when polling stations closed.",
+  "pagina": 6,
+  "justificativa": "Os dois cobrem as eleições de 2007, 2012 e 2017 com os dois turnos; o original só detalha datas e horários de medição, o que não muda o período."
+ },
+ {
+  "id_item": "C089",
+  "sugestao": "original",
+  "valor_sugerido": "Divulgação antecipada de resultados de boca de urna por mídias francófonas da Bélgica e da Suíça no dia do segundo turno, com as urnas ainda abertas até 19:00 ou 20:00: a emissora belga RTBF informou por volta das 16:00 que Macron venceria com pelo menos 60% dos votos e às 16:20 atualizou sua projeção de votação, notícia replicada rapidamente por outras mídias estrangeiras e por redes sociais como o Twitter. A fonte da variação é a lei francesa que proíbe a publicação antes do fechamento das urnas e à qual as mídias estrangeiras não se submetem, somada ao fato de que, em 2017, a vantagem prevista era grande o bastante para que essas mídias divulgassem mais cedo e com mais confiança do que em 2012 e 2007",
+  "trecho": "While in France it is forbidden to publish exit polls before polling stations close, foreign media do not abide by this law.",
+  "pagina": 3,
+  "justificativa": "O codebook pede, em experimentos naturais, a fonte da variação (proibição/embargo); o original a descreve (lei francesa que as mídias estrangeiras não seguem, e a margem de 2017 que permitiu divulgar mais cedo), e a revalidação a omite."
+ },
+ {
+  "id_item": "C090",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Comparecimento às 12:00, antes da divulgação, contra o comparecimento às 17:00 e no fechamento, depois dela, tendo o primeiro turno de 2017 como grupo de controle e, na tripla diferença, as eleições de 2012 e 2007",
+  "trecho": "As in a diﬀerence-in-diﬀerences setting, we use turnout rates at 12:00 as the pre-period and turnout rates at 17:00 and at the closing time as post-periods, with the ﬁrst round as the “control group”.",
+  "pagina": 6,
+  "justificativa": "Ambos descrevem o mesmo contraste antes (12h) e depois (17h e fechamento), com o primeiro turno como controle; o original só acrescenta a comparação com 2012 e 2007 da tripla diferença."
+ },
+ {
+  "id_item": "C091",
+  "sugestao": "original",
+  "valor_sugerido": "Taxa de comparecimento por departamento, medida agregada e não individual, registrada às 12:00, às 17:00 e no fechamento das urnas; o estudo não mede apoio ao líder nem ao candidato mostrado atrás",
+  "trecho": "Voter turnout is measured at 12:00, 17:00 and when polling stations closed.",
+  "pagina": 6,
+  "justificativa": "Os dois descrevem a mesma taxa agregada por departamento nos três horários, mas o codebook pede que se diga se a medida é apoio ao líder ou ao candidato atrás; só o original responde (não mede apoio a candidato)."
+ },
+ {
+  "id_item": "C092",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "teste_de_canal",
+  "trecho": "Speciﬁcally, given the ideological positions of Macron and Le Pen, voters with left-wing preferences could be more likely to opt for abstention after the information shock, instead of voting for a candidate that was only weakly preferred.",
+  "pagina": 10,
+  "justificativa": "Além de enunciar o mecanismo (voto instrumental), os autores testam implicações dele por heterogeneidade (proximidade da Bélgica como exposição; departamentos de esquerda com preferência fraca), o que é teste de canal, embora fraco (p = 0,113). O valor no vocabulário é só teste_de_canal, sem o parêntese."
+ },
+ {
+  "id_item": "C093",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Recurso: divulgação antecipada da boca de urna mostrando o candidato à frente com larga vantagem enquanto as urnas seguiam abertas; Raciocínio: a incerteza sobre o resultado cai drasticamente e, sendo o voto ao menos em parte estratégico e instrumental, parte do eleitorado deixa de fazer o esforço de votar mais tarde no dia; Contexto: segundo turno de 2017 apresentado como já decidido, com mídias belgas e suíças fora do alcance da proibição francesa de publicar antes do fechamento",
+  "trecho": "These results give credit to theories of voting as an act which is, at least partially, strategic and instrumental, in contrast to theories of voting as a non-strategic decision motivated by civic duty or by a consumption beneﬁt.",
+  "pagina": 4,
+  "justificativa": "Os dois seguem o formato Recurso/Raciocínio/Contexto e atribuem o mesmo mecanismo (resultado percebido como decidido reduz o benefício instrumental de votar); a revalidação só acrescenta a preferência fraca da esquerda, que o texto também sustenta."
+ },
+ {
+  "id_item": "C094",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "(1) Geografia, medida pela distância do departamento à Bélgica ou à Suíça: nos departamentos próximos e muito próximos da Bélgica a queda de comparecimento às 17:00 é significativamente maior do que nos demais, e no fechamento o coeficiente vai na mesma direção mas não é significativo; os departamentos próximos da Suíça não diferem dos demais. (2) Preferências expressas no primeiro turno: a queda é maior nos departamentos em que Macron foi o mais votado, com significância apenas a 10%, e nos departamentos no topo 50% da soma dos votos dos dois candidatos de esquerda, sem significância nos níveis convencionais; não há heterogeneidade nos departamentos em que Le Pen foi a mais votada nem no topo 50% do candidato de direita",
+  "trecho": "signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland do not signiﬁcantly diﬀer from all the others.",
+  "pagina": 9,
+  "justificativa": "Os dois registram as mesmas duas dimensões (proximidade de Bélgica e Suíça; preferências do 1º turno) com as mesmas conclusões por subgrupo; a revalidação só acrescenta os p-valores 0,099 e 0,113, que conferem com o texto."
+ },
+ {
+  "id_item": "C095",
+  "sugestao": "original",
+  "valor_sugerido": "Desmobilização, isto é, queda do comparecimento depois da divulgação da boca de urna; e possível efeito underdog, com abstenção relativamente maior entre eleitores de esquerda e nos departamentos em que o candidato à frente havia vencido o primeiro turno, o que segundo os autores teria reduzido a margem de vitória",
+  "trecho": "We do not ﬁnd clear evidence that either candidate beneﬁted from the decrease in turnout, yet we cannot exclude the presence of a small underdog eﬀect which reduced the winning margin by around 1 percentage point.",
+  "pagina": 2,
+  "justificativa": "O codebook lista a desmobilização (comparecimento) como efeito não intencional, e a queda de comparecimento é exatamente isso; a revalidação a exclui por ser o outcome principal, contra a regra. O possível efeito underdog aparece nos dois."
+ },
+ {
+  "id_item": "C096",
+  "sugestao": "original",
+  "valor_sugerido": "Tendências semelhantes de comparecimento ao longo do dia já apareciam em eleições anteriores, o que enfraquece a leitura causal; a identificação de efeito causal com dados de eleições reais é difícil porque o voto é secreto e os efeitos podem vir tanto do comparecimento quanto da escolha de voto; a leitura de efeito underdog depende de supor que eleitores de esquerda preferiam em média Macron a Le Pen",
+  "trecho": "Based on our results and under the assumption that left-wing voters in the 2017 French elections preferred on average Macron to Le Pen, we cannot exclude a mild underdog eﬀect,",
+  "pagina": 5,
+  "justificativa": "As três limitações do original estão no texto (tendências semelhantes em eleições anteriores, dificuldade de identificação com dados reais por voto secreto, e a suposição sobre a preferência da esquerda); a revalidação registra só a primeira."
+ },
+ {
+  "id_item": "C097",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Hipótese declarada de tendências paralelas: sem a divulgação das bocas de urna, o comparecimento do segundo turno teria seguido ao longo do dia a mesma trajetória do primeiro; na tripla diferença, supõe-se que a diferença de tendências entre turnos teria sido igual à observada em 2012 e 2007. Checagens apresentadas: comparação gráfica das trajetórias horárias de 2007, 2012 e 2017; estimação de tripla diferença contra 2012 e contra 2007; robustez à ponderação dos departamentos, a controles de chuva e temperatura máxima e à subamostra de departamentos onde não choveu",
+  "trecho": "This analysis assumes that, absent the information shock in 2017, the diﬀerence in turnout trends would have been the same as in the two previous elections.",
+  "pagina": 8,
+  "justificativa": "Ambos declaram tendências paralelas com o primeiro turno e a tripla diferença contra 2012 e 2007, com robustez a clima e à subamostra sem chuva; o original só detalha mais."
+ },
+ {
+  "id_item": "C098",
+  "sugestao": "original",
+  "valor_sugerido": "did_twfe",
+  "trecho": "As in a diﬀerence-in-diﬀerences setting, we use turnout rates at 12:00 as the pre-period and turnout rates at 17:00 and at the closing time as post-periods,",
+  "pagina": 6,
+  "justificativa": "O modelo principal é a regressão canônica 2x2 de diferenças em diferenças (indicadores de período, de turno e a interação, erros agrupados), que é o caso de efeitos fixos de grupo e tempo; mqo descreve só o método de cálculo, não o estimador do desenho."
+ },
+ {
+  "id_item": "C099",
+  "sugestao": "original",
+  "valor_sugerido": "ATT",
+  "trecho": "that, if the exit polls had not been released, voter turnout would have followed the same trend as in the ﬁrst round.",
+  "pagina": 7,
+  "justificativa": "Pela regra 3 do codebook, DiD sem atribuição aleatória com comparação entre unidades tratadas observadas é ATT; não há nada que leve a ATE."
+ },
+ {
+  "id_item": "C100",
+  "sugestao": "original",
+  "valor_sugerido": "A exposição não foi atribuída por desenho: a divulgação atingiu todo o país no mesmo horário e os dados são agregados por departamento, que é o nível efetivo de análise. Os erros-padrão são agrupados no nível do departamento e os departamentos são ponderados pelo número de eleitores registrados; tamanho médio de cluster e ICC não são reportados",
+  "trecho": "Standard errors are clustered at the department level and departments are weighted by the number of registered voters.",
+  "pagina": 7,
+  "justificativa": "A exposição do modelo principal varia por turno e horário, não por departamento (a divulgação vale para todo o país); o original diz isso, enquanto a revalidação a situa no departamento. Ambos acertam o agrupamento por departamento e a ausência de ICC."
+ },
+ {
+  "id_item": "C101",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "nenhum",
+  "trecho": "turnoutt,r,d = β1timet + β2roundr + β3timet × roundr + ϵt,r,d",
+  "pagina": 7,
+  "justificativa": "Os dois registram nenhum controle na especificação principal (Tabela 1, coluna 1), que só tem os termos de período, turno e interação; as justificativas entre parênteses dizem o mesmo."
+ },
+ {
+  "id_item": "C102",
+  "sugestao": "original",
+  "valor_sugerido": "controle",
+  "trecho": "Final voter turnout round 1 80.072 2.648 67.239 84.290",
+  "pagina": 17,
+  "justificativa": "A Tabela 5 informa o DP do comparecimento final no primeiro turno (2,648), que é o grupo de controle do DiD, e separadamente o do segundo turno; logo há DP do controle, e nao_reportado está errado."
+ },
+ {
+  "id_item": "C103",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Os autores concluem que a divulgação antecipada das bocas de urna reduziu o comparecimento no segundo turno de 2017, efeito que consideram sugestivo de causalidade ainda que tendências semelhantes apareçam em eleições anteriores",
+  "trecho": "We ﬁnd a signiﬁcant decrease in turnout of around 3 to 4 percentage points after the exit polls’ publication which is suggestive of a causal eﬀect, although similar trends were observed in previous elections.",
+  "pagina": 2,
+  "justificativa": "Os dois dizem que os autores leem a queda de comparecimento como sugestiva de efeito causal; a revalidação só acrescenta a leitura sobre voto instrumental, que também está no texto."
+ },
+ {
+  "id_item": "C104",
+  "sugestao": "original",
+  "valor_sugerido": "Não",
+  "trecho": "If the uncertainty is drastically reduced, will citizens still make the eﬀort to vote?",
+  "pagina": 3,
+  "justificativa": "O texto não afirma a regra, mas o codebook admite responder pela eleição descrita, e a presidencial francesa de 2017 tem voto facultativo; o próprio estudo trata o comparecimento como escolha. 999 fica reservado a experimento sem eleição real."
+ },
+ {
+  "id_item": "C105",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "Macron previsto com pelo menos 60% dos votos (margem implícita de pelo menos 20 p.p.), depois atualizado para 62%-64% (margem implícita de 24 a 28 p.p.) contra Le Pen",
+  "trecho": "RTBF reported already at around 16:00 that Macron was predicted to win with at least 60% of the votes, and updated his vote share to 62%-64% at around 16:20.",
+  "pagina": 6,
+  "justificativa": "A informação divulgada está no texto, então 999 está errado; num segundo turno com dois candidatos a margem decorre das parcelas reportadas. A revalidação está certa em substância; o valor sugerido só acrescenta a margem do primeiro anúncio (pelo menos 20 p.p.)."
+ },
+ {
+  "id_item": "C106",
+  "sugestao": "original",
+  "valor_sugerido": "999",
+  "trecho": "Our baseline speciﬁcation compares turnout rates before (at 12:00) and after (at 17:00 and at the closing time) the information shock with respect to the ﬁrst round in the 2017 elections.",
+  "pagina": 6,
+  "justificativa": "O efeito principal é sobre o comparecimento agregado, não sobre o apoio a um candidato; nenhuma categoria de alvo_efeito se aplica, e lider supõe apoio medido ao líder, que o estudo não mede (a análise de underdog é heterogeneidade, não o efeito principal)."
+ }
+]

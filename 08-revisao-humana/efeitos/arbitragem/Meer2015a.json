@@ -1,0 +1,242 @@
+{
+ "chave": "Meer2015a",
+ "resumo": "Os valores das duas extrações coincidem; o erro está na classificação. O PvdA aparece em 3º-4º (20 cadeiras) numa pesquisa de 11 partidos e a manipulação é de momento, então alvo = nao_se_aplica (não segundo_viavel), e o VVD das linhas de robustez é lider; o texto discute leitura imperfeita das vinhetas, então estimando = ITT em todas as linhas. O E07 passa a sem_pesquisa, e E08-E10 têm o comparador ligado ao grupo de resultado seco (p0 = 16,5% é o grupo 'Poll' na Figura 1), com n2 corrigido; o modelo principal (E01) fica, mas com alvo nao_se_aplica sai da SWiM se cel() não tratar Meer2015a como momentum.",
+ "decisoes": [
+  {
+   "id_efeito": "Meer2015a-E01",
+   "divergencia": "alvo_efeito segundo_viavel (original) × nao_se_aplica (cega); estimando ATE × ITT. Valores (β 0,23, EP 0,13, N 10643) iguais; comparador outro igual.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    }
+   ],
+   "trecho": "i Published May 13th. VVD 28 seats; PVV 20 seats; CDA 15 seats; PvdA 20 seats; SP 29 seats; D66 17 seats;",
+   "pagina": 28,
+   "justificativa": "Na pesquisa mostrada (peil.nl, nota i da Tabela 1) o PvdA tem 20 cadeiras, empatado em 3º-4º atrás de SP (29) e VVD (28) numa lista de 11 partidos: não é segundo colocado nem cabe em outra posição do codebook, e a manipulação é de momento/enquadramento com a mesma pesquisa em todos os braços ('we focus exclusively on the bandwagon vote related to momentum', folha 5), logo nao_se_aplica (Emenda 4b, como Dahlgaard2016a Social-Democratas). Estimando ITT pela regra 2 de b2_estimando: o texto discute explicitamente leitura imperfeita do tratamento, \"the respondents may have been less likely to read the vignettes intensively\" (folha 13; também folha 17: \"therefore been less exposed to the treatment in our experiment\"); a própria ficha do estudo já registra ITT com esse trecho. Modelo principal mantido (Tabela 2, Modelo 1, crescimento × resultado seco): as duas extrações concordam e o texto o usa como teste confirmatório ('After including additional controls (model 1), the positive effect of a growth trigger is even stronger', folha 16). comparador_tipo 'outro' está certo: o grupo de referência viu a MESMA pesquisa, sem a vinheta, então o contraste é de ponto de referência, não de outro resultado nem de sem pesquisa. ATENÇÃO para o coordenador: com alvo nao_se_aplica, cel() de 06-analise/montar_entradas_swim.py manda a linha para 'outro' (momentum está fixo só para Dahlgaard2016a) e ela some de todas as entradas da SWiM; pela Emenda 4b ela deveria ir para a célula momentum. Nota menor: p = 0,045 impresso é unilateral (nota 9, folha 32; testes unilaterais, folha 14)."
+  },
+  {
+   "id_efeito": "Meer2015a-E02",
+   "divergencia": "Linha não principal (ponto de referência declínio × resultado seco, Tabela 2 Modelo 1); a cega tem a mesma linha com alvo nao_se_aplica e estimando ITT. Não aparece em comparacao_cega.csv.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    }
+   ],
+   "trecho": "i Published May 13th. VVD 28 seats; PVV 20 seats; CDA 15 seats; PvdA 20 seats; SP 29 seats; D66 17 seats;",
+   "pagina": 28,
+   "justificativa": "Na pesquisa mostrada (peil.nl, nota i da Tabela 1) o PvdA tem 20 cadeiras, empatado em 3º-4º atrás de SP (29) e VVD (28) numa lista de 11 partidos: não é segundo colocado nem cabe em outra posição do codebook, e a manipulação é de momento/enquadramento com a mesma pesquisa em todos os braços ('we focus exclusively on the bandwagon vote related to momentum', folha 5), logo nao_se_aplica (Emenda 4b, como Dahlgaard2016a Social-Democratas). Estimando ITT pela regra 2 de b2_estimando: o texto discute explicitamente leitura imperfeita do tratamento, \"the respondents may have been less likely to read the vignettes intensively\" (folha 13; também folha 17: \"therefore been less exposed to the treatment in our experiment\"); a própria ficha do estudo já registra ITT com esse trecho. Valor e comparador 'outro' conferidos (mesmo grupo de referência do E01)."
+  },
+  {
+   "id_efeito": "Meer2015a-E03",
+   "divergencia": "Linha não principal (enquadramento negativo × resultado seco, Tabela 2 Modelo 1); a cega tem a mesma linha com alvo nao_se_aplica e estimando ITT. Não aparece em comparacao_cega.csv.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    }
+   ],
+   "trecho": "i Published May 13th. VVD 28 seats; PVV 20 seats; CDA 15 seats; PvdA 20 seats; SP 29 seats; D66 17 seats;",
+   "pagina": 28,
+   "justificativa": "Na pesquisa mostrada (peil.nl, nota i da Tabela 1) o PvdA tem 20 cadeiras, empatado em 3º-4º atrás de SP (29) e VVD (28) numa lista de 11 partidos: não é segundo colocado nem cabe em outra posição do codebook, e a manipulação é de momento/enquadramento com a mesma pesquisa em todos os braços ('we focus exclusively on the bandwagon vote related to momentum', folha 5), logo nao_se_aplica (Emenda 4b, como Dahlgaard2016a Social-Democratas). Estimando ITT pela regra 2 de b2_estimando: o texto discute explicitamente leitura imperfeita do tratamento, \"the respondents may have been less likely to read the vignettes intensively\" (folha 13; também folha 17: \"therefore been less exposed to the treatment in our experiment\"); a própria ficha do estudo já registra ITT com esse trecho. Valor e comparador 'outro' conferidos (mesmo grupo de referência do E01)."
+  },
+  {
+   "id_efeito": "Meer2015a-E04",
+   "divergencia": "Linha não principal (enquadramento positivo × resultado seco, Tabela 2 Modelo 1); a cega tem a mesma linha com alvo nao_se_aplica e estimando ITT. Não aparece em comparacao_cega.csv.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    }
+   ],
+   "trecho": "i Published May 13th. VVD 28 seats; PVV 20 seats; CDA 15 seats; PvdA 20 seats; SP 29 seats; D66 17 seats;",
+   "pagina": 28,
+   "justificativa": "Na pesquisa mostrada (peil.nl, nota i da Tabela 1) o PvdA tem 20 cadeiras, empatado em 3º-4º atrás de SP (29) e VVD (28) numa lista de 11 partidos: não é segundo colocado nem cabe em outra posição do codebook, e a manipulação é de momento/enquadramento com a mesma pesquisa em todos os braços ('we focus exclusively on the bandwagon vote related to momentum', folha 5), logo nao_se_aplica (Emenda 4b, como Dahlgaard2016a Social-Democratas). Estimando ITT pela regra 2 de b2_estimando: o texto discute explicitamente leitura imperfeita do tratamento, \"the respondents may have been less likely to read the vignettes intensively\" (folha 13; também folha 17: \"therefore been less exposed to the treatment in our experiment\"); a própria ficha do estudo já registra ITT com esse trecho. Valor e comparador 'outro' conferidos (mesmo grupo de referência do E01)."
+  },
+  {
+   "id_efeito": "Meer2015a-E05",
+   "divergencia": "Linha não principal (VVD, TNS Nipo, sucesso × resultado seco, Tabela 3 Modelo 1): original com alvo segundo_viavel e ATE; a cega registra alvo lider e ITT.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    }
+   ],
+   "trecho": "j Published May 1st. VVD 33 seats; PVV 19 seats; CDA 16 seats; PvdA 22 seats; SP 28 seats;",
+   "pagina": 28,
+   "justificativa": "Na pesquisa TNS Nipo mostrada nesses braços o VVD é o maior partido (33 cadeiras, à frente de SP 28), e as vinhetas repetem 'The VVD remains the largest party' (nota g, folha 28): pela posição, alvo = lider, direcao_desejada = aumentar já coerente. O contraste continua de enquadramento contra o mesmo resultado seco (comparador 'outro' certo). Estimando ITT pela regra 2 de b2_estimando, \"the respondents may have been less likely to read the vignettes intensively\" (folha 13; também folha 17: \"therefore been less exposed to the treatment in our experiment\")."
+  },
+  {
+   "id_efeito": "Meer2015a-E06",
+   "divergencia": "Linha não principal (VVD, TNS Nipo, fracasso × resultado seco, Tabela 3 Modelo 1): original com alvo segundo_viavel e ATE; a cega registra alvo lider e ITT.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    }
+   ],
+   "trecho": "j Published May 1st. VVD 33 seats; PVV 19 seats; CDA 16 seats; PvdA 22 seats; SP 28 seats;",
+   "pagina": 28,
+   "justificativa": "Na pesquisa TNS Nipo mostrada nesses braços o VVD é o maior partido (33 cadeiras, à frente de SP 28), e as vinhetas repetem 'The VVD remains the largest party' (nota g, folha 28): pela posição, alvo = lider, direcao_desejada = aumentar já coerente. O contraste continua de enquadramento contra o mesmo resultado seco (comparador 'outro' certo). Estimando ITT pela regra 2 de b2_estimando, \"the respondents may have been less likely to read the vignettes intensively\" (folha 13; também folha 17: \"therefore been less exposed to the treatment in our experiment\")."
+  },
+  {
+   "id_efeito": "Meer2015a-E07",
+   "divergencia": "Contraste da H1 (resultado seco × grupos sem pesquisa): original com comparador_tipo outro, alvo segundo_viavel e ATE; a cega registra sem_pesquisa, nao_se_aplica e ITT.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    }
+   ],
+   "trecho": "Being exposed to dry poll results did not affect intention to vote PvdA compared to having no information about the polls at all (difference in point estimate: 0.1%).",
+   "pagina": 15,
+   "justificativa": "O grupo de comparação (grupos 1 e 2, n = 2391 + 2306 = 4697) não viu pesquisa: sem_pesquisa. Alvo e estimando como no E01 (PvdA 3º-4º com 20 cadeiras; leitura imperfeita discutida na folha 13). PARA O REVISOR, sem alteração proposta: o sinal de 0,1 p.p. não é impresso (a original gravou +0,1), e p0 = 0,165 é o valor do grupo 'Poll' (tratado) na Figura 1, não o dos grupos sem pesquisa (lido de figura: No question ≈ 16,8%, Basic question ≈ 17,5%, Poll ≈ 16,5%), o que sugere diferença negativa e maior que 0,1; o texto e a figura não batem."
+  },
+  {
+   "id_efeito": "Meer2015a-E08",
+   "divergencia": "Linha não principal (vinheta de crescimento, bivariado): original com alvo segundo_viavel e ATE, e comparador descrito como 'grupos de controle sem pesquisa' (n2 = 4697) com p0 = 0,165; a cega registra o mesmo contraste (efeitos_complementares) com nao_se_aplica e ITT e nota que 16,5% é o grupo 'Poll'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    },
+    {
+     "campo": "n2",
+     "de": "4697",
+     "para": "2306"
+    },
+    {
+     "campo": "modelo",
+     "de": "Figura 1 e texto (p. 15), bivariado: vinheta de crescimento vs. grupos de controle sem pesquisa",
+     "para": "Figura 1 e texto (p. 15), bivariado: vinheta de crescimento vs. resultado seco da pesquisa (16,5%; o texto diz 'control groups', mas na Figura 1 esse valor é o do grupo 'Poll')"
+    }
+   ],
+   "trecho": "Support ranges from 16.5% in the control groups to 18.5% in the group that was triggered to consider that the PvdA had grown in the polls.",
+   "pagina": 15,
+   "justificativa": "Alvo e estimando como no E01. Lido de figura (folha 31, posições medidas na página renderizada): No question ≈ 16,8%, Basic question ≈ 17,5%, Poll ≈ 16,5%, crescimento ≈ 18,5%, declínio ≈ 16,8%, negativo ≈ 18,3%, positivo ≈ 18,2%. Os 16,5% que o texto chama de 'control groups' são o mínimo da faixa ('Support ranges from 16.5%') e coincidem com o grupo 'Poll' (resultado seco, grupo 3, n = 2306); os dois grupos sem pesquisa juntos dariam ≈ 17,1%. Como p0 = 0,165 é o grupo de resultado seco, o comparador real é esse grupo: comparador_tipo 'outro' fica, e n2 e a descrição do modelo passam a esse grupo. Recomendo conferência humana, porque a atribuição depende de leitura de figura."
+  },
+  {
+   "id_efeito": "Meer2015a-E09",
+   "divergencia": "Linha não principal (vinheta de declínio, bivariado): original com alvo segundo_viavel e ATE, e comparador descrito como 'grupos de controle sem pesquisa' (n2 = 4697) com p0 = 0,165; a cega registra o mesmo contraste (efeitos_complementares) com nao_se_aplica e ITT e nota que 16,5% é o grupo 'Poll'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    },
+    {
+     "campo": "n2",
+     "de": "4697",
+     "para": "2306"
+    },
+    {
+     "campo": "modelo",
+     "de": "Figura 1 e texto (p. 15), bivariado: vinheta de declinio vs. grupos de controle sem pesquisa",
+     "para": "Figura 1 e texto (p. 15), bivariado: vinheta de declinio vs. resultado seco da pesquisa (16,5%, grupo 'Poll' na Figura 1)"
+    }
+   ],
+   "trecho": "PvdA-support in that group is 16.8%, statistically indistinguishable from the control group.",
+   "pagina": 15,
+   "justificativa": "Alvo e estimando como no E01. Lido de figura (folha 31, posições medidas na página renderizada): No question ≈ 16,8%, Basic question ≈ 17,5%, Poll ≈ 16,5%, crescimento ≈ 18,5%, declínio ≈ 16,8%, negativo ≈ 18,3%, positivo ≈ 18,2%. Os 16,5% que o texto chama de 'control groups' são o mínimo da faixa ('Support ranges from 16.5%') e coincidem com o grupo 'Poll' (resultado seco, grupo 3, n = 2306); os dois grupos sem pesquisa juntos dariam ≈ 17,1%. Como p0 = 0,165 é o grupo de resultado seco, o comparador real é esse grupo: comparador_tipo 'outro' fica, e n2 e a descrição do modelo passam a esse grupo. Recomendo conferência humana, porque a atribuição depende de leitura de figura."
+  },
+  {
+   "id_efeito": "Meer2015a-E10",
+   "divergencia": "Linha não principal (vinhetas de enquadramento, bivariado): original com alvo segundo_viavel e ATE, e comparador descrito como 'grupos de controle sem pesquisa' (n2 = 4697) com p0 = 0,165; a cega registra o mesmo contraste (efeitos_complementares) com nao_se_aplica e ITT e nota que 16,5% é o grupo 'Poll'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "ITT"
+    },
+    {
+     "campo": "n2",
+     "de": "4697",
+     "para": "2306"
+    },
+    {
+     "campo": "modelo",
+     "de": "Figura 1 e texto (p. 15), bivariado: vinhetas de enquadramento negativo e positivo em conjunto vs. grupos de controle sem pesquisa",
+     "para": "Figura 1 e texto (p. 15), bivariado: vinhetas de enquadramento negativo e positivo em conjunto vs. resultado seco da pesquisa (16,5%, grupo 'Poll' na Figura 1)"
+    }
+   ],
+   "trecho": "score somewhat in between (18.2%), though not significantly different from the control groups.",
+   "pagina": 15,
+   "justificativa": "Alvo e estimando como no E01. Lido de figura (folha 31, posições medidas na página renderizada): No question ≈ 16,8%, Basic question ≈ 17,5%, Poll ≈ 16,5%, crescimento ≈ 18,5%, declínio ≈ 16,8%, negativo ≈ 18,3%, positivo ≈ 18,2%. Os 16,5% que o texto chama de 'control groups' são o mínimo da faixa ('Support ranges from 16.5%') e coincidem com o grupo 'Poll' (resultado seco, grupo 3, n = 2306); os dois grupos sem pesquisa juntos dariam ≈ 17,1%. Como p0 = 0,165 é o grupo de resultado seco, o comparador real é esse grupo: comparador_tipo 'outro' fica, e n2 e a descrição do modelo passam a esse grupo. Recomendo conferência humana, porque a atribuição depende de leitura de figura."
+  }
+ ],
+ "linhas_novas": []
+}

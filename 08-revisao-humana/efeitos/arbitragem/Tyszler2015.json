@@ -1,0 +1,79 @@
+{
+ "chave": "Tyszler2015",
+ "resumo": "A original está certa nos números: as coordenadas vetoriais da Figura 4 confirmam que 72-88% e 93-96% da conclusão são as barras do Majoritarian Set e ligam 88/93 a u=3 e 72/96 a u=8; a cega leu as barras do Majoritarian Candidate (0,81/0,62), que a conclusão não repete, e contou eleições em vez de eleitorados. Proponho E02 também como principal, porque a conclusão repete as duas condições de u como igualmente centrais, e o desenho marcado como RCT presumido, porque o texto não declara sorteio dos eleitorados aos tratamentos. Comparador (sem_pesquisa) e estimando (ATE) estão certos nas duas linhas; as linhas de voto estratégico da cega não viram linha nova.",
+ "decisoes": [
+  {
+   "id_efeito": "Tyszler2015-E01",
+   "divergencia": "Desfecho e valores: original usa barras Majoritarian Set (p0=0,88, p1=0,93, n1=n2=6 eleitorados); cega usa barras Majoritarian Candidate (p0=0,81, p1=0,93, n1=n2=240 eleições, cluster=40). Também revisados comparador_tipo e estimando.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "In our experiment, we observe this 72-88% of the time with uninformed voters and 93-96% of the time when voters know each others’ preferences (cf. figure 4).",
+   "pagina": 22,
+   "justificativa": "Leitura das coordenadas vetoriais da Figura 4 (folha 28; eixo 0,5 em y=245,30 e 1,0 em y=128,18; barra escura = legenda 'Majoritaian Set', clara = 'Majoritarian Candidate'): Set sem informação u=3 0,880, u=8 0,720; Set com informação u=3 0,929, u=8 0,960; Candidate sem informação u=3 0,809, u=8 0,620; com informação u=3 0,929, u=8 0,950. Pela regra usado_na_interpretacao vale o número repetido na conclusão, que é o do Set, e 0,88→0,93 é u=3 (0,72→0,96 é u=8); n por eleitorado é a unidade dos testes do artigo e dispensa o ajuste de cluster. sem_pesquisa e ATE estão certos: o braço sem informação não recebe pesquisa, e o contraste é entre braços sem adesão imperfeita discutida."
+  },
+  {
+   "id_efeito": "Tyszler2015-E01",
+   "divergencia": "Não detectada pelo script: o desenho diz 'RCT por cluster', mas o texto não declara que os eleitorados/sessões foram sorteados aos tratamentos (a cega anota o mesmo).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "desenho",
+     "de": "RCT por cluster (experimento de laboratório; informação variada entre eleitorados/sessões)",
+     "para": "RCT por cluster presumido (experimento de laboratório; informação variada entre eleitorados/sessões; atribuição aleatória dos eleitorados aos tratamentos não declarada no texto)"
+    }
+   ],
+   "trecho": "A full 2x2 combinatorial design therefore requires four treatments. All variations were made across subjects.",
+   "pagina": 14,
+   "justificativa": "O artigo só diz que as variações foram entre sujeitos, sem mecanismo de alocação. Mantenho a classe randomizada, coerente com o RoB 2 (D1 = algumas preocupações), e deixo a lacuna visível no texto, como no precedente de Urminsky2019; a conferência humana pode reclassificar."
+  },
+  {
+   "id_efeito": "Tyszler2015-E02",
+   "divergencia": "Desfecho e valores: original Set (p0=0,72, p1=0,96, n=6 eleitorados por braço); cega Candidate (p0=0,62, p1=0,95, n=240 eleições). Também revisados comparador_tipo e estimando.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "In our experiment, we observe this 72-88% of the time with uninformed voters and 93-96% of the time when voters know each others’ preferences (cf. figure 4).",
+   "pagina": 22,
+   "justificativa": "Mesma leitura vetorial da E01: a barra do Set sem informação em u=8 está em 0,720 e com informação em 0,960, o que confirma a ordem 72/96 que a nota de extração dava como lida só do gráfico. sem_pesquisa e ATE corretos pelas mesmas razões da E01."
+  },
+  {
+   "id_efeito": "Tyszler2015-E02",
+   "divergencia": "modelo_principal: original 'nao' (só u=3 como principal); a cega trata u=3 e u=8 como igualmente principais.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    }
+   ],
+   "trecho": "In our experiment, we observe this 72-88% of the time with uninformed voters and 93-96% of the time when voters know each others’ preferences (cf. figure 4).",
+   "pagina": 22,
+   "justificativa": "A faixa da conclusão, que fixa o modelo pelo critério usado_na_interpretacao, cobre as duas condições de u (88 e 72 sem informação, 93 e 96 com informação); a regra de b2_modelo_principal (Emenda 2) manda listar todas as subamostras tratadas como igualmente centrais. Efeito a jusante: E02 entra na SWiM principal e na célula da meta exploratória (--dependencia um_por_estudo) e muda a mediana de p0 que define δ."
+  },
+  {
+   "id_efeito": "Tyszler2015-E02",
+   "divergencia": "Não detectada pelo script: mesmo problema de desenho da E01 (RCT sem sorteio declarado).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "desenho",
+     "de": "RCT por cluster (experimento de laboratório; informação variada entre eleitorados/sessões)",
+     "para": "RCT por cluster presumido (experimento de laboratório; informação variada entre eleitorados/sessões; atribuição aleatória dos eleitorados aos tratamentos não declarada no texto)"
+    }
+   ],
+   "trecho": "A full 2x2 combinatorial design therefore requires four treatments. All variations were made across subjects.",
+   "pagina": 14,
+   "justificativa": "Mesma razão da E01: nenhum trecho declara atribuição aleatória dos eleitorados aos quatro tratamentos; a classe randomizada fica, com a lacuna registrada."
+  },
+  {
+   "id_efeito": "(sem linha na original: linhas 3 e 4 da cega)",
+   "divergencia": "A cega registra a fração de votos estratégicos (Tabela 2, MW por eleitorado) informado vs. sem informação, u=3 (4,9→16,9%) e u=8 (19,2→24,5%), em apoio_ao_lider com alvo nao_se_aplica; a original não tem essas linhas.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "We observe fractions equal to 0.05 when voters are uninformed and 0.17 when they are informed (cf. table 2).",
+   "pagina": 17,
+   "justificativa": "Voto estratégico soma deserções para o Majoritarian Candidate (compromisers) e contra ele (opposers), então não mede apoio a uma posição mostrada na pesquisa, como já decidido para Tyszler2013 nas notas de extração. O efeito principal está presente na original; nenhuma linha nova é proposta."
+  }
+ ],
+ "linhas_novas": []
+}

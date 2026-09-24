@@ -1,0 +1,109 @@
+{
+ "chave": "Chatterjee2019a",
+ "resumo": "Os números da original conferem com as Tabelas 3, 4, 7 e 8. Os sinais trocados em relação à cega vêm da inversão do efeito da proibição para o efeito da exposição (Emenda 5, item 3). A ficha lista como principais as duas amostras, assembleias e eleições gerais, mas o CSV só marcou as assembleias, por isso E08 e E16 passam a principal. Com isso, na mobilização, E14 (−4,7 p.p.) e E16 (+0,9 p.p.) apontam em direções opostas. Cluster e principais de viabilidade ficam como estão, sinalizados ao revisor.",
+ "decisoes": [
+  {
+   "id_efeito": "Chatterjee2019a-E02",
+   "divergencia": "Sinal: original −2,921 e cega +2,921 (β, EP, n e sdy iguais).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "The ˆδ captures the true eﬀect of treatment (exit poll ban) in diﬀerence-in-diﬀerence setup. Robust Standard Errors in parentheses.",
+   "pagina": 21,
+   "justificativa": "O artigo imprime δ̂ = 2,921* como efeito da proibição. A linha registra o efeito da exposição com o sinal invertido (Emenda 5, item 3; notas de extração). Com alvo lider e direcao_desejada aumentar, o valor negativo é underdog, como os autores concluem."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E14",
+   "divergencia": "Sinal: original −4,706 e cega +4,706 (EP, n e sdy iguais).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "The ˆδ captures the true eﬀect of treatment (exit poll ban) in diﬀerence-in-",
+   "pagina": 28,
+   "justificativa": "A Tabela 7 imprime 4,706*** como efeito da proibição. A linha registra o efeito da exposição (−4,706; desmobilização), pela mesma regra do item 3 da Emenda 5."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E02",
+   "divergencia": "Cluster: a cega usa cluster = 169 (1.352 obs / 8 estado-eleições); a original deixa cluster e icc vazios. Vale também para E01 a E06, E13 e E14.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "We exploit state-time variation in the impact of exit poll ban to estimate the causal eﬀect of this legislation on outcomes of interest.",
+   "pagina": 22,
+   "justificativa": "A Emenda 4c imputa ICC a desenhos com sessão ou grupo de laboratório atribuído. Os DiD observacionais do projeto (Morton2015a, Grillo2024c, Araujo2021a, Bursztyn2023a) ficam sem cluster, e estender a regra seria emenda de método. Fica sinalizado ao revisor: o tratamento varia por estado-eleição (8 na amostra de assembleias) e o EP é robusto sem agrupamento, então a variância deve estar subestimada."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E02",
+   "divergencia": "tipo_estatistica: original beta_sd, cega beta (mesmos β e sdy). Vale para todas as linhas.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 2: Summary Statistics Assembly Election General Election Mean Standard Deviation Mean Standard Deviation",
+   "pagina": 17,
+   "justificativa": "O desfecho é votação agregada em pontos percentuais. A seção 6 do protocolo manda usar a rota beta_sd, com o DP da votação da Tabela 2, que as duas extrações usam."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E08",
+   "divergencia": "Modelo principal: a cega marca a Tabela 4, col. 2 (eleições gerais, com controles) como principal de apoio_ao_lider; a original tem nao e só marca a Tabela 3, col. 2 (assembleias).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    }
+   ],
+   "trecho": "we present the estimates of the eﬀect of the exit poll ban on vote shares of the candidates , for both state and national elections.",
+   "pagina": 20,
+   "justificativa": "O artigo trata as duas amostras como resultados centrais (seção 4; na folha 22: 'The ﬁndings lead to very similar conclusions'). O codebook b2_modelo_principal manda listar todas as amostras igualmente centrais, e a própria ficha de Chatterjee2019a lista a Tabela 4, col. 2. A amostra de eleições gerais é outra eleição, o que o protocolo conta como outro estudo. Mas id_estudo está vazio e não o alterei; separar ou não é decisão do coordenador ou do revisor."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E16",
+   "divergencia": "Modelo principal: a cega marca a Tabela 8, col. 2 (comparecimento nas eleições gerais, com controles) como principal de mobilizacao; a original tem nao e só marca a Tabela 7, col. 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    }
+   ],
+   "trecho": "Unlike State elections, we cannot conclude anything about the eﬀect of exit poll ban on either voter turnout using the data from general elections.",
+   "pagina": 28,
+   "justificativa": "A regra é a mesma de E08, e a ficha também lista a Tabela 8, col. 2. A conclusão junta as duas amostras ('We also do not ﬁnd any clear evidence of an impact on voter turnout', folha 30). Com E16 = +0,897 (exposição; IC em g fora de ±δ), Chatterjee2019a fica misto na mobilização, e a linha 4 do certeza.csv ('2 de 2 em desmobilização') precisa ser refeita."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E04",
+   "divergencia": "A cega marca como principal o segundo colocado nas assembleias (Tabela 3, col. 4) (especificação com controles); a original tem modelo_principal = nao. O script de comparação não acusa porque só compara as linhas já casadas.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "We further observe that the estimated vote shares of candidates who ﬁnished third and below decrease in response to this ban.",
+   "pagina": 29,
+   "justificativa": "Pela convenção do projeto, cada estudo tem um principal por construto, e os efeitos de viabilidade de estudos que já têm principal no líder ficam nao (Araujo2021a, Witsman2016a e Alabrese2024a fazem o mesmo). A regra (3) apontaria a coluna com controles, mas levar Chatterjee2019a à célula de viabilidade é decisão de método, não correção de extração. Fica sinalizado ao revisor humano, porque a conclusão do artigo destaca o resultado dos terceiros colocados."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E06",
+   "divergencia": "A cega marca como principal os terceiros colocados e abaixo nas assembleias (Tabela 3, col. 6) (especificação com controles); a original tem modelo_principal = nao. O script de comparação não acusa porque só compara as linhas já casadas.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "We further observe that the estimated vote shares of candidates who ﬁnished third and below decrease in response to this ban.",
+   "pagina": 29,
+   "justificativa": "Pela convenção do projeto, cada estudo tem um principal por construto, e os efeitos de viabilidade de estudos que já têm principal no líder ficam nao (Araujo2021a, Witsman2016a e Alabrese2024a fazem o mesmo). A regra (3) apontaria a coluna com controles, mas levar Chatterjee2019a à célula de viabilidade é decisão de método, não correção de extração. Fica sinalizado ao revisor humano, porque a conclusão do artigo destaca o resultado dos terceiros colocados."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E10",
+   "divergencia": "A cega marca como principal o segundo colocado nas eleições gerais (Tabela 4, col. 4) (especificação com controles); a original tem modelo_principal = nao. O script de comparação não acusa porque só compara as linhas já casadas.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "We further observe that the estimated vote shares of candidates who ﬁnished third and below decrease in response to this ban.",
+   "pagina": 29,
+   "justificativa": "Pela convenção do projeto, cada estudo tem um principal por construto, e os efeitos de viabilidade de estudos que já têm principal no líder ficam nao (Araujo2021a, Witsman2016a e Alabrese2024a fazem o mesmo). A regra (3) apontaria a coluna com controles, mas levar Chatterjee2019a à célula de viabilidade é decisão de método, não correção de extração. Fica sinalizado ao revisor humano, porque a conclusão do artigo destaca o resultado dos terceiros colocados."
+  },
+  {
+   "id_efeito": "Chatterjee2019a-E12",
+   "divergencia": "A cega marca como principal os terceiros colocados e abaixo nas eleições gerais (Tabela 4, col. 6) (especificação com controles); a original tem modelo_principal = nao. O script de comparação não acusa porque só compara as linhas já casadas.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "We further observe that the estimated vote shares of candidates who ﬁnished third and below decrease in response to this ban.",
+   "pagina": 29,
+   "justificativa": "Pela convenção do projeto, cada estudo tem um principal por construto, e os efeitos de viabilidade de estudos que já têm principal no líder ficam nao (Araujo2021a, Witsman2016a e Alabrese2024a fazem o mesmo). A regra (3) apontaria a coluna com controles, mas levar Chatterjee2019a à célula de viabilidade é decisão de método, não correção de extração. Fica sinalizado ao revisor humano, porque a conclusão do artigo destaca o resultado dos terceiros colocados."
+  }
+ ],
+ "linhas_novas": []
+}

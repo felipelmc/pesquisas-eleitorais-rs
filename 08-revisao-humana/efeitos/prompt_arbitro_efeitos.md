@@ -32,6 +32,19 @@ Raiz: `/Users/felipelmc/Desktop/pesquisas-eleitorais-rs`.
 - **Modelo principal:** segue a ordem da Emenda 2. Não troque o modelo principal só porque a cega escolheu outro. Troque quando o texto mostrar que a regra leva a outro modelo, e cite o trecho.
 - **Classe de desenho:** o campo `desenho` precisa conter "randomizado", "RCT" ou "aleatori" só quando o contraste é entre braços atribuídos por sorteio.
 
+## Todas as linhas: `comparador_tipo` e `estimando`
+
+A extração original usou `outro` em excesso nesses dois campos: 375 linhas com `comparador_tipo = outro` e só 2 com `outro_resultado`. Revise esses dois campos em **todas** as linhas do estudo, inclusive nas que não são principais, e proponha a correção onde couber. Para `estimando`, siga a regra congelada de `b2_estimando` no codebook, nesta ordem:
+
+1. `LATE` com instrumento explícito.
+2. `ITT` com adesão imperfeita discutida explicitamente.
+3. `ATT` para pareamento, **diferença-em-diferenças** ou controle sintético sem sorteio.
+4. `RDD_local`.
+5. `associacao` quando não há estratégia de identificação declarada. Isso inclui antes e depois só nas unidades tratadas, regressão com controles e interação com um moderador que não foi sorteado.
+6. `ATE` para braços sorteados, quando nenhum dos casos acima se aplica.
+
+Os campos de contexto (`sistema_eleitoral`, `regiao`, `tipo_eleicao` etc.) seguem o codebook: valem 999 quando o texto não informa. Não use conhecimento externo para preenchê-los.
+
 ## Para cada divergência (e para qualquer erro que você encontrar)
 
 Decida entre `manter`, quando a original está certa, e `corrigir`, quando está errada. Em `corrigir`, dê o valor novo de cada campo. Não mexa em `verificado_humano`, `ficha_id`, `chave` nem `id_estudo`. Não crie linhas novas, a menos que o efeito principal esteja ausente na original. Nesse caso, proponha uma linha completa com `id_efeito` no formato `<CHAVE>-Enn`, com o próximo número livre.

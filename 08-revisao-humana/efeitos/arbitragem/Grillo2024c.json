@@ -1,0 +1,817 @@
+{
+ "chave": "Grillo2024c",
+ "resumo": "Os 48 valores (Tabelas 1 a 4 e 6), os subgrupos e o modelo principal (E02, Tabela 1, col. 1, fechamento, a 'baseline estimation' ponderada) estão certos e coincidem com a cega; a única divergência, o comparador, passa a outro_resultado em todas as linhas, porque o 1º turno (e 2012/2007 na tripla diferença) também teve boca de urna divulgada pela mídia estrangeira, só que mais tarde e com resultado apertado. As 18 interações triplas com moderador não sorteado passam de ATT a associacao. Ressalva ao revisor: a conversão da E02 em efeitos.csv trata as 576 observações departamento × turno × horário como 288 + 288 indivíduos, então a variância não tem sentido, embora só o sinal entre na SWiM.",
+ "decisoes": [
+  {
+   "id_efeito": "Grillo2024c-E02",
+   "divergencia": "comparador_tipo: original 'outro' × cega 'unidades_nao_expostas'. Modelo principal (Tabela 1, col. 1, Closure X 2nd Round), efeito_pp -3.440, p, n 576, sdy 2.648 e p0 (0,80072 da Tabela 5 × 0,8002 da cega, derivado dos coeficientes) coincidem.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). A cega admite na nota que não houve 'ausência total de pesquisa'. Modelo principal mantido: a eq. (1) é 'Our baseline estimation' (folha 7), ponderada, isto é, a col. 1; closure é o comparecimento final. Estimando ATT (DiD sem sorteio, regra 3) fica."
+  },
+  {
+   "id_efeito": "Grillo2024c-E01",
+   "divergencia": "Não comparada pelo script. A cega listou o coeficiente das 17h como segundo efeito do modelo principal; comparador 'outro' na original.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). modelo_principal = nao fica: 17h e fechamento são dois horários do mesmo desfecho, não amostras ou turnos igualmente centrais (Emenda 2), e o fechamento é o comparecimento final. Valores conferem com a Tabela 1 (folha 13)."
+  },
+  {
+   "id_efeito": "Grillo2024c-E03",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). Robustez da Tabela 1 (cols. 2 e 3); valores conferem com a folha 13; estimando ATT fica."
+  },
+  {
+   "id_efeito": "Grillo2024c-E04",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). Robustez da Tabela 1 (cols. 2 e 3); valores conferem com a folha 13; estimando ATT fica."
+  },
+  {
+   "id_efeito": "Grillo2024c-E05",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). Robustez da Tabela 1 (cols. 2 e 3); valores conferem com a folha 13; estimando ATT fica."
+  },
+  {
+   "id_efeito": "Grillo2024c-E06",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). Robustez da Tabela 1 (cols. 2 e 3); valores conferem com a folha 13; estimando ATT fica."
+  },
+  {
+   "id_efeito": "Grillo2024c-E07",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). Robustez da Tabela 1 (col. 4, 43 departamentos sem chuva; subgrupo já correto); valores conferem com a folha 13; estimando ATT fica."
+  },
+  {
+   "id_efeito": "Grillo2024c-E08",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "in the ﬁrst round of the 2017 election, Belgian broadcaster RTBF predicted early in the day that Macron would win a relative majority but waited until around 19:00 to predict that Le Pen",
+   "pagina": 6,
+   "justificativa": "O grupo de comparação (o mesmo departamento no 1º turno de 2017) também recebeu boca de urna divulgada por mídia estrangeira durante a votação, mas mais tarde, com cautela e com outro resultado (disputa apertada). Não é unidade sem exposição, e sim outro resultado: outro_resultado ('outro' só quando nada serve). Robustez da Tabela 1 (col. 4, 43 departamentos sem chuva; subgrupo já correto); valores conferem com a folha 13; estimando ATT fica."
+  },
+  {
+   "id_efeito": "Grillo2024c-E09",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro' na tripla diferença.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In both 2012 and 2007, however, given the much tighter competition between the two second-round candidates, foreign media published exit polls with smaller margins of victory and used a more agnostic language concerning their precision until a later time.",
+   "pagina": 7,
+   "justificativa": "A tripla diferença compara 2017 com os segundos turnos de 2012 e 2007, em que a mídia estrangeira também divulgou boca de urna, mas com margens menores e mais tarde: outro resultado. Estimando ATT (DiD sem sorteio) fica; valores conferem com a Tabela 2 (folha 14)."
+  },
+  {
+   "id_efeito": "Grillo2024c-E10",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro' na tripla diferença.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In both 2012 and 2007, however, given the much tighter competition between the two second-round candidates, foreign media published exit polls with smaller margins of victory and used a more agnostic language concerning their precision until a later time.",
+   "pagina": 7,
+   "justificativa": "A tripla diferença compara 2017 com os segundos turnos de 2012 e 2007, em que a mídia estrangeira também divulgou boca de urna, mas com margens menores e mais tarde: outro resultado. Estimando ATT (DiD sem sorteio) fica; valores conferem com a Tabela 2 (folha 14)."
+  },
+  {
+   "id_efeito": "Grillo2024c-E11",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro' na tripla diferença.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In both 2012 and 2007, however, given the much tighter competition between the two second-round candidates, foreign media published exit polls with smaller margins of victory and used a more agnostic language concerning their precision until a later time.",
+   "pagina": 7,
+   "justificativa": "A tripla diferença compara 2017 com os segundos turnos de 2012 e 2007, em que a mídia estrangeira também divulgou boca de urna, mas com margens menores e mais tarde: outro resultado. Estimando ATT (DiD sem sorteio) fica; valores conferem com a Tabela 2 (folha 14)."
+  },
+  {
+   "id_efeito": "Grillo2024c-E12",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro' na tripla diferença.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In both 2012 and 2007, however, given the much tighter competition between the two second-round candidates, foreign media published exit polls with smaller margins of victory and used a more agnostic language concerning their precision until a later time.",
+   "pagina": 7,
+   "justificativa": "A tripla diferença compara 2017 com os segundos turnos de 2012 e 2007, em que a mídia estrangeira também divulgou boca de urna, mas com margens menores e mais tarde: outro resultado. Estimando ATT (DiD sem sorteio) fica; valores conferem com a Tabela 2 (folha 14)."
+  },
+  {
+   "id_efeito": "Grillo2024c-E13",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E14",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E15",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E16",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E17",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E18",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E19",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E20",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E21",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E22",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E23",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E24",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E25",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E26",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E27",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E28",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Columns 1 and 2 in Table 3 show a signiﬁcantly greater decrease in participation for the departments close and very close to Belgium, while columns 3 and 4 show that departments close and very close to Switzerland",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E29",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E30",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E31",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E32",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E33",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E34",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E35",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E36",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Column 1 shows that, by the end of the day, the decrease in turnout with respect to the ﬁrst round was greater in departments in which Macron had won a relative majority in the ﬁrst round",
+   "pagina": 9,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E37",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E38",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E39",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E40",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E41",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E42",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E43",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E44",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Departments which in the ﬁrst round had the top 50% joint vote share for Benoˆıt Hamon and Jean-Luc M´elenchon show a larger decrease in turnout after the information shock, compared to departments with the bottom 50% vote share",
+   "pagina": 10,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E45",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 2 test for a diﬀerence in the trends between departments where iy never rained and departments where it rained in either of the two rounds.",
+   "pagina": 18,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E46",
+   "divergencia": "Revisão de todas as linhas: comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 2 test for a diﬀerence in the trends between departments where iy never rained and departments where it rained in either of the two rounds.",
+   "pagina": 18,
+   "justificativa": "Efeito DiD na categoria de referência do moderador (subgrupo já registrado corretamente). Comparador outro_resultado pela mesma razão da E02: o 1º turno também viu boca de urna, mais tarde e com outro resultado. Estimando ATT (DiD sem sorteio) fica; valor confere com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E47",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Column 2 test for a diﬀerence in the trends between departments where iy never rained and departments where it rained in either of the two rounds.",
+   "pagina": 18,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  },
+  {
+   "id_efeito": "Grillo2024c-E48",
+   "divergencia": "Revisão de todas as linhas: estimando ATT e comparador 'outro' num coeficiente de interação tripla com moderador não sorteado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "Column 2 test for a diﬀerence in the trends between departments where iy never rained and departments where it rained in either of the two rounds.",
+   "pagina": 18,
+   "justificativa": "O coeficiente é a diferença do efeito DiD entre níveis de um moderador observado (geografia, voto no 1º turno ou chuva), não atribuído: pela regra 5 de b2_estimando, interação com moderador não sorteado é associacao. Comparador outro_resultado como na E02. Valor, p e subgrupo conferem com a tabela."
+  }
+ ],
+ "linhas_novas": []
+}

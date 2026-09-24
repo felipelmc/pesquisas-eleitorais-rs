@@ -1,0 +1,297 @@
+{
+ "chave": "Fichnova2015a",
+ "resumo": "O R de Spearman (E01, E05) não é o contraste da exposição: correlaciona, dentro de uma única versão, a posição fictícia e o posto médio dos 7 candidatos, sem grupo de comparação e com n = 7 candidatos, e por isso gerou g de 3,67 e 7,10. Pela seção 2 do protocolo o contraste é o mesmo candidato (focal, com CV em todas as versões) mostrado 1º (versão A) × atrás; sem braço de controle, vale o contraste entre braços, e o empate entre B, C e D se resolve pela primeira versão da tabela (A × B). Entram E09 (Eslováquia, n 5 × 6, diferença zero no teto, sem g) e E10 (Polônia, n 17 × 7, g ≈ 0,89), com posto revertido para pontos (8 − posto) para manter direcao_desejada = aumentar. O n por versão não é impresso e foi derivado por busca exaustiva: SK 5/6/4/5 (soma 20 dos 37 declarados), PL 17/7/4/13 (41 de 42). Isso é perda de dados não relatada que o RoB D3 (baixo) não registrou; fica sinalizado ao revisor.",
+ "decisoes": [
+  {
+   "id_efeito": "Fichnova2015a-E01",
+   "divergencia": "Modelo principal: a original usa o R de Spearman da versão A (0,909; n_total = 7 candidatos; estimando associacao), que gerou g = 3,67 na sensibilidade com_excluidos; a cega usa a diferença de posto médio do candidato focal (Lukáč) entre versões (ATE, n_total = 37). Divergem também estimando e n_total.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "sim",
+     "para": "nao"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "The accord in the ranking was also confirmed statistically – for the Slovak file with the value R = 0.909 (Spearman rank order correlation coefficient, for (for f = n-2 = 5), α 0.05), which signifies a strong relationship.",
+   "pagina": 6,
+   "justificativa": "O R correlaciona, dentro da versão A, a posição fictícia dos 7 candidatos com o posto médio que receberam: não tem grupo de comparação, a unidade é o candidato (n = 7) e a conversão r→g é inválida. O protocolo (seção 2) define o contraste como o mesmo candidato mostrado à frente × atrás, o que leva à nova linha E09. Valores, estimando associacao e n_total = 7 ficam, pois descrevem o R corretamente; comparador e alvo passam a outro/nao_se_aplica para a linha não cair na célula do contraste."
+  },
+  {
+   "id_efeito": "Fichnova2015a-E05",
+   "divergencia": "Idem E01 para o arquivo polonês: R de Spearman da versão A (0,973; n_total = 7; associacao), g = 7,10 na síntese; a cega usa a diferença de posto médio de Lewandowski entre versões.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "sim",
+     "para": "nao"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "And the value R = 0.973 (for f = n-2 = 5), α 0.05) for the",
+   "pagina": 6,
+   "justificativa": "Mesmo motivo de E01: o R não estima o contraste da exposição (sem comparação entre braços, n = 7 candidatos). O principal do arquivo polonês passa a ser a nova linha E10 (Lewandowski, versão A × versão B)."
+  },
+  {
+   "id_efeito": "Fichnova2015a-E02",
+   "divergencia": "Não detectada pelo script: R de Spearman da versão B (eslovaco) codificado com comparador mesmo_candidato_atras e alvo lider, embora seja associação entre rankings dentro de um só braço.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "Comparing candidate ranking in four poll variations with their ranking in the simulated elections with respondents from the Slovak file.",
+   "pagina": 8,
+   "justificativa": "O R cobre os 7 candidatos de uma versão, sem grupo de comparação, e o g convertido (1,9 a 4,1) não tem sentido. Com outro/nao_se_aplica a linha sai da célula do contraste e não contamina uma eventual agregação CHE com todas as linhas."
+  },
+  {
+   "id_efeito": "Fichnova2015a-E03",
+   "divergencia": "Não detectada pelo script: R de Spearman da versão C (eslovaco) codificado com comparador mesmo_candidato_atras e alvo lider, embora seja associação entre rankings dentro de um só braço.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "Comparing candidate ranking in four poll variations with their ranking in the simulated elections with respondents from the Slovak file.",
+   "pagina": 8,
+   "justificativa": "O R cobre os 7 candidatos de uma versão, sem grupo de comparação, e o g convertido (1,9 a 4,1) não tem sentido. Com outro/nao_se_aplica a linha sai da célula do contraste e não contamina uma eventual agregação CHE com todas as linhas."
+  },
+  {
+   "id_efeito": "Fichnova2015a-E04",
+   "divergencia": "Não detectada pelo script: R de Spearman da versão D (eslovaco) codificado com comparador mesmo_candidato_atras e alvo lider, embora seja associação entre rankings dentro de um só braço.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "Comparing candidate ranking in four poll variations with their ranking in the simulated elections with respondents from the Slovak file.",
+   "pagina": 8,
+   "justificativa": "O R cobre os 7 candidatos de uma versão, sem grupo de comparação, e o g convertido (1,9 a 4,1) não tem sentido. Com outro/nao_se_aplica a linha sai da célula do contraste e não contamina uma eventual agregação CHE com todas as linhas."
+  },
+  {
+   "id_efeito": "Fichnova2015a-E06",
+   "divergencia": "Não detectada pelo script: R de Spearman da versão B (polonês) codificado com comparador mesmo_candidato_atras e alvo lider, embora seja associação entre rankings dentro de um só braço.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "Comparing candidate ranking in four poll variations with their ranking in the simulated elections with respondents from the Polish file.",
+   "pagina": 8,
+   "justificativa": "O R cobre os 7 candidatos de uma versão, sem grupo de comparação, e o g convertido (1,9 a 4,1) não tem sentido. Com outro/nao_se_aplica a linha sai da célula do contraste e não contamina uma eventual agregação CHE com todas as linhas."
+  },
+  {
+   "id_efeito": "Fichnova2015a-E07",
+   "divergencia": "Não detectada pelo script: R de Spearman da versão C (polonês) codificado com comparador mesmo_candidato_atras e alvo lider, embora seja associação entre rankings dentro de um só braço.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "Comparing candidate ranking in four poll variations with their ranking in the simulated elections with respondents from the Polish file.",
+   "pagina": 8,
+   "justificativa": "O R cobre os 7 candidatos de uma versão, sem grupo de comparação, e o g convertido (1,9 a 4,1) não tem sentido. Com outro/nao_se_aplica a linha sai da célula do contraste e não contamina uma eventual agregação CHE com todas as linhas."
+  },
+  {
+   "id_efeito": "Fichnova2015a-E08",
+   "divergencia": "Não detectada pelo script: R de Spearman da versão D (polonês) codificado com comparador mesmo_candidato_atras e alvo lider, embora seja associação entre rankings dentro de um só braço.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "mesmo_candidato_atras",
+     "para": "outro"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    }
+   ],
+   "trecho": "Comparing candidate ranking in four poll variations with their ranking in the simulated elections with respondents from the Polish file.",
+   "pagina": 8,
+   "justificativa": "O R cobre os 7 candidatos de uma versão, sem grupo de comparação, e o g convertido (1,9 a 4,1) não tem sentido. Com outro/nao_se_aplica a linha sai da célula do contraste e não contamina uma eventual agregação CHE com todas as linhas."
+  }
+ ],
+ "linhas_novas": [
+  {
+   "id_efeito": "Fichnova2015a-E09",
+   "ficha_id": "Fichnova2015a",
+   "chave": "Fichnova2015a",
+   "id_estudo": "",
+   "desenho": "survey experiment randomizado entre sujeitos (respondentes alocados aleatoriamente às versões A-D da pesquisa fictícia); eleição hipotética com 7 candidatos fictícios",
+   "estimando": "ATE",
+   "outcome": "Candidate ranking: 'how would you vote?' — posto médio do candidato focal (Lukáč, Ján) na ordenação dos 7 candidatos, revertido para pontos = 8 − posto (maior = mais apoio; DP inalterado)",
+   "construto_outcome": "apoio_ao_lider",
+   "direcao_desejada": "aumentar",
+   "modelo": "Tabela 1 (arquivo eslovaco), linha Lukáč, Ján: AM e sd da versão A (candidato 1º na pesquisa fictícia, grupo 1) × versão B (candidato 2º, grupo 2); descritiva sem controles; regra do protocolo (seção 2: mesmo candidato à frente × atrás; sem controle, contraste entre braços; empate entre as três versões atrás resolvido pela primeira da tabela). Impresso: posto 1,00 (sd 0,00) em A e 1,00 (sd 0,00) em B; pontos = 8 − posto. n por versão não impresso: derivado (único n compatível com médias e DP dos 7 candidatos de cada coluna) = 5 em A, 6 em B, 4 em C, 5 em D (soma 20 dos 37 declarados). Diferença exatamente zero com DP zero nos dois braços (teto): efeitos.R não calcula g e sinal_bruto dá sem direção.",
+   "modelo_principal": "sim",
+   "subgrupo": "arquivo eslovaco",
+   "tipo_estatistica": "md_sd",
+   "m1": "7.00",
+   "sd1": "0.00",
+   "n1": "5",
+   "m2": "7.00",
+   "sd2": "0.00",
+   "n2": "6",
+   "t": "",
+   "df": "",
+   "f": "",
+   "beta": "",
+   "se": "",
+   "sdy": "",
+   "or_": "",
+   "ci_lo": "",
+   "ci_hi": "",
+   "r": "",
+   "p": "",
+   "n_total": "11",
+   "cluster": "",
+   "icc": "",
+   "evidencia": "Lukáč, Ján 1 1.00 0.00 2 1.00 0.00 3 2.50 1.73 4 2.60 0.55",
+   "pagina": "8",
+   "verificado_humano": "",
+   "q1_1": "",
+   "q3_1": "",
+   "q1_2": "",
+   "q3_2": "",
+   "m_preditores": "",
+   "p0": "",
+   "p1": "",
+   "efeito_pp": "",
+   "se_pp": "",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "comparador_tipo": "mesmo_candidato_atras",
+   "alvo_efeito": "lider",
+   "desenho_fino": "survey_experiment",
+   "regiao": "outro",
+   "tipo_eleicao": "candidato_partido",
+   "realismo_contexto": "hipotetico",
+   "ano_eleicao_pre2010": "nao",
+   "sistema_eleitoral": "regra_do_experimento"
+  },
+  {
+   "id_efeito": "Fichnova2015a-E10",
+   "ficha_id": "Fichnova2015a",
+   "chave": "Fichnova2015a",
+   "id_estudo": "",
+   "desenho": "survey experiment randomizado entre sujeitos (respondentes alocados aleatoriamente às versões A-D da pesquisa fictícia); eleição hipotética com 7 candidatos fictícios",
+   "estimando": "ATE",
+   "outcome": "Candidate ranking: 'how would you vote?' — posto médio do candidato focal (Lewandowski, Łukasz) na ordenação dos 7 candidatos, revertido para pontos = 8 − posto (maior = mais apoio; DP inalterado)",
+   "construto_outcome": "apoio_ao_lider",
+   "direcao_desejada": "aumentar",
+   "modelo": "Tabela 2 (arquivo polonês), linha Lewandowski, Łukasz: AM e sd da versão A (candidato 1º na pesquisa fictícia, grupo 1) × versão B (candidato 2º, grupo 2); descritiva sem controles; regra do protocolo (seção 2: mesmo candidato à frente × atrás; sem controle, contraste entre braços; empate entre as três versões atrás resolvido pela primeira da tabela). Impresso: posto 1,06 (sd 0,24) em A e 2,00 (sd 1,91) em B; pontos = 8 − posto. n por versão não impresso: derivado (único n compatível com médias e DP dos 7 candidatos de cada coluna) = 17 em A, 7 em B, 4 em C, 13 em D (soma 41 dos 42 declarados). g ≈ 0,89 (EP ≈ 0,45), bandwagon.",
+   "modelo_principal": "sim",
+   "subgrupo": "arquivo polonês",
+   "tipo_estatistica": "md_sd",
+   "m1": "6.94",
+   "sd1": "0.24",
+   "n1": "17",
+   "m2": "6.00",
+   "sd2": "1.91",
+   "n2": "7",
+   "t": "",
+   "df": "",
+   "f": "",
+   "beta": "",
+   "se": "",
+   "sdy": "",
+   "or_": "",
+   "ci_lo": "",
+   "ci_hi": "",
+   "r": "",
+   "p": "",
+   "n_total": "24",
+   "cluster": "",
+   "icc": "",
+   "evidencia": "Lewandowski, Łukasz 1 1.06 0.24 2 2.00 1.91 3 1.00 0.00 4 2.23 1.48",
+   "pagina": "8",
+   "verificado_humano": "",
+   "q1_1": "",
+   "q3_1": "",
+   "q1_2": "",
+   "q3_2": "",
+   "m_preditores": "",
+   "p0": "",
+   "p1": "",
+   "efeito_pp": "",
+   "se_pp": "",
+   "familia_intervencao": "pesquisa_pre_eleitoral",
+   "comparador_tipo": "mesmo_candidato_atras",
+   "alvo_efeito": "lider",
+   "desenho_fino": "survey_experiment",
+   "regiao": "outro",
+   "tipo_eleicao": "candidato_partido",
+   "realismo_contexto": "hipotetico",
+   "ano_eleicao_pre2010": "nao",
+   "sistema_eleitoral": "regra_do_experimento"
+  }
+ ],
+ "notas_ao_coordenador": [
+  "Se as mudanças forem aplicadas, tire Fichnova2015a-E01 e -E05 do dicionário FORA de 06-analise/montar_entradas_swim.py (deixam de ser principais) e decida se E09/E10 entram na contagem principal.",
+  "E09 tem m1 = m2 e DP 0 nos dois braços: sinal_bruto do _cli.R descarta diferença zero, e a linha sai como sem direção, não como nulo. Com E09 sem direção e E10 benéfico, o estudo fica benéfico pela regra efeito_unico do swim.R.",
+  "Contrastes alternativos (não propostos como linhas, porque não são principais): A × C e A × D, na cega (08-revisao-humana/efeitos/cega/Fichnova2015a.json). SK: 1,00 × 2,50 e 1,00 × 2,60 (bandwagon; n 5 × 4 e 5 × 5). PL: 1,06 × 1,00 (leve underdog; n 17 × 4) e 1,06 × 2,23 (bandwagon; n 17 × 13). A × B está entre os menores contrastes nas duas amostras; nada foi escolhido pela significância.",
+  "O texto menciona um grupo de controle que só viu a pesquisa ('The control group had only the information from the poll'), mas as tabelas trazem só A-D. Os 17 respondentes eslovacos que faltam podem ser esse grupo. Mesmo assim, ele seria controle do CV, não da pesquisa.",
+  "A soma dos postos médios da versão A polonesa é 27,53, não 28 (n = 17 dá soma 468, não 476): há erro de impressão ou ordenação incompleta em alguma linha dessa coluna. A linha de Lewandowski (1,06; 0,24) bate exatamente com n = 17 (16 postos 1 e 1 posto 2)."
+ ]
+}

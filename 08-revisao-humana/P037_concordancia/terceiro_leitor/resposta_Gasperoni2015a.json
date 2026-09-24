@@ -1,0 +1,194 @@
+[
+ {
+  "id_item": "C060",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "The Impact of Exposure to Pre-Election Polls on Voting Behaviour",
+  "trecho": "The Impact of Exposure to Pre-Election Polls on Voting Behaviour",
+  "pagina": 1,
+  "justificativa": "Os dois valores são idênticos e copiam o título da primeira folha; não há divergência de fato."
+ },
+ {
+  "id_item": "C061",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Itália",
+  "trecho": "The final sample comprises 895 participants, distributed among six different research units, which operated in different areas of Italy",
+  "pagina": 9,
+  "justificativa": "Valores idênticos; os participantes são eleitores italianos, e não há eleição real (campanha municipal simulada)."
+ },
+ {
+  "id_item": "C062",
+  "sugestao": "original",
+  "valor_sugerido": "Explorar a percepção das pesquisas pré-eleitorais pelos eleitores e o papel da exposição a resultados de pesquisa sobre as decisões de voto, bem como sua associação com outras características do eleitor",
+  "trecho": "Our study aims to explore the perception of pre-election polls by voters and the role of exposure to poll findings on voting decisions, and their association with other voter characteristics.",
+  "pagina": 7,
+  "justificativa": "A frase de objetivo declarada tem três partes; a original reproduz todas, a revalidação omite a associação com características do eleitor."
+ },
+ {
+  "id_item": "C063",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Eleitores recrutados por amostragem por cotas em seis unidades de pesquisa em diferentes áreas da Itália, com espectro completo de idades, para uma campanha eleitoral simulada online; amostra não representativa do eleitorado",
+  "trecho": "Recruitment of study participants was performed thorugh quota sampling; the ensuing sample was not intended to be representative of the general electorate.",
+  "pagina": 9,
+  "justificativa": "Ambas descrevem a mesma população (cotas, seis unidades, todas as idades, não representativa); diferem só na redação."
+ },
+ {
+  "id_item": "C064",
+  "sugestao": "original",
+  "valor_sugerido": "Exposição forçada, por dois timed items na campanha municipal simulada online, a duas pesquisas pré-eleitorais: Grupo 1, o segundo preferido bate o mais preferido por 4 ou 5 p.p., com os outros dois fora da disputa; Grupo 2, o menos preferido à frente do segundo preferido por 4 ou 5 p.p., que está à frente do mais preferido por outros 4 ou 5 p.p. O primeiro item aparece dois minutos após a retomada (aos nove minutos) e o segundo cerca de um minuto antes do fim",
+  "trecho": "After another two minutes, a timed item appeared on the screen and after another two minutes (i.e. about one minute before the end of the simulation), another timed item appeared.",
+  "pagina": 19,
+  "justificativa": "O codebook pede o momento da exposição; a original registra os dois timed items corretamente, enquanto a revalidação situa a exposição só cerca de um minuto antes do fim, o que vale apenas para o segundo item."
+ },
+ {
+  "id_item": "C065",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Comparação antes e depois no próprio eleitor (preferência declarada aos nove minutos versus voto final), sem grupo de controle",
+  "trecho": "Moreover, unfortunately, there is no control group, that is, a set of voters whose voting intentions were recorded at the same 9-minute mark as they were for members of Groups 1 and 2.",
+  "pagina": 21,
+  "justificativa": "As duas dizem o mesmo: comparação intraindivíduo antes e depois, sem grupo não exposto; a menção da original aos Grupos 0A e 0B é detalhe acessório correto."
+ },
+ {
+  "id_item": "C066",
+  "sugestao": "original",
+  "valor_sugerido": "Voto declarado ao fim da campanha simulada entre os quatro candidatos, operacionalizado como transferência do voto do candidato mais preferido para o segundo preferido, que a pesquisa mostrava à frente dele; medida individual de apoio ao candidato mostrado à frente do preferido",
+  "trecho": "Incidence of Voters Who Transferred Their Vote from the Most Preferred to the Second Preferred Candidate After Exposure to Pre-Election Polls Unfavourable towards the Former",
+  "pagina": 37,
+  "justificativa": "O codebook exige dizer se a medida é apoio ao líder ou ao candidato atrás e se é individual ou agregada; só a original diz que é apoio individual ao candidato mostrado à frente do preferido."
+ },
+ {
+  "id_item": "C067",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Recurso: duas pesquisas mostrando o candidato preferido atrás, exibidas como timed items; Raciocínio: aderir ao vencedor sem violar o perfil de preferências (Grupo 1, bandwagon) ou votar taticamente no segundo preferido para evitar a vitória do menos preferido (Grupo 2); Contexto: campanha municipal simulada online, com quatro candidatos fictícios",
+  "trecho": "in that doing so would mean voting for an ‘acceptable’ candidate in order to help prevent the worst possible outcome (i.e. victory of the least preferred candidate); this is a typical example of preventative tactical, or strategic, voting",
+  "pagina": 20,
+  "justificativa": "As duas trazem os mesmos recurso, raciocínio (bandwagon no Grupo 1, voto estratégico preventivo no Grupo 2) e contexto; a condição de confiança nas pesquisas acrescentada pela original também vem dos autores."
+ },
+ {
+  "id_item": "C068",
+  "sugestao": "original",
+  "valor_sugerido": "Tabela 5 e texto: trocam mais os jovens, os mais escolarizados, os de pouco conhecimento político, os mais interessados, os de posições ideológicas extremas e os que se identificam fortemente com uma coalizão; os hostis às pesquisas trocam mais e os adeptos do voto sincero, menos; trocam mais os que preferiam candidatos extremos e aqueles cujos dois preferidos estão na mesma metade do espectro; as diferenças da Tabela 5 não são estatisticamente significativas",
+  "trecho": "The actual findings suggest that voters more likely to switch are young, well- educated, poor in political knowledge, more interested in politics, hold extreme ideological stances and strongly identify with a political coalition.",
+  "pagina": 22,
+  "justificativa": "O codebook pede todas as variáveis moderadoras e o que muda em cada subgrupo; a revalidação omite idade, escolaridade, conhecimento, interesse e identificação com coalizão, relatados no texto e na Tabela 5."
+ },
+ {
+  "id_item": "C069",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "escolaridade: os mais escolarizados trocaram mais de voto (diferença não significativa) ; posição socioeconômica ou classe social: 999 ; idade: os mais jovens trocaram mais de voto (diferença não significativa)",
+  "trecho": "The actual findings suggest that voters more likely to switch are young, well- educated, poor in political knowledge, more interested in politics, hold extreme ideological stances and strongly identify with a political coalition.",
+  "pagina": 22,
+  "justificativa": "As duas relatam o mesmo efeito diferencial por escolaridade e idade e 999 para classe; a menção à não significância na original é informação correta, não conteúdo diferente."
+ },
+ {
+  "id_item": "C070",
+  "sugestao": "original",
+  "valor_sugerido": "Deserção estratégica: no Grupo 2 o preferido aparece em terceiro e 10% dos eleitores migram para o segundo preferido como voto tático preventivo; quem trocou ficou menos resoluto e admitiu mais dificuldade na decisão (Tabela 6); desmobilização não é examinada",
+  "trecho": "voters who were influenced by pre-election polls that were negative for their preferred candidate: such voters are less resolute and more prone to admitting to difficulty in their decision- making.",
+  "pagina": 23,
+  "justificativa": "O texto relata a deserção estratégica de um candidato mostrado em terceiro (Grupo 2) e efeitos sobre resolução e dificuldade da decisão, logo 999 não se sustenta."
+ },
+ {
+  "id_item": "C071",
+  "sugestao": "original",
+  "valor_sugerido": "Ausência de grupo de controle registrado aos nove minutos; suposição de que os participantes identificaram corretamente seus preferidos; possível viés de consistência (subestima) ou de sensibilização (superestima); amostra por cotas não representativa; margem de 4 a 5 p.p. possivelmente pequena; técnica possivelmente menos eficaz entre eleitores mais velhos",
+  "trecho": "We are well aware that any causal inference is also constrained by the fact that voters were asked an initial preference and may have confirmed it in their final choice in order to maintain an image of consistency",
+  "pagina": 21,
+  "justificativa": "A revalidação está correta mas incompleta; a original acrescenta limitações que os autores também reconhecem (suposição da nota 10, margem pequena na p. 25 do PDF, técnica menos eficaz entre os mais velhos)."
+ },
+ {
+  "id_item": "C072",
+  "sugestao": "original",
+  "valor_sugerido": "antes_depois",
+  "trecho": "The remaining 19 voters (10% of the total) voted for the second preferred candidate; their behaviour may be plausibly attributed to knowledge of the pre-election poll findings",
+  "pagina": 20,
+  "justificativa": "O efeito é estimado pela comparação da preferência aos nove minutos com o voto final dentro dos Grupos 1 e 2, ambos expostos e sem grupo de controle (nota 10); a aleatorização entre grupos não identifica o efeito da exposição, então a categoria é antes_depois."
+ },
+ {
+  "id_item": "C073",
+  "sugestao": "original",
+  "valor_sugerido": "Os autores declaram supor que os participantes identificaram corretamente seus preferidos nas duas medições e reconhecem que a inferência causal é limitada pela ausência de grupo de controle e por possíveis efeitos de consistência ou sensibilização; nenhum teste é apresentado",
+  "trecho": "We are, of course, assuming that participants correctly identified their preferred candidates in both instances; insofar as voters misrepresented these preferences, the latter’s stability in our data is being overestimated (to an unknown extent).",
+  "pagina": 21,
+  "justificativa": "A nota 10 declara uma hipótese de identificação explícita, então 999 é incorreto; a original registra também a ausência de testes."
+ },
+ {
+  "id_item": "C074",
+  "sugestao": "original",
+  "valor_sugerido": "associacao",
+  "trecho": "Moreover, unfortunately, there is no control group, that is, a set of voters whose voting intentions were recorded at the same 9-minute mark as they were for members of Groups 1 and 2.",
+  "pagina": 21,
+  "justificativa": "Pela regra (5) do codebook, com b2_estrategia_identificacao = antes_depois o estimando é associacao; o ATE da revalidação depende de uma atribuição aleatória que não separa expostos de não expostos."
+ },
+ {
+  "id_item": "C075",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Atribuição individual, aleatória por cotas dentro de cada unidade de pesquisa; sem erros-padrão agrupados; tamanho de cluster e ICC não informados",
+  "trecho": "Within each research unit, participants were randomly assigned—according to pre- established quotas—to one of four groups that were associated with different potential heuristic profiles",
+  "pagina": 9,
+  "justificativa": "As duas dizem o mesmo (nível individual, dentro das unidades, sem agrupamento nem ICC); a original só acrescenta que o modelo principal não tem erros-padrão."
+ },
+ {
+  "id_item": "C076",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "nenhum",
+  "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+  "pagina": 21,
+  "justificativa": "Valores idênticos; o resultado principal é um percentual descritivo, sem controles."
+ },
+ {
+  "id_item": "C077",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "apoio_ao_lider: Tabela 5, linha Total (Grupos 1 e 2 agrupados, N = 188)",
+  "trecho": "only one-tenth of voters switched votes: not many, if one considers that such voters had a good incentive to switch, but usually more than enough to decide an election.",
+  "pagina": 2,
+  "justificativa": "As duas apontam a linha Total da Tabela 5, com os grupos agrupados; o número é repetido no resumo (critério 2 do codebook)."
+ },
+ {
+  "id_item": "C078",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "As pesquisas pré-eleitorais tiveram pouca tração sobre o voto e não são uma heurística importante para os eleitores italianos, embora um décimo dos eleitores costume bastar para decidir uma eleição",
+  "trecho": "our findings should nevertheless be taken seriously: pre-election polls are not an important heuristic for Italian voters.",
+  "pagina": 25,
+  "justificativa": "As duas trazem a mesma conclusão (pouca influência, mas proporção capaz de decidir uma eleição); a original só acrescenta a frase final dos autores."
+ },
+ {
+  "id_item": "C079",
+  "sugestao": "original",
+  "valor_sugerido": "outro — especifique: preferência declarada pelo próprio eleitor antes da exposição, aos nove minutos de simulação, versus voto final, sem grupo de controle",
+  "trecho": "the campaign was suspended after nine minutes (i.e. more than halfway through the simulation) in order to ask the participant to indicate which candidate she/he would most likely vote for",
+  "pagina": 19,
+  "justificativa": "Não há braço com o mesmo candidato mostrado atrás em vez de à frente: todos os expostos veem o preferido atrás. O contraste é a preferência do próprio eleitor antes da exposição, que não cabe nas categorias fechadas; por isso, outro."
+ },
+ {
+  "id_item": "C080",
+  "sugestao": "original",
+  "valor_sugerido": "intencao_declarada",
+  "trecho": "After the end of the simulated campaign, participants are invited to ‘vote’ for one of the four candidates and respond to other questions concerning the candidates’ qualities and the simulated campaign",
+  "pagina": 10,
+  "justificativa": "O desfecho é um voto hipotético declarado numa eleição simulada, sem incentivo e sem eleição real; entre as categorias fechadas, a de preferência declarada não incentivada é intencao_declarada. O revisor pode preferir outro, se reservar intencao_declarada para surveys de intenção."
+ },
+ {
+  "id_item": "C081",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Grupo 1: 4 ou 5 p.p. ; Grupo 2: 4 ou 5 p.p.",
+  "trecho": "predicted the voter’s second preferred candidate would beat the most preferred candidate (by 4 or 5 percentage points); the other two candidates were described as being out of the running.",
+  "pagina": 19,
+  "justificativa": "As duas registram 4 a 5 p.p. entre primeiro e segundo colocados em cada braço, com a mesma descrição."
+ },
+ {
+  "id_item": "C082",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "consenso_heuristica + viabilidade_estrategico",
+  "trecho": "This paper explores Italian voters’ perception of pre-election polls and the latter’s role as a heuristic influencing voter choice.",
+  "pagina": 2,
+  "justificativa": "O estudo trata a pesquisa como heurística (autoridade epistêmica) e compara o Grupo 1 com o Grupo 2 (estratégico) e os eleitores pela confiança nas pesquisas; o texto não fala de pressão social nem do desejo de estar do lado vencedor, o que corresponderia a conformidade."
+ },
+ {
+  "id_item": "C083",
+  "sugestao": "original",
+  "valor_sugerido": "confianca_pesquisas + escolaridade + idade + outro + partidarismo + preferencia_previa + sofisticacao_interesse",
+  "trecho": "16 per cent of voters (13 out of 80) initially preferring extreme candidates switched to the second preferred candidate, versus 6 per cent of voters (5 out of 87) initially preferring moderate candidates.",
+  "pagina": 24,
+  "justificativa": "O texto relata resultados por subgrupos definidos pela preferência inicial do eleitor (candidato extremo ou moderado, dois preferidos na mesma metade do espectro), o que corresponde a preferencia_previa; as demais categorias coincidem nas duas extrações."
+ }
+]

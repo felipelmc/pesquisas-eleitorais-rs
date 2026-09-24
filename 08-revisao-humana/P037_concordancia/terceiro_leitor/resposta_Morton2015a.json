@@ -1,0 +1,154 @@
+[
+ {
+  "id_item": "C171",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "França",
+  "trecho": "we exploit a 2005 voting reform in France to estimate the causal eﬀect of exit poll information on turnout and bandwagon",
+  "pagina": 5,
+  "justificativa": "A eleição é a presidencial nacional francesa e os dados cobrem os 105 departamentos (continente e OST); o codebook só pede o subnacional quando o estudo é subnacional. A descrição de tratados e controles do original pertence a comparador/populacao, não ao país."
+ },
+ {
+  "id_item": "C172",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Estimar o efeito causal da informação de boca de urna (resultado do continente já conhecido) sobre o comparecimento e o voto bandwagon dos eleitores que votam depois, explorando a reforma eleitoral francesa de 2005.",
+  "trecho": "We exploit a voting reform in France to estimate the causal eﬀect of exit poll information on turnout and bandwagon voting.",
+  "pagina": 3,
+  "justificativa": "Os dois reproduzem o objetivo declarado no resumo; a revalidação só acrescenta a estratégia (reforma de 2005), o que é diferença de forma."
+ },
+ {
+  "id_item": "C173",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Departamentos franceses (96 do continente mais nove territórios ultramarinos, total de 105), com comparecimento agregado por departamento, eleição e turno nas eleições presidenciais; nas checagens de robustez, os mesmos departamentos nas eleições legislativas.",
+  "trecho": "There are four OSTs in the east and ﬁve in the west, which in addition to the 96 departments on the mainland comprise a total of 105 such departments in France.",
+  "pagina": 19,
+  "justificativa": "As duas descrevem a mesma unidade (departamento, com eleitores registrados agregados) nas eleições presidenciais; o original é mais completo (105 departamentos, turno, legislativas na robustez), mas não diverge em substância."
+ },
+ {
+  "id_item": "C174",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "1981 a 2012 (eleições presidenciais de 1981, 1988, 1995, 2002, 2007 e 2012); legislativas de 1997 a 2012 só na robustez.",
+  "trecho": "turnout for ﬁrst and second election rounds from 1981 onwards (1981, 1988, 1995, 2002, 2007, and 2012).",
+  "pagina": 18,
+  "justificativa": "Ambos dão 1981 a 2012; os dados legislativos (1997 a 2012) ficam dentro desse intervalo, então o acréscimo do original não muda o período."
+ },
+ {
+  "id_item": "C175",
+  "sugestao": "original",
+  "valor_sugerido": "Exposição ao resultado eleitoral já divulgado do continente: às 20h CET, no fechamento das urnas metropolitanas, as TVs francesas divulgam estimativas muito precisas do resultado final (percentuais e ranking dos candidatos), baseadas em grandes pesquisas de boca de urna e nos primeiros resultados apurados. Antes da reforma de 2005, os eleitores dos territórios ultramarinos a oeste do continente ainda tinham urnas abertas quando essa informação circulava e, portanto, votavam sabendo quem venceria. A fonte de variação exógena é a reforma constitucional de 2003, efetiva em 2005, que passou a votação desses territórios para sábado, eliminando o acesso à informação",
+  "trecho": "it was decided to change the voting day to Saturday in all territories to the west of the mainland: French Polynesia, St. Pierre and Miquelon, Guadeloupe, French Guiana and Martinique. This reform became eﬀective in 2005.",
+  "pagina": 17,
+  "justificativa": "O codebook exige, em experimento natural, a fonte da variação; o original descreve formato, conteúdo, meio, momento e a reforma (lei constitucional de 2003, efetiva em 2005), enquanto a revalidação cita a reforma só como marco temporal e não a descreve como fonte da variação."
+ },
+ {
+  "id_item": "C176",
+  "sugestao": "original",
+  "valor_sugerido": "Os mesmos territórios ultramarinos ocidentais depois da reforma de 2005, quando passaram a votar sem conhecer o resultado do continente, tendo como grupo de controle unidades não expostas (os OST orientais e, nas especificações maiores, os departamentos do continente)",
+  "trecho": "later on we use all elections from 1981 to 2012 and also include the departments from the mainland as an additional control group.",
+  "pagina": 20,
+  "justificativa": "O modelo principal de comparecimento (Tabela 5) usa os 105 departamentos, com o continente como controle adicional; o original registra isso e a revalidação menciona só os OST orientais e o próprio grupo depois da reforma."
+ },
+ {
+  "id_item": "C177",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Mobilização: comparecimento agregado por departamento e turno (proporção de eleitores registrados que votaram). Apoio ao líder: diferença normalizada de votos entre o primeiro e o segundo colocado do continente, medida nos departamentos ultramarinos ocidentais e regredida na mesma diferença no continente (agregada).",
+  "trecho": "We use only the vote diﬀerence in the western OST as the left-hand variable in this estimation",
+  "pagina": 33,
+  "justificativa": "Os dois dão os mesmos indicadores agregados (comparecimento; diferença normalizada entre primeiro e segundo). A variável dependente é a diferença nos OST ocidentais; o continente entra como regressor, o que as duas redações admitem."
+ },
+ {
+  "id_item": "C178",
+  "sugestao": "original",
+  "valor_sugerido": "Recurso: divulgação, no fechamento das urnas do continente, de estimativas precisas do resultado final, acessíveis a eleitores ultramarinos cujas urnas ainda estavam abertas; Raciocínio: ao aprender que a eleição já está decidida, o eleitor conclui que seu voto não será pivotal e, sendo o voto custoso, tende a se abster; entre os que comparecem, parte obtém utilidade de votar no vencedor (ou de conformar-se à maioria) e desconsidera sua informação ou preferência privada, produzindo voto bandwagon, seja por troca de voto, seja por comparecimento seletivo, canais que os dados não permitem separar; Contexto: eleições presidenciais francesas em dois turnos, com cerca de 96% do eleitorado no continente, o que torna o resultado praticamente definido antes de os territórios ocidentais votarem",
+  "trecho": "Hence, both theory and the experimental evidence suggest that if the act of voting is costly, when later voters learn from exit poll information that their decision is unlikely to be pivotal, they are more likely to abstain.",
+  "pagina": 10,
+  "justificativa": "No formato CMMO, Recurso é o que a exposição entrega ao eleitor (a estimativa precisa do resultado às 20h), não a teoria citada, como pôs a revalidação; o original também dá o contexto empírico (96% do eleitorado no continente) que os autores usam."
+ },
+ {
+  "id_item": "C179",
+  "sugestao": "original",
+  "valor_sugerido": "Desmobilização (queda de cerca de 11 pontos percentuais no comparecimento quando os eleitores conhecem o resultado) e vantagem eleitoral para candidatos e partidos favorecidos pelos eleitores que votam primeiro, via voto bandwagon; os autores também apontam o incentivo de candidatos e partidos a manipular o momento da votação e o tipo e a acurácia da informação divulgada",
+  "trecho": "These eﬀects on voting behavior (lower participation and a bandwagon eﬀect) provide advantages to candidates and political parties favored by early voters, which do not exist in the absence of the information.",
+  "pagina": 36,
+  "justificativa": "O codebook lista desmobilização (comparecimento) como efeito não intencional, e o artigo estima a queda de cerca de 11 p.p. e discute a vantagem aos candidatos dos primeiros eleitores e o incentivo à manipulação; 999 está errado."
+ },
+ {
+  "id_item": "C180",
+  "sugestao": "original",
+  "valor_sugerido": "Os dados não permitem distinguir entre o canal de troca de voto e o canal de comparecimento seletivo no efeito bandwagon; o número pequeno de clusters quando se descartam os departamentos do continente impede erros-padrão agrupados, obrigando ao bootstrap em blocos, e reduz a precisão nas amostras menores; há ainda a escolha do grupo de controle em desenhos de diferenças em diferenças e eventos atípicos do período (candidato guianense em 2002 e a eleição 'Le Pen')",
+  "trecho": "However, when dropping the departments from the mainland we have nine clusters which is not enough to estimate clustered standard errors.",
+  "pagina": 23,
+  "justificativa": "A limitação central (não separar troca de voto de comparecimento seletivo, p. 35) está nas duas; o original acrescenta limitações que os autores também reconhecem no texto (poucos clusters, menor precisão na amostra pequena, escolha do grupo de controle na nota 26), todas sustentadas."
+ },
+ {
+  "id_item": "C181",
+  "sugestao": "nenhum",
+  "valor_sugerido": "Hipótese de tendências paralelas (nota 27), sustentada pela inspeção gráfica das trajetórias pré-reforma (Figuras 2 e 3) e por tendências lineares e quadráticas específicas por departamento; testes: placebo com 1994 como falso ano da reforma; placebo com os OST orientais como falso tratado; placebo com o comparecimento nas eleições legislativas (Tabelas 7 e 13); dummy para a Guiana no 1º turno de 2002; reestimação sem o 1º turno de 2002 (Le Pen); no bandwagon, reestimação excluindo as observações com vantagem no continente acima de 20 p.p. (Tabela 8).",
+  "trecho": "In order to check for robustness, we ﬁrst calculate placebo estimates using 1994 as the year in which reform was implemented",
+  "pagina": 28,
+  "justificativa": "Cada versão omite algo que o texto reporta: o original não traz a exclusão de outliers da Tabela 8; a revalidação não declara a hipótese de tendências paralelas como hipótese nem registra a dummy da Guiana. O valor sugerido junta as duas."
+ },
+ {
+  "id_item": "C182",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Departamento/território (exposição atribuída por lei aos cinco OST ocidentais); erros-padrão agrupados por departamento quando possível; com o continente descartado (nove clusters), bootstrap em blocos por departamento; tamanho médio de cluster e ICC não reportados.",
+  "trecho": "It seems likely that there is some within-department correlation of the error term and hence it is appropriate to allow for clustered errors. We do so whenever possible.",
+  "pagina": 23,
+  "justificativa": "Mesmo nível de atribuição, mesma regra de agrupamento e mesmo recurso ao bootstrap em blocos; a diferença é só de redação."
+ },
+ {
+  "id_item": "C183",
+  "sugestao": "nenhum",
+  "valor_sugerido": "mobilizacao: dummy de OST ; dummy de turno ; tendência temporal linear específica por departamento. apoio_ao_lider: nenhum (a equação 2 tem só a diferença no continente, a dummy pós-2005 e a interação).",
+  "trecho": "X a vector of controls that contains time trends, second round election dummy and OST dummies",
+  "pagina": 20,
+  "justificativa": "Na Tabela 5, col. (1), o modelo tem dummy de OST, dummy de turno e tendência linear por departamento, sem a quadrática (col. 2 e 4); a revalidação inclui a quadrática por engano, e o original omite que o modelo de apoio ao líder (Tabela 8) não tem controles."
+ },
+ {
+  "id_item": "C184",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "mobilizacao: Tabela 5, col. (1) ; apoio_ao_lider: Tabela 8, coluna 'Full Sample' (diferença δ entre as inclinações pré e pós-2005)",
+  "trecho": "The coeﬃcient of interest remains remarkably stable at around 11 percentage points in the baseline speciﬁcation",
+  "pagina": 26,
+  "justificativa": "Apontam as mesmas especificações, só em ordem diferente. Ambiguidade residual: a conclusão fala em 12 p.p. na 'preferred specification', número que não aparece na Tabela 5 (só na Tabela 12, col. 6, do apêndice)."
+ },
+ {
+  "id_item": "C185",
+  "sugestao": "original",
+  "valor_sugerido": "apoio_ao_lider: regra_do_protocolo ; mobilizacao: usado_na_interpretacao",
+  "trecho": "We ﬁnd that knowing the outcome of early voting decreases turnout by about 12 percentage points in our preferred speciﬁcation.",
+  "pagina": 36,
+  "justificativa": "A frase 'preferred specification' não nomeia tabela ou coluna e seu número (12) não é o da Tabela 5, col. (1), então não vale como declarado_pelos_autores; o 11 p.p. do resumo e da p. 26 vem da Tabela 5 (usado_na_interpretacao). O δ = −5,22 do bandwagon não se repete no resumo nem na conclusão, o que leva à regra_do_protocolo."
+ },
+ {
+  "id_item": "C186",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "apoio_ao_lider: benefica ; mobilizacao: danosa",
+  "trecho": "Thus a negative parameter indicates a bandwagon eﬀect, where voters in western OST tended to follow the announced mainland results before the reform.",
+  "pagina": 33,
+  "justificativa": "Mesma classificação: a exposição reduz o comparecimento (danosa) e o δ negativo significa mais voto no líder sob a exposição (benefica); a revalidação só acrescenta a explicação."
+ },
+ {
+  "id_item": "C187",
+  "sugestao": "indecidivel",
+  "valor_sugerido": "mobilizacao: sim ; apoio_ao_lider: nao com EP OLS ou agrupado (p < 0,10), sim com bootstrap ou bootstrap em blocos (p < 0,01)",
+  "trecho": "The diﬀerence δ between both coeﬃcients is therefore negative (−5.22) and statistically signiﬁcant at the 10% level using ordinary clustered, and bootstrapped standard error estimates (middle of Table 8) in the t-test.",
+  "pagina": 33,
+  "justificativa": "Na mobilização os dois dizem sim (0,11, EP 0,02). No apoio ao líder, a Tabela 8 marca δ com * (10%) para EP OLS e agrupado e com *** para bootstrap e bootstrap em blocos, e o texto afirma só 10%; o artigo não diz qual EP é o principal. A regra dos próprios autores para poucos clusters (bootstrap em blocos, p. 23) apontaria para sim, mas o texto não fecha a questão."
+ },
+ {
+  "id_item": "C188",
+  "sugestao": "equivalentes",
+  "valor_sugerido": "Os autores concluem que conhecer o resultado pela boca de urna reduz o comparecimento (cerca de 11 a 12 p.p.) e aumenta o voto bandwagon entre os que comparecem.",
+  "trecho": "We also ﬁnd empirical support for bandwagon voting in which later voters, if they participate, are more likely to vote for the expected winner.",
+  "pagina": 36,
+  "justificativa": "A mesma conclusão; o original só acrescenta a magnitude, que os autores dão como 11 p.p. no resumo e 12 p.p. na conclusão."
+ },
+ {
+  "id_item": "C189",
+  "sugestao": "revalidacao",
+  "valor_sugerido": "2º turno, diferença 1º vs. 2º colocado nas previsões de boca de urna (Tabela 1, coluna \"Diff pivotal candidates\", Forecast): 1981: 3.4 ; 1988: 7.8 ; 1995: 4 ; 2002: 64.2 ; 2007: 6 ; 2012: 3.80. 1º turno: 999 (a tabela reporta a diferença entre o 2º e o 3º colocados, não entre 1º e 2º — ver Notas).",
+  "trecho": "“Pivotal candidates” refers to the ﬁrst and second candidate in the second round and the second and the third candidate in the ﬁrst round.",
+  "pagina": 13,
+  "justificativa": "A revalidação traz, como reportado na Tabela 1, a diferença prevista entre primeiro e segundo no 2º turno de cada eleição, e marca o 1º turno como não reportado, porque a coluna dá o 2º contra o 3º; o original é vago. Se o revisor aceitar subtração das previsões, o 1º turno seria 3,1; 14,9; 3,4; 3,0; 4,5; 2,9."
+ }
+]

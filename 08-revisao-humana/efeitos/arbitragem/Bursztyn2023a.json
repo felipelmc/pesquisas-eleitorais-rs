@@ -1,0 +1,297 @@
+{
+ "chave": "Bursztyn2023a",
+ "resumo": "Números, páginas, alvo, direção e modelos principais (E01 e E17) conferem com o PDF e com a cega; nenhuma linha nova. As 18 linhas trocam comparador_tipo 'outro' por 'outro_resultado' (contraste de proximidade da pesquisa; E14 vira 'sem_pesquisa', era sem pesquisas antes de 1998), e E15-E18 (Tabela 6/C.9, interação com apoio estimado não sorteado) passam de ATT a associacao; o ATE que a cega deu a E01 é rejeitado (sem sorteio, estudo de eventos = DiD → ATT). O 'cluster' derivado da cega (766/52) não é proposto: o EP já vem agrupado por votação, e o ajuste de ICC contaria o agrupamento duas vezes. Contexto (regiao outro, referendo, ano_eleicao_pre2010 nao pela eleição mais recente, 2019) mantido conforme o texto.",
+ "decisoes": [
+  {
+   "id_efeito": "Bursztyn2023a-E01",
+   "divergencia": "comparador_tipo: outro × outro_resultado (cega); estimando: ATT × ATE (cega)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "This is a simple event study, examining voter turnout by vote×day, where “day” is the number of days prior to, or following release of a poll.",
+   "pagina": 13,
+   "justificativa": "Todas as votações têm pesquisa: o contraste é pesquisa mais apertada × menos apertada (proximidade padronizada × dias após a divulgação), isto é, outro resultado. Estimando ATT mantido: estudo de eventos sem sorteio, com EF de votação e de dia, é DiD generalizado (regra 3 de b2_estimando); o ATE da cega exige braços sorteados."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E02",
+   "divergencia": "cega extraiu a mesma linha (Tabela 3, col. 1) com comparador outro_resultado e estimando ATE; a comparação não pareou por não ser principal",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "This is a simple event study, examining voter turnout by vote×day, where “day” is the number of days prior to, or following release of a poll.",
+   "pagina": 13,
+   "justificativa": "Todas as votações têm pesquisa: o contraste é pesquisa mais apertada × menos apertada (proximidade padronizada × dias após a divulgação), isto é, outro resultado. Estimando ATT mantido: estudo de eventos sem sorteio, com EF de votação e de dia, é DiD generalizado (regra 3 de b2_estimando); o ATE da cega exige braços sorteados."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E03",
+   "divergencia": "cega extraiu a mesma linha (Tabela 3, col. 1) com comparador outro_resultado e estimando ATE; a comparação não pareou por não ser principal",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "This is a simple event study, examining voter turnout by vote×day, where “day” is the number of days prior to, or following release of a poll.",
+   "pagina": 13,
+   "justificativa": "Todas as votações têm pesquisa: o contraste é pesquisa mais apertada × menos apertada (proximidade padronizada × dias após a divulgação), isto é, outro resultado. Estimando ATT mantido: estudo de eventos sem sorteio, com EF de votação e de dia, é DiD generalizado (regra 3 de b2_estimando); o ATE da cega exige braços sorteados."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E04",
+   "divergencia": "sem par na cega (a cega extraiu só a col. 1 da Tabela 3); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "This is a simple event study, examining voter turnout by vote×day, where “day” is the number of days prior to, or following release of a poll.",
+   "pagina": 13,
+   "justificativa": "Todas as votações têm pesquisa: o contraste é pesquisa mais apertada × menos apertada (proximidade padronizada × dias após a divulgação), isto é, outro resultado. Estimando ATT mantido: estudo de eventos sem sorteio, com EF de votação e de dia, é DiD generalizado (regra 3 de b2_estimando); o ATE da cega exige braços sorteados."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E05",
+   "divergencia": "sem par na cega (a cega extraiu só a col. 1 da Tabela 3); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "This is a simple event study, examining voter turnout by vote×day, where “day” is the number of days prior to, or following release of a poll.",
+   "pagina": 13,
+   "justificativa": "Todas as votações têm pesquisa: o contraste é pesquisa mais apertada × menos apertada (proximidade padronizada × dias após a divulgação), isto é, outro resultado. Estimando ATT mantido: estudo de eventos sem sorteio, com EF de votação e de dia, é DiD generalizado (regra 3 de b2_estimando); o ATE da cega exige braços sorteados."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E06",
+   "divergencia": "sem par na cega (a cega extraiu só a col. 1 da Tabela 3); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "This is a simple event study, examining voter turnout by vote×day, where “day” is the number of days prior to, or following release of a poll.",
+   "pagina": 13,
+   "justificativa": "Todas as votações têm pesquisa: o contraste é pesquisa mais apertada × menos apertada (proximidade padronizada × dias após a divulgação), isto é, outro resultado. Estimando ATT mantido: estudo de eventos sem sorteio, com EF de votação e de dia, é DiD generalizado (regra 3 de b2_estimando); o ATE da cega exige braços sorteados."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E07",
+   "divergencia": "sem par na cega (a cega extraiu só a col. 1 da Tabela 3); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "This is a simple event study, examining voter turnout by vote×day, where “day” is the number of days prior to, or following release of a poll.",
+   "pagina": 13,
+   "justificativa": "Todas as votações têm pesquisa: o contraste é pesquisa mais apertada × menos apertada (proximidade padronizada × dias após a divulgação), isto é, outro resultado. Estimando ATT mantido: estudo de eventos sem sorteio, com EF de votação e de dia, é DiD generalizado (regra 3 de b2_estimando); o ATE da cega exige braços sorteados."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E08",
+   "divergencia": "sem par na cega; revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "with the coefﬁcient ψ1 telling us whether close polls have a differential impact on turnout speciﬁcally when they are covered more by a canton’s newspapers.",
+   "pagina": 16,
+   "justificativa": "O termo de interesse é o efeito diferencial da proximidade da pesquisa (outro resultado) conforme a cobertura no cantão; todas as unidades viram pesquisa. Estimando associacao mantido: painel com EF e interação com moderador (cobertura) não sorteado, regra 5."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E09",
+   "divergencia": "sem par na cega; revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "with the coefﬁcient ψ1 telling us whether close polls have a differential impact on turnout speciﬁcally when they are covered more by a canton’s newspapers.",
+   "pagina": 16,
+   "justificativa": "O termo de interesse é o efeito diferencial da proximidade da pesquisa (outro resultado) conforme a cobertura no cantão; todas as unidades viram pesquisa. Estimando associacao mantido: painel com EF e interação com moderador (cobertura) não sorteado, regra 5."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E10",
+   "divergencia": "sem par na cega; revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "with the coefﬁcient ψ1 telling us whether close polls have a differential impact on turnout speciﬁcally when they are covered more by a canton’s newspapers.",
+   "pagina": 16,
+   "justificativa": "O termo de interesse é o efeito diferencial da proximidade da pesquisa (outro resultado) conforme a cobertura no cantão; todas as unidades viram pesquisa. Estimando associacao mantido: painel com EF e interação com moderador (cobertura) não sorteado, regra 5."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E11",
+   "divergencia": "sem par na cega; revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "with the coefﬁcient ψ1 telling us whether close polls have a differential impact on turnout speciﬁcally when they are covered more by a canton’s newspapers.",
+   "pagina": 16,
+   "justificativa": "O termo de interesse é o efeito diferencial da proximidade da pesquisa (outro resultado) conforme a cobertura no cantão; todas as unidades viram pesquisa. Estimando associacao mantido: painel com EF e interação com moderador (cobertura) não sorteado, regra 5."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E12",
+   "divergencia": "sem par na cega; revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "with the coefﬁcient ψ1 telling us whether close polls have a differential impact on turnout speciﬁcally when they are covered more by a canton’s newspapers.",
+   "pagina": 16,
+   "justificativa": "O termo de interesse é o efeito diferencial da proximidade da pesquisa (outro resultado) conforme a cobertura no cantão; todas as unidades viram pesquisa. Estimando associacao mantido: painel com EF e interação com moderador (cobertura) não sorteado, regra 5."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E13",
+   "divergencia": "sem par na cega; revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we use incidental exposure to poll coverage as an instrument for total exposure (and the interaction between poll closeness and incidental newspaper coverage of polls as an instrument",
+   "pagina": 18,
+   "justificativa": "Mesmo contraste de E08 (proximidade × cobertura), agora em 2SLS. Estimando LATE mantido: instrumento explícito (menções incidentais), regra 1 de b2_estimando."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E14",
+   "divergencia": "sem par na cega; revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    }
+   ],
+   "trecho": "To do so, we exploit the introduction of polls in Switzerland in 1998.",
+   "pagina": 18,
+   "justificativa": "A dimensão de exposição da tripla interação é a era das pesquisas (Poll Era): as votações anteriores a 1998 não tinham pesquisa nacional, logo o comparador é sem_pesquisa (não há proibição, o que afasta antes_depois_proibicao). ATT mantido: DiD entre eras e municípios sem sorteio, regra 3."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E15",
+   "divergencia": "sem par na cega (a cega cita a col. 1 da Tabela 6 só na nota de E17); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "As polls get closer, municipalities with greater estimated support for the trailing side exhibit differentially higher turnout",
+   "pagina": 22,
+   "justificativa": "O contraste é pesquisa mais apertada × menos apertada (outro resultado), diferencial pelo apoio municipal estimado ao lado atrás. Sem antes e depois nem pareamento: é painel com EF e interação com moderador não sorteado (apoio estimado por votação legislativa anterior), regra 5 de b2_estimando → associacao, não ATT."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E16",
+   "divergencia": "sem par na cega (a cega cita a col. 1 da Tabela 6 só na nota de E17); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "As polls get closer, municipalities with greater estimated support for the trailing side exhibit differentially higher turnout",
+   "pagina": 22,
+   "justificativa": "O contraste é pesquisa mais apertada × menos apertada (outro resultado), diferencial pelo apoio municipal estimado ao lado atrás. Sem antes e depois nem pareamento: é painel com EF e interação com moderador não sorteado (apoio estimado por votação legislativa anterior), regra 5 de b2_estimando → associacao, não ATT."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E17",
+   "divergencia": "comparador_tipo: outro × outro_resultado; estimando: ATT × associacao (cega)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "following closer polls, vote shares in favor of the trailing side differentially increase in municipalities with more estimated",
+   "pagina": 22,
+   "justificativa": "A cega está certa nos dois campos. O coeficiente é a interação proximidade da pesquisa (outro resultado) × apoio estimado ao lado atrás, um moderador contínuo não sorteado, com EF de município e cantão × votação e sem desenho DiD: regra 5 → associacao. Valores, alvo azarao, direcao reduzir e modelo principal conferem com a Tabela 6, col. 2; a linha continua no FORA."
+  },
+  {
+   "id_efeito": "Bursztyn2023a-E18",
+   "divergencia": "sem par na cega (robustez de E17 no apêndice); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "following closer polls, vote shares in favor of the trailing side differentially increase in municipalities with more estimated",
+   "pagina": 22,
+   "justificativa": "Mesma especificação de E17 na amostra aparada (Tabela C.9, col. 2); mesma correção de comparador e estimando."
+  }
+ ],
+ "linhas_novas": []
+}

@@ -1,0 +1,2 @@
+"grupo","status","k_estudos","k_efeitos","estimativa","ic_inf","ic_sup","p","pi_inf","pi_sup","tau2","tau2_ic_inf","tau2_ic_sup","I2","Q","Q_p","tau2_interpretavel","motivo","n_excluidos_rob_critico"
+"pesquisa_pre_eleitoral | apoio_ao_lider | sem_pesquisa | randomizado","meta_ajustada",3,4,0.505640350742094,-0.971127062695158,1.98240776417935,0.203370581574889,-2.34125549237167,3.35253619385585,1.74817911533291e-10,,,4.34206939964166e-08,1.42031158581626,0.700780565806808,FALSE,"",0

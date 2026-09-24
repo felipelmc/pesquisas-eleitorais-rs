@@ -1,0 +1,120 @@
+{
+ "chave": "Stolwijk2019b",
+ "resumo": "A única divergência detectada (E03, principal) é de classificação, não de valor. O estimando passa de ATT para associacao, porque o CBPS entra como covariável num logit, sem pareamento. O comparador unidades_nao_expostas fica, e o modelo principal e os números conferem. Nas interações da Tabela 2 (E04–E08), todos os respondentes viram pesquisas, então o comparador passa de unidades_nao_expostas para outro_resultado.",
+ "decisoes": [
+  {
+   "id_efeito": "Stolwijk2019b-E01",
+   "divergencia": "não comparada pelo script (linha não principal); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "The ﬁrst column of Table 1 shows the difference in turnout between those who did and did not see polls.",
+   "pagina": 11,
+   "justificativa": "Contraste observacional entre quem viu e quem não viu pesquisas (exposição autorrelatada): unidades_nao_expostas é o comparador certo. Logit sem controles nem estratégia de identificação: associacao (regra 5)."
+  },
+  {
+   "id_efeito": "Stolwijk2019b-E02",
+   "divergencia": "não comparada pelo script (linha não principal); revisão obrigatória de comparador_tipo e estimando",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "The second column of Table 1 shows the estimates that would usually be reported: that of a multivariate regression with control variables",
+   "pagina": 12,
+   "justificativa": "Mesmo contraste observacional (viu × não viu pesquisas), unidades_nao_expostas. Regressão com controles defasados, sem sorteio: associacao (regra 5)."
+  },
+  {
+   "id_efeito": "Stolwijk2019b-E03",
+   "divergencia": "comparador_tipo unidades_nao_expostas (original) × sem_pesquisa (cega); estimando ATT (original) × associacao (cega); a cega acrescenta beta 0,57 e efeito_pp 13,9",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    },
+    {
+     "campo": "desenho",
+     "de": "pareamento (escore de propensao CBPS como covariavel)",
+     "para": "observacional em painel (logit com o escore de propensao CBPS como unica covariavel, sem pareamento)"
+    }
+   ],
+   "trecho": "Table 1 shows the results of logistic regressions with and without control variables using a standard model, and with CBPS as a control.",
+   "pagina": 11,
+   "justificativa": "O resumo fala em 'CBPS matching', mas o modelo não pareia nem restringe a comparação a unidades pareadas: é um logit sobre as 747 unidades com o escore como controle ('when controlling for the prior probability', folha 12). Isso é regressão com controle, então associacao (regra 5), não ATT. O comparador unidades_nao_expostas fica: o grupo de comparação são respondentes observados que não viram pesquisas, e sem_pesquisa é para braços de controle. Os valores (OR 1,77, p < 0,01, N 747, p0 0,365, p1 0,504) e o modelo principal (declarado: 'The more precise CBPS approach', folha 12) conferem. beta e efeito_pp da cega são dispensáveis, porque or_, p0 e p1 já dão o sinal."
+  },
+  {
+   "id_efeito": "Stolwijk2019b-E04",
+   "divergencia": "não comparada pelo script (linha não principal, que a cega não extraiu); comparador_tipo unidades_nao_expostas é inadequado",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "unidades_nao_expostas",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we evaluated whether those who reported to have observed polls became more or less interested in the campaign and likely to turn out if their favored party performed better in the polls, compared to when it did less well.",
+   "pagina": 12,
+   "justificativa": "Interação avaliação do VVD × desempenho percebido do VVD nas pesquisas, estimada só entre quem viu pesquisas (N = 238). Ninguém nessa amostra deixou de ser exposto: o contraste é entre desempenhos percebidos diferentes nas pesquisas, então outro_resultado. estimando associacao fica (interação com moderador não sorteado). Os valores de or_ estão entre parênteses na Tabela 2 e não dependem dos sinais de menos que a camada de texto perde."
+  },
+  {
+   "id_efeito": "Stolwijk2019b-E05",
+   "divergencia": "não comparada pelo script (linha não principal, que a cega não extraiu); comparador_tipo unidades_nao_expostas é inadequado",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "unidades_nao_expostas",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we evaluated whether those who reported to have observed polls became more or less interested in the campaign and likely to turn out if their favored party performed better in the polls, compared to when it did less well.",
+   "pagina": 12,
+   "justificativa": "Interação avaliação do PvdA × desempenho percebido do PvdA nas pesquisas, estimada só entre quem viu pesquisas (N = 238). Ninguém nessa amostra deixou de ser exposto: o contraste é entre desempenhos percebidos diferentes nas pesquisas, então outro_resultado. estimando associacao fica (interação com moderador não sorteado). Os valores de or_ estão entre parênteses na Tabela 2 e não dependem dos sinais de menos que a camada de texto perde."
+  },
+  {
+   "id_efeito": "Stolwijk2019b-E06",
+   "divergencia": "não comparada pelo script (linha não principal, que a cega não extraiu); comparador_tipo unidades_nao_expostas é inadequado",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "unidades_nao_expostas",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we evaluated whether those who reported to have observed polls became more or less interested in the campaign and likely to turn out if their favored party performed better in the polls, compared to when it did less well.",
+   "pagina": 12,
+   "justificativa": "Interação avaliação do PVV × desempenho percebido do PVV nas pesquisas, estimada só entre quem viu pesquisas (N = 238). Ninguém nessa amostra deixou de ser exposto: o contraste é entre desempenhos percebidos diferentes nas pesquisas, então outro_resultado. estimando associacao fica (interação com moderador não sorteado). Os valores de or_ estão entre parênteses na Tabela 2 e não dependem dos sinais de menos que a camada de texto perde."
+  },
+  {
+   "id_efeito": "Stolwijk2019b-E07",
+   "divergencia": "não comparada pelo script (linha não principal, que a cega não extraiu); comparador_tipo unidades_nao_expostas é inadequado",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "unidades_nao_expostas",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we evaluated whether those who reported to have observed polls became more or less interested in the campaign and likely to turn out if their favored party performed better in the polls, compared to when it did less well.",
+   "pagina": 12,
+   "justificativa": "Interação avaliação do SP × desempenho percebido do SP nas pesquisas, estimada só entre quem viu pesquisas (N = 238). Ninguém nessa amostra deixou de ser exposto: o contraste é entre desempenhos percebidos diferentes nas pesquisas, então outro_resultado. estimando associacao fica (interação com moderador não sorteado). Os valores de or_ estão entre parênteses na Tabela 2 e não dependem dos sinais de menos que a camada de texto perde."
+  },
+  {
+   "id_efeito": "Stolwijk2019b-E08",
+   "divergencia": "não comparada pelo script (linha não principal, que a cega não extraiu); comparador_tipo unidades_nao_expostas é inadequado",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "unidades_nao_expostas",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we evaluated whether those who reported to have observed polls became more or less interested in the campaign and likely to turn out if their favored party performed better in the polls, compared to when it did less well.",
+   "pagina": 12,
+   "justificativa": "Interação avaliação do D66 × desempenho percebido do D66 nas pesquisas, estimada só entre quem viu pesquisas (N = 238). Ninguém nessa amostra deixou de ser exposto: o contraste é entre desempenhos percebidos diferentes nas pesquisas, então outro_resultado. estimando associacao fica (interação com moderador não sorteado). Os valores de or_ estão entre parênteses na Tabela 2 e não dependem dos sinais de menos que a camada de texto perde."
+  }
+ ],
+ "linhas_novas": []
+}

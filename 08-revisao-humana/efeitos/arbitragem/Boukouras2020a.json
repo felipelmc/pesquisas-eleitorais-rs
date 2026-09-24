@@ -1,0 +1,233 @@
+{
+ "chave": "Boukouras2020a",
+ "resumo": "Números das três linhas principais (Tabela VI) conferem com o texto e com a cega; o único erro nelas é comparador_tipo 'outro', que vira 'outro_resultado' (o controle viu outras pesquisas da mesma eleição), corrigido também nas 9 linhas secundárias. E04-E06 duplicam E01-E03 com o rótulo 'vote share' que os próprios autores usam por engano na introdução (a folha 19 chama o número de 'winning rate'); ficam 'nao' com outcome e modelo reescritos. cluster=15 está certo (15 rodadas por sessão = unidade da estimativa) e não há controle compartilhado entre E01 e E03: são sessões e participantes distintos.",
+ "decisoes": [
+  {
+   "id_efeito": "Boukouras2020a-E01",
+   "divergencia": "comparador_tipo: original 'outro', cega 'outro_resultado'; cega também preenche efeito_pp e arredonda p0/p1 de outro jeito (0,6167 x 0,616 etc.)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Our ﬁrst control (in E1) is simply an environment where the total information is released to voters.",
+   "pagina": 12,
+   "justificativa": "O controle viu pesquisas reais da mesma eleição (todas as 5, ou 2 sorteadas em E2); só o conjunto revelado muda, logo o comparador é 'outro resultado', não 'outro'. Valores (36/60 contra 48/60, p unilateral 0,0138; Tabela VI, folha 50), alvo lider, modelo principal e cluster=15 conferidos e mantidos. efeito_pp vazio não afeta o cálculo (efeitos.R usa p0, p1 e n)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E02",
+   "divergencia": "comparador_tipo: original 'outro', cega 'outro_resultado'; cega também preenche efeito_pp e arredonda p0/p1 de outro jeito (0,6167 x 0,616 etc.)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Our second control (in E2) is a setting where an equal amount of information as in our treatment manipulation (two polls out of ﬁve) is conveyed, but in a random, rather than a systematically selective, manner.",
+   "pagina": 12,
+   "justificativa": "O controle viu pesquisas reais da mesma eleição (todas as 5, ou 2 sorteadas em E2); só o conjunto revelado muda, logo o comparador é 'outro resultado', não 'outro'. Valores (37/60 contra 44/60, p 0,121) conferidos; p0 = 0,616 segue o impresso na folha 16 (a conta exata 37/60 = 0,6167 muda g em menos de 0,001), mantido para casar com a evidência. Alvo, modelo principal e cluster=15 mantidos. efeito_pp vazio não afeta o cálculo (efeitos.R usa p0, p1 e n)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E03",
+   "divergencia": "comparador_tipo: original 'outro', cega 'outro_resultado'; cega também preenche efeito_pp e arredonda p0/p1 de outro jeito (0,6167 x 0,616 etc.)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Finally, in Experiment 3 (E3), we keep the same control condition as E1, but in the treatment condition participants are informed beforehand about the (non-random) rule for selecting the two polls.",
+   "pagina": 5,
+   "justificativa": "O controle viu pesquisas reais da mesma eleição (todas as 5, ou 2 sorteadas em E2); só o conjunto revelado muda, logo o comparador é 'outro resultado', não 'outro'. Valores (34/60 contra 48/75, p 0,245) conferidos. O controle de E3 não é o mesmo de E01: E3 tem sessões de controle próprias com outros participantes (York, 2019; Tabela VI dá 34/26 contra 36/24 em E1); o que se repete é a condição, não o grupo. Alvo, modelo principal e cluster=15 mantidos. efeito_pp vazio não afeta o cálculo (efeitos.R usa p0, p1 e n)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E04",
+   "divergencia": "Sem par na cega (a cega não extraiu linha de 'vote share' porque os números coincidem com a taxa de vitória). Rótulo de desfecho possivelmente errado dos autores (nota de extração); comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "outcome",
+     "de": "average vote share of candidate K",
+     "para": "rounds won by party K (rate of electoral success); labelled 'vote share' by the authors in the introduction"
+    },
+    {
+     "campo": "modelo",
+     "de": "E1: diferença média de participação de K nos votos (texto, p. impressa 4; sem tabela); tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas, sem aviso da regra; controle = as 5 pesquisas reveladas; a exposição enviesada favorece K; desfecho = % dos votos para K na eleição da rodada",
+     "para": "E1: número da introdução (folha 5) que os autores chamam de 'vote share', mas que é a diferença de taxa de vitória de K da Tabela VI (80% − 60% = 20 p.p.) e é chamado de 'winning rate' na folha 19; duplica Boukouras2020a-E01, não é participação nos votos e não deve ser usado como tal; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas, sem aviso da regra; controle = as 5 pesquisas reveladas; desfecho = fração de rodadas vencidas por K"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "the ‘biased feedback’ environment resulted to an increase of the winning rate for party K (favoured by the biased feedback) by twenty percentage points.",
+   "pagina": 19,
+   "justificativa": "Os três números 20, 11,7 e 7,3 são exatamente as diferenças de taxa de vitória da Tabela VI, e a folha 19 chama o de E1 de 'winning rate'. A linha duplica E01 com rótulo errado: fica 'nao', com outcome e modelo reescritos para que ninguém a leia como participação nos votos. O artigo não imprime a diferença de participação nos votos (só a Figura V/IX/XIII, por sessão)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E05",
+   "divergencia": "Sem par na cega (a cega não extraiu linha de 'vote share' porque os números coincidem com a taxa de vitória). Rótulo de desfecho possivelmente errado dos autores (nota de extração); comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "outcome",
+     "de": "average vote share of candidate K",
+     "para": "rounds won by party K (rate of electoral success); labelled 'vote share' by the authors in the introduction"
+    },
+    {
+     "campo": "modelo",
+     "de": "E2: diferença média de participação de K nos votos (texto, p. impressa 4; sem tabela); tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas, sem aviso da regra; controle = 2 pesquisas sorteadas ao acaso; a exposição enviesada favorece K; desfecho = % dos votos para K na eleição da rodada",
+     "para": "E2: número da introdução (folha 5) que os autores chamam de 'vote share', mas que é a diferença de taxa de vitória de K da Tabela VI (73,3% − 61,6% = 11.7 p.p.) e é chamado de 'winning rate' na folha 19; duplica Boukouras2020a-E02, não é participação nos votos e não deve ser usado como tal; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas, sem aviso da regra; controle = 2 pesquisas sorteadas ao acaso; desfecho = fração de rodadas vencidas por K"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "the ‘biased feedback’ environment resulted to an increase of the winning rate for party K (favoured by the biased feedback) by twenty percentage points.",
+   "pagina": 19,
+   "justificativa": "Os três números 20, 11,7 e 7,3 são exatamente as diferenças de taxa de vitória da Tabela VI, e a folha 19 chama o de E1 de 'winning rate'. A linha duplica E02 com rótulo errado: fica 'nao', com outcome e modelo reescritos para que ninguém a leia como participação nos votos. O artigo não imprime a diferença de participação nos votos (só a Figura V/IX/XIII, por sessão)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E06",
+   "divergencia": "Sem par na cega (a cega não extraiu linha de 'vote share' porque os números coincidem com a taxa de vitória). Rótulo de desfecho possivelmente errado dos autores (nota de extração); comparador 'outro'.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "outcome",
+     "de": "average vote share of candidate K",
+     "para": "rounds won by party K (rate of electoral success); labelled 'vote share' by the authors in the introduction"
+    },
+    {
+     "campo": "modelo",
+     "de": "E3: diferença média de participação de K nos votos (texto, p. impressa 4; sem tabela); tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas, com aviso prévio da regra; controle = as 5 pesquisas reveladas; a exposição enviesada favorece K; desfecho = % dos votos para K na eleição da rodada",
+     "para": "E3: número da introdução (folha 5) que os autores chamam de 'vote share', mas que é a diferença de taxa de vitória de K da Tabela VI (64% − 56,7% = 7.3 p.p.) e é chamado de 'winning rate' na folha 19; duplica Boukouras2020a-E03, não é participação nos votos e não deve ser usado como tal; tratamento = só as 2 pesquisas (de 5) mais favoráveis a K reveladas, com aviso prévio da regra; controle = as 5 pesquisas reveladas; desfecho = fração de rodadas vencidas por K"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "the ‘biased feedback’ environment resulted to an increase of the winning rate for party K (favoured by the biased feedback) by twenty percentage points.",
+   "pagina": 19,
+   "justificativa": "Os três números 20, 11,7 e 7,3 são exatamente as diferenças de taxa de vitória da Tabela VI, e a folha 19 chama o de E1 de 'winning rate'. A linha duplica E03 com rótulo errado: fica 'nao', com outcome e modelo reescritos para que ninguém a leia como participação nos votos. O artigo não imprime a diferença de participação nos votos (só a Figura V/IX/XIII, por sessão)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E07",
+   "divergencia": "Sem par na cega (linha secundária, Tabela IX). Comparador 'outro' pelo mesmo erro das principais.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Our ﬁrst control (in E1) is simply an environment where the total information is released to voters.",
+   "pagina": 12,
+   "justificativa": "Mesmo contraste de E1 (conjunto enviesado x outro conjunto de pesquisas), logo 'outro_resultado'. Valores de p0/p1 conferidos na Tabela IX (folha 51); estimando 'outro' e modelo_principal 'nao' mantidos (condiciona na escolha no estágio de pesquisa, descritivo e sem teste)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E08",
+   "divergencia": "Sem par na cega (linha secundária, Tabela IX). Comparador 'outro' pelo mesmo erro das principais.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Our second control (in E2) is a setting where an equal amount of information as in our treatment manipulation (two polls out of ﬁve) is conveyed, but in a random, rather than a systematically selective, manner.",
+   "pagina": 12,
+   "justificativa": "Mesmo contraste de E2 (conjunto enviesado x outro conjunto de pesquisas), logo 'outro_resultado'. Valores de p0/p1 conferidos na Tabela IX (folha 51); estimando 'outro' e modelo_principal 'nao' mantidos (condiciona na escolha no estágio de pesquisa, descritivo e sem teste)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E09",
+   "divergencia": "Sem par na cega (linha secundária, Tabela IX). Comparador 'outro' pelo mesmo erro das principais.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Finally, in Experiment 3 (E3), we keep the same control condition as E1, but in the treatment condition participants are informed beforehand about the (non-random) rule for selecting the two polls.",
+   "pagina": 5,
+   "justificativa": "Mesmo contraste de E3 (conjunto enviesado x outro conjunto de pesquisas), logo 'outro_resultado'. Valores de p0/p1 conferidos na Tabela IX (folha 51); estimando 'outro' e modelo_principal 'nao' mantidos (condiciona na escolha no estágio de pesquisa, descritivo e sem teste)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E10",
+   "divergencia": "Sem par na cega (linha secundária, Tabela IX). Comparador 'outro' pelo mesmo erro das principais.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Our ﬁrst control (in E1) is simply an environment where the total information is released to voters.",
+   "pagina": 12,
+   "justificativa": "Mesmo contraste de E1 (conjunto enviesado x outro conjunto de pesquisas), logo 'outro_resultado'. Valores de p0/p1 conferidos na Tabela IX (folha 51); estimando 'outro' e modelo_principal 'nao' mantidos (condiciona na escolha no estágio de pesquisa, descritivo e sem teste)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E11",
+   "divergencia": "Sem par na cega (linha secundária, Tabela IX). Comparador 'outro' pelo mesmo erro das principais.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Our second control (in E2) is a setting where an equal amount of information as in our treatment manipulation (two polls out of ﬁve) is conveyed, but in a random, rather than a systematically selective, manner.",
+   "pagina": 12,
+   "justificativa": "Mesmo contraste de E2 (conjunto enviesado x outro conjunto de pesquisas), logo 'outro_resultado'. Valores de p0/p1 conferidos na Tabela IX (folha 51); estimando 'outro' e modelo_principal 'nao' mantidos (condiciona na escolha no estágio de pesquisa, descritivo e sem teste)."
+  },
+  {
+   "id_efeito": "Boukouras2020a-E12",
+   "divergencia": "Sem par na cega (linha secundária, Tabela IX). Comparador 'outro' pelo mesmo erro das principais.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Finally, in Experiment 3 (E3), we keep the same control condition as E1, but in the treatment condition participants are informed beforehand about the (non-random) rule for selecting the two polls.",
+   "pagina": 5,
+   "justificativa": "Mesmo contraste de E3 (conjunto enviesado x outro conjunto de pesquisas), logo 'outro_resultado'. Valores de p0/p1 conferidos na Tabela IX (folha 51); estimando 'outro' e modelo_principal 'nao' mantidos (condiciona na escolha no estágio de pesquisa, descritivo e sem teste)."
+  }
+ ],
+ "verificacoes_adicionais": [
+  {
+   "tema": "cluster = 15 e ajuste de conglomerado (E01-E03)",
+   "conclusao": "manter cluster=15 e icc=0.05",
+   "trecho": "subjects participated in 18 rounds of play, including three practice rounds.",
+   "pagina": 16,
+   "justificativa": "A unidade da estimativa é a rodada (eleição), e cada sessão atribuída à condição tem 15 rodadas válidas (18 menos 3 de treino); pela Emenda 4c, m = rodadas por sessão = 15. Coincide com os 15 sujeitos por sessão, então o valor está certo pelos dois critérios (a dúvida R-G8 fica resolvida). n1/n2 = 60/60 (75/60 em E3) = 4 (5) sessões x 15 rodadas; o efeitos.R usa cluster como tamanho médio (DE = 1 + 14 x 0,05 = 1,7). Ressalva para o humano: só 4 ou 5 conglomerados por braço, e as valências foram sorteadas uma vez e repetidas em todas as sessões e experimentos (folha 13, nota 9), o que cruza rodada e sessão; o ICC 0,05 é convenção e a sensibilidade 0,20 cobre parte disso. O teste de Fisher dos autores trata as 120 rodadas como independentes."
+  },
+  {
+   "tema": "controle compartilhado entre E01 e E03",
+   "conclusao": "não há controle compartilhado; nenhuma correção",
+   "trecho": "Participants in E1 and E2 were students at the University of Southampton and Newcastle Business School, and the experiments took place between May and November 2018. Participants in E3 were students at the University of York,",
+   "pagina": 15,
+   "justificativa": "E1 e E3 usam a mesma condição de controle (todas as 5 pesquisas), mas com sessões e participantes distintos (Tabela VI: controle E1 36/24, controle E3 34/26). Os três experimentos são amostras independentes, um estudo cada (protocolo, seção 6). A única dependência é o estímulo comum (mesmas valências em todas as sessões). O apontamento da revisão metodológica do G8 ('E01 e E03 dividem o mesmo controle') não se confirma. id_estudo está vazio nas 12 linhas; pelo protocolo seriam três estudos (_e1, _e2, _e3), mas este campo não é do árbitro."
+  }
+ ],
+ "linhas_novas": []
+}

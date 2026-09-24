@@ -1,0 +1,40 @@
+{
+ "chave": "Brugarolas2021",
+ "resumo": "A única linha (E01, mobilizacao, janela [-0.8, 0.8] da RD por randomização local) confere com o texto: 5,1 p.p., IC [2,0; 9,0], folha 6, e p0 = 0,849 lido da Figura 2. O comparador unidades_nao_expostas e o estimando ITT ficam como estão, porque os controles são entrevistados observados antes da divulgação e os autores falam em ITT textualmente. A única correção é sistema_eleitoral, que estava 999 numa eleição real ao Congresso espanhol e passa a proporcional.",
+ "decisoes": [
+  {
+   "id_efeito": "Brugarolas2021-E01",
+   "divergencia": "comparador_tipo: original unidades_nao_expostas × cega sem_pesquisa (a própria cega admite unidades_nao_expostas na nota). Os valores conferem (efeito_pp 5,1; IC 2,0 a 9,0; p0 0,849 × 0,85).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Still, the selection of the control and treatment groups was not random and diﬀerences in the composition of these two groups may bias the results.",
+   "pagina": 2,
+   "justificativa": "O grupo de comparação é formado por entrevistados do Poll 2 observados antes da divulgação do Poll 1, e não por um braço que deixou de ver pesquisa por desenho. Numa campanha com várias pesquisas publicadas, nada garante que eles não tenham visto pesquisa nenhuma. São unidades observacionais não expostas àquela divulgação, e é isso que o protocolo chama de unidades_nao_expostas (seção 8: 'antes × depois de proibição ou unidades não expostas')."
+  },
+  {
+   "id_efeito": "Brugarolas2021-E01",
+   "divergencia": "revisão de estimando: ITT nas duas extrações. A regra de b2_estimando põe RDD_local em quarto lugar, depois de ITT.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "we cannot test this assumption empirically and our estimates could be treated as an intention to treat (ITT) eﬀect rather than as an ATE.",
+   "pagina": 4,
+   "justificativa": "Os autores dizem que o Poll 2 não perguntou se o entrevistado viu a pesquisa e que a estimativa é ITT. Isso é a discussão explícita de exposição imperfeita que o passo 2 da regra exige, e o passo 2 vem antes de RDD_local. Já está registrado em notas_extracao_completa.md. O desenho ('RDD (experimento natural)') não contém 'randomizado' e fica, corretamente, na classe não randomizada."
+  },
+  {
+   "id_efeito": "Brugarolas2021-E01",
+   "divergencia": "não detectada pelo script: sistema_eleitoral = 999 numa eleição real (legislativas espanholas de abril de 2019).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "sistema_eleitoral",
+     "de": "999",
+     "para": "proporcional"
+    }
+   ],
+   "trecho": "This new result on the meaning of election closeness in multiparty systems deserves",
+   "pagina": 6,
+   "justificativa": "A eleição é real, a nacional espanhola de 2019 (folha 1), e o texto trata de coalizões e de sistema multipartidário. O Congresso espanhol é eleito por representação proporcional em listas por província. O artigo não nomeia a regra, então este valor vem de conhecimento externo e o revisor deve confirmá-lo."
+  }
+ ],
+ "linhas_novas": []
+}

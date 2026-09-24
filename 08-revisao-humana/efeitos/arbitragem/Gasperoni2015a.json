@@ -1,0 +1,767 @@
+{
+ "chave": "Gasperoni2015a",
+ "resumo": "Original e cega escolhem o mesmo modelo principal (total de 19/188 = 10% que passaram ao segundo preferido, Grupos 1 e 2 somados, repetido no resumo) e os mesmos números; os 30 estratos da Tabela 5 e os 4 da folha 24 conferem com o PDF. As correções são de classificação: comparador sem_pesquisa nas 37 linhas (pré aos 9 minutos, antes das pesquisas, sem grupo de controle) e alvo 'lider + segundo_viavel' nas linhas que somam os dois grupos, o que tira a E01 da célula de viabilidade (sugere-se incluí-la no FORA, como Meffert2011-E01); a E01 ganha efeito_pp = 10,11 e se_pp = 2,20 para ter sinal. O contraste aleatorizado Grupo 1 × Grupo 2 da cega (−2,34 p.p.) não entra como linha nova porque o efeito principal já existe; desenho e estimando associacao ficam como estão.",
+ "decisoes": [
+  {
+   "id_efeito": "Gasperoni2015a-E01",
+   "divergencia": "alvo_efeito: original segundo_viavel × cega nao_se_aplica (valores p1 e n iguais). Não detectado pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; linha principal sem efeito_pp nem p0, portanto sem sinal na SWiM (beta_proxy_sinal vazio em swim_entrada_com_excluidos).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    },
+    {
+     "campo": "modelo",
+     "de": "Tabela 5, linha Total (Grupos 1 e 2 agrupados; percentual que transferiu o voto do candidato mais preferido, declarado aos 9 minutos, para o segundo preferido após duas pesquisas desfavoráveis; sem controles, sem teste de significância)",
+     "para": "Seção 4, texto (folha 20: 19 de 188 votaram no segundo preferido) e Tabela 5, linha Total (folha 37: 10 (188)); Grupos 1 e 2 agrupados; mudança pré-pós no voto no segundo preferido, cujo apoio no pré (preferência declarada aos 9 minutos, antes das pesquisas) é 0 por construção; sem controles, sem grupo de controle, sem teste de significância"
+    },
+    {
+     "campo": "p1",
+     "de": "0.10",
+     "para": "0.1011"
+    },
+    {
+     "campo": "efeito_pp",
+     "de": "",
+     "para": "10.11"
+    },
+    {
+     "campo": "se_pp",
+     "de": "",
+     "para": "2.20"
+    },
+    {
+     "campo": "evidencia",
+     "de": "Incidence of Voters Who Transferred Their Vote from the Most Preferred to the Second Preferred Candidate ... Total 10 (188)",
+     "para": "The remaining 19 voters (10% of the total) voted for the second preferred candidate; their behaviour may be plausibly attributed to knowledge of the pre-election poll findings"
+    },
+    {
+     "campo": "pagina",
+     "de": "37",
+     "para": "20"
+    }
+   ],
+   "trecho": "Of the 188 valid cases, 90 belonged to Group 1 (potential bandwagon effect) and 98 to Group 2 (potential strategic effect)",
+   "pagina": 21,
+   "justificativa": "O total junta o Grupo 1 (segundo preferido mostrado à frente, os outros dois fora da disputa: lider) e o Grupo 2 (segundo preferido mostrado em 2º, atrás do menos preferido: segundo_viavel); pelo codebook, vários alvos vão em ordem alfabética com ' + ', e segundo_viavel sozinho erra para 90 dos 188. O pré é a preferência dos 9 minutos, antes das pesquisas (folha 19), logo sem_pesquisa, como em Kaplan2019a. efeito_pp = 19/188 − 0 = 10,11 p.p., se_pp = 100·√(p1(1−p1)/188) = 2,20; p0 = 0 fica vazio porque o verificador exige p0 em (0, 1). Modelo principal mantido (o resumo repete 'only one-tenth'); estimando associacao mantido. Consequência: cel() dá 'outro' e a linha sai da célula de viabilidade; sugere-se pô-la no FORA ('troca para o segundo preferido com alvos agregados: líder no Grupo 1, segundo viável no Grupo 2'), como Meffert2011-E01, para seguir em com_excluidos, agora com sinal."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E02",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num contraste antes-depois intrassujeito cujo pré é anterior às pesquisas.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    }
+   ],
+   "trecho": "the campaign was suspended after nine minutes (i.e. more than halfway through the simulation) in order to ask the participant to indicate which candidate she/he would most likely vote for",
+   "pagina": 19,
+   "justificativa": "A comparação é a mesma pessoa aos 9 minutos, antes das duas pesquisas de intenção de voto (timed items), e não há grupo de controle (nota 10, folha 21): o comparador é o estado sem pesquisa, como em Kaplan2019a. alvo_efeito = lider, estimando associacao e direcao_desejada = aumentar estão certos."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E03",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num contraste antes-depois intrassujeito cujo pré é anterior às pesquisas.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    }
+   ],
+   "trecho": "the campaign was suspended after nine minutes (i.e. more than halfway through the simulation) in order to ask the participant to indicate which candidate she/he would most likely vote for",
+   "pagina": 19,
+   "justificativa": "A comparação é a mesma pessoa aos 9 minutos, antes das duas pesquisas de intenção de voto (timed items), e não há grupo de controle (nota 10, folha 21): o comparador é o estado sem pesquisa, como em Kaplan2019a. alvo_efeito = segundo_viavel, estimando associacao e direcao_desejada = aumentar estão certos."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E04",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E05",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E06",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E07",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E08",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E09",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E10",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E11",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E12",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E13",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E14",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E15",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E16",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E17",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E18",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E19",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E20",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E21",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E22",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E23",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E24",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E25",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E26",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E27",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E28",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E29",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E30",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E31",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E32",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E33",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de Tabela 5 (folha 37) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E34",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de texto da folha 24 (146 + 42 = 188 e 80 + 87 casos dos dois grupos juntos) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E35",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de texto da folha 24 (146 + 42 = 188 e 80 + 87 casos dos dois grupos juntos) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E36",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de texto da folha 24 (146 + 42 = 188 e 80 + 87 casos dos dois grupos juntos) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  },
+  {
+   "id_efeito": "Gasperoni2015a-E37",
+   "divergencia": "Não detectada pelo script: comparador_tipo = outro num antes-depois cujo pré é anterior às pesquisas; alvo_efeito = segundo_viavel num estrato que agrupa os Grupos 1 e 2.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "segundo_viavel",
+     "para": "lider + segundo_viavel"
+    }
+   ],
+   "trecho": "In Table 5, the results for Groups 1 and 2 are pooled, underlining the percentage of voters enacting a vote change compatible with an effect due to pre-election poll exposure.",
+   "pagina": 21,
+   "justificativa": "Estrato de texto da folha 24 (146 + 42 = 188 e 80 + 87 casos dos dois grupos juntos) com os Grupos 1 (segundo preferido mostrado líder) e 2 (mostrado segundo viável) somados: mesmo alvo misto e mesmo comparador pré-pesquisa da E01. Estimando associacao mantido (pré-pós sem controle e moderador não sorteado); linha não principal, números conferidos com a fonte."
+  }
+ ],
+ "linhas_novas": []
+}

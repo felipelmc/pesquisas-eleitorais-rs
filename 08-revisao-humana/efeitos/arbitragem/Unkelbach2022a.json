@@ -1,0 +1,257 @@
+{
+ "chave": "Unkelbach2022a",
+ "resumo": "Os números das duas extrações conferem com a Tabela 2 (folha 19, página renderizada) e com o texto (folhas 17, 20 e 21); estimando associacao fica em todas as linhas. Correções: (1) as 6 colunas da Tabela 2 passam a principais, porque os autores declaram as análises de defasagem 1 como principais e rodam um modelo por partido, todos igualmente centrais, e ficar só com o SPD (único significativo) seria escolher pela significância; (2) nas 10 linhas, alvo passa a nao_se_aplica (CMVI é o percentual do partido, sem posição; Emenda 4b, como Stolwijk2016a) e comparador a outro_resultado; (3) E01 e E03 a E06 ganham or_ = exp(β) derivado. PARA O COORDENADOR: com alvo nao_se_aplica, cel() devolve 'outro' e as 6 linhas somem de todas as entradas da SWiM, inclusive com_excluidos (o estudo já sai da principal por RoB crítico); pela Emenda 4b iriam à tabela de momentum. As direções das 6 colunas são 5 positivas e 1 negativa (AfD), só SPD com p < 0,05 (p unicaudal, nota 15). Os EPs de CMVI na Tabela 2 quase repetem os do intercepto na Tabela 1 (0,039/0,041/0,071/0,038/0,065/0,069); o do SPD é confirmado pelo IC do texto, os demais não têm como ser conferidos.",
+ "decisoes": [
+  {
+   "id_efeito": "Unkelbach2022a-E01",
+   "divergencia": "Coluna CDU/CSU da Tabela 2: a original a deixa como não principal (só a do SPD é principal) e usa alvo lider e comparador outro; a cega trata as 6 colunas como principais, com alvo nao_se_aplica e comparador outro_resultado; a original tem tipo_estatistica = or sem or_",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "or_",
+     "de": "",
+     "para": "1.0377"
+    }
+   ],
+   "trecho": "Using separate multilevel models for each of the parties, we found no evidence for bandwagon effects.",
+   "pagina": 1,
+   "justificativa": "As análises principais são as da defasagem de 1 dia (folha 17: 'This dataset was matched with poll results (CMVI) using a time lag of 1 day for the main analyses.'), um modelo por partido, e os autores tratam os 6 como igualmente centrais (folha 5: 'we investigated potential poll effects for all major German parties'); pela regra de b2_modelo_principal todas entram, e ficar só com o SPD seria escolher pela significância. or_ = exp(β) = exp(0.037) derivado (a Tabela 2 só dá β logit e EP; no SPD o OR impresso 1,107 = exp(0,102)), para o efeitos.R converter pela rota or com se = EP de ln(OR). CMVI é o percentual projetado do partido nas pesquisas da véspera e varia só entre dias de campo: o contraste é o mesmo partido com percentual maior ou menor, ou seja, respondentes que receberam outro resultado (outro_resultado, como em Stolwijk2016a). O preditor não informa posição, e a do SPD mudou no período (CDU/CSU à frente no início), logo alvo = nao_se_aplica (Emenda 4b). Estimando associacao mantido: sem estratégia de identificação, os autores admitem que o desenho só dá correlação (folha 9)."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E02",
+   "divergencia": "comparador_tipo outro × outro_resultado; também alvo lider (original) × lider aproximado (cega), não detectado pelo script. Valores (β, EP, OR, IC, p, N) iguais e conferidos na Tabela 2 e no texto",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "We generated a variable for each of the six parties that indicated the proportion of votes this party was projected to receive. Consequently, these variables only varied between ﬁeld days (level 2).",
+   "pagina": 13,
+   "justificativa": "Continua principal (critério declarado_pelos_autores, defasagem de 1 dia). CMVI é o percentual projetado do partido nas pesquisas da véspera e varia só entre dias de campo: o contraste é o mesmo partido com percentual maior ou menor, ou seja, respondentes que receberam outro resultado (outro_resultado, como em Stolwijk2016a). O preditor não informa posição, e a do SPD mudou no período (CDU/CSU à frente no início), logo alvo = nao_se_aplica (Emenda 4b). Estimando associacao mantido: sem estratégia de identificação, os autores admitem que o desenho só dá correlação (folha 9). A própria discussão (folha 23) diz: 'In the beginning of the investigated time span, the SPD probably did not appear to be a winner to most voters, as the CDU/CSU was leading the polls.'."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E03",
+   "divergencia": "Coluna FDP da Tabela 2: a original a deixa como não principal (só a do SPD é principal) e usa alvo lider e comparador outro; a cega trata as 6 colunas como principais, com alvo nao_se_aplica e comparador outro_resultado; a original tem tipo_estatistica = or sem or_",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "or_",
+     "de": "",
+     "para": "1.0212"
+    }
+   ],
+   "trecho": "Using separate multilevel models for each of the parties, we found no evidence for bandwagon effects.",
+   "pagina": 1,
+   "justificativa": "As análises principais são as da defasagem de 1 dia (folha 17: 'This dataset was matched with poll results (CMVI) using a time lag of 1 day for the main analyses.'), um modelo por partido, e os autores tratam os 6 como igualmente centrais (folha 5: 'we investigated potential poll effects for all major German parties'); pela regra de b2_modelo_principal todas entram, e ficar só com o SPD seria escolher pela significância. or_ = exp(β) = exp(0.021) derivado (a Tabela 2 só dá β logit e EP; no SPD o OR impresso 1,107 = exp(0,102)), para o efeitos.R converter pela rota or com se = EP de ln(OR). CMVI é o percentual projetado do partido nas pesquisas da véspera e varia só entre dias de campo: o contraste é o mesmo partido com percentual maior ou menor, ou seja, respondentes que receberam outro resultado (outro_resultado, como em Stolwijk2016a). O preditor não informa posição, e a do SPD mudou no período (CDU/CSU à frente no início), logo alvo = nao_se_aplica (Emenda 4b). Estimando associacao mantido: sem estratégia de identificação, os autores admitem que o desenho só dá correlação (folha 9)."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E04",
+   "divergencia": "Coluna Aliança 90/Verdes da Tabela 2: a original a deixa como não principal (só a do SPD é principal) e usa alvo lider e comparador outro; a cega trata as 6 colunas como principais, com alvo nao_se_aplica e comparador outro_resultado; a original tem tipo_estatistica = or sem or_",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "or_",
+     "de": "",
+     "para": "1.0387"
+    }
+   ],
+   "trecho": "Using separate multilevel models for each of the parties, we found no evidence for bandwagon effects.",
+   "pagina": 1,
+   "justificativa": "As análises principais são as da defasagem de 1 dia (folha 17: 'This dataset was matched with poll results (CMVI) using a time lag of 1 day for the main analyses.'), um modelo por partido, e os autores tratam os 6 como igualmente centrais (folha 5: 'we investigated potential poll effects for all major German parties'); pela regra de b2_modelo_principal todas entram, e ficar só com o SPD seria escolher pela significância. or_ = exp(β) = exp(0.038) derivado (a Tabela 2 só dá β logit e EP; no SPD o OR impresso 1,107 = exp(0,102)), para o efeitos.R converter pela rota or com se = EP de ln(OR). CMVI é o percentual projetado do partido nas pesquisas da véspera e varia só entre dias de campo: o contraste é o mesmo partido com percentual maior ou menor, ou seja, respondentes que receberam outro resultado (outro_resultado, como em Stolwijk2016a). O preditor não informa posição, e a do SPD mudou no período (CDU/CSU à frente no início), logo alvo = nao_se_aplica (Emenda 4b). Estimando associacao mantido: sem estratégia de identificação, os autores admitem que o desenho só dá correlação (folha 9)."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E05",
+   "divergencia": "Coluna A Esquerda da Tabela 2: a original a deixa como não principal (só a do SPD é principal) e usa alvo lider e comparador outro; a cega trata as 6 colunas como principais, com alvo nao_se_aplica e comparador outro_resultado; a original tem tipo_estatistica = or sem or_",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "or_",
+     "de": "",
+     "para": "1.0986"
+    }
+   ],
+   "trecho": "Using separate multilevel models for each of the parties, we found no evidence for bandwagon effects.",
+   "pagina": 1,
+   "justificativa": "As análises principais são as da defasagem de 1 dia (folha 17: 'This dataset was matched with poll results (CMVI) using a time lag of 1 day for the main analyses.'), um modelo por partido, e os autores tratam os 6 como igualmente centrais (folha 5: 'we investigated potential poll effects for all major German parties'); pela regra de b2_modelo_principal todas entram, e ficar só com o SPD seria escolher pela significância. or_ = exp(β) = exp(0.094) derivado (a Tabela 2 só dá β logit e EP; no SPD o OR impresso 1,107 = exp(0,102)), para o efeitos.R converter pela rota or com se = EP de ln(OR). CMVI é o percentual projetado do partido nas pesquisas da véspera e varia só entre dias de campo: o contraste é o mesmo partido com percentual maior ou menor, ou seja, respondentes que receberam outro resultado (outro_resultado, como em Stolwijk2016a). O preditor não informa posição, e a do SPD mudou no período (CDU/CSU à frente no início), logo alvo = nao_se_aplica (Emenda 4b). Estimando associacao mantido: sem estratégia de identificação, os autores admitem que o desenho só dá correlação (folha 9)."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E06",
+   "divergencia": "Coluna AfD da Tabela 2: a original a deixa como não principal (só a do SPD é principal) e usa alvo lider e comparador outro; a cega trata as 6 colunas como principais, com alvo nao_se_aplica e comparador outro_resultado; a original tem tipo_estatistica = or sem or_",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "or_",
+     "de": "",
+     "para": "0.9352"
+    }
+   ],
+   "trecho": "Using separate multilevel models for each of the parties, we found no evidence for bandwagon effects.",
+   "pagina": 1,
+   "justificativa": "As análises principais são as da defasagem de 1 dia (folha 17: 'This dataset was matched with poll results (CMVI) using a time lag of 1 day for the main analyses.'), um modelo por partido, e os autores tratam os 6 como igualmente centrais (folha 5: 'we investigated potential poll effects for all major German parties'); pela regra de b2_modelo_principal todas entram, e ficar só com o SPD seria escolher pela significância. or_ = exp(β) = exp(-0.067) derivado (a Tabela 2 só dá β logit e EP; no SPD o OR impresso 1,107 = exp(0,102)), para o efeitos.R converter pela rota or com se = EP de ln(OR). CMVI é o percentual projetado do partido nas pesquisas da véspera e varia só entre dias de campo: o contraste é o mesmo partido com percentual maior ou menor, ou seja, respondentes que receberam outro resultado (outro_resultado, como em Stolwijk2016a). O preditor não informa posição, e a do SPD mudou no período (CDU/CSU à frente no início), logo alvo = nao_se_aplica (Emenda 4b). Estimando associacao mantido: sem estratégia de identificação, os autores admitem que o desenho só dá correlação (folha 9)."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E07",
+   "divergencia": "Linha não principal (SPD em especificação alternativa); a cega não a extrai. Revisão de comparador_tipo e alvo pela regra de todas as linhas; valores conferidos no texto",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "We generated a variable for each of the six parties that indicated the proportion of votes this party was projected to receive. Consequently, these variables only varied between ﬁeld days (level 2).",
+   "pagina": 13,
+   "justificativa": "Mesmo preditor CMVI de E02, em outra especificação ou defasagem; valem o alvo e o comparador de E02. Estimando associacao e modelo_principal = nao mantidos."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E08",
+   "divergencia": "Linha não principal (SPD em especificação alternativa); a cega não a extrai. Revisão de comparador_tipo e alvo pela regra de todas as linhas; valores conferidos no texto",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "We generated a variable for each of the six parties that indicated the proportion of votes this party was projected to receive. Consequently, these variables only varied between ﬁeld days (level 2).",
+   "pagina": 13,
+   "justificativa": "Mesmo preditor CMVI de E02, em outra especificação ou defasagem; valem o alvo e o comparador de E02. Estimando associacao e modelo_principal = nao mantidos."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E09",
+   "divergencia": "Linha não principal (SPD em especificação alternativa); a cega não a extrai. Revisão de comparador_tipo e alvo pela regra de todas as linhas; valores conferidos no texto",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "We generated a variable for each of the six parties that indicated the proportion of votes this party was projected to receive. Consequently, these variables only varied between ﬁeld days (level 2).",
+   "pagina": 13,
+   "justificativa": "Mesmo preditor CMVI de E02, em outra especificação ou defasagem; valem o alvo e o comparador de E02. Estimando associacao e modelo_principal = nao mantidos."
+  },
+  {
+   "id_efeito": "Unkelbach2022a-E10",
+   "divergencia": "Linha não principal (SPD em especificação alternativa); a cega não a extrai. Revisão de comparador_tipo e alvo pela regra de todas as linhas; valores conferidos no texto",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "We generated a variable for each of the six parties that indicated the proportion of votes this party was projected to receive. Consequently, these variables only varied between ﬁeld days (level 2).",
+   "pagina": 13,
+   "justificativa": "Mesmo preditor CMVI de E02, em outra especificação ou defasagem; valem o alvo e o comparador de E02. Estimando associacao e modelo_principal = nao mantidos."
+  }
+ ],
+ "linhas_novas": []
+}

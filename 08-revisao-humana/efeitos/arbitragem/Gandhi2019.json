@@ -1,0 +1,222 @@
+{
+ "chave": "Gandhi2019",
+ "resumo": "Original e cega concordam no modelo principal (interações triplas das Tabelas 3 e 4, Modelo 2, declaradas pelos autores) e nos números; as divergências do script são de estimando (associacao mantido, pela regra da tarefa 3) e de rota estatística (dif_prop × beta, ambas válidas), mais um emparelhamento errado na E03. Corrige-se o comparador de todas as linhas de 'outro' para 'outro_resultado' (o controle também viu pesquisa) e o estimando das demais interações triplas (E02, E04, E09, E11) de 'outro' para 'associacao', por coerência com E01/E03; E01 e E03 continuam no FORA.",
+ "decisoes": [
+  {
+   "id_efeito": "Gandhi2019-E01",
+   "divergencia": "estimando associacao (orig) × ATE (cega); tipo_estatistica dif_prop (efeito_pp -30,3, se_pp 7,9, p0 0,899) × beta (-0,303, EP 0,079); comparador 'outro' nas duas (não detectado pelo script)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Modelo principal certo (interação tripla, Modelo 2, declarado pelos autores: 'Our main interest lies in a three-way comparison', folha 7, e controles, folha 9); valor idêntico, a rota dif_prop com p0 derivado é a do prompt de complemento; estimando associacao mantido (diferença de efeitos entre apoiadores, moderador não atribuído). Só o comparador muda: O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E02",
+   "divergencia": "não detectada pelo script: estimando 'outro' em interação tripla, inconsistente com E01 (associacao); comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "captures the within-subject Treatment × Covariate interaction effect of the DAP treatment on",
+   "pagina": 8,
+   "justificativa": "Mesmo termo da E01 no Modelo 1 (interação com apoio partidário pré-tratamento, não atribuído): pela regra da tarefa 3 do complemento, associacao, como já está na E01. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E03",
+   "divergencia": "script emparelhou a E03 com a linha da Tabela 3 da cega (falso positivo de valor): a cega tem a mesma linha da Tabela 4, Modelo 2 (-0,078; EP 0,044; p 0,107); estimando associacao × ATE; comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Valores e modelo principal coincidem com a cega (Tabela 4, Modelo 2, interação tripla, folha 11); estimando associacao mantido pelo mesmo motivo da E01. Só o comparador muda: O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E04",
+   "divergencia": "não detectada pelo script: estimando 'outro' em interação tripla, inconsistente com E03 (associacao); comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "captures the within-subject Treatment × Covariate interaction effect of the DAP treatment on",
+   "pagina": 8,
+   "justificativa": "Mesmo termo da E03 no Modelo 1; 'The same procedure applies' ao braço BERSATU (folha 8), logo associacao, como na E03. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E05",
+   "divergencia": "não detectada pelo script: comparador 'outro' (DAP Treatment × Time, Modelo 2 (Tabela 3)); valores conferidos com a página e com a cega onde ela tem a linha",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Números, página e estimando ATE conferem. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E06",
+   "divergencia": "não detectada pelo script: comparador 'outro' (DAP Treatment × Time, Modelo 1 (Tabela 3)); valores conferidos com a página e com a cega onde ela tem a linha",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Números, página e estimando ATE conferem. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E07",
+   "divergencia": "não detectada pelo script: comparador 'outro' (BERSATU Treatment × Time, Modelo 2 (Tabela 4)); valores conferidos com a página e com a cega onde ela tem a linha",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Números, página e estimando ATE conferem. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E08",
+   "divergencia": "não detectada pelo script: comparador 'outro' (BERSATU Treatment × Time, Modelo 1 (Tabela 4)); valores conferidos com a página e com a cega onde ela tem a linha",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Números, página e estimando ATE conferem. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E09",
+   "divergencia": "não detectada pelo script: estimando 'outro' em interação tripla (DAP Treatment × Time × PAS Supporter (Tabela 5)), inconsistente com E01/E03; comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "captures the within-subject Treatment × Covariate interaction effect of the DAP treatment on",
+   "pagina": 8,
+   "justificativa": "Interação com apoio partidário pré-tratamento (moderador não atribuído), mesma construção da E01: associacao. Números conferem com a página. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E10",
+   "divergencia": "não detectada pelo script: comparador 'outro' (DAP Treatment × Time (Tabela 5)); valores conferidos com a página e com a cega onde ela tem a linha",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Números, página e estimando ATE conferem. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E11",
+   "divergencia": "não detectada pelo script: estimando 'outro' em interação tripla (DAP Treatment × Time × AMANAH Supporter (Tabela 6)), inconsistente com E01/E03; comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "outro",
+     "para": "associacao"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "captures the within-subject Treatment × Covariate interaction effect of the DAP treatment on",
+   "pagina": 8,
+   "justificativa": "Interação com apoio partidário pré-tratamento (moderador não atribuído), mesma construção da E01: associacao. Números conferem com a página. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E12",
+   "divergencia": "não detectada pelo script: comparador 'outro' (DAP Treatment × Time (Tabela 6)); valores conferidos com a página e com a cega onde ela tem a linha",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "The treatment groups receive a message that has the same opening line as the control group message. But each treatment group receives an additional two sentences",
+   "pagina": 7,
+   "justificativa": "Números, página e estimando ATE conferem. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  },
+  {
+   "id_efeito": "Gandhi2019-E13",
+   "divergencia": "não detectada pelo script: comparador 'outro' (DiD simples no texto, apoiadores do BERSATU, DAP × controle); valores conferidos com a página e com a cega onde ela tem a linha",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Support for the coalition declines by 0.32 among BERSATU sup- porters who receive the DAP treatment in comparison to BERSATU supporters in the control group.",
+   "pagina": 9,
+   "justificativa": "Valor -32 p.p. confere com a cega (0,32 'declines'); o comparador é explicitamente o grupo controle, que viu a pesquisa da PH à frente sem a informação extra. O controle também viu pesquisa (a mesma frase de abertura: PH pode vencer e formar o governo); o tratamento acrescenta 'extra surveys' dizendo qual partido lidera dentro da coalizão. O comparador viu outra pesquisa, e a referência da regressão (N = 1.277) inclui também o outro braço de tratamento, que viu outro resultado; 'outro' só vale quando nenhum tipo serve."
+  }
+ ],
+ "linhas_novas": []
+}

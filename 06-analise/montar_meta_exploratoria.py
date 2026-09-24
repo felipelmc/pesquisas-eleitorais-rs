@@ -12,9 +12,11 @@ Célula: pesquisa_pre_eleitoral × apoio_ao_lider × sem_pesquisa × principal, 
 calculado e não nulo por ±δ. δ = 2 p.p. convertido para g pela mediana de p0 da célula
 (logit × √3/π). Não há meta-análise principal: nenhuma célula tem k ≥ 3 comparáveis além desta.
 """
-import csv, math, statistics
+import csv, math, statistics, sys
+# Sensibilidade ICC 0,20: python3 06-analise/montar_meta_exploratoria.py _icc020 (o δ continua o da análise principal)
+SUFIXO = sys.argv[1] if len(sys.argv) > 1 else ''
 
-rows = [r for r in csv.DictReader(open('06-analise/swim_entrada_principal.csv', encoding='utf-8'))
+rows = [r for r in csv.DictReader(open(f'06-analise/swim_entrada_principal{SUFIXO}.csv', encoding='utf-8'))
         if r['yi'] and r['yi'] != '0']
 cel = [r for r in rows if r['familia_intervencao'] == 'pesquisa_pre_eleitoral'
        and r['construto_outcome'] == 'apoio_ao_lider' and r['comparador_tipo'] == 'sem_pesquisa'
@@ -24,7 +26,8 @@ p0 = statistics.median(float(r['p0']) for r in cel if r['p0'])
 p1 = p0 + 0.02
 d = math.log((p1 / (1 - p1)) / (p0 / (1 - p0))) * math.sqrt(3) / math.pi
 print('mediana p0', p0, 'delta', round(d, 4))
-w = csv.DictWriter(open('06-analise/meta_entrada_exploratoria.csv', 'w', encoding='utf-8', newline=''),
+w = csv.DictWriter(open(f'06-analise/meta_entrada_exploratoria{SUFIXO}.csv', 'w', encoding='utf-8', newline=''),
                    fieldnames=list(cel[0].keys()))
 w.writeheader(); w.writerows(cel)
-open('06-analise/_delta_celula.txt', 'w').write(f'{d:.4f}')
+if not SUFIXO:
+    open('06-analise/_delta_celula.txt', 'w').write(f'{d:.4f}')

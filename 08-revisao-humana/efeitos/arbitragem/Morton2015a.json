@@ -1,0 +1,665 @@
+{
+ "chave": "Morton2015a",
+ "resumo": "Os números das 42 linhas conferem com as Tabelas 3 a 6 e 8 a 12. As diferenças de sinal com a cega vêm da inversão do efeito da proibição para o efeito da exposição (Emenda 5, item 3). O modelo principal de mobilização fica na Tabela 5, col. 1: o '12 p.p. na especificação preferida' da conclusão não aponta tabela do corpo, e o desempate entre as colunas que dão os 11 p.p. do resumo é ambíguo (a alternativa é a Tabela 3, col. 1), por isso vai ao revisor. As 42 linhas passam de estimando ATT para associacao (DiD e pré × pós sem sorteio), E41 e E42 recebem um desenho que descreve de fato a eq. (2), e o comparador antes_depois_proibicao fica em todas.",
+ "decisoes": [
+  {
+   "id_efeito": "Morton2015a-E12",
+   "divergencia": "Modelo principal de mobilizacao: a original usa a Tabela 5, col. 1 (tendência linear por departamento, N = 1260, EP 0,02); a cega usa a Tabela 3, col. 1 (DiD não paramétrico 2002 × 2007, OST orientais como controle, N = 36, EP 0,04). O script também acusa sinal trocado (−11 × +0,11).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "We report an increase in turnout from not knowing the election result of 11 percentage points.",
+   "pagina": 26,
+   "justificativa": "Passo 1 da Emenda 2 não se resolve: a conclusão fala em 'about 12 percentage points in our preferred speciﬁcation' (folha 36) sem nomear tabela, e 0,12 só existe no apêndice (Tabela 12, col. 6, robustez sem o 1º turno de 2002). No passo 2, os 11 p.p. do resumo aparecem em várias colunas (Tab. 3 cols. 1-4, Tab. 4 col. 6, Tab. 5 col. 1), e a regra não diz como desempatar. A original desempata pela especificação mais completa do corpo e a cega pela primeira da tabela principal. As duas leituras são defensáveis, então fica a original, como manda o prompt, e o caso vai para o revisor. Os números (−11; EP 2; N 1260) conferem com a folha 27. Diferença de sinal: +0,11 é o efeito de não conhecer a boca de urna, e a linha registra o efeito da exposição (Emenda 5, item 3)."
+  },
+  {
+   "id_efeito": "Morton2015a-E01",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E02",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E03",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E04",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E05",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E06",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E07",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E08",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E09",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E10",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E11",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E12",
+   "divergencia": "estimando ATT × ATE (cega); revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E13",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E14",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E15",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E16",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E17",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E18",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E19",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E20",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E21",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E22",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E23",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E24",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E25",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E26",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E27",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E28",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E29",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E30",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E31",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E32",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E33",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E34",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E35",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E36",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E37",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E38",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E39",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E40",
+   "divergencia": "revisão de estimando e comparador_tipo em todas as linhas (DiD sobre a reforma de 2005).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "is the diﬀerence-in-diﬀerence estimator (DID) of the causal eﬀect of interest.",
+   "pagina": 20,
+   "justificativa": "É diferença-em-diferenças sobre uma reforma legal que não foi sorteada. A regra deste prompt manda associacao nesses casos, inclusive DiD (ATE da cega também não serve). O comparador antes_depois_proibicao está certo, porque o contraste é antes × depois da reforma que retirou a exposição, e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E41",
+   "divergencia": "estimando ATT × associacao (a cega também marca associacao para o principal E41); desenho 'DiD' não descreve a eq. (2); comparador_tipo revisado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    },
+    {
+     "campo": "desenho",
+     "de": "DiD (experimento natural: reforma eleitoral francesa de 2005)",
+     "para": "antes e depois da reforma eleitoral francesa de 2005 (experimento natural; diferença das inclinações pré e pós-2005, eq. 2, só nas unidades tratadas)"
+    }
+   ],
+   "trecho": "We use only the vote diﬀerence in the western OST as the left-hand variable in this estimation",
+   "pagina": 33,
+   "justificativa": "A eq. (2) compara inclinações antes e depois da reforma só nos OST ocidentais, sem grupo controle no desfecho. Não é DiD nem contraste de braços sorteados, então o estimando é associacao. O comparador antes_depois_proibicao está certo e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E42",
+   "divergencia": "estimando ATT × associacao (a cega também marca associacao para o principal E41); desenho 'DiD' não descreve a eq. (2); comparador_tipo revisado.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATT",
+     "para": "associacao"
+    },
+    {
+     "campo": "desenho",
+     "de": "DiD (experimento natural: reforma eleitoral francesa de 2005)",
+     "para": "antes e depois da reforma eleitoral francesa de 2005 (experimento natural; diferença das inclinações pré e pós-2005, eq. 2, só nas unidades tratadas)"
+    }
+   ],
+   "trecho": "We use only the vote diﬀerence in the western OST as the left-hand variable in this estimation",
+   "pagina": 33,
+   "justificativa": "A eq. (2) compara inclinações antes e depois da reforma só nos OST ocidentais, sem grupo controle no desfecho. Não é DiD nem contraste de braços sorteados, então o estimando é associacao. O comparador antes_depois_proibicao está certo e fica como está."
+  },
+  {
+   "id_efeito": "Morton2015a-E41",
+   "divergencia": "Sinal do δ: original +5,22 e cega −5,22 (EP 2,04 e N 60 iguais). A cega marca tipo_estatistica beta, e a original beta_sd.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Thus a negative parameter indicates a bandwagon eﬀect, where voters in western OST tended to follow the announced mainland results before the reform.",
+   "pagina": 33,
+   "justificativa": "O artigo imprime δ = −5,22 como mudança depois da reforma que retirou a exposição, e a linha registra +5,22 como efeito da exposição (Emenda 5, item 3). Com alvo lider e aumentar, o sinal positivo é bandwagon, como os autores concluem. Votação agregada segue a rota beta_sd (protocolo, seção 6). Não há sdy (complemento: nao_relatado), então a linha só dá o sinal. O EP agrupado (2,04, 5 clusters) é um dos quatro que a Tabela 8 imprime, e as duas extrações o escolheram."
+  }
+ ],
+ "linhas_novas": []
+}

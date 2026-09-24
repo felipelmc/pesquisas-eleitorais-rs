@@ -1,0 +1,181 @@
+{
+  "versao": "1",
+  "comando": "meta",
+  "gerado_em": "2026-09-24T02:10:51Z",
+  "entrada": "06-analise/meta_entrada_exploratoria_icc020.csv",
+  "parametros": {
+    "grupo": [
+      "familia_intervencao",
+      "construto_outcome",
+      "comparador_tipo"
+    ],
+    "separar_desenho": true,
+    "dependencia": "che",
+    "rho": 0.6,
+    "k_min": 3,
+    "delta": 0.0573,
+    "delta_fonte": "argumento (confirmar no protocolo)",
+    "excluir_rob": "critico",
+    "moderadores": [],
+    "pacotes": {
+      "metafor": "5.0.1"
+    }
+  },
+  "linhas_excluidas": {
+    "rejeitado_revisao": 0,
+    "sem_efeito_calculado": 0,
+    "sem_direcao": 0
+  },
+  "n_excluidos_rob_critico": 0,
+  "contrato_campos": {
+    "ic_dentro_delta": "TRUE se -delta <= ic_inf e ic_sup <= delta (limites inclusivos, igual à regra Nulo de rs.py caixa); null sem --delta > 0",
+    "pi_cobre_beneficio_e_dano": "com --delta > 0: ip_inf <= -delta e ip_sup >= delta (condição de IP da regra Misto de rs.py caixa, que exige também k >= 5 e achado explicativo com CERQual >= baixa); sem delta: ip_inf < 0 < ip_sup; null sem intervalo de predição. pi_referencia diz qual critério foi usado ('delta' ou 'zero')",
+    "observacao": "rs.py caixa recalcula as regras a partir de ic/ip e do delta da célula (certeza.csv ou --delta); estes campos são descritivos e só coincidem com a caixa quando o delta é o mesmo"
+  },
+  "ressalvas": [
+    "yi positivo = benéfico (sinal alinhado por direcao_desejada em efeitos.R)",
+    "τ² e I² com k < 5 são imprecisos e não devem ser interpretados",
+    "rótulo da caixa de ferramentas exige certeza (GRADE); este resumo não define rótulo"
+  ],
+  "grupos": [
+    {
+      "grupo": "pesquisa_pre_eleitoral | apoio_ao_lider | sem_pesquisa | randomizado",
+      "familia_intervencao": "pesquisa_pre_eleitoral",
+      "construto_outcome": "apoio_ao_lider",
+      "comparador_tipo": "sem_pesquisa",
+      "classe_desenho": "randomizado",
+      "arquivo_base": "01_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza",
+      "n_linhas": 4,
+      "comparabilidade": {
+        "estimandos": [
+          "ATE"
+        ],
+        "desenhos": [
+          "RCT (experimento de survey)",
+          "RCT por cluster (experimento de laboratório; tratamento informacional por sessão, grupos fixos de 9)",
+          "RCT por cluster presumido (experimento de laboratório; informação variada entre eleitorados/sessões; atribuição aleatória dos eleitorados aos tratamentos não declarada no texto)"
+        ],
+        "outcomes": [
+          "% de respondentes em favor do candidato A (candidato anunciado como vencedor esperado nesse braço)",
+          "alternativa preferida pela maioria ex ante (cor da urna sorteada) eleita",
+          "Fração de eleições cujo vencedor está no Majoritarian Set (opção ou opções com mais apoio sincero)"
+        ],
+        "avisos": [
+          "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+        ]
+      },
+      "excluidos_rob_critico": {
+        "n_linhas": 0,
+        "estudos": [],
+        "n_sem_rob_geral": 0,
+        "nota": "risco de viés crítico fora da análise principal; a análise com essas linhas está em sensibilidade$com_rob_critico"
+      },
+      "k_estudos": 3,
+      "k_efeitos": 4,
+      "estudos": [
+        "Agranov2017a",
+        "Timotei2013a",
+        "Tyszler2015"
+      ],
+      "status": "meta_ajustada",
+      "resultado": {
+        "modelo": "CHE (rma.mv estudo/efeito, REML) + RVE CR2 (Satterthwaite)",
+        "k_estudos": 3,
+        "k_efeitos": 4,
+        "rho": 0.6,
+        "estimativa": 0.505640350742094,
+        "ep": 0.224055561614843,
+        "ic": [-0.971127062695158, 1.98240776417935],
+        "p": 0.203370581574889,
+        "gl": 1.40915659929619,
+        "rve_confiavel": false,
+        "tau2": 1.74817911533291e-10,
+        "tau2_entre_estudos": 1.25280692021376e-10,
+        "tau2_dentro_estudos": 4.95372195119151e-11,
+        "tau2_ic": null,
+        "tau": 1.32218724669878e-05,
+        "I2": 4.34206939964166e-08,
+        "I2_entre_estudos": 3.11168034454156e-08,
+        "I2_dentro_estudos": 1.2303890551001e-08,
+        "I2_ic": null,
+        "Q": 1.42031158581626,
+        "Q_gl": 3,
+        "Q_p": 0.700780565806808,
+        "pi": [-2.34125549237167, 3.35253619385585],
+        "pi_gl": 1,
+        "aviso_rve": "gl de Satterthwaite = 1.41 < 4: inferência robusta não confiável",
+        "ic_inf": -0.971127062695158,
+        "ic_sup": 1.98240776417935,
+        "ip_inf": -2.34125549237167,
+        "ip_sup": 3.35253619385585,
+        "direcao_alinhada": true,
+        "tau2_interpretavel": false,
+        "direcao": "benefica",
+        "ic_exclui_zero": false,
+        "pi_cobre_beneficio_e_dano": true,
+        "pi_referencia": "delta",
+        "ic_dentro_delta": false
+      },
+      "figuras": [
+        "06-analise/meta_exploratoria_icc020/figuras/forest_01_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza.png",
+        "06-analise/meta_exploratoria_icc020/figuras/forest_01_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza.pdf"
+      ],
+      "sensibilidade": {
+        "leave_one_out": {
+          "executado": true,
+          "estimativa_min": 0.245586445390228,
+          "estimativa_max": 0.683502163975806,
+          "estudos_que_mudam_conclusao": [
+            "ES1876"
+          ],
+          "tabela": "06-analise/meta_exploratoria_icc020/tabelas/loo_01_pesquisa_pre_eleitoral_apoio_ao_lider_sem_pesquisa_randomiza.csv"
+        },
+        "sem_aproximados": {
+          "executado": false,
+          "motivo": "nenhuma linha aproximada"
+        },
+        "sem_alto_risco": {
+          "executado": false,
+          "motivo": "nenhuma linha com risco de viés alto/crítico"
+        },
+        "com_rob_critico": {
+          "executado": false,
+          "motivo": "nenhuma linha com risco de viés crítico no grupo"
+        },
+        "rho": [
+          {
+            "rho": 0.2,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 4,
+            "estimativa": 0.516077692740548,
+            "ic": [-0.732554685324693, 1.76471007080579],
+            "pi": [-2.16083301234799, 3.19298839782909],
+            "tau2": 1.16571075708698e-10,
+            "ic_exclui_zero": false
+          },
+          {
+            "rho": 0.5,
+            "executado": true,
+            "k_estudos": 3,
+            "k_efeitos": 4,
+            "estimativa": 0.508668614712967,
+            "ic": [-0.913438057792174, 1.93077528721811],
+            "pi": [-2.29808276099477, 3.3154199904207],
+            "tau2": 1.833136597386e-10,
+            "ic_exclui_zero": false
+          },
+          {
+            "rho": 0.8,
+            "executado": false,
+            "motivo": "erro de ajuste: Optimizer (nlminb) did not achieve convergence (convergence = 1)."
+          }
+        ]
+      },
+      "vies_publicacao": {
+        "executado": false,
+        "motivo": "k = 3 < 10: funil, Egger, PET-PEESE e 3PSM não são informativos"
+      }
+    }
+  ]
+}

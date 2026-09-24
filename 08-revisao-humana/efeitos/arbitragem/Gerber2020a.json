@@ -1,0 +1,429 @@
+{
+ "chave": "Gerber2020a",
+ "resumo": "A original e a cega concordam nos dois modelos principais (Tabela 6, col. 12, de 2010, LATE; Tabela 7, col. 4, de 2014, ITT) e nos números. A divergência de estimando na E12 veio de um emparelhamento errado do script. Corrige-se o comparador de 'outro' para 'outro_resultado' nas linhas apertada × folgada (E01-E12, E25-E28, E31, E33) e para 'sem_pesquisa' nos braços contra o controle sem postal (E29, E30), e o estimando da E25 de ITT para ATE. 'outro' fica só onde nenhum tipo serve: MQO sobre crença (E13-E24) e tratamento cruzado de tamanho do eleitorado (E32). Alerta: a E12 é efeito por 1 p.p. de crença, não da exposição; o coordenador deve avaliar incluí-la no FORA. A linha de apoio_ao_lider da cega não tem número no PDF (Apêndice C26 ausente), por isso não entra linha nova.",
+ "decisoes": [
+  {
+   "id_efeito": "Gerber2020a-E01",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E02",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E03",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E04",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E05",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E06",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E07",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E08",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E09",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E10",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E11",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' num contraste instrumentado pela pesquisa apertada × folgada",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E12",
+   "divergencia": "script: comparador outro × outro_resultado e estimando LATE × ATE (a cega foi emparelhada com a taxa bruta de 2010; a linha equivalente da cega, Tabela 6 col. 12, tem os mesmos 0,08 (0,33) e LATE)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "In all speciﬁcations, post-treatment beliefs are instrumented with a dummy variable for receiving the close poll",
+   "pagina": 53,
+   "justificativa": "O instrumento é o sorteio entre ver a pesquisa mais apertada e a mais folgada; a amostra só tem os dois braços com pesquisa (o controle sem pesquisa não foi entrevistado), logo o comparador viu outro resultado. LATE mantido: variável instrumental explícita, e os autores dizem que o IV dá o efeito entre compliers (folha 24). Valor, modelo principal (regra do protocolo: especificação com mais controles no corpo; a forma reduzida de 2010 está só no Apêndice C24, ausente) e estimando conferem com a cega. Alerta ao coordenador: 0,08 é p.p. de comparecimento por 1 p.p. de crença, não o efeito da exposição (a exposição move a crença em 2,42 p.p.); a rota dif_prop o trata como efeito da exposição. Não muda direção nem o nulo por ±δ, mas cabe avaliar a inclusão no FORA, como Klor2017a-E01."
+  },
+  {
+   "id_efeito": "Gerber2020a-E13",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E14",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E15",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E16",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E17",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E18",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E19",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E20",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E21",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E22",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E23",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E24",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro' e estimando associacao",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Table 5 performs OLS regressions of turnout on diﬀerent measures of beliefs about the closeness of the election.",
+   "pagina": 22,
+   "justificativa": "MQO do comparecimento sobre a crença pós-tratamento, sem usar o sorteio: o regressor é uma crença contínua, não um contraste entre quem viu uma pesquisa e quem viu outra ou nenhuma. Nenhum comparador tipificado serve, então 'outro' está certo; associacao também, porque não há estratégia de identificação."
+  },
+  {
+   "id_efeito": "Gerber2020a-E25",
+   "divergencia": "não detectada pelo script: comparador 'outro' e estimando ITT na intenção de votar medida logo depois do tratamento",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ITT",
+     "para": "ATE"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "To ensure the treatment was strong, we continued to display the two poll numbers at",
+   "pagina": 15,
+   "justificativa": "Braço pesquisa apertada × braço pesquisa folgada: o comparador viu outro resultado. A intenção foi medida três telas depois, com os números da pesquisa ainda na tela, entre os que responderam; não há adesão ou leitura imperfeita dessa exposição, e pela Emenda 2 o padrão é ATE."
+  },
+  {
+   "id_efeito": "Gerber2020a-E26",
+   "divergencia": "estimando ITT (orig) × ATE (cega, na mesma taxa bruta 71,9 × 72,1, que o script emparelhou com a E12); comparador 'outro' × outro_resultado",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Of those emailed, 3,900 people (or 62%) opened the email.",
+   "pagina": 16,
+   "justificativa": "O comparador viu a pesquisa mais folgada, ou seja, outro resultado. ITT mantido para o comparecimento: o tratamento incluía o e-mail de lembrete da pesquisa na sexta antes da eleição, e o texto relata que só 62% o abriram. Isso é a leitura imperfeita que a Emenda 2 exige para ITT."
+  },
+  {
+   "id_efeito": "Gerber2020a-E27",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 1 indicates that the close poll appeared to increase turnout by about 0.29pp relative to the not-close poll",
+   "pagina": 29,
+   "justificativa": "Tabela 7, col. 1, sem controles adicionais: postal com a pesquisa apertada contra postal com a folgada; o comparador viu outro resultado. ITT mantido: os autores restringem a domicílios de até 3 eleitores 'to increase the chance that most voters would see or hear about the postcard' e tratam todos os do domicílio como tratados (folha 28)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E28",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 1 indicates that the close poll appeared to increase turnout by about 0.29pp relative to the not-close poll",
+   "pagina": 29,
+   "justificativa": "Tabela 7, col. 2, com controles: postal com a pesquisa apertada contra postal com a folgada; o comparador viu outro resultado. ITT mantido: os autores restringem a domicílios de até 3 eleitores 'to increase the chance that most voters would see or hear about the postcard' e tratam todos os do domicílio como tratados (folha 28)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E29",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' em contraste de braço com o controle sem postal",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    }
+   ],
+   "trecho": "Column 3 compares the close and not-close poll treatments relative to getting no poll.",
+   "pagina": 29,
+   "justificativa": "Tabela 7, col. 3: postal com pesquisa apertada contra domicílios de controle que não receberam postal nem pesquisa, logo o comparador é sem_pesquisa. O contraste mistura o efeito do postal com o da pesquisa, e os autores dizem que o contraste de interesse é apertada × folgada (folha 29). ITT mantido pelo mesmo motivo da E27."
+  },
+  {
+   "id_efeito": "Gerber2020a-E30",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro' em contraste de braço com o controle sem postal",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "sem_pesquisa"
+    }
+   ],
+   "trecho": "Column 3 compares the close and not-close poll treatments relative to getting no poll.",
+   "pagina": 29,
+   "justificativa": "Tabela 7, col. 3: postal com pesquisa folgada contra domicílios de controle que não receberam postal nem pesquisa, logo o comparador é sem_pesquisa. O contraste mistura o efeito do postal com o da pesquisa, e os autores dizem que o contraste de interesse é apertada × folgada (folha 29). ITT mantido pelo mesmo motivo da E27."
+  },
+  {
+   "id_efeito": "Gerber2020a-E31",
+   "divergencia": "script: comparador 'outro' × 'outro_resultado'; valores iguais (a cega acrescenta ci_hi 0,77 impresso e cluster derivado)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Column 1 indicates that the close poll appeared to increase turnout by about 0.29pp relative to the not-close poll",
+   "pagina": 29,
+   "justificativa": "Postal com pesquisa apertada contra postal com folgada (col. 4); o comparador viu outro resultado. Modelo principal, valores e ITT conferem com a cega. cluster não entra: o EP já vem agrupado por domicílio, e a Emenda 4c só ajusta EP não ajustado."
+  },
+  {
+   "id_efeito": "Gerber2020a-E32",
+   "divergencia": "não detectada pelo script (linha não principal): revisão de comparador 'outro'",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Column 4 further adds the cross treatment on whether the number of voters was expected",
+   "pagina": 29,
+   "justificativa": "Previsão de eleitorado pequeno × grande é um tratamento cruzado de outra informação; os dois lados recebem pesquisa (apertada ou folgada). Não é contraste de pesquisa, então nenhum comparador tipificado serve e 'outro' está certo. ITT mantido (folha 28)."
+  },
+  {
+   "id_efeito": "Gerber2020a-E33",
+   "divergencia": "não detectada pelo script (linha não principal): comparador 'outro'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we perform a reduced form regression of turnout on the close poll dummy",
+   "pagina": 55,
+   "justificativa": "Forma reduzida combinada sobre o dummy de pesquisa apertada; N = 132.831 = 126.126 (postais de 2014) + 6.705 (respondentes de 2010), sem o controle sem postal. O comparador é o braço da pesquisa folgada, isto é, outro resultado. ITT mantido: a parte de 2014 tem exposição imperfeita (folha 28)."
+  }
+ ],
+ "linhas_novas": []
+}

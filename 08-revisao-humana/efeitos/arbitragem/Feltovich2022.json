@@ -1,0 +1,79 @@
+{
+ "chave": "Feltovich2022",
+ "resumo": "Os números batem (Tabela 9, folha 16: 0,248 (0,037) e 0,442 (0,059); dummies 0,018 (0,018) e 0,005 (0,025)). A classe de desenho da original está certa: o resultado da straw poll é endógeno e não é sorteado ('we do not vary whether there is a straw poll'); a cega só saiu 'randomizado' porque o regex lê 'sem atribuição aleatória' como randomizado, e o texto dela mesma diz que não houve sorteio. Estimando 'associacao' mantido nas 4 linhas; alvo 'lider' mantido; a correção é só de comparador: outro_resultado em E01 a E04 e mesmo_candidato_atras em E03/E04. Colunas de reeleição (Tabela 9, cols. 2 e 4) não viram linhas novas: desfecho de grupo com o mesmo regressor e os mesmos dados, e o efeito principal individual está presente. Para o coordenador (não é campo do CSV): o regressor é a parcela de votos que o incumbente teve na straw poll. Ela está confundida com o sinal comum de desempenho que todos os cidadãos recebem (a renda) e os próprios autores tratam a pesquisa como 'identification device', não como exposição. Vale considerar pôr E01 e E02 no FORA.",
+ "decisoes": [
+  {
+   "id_efeito": "Feltovich2022-E01",
+   "divergencia": "comparador_tipo: outro (original) × outro_resultado (cega)",
+   "veredito": "corrigir",
+   "alteracoes": [{"campo": "comparador_tipo", "de": "outro", "para": "outro_resultado"}],
+   "trecho": "There is an apparent bandwagon effect, with voters more likely to vote for a better-polling candidate",
+   "pagina": 15,
+   "justificativa": "O contraste é entre grupos-rodada que viram resultados diferentes da straw poll (parcela maior ou menor do incumbente); o comparador é outro resultado de pesquisa, não 'outro'. Estimando associacao confere (regra 5: regressão com controles sobre variável não sorteada)."
+  },
+  {
+   "id_efeito": "Feltovich2022-E01",
+   "divergencia": "classe de desenho: nao_randomizado (original) × randomizado (cega)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "polling is present, not whether this presence changes be- havior; hence, we do not vary whether there is a straw poll.",
+   "pagina": 3,
+   "justificativa": "Nem a presença nem o resultado da pesquisa são sorteados; o resultado vem dos votos do próprio grupo. O 'randomizado' da cega é artefato do regex: 'sem atribuição aleatória' não casa com a negação e o termo 'aleatória' casa com o padrão de randomizado. A original ('conteúdo da prévia não aleatorizado') já é classificada como não randomizada pelo _cli.R."
+  },
+  {
+   "id_efeito": "Feltovich2022-E01",
+   "divergencia": "alvo_efeito: lider (original) × nao_se_aplica (cega, porque o incumbente nem sempre é o líder)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "only probits, the right-hand variables are a constant, the incumbent straw-vote share and its square (allowing for nonlinear effects)",
+   "pagina": 15,
+   "justificativa": "A disputa é de dois candidatos com voto obrigatório. O efeito marginal da parcela do próprio candidato na pesquisa sobre o voto nele é, por simetria, mais apoio a quem a pesquisa mostra mais à frente, e os autores leem assim ('bandwagon'). O código é o mesmo da exposição contínua em Stolwijk2016a-E01. Não é momentum sem posição (Emenda 4b), porque a pesquisa mostra a contagem e o vencedor."
+  },
+  {
+   "id_efeito": "Feltovich2022-E02",
+   "divergencia": "comparador_tipo: outro (original) × outro_resultado (cega)",
+   "veredito": "corrigir",
+   "alteracoes": [{"campo": "comparador_tipo", "de": "outro", "para": "outro_resultado"}],
+   "trecho": "There is an apparent bandwagon effect, with voters more likely to vote for a better-polling candidate",
+   "pagina": 15,
+   "justificativa": "Mesmo contraste de E01 nas células de mensagens: grupos que viram resultados diferentes da straw poll. Estimando associacao confere."
+  },
+  {
+   "id_efeito": "Feltovich2022-E02",
+   "divergencia": "classe de desenho: nao_randomizado (original) × randomizado (cega)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "polling is present, not whether this presence changes be- havior; hence, we do not vary whether there is a straw poll.",
+   "pagina": 3,
+   "justificativa": "Mesma razão de E01: o resultado da pesquisa não é sorteado. O tratamento de mensagens é uma condição de sessão, mas não é o regressor desta linha."
+  },
+  {
+   "id_efeito": "Feltovich2022-E02",
+   "divergencia": "alvo_efeito: lider (original) × nao_se_aplica (cega)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "only probits, the right-hand variables are a constant, the incumbent straw-vote share and its square (allowing for nonlinear effects)",
+   "pagina": 15,
+   "justificativa": "Mesma razão de E01: disputa de dois, o sinal positivo é mais apoio a quem a pesquisa mostra mais à frente."
+  },
+  {
+   "id_efeito": "Feltovich2022-E03",
+   "divergencia": "não comparada pelo script (linha não principal); comparador_tipo 'outro', e a cega usa mesmo_candidato_atras para a dummy de vitória na pesquisa",
+   "veredito": "corrigir",
+   "alteracoes": [{"campo": "comparador_tipo", "de": "outro", "para": "mesmo_candidato_atras"}],
+   "trecho": "Incumbent wins straw vote (dummy) 0.018 −0.016 0.005 0.006 (0.018) (0.030) (0.025) (0.030)",
+   "pagina": 16,
+   "justificativa": "Com a parcela contínua fixa, a dummy compara o voto no incumbente quando a pesquisa o mostra vencendo com o voto quando o mostra perdendo, ou seja, a mesma opção em outra posição. Estimando associacao e alvo lider conferem."
+  },
+  {
+   "id_efeito": "Feltovich2022-E04",
+   "divergencia": "não comparada pelo script (linha não principal); comparador_tipo 'outro', e a cega usa mesmo_candidato_atras para a dummy de vitória na pesquisa",
+   "veredito": "corrigir",
+   "alteracoes": [{"campo": "comparador_tipo", "de": "outro", "para": "mesmo_candidato_atras"}],
+   "trecho": "Incumbent wins straw vote (dummy) 0.018 −0.016 0.005 0.006 (0.018) (0.030) (0.025) (0.030)",
+   "pagina": 16,
+   "justificativa": "Mesma razão de E03, nas células de mensagens. Estimando associacao e alvo lider conferem."
+  }
+ ],
+ "linhas_novas": []
+}

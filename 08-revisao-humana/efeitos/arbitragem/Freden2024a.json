@@ -1,0 +1,412 @@
+{
+ "chave": "Freden2024a",
+ "resumo": "A original tomou como tratamento o braço de nível mais alto (partido a 5,5% ou 4,0%), incoerente com alvo_efeito = partido_abaixo_clausula: na síntese, a queda do KD de 8,24% (mostrado a 2,5%) para 4,08% (a 5,5%) entrou como deserção estratégica (yi = +0,41, a favor), quando o artigo conclui o oposto (voto de seguro; 'we saw no tendencies of avoiding to waste one's vote'). O 't(1,N)' impresso é χ²(1, N) com correção de Yates (os nove valores batem com as contagens), com p unicaudal para KD e L; t deve ficar vazio e p1/p0 e n1/n2 invertidos nas 9 linhas. A unidade da Tabela 1 é o respondente (os n dos 9 braços somam 3.258 de 3.259; as linhas extras por empate valem só para o partido preferido das Tabelas 2 e 3), então não há ajuste de cluster; modelo principal (2,5% × 5,5% por partido), construto, direcao_desejada = reduzir e desenho randomizado se mantêm. Consequência: Freden2024a passa de 2 de 3 a favor da viabilidade para 2 contra (KD, L) e 1 a favor mínimo (MP), o que muda a célula de viabilidade randomizada e a linha correspondente da certeza.csv.",
+ "decisoes": [
+  {
+   "id_efeito": "Freden2024a-E01",
+   "divergencia": "comparacao_cega: sinal de t trocado e comparador outro × outro_resultado. Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna KD, grupo KD: 5,5% (tratamento) vs 2,5% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna KD, grupo KD: 2,5% (tratamento) vs 5,5% (comparação); a estatística impressa como t(1,744) = 4,88 é χ²(1, N = 744) com correção de Yates, sem sinal; p < .05 (unicaudal; bicaudal ,027); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.0408",
+     "para": "0.0824"
+    },
+    {
+     "campo": "p0",
+     "de": "0.0824",
+     "para": "0.0408"
+    },
+    {
+     "campo": "n1",
+     "de": "368",
+     "para": "376"
+    },
+    {
+     "campo": "n2",
+     "de": "376",
+     "para": "368"
+    },
+    {
+     "campo": "t",
+     "de": "-4.88",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "it was significant between 4.0% and 5.5% (t(1,751) = 3.06, p < .05) and between 2.5% and 5.5% (t(1,744) = 4.88, p < .05)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (2,5%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 5,5% (mesmo partido em outra pesquisa) o comparador outro_resultado, o que alinha o sinal ao achado do artigo (voto de seguro). Com n = 376 e 368, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 4,88: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E02",
+   "divergencia": "Linha não principal, fora da comparação automática; mesmos problemas das principais. Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator; n1/n2 ausentes.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna KD, grupo KD: 4,0% (tratamento) vs 2,5% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna KD, grupo KD: 2,5% (tratamento) vs 4,0% (comparação); a estatística impressa como t(1,759) = 0,12 é χ²(1, N = 759) com correção de Yates, sem sinal; p = .37 (unicaudal; bicaudal ,73); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.0731",
+     "para": "0.0824"
+    },
+    {
+     "campo": "p0",
+     "de": "0.0824",
+     "para": "0.0731"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "376"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "383"
+    },
+    {
+     "campo": "t",
+     "de": "-0.12",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "while the decrease is not significant between 2.5% and 4.0% (t(1,759) = 0.12, p = .37)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (2,5%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 4,0% (mesmo partido em outra pesquisa) o comparador outro_resultado, pela mesma convenção das linhas principais. Com n = 376 e 383, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 0,12: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E03",
+   "divergencia": "Linha não principal, fora da comparação automática; mesmos problemas das principais. Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator; n1/n2 ausentes.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna KD, grupo KD: 5,5% (tratamento) vs 4,0% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna KD, grupo KD: 4,0% (tratamento) vs 5,5% (comparação); a estatística impressa como t(1,751) = 3,06 é χ²(1, N = 751) com correção de Yates, sem sinal; p < .05 (unicaudal; bicaudal ,080); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.0408",
+     "para": "0.0731"
+    },
+    {
+     "campo": "p0",
+     "de": "0.0731",
+     "para": "0.0408"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "383"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "368"
+    },
+    {
+     "campo": "t",
+     "de": "-3.06",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "it was significant between 4.0% and 5.5% (t(1,751) = 3.06, p < .05)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (4,0%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 5,5% (mesmo partido em outra pesquisa) o comparador outro_resultado, pela mesma convenção das linhas principais. Com n = 383 e 368, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 3,06: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E04",
+   "divergencia": "comparacao_cega pareou esta linha com outro contraste da cega (valores iguais por escala), mas diverge o comparador (outro × outro_resultado). Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna L, grupo L: 5,5% (tratamento) vs 2,5% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna L, grupo L: 2,5% (tratamento) vs 5,5% (comparação); a estatística impressa como t(1,704) = 0,79 é χ²(1, N = 704) com correção de Yates, sem sinal; p = .19 (unicaudal; bicaudal ,375); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.0493",
+     "para": "0.0678"
+    },
+    {
+     "campo": "p0",
+     "de": "0.0678",
+     "para": "0.0493"
+    },
+    {
+     "campo": "n1",
+     "de": "365",
+     "para": "339"
+    },
+    {
+     "campo": "n2",
+     "de": "339",
+     "para": "365"
+    },
+    {
+     "campo": "t",
+     "de": "-0.79",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "between 4.0% and 5.5% (t(1,740) = 0.00, p = .50), nor between 2.5% and 5.5% (t(1,704) = 0.79, p = .19)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (2,5%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 5,5% (mesmo partido em outra pesquisa) o comparador outro_resultado, o que alinha o sinal ao achado do artigo (voto de seguro). Com n = 339 e 365, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 0,79: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E05",
+   "divergencia": "Linha não principal, fora da comparação automática; mesmos problemas das principais. Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator; n1/n2 ausentes.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna L, grupo L: 4,0% (tratamento) vs 2,5% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna L, grupo L: 2,5% (tratamento) vs 4,0% (comparação); a estatística impressa como t(1,714) = 0,95 é χ²(1, N = 714) com correção de Yates, sem sinal; p = .16 (unicaudal; bicaudal ,33); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.0480",
+     "para": "0.0678"
+    },
+    {
+     "campo": "p0",
+     "de": "0.0678",
+     "para": "0.0480"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "339"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "375"
+    },
+    {
+     "campo": "t",
+     "de": "-0.95",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "That is, the decrease is not significant between 2.5% and 4.0% (t(1,714) = 0.95, p = .16)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (2,5%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 4,0% (mesmo partido em outra pesquisa) o comparador outro_resultado, pela mesma convenção das linhas principais. Com n = 339 e 375, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 0,95: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E06",
+   "divergencia": "Linha não principal, fora da comparação automática; mesmos problemas das principais. Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator; n1/n2 ausentes.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna L, grupo L: 5,5% (tratamento) vs 4,0% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna L, grupo L: 4,0% (tratamento) vs 5,5% (comparação); a estatística impressa como t(1,740) = 0,00 é χ²(1, N = 740) com correção de Yates, sem sinal; p = .50 (unicaudal; bicaudal 1,00); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.0493",
+     "para": "0.0480"
+    },
+    {
+     "campo": "p0",
+     "de": "0.0480",
+     "para": "0.0493"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "375"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "365"
+    },
+    {
+     "campo": "t",
+     "de": "0.00",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "between 4.0% and 5.5% (t(1,740) = 0.00, p = .50), nor between 2.5% and 5.5% (t(1,704) = 0.79, p = .19)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (4,0%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 5,5% (mesmo partido em outra pesquisa) o comparador outro_resultado, pela mesma convenção das linhas principais. Com n = 375 e 365, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 0,00: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E07",
+   "divergencia": "comparacao_cega pareou esta linha com outro contraste da cega (valores iguais por escala), mas diverge o comparador (outro × outro_resultado). Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna MP, grupo MP: 5,5% (tratamento) vs 2,5% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna MP, grupo MP: 2,5% (tratamento) vs 5,5% (comparação); a estatística impressa como t(1,694) = 0,03 é χ²(1, N = 694) com correção de Yates, sem sinal; p = .86 (bicaudal); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.1217",
+     "para": "0.1146"
+    },
+    {
+     "campo": "p0",
+     "de": "0.1146",
+     "para": "0.1217"
+    },
+    {
+     "campo": "n1",
+     "de": "345",
+     "para": "349"
+    },
+    {
+     "campo": "n2",
+     "de": "349",
+     "para": "345"
+    },
+    {
+     "campo": "t",
+     "de": "0.03",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "between 4.0% and 5.5% (t(1,703) = 0.09, p = .77), nor between 2.5% and 5.5% (t(1,694) = 0.03, p = .86)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (2,5%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 5,5% (mesmo partido em outra pesquisa) o comparador outro_resultado, o que alinha o sinal ao achado do artigo (voto de seguro). Com n = 349 e 345, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 0,03: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E08",
+   "divergencia": "Linha não principal, fora da comparação automática; mesmos problemas das principais. Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator; n1/n2 ausentes.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna MP, grupo MP: 4,0% (tratamento) vs 2,5% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna MP, grupo MP: 2,5% (tratamento) vs 4,0% (comparação); a estatística impressa como t(1,707) = 0,00 é χ²(1, N = 707) com correção de Yates, sem sinal; p = 1.00 (bicaudal); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.1117",
+     "para": "0.1146"
+    },
+    {
+     "campo": "p0",
+     "de": "0.1146",
+     "para": "0.1117"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "349"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "358"
+    },
+    {
+     "campo": "t",
+     "de": "0.00",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "we find no significant differences between either of the three groups: not between 2.5% and 4.0% (t(1,707) = 0.00, p = 1.00)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (2,5%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 4,0% (mesmo partido em outra pesquisa) o comparador outro_resultado, pela mesma convenção das linhas principais. Com n = 349 e 358, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 0,00: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  },
+  {
+   "id_efeito": "Freden2024a-E09",
+   "divergencia": "Linha não principal, fora da comparação automática; mesmos problemas das principais. Não detectado pelo script: o braço de tratamento é o de nível mais alto (partido mostrado acima da cláusula), o que contradiz alvo_efeito = partido_abaixo_clausula e inverte a direção na síntese; a coluna t guarda um χ² de Yates com sinal atribuído pelo extrator; n1/n2 ausentes.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo",
+     "de": "Tabela 1, coluna MP, grupo MP: 5,5% (tratamento) vs 4,0% (comparação); teste t no texto p. 6",
+     "para": "Tabela 1, coluna MP, grupo MP: 4,0% (tratamento) vs 5,5% (comparação); a estatística impressa como t(1,703) = 0,09 é χ²(1, N = 703) com correção de Yates, sem sinal; p = .77 (bicaudal); texto p. 6"
+    },
+    {
+     "campo": "p1",
+     "de": "0.1217",
+     "para": "0.1117"
+    },
+    {
+     "campo": "p0",
+     "de": "0.1117",
+     "para": "0.1217"
+    },
+    {
+     "campo": "n1",
+     "de": "",
+     "para": "358"
+    },
+    {
+     "campo": "n2",
+     "de": "",
+     "para": "345"
+    },
+    {
+     "campo": "t",
+     "de": "0.09",
+     "para": ""
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "between 4.0% and 5.5% (t(1,703) = 0.09, p = .77), nor between 2.5% and 5.5% (t(1,694) = 0.03, p = .86)",
+   "pagina": 6,
+   "justificativa": "O alvo é a posição do partido na informação recebida, e o braço de nível mais baixo (4,0%) é o que o mostra mais perto ou abaixo da cláusula; ele vira tratamento, e o de 5,5% (mesmo partido em outra pesquisa) o comparador outro_resultado, pela mesma convenção das linhas principais. Com n = 358 e 345, que reproduzem os percentuais da Tabela 1, o χ² de Yates dá exatamente 0,09: não é t, então t fica vazio e a conversão usa p1, p0, n1 e n2."
+  }
+ ],
+ "linhas_novas": []
+}

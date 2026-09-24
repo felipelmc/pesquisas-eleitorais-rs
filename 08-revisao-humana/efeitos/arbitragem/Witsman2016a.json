@@ -1,0 +1,222 @@
+{
+ "chave": "Witsman2016a",
+ "resumo": "Todas as proporções derivadas das contagens das Tabelas 6 e 8 conferem, e as contagens reproduzem os χ2 impressos. Mantidos o modelo principal (E01, contraste 45% x 5% que a discussão nomeia) e o alvo lider; corrigidos o comparador de todas as linhas (outro → mesmo_candidato_atras ou outro_resultado) e a orientação de sinal das linhas de viabilidade e momentum (E03-E05, E08-E09), que com reduzir invertiam a deserção observada.",
+ "decisoes": [
+  {
+   "id_efeito": "Witsman2016a-E01",
+   "divergencia": "A cega escolheu o qui-quadrado omnibus 5x2 como principal e leu o contraste 45% x 5% com exposição = 5% (alvo terceiro_inviavel, comparador outro_resultado); a original usa o contraste 45% x 5% com alvo lider e comparador outro. Números (46/84 e 50/58) coincidem, só a orientação muda.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "mesmo_candidato_atras"
+    }
+   ],
+   "trecho": "the results of the 45% permutation as compared to the 5% permutation showed an increasing likelihood of voting for the Independent candidate, despite no other changes to the model",
+   "pagina": 43,
+   "justificativa": "Mantém o modelo principal e o alvo lider: a discussão nomeia exatamente o contraste 45% x 5% (e retoma os dois níveis: 'nearly 55%', folha 47; '86%', folha 48), ao passo que o omnibus não tem direção; no braço de 45% o independente aparece à frente (R e D ~27,5%). Contas conferidas: 50/58 = 0,862069, 46/84 = 0,547619, e as contagens da Tabela 6 reproduzem χ2 = 22,44. O comparador é o mesmo candidato mostrado em terceiro, logo mesmo_candidato_atras. Ambiguidade para o revisor humano: o autor lê o contraste como voto estratégico (viabilidade), leitura da cega."
+  },
+  {
+   "id_efeito": "Witsman2016a-E02",
+   "divergencia": "Não comparada pelo script; revisão de comparador_tipo e estimando.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "mesmo_candidato_atras"
+    }
+   ],
+   "trecho": "The five versions of the first scenario have the independent candidate polling at 5%, 15%, 25%, 35%, and 45%, with the Republican and Democratic candidates each receiving approximately half the remaining percent.",
+   "pagina": 29,
+   "justificativa": "Mesmo candidato mostrado à frente (35% contra ~32,5%) e em terceiro (5%): mesmo_candidato_atras. Contas conferidas (59/77 = 0,766234; 46/84 = 0,547619); estimando ATE correto (versões sorteadas). Nota: o autor trata diferença de até ~4 pontos como empate estatístico (folha 30), então a liderança a 35% é tênue; alvo lider mantido pela posição impressa."
+  },
+  {
+   "id_efeito": "Witsman2016a-E03",
+   "divergencia": "Não comparada pelo script. Erro de orientação: tratamento = 25% (mais viável) com alvo terceiro_inviavel e direcao reduzir faz o efeito alinhado sair negativo (leitura de underdog), quando o dado mostra deserção do independente quando ele aparece menos viável.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "modelo",
+     "de": "Tabela 6 (cenário 1), tabulação cruzada Percent in Polls x Voted for Independent Candidate; qui-quadrado de independência sem controles; contraste tratamento = independente a 25% (ainda atrás de R e D) vs comparação = 5% (atrás); proporções = contagens Yes/Total",
+     "para": "Tabela 6 (cenário 1), tabulação cruzada Percent in Polls x Voted for Independent Candidate; qui-quadrado de independência sem controles; contraste tratamento = independente a 5% (terceiro, muito atrás; R e D com cerca de 47,5% cada) vs comparação = independente a 25% (ainda terceiro, R e D com cerca de 37,5% cada); proporções = contagens Yes/Total"
+    },
+    {
+     "campo": "n1",
+     "de": "76",
+     "para": "84"
+    },
+    {
+     "campo": "n2",
+     "de": "84",
+     "para": "76"
+    },
+    {
+     "campo": "p1",
+     "de": "0.684211",
+     "para": "0.547619"
+    },
+    {
+     "campo": "p0",
+     "de": "0.547619",
+     "para": "0.684211"
+    }
+   ],
+   "trecho": "with frequencies of Independent voting continually increasing in the conditions in which the Independent candidate is carrying larger percentages in the poll",
+   "pagina": 33,
+   "justificativa": "Pela Emenda 5, na célula de viabilidade o positivo é menos apoio à opção mostrada como inviável; com terceiro_inviavel e reduzir, a exposição tem de ser o braço em que o independente aparece inviável (5%) e o comparador o de 25%. A troca de braços preserva as contagens (46/84 e 52/76, conferidas) e deixa o sinal alinhado coerente com a deserção observada. Comparador: outro resultado da mesma posição (terceiro nos dois braços)."
+  },
+  {
+   "id_efeito": "Witsman2016a-E04",
+   "divergencia": "Não comparada pelo script. Mesmo erro de orientação de E03 (tratamento = 15% com terceiro_inviavel e reduzir).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "modelo",
+     "de": "Tabela 6 (cenário 1), tabulação cruzada Percent in Polls x Voted for Independent Candidate; qui-quadrado de independência sem controles; contraste tratamento = independente a 15% (atrás de R e D) vs comparação = 5% (atrás); proporções = contagens Yes/Total",
+     "para": "Tabela 6 (cenário 1), tabulação cruzada Percent in Polls x Voted for Independent Candidate; qui-quadrado de independência sem controles; contraste tratamento = independente a 5% (terceiro, muito atrás; R e D com cerca de 47,5% cada) vs comparação = independente a 15% (ainda terceiro, R e D com cerca de 42,5% cada); proporções = contagens Yes/Total"
+    },
+    {
+     "campo": "n1",
+     "de": "71",
+     "para": "84"
+    },
+    {
+     "campo": "n2",
+     "de": "84",
+     "para": "71"
+    },
+    {
+     "campo": "p1",
+     "de": "0.563380",
+     "para": "0.547619"
+    },
+    {
+     "campo": "p0",
+     "de": "0.547619",
+     "para": "0.563380"
+    }
+   ],
+   "trecho": "Count 38 46 84 5% ... Count 31 40 71 15%",
+   "pagina": 33,
+   "justificativa": "Mesma razão de E03: exposição = braço de 5% (inviável), comparação = 15%, para que reduzir dê o sinal de deserção estratégica. Contas conferidas (46/84 = 0,547619; 40/71 = 0,563380). Comparador outro_resultado (terceiro nos dois braços)."
+  },
+  {
+   "id_efeito": "Witsman2016a-E05",
+   "divergencia": "A cega registrou o omnibus como principal, sem sinal (tipo outro). A original o registra como r = 0,248 com sinal positivo imposto, alvo terceiro_inviavel e direcao reduzir (mudada pela Emenda 5), o que faz o alinhado sair negativo, ao contrário da tendência da Tabela 6.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "terceiro_inviavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "direcao_desejada",
+     "de": "reduzir",
+     "para": "aumentar"
+    }
+   ],
+   "trecho": "The results were significant [χ2 (4, n=366) = 22.444, p < .001, φ= .248], with frequencies of Independent voting continually increasing",
+   "pagina": 33,
+   "justificativa": "O φ impresso é o V de Cramér de um qui-quadrado 5x2 (sqrt(22,444/366) = 0,2476, conferido), sem direção nem posição única: os níveis 5-25% mostram o independente em terceiro e 35-45% à frente. Sem posição única, o alvo é nao_se_aplica (precedente Meffert2011-E01), e aumentar faz o sinal positivo (mais voto com mais % na pesquisa) sair coerente. Esta troca desfaz, só nesta linha, a mudança de direção da Emenda 5, que seguia o alvo antigo. A linha continua não principal; a magnitude não deve ser convertida nem agregada (notas de extração)."
+  },
+  {
+   "id_efeito": "Witsman2016a-E06",
+   "divergencia": "Não comparada pelo script; revisão de comparador_tipo e estimando.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "mesmo_candidato_atras"
+    }
+   ],
+   "trecho": "When the Democrat candidate was in the lead, more respondents voted for the Democrat (21% versus 13.8%) and when the Republican candidate was in the lead, more respondents voted for the Republican (15% versus 12.5%).",
+   "pagina": 36,
+   "justificativa": "Democrata mostrado à frente (39%) contra o mesmo democrata mostrado em segundo (36%), versões sorteadas (folha 29): mesmo_candidato_atras; ATE correto. p1 = 0,21 confere com 30/143 = 0,2098; p0 = 0,138 confere com a frequência esperada 19,9/143 = 0,139. O n do braço com R à frente não é impresso, n2 fica vazio."
+  },
+  {
+   "id_efeito": "Witsman2016a-E07",
+   "divergencia": "Não comparada pelo script; revisão de comparador_tipo e estimando.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "mesmo_candidato_atras"
+    }
+   ],
+   "trecho": "in one version of the two randomly assigned versions of the question, the Republican candidate was polling at 39% with the Democrat at 36% and in the other, the Democrat was polling at 39%",
+   "pagina": 29,
+   "justificativa": "Republicano mostrado à frente contra o mesmo republicano mostrado em segundo: mesmo_candidato_atras; ATE correto. p1 = 0,15 confere com 21,4/143 = 0,1497; p0 = 0,125 é o 12,5% do texto (18/143 = 0,1259, diferença de arredondamento do autor). n1 não impresso."
+  },
+  {
+   "id_efeito": "Witsman2016a-E08",
+   "divergencia": "Não comparada pelo script. O contraste manipula só a tendência (subiu x caiu), com a pesquisa final igual nas três versões; a original deu alvo terceiro_inviavel com reduzir, o que faz o alinhado de 'subiu' sair negativo.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "terceiro_inviavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "direcao_desejada",
+     "de": "reduzir",
+     "para": "aumentar"
+    }
+   ],
+   "trecho": "participants simply disregarded the older poll and based their decision on the current polls, which showed the same percentage across all the three levels of the experimental design.",
+   "pagina": 45,
+   "justificativa": "A posição final é a mesma nos braços (independente a 30%, terceiro; apêndice, folha 61); só a tendência varia, o que é momentum: alvo nao_se_aplica (Emenda 4b), com direcao aumentar como nas linhas de momentum de Dahlgaard2016a (ganho = aumentar). Contas conferidas (105/134 = 0,783582; 84/115 = 0,730435; χ2 = 1,676 reproduzido). Estimando ATE mantido: o texto não diz 'random' para este cenário, mas o chama de 'experimental design'; n = 384 excede os 377 questionários completos (folha 26)."
+  },
+  {
+   "id_efeito": "Witsman2016a-E09",
+   "divergencia": "Não comparada pelo script. Mesmo problema de E08 (tendência subiu x manteve tratada como terceiro_inviavel com reduzir).",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "alvo_efeito",
+     "de": "terceiro_inviavel",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "direcao_desejada",
+     "de": "reduzir",
+     "para": "aumentar"
+    }
+   ],
+   "trecho": "In one version, the independent candidate was performing better than before, in the second the candidate was performing the same, and in the third the candidate was performing more poorly.",
+   "pagina": 30,
+   "justificativa": "Momentum sem mudança de posição (Emenda 4b): alvo nao_se_aplica, direcao aumentar; comparador outro_resultado (o grupo de comparação viu outra tendência). Contas conferidas (105/134 = 0,783582; 97/135 = 0,718519). ATE mantido pela mesma razão de E08."
+  }
+ ],
+ "linhas_novas": []
+}

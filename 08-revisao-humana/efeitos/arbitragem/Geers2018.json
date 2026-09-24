@@ -1,0 +1,67 @@
+{
+ "chave": "Geers2018",
+ "resumo": "Os números de E01 e E02 conferem com a Tabela 2 (folha 13): -30,835 e -5,675 são coeficientes em log-odds com o EP entre parênteses, lidos corretamente, não DP. O valor parece grande por causa da escala do preditor: média sobre 6 jornais de (cobertura de pesquisas 0-1 × uso 0-4), cujo suporte vai de 0 a cerca de 0,55 (média de uns 0,07, pela Tabela 1). Por isso or_ fica vazio e a linha só dá direção. O DP de 0,21 citado nas notas é o da exposição a issue news, não o de poll news, e o motivo de E01 no FORA ('β implausível') não se sustenta; o coordenador deve revê-lo. Única correção: E02 (TV) passa a principal, porque jornal e TV são os dois termos de exposição do mesmo modelo, e ficar só com o de jornal equivale a escolher pela significância. As linhas de conversão da cega não entram em apoio_ao_lider.",
+ "decisoes": [
+  {
+   "id_efeito": "Geers2018-E01",
+   "divergencia": "Sem divergência numérica (beta, se, p e n_total iguais). Conferência pedida: EP lido como DP? unidade do preditor? or_ deve ficar vazio? tipo_estatistica 'or' (original) × 'beta' (cega).",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Entries are unstandardized regression coefficients from multinomial logistic regression models. Standard errors are reported in parentheses. N = 765",
+   "pagina": 13,
+   "justificativa": "-30,835 (15,597) está impresso assim, e 15,597 é EP, não DP. O preditor é a média, sobre os 6 jornais, de cobertura de pesquisas no veículo × frequência de uso de 0 a 4 (folhas 10-11). Pela Tabela 1 (folha 12), a média amostral é ≈ 0,07, o máximo possível ≈ 0,55 e o DP não é relatado, de modo que 'uma unidade' passa do suporte inteiro e exp(β) não tem leitura; or_ vazio está certo. Com tipo 'or' e or_ vazio, o efeitos.R não gera g, e a SWiM usa só o sinal de beta. O DP ≈ 0,21 das notas de extração é o da exposição a issue news ('average level of exposure to issue coverage (M = 0.21, SD = 0.21)', folha 12)."
+  },
+  {
+   "id_efeito": "Geers2018-E01",
+   "divergencia": "Conferir se 'Crystallization (vs abstention)' é mobilizacao pela definição do protocolo.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "(2) abstention: abstaining from voting at t, (3) crystallization: changing from not voting or being undecided to a party choice between t-1 and t,",
+   "pagina": 8,
+   "justificativa": "O contraste opõe votar num partido em t a abster-se em t, com comparecimento declarado na onda pós-eleitoral. Isso é medida aceitável de mobilizacao (protocolo, seção 2, [13]), e os autores leem o efeito assim: 'leads undecided voters to abstain from casting a vote' (folha 13). Há indireção, a registrar no GRADE: o numerador só tem quem estava indeciso ou sem voto em t-1, e a base inclui todos os que se abstiveram."
+  },
+  {
+   "id_efeito": "Geers2018-E01",
+   "divergencia": "Revisão obrigatória de comparador_tipo (outro) e estimando (associacao). A cega dá os mesmos valores.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "The effect of issue news and poll news on conversion and crystallization is tested with multinomial logistic regression analyses, since the dependent variable has four possible outcomes.",
+   "pagina": 11,
+   "justificativa": "Exposição contínua (dose) num painel observacional, sem grupo não exposto definido e sem outra pesquisa como comparação. Nenhum comparador tipificado serve, então fica 'outro'. É regressão com controles, sem estratégia de identificação declarada: associacao, pelo passo 5 de b2_estimando."
+  },
+  {
+   "id_efeito": "Geers2018-E02",
+   "divergencia": "A original marca E02 (poll news na TV) como modelo_principal = nao; a cega trata jornal e TV como igualmente principais. A comparacao_cega.csv não sinalizou a diferença.",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "modelo_principal",
+     "de": "nao",
+     "para": "sim"
+    }
+   ],
+   "trecho": "We computed issue news exposure and poll news exposure separately for newspapers and television for two reasons. First, the content analysis for newspapers differs from the content analysis for television programs in its design.",
+   "pagina": 11,
+   "justificativa": "O modelo principal é um só (Tabela 2, o único no corpo do texto), e a H2a trata da exposição a poll news sem distinguir meio. A separação entre jornal e TV foi uma decisão de medida (nota 13). Marcar como principal só o coeficiente de jornal, que é o significativo, equivale a escolher pela significância; os dois termos de exposição do mesmo modelo entram, como a regra de b2_modelo_principal manda para especificações igualmente centrais. Se E01 continuar no FORA, E02 deve ter o mesmo tratamento, e vice-versa: os dois têm o mesmo preditor e a mesma escala."
+  },
+  {
+   "id_efeito": "Geers2018-E02",
+   "divergencia": "Revisão obrigatória de comparador_tipo (outro) e estimando (associacao); os números (-5,675; 4,125; p vazio, n.s.) conferem.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Entries are unstandardized regression coefficients from multinomial logistic regression models. Standard errors are reported in parentheses. N = 765",
+   "pagina": 13,
+   "justificativa": "Mesmo modelo e mesmo tipo de preditor de E01 (média, sobre 9 programas de TV, de cobertura × uso). Valem 'outro' e associacao, e or_ fica vazio pela mesma razão de escala."
+  },
+  {
+   "id_efeito": "(sem linha na original: linhas 3 e 4 da cega)",
+   "divergencia": "A cega registra 'Conversion (vs stable)' (jornal -11,093; TV 5,448) como apoio_ao_lider; a original não tem essas linhas.",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "Future, experimental research should examine whether this can be explained by the bandwagon effect or by strategic",
+   "pagina": 16,
+   "justificativa": "Conversão é trocar de partido em vez de ficar estável, sem referência à posição do partido na pesquisa. O desfecho não permite comparar o apoio a quem está à frente com o apoio a quem está atrás (C3a; alvo só poderia ser nao_se_aplica), e por isso não pertence a apoio_ao_lider. A ausência na original está certa, e nenhuma linha nova é proposta."
+  }
+ ],
+ "linhas_novas": []
+}

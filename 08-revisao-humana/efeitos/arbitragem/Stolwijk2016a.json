@@ -1,0 +1,221 @@
+{
+ "chave": "Stolwijk2016a",
+ "resumo": "Os números das duas extrações casam com a Tabela 1 (folha 14: +0,01*** (0,00), OR 1,01, sinal conferido na imagem) e com a Tabela 2. O modelo principal e o estimando associacao ficam. O erro está na classificação: o índice mede o tom (subir ou cair, ganhar ou perder) das reportagens sobre 6 partidos empilhados, sem posição, então alvo = nao_se_aplica (Emenda 4b), e o comparador passa a outro_resultado nas 10 linhas. Em E01, beta = 0,01 impresso substitui o proxy ln(or_), com o mesmo sinal positivo. PARA O COORDENADOR: (1) com alvo nao_se_aplica, cel() hoje devolve 'outro' (momentum só para Dahlgaard2016a), e o E01 some de todas as entradas da SWiM, inclusive de com_excluidos. Pela Emenda 4b ele deveria ir para a tabela de momentum, como Meer2015a-E01. Isso tira Stolwijk2016a da linha de certeza pesquisa_pre_eleitoral × apoio × não randomizado (Stolwijk|Feltovich) e do agrupamento amplo. (2) Com beta preenchido, a lista da Emenda 5, item 9 deixa de incluir Stolwijk2016a. (3) Nas linhas não principais E02-E04, o efeitos.R calcula variância a partir de n_total/2, mas essas probabilidades são preditas para um perfil de covariáveis e não vêm de dois grupos. O yi de E04 (g = 3,26) é artefato. Nada foi alterado.",
+ "decisoes": [
+  {
+   "id_efeito": "Stolwijk2016a-E01",
+   "divergencia": "alvo_efeito: lider (original) × nao_se_aplica (cega); comparador_tipo 'outro' nas duas; beta vazio na original, e o sinal entra na SWiM pelo proxy ln(or_) (Emenda 5, item 9)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    },
+    {
+     "campo": "beta",
+     "de": "",
+     "para": "0.01"
+    }
+   ],
+   "trecho": "Describing only numbers results in a neutral coding (0), describing a party to drop/improve in the polls suffices to be coded as negative/positive",
+   "pagina": 11,
+   "justificativa": "O regressor é o índice de valência (tom × quantidade) das reportagens de pesquisa sobre cada um dos 6 partidos empilhados; basta a reportagem dizer que o partido sobe ou cai para contar como positiva ou negativa, e o índice não informa a posição do partido. Pela definição congelada e pela Emenda 4b, alvo = nao_se_aplica (tendência ou enquadramento sem posição, como Dahlgaard2016a e Meer2015a-E01). O comparador são unidades que viram cobertura menos positiva ou mais negativa das pesquisas, ou seja, outro resultado: outro_resultado. O coeficiente impresso é +0,01*** (EP 0,00), com OR 1,01 (Tabela 1, folha 14, conferido na página renderizada). Ele entra em beta para dar o sinal direto. O proxy ln(1,01) = +0,00995 dava o mesmo sinal. O se (0,00, arredondado) fica vazio para não produzir variância zero."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E01",
+   "divergencia": "modelo principal, estimando, sinal e direção (sem divergência numérica: or_ 1,01 e n_total 6384 casam)",
+   "veredito": "manter",
+   "alteracoes": [],
+   "trecho": "To see whether a bandwagon effect of exposure to poll reports about a party is present, logistic regression analysis was performed predicting vote choice. Table 1 shows the results",
+   "pagina": 13,
+   "justificativa": "Tabela 1 é o único modelo do efeito total no corpo do texto; o SEM (E05) é efeito direto ajustado por mediadores. É regressão com controles de painel, sem estratégia de identificação declarada: associacao (passo 5 de b2_estimando). direcao_desejada = aumentar fica: positivo = mais voto no partido após cobertura mais positiva (ganho = à frente, Emenda 4b), e os autores leem assim ('bandwagon')."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E02",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "When an individual is exposed to one additional positive (+1) poll report about a party in each of the outlets, using these outlets for the average amount of days",
+   "pagina": 13,
+   "justificativa": "Mesmo índice e mesma regressão de E01: probabilidade predita com uma reportagem positiva a mais em cada veículo (5,12%) contra todos na média (4,19%). Valem o alvo e o comparador de E01. Estimando associacao e valores conferem."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E03",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "When the same individual is instead exposed to one additional negative (-1) poll report about a party and all other predictors remain at their mean value, the probability of voting for that party decreases to 3.43%.",
+   "pagina": 13,
+   "justificativa": "Mesma regressão: média (4,19%) contra uma reportagem negativa a mais (3,43%). O contraste é entre coberturas de tom diferente, logo outro_resultado. Valem o alvo e o comparador de E01. Estimando associacao e valores conferem."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E04",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "the difference between the lowest score on the index (-200.7) and the highest (248.5) amounts to a predicted probability of voting for that party of 0.31% compared with 53.58%.",
+   "pagina": 14,
+   "justificativa": "Mesma regressão: escore máximo do índice (248,5) contra o mínimo (−200,7), 53,58% contra 0,31%. Valem o alvo e o comparador de E01. Estimando associacao e valores conferem."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E05",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "SEM results of the effects of exposure to poll reports about a party via feelings of anxiety and enthusiasm about that party and/or party ratings on voting for that party.",
+   "pagina": 15,
+   "justificativa": "Caminho direto polls → vote no SEM (0,02, Figura 2, conferido na página renderizada); mesmo índice de exposição. Valem o alvo e o comparador de E01. Estimando associacao e valores conferem."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E06",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Indirect Effects for Each Path From Poll Exposure to Vote Choice ... Log transformed poll index via Anxiety .0002 (p = .057)",
+   "pagina": 16,
+   "justificativa": "Efeito indireto (Tabela 2) do mesmo índice de exposição, com o valor e o p conferidos. Valem o alvo e o comparador de E01. É mediação observacional com controles: associacao se mantém."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E07",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Indirect Effects for Each Path From Poll Exposure to Vote Choice ... Log transformed poll index via Anxiety and party ratings .0003 (p = .011)",
+   "pagina": 16,
+   "justificativa": "Efeito indireto (Tabela 2) do mesmo índice de exposição, com o valor e o p conferidos. Valem o alvo e o comparador de E01. É mediação observacional com controles: associacao se mantém."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E08",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Indirect Effects for Each Path From Poll Exposure to Vote Choice ... Log transformed poll index via Enthusiasm .0033 (p < .001)",
+   "pagina": 16,
+   "justificativa": "Efeito indireto (Tabela 2) do mesmo índice de exposição, com o valor e o p conferidos. Valem o alvo e o comparador de E01. É mediação observacional com controles: associacao se mantém."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E09",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Indirect Effects for Each Path From Poll Exposure to Vote Choice ... Log transformed poll index via Enthusiasm and party ratings .0022 (p < .001)",
+   "pagina": 16,
+   "justificativa": "Efeito indireto (Tabela 2) do mesmo índice de exposição, com o valor e o p conferidos. Valem o alvo e o comparador de E01. É mediação observacional com controles: associacao se mantém."
+  },
+  {
+   "id_efeito": "Stolwijk2016a-E10",
+   "divergencia": "não comparada pelo script (linha não principal); alvo e comparador herdados de E01",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "alvo_efeito",
+     "de": "lider",
+     "para": "nao_se_aplica"
+    },
+    {
+     "campo": "comparador_tipo",
+     "de": "outro",
+     "para": "outro_resultado"
+    }
+   ],
+   "trecho": "Indirect Effects for Each Path From Poll Exposure to Vote Choice ... Log transformed poll index via Party ratings .0042 (p < .001)",
+   "pagina": 16,
+   "justificativa": "Efeito indireto (Tabela 2) do mesmo índice de exposição, com o valor e o p conferidos. Valem o alvo e o comparador de E01. É mediação observacional com controles: associacao se mantém."
+  }
+ ],
+ "linhas_novas": []
+}

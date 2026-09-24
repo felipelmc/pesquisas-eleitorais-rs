@@ -1,0 +1,197 @@
+{
+ "chave": "Klor2017a",
+ "resumo": "Os números dos efeitos não mudam entre o working paper de 2006 e a revisão de março de 2014: Tabela 2 (Majority 0,305 (0,108), 0,175 (0,184), -0,339 (0,332); folha 46 em 2006, folha 41 em 2014), Tabela 3 (folha 47 em 2006, folha 42 em 2014) e teste de sinais (z = 3,125, p < 0,001; folha 14 em 2006, folha 13 em 2014). Nenhuma correção numérica é proposta. A versão de 2014 corrige o rótulo da Tabela 3 (desvios-padrão, não erros-padrão), acrescenta a linha DE − DP (0,0154 (0,0640) e -0,0071 (0,0807)) e uma regressão de efeitos aleatórios com Close = 0,0270 (0,0130), N = 143, EP por estado (folha 24), ausentes em 2006; nada disso altera as linhas principais. As correções são de classificação: comparador mesmo_candidato_atras nos coeficientes Majority (E01 a E03); comparador outro e contexto de eleição real nas linhas de governadores (E04, E05); estimando associacao e desenho não randomizado nos testes antes/depois (E06 a E09). Modelos principais mantidos (E01 no FORA, E06).",
+ "decisoes": [
+  {
+   "id_efeito": "Klor2017a-E01",
+   "divergencia": "script pareou E01 com a linha da Tabela 3 da cega (comparador sem_pesquisa × outro; estimando ATE × associacao; classe randomizado × nao_randomizado). A cega classifica a Tabela 2 (Majority) como mobilizacao, com comparador mesmo_candidato_atras, e põe a Tabela 3 como principal de apoio_ao_lider",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "sem_pesquisa",
+     "para": "mesmo_candidato_atras"
+    }
+   ],
+   "trecho": "At the beginning of\neach round an equal probability rule randomly assigned each subject to one of two teams:\nGreen or Blue.",
+   "pagina": 12,
+   "justificativa": "Majority compara, depois da informação, quem vê o próprio time à frente (4) com quem o vê atrás (3); o time é sorteado a cada rodada e os dois grupos viram a distribuição, logo o comparador é mesmo_candidato_atras, não sem_pesquisa. Ficam: estimando ATE e desenho RCT (Majority é sorteado), alvo lider, modelo principal (Tabela 2, 'The table quanti…es the most striking of our results', folha 18) e construto apoio_ao_lider, porque votar equivale a votar no próprio time e os autores leem o coeficiente como bandwagon no placar; E01 continua no FORA. Números idênticos em 2014 (Tabela 2, folha 41)."
+  },
+  {
+   "id_efeito": "Klor2017a-E02",
+   "divergencia": "não detectada pelo script: comparador sem_pesquisa no coeficiente Majority (2 vs. 5); cega usa mesmo_candidato_atras",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "sem_pesquisa",
+     "para": "mesmo_candidato_atras"
+    }
+   ],
+   "trecho": "At the beginning of\neach round an equal probability rule randomly assigned each subject to one of two teams:\nGreen or Blue.",
+   "pagina": 12,
+   "justificativa": "Mesmo termo da E01 na distribuição 2 vs. 5: time sorteado mostrado à frente (5) contra atrás (2), ambos informados. Estimando ATE mantido. Número idêntico em 2014 (Tabela 2, folha 41)."
+  },
+  {
+   "id_efeito": "Klor2017a-E03",
+   "divergencia": "não detectada pelo script: comparador sem_pesquisa no coeficiente Majority (1 vs. 6); cega usa mesmo_candidato_atras",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "sem_pesquisa",
+     "para": "mesmo_candidato_atras"
+    }
+   ],
+   "trecho": "At the beginning of\neach round an equal probability rule randomly assigned each subject to one of two teams:\nGreen or Blue.",
+   "pagina": 12,
+   "justificativa": "Mesmo termo da E01 na distribuição 1 vs. 6 (time de 6 à frente contra sujeito único atrás), ambos informados. Estimando ATE mantido. Número idêntico em 2014 (Tabela 2, folha 41)."
+  },
+  {
+   "id_efeito": "Klor2017a-E04",
+   "divergencia": "cega põe a Tabela 3, col. (1) como principal de apoio_ao_lider (regra_do_protocolo) com comparador outro; na original é secundária com comparador sem_pesquisa e contexto de laboratório (lab_preferencias_induzidas, simulada_abstrata, induzido, regra_do_experimento)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "sem_pesquisa",
+     "para": "outro"
+    },
+    {
+     "campo": "desenho_fino",
+     "de": "lab_preferencias_induzidas",
+     "para": "outro"
+    },
+    {
+     "campo": "tipo_eleicao",
+     "de": "simulada_abstrata",
+     "para": "candidato_partido"
+    },
+    {
+     "campo": "realismo_contexto",
+     "de": "induzido",
+     "para": "real"
+    },
+    {
+     "campo": "sistema_eleitoral",
+     "de": "regra_do_experimento",
+     "para": "pluralidade"
+    }
+   ],
+   "trecho": "These are all the\nelections between 1990 and 2005 where Mason-Dixon Polling and Research, Inc. conducted\na public opinion poll within one week before the elections",
+   "pagina": 24,
+   "justificativa": "Todas as 143 eleições tiveram pesquisa publicada; o contraste é o resultado (DE) contra a própria previsão (DP), sem grupo sem pesquisa, por isso sem_pesquisa está errado e nenhum tipo do protocolo serve (outro, como na cega). Os campos de contexto foram copiados das linhas de laboratório: são eleições reais para governador nos EUA (candidato_partido, real, pluralidade como regra dominante; desenho observacional transversal = outro). Estimando associacao e modelo_principal = nao ficam: os autores tratam a seção como teste de validade externa ('mainly intended to assess the external validity', folha 23) e ela não estima o contraste da exposição; se o revisor humano tratar a amostra de governadores como estudo próprio (protocolo §6), o principal seria esta linha e iria para o FORA. Números iguais em 2006 e 2014 (Tabela 3: folha 47 em 2006, folha 42 em 2014); a versão de 2014 confirma que os parênteses são desvios-padrão, não erros-padrão."
+  },
+  {
+   "id_efeito": "Klor2017a-E05",
+   "divergencia": "não detectada pelo script: comparador sem_pesquisa e contexto de laboratório numa linha de eleições reais para governador (Tabela 3, col. 2)",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "comparador_tipo",
+     "de": "sem_pesquisa",
+     "para": "outro"
+    },
+    {
+     "campo": "desenho_fino",
+     "de": "lab_preferencias_induzidas",
+     "para": "outro"
+    },
+    {
+     "campo": "tipo_eleicao",
+     "de": "simulada_abstrata",
+     "para": "candidato_partido"
+    },
+    {
+     "campo": "realismo_contexto",
+     "de": "induzido",
+     "para": "real"
+    },
+    {
+     "campo": "sistema_eleitoral",
+     "de": "regra_do_experimento",
+     "para": "pluralidade"
+    }
+   ],
+   "trecho": "These are all the\nelections between 1990 and 2005 where Mason-Dixon Polling and Research, Inc. conducted\na public opinion poll within one week before the elections",
+   "pagina": 24,
+   "justificativa": "Mesmas correções e mesma razão da E04 (eleições sem previsão de disputa apertada, DP ≥ 0,10). Números iguais em 2006 e 2014 (Tabela 3, folha 42 em 2014)."
+  },
+  {
+   "id_efeito": "Klor2017a-E06",
+   "divergencia": "estimando ATE (orig) × associacao (cega); rota p_n (p < 0,001, n 84) × efeito_pp 15 derivado de p0 'slightly below 25 percent'",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "In the …rst stage of each round each subject knows only her preferred\ncolor.",
+   "pagina": 13,
+   "justificativa": "O contraste é o mesmo sujeito antes (estágio 1, sem informação) e depois (estágio 2, com a distribuição), em ordem fixa; não é entre braços sorteados, e a Emenda 5 (item 6) já tirou 'RCT' do desenho, mas o estimando ficou ATE. Rota p_n mantida: o p0 impresso é aproximado e geral, e o t = 3,125 (z do teste de sinais) só dá o sinal. Números iguais em 2014 (folha 13)."
+  },
+  {
+   "id_efeito": "Klor2017a-E07",
+   "divergencia": "não detectada pelo script: teste de sinais antes/depois (5 vs. 2) ainda com desenho 'RCT' e estimando ATE, ao contrário da E06 corrigida na Emenda 5",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "desenho",
+     "de": "RCT (experimento de laboratório; comparação intraindividual antes/depois da revelação da distribuição)",
+     "para": "antes-depois intrassujeito (nao randomizado quanto ao contraste; experimento de laboratório, revelação da distribuição)"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "In the …rst stage of each round each subject knows only her preferred\ncolor.",
+   "pagina": 13,
+   "justificativa": "Mesmo contraste intrassujeito antes/depois da E06 (ordem fixa, sem sorteio); a palavra 'RCT' faria o _cli.R classificar a linha como randomizada. Desenho igualado ao da E06 e estimando associacao. Comparador sem_pesquisa e alvo nao_se_aplica ficam. p igual em 2014 (folha 13)."
+  },
+  {
+   "id_efeito": "Klor2017a-E08",
+   "divergencia": "não detectada pelo script: teste de sinais antes/depois (6 vs. 1) ainda com desenho 'RCT' e estimando ATE, ao contrário da E06 corrigida na Emenda 5",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "desenho",
+     "de": "RCT (experimento de laboratório; comparação intraindividual antes/depois da revelação da distribuição)",
+     "para": "antes-depois intrassujeito (nao randomizado quanto ao contraste; experimento de laboratório, revelação da distribuição)"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "In the …rst stage of each round each subject knows only her preferred\ncolor.",
+   "pagina": 13,
+   "justificativa": "Mesmo contraste intrassujeito antes/depois da E06 (ordem fixa, sem sorteio); a palavra 'RCT' faria o _cli.R classificar a linha como randomizada. Desenho igualado ao da E06 e estimando associacao. Comparador sem_pesquisa e alvo nao_se_aplica ficam. p igual em 2014 (folha 13)."
+  },
+  {
+   "id_efeito": "Klor2017a-E09",
+   "divergencia": "não detectada pelo script: teste de sinais antes/depois (7 vs. 0) ainda com desenho 'RCT' e estimando ATE, ao contrário da E06 corrigida na Emenda 5",
+   "veredito": "corrigir",
+   "alteracoes": [
+    {
+     "campo": "desenho",
+     "de": "RCT (experimento de laboratório; comparação intraindividual antes/depois da revelação da distribuição)",
+     "para": "antes-depois intrassujeito (nao randomizado quanto ao contraste; experimento de laboratório, revelação da distribuição)"
+    },
+    {
+     "campo": "estimando",
+     "de": "ATE",
+     "para": "associacao"
+    }
+   ],
+   "trecho": "In the …rst stage of each round each subject knows only her preferred\ncolor.",
+   "pagina": 13,
+   "justificativa": "Mesmo contraste intrassujeito antes/depois da E06 (ordem fixa, sem sorteio); a palavra 'RCT' faria o _cli.R classificar a linha como randomizada. Desenho igualado ao da E06 e estimando associacao. Comparador sem_pesquisa e alvo nao_se_aplica ficam. p igual em 2014 (folha 13)."
+  }
+ ],
+ "linhas_novas": []
+}

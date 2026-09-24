@@ -11,31 +11,44 @@ Decisões (Emenda 5, 00-protocolo/emendas.md):
 - Nulo por ±δ: efeito principal com IC95 inteiro dentro de ±δ recebe yi = 0 (o swim.R lê como nulo).
 - Sinal sem t/β/r: β recebe efeito_pp, p1 − p0 ou ln(OR), só para o sinal (coluna beta_proxy_sinal).
 """
-import csv, math, json
+import csv, math, json, sys
+# Uso alternativo (sensibilidade ICC 0,20, Emenda 4c):
+#   python3 06-analise/montar_entradas_swim.py 06-analise/sens_icc020_efeitos.csv _icc020
+ENTRADA = sys.argv[1] if len(sys.argv) > 1 else '06-analise/efeitos.csv'
+SUFIXO = sys.argv[2] if len(sys.argv) > 2 else ''
 DELTA = {'apoio_ao_lider': 0.044, 'mobilizacao': 0.046}
 FORA = {
- 'Lammers2022a-E01': 'd do modo de raciocínio sob exposição, não da exposição (notas de extração)',
- 'Lammers2022a-E03': 'idem',
+ # Lammers2022a-E01/E03 e Fichnova2015a-E01/E05 deixaram de ser principais (arbitragem de 23/09/2026):
+ # o contraste da exposição foi extraído em Lammers2022a-E06 a E09 e Fichnova2015a-E09/E10.
  'Gandhi2019-E01': 'interação tripla: diferença de efeito entre apoiadores (moderador não atribuído)',
  'Gandhi2019-E03': 'idem',
- 'Fichnova2015a-E01': 'R de Spearman entre rankings (7 candidatos), sem grupo de comparação',
- 'Fichnova2015a-E05': 'idem',
  'Klor2017a-E01': 'coeficiente de pertencer ao time maior sobre a decisão de votar (não é apoio ao líder nem contraste de exposição)',
  'Urminsky2019-E01': 'contraste de formato da mesma previsão (chance × margem), não exposição × não exposição',
  'Bursztyn2023a-E01': 'interação dia após a pesquisa × proximidade ex ante (moderador contínuo)',
  'Bursztyn2023a-E17': 'interação proximidade × apoio estimado ao lado atrás (moderador contínuo)',
- 'Alabrese2024a-E002': 'interação margem nacional × segurança local (exposição contínua, estimando outro)',
- 'Alabrese2024a-E129': 'interação da posição nacional com a posição local (moderador contínuo)',
+ 'Alabrese2024a-E002': 'interação margem nacional × segurança local (exposição contínua, estimando associação)',
+ # Alabrese2024a: o principal de apoio passou de probabilidade de vitória (E129) a participação nos votos
+ # (E125 a E128, Tabela A.7, cols. 1 a 4) na arbitragem de 23/09/2026; mesmo motivo de exclusão.
+ 'Alabrese2024a-E125': 'interação margem nacional × segurança local (moderador contínuo)',
+ 'Alabrese2024a-E126': 'idem',
+ 'Alabrese2024a-E127': 'idem',
+ 'Alabrese2024a-E128': 'idem',
  'Meffert2011-E01': 'voto insincero com alvos opostos agregados (sem posição única do alvo)',
- 'Geers2018-E01': 'β = −30,8 implausível para exposição contínua; conferência humana pendente',
+ 'Gasperoni2015a-E01': 'troca para o segundo preferido com alvos agregados (líder no Grupo 1, segundo viável no Grupo 2)',
+ 'Lago2015-E01': 'interação dias de proibição × ENEP (moderador contínuo não atribuído)',
+ 'Geers2018-E01': 'conferência humana pendente (o motivo anterior, β implausível, partia de leitura errada do DP; ver 08-revisao-humana/efeitos/pontos_para_o_revisor.md)',
+ 'Geers2018-E02': 'idem (E02 passou a principal na arbitragem; mesmo tratamento que E01)',
 }
+# Emenda 4b: pesquisa que mostra ganho, perda ou tom sem mostrar posição. Dahlgaard2016a desde a Emenda 4;
+# os demais classificados assim na arbitragem de 23/09/2026 (08-revisao-humana/efeitos/arbitragem/).
+MOMENTUM = {'Dahlgaard2016a', 'Meer2015a', 'Stolwijk2016a', 'Unkelbach2022a', 'Witsman2016a'}
 def cel(r):
     if r['construto_outcome'] == 'mobilizacao': return 'mobilizacao'
     a = r['alvo_efeito']
     if a in ('lider', 'azarao', 'opcao_referendo'): return 'principal'
     if a in ('segundo_viavel', 'terceiro_inviavel', 'partido_abaixo_clausula'): return 'viabilidade'
-    return 'momentum' if r['chave'] == 'Dahlgaard2016a' else 'outro'
-rows = list(csv.DictReader(open('06-analise/efeitos.csv', encoding='utf-8')))
+    return 'momentum' if r['chave'] in MOMENTUM and r['construto_outcome'] == 'apoio_ao_lider' else 'outro'
+rows = list(csv.DictReader(open(ENTRADA, encoding='utf-8')))
 campos = list(rows[0].keys()) + ['celula_alvo', 'beta_proxy_sinal', 'nulo_por_delta', 'fora_contagem']
 for r in rows:
     r['celula_alvo'] = cel(r); r['beta_proxy_sinal'] = ''; r['nulo_por_delta'] = ''; r['fora_contagem'] = FORA.get(r['id_efeito'], '')
@@ -52,7 +65,7 @@ for r in rows:
         if -d <= y - 1.96 * se and y + 1.96 * se <= d:
             r['nulo_por_delta'] = f'IC [{y-1.96*se:.4f}; {y+1.96*se:.4f}] dentro de ±{d}'; r['yi'] = '0'
 def gravar(nome, dados):
-    w = csv.DictWriter(open(f'06-analise/{nome}.csv', 'w', encoding='utf-8', newline=''), fieldnames=campos); w.writeheader(); w.writerows(dados)
+    w = csv.DictWriter(open(f'06-analise/{nome}{SUFIXO}.csv', 'w', encoding='utf-8', newline=''), fieldnames=campos); w.writeheader(); w.writerows(dados)
     return len(dados)
 P = [r for r in rows if r['modelo_principal'] == 'sim']
 ok = [r for r in P if not r['fora_contagem'] and r['celula_alvo'] != 'outro']
