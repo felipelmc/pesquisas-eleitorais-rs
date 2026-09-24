@@ -2,7 +2,7 @@
 
 Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à mão. Uma linha por mudança em relação ao que o `quarto pandoc -f bibtex -t csljson` produz dos .bib (que não são alterados).
 
-- Entradas: 91 (58 de 07-relatorio/references.bib, 10 de 09-documento-final/referencias_contexto.bib, 23 de 09-documento-final/referencias_metodo.bib).
+- Entradas: 94 (58 de 07-relatorio/references.bib, 13 de 09-documento-final/referencias_contexto.bib, 23 de 09-documento-final/referencias_metodo.bib).
 - Entradas completadas pelo Crossref: 35.
 - Avisos: 11.
 - Com DOI, mas de tipo que não usa periódico, volume, número ou páginas (report, thesis, book, article), por isso sem consulta ao Crossref: Agranov2012a, Alabrese2022a, Alabrese2024a, Araujo2021, Boukouras2020a, Bursztyn2017b, Chatterjee2019a, Erlich2023, Fairstein2018a, Freden2016b, Gerber2017b, Kaplan2019a, Urminsky2019, Yang2023d, Pustejovsky2026ClubSandwich, CampbellCollaboration2016PLS, Schaefer2025OQF.
@@ -31,6 +31,9 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | Sterne2025ROBINSIV2 | type | (ausente) | webpage | ferramenta publicada em página própria (riskofbias.info) |
 | EPOC2017RoB | type | (ausente) | report | documento de orientação em PDF do grupo EPOC |
 | Schaefer2025OQF | type | (ausente) | article | preprint (tipo CSL article) |
+| TSE2021Res23669 | type | (ausente) | document | tipo vazio na conversão e sem regra em TIPOS |
+| TSE2022Divulgacao17h | type | (ausente) | document | tipo vazio na conversão e sem regra em TIPOS |
+| TSE2018Totalizacao2Turno | type | (ausente) | document | tipo vazio na conversão e sem regra em TIPOS |
 | Geers2018 | author | {"dropping-particle": "de", "family": "Vreese", "given": "Claes H."} | {"family": "Vreese", "given": "Claes H.", "non-dropping-particle": "de"} | partícula de sobrenome passada a non-dropping-particle (citação "van der Meer", não "Meer") |
 | Meer2015a | author | {"dropping-particle": "van der", "family": "Meer", "given": "Tom"} | {"family": "Meer", "given": "Tom", "non-dropping-particle": "van der"} | partícula de sobrenome passada a non-dropping-particle (citação "van der Meer", não "Meer") |
 | Stolwijk2016a | author | {"dropping-particle": "de", "family": "Vreese", "given": "Claes H."} | {"family": "Vreese", "given": "Claes H.", "non-dropping-particle": "de"} | partícula de sobrenome passada a non-dropping-particle (citação "van der Meer", não "Meer") |
@@ -104,6 +107,9 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | BrasilCamara2022PL2567 | language | (ausente) | pt-BR | detecção: palavras funcionais (en 2, pt 14) |
 | BrasilSenado2022PL2558 | language | (ausente) | pt-BR | detecção: palavras funcionais (en 1, pt 17) |
 | SenadoNoticias2022CPIPesquisas | language | (ausente) | pt-BR | detecção: palavras funcionais (en 1, pt 12) |
+| TSE2021Res23669 | language | (ausente) | pt-BR | detecção: palavras funcionais (en 0, pt 6) |
+| TSE2022Divulgacao17h | language | (ausente) | pt-BR | detecção: palavras funcionais (en 2, pt 10) |
+| TSE2018Totalizacao2Turno | language | (ausente) | pt-BR | detecção: palavras funcionais (en 1, pt 6) |
 | Cosgun2026 | language | (ausente) | en | detecção: IDIOMA_FIXO |
 | Page2021PRISMA | language | (ausente) | en | detecção: palavras funcionais (en 7, pt 0) |
 | Page2021PRISMAEE | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |

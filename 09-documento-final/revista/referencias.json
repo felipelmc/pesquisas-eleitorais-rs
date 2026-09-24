@@ -2054,6 +2054,94 @@
   "language": "pt-BR"
  },
  {
+  "URL": "https://www.tse.jus.br/comunicacao/noticias/2021/Dezembro/horario-de-inicio-de-votacao-em-todo-o-pais-sera-uniformizado-pelo-horario-de-brasilia-decide-tse",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Tribunal Superior Eleitoral"
+   }
+  ],
+  "id": "TSE2021Res23669",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "publisher": "Notícias TSE, 14/12/2021",
+  "title": "Horário de início de votação em todo o país será uniformizado pelo horário de Brasília, decide TSE",
+  "type": "document",
+  "language": "pt-BR"
+ },
+ {
+  "URL": "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/eleicoes-2022-divulgacao-dos-votos-do-2o-turno-comecara-as-17h-do-horario-de-brasilia",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Tribunal Superior Eleitoral"
+   }
+  ],
+  "id": "TSE2022Divulgacao17h",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "publisher": "Notícias TSE, 30/10/2022",
+  "title": "Eleições 2022: divulgação dos votos do 2º turno começará às 17h do horário de Brasília",
+  "title-short": "Eleições 2022",
+  "type": "document",
+  "language": "pt-BR"
+ },
+ {
+  "URL": "https://www.tse.jus.br/comunicacao/noticias/2018/Outubro/tse-explica-a-partidos-como-sera-totalizacao-dos-votos-e-divulgacao-dos-resultados-no-2o-turno",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Tribunal Superior Eleitoral"
+   }
+  ],
+  "id": "TSE2018Totalizacao2Turno",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "publisher": "Notícias TSE, 26/10/2018",
+  "title": "TSE explica a partidos como será totalização dos votos e divulgação dos resultados no 2º turno",
+  "type": "document",
+  "language": "pt-BR"
+ },
+ {
   "DOI": "10.54688/ayd.1760361",
   "author": [
    {

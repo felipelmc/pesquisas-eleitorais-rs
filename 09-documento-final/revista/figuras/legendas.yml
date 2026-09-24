@@ -31,8 +31,10 @@ modelo_logico:
   legenda: >-
     Modelo lógico da exposição a pesquisas eleitorais publicadas, redesenhado do grafo acíclico dirigido do
     protocolo. A percepção de viabilidade (E1) só chega ao apoio pelo cálculo estratégico (E2); heurística de
-    consenso, conformidade, simpatia pelo azarão e emoções (E3 a E6) saem direto da exposição. Complacência,
-    desmobilização e divulgação enviesada (E7 e E8) são efeitos indesejados e aparecem em tracejado. Apoio
+    consenso, conformidade, simpatia pelo azarão e emoções (E3 a E6) saem direto da exposição, embora, na teoria,
+    heurística de consenso e conformidade dependam da percepção de popularidade. Complacência e divulgação
+    enviesada (E7 e E8) são efeitos não intencionais e aparecem em tracejado; no comparecimento, o modelo não inclui
+    a pivotalidade, o efeito Titanic nem a mobilização de quem está atrás. Apoio
     latente, interesse político e preferência prévia são confundidores (em cinza), e a resposta ao *survey* é um
     colisor: condicionar a análise a ela abre um caminho espúrio entre exposição e apoio. A recorrência entre
     pesquisas e voto aparece desdobrada no tempo (pesquisa anterior e pesquisa seguinte). Os moderadores da
@@ -48,9 +50,12 @@ prisma:
   legenda: >-
     Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação: bases de dados e busca por citações. A
     remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA; a triagem
-    de títulos e resumos e a avaliação dos textos completos foram feitas por agentes de IA. Os motivos de
-    exclusão seguem os critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível
-    contam como não recuperados. O fluxo é rascunho: há {numeros_v2:pendencias_abertas.formatado} pendências
+    de títulos e resumos foi feita por agentes de IA, e a avaliação dos textos completos também, exceto os casos
+    limítrofes decididos pelo autor (Métodos, seleção dos estudos). O fluxo inclui, sem ramo próprio, a triagem
+    complementar dos registros sem resumo (Emenda 6b): os relatos dela que não foram recuperados estão entre os
+    não recuperados. As caixas com n = 0 não se aplicam a esta revisão. Os motivos de exclusão seguem os
+    critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível contam como não
+    recuperados. O fluxo é rascunho: há {numeros_v2:pendencias_abertas.formatado} pendências
     humanas abertas, entre elas a revisão dos pares candidatos a duplicata (P019), a validação da triagem
     (P006, P007 e P020) e a conferência das decisões de elegibilidade (P041), listadas no
     [Apêndice A](#sec-pendencias).
@@ -117,7 +122,9 @@ metas:
     confiável. A faixa sombreada é ±δ ({meta:delta} em **a**; {meta_mesmo:delta} em **b**). O intervalo de
     predição fica fora do gráfico ({meta:pi.0} a {meta:pi.1} em **a**; {meta_mesmo:pi.0} a {meta_mesmo:pi.1}
     em **b**) e não é interpretado, porque há menos de 5 estudos; o mesmo vale para τ² ({meta:tau2} e
-    {meta_mesmo:tau2}). Os painéis têm escalas diferentes.
+    {meta_mesmo:tau2}). Em cada painel, os estudos estão em ordem alfabética, e não por precisão. Todos os efeitos
+    do painel **a** estão em algumas preocupações de risco de viés, e todos os do painel **b**, em risco alto. Os
+    painéis têm escalas diferentes.
   alt: >-
     Dois gráficos de floresta com o efeito de cada estudo e um losango para a estimativa combinada, sobre uma
     faixa estreita em torno de zero; nos dois painéis o intervalo combinado cruza o zero.
@@ -128,7 +135,9 @@ realismo:
     Direção do efeito por realismo do contexto (eleição hipotética, preferências induzidas em laboratório ou
     eleição real), separada por classe de desenho, no apoio a quem aparece à frente (célula principal) e no
     comparecimento. Cada bloco é um estudo numa célula da síntese principal; o bloco claro e tracejado é um
-    estudo em risco crítico, fora do teste de sinal. Comparação descritiva, sem teste.
+    estudo em risco crítico, fora do teste de sinal. No apoio, o único experimento em contexto real
+    (@Farjam2020a) é uma votação experimental com organizações reais, sem eleição em curso, e os estudos reais
+    não randomizados tratam de informação do dia da votação. Comparação descritiva, sem teste.
   alt: >-
     Barras horizontais feitas de blocos, um por estudo, coloridos pela direção do efeito, para cada nível de
     realismo do contexto, em painéis por desfecho e classe de desenho.

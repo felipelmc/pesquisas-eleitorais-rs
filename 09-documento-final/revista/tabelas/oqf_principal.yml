@@ -12,15 +12,14 @@
 # suplemento em texto.
 legenda: >-
   Caixa de ferramentas no formato OQF para a pergunta principal: pesquisa pré-eleitoral e apoio a quem aparece à
-  frente. Rótulos pela regra `caixa-3`; a certeza GRADE qualifica a direção e é rascunho de IA não validado.
+  frente. Rótulos pela regra `caixa-3`; a "Força" traduz a certeza em palavras (insuficiente para muito baixa),
+  e a certeza GRADE qualifica a direção e é rascunho de IA não validado.
 larguras: [12, 50, 24, 14]
 linhas:
   - dimensao: Escala
     resultado: >-
-      Não estimada. Não há meta-análise principal. As duas metas exploratórias deram g = {num:meta.g}
-      (IC 95% {num:meta.ic.0} a {num:meta.ic.1}; {num:meta.k_estudos} estudos) e g = {num:meta_mesmo_candidato.g}
-      (IC 95% {num:meta_mesmo_candidato.ic.0} a {num:meta_mesmo_candidato.ic.1};
-      {num:meta_mesmo_candidato.k_estudos} estudos), ambas com menos de 4 graus de liberdade
+      Não estimada. Não há meta-análise principal, e as duas metas exploratórias, com {num:meta.k_estudos} estudos
+      cada e menos de 4 graus de liberdade, não informam o tamanho
     evidencia: "@sec-apoio; @fig-metas; suplemento, S6"
     certeza: "muito baixa (a das células)"
   - dimensao: Força
@@ -31,16 +30,17 @@ linhas:
     certeza: "{calc:certezas} em todas as células"
   - dimensao: Mecanismo
     resultado: >-
-      Descritivo. Voto estratégico e viabilidade é o canal com mais estudos e com testes diretos em laboratório; a
-      heurística de consenso tem uma manipulação, em vinheta (@Lammers2022a); nenhum estudo isolou a conformidade
+      Descritivo. Voto estratégico e viabilidade é o canal com mais estudos e com testes diretos em laboratório, dois
+      deles contados nas células de apoio principal; a heurística de consenso tem uma manipulação, em vinheta
+      (@Lammers2022a); nenhum estudo isolou a conformidade
     evidencia: "@sec-mecanismo; @tbl-hipoteses"
     certeza: "sem GRADE (descritivo)"
   - dimensao: Moderador
     resultado: >-
-      Descritivo. Na célula principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e só um
-      experimento de pesquisa usou eleição real (@Farjam2020a); o partidarismo não atenuou o efeito no único teste
-      pré-especificado dentro da síntese principal (@Cornejo2023a); nenhum moderador teve estudos suficientes para
-      teste
+      Descritivo. No alvo principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e o único
+      experimento em contexto real é uma votação experimental com organizações reais, sem eleição (@Farjam2020a); o
+      partidarismo não atenuou o efeito no único teste pré-especificado dentro da síntese principal (@Cornejo2023a);
+      nenhum moderador teve estudos suficientes para teste
     evidencia: "@sec-moderadores; @fig-realismo"
     certeza: "sem GRADE (descritivo)"
   - dimensao: Implementação

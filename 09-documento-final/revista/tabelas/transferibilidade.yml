@@ -12,7 +12,8 @@
 # fator, o texto diz isso e usa só o que o fichamento de um estudo incluído registra com trecho literal.
 legenda: >-
   Fatores de transferibilidade previstos no protocolo e a evidência incluída. As contagens vêm da codificação dos
-  estudos no fichamento por IA, não conferida por humano.
+  estudos no fichamento por IA, não conferida por humano. O juízo de preocupação por fator não foi feito e fica
+  com o autor.
 larguras: [14, 32, 24, 30]
 linhas:
   - fator: Voto obrigatório
@@ -23,7 +24,7 @@ linhas:
       {nv2:transf_voto_obrigatorio_sim} de {num:estudos} estudos têm voto obrigatório codificado
       {nv2cit:transf_voto_obrigatorio_sim}, dois deles por regra do jogo de laboratório; {nv2:transf_voto_obrigatorio_informado}
       informam o dado. Nenhum dos {nv2:transf_comparecimento_sintese} estudos de comparecimento da síntese principal
-      foi feito sob voto obrigatório
+      tem voto obrigatório codificado (2 sem voto obrigatório e 9 sem a informação)
     dizer: >-
       A hipótese de que o voto obrigatório elimina o canal da desmobilização não pode ser examinada com estes
       estudos. O estudo brasileiro não teve o comparecimento como desfecho extraído.
@@ -43,16 +44,21 @@ linhas:
     dizer: >-
       O estudo brasileiro achou a mesma direção nos dois turnos. Os experimentos de viabilidade vêm de sistemas de
       pluralidade [@Cornejo2023a; @Schlegel2023] ou proporcionais [@Freden2024a], e nenhum trata do primeiro turno
-      de uma eleição em dois turnos.
+      de uma eleição em dois turnos, onde opera o voto útil a que @PereiraNunes2024 atribuem parte da distância
+      entre pesquisas e urnas em 2022.
     fonte: >-
       brasil: contexto_brasil.md, seções 3 e 4 (primeiro turno de 2022; Pereira e Nunes 2024); Araujo2021a nos dois
       turnos de 2018: efeitos E01 e E06 (mecanismos_moderadores.md, 2.6). estudos: numeros_v2.json. dizer: v1 do
-      documento final ("Dois turnos") e fichamento (sistema_eleitoral de Cornejo2023a, Schlegel2023 e Freden2024a)
+      documento final ("Dois turnos"), fichamento (sistema_eleitoral de Cornejo2023a, Schlegel2023 e Freden2024a) e
+      contexto_brasil.md, seção 4 (voto estratégico em Pereira e Nunes 2024)
   - fator: Regulação da divulgação
     brasil: >-
       Registro prévio obrigatório de cada pesquisa na Justiça Eleitoral, até cinco dias antes da divulgação
       [@Brasil1997Lei9504; @TSE2019Res23600]. Não há período de embargo desde 2006, quando o STF derrubou a
-      proibição de divulgar pesquisas nos quinze dias anteriores ao pleito [@STF2006ADI3741]. Projetos de lei de
+      proibição de divulgar pesquisas nos quinze dias anteriores ao pleito [@STF2006ADI3741]. No dia da eleição,
+      levantamentos feitos naquele dia só podem ser divulgados a partir das 17h de Brasília [@TSE2019Res23600], e,
+      desde 2022, a votação termina e a apuração começa a ser divulgada às 17h de Brasília em todo o país
+      [@TSE2021Res23669]. Projetos de lei de
       2022 propõem punir pesquisas que divirjam do resultado além da margem de erro; nenhum dos dois tinha sido
       votado em plenário na consulta de 24/09/2026 [@BrasilCamara2022PL2567; @BrasilSenado2022PL2558].
     estudos: >-
@@ -60,12 +66,15 @@ linhas:
       {nv2cit:transf_regulacao_proibicao} e embargo de pesquisas {nv2cit:transf_regulacao_embargo};
       {nv2:transf_regulacao_na_sintese} deles estão na síntese principal
     dizer: >-
-      Nenhum estudo avalia a regulação brasileira. As proibições de boca de urna na França e na Índia foram em
-      direções opostas no apoio ao líder (certeza muito baixa), e o corte transversal de 46 países ficou fora da
-      contagem [@Lago2015].
+      Nenhum estudo avalia a regulação brasileira. As proibições de divulgar pesquisa de boca de urna antes do
+      fechamento, na França e na Índia, correspondem a uma restrição que o Brasil já tem e foram em direções opostas
+      no apoio ao líder (certeza muito baixa); o corte transversal de 46 países ficou fora da contagem [@Lago2015].
+      @Araujo2021a trata da divulgação da apuração com eleitores ainda na fila, em 2018, antes da unificação de
+      horário.
     fonte: >-
-      brasil: contexto_brasil.md, seções 1, 2 e 3; estudos: numeros_v2.json (transf_regulacao*); dizer: v1 do
-      documento final ("Regulação da divulgação") e celulas.json (C05)
+      brasil: contexto_brasil.md, seções 1, 2, 3 e 7 (7.1, 7.3 e 7.4); estudos: numeros_v2.json (transf_regulacao*);
+      dizer: v1 do documento final ("Regulação da divulgação"), celulas.json (C05), contexto_brasil.md, seção 7.3, e
+      fichamento de Araujo2021a (intervencao_descricao)
   - fator: Confiança nas pesquisas
     brasil: >-
       O levantamento de contexto não traz medida da confiança do público nas pesquisas. Depois do primeiro turno de

@@ -31,6 +31,7 @@ Render (só este arquivo):  cd 09-documento-final && TYPST_IGNORE_SYSTEM_FONTS=t
                            quarto render suplemento.qmd --to typst
 """
 import importlib.util
+import json
 import re
 import sys
 from pathlib import Path
@@ -325,15 +326,44 @@ def s8_sensibilidades():
     return envolver("landscape", sens + "\n\n" + sof_amplo)
 
 
+FAMILIA_PAINEL = {"Agregador ou projeção": "agregador_projecao", "Boca de urna": "boca_de_urna",
+                  "Apuração parcial oficial": "outro", "Pesquisa pré-eleitoral": "pesquisa_pre_eleitoral"}
+CONSTRUTO_PAINEL = {"Apoio": "apoio_ao_lider", "Comparecimento": "mobilizacao"}
+ORDEM_CERTEZA = ["muito_baixa", "baixa", "moderada", "alta"]
+
+
+def painel_por_celulas(linhas):
+    """Refaz as colunas Certeza (maior entre as células) e Estudos (união) do painel a partir de revista/celulas.json;
+    mantém Rótulo e Força como a ferramenta da caixa gerou."""
+    cel = json.load(open(D / "revista/celulas.json", encoding="utf-8"))["celulas"]
+    cab = celulas(linhas[0])
+    i_int, i_res, i_cer, i_est = (cab.index(c) for c in ("Intervenção", "Resultado", "Certeza", "Estudos"))
+    saida = linhas[:2]
+    for l in linhas[2:]:
+        cols = celulas(l)
+        fam, con = FAMILIA_PAINEL[cols[i_int]], CONSTRUTO_PAINEL[cols[i_res]]
+        grupo = [c for c in cel if c["familia_intervencao"] == fam and c["construto_outcome"] == con]
+        if not grupo:
+            raise SystemExit(f"ERRO: painel sem células para {cols[i_int]} × {cols[i_res]}")
+        cols[i_cer] = max((c["certeza"] for c in grupo), key=ORDEM_CERTEZA.index).replace("_", " ")
+        cols[i_est] = str(len({e for c in grupo for e in c["estudos"]}))
+        saida.append("| " + " | ".join(cols) + " |")
+    return saida
+
+
 def s9_caixa():
     cel = bloco(tabela_sem_legenda(INS / "caixa_oqf_celulas.md"),
                 "Caixa de ferramentas célula a célula. Direção: estudos a favor (*bandwagon*, viabilidade, *momentum* a "
                 "favor ou mobilização), contra e nulos. Rótulo pela regra `caixa-3`, calculado no nível formato de "
                 "exposição × desfecho × desenho e repetido em cada célula; certeza GRADE sobre a direção, rascunho de "
                 "IA não validado.", "tbl-s9-celulas", [12, 14, 11, 9, 20, 12, 7, 8, 7])
-    painel = bloco(tabela_sem_legenda(INS / "caixa_oqf_painel.md"),
-                   "Painel OQF por formato de exposição e desfecho: rótulo e força pela regra `caixa-3`, certeza GRADE "
-                   "e número de estudos.", "tbl-s9-painel")
+    painel = bloco(painel_por_celulas(tabela_sem_legenda(INS / "caixa_oqf_painel.md")),
+                   "Painel OQF por formato de exposição e desfecho: rótulo e força pela regra `caixa-3`, como saíram da "
+                   "ferramenta da caixa; certeza GRADE (a maior entre as células do painel) e número de estudos (união "
+                   "das células) refeitos a partir das 18 células, porque a ferramenta leu uma só célula por formato × "
+                   "desfecho × desenho. Com todas as células, o rótulo segue Inconclusivo em todas as linhas; a força "
+                   "da linha de pesquisa pré-eleitoral × comparecimento foi calculada pela ferramenta com certeza "
+                   "baixa e depende da revisão da caixa (P042).", "tbl-s9-painel")
     return envolver("landscape", cel) + "\n\n" + painel
 
 

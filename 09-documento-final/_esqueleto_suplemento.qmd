@@ -1,6 +1,6 @@
 ---
 title: "Material suplementar"
-subtitle: "Pesquisas eleitorais publicadas mudam o voto? Revisão sistemática rápida sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
+subtitle: "Pesquisas eleitorais publicadas mudam o voto? Rascunho de revisão sistemática rápida, conduzida por agentes de IA e não validada, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
 date: 2026-09-24
 metadata-files: [revista/_revista.yml]
 bibliography: revista/referencias.json
@@ -28,11 +28,13 @@ Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, dat
 
 Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Garritty2024Rapid para revisões rápidas de efetividade, e a consequência provável para os resultados. O cruzamento é julgamento de IA, não conferido por humano.
 
+Três leituras das tabelas abaixo são generosas. Na recomendação 5, "no limite" quer dizer que a literatura internacional em periódicos dependeu de uma só base. Na recomendação 22, a certeza foi julgada em 18 células e no agrupamento amplo, com o alvo fixado depois de ver os dados, o que corresponde só em parte a limitá-la à comparação principal. E o prazo de seis meses ainda não se aplica, porque a revisão não terminou. Falta também o item sem número "It is advisable that rapid reviews are led only by experienced systematic reviewers", que esta revisão, conduzida por agentes de IA, não atende. Os casos limítrofes decididos pelo autor são 16 registros distintos (17 linhas no *log*, uma delas de teste).
+
 @@TABELA s2_atalhos@@
 
 # S3 Emendas e desvios do protocolo {#s3-emendas .unnumbered}
 
-Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da revisão no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados.
+Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da revisão no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados. Três ressalvas à tabela: a Emenda 2 foi decidida pelo coordenador de IA, e não pelo autor; a Emenda 3, além de copiar os *codebooks*, registrou uma decisão de método do autor, a troca do árbitro do risco de viés por custo, antes de qualquer avaliação; e a Emenda 4 veio depois da extração, com os efeitos já vistos.
 
 @@TABELA s3_emendas@@
 
@@ -62,7 +64,7 @@ Efeitos principais que não estimam o contraste da exposição e, por isso, fica
 
 # S8 Agrupamento amplo e análises de sensibilidade {#s8-sensibilidades .unnumbered}
 
-O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal.
+O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal. Os valores de p vêm de teste de sinal em agrupamentos *post hoc*: indicam só que a proporção numa direção difere de metade, não informam a magnitude nem distinguem estudos grandes de pequenos, e não definem rótulo.
 
 @@TABELA s8_sensibilidades@@
 

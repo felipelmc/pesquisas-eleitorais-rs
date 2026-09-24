@@ -68,7 +68,7 @@
   #body
 ]
 
-#let largura-total(body) = pad(x: -15mm, body)
+#let largura-total(body) = pad(x: -14mm, body)
 #let grade(s) = box(text(font: "STIX Two Math", size: 1.02em, fill: acento, tracking: 0.02em, s))
 
 // ---------------------------------------------------------------- artigo

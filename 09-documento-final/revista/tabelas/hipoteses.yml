@@ -33,7 +33,9 @@ linhas:
     so_interpretacao: [Feltovich2022, Meffert2012a]
     evidencia: >-
       A pesquisa move expectativas. O único teste formal, uma mediação em experimento de campo (@Gerber2020a),
-      não acha efeito da expectativa sobre o comparecimento; os demais estudos inferem o canal por contraste
+      trata da crença sobre a proximidade da disputa e não acha efeito dela sobre o comparecimento; a expectativa de
+      quem vence, que importa para o apoio ao líder, não foi testada por mediação, e os demais estudos inferem o canal
+      por contraste
     celulas: [C13]
     certeza_nota: "só para o efeito nulo de @Gerber2020a no comparecimento; o elo em si, sem GRADE"
     sem_teste_formal: false
@@ -57,11 +59,12 @@ linhas:
       - {chave: Lago2015}
     so_interpretacao: [Grillo2024c, Groer2010a, Kaplan2019a, Gasperoni2015a, Meffert2012a]
     evidencia: >-
-      É o canal com mais estudos e com os testes mais diretos (laboratório com incentivos). A direção de
-      viabilidade aparece no laboratório e no México (@Cornejo2023a); na Suécia, o voto de seguro vai contra a
-      deserção do partido pequeno (@Freden2024a)
+      É o canal com mais estudos e com os testes mais diretos (laboratório com incentivos), mas dois desses testes
+      (@Tyszler2015; @Tal2015a) estão nas células de apoio principal, contados como *bandwagon*, e não nas de
+      viabilidade, a que a certeza desta linha se refere. A direção de viabilidade aparece no México
+      (@Cornejo2023a); na Suécia, o voto de seguro vai contra a deserção do partido pequeno (@Freden2024a)
     celulas: [C07, C08]
-    certeza_nota: "nas duas células de viabilidade"
+    certeza_nota: "nas duas células de viabilidade, sem os testes de laboratório"
     sem_teste_formal: false
     fonte: >-
       hipótese: teoria_programa.md, seção 2, linha E2; evidência: mecanismos_moderadores.md, 2.10 (linha E2) e 2.6
@@ -144,9 +147,11 @@ linhas:
       - {chave: Alabrese2024a}
     so_interpretacao: [Morton2015a, Grillo2024c, Groer2010a, Kaplan2019a, Brugarolas2021]
     evidencia: >-
-      Previsões que fazem a eleição parecer decidida (boca de urna, projeção probabilística) vão na direção de
-      desmobilização; a disputa apertada, na de mobilização; a crença de proximidade isolada não muda o
-      comparecimento. São estudos isolados em cada célula
+      No desenho mais forte, um experimento de campo, a pesquisa apertada, frente à folgada, provavelmente não muda
+      o comparecimento além de ±2 p.p., e a crença de proximidade isolada não mostrou efeito sobre ele no único teste
+      (@Gerber2020a). Previsões que fazem a eleição parecer decidida (boca de urna, projeção probabilística) vão na
+      direção de desmobilização, em estudos isolados em cada célula. O modelo não inclui a pivotalidade, o efeito
+      Titanic nem a mobilização de quem está atrás, que preveem sinais opostos
     celulas: [C12, C13, C14, C15, C16, C17, C18]
     certeza_nota: "conforme a célula de comparecimento"
     sem_teste_formal: false
@@ -174,7 +179,7 @@ linhas:
       (linha 10 = C03)
 
   - id: R1
-    hipotese: "Teoria rival 1, efeitos que se anulam: *bandwagon* e *underdog* coexistem, e um efeito médio perto de zero esconde efeitos individuais opostos"
+    hipotese: "Teoria rival 1, efeitos que se anulam: *bandwagon* e *underdog* coexistem, e um efeito na média perto de zero esconde efeitos individuais opostos"
     estudos:
       - {chave: Cornejo2023a}
       - {chave: Lammers2022a}
@@ -194,8 +199,9 @@ linhas:
       - {chave: Gerber2020a, suf: mediação}
     so_interpretacao: []
     evidencia: >-
-      É o padrão de @Gerber2020a: a pesquisa de disputa apertada move a crença sobre a proximidade, mas não o
-      comparecimento. Nenhum estudo testa formalmente a mediação da expectativa para o apoio ao líder
+      É o padrão de @Gerber2020a: a pesquisa de disputa apertada move a crença sobre a proximidade, mas
+      provavelmente não o comparecimento além de ±2 p.p. Vale só para o comparecimento; nenhum estudo testa a
+      mediação da expectativa de quem vence para o apoio ao líder
     celulas: [C13]
     certeza_nota: "só para o comparecimento; para o apoio, sem GRADE"
     sem_teste_formal: false
@@ -208,10 +214,12 @@ linhas:
     estudos: []
     so_interpretacao: []
     evidencia: >-
-      No apoio a quem aparece à frente, os 9 estudos hipotéticos ou induzidos vão todos na direção *bandwagon*, e
-      um dos 4 em eleição real vai na direção oposta. No comparecimento, a direção majoritária muda com o
-      realismo. É comparação entre estudos, e o realismo é o principal motivo de rebaixamento por indireção nas
-      células de apoio
+      No alvo principal de apoio, os 8 experimentos hipotéticos ou induzidos e o estudo de laboratório não
+      randomizado vão na direção *bandwagon*, mas nenhum estudo mede pesquisa pré-eleitoral numa eleição real: o
+      único experimento em contexto real é uma votação experimental (@Farjam2020a), e os 3 não randomizados em
+      eleição real tratam de informação do dia da votação. No comparecimento, a direção muda com o realismo, que se
+      confunde com o formato (os estudos reais de desmobilização são de boca de urna). É comparação descritiva, e a
+      contagem por direção não testa a previsão de magnitude
     celulas: []
     sem_teste_formal: true
     fonte: >-

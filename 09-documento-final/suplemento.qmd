@@ -1,6 +1,6 @@
 ---
 title: "Material suplementar"
-subtitle: "Pesquisas eleitorais publicadas mudam o voto? Revisão sistemática rápida sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
+subtitle: "Pesquisas eleitorais publicadas mudam o voto? Rascunho de revisão sistemática rápida, conduzida por agentes de IA e não validada, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
 date: 2026-09-24
 metadata-files: [revista/_revista.yml]
 bibliography: revista/referencias.json
@@ -67,6 +67,8 @@ Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, dat
 
 Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Garritty2024Rapid para revisões rápidas de efetividade, e a consequência provável para os resultados. O cruzamento é julgamento de IA, não conferido por humano.
 
+Três leituras das tabelas abaixo são generosas. Na recomendação 5, "no limite" quer dizer que a literatura internacional em periódicos dependeu de uma só base. Na recomendação 22, a certeza foi julgada em 18 células e no agrupamento amplo, com o alvo fixado depois de ver os dados, o que corresponde só em parte a limitá-la à comparação principal. E o prazo de seis meses ainda não se aplica, porque a revisão não terminou. Falta também o item sem número "It is advisable that rapid reviews are led only by experienced systematic reviewers", que esta revisão, conduzida por agentes de IA, não atende. Os casos limítrofes decididos pelo autor são 16 registros distintos (17 linhas no *log*, uma delas de teste).
+
 ::: {.tabela-larga}
 
 | Atalho | Recomendação de Garritty et al. | Dentro ou fora | Por quê |
@@ -75,7 +77,7 @@ Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Gar
 | A1 | 7 (literatura cinzenta e busca suplementar, com justificativa) | Dentro | A recomendação sugere limitar a literatura cinzenta e a busca suplementar e cita a revisão das listas de referências dos incluídos. A revisão não buscou literatura cinzenta em sites e fez três rodadas de citação para trás e para frente (SN1 a SN3), o que vai além das listas de referências. As fontes estão justificadas. |
 | A2 | Triagem de títulos e resumos: 8 (piloto) | Fora | O protocolo não prevê piloto de triagem com revisores. Os exemplos do prompt saíram das âncoras de desenvolvimento. |
 | A2 | Triagem de títulos e resumos: 9 (dupla em parte dos registros, concordância, depois simples) | Fora quanto ao revisor humano; a forma foi excedida | Houve dupla independente em 100% dos registros (A = `claude-sonnet-5`, B = `claude-opus-5`), com regra liberal. A concordância A × B na primeira onda foi 0,97, com κ 0,90. Mas os dois revisores são agentes, e o recall não foi calculado, porque as amostras de validação e de elusão não foram codificadas. |
-| A2 | Elegibilidade no texto completo: 9 ("the same approach for full text screening") | Fora | Um subagente por PDF, com gate de citação, e um subagente novo quando a ficha era reprovada. Os incertos residuais foram ao humano: 17 casos. Ficaram 165 decisões propostas sem conferência humana. Não houve dupla em parte dos textos nem medida de concordância. |
+| A2 | Elegibilidade no texto completo: 9 ("the same approach for full text screening") | Fora | Um subagente por PDF, com gate de citação, e um subagente novo quando a ficha era reprovada. Os incertos residuais foram ao humano: 16 casos. Ficaram 165 decisões propostas sem conferência humana. Não houve dupla em parte dos textos nem medida de concordância. |
 | A2 | Extração: 11 (piloto) | Dentro na forma; sem humano | Piloto com 2 a 3 estudos de desenhos diferentes e fichas conferidas por um segundo subagente. A conferência humana do piloto está pendente. |
 | A2 | Extração: 12 (uma pessoa extrai, outra verifica os dados críticos no texto completo) | Fora | Os efeitos foram extraídos por subagente, com trecho e página, e conferidos pelo `verificar-efeitos`. Houve recodificação cega das categóricas em 10 estudos, com concordância de 58,5%, e reextração cega dos efeitos principais dos 40 estudos, com arbitragem por IA e 772 correções. Nenhum dos 560 efeitos foi conferido por humano na página do PDF. |
 | A2 | Risco de viés: 14 (ferramentas validadas e específicas por desenho) | Dentro, com ressalva | RoB 2, ROBINS-I V2 e EPOC por desenho. O artigo cita RoB 1, RoB 2 e ROBINS-I, não o EPOC. Para exposição não atribuída, usou-se ROBINS-I V2 no lugar do ROBINS-E. |
@@ -124,7 +126,7 @@ Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Gar
 
 # S3 Emendas e desvios do protocolo {#s3-emendas .unnumbered}
 
-Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da revisão no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados.
+Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da revisão no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados. Três ressalvas à tabela: a Emenda 2 foi decidida pelo coordenador de IA, e não pelo autor; a Emenda 3, além de copiar os *codebooks*, registrou uma decisão de método do autor, a troca do árbitro do risco de viés por custo, antes de qualquer avaliação; e a Emenda 4 veio depois da extração, com os efeitos já vistos.
 
 | Emenda | Data | Objeto | Tipo | Etapa no momento | Antes ou depois de ver os dados | Reexecução exigida |
 |---|---|---|---|---|---|---|
@@ -377,7 +379,7 @@ Efeitos principais que não estimam o contraste da exposição e, por isso, fica
 
 # S8 Agrupamento amplo e análises de sensibilidade {#s8-sensibilidades .unnumbered}
 
-O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal.
+O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal. Os valores de p vêm de teste de sinal em agrupamentos *post hoc*: indicam só que a proporção numa direção difere de metade, não informam a magnitude nem distinguem estudos grandes de pequenos, e não definem rótulo.
 
 | Análise | Desfecho (célula) | Classe | Estudos | Direções | Proporção (IC 95%) | p (sinal) | Certeza |
 |---|---|---|---|---|---|---|---|
@@ -471,12 +473,12 @@ A caixa de ferramentas no formato OQF, célula a célula e no painel por formato
 |---|---|---|---|---|---|
 | Agregador ou projeção | Comparecimento | Inconclusivo | fraca | baixa | 1 |
 | Boca de urna | Apoio | Inconclusivo | insuficiente | muito baixa | 2 |
-| Boca de urna | Comparecimento | Inconclusivo | insuficiente | muito baixa | 1 |
+| Boca de urna | Comparecimento | Inconclusivo | insuficiente | muito baixa | 3 |
 | Apuração parcial oficial | Apoio | Inconclusivo | insuficiente | muito baixa | 1 |
-| Pesquisa pré-eleitoral | Apoio | Inconclusivo | insuficiente | muito baixa | 2 |
-| Pesquisa pré-eleitoral | Comparecimento | Inconclusivo | fraca | baixa | 5 |
+| Pesquisa pré-eleitoral | Apoio | Inconclusivo | insuficiente | muito baixa | 16 |
+| Pesquisa pré-eleitoral | Comparecimento | Inconclusivo | fraca | moderada | 7 |
 
-: Painel OQF por formato de exposição e desfecho: rótulo e força pela regra `caixa-3`, certeza GRADE e número de estudos. {#tbl-s9-painel}
+: Painel OQF por formato de exposição e desfecho: rótulo e força pela regra `caixa-3`, como saíram da ferramenta da caixa; certeza GRADE (a maior entre as células do painel) e número de estudos (união das células) refeitos a partir das 18 células, porque a ferramenta leu uma só célula por formato × desfecho × desenho. Com todas as células, o rótulo segue Inconclusivo em todas as linhas; a força da linha de pesquisa pré-eleitoral × comparecimento foi calculada pela ferramenta com certeza baixa e depende da revisão da caixa (P042). {#tbl-s9-painel}
 
 # S10 Estudos da região e efeitos de viabilidade e *momentum* {#s10-regional .unnumbered}
 
