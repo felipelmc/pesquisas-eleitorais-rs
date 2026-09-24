@@ -1054,6 +1054,16 @@
       "n": 165,
       "arquivo": "03-textos/elegibilidade_tc_final.csv",
       "status": "aberta"
+    },
+    {
+      "id": "P042",
+      "tipo": "certeza_caixa",
+      "etapa": "10_sintese",
+      "portao": "G8",
+      "descricao": "completar certeza (GRADE/CERQual) e enunciados das células pendentes",
+      "n": 22,
+      "arquivo": "06-analise/caixa_ferramentas.csv",
+      "status": "aberta"
     }
   ],
   "contagens_cache": {
@@ -1066,5 +1076,5 @@
       }
     }
   },
-  "ultimo_seq": 828
+  "ultimo_seq": 831
 }

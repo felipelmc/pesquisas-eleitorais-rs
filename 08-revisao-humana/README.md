@@ -1,6 +1,6 @@
 # Revisão humana: o que falta e como fazer
 
-A revisão tem **17 pendências abertas** (`rs --dir . pendencia listar`). Todas exigem decisão humana. A IA não fecha nenhuma: o skill registra fechamento só com ator humano, e as regras do projeto não permitem atribuir papel humano a decisões de IA.
+A revisão tem **18 pendências abertas** (`rs --dir . pendencia listar`). Todas exigem decisão humana. A IA não fecha nenhuma: o skill registra fechamento só com ator humano, e as regras do projeto não permitem atribuir papel humano a decisões de IA.
 
 Esta pasta prepara cada uma para decisão rápida. As sugestões de IA ficam sempre em colunas ou arquivos separados, e as colunas humanas vêm vazias. **Nenhuma sugestão de IA conta como validação.**
 
@@ -30,7 +30,7 @@ A ordem segue as etapas, porque decisões de busca e de triagem podem mudar o co
 | 12 | P039 | extração | conferir os 560 efeitos na página do PDF (antes P032). Comece pelos principais e pelos pontos que os árbitros levantaram | `efeitos/` | 6 a 10 h |
 | 13 | P037 | extração | 259 divergências da recodificação cega, com sugestão de um terceiro leitor | `P037_concordancia/` | 2 a 3 h |
 | 14 | P033 | portão G7 e RoB | validar os 259 domínios de RoB (88 desacordos primeiro) | `P033_rob/` | 4 a 6 h |
-| 15 | P036 | síntese | validar os juízos GRADE | `P036_grade/` | 1 h |
+| 15 | P036 e P042 | síntese | validar os juízos GRADE. A P042 foi aberta pelo `rs caixa` em 24/09 e pede o mesmo | `P036_grade/` | 1 h |
 | 16 | P035 | portão G8 | confirmar o G8 | seção abaixo | 5 min |
 | 17 | P038 | portão G9 | ler o manuscrito e confirmar o G9 | `07-relatorio/relatorio.html` | 2 h |
 
