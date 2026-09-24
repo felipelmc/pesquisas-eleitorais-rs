@@ -29,17 +29,16 @@ _arquivos:
 modelo_logico:
   largura: larga
   legenda: >-
-    Modelo lógico da exposição a pesquisas eleitorais publicadas, redesenhado do grafo acíclico dirigido do
-    protocolo. A percepção de viabilidade (E1) só chega ao apoio pelo cálculo estratégico (E2); heurística de
+    Modelo lógico da exposição a pesquisas eleitorais publicadas, redesenhado a partir do grafo acíclico dirigido
+    do protocolo. A percepção de viabilidade (E1) só chega ao apoio pelo cálculo estratégico (E2). Heurística de
     consenso, conformidade, simpatia pelo azarão e emoções (E3 a E6) saem direto da exposição, embora, na teoria,
-    heurística de consenso e conformidade dependam da percepção de popularidade. Complacência e divulgação
-    enviesada (E7 e E8) são efeitos não intencionais e aparecem em tracejado; no comparecimento, o modelo não inclui
-    a pivotalidade, o efeito Titanic nem a mobilização de quem está atrás. Apoio
-    latente, interesse político e preferência prévia são confundidores (em cinza), e a resposta ao *survey* é um
-    colisor: condicionar a análise a ela abre um caminho espúrio entre exposição e apoio. A recorrência entre
-    pesquisas e voto aparece desdobrada no tempo (pesquisa anterior e pesquisa seguinte). Os moderadores da
-    teoria ficam fora do grafo, no quadro à direita. Rascunho de IA aprovado no G2; nenhuma seta foi conferida
-    em texto completo.
+    a heurística de consenso e a conformidade dependam da percepção de popularidade. Complacência e divulgação
+    enviesada (E7 e E8) são efeitos não intencionais e aparecem em tracejado. No comparecimento, o modelo não
+    inclui a pivotalidade, o efeito Titanic nem a mobilização de quem está atrás. Apoio latente, interesse
+    político e preferência prévia são confundidores (em cinza). A resposta ao *survey* é um colisor, e condicionar
+    a análise a ela abre um caminho espúrio entre exposição e apoio. A recorrência entre pesquisas e voto aparece
+    desdobrada no tempo (pesquisa anterior e pesquisa seguinte). Os moderadores da teoria ficam fora do grafo, no
+    quadro à direita. O modelo é um rascunho de IA aprovado no G2, e nenhuma seta foi conferida em texto completo.
   alt: >-
     Diagrama de setas que liga a exposição à pesquisa ao apoio a quem aparece à frente por cinco mecanismos,
     com confundidores à esquerda, um colisor, efeitos indesejados tracejados e, à direita, um quadro com os
@@ -48,16 +47,16 @@ modelo_logico:
 prisma:
   largura: larga
   legenda: >-
-    Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação: bases de dados e busca por citações. A
-    remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA; a triagem
-    de títulos e resumos foi feita por agentes de IA, e a avaliação dos textos completos também, exceto 16 casos
-    limítrofes decididos pelo autor (8 inclusões e 8 exclusões); o fluxo inclui a triagem complementar da Emenda
-    6b, sem ramo próprio, e os relatos dela que não foram recuperados estão entre os não recuperados. As caixas do
-    modelo PRISMA que não se aplicam a esta revisão (n = 0) foram omitidas. Os motivos de exclusão seguem os
+    Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação (bases de dados e busca por citações). A
+    remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA. A triagem de
+    títulos e resumos ficou com agentes de IA, assim como a avaliação dos textos completos, exceto 16 casos
+    limítrofes decididos pelo autor (8 inclusões e 8 exclusões). A triagem complementar da Emenda 6b entra no
+    fluxo sem ramo próprio, e os relatos dela que não foram recuperados estão entre os não recuperados. As caixas
+    do modelo PRISMA que não se aplicam a esta revisão (n = 0) foram omitidas. Os motivos de exclusão seguem os
     critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível contam como não
-    recuperados. O fluxo é rascunho: há {numeros_v2:pendencias_abertas.formatado} pendências
-    humanas abertas, entre elas a revisão dos pares candidatos a duplicata (P019), a validação da triagem
-    (P006, P007 e P020) e a conferência das decisões de elegibilidade (P041), listadas no
+    recuperados. O fluxo ainda é rascunho. Há {numeros_v2:pendencias_abertas.formatado} pendências humanas
+    abertas, entre elas (i) a revisão dos pares candidatos a duplicata (P019); (ii) a validação da triagem (P006,
+    P007 e P020); e (iii) a conferência das decisões de elegibilidade (P041). A lista completa está no
     [Apêndice A](#sec-pendencias).
   alt: >-
     Fluxograma em dois ramos paralelos, bases de dados e busca por citações, que descem da identificação à
@@ -67,11 +66,12 @@ rob:
   largura: larga
   legenda: >-
     Risco de viés por ferramenta e domínio, em proporção dos resultados avaliados (cada resultado é um par
-    estudo × desfecho): **a**, RoB 2, nos estudos randomizados; **b**, ROBINS-I V2, nos não randomizados;
-    **c**, critérios EPOC, nos desenhos com grupo de comparação ou série temporal interrompida. São
-    {numeros:rob_resultados} resultados de {numeros:rob_estudos} estudos; o domínio D1b só se aplica à
-    randomização por conglomerado. Os julgamentos são o consenso proposto por agentes de IA (dois avaliadores
-    e um árbitro nas divergências), sem validação humana. Cores da paleta para daltonismo do robvis.
+    estudo × desfecho). O painel **a** usa o RoB 2, nos estudos randomizados; o **b**, o ROBINS-I V2, nos não
+    randomizados; e o **c**, os critérios EPOC, nos desenhos com grupo de comparação ou série temporal
+    interrompida. São {numeros:rob_resultados} resultados de {numeros:rob_estudos} estudos. O domínio D1b só se
+    aplica à randomização por conglomerado. Os julgamentos são o consenso proposto por agentes de IA (dois
+    avaliadores e um árbitro nas divergências), sem validação humana. As cores seguem a paleta para daltonismo do
+    robvis.
   alt: >-
     Barras horizontais empilhadas mostram, para cada domínio das três ferramentas de risco de viés, a proporção
     de resultados julgados em cada nível, do baixo ao crítico.
@@ -81,29 +81,29 @@ celulas:
   legenda: >-
     Proporção de estudos que apontam a favor em cada uma das {celulas:n_celulas} células da síntese principal,
     com intervalo de confiança de 95% de Clopper-Pearson. Cada célula junta exposição, desfecho, comparação e
-    classe de desenho; o sentido "a favor" de cada bloco está no título dele. Na coluna x de y, x é o número de
-    estudos a favor e y o de estudos com direção definida; mistos e nulos por ±δ ficam fora do denominador e
-    aparecem entre parênteses. A linha tracejada marca a divisão meio a meio. O anel indica a célula só com
-    efeitos nulos por ±δ, sem proporção calculável; a célula sem estudo tem k = 0 porque o único estudo dela,
-    @Kaplan2019a, está em risco crítico e saiu da análise principal. A certeza (GRADE) qualifica a direção, não
-    a magnitude, e é rascunho de IA não validado. O agrupamento amplo *post hoc* não aparece aqui.
+    classe de desenho, e o título de cada bloco diz o que conta como "a favor" nele. Na coluna x de y, x é o
+    número de estudos a favor e y o de estudos com direção definida. Mistos e nulos por ±δ ficam fora do
+    denominador e aparecem entre parênteses. A linha tracejada marca a divisão meio a meio. O anel indica a célula
+    só com efeitos nulos por ±δ, em que não há proporção a calcular. A célula sem estudo tem k = 0 porque o único
+    estudo dela, @Kaplan2019a, está em risco crítico e saiu da análise principal. A certeza (GRADE) qualifica a
+    direção, não a magnitude, e é rascunho de IA não validado. O agrupamento amplo *post hoc* não aparece aqui.
   alt: >-
-    Gráfico de pontos com intervalos: para cada célula, a proporção de estudos a favor, com o número de estudos
-    e a certeza em círculos à direita, em quatro blocos (apoio a quem aparece à frente, viabilidade, momentum e
-    comparecimento).
+    Gráfico de pontos com intervalos que mostra, para cada célula, a proporção de estudos a favor, com o número
+    de estudos e a certeza em círculos à direita. As células estão em quatro blocos (apoio a quem aparece à
+    frente, viabilidade, momentum e comparecimento).
 
 direcao:
   largura: larga
   legenda: >-
-    Direção do efeito principal por estudo e célula. **a**, síntese principal: estudos agrupados por desfecho,
-    classe de desenho e comparação e ordenados por desenho e risco de viés; os de risco crítico (†) aparecem,
-    mas ficam fora do teste de sinal. **b**, efeitos fora da contagem, no agrupamento amplo decidido depois de
-    ver os dados (*post hoc*): só estudos e células que não entram na síntese principal, seja porque o efeito
-    principal não estima o contraste da exposição, seja por risco crítico ou por alvo sem posição única de líder
-    ou azarão ("outro alvo", em que o sinal é só positivo ou negativo). A direção vem do estimador pontual; o
-    efeito é nulo quando o intervalo de 95% fica inteiro dentro de ±δ. O tamanho do símbolo é constante, porque
-    os estudos medem em unidades diferentes. Risco de viés com os símbolos do robvis; julgamentos de IA não
-    validados.
+    Direção do efeito principal por estudo e célula. No painel **a**, da síntese principal, os estudos estão
+    agrupados por desfecho, classe de desenho e comparação e ordenados por desenho e risco de viés. Os de risco
+    crítico (†) aparecem, mas ficam fora do teste de sinal. O painel **b** traz os efeitos fora da contagem, no
+    agrupamento amplo decidido depois de ver os dados (*post hoc*). Ali entram só estudos e células que não estão
+    na síntese principal, seja porque o efeito principal não estima o contraste da exposição, seja por risco
+    crítico ou por alvo sem posição única de líder ou azarão ("outro alvo", em que o sinal é só positivo ou
+    negativo). A direção vem do estimador pontual, e o efeito é nulo quando o intervalo de 95% fica inteiro
+    dentro de ±δ. O tamanho do símbolo é constante porque os estudos medem em unidades diferentes. O risco de viés
+    usa os símbolos do robvis, e os julgamentos são de IA, não validados.
   alt: >-
     Tabela gráfica com um estudo por linha: triângulo azul para cima quando o efeito aponta a favor, triângulo
     laranja para baixo quando aponta contra, losango para misto e anel para nulo, com o risco de viés num
@@ -112,32 +112,32 @@ direcao:
 metas:
   largura: larga
   legenda: >-
-    Meta-análises exploratórias, em g de Hedges (positivo = *bandwagon*): **a**, pesquisa pré-eleitoral frente a
-    nenhuma pesquisa ({meta:k_estudos} estudos e {meta:k_efeitos} efeitos; os dois efeitos de @Tyszler2015 vêm
-    de valores diferentes da opção intermediária); **b**, o mesmo candidato mostrado à frente ou atrás
-    ({meta_mesmo:k_estudos} estudos e {meta_mesmo:k_efeitos} efeitos). Os quadrados são os efeitos, com o
-    intervalo de 95% de cada um; o losango vazado é a estimativa combinada do modelo de efeitos correlacionados
-    e hierárquicos (CHE) com erro-padrão robusto (RVE). Os graus de liberdade de Satterthwaite
-    ({meta:gl} em **a** e {meta_mesmo:gl} em **b**) ficam abaixo de 4, e a inferência robusta, por isso, não é
-    confiável. A faixa sombreada é ±δ ({meta:delta} em **a**; {meta_mesmo:delta} em **b**). O intervalo de
-    predição fica fora do gráfico ({meta:pi.0} a {meta:pi.1} em **a**; {meta_mesmo:pi.0} a {meta_mesmo:pi.1}
-    em **b**) e não é interpretado, porque há menos de 5 estudos; o mesmo vale para τ² ({meta:tau2} e
+    Meta-análises exploratórias, em g de Hedges (positivo = *bandwagon*). O painel **a** compara pesquisa
+    pré-eleitoral com nenhuma pesquisa ({meta:k_estudos} estudos e {meta:k_efeitos} efeitos; os dois efeitos de
+    @Tyszler2015 vêm de valores diferentes da opção intermediária). O painel **b** compara o mesmo candidato
+    mostrado à frente ou atrás ({meta_mesmo:k_estudos} estudos e {meta_mesmo:k_efeitos} efeitos). Os quadrados
+    são os efeitos, com o intervalo de 95% de cada um. O losango vazado é a estimativa combinada do modelo de
+    efeitos correlacionados e hierárquicos (CHE) com erro-padrão robusto (RVE). Os graus de liberdade de
+    Satterthwaite ({meta:gl} em **a** e {meta_mesmo:gl} em **b**) ficam abaixo de 4, e por isso a inferência por
+    RVE não é confiável. A faixa sombreada é ±δ ({meta:delta} em **a**; {meta_mesmo:delta} em **b**). O intervalo
+    de predição fica fora do gráfico ({meta:pi.0} a {meta:pi.1} em **a**; {meta_mesmo:pi.0} a {meta_mesmo:pi.1}
+    em **b**) e não é interpretado, porque há menos de 5 estudos. O mesmo vale para τ² ({meta:tau2} e
     {meta_mesmo:tau2}). Em cada painel, os efeitos estão ordenados por precisão, do menor ao maior erro-padrão.
     Todos os efeitos do painel **a** estão em algumas preocupações de risco de viés, e todos os do painel **b**, em
-    risco alto. Os painéis têm escalas diferentes.
+    risco alto. Note que os painéis têm escalas diferentes.
   alt: >-
     Dois gráficos de floresta com o efeito de cada estudo e um losango para a estimativa combinada, sobre uma
-    faixa estreita em torno de zero; nos dois painéis o intervalo combinado cruza o zero.
+    faixa estreita em torno de zero. Nos dois painéis, o intervalo combinado cruza o zero.
 
 realismo:
   largura: texto
   legenda: >-
     Direção do efeito por realismo do contexto (eleição hipotética, preferências induzidas em laboratório ou
     eleição real), separada por classe de desenho, no apoio a quem aparece à frente (célula principal) e no
-    comparecimento. Cada bloco é um estudo numa célula da síntese principal; o bloco claro e tracejado é um
-    estudo em risco crítico, fora do teste de sinal. No apoio, o único experimento em contexto real
-    (@Farjam2020a) é uma votação experimental com organizações reais, sem eleição em curso, e os estudos reais
-    não randomizados tratam de informação do dia da votação. Comparação descritiva, sem teste.
+    comparecimento. Cada bloco é um estudo numa célula da síntese principal. O bloco claro e tracejado é um estudo
+    em risco crítico, fora do teste de sinal. No apoio, o único experimento em contexto real (@Farjam2020a) é uma
+    votação experimental com organizações reais, sem eleição em curso, e os estudos reais não randomizados tratam
+    de informação do dia da votação. Trata-se de uma comparação descritiva, sem teste.
   alt: >-
     Barras horizontais feitas de blocos, um por estudo, coloridos pela direção do efeito, para cada nível de
     realismo do contexto, em painéis por desfecho e classe de desenho.

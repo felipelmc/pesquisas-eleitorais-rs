@@ -11,9 +11,9 @@
 # Sem caminhos de arquivo: a coluna "evidencia" aponta para seções do artigo (@sec-...), figuras e tabelas, e para o
 # suplemento em texto.
 legenda: >-
-  Caixa de ferramentas no formato OQF para a pergunta principal: pesquisa pré-eleitoral e apoio a quem aparece à
-  frente. Rótulos pela regra `caixa-3`; a "Força" traduz a certeza em palavras (insuficiente para muito baixa),
-  e a certeza GRADE qualifica a direção e é rascunho de IA não validado.
+  Caixa de ferramentas no formato OQF para a pergunta principal (pesquisa pré-eleitoral e apoio a quem aparece à
+  frente). Os rótulos seguem a regra `caixa-3`. A "Força" traduz a certeza em palavras (insuficiente para muito
+  baixa). A certeza GRADE, que qualifica a direção, é rascunho de IA não validado.
 larguras: [12, 50, 24, 14]
 linhas:
   - dimensao: Escala
@@ -31,28 +31,28 @@ linhas:
   - dimensao: Mecanismo
     resultado: >-
       Descritivo. Voto estratégico e viabilidade é o canal com mais estudos e com testes diretos em laboratório, dois
-      deles contados nas células de apoio principal; a heurística de consenso tem uma manipulação, em vinheta
-      (@Lammers2022a); nenhum estudo isolou a conformidade
+      deles contados nas células de apoio principal. A heurística de consenso tem uma manipulação, em vinheta
+      (@Lammers2022a). Nenhum estudo isolou a conformidade
     evidencia: "@sec-mecanismo; @tbl-hipoteses"
     certeza: "sem GRADE (descritivo)"
   - dimensao: Moderador
     resultado: >-
       Descritivo. No alvo principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e o único
-      experimento em contexto real é uma votação experimental com organizações reais, sem eleição (@Farjam2020a); o
-      partidarismo não atenuou o efeito no único teste pré-especificado dentro da síntese principal (@Cornejo2023a);
-      nenhum moderador teve estudos suficientes para teste
+      experimento em contexto real é uma votação experimental com organizações reais, sem eleição (@Farjam2020a). O
+      partidarismo não atenuou o efeito no único teste pré-especificado dentro da síntese principal (@Cornejo2023a).
+      Nenhum moderador teve estudos suficientes para teste
     evidencia: "@sec-moderadores; @fig-realismo"
     certeza: "sem GRADE (descritivo)"
   - dimensao: Implementação
     resultado: >-
-      Não se aplica: a exposição a pesquisas não é um programa implementado por um gestor. A caixa gerada registra
+      Não se aplica. A exposição a pesquisas não é um programa implementado por um gestor. A caixa gerada registra
       "{calc:rotulo_implementacao}" por falta das variáveis de implementação
     evidencia: "@sec-percepcao"
     certeza: "não se aplica"
   - dimensao: Percepção
     resultado: >-
-      Não se aplica: a revisão é só de efeito e não sintetizou achados qualitativos sobre como eleitores percebem as
-      pesquisas
+      Não se aplica. A revisão é só de efeito e não sintetizou achados qualitativos sobre como os eleitores percebem
+      as pesquisas
     evidencia: "@sec-percepcao"
     certeza: "não se aplica"
   - dimensao: Custo
