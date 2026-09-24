@@ -1,0 +1,307 @@
+# Textos editoriais da vitrine (docs/index.html), na voz do autor.
+#
+# Regras
+# - Números só por marcador {{bloco.campo}}, resolvido por montar_vitrine.py a partir de build/vitrine.json
+#   (bloco "numeros" ou "meta"). Marcador sem valor faz a montagem falhar.
+# - *termo* vira <i lang="en">termo</i> (itálico só para termo em inglês); **x** vira <strong>; `x` vira <code>;
+#   [texto](#ancora) vira link.
+# - Nada de enunciado de célula, certeza ou direção digitados aqui: eles vêm de celulas.json pela página.
+# - Proibidos: "Neutro", "sem efeito", "benéfic", "danos", "significativ", travessão longo.
+# - Linha do tempo do Brasil: cada item traz "confirmar", um trecho literal de insumos/contexto_brasil.md
+#   (ou de 00-protocolo/emendas.md, quando indicado); a montagem falha se o trecho não estiver lá.
+
+barra:
+  texto: "Rascunho não validado · {{numeros.pendencias}} pendências humanas abertas"
+  link: "ver o que falta"
+
+ferramentas:
+  tema_claro: "Tema claro"
+  tema_escuro: "Tema escuro"
+  movimento: "Reduzir animações"
+  pular: "Pular para o conteúdo"
+
+heroi:
+  kicker: "Revisão sistemática rápida · versão de trabalho"
+  autoria: "Felipe Lamarca · MAPE/IESP-UERJ"
+  lede: >-
+    Reunimos os estudos causais publicados desde {{numeros.ano_min}} sobre o que acontece com o voto e com o
+    comparecimento quando o eleitor vê o resultado de uma pesquisa eleitoral. A direção mais frequente é o
+    *bandwagon*, o apoio a quem aparece à frente. A certeza, no entanto, é muito baixa em quase todas as células,
+    e não sabemos de quanto é o efeito.
+  contadores:
+    registros: "registros identificados nas bases e na busca por citações"
+    estudos: "estudos incluídos"
+    relatos: "relatos"
+    efeitos: "efeitos extraídos"
+    celulas: "células de síntese"
+    certeza: "com certeza muito baixa"
+  pontos: "Cada ponto é um dos {{numeros.estudos}} estudos incluídos."
+
+mensagens:
+  kicker: "Em resumo"
+  titulo: "Mensagens principais"
+  provisorio: "Provisório: estas são as mensagens da versão de {{numeros.data_versao}}. Elas serão trocadas pelas do artigo novo assim que ele ficar pronto."
+  ler: "Ler no artigo"
+
+linguagem:
+  kicker: "Sem jargão"
+  titulo: "Em linguagem simples"
+  provisorio: "Provisório: enquanto o resumo em linguagem simples não fica pronto, esta seção mostra o resumo executivo da versão anterior."
+
+prisma:
+  kicker: "Seleção"
+  titulo: "Dos registros aos estudos"
+  intro: >-
+    Partimos de {{numeros.registros_bases}} registros das bases e de {{numeros.registros_citacoes}} da busca por
+    citações. Ao fim da triagem e da leitura do texto completo, sobraram {{numeros.relatos}} relatos, que descrevem
+    {{numeros.estudos}} estudos. As faixas cinzas saem do fluxo em cada etapa.
+  legenda: "Fluxo dos registros, da identificação à inclusão, nos dois ramos da busca. A largura de cada faixa é proporcional ao número de registros."
+  alternar: "Ver o diagrama PRISMA 2020"
+  alternar_voltar: "Ver o fluxo"
+  legenda_diagrama: "Diagrama PRISMA 2020 redesenhado a partir das contagens calculadas pelo script do projeto."
+  continuacao_titulo: "Nem todo estudo incluído entra na síntese principal"
+  continuacao_intro: >-
+    Dos {{numeros.estudos}} estudos, {{numeros.estudos_sintese}} entram na síntese principal. Os outros aparecem com
+    nome e motivo na seção [Estudo a estudo](#estudo-a-estudo).
+  legenda_continuacao: "Dos estudos incluídos aos estudos da síntese principal, com as saídas de cada etapa."
+  nota_automacao: "Remoção automática: filtro de ano de publicação aplicado por script, antes da triagem. Não é triagem por IA."
+
+legenda_leitura:
+  titulo: "Como ler"
+  direcao: "Direção da estimativa"
+  certeza: "Certeza (GRADE)"
+  certeza_nota: "Quanto mais apagado o preenchimento, menor a certeza. O contorno é sempre forte."
+  rob: "Risco de viés"
+
+mapa:
+  kicker: "A evidência"
+  titulo: "Mapa de evidências"
+  intro: >-
+    Cada símbolo é um estudo dentro de uma célula da síntese, com a cor da direção para a qual a estimativa aponta.
+    As células separam o que os estudos comparam: mostrar ou não uma pesquisa, mostrar o mesmo candidato à frente
+    ou atrás, antes e depois de uma proibição. Clique numa célula do mapa para ver o enunciado, as contagens e os
+    estudos.
+  legenda: "Estudos por bloco de desfecho e classe de desenho, com a direção de cada estudo e a certeza de cada célula."
+  lacuna: "Lacuna: nenhum estudo"
+  vazia: "sem estudo na análise principal"
+  abrir: "Abrir detalhes"
+  caixa_nota: "Na caixa de ferramentas, as {{numeros.celulas_inconclusivo}} células estão como Inconclusivo."
+  nota_momentum: "Pesquisas que mostram um partido ganhando ou perdendo apoio, sem mostrar a posição dele, ficam num bloco próprio."
+
+gaveta:
+  enunciado: "Enunciado"
+  contagem: "Contagem de direção"
+  ic: "Proporção na direção positiva, IC 95% de Clopper-Pearson"
+  p: "Teste de sinal"
+  sem_p: "sem teste de sinal: nenhum estudo com direção definida"
+  rebaixamentos: "Rebaixamentos da certeza"
+  partida: "ponto de partida"
+  estudos: "Estudos"
+  critico: "Fora da análise principal por risco de viés crítico:"
+  caixa: "Caixa de ferramentas"
+  artigo: "Ler a seção no artigo"
+  fechar: "Fechar"
+  validacao: "Julgamentos de IA, sem validação humana."
+
+direcao:
+  kicker: "Estudo a estudo"
+  titulo: "Para que lado aponta cada estudo"
+  intro: >-
+    Uma linha por estudo em cada célula, no estilo dos gráficos de direção do efeito. O símbolo mostra a direção
+    do estudo; o losango marca estudo misto, e o anel, estimativa nula dentro de ±δ. O tamanho do símbolo é o mesmo
+    para todos, porque o n de cada estudo tem unidade própria.
+  legenda: "Direção do efeito principal por estudo, agrupada pela célula da síntese, com o risco de viés geral."
+  filtros: "Filtrar"
+  todos: "todos"
+  f_exposicao: "Exposição"
+  f_desfecho: "Desfecho"
+  f_desenho: "Desenho"
+  f_contexto: "Contexto"
+  f_regiao: "Região"
+  mostrar_fora: "Mostrar os estudos fora da síntese principal"
+  fora_titulo: "Fora da síntese principal"
+  fora_intro: "Estes estudos aparecem só nas sensibilidades e na leitura de mecanismos. A direção vem do agrupamento amplo."
+  vivo: "Mostrando {n} linhas de {e} estudos."
+  vazio: "Nenhum estudo com esses filtros."
+
+nao_sabemos:
+  kicker: "Limites"
+  titulo: "O que a evidência não permite dizer"
+  cartoes:
+    - titulo: "De quanto é o efeito"
+      texto: >-
+        A síntese conta para que lado apontam os estudos. Ela não mede tamanhos. As duas meta-análises
+        exploratórias têm intervalos que cruzam zero e menos de 4 graus de liberdade.
+      alvo: "#de-quanto"
+      rotulo_alvo: "Ver as metas exploratórias"
+    - titulo: "Se o efeito aparece fora do laboratório"
+      texto: >-
+        Quase todos os experimentos na direção *bandwagon* usaram laboratório ou candidatos hipotéticos. Quando
+        ficamos só com contextos reais, o grupo randomizado de apoio cai de {{numeros.amplo_apoio_rand_k}} estudos
+        para {{numeros.real_apoio_rand_k}}.
+      alvo: "#contando"
+      rotulo_alvo: "Ver a sensibilidade"
+      destaque: "apoio_principal"
+    - titulo: "O que acontece no Brasil"
+      texto: >-
+        O único estudo brasileiro, {{numeros.araujo_rotulo}}, trata da apuração parcial oficial, e não de pesquisa.
+        Um estudo com {{numeros.lago_paises}} países inclui o Brasil, mas fica fora da contagem.
+      alvo: "#onde"
+      rotulo_alvo: "Ver os países"
+    - titulo: "Que as pesquisas não têm efeito"
+      texto: >-
+        Ausência de evidência não é evidência de ausência. Célula com poucos estudos e certeza muito baixa não
+        autoriza dizer que o efeito é zero, e há uma lacuna inteira no mapa.
+      alvo: "#mapa"
+      rotulo_alvo: "Ver a lacuna no mapa"
+      destaque: "lacuna"
+    - titulo: "Se as regras de divulgação devem mudar"
+      texto: >-
+        Sozinha, a evidência não sustenta restringir nem manter as regras atuais. As {{numeros.celulas_inconclusivo}}
+        células estão como Inconclusivo na caixa de ferramentas.
+      alvo: "#mapa"
+      rotulo_alvo: "Ver o mapa"
+
+pendencias:
+  kicker: "O que falta"
+  titulo: "Pendências humanas"
+  intro: >-
+    Todas as etapas depois do protocolo foram feitas por agentes de IA. Cada pendência abaixo é uma conferência que
+    só uma pessoa pode fechar, e, enquanto houver uma aberta, tudo nesta página é rascunho.
+  medidor: "{{numeros.pendencias_fechadas}} de {{numeros.pendencias}} fechadas"
+  guia: "Guia da revisão humana"
+  esforco: "esforço estimado"
+
+documentos:
+  kicker: "Leitura completa"
+  titulo: "Documentos e citação"
+  em_preparacao: "em preparação"
+  citar_titulo: "Como citar"
+  citar_nota: "Versão de trabalho de {{meta.data_versao}}; não citar como final."
+  copiar: "Copiar BibTeX"
+  copiado: "Copiado"
+  grupos:
+    artigo: "O artigo"
+    suplemento: "Suplemento"
+    apoio: "Para ir além"
+
+contagem:
+  kicker: "Segunda leitura"
+  titulo: "Contando a direção"
+  intro: >-
+    Para cada célula, a proporção de estudos que apontam na direção positiva, com o intervalo de confiança de
+    Clopper-Pearson. A linha em 0,5 marca o empate. O selo de certeza só aparece onde há julgamento GRADE próprio.
+  legenda: "Proporção de estudos na direção positiva por célula, com IC 95%, conforme a análise escolhida."
+  eixo: "proporção de estudos na direção positiva"
+  post_hoc: "*Post hoc*: agrupamento decidido depois de ver os dados, só descritivo."
+  sem_grade: "sem GRADE próprio"
+  nota_sem_grade: "Esta análise não tem julgamento GRADE próprio; por isso, não leva selo de certeza."
+  so_nulo: "só estimativa nula dentro de ±δ"
+  sem_estudo: "sem estudo"
+  nota_real: >-
+    Com só contexto real, o grupo randomizado de apoio fica com {{numeros.real_apoio_rand_k}} estudo
+    ({{numeros.real_apoio_rand_estudos}}).
+
+forest:
+  kicker: "Magnitude"
+  titulo: "De quanto?"
+  intro: >-
+    Duas células tinham efeitos suficientes para uma meta-análise exploratória. Os números abaixo não são efeito
+    médio: com menos de 4 graus de liberdade, a variância robusta não é confiável, e o intervalo de predição cobre
+    efeitos nas duas direções.
+  carimbo: "Exploratória: menos de 4 gl, RVE não confiável"
+  tyszler: "Os dois efeitos de {{numeros.tyszler_rotulo}} foram lidos de figura. A certeza de cada meta é a da célula: muito baixa."
+  legenda: "g de Hedges por efeito, com IC 95%, e a estimativa combinada (losango vazado). A faixa cinza marca ±δ."
+  loo: "Deixando um estudo de fora"
+  loo_sem: "sem"
+  loo_muda: "o IC deixa de cruzar zero"
+  delta: "faixa de ±δ"
+
+rob:
+  kicker: "Qualidade"
+  titulo: "Quão confiáveis são os estudos?"
+  intro: >-
+    Risco de viés por ferramenta e domínio, em {{numeros.rob_resultados}} resultados avaliados. Dois avaliadores de
+    IA julgaram cada domínio, e um árbitro de IA resolveu os {{numeros.rob_arbitro}} desacordos.
+  nota: "Nenhum julgamento foi validado por humano."
+  nota_epoc: "* Fora do julgamento geral do EPOC (Emenda 4a)."
+  legenda: "Distribuição dos julgamentos de risco de viés por domínio, por ferramenta."
+  geral: "Geral"
+
+processo:
+  kicker: "Método"
+  titulo: "O método em 60 segundos"
+  intro: >-
+    A revisão foi feita entre {{numeros.data_inicio}} e {{numeros.data_fim}}, com agentes de IA em quase todas as etapas.
+    O autor aprovou a pergunta e o protocolo; o resto passou por portões aprovados em modo automático.
+  nota: "O log registrava decisões de triagem como humanas; a Emenda 6a corrigiu."
+  legenda: "Portões, emendas e saídas finais de script ao longo da revisão, por quem decidiu (horário do log, UTC)."
+  raias:
+    humano: "Humano"
+    ia: "IA"
+    script: "Script"
+    emendas: "Emendas"
+  sessao: "sessão de 23 e 24/09: Emenda 6, re-extração cega e arbitragem dos efeitos, síntese e GRADE refeitos"
+  intervalo: "sem eventos no log"
+  emenda_sem_log: "registrada no protocolo, sem evento próprio no log"
+  gravado_humano: "gravado como humano no log; a decisão foi da IA"
+  emendas:
+    E001: "ajuste da busca em inglês"
+    E002: "busca em inglês substituída"
+    "Emenda 1": "apuração parcial passa a ser exposição elegível"
+    "Emenda 2": "três variáveis de extração redefinidas"
+    "Emenda 3": "codebooks de risco de viés no protocolo"
+    "Emenda 4": "convenções de síntese"
+    "Emenda 5": "síntese pelas células do protocolo"
+    "Emenda 6": "correção de atribuição e registros sem resumo"
+
+brasil:
+  kicker: "Contexto"
+  titulo: "A controvérsia no Brasil"
+  intro: >-
+    As regras de divulgação de pesquisas voltam ao debate a cada eleição em que as urnas se afastam das estimativas.
+    Os eventos abaixo foram conferidos em fonte primária.
+  itens:
+    - ano: 1997
+      texto: "A Lei das Eleições (Lei nº 9.504) passa a exigir o registro de cada pesquisa na Justiça Eleitoral antes da divulgação."
+      confirmar: "Lei nº 9.504, de 30 de setembro de 1997"
+    - ano: 2006
+      texto: "A minirreforma eleitoral (Lei nº 11.300) veda a divulgação de pesquisas a partir do décimo quinto dia anterior ao pleito."
+      confirmar: "a partir do décimo quinto dia anterior"
+    - ano: 2006
+      texto: "O STF julga a ADI 3.741 e derruba a vedação, com base no direito do eleitor à informação."
+      confirmar: "configurava restrição ao direito dos eleitores à informação"
+    - ano: 2018
+      texto: "Urnas atrasadas seguem votando enquanto a apuração parcial oficial já é divulgada. É o caso do único estudo brasileiro incluído."
+      confirmar: "apuração parcial oficial divulgada em 2018"
+      fonte_confirmar: "09-documento-final/_revisao_final_v1_oqf.qmd"
+    - ano: 2019
+      texto: "O TSE edita a Resolução nº 23.600, que regula registro e divulgação de pesquisas e segue vigente com alterações."
+      confirmar: "Resolução-TSE nº 23.600, de 12 de dezembro de 2019"
+    - ano: 2022
+      texto: "O primeiro turno diverge das estimativas de vários institutos. Projetos de lei na Câmara (PL nº 2.567/2022) e no Senado (PL nº 2.558/2022) propõem punir institutos cujas pesquisas saiam da margem de erro."
+      confirmar: "Após o primeiro turno das eleições de 2022"
+
+onde:
+  kicker: "Contexto"
+  titulo: "Onde"
+  intro: >-
+    A maior parte dos estudos vem dos Estados Unidos e da Europa. Contamos cada país uma vez por estudo.
+  legenda: "Número de estudos incluídos por país."
+  brasil_nota: "1 estudo, sobre apuração parcial oficial, não sobre pesquisa."
+  multinacional: "multinacional"
+  multinacional_nota: "inclui o Brasil; fica fora da contagem"
+  nao_relatado: "país não relatado"
+  um_estudo: "Um estudo cada"
+
+rodape:
+  creditos_titulo: "Créditos e licenças"
+  creditos: >-
+    Fontes STIX Two Text e Fira Sans, sob a SIL Open Font License 1.1. Gráficos com D3 7.9.0, sob a licença ISC.
+    Todo o código, os dados e as fontes estão embutidos nesta página; ela não faz nenhuma requisição externa.
+  ia: "Rascunho redigido por IA a partir dos arquivos do projeto e ajustado ao estilo do autor; não revisado pelo autor (P038)."
+  versao: "Versão de trabalho de {{meta.data_versao}} (commit `{{meta.commit}}`); não citar como final."
+  mudou_titulo: "O que mudou desde 24/09"
+  mudou: >-
+    Esta página substitui a página de entrada publicada em 24/09/2026, guardada na tag `{{meta.tag_anterior}}`. Os
+    números, as certezas e as pendências são os mesmos; mudou a forma de apresentar.

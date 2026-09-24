@@ -1,0 +1,13 @@
+{
+  "name": "vitrine-qa",
+  "private": true,
+  "type": "module",
+  "description": "QA da vitrine (capturas, console, requisições externas, axe, teclado). Só roda localmente; nada disto é publicado.",
+  "scripts": {
+    "capturar": "node capturar.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "playwright": "^1.63.0"
+  }
+}

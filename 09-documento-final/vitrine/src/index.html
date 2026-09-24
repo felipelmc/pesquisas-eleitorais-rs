@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; font-src data:; img-src data:">
+<meta name="robots" content="noindex">
+<title><!--ESTATICO:titulo_pagina--></title>
+<meta name="description" content="<!--ESTATICO:descricao-->">
+<meta property="og:title" content="<!--ESTATICO:og_titulo-->">
+<meta property="og:description" content="<!--ESTATICO:descricao-->">
+<meta property="og:type" content="website">
+<meta name="color-scheme" content="light dark">
+<script>
+/* tema antes da primeira pintura, para não piscar; leitura do localStorage dentro de try/catch */
+(function () {
+  try {
+    var t = localStorage.getItem('vitrine-tema');
+    if (t === 'claro' || t === 'escuro') document.documentElement.setAttribute('data-theme', t === 'claro' ? 'light' : 'dark');
+    if (localStorage.getItem('vitrine-movimento') === 'reduzido') document.documentElement.setAttribute('data-movimento', 'reduzido');
+  } catch (e) { /* sem armazenamento: segue o sistema */ }
+  document.documentElement.classList.add('js');
+})();
+</script>
+<style>
+<!--FONTES-->
+<!--CSS-->
+</style>
+<noscript><style>
+.so-js { display: none !important; }
+details.tabela-dados { display: block; }
+details.tabela-dados > summary { display: none; }
+details.tabela-dados .tabela-rolagem { display: block; }
+.prisma-diagrama[hidden] { display: block !important; }
+</style></noscript>
+</head>
+<body>
+<a class="pular" href="#conteudo"><!--ESTATICO:pular--></a>
+
+<header class="topo">
+  <div class="barra" role="note">
+    <a class="barra-texto" href="#pendencias"><span class="barra-selo" aria-hidden="true"></span><span><!--ESTATICO:barra_texto--></span><span class="barra-link"><!--ESTATICO:barra_link--></span></a>
+  </div>
+  <div class="ferramentas so-js">
+    <button type="button" class="botao-ferramenta" id="botao-tema" aria-pressed="false">
+      <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor"/></svg>
+      <span class="botao-rotulo"></span>
+    </button>
+    <button type="button" class="botao-ferramenta" id="botao-movimento" aria-pressed="false">
+      <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M3 10h9M9 6l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 5v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <span class="botao-rotulo"><!--ESTATICO:movimento--></span>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo" tabindex="-1">
+
+<section class="heroi" id="inicio" aria-labelledby="titulo-heroi">
+  <svg class="heroi-pontos so-js" aria-hidden="true" focusable="false"></svg>
+  <div class="container heroi-conteudo">
+    <p class="kicker"><!--ESTATICO:heroi_kicker--></p>
+    <h1 id="titulo-heroi"><!--ESTATICO:titulo--></h1>
+    <p class="heroi-autoria"><!--ESTATICO:heroi_autoria--></p>
+    <p class="heroi-lede"><!--ESTATICO:heroi_lede--></p>
+    <!--ESTATICO:heroi_contadores-->
+    <svg class="heroi-faixa so-js" aria-hidden="true" focusable="false"></svg>
+    <p class="heroi-pontos-nota so-js"><!--ESTATICO:heroi_pontos--></p>
+  </div>
+</section>
+
+<section class="secao" id="mensagens" aria-labelledby="titulo-mensagens">
+  <div class="container">
+    <!--ESTATICO:mensagens-->
+  </div>
+</section>
+
+<section class="secao secao-tinta" id="linguagem-simples" aria-labelledby="titulo-linguagem">
+  <div class="container">
+    <!--ESTATICO:linguagem-->
+  </div>
+</section>
+
+<section class="secao" id="registros" aria-labelledby="titulo-prisma">
+  <div class="container">
+    <!--ESTATICO:prisma-->
+  </div>
+</section>
+
+<div class="evidencia container">
+  <aside class="legenda-leitura" id="legenda-leitura" aria-labelledby="titulo-legenda"></aside>
+  <div class="evidencia-corpo">
+
+    <section class="secao" id="mapa" aria-labelledby="titulo-mapa">
+      <!--ESTATICO:mapa-->
+    </section>
+
+    <section class="secao" id="estudo-a-estudo" aria-labelledby="titulo-direcao">
+      <!--ESTATICO:direcao-->
+    </section>
+
+    <section class="secao" id="contando" aria-labelledby="titulo-contagem">
+      <!--ESTATICO:contagem-->
+    </section>
+
+    <section class="secao" id="de-quanto" aria-labelledby="titulo-forest">
+      <!--ESTATICO:forest-->
+    </section>
+
+    <section class="secao" id="qualidade" aria-labelledby="titulo-rob">
+      <!--ESTATICO:rob-->
+    </section>
+
+  </div>
+</div>
+
+<section class="secao secao-tinta" id="nao-sabemos" aria-labelledby="titulo-nao-sabemos">
+  <div class="container">
+    <!--ESTATICO:nao_sabemos-->
+  </div>
+</section>
+
+<section class="secao" id="onde" aria-labelledby="titulo-onde">
+  <div class="container">
+    <!--ESTATICO:onde-->
+  </div>
+</section>
+
+<section class="secao" id="brasil" aria-labelledby="titulo-brasil">
+  <div class="container">
+    <!--ESTATICO:brasil-->
+  </div>
+</section>
+
+<section class="secao" id="metodo" aria-labelledby="titulo-processo">
+  <div class="container">
+    <!--ESTATICO:processo-->
+  </div>
+</section>
+
+<section class="secao secao-aviso" id="pendencias" aria-labelledby="titulo-pendencias">
+  <div class="container">
+    <!--ESTATICO:pendencias-->
+  </div>
+</section>
+
+<section class="secao" id="documentos" aria-labelledby="titulo-documentos">
+  <div class="container">
+    <!--ESTATICO:documentos-->
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="container">
+    <!--ESTATICO:rodape-->
+  </div>
+</footer>
+
+<dialog class="gaveta" id="gaveta" aria-labelledby="gaveta-titulo">
+  <div class="gaveta-cabeca">
+    <h2 id="gaveta-titulo" class="gaveta-titulo"></h2>
+    <button type="button" class="gaveta-fechar" id="gaveta-fechar"><span class="visualmente-oculto"><!--ESTATICO:fechar--></span><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+  </div>
+  <div class="gaveta-corpo" id="gaveta-corpo"></div>
+</dialog>
+
+<div class="dica" id="dica" role="tooltip" hidden></div>
+<div class="painel-toque" id="painel-toque" hidden>
+  <div class="painel-toque-corpo" id="painel-toque-corpo"></div>
+  <button type="button" class="painel-toque-fechar" id="painel-toque-fechar"><!--ESTATICO:fechar--></button>
+</div>
+<div class="visualmente-oculto" id="vivo" aria-live="polite"></div>
+
+<script type="application/json" id="dados-vitrine"><!--DADOS--></script>
+<script type="application/json" id="textos-vitrine"><!--TEXTOS--></script>
+<script>
+<!--JS-->
+</script>
+</body>
+</html>
