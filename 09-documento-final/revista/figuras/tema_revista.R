@@ -23,12 +23,13 @@ if (!FONTE %in% systemfonts::system_fonts()$family) {
 
 # ---------------------------------------------------------------- tamanhos (em pt na largura final)
 CORPO <- 7.5          # corpo do texto das figuras
-CORPO_MIN <- 6.5      # menor corpo permitido
+CORPO_MIN <- 7        # menor corpo permitido (verificar_figuras.py confere no SVG)
 pt_mm <- function(p) p / ggplot2::.pt                    # tamanho de texto em pt -> unidade de geom_text (mm)
 lw <- function(p) p / (ggplot2::.pt * 72.27 / 96)        # espessura em pt -> linewidth do ggplot2
 LINHA <- lw(0.3)      # linhas de 0,3 pt (eixos, grades, contornos)
 LINHA_DADO <- lw(0.5) # marcas de dado (setas, barras de IC)
-LARGURA <- c(texto = 140, larga = 170)                  # mm
+# mm; a larga ocupa a mancha (140 mm) mais os 14 mm de cada lado do pad(x: -14mm) do template, sem redução no PDF
+LARGURA <- c(texto = 140, larga = 168)
 
 # ---------------------------------------------------------------- paleta
 COR <- list(

@@ -128,6 +128,29 @@ fig_modelo_logico <- function() {
   nos$fundo <- ifelse(nos$papel %in% c("exposicao", "desfecho"), AZUL_CLARO,
                ifelse(nos$papel == "colisor", ROSA, "transparent"))
   nos$cor_txt <- ifelse(nos$papel == "confundidor", COR$tinta2, COR$tinta)
+  # nós com palavra estrangeira (ex.: "resposta ao survey"): cada linha é desenhada em pedaços, com a palavra
+  # estrangeira em itálico e os pedaços lado a lado, centrados no nó (larguras medidas na fonte; 1 mm = U unidades
+  # no eixo x, porque o grafo tem 170 unidades em LARGURA["larga"] mm). Os demais nós seguem num texto só.
+  U <- 170 / LARGURA[["larga"]]
+  LS <- p_no * 0.92 * 1.2 / 72 * 25.4          # passo entre linhas do texto de várias linhas (lineheight 0.92), em mm
+  rx_estr <- paste0("^(", paste(ESTRANGEIRAS, collapse = "|"), ")$")
+  tem_estr <- vapply(nos$linhas, function(l) any(grepl(rx_estr, unlist(strsplit(l, " ")))), logical(1))
+  esp <- (larg_mm("a b", p_no) - larg_mm("ab", p_no)) * U
+  ped <- do.call(rbind, lapply(which(tem_estr), function(i) {
+    ls <- nos$linhas[[i]]
+    do.call(rbind, lapply(seq_along(ls), function(j) {
+      w <- unlist(strsplit(ls[j], " "))
+      it <- grepl(rx_estr, w)
+      grp <- cumsum(c(TRUE, it[-1] != it[-length(it)]))
+      segs <- vapply(split(w, grp), paste, character(1), collapse = " ")
+      seg_it <- vapply(split(it, grp), `[`, logical(1), 1)
+      larg <- vapply(seq_along(segs), function(k) larg_mm(segs[k], p_no, italico = seg_it[k]) * U, numeric(1))
+      x0 <- nos$x[i] - (sum(larg) + esp * (length(segs) - 1)) / 2
+      data.frame(x = x0 + c(0, cumsum(larg + esp))[seq_along(segs)],
+                 y = nos$y[i] + ((length(ls) - 1) / 2 - (j - 1)) * LS,
+                 txt = segs, face = ifelse(seg_it, "italic", "plain"), cor = nos$cor_txt[i])
+    }))
+  }))
   nos$lt <- ifelse(nos$tracejado == 1, "22", "solid")
   B <- split(nos, nos$nome)
   F <- 0.7  # folga entre a ponta da seta e a caixa
@@ -203,7 +226,7 @@ fig_modelo_logico <- function() {
   mx0 <- 134; mx1 <- 170; my1 <- 102.6
   # marcador e texto em colunas separadas (sem espaço inicial no texto: o SVG estica o que sobra)
   mod <- do.call(rbind, lapply(mods$rotulo, function(r) {
-    l <- quebrar(r, 29, p = 6.8)
+    l <- quebrar(r, 29, p = CORPO_MIN)
     data.frame(texto = l, marcador = c(TRUE, rep(FALSE, length(l) - 1)))
   }))
   mod_y <- my1 - 9.5 - (seq_len(nrow(mod)) - 1) * 3.05
@@ -227,24 +250,26 @@ fig_modelo_logico <- function() {
     scale_linetype_manual(values = c(solida = "solid", tracejada = "22"), guide = "none") +
     geom_rect(data = nos, aes(xmin = x - w / 2, xmax = x + w / 2, ymin = y - h / 2, ymax = y + h / 2),
               fill = nos$fundo, colour = nos$borda, linetype = nos$lt, linewidth = LINHA) +
-    geom_text(data = nos, aes(x, y, label = txt), colour = nos$cor_txt, family = FONTE, size = pt_mm(p_no),
-              lineheight = 0.92) +
+    geom_text(data = nos[!tem_estr, ], aes(x, y, label = txt), colour = nos$cor_txt[!tem_estr], family = FONTE,
+              size = pt_mm(p_no), lineheight = 0.92) +
+    geom_text(data = ped, aes(x, y, label = txt), colour = ped$cor, fontface = ped$face, hjust = 0, family = FONTE,
+              size = pt_mm(p_no)) +
     geom_rect(data = el_pos, aes(xmin = x - 2.3, xmax = x + 2.3, ymin = y - 1.2, ymax = y + 1.2), fill = el_pos$fundo,
               colour = NA) +
-    geom_text(data = el_pos, aes(x, y, label = elo), family = FONTE, size = pt_mm(6.5), colour = COR$tinta2,
+    geom_text(data = el_pos, aes(x, y, label = elo), family = FONTE, size = pt_mm(CORPO_MIN), colour = COR$tinta2,
               fontface = "bold") +
     annotate("rect", xmin = mx0, xmax = mx1, ymin = my0, ymax = my1, fill = COR$fundo_caixa, colour = NA) +
     annotate("text", x = mx0 + 2, y = my1 - 3.4, label = "Moderadores (fora do grafo)", hjust = 0, family = FONTE,
              fontface = "bold", size = pt_mm(7), colour = COR$tinta) +
-    annotate("text", x = mx0 + 4.4, y = mod_y, label = mod$texto, hjust = 0, family = FONTE, size = pt_mm(6.8),
+    annotate("text", x = mx0 + 4.4, y = mod_y, label = mod$texto, hjust = 0, family = FONTE, size = pt_mm(CORPO_MIN),
              colour = COR$tinta) +
     annotate("text", x = mx0 + 2, y = mod_y[mod$marcador], label = "\u2022", hjust = 0, family = FONTE,
-             size = pt_mm(6.8), colour = COR$tinta) +
+             size = pt_mm(CORPO_MIN), colour = COR$tinta) +
     geom_segment(data = leg_seg, aes(x = x, xend = xend, y = y, yend = y, linetype = tipo), colour = COR$tinta2,
                  linewidth = LINHA_DADO * 0.8, arrow = seta) +
     geom_rect(data = leg_box, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), fill = leg_box$fundo,
               colour = leg_box$borda, linewidth = LINHA) +
-    geom_text(data = leg_txt, aes(x = x, y = ly, label = txt), hjust = 0, family = FONTE, size = pt_mm(6.5),
+    geom_text(data = leg_txt, aes(x = x, y = ly, label = txt), hjust = 0, family = FONTE, size = pt_mm(CORPO_MIN),
               colour = COR$tinta2) +
     coord_cartesian(xlim = c(0, 170), ylim = c(y0, y1), expand = FALSE, clip = "off") +
     theme_void(base_family = FONTE) +
@@ -373,7 +398,7 @@ fig_prisma <- function() {
                  arrow = arrow(length = unit(1.3, "mm"), type = "closed", angle = 22)) +
     geom_segment(data = seta_inc, aes(x = x, y = y, xend = xend, yend = yend), colour = COR$tinta2,
                  linewidth = LINHA_DADO * 0.8, arrow = arrow(length = unit(1.3, "mm"), type = "closed", angle = 22)) +
-    geom_text(data = rot_inc, aes(x, y, label = texto), hjust = 0, family = FONTE, size = pt_mm(6.5), colour = COR$tinta2) +
+    geom_text(data = rot_inc, aes(x, y, label = texto), hjust = 0, family = FONTE, size = pt_mm(CORPO_MIN), colour = COR$tinta2) +
     geom_rect(data = retang, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
               fill = ifelse(retang$caixa == "incluidos", "#e3edf9", "transparent"), colour = COR$tinta2, linewidth = LINHA) +
     geom_text(data = tx, aes(x, y, label = texto, hjust = hjust), colour = tx$cor, fontface = tx$face, family = FONTE,
@@ -385,6 +410,10 @@ fig_prisma <- function() {
     theme(plot.background = element_rect(fill = "transparent", colour = NA), plot.margin = margin(0, 0, 0, 0))
   gravar_figura(g, "prisma", "larga", altura_mm = 0.5 - (y_inc[1] - 1))
 }
+
+# letra de painel: entra no próprio título, em negrito, na mesma linha de base (a etiqueta do patchwork ficava meia
+# linha acima do título ou numa linha própria)
+com_letra <- function(letra, titulo) paste0(letra, "\u00a0\u00a0", titulo)
 
 # ================================================================ 3. risco de viés
 fig_rob <- function() {
@@ -406,7 +435,7 @@ fig_rob <- function() {
     p <- ggplot(x, aes(x = proporcao, y = y, fill = nivel_f)) +
       geom_col(width = 0.72, colour = COR$tinta2, linewidth = LINHA, position = position_stack(reverse = TRUE)) +
       geom_text(data = dom, aes(x = 1.03, y = y, label = paste0("n = ", total)), inherit.aes = FALSE, hjust = 0,
-                family = FONTE, size = pt_mm(6.5), colour = COR$tinta2) +
+                family = FONTE, size = pt_mm(CORPO_MIN), colour = COR$tinta2) +
       scale_fill_manual(values = COR_ROB[as.character(niv$nivel)], labels = niv$julgamento_rotulo, name = NULL,
                         drop = FALSE) +
       scale_x_continuous(labels = pct_br(), breaks = seq(0, 1, 0.5), expand = c(0, 0)) +
@@ -417,28 +446,26 @@ fig_rob <- function() {
       tema_revista() +
       theme(legend.position = if (legenda) "bottom" else "none", legend.location = "plot",
             legend.justification = "left", legend.key.size = unit(2.6, "mm"), legend.key.spacing.x = unit(1.2, "mm"),
-            legend.text = element_text(size = 6.8, margin = margin(l = 2.5, r = 3)),
+            legend.text = element_text(size = CORPO_MIN, margin = margin(l = 2.5, r = 3)),
             legend.margin = margin(t = 0, l = 0), legend.box.margin = margin(t = -3, l = 0),
             plot.margin = margin(2, 27, 2, 2), axis.text.y = element_text(colour = COR$tinta, size = 7, lineheight = 0.9),
-            axis.text.x = element_text(size = 6.8),
-            strip.text = element_text(face = "plain", colour = COR$tinta2, size = 6.8, hjust = 0,
+            axis.text.x = element_text(size = CORPO_MIN),
+            strip.text = element_text(face = "plain", colour = COR$tinta2, size = CORPO_MIN, hjust = 0,
                                       margin = margin(1.5, 0, 1, 0)),
             strip.clip = "off", panel.spacing.y = unit(1.2, "mm"))
     if (!f %in% "epoc") p <- p + theme(strip.text = element_blank(), panel.spacing.y = unit(2, "mm"))
     p
   }
-  a <- painel("rob2", c("dominio", "geral"), "RoB 2 (randomizados)")
-  b <- painel("robins_i", c("dominio", "geral"), "ROBINS-I V2 (não randomizados)")
-  c1 <- painel("epoc", "com grupo de comparação", "EPOC (não randomizados)", larg_rot = 50)
+  a <- painel("rob2", c("dominio", "geral"), com_letra("a", "RoB 2 (randomizados)"))
+  b <- painel("robins_i", c("dominio", "geral"), com_letra("b", "ROBINS-I V2 (não randomizados)"))
+  c1 <- painel("epoc", "com grupo de comparação", com_letra("c", "EPOC (não randomizados)"), larg_rot = 50)
   c2 <- painel("epoc", c("série temporal interrompida", "geral"), "\u00a0", larg_rot = 38, legenda = FALSE)
   g <- (a | b) / (c1 | c2) + plot_layout(heights = c(7.3, 10)) +
-    plot_annotation(tag_levels = list(c("a", "b", "c", "")),
-                    caption = paste("Julgamentos de IA não validados por humano. Unidade: resultado avaliado (estudo \u00d7 desfecho).",
-                                    "\u2020 Critério fora do julgamento geral do EPOC (Emenda 4a)."),
+    plot_annotation(caption = paste0("Julgamentos de IA não validados por humano. Unidade: resultado avaliado (estudo \u00d7 desfecho).",
+                                     "\n\u2020 Critério fora do julgamento geral do EPOC (Emenda 4a)."),
                     theme = theme(plot.caption = element_text(family = FONTE, size = CORPO_MIN, colour = COR$tinta2,
                                                               hjust = 0),
-                                  plot.background = element_rect(fill = "transparent", colour = NA))) &
-    theme(plot.tag = element_text(face = "bold", size = CORPO + 1.5, family = FONTE))
+                                  plot.background = element_rect(fill = "transparent", colour = NA)))
   gravar_figura(g, "rob", "larga", altura_mm = 128)
 }
 
@@ -452,6 +479,10 @@ fig_celulas <- function() {
   rot_linha <- stats::setNames(d$rotulo_linha, d$y)
   pr <- d[d$marca == "proporcao", ]
   pr$cor <- unlist(COR[ifelse(pr$maioria == "empate", "misto", pr$maioria)])
+  # chave de cor (revisão visual, item 15): a cor do ponto e do IC diz para que lado aponta a maioria dos estudos
+  ROT_MAIORIA <- c(a_favor = "a favor", contra = "contra", empate = "empate")
+  if (!all(pr$maioria %in% names(ROT_MAIORIA))) stop("dados_celulas.csv: maioria fora de a_favor/contra/empate")
+  pr$maioria_f <- factor(ROT_MAIORIA[pr$maioria], levels = ROT_MAIORIA)
   X_XY <- 1.10; X_C <- 1.44; X_W <- 1.615
   circ <- do.call(rbind, lapply(which(!is.na(d$certeza_nivel)), function(i) {
     data.frame(y = d$y[i], bloco_f = d$bloco_f[i], x = X_C + 0.015 + (0:3) * 0.037, cheio = (1:4) <= d$certeza_nivel[i])
@@ -461,14 +492,14 @@ fig_celulas <- function() {
     geom_vline(xintercept = c(0, 0.25, 0.75, 1), colour = COR$grade, linewidth = LINHA) +
     geom_vline(xintercept = 0.5, colour = COR$tinta3, linewidth = LINHA, linetype = "22") +
     geom_linerange(data = pr, aes(xmin = ic_inf, xmax = ic_sup), colour = pr$cor, linewidth = LINHA_DADO) +
-    geom_point(data = pr, aes(x = proporcao, shape = classe_rotulo), fill = pr$cor, colour = "white", size = 2.3,
+    geom_point(data = pr, aes(x = proporcao, shape = classe_rotulo, fill = maioria_f), colour = "white", size = 2.3,
                stroke = 0.35) +
     geom_point(data = marca[marca$marca == "nulo", ], aes(x = 0.5), shape = 21, fill = NA, colour = COR$nulo,
                size = 2.2, stroke = 0.7) +
     geom_text(data = marca[marca$marca == "nulo", ], aes(x = 0.535, label = rotulo_marca), hjust = 0, family = FONTE,
-              size = pt_mm(6.8), colour = COR$tinta2) +
+              size = pt_mm(CORPO_MIN), colour = COR$tinta2) +
     geom_text(data = marca[marca$marca == "vazia", ], aes(x = 0.535, label = rotulo_marca), hjust = 0, family = FONTE,
-              fontface = "italic", size = pt_mm(6.8), colour = COR$tinta3) +
+              fontface = "italic", size = pt_mm(CORPO_MIN), colour = COR$tinta3) +
     geom_text(aes(x = X_XY, label = rotulo_xy), hjust = 0, family = FONTE, size = pt_mm(7), colour = COR$tinta) +
     geom_point(data = circ, aes(x = x), shape = ifelse(circ$cheio, 10, 1), size = 1.9, stroke = 0.45,
                colour = COR$tinta) +
@@ -476,6 +507,8 @@ fig_celulas <- function() {
               colour = ifelse(is.na(d$certeza_nivel), COR$tinta3, COR$tinta)) +
     scale_shape_manual(values = c(randomizado = 21, `não randomizado` = 22), breaks = c("randomizado", "não randomizado"),
                        name = "Classe de desenho") +
+    scale_fill_manual(values = stats::setNames(c(COR$a_favor, COR$contra, COR$misto), ROT_MAIORIA), drop = FALSE,
+                      name = "Cor: maioria dos estudos") +
     scale_x_continuous(limits = c(-0.02, 1.83), breaks = seq(0, 1, 0.25), labels = num_br(0.01),
                        expand = c(0, 0),
                        sec.axis = dup_axis(breaks = c(0, X_XY, X_C), name = NULL,
@@ -486,23 +519,25 @@ fig_celulas <- function() {
     facet_wrap(~bloco_f, ncol = 1, scales = "free_y", space = "free_y", labeller = label_parsed) +
     labs(x = "proporção dos estudos com direção definida que apontam a favor", y = NULL) +
     guides(x = guide_axis(cap = "both"), x.sec = guide_axis(cap = "none"),
-           shape = guide_legend(override.aes = list(fill = COR$tinta2, colour = "white", size = 2.3))) +
+           shape = guide_legend(order = 1, override.aes = list(fill = COR$tinta2, colour = "white", size = 2.3)),
+           fill = guide_legend(order = 2, override.aes = list(shape = 21, colour = "white", size = 2.3))) +
     tema_revista() +
     theme(axis.text.y = element_text(colour = COR$tinta, size = 7, hjust = 1),
           axis.text.x.top = element_text(colour = COR$tinta, size = 7, hjust = 0),
           axis.ticks.x.top = element_blank(), axis.line.x.top = element_blank(),
           axis.title.x = element_text(hjust = 0, size = 7, colour = COR$tinta2, margin = margin(t = 2)),
           legend.position = "bottom", legend.justification = "left", legend.key.size = unit(3, "mm"),
+          legend.box = "vertical", legend.box.just = "left", legend.spacing.y = unit(0.6, "mm"),
           legend.margin = margin(t = -2), legend.title = element_text(size = 7),
           panel.spacing.y = unit(1.5, "mm"), strip.text = element_text(size = 7.5, hjust = 0,
                                                                         margin = margin(3, 0, 1.5, 0)),
           plot.margin = margin(2, 2, 2, 2))
-  gravar_figura(g, "celulas", "larga", altura_mm = 128)
+  gravar_figura(g, "celulas", "larga", altura_mm = 132)
 }
 
 # ================================================================ 5. direção por estudo
 # legenda desenhada item a item, com larguras medidas (quebra de linha quando passa da largura)
-legenda_itens <- function(itens, x0 = 1.5, larg = 168, gap = 4.5, p = 6.5) {
+legenda_itens <- function(itens, x0 = 1.5, larg = 168, gap = 4.5, p = CORPO_MIN) {
   x <- x0; y <- 0; out <- list()
   for (it in itens) {
     w <- (if (it$tipo == "titulo") 0 else 3) + larg_mm(gsub("[*]", "", it$texto), p)
@@ -569,9 +604,9 @@ fig_direcao <- function() {
       geom_point(data = L, aes(x = XC[["rob"]], y = yy), shape = 21, fill = COR_ROB[as.character(L$rob_nivel)],
                  colour = COR$tinta2, size = 2.6, stroke = 0.3) +
       geom_text(data = L, aes(x = XC[["rob"]], y = yy - 0.03, label = SIMBOLO_ROB[as.character(rob_nivel)]),
-                family = FONTE, fontface = "bold", size = pt_mm(6.5), colour = COR$tinta) +
+                family = FONTE, fontface = "bold", size = pt_mm(CORPO_MIN), colour = COR$tinta) +
       geom_text(data = cabecalho, aes(x = x, y = -0.2, label = texto, hjust = hjust), family = FONTE,
-                size = pt_mm(6.5), colour = COR$tinta2) +
+                size = pt_mm(CORPO_MIN), colour = COR$tinta2) +
       scale_shape_manual(values = forma, guide = "none") +
       scale_x_continuous(limits = c(0, 170), expand = c(0, 0)) +
       scale_y_continuous(limits = c(m$y_min, 0.5), expand = c(0, 0)) +
@@ -583,8 +618,8 @@ fig_direcao <- function() {
             plot.background = element_rect(fill = "transparent", colour = NA), plot.margin = margin(1, 0, 5, 0))
     list(g = g, n = 0.5 - m$y_min)
   }
-  a <- painel("principal", "Síntese principal (contagem por direção da SWiM)")
-  b <- painel("fora", "Fora da contagem (agrupamento amplo, post hoc): estudos e células que não entram na síntese principal")
+  a <- painel("principal", com_letra("a", "Síntese principal (contagem por direção da SWiM)"))
+  b <- painel("fora", com_letra("b", "Fora da contagem (agrupamento amplo, post hoc): estudos e células que não entram na síntese principal"))
   itens <- list(
     list(tipo = "glifo", chave = "a_favor", texto = "a favor (bandwagon, viabilidade, momentum a favor, mobilização) ou positivo"),
     list(tipo = "glifo", chave = "contra", texto = "contra (underdog, contra a viabilidade, momentum contra, desmobilização)"),
@@ -608,20 +643,17 @@ fig_direcao <- function() {
     geom_point(data = rb, aes(x = x, y = y), shape = 21, fill = COR_ROB[rb$chave], colour = COR$tinta2, size = 2.6,
                stroke = 0.3) +
     geom_text(data = rb, aes(x = x, y = y - 0.03, label = SIMBOLO_ROB[chave]), family = FONTE, fontface = "bold",
-              size = pt_mm(6.5)) +
+              size = pt_mm(CORPO_MIN)) +
     geom_text(data = tx, aes(x = x, y = y, label = chave), family = FONTE, size = pt_mm(7)) +
     geom_text(data = lg, aes(x = x + 2.3, y = y, label = lab), parse = TRUE, hjust = 0, family = FONTE,
-              size = pt_mm(6.5), colour = COR$tinta) +
+              size = pt_mm(CORPO_MIN), colour = COR$tinta) +
     scale_shape_manual(values = forma, guide = "none") +
     scale_x_continuous(limits = c(0, 170), expand = c(0, 0)) +
     scale_y_continuous(limits = c(min(lg$y) - 0.5, 0.5), expand = c(0, 0)) +
     theme_void() + theme(plot.background = element_rect(fill = "transparent", colour = NA),
                          plot.margin = margin(3, 0, 0, 0))
   g <- a$g / b$g / leg + plot_layout(heights = c(a$n, b$n, n_leg)) +
-    plot_annotation(tag_levels = list(c("a", "b", "")),
-                    theme = theme(plot.background = element_rect(fill = "transparent", colour = NA))) &
-    theme(plot.tag = element_text(face = "bold", size = CORPO + 1.5, family = FONTE),
-          plot.tag.position = c(0, 1))
+    plot_annotation(theme = theme(plot.background = element_rect(fill = "transparent", colour = NA)))
   gravar_figura(g, "direcao", "larga", altura_mm = (a$n + b$n + n_leg) * RH + 17)
 }
 
@@ -657,7 +689,7 @@ fig_metas <- function() {
                          expand = expansion(mult = 0.02)) +
       scale_y_continuous(breaks = x$y, labels = x$rotulo, expand = expansion(add = 0.6),
                          sec.axis = dup_axis(labels = x$txt, name = NULL)) +
-      labs(title = x$painel_titulo[1], x = parse(text = italicizar("g de Hedges (positivo = bandwagon)"))[[1]], y = NULL) +
+      labs(title = com_letra(pn, x$painel_titulo[1]), x = parse(text = italicizar("g de Hedges (positivo = bandwagon)"))[[1]], y = NULL) +
       guides(x = guide_axis(cap = "both")) +
       tema_revista() +
       theme(axis.text.y.left = element_text(colour = COR$tinta, size = 7, hjust = 0),
@@ -669,8 +701,7 @@ fig_metas <- function() {
   a <- painel("a"); b <- painel("b")
   na <- sum(d$painel == "a"); nb <- sum(d$painel == "b")
   g <- a / b + plot_layout(heights = c(na, nb)) +
-    plot_annotation(tag_levels = "a", theme = theme(plot.background = element_rect(fill = "transparent", colour = NA))) &
-    theme(plot.tag = element_text(face = "bold", size = CORPO + 1.5, family = FONTE))
+    plot_annotation(theme = theme(plot.background = element_rect(fill = "transparent", colour = NA)))
   gravar_figura(g, "metas", "larga", altura_mm = (na + nb) * 5.2 + 34)
 }
 
@@ -723,7 +754,7 @@ fig_realismo <- function() {
             panel.spacing.x = unit(6, "mm"),
             panel.grid.major.x = element_line(colour = COR$grade, linewidth = LINHA),
             legend.position = "bottom", legend.justification = "left", legend.location = "plot",
-            legend.key.size = unit(3, "mm"), legend.text = element_text(size = 6.8), legend.margin = margin(t = -1))
+            legend.key.size = unit(3, "mm"), legend.text = element_text(size = CORPO_MIN), legend.margin = margin(t = -1))
   }
   a <- painel("T9", "Apoio a quem aparece à frente (célula principal)", FALSE)
   b <- painel("T14", "Comparecimento", TRUE)

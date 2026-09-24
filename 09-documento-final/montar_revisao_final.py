@@ -24,6 +24,19 @@ Cada linha que contém só um marcador é trocada pelo conteúdo gerado dos arqu
                               esforço da tabela de 08-revisao-humana/README.md
   Continuam disponíveis, fora do contrato de rótulos atual: swim, regional, caixa_celulas e mecanismos.
 
+  Tabelas 1 e 2 em "grid table" do Pandoc (grade_md), e não em tabela pipe: só a grid table tem célula que ocupa
+  várias colunas, e o Pandoc a leva ao Typst (table.cell(colspan: n)), ao HTML (colspan) e ao .docx (gridSpan) sem
+  código próprio de formato. Assim, as linhas de grupo ("Desenho", "Apoio a quem aparece à frente"...) ocupam a
+  largura toda, em vez de ficarem presas à primeira coluna. O Quarto não aplica tbl-colwidths a tabela com colspan;
+  a largura de cada coluna vem do número de traços da grade (grade_md). Cada célula fica numa linha do fonte (a
+  trava conferir_reestruturacao.py lê o span .enunciado, a certeza e o k na mesma linha), exceto a de certeza da Tab. 2,
+  que tem quebra de linha fixa entre os símbolos ⊕ e a palavra (duas linhas, com barra invertida no fim da primeira).
+  Na Tab. 2: as notas de rodapé entram como última linha da tabela, ocupando as seis colunas, e por isso saem no
+  corpo da tabela (sans 7,6 pt no Typst); um bloco Typst cru (```{=typst}```, ignorado no HTML e no .docx) abre um
+  escopo #[ ... ] só em volta dela, com inset e entrelinha menores; a coluna Estudos cita cada estudo na forma
+  narrativa (@chave, n = x unidade), com o n fora da citação e sempre no mesmo formato; os enunciados levam
+  *bandwagon*, *underdog* e *momentum* em itálico (o texto, sem a ênfase, continua igual ao de certeza.csv).
+
 Metadados: no YAML do revisao_final.qmd montado (não no esqueleto), o script grava `pendencias-abertas: <n>` (de
 07-relatorio/_pendencias_abertas.json), `rascunho: true` se n > 0 e `nocite` com todas as chaves de
 07-relatorio/incluidos.csv, para que a desambiguação de citeproc ("2021a/b") seja a mesma do suplemento, das figuras
@@ -45,6 +58,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
@@ -133,6 +147,70 @@ def pipe(cab, linhas):
     for l in linhas:
         out.append("| " + " | ".join(celula(x) for x in l) + " |")
     return "\n".join(out)
+
+
+def largura_txt(s):
+    """Largura de exibição de um texto, como o Pandoc a mede ao ler grid tables (biblioteca doclayout): caractere
+    combinante vale 0, caractere largo do leste asiático (W, F) vale 2, os demais (inclusive ⊕, ◯, ±, δ), 1."""
+    return sum(0 if unicodedata.combining(ch) else 2 if unicodedata.east_asian_width(ch) in ("W", "F") else 1
+               for ch in s)
+
+
+def grade_md(cab, linhas, larguras):
+    """Grid table do Pandoc. `linhas`: lista em que cada item é uma lista de células (cada célula é um texto ou uma
+    lista de textos, um por linha do fonte) ou um texto solto, que vira uma linha de uma célula só ocupando todas as
+    colunas (colspan). `larguras`: proporção de cada coluna (em %). O Quarto não aplica tbl-colwidths a tabela com
+    célula que ocupa várias colunas (modules/tablecolwidths.lua, is_simple); as larguras vêm então da própria grade:
+    o Pandoc dá a cada coluna (traços + 1) / largura total da linha. Por isso o número de traços de cada coluna é
+    proporcional a `larguras`, numa escala em que toda célula e toda linha de colspan cabem numa linha do fonte."""
+    n = len(cab)
+    if len(larguras) != n:
+        raise SystemExit(f"ERRO: {len(larguras)} larguras para {n} colunas")
+    norm = []
+    for l in linhas:
+        if isinstance(l, str):
+            norm.append(celula(l))
+        else:
+            if len(l) != n:
+                raise SystemExit(f"ERRO: linha de tabela com {len(l)} células; esperado {n}")
+            norm.append([[celula(x)] if isinstance(x, str) else [celula(y) for y in x] for x in l])
+    minimo = [max(3, largura_txt(celula(c))) for c in cab]
+    for l in norm:
+        if not isinstance(l, str):
+            for j, c in enumerate(l):
+                minimo[j] = max(minimo[j], *(largura_txt(x) for x in c))
+    span = max([largura_txt(l) for l in norm if isinstance(l, str)] or [0])
+    # coluna j ocupa c_j = larg_j + 3 caracteres (conteúdo, dois espaços e um separador); c_j proporcional a larguras
+    escala = max([(m + 3) / p for m, p in zip(minimo, larguras)] + [(span + 3 + n) / sum(larguras), 80 / sum(larguras)])
+    larg = [max(m, round(escala * p) - 3) for m, p in zip(minimo, larguras)]
+    interna = sum(larg) + 3 * (n - 1)
+    if span > interna:
+        raise SystemExit("ERRO: linha de colspan mais longa que a tabela (grade_md)")
+
+    def pad(s, w):
+        return s + " " * (w - largura_txt(s))
+
+    def sep(ch="-"):
+        return "+" + "+".join(ch * (w + 2) for w in larg) + "+"
+
+    out = [sep(), "| " + " | ".join(pad(celula(c), w) for c, w in zip(cab, larg)) + " |", sep("=")]
+    for l in norm:
+        if isinstance(l, str):
+            out.append("| " + pad(l, interna) + " |")
+        else:
+            altura = max(len(c) for c in l)
+            for i in range(altura):
+                out.append("| " + " | ".join(pad(c[i] if i < len(c) else "", w) for c, w in zip(l, larg)) + " |")
+        out.append(sep())
+    return "\n".join(out)
+
+
+ESTRANGEIRAS_ENUNCIADO = r"[Bb]andwagon|[Uu]nderdog|[Mm]omentum"
+
+
+def italico_estrangeiras(texto):
+    """Põe *bandwagon*, *underdog* e *momentum* em itálico (só as ocorrências ainda sem ênfase)."""
+    return re.sub(rf"(?<![*\w])({ESTRANGEIRAS_ENUNCIADO})(?![*\w])", r"*\1*", texto)
 
 
 _GT = None
@@ -292,7 +370,9 @@ def aliases_do_yaml(leg):
     return {}
 
 
-def figura(nome, legendas_path=LEGENDAS):
+def figura(nome, legendas_path=LEGENDAS, exigir_arquivos=True):
+    """Imagem com legenda e rótulo. exigir_arquivos=False (uso de revista/gerar_rotulos_autor_ano.py, que roda antes
+    das figuras) não confere se o .svg e o .png existem; o texto sai igual."""
     if not Path(legendas_path).exists():
         raise SystemExit(f"ERRO: {Path(legendas_path).relative_to(R) if Path(legendas_path).is_relative_to(R) else legendas_path} "
                          f"não existe; as legendas das figuras são escritas pelo programador das figuras "
@@ -304,7 +384,7 @@ def figura(nome, legendas_path=LEGENDAS):
     if nome not in leg or not isinstance(leg[nome], dict):
         raise SystemExit(f"ERRO: figura {nome!r} sem entrada em {Path(legendas_path).name}")
     for ext in ("svg", "png"):
-        if not (FIG_SAIDA / f"{nome}.{ext}").exists():
+        if exigir_arquivos and not (FIG_SAIDA / f"{nome}.{ext}").exists():
             raise SystemExit(f"ERRO: revista/figuras/saida/{nome}.{ext} não existe")
     e = leg[nome]
     if not e.get("legenda") or not e.get("alt"):
@@ -401,7 +481,7 @@ def t_caracteristicas():
         g = l["grupo"]
         titulo, rot = ROT_TAB1[g]
         if g != grupo_atual:
-            linhas.append([f"**{titulo.format(den=l['denominador'])}**", ""])
+            linhas.append(f"**{titulo.format(den=l['denominador'])}**")  # linha de grupo, nas duas colunas
             grupo_atual = g
         if g == "periodo":
             a, b = l["codigo"].split("-")
@@ -416,8 +496,13 @@ def t_caracteristicas():
            "estudos; os julgamentos de IA não foram validados por humano). \"Outros desenhos\": painel de distritos, "
            "campanha simulada, corte transversal de países, desenho múltiplo e *rolling cross-section*. Tabela "
            "estudo a estudo no suplemento, S4 e S5.")
-    return pipe(["Característica", "n (%)"], linhas) + f"\n\n: {leg} {{#{ROTULOS['tabelas']['caracteristicas']} " \
-                                                       f"tbl-colwidths=\"[72,28]\"}}"
+    # só no Typst: a tabela (menos de uma página) flutua para o alto ou o pé da página em que cabe inteira, e o texto
+    # preenche o resto; assim nenhuma linha de grupo fica sozinha no pé da página, separada das suas linhas
+    # (a figura flutuante sai centrada no Typst; o show rule devolve as células à esquerda, como nas outras tabelas)
+    abre = "```{=typst}\n#[\n#set figure(placement: auto)\n#show table: set align(left)\n```"
+    fecha = "```{=typst}\n]\n```"
+    return (abre + "\n\n" + grade_md(["Característica", "n (%)"], linhas, [72, 28])
+            + f"\n\n: {leg} {{#{ROTULOS['tabelas']['caracteristicas']}}}\n\n" + fecha)
 
 
 # ================================================================ Tab. 2: SoF
@@ -450,6 +535,12 @@ def grade(nivel):
     return f"[{GRADE[nivel]}]{{.grade}} {NIVEL_TXT[nivel]}"
 
 
+def grade_quebrada(nivel):
+    """Célula de certeza da Tab. 2 em duas linhas do fonte: símbolos, quebra de linha fixa (barra invertida no fim da
+    linha) e a palavra. A palavra nunca divide a linha com os símbolos nem é hifenizada ao lado deles."""
+    return [f"[{GRADE[nivel]}]{{.grade}}\\", NIVEL_TXT[nivel]]
+
+
 def frase_direcao(c):
     g = gt()
     constr, alvo = c["construto_outcome"], c["celula_alvo"]
@@ -477,16 +568,16 @@ def frase_direcao(c):
 
 
 def estudos_sof(cid, n_por_celula):
+    """k e, por estudo, a citação narrativa seguida do n, sempre no formato "@chave, n = x unidade" (ou "n não
+    relatado"): o n fica fora da citação e não entra no link."""
     k = len(n_por_celula[cid])
     partes = []
     for e in n_por_celula[cid]:
         if e["n"] is None:
             partes.append(f"@{e['chave']}, n não relatado")
-        elif e["unidade"]:
-            partes.append(f"@{e['chave']}, {pt(e['n'])} {e['unidade']}")
         else:
-            partes.append(f"@{e['chave']}, n = {pt(e['n'])}")
-    return f"{k} estudo{'s' if k > 1 else ''}: [" + "; ".join(partes) + "]"
+            partes.append(f"@{e['chave']}, n = {pt(e['n'])}" + (f" {e['unidade']}" if e["unidade"] else ""))
+    return f"{k} estudo{'s' if k > 1 else ''}: " + "; ".join(partes)
 
 
 def rebaixamentos(justificativa):
@@ -527,12 +618,13 @@ def t_sof():
         cs = [c for c in celulas if c["bloco"] == bloco]
         if not cs:
             continue
-        linhas.append([f"**{titulo}**", "", "", "", "", ""])
+        linhas.append(f"**{titulo}**")  # linha de grupo, nas seis colunas
         for c in cs:
             comp = f"{FAM_SOF[c['familia_intervencao']]}, {COMP_SOF[c['comparador_tipo']]} ({DES_SOF[c['classe_desenho']]})"
             notas = ", ".join(letra[it] for it in sorted(por_cel[c["id"]], key=lambda it: letra[it]))
-            linhas.append([comp, estudos_sof(c["id"], n_por_celula), frase_direcao(c), grade(c["certeza"]),
-                           f"[{uma_linha(c['enunciado'])}]{{.enunciado cel=\"{c['id']}\"}}", notas or "n.a."])
+            linhas.append([comp, estudos_sof(c["id"], n_por_celula), frase_direcao(c), grade_quebrada(c["certeza"]),
+                           f"[{italico_estrangeiras(uma_linha(c['enunciado']))}]{{.enunciado cel=\"{c['id']}\"}}",
+                           notas or "n.a."])
     notas_txt = []
     for it in ordem:
         if it[0] == "partida":
@@ -547,7 +639,7 @@ def t_sof():
         crit = sorted({e for v in vazias for e in v.get("excluidos_rob_critico", [])})
         extra = (f" {len(vazias)} célula prevista ficou sem estudo na análise principal (agregador ou projeção, "
                  f"comparecimento, frente a nenhuma pesquisa, não randomizados), porque o único estudo "
-                 f"({'; '.join('@' + k for k in crit)}) está em risco de viés crítico; ela não foi julgada."
+                 f"[{'; '.join('@' + k for k in crit)}] está em risco de viés crítico; ela não foi julgada."
                  if len(vazias) == 1 else f" {len(vazias)} células previstas ficaram sem estudo e não foram julgadas.")
     leg = ("Resumo dos achados por célula da síntese principal (SWiM, sem os estudos em risco de viés crítico). "
            "Direção: x de y = estudos na direção indicada entre os y que têm direção definida; estudos mistos e nulos "
@@ -555,10 +647,14 @@ def t_sof():
            "⊕⊕⊕◯ moderada, ⊕⊕◯◯ baixa, ⊕◯◯◯ muito baixa; ela qualifica a direção, não a magnitude, e é rascunho de "
            "IA não validado. n na unidade de cada estudo, quando a unidade está registrada; os n não são somados. "
            "O agrupamento amplo, decidido depois de ver os dados, fica fora desta tabela (suplemento, S8).")
-    tabela = pipe(cab, linhas)
+    linhas.append("*Notas.* " + " ".join(notas_txt) + extra)  # notas na última linha, nas seis colunas
+    tabela = grade_md(cab, linhas, [15, 18, 17, 9, 33, 8])
     rot = ROTULOS["tabelas"]["sof"]
-    return ("::: {.landscape}\n\n" + tabela + f"\n\n: {leg} {{#{rot} tbl-colwidths=\"[15,18,17,9,33,8]\"}}\n\n"
-            + "*Notas.* " + " ".join(notas_txt) + extra + "\n\n:::")
+    # só no Typst: escopo #[ ... ] em volta da tabela, com inset e entrelinha menores (as notas cabem na página)
+    abre = ("```{=typst}\n#[\n#set table(inset: (x: 3.5pt, y: 2.2pt))\n#show table: set par(leading: 0.4em)\n```")
+    fecha = "```{=typst}\n]\n```"
+    return ("::: {.landscape}\n\n" + abre + "\n\n" + tabela
+            + f"\n\n: {leg} {{#{rot}}}\n\n" + fecha + "\n\n:::")
 
 
 # ================================================================ Tab. 3: hipóteses
@@ -738,11 +834,11 @@ def linhas_metadados():
 
 
 # ================================================================ montagem e checagens
-def trocar_marcadores(texto, tabelas, legendas_path=LEGENDAS):
+def trocar_marcadores(texto, tabelas, legendas_path=LEGENDAS, exigir_figuras=True):
     def troca(m):
         tipo, nome = m.group(1), m.group(2)
         if tipo == "FIGURA":
-            return figura(nome, legendas_path)
+            return figura(nome, legendas_path, exigir_figuras)
         if nome not in tabelas:
             raise SystemExit(f"ERRO: tabela desconhecida: @@TABELA {nome}@@")
         return tabelas[nome]()
@@ -763,6 +859,12 @@ def checar(saida, nome_doc, contrato=None):
         erros.append(f"caminho com '../': {rot}")
     if erros:
         raise SystemExit(f"ERRO em {nome_doc}:\n  " + "\n  ".join(erros))
+
+
+def montar_texto(esqueleto=D / "_esqueleto_revisao_final.qmd", legendas=LEGENDAS, exigir_figuras=True):
+    """Texto do revisao_final.qmd montado, sem gravar (também usado por revista/gerar_rotulos_autor_ano.py)."""
+    saida = trocar_marcadores(ler(esqueleto), TABELAS, Path(legendas), exigir_figuras)
+    return metadados(saida, linhas_metadados())
 
 
 def previas(nomes):
@@ -787,9 +889,7 @@ def main():
     if a.previas is not None:
         previas(a.previas)
         return
-    esq = ler(a.esqueleto)
-    saida = trocar_marcadores(esq, TABELAS, Path(a.legendas))
-    saida = metadados(saida, linhas_metadados())
+    saida = montar_texto(a.esqueleto, a.legendas)
     checar(saida, Path(a.saida).name)
     Path(a.saida).write_text(saida + "\n", encoding="utf-8")
     print(f"{Path(a.saida).name} escrito;", len(re.findall(r"\S+", saida)), "tokens")

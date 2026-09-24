@@ -461,10 +461,10 @@ def s11_checklists():
          "Lista de conferência do SWiM [@Campbell2020SWiM], 9 itens, o primeiro em duas partes; nas sínteses sem "
          "meta-análise, ele relata os itens 13 e 20 do PRISMA 2020."),
         ("checklist_trAIce.md", "tbl-s11-traice", 17,
-         "PRISMA-trAIce, 17 itens, na versão publicada por [Holst et al. (2025)](https://doi.org/10.2196/80247), "
-         "usado só como lista de conferência, sem declaração de conformidade: é uma proposta que o PRISMA Executive "
-         "não endossa ([Moher et al. 2026](https://doi.org/10.2196/104210)), e o livro que orienta esta revisão "
-         "manda usá-la ao lado dos itens 8, 9 e 11 do PRISMA 2020 [@Lamarca2026Livro]."),
+         "PRISMA-trAIce, 17 itens, na versão publicada por @Holst2025PRISMAtrAIce, usado só como lista de "
+         "conferência, sem declaração de conformidade: é uma proposta que o PRISMA Executive não endossa "
+         "[@Moher2026PRISMAtrAIce], e o livro que orienta esta revisão manda usá-la ao lado dos itens 8, 9 e 11 do "
+         "PRISMA 2020 [@Lamarca2026Livro]."),
     ]
     partes = ["As listas do PRISMA 2020, com os 12 itens do resumo, do PRISMA-S, do SWiM e do PRISMA-trAIce dão, para "
               "cada item, o local no artigo ou neste suplemento e a situação do relato, que diz se o item está no "
@@ -485,7 +485,30 @@ def s11_checklists():
         resumo = ", ".join(f"{k} {situacoes[s][k != 1]}" for s, k in cont.items() if k)
         t = bloco(linhas, f"{texto} Situação: {resumo}.", rotulo, [28, 28, 10, 34])
         partes.append(envolver("tabela-larga", t))
+    partes.append(declaracao_ia_v2())
     return "\n\n".join(partes)
+
+
+def declaracao_ia_v2():
+    """Agentes de IA desta versão do artigo (tabela de declaracao_ia_v2.md), como parte pública das listas de
+    conferência: complementa a declaração gerada do log, que está no relatório técnico."""
+    arq = D / "declaracao_ia_v2.md"
+    if not arq.exists():
+        raise SystemExit("ERRO: declaracao_ia_v2.md não existe")
+    tabela = [l for l in mrf.ler(arq).splitlines() if l.startswith("|")]
+    prosa = ("**Agentes de IA desta versão.** A declaração de uso de IA gerada do *log* do projeto, no relatório "
+             "técnico, não registra os agentes que prepararam esta versão do artigo, porque nenhum comando da "
+             "ferramenta de revisão foi rodado nela. A tabela abaixo os lista. A coordenação foi de "
+             "`claude-opus-5-5`, no Claude Code, e todos os subagentes foram Opus ou Sonnet. Nenhum deles leu o "
+             "PDF de estudo incluído, e nenhum fez análise nova. As leituras de revisões exemplares, de revisões "
+             "anteriores e de normas brasileiras usaram só fontes abertas e legítimas (PubMed Central, páginas "
+             "oficiais, repositórios institucionais e, para páginas oficiais do TSE com acesso direto bloqueado, "
+             "cópias do Internet Archive). Um agente Sonnet, com instruções escritas na própria chamada, conferiu "
+             "as regras brasileiras do dia da eleição. Nenhuma dessas etapas valida o conteúdo, e o autor ainda "
+             "não revisou o texto (P038).")
+    leg = ("Agentes de IA desta versão: *prompt* (guardado no repositório do projeto), papel, modelo e início do "
+           "SHA256 do *prompt* no commit desta versão.")
+    return prosa + "\n\n" + envolver("tabela-larga", bloco(tabela, leg, "tbl-s11-agentes", [30, 40, 15, 15]))
 
 
 SECOES = {"s1_busca": s1_busca, "s2_atalhos": s2_atalhos, "s3_emendas": s3_emendas,
@@ -495,7 +518,8 @@ SECOES = {"s1_busca": s1_busca, "s2_atalhos": s2_atalhos, "s3_emendas": s3_emend
 
 
 # ================================================================ montagem
-def main():
+def montar_texto():
+    """Texto do suplemento.qmd montado, sem checar nem gravar (também usado por revista/gerar_rotulos_autor_ano.py)."""
     esq = mrf.ler(ESQUELETO)
     esq = mrf.resolver_marcadores(esq, onde="_esqueleto_suplemento.qmd")
 
@@ -509,7 +533,11 @@ def main():
     # página em pé só com o título (o ::: {.landscape} continua no nível de cima)
     saida = re.sub(r"(?m)^(# [^\n]*\{#s\d+-[\w-]+[^}\n]*\}\n\n(?:(?!# |:::)[^\n]*\n+)*?)(::: \{\.landscape\}\n\n)",
                    r"\2\1", saida)
-    saida = mrf.metadados(saida, mrf.linhas_metadados())
+    return mrf.metadados(saida, mrf.linhas_metadados())
+
+
+def main():
+    saida = montar_texto()
 
     erros = []
     if "@@" in saida:
@@ -524,6 +552,9 @@ def main():
         erros.append("travessão (U+2014) no texto")
     if erros:
         raise SystemExit("ERRO em suplemento.qmd:\n  " + "\n  ".join(erros))
+    # citação só com chaves dentro de parênteses vira citação entre colchetes: "(@A; @B)" -> "[@A; @B]", para o
+    # citeproc não gerar parênteses aninhados como "(Autor (ano))"
+    saida = re.sub(r"\((@[\w-]+(?:;\s*@[\w-]+)*)\)", r"[\1]", saida)
     SAIDA.write_text(saida + "\n", encoding="utf-8")
     n_tab = len(re.findall(r"(?m)^: .*\{#tbl-", saida))
     n_tok = len(re.findall(r"\S+", saida))

@@ -32,7 +32,7 @@ A ordem segue as etapas, porque decisões de busca e de triagem podem mudar o co
 | 14 | P033 | portão G7 e RoB | validar os 259 domínios de RoB (88 desacordos primeiro) | `P033_rob/` | 4 a 6 h |
 | 15 | P036 e P042 | síntese | validar os juízos GRADE. A P042 foi aberta pelo `rs caixa` em 24/09 e pede o mesmo | `P036_grade/` | 1 h |
 | 16 | P035 | portão G8 | confirmar o G8 | seção abaixo | 5 min |
-| 17 | P038 | portão G9 | ler o manuscrito e confirmar o G9 | `07-relatorio/relatorio.html` | 2 h |
+| 17 | P038 | portão G9 | ler o artigo (e o relatório técnico) e confirmar o G9; decidir o título e os marcadores [A confirmar pelo autor] | artigo em `docs/revisao.pdf` ou `revisao.html`; `09-documento-final/resposta_pareceres.md`; relatório técnico em `docs/relatorio-tecnico.html` | 3 h |
 
 ## P039: conferência dos efeitos (pasta `efeitos/`)
 

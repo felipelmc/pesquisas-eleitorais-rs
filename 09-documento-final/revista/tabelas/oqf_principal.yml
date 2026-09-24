@@ -32,14 +32,14 @@ linhas:
     resultado: >-
       Descritivo. Voto estratégico e viabilidade é o canal com mais estudos e com testes diretos em laboratório, dois
       deles contados nas células de apoio principal. A heurística de consenso tem uma manipulação, em vinheta
-      (@Lammers2022a). Nenhum estudo isolou a conformidade
+      [@Lammers2022a]. Nenhum estudo isolou a conformidade
     evidencia: "@sec-mecanismo; @tbl-hipoteses"
     certeza: "sem GRADE (descritivo)"
   - dimensao: Moderador
     resultado: >-
       Descritivo. No alvo principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e o único
-      experimento em contexto real é uma votação experimental com organizações reais, sem eleição (@Farjam2020a). O
-      partidarismo não atenuou o efeito no único teste pré-especificado dentro da síntese principal (@Cornejo2023a).
+      experimento em contexto real é uma votação experimental com organizações reais, sem eleição [@Farjam2020a]. O
+      partidarismo não atenuou o efeito no único teste pré-especificado dentro da síntese principal [@Cornejo2023a].
       Nenhum moderador teve estudos suficientes para teste
     evidencia: "@sec-moderadores; @fig-realismo"
     certeza: "sem GRADE (descritivo)"

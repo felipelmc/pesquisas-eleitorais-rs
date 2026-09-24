@@ -13,6 +13,8 @@ Estado em 24/09/2026: G1 e G2 aprovados pelo revisor humano, G3 a G9 pelo autopi
 - pacotes de revisão humana;
 - publicação no GitHub Pages.
 
+Na tarde de 24/09, o documento final foi reescrito como artigo de revisão sistemática (padrão Campbell/Cochrane mais o relatório OQF do livro do usuário). Saem dele um PDF de *journal* em Typst, o suplemento S1 a S11, um resumo em linguagem simples e uma vitrine interativa, que é a página de entrada. Nada mudou na análise. A versão anterior está na tag `v1-oqf-2026-09-24`.
+
 Os produtos saem como **RASCUNHO NÃO VALIDADO**, com **18 pendências humanas abertas**. A ordem e os pacotes estão em `08-revisao-humana/README.md`. O que falta é trabalho humano; o papel do agente é preparar esse trabalho, registrá-lo pelos comandos da skill e refazer os produtos.
 
 ## Como começar uma sessão
@@ -58,7 +60,8 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
   - `08-revisao-humana/efeitos/prompt_reextracao_cega.md` e `prompt_arbitro_efeitos.md`;
   - `08-revisao-humana/P037_concordancia/prompt_terceiro_leitor.md`;
   - `02-triagem/sem_resumo_revisao/INSTRUCOES_triagem.md`;
-  - `09-documento-final/prompt_redator_final.md`, `prompt_estilo.md` e `prompt_verificacao.md`.
+  - `09-documento-final/prompt_redator_final.md`, `prompt_estilo.md` e `prompt_verificacao.md` (versão OQF, histórico);
+  - `09-documento-final/prompts_v2/` (artigo atual): arquiteto, redator, abertura, verificação (`prompt_verificacao_final.md`), rubrica, leituras críticas, revisão, estilo (`prompt_estilo_v2.md`), figuras, tabelas e montagem, vitrine, checklists e revisão visual do PDF. A lista com modelo e SHA256 está em `09-documento-final/declaracao_ia_v2.md`.
 
 ## Convenções da síntese (Emenda 5)
 
@@ -94,11 +97,27 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
 - `rs caixa` é opcional neste tipo de revisão, e rodá-lo abre uma pendência `certeza_caixa` (foi o que criou a P042, que repete a P036).
 - Pendências mudam de ID quando o comando as reabre: P032 virou P039, e P028 virou P040 e depois P041. Confira no `rs pendencia listar`.
 - O gate de citações das fichas de elegibilidade é `03-textos/prompts_fichamento/gate_sem_heuristica.py <ficha> <pdf>`. Ficha reprovada vai para `_reprovadas/` como `<nome>.tentativaN.md` e é refeita por um fichador novo, nunca corrigida à mão.
-- Na publicação, `bash docs/publicar.sh` gera `docs/`: a entrada (`09-documento-final/index.qmd`, com as mensagens principais extraídas da revisão final), `revisao.html`, `relatorio-tecnico.html` e `revisao-humana.html`. Nada de dados brutos, fichas ou PDFs entra em `docs/`. O endereço é <https://felipelamarca.com/pesquisas-eleitorais-rs/>, o domínio próprio do Pages do usuário.
-- Revisão final (`09-documento-final/`):
-  - Edite só `_esqueleto_revisao_final.qmd` e depois rode `montar_revisao_final.py`. Rodar o script sobrescreve `revisao_final.qmd`.
-  - Passes de estilo seguem `prompt_estilo.md`, com as regras de `~/.claude/commands/my-voice.md` e a skill `tirar-cara-de-ia`. Cada passe exige a trava `conferir_numeros.py` vazia.
-  - Os callouts "Pendente de revisão humana" e o apêndice de pendências ficam até o usuário fechar as pendências.
+- Publicação:
+  - `bash ferramentas/publicar.sh` gera e confere `docs/`: vitrine (`index.html`), artigo (`revisao.html/.pdf/.docx`), suplemento (`.html/.pdf`), `linguagem-simples.html`, relatório técnico e guia. Ele roda todas as travas, `verificar_pdf.py`, sanitização, textos, links e licenças, e limpa `docs/` por lista branca.
+  - O script saiu de `docs/`, onde ficava publicado. Nada de dados brutos, fichas ou PDFs de terceiros entra em `docs/`.
+  - `bash ferramentas/refazer_produtos.sh` roda a sentinela, as tabelas, a caixa e a publicação.
+  - O endereço é <https://felipelamarca.com/pesquisas-eleitorais-rs/>, o domínio próprio do Pages do usuário.
+- Artigo final (`09-documento-final/`):
+  - Edite só `_esqueleto_revisao_final.qmd` (e `_esqueleto_suplemento.qmd`, `linguagem_simples.qmd`, `revista/figuras/legendas.yml`, `revista/tabelas/*.yml`) e depois rode `montar_revisao_final.py` e `montar_suplemento.py`, que sobrescrevem `revisao_final.qmd` e `suplemento.qmd`.
+  - Figuras e tabelas entram só por marcador (`@@FIGURA nome@@`, `@@TABELA nome@@`), com os rótulos de `revista/rotulos.yml`. Número derivado novo entra só por `revista/gerar_numeros_v2.py`.
+  - As travas: `conferir_reestruturacao.py` confere a lista branca de números, os 18 spans `[enunciado]{.enunciado cel="Cxx"}` idênticos a `certeza.csv`, os 11 callouts com os mesmos IDs, rótulos, citações e proibições. `conferir_numeros.py` fica vazio em todo passe de estilo (`prompts_v2/prompt_estilo_v2.md`).
+  - Se `certeza.csv`, `swim_resumo.json`, as metas ou `_pendencias_abertas.json` mudarem, a sentinela da `spec_v2.md` (seção 10) diz quais seções reescrever.
+  - Os callouts "Pendente de revisão humana", o apêndice de pendências e os marcadores **[A confirmar pelo autor]** ficam até o usuário fechá-los. O subtítulo marca o produto como rascunho conduzido por agentes, pela regra R7.28 do livro do usuário; o título definitivo é decisão dele (P038).
+- Typst e PDF (`revista/`):
+  - O Typst só lê arquivos abaixo da pasta do `.qmd`: nada de `../` em figura, CSL ou fonte.
+  - Tabela com legenda vira `figure`, que não quebra sem `breakable: true` (já no template).
+  - Callouts do Quarto no Typst não quebram entre páginas e trazem Font Awesome; o template redefine `callout`.
+  - Classe `column-*` no `.qmd` liga a geometria de margem do Typst: use `.tabela-larga` e `.figura-larga`.
+  - `@sec-` só para seção numerada.
+  - Renderize com `TYPST_IGNORE_SYSTEM_FONTS=true TYPST_IGNORE_EMBEDDED_FONTS=true`, porque as fontes do projeto ficam em `revista/fontes/otf` e o STIX Two do macOS é variável e não tem negrito para o Typst.
+  - O suplemento é inteiro em paisagem (`paisagem: true`); não use `.landscape` dentro dele.
+  - `quarto typst --version` escreve no stderr.
+- Vitrine (`09-documento-final/vitrine/`): `exportar_dados.py` usa lista de campos permitidos; `montar_vitrine.py --final` falha se houver texto provisório. O QA com Playwright (`qa/capturar.mjs`) usa `node_modules` fora do git. A sanitização (`qa/testar_sanitizacao.py docs`) é estrita na vitrine e, nos documentos, reprova só e-mail, caminho local, citação literal de PDF e resumo de registro não incluído.
 
 ## Onde está o raciocínio de cada decisão
 
@@ -109,3 +128,4 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
 - Conferência dos efeitos por IA em 23/09: `08-revisao-humana/efeitos/` (re-extração cega, comparação, arbitragens, `pontos_para_o_revisor.md`), `05-decomposicao/correcoes_sessao_2026-09-23.csv`.
 - Revisão humana: `08-revisao-humana/README.md` (ordem, esforço, pacote e comando de cada pendência).
 - Uso de IA: `07-relatorio/declaracao_uso_ia.md` (gerada do log) e `07-relatorio/declaracao_uso_ia_texto.md`.
+- Artigo final: `09-documento-final/spec_v2.md` (estrutura, parágrafo a parágrafo, com fontes e sentinela), `resposta_pareceres.md` (o que foi aceito das leituras críticas e o que ficou como decisão do autor), `verificacao_v2.md`, `verificacao_final.md`, `auditoria_final_v2.md` (itens A1 a A36 do livro), `_avaliacao/rubrica.md` (v1 × v2 na rubrica dos exemplares), `_qa/` (revisão visual dos PDFs) e `declaracao_ia_v2.md` (agentes desta versão).

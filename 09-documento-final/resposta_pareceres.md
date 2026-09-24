@@ -265,3 +265,14 @@ Nos "aceito em parte", a parte não aplicada é decisão do autor ou tarefa do c
 - `conferir_reestruturacao.py`: 0 falhas e 0 avisos.
 - Render Typst: sem aviso.
 - `verificar_figuras.py`: OK.
+
+## Verificação final (`verificacao_final.md`)
+
+Etapa 8b, 24/09/2026. O erro e os cinco avisos foram corrigidos com o texto exato que a verificação propõe, e nenhum ficou sem aplicar.
+
+- **E1**: no resumo em linguagem simples, "Depois de 2022" passou a "Em outubro de 2022".
+- **V1**, que é também a ressalva R11 da `verificacao_v2.md`: na 1.2, "efeito médio" voltou a "efeito na média".
+- **V2**: o § 3 da 4.1 traz a frase proposta. Ela diz que os g dos *surveys* e das metas têm IC que cruza zero, que as metas não informam o tamanho e que o contraste só é compatível com a teoria rival do artefato, sem testá-la.
+- **V3**: na 5.2, a divulgação seletiva leva a frase padrão ("a evidência é muito incerta sobre esse efeito (certeza muito baixa)").
+- **V4**: na 3.10, a frase sobre proximidade e comparecimento diz que dois dos três estudos só têm efeitos fora da contagem, sem GRADE, que o terceiro está numa célula de certeza muito baixa e que o padrão não aparece no experimento de campo de Gerber et al. (2020) (certeza moderada).
+- **V5**: `Holst2025PRISMAtrAIce` e `Moher2026PRISMAtrAIce` entraram em `referencias_metodo.bib`, com os metadados conferidos no Crossref e registrados em `prompts_v2/log_referencias_metodo.md`. Elas são citadas na legenda de S11 (`montar_suplemento.py`) e no PRISMA-trAIce da 2.1.

@@ -30,6 +30,10 @@ nem com `09-documento-final/referencias_contexto.bib` (conferido por script).
 | Schaefer2025OQF | 10.31219/osf.io/aht4j_v1 | Crossref | Nome completo do terceiro autor confirmado no Crossref: "Carlos Barros Barreto Martins De Freitas" (o prompt abrevia como "Freitas"). |
 | Lamarca2026Livro | https://felipelamarca.com/Systematic-Review/ | Página oficial (HTML da própria página, gerada por Quarto) | Título "Revisão sistemática de ponta a ponta" e autor "Felipe Lamarca" confirmados no `<title>` e `<meta name="author">` da página. A página não exibe ano de publicação nem aviso de direitos autorais; usei o ano do cabeçalho HTTP `Last-Modified` (2026) e documentei isso na entrada (campo `note`) por não ser uma confirmação direta no corpo da página, só no metadado de servidor. |
 | Nikolakopoulos2020SignTest | 10.1002/jrsm.1427 | Crossref (published-print 2020-09, matching volume 11(5)) | Autor único (Stavros Nikolakopoulos); o prompt não citava autor, só o DOI — confirmado que o DOI resolve e traz metadados completos. |
+| Holst2025PRISMAtrAIce | 10.2196/80247 | Crossref, consultado em 24/09/2026 (etapa 8b, aviso V5 da `verificacao_final.md`): 5 autores, título, *JMIR AI* 4, e80247, publicado *online* em 10/12/2025 | Sem fascículo no Crossref; `article-number` v4i1e80247 e página e80247, usada no campo `pages` como nas outras entradas eletrônicas. Nomes dos autores como no Crossref, sem iniciais do meio. |
+| Moher2026PRISMAtrAIce | 10.2196/104210 | Crossref, consultado em 24/09/2026 (etapa 8b, aviso V5): 5 autores, título, *JMIR AI* 5, e104210, publicado *online* em 18/08/2026 | Sem fascículo no Crossref (`article-number` v5i2e104210); página e104210 no campo `pages`. Nomes dos autores como no Crossref ("Page, Matthew", "McKenzie, Joanne"), sem as iniciais do meio que aparecem noutras entradas dos mesmos autores. |
+
+Correção de 24/09/2026 (etapa 8b, item 18 da revisão visual): o `urldate` de Sterne2025ROBINSIV2 e de Lamarca2026Livro estava em 2026-09-25, depois da data do documento; as duas páginas foram conferidas nesta sessão, em 24/09/2026, e o campo passou a 2026-09-24.
 
 ## Contagem de campos não confirmados
 

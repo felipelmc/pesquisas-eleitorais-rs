@@ -2,12 +2,15 @@
 
 > **RASCUNHO NÃO VALIDADO.** Todas as etapas depois do protocolo foram feitas por subagentes de IA no modo autopiloto. Há 18 pendências humanas abertas; a lista, a ordem e os pacotes prontos estão em [`08-revisao-humana/README.md`](08-revisao-humana/README.md). Nenhum resultado deve ser citado como final antes de elas serem fechadas.
 
-**No navegador:** <https://felipelamarca.com/pesquisas-eleitorais-rs/>. A página de entrada leva a quatro coisas:
+**No navegador:** <https://felipelamarca.com/pesquisas-eleitorais-rs/>. A página de entrada é uma vitrine interativa (mapa de evidências, fluxo PRISMA, direção por estudo, sensibilidades, método em 60 segundos e pendências) e leva a:
 
-- a **revisão final**, no formato *O que funciona?* do MAPE adaptado (`revisao.html` e `.docx`);
+- o **artigo** da revisão, no padrão de revista acadêmica (métodos antes dos resultados, Discussão, SoF, figuras novas), em HTML (`revisao.html`), PDF diagramado (`revisao.pdf`) e `.docx`;
+- o **material suplementar** S1 a S11, em HTML e PDF;
+- o **resumo em linguagem simples**;
 - o **relatório técnico** PRISMA (`relatorio-tecnico.html` e `.docx`);
-- o **guia da revisão humana**;
-- as mensagens principais.
+- o **guia da revisão humana**.
+
+A versão anterior do documento final, no formato *O que funciona?* adaptado, está na tag `v1-oqf-2026-09-24`.
 
 O repositório é privado, mas as páginas do Pages são acessíveis a quem tiver o link.
 
@@ -107,6 +110,26 @@ A sessão fez tudo o que não depende de decisão humana e preparou o que depend
 
 Os commits da sessão vão de `0309f24` em diante (`git log`).
 
+## Artigo final, PDF de *journal* e vitrine (24/09/2026, tarde)
+
+O documento final foi reescrito como artigo de revisão sistemática. O ponto de partida foi o livro do autor (*Revisão sistemática de ponta a ponta*), sete revisões exemplares (SWiM, Cochrane, Campbell, APSR, *Nature Human Behaviour*) e três pareceres de especialistas simulados por IA sobre o plano. **Nenhuma análise mudou**: as células, as contagens, as certezas, as metas e as 18 pendências são as de 24/09.
+
+- **Estrutura:** mensagens principais, resumo executivo, resumo e *abstract* no padrão PRISMA; depois Introdução, Métodos, Resultados (com mecanismo, moderadores e "não se aplica" do OQF), Discussão, Da evidência à prática e Conclusões. O texto tem cerca de 10.400 palavras, 7 figuras novas, 5 tabelas e 2 quadros, com a SoF narrativa em página deitada. O suplemento traz S1 a S11, com as listas PRISMA 2020, PRISMA-S, SWiM e PRISMA-trAIce e os agentes de IA desta versão. O resumo em linguagem simples é um documento à parte.
+- **PDF:** A4 em uma coluna, compilado em Typst (Quarto 1.9.35), com STIX Two e Fira (OFL), citações APSA, cabeçalho neutro, marca-d'água de rascunho e nenhum elemento de revista real. `revista/verificar_pdf.py` confere fontes, caixas, IDs, mancha e reprodutibilidade.
+- **Controle de qualidade (tudo por IA):**
+  - travas de números e de enunciados em todas as versões;
+  - verificação independente em duas rodadas: 4 erros e 17 avisos na primeira, 1 erro e 5 avisos na final, todos corrigidos;
+  - auditoria A1 a A36 do livro: 18 cumpridos, 15 parciais, 3 não cumpridos, dois deles do autor;
+  - rubrica cega v1 × v2: 2 contra 13 movimentos cumpridos;
+  - leituras críticas simuladas de métodos e de ciência política, respondidas em `09-documento-final/resposta_pareceres.md`, com as decisões do autor ligadas às pendências;
+  - passes de voz (`my-voice`) e anti-IA (`tirar-cara-de-ia`);
+  - revisão visual dos PDFs.
+- **Vitrine:** `docs/index.html` autocontido, em D3, com dados de uma lista de campos permitidos, tema claro e escuro, versão para celular e QA com Playwright e axe.
+- **Decisões que ficam com o autor**, além das 18 pendências:
+  - o estatuto do título (regra R7.28 do livro: produto executado por agentes não conta como revisão sistemática);
+  - os marcadores **[A confirmar pelo autor]** (CRediT, acesso ao repositório, licença);
+  - as reclassificações pedidas nas leituras críticas (`resposta_pareceres.md`).
+
 ## Estrutura
 
 | Pasta | Conteúdo |
@@ -120,11 +143,11 @@ Os commits da sessão vão de `0309f24` em diante (`git log`).
 | `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades, inclusive ICC 0,20), meta exploratória, `certeza.csv`, `certeza_agrupamento_amplo.csv`, `revisao_metodologica_g8.md`. `_superado_pre_revisao_g8/` guarda a síntese anterior à Emenda 5, só para histórico |
 | `07-relatorio/` | manuscrito, PRISMA (contagens, SVG, PNG), checklists PRISMA e SWiM, `references.bib`, declaração de uso de IA, prompts do redator |
 | `08-revisao-humana/` | pacotes das 18 pendências: índice, ordem, esforço, comandos, re-extração cega e arbitragens dos efeitos |
-| `09-documento-final/` | revisão final no formato OQF adaptado. O texto fica em `_esqueleto_revisao_final.qmd`, e `montar_revisao_final.py` insere as tabelas geradas e grava `revisao_final.qmd`. Também estão aqui: insumos (contexto brasileiro com fontes, mecanismos e moderadores, números, caixa OQF), prompts do redator, do estilo e da verificação, `conferir_numeros.py` (trava dos passes de estilo), `verificacao.md` e a página de entrada (`index.qmd`) |
-| `docs/` | versão publicada no GitHub Pages: `index.html` (entrada), `revisao.html`, `relatorio-tecnico.html`, `revisao-humana.html` e os `.docx`. Tudo é gerado por `docs/publicar.sh` |
+| `09-documento-final/` | artigo final. O texto fica em `_esqueleto_revisao_final.qmd`; `montar_revisao_final.py` insere figuras (`@@FIGURA@@`) e tabelas (`@@TABELA@@`) geradas dos arquivos e grava `revisao_final.qmd`. O suplemento sai de `_esqueleto_suplemento.qmd` por `montar_suplemento.py`, e o resumo em linguagem simples está em `linguagem_simples.qmd`. `revista/` guarda o template Typst, o filtro `inline.lua`, as fontes OFL, o CSL da APSA, `rotulos.yml` (contrato de rótulos), `celulas.json` e `numeros_v2.json` (únicas portas de número derivado), `referencias.json` e as figuras (`revista/figuras/`, dados em Python e desenho em R). As travas são `conferir_reestruturacao.py` (números, enunciados, callouts, rótulos, proibições) e `conferir_numeros.py` (passes de estilo). Também estão aqui: `spec_v2.md` (especificação, com a sentinela), `insumos/` (livro, exemplares, Garritty, revisões anteriores, contexto brasileiro), `prompts_v2/`, `verificacao_v2.md`, `verificacao_final.md`, `auditoria_final*.md`, `resposta_pareceres.md`, `_leituras/`, `_avaliacao/`, `_qa/`, `declaracao_ia_v2.md` e a vitrine (`vitrine/`: exportação, fontes do JS e CSS, QA com Playwright) |
+| `docs/` | versão publicada no GitHub Pages (lista branca): `index.html` (vitrine), `revisao.html/.pdf/.docx`, `suplemento.html/.pdf`, `linguagem-simples.html`, `relatorio-tecnico.html/.docx` e `revisao-humana.html`. Tudo é gerado por `ferramentas/publicar.sh` |
 | `dados/` | registros e decisões. Só a skill escreve aqui |
 | `rs_estado.json`, `rs_log.jsonl` | estado e registro de eventos da skill (append-only). Nunca editar à mão |
-| `ferramentas/` | conferências auxiliares: `checar_arbitros.py <raiz> [max_palavras] [subpasta]` confere vocabulário e trecho literal na página das propostas do árbitro de RoB; `achar_trecho.py <verificacao_citacoes.csv> <pasta_pdfs>` sugere o trecho literal mais próximo para citações reprovadas no gate |
+| `ferramentas/` | `publicar.sh` (gera e confere `docs/`), `refazer_produtos.sh` (sentinela, tabelas, caixa e publicação), `barra_publicacao.py`, e conferências auxiliares: `checar_arbitros.py <raiz> [max_palavras] [subpasta]` confere vocabulário e trecho literal na página das propostas do árbitro de RoB; `achar_trecho.py <verificacao_citacoes.csv> <pasta_pdfs>` sugere o trecho literal mais próximo para citações reprovadas no gate |
 
 ## Cópia de trabalho e PDFs
 
@@ -197,14 +220,13 @@ rs --dir . pendencia listar > 07-relatorio/_pendencias_abertas.json
 # manuscrito: subagente com 07-relatorio/prompt_redator_v2.md
 rs --dir . declaracao-ia     # sempre por último, antes do render
 cd 07-relatorio && quarto render relatorio.qmd --to html && quarto render relatorio.qmd --to docx && cd ..
-python3 09-documento-final/gerar_caixa_oqf.py && python3 09-documento-final/montar_revisao_final.py   # documento final
-bash docs/publicar.sh        # entrada, revisão final, relatório técnico e guia em docs/ (GitHub Pages)
+bash ferramentas/refazer_produtos.sh   # sentinela, tabelas de insumo, caixa OQF e publicação (ferramentas/publicar.sh)
 ```
 
 Cuidados:
 
 - `rs bib` regrava `07-relatorio/references.bib` e apaga as três referências acrescentadas à mão (Hardmeier2008, MoyRinke2012, Barnfield2019). Se rodar, acrescente-as de novo.
-- Os números do manuscrito e da revisão final são copiados dos arquivos por subagentes redatores. Se a síntese mudar, os dois textos precisam ser reescritos, não só renderizados. Na revisão final, isso significa editar o esqueleto, remontar, conferir com `09-documento-final/prompt_verificacao.md` e passar a trava de números em todo passe de estilo.
+- Os números do manuscrito e do artigo final são copiados dos arquivos por subagentes redatores. Se a síntese mudar, os dois textos precisam ser reescritos, não só renderizados. O `refazer_produtos.sh` para quando a sentinela de `09-documento-final/spec_v2.md` (seção 10) muda, e a seção diz quais partes reescrever. No artigo, isso significa editar o esqueleto com os prompts de `09-documento-final/prompts_v2/`, remontar, passar `conferir_reestruturacao.py`, rodar a verificação (`prompt_verificacao_final.md`) e passar `conferir_numeros.py` em todo passe de estilo.
 - `rs caixa` é opcional neste tipo de revisão. Rodá-lo abre a pendência `certeza_caixa`, que repete a validação do GRADE.
 - Quando a última pendência fechar, o `rs status` deixa de marcar rascunho. Aí tire a faixa "RASCUNHO NÃO VALIDADO" do topo do `relatorio.qmd`.
 

@@ -118,30 +118,6 @@
   "language": "en"
  },
  {
-  "DOI": "10.33774/apsa-2021-5d090-v2",
-  "author": [
-   {
-    "family": "Araujo",
-    "given": "Víctor"
-   },
-   {
-    "family": "Gatto",
-    "given": "Malu A. C."
-   }
-  ],
-  "id": "Araujo2021",
-  "issued": {
-   "date-parts": [
-    [
-     2021
-    ]
-   ]
-  },
-  "title": "Casting ballots when knowing results",
-  "type": "report",
-  "language": "en"
- },
- {
   "DOI": "10.1017/s000712342100034x",
   "author": [
    {
@@ -158,7 +134,8 @@
   "issued": {
    "date-parts": [
     [
-     2021
+     2021,
+     10
     ]
    ]
   },
@@ -168,6 +145,31 @@
   "volume": "52",
   "issue": "4",
   "page": "1709-1727"
+ },
+ {
+  "DOI": "10.33774/apsa-2021-5d090-v2",
+  "author": [
+   {
+    "family": "Araujo",
+    "given": "Víctor"
+   },
+   {
+    "family": "Gatto",
+    "given": "Malu A. C."
+   }
+  ],
+  "id": "Araujo2021",
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     4
+    ]
+   ]
+  },
+  "title": "Casting ballots when knowing results",
+  "type": "report",
+  "language": "en"
  },
  {
   "DOI": "10.2139/ssrn.3644952",
@@ -3203,7 +3205,7 @@
     [
      2026,
      9,
-     25
+     24
     ]
    ]
   },
@@ -3568,7 +3570,7 @@
     [
      2026,
      9,
-     25
+     24
     ]
    ]
   },
@@ -3613,6 +3615,86 @@
   "title": "Misuse of the sign test in narrative synthesis of evidence",
   "type": "article-journal",
   "volume": "11",
+  "language": "en"
+ },
+ {
+  "DOI": "10.2196/80247",
+  "author": [
+   {
+    "family": "Holst",
+    "given": "Dirk"
+   },
+   {
+    "family": "Moenck",
+    "given": "Keno"
+   },
+   {
+    "family": "Koch",
+    "given": "Julian"
+   },
+   {
+    "family": "Schmedemann",
+    "given": "Ole"
+   },
+   {
+    "family": "Schüppstuhl",
+    "given": "Thorsten"
+   }
+  ],
+  "container-title": "JMIR AI",
+  "id": "Holst2025PRISMAtrAIce",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "page": "e80247",
+  "title": "Transparent Reporting of AI in Systematic Literature Reviews: Development of the PRISMA-trAIce Checklist",
+  "title-short": "Transparent Reporting of AI in Systematic Literature Reviews",
+  "type": "article-journal",
+  "volume": "4",
+  "language": "en"
+ },
+ {
+  "DOI": "10.2196/104210",
+  "author": [
+   {
+    "family": "Moher",
+    "given": "David"
+   },
+   {
+    "family": "Page",
+    "given": "Matthew"
+   },
+   {
+    "family": "McKenzie",
+    "given": "Joanne"
+   },
+   {
+    "family": "Takwoingi",
+    "given": "Yemisi"
+   },
+   {
+    "family": "Mayo-Wilson",
+    "given": "Evan"
+   }
+  ],
+  "container-title": "JMIR AI",
+  "id": "Moher2026PRISMAtrAIce",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "page": "e104210",
+  "title": "PRISMA-trAIce: A Name Without Endorsement",
+  "title-short": "PRISMA-trAIce",
+  "type": "article-journal",
+  "volume": "5",
   "language": "en"
  },
  {

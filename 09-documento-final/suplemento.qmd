@@ -156,15 +156,15 @@ Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses
 
 | Estudo (relatos adicionais) | Ano | Desenho | Exposição | País (região) | Eleição | Contexto | Construto | Risco de viés geral |
 |---|---|---|---|---|---|---|---|---|
-| @Agranov2017a (@Agranov2012a) | 2017 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Estados Unidos (outras) | simulada abstrata | induzido | apoio e mobilização | RoB 2: algumas preocupações (apoio); RoB 2: algumas preocupações (mobilização) |
-| @Alabrese2024a (@Alabrese2022a) | 2024 | painel de distritos com data de entrevista quase aleatória | pesquisa pré-eleitoral | Reino Unido (outras) | candidatos ou partidos | real | apoio e mobilização | ROBINS-I: grave (apoio); ROBINS-I: grave (mobilização) |
-| @Araujo2021a (@Araujo2021) | 2021 | experimento natural | apuração parcial oficial | Brasil (Brasil) | candidatos ou partidos | real | apoio | ROBINS-I: grave |
+| @Agranov2017a [@Agranov2012a] | 2017 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Estados Unidos (outras) | simulada abstrata | induzido | apoio e mobilização | RoB 2: algumas preocupações (apoio); RoB 2: algumas preocupações (mobilização) |
+| @Alabrese2024a [@Alabrese2022a] | 2024 | painel de distritos com data de entrevista quase aleatória | pesquisa pré-eleitoral | Reino Unido (outras) | candidatos ou partidos | real | apoio e mobilização | ROBINS-I: grave (apoio); ROBINS-I: grave (mobilização) |
+| @Araujo2021a [@Araujo2021] | 2021 | experimento natural | apuração parcial oficial | Brasil (Brasil) | candidatos ou partidos | real | apoio | ROBINS-I: grave |
 | @Boukouras2020a | 2020 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Reino Unido; Estados Unidos (outras) | candidatos ou partidos | induzido | apoio | RoB 2: algumas preocupações |
 | @Brugarolas2021 | 2021 | experimento natural | pesquisa pré-eleitoral | Espanha (outras) | candidatos ou partidos | real | mobilização | ROBINS-I: moderado |
-| @Bursztyn2023a (@Bursztyn2017b; @Bursztyn2017c) | 2023 | experimento natural | pesquisa pré-eleitoral | Suíça (outras) | referendo | real | apoio e mobilização | EPOC: alto (apoio); EPOC: baixo (mobilização) |
+| @Bursztyn2023a [@Bursztyn2017b; @Bursztyn2017c] | 2023 | experimento natural | pesquisa pré-eleitoral | Suíça (outras) | referendo | real | apoio e mobilização | EPOC: alto (apoio); EPOC: baixo (mobilização) |
 | @Chatterjee2019a | 2019 | experimento natural | boca de urna | Índia (outras) | candidatos ou partidos | real | apoio e mobilização | EPOC: alto (apoio); EPOC: alto (mobilização) |
 | @Cornejo2023a | 2023 | experimento de survey | pesquisa pré-eleitoral | México (América Latina) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
-| @Dahlgaard2016a (@Dahlgaard2015a; @Dahlgaard2015b; @Dahlgaard2017a) | 2016 | experimento de survey | pesquisa pré-eleitoral | Dinamarca (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
+| @Dahlgaard2016a [@Dahlgaard2015a; @Dahlgaard2015b; @Dahlgaard2017a] | 2016 | experimento de survey | pesquisa pré-eleitoral | Dinamarca (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
 | @Erlich2023 | 2023 | laboratório, candidatos reais | pesquisa pré-eleitoral | Geórgia (outras) | candidatos ou partidos | real | mobilização | RoB 2: alto |
 | @Farjam2020a | 2020 | laboratório, candidatos reais | pesquisa pré-eleitoral | Estados Unidos (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
 | @Feltovich2022 | 2022 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Austrália (outras) | candidatos ou partidos | induzido | apoio | ROBINS-I: grave |
@@ -174,7 +174,7 @@ Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses
 | @Gandhi2019 | 2019 | experimento de survey | pesquisa pré-eleitoral | Malásia (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
 | @Gasperoni2015a | 2015 | campanha simulada online (DPTE) | pesquisa pré-eleitoral | Itália (outras) | candidatos ou partidos | hipotético | apoio | ROBINS-I: crítico |
 | @Geers2018 | 2018 | painel individual | pesquisa pré-eleitoral | Países Baixos (outras) | candidatos ou partidos | real | mobilização | ROBINS-I: grave |
-| @Gerber2020a (@Gerber2017b; @Gerber2017c) | 2020 | experimento de campo | pesquisa pré-eleitoral | Estados Unidos (outras) | candidatos ou partidos | real | apoio e mobilização | RoB 2: algumas preocupações (mobilização) |
+| @Gerber2020a [@Gerber2017b; @Gerber2017c] | 2020 | experimento de campo | pesquisa pré-eleitoral | Estados Unidos (outras) | candidatos ou partidos | real | apoio e mobilização | RoB 2: algumas preocupações (mobilização) |
 | @Grillo2024c | 2024 | experimento natural | boca de urna | França (outras) | candidatos ou partidos | real | mobilização | EPOC: alto |
 | @Groer2010a | 2010 | laboratório, preferências induzidas | pesquisa pré-eleitoral | NR (NR) | simulada abstrata | induzido | mobilização | RoB 2: algumas preocupações |
 | @Kaplan2019a | 2019 | experimento de survey | agregador ou projeção | Estados Unidos (outras) | candidatos ou partidos | hipotético | mobilização | ROBINS-I: crítico |
@@ -184,11 +184,11 @@ Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses
 | @Meer2015a | 2015 | experimento de survey | pesquisa pré-eleitoral | Países Baixos (outras) | candidatos ou partidos | real | apoio | RoB 2: algumas preocupações |
 | @Meffert2011 | 2011 | laboratório, candidatos reais | pesquisa pré-eleitoral | Alemanha (outras) | candidatos ou partidos | real | apoio | RoB 2: alto |
 | @Meffert2012a | 2012 | três desenhos (laboratório induzido, laboratório real, vinheta) | pesquisa pré-eleitoral | Alemanha; Áustria (outras) | candidatos ou partidos | real | apoio | não avaliado (nenhum efeito principal extraído) |
-| @Morton2015a (@Morton2013a) | 2015 | experimento natural | boca de urna | França (outras) | candidatos ou partidos | real | apoio e mobilização | EPOC: alto (apoio); EPOC: alto (mobilização) |
+| @Morton2015a [@Morton2013a] | 2015 | experimento natural | boca de urna | França (outras) | candidatos ou partidos | real | apoio e mobilização | EPOC: alto (apoio); EPOC: alto (mobilização) |
 | @Schlegel2023 | 2023 | experimento de survey | pesquisa pré-eleitoral | Reino Unido (outras) | candidatos ou partidos | hipotético | apoio | RoB 2: algumas preocupações |
-| @Stolwijk2016a (@Stolwijk2017a) | 2016 | painel individual | pesquisa pré-eleitoral | Alemanha (outras) | candidatos ou partidos | real | apoio | ROBINS-I: grave |
+| @Stolwijk2016a [@Stolwijk2017a] | 2016 | painel individual | pesquisa pré-eleitoral | Alemanha (outras) | candidatos ou partidos | real | apoio | ROBINS-I: grave |
 | @Stolwijk2019b | 2019 | painel individual | pesquisa pré-eleitoral | Países Baixos (outras) | candidatos ou partidos | real | mobilização | ROBINS-I: grave |
-| @Tal2015a (@Fairstein2018a; @Fairstein2019a) | 2015 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Estados Unidos (outras) | simulada abstrata | induzido | apoio | RoB 2: alto |
+| @Tal2015a [@Fairstein2018a; @Fairstein2019a] | 2015 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Estados Unidos (outras) | simulada abstrata | induzido | apoio | RoB 2: alto |
 | @Timotei2013a | 2013 | experimento de survey | pesquisa pré-eleitoral | Romênia (outras) | candidatos ou partidos | hipotético | apoio | RoB 2: algumas preocupações |
 | @Tyszler2013 | 2013 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Países Baixos (outras) | simulada abstrata | induzido | apoio | não avaliado (nenhum efeito principal extraído) |
 | @Tyszler2015 | 2015 | laboratório, preferências induzidas | pesquisa pré-eleitoral | Países Baixos (outras) | simulada abstrata | induzido | apoio | RoB 2: algumas preocupações |
@@ -470,21 +470,21 @@ A caixa de ferramentas no formato OQF, célula a célula e no painel por formato
 | Intervenção | Resultado | Comparador | Desenho | Estudos | Direção (a favor / contra / nulo) | p do teste de sinal | Rótulo | Certeza |
 |---|---|---|---|---|---|---|---|---|
 | Boca de urna | Apoio (a quem aparece à frente) | antes × depois da proibição | não randomizado | 2 (@Morton2015a, @Chatterjee2019a) | 1 / 1 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Apuração parcial oficial | Apoio (a quem aparece à frente) | unidades não expostas | não randomizado | 1 (@Araujo2021a) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (*momentum*) | outro | randomizado | 1 (@Meer2015a) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (*momentum*) | outro resultado | não randomizado | 1 (@Stolwijk2016a) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (*momentum*) | sem pesquisa | randomizado | 1 (@Dahlgaard2016a) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Apuração parcial oficial | Apoio (a quem aparece à frente) | unidades não expostas | não randomizado | 1 [@Araujo2021a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Pesquisa pré-eleitoral | Apoio (*momentum*) | outro | randomizado | 1 [@Meer2015a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Pesquisa pré-eleitoral | Apoio (*momentum*) | outro resultado | não randomizado | 1 [@Stolwijk2016a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Pesquisa pré-eleitoral | Apoio (*momentum*) | sem pesquisa | randomizado | 1 [@Dahlgaard2016a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
 | Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | mesmo candidato atrás | randomizado | 4 (@Tal2015a, @Lammers2022a, @Fichnova2015a, @Witsman2016a) | 4 / 0 / 0 | 0,125 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | outro resultado | não randomizado | 1 (@Feltovich2022) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | outro resultado | randomizado | 1 (@Boukouras2020a) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | outro resultado | não randomizado | 1 [@Feltovich2022] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | outro resultado | randomizado | 1 [@Boukouras2020a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
 | Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | sem pesquisa | randomizado | 4 (@Agranov2017a, @Farjam2020a, @Timotei2013a, @Tyszler2015) | 4 / 0 / 0 | 0,125 | Inconclusivo | muito baixa |
 | Pesquisa pré-eleitoral | Apoio (viabilidade) | outro resultado | randomizado | 2 (@Schlegel2023, @Freden2024a) | 1 / 0 / 0 (1 misto) | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (viabilidade) | sem pesquisa | randomizado | 1 (@Cornejo2023a) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Agregador ou projeção | Comparecimento | outro resultado | randomizado | 1 (@Westwood2020a) | 0 / 1 / 0 | 1,000 | Inconclusivo | baixa |
+| Pesquisa pré-eleitoral | Apoio (viabilidade) | sem pesquisa | randomizado | 1 [@Cornejo2023a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Agregador ou projeção | Comparecimento | outro resultado | randomizado | 1 [@Westwood2020a] | 0 / 1 / 0 | 1,000 | Inconclusivo | baixa |
 | Boca de urna | Comparecimento | antes × depois da proibição | não randomizado | 2 (@Morton2015a, @Chatterjee2019a) | 0 / 1 / 0 (1 misto) | 1,000 | Inconclusivo | muito baixa |
-| Boca de urna | Comparecimento | outro resultado | não randomizado | 1 (@Grillo2024c) | 0 / 1 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Comparecimento | outro resultado | randomizado | 1 (@Gerber2020a) | 0 / 0 / 1 | não se aplica | Inconclusivo | moderada |
-| Pesquisa pré-eleitoral | Comparecimento | sem pesquisa | não randomizado | 1 (@Klor2017a) | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Boca de urna | Comparecimento | outro resultado | não randomizado | 1 [@Grillo2024c] | 0 / 1 / 0 | 1,000 | Inconclusivo | muito baixa |
+| Pesquisa pré-eleitoral | Comparecimento | outro resultado | randomizado | 1 [@Gerber2020a] | 0 / 0 / 1 | não se aplica | Inconclusivo | moderada |
+| Pesquisa pré-eleitoral | Comparecimento | sem pesquisa | não randomizado | 1 [@Klor2017a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
 | Pesquisa pré-eleitoral | Comparecimento | sem pesquisa | randomizado | 3 (@Agranov2017a, @Groer2010a, @Erlich2023) | 2 / 1 / 0 | 1,000 | Inconclusivo | muito baixa |
 | Pesquisa pré-eleitoral | Comparecimento | unidades não expostas | não randomizado | 2 (@Stolwijk2019b, @Brugarolas2021) | 2 / 0 / 0 | 0,500 | Inconclusivo | baixa |
 
@@ -688,7 +688,39 @@ As listas do PRISMA 2020, com os 12 itens do resumo, do PRISMA-S, do SWiM e do P
 | **D1** Limitações do uso de IA e como afetaram a revisão. | [Limitações do processo e da síntese (seção 4.4)](revisao.html#sec-limitacoes-processo); [Informações adicionais](revisao.html#informacoes-adicionais), "Declaração de uso de inteligência artificial" | relatado | Etapa por etapa, com a direção provável de cada viés. |
 | **D2** Implicações do uso de IA: experiência, ganhos e desafios. | [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia); [Implicações para a pesquisa (seção 5.3)](revisao.html#sec-pesquisa-futura) | parcial | O texto discute o estatuto do produto e pede revisão humana numa atualização, mas não trata de ganhos de eficiência nem da experiência de uso. |
 
-: PRISMA-trAIce, 17 itens, na versão publicada por [Holst et al. (2025)](https://doi.org/10.2196/80247), usado só como lista de conferência, sem declaração de conformidade: é uma proposta que o PRISMA Executive não endossa ([Moher et al. 2026](https://doi.org/10.2196/104210)), e o livro que orienta esta revisão manda usá-la ao lado dos itens 8, 9 e 11 do PRISMA 2020 [@Lamarca2026Livro]. Situação: 8 relatados, 8 parciais, 1 não se aplica. {#tbl-s11-traice tbl-colwidths="[28,28,10,34]"}
+: PRISMA-trAIce, 17 itens, na versão publicada por @Holst2025PRISMAtrAIce, usado só como lista de conferência, sem declaração de conformidade: é uma proposta que o PRISMA Executive não endossa [@Moher2026PRISMAtrAIce], e o livro que orienta esta revisão manda usá-la ao lado dos itens 8, 9 e 11 do PRISMA 2020 [@Lamarca2026Livro]. Situação: 8 relatados, 8 parciais, 1 não se aplica. {#tbl-s11-traice tbl-colwidths="[28,28,10,34]"}
+
+:::
+
+**Agentes de IA desta versão.** A declaração de uso de IA gerada do *log* do projeto, no relatório técnico, não registra os agentes que prepararam esta versão do artigo, porque nenhum comando da ferramenta de revisão foi rodado nela. A tabela abaixo os lista. A coordenação foi de `claude-opus-5-5`, no Claude Code, e todos os subagentes foram Opus ou Sonnet. Nenhum deles leu o PDF de estudo incluído, e nenhum fez análise nova. As leituras de revisões exemplares, de revisões anteriores e de normas brasileiras usaram só fontes abertas e legítimas (PubMed Central, páginas oficiais, repositórios institucionais e, para páginas oficiais do TSE com acesso direto bloqueado, cópias do Internet Archive). Um agente Sonnet, com instruções escritas na própria chamada, conferiu as regras brasileiras do dia da eleição. Nenhuma dessas etapas valida o conteúdo, e o autor ainda não revisou o texto (P038).
+
+::: {.tabela-larga}
+
+| Prompt | Papel | Modelo | SHA256 (início) |
+|---|---|---|---|
+| `prompt_abertura.md` | abertura e resumo em linguagem simples | claude-opus-5-5 | `7801a66645366259…` |
+| `prompt_arquiteto.md` | especificação do artigo (spec_v2.md) | claude-opus-5-5 | `0da27e7c34e5e6a8…` |
+| `prompt_checklists.md` | listas de conferência do suplemento (S11) | claude-opus-5-5 | `a96b1c3f538aee3e…` |
+| `prompt_correcoes_finais.md` | correções finais da verificação e da revisão visual | claude-opus-5-5 | `6a9be5ddb4e3c0ce…` |
+| `prompt_correcoes_tecnicas.md` | correções técnicas da verificação | claude-opus-5-5 | `645f3824b5ae4251…` |
+| `prompt_estilo_v2.md` | passes de voz (my-voice) e anti-IA (tirar-cara-de-ia) | claude-opus-5-5 | `760c329e644ee871…` |
+| `prompt_exemplares.md` | movimentos das revisões exemplares e rubrica | claude-opus-5-5 | `274006471e8e25c8…` |
+| `prompt_figuras.md` | figuras do artigo | claude-opus-5-5 | `818984a268ea136b…` |
+| `prompt_garritty_revisoes.md` | recomendações de Garritty 2024 e revisões anteriores | claude-opus-5-5 | `5b18876801a327b5…` |
+| `prompt_leituras_criticas.md` | leituras críticas simuladas por IA (L1 métodos, L2 ciência política) | claude-opus-5-5 | `6da8e199d6161478…` |
+| `prompt_livro_regras.md` | regras do livro para o relato e auditoria final | claude-opus-5-5 | `941a8c11bb8eb843…` |
+| `prompt_qa_visual_pdf.md` | revisão visual dos PDFs | claude-opus-5-5 (artigo); claude-sonnet-5 (suplemento) | `76c67f287fc828a1…` |
+| `prompt_redator_v2.md` | redação do corpo do artigo | claude-opus-5-5 | `be5fa236142d951c…` |
+| `prompt_referencias_metodo.md` | referências metodológicas conferidas no Crossref | claude-sonnet-5 | `81f91b78d31f70ba…` |
+| `prompt_revisao_pareceres.md` | revisão depois das leituras críticas | claude-opus-5-5 | `9a65800cfbeb77f5…` |
+| `prompt_rubrica.md` | rubrica cega v1 × v2 | claude-opus-5-5 | `b82bd8dd5853d2ba…` |
+| `prompt_tabelas_montagem.md` | referências, tabelas, montagem e suplemento | claude-opus-5-5 | `df7fb46ef385b6da…` |
+| `prompt_travas.md` | travas da reescrita, células e números derivados | claude-opus-5-5 | `8140aba6e7f65bf6…` |
+| `prompt_verificacao_final.md` | verificação final e auditoria | claude-opus-5-5 | `a5a87e7f9e66b318…` |
+| `prompt_verificacao_v2.md` | verificação independente e auditoria | claude-opus-5-5 | `ee55809d49d30c84…` |
+| `prompt_vitrine.md` | vitrine interativa | claude-opus-5-5 | `d97f25516596655a…` |
+
+: Agentes de IA desta versão: *prompt* (guardado no repositório do projeto), papel, modelo e início do SHA256 do *prompt* no commit desta versão. {#tbl-s11-agentes tbl-colwidths="[30,40,15,15]"}
 
 :::
 

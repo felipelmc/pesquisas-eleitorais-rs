@@ -32,7 +32,7 @@ linhas:
       - {chave: Lago2015}
     so_interpretacao: [Feltovich2022, Meffert2012a]
     evidencia: >-
-      A pesquisa move expectativas. O único teste formal, uma mediação em experimento de campo (@Gerber2020a),
+      A pesquisa move expectativas. O único teste formal, uma mediação em experimento de campo [@Gerber2020a],
       trata da crença sobre a proximidade da disputa e não encontra efeito dela sobre o comparecimento. A
       expectativa de quem vence, que importa para o apoio ao líder, não foi testada por mediação. Os demais
       estudos inferem o canal por contraste
@@ -60,9 +60,9 @@ linhas:
     so_interpretacao: [Grillo2024c, Groer2010a, Kaplan2019a, Gasperoni2015a, Meffert2012a]
     evidencia: >-
       É o canal com mais estudos e com os testes mais diretos (laboratório com incentivos). Dois desses testes
-      (@Tyszler2015; @Tal2015a), no entanto, estão nas células de apoio principal, contados como *bandwagon*, e não
+      [@Tyszler2015; @Tal2015a], no entanto, estão nas células de apoio principal, contados como *bandwagon*, e não
       nas de viabilidade, a que a certeza desta linha se refere. A direção de viabilidade aparece no México
-      (@Cornejo2023a). Na Suécia, o voto de seguro vai contra a deserção do partido pequeno (@Freden2024a)
+      [@Cornejo2023a]. Na Suécia, o voto de seguro vai contra a deserção do partido pequeno [@Freden2024a]
     celulas: [C07, C08]
     certeza_nota: "nas duas células de viabilidade, sem os testes de laboratório"
     sem_teste_formal: false
@@ -81,7 +81,7 @@ linhas:
     so_interpretacao: [Unkelbach2022a]
     evidencia: >-
       Direção *bandwagon* sob processamento heurístico, e a ênfase em quem ganha pesa mais que o número. Um único
-      estudo manipula o canal, em vinheta hipotética (@Lammers2022a). Os demais inferem o canal a partir do padrão
+      estudo manipula o canal, em vinheta hipotética [@Lammers2022a]. Os demais inferem o canal a partir do padrão
       de resultados
     celulas: [C02, C10]
     certeza_nota: "para o efeito nas células em que esses estudos estão (o canal em si fica sem GRADE)"
@@ -114,7 +114,7 @@ linhas:
     so_interpretacao: [Dahlgaard2016a]
     evidencia: >-
       Direção *underdog* ou nula sob o motivo moral de igualdade. A evidência vem de uma única manipulação, em
-      vinheta, e as duas replicações dela têm sinais diferentes (@Lammers2022a)
+      vinheta, e as duas replicações dela têm sinais diferentes [@Lammers2022a]
     celulas: []
     sem_teste_formal: false
     fonte: >-
@@ -129,7 +129,7 @@ linhas:
     so_interpretacao: []
     evidencia: >-
       Efeitos indiretos positivos, maiores pelo entusiasmo que pela ansiedade, numa mediação observacional em painel
-      (@Stolwijk2016a)
+      [@Stolwijk2016a]
     celulas: []
     sem_teste_formal: false
     fonte: >-
@@ -147,7 +147,7 @@ linhas:
       - {chave: Alabrese2024a}
     so_interpretacao: [Morton2015a, Grillo2024c, Groer2010a, Kaplan2019a, Brugarolas2021]
     evidencia: >-
-      No desenho mais forte, um experimento de campo (@Gerber2020a), a pesquisa apertada, frente à folgada,
+      No desenho mais forte, um experimento de campo [@Gerber2020a], a pesquisa apertada, frente à folgada,
       provavelmente não muda o comparecimento além de ±2 p.p. Esse é também o único estudo que isola a crença de
       proximidade, e ela não mostrou efeito sobre o comparecimento. Previsões que fazem a eleição parecer decidida
       (boca de urna, projeção probabilística) vão na direção de desmobilização, em estudos isolados em cada célula.
@@ -169,7 +169,7 @@ linhas:
     evidencia: >-
       Só um estudo testa a divulgação seletiva. Nele, revelar apenas as pesquisas mais favoráveis a um candidato
       aumentou a vitória dele nos três experimentos de laboratório, inclusive quando o eleitor foi avisado do viés
-      (@Boukouras2020a). Nos demais, o tema é só discussão, e @Timotei2013a usa uma pesquisa fabricada como
+      [@Boukouras2020a]. Nos demais, o tema é só discussão, e @Timotei2013a usa uma pesquisa fabricada como
       tratamento
     celulas: [C03]
     certeza_nota: "para o efeito na célula de @Boukouras2020a"
@@ -187,7 +187,7 @@ linhas:
     so_interpretacao: []
     evidencia: >-
       Seis estudos têm linhas de subgrupo com sinais opostos no apoio, mas só dois entre grupos de eleitores ou de
-      processamento (@Cornejo2023a; @Lammers2022a). Como o protocolo exige pelo menos três, a hipótese fica não
+      processamento [@Cornejo2023a; @Lammers2022a]. Como o protocolo exige pelo menos três, a hipótese fica não
       testada
     celulas: []
     sem_teste_formal: "menos de 3 estudos com subgrupos de sinais opostos, como exige o protocolo"
@@ -218,7 +218,7 @@ linhas:
     evidencia: >-
       No alvo principal de apoio, os 8 experimentos hipotéticos ou induzidos e o estudo de laboratório não
       randomizado vão na direção *bandwagon*. Nenhum estudo, porém, mede pesquisa pré-eleitoral numa eleição real.
-      O único experimento em contexto real é uma votação experimental (@Farjam2020a), e os 3 não randomizados em
+      O único experimento em contexto real é uma votação experimental [@Farjam2020a], e os 3 não randomizados em
       eleição real tratam de informação do dia da votação. No comparecimento, a direção muda com o realismo, que se
       confunde com o formato (os estudos reais de desmobilização são de boca de urna). A comparação é descritiva, e
       a contagem por direção não testa a previsão de magnitude

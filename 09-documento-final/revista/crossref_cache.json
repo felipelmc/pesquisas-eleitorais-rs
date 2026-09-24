@@ -4521,6 +4521,206 @@
   },
   "consultado_em": "2026-09-24"
  },
+ "10.2196/104210": {
+  "ok": {
+   "DOI": "10.2196/104210",
+   "type": "journal-article",
+   "title": [
+    "PRISMA-trAIce: A Name Without Endorsement"
+   ],
+   "subtitle": [],
+   "container-title": [
+    "JMIR AI"
+   ],
+   "volume": "5",
+   "issue": null,
+   "page": "e104210-e104210",
+   "article-number": "v5i2e104210",
+   "publisher": "JMIR Publications Inc.",
+   "issued": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      18
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-2434-4206",
+     "authenticated-orcid": false,
+     "given": "David",
+     "family": "Moher",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-4242-7526",
+     "authenticated-orcid": false,
+     "given": "Matthew",
+     "family": "Page",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3534-1641",
+     "authenticated-orcid": false,
+     "given": "Joanne",
+     "family": "McKenzie",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5828-9746",
+     "authenticated-orcid": false,
+     "given": "Yemisi",
+     "family": "Takwoingi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6126-2459",
+     "authenticated-orcid": false,
+     "given": "Evan",
+     "family": "Mayo-Wilson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.2196/80247": {
+  "ok": {
+   "DOI": "10.2196/80247",
+   "type": "journal-article",
+   "title": [
+    "Transparent Reporting of AI in Systematic Literature Reviews: Development of the PRISMA-trAIce Checklist"
+   ],
+   "subtitle": [],
+   "container-title": [
+    "JMIR AI"
+   ],
+   "volume": "4",
+   "issue": null,
+   "page": "e80247-e80247",
+   "article-number": "v4i1e80247",
+   "publisher": "JMIR Publications Inc.",
+   "issued": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      10
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-9918-349X",
+     "authenticated-orcid": false,
+     "given": "Dirk",
+     "family": "Holst",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3892-1588",
+     "authenticated-orcid": false,
+     "given": "Keno",
+     "family": "Moenck",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3700-6425",
+     "authenticated-orcid": false,
+     "given": "Julian",
+     "family": "Koch",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6488-5141",
+     "authenticated-orcid": false,
+     "given": "Ole",
+     "family": "Schmedemann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-9616-3976",
+     "authenticated-orcid": false,
+     "given": "Thorsten",
+     "family": "Schüppstuhl",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
  "10.22174/jcr.2018.55.4.216": {
   "ok": {
    "DOI": "10.22174/jcr.2018.55.4.216",

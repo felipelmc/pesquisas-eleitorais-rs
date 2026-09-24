@@ -20,7 +20,9 @@ Categorias
                 Número sem sinal casa com o valor absoluto; número com sinal negativo só com valor negativo.
                 Os números escritos nos campos de texto de certeza*.csv (enunciado e justificativa do GRADE) entram
                 na lista branca, porque as notas de rebaixamento da SoF saem deles.
-  Células       cada célula de revista/celulas.json tem ao menos um [enunciado literal]{.enunciado cel="Cxx"}; no mesmo
+  Células       cada célula de revista/celulas.json tem ao menos um [enunciado literal]{.enunciado cel="Cxx"} (o texto
+                do span é comparado como o stringify do pandoc o lê: sem os delimitadores de ênfase, como em
+                *bandwagon*, e com espaços normalizados; palavras e pontuação têm de ser iguais); no mesmo
                 parágrafo (ou na mesma linha, se o span estiver numa tabela) aparecem "certeza <nível>" e o k. Fora dos
                 spans, "x de y" (exceto "x de y efeitos"), "p = ..." e "IC 95% a a b" têm de bater com uma célula do
                 parágrafo; p e IC logo depois de um g, EP ou β são de tamanho de efeito e não entram nessa conferência
@@ -508,6 +510,19 @@ def norm_espacos(s):
     return re.sub(r"\s+", " ", s.replace("\u00a0", " ")).strip()
 
 
+RX_ENFASE = re.compile(r"(?<![\w*_\\])(\*{1,3}|_{1,3})(?=[^\s*_])(.+?)(?<=[^\s*_\\])\1(?![\w*_])")
+
+
+def sem_enfase(s):
+    """O texto do span como o pandoc.utils.stringify o devolve quanto \u00e0 \u00eanfase: tira s\u00f3 os delimitadores de it\u00e1lico e
+    negrito (*x*, **x**, _x_), que o stringify descarta; palavras, pontua\u00e7\u00e3o e espa\u00e7os continuam comparados um a um.
+    Assim, "*bandwagon*" no span casa com "bandwagon" em certeza.csv, e qualquer outra diferen\u00e7a continua FALHA."""
+    anterior = None
+    while anterior != s:
+        anterior, s = s, RX_ENFASE.sub(r"\2", s)
+    return s
+
+
 def casa(texto_num, alvo, ingles=False):
     """Compara um número escrito com o valor da célula, com a tolerância das casas decimais escritas."""
     if alvo is None:
@@ -559,7 +574,7 @@ def conferir_celulas(nome, bruto, celulas, rx_chaves, rel, exigir=True):
         if c is None:
             rel.add("Células", "FALHA", f"{nome} linha {s['linha'] + 1}: cel=\"{s['cel']}\" não existe em celulas.json")
             continue
-        if norm_espacos(s["conteudo"]) != norm_espacos(c["enunciado"]):
+        if norm_espacos(sem_enfase(s["conteudo"])) != norm_espacos(c["enunciado"]):
             rel.add("Células", "FALHA", f"{nome} linha {s['linha'] + 1}: span {s['cel']} com texto diferente do "
                                         f"enunciado de certeza.csv: «{norm_espacos(s['conteudo'])[:90]}…»")
             continue

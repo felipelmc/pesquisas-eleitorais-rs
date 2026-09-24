@@ -17,7 +17,7 @@ Checagens
                         rótulo "g (IC)" com arredondamento decimal meio para cima e presente no SVG
   (ii)  texto dos SVG sem termo proibido (benéfic, danos, Neutro, "sem efeito", significativ, travessão) nem
         número com ponto decimal (ponto só como separador de milhar: 1.767); sem espaço inicial ou final em
-        <text> (o Typst o descarta e estica o resto); só a família Fira Sans; corpo mínimo de 6,5 pt; PNG a
+        <text> (o Typst o descarta e estica o resto); só a família Fira Sans; corpo mínimo de 7 pt; PNG a
         300 dpi na largura declarada
   (iii) arestas de dados/dag_arestas.csv iguais às de 00-protocolo/dag_v1.mmd (e nós iguais)
   (iv)  legendas.yml com legenda, alt e largura para as 7 figuras; alt sem números; marcadores resolvidos
@@ -40,7 +40,8 @@ FIG = R / "09-documento-final/revista/figuras"
 DADOS = FIG / "dados"
 SAIDA = FIG / "saida"
 NOMES = ["modelo_logico", "prisma", "rob", "celulas", "direcao", "metas", "realismo"]
-LARGURA = {"texto": 140, "larga": 170}
+LARGURA = {"texto": 140, "larga": 168}  # larga = 140 mm da mancha + 2 x 14 mm do pad do template (sem redução)
+CORPO_MIN = 7.0  # pt; tema_revista.R
 erros = []
 
 
@@ -423,8 +424,8 @@ def conf_svg(nome, largura_mm):
     if fams - {"Fira Sans"}:
         erro(f"{nome}.svg: famílias de fonte fora de Fira Sans: {fams - {'Fira Sans'}}")
     tams = [float(x) for x in re.findall(r"font-size:\s*([\d.]+)px", svg)]
-    if tams and min(tams) < 6.5 - 1e-6:
-        erro(f"{nome}.svg: corpo {min(tams)} pt abaixo de 6,5 pt")
+    if tams and min(tams) < CORPO_MIN - 1e-6:
+        erro(f"{nome}.svg: corpo {min(tams)} pt abaixo de {CORPO_MIN:g} pt")
     m = re.search(r"<svg[^>]*\bwidth='([\d.]+)pt'", svg)
     if not m or abs(float(m.group(1)) - largura_mm / 25.4 * 72) > 0.5:
         erro(f"{nome}.svg: largura diferente de {largura_mm} mm")

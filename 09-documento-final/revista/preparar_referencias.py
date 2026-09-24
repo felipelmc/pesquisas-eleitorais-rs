@@ -16,14 +16,17 @@ Passos:
     como se fosse inglês e estraga nomes próprios ("india", "Marcos do val", "Altera a lei"). O idioma verdadeiro de
     cada item é gravado depois, no passo 4. As chaves não mudam.
  2. Sobreposições de metadados (dicionário SOBREPOSICOES, com a fonte de cada uma), vindas de
-    09-documento-final/insumos/revisoes_anteriores.md, seção 5, por pedido do coordenador; não tocam no .bib.
+    09-documento-final/insumos/revisoes_anteriores.md, seção 5, por pedido do coordenador, e do Crossref (mês dos dois
+    relatos de Araujo e Gatto 2021); não tocam no .bib.
+ 2b. Ordem de desempate (ANTES_NA_BIBLIOGRAFIA): entre relatos de mesmo autor, ano e título, o citado primeiro no
+    texto vem antes no JSON, para a bibliografia seguir a letra do sufixo que o citeproc dá pela ordem de citação.
  3. Tipos: a Lei 9.504 e a Res. TSE 23.600 viram `legislation` com autor institucional; os PLs viram `bill`;
     a notícia do STF segue como `webpage`; os demais @misc sem tipo recebem o tipo do dicionário TIPOS.
  3b. Partículas de sobrenome ("van der", "de") passam de dropping- a non-dropping-particle, para a citação sair
     "van der Meer" e "de Vreese".
  4. `language: en` nos itens em inglês (detecção por palavras funcionais, com IDIOMA_FIXO para os casos certos);
     itens em português recebem `pt-BR` e em dinamarquês, `da`.
- 5. Títulos inteiros em CAIXA ALTA passam a caixa de título.
+ 5. Títulos inteiros em CAIXA ALTA passam a caixa de título, exceto as siglas de SIGLAS_MANTIDAS ("JMIR AI").
  6. Itens com DOI e sem container-title, volume, issue ou page (tipos article-journal, chapter, paper-conference)
     são completados pela API do Crossref (https://api.crossref.org/works/<doi>), com cache em
     revista/crossref_cache.json. Só campos ausentes; nada que já existe é trocado. Se o título do Crossref não
@@ -101,7 +104,26 @@ SOBREPOSICOES = {
                                   "a chave continua Barnfield2019",
         "campos": {"issued": {"date-parts": [[2020]]}},
     },
+    # mês de publicação dos dois relatos de Araujo e Gatto (2021), pedido pela revisão visual (etapa 8b, aceitável 8)
+    "Araujo2021": {
+        "fonte": "Crossref 10.33774/apsa-2021-5d090-v2 (posted-content, posted 2021-04-06), consultado em 24/09/2026",
+        "campos": {"issued": {"date-parts": [[2021, 4]]}},
+    },
+    "Araujo2021a": {
+        "fonte": "Crossref 10.1017/s000712342100034x (published-online 2021-10-05; fascículo impresso 52(4), "
+                 "2022-10), consultado em 24/09/2026",
+        "campos": {"issued": {"date-parts": [[2021, 10]]}},
+    },
 }
+
+# ------------------------------------------------------------------ 2b. ordem de desempate na bibliografia
+# Com autor, ano e título iguais, o citeproc do pandoc (3.8) desempata a ordem da bibliografia pela ordem das entradas
+# no referencias.json e atribui o sufixo do ano ("2021a/b") pela ordem da primeira citação; o mês não entra em nenhuma
+# das duas coisas, porque o CSL da APSA ordena pelo ano renderizado. No artigo e no suplemento, o estudo incluído
+# (@Araujo2021a, BJPolS) é citado no texto antes do preprint (@Araujo2021, só no nocite) e recebe "2021a"; por isso a
+# entrada dele vem antes, para a bibliografia trazer 2021a antes de 2021b. gerar_rotulos_autor_ano.py confere, para
+# todo par com sufixo, que a ordem na bibliografia segue a letra.
+ANTES_NA_BIBLIOGRAFIA = [("Araujo2021a", "Araujo2021")]  # (vem antes, vem depois)
 
 # ------------------------------------------------------------------ 3. tipos
 TIPOS = {
@@ -135,6 +157,8 @@ PAL_PT = {"de", "da", "do", "das", "dos", "e", "para", "sobre", "pesquisas", "pe
           "através", "normas", "eleições", "projeto", "apresenta", "pedido", "criação", "declara", "funciona"}
 PAL_DA = {"og", "af", "på", "hvordan", "påvirkes", "vælgerne", "meningsmålinger", "effekten", "partierne"}
 
+# nomes de periódico que são siglas: ficam em caixa alta no passo 5
+SIGLAS_MANTIDAS = {"JMIR AI"}
 MINUSCULAS_TITULO = {"a", "an", "and", "as", "at", "but", "by", "for", "from", "in", "into", "nor", "of", "on", "or",
                      "the", "to", "with", "vs", "via"}
 CAMPOS_CROSSREF = ("container-title", "volume", "issue", "page")
@@ -346,6 +370,19 @@ def main():
                 log.add(chave, campo, it.get(campo), valor, sob["fonte"])
                 it[campo] = valor
 
+    # 2b. ordem de desempate
+    for primeiro_k, depois_k in ANTES_NA_BIBLIOGRAFIA:
+        ids = [it["id"] for it in itens]
+        if primeiro_k not in ids or depois_k not in ids:
+            log.aviso(primeiro_k, f"ordem de desempate prevista com {depois_k}, mas a chave não está nos .bib")
+            continue
+        i, j = ids.index(primeiro_k), ids.index(depois_k)
+        if i > j:
+            itens.insert(j, itens.pop(i))
+            log.add(primeiro_k, "ordem", f"depois de {depois_k}", f"antes de {depois_k}",
+                    "desempate da bibliografia: o relato citado primeiro no texto recebe o sufixo \"a\" e vem antes "
+                    "(ANTES_NA_BIBLIOGRAFIA)")
+
     # 3. tipos
     for chave, (tipo, autor, motivo) in TIPOS.items():
         it = por_id.get(chave)
@@ -383,7 +420,7 @@ def main():
         it["language"] = lang
         log.add(it["id"], "language", None, lang, f"detecção: {como}")
         for campo in ("title", "container-title"):
-            if it.get(campo) and em_caixa_alta(it[campo]):
+            if it.get(campo) and em_caixa_alta(it[campo]) and it[campo] not in SIGLAS_MANTIDAS:
                 novo = caixa_de_titulo(it[campo])
                 log.add(it["id"], campo, it[campo], novo, "título inteiro em caixa alta passado a caixa de título")
                 it[campo] = novo

@@ -20,7 +20,7 @@ A revisão pergunta se ver uma pesquisa eleitoral muda o voto e a decisão de ir
 
 ## Do que trata esta revisão?
 
-No Brasil, as pesquisas eleitorais voltam ao debate quando as urnas se afastam do que os institutos mostravam. Depois de 2022, projetos de lei propuseram punir quem divulgasse pesquisas que errassem além da margem de erro. Em 2006, o Supremo Tribunal Federal derrubou a proibição de divulgar pesquisas nos 15 dias anteriores à eleição, em nome do direito à informação.
+No Brasil, as pesquisas eleitorais voltam ao debate quando as urnas se afastam do que os institutos mostravam. Em outubro de 2022, projetos de lei propuseram punir quem divulgasse pesquisas que errassem além da margem de erro. Em 2006, o Supremo Tribunal Federal derrubou a proibição de divulgar pesquisas nos 15 dias anteriores à eleição, em nome do direito à informação.
 
 A pergunta de fundo é se ver uma pesquisa muda o voto. Em tese, a pesquisa pode favorecer quem está na frente (o efeito *bandwagon*) ou quem está atrás (o efeito *underdog*). Pode também mudar a decisão de ir votar. Uns desistem por achar a eleição decidida, e outros vão votar porque a disputa parece apertada.
 

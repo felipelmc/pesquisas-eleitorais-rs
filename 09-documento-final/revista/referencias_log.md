@@ -2,9 +2,9 @@
 
 Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à mão. Uma linha por mudança em relação ao que o `quarto pandoc -f bibtex -t csljson` produz dos .bib (que não são alterados).
 
-- Entradas: 107 (58 de 07-relatorio/references.bib, 13 de 09-documento-final/referencias_contexto.bib, 13 de 09-documento-final/referencias_excluidos.bib, 23 de 09-documento-final/referencias_metodo.bib).
+- Entradas: 109 (58 de 07-relatorio/references.bib, 13 de 09-documento-final/referencias_contexto.bib, 13 de 09-documento-final/referencias_excluidos.bib, 25 de 09-documento-final/referencias_metodo.bib).
 - Entradas completadas pelo Crossref: 45.
-- Avisos: 11.
+- Avisos: 13.
 - Com DOI, mas de tipo que não usa periódico, volume, número ou páginas (report, thesis, book, article), por isso sem consulta ao Crossref: Agranov2012a, Alabrese2022a, Alabrese2024a, Araujo2021, Boukouras2020a, Bursztyn2017b, Chatterjee2019a, Erlich2023, Fairstein2018a, Freden2016b, Gerber2017b, Kaplan2019a, Urminsky2019, Yang2023d, Pustejovsky2026ClubSandwich, CampbellCollaboration2016PLS, Schaefer2025OQF, Scheuerman2019, Reveco2026.
 
 | Chave | Campo | Antes | Depois | Fonte ou motivo |
@@ -20,6 +20,9 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | MoyRinke2012 | page | (ausente) | 225-245 | 09-documento-final/insumos/revisoes_anteriores.md, seção 5 (tabela "Como essas obras aparecem no projeto"), aplicada por pedido do coordenador em 24/09/2026; autores, organizadores, livro e páginas também no Crossref (10.1057/9780230374959_11 e 10.1057/9780230374959) |
 | MoyRinke2012 | publisher | (ausente) | Palgrave Macmillan | 09-documento-final/insumos/revisoes_anteriores.md, seção 5 (tabela "Como essas obras aparecem no projeto"), aplicada por pedido do coordenador em 24/09/2026; autores, organizadores, livro e páginas também no Crossref (10.1057/9780230374959_11 e 10.1057/9780230374959) |
 | MoyRinke2012 | publisher-place | (ausente) | Basingstoke | 09-documento-final/insumos/revisoes_anteriores.md, seção 5 (tabela "Como essas obras aparecem no projeto"), aplicada por pedido do coordenador em 24/09/2026; autores, organizadores, livro e páginas também no Crossref (10.1057/9780230374959_11 e 10.1057/9780230374959) |
+| Araujo2021 | issued | {"date-parts": [[2021]]} | {"date-parts": [[2021, 4]]} | Crossref 10.33774/apsa-2021-5d090-v2 (posted-content, posted 2021-04-06), consultado em 24/09/2026 |
+| Araujo2021a | issued | {"date-parts": [[2021]]} | {"date-parts": [[2021, 10]]} | Crossref 10.1017/s000712342100034x (published-online 2021-10-05; fascículo impresso 52(4), 2022-10), consultado em 24/09/2026 |
+| Araujo2021a | ordem | depois de Araujo2021 | antes de Araujo2021 | desempate da bibliografia: o relato citado primeiro no texto recebe o sufixo "a" e vem antes (ANTES_NA_BIBLIOGRAFIA) |
 | Brasil1997Lei9504 | type | (ausente) | legislation | lei federal |
 | Brasil1997Lei9504 | author | [{"literal": "Brasil. Presidência da República"}] | [{"literal": "Brasil"}] | autor institucional (lei federal) |
 | TSE2019Res23600 | type | (ausente) | legislation | resolução do TSE |
@@ -42,8 +45,8 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | Agranov2017a | language | (ausente) | en | detecção: palavras funcionais (en 9, pt 0) |
 | Alabrese2022a | language | (ausente) | en | detecção: palavras funcionais (en 7, pt 0) |
 | Alabrese2024a | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |
-| Araujo2021 | language | (ausente) | en | detecção: palavras funcionais (en 1, pt 0) |
 | Araujo2021a | language | (ausente) | en | detecção: palavras funcionais (en 2, pt 0) |
+| Araujo2021 | language | (ausente) | en | detecção: palavras funcionais (en 1, pt 0) |
 | Boukouras2020a | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |
 | Brugarolas2021 | language | (ausente) | en | detecção: palavras funcionais (en 6, pt 0) |
 | Bursztyn2017b | language | (ausente) | en | detecção: palavras funcionais (en 7, pt 0) |
@@ -134,6 +137,8 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | Schaefer2025OQF | language | (ausente) | pt-BR | detecção: IDIOMA_FIXO |
 | Lamarca2026Livro | language | (ausente) | pt-BR | detecção: IDIOMA_FIXO |
 | Nikolakopoulos2020SignTest | language | (ausente) | en | detecção: palavras funcionais (en 5, pt 0) |
+| Holst2025PRISMAtrAIce | language | (ausente) | en | detecção: palavras funcionais (en 6, pt 0) |
+| Moher2026PRISMAtrAIce | language | (ausente) | en | detecção: palavras funcionais (en 1, pt 0) |
 | Scheuerman2019 | language | (ausente) | en | detecção: palavras funcionais (en 2, pt 0) |
 | Scheuerman2020 | language | (ausente) | en | detecção: palavras funcionais (en 4, pt 0) |
 | Scheuerman2021 | language | (ausente) | en | detecção: palavras funcionais (en 6, pt 0) |
@@ -249,6 +254,8 @@ Gerado por `09-documento-final/revista/preparar_referencias.py`; não edite à m
 | Sterne2019RoB2 | AVISO |  | Crossref 10.1136/bmj.l4898 sem os campos que faltam (issue) |  |
 | Sterne2016ROBINSI | AVISO |  | Crossref 10.1136/bmj.i4919 sem os campos que faltam (issue) |  |
 | Viechtbauer2010Metafor | AVISO |  | Crossref 10.18637/jss.v036.i03 sem os campos que faltam (page) |  |
+| Holst2025PRISMAtrAIce | AVISO |  | Crossref 10.2196/80247 sem os campos que faltam (issue) |  |
+| Moher2026PRISMAtrAIce | AVISO |  | Crossref 10.2196/104210 sem os campos que faltam (issue) |  |
 | Scheuerman2020 | page | (ausente) | 1993-1995 | Crossref 10.65109/bwyg4163 (similaridade de título 1.00) |
 | Scheuerman2021 | volume | (ausente) | 35 | Crossref 10.1609/aaai.v35i6.16716 (similaridade de título 1.00) |
 | Scheuerman2021 | issue | (ausente) | 6 | Crossref 10.1609/aaai.v35i6.16716 (similaridade de título 1.00) |

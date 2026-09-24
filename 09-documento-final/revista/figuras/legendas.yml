@@ -3,7 +3,7 @@
 # Campos de cada figura:
 #   legenda: texto da legenda, em Markdown (itálico, negrito e @chave de citação valem).
 #   alt:     texto alternativo (1 ou 2 frases, sem números), vai em fig-alt.
-#   largura: texto (140 mm) ou larga (170 mm, bloco largo; o montador envolve em ::: {.figura-larga}).
+#   largura: texto (140 mm) ou larga (168 mm, bloco largo; o montador envolve em ::: {.figura-larga}).
 #
 # Números na legenda entram só como marcadores {alias:caminho}, que montar_revisao_final.py resolve:
 #   - alias: uma das chaves de `_arquivos` abaixo; `arquivo` é o caminho a partir da raiz do projeto e `base`,
@@ -113,8 +113,8 @@ metas:
   largura: larga
   legenda: >-
     Meta-análises exploratórias, em g de Hedges (positivo = *bandwagon*). O painel **a** compara pesquisa
-    pré-eleitoral com nenhuma pesquisa ({meta:k_estudos} estudos e {meta:k_efeitos} efeitos; os dois efeitos de
-    @Tyszler2015 vêm de valores diferentes da opção intermediária). O painel **b** compara o mesmo candidato
+    pré-eleitoral com nenhuma pesquisa [{meta:k_estudos} estudos e {meta:k_efeitos} efeitos\; os dois efeitos de
+    @Tyszler2015 vêm de valores diferentes da opção intermediária]. O painel **b** compara o mesmo candidato
     mostrado à frente ou atrás ({meta_mesmo:k_estudos} estudos e {meta_mesmo:k_efeitos} efeitos). Os quadrados
     são os efeitos, com o intervalo de 95% de cada um. O losango vazado é a estimativa combinada do modelo de
     efeitos correlacionados e hierárquicos (CHE) com erro-padrão robusto (RVE). Os graus de liberdade de
@@ -135,7 +135,7 @@ realismo:
     Direção do efeito por realismo do contexto (eleição hipotética, preferências induzidas em laboratório ou
     eleição real), separada por classe de desenho, no apoio a quem aparece à frente (célula principal) e no
     comparecimento. Cada bloco é um estudo numa célula da síntese principal. O bloco claro e tracejado é um estudo
-    em risco crítico, fora do teste de sinal. No apoio, o único experimento em contexto real (@Farjam2020a) é uma
+    em risco crítico, fora do teste de sinal. No apoio, o único experimento em contexto real [@Farjam2020a] é uma
     votação experimental com organizações reais, sem eleição em curso, e os estudos reais não randomizados tratam
     de informação do dia da votação. Trata-se de uma comparação descritiva, sem teste.
   alt: >-
