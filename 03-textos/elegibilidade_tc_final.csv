@@ -82,6 +82,7 @@ RS2053,Ragozzino2014c,excluir,c1_populacao_contexto,"""To test the effects of op
 RS2144,Graefe2015a,excluir,c2_intervencao_estudada,"""public opinion polls are major predictors in election forecasting models"" (p. 7); ""tests the predictive performance of equal and regression weights"" (p. 7)",7
 RS2158,Ognibene2021a,excluir,c2_intervencao_estudada,"""pre-election polls are shown to be a relatively good proxy"" (p. 9); ""Support for a Party in the Home-Country (VoteSharePolls)"" (p. 9)",9
 RS2170,Cochrane2017a,excluir,c2_intervencao_estudada,"""it is argued that the publications of voter-intention polls"" (p. 17)",17
+RS2200,Strijbis2017a,excluir,c1_populacao_contexto,"""Die Gegenüberstellung von Vorhersagemodellen vor nationalen Wahlen"" (p. 442)",442
 RS2240,Gerber2017c,incluir,,,
 RS2247,Boukouras2020a,incluir,,,
 RS2328,Freden2024a,incluir,,,
@@ -95,15 +96,19 @@ RS2696,Verdun2025a,excluir,c2_intervencao_estudada,"""the (exit) polls, which pr
 RS2747,Reveco2026,excluir,c2_intervencao_estudada,"[decisão humana: revisor_humano_1] decisão do revisor humano em 19/09/2026 sobre caso limítrofe apontado pela ficha de elegibilidade (03-textos/fila_humana_tc_resumo.md): a exposição junta boca de urna e contagem parcial oficial, sem separação; o efeito não é atribuível à pesquisa",
 RS2794,Hansen2012a,excluir,c2_intervencao_estudada,"""to examine which factors induce or prohibit late decisions"" (p. 133); ""in 1998 the opinion polls consistently predicted"" (p. 130)",133
 RS2982,Meffert2010,excluir,c2_intervencao_estudada,"""vignettes presenting hypothetical coalition announcements by Austrian parties"" (p. 8); ""independently and separately from any other factor such as poll results"" (p. 17)",8
+RS2984,Matos2013,excluir,c2_intervencao_estudada,"""sequence of poll data will allow us to correctly calibrate the model"" (p. 21)",21
 RS2996,Tyszler2015,incluir,,,
 RS3007,Leon2017,excluir,c2_intervencao_estudada,"""individual level variation in the cost of abstention"" (p. 12)",12
 RS3064,Houser2011,excluir,c2_intervencao_estudada,"""We used two campaign advertisement treatments"" (p. 16)",16
 RS3152,Morton2015b,excluir,c2_intervencao_estudada,"""revealing vote distributions after each election"" (p. 24); ""information about previous voting behavior in prior elections"" (p. 24)",24
 RS3207,Paola2013,excluir,c2_intervencao_estudada,"""Electoral Margin represents an inverse measure of expected electoral closeness"" (p. 6); ""between the number of votes obtained by the two leading candidates"" (p. 6)",6
 RS3236,Straeten2010,excluir,c2_intervencao_estudada,"""treatment is to vary the electoral system"" (p. 6)",6
+RS3266,Schonbrodt2013,excluir,c1_populacao_contexto,"""Simulate a bivariate Gaussian distribution"" (p. 6)",6
+RS3364,Selb2012,excluir,c2_intervencao_estudada,"""we formally decompose turnout bias in election surveys"" (p. 186)",186
 RS3371,Meer2012,excluir,c2_intervencao_estudada,"""whether and how changes in voting behaviour are structured"" (p. 3)",3
 RS3410,Meffert2011a,excluir,c2_intervencao_estudada,"""the vote intention for the Left Party was regressed on indicators"" (p. 812); ""a plausible objective benchmark is needed"" (p. 808)",812
 RS3446,Hillman2010,excluir,c2_intervencao_estudada,"""I use expressive voting to illustrate expressive behavior"" (p. 2)",2
+RS3503,Cancela2016,excluir,c2_intervencao_estudada,"""electoral closeness, campaign expenditures, and political fragmentation"" (p. 8); ""media attention and the publication of opinion polls"" (p. 15)",8
 RS3525,Moreno2016,excluir,c2_intervencao_estudada,"""In our treatment with conformity, the additional payoff is received only if"" (p. 3); ""a binary-decision voting game in which agents are heterogeneous"" (p. 21)",3
 RS3527,Meffert2012a,incluir,,,
 RS3538,Moy2012,excluir,c4_desenho_elegivel,"""We begin with a review of the types of information"" (p. 2)",2
@@ -130,11 +135,14 @@ RS3784,Freden2021,excluir,c4_desenho_elegivel,"""a mixed logit model has been ch
 RS3796,Araujo2021,incluir,,"[decisão humana: revisor_humano_1] Divulgacao oficial de apuracao parcial enquanto urnas atrasadas ainda votavam; incluido por emenda ao C2 registrada em 00-protocolo/emendas.md. Decisao do revisor humano em 20/09/2026 (03-textos/fila_humana_tc_ciclo2.md, Grupo C).",
 RS3802,Urminsky2019,incluir,,,
 RS3809,Anon2021,excluir,c1_populacao_contexto,"""державного управління в частині соціального прогнозування"" (p. 257)",257
+RS3828,Pekar2021,excluir,c2_intervencao_estudada,"""we use the detected voting intentions as a predictor"" (p. 5); ""we address the task of using social media data to forecast daily opinion polls"" (p. 5)",5
 RS3832,Araujo2021a,incluir,,"[decisão humana: revisor_humano_1] Divulgacao oficial de apuracao parcial enquanto urnas atrasadas ainda votavam; incluido por emenda ao C2 registrada em 00-protocolo/emendas.md. Decisao do revisor humano em 20/09/2026 (03-textos/fila_humana_tc_ciclo2.md, Grupo C).",
 RS3902,Dahlgaard2015b,incluir,,,
+RS3919,Buckley2022,excluir,c3_desfecho,"""coding the top two categories as 1"" (p. 4)",4
 RS3921,Misko2022,excluir,c2_intervencao_estudada,"""fókuszában csak a taktikai szavazás elméleti megközelítése áll"" (p. 99)",99
 RS3954,Stoetzer2022,excluir,c3_desfecho,"""based on which respondents can infer the winning chances of party A"" (p. 11); ""We again elicit beliefs about the vote share of the winning candidate"" (p. 15)",11
 RS3965,Leontiou2023,excluir,c2_intervencao_estudada,"""We introduce loss aversion with respect to the expected equilibrium payoffs"" (p. 3)",3
+RS3970,Heeb2023,excluir,c2_intervencao_estudada,"""the opportunity to invest in a climate-conscious fund"" (p. 1); ""Opinion polls surveying voting intentions measured 74% in favor"" (p. 26)",1
 RS3978,Yang2023d,incluir,,"[decisão humana: revisor_humano_1] Ficha com os seis criterios atendidos e gate de citacoes limpo; caiu em incerto por falso positivo do classificador da skill, que casa a substring 'incert' e o estudo trata de visualizacao de incerteza. Decisao do revisor humano em 20/09/2026 (03-textos/fila_humana_tc_ciclo2.md, Grupo A).",
 RS3980,Erlich2023,incluir,,,
 RS3984,Revelli2023,excluir,c2_intervencao_estudada,"""It is the informational consequences of these rare events"" (p. 4); ""on voter turnout rates of exposure for geographical reasons to spill-overs"" (p. 1)",4
@@ -143,6 +151,7 @@ RS4005,Gee2024,excluir,c1_populacao_contexto,"""Students at Tufts University par
 RS4011,Stoetzer2024,excluir,c3_desfecho,"""expected vote share of the candidates as a percentage"" (p. 6); ""the average expected and final vote share of constituency candidates"" (p. 8)",6
 RS4049,Brownback2024,excluir,c1_populacao_contexto,"""subjects recruited from the University of Arkansas"" (p. 452); ""subjects considered binary choices"" (p. 452)",452
 RS4053,Magesan2024,excluir,c1_populacao_contexto,"""any citizen can sign and add her name to the petition"" (p. 8)",8
+RS4119,Marinovic2013,excluir,c1_populacao_contexto,"""The forecast data is obtained from a survey of professional forecasters"" (p. 22)",22
 RS4133,Reuben2015,excluir,c2_intervencao_estudada,"""formation of advocacy groups as an additional channel of information"" (p. 7)",7
 RS4157,Lago2015,incluir,,,
 RS4203,Tyszler2013,incluir,,,
@@ -159,6 +168,7 @@ RS4361,Corbetta2013,excluir,c2_intervencao_estudada,"[decisão humana: revisor_h
 RS4362,Fehrler2024,excluir,c1_populacao_contexto,"""In Treatment 1, 116 students (average age: 22 years old"" (p. 13)",13
 RS4375,Kawai2013,excluir,c4_desenho_elegivel,"""We estimate the model using an inequality-based estimator developed by Pakes"" (p. 28); ""We use municipality-level aggregate data for our estimation."" (p. 41)",28
 RS4377,Kawai2012,excluir,c2_intervencao_estudada,"""we study how to identify and estimate a model of strategic voting"" (p. 2); ""information regarding the expected outcome of the election is widely available"" (p. 8)",2
+RS4384,Santos2021,excluir,c2_intervencao_estudada,"""an advert reminding voters that voting is a civic duty"" (p. 6)",6
 RS4402,Svolik2021,excluir,c2_intervencao_estudada,"""randomly assigned to endorse a measure that violates democratic principles"" (p. 669)",669
 RS4448,Feltovich2022,incluir,,,
 RS4466,Puppe2023,excluir,c2_intervencao_estudada,"""The treatment variable was the collective decision rule employed."" (p. 1)",1

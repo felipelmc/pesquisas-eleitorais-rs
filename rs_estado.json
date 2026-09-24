@@ -923,7 +923,7 @@
       "descricao": "conferir 150 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P022]",
       "n": 150,
       "arquivo": "03-textos/elegibilidade_tc_final.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P029",
@@ -1034,6 +1034,16 @@
       "n": 560,
       "arquivo": "05-decomposicao/verificacao_efeitos.csv",
       "status": "aberta"
+    },
+    {
+      "id": "P040",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 160 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P028]",
+      "n": 160,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "aberta"
     }
   ],
   "contagens_cache": {
@@ -1046,5 +1056,5 @@
       }
     }
   },
-  "ultimo_seq": 817
+  "ultimo_seq": 820
 }
