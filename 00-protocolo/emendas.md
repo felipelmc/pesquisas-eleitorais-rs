@@ -14,7 +14,7 @@ Como usar este arquivo
 -->
 
 Projeto: Exposição a pesquisas eleitorais publicadas → intenção de voto (bandwagon/underdog)
-Protocolo congelado: v1.0 em (preencher no G2) | Registro: não registrado (o usuário pode registrar no OSF; anotar DOI/URL e data aqui)
+Protocolo congelado: v1.0 em 19/09/2026 (G2, evento seq 8) | Registro: não registrado (o usuário pode registrar no OSF; anotar DOI/URL e data aqui)
 
 ## Resumo
 
@@ -29,6 +29,9 @@ D método planejado não executado · E correção de erro ou incoerência.
 | Emenda 1 | 2026-09-20 | protocolo.md v2 | critério C2 | C | elegibilidade, ciclo 2 | não (afeta só Araujo2021/2021a) |
 | Emenda 2 | 2026-09-20 | codebook_v0_efetividade.csv v2 | b2_estimando, b2_modelo_principal, b2_criterio_modelo_principal | C | piloto de extração (G6) | não (piloto não repetido; recodificação nos 3 textos do piloto na rodada completa) |
 | Emenda 3 | 2026-09-23 | codebook_v0_rob2/robins_i/epoc.csv (novos) | seção 7, codebooks de risco de viés | E | extração e RoB (G7), antes de qualquer avaliação | não |
+| Emenda 4 | 2026-09-23 | v1.0 (protocolo não alterado) | seções 6 a 8: convenções de RoB geral EPOC, *momentum*, ICC imputado, consenso de RoB | C | depois da extração, antes de qualquer análise de efeito | não (4d substituída pela Emenda 6a) |
+| Emenda 5 | 2026-09-23 | v1.0 (protocolo não alterado) | seção 8, síntese | C | depois da primeira síntese (G8) | SWiM, meta exploratória e GRADE refeitos |
+| Emenda 6 | 2026-09-23 | v1.0 (protocolo não alterado) | seções 5 e 10: atribuição de decisões e registros sem resumo | E e C | depois do G9 | triagem complementar de 336 registros; texto completo dos que seguirem; síntese e relato refeitos |
 
 ## E001
 
@@ -109,7 +112,7 @@ Decisões do `revisor_humano_1` por questionário, em 23/09/2026, depois da extr
 
 **4c. Ajuste de conglomerado sem ICC relatado.** Nos efeitos de desenhos em conglomerado (sessão ou grupo de laboratório atribuído à condição; rodadas repetidas do mesmo grupo) sem EP já ajustado, a variância é multiplicada pelo efeito de desenho 1 + (m − 1)·ICC, com m = tamanho médio do conglomerado (participantes por grupo ou rodadas por grupo, o que for a unidade da estimativa) e ICC imputado = 0,05 na análise principal e 0,20 na sensibilidade. *Por quê:* nenhum estudo relata ICC, e sem ajuste a variância sai subestimada (Cochrane Handbook, cap. 23, ICC emprestado com análise de sensibilidade). A seção 6 do protocolo já pedia o ajuste com tamanho médio e ICC; a emenda só fixa o valor imputado. *Tipo:* desvio declarado.
 
-**4d. Consenso de risco de viés.** As 88 propostas do árbitro (45 RoB 2, 34 ROBINS-I, 9 EPOC) foram confirmadas em bloco pelo `revisor_humano_1`, com trecho literal conferido por script. O árbitro seguiu o avaliador A em 79 domínios (90%), B em 7 e propôs terceiro valor em 2; como A e árbitro são o mesmo modelo, a proporção é declarada como possível viés de afinidade. Os 171 domínios concordantes entre A e B continuam sem validação humana (`validado_humano = 0`).
+**4d. Consenso de risco de viés.** *(Substituída pela Emenda 6a: a confirmação em bloco não aconteceu.)* As 88 propostas do árbitro (45 RoB 2, 34 ROBINS-I, 9 EPOC) foram confirmadas em bloco pelo `revisor_humano_1`, com trecho literal conferido por script. O árbitro seguiu o avaliador A em 79 domínios (90%), B em 7 e propôs terceiro valor em 2; como A e árbitro são o mesmo modelo, a proporção é declarada como possível viés de afinidade. Os 171 domínios concordantes entre A e B continuam sem validação humana (`validado_humano = 0`).
 
 ## Emenda 5 — 23/09/2026 — correções da síntese após o revisor metodológico do G8 (tipo C, decididas depois de ver os dados)
 
@@ -125,3 +128,30 @@ Motivo: o revisor metodológico (subagente, `06-analise/revisao_metodologica_g8.
 8. **Nulo por ±δ (R09).** Efeito principal com IC95 inteiro dentro de ±δ (0,044 para apoio, 0,046 para mobilização) entra na SWiM como nulo: Gerber2020a E12 e E31, Bursztyn2023a E17.
 9. **Sinal sem t, β ou r.** Na entrada da SWiM, β recebe efeito_pp, p1 − p0 ou ln(OR) só para dar o sinal (coluna `beta_proxy_sinal`): Schlegel2023, Stolwijk2016a, Stolwijk2019b, Tal2015a.
 10. **Sensibilidades (R08).** Rodadas no agrupamento amplo: sem contextos induzidos ou hipotéticos (`realismo_contexto = real`), sem dados anteriores a 2010 (Morton2015a e Chatterjee2019a recodificados para `ano_eleicao_pre2010 = sim`, pois a exposição é anterior às reformas de 2005 e 2010), sem Araujo2021a (Emenda 1), com os efeitos fora da contagem e com os críticos. O artigo como conglomerado no RVE não se aplica (não há meta principal).
+
+## Emenda 6 — 23/09/2026 — correção de atribuição humana e triagem complementar dos registros sem resumo (tipos E e C)
+
+**6a. Correção de atribuição (tipo E).** Na retomada de 23/09/2026, o revisor humano declarou que **não conferiu** decisões que o log e os arquivos registravam como suas. A tabela completa, evento a evento, está em `00-protocolo/correcao_atribuicao.csv` (449 linhas). Em resumo:
+
+- **Não foram conferidas por humano:**
+  - 336 exclusões na T/A de registros **sem resumo**, propostas pelos triadores de IA a partir do título (eventos `decisao_override` de 19 e 20/09, motivo "conferida e assumida pelo revisor humano");
+  - as 88 propostas do árbitro de risco de viés que a Emenda 4d dava como "confirmadas em bloco";
+  - 3 decisões de texto completo (seq 669 a 671) em que a IA estendeu a caso novo uma regra que o revisor tinha decidido para o Grupo B do ciclo 2;
+  - a Emenda 2 (seq 718), decidida pelo coordenador de IA;
+  - o fechamento do P034 (seq 782).
+- **Confirmadas pelo revisor como decisões dele, tomadas na conversa:**
+  - a aprovação do G1 e do G2;
+  - a Emenda 1;
+  - as 17 decisões de casos limítrofes de texto completo (seq 321 a 327 e 553 a 562; a seq 557 é uma linha de teste, substituída pela 558).
+
+O `rs_log.jsonl` e o `dados/decisoes.jsonl` só aceitam acréscimo. Por isso as linhas antigas continuam lá, e esta emenda, junto com a tabela, é o registro da correção. Nos arquivos `04-qualidade/rob_*_consenso.csv`, `resolvido_por` passou de `revisor_humano_1` para `arbitro_ia:claude-opus-5-5`. Isso não muda nenhum julgamento e mantém `validado_humano = 0` em todo o RoB. A Emenda 4d fica substituída.
+
+**6b. Registros sem resumo (tipo C, decidida pelo revisor humano em 23/09/2026, depois de ver os dados).** O revisor decidiu que **nenhum registro é excluído só pelo título**. Os 336 registros de 6a passam por uma etapa complementar feita só por IA, e o revisor dispensou a conferência dela:
+
+1. O resumo é recuperado em fontes legítimas, nesta ordem: OpenAlex, Crossref, Semantic Scholar, Europe PMC e metadados da página do DOI. O que já tinha vindo em 19 e 20/09 é reaproveitado. Os arquivos ficam em `02-triagem/sem_resumo_revisao/`.
+2. Dois triadores de IA independentes, A (`claude-sonnet-5`) e B (`claude-opus-5-5`), aplicam os critérios congelados de `02-triagem/prompts/ta_v1.md`, sem mudança, ao título e ao resumo recuperado. Vale a mesma regra liberal da ta_v1: o registro só é excluído se **os dois** excluírem, cada um com critério e trecho literal do resumo recuperado. Em qualquer outro caso ele segue ao texto completo. O TLDR automático do Semantic Scholar não serve de base para exclusão.
+3. Registro sem resumo recuperado segue ao texto completo.
+4. No texto completo, os registros que seguiram passam pelo fluxo usual: busca do PDF só em fontes legítimas, ficha de elegibilidade por subagente e `textos elegibilidade consolidar`. Os que não forem obtidos ficam como "não recuperados", nunca como excluídos.
+5. As decisões entram no ledger por `triagem override --por ia_coordenador_emenda6`, porque é o único caminho do `rs.py` para substituir as linhas antigas. O comando grava `tipo_ator = humano` fixo. Por isso o papel (`ia_coordenador_emenda6`) e o motivo de cada linha dizem que a decisão é da IA, e esta emenda documenta a limitação. Nenhuma dessas linhas conta como validação humana no relato.
+
+**Efeito.** Pode mudar o conjunto de incluídos. Se mudar, extração, RoB, síntese, GRADE e relato são refeitos pela cadeia do README. As contagens do PRISMA passam a mostrar as exclusões da etapa 6b à parte.
