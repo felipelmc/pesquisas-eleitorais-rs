@@ -1,0 +1,63 @@
+# Tab. 4 (tbl-oqf): caixa de ferramentas no formato OQF para a pergunta principal
+# (pesquisa pré-eleitoral × apoio a quem aparece à frente). Lida por montar_revisao_final.py (@@TABELA oqf_principal@@).
+# A prosa é editável pelo passe de estilo; os números entram por marcadores que o montador resolve lendo os arquivos:
+#   {num:caminho}   09-documento-final/insumos/tabelas/numeros.json (ex.: {num:meta.g}, {num:meta.ic.0})
+#   {calc:nome}     valores calculados pelo montador a partir de 06-analise/caixa_ferramentas.csv,
+#                   09-documento-final/insumos/caixa_oqf.json e revista/celulas.json:
+#                     forca                 rótulo e força da caixa por classe de desenho (regra caixa-3)
+#                     n_celulas, n_estudos  células e estudos de pesquisa pré-eleitoral × apoio (principal, viabilidade, momentum)
+#                     certezas              níveis de certeza dessas células, por extenso
+#                     rotulo_implementacao, rotulo_custo   rótulos que a caixa gerada registra nessas linhas
+# Sem caminhos de arquivo: a coluna "evidencia" aponta para seções do artigo (@sec-...), figuras e tabelas, e para o
+# suplemento em texto.
+legenda: >-
+  Caixa de ferramentas no formato OQF para a pergunta principal: pesquisa pré-eleitoral e apoio a quem aparece à
+  frente. Rótulos pela regra `caixa-3`; a certeza GRADE qualifica a direção e é rascunho de IA não validado.
+larguras: [12, 50, 24, 14]
+linhas:
+  - dimensao: Escala
+    resultado: >-
+      Não estimada. Não há meta-análise principal. As duas metas exploratórias deram g = {num:meta.g}
+      (IC 95% {num:meta.ic.0} a {num:meta.ic.1}; {num:meta.k_estudos} estudos) e g = {num:meta_mesmo_candidato.g}
+      (IC 95% {num:meta_mesmo_candidato.ic.0} a {num:meta_mesmo_candidato.ic.1};
+      {num:meta_mesmo_candidato.k_estudos} estudos), ambas com menos de 4 graus de liberdade
+    evidencia: "@sec-apoio; @fig-metas; suplemento, S6"
+    certeza: "muito baixa (a das células)"
+  - dimensao: Força
+    resultado: >-
+      Inconclusivo ({calc:forca}). São {calc:n_celulas} células com {calc:n_estudos} estudos, somando o alvo
+      principal, a viabilidade e o *momentum*
+    evidencia: "@sec-efeito; @tbl-sof; suplemento, S9"
+    certeza: "{calc:certezas} em todas as células"
+  - dimensao: Mecanismo
+    resultado: >-
+      Descritivo. Voto estratégico e viabilidade é o canal com mais estudos e com testes diretos em laboratório; a
+      heurística de consenso tem uma manipulação, em vinheta (@Lammers2022a); nenhum estudo isolou a conformidade
+    evidencia: "@sec-mecanismo; @tbl-hipoteses"
+    certeza: "sem GRADE (descritivo)"
+  - dimensao: Moderador
+    resultado: >-
+      Descritivo. Na célula principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e só um
+      experimento de pesquisa usou eleição real (@Farjam2020a); o partidarismo não atenuou o efeito no único teste
+      pré-especificado dentro da síntese principal (@Cornejo2023a); nenhum moderador teve estudos suficientes para
+      teste
+    evidencia: "@sec-moderadores; @fig-realismo"
+    certeza: "sem GRADE (descritivo)"
+  - dimensao: Implementação
+    resultado: >-
+      Não se aplica: a exposição a pesquisas não é um programa implementado por um gestor. A caixa gerada registra
+      "{calc:rotulo_implementacao}" por falta das variáveis de implementação
+    evidencia: "@sec-percepcao"
+    certeza: "não se aplica"
+  - dimensao: Percepção
+    resultado: >-
+      Não se aplica: a revisão é só de efeito e não sintetizou achados qualitativos sobre como eleitores percebem as
+      pesquisas
+    evidencia: "@sec-percepcao"
+    certeza: "não se aplica"
+  - dimensao: Custo
+    resultado: >-
+      Não se aplica à exposição. A caixa gerada registra "{calc:rotulo_custo}" porque não há dado de custo no
+      fichamento
+    evidencia: "@sec-percepcao; suplemento, S9"
+    certeza: "não se aplica"

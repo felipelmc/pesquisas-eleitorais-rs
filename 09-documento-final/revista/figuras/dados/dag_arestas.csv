@@ -1,0 +1,25 @@
+ordem,de_id,para_id,de,para,de_rotulo,para_rotulo,tipo,elo
+1,AL,P1,apoio_latente,pesquisa_t1,apoio latente,pesquisa anterior,solida,
+2,AL,Y1,apoio_latente,apoio_ao_lider,apoio latente,apoio a quem aparece à frente,solida,
+3,IP,X,interesse_politico,exposicao,interesse político,exposição à pesquisa,solida,
+4,IP,Y1,interesse_politico,apoio_ao_lider,interesse político,apoio a quem aparece à frente,solida,
+5,PP,X,preferencia_previa,exposicao,preferência prévia,exposição à pesquisa,solida,
+6,PP,Y1,preferencia_previa,apoio_ao_lider,preferência prévia,apoio a quem aparece à frente,solida,
+7,P1,X,pesquisa_t1,exposicao,pesquisa anterior,exposição à pesquisa,solida,
+8,X,M1,exposicao,percepcao_viabilidade,exposição à pesquisa,percepção de viabilidade,solida,E1
+9,M1,M2,percepcao_viabilidade,calculo_estrategico,percepção de viabilidade,cálculo estratégico,solida,E2
+10,M2,Y1,calculo_estrategico,apoio_ao_lider,cálculo estratégico,apoio a quem aparece à frente,solida,E2
+11,X,M3,exposicao,heuristica_consenso,exposição à pesquisa,heurística de consenso,solida,E3
+12,M3,Y1,heuristica_consenso,apoio_ao_lider,heurística de consenso,apoio a quem aparece à frente,solida,E3
+13,X,M4,exposicao,conformidade,exposição à pesquisa,conformidade,solida,E4
+14,M4,Y1,conformidade,apoio_ao_lider,conformidade,apoio a quem aparece à frente,solida,E4
+15,X,M5,exposicao,simpatia_azarao,exposição à pesquisa,simpatia pelo azarão,solida,E5
+16,M5,Y1,simpatia_azarao,apoio_ao_lider,simpatia pelo azarão,apoio a quem aparece à frente,solida,E5
+17,X,M6,exposicao,emocoes,exposição à pesquisa,emoções,solida,E6
+18,M6,Y1,emocoes,apoio_ao_lider,emoções,apoio a quem aparece à frente,solida,E6
+19,X,PV,exposicao,complacencia,exposição à pesquisa,complacência,tracejada,E7
+20,PV,Y2,complacencia,desmobilizacao,complacência,desmobilização,tracejada,E7
+21,DE,P1,divulgacao_enviesada,pesquisa_t1,divulgação enviesada,pesquisa anterior,tracejada,E8
+22,X,S,exposicao,resposta_ao_survey,exposição à pesquisa,resposta ao survey,solida,
+23,Y1,S,apoio_ao_lider,resposta_ao_survey,apoio a quem aparece à frente,resposta ao survey,solida,
+24,Y1,P2,apoio_ao_lider,pesquisa_t2,apoio a quem aparece à frente,pesquisa seguinte,solida,

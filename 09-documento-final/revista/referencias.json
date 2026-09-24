@@ -1,0 +1,3530 @@
+[
+ {
+  "DOI": "10.2139/ssrn.2029598",
+  "author": [
+   {
+    "family": "Agranov",
+    "given": "Marina"
+   },
+   {
+    "family": "Goeree",
+    "given": "Jacob K."
+   },
+   {
+    "family": "Romero",
+    "given": "Julian"
+   },
+   {
+    "family": "Yariv",
+    "given": "Leeat"
+   }
+  ],
+  "id": "Agranov2012a",
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "publisher": "SSRN Electronic Journal",
+  "title": "What Makes Voters Turn Out: The Effects of Polls and Beliefs",
+  "title-short": "What Makes Voters Turn Out",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1093/jeea/jvx023",
+  "author": [
+   {
+    "family": "Agranov",
+    "given": "Marina"
+   },
+   {
+    "family": "Goeree",
+    "given": "Jacob K."
+   },
+   {
+    "family": "Romero",
+    "given": "Julian"
+   },
+   {
+    "family": "Yariv",
+    "given": "Leeat"
+   }
+  ],
+  "container-title": "Journal of the European Economic Association",
+  "id": "Agranov2017a",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "title": "What Makes Voters Turn Out: The Effects of Polls and Beliefs",
+  "title-short": "What Makes Voters Turn Out",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "16",
+  "issue": "3",
+  "page": "825-856"
+ },
+ {
+  "DOI": "10.2139/ssrn.4265932",
+  "author": [
+   {
+    "family": "Alabrese",
+    "given": "Eleonora"
+   }
+  ],
+  "id": "Alabrese2022a",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "publisher": "SSRN Electronic Journal",
+  "title": "National Polls, Local Preferences and Voters’ Behaviour: Evidence from the UK General Elections",
+  "title-short": "National Polls, Local Preferences and Voters’ Behaviour",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.2139/ssrn.4803850",
+  "author": [
+   {
+    "family": "Alabrese",
+    "given": "Eleonora"
+   },
+   {
+    "family": "Fetzer",
+    "given": "Thiemo"
+   }
+  ],
+  "id": "Alabrese2024a",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "publisher": "SSRN Electronic Journal",
+  "title": "Opinion Polls, Turnout and the Demand for Safe Seats",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.33774/apsa-2021-5d090-v2",
+  "author": [
+   {
+    "family": "Araujo",
+    "given": "Víctor"
+   },
+   {
+    "family": "Gatto",
+    "given": "Malu A. C."
+   }
+  ],
+  "id": "Araujo2021",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "title": "Casting ballots when knowing results",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1017/s000712342100034x",
+  "author": [
+   {
+    "family": "Araujo",
+    "given": "Víctor"
+   },
+   {
+    "family": "Gatto",
+    "given": "Malu A. C."
+   }
+  ],
+  "container-title": "British Journal of Political Science",
+  "id": "Araujo2021a",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "title": "Casting Ballots When Knowing Results",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "52",
+  "issue": "4",
+  "page": "1709-1727"
+ },
+ {
+  "DOI": "10.2139/ssrn.3644952",
+  "author": [
+   {
+    "family": "Boukouras",
+    "given": "Aristotelis"
+   },
+   {
+    "family": "Jennings",
+    "given": "Will"
+   },
+   {
+    "family": "Li",
+    "given": "Lunzheng"
+   },
+   {
+    "family": "Maniadis",
+    "given": "Zacharias"
+   }
+  ],
+  "id": "Boukouras2020a",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "publisher": "SSRN Electronic Journal",
+  "title": "Can Biased Polls Distort Electoral Results? Evidence From The Lab",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1017/pan.2020.50",
+  "author": [
+   {
+    "family": "Brugarolas",
+    "given": "Pablo"
+   },
+   {
+    "family": "Miller",
+    "given": "Luis"
+   }
+  ],
+  "container-title": "Political Analysis",
+  "id": "Brugarolas2021",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "title": "The Causal Effect of Polls on Turnout Intention: A Local Randomization Regression Discontinuity Approach",
+  "title-short": "The Causal Effect of Polls on Turnout Intention",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "29",
+  "issue": "4",
+  "page": "554-560"
+ },
+ {
+  "DOI": "10.3386/w23490",
+  "author": [
+   {
+    "family": "Bursztyn",
+    "given": "Leonardo"
+   },
+   {
+    "family": "Cantoni",
+    "given": "Davide"
+   },
+   {
+    "family": "Funk",
+    "given": "Patricia"
+   },
+   {
+    "family": "Schönenberger",
+    "given": "Felix"
+   },
+   {
+    "family": "Yuchtman",
+    "given": "Noam"
+   }
+  ],
+  "id": "Bursztyn2017b",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "publisher": "National Bureau of Economic Research",
+  "title": "Identifying the Effect of Election Closeness on Voter Turnout: Evidence from Swiss Referenda",
+  "title-short": "Identifying the Effect of Election Closeness on Voter Turnout",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "author": [
+   {
+    "family": "Bursztyn",
+    "given": "Leonardo"
+   },
+   {
+    "family": "Cantoni",
+    "given": "Davide"
+   },
+   {
+    "family": "Funk",
+    "given": "Patricia"
+   },
+   {
+    "family": "Yuchtman",
+    "given": "Noam"
+   }
+  ],
+  "id": "Bursztyn2017c",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "publisher": "RePEc: Research Papers in Economics",
+  "title": "Polls, the Press, and Political Participation: The Effects of Anticipated Election Closeness on Voter Turnout",
+  "title-short": "Polls, the Press, and Political Participation",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1093/jeea/jvad038",
+  "author": [
+   {
+    "family": "Bursztyn",
+    "given": "Leonardo"
+   },
+   {
+    "family": "Cantoni",
+    "given": "Davide"
+   },
+   {
+    "family": "Funk",
+    "given": "Patricia"
+   },
+   {
+    "family": "Schönenberger",
+    "given": "Felix"
+   },
+   {
+    "family": "Yuchtman",
+    "given": "Noam"
+   }
+  ],
+  "container-title": "Journal of the European Economic Association",
+  "id": "Bursztyn2023a",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "title": "Identifying the Effect of Election Closeness on Voter Turnout: Evidence from Swiss Referenda",
+  "title-short": "Identifying the Effect of Election Closeness on Voter Turnout",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "22",
+  "issue": "2",
+  "page": "876-914"
+ },
+ {
+  "DOI": "10.2139/ssrn.3332196",
+  "author": [
+   {
+    "family": "Chatterjee",
+    "given": "Somdeep"
+   },
+   {
+    "family": "Kamal",
+    "given": "Jai"
+   }
+  ],
+  "id": "Chatterjee2019a",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "publisher": "SSRN Electronic Journal",
+  "title": "Voting for the Underdog or Jumping on the Bandwagon? Evidence from India’s Exit Poll Ban",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.14201/rlop.29606",
+  "author": [
+   {
+    "family": "Cornejo",
+    "given": "Rodrigo Castro"
+   }
+  ],
+  "container-title": "Revista Latinoamericana de Opinión Pública",
+  "id": "Cornejo2023a",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "title": "Do (Perceptions of) Electoral Polling Affect Voters’ Behavior? Campaigns, Partisan Bias, and Strategic Voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "11",
+  "issue": "2",
+  "page": "73-108"
+ },
+ {
+  "DOI": "10.7146/politica.v47i1.131475",
+  "author": [
+   {
+    "family": "Dahlgaard",
+    "given": "Jens Olav"
+   },
+   {
+    "family": "Hansen",
+    "given": "Jonas Hedegaard"
+   },
+   {
+    "family": "Hansen",
+    "given": "Kasper Møller"
+   },
+   {
+    "family": "Larsen",
+    "given": "Martin Vinæs"
+   }
+  ],
+  "container-title": "Politica",
+  "id": "Dahlgaard2015a",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "How do opinion polls affect voters? The effect of opinion polls on the Danes’ voting behavior and sympathy for parties",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "47",
+  "issue": "1"
+ },
+ {
+  "DOI": "10.7146/politica.v47i1.131474",
+  "author": [
+   {
+    "family": "Dahlgaard",
+    "given": "Jens Olav"
+   },
+   {
+    "family": "Hansen",
+    "given": "Jonas Hedegaard"
+   },
+   {
+    "family": "Hansen",
+    "given": "Kasper Møller"
+   },
+   {
+    "family": "Larsen",
+    "given": "Martin Vinæs"
+   }
+  ],
+  "container-title": "Politica",
+  "id": "Dahlgaard2015b",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "Hvordan påvirkes vælgerne af meningsmålinger? Effekten af meningsmålinger på danskernes stemmeadfærd og sympati for partierne",
+  "type": "article-journal",
+  "language": "da",
+  "volume": "47",
+  "issue": "1"
+ },
+ {
+  "DOI": "10.1515/wps-2016-0012",
+  "author": [
+   {
+    "family": "Dahlgaard",
+    "given": "Jens Olav"
+   },
+   {
+    "family": "Hansen",
+    "given": "Jonas Hedegaard"
+   },
+   {
+    "family": "Hansen",
+    "given": "Kasper Møller"
+   },
+   {
+    "family": "Larsen",
+    "given": "Martin Vinæs"
+   }
+  ],
+  "container-title": "World Political Science",
+  "id": "Dahlgaard2016a",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "title": "How are Voters Influenced by Opinion Polls? The Effect of Polls on Voting Behavior and Party Sympathy",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "12",
+  "issue": "2",
+  "page": "283-300"
+ },
+ {
+  "DOI": "10.1111/1467-9477.12094",
+  "author": [
+   {
+    "family": "Dahlgaard",
+    "given": "Jens Olav"
+   },
+   {
+    "family": "Hansen",
+    "given": "Jonas Hedegaard"
+   },
+   {
+    "family": "Hansen",
+    "given": "Kasper Møller"
+   },
+   {
+    "family": "Larsen",
+    "given": "Martin Vinæs"
+   }
+  ],
+  "container-title": "Scandinavian Political Studies",
+  "id": "Dahlgaard2017a",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "title": "How Election Polls Shape Voting Behaviour",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "40",
+  "issue": "3",
+  "page": "330-343"
+ },
+ {
+  "DOI": "10.31219/osf.io/mwg7u",
+  "author": [
+   {
+    "family": "Erlich",
+    "given": "Aaron"
+   }
+  ],
+  "id": "Erlich2023",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "title": "Measuring How Information Changes Electoral Uncertainty in a Developing Democracy: Experimental Evidence from the Country of Georgia",
+  "title-short": "Measuring How Information Changes Electoral Uncertainty in a Developing Democracy",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.48550/arxiv.1805.07606",
+  "author": [
+   {
+    "family": "Fairstein",
+    "given": "Roy"
+   },
+   {
+    "family": "Lauz",
+    "given": "Adam"
+   },
+   {
+    "family": "Gal",
+    "given": "Kobi"
+   },
+   {
+    "family": "Meir",
+    "given": "Reshef"
+   }
+  ],
+  "id": "Fairstein2018a",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "publisher": "arXiv (Cornell University)",
+  "title": "Predicting Strategic Voting Behavior with Poll Information",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.65109/srvt6467",
+  "author": [
+   {
+    "family": "Fairstein",
+    "given": "Roy"
+   },
+   {
+    "family": "Lauz",
+    "given": "Adam"
+   },
+   {
+    "family": "Meir",
+    "given": "Reshef"
+   },
+   {
+    "family": "Gal",
+    "given": "Kobi"
+   }
+  ],
+  "id": "Fairstein2019a",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "title": "Modeling People’s Voting Behavior with Poll Information",
+  "type": "paper-conference",
+  "language": "en",
+  "container-title": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "page": "1422-1430"
+ },
+ {
+  "DOI": "10.1093/ijpor/edaa008",
+  "author": [
+   {
+    "family": "Farjam",
+    "given": "Mike"
+   }
+  ],
+  "container-title": "International Journal of Public Opinion Research",
+  "id": "Farjam2020a",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "title": "The Bandwagon Effect in an Online Voting Experiment With Real Political Organizations",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "33",
+  "issue": "2",
+  "page": "412-421"
+ },
+ {
+  "DOI": "10.1111/ajps.12722",
+  "author": [
+   {
+    "family": "Feltovich",
+    "given": "Nick"
+   },
+   {
+    "family": "Giovannoni",
+    "given": "Francesco"
+   }
+  ],
+  "container-title": "American Journal of Political Science",
+  "id": "Feltovich2022",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "title": "Campaign Messages, Polling, and Elections: Theory and Experimental Evidence",
+  "title-short": "Campaign Messages, Polling, and Elections",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "68",
+  "issue": "2",
+  "page": "408-426"
+ },
+ {
+  "author": [
+   {
+    "family": "Fichnová",
+    "given": "Katarína"
+   },
+   {
+    "family": "Wojciechowski",
+    "given": "P."
+   }
+  ],
+  "id": "Fichnova2015a",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "Election Opinion Polls and Their Impacts on Voting Preferences of Slovak and Polish Voters",
+  "type": "article-journal",
+  "language": "en"
+ },
+ {
+  "DOI": "10.13140/rg.2.1.3580.3125",
+  "author": [
+   {
+    "family": "Fredén",
+    "given": "Annika"
+   }
+  ],
+  "genre": "PhD thesis",
+  "id": "Freden2016b",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "publisher": "Lund University Publications (Lund University)",
+  "title": "Strategic Voting under Coalition Governments",
+  "type": "thesis",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1093/ijpor/edae041",
+  "author": [
+   {
+    "family": "Fredén",
+    "given": "Annika"
+   },
+   {
+    "family": "Bruinsma",
+    "given": "Bastiaan"
+   },
+   {
+    "family": "Theorin",
+    "given": "Nora"
+   },
+   {
+    "family": "Oscarsson",
+    "given": "Henrik"
+   }
+  ],
+  "container-title": "International Journal of Public Opinion Research",
+  "id": "Freden2024a",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "title": "Insurance Voting in the Centre: An Experimental Approach",
+  "title-short": "Insurance Voting in the Centre",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "36",
+  "issue": "3",
+  "page": "edae041"
+ },
+ {
+  "DOI": "10.1111/ajps.12441",
+  "author": [
+   {
+    "family": "Gandhi",
+    "given": "Jennifer"
+   },
+   {
+    "family": "Ong",
+    "given": "Elvin"
+   }
+  ],
+  "container-title": "American Journal of Political Science",
+  "id": "Gandhi2019",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "title": "Committed or Conditional Democrats? Opposition Dynamics in Electoral Autocracies",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "63",
+  "issue": "4",
+  "page": "948-963"
+ },
+ {
+  "DOI": "10.1017/ipo.2015.3",
+  "author": [
+   {
+    "family": "Gasperoni",
+    "given": "Giancarlo"
+   },
+   {
+    "family": "Mantovani",
+    "given": "Debora"
+   }
+  ],
+  "container-title": "Italian Political Science Review/Rivista Italiana di Scienza Politica",
+  "id": "Gasperoni2015a",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "The impact of exposure to pre-election polls on voting behaviour",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "45",
+  "issue": "1",
+  "page": "1-23"
+ },
+ {
+  "DOI": "10.1057/s41269-018-0089-x",
+  "author": [
+   {
+    "family": "Geers",
+    "given": "Sabine"
+   },
+   {
+    "family": "Bos",
+    "given": "L."
+   },
+   {
+    "family": "Vreese",
+    "given": "Claes H.",
+    "non-dropping-particle": "de"
+   }
+  ],
+  "container-title": "Acta Politica",
+  "id": "Geers2018",
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "title": "Effects of issue and poll news on electoral volatility: conversion or crystallization?",
+  "title-short": "Effects of issue and poll news on electoral volatility",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "54",
+  "issue": "4",
+  "page": "521-539"
+ },
+ {
+  "DOI": "10.3386/w23071",
+  "author": [
+   {
+    "family": "Gerber",
+    "given": "Alan S."
+   },
+   {
+    "family": "Hoffman",
+    "given": "Mitchell"
+   },
+   {
+    "family": "Morgan",
+    "given": "John"
+   },
+   {
+    "family": "Raymond",
+    "given": "Collin"
+   }
+  ],
+  "id": "Gerber2017b",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "publisher": "National Bureau of Economic Research",
+  "title": "One in a Million: Field Experiments on Perceived Closeness of the Election and Voter Turnout",
+  "title-short": "One in a Million",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "author": [
+   {
+    "family": "Gerber",
+    "given": "Alan S."
+   },
+   {
+    "family": "Hoffman",
+    "given": "Mitchell"
+   },
+   {
+    "family": "Morgan",
+    "given": "John"
+   },
+   {
+    "family": "Raymond",
+    "given": "Collin"
+   }
+  ],
+  "id": "Gerber2017c",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "publisher": "RePEc: Research Papers in Economics",
+  "title": "One in a Million: Field Experiments on Perceived Closeness of the Election and Voter Turnout",
+  "title-short": "One in a Million",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1257/app.20180574",
+  "author": [
+   {
+    "family": "Gerber",
+    "given": "Alan S."
+   },
+   {
+    "family": "Hoffman",
+    "given": "Mitchell"
+   },
+   {
+    "family": "Morgan",
+    "given": "John"
+   },
+   {
+    "family": "Raymond",
+    "given": "Collin"
+   }
+  ],
+  "container-title": "American Economic Journal Applied Economics",
+  "id": "Gerber2020a",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "title": "One in a Million: Field Experiments on Perceived Closeness of the Election and Voter Turnout",
+  "title-short": "One in a Million",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "12",
+  "issue": "3",
+  "page": "287-325"
+ },
+ {
+  "DOI": "10.3917/reco.pr2.0188",
+  "author": [
+   {
+    "family": "Grillo",
+    "given": "Alberto"
+   },
+   {
+    "family": "Raiber",
+    "given": "Eva"
+   }
+  ],
+  "container-title": "Revue économique",
+  "id": "Grillo2024c",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "title": "Exit Polls and Voter Turnout in the 2017 French Elections",
+  "type": "article-journal",
+  "language": "en",
+  "page": "14-31"
+ },
+ {
+  "DOI": "10.1111/j.1540-5907.2010.00455.x",
+  "author": [
+   {
+    "family": "Großer",
+    "given": "Jens"
+   },
+   {
+    "family": "Schram",
+    "given": "Arthur"
+   }
+  ],
+  "container-title": "American Journal of Political Science",
+  "id": "Groer2010a",
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "title": "Public Opinion Polls, Voter Turnout, and Welfare: An Experimental Study",
+  "title-short": "Public Opinion Polls, Voter Turnout, and Welfare",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "54",
+  "issue": "3",
+  "page": "700-717"
+ },
+ {
+  "DOI": "10.1184/r1/9338318.v1",
+  "author": [
+   {
+    "family": "Kaplan",
+    "given": "Ben"
+   }
+  ],
+  "genre": "PhD thesis",
+  "id": "Kaplan2019a",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "publisher": "Figshare",
+  "title": "Experimental Electionomics: How Election Forecasts Influence Voter Turnout",
+  "title-short": "Experimental Electionomics",
+  "type": "thesis",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1111/jpet.12274",
+  "author": [
+   {
+    "family": "Klor",
+    "given": "Esteban F."
+   },
+   {
+    "family": "Winter",
+    "given": "Eyal"
+   }
+  ],
+  "container-title": "Journal of Public Economic Theory",
+  "id": "Klor2017a",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "title": "On public opinion polls and voters’ turnout",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "20",
+  "issue": "2",
+  "page": "239-256"
+ },
+ {
+  "DOI": "10.1093/poq/nfv036",
+  "author": [
+   {
+    "family": "Lago",
+    "given": "Ignacio"
+   },
+   {
+    "family": "Guinjoan",
+    "given": "Marc"
+   },
+   {
+    "family": "Bermúdez",
+    "given": "Sandra"
+   }
+  ],
+  "container-title": "Public Opinion Quarterly",
+  "id": "Lago2015",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "Regulating Disinformation",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "79",
+  "issue": "4",
+  "page": "932-951"
+ },
+ {
+  "DOI": "10.5964/jspp.9241",
+  "author": [
+   {
+    "family": "Lammers",
+    "given": "Joris"
+   },
+   {
+    "family": "Bukowski",
+    "given": "Marcin"
+   },
+   {
+    "family": "Potoczek",
+    "given": "Anna"
+   },
+   {
+    "family": "Fleischmann",
+    "given": "Alexandra"
+   },
+   {
+    "family": "Hofmann",
+    "given": "Wilhelm"
+   }
+  ],
+  "container-title": "Journal of Social and Political Psychology",
+  "id": "Lammers2022a",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "title": "Disentangling the factors behind shifting voting intentions: The bandwagon effect reflects heuristic processing, while the underdog effect reflects fairness concerns",
+  "title-short": "Disentangling the factors behind shifting voting intentions",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "10",
+  "issue": "2",
+  "page": "676-692"
+ },
+ {
+  "DOI": "10.1093/ijpor/edu041",
+  "author": [
+   {
+    "family": "Meer",
+    "given": "Tom",
+    "non-dropping-particle": "van der"
+   },
+   {
+    "family": "Hakhverdian",
+    "given": "Armèn"
+   },
+   {
+    "family": "Aaldering",
+    "given": "Loes"
+   }
+  ],
+  "container-title": "International Journal of Public Opinion Research",
+  "id": "Meer2015a",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "Off the Fence, Onto the Bandwagon? A Large-Scale Survey Experiment on Effect of Real-Life Poll Outcomes on Subsequent Vote Intentions",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "28",
+  "issue": "1",
+  "page": "46-72"
+ },
+ {
+  "DOI": "10.1111/j.1475-6765.2010.01986.x",
+  "author": [
+   {
+    "family": "Meffert",
+    "given": "Michael F."
+   },
+   {
+    "family": "Gschwend",
+    "given": "Thomas"
+   }
+  ],
+  "container-title": "European Journal of Political Research",
+  "id": "Meffert2011",
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "title": "Polls, coalition signals and strategic voting: An experimental investigation of perceptions and effects",
+  "title-short": "Polls, coalition signals and strategic voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "50",
+  "issue": "5",
+  "page": "636-667"
+ },
+ {
+  "DOI": "10.1057/9781137016645_7",
+  "author": [
+   {
+    "family": "Meffert",
+    "given": "Michael F."
+   },
+   {
+    "family": "Gschwend",
+    "given": "Thomas"
+   }
+  ],
+  "container-title": "Palgrave Macmillan UK eBooks",
+  "id": "Meffert2012a",
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "title": "Experimental Triangulation of Coalition Signals: Varying Designs, Converging Results",
+  "title-short": "Experimental Triangulation of Coalition Signals",
+  "type": "chapter",
+  "language": "en",
+  "page": "140-160"
+ },
+ {
+  "author": [
+   {
+    "family": "Morton",
+    "given": "Rebecca B."
+   },
+   {
+    "family": "Mueller",
+    "given": "Daniel"
+   },
+   {
+    "family": "Page",
+    "given": "Lionel"
+   },
+   {
+    "family": "Torgler",
+    "given": "Benno"
+   }
+  ],
+  "id": "Morton2013a",
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "publisher": "RePEc: Research Papers in Economics",
+  "title": "Exit Polls, Turnout, and Bandwagon Voting: Evidence from a Natural Experiment",
+  "title-short": "Exit Polls, Turnout, and Bandwagon Voting",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1016/j.euroecorev.2015.03.012",
+  "author": [
+   {
+    "family": "Morton",
+    "given": "Rebecca B."
+   },
+   {
+    "family": "Müller",
+    "given": "Daniel"
+   },
+   {
+    "family": "Page",
+    "given": "Lionel"
+   },
+   {
+    "family": "Torgler",
+    "given": "Benno"
+   }
+  ],
+  "container-title": "European Economic Review",
+  "id": "Morton2015a",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "Exit polls, turnout, and bandwagon voting: Evidence from a natural experiment",
+  "title-short": "Exit polls, turnout, and bandwagon voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "77",
+  "page": "65-81"
+ },
+ {
+  "DOI": "10.1016/j.electstud.2023.102692",
+  "author": [
+   {
+    "family": "Schlegel",
+    "given": "Benjamin E."
+   },
+   {
+    "family": "Stoetzer",
+    "given": "Lukas F."
+   },
+   {
+    "family": "Kraft",
+    "given": "Patrick"
+   }
+  ],
+  "container-title": "Electoral Studies",
+  "id": "Schlegel2023",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "title": "When information is not enough for strategic voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "86",
+  "page": "102692"
+ },
+ {
+  "DOI": "10.1093/ijpor/edw018",
+  "author": [
+   {
+    "family": "Stolwijk",
+    "given": "Sjoerd"
+   },
+   {
+    "family": "Schuck",
+    "given": "Andreas"
+   },
+   {
+    "family": "Vreese",
+    "given": "Claes H.",
+    "non-dropping-particle": "de"
+   }
+  ],
+  "container-title": "International Journal of Public Opinion Research",
+  "id": "Stolwijk2016a",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "title": "How Anxiety and Enthusiasm Help Explain the Bandwagon Effect",
+  "type": "article-journal",
+  "language": "en",
+  "page": "edw018"
+ },
+ {
+  "author": [
+   {
+    "family": "Stolwijk",
+    "given": "Sjoerd"
+   }
+  ],
+  "container-title": "UvA-DARE (University of Amsterdam)",
+  "id": "Stolwijk2017a",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "title": "Who is driving whom: The media, voters and the bandwagon",
+  "title-short": "Who is driving whom",
+  "type": "article-journal",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1177/1465116519837351",
+  "author": [
+   {
+    "family": "Stolwijk",
+    "given": "Sjoerd"
+   },
+   {
+    "family": "Schuck",
+    "given": "Andreas"
+   }
+  ],
+  "container-title": "European Union Politics",
+  "id": "Stolwijk2019b",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "title": "More interest in interest: Does poll coverage help or hurt efforts to make more young voters show up at the ballot box?",
+  "title-short": "More interest in interest",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "20",
+  "issue": "3",
+  "page": "341-360"
+ },
+ {
+  "DOI": "10.65109/dngc7810",
+  "author": [
+   {
+    "family": "Tal",
+    "given": "Maor"
+   },
+   {
+    "family": "Meir",
+    "given": "Reshef"
+   },
+   {
+    "family": "Gal",
+    "given": "Ya’akov"
+   }
+  ],
+  "id": "Tal2015a",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "A Study of Human Behavior in Online Voting",
+  "type": "paper-conference",
+  "language": "en",
+  "container-title": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "page": "665-673"
+ },
+ {
+  "author": [
+   {
+    "family": "Timotei",
+    "given": "Vierasu"
+   }
+  ],
+  "container-title": "RePEc: Research Papers in Economics",
+  "id": "Timotei2013a",
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "title": "How Much Can We Trust Public Opinion Polls?",
+  "type": "article-journal",
+  "language": "en"
+ },
+ {
+  "DOI": "10.3390/g4040624",
+  "author": [
+   {
+    "family": "Tyszler",
+    "given": "Marcelo"
+   },
+   {
+    "family": "Schram",
+    "given": "Arthur"
+   }
+  ],
+  "container-title": "Games",
+  "id": "Tyszler2013",
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "title": "Strategic Voting in Heterogeneous Electorates: An Experimental Study",
+  "title-short": "Strategic Voting in Heterogeneous Electorates",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "4",
+  "issue": "4",
+  "page": "624-647"
+ },
+ {
+  "DOI": "10.1007/s10683-015-9443-2",
+  "author": [
+   {
+    "family": "Tyszler",
+    "given": "Marcelo"
+   },
+   {
+    "family": "Schram",
+    "given": "Arthur"
+   }
+  ],
+  "container-title": "Experimental Economics",
+  "id": "Tyszler2015",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "title": "Information and strategic voting",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "19",
+  "issue": "2",
+  "page": "360-381"
+ },
+ {
+  "DOI": "10.1007/s11615-022-00417-3",
+  "author": [
+   {
+    "family": "Unkelbach",
+    "given": "Fabienne"
+   },
+   {
+    "family": "John",
+    "given": "Melvin"
+   },
+   {
+    "family": "Vogel",
+    "given": "Vera"
+   }
+  ],
+  "container-title": "Politische Vierteljahresschrift",
+  "id": "Unkelbach2022a",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "title": "Jumping on the Bandwagon: The Role of Voters’ Social Class in Poll Effects in the Context of the 2021 German Federal Election",
+  "title-short": "Jumping on the Bandwagon",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "64",
+  "issue": "1",
+  "page": "51-78"
+ },
+ {
+  "DOI": "10.2139/ssrn.3448172",
+  "author": [
+   {
+    "family": "Urminsky",
+    "given": "Oleg"
+   },
+   {
+    "family": "Shen",
+    "given": "Lucy"
+   }
+  ],
+  "id": "Urminsky2019",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "publisher": "SSRN Electronic Journal",
+  "title": "High Chances and Close Margins: How Equivalent Forecasts Yield Different Beliefs",
+  "title-short": "High Chances and Close Margins",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1086/708682",
+  "author": [
+   {
+    "family": "Westwood",
+    "given": "Sean"
+   },
+   {
+    "family": "Messing",
+    "given": "Solomon"
+   },
+   {
+    "family": "Lelkes",
+    "given": "Yphtach"
+   }
+  ],
+  "container-title": "The Journal of Politics",
+  "id": "Westwood2020a",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "title": "Projecting Confidence: How the Probabilistic Horse Race Confuses and Demobilizes the Public",
+  "title-short": "Projecting Confidence",
+  "type": "article-journal",
+  "language": "en",
+  "volume": "82",
+  "issue": "4",
+  "page": "1530-1544"
+ },
+ {
+  "author": [
+   {
+    "family": "Witsman",
+    "given": "Katherine A."
+   }
+  ],
+  "genre": "PhD thesis",
+  "id": "Witsman2016a",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "publisher": "Holmes Museum Of Anthropology (Wichita State University)",
+  "title": "The effect of polling data on independent voting behavior",
+  "type": "thesis",
+  "language": "en"
+ },
+ {
+  "DOI": "10.31219/osf.io/qpyna",
+  "author": [
+   {
+    "family": "Yang",
+    "given": "Fumeng"
+   },
+   {
+    "family": "Cai",
+    "given": "Mandi"
+   },
+   {
+    "family": "Mortenson",
+    "given": "Chloe"
+   },
+   {
+    "family": "Fakhari",
+    "given": "Hoda"
+   },
+   {
+    "family": "Lokmanoglu",
+    "given": "Ayse D."
+   },
+   {
+    "family": "Hullman",
+    "given": "Jessica"
+   },
+   {
+    "family": "Franconeri",
+    "given": "Steven"
+   },
+   {
+    "family": "Diakopoulos",
+    "given": "Nicholas"
+   },
+   {
+    "family": "Nisbet",
+    "given": "Erik C."
+   },
+   {
+    "family": "Kay",
+    "given": "Matthew"
+   }
+  ],
+  "id": "Yang2023d",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "title": "Swaying the Public? Impacts of Election Forecast Visualizations on Emotion, Trust, and Intention in the 2022 U.S. Midterms",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.4135/9781848607910.n48",
+  "author": [
+   {
+    "family": "Hardmeier",
+    "given": "Sibylle"
+   }
+  ],
+  "container-title": "The SAGE Handbook of Public Opinion Research",
+  "id": "Hardmeier2008",
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "publisher": "SAGE Publications",
+  "title": "The effects of published polls on citizens",
+  "type": "chapter",
+  "editor": [
+   {
+    "family": "Donsbach",
+    "given": "Wolfgang"
+   },
+   {
+    "family": "Traugott",
+    "given": "Michael W."
+   }
+  ],
+  "page": "504-514",
+  "publisher-place": "London",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1057/9780230374959_11",
+  "author": [
+   {
+    "family": "Moy",
+    "given": "Patricia"
+   },
+   {
+    "family": "Rinke",
+    "given": "Eike Mark"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Holtz-Bacha",
+    "given": "Christina"
+   },
+   {
+    "family": "Strömbäck",
+    "given": "Jesper"
+   }
+  ],
+  "id": "MoyRinke2012",
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "title": "Attitudinal and behavioral consequences of published opinion polls",
+  "type": "chapter",
+  "container-title": "Opinion Polls and the Media: Reflecting and Shaping Public Opinion",
+  "page": "225-245",
+  "publisher": "Palgrave Macmillan",
+  "publisher-place": "Basingstoke",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1177/1478929919870691",
+  "author": [
+   {
+    "family": "Barnfield",
+    "given": "Matthew"
+   }
+  ],
+  "container-title": "Political Studies Review",
+  "id": "Barnfield2019",
+  "issue": "4",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "note": "Publicado online em 2019",
+  "page": "553-574",
+  "title": "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect",
+  "title-short": "Think Twice before Jumping on the Bandwagon",
+  "type": "article-journal",
+  "volume": "18",
+  "language": "en"
+ },
+ {
+  "URL": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Brasil"
+   }
+  ],
+  "id": "Brasil1997Lei9504",
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "publisher": "Diário Oficial da União",
+  "title": "Lei nº 9.504, de 30 de setembro de 1997: estabelece normas para as eleições",
+  "title-short": "Lei nº 9.504, de 30 de setembro de 1997",
+  "type": "legislation",
+  "language": "pt-BR"
+ },
+ {
+  "URL": "https://sintse.tse.jus.br/documentos/2022/Mar/7/diario-da-justica-eletronico-tse-edicao-extraordinaria/republicacao-resolucao-no-23-600-de-12-de-dezembro-de-2019-dispoe-sobre-pesquisas-eleitorais",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Tribunal Superior Eleitoral"
+   }
+  ],
+  "id": "TSE2019Res23600",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "publisher": "Diário da Justiça Eletrônico do Tribunal Superior Eleitoral (DJE/TSE), republicação de 7 de março de 2022",
+  "title": "Resolução TSE nº 23.600, de 12 de dezembro de 2019: dispõe sobre pesquisas eleitorais",
+  "title-short": "Resolução TSE nº 23.600, de 12 de dezembro de 2019",
+  "type": "legislation",
+  "language": "pt-BR"
+ },
+ {
+  "URL": "https://noticias.stf.jus.br/postsnoticias/direto-do-plenario-stf-declara-inconstitucional-em-parte-lei-que-regula-campanhas-politicas/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Supremo Tribunal Federal"
+   }
+  ],
+  "id": "STF2006ADI3741",
+  "issued": {
+   "date-parts": [
+    [
+     2006
+    ]
+   ]
+  },
+  "publisher": "Notícias STF",
+  "title": "Direto do Plenário: STF declara inconstitucional, em parte, lei que regula campanhas políticas (ADI 3.741, 3.742 e 3.743)",
+  "title-short": "Direto do Plenário",
+  "type": "webpage",
+  "language": "pt-BR"
+ },
+ {
+  "DOI": "10.1590/s0103-4014.2022.36106.007",
+  "author": [
+   {
+    "family": "Meireles",
+    "given": "Fernando"
+   },
+   {
+    "family": "Russo",
+    "given": "Guilherme"
+   }
+  ],
+  "container-title": "Estudos Avançados",
+  "id": "Meireles2022",
+  "issue": "106",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "page": "117-131",
+  "title": "Pesquisas eleitorais no Brasil: tendências e desempenho",
+  "title-short": "Pesquisas eleitorais no Brasil",
+  "type": "article-journal",
+  "volume": "36",
+  "language": "pt-BR"
+ },
+ {
+  "DOI": "10.1590/1807-019120243011",
+  "author": [
+   {
+    "family": "Pereira",
+    "given": "Frederico Batista"
+   },
+   {
+    "family": "Nunes",
+    "given": "Felipe"
+   }
+  ],
+  "container-title": "Opinião Pública",
+  "id": "PereiraNunes2024",
+  "issue": "1",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "title": "Pesquisas eleitorais e mudanças tardias na decisão do voto",
+  "type": "article-journal",
+  "volume": "30",
+  "language": "pt-BR",
+  "page": "e3011"
+ },
+ {
+  "URL": "https://ropercenter.cornell.edu/sites/default/files/freedom-to-conduct-and-publish-opinion-polls-july-2023.pdf",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "family": "Frankovic",
+    "given": "Kathy"
+   },
+   {
+    "family": "Jodice",
+    "given": "David A."
+   },
+   {
+    "family": "Kizilova",
+    "given": "Kseniya"
+   },
+   {
+    "family": "See Toh",
+    "given": "Wai Yu"
+   }
+  ],
+  "id": "ESOMARWAPOR2022",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "publisher": "ESOMAR and WAPOR (World Association for Public Opinion Research); hospedado pelo Roper Center for Public Opinion Research, Cornell University",
+  "title": "The Freedom to Conduct and Publish Opinion Polls: A 2022 Worldwide Update",
+  "title-short": "The Freedom to Conduct and Publish Opinion Polls",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "URL": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2335321",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Câmara dos Deputados"
+   }
+  ],
+  "id": "BrasilCamara2022PL2567",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "publisher": "Projeto de Lei, autoria do Deputado Ricardo Barros (PP-PR), apresentado em 06/10/2022",
+  "title": "Projeto de Lei nº 2.567, de 2022: altera a Lei nº 9.504, de 30 de setembro de 1997, para tipificar a conduta de publicar pesquisa eleitoral com dados que divergem, além da margem de erro, dos resultados apurados nas urnas e dá outras providências",
+  "title-short": "Projeto de Lei nº 2.567, de 2022",
+  "type": "bill",
+  "language": "pt-BR"
+ },
+ {
+  "URL": "https://www25.senado.leg.br/web/atividade/materias/-/materia/154812",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Senado Federal"
+   }
+  ],
+  "id": "BrasilSenado2022PL2558",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "publisher": "Projeto de Lei, autoria do Senador Marcos do Val (Podemos-ES), apresentado em 05/10/2022",
+  "title": "Projeto de Lei nº 2.558, de 2022: altera a Lei nº 9.504, de 30 de setembro de 1997, para determinar penalização às entidades e empresas que realizarem pesquisas de opinião pública relativas às eleições ou aos candidatos com resultados fora das margens de erro estabelecidas",
+  "title-short": "Projeto de Lei nº 2.558, de 2022",
+  "type": "bill",
+  "language": "pt-BR"
+ },
+ {
+  "URL": "https://www12.senado.leg.br/noticias/materias/2022/10/07/marcos-do-val-apresenta-pedido-de-criacao-de-cpi-sobre-pesquisas-eleitorais",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Agência Senado"
+   }
+  ],
+  "id": "SenadoNoticias2022CPIPesquisas",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "publisher": "Senado Notícias, 07/10/2022",
+  "title": "Marcos do Val apresenta pedido de criação de CPI sobre pesquisas eleitorais",
+  "type": "webpage",
+  "language": "pt-BR"
+ },
+ {
+  "DOI": "10.54688/ayd.1760361",
+  "author": [
+   {
+    "family": "Coşgun",
+    "given": "Melih"
+   }
+  ],
+  "container-title": "Akademik Yaklaşımlar Dergisi / Journal of Academic Approaches",
+  "id": "Cosgun2026",
+  "issue": "2",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "page": "1-20",
+  "title": "Electoral Campaigns and Voter Behavior: A Systematic Literature Review and Agenda for Future Research",
+  "title-short": "Electoral Campaigns and Voter Behavior",
+  "type": "article-journal",
+  "volume": "17",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/bmj.n71",
+  "author": [
+   {
+    "family": "Page",
+    "given": "Matthew J."
+   },
+   {
+    "family": "McKenzie",
+    "given": "Joanne E."
+   },
+   {
+    "family": "Bossuyt",
+    "given": "Patrick M."
+   },
+   {
+    "family": "Boutron",
+    "given": "Isabelle"
+   },
+   {
+    "family": "Hoffmann",
+    "given": "Tammy C."
+   },
+   {
+    "family": "Mulrow",
+    "given": "Cynthia D."
+   },
+   {
+    "family": "Shamseer",
+    "given": "Larissa"
+   },
+   {
+    "family": "Tetzlaff",
+    "given": "Jennifer M."
+   },
+   {
+    "family": "Akl",
+    "given": "Elie A."
+   },
+   {
+    "family": "Brennan",
+    "given": "Sue E."
+   },
+   {
+    "family": "Chou",
+    "given": "Roger"
+   },
+   {
+    "family": "Glanville",
+    "given": "Julie"
+   },
+   {
+    "family": "Grimshaw",
+    "given": "Jeremy M."
+   },
+   {
+    "family": "Hróbjartsson",
+    "given": "Asbjørn"
+   },
+   {
+    "family": "Lalu",
+    "given": "Manoj M."
+   },
+   {
+    "family": "Li",
+    "given": "Tianjing"
+   },
+   {
+    "family": "Loder",
+    "given": "Elizabeth W."
+   },
+   {
+    "family": "Mayo-Wilson",
+    "given": "Evan"
+   },
+   {
+    "family": "McDonald",
+    "given": "Steve"
+   },
+   {
+    "family": "McGuinness",
+    "given": "Luke A."
+   },
+   {
+    "family": "Stewart",
+    "given": "Lesley A."
+   },
+   {
+    "family": "Thomas",
+    "given": "James"
+   },
+   {
+    "family": "Tricco",
+    "given": "Andrea C."
+   },
+   {
+    "family": "Welch",
+    "given": "Vivian A."
+   },
+   {
+    "family": "Whiting",
+    "given": "Penny"
+   },
+   {
+    "family": "Moher",
+    "given": "David"
+   }
+  ],
+  "container-title": "BMJ",
+  "id": "Page2021PRISMA",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "page": "n71",
+  "title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+  "title-short": "The PRISMA 2020 statement",
+  "type": "article-journal",
+  "volume": "372",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/bmj.n160",
+  "author": [
+   {
+    "family": "Page",
+    "given": "Matthew J."
+   },
+   {
+    "family": "Moher",
+    "given": "David"
+   },
+   {
+    "family": "Bossuyt",
+    "given": "Patrick M."
+   },
+   {
+    "family": "Boutron",
+    "given": "Isabelle"
+   },
+   {
+    "family": "Hoffmann",
+    "given": "Tammy C."
+   },
+   {
+    "family": "Mulrow",
+    "given": "Cynthia D."
+   },
+   {
+    "family": "Shamseer",
+    "given": "Larissa"
+   },
+   {
+    "family": "Tetzlaff",
+    "given": "Jennifer M."
+   },
+   {
+    "family": "Akl",
+    "given": "Elie A."
+   },
+   {
+    "family": "Brennan",
+    "given": "Sue E."
+   },
+   {
+    "family": "Chou",
+    "given": "Roger"
+   },
+   {
+    "family": "Glanville",
+    "given": "Julie"
+   },
+   {
+    "family": "Grimshaw",
+    "given": "Jeremy M."
+   },
+   {
+    "family": "Hróbjartsson",
+    "given": "Asbjørn"
+   },
+   {
+    "family": "Lalu",
+    "given": "Manoj M."
+   },
+   {
+    "family": "Li",
+    "given": "Tianjing"
+   },
+   {
+    "family": "Loder",
+    "given": "Elizabeth W."
+   },
+   {
+    "family": "Mayo-Wilson",
+    "given": "Evan"
+   },
+   {
+    "family": "McDonald",
+    "given": "Steve"
+   },
+   {
+    "family": "McGuinness",
+    "given": "Luke A."
+   },
+   {
+    "family": "Stewart",
+    "given": "Lesley A."
+   },
+   {
+    "family": "Thomas",
+    "given": "James"
+   },
+   {
+    "family": "Tricco",
+    "given": "Andrea C."
+   },
+   {
+    "family": "Welch",
+    "given": "Vivian A."
+   },
+   {
+    "family": "Whiting",
+    "given": "Penny"
+   },
+   {
+    "family": "McKenzie",
+    "given": "Joanne E."
+   }
+  ],
+  "container-title": "BMJ",
+  "id": "Page2021PRISMAEE",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "page": "n160",
+  "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+  "title-short": "PRISMA 2020 explanation and elaboration",
+  "type": "article-journal",
+  "volume": "372",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1186/s13643-020-01542-z",
+  "author": [
+   {
+    "family": "Rethlefsen",
+    "given": "Melissa L."
+   },
+   {
+    "family": "Kirtley",
+    "given": "Shona"
+   },
+   {
+    "family": "Waffenschmidt",
+    "given": "Siw"
+   },
+   {
+    "family": "Ayala",
+    "given": "Ana Patricia"
+   },
+   {
+    "family": "Moher",
+    "given": "David"
+   },
+   {
+    "family": "Page",
+    "given": "Matthew J."
+   },
+   {
+    "family": "Koffel",
+    "given": "Jonathan B."
+   },
+   {
+    "family": "Blunt",
+    "given": "Heather"
+   },
+   {
+    "family": "Brigham",
+    "given": "Tara"
+   },
+   {
+    "family": "Chang",
+    "given": "Steven"
+   },
+   {
+    "family": "Clark",
+    "given": "Justin"
+   },
+   {
+    "family": "Conway",
+    "given": "Aislinn"
+   },
+   {
+    "family": "Couban",
+    "given": "Rachel"
+   },
+   {
+    "family": "Kock",
+    "given": "Shelley",
+    "non-dropping-particle": "de"
+   },
+   {
+    "family": "Farrah",
+    "given": "Kelly"
+   },
+   {
+    "family": "Fehrmann",
+    "given": "Paul"
+   },
+   {
+    "family": "Foster",
+    "given": "Margaret"
+   },
+   {
+    "family": "Fowler",
+    "given": "Susan A."
+   },
+   {
+    "family": "Glanville",
+    "given": "Julie"
+   },
+   {
+    "family": "Harris",
+    "given": "Elizabeth"
+   },
+   {
+    "family": "Hoffecker",
+    "given": "Lilian"
+   },
+   {
+    "family": "Isojarvi",
+    "given": "Jaana"
+   },
+   {
+    "family": "Kaunelis",
+    "given": "David"
+   },
+   {
+    "family": "Ket",
+    "given": "Hans"
+   },
+   {
+    "family": "Levay",
+    "given": "Paul"
+   },
+   {
+    "family": "Lyon",
+    "given": "Jennifer"
+   },
+   {
+    "family": "McGowan",
+    "given": "Jessie"
+   },
+   {
+    "family": "Murad",
+    "given": "M. Hassan"
+   },
+   {
+    "family": "Nicholson",
+    "given": "Joey"
+   },
+   {
+    "family": "Pannabecker",
+    "given": "Virginia"
+   },
+   {
+    "family": "Paynter",
+    "given": "Robin"
+   },
+   {
+    "family": "Pinotti",
+    "given": "Rachel"
+   },
+   {
+    "family": "Ross-White",
+    "given": "Amanda"
+   },
+   {
+    "family": "Sampson",
+    "given": "Margaret"
+   },
+   {
+    "family": "Shields",
+    "given": "Tracy"
+   },
+   {
+    "family": "Stevens",
+    "given": "Adrienne"
+   },
+   {
+    "family": "Sutton",
+    "given": "Anthea"
+   },
+   {
+    "family": "Weinfurter",
+    "given": "Elizabeth"
+   },
+   {
+    "family": "Wright",
+    "given": "Kath"
+   },
+   {
+    "family": "Young",
+    "given": "Sarah"
+   }
+  ],
+  "container-title": "Systematic Reviews",
+  "id": "Rethlefsen2021PRISMAS",
+  "issue": "1",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "page": "39",
+  "title": "PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews",
+  "title-short": "PRISMA-S",
+  "type": "article-journal",
+  "volume": "10",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/bmj.l6890",
+  "author": [
+   {
+    "family": "Campbell",
+    "given": "Mhairi"
+   },
+   {
+    "family": "McKenzie",
+    "given": "Joanne E."
+   },
+   {
+    "family": "Sowden",
+    "given": "Amanda"
+   },
+   {
+    "family": "Katikireddi",
+    "given": "Srinivasa Vittal"
+   },
+   {
+    "family": "Brennan",
+    "given": "Sue E."
+   },
+   {
+    "family": "Ellis",
+    "given": "Simon"
+   },
+   {
+    "family": "Hartmann-Boyce",
+    "given": "Jamie"
+   },
+   {
+    "family": "Ryan",
+    "given": "Rebecca"
+   },
+   {
+    "family": "Shepperd",
+    "given": "Sasha"
+   },
+   {
+    "family": "Thomas",
+    "given": "James"
+   },
+   {
+    "family": "Welch",
+    "given": "Vivian"
+   },
+   {
+    "family": "Thomson",
+    "given": "Hilary"
+   }
+  ],
+  "container-title": "BMJ",
+  "id": "Campbell2020SWiM",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "page": "l6890",
+  "title": "Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline",
+  "title-short": "Synthesis without meta-analysis (SWiM) in systematic reviews",
+  "type": "article-journal",
+  "volume": "368",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/bmj-2023-076335",
+  "author": [
+   {
+    "family": "Garritty",
+    "given": "Chantelle"
+   },
+   {
+    "family": "Hamel",
+    "given": "Candyce"
+   },
+   {
+    "family": "Trivella",
+    "given": "Marialena"
+   },
+   {
+    "family": "Gartlehner",
+    "given": "Gerald"
+   },
+   {
+    "family": "Nussbaumer-Streit",
+    "given": "Barbara"
+   },
+   {
+    "family": "Devane",
+    "given": "Declan"
+   },
+   {
+    "family": "Kamel",
+    "given": "Chris"
+   },
+   {
+    "family": "Griebler",
+    "given": "Ursula"
+   },
+   {
+    "family": "King",
+    "given": "Valerie J."
+   }
+  ],
+  "container-title": "BMJ",
+  "id": "Garritty2024Rapid",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "e076335",
+  "title": "Updated recommendations for the Cochrane rapid review methods guidance for rapid reviews of effectiveness",
+  "type": "article-journal",
+  "volume": "384",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1016/j.jclinepi.2019.10.014",
+  "author": [
+   {
+    "family": "Santesso",
+    "given": "Nancy"
+   },
+   {
+    "family": "Glenton",
+    "given": "Claire"
+   },
+   {
+    "family": "Dahm",
+    "given": "Philipp"
+   },
+   {
+    "family": "Garner",
+    "given": "Paul"
+   },
+   {
+    "family": "Akl",
+    "given": "Elie A."
+   },
+   {
+    "family": "Alper",
+    "given": "Brian"
+   },
+   {
+    "family": "Brignardello-Petersen",
+    "given": "Romina"
+   },
+   {
+    "family": "Carrasco-Labra",
+    "given": "Alonso"
+   },
+   {
+    "family": "De Beer",
+    "given": "Hans"
+   },
+   {
+    "family": "Hultcrantz",
+    "given": "Monica"
+   },
+   {
+    "family": "Kuijpers",
+    "given": "Ton"
+   },
+   {
+    "family": "Meerpohl",
+    "given": "Joerg"
+   },
+   {
+    "family": "Morgan",
+    "given": "Rebecca"
+   },
+   {
+    "family": "Mustafa",
+    "given": "Reem"
+   },
+   {
+    "family": "Skoetz",
+    "given": "Nicole"
+   },
+   {
+    "family": "Sultan",
+    "given": "Shahnaz"
+   },
+   {
+    "family": "Wiysonge",
+    "given": "Charles"
+   },
+   {
+    "family": "Guyatt",
+    "given": "Gordon"
+   },
+   {
+    "family": "Schünemann",
+    "given": "Holger J."
+   }
+  ],
+  "container-title": "Journal of Clinical Epidemiology",
+  "id": "Santesso2020GRADE",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "page": "126-135",
+  "title": "GRADE guidelines 26: informative statements to communicate the findings of systematic reviews of interventions",
+  "title-short": "GRADE guidelines 26",
+  "type": "article-journal",
+  "volume": "119",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/ebmed-2017-110668",
+  "author": [
+   {
+    "family": "Murad",
+    "given": "M. Hassan"
+   },
+   {
+    "family": "Mustafa",
+    "given": "Reem A."
+   },
+   {
+    "family": "Schünemann",
+    "given": "Holger J."
+   },
+   {
+    "family": "Sultan",
+    "given": "Shahnaz"
+   },
+   {
+    "family": "Santesso",
+    "given": "Nancy"
+   }
+  ],
+  "container-title": "Evidence Based Medicine",
+  "id": "Murad2017GRADE",
+  "issue": "3",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "page": "85-87",
+  "title": "Rating the certainty in evidence in the absence of a single estimate of effect",
+  "type": "article-journal",
+  "volume": "22",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/bmj.39489.470347.AD",
+  "author": [
+   {
+    "family": "Guyatt",
+    "given": "Gordon H."
+   },
+   {
+    "family": "Oxman",
+    "given": "Andrew D."
+   },
+   {
+    "family": "Vist",
+    "given": "Gunn E."
+   },
+   {
+    "family": "Kunz",
+    "given": "Regina"
+   },
+   {
+    "family": "Falck-Ytter",
+    "given": "Yngve"
+   },
+   {
+    "family": "Alonso-Coello",
+    "given": "Pablo"
+   },
+   {
+    "family": "Schünemann",
+    "given": "Holger J."
+   }
+  ],
+  "container-title": "BMJ",
+  "id": "Guyatt2008GRADE",
+  "issue": "7650",
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "page": "924-926",
+  "title": "GRADE: an emerging consensus on rating quality of evidence and strength of recommendations",
+  "title-short": "GRADE",
+  "type": "article-journal",
+  "volume": "336",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/bmj.l4898",
+  "author": [
+   {
+    "family": "Sterne",
+    "given": "Jonathan A. C."
+   },
+   {
+    "family": "Savović",
+    "given": "Jelena"
+   },
+   {
+    "family": "Page",
+    "given": "Matthew J."
+   },
+   {
+    "family": "Elbers",
+    "given": "Roy G."
+   },
+   {
+    "family": "Blencowe",
+    "given": "Natalie S."
+   },
+   {
+    "family": "Boutron",
+    "given": "Isabelle"
+   },
+   {
+    "family": "Cates",
+    "given": "Christopher J."
+   },
+   {
+    "family": "Cheng",
+    "given": "Hung-Yuan"
+   },
+   {
+    "family": "Corbett",
+    "given": "Mark S."
+   },
+   {
+    "family": "Eldridge",
+    "given": "Sandra M."
+   },
+   {
+    "family": "Emberson",
+    "given": "Jonathan R."
+   },
+   {
+    "family": "Hernán",
+    "given": "Miguel A."
+   },
+   {
+    "family": "Hopewell",
+    "given": "Sally"
+   },
+   {
+    "family": "Hróbjartsson",
+    "given": "Asbjørn"
+   },
+   {
+    "family": "Junqueira",
+    "given": "Daniela R."
+   },
+   {
+    "family": "Jüni",
+    "given": "Peter"
+   },
+   {
+    "family": "Kirkham",
+    "given": "Jamie J."
+   },
+   {
+    "family": "Lasserson",
+    "given": "Toby"
+   },
+   {
+    "family": "Li",
+    "given": "Tianjing"
+   },
+   {
+    "family": "McAleenan",
+    "given": "Alexandra"
+   },
+   {
+    "family": "Reeves",
+    "given": "Barnaby C."
+   },
+   {
+    "family": "Shepperd",
+    "given": "Sasha"
+   },
+   {
+    "family": "Shrier",
+    "given": "Ian"
+   },
+   {
+    "family": "Stewart",
+    "given": "Lesley A."
+   },
+   {
+    "family": "Tilling",
+    "given": "Kate"
+   },
+   {
+    "family": "White",
+    "given": "Ian R."
+   },
+   {
+    "family": "Whiting",
+    "given": "Penny F."
+   },
+   {
+    "family": "Higgins",
+    "given": "Julian P. T."
+   }
+  ],
+  "container-title": "BMJ",
+  "id": "Sterne2019RoB2",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "page": "l4898",
+  "title": "RoB 2: a revised tool for assessing risk of bias in randomised trials",
+  "title-short": "RoB 2",
+  "type": "article-journal",
+  "volume": "366",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1136/bmj.i4919",
+  "author": [
+   {
+    "family": "Sterne",
+    "given": "Jonathan A. C."
+   },
+   {
+    "family": "Hernán",
+    "given": "Miguel A."
+   },
+   {
+    "family": "Reeves",
+    "given": "Barnaby C."
+   },
+   {
+    "family": "Savović",
+    "given": "Jelena"
+   },
+   {
+    "family": "Berkman",
+    "given": "Nancy D."
+   },
+   {
+    "family": "Viswanathan",
+    "given": "Meera"
+   },
+   {
+    "family": "Henry",
+    "given": "David"
+   },
+   {
+    "family": "Altman",
+    "given": "Douglas G."
+   },
+   {
+    "family": "Ansari",
+    "given": "Mohammed T."
+   },
+   {
+    "family": "Boutron",
+    "given": "Isabelle"
+   },
+   {
+    "family": "Carpenter",
+    "given": "James R."
+   },
+   {
+    "family": "Chan",
+    "given": "An-Wen"
+   },
+   {
+    "family": "Churchill",
+    "given": "Rachel"
+   },
+   {
+    "family": "Deeks",
+    "given": "Jonathan J."
+   },
+   {
+    "family": "Hróbjartsson",
+    "given": "Asbjørn"
+   },
+   {
+    "family": "Kirkham",
+    "given": "Jamie"
+   },
+   {
+    "family": "Jüni",
+    "given": "Peter"
+   },
+   {
+    "family": "Loke",
+    "given": "Yoon K."
+   },
+   {
+    "family": "Pigott",
+    "given": "Theresa D."
+   },
+   {
+    "family": "Ramsay",
+    "given": "Craig R."
+   },
+   {
+    "family": "Regidor",
+    "given": "Deborah"
+   },
+   {
+    "family": "Rothstein",
+    "given": "Hannah R."
+   },
+   {
+    "family": "Sandhu",
+    "given": "Lakhbir"
+   },
+   {
+    "family": "Santaguida",
+    "given": "Pasqualina L."
+   },
+   {
+    "family": "Schünemann",
+    "given": "Holger J."
+   },
+   {
+    "family": "Shea",
+    "given": "Beverly"
+   },
+   {
+    "family": "Shrier",
+    "given": "Ian"
+   },
+   {
+    "family": "Tugwell",
+    "given": "Peter"
+   },
+   {
+    "family": "Turner",
+    "given": "Lucy"
+   },
+   {
+    "family": "Valentine",
+    "given": "Jeffrey C."
+   },
+   {
+    "family": "Waddington",
+    "given": "Hugh"
+   },
+   {
+    "family": "Waters",
+    "given": "Elizabeth"
+   },
+   {
+    "family": "Wells",
+    "given": "George A."
+   },
+   {
+    "family": "Whiting",
+    "given": "Penny F."
+   },
+   {
+    "family": "Higgins",
+    "given": "Julian P. T."
+   }
+  ],
+  "container-title": "BMJ",
+  "id": "Sterne2016ROBINSI",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "page": "i4919",
+  "title": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+  "title-short": "ROBINS-I",
+  "type": "article-journal",
+  "volume": "355",
+  "language": "en"
+ },
+ {
+  "URL": "https://www.riskofbias.info/welcome/robins-i-v2",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     25
+    ]
+   ]
+  },
+  "author": [
+   {
+    "family": "Sterne",
+    "given": "Jonathan A. C."
+   },
+   {
+    "family": "Higgins",
+    "given": "Julian P. T."
+   },
+   {
+    "literal": "ROBINS-I V2 development group"
+   }
+  ],
+  "id": "Sterne2025ROBINSIV2",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "note": "Documento em versão de rascunho (publicado 20 nov. 2025), sem artigo revisado por pares até a data de acesso; grupo de desenvolvimento liderado por Sterne e Higgins.",
+  "publisher": "Riskofbias.info",
+  "title": "The Risk Of Bias In Non-randomized Studies – of Interventions, Version 2 (ROBINS-I V2) assessment tool (for follow-up studies)",
+  "type": "webpage",
+  "language": "en"
+ },
+ {
+  "URL": "https://epoc.cochrane.org/sites/epoc.cochrane.org/files/uploads/Resources-for-authors2017/suggested_risk_of_bias_criteria_for_epoc_reviews.pdf",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "literal": "Cochrane Effective Practice and Organisation of Care (EPOC)"
+   }
+  ],
+  "id": "EPOC2017RoB",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "publisher": "EPOC Resources for review authors",
+  "title": "Suggested risk of bias criteria for EPOC reviews",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1093/biomet/26.4.404",
+  "author": [
+   {
+    "family": "Clopper",
+    "given": "C. J."
+   },
+   {
+    "family": "Pearson",
+    "given": "E. S."
+   }
+  ],
+  "container-title": "Biometrika",
+  "id": "Clopper1934IC",
+  "issue": "4",
+  "issued": {
+   "date-parts": [
+    [
+     1934
+    ]
+   ]
+  },
+  "page": "404-413",
+  "title": "The Use of Confidence or Fiducial Limits Illustrated in the Case of the Binomial",
+  "type": "article-journal",
+  "volume": "26",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1007/s11121-021-01246-3",
+  "author": [
+   {
+    "family": "Pustejovsky",
+    "given": "James E."
+   },
+   {
+    "family": "Tipton",
+    "given": "Elizabeth"
+   }
+  ],
+  "container-title": "Prevention Science",
+  "id": "Pustejovsky2022CHE",
+  "issue": "3",
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "page": "425-438",
+  "title": "Meta-analysis with Robust Variance Estimation: Expanding the Range of Working Models",
+  "title-short": "Meta-analysis with Robust Variance Estimation",
+  "type": "article-journal",
+  "volume": "23",
+  "language": "en"
+ },
+ {
+  "DOI": "10.18637/jss.v036.i03",
+  "author": [
+   {
+    "family": "Viechtbauer",
+    "given": "Wolfgang"
+   }
+  ],
+  "container-title": "Journal of Statistical Software",
+  "id": "Viechtbauer2010Metafor",
+  "issue": "3",
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "title": "Conducting Meta-Analyses in R with the metafor Package",
+  "type": "article-journal",
+  "volume": "36",
+  "language": "en"
+ },
+ {
+  "DOI": "10.32614/CRAN.package.clubSandwich",
+  "URL": "https://cran.r-project.org/package=clubSandwich",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "author": [
+   {
+    "family": "Pustejovsky",
+    "given": "James E."
+   }
+  ],
+  "id": "Pustejovsky2026ClubSandwich",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "note": "Pacote R, versão 0.7.0, instalada no ambiente do projeto",
+  "title": "clubSandwich: Cluster-Robust (Sandwich) Variance Estimators with Small-Sample Corrections",
+  "title-short": "clubSandwich",
+  "type": "book",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1002/jrsm.1458",
+  "author": [
+   {
+    "family": "Boon",
+    "given": "Michele Hilton"
+   },
+   {
+    "family": "Thomson",
+    "given": "Hilary"
+   }
+  ],
+  "container-title": "Research Synthesis Methods",
+  "id": "Boon2021EffectDirection",
+  "issue": "1",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "page": "29-33",
+  "title": "The effect direction plot revisited: Application of the 2019 Cochrane Handbook guidance on alternative synthesis methods",
+  "title-short": "The effect direction plot revisited",
+  "type": "article-journal",
+  "volume": "12",
+  "language": "en"
+ },
+ {
+  "URL": "https://training.cochrane.org/handbook",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ]
+  },
+  "edition": "6.5",
+  "editor": [
+   {
+    "family": "Higgins",
+    "given": "Julian P. T."
+   },
+   {
+    "family": "Thomas",
+    "given": "James"
+   },
+   {
+    "family": "Chandler",
+    "given": "Jacqueline"
+   },
+   {
+    "family": "Cumpston",
+    "given": "Miranda"
+   },
+   {
+    "family": "Li",
+    "given": "Tianjing"
+   },
+   {
+    "family": "Page",
+    "given": "Matthew J."
+   },
+   {
+    "family": "Welch",
+    "given": "Vivian A."
+   }
+  ],
+  "id": "Higgins2024Handbook",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "title": "Cochrane Handbook for Systematic Reviews of Interventions",
+  "type": "book",
+  "language": "en"
+ },
+ {
+  "DOI": "10.4073/cpg.2016.2",
+  "author": [
+   {
+    "literal": "The Steering Group of The Campbell Collaboration"
+   }
+  ],
+  "genre": "Campbell Policies and Guidelines Series",
+  "id": "CampbellCollaboration2016PLS",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "number": "2",
+  "publisher": "The Campbell Collaboration",
+  "title": "How to write a plain language summary for a Campbell systematic review",
+  "type": "report",
+  "language": "en"
+ },
+ {
+  "DOI": "10.1002/cl2.1445",
+  "author": [
+   {
+    "family": "Aloe",
+    "given": "Ariel M."
+   },
+   {
+    "family": "Dewidar",
+    "given": "Omar"
+   },
+   {
+    "family": "Hennessy",
+    "given": "Emily A."
+   },
+   {
+    "family": "Pigott",
+    "given": "Terri"
+   },
+   {
+    "family": "Stewart",
+    "given": "Gavin"
+   },
+   {
+    "family": "Welch",
+    "given": "Vivian"
+   },
+   {
+    "family": "Wilson",
+    "given": "David B."
+   },
+   {
+    "literal": "Campbell MECCIR Working Group"
+   }
+  ],
+  "container-title": "Campbell Systematic Reviews: Better Evidence for a Better World",
+  "id": "Aloe2024MECCIR",
+  "issue": "4",
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "page": "cl2.1445",
+  "title": "Campbell Standards: Modernizing Campbell’s Methodologic Expectations for Campbell Collaboration Intervention Reviews (MECCIR)",
+  "title-short": "Campbell Standards",
+  "type": "article-journal",
+  "volume": "20",
+  "language": "en"
+ },
+ {
+  "DOI": "10.31219/osf.io/aht4j_v1",
+  "author": [
+   {
+    "family": "Schaefer",
+    "given": "Bruno Marques"
+   },
+   {
+    "family": "Borges",
+    "given": "Tomás Paixão"
+   },
+   {
+    "family": "Freitas",
+    "given": "Carlos Barros Barreto Martins De"
+   }
+  ],
+  "id": "Schaefer2025OQF",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "publisher": "Preprint, OSF Preprints",
+  "title": "O que funciona? Proposta metodológica para avaliação de políticas públicas através de revisão sistemática",
+  "type": "article",
+  "language": "pt-BR"
+ },
+ {
+  "URL": "https://felipelamarca.com/Systematic-Review/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     25
+    ]
+   ]
+  },
+  "author": [
+   {
+    "family": "Lamarca",
+    "given": "Felipe"
+   }
+  ],
+  "id": "Lamarca2026Livro",
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "note": "Ano inferido do cabeçalho HTTP Last-Modified do site (a página não exibe data de publicação ou aviso de direitos autorais); título e autoria confirmados no cabeçalho da página.",
+  "title": "Revisão sistemática de ponta a ponta",
+  "type": "webpage",
+  "language": "pt-BR"
+ },
+ {
+  "DOI": "10.1002/jrsm.1427",
+  "author": [
+   {
+    "family": "Nikolakopoulos",
+    "given": "Stavros"
+   }
+  ],
+  "container-title": "Research Synthesis Methods",
+  "id": "Nikolakopoulos2020SignTest",
+  "issue": "5",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "page": "714-719",
+  "title": "Misuse of the sign test in narrative synthesis of evidence",
+  "type": "article-journal",
+  "volume": "11",
+  "language": "en"
+ }
+]

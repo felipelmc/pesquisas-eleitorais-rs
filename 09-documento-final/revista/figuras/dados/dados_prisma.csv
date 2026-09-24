@@ -1,0 +1,40 @@
+caixa,ramo,fase,linha,texto,n,caminho_json,estilo
+b_ident,bases,identificacao,1,Registros identificados em bases (n = 1.767),1767,bases.identificados.bases,titulo
+b_ident,bases,identificacao,2,OpenAlex (n = 1.687),1687,bases.identificados.por_fonte.openalex,normal
+b_ident,bases,identificacao,3,BDTD (n = 80),80,bases.identificados.por_fonte.bdtd,normal
+b_ident,bases,identificacao,4,registros de estudos (n = 0),0,bases.identificados.registros_estudos,normal
+b_removidos,bases,identificacao,1,Removidos por script antes da triagem (sem IA):,,,titulo
+b_removidos,bases,identificacao,2,duplicatas (n = 46),46,bases.removidos_antes_triagem.duplicatas,normal
+b_removidos,bases,identificacao,3,"publicados antes de 2010, filtro de ano (n = 148)",148,bases.removidos_antes_triagem.automacao_por_filtro.ano,normal
+b_removidos,bases,identificacao,4,outros motivos (n = 0),0,bases.removidos_antes_triagem.outros_motivos,normal
+b_triados,bases,triagem,1,Títulos e resumos triados por IA (n = 1.573),1573,bases.triados,titulo
+b_excl_triagem,bases,triagem,1,Registros excluídos na triagem por IA (n = 1.314),1314,bases.excluidos_triagem,titulo
+b_buscados,bases,triagem,1,Relatos buscados para recuperação (n = 259),259,bases.buscados,titulo
+b_nao_rec,bases,triagem,1,Relatos não recuperados (n = 158),158,bases.nao_recuperados,titulo
+b_avaliados,bases,triagem,1,Relatos avaliados no texto completo (n = 101),101,bases.avaliados,titulo
+b_excl_tc,bases,triagem,1,Relatos excluídos (n = 59):,59,bases.excluidos_elegibilidade.total,titulo
+b_excl_tc,bases,triagem,2,pesquisa não é a exposição estudada (n = 39),39,bases.excluidos_elegibilidade.motivos.c2_intervencao_estudada,normal
+b_excl_tc,bases,triagem,3,desenho não elegível (n = 10),10,bases.excluidos_elegibilidade.motivos.c4_desenho_elegivel,normal
+b_excl_tc,bases,triagem,4,população ou contexto fora do escopo (n = 8),8,bases.excluidos_elegibilidade.motivos.c1_populacao_contexto,normal
+b_excl_tc,bases,triagem,5,sem desfecho de voto ou comparecimento (n = 2),2,bases.excluidos_elegibilidade.motivos.c3_desfecho,normal
+b_seta_incl,bases,inclusao,1,42 relatos,42,bases.incluidos_relatos,seta
+o_ident,outros_metodos,identificacao,1,Registros identificados por busca de citações (n = 1.706),1706,outros_metodos.identificados.busca_citacoes,titulo
+o_ident,outros_metodos,identificacao,2,sites e organizações (n = 0),0,outros_metodos.identificados.sites_organizacoes,normal
+o_ident,outros_metodos,identificacao,3,outros (n = 0),0,outros_metodos.identificados.outros,normal
+o_removidos,outros_metodos,identificacao,1,Removidos por script antes da triagem (sem IA):,,,titulo
+o_removidos,outros_metodos,identificacao,2,duplicatas ou já identificados nas bases (n = 4),4,outros_metodos.removidos_antes_triagem.duplicatas,normal
+o_removidos,outros_metodos,identificacao,3,"publicados antes de 2010, filtro de ano (n = 648)",648,outros_metodos.removidos_antes_triagem.automacao_por_filtro.ano,normal
+o_removidos,outros_metodos,identificacao,4,outros motivos (n = 0),0,outros_metodos.removidos_antes_triagem.outros_motivos,normal
+o_triados,outros_metodos,triagem,1,Títulos e resumos triados por IA (n = 1.054),1054,outros_metodos.triados,titulo
+o_excl_triagem,outros_metodos,triagem,1,Registros excluídos na triagem por IA (n = 787),787,outros_metodos.excluidos_triagem,titulo
+o_buscados,outros_metodos,triagem,1,Relatos buscados para recuperação (n = 267),267,outros_metodos.buscados,titulo
+o_nao_rec,outros_metodos,triagem,1,Relatos não recuperados (n = 184),184,outros_metodos.nao_recuperados,titulo
+o_avaliados,outros_metodos,triagem,1,Relatos avaliados no texto completo (n = 83),83,outros_metodos.avaliados,titulo
+o_excl_tc,outros_metodos,triagem,1,Relatos excluídos (n = 70):,70,outros_metodos.excluidos_elegibilidade.total,titulo
+o_excl_tc,outros_metodos,triagem,2,pesquisa não é a exposição estudada (n = 50),50,outros_metodos.excluidos_elegibilidade.motivos.c2_intervencao_estudada,normal
+o_excl_tc,outros_metodos,triagem,3,população ou contexto fora do escopo (n = 13),13,outros_metodos.excluidos_elegibilidade.motivos.c1_populacao_contexto,normal
+o_excl_tc,outros_metodos,triagem,4,desenho não elegível (n = 4),4,outros_metodos.excluidos_elegibilidade.motivos.c4_desenho_elegivel,normal
+o_excl_tc,outros_metodos,triagem,5,sem desfecho de voto ou comparecimento (n = 3),3,outros_metodos.excluidos_elegibilidade.motivos.c3_desfecho,normal
+o_seta_incl,outros_metodos,inclusao,1,13 relatos,13,outros_metodos.incluidos_relatos,seta
+incluidos,geral,inclusao,1,Estudos incluídos na revisão (n = 41),41,incluidos.estudos,titulo
+incluidos,geral,inclusao,2,Relatos dos estudos incluídos (n = 55),55,incluidos.relatos,titulo

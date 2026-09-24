@@ -1,0 +1,88 @@
+---
+title: "Material suplementar"
+subtitle: "Pesquisas eleitorais publicadas mudam o voto? Revisão sistemática rápida sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
+date: 2026-09-24
+metadata-files: [revista/_revista.yml]
+bibliography: revista/referencias.json
+number-sections: false
+format:
+  typst:
+    number-sections: false
+---
+
+<!-- Esqueleto do suplemento. Não edite suplemento.qmd: ele é gerado por montar_suplemento.py, que troca cada
+     linha de marcador TABELA pelo conteúdo montado dos arquivos do projeto. Os IDs das seções seguem a lista
+     "suplemento" de revista/rotulos.yml; o artigo aponta para elas por links suplemento.html#<id>. -->
+
+::: {.callout-warning title="RASCUNHO NÃO VALIDADO"}
+Este material acompanha o artigo da revisão e traz, seção por seção, o que não cabe no texto: estratégias de busca, atalhos da revisão rápida, emendas, dados estudo a estudo, risco de viés, efeitos, sensibilidades e a caixa de ferramentas. Triagem, extração, risco de viés e certeza foram feitos por agentes de IA e não foram validados por humano; há {nv2:pendencias_abertas} pendências de revisão humana abertas, listadas no apêndice do artigo.
+:::
+
+# S1 Estratégias de busca {#s1-busca .unnumbered}
+
+Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01 foi substituída pela B05 (emenda E002) e não conta entre os registros identificados.
+
+@@TABELA s1_busca@@
+
+# S2 Atalhos da revisão rápida {#s2-atalhos .unnumbered}
+
+Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Garritty2024Rapid para revisões rápidas de efetividade, e a consequência provável para os resultados. O cruzamento é julgamento de IA, não conferido por humano.
+
+@@TABELA s2_atalhos@@
+
+# S3 Emendas e desvios do protocolo {#s3-emendas .unnumbered}
+
+Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da revisão no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados.
+
+@@TABELA s3_emendas@@
+
+# S4 Características dos estudos incluídos {#s4-caracteristicas .unnumbered}
+
+Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1).
+
+@@TABELA s4_caracteristicas@@
+
+# S5 Risco de viés por domínio {#s5-risco-de-vies .unnumbered}
+
+Julgamentos de consenso por domínio e o geral de cada resultado avaliado, com RoB 2, ROBINS-I V2 e EPOC. Todos são rascunho de IA: dois avaliadores independentes e um árbitro nos desacordos, sem validação humana.
+
+@@TABELA s5_rob@@
+
+# S6 Efeitos principais por estudo {#s6-efeitos .unnumbered}
+
+Os efeitos principais de cada estudo, com a célula em que entram e a situação na contagem da síntese principal.
+
+@@TABELA s6_efeitos@@
+
+# S7 Efeitos fora da contagem {#s7-fora-da-contagem .unnumbered}
+
+Efeitos principais que não estimam o contraste da exposição e, por isso, ficaram fora do teste de sinal. Eles entram só na leitura de mecanismos e moderadores e na análise de sensibilidade com os efeitos excluídos.
+
+@@TABELA s7_fora@@
+
+# S8 Agrupamento amplo e análises de sensibilidade {#s8-sensibilidades .unnumbered}
+
+O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal.
+
+@@TABELA s8_sensibilidades@@
+
+# S9 Caixa de ferramentas célula a célula {#s9-caixa .unnumbered}
+
+A caixa de ferramentas no formato OQF, célula a célula e no painel por formato de exposição e desfecho. O rótulo segue a regra `caixa-3`, e a certeza é a GRADE da célula.
+
+@@TABELA s9_caixa@@
+
+# S10 Estudos da região e efeitos de viabilidade e *momentum* {#s10-regional .unnumbered}
+
+Os estudos com alguma ligação com o Brasil ou a América Latina e os efeitos principais de viabilidade e de *momentum*, que o artigo trata como achados secundários.
+
+@@TABELA s10_regional@@
+
+# S11 Listas de conferência {#s11-checklists .unnumbered}
+
+@@TABELA s11_checklists@@
+
+# Referências {#referencias .unnumbered}
+
+::: {#refs}
+:::

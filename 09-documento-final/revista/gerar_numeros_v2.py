@@ -194,7 +194,213 @@ def pendencias():
                                           [F_PEND], chaves=abertas)}
 
 
-ENTRADAS = [prisma_totais, prisma_filtro_ano, estudos_fora_da_sintese, pendencias]
+# ---------------------------------------------------------------- entradas: Tab. 1 (características agregadas)
+F_CELULAS = "09-documento-final/revista/celulas.json"
+F_DIRECAO = "06-analise/swim_principal/tabelas/swim_direcao.csv"
+
+
+def pct(n, den):
+    return round(100 * n / den, 1)
+
+
+def tab1_caracteristicas():
+    """Contagens e porcentagens da Tab. 1. Tudo de numeros.json, menos as faixas de ano de publicação, que saem do
+    ano do relato principal de cada estudo em incluidos.csv (a mesma fonte do ano_min/ano_max de numeros.json)."""
+    num = ljson(F_NUM)
+    n_est = num["estudos"]
+    linhas = []
+    for grupo in ("desenho", "familia", "realismo", "regiao", "eleicao", "construto"):
+        confere(sum(num[grupo].values()) == n_est, f"numeros.json: {grupo} não soma {n_est}")
+        for cod, n in sorted(num[grupo].items(), key=lambda x: (-x[1], x[0])):
+            linhas.append({"grupo": grupo, "codigo": cod, "n": n, "denominador": n_est, "pct": pct(n, n_est)})
+    # faixas de ano de publicação (relato principal)
+    anos = {r["chave"]: r["ano"] for r in lcsv(F_INCL)}
+    master = [r["citekey"] for r in lcsv(F_MASTER)]
+    vals = [int(anos[k]) for k in master]
+    confere(min(vals) == num["ano_min"] and max(vals) == num["ano_max"], "faixa de anos difere de numeros.json")
+    faixas = [(2010, 2014), (2015, 2019), (2020, 2024)]
+    confere(faixas[0][0] <= min(vals) and max(vals) <= faixas[-1][1], "ano fora das faixas previstas")
+    for a, b in faixas:
+        n = sum(a <= v <= b for v in vals)
+        linhas.append({"grupo": "periodo", "codigo": f"{a}-{b}", "n": n, "denominador": n_est, "pct": pct(n, n_est)})
+    # risco de viés geral por ferramenta (denominador = resultados avaliados com a ferramenta)
+    for ferr, dist in num["rob_por_ferr"].items():
+        den = sum(dist.values())
+        for cod, n in sorted(dist.items(), key=lambda x: (-x[1], x[0])):
+            linhas.append({"grupo": f"rob_{ferr}", "codigo": cod, "n": n, "denominador": den, "pct": pct(n, den)})
+    confere(sum(sum(d.values()) for d in num["rob_por_ferr"].values()) == num["rob_resultados"],
+            "resultados de risco de viés não somam rob_resultados")
+    return {"tab1_caracteristicas": entrada(
+        n_est, "Tab. 1: n e % por característica; denominador = 41 estudos (desenho, família, realismo, região, "
+               "eleição, desfechos e faixas de ano do relato principal) ou resultados avaliados com cada ferramenta "
+               "(risco de viés geral); % com 1 casa",
+        [F_NUM, F_INCL, F_MASTER], linhas=linhas)}
+
+
+# ---------------------------------------------------------------- entradas: Tab. 2 (SoF), n por estudo e unidade
+F_CERTEZA = "06-analise/certeza.csv"
+CHAVE_CEL = ("familia_intervencao", "construto_outcome", "comparador_tipo", "celula_alvo", "classe_desenho")
+UNIDADES_AGREGADAS = [("secao_eleitoral", "seções eleitorais"), ("distrito_eleitoral", "distritos eleitorais"),
+                      ("departamento", "departamentos"), ("pais", "países")]
+NAO_UNIDADE = {"por", "em", "no", "na", "de", "do", "da", "a", "e", "com", "sem", "até"}
+
+
+def fmt_milhar(n):
+    return f"{n:,}".replace(",", ".")
+
+
+def unidade_da_justificativa(justificativa, n, chave, k):
+    """1ª regra: a unidade escrita junto do n no domínio de imprecisão da justificativa GRADE da célula
+    (certeza.csv), p. ex. "300 eleições de grupo em Agranov2017a", "1 estudo (545 respondentes)". Vale a ocorrência
+    do n seguida, em até 80 caracteres, da chave do estudo; numa célula de 1 estudo, a primeira ocorrência. A unidade
+    é a primeira palavra depois do n, mais "de <palavra>" quando vier logo em seguida (\"eleições de grupo\")."""
+    m = re.search(r"Imprecisão:(.*?)(?:Viés de publicação:|$)", justificativa, re.S)
+    if not m:
+        return None
+    imp = m.group(1)
+    for achado in re.finditer(r"(?<![\d.,])" + re.escape(fmt_milhar(n)) + r"(?![\d.,]*\d)", imp):
+        depois = imp[achado.end():achado.end() + 80]
+        if k > 1 and chave not in depois:
+            continue
+        pal = re.match(r"\s+([a-zà-ú]+)(?:\s+de\s+([a-zà-ú]+))?", depois)
+        if not pal or pal.group(1) in NAO_UNIDADE:
+            return None
+        u = pal.group(1)
+        if pal.group(2) and pal.group(2) not in NAO_UNIDADE:
+            u += " de " + pal.group(2)
+        return u
+    return None
+
+
+def unidade_do_fichamento(m, n):
+    """2ª regra, conservadora, quando a justificativa não diz a unidade:
+    - unidade de análise agregada (seção, distrito, departamento, país) e desfecho agregado: o nome da unidade;
+    - unidade 'individuo' e n igual ao tamanho total codificado no fichamento (b2_n_total): 'indivíduos';
+    - nos demais casos, sem unidade (a tabela mostra só o n)."""
+    ua, nivel = m["unidade_analise"], m["nivel_desfecho"]
+    for cod, rot in UNIDADES_AGREGADAS:
+        if ua.startswith(cod) or (ua.startswith("outro") and cod in ua.split("(")[0]):
+            return rot if "agregad" in nivel else None
+    total = re.match(r"\s*(\d+)", m["b2_n_total"])
+    if ua == "individuo" and total and int(total.group(1)) == n:
+        return "indivíduos"
+    return None
+
+
+def sof_n_por_estudo():
+    cel = ljson(F_CELULAS)["celulas"]
+    master = {r["citekey"]: r for r in lcsv(F_MASTER)}
+    cert = {tuple(r[c] for c in CHAVE_CEL): r for r in lcsv(F_CERTEZA)}
+    nam = {}
+    for r in lcsv(F_DIRECAO):
+        nam[(r["chave"], r["grupo"])] = int(r["n_amostra"]) if r["n_amostra"] not in ("", "NA") else None
+    por_celula, com_n, fontes_u = {}, 0, {"justificativa GRADE": 0, "fichamento": 0, "sem unidade": 0}
+    for c in cel:
+        chave_c = tuple(c[k] for k in CHAVE_CEL)
+        grupo = " | ".join(chave_c)
+        just = cert[chave_c]["justificativa"]
+        lista = []
+        for ch in c["estudos"]:
+            confere((ch, grupo) in nam, f"{ch} sem linha em swim_direcao.csv no grupo {grupo}")
+            n = nam[(ch, grupo)]
+            u, fonte_u = None, None
+            if n is not None:
+                com_n += 1
+                u = unidade_da_justificativa(just, n, ch, c["k"])
+                fonte_u = "justificativa GRADE" if u else None
+                if u is None:
+                    u = unidade_do_fichamento(master[ch], n)
+                    fonte_u = "fichamento" if u else None
+                fontes_u[fonte_u or "sem unidade"] += 1
+            lista.append({"chave": ch, "n": n, "unidade": u, "fonte_unidade": fonte_u})
+        por_celula[c["id"]] = lista
+    return {"sof_n_por_estudo": entrada(
+        com_n, "n do efeito principal de cada estudo em cada célula (coluna n_amostra de swim_direcao.csv, junção por "
+               "chave + grupo); unidade pela justificativa GRADE da célula (domínio de imprecisão, certeza.csv) ou, na "
+               "falta, pela regra de unidade_do_fichamento (unidade_analise, nivel_desfecho e b2_n_total); pares com "
+               f"unidade da justificativa: {fontes_u['justificativa GRADE']}, do fichamento: {fontes_u['fichamento']}, "
+               f"sem unidade: {fontes_u['sem unidade']}",
+        [F_DIRECAO, F_CELULAS, F_CERTEZA, F_MASTER], por_celula=por_celula)}
+
+
+# ---------------------------------------------------------------- entradas: Tab. 5 (transferibilidade)
+def transferibilidade():
+    """Quantos estudos incluídos têm cada fator de transferibilidade do protocolo (seção 9), pelo fichamento."""
+    M = lcsv(F_MASTER)
+    cel = ljson(F_CELULAS)["celulas"]
+    sint_mob = sorted({e for c in cel if c["bloco"] == "mobilizacao" for e in c["estudos"]})
+    na_sintese = {e for c in cel for e in c["estudos"]}
+    mob = sorted(r["citekey"] for r in M if "mobilizacao" in r["construto_outcome"])
+    vo_sim = sorted(r["citekey"] for r in M if r["voto_obrigatorio"].strip().lower().startswith("sim"))
+    vo_nao = sorted(r["citekey"] for r in M if r["voto_obrigatorio"].strip().lower().startswith("não"))
+    dois_t = sorted(r["citekey"] for r in M if r["sistema_eleitoral"].strip() == "maioria_dois_turnos")
+    proib = sorted(r["citekey"] for r in M if r["comparador_tipo"].strip() == "antes_depois_proibicao")
+    embargo = sorted(r["citekey"] for r in M if re.search(r"blackout|embargo", r["intervencao_descricao"] + " " +
+                                                         r["comparador"], re.I) and r["citekey"] not in proib)
+    conf = sorted(r["citekey"] for r in M if "confianca_pesquisas" in r["moderadores_relatados"])
+    confere(len(mob) == sum(v for k, v in ljson(F_NUM)["construto"].items() if "mobilizacao" in k),
+            "estudos de comparecimento diferem de numeros.json")
+    fm = [F_MASTER]
+    return {
+        "transf_voto_obrigatorio_sim": entrada(
+            len(vo_sim), "estudos do master com voto_obrigatorio começando por 'sim'", fm, chaves=vo_sim),
+        "transf_voto_obrigatorio_informado": entrada(
+            len(vo_sim) + len(vo_nao), "estudos com voto_obrigatorio 'sim' ou 'não' (os demais: 999, não informado)",
+            fm, chaves=sorted(vo_sim + vo_nao)),
+        "transf_voto_obrigatorio_sim_comparecimento": entrada(
+            len(set(vo_sim) & set(mob)), "estudos com desfecho de comparecimento (construto com mobilizacao) e "
+                                         "voto_obrigatorio 'sim'", fm, chaves=sorted(set(vo_sim) & set(mob))),
+        "transf_comparecimento_estudos": entrada(
+            len(mob), "estudos do master com mobilizacao no construto_outcome", fm + [F_NUM], chaves=mob),
+        "transf_comparecimento_sintese": entrada(
+            len(sint_mob), "estudos nas células de comparecimento (bloco mobilizacao) da síntese principal",
+            [F_CELULAS], chaves=sint_mob),
+        "transf_dois_turnos": entrada(
+            len(dois_t), "estudos do master com sistema_eleitoral = maioria_dois_turnos", fm, chaves=dois_t),
+        "transf_regulacao": entrada(
+            len(proib) + len(embargo), "estudos cuja variação vem de regra de divulgação: comparador_tipo = "
+                                       "antes_depois_proibicao, mais os que descrevem embargo ou blackout de pesquisas "
+                                       "em intervencao_descricao ou comparador", fm, chaves=sorted(proib + embargo)),
+        "transf_regulacao_proibicao": entrada(
+            len(proib), "estudos com comparador_tipo = antes_depois_proibicao (proibição de boca de urna)", fm,
+            chaves=proib),
+        "transf_regulacao_embargo": entrada(
+            len(embargo), "estudos que descrevem embargo ou blackout de pesquisas (intervencao_descricao ou "
+                          "comparador), fora os de proibição acima", fm, chaves=embargo),
+        "transf_regulacao_na_sintese": entrada(
+            len(set(proib + embargo) & na_sintese), "desses, os que estão em alguma célula da síntese principal",
+            fm + [F_CELULAS], chaves=sorted(set(proib + embargo) & na_sintese)),
+        "transf_confianca": entrada(
+            len(conf), "estudos com confianca_pesquisas em moderadores_relatados", fm, chaves=conf),
+    }
+
+
+# ---------------------------------------------------------------- entradas: valores dos efeitos principais (suplemento)
+def efeitos_principais_valores():
+    """Valores de cada efeito principal que as tabelas do suplemento (S6, S7 e S10, geradas por
+    07-relatorio/gerar_tabelas_relatorio.py) imprimem: g alinhado (yi), EP (sei), efeito em p.p., p0, p1, β e n.
+    Ficam aqui para que cada número do suplemento tenha fonte registrada; nada é recalculado."""
+    campos = ("yi", "sei", "efeito_pp", "p0", "p1", "beta", "n_total", "n1", "n2")
+    valores = {}
+    for r in lcsv(F_EFEITOS):
+        if r["modelo_principal"] != "sim":
+            continue
+        v = {}
+        for c in campos:
+            if r.get(c) not in (None, "", "NA"):
+                try:
+                    v[c] = float(r[c])
+                except ValueError:
+                    pass
+        valores[r["id_efeito"]] = v
+    return {"efeitos_principais_valores": entrada(
+        len(valores), "efeitos com modelo_principal = sim em 06-analise/efeitos.csv, com os campos que as tabelas do "
+                      "suplemento imprimem (yi, sei, efeito_pp, p0, p1, beta, n_total, n1, n2), sem arredondar",
+        [F_EFEITOS], valores=valores)}
+
+
+ENTRADAS = [prisma_totais, prisma_filtro_ano, estudos_fora_da_sintese, pendencias, tab1_caracteristicas,
+            sof_n_por_estudo, transferibilidade, efeitos_principais_valores]
 
 
 def main():

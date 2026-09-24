@@ -36,3 +36,13 @@ format:
         path: revista/inline.lua
     default-image-extension: svg
     keep-typ: true
+  html:
+    default-image-extension: png
+    filters:
+      - at: pre-quarto
+        path: revista/inline.lua
+  docx:
+    default-image-extension: png
+    filters:
+      - at: pre-quarto
+        path: revista/inline.lua

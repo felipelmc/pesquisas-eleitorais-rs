@@ -1,0 +1,26 @@
+tabela,desfecho,desfecho_rotulo,classe,classe_rotulo,realismo,realismo_rotulo,chave,celula_alvo,direcao,glifo,direcao_rotulo,italico,excluido_critico
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,hipotetico,hipotético,Fichnova2015a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,hipotetico,hipotético,Lammers2022a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,hipotetico,hipotético,Timotei2013a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,hipotetico,hipotético,Witsman2016a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,induzido,induzido,Agranov2017a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,induzido,induzido,Boukouras2020a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,induzido,induzido,Tal2015a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,induzido,induzido,Tyszler2015,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),randomizado,randomizado,real,real,Farjam2020a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),nao_randomizado,não randomizado,induzido,induzido,Feltovich2022,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),nao_randomizado,não randomizado,real,real,Araujo2021a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),nao_randomizado,não randomizado,real,real,Morton2015a,principal,benefico,a_favor,bandwagon,1,0
+T9,apoio_ao_lider,Apoio a quem aparece à frente (célula principal),nao_randomizado,não randomizado,real,real,Chatterjee2019a,principal,danoso,contra,underdog,1,0
+T14,mobilizacao,Comparecimento,randomizado,randomizado,induzido,induzido,Agranov2017a,mobilizacao,benefico,a_favor,mobilização,0,0
+T14,mobilizacao,Comparecimento,randomizado,randomizado,induzido,induzido,Groer2010a,mobilizacao,benefico,a_favor,mobilização,0,0
+T14,mobilizacao,Comparecimento,randomizado,randomizado,induzido,induzido,Westwood2020a,mobilizacao,danoso,contra,desmobilização,0,0
+T14,mobilizacao,Comparecimento,randomizado,randomizado,real,real,Gerber2020a,mobilizacao,nulo,nulo,nulo,0,0
+T14,mobilizacao,Comparecimento,randomizado,randomizado,real,real,Erlich2023,mobilizacao,danoso,contra,desmobilização,0,0
+T14,mobilizacao,Comparecimento,nao_randomizado,não randomizado,hipotetico,hipotético,Kaplan2019a,mobilizacao,danoso,contra,desmobilização,0,1
+T14,mobilizacao,Comparecimento,nao_randomizado,não randomizado,induzido,induzido,Klor2017a,mobilizacao,benefico,a_favor,mobilização,0,0
+T14,mobilizacao,Comparecimento,nao_randomizado,não randomizado,real,real,Brugarolas2021,mobilizacao,benefico,a_favor,mobilização,0,0
+T14,mobilizacao,Comparecimento,nao_randomizado,não randomizado,real,real,Stolwijk2019b,mobilizacao,benefico,a_favor,mobilização,0,0
+T14,mobilizacao,Comparecimento,nao_randomizado,não randomizado,real,real,Chatterjee2019a,mobilizacao,misto,misto,misto,0,0
+T14,mobilizacao,Comparecimento,nao_randomizado,não randomizado,real,real,Grillo2024c,mobilizacao,danoso,contra,desmobilização,0,0
+T14,mobilizacao,Comparecimento,nao_randomizado,não randomizado,real,real,Morton2015a,mobilizacao,danoso,contra,desmobilização,0,0

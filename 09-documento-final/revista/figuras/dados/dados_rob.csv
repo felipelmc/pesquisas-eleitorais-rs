@@ -1,0 +1,60 @@
+ferramenta,ferramenta_rotulo,grupo,dominio,dominio_rotulo,ordem,julgamento,julgamento_rotulo,nivel,n,total,proporcao
+rob2,RoB 2,dominio,D1,D1 randomização,1,baixo,baixo,1,15,23,0.6521739130434783
+rob2,RoB 2,dominio,D1,D1 randomização,1,algumas_preocupacoes,algumas preocupações,2,8,23,0.34782608695652173
+rob2,RoB 2,dominio,D1b,D1b recrutamento (cluster),2,baixo,baixo,1,3,7,0.42857142857142855
+rob2,RoB 2,dominio,D1b,D1b recrutamento (cluster),2,algumas_preocupacoes,algumas preocupações,2,4,7,0.5714285714285714
+rob2,RoB 2,dominio,D2,D2 desvios da atribuição,3,baixo,baixo,1,19,23,0.8260869565217391
+rob2,RoB 2,dominio,D2,D2 desvios da atribuição,3,algumas_preocupacoes,algumas preocupações,2,2,23,0.08695652173913043
+rob2,RoB 2,dominio,D2,D2 desvios da atribuição,3,alto,alto,3,2,23,0.08695652173913043
+rob2,RoB 2,dominio,D3,D3 dados faltantes,4,baixo,baixo,1,17,23,0.7391304347826086
+rob2,RoB 2,dominio,D3,D3 dados faltantes,4,algumas_preocupacoes,algumas preocupações,2,4,23,0.17391304347826086
+rob2,RoB 2,dominio,D3,D3 dados faltantes,4,alto,alto,3,2,23,0.08695652173913043
+rob2,RoB 2,dominio,D4,D4 mensuração do desfecho,5,baixo,baixo,1,13,23,0.5652173913043478
+rob2,RoB 2,dominio,D4,D4 mensuração do desfecho,5,algumas_preocupacoes,algumas preocupações,2,8,23,0.34782608695652173
+rob2,RoB 2,dominio,D4,D4 mensuração do desfecho,5,alto,alto,3,2,23,0.08695652173913043
+rob2,RoB 2,dominio,D5,D5 resultado relatado,6,baixo,baixo,1,2,23,0.08695652173913043
+rob2,RoB 2,dominio,D5,D5 resultado relatado,6,algumas_preocupacoes,algumas preocupações,2,21,23,0.9130434782608695
+rob2,RoB 2,geral,geral,julgamento geral,7,algumas_preocupacoes,algumas preocupações,2,17,23,0.7391304347826086
+rob2,RoB 2,geral,geral,julgamento geral,7,alto,alto,3,6,23,0.2608695652173913
+robins_i,ROBINS-I V2,dominio,D1,D1 confundimento,1,moderado,moderado,2,2,13,0.15384615384615385
+robins_i,ROBINS-I V2,dominio,D1,D1 confundimento,1,grave,grave,3,8,13,0.6153846153846154
+robins_i,ROBINS-I V2,dominio,D1,D1 confundimento,1,critico,crítico,4,3,13,0.23076923076923078
+robins_i,ROBINS-I V2,dominio,D2,D2 classificação da exposição,2,baixo,baixo,1,7,13,0.5384615384615384
+robins_i,ROBINS-I V2,dominio,D2,D2 classificação da exposição,2,moderado,moderado,2,6,13,0.46153846153846156
+robins_i,ROBINS-I V2,dominio,D3,D3 seleção de participantes,3,baixo,baixo,1,10,13,0.7692307692307693
+robins_i,ROBINS-I V2,dominio,D3,D3 seleção de participantes,3,moderado,moderado,2,3,13,0.23076923076923078
+robins_i,ROBINS-I V2,dominio,D4,D4 dados faltantes,4,baixo,baixo,1,8,13,0.6153846153846154
+robins_i,ROBINS-I V2,dominio,D4,D4 dados faltantes,4,moderado,moderado,2,5,13,0.38461538461538464
+robins_i,ROBINS-I V2,dominio,D5,D5 mensuração do desfecho,5,baixo,baixo,1,9,13,0.6923076923076923
+robins_i,ROBINS-I V2,dominio,D5,D5 mensuração do desfecho,5,moderado,moderado,2,2,13,0.15384615384615385
+robins_i,ROBINS-I V2,dominio,D5,D5 mensuração do desfecho,5,grave,grave,3,2,13,0.15384615384615385
+robins_i,ROBINS-I V2,dominio,D6,D6 resultado relatado,6,baixo,baixo,1,1,13,0.07692307692307693
+robins_i,ROBINS-I V2,dominio,D6,D6 resultado relatado,6,moderado,moderado,2,12,13,0.9230769230769231
+robins_i,ROBINS-I V2,geral,geral,julgamento geral,7,moderado,moderado,2,2,13,0.15384615384615385
+robins_i,ROBINS-I V2,geral,geral,julgamento geral,7,grave,grave,3,8,13,0.6153846153846154
+robins_i,ROBINS-I V2,geral,geral,julgamento geral,7,critico,crítico,4,3,13,0.23076923076923078
+epoc,EPOC,com grupo de comparação,cg_sequencia_aleatoria,geração da sequência aleatória †,1,alto,alto,3,5,5,1.0
+epoc,EPOC,com grupo de comparação,cg_ocultacao_alocacao,ocultação da alocação †,2,alto,alto,3,5,5,1.0
+epoc,EPOC,com grupo de comparação,cg_linha_base_outcome,desfecho semelhante na linha de base,3,baixo,baixo,1,1,5,0.2
+epoc,EPOC,com grupo de comparação,cg_linha_base_outcome,desfecho semelhante na linha de base,3,incerto,incerto,2,4,5,0.8
+epoc,EPOC,com grupo de comparação,cg_caracteristicas_base,características de base semelhantes,4,baixo,baixo,1,1,5,0.2
+epoc,EPOC,com grupo de comparação,cg_caracteristicas_base,características de base semelhantes,4,alto,alto,3,4,5,0.8
+epoc,EPOC,com grupo de comparação,cg_dados_incompletos,dados de desfecho incompletos,5,baixo,baixo,1,5,5,1.0
+epoc,EPOC,com grupo de comparação,cg_conhecimento_alocacao,conhecimento da alocação evitado,6,baixo,baixo,1,5,5,1.0
+epoc,EPOC,com grupo de comparação,cg_contaminacao,proteção contra contaminação,7,baixo,baixo,1,3,5,0.6
+epoc,EPOC,com grupo de comparação,cg_contaminacao,proteção contra contaminação,7,incerto,incerto,2,1,5,0.2
+epoc,EPOC,com grupo de comparação,cg_contaminacao,proteção contra contaminação,7,alto,alto,3,1,5,0.2
+epoc,EPOC,com grupo de comparação,cg_relato_seletivo,relato seletivo de desfechos,8,baixo,baixo,1,5,5,1.0
+epoc,EPOC,com grupo de comparação,cg_outros_riscos,outros riscos de viés,9,incerto,incerto,2,1,5,0.2
+epoc,EPOC,com grupo de comparação,cg_outros_riscos,outros riscos de viés,9,alto,alto,3,4,5,0.8
+epoc,EPOC,série temporal interrompida,its_intervencao_independente,exposição independente de outras mudanças,10,baixo,baixo,1,1,2,0.5
+epoc,EPOC,série temporal interrompida,its_intervencao_independente,exposição independente de outras mudanças,10,alto,alto,3,1,2,0.5
+epoc,EPOC,série temporal interrompida,its_forma_efeito_pre_especificada,forma do efeito pré-especificada,11,baixo,baixo,1,2,2,1.0
+epoc,EPOC,série temporal interrompida,its_coleta_nao_afetada,exposição não afetou a coleta,12,baixo,baixo,1,2,2,1.0
+epoc,EPOC,série temporal interrompida,its_conhecimento_alocacao,conhecimento da exposição evitado,13,baixo,baixo,1,2,2,1.0
+epoc,EPOC,série temporal interrompida,its_dados_incompletos,dados incompletos,14,baixo,baixo,1,2,2,1.0
+epoc,EPOC,série temporal interrompida,its_relato_seletivo,relato seletivo,15,baixo,baixo,1,2,2,1.0
+epoc,EPOC,série temporal interrompida,its_outros_riscos,"outros riscos (sazonalidade, antecipação)",16,baixo,baixo,1,1,2,0.5
+epoc,EPOC,série temporal interrompida,its_outros_riscos,"outros riscos (sazonalidade, antecipação)",16,alto,alto,3,1,2,0.5
+epoc,EPOC,geral,geral,julgamento geral,17,baixo,baixo,1,1,7,0.14285714285714285
+epoc,EPOC,geral,geral,julgamento geral,17,alto,alto,3,6,7,0.8571428571428571

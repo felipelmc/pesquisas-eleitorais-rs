@@ -1,0 +1,4639 @@
+{
+ "10.1007/s10683-015-9443-2": {
+  "ok": {
+   "DOI": "10.1007/s10683-015-9443-2",
+   "type": "journal-article",
+   "title": [
+    "Information and strategic voting"
+   ],
+   "container-title": [
+    "Experimental Economics"
+   ],
+   "volume": "19",
+   "issue": "2",
+   "page": "360-381",
+   "article-number": null,
+   "publisher": "Cambridge University Press (CUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      6
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Marcelo",
+     "family": "Tyszler",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Arthur",
+     "family": "Schram",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1007/s11615-022-00417-3": {
+  "ok": {
+   "DOI": "10.1007/s11615-022-00417-3",
+   "type": "journal-article",
+   "title": [
+    "Jumping on the Bandwagon: The Role of Voters’ Social Class in Poll Effects in the Context of the 2021 German Federal Election",
+    "Wer springt auf den Bandwagon auf? Die Rolle des sozialen Status der Wählenden für Umfrageeffekte im Kontext der Bundestagswahl 2021"
+   ],
+   "container-title": [
+    "Politische Vierteljahresschrift"
+   ],
+   "volume": "64",
+   "issue": "1",
+   "page": "51-78",
+   "article-number": null,
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      8,
+      10
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-9107-3533",
+     "authenticated-orcid": false,
+     "given": "Fabienne",
+     "family": "Unkelbach",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Melvin",
+     "family": "John",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Vera",
+     "family": "Vogel",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1016/j.electstud.2023.102692": {
+  "ok": {
+   "DOI": "10.1016/j.electstud.2023.102692",
+   "type": "journal-article",
+   "title": [
+    "When information is not enough for strategic voting"
+   ],
+   "container-title": [
+    "Electoral Studies"
+   ],
+   "volume": "86",
+   "issue": null,
+   "page": "102692",
+   "article-number": "102692",
+   "publisher": "Elsevier BV",
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      12
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Benjamin E.",
+     "family": "Schlegel",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Lukas F.",
+     "family": "Stoetzer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Patrick W.",
+     "family": "Kraft",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1016/j.euroecorev.2015.03.012": {
+  "ok": {
+   "DOI": "10.1016/j.euroecorev.2015.03.012",
+   "type": "journal-article",
+   "title": [
+    "Exit polls, turnout, and bandwagon voting: Evidence from a natural experiment"
+   ],
+   "container-title": [
+    "European Economic Review"
+   ],
+   "volume": "77",
+   "issue": null,
+   "page": "65-81",
+   "article-number": null,
+   "publisher": "Elsevier BV",
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      7
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Rebecca B.",
+     "family": "Morton",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Daniel",
+     "family": "Muller",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6020-9733",
+     "authenticated-orcid": false,
+     "given": "Lionel",
+     "family": "Page",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Benno",
+     "family": "Torgler",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1016/j.jclinepi.2019.10.014": {
+  "ok": {
+   "DOI": "10.1016/j.jclinepi.2019.10.014",
+   "type": "journal-article",
+   "title": [
+    "GRADE guidelines 26: informative statements to communicate the findings of systematic reviews of interventions"
+   ],
+   "container-title": [
+    "Journal of Clinical Epidemiology"
+   ],
+   "volume": "119",
+   "issue": null,
+   "page": "126-135",
+   "article-number": null,
+   "publisher": "Elsevier BV",
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      3
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Nancy",
+     "family": "Santesso",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Claire",
+     "family": "Glenton",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Philipp",
+     "family": "Dahm",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Paul",
+     "family": "Garner",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Elie A.",
+     "family": "Akl",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Brian",
+     "family": "Alper",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Romina",
+     "family": "Brignardello-Petersen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Alonso",
+     "family": "Carrasco-Labra",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hans",
+     "family": "De Beer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Monica",
+     "family": "Hultcrantz",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ton",
+     "family": "Kuijpers",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Joerg",
+     "family": "Meerpohl",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Rebecca",
+     "family": "Morgan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Reem",
+     "family": "Mustafa",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Nicole",
+     "family": "Skoetz",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Shahnaz",
+     "family": "Sultan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Charles",
+     "family": "Wiysonge",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gordon",
+     "family": "Guyatt",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Holger J.",
+     "family": "Schünemann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1017/ipo.2015.3": {
+  "ok": {
+   "DOI": "10.1017/ipo.2015.3",
+   "type": "journal-article",
+   "title": [
+    "The impact of exposure to pre-election polls on voting behaviour"
+   ],
+   "container-title": [
+    "Italian Political Science Review/Rivista Italiana di Scienza Politica"
+   ],
+   "volume": "45",
+   "issue": "1",
+   "page": "1-23",
+   "article-number": null,
+   "publisher": "Cambridge University Press (CUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      3
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Giancarlo",
+     "family": "Gasperoni",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Debora",
+     "family": "Mantovani",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1017/pan.2020.50": {
+  "ok": {
+   "DOI": "10.1017/pan.2020.50",
+   "type": "journal-article",
+   "title": [
+    "The Causal Effect of Polls on Turnout Intention: A Local Randomization Regression Discontinuity Approach"
+   ],
+   "container-title": [
+    "Political Analysis"
+   ],
+   "volume": "29",
+   "issue": "4",
+   "page": "554-560",
+   "article-number": null,
+   "publisher": "Cambridge University Press (CUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      2,
+      15
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Pablo",
+     "family": "Brugarolas",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-7447-2313",
+     "authenticated-orcid": false,
+     "given": "Luis",
+     "family": "Miller",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1017/s000712342100034x": {
+  "ok": {
+   "DOI": "10.1017/s000712342100034x",
+   "type": "journal-article",
+   "title": [
+    "Casting Ballots When Knowing Results"
+   ],
+   "container-title": [
+    "British Journal of Political Science"
+   ],
+   "volume": "52",
+   "issue": "4",
+   "page": "1709-1727",
+   "article-number": null,
+   "publisher": "Cambridge University Press (CUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      5
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-5392-5646",
+     "authenticated-orcid": false,
+     "given": "Victor",
+     "family": "Araújo",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4056-5770",
+     "authenticated-orcid": false,
+     "given": "Malu A.C.",
+     "family": "Gatto",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1057/9780230374959_11": {
+  "ok": {
+   "DOI": "10.1057/9780230374959_11",
+   "type": "book-chapter",
+   "title": [
+    "Attitudinal and Behavioral Consequences of Published Opinion Polls"
+   ],
+   "container-title": [
+    "Opinion Polls and the Media"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "225-245",
+   "article-number": null,
+   "publisher": "Palgrave Macmillan UK",
+   "issued": {
+    "date-parts": [
+     [
+      2012
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Patricia",
+     "family": "Moy",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Eike Mark",
+     "family": "Rinke",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1057/9781137016645_7": {
+  "ok": {
+   "DOI": "10.1057/9781137016645_7",
+   "type": "book-chapter",
+   "title": [
+    "Experimental Triangulation of Coalition Signals: Varying Designs, Converging Results"
+   ],
+   "container-title": [
+    "Experimental Political Science"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "140-160",
+   "article-number": null,
+   "publisher": "Palgrave Macmillan UK",
+   "issued": {
+    "date-parts": [
+     [
+      2012
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Michael F.",
+     "family": "Meffert",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Thomas",
+     "family": "Gschwend",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1057/s41269-018-0089-x": {
+  "ok": {
+   "DOI": "10.1057/s41269-018-0089-x",
+   "type": "journal-article",
+   "title": [
+    "Effects of issue and poll news on electoral volatility: conversion or crystallization?"
+   ],
+   "container-title": [
+    "Acta Politica"
+   ],
+   "volume": "54",
+   "issue": "4",
+   "page": "521-539",
+   "article-number": null,
+   "publisher": "Springer Science and Business Media LLC",
+   "issued": {
+    "date-parts": [
+     [
+      2018,
+      5,
+      9
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Sabine",
+     "family": "Geers",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Linda",
+     "family": "Bos",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Claes H.",
+     "family": "de Vreese",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1086/708682": {
+  "ok": {
+   "DOI": "10.1086/708682",
+   "type": "journal-article",
+   "title": [
+    "Projecting Confidence: How the Probabilistic Horse Race Confuses and Demobilizes the Public"
+   ],
+   "container-title": [
+    "The Journal of Politics"
+   ],
+   "volume": "82",
+   "issue": "4",
+   "page": "1530-1544",
+   "article-number": null,
+   "publisher": "University of Chicago Press",
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      10,
+      1
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Sean Jeremy",
+     "family": "Westwood",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Solomon",
+     "family": "Messing",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yphtach",
+     "family": "Lelkes",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1093/ijpor/edaa008": {
+  "ok": {
+   "DOI": "10.1093/ijpor/edaa008",
+   "type": "journal-article",
+   "title": [
+    "The Bandwagon Effect in an Online Voting Experiment With Real Political Organizations"
+   ],
+   "container-title": [
+    "International Journal of Public Opinion Research"
+   ],
+   "volume": "33",
+   "issue": "2",
+   "page": "412-421",
+   "article-number": null,
+   "publisher": "Oxford University Press (OUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      6,
+      14
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-0882-4851",
+     "authenticated-orcid": false,
+     "given": "Mike",
+     "family": "Farjam",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Social Studies, Linnaeus University, 351 95 Växjö, Sweden"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1093/ijpor/edae041": {
+  "ok": {
+   "DOI": "10.1093/ijpor/edae041",
+   "type": "journal-article",
+   "title": [
+    "Insurance Voting in the Centre: An Experimental Approach"
+   ],
+   "container-title": [
+    "International Journal of Public Opinion Research"
+   ],
+   "volume": "36",
+   "issue": "3",
+   "page": null,
+   "article-number": "edae041",
+   "publisher": "Oxford University Press (OUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2024
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-0820-8626",
+     "authenticated-orcid": false,
+     "given": "Annika",
+     "family": "Fredén",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Lund University , Lund"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-2556-4940",
+     "authenticated-orcid": false,
+     "given": "Bastiaan",
+     "family": "Bruinsma",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Chalmers University of Technology , Göteborg"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Nora",
+     "family": "Theorin",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Gothenburg , Göteborg"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Henrik",
+     "family": "Oscarsson",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Gothenburg , Göteborg"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1093/ijpor/edu041": {
+  "ok": {
+   "DOI": "10.1093/ijpor/edu041",
+   "type": "journal-article",
+   "title": [
+    "Off the Fence, Onto the Bandwagon? A Large-Scale Survey Experiment on Effect of Real-Life Poll Outcomes on Subsequent Vote Intentions"
+   ],
+   "container-title": [
+    "International Journal of Public Opinion Research"
+   ],
+   "volume": "28",
+   "issue": "1",
+   "page": "46-72",
+   "article-number": null,
+   "publisher": "Oxford University Press (OUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      2,
+      19
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Tom W. G.",
+     "family": "van der Meer",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Armen",
+     "family": "Hakhverdian",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Loes",
+     "family": "Aaldering",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1093/ijpor/edw018": {
+  "ok": {
+   "DOI": "10.1093/ijpor/edw018",
+   "type": "journal-article",
+   "title": [
+    "How Anxiety and Enthusiasm Help Explain the Bandwagon Effect"
+   ],
+   "container-title": [
+    "International Journal of Public Opinion Research"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "edw018",
+   "article-number": null,
+   "publisher": "Oxford University Press (OUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      6,
+      20
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Sjoerd B.",
+     "family": "Stolwijk",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Andreas R. T.",
+     "family": "Schuck",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Claes H.",
+     "family": "de Vreese",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1093/jeea/jvad038": {
+  "ok": {
+   "DOI": "10.1093/jeea/jvad038",
+   "type": "journal-article",
+   "title": [
+    "Identifying the Effect of Election Closeness on Voter Turnout: Evidence from Swiss Referenda"
+   ],
+   "container-title": [
+    "Journal of the European Economic Association"
+   ],
+   "volume": "22",
+   "issue": "2",
+   "page": "876-914",
+   "article-number": null,
+   "publisher": "Oxford University Press (OUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      16
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Leonardo",
+     "family": "Bursztyn",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "University of Chicago , USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Davide",
+     "family": "Cantoni",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Ludwig-Maximilians-Universität Munich , Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Patricia",
+     "family": "Funk",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Università della Svizzera Italiana , Switzerland"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Felix",
+     "family": "Schönenberger",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Università della Svizzera Italiana , Switzerland"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Noam",
+     "family": "Yuchtman",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Oxford , UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1093/jeea/jvx023": {
+  "ok": {
+   "DOI": "10.1093/jeea/jvx023",
+   "type": "journal-article",
+   "title": [
+    "What Makes Voters Turn Out: The Effects of Polls and Beliefs"
+   ],
+   "container-title": [
+    "Journal of the European Economic Association"
+   ],
+   "volume": "16",
+   "issue": "3",
+   "page": "825-856",
+   "article-number": null,
+   "publisher": "Oxford University Press (OUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2017,
+      8,
+      3
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Marina",
+     "family": "Agranov",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Division of the Humanities and Social Sciences, Caltech"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jacob K",
+     "family": "Goeree",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "AGORA Center for Market Design, UNSW Australia Business School and International Faculty, University of Cologne"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Julian",
+     "family": "Romero",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Arizona"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Leeat",
+     "family": "Yariv",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Division of the Humanities and Social Sciences, Caltech"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1093/poq/nfv036": {
+  "ok": {
+   "DOI": "10.1093/poq/nfv036",
+   "type": "journal-article",
+   "title": [
+    "Regulating Disinformation"
+   ],
+   "container-title": [
+    "Public Opinion Quarterly"
+   ],
+   "volume": "79",
+   "issue": "4",
+   "page": "932-951",
+   "article-number": null,
+   "publisher": "Oxford University Press (OUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2015
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Ignacio",
+     "family": "Lago",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Marc",
+     "family": "Guinjoan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Sandra",
+     "family": "Bermúdez",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1111/1467-9477.12094": {
+  "ok": {
+   "DOI": "10.1111/1467-9477.12094",
+   "type": "journal-article",
+   "title": [
+    "How Election Polls Shape Voting Behaviour"
+   ],
+   "container-title": [
+    "Scandinavian Political Studies"
+   ],
+   "volume": "40",
+   "issue": "3",
+   "page": "330-343",
+   "article-number": null,
+   "publisher": "Wiley",
+   "issued": {
+    "date-parts": [
+     [
+      2017,
+      5,
+      15
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jens Olav",
+     "family": "Dahlgaard",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Political Science University of Copenhagen Øster Farimagsgade 5 DK‐1353 Copenhagen K Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jonas Hedegaard",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Political Science University of Copenhagen Øster Farimagsgade 5 DK‐1353 Copenhagen K Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Kasper M.",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Political Science University of Copenhagen Øster Farimagsgade 5 DK‐1353 Copenhagen K Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Martin V.",
+     "family": "Larsen",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Political Science University of Copenhagen Øster Farimagsgade 5 DK‐1353 Copenhagen K Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1111/ajps.12441": {
+  "ok": {
+   "DOI": "10.1111/ajps.12441",
+   "type": "journal-article",
+   "title": [
+    "Committed or Conditional Democrats? Opposition Dynamics in Electoral Autocracies"
+   ],
+   "container-title": [
+    "American Journal of Political Science"
+   ],
+   "volume": "63",
+   "issue": "4",
+   "page": "948-963",
+   "article-number": null,
+   "publisher": "Wiley",
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      6,
+      13
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jennifer",
+     "family": "Gandhi",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Emory University"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Elvin",
+     "family": "Ong",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of British Columbia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1111/ajps.12722": {
+  "ok": {
+   "DOI": "10.1111/ajps.12722",
+   "type": "journal-article",
+   "title": [
+    "Campaign Messages, Polling, and Elections: Theory and Experimental Evidence"
+   ],
+   "container-title": [
+    "American Journal of Political Science"
+   ],
+   "volume": "68",
+   "issue": "2",
+   "page": "408-426",
+   "article-number": null,
+   "publisher": "Wiley",
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      8,
+      26
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Nick",
+     "family": "Feltovich",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Monash University"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Francesco",
+     "family": "Giovannoni",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Bristol"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1111/j.1475-6765.2010.01986.x": {
+  "ok": {
+   "DOI": "10.1111/j.1475-6765.2010.01986.x",
+   "type": "journal-article",
+   "title": [
+    "Polls, coalition signals and strategic voting: An experimental investigation of perceptions and effects"
+   ],
+   "container-title": [
+    "European Journal of Political Research"
+   ],
+   "volume": "50",
+   "issue": "5",
+   "page": "636-667",
+   "article-number": null,
+   "publisher": "Cambridge University Press (CUP)",
+   "issued": {
+    "date-parts": [
+     [
+      2011,
+      8
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Michael F.",
+     "family": "Meffert",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Thomas",
+     "family": "Gschwend",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1111/j.1540-5907.2010.00455.x": {
+  "ok": {
+   "DOI": "10.1111/j.1540-5907.2010.00455.x",
+   "type": "journal-article",
+   "title": [
+    "Public Opinion Polls, Voter Turnout, and Welfare: An Experimental Study"
+   ],
+   "container-title": [
+    "American Journal of Political Science"
+   ],
+   "volume": "54",
+   "issue": "3",
+   "page": "700-717",
+   "article-number": null,
+   "publisher": "Wiley",
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      21
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jens",
+     "family": "Großer",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Arthur",
+     "family": "Schram",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1111/jpet.12274": {
+  "ok": {
+   "DOI": "10.1111/jpet.12274",
+   "type": "journal-article",
+   "title": [
+    "On public opinion polls and voters' turnout"
+   ],
+   "container-title": [
+    "Journal of Public Economic Theory"
+   ],
+   "volume": "20",
+   "issue": "2",
+   "page": "239-256",
+   "article-number": null,
+   "publisher": "Wiley",
+   "issued": {
+    "date-parts": [
+     [
+      2017,
+      9,
+      18
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-6756-0825",
+     "authenticated-orcid": false,
+     "given": "Esteban F.",
+     "family": "Klor",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Economics The Hebrew University of Jerusalem and CEPR"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Eyal",
+     "family": "Winter",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Economics and the Center for the Study of Rationality The Hebrew University of Jerusalem"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1136/bmj-2023-076335": {
+  "ok": {
+   "DOI": "10.1136/bmj-2023-076335",
+   "type": "journal-article",
+   "title": [
+    "Updated recommendations for the Cochrane rapid review methods guidance for rapid reviews of effectiveness"
+   ],
+   "container-title": [
+    "BMJ"
+   ],
+   "volume": "384",
+   "issue": null,
+   "page": "e076335",
+   "article-number": null,
+   "publisher": "BMJ",
+   "issued": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      6
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-2207-9958",
+     "authenticated-orcid": false,
+     "given": "Chantelle",
+     "family": "Garritty",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa, Ottawa, ON, K1G 5Z3, Canada"
+      },
+      {
+       "name": "Global Health and Guidelines Division, Public Health Agency of Canada, Ottawa, ON, Canada"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5871-2137",
+     "authenticated-orcid": false,
+     "given": "Candyce",
+     "family": "Hamel",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa, Ottawa, ON, K1G 5Z3, Canada"
+      },
+      {
+       "name": "Canadian Association of Radiologists, Ottawa, ON, Canada"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Marialena",
+     "family": "Trivella",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cochrane Austria, Department for Evidence-based Medicine and Evaluation, University for Continuing Education Krems, Krems, Austria"
+      },
+      {
+       "name": "Department of Cardiovascular Medicine, John Radcliffe Hospital, Oxford, UK"
+      },
+      {
+       "name": "Department of Population Health, London School of Hygiene and Tropical Medicine, London, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gerald",
+     "family": "Gartlehner",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cochrane Austria, Department for Evidence-based Medicine and Evaluation, University for Continuing Education Krems, Krems, Austria"
+      },
+      {
+       "name": "Research Triangle Institute (RTI) International, Research Triangle Park, NC, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Barbara",
+     "family": "Nussbaumer-Streit",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cochrane Austria, Department for Evidence-based Medicine and Evaluation, University for Continuing Education Krems, Krems, Austria"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Declan",
+     "family": "Devane",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cochrane Ireland and Evidence Synthesis Ireland, School of Nursing and Midwifery, University of Galway, Galway, Ireland"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Chris",
+     "family": "Kamel",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Canadian Agency for Drugs and Technologies in Health (CADTH), Ottawa, ON, Canada"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ursula",
+     "family": "Griebler",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cochrane Austria, Department for Evidence-based Medicine and Evaluation, University for Continuing Education Krems, Krems, Austria"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Valerie J",
+     "family": "King",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Center for Evidence-based Policy, Department of Family Medicine, Oregon Health and Science University (OHSU), Portland, OR, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1136/bmj.i4919": {
+  "ok": {
+   "DOI": "10.1136/bmj.i4919",
+   "type": "journal-article",
+   "title": [
+    "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions"
+   ],
+   "container-title": [
+    "BMJ"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "i4919",
+   "article-number": null,
+   "publisher": "BMJ",
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      10,
+      12
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jonathan AC",
+     "family": "Sterne",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Miguel A",
+     "family": "Hernán",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Barnaby C",
+     "family": "Reeves",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jelena",
+     "family": "Savović",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Nancy D",
+     "family": "Berkman",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Meera",
+     "family": "Viswanathan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David",
+     "family": "Henry",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Douglas G",
+     "family": "Altman",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Mohammed T",
+     "family": "Ansari",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Isabelle",
+     "family": "Boutron",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "James R",
+     "family": "Carpenter",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "An-Wen",
+     "family": "Chan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Rachel",
+     "family": "Churchill",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jonathan J",
+     "family": "Deeks",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Asbjørn",
+     "family": "Hróbjartsson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jamie",
+     "family": "Kirkham",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Peter",
+     "family": "Jüni",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yoon K",
+     "family": "Loke",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Theresa D",
+     "family": "Pigott",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Craig R",
+     "family": "Ramsay",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Deborah",
+     "family": "Regidor",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hannah R",
+     "family": "Rothstein",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Lakhbir",
+     "family": "Sandhu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Pasqualina L",
+     "family": "Santaguida",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Holger J",
+     "family": "Schünemann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Beverly",
+     "family": "Shea",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ian",
+     "family": "Shrier",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Peter",
+     "family": "Tugwell",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Lucy",
+     "family": "Turner",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jeffrey C",
+     "family": "Valentine",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hugh",
+     "family": "Waddington",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Elizabeth",
+     "family": "Waters",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "George A",
+     "family": "Wells",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Penny F",
+     "family": "Whiting",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Julian PT",
+     "family": "Higgins",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1136/bmj.l4898": {
+  "ok": {
+   "DOI": "10.1136/bmj.l4898",
+   "type": "journal-article",
+   "title": [
+    "RoB 2: a revised tool for assessing risk of bias in randomised trials"
+   ],
+   "container-title": [
+    "BMJ"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "l4898",
+   "article-number": null,
+   "publisher": "BMJ",
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      8,
+      28
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-8496-6053",
+     "authenticated-orcid": false,
+     "given": "Jonathan A C",
+     "family": "Sterne",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jelena",
+     "family": "Savović",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Matthew J",
+     "family": "Page",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Roy G",
+     "family": "Elbers",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Natalie S",
+     "family": "Blencowe",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Isabelle",
+     "family": "Boutron",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Christopher J",
+     "family": "Cates",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hung-Yuan",
+     "family": "Cheng",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Mark S",
+     "family": "Corbett",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sandra M",
+     "family": "Eldridge",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jonathan R",
+     "family": "Emberson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Miguel A",
+     "family": "Hernán",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sally",
+     "family": "Hopewell",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Asbjørn",
+     "family": "Hróbjartsson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Daniela R",
+     "family": "Junqueira",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Peter",
+     "family": "Jüni",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jamie J",
+     "family": "Kirkham",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Toby",
+     "family": "Lasserson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tianjing",
+     "family": "Li",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Alexandra",
+     "family": "McAleenan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Barnaby C",
+     "family": "Reeves",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sasha",
+     "family": "Shepperd",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ian",
+     "family": "Shrier",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Lesley A",
+     "family": "Stewart",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Kate",
+     "family": "Tilling",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ian R",
+     "family": "White",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Penny F",
+     "family": "Whiting",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Julian P T",
+     "family": "Higgins",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1136/bmj.l6890": {
+  "ok": {
+   "DOI": "10.1136/bmj.l6890",
+   "type": "journal-article",
+   "title": [
+    "Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline"
+   ],
+   "container-title": [
+    "BMJ"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "l6890",
+   "article-number": null,
+   "publisher": "BMJ",
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      1,
+      16
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-4416-7270",
+     "authenticated-orcid": false,
+     "given": "Mhairi",
+     "family": "Campbell",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Joanne E",
+     "family": "McKenzie",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Amanda",
+     "family": "Sowden",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Srinivasa Vittal",
+     "family": "Katikireddi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sue E",
+     "family": "Brennan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Simon",
+     "family": "Ellis",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jamie",
+     "family": "Hartmann-Boyce",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Rebecca",
+     "family": "Ryan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sasha",
+     "family": "Shepperd",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "James",
+     "family": "Thomas",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Vivian",
+     "family": "Welch",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hilary",
+     "family": "Thomson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1136/bmj.n160": {
+  "ok": {
+   "DOI": "10.1136/bmj.n160",
+   "type": "journal-article",
+   "title": [
+    "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews"
+   ],
+   "container-title": [
+    "BMJ"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "n160",
+   "article-number": null,
+   "publisher": "BMJ",
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      29
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-4242-7526",
+     "authenticated-orcid": false,
+     "given": "Matthew J",
+     "family": "Page",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David",
+     "family": "Moher",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Patrick M",
+     "family": "Bossuyt",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Isabelle",
+     "family": "Boutron",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tammy C",
+     "family": "Hoffmann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Cynthia D",
+     "family": "Mulrow",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Larissa",
+     "family": "Shamseer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jennifer M",
+     "family": "Tetzlaff",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Elie A",
+     "family": "Akl",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sue E",
+     "family": "Brennan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Roger",
+     "family": "Chou",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Julie",
+     "family": "Glanville",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jeremy M",
+     "family": "Grimshaw",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Asbjørn",
+     "family": "Hróbjartsson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Manoj M",
+     "family": "Lalu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tianjing",
+     "family": "Li",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Elizabeth W",
+     "family": "Loder",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Evan",
+     "family": "Mayo-Wilson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Steve",
+     "family": "McDonald",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Luke A",
+     "family": "McGuinness",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Lesley A",
+     "family": "Stewart",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "James",
+     "family": "Thomas",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Andrea C",
+     "family": "Tricco",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Vivian A",
+     "family": "Welch",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Penny",
+     "family": "Whiting",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Joanne E",
+     "family": "McKenzie",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1136/bmj.n71": {
+  "ok": {
+   "DOI": "10.1136/bmj.n71",
+   "type": "journal-article",
+   "title": [
+    "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews"
+   ],
+   "container-title": [
+    "BMJ"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "n71",
+   "article-number": null,
+   "publisher": "BMJ",
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      29
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-4242-7526",
+     "authenticated-orcid": false,
+     "given": "Matthew J",
+     "family": "Page",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Joanne E",
+     "family": "McKenzie",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Patrick M",
+     "family": "Bossuyt",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Isabelle",
+     "family": "Boutron",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tammy C",
+     "family": "Hoffmann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Cynthia D",
+     "family": "Mulrow",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Larissa",
+     "family": "Shamseer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jennifer M",
+     "family": "Tetzlaff",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Elie A",
+     "family": "Akl",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sue E",
+     "family": "Brennan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Roger",
+     "family": "Chou",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Julie",
+     "family": "Glanville",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jeremy M",
+     "family": "Grimshaw",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Asbjørn",
+     "family": "Hróbjartsson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Manoj M",
+     "family": "Lalu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tianjing",
+     "family": "Li",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Elizabeth W",
+     "family": "Loder",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Evan",
+     "family": "Mayo-Wilson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Steve",
+     "family": "McDonald",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Luke A",
+     "family": "McGuinness",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Lesley A",
+     "family": "Stewart",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "James",
+     "family": "Thomas",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Andrea C",
+     "family": "Tricco",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Vivian A",
+     "family": "Welch",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Penny",
+     "family": "Whiting",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David",
+     "family": "Moher",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1177/1465116519837351": {
+  "ok": {
+   "DOI": "10.1177/1465116519837351",
+   "type": "journal-article",
+   "title": [
+    "More interest in interest: Does poll coverage help or hurt efforts to make more young voters show up at the ballot box?"
+   ],
+   "container-title": [
+    "European Union Politics"
+   ],
+   "volume": "20",
+   "issue": "3",
+   "page": "341-360",
+   "article-number": null,
+   "publisher": "SAGE Publications",
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      4,
+      3
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-1421-2445",
+     "authenticated-orcid": false,
+     "given": "Sjoerd B",
+     "family": "Stolwijk",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Political Science and Public Administration, Vrije Universiteit (VU) Amsterdam, Amsterdam, The Netherlands"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Andreas RT",
+     "family": "Schuck",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Communication Science, University of Amsterdam, Amsterdam, The Netherlands"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1257/app.20180574": {
+  "ok": {
+   "DOI": "10.1257/app.20180574",
+   "type": "journal-article",
+   "title": [
+    "One in a Million: Field Experiments on Perceived Closeness of the Election and Voter Turnout"
+   ],
+   "container-title": [
+    "American Economic Journal: Applied Economics"
+   ],
+   "volume": "12",
+   "issue": "3",
+   "page": "287-325",
+   "article-number": null,
+   "publisher": "American Economic Association",
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      7,
+      1
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Alan",
+     "family": "Gerber",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Yale University, 77 Prospect Street, PO Box 208209, New Haven, CT 06520 and NBER (email: )"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Mitchell",
+     "family": "Hoffman",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Rotman School of Management, University of Toronto, 105 St. George Street, Toronto, ON, M5S 3E6, Canada, and NBER (email: )"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "John",
+     "family": "Morgan",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "UC Berkeley, 545 Student Services Building #1900, Berkeley, CA 94720 (email: )"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Collin",
+     "family": "Raymond",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Purdue University, Krannert Building, Room 488, 403 West State Street, West Lafayette, IN 47907 (email: )"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.14201/rlop.29606": {
+  "ok": {
+   "DOI": "10.14201/rlop.29606",
+   "type": "journal-article",
+   "title": [
+    "Do (Perceptions of) Electoral Polling Affect Voters' Behavior? Campaigns, Partisan Bias, and Strategic Voting"
+   ],
+   "container-title": [
+    "Revista Latinoamericana de Opinión Pública"
+   ],
+   "volume": "11",
+   "issue": "2",
+   "page": "73-108",
+   "article-number": null,
+   "publisher": "Ediciones Universidad de Salamanca",
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      10
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-7332-9622",
+     "authenticated-orcid": false,
+     "given": "Rodrigo",
+     "family": "Castro Cornejo",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1515/wps-2016-0012": {
+  "ok": {
+   "DOI": "10.1515/wps-2016-0012",
+   "type": "journal-article",
+   "title": [
+    "How are Voters Influenced by Opinion Polls? The Effect of Polls on Voting Behavior and Party Sympathy"
+   ],
+   "container-title": [
+    "World Political Science"
+   ],
+   "volume": "12",
+   "issue": "2",
+   "page": "283-300",
+   "article-number": null,
+   "publisher": "Walter de Gruyter GmbH",
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      10,
+      18
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jens Olav",
+     "family": "Dahlgaard",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "University of Copenhagen, Department of Political Science, Øster Farimagsgade 5, DK-1353 Copenhagen K, Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jonas Hedegaard",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Copenhagen, Department of Political Science, Øster Farimagsgade 5, DK-1353 Copenhagen K, Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Kasper M.",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Copenhagen, Department of Political Science, Øster Farimagsgade 5, DK-1353 Copenhagen K, Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Martin V.",
+     "family": "Larsen",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "University of Copenhagen, Department of Political Science, Øster Farimagsgade 5, DK-1353 Copenhagen K, Denmark"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.1590/1807-019120243011": {
+  "ok": {
+   "DOI": "10.1590/1807-019120243011",
+   "type": "journal-article",
+   "title": [
+    "Pesquisas eleitorais e mudanças tardias na decisão do voto"
+   ],
+   "container-title": [
+    "Opinião Pública"
+   ],
+   "volume": "30",
+   "issue": null,
+   "page": null,
+   "article-number": "e3011",
+   "publisher": "FapUNIFESP (SciELO)",
+   "issued": {
+    "date-parts": [
+     [
+      2024
+     ]
+    ]
+   },
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-6666-7033",
+     "authenticated-orcid": false,
+     "given": "Frederico Batista",
+     "family": "Pereira",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "University of North Carolina,  Estados Unidos"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6944-4812",
+     "authenticated-orcid": false,
+     "given": "Felipe",
+     "family": "Nunes",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Universidade Federal de Minas Gerais,  Brasil"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.18637/jss.v036.i03": {
+  "ok": {
+   "DOI": "10.18637/jss.v036.i03",
+   "type": "journal-article",
+   "title": [
+    "Conducting Meta-Analyses in\n                    <i>R</i>\n                    with the\n                    <b>metafor</b>\n                    Package"
+   ],
+   "container-title": [
+    "Journal of Statistical Software"
+   ],
+   "volume": "36",
+   "issue": "3",
+   "page": null,
+   "article-number": null,
+   "publisher": "Foundation for Open Access Statistic",
+   "issued": {
+    "date-parts": [
+     [
+      2010
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Wolfgang",
+     "family": "Viechtbauer",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.3390/g4040624": {
+  "ok": {
+   "DOI": "10.3390/g4040624",
+   "type": "journal-article",
+   "title": [
+    "Strategic Voting in Heterogeneous Electorates:  An Experimental Study"
+   ],
+   "container-title": [
+    "Games"
+   ],
+   "volume": "4",
+   "issue": "4",
+   "page": "624-647",
+   "article-number": null,
+   "publisher": "MDPI AG",
+   "issued": {
+    "date-parts": [
+     [
+      2013,
+      11,
+      11
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Marcelo",
+     "family": "Tyszler",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Center for Research in Experimental Economics and political Decision making (CREED),  Amsterdam School of Economics, Roetersstraat 11, Amsterdam 1018 WB, The Netherlands"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Arthur",
+     "family": "Schram",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Center for Research in Experimental Economics and political Decision making (CREED),  Amsterdam School of Economics, Roetersstraat 11, Amsterdam 1018 WB, The Netherlands"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.3917/reco.pr2.0188": {
+  "ok": {
+   "DOI": "10.3917/reco.pr2.0188",
+   "type": "journal-article",
+   "title": [
+    "Exit Polls and Voter Turnout in the 2017 French Elections"
+   ],
+   "container-title": [
+    "Revue économique"
+   ],
+   "volume": "Pub. anticipées",
+   "issue": "7",
+   "page": "14-31",
+   "article-number": null,
+   "publisher": "CAIRN",
+   "issued": {
+    "date-parts": [
+     [
+      2030,
+      1,
+      31
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Alberto",
+     "family": "Grillo",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Eva",
+     "family": "Raiber",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.4135/9781848607910.n48": {
+  "ok": {
+   "DOI": "10.4135/9781848607910.n48",
+   "type": "book-chapter",
+   "title": [
+    "The Effects of Published Polls on Citizens"
+   ],
+   "container-title": [
+    "The SAGE Handbook of Public Opinion Research"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "504-514",
+   "article-number": null,
+   "publisher": "SAGE Publications Ltd",
+   "issued": {
+    "date-parts": [
+     [
+      2008
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Sibylle",
+     "family": "Hardmeier",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.5964/jspp.9241": {
+  "ok": {
+   "DOI": "10.5964/jspp.9241",
+   "type": "journal-article",
+   "title": [
+    "Disentangling the factors behind shifting voting intentions: The bandwagon effect reflects heuristic processing, while the underdog effect reflects fairness concerns"
+   ],
+   "container-title": [
+    "Journal of Social and Political Psychology"
+   ],
+   "volume": "10",
+   "issue": "2",
+   "page": "676-692",
+   "article-number": null,
+   "publisher": "Leibniz Institute for Psychology (ZPID)",
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      11,
+      30
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Joris",
+     "family": "Lammers",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Marcin",
+     "family": "Bukowski",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Anna",
+     "family": "Potoczek",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Alexandra",
+     "family": "Fleischmann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Wilhelm",
+     "family": "Hofmann",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.65109/dngc7810": {
+  "ok": {
+   "DOI": "10.65109/dngc7810",
+   "type": "proceedings-article",
+   "title": [
+    "A Study of Human Behavior in Online Voting"
+   ],
+   "container-title": [
+    "International Joint Conference on Autonomous Agents and Multiagent Systems",
+    "Proceedings of the Third International Joint Conference on Autonomous Agents and Multiagent Systems - Volume 1"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "665-673",
+   "article-number": null,
+   "publisher": "IEEE Computer Society",
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      5,
+      4
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Maor",
+     "family": "Tal",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Reshef",
+     "family": "Meir",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Ya'akov (Kobi)",
+     "family": "Gal",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.65109/srvt6467": {
+  "ok": {
+   "DOI": "10.65109/srvt6467",
+   "type": "proceedings-article",
+   "title": [
+    "Modeling People's Voting Behavior with Poll Information"
+   ],
+   "container-title": [
+    "International Joint Conference on Autonomous Agents and Multiagent Systems",
+    "Proceedings of the Third International Joint Conference on Autonomous Agents and Multiagent Systems - Volume 1"
+   ],
+   "volume": null,
+   "issue": null,
+   "page": "1422-1430",
+   "article-number": null,
+   "publisher": "IEEE Computer Society",
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      5,
+      8
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Roy",
+     "family": "Fairstein",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Adam",
+     "family": "Lauz",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Reshef",
+     "family": "Meir",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Kobi",
+     "family": "Gal",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.7146/politica.v47i1.131474": {
+  "ok": {
+   "DOI": "10.7146/politica.v47i1.131474",
+   "type": "journal-article",
+   "title": [
+    "Hvordan påvirkes vælgerne af meningsmålinger? Effekten af meningsmålinger på danskernes stemmeadfærd og sympati for partierne"
+   ],
+   "container-title": [
+    "Politica"
+   ],
+   "volume": "47",
+   "issue": "1",
+   "page": null,
+   "article-number": null,
+   "publisher": "Det Kgl. Bibliotek/Royal Danish Library",
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      2,
+      17
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jens Olav",
+     "family": "Dahlgaard",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Jonas Hedegaard",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Kasper Møller",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Martin Vinæs",
+     "family": "Larsen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ },
+ "10.7146/politica.v47i1.131475": {
+  "ok": {
+   "DOI": "10.7146/politica.v47i1.131475",
+   "type": "journal-article",
+   "title": [
+    "How do opinion polls affect voters? The effect of opinion polls on the Danes’ voting behavior and sympathy for parties"
+   ],
+   "container-title": [
+    "Politica"
+   ],
+   "volume": "47",
+   "issue": "1",
+   "page": null,
+   "article-number": null,
+   "publisher": "Det Kgl. Bibliotek/Royal Danish Library",
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      2,
+      17
+     ]
+    ]
+   },
+   "author": [
+    {
+     "given": "Jens Olav",
+     "family": "Dahlgaard",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jonas Hedegaard",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Kasper Møller",
+     "family": "Hansen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Martin Vinæs",
+     "family": "Larsen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ]
+  },
+  "consultado_em": "2026-09-24"
+ }
+}

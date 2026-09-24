@@ -157,5 +157,1115 @@
    "P041",
    "P042"
   ]
+ },
+ "tab1_caracteristicas": {
+  "valor": 41,
+  "formatado": "41",
+  "formula": "Tab. 1: n e % por característica; denominador = 41 estudos (desenho, família, realismo, região, eleição, desfechos e faixas de ano do relato principal) ou resultados avaliados com cada ferramenta (risco de viés geral); % com 1 casa",
+  "fontes": [
+   "09-documento-final/insumos/tabelas/numeros.json",
+   "07-relatorio/incluidos.csv",
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "linhas": [
+   {
+    "grupo": "desenho",
+    "codigo": "survey_experiment",
+    "n": 14,
+    "denominador": 41,
+    "pct": 34.1
+   },
+   {
+    "grupo": "desenho",
+    "codigo": "lab_preferencias_induzidas",
+    "n": 9,
+    "denominador": 41,
+    "pct": 22.0
+   },
+   {
+    "grupo": "desenho",
+    "codigo": "experimento_natural",
+    "n": 6,
+    "denominador": 41,
+    "pct": 14.6
+   },
+   {
+    "grupo": "desenho",
+    "codigo": "outro",
+    "n": 5,
+    "denominador": 41,
+    "pct": 12.2
+   },
+   {
+    "grupo": "desenho",
+    "codigo": "lab_candidatos_reais",
+    "n": 3,
+    "denominador": 41,
+    "pct": 7.3
+   },
+   {
+    "grupo": "desenho",
+    "codigo": "painel_individual",
+    "n": 3,
+    "denominador": 41,
+    "pct": 7.3
+   },
+   {
+    "grupo": "desenho",
+    "codigo": "experimento_campo",
+    "n": 1,
+    "denominador": 41,
+    "pct": 2.4
+   },
+   {
+    "grupo": "familia",
+    "codigo": "pesquisa_pre_eleitoral",
+    "n": 33,
+    "denominador": 41,
+    "pct": 80.5
+   },
+   {
+    "grupo": "familia",
+    "codigo": "agregador_projecao",
+    "n": 4,
+    "denominador": 41,
+    "pct": 9.8
+   },
+   {
+    "grupo": "familia",
+    "codigo": "boca_de_urna",
+    "n": 3,
+    "denominador": 41,
+    "pct": 7.3
+   },
+   {
+    "grupo": "familia",
+    "codigo": "apuracao_parcial",
+    "n": 1,
+    "denominador": 41,
+    "pct": 2.4
+   },
+   {
+    "grupo": "realismo",
+    "codigo": "real",
+    "n": 25,
+    "denominador": 41,
+    "pct": 61.0
+   },
+   {
+    "grupo": "realismo",
+    "codigo": "induzido",
+    "n": 9,
+    "denominador": 41,
+    "pct": 22.0
+   },
+   {
+    "grupo": "realismo",
+    "codigo": "hipotetico",
+    "n": 7,
+    "denominador": 41,
+    "pct": 17.1
+   },
+   {
+    "grupo": "regiao",
+    "codigo": "outro",
+    "n": 37,
+    "denominador": 41,
+    "pct": 90.2
+   },
+   {
+    "grupo": "regiao",
+    "codigo": "999",
+    "n": 1,
+    "denominador": 41,
+    "pct": 2.4
+   },
+   {
+    "grupo": "regiao",
+    "codigo": "america_latina",
+    "n": 1,
+    "denominador": 41,
+    "pct": 2.4
+   },
+   {
+    "grupo": "regiao",
+    "codigo": "america_latina + brasil + outro",
+    "n": 1,
+    "denominador": 41,
+    "pct": 2.4
+   },
+   {
+    "grupo": "regiao",
+    "codigo": "brasil",
+    "n": 1,
+    "denominador": 41,
+    "pct": 2.4
+   },
+   {
+    "grupo": "eleicao",
+    "codigo": "candidato_partido",
+    "n": 32,
+    "denominador": 41,
+    "pct": 78.0
+   },
+   {
+    "grupo": "eleicao",
+    "codigo": "simulada_abstrata",
+    "n": 8,
+    "denominador": 41,
+    "pct": 19.5
+   },
+   {
+    "grupo": "eleicao",
+    "codigo": "referendo",
+    "n": 1,
+    "denominador": 41,
+    "pct": 2.4
+   },
+   {
+    "grupo": "construto",
+    "codigo": "apoio_ao_lider",
+    "n": 24,
+    "denominador": 41,
+    "pct": 58.5
+   },
+   {
+    "grupo": "construto",
+    "codigo": "mobilizacao",
+    "n": 10,
+    "denominador": 41,
+    "pct": 24.4
+   },
+   {
+    "grupo": "construto",
+    "codigo": "apoio_ao_lider + mobilizacao",
+    "n": 7,
+    "denominador": 41,
+    "pct": 17.1
+   },
+   {
+    "grupo": "periodo",
+    "codigo": "2010-2014",
+    "n": 5,
+    "denominador": 41,
+    "pct": 12.2
+   },
+   {
+    "grupo": "periodo",
+    "codigo": "2015-2019",
+    "n": 19,
+    "denominador": 41,
+    "pct": 46.3
+   },
+   {
+    "grupo": "periodo",
+    "codigo": "2020-2024",
+    "n": 17,
+    "denominador": 41,
+    "pct": 41.5
+   },
+   {
+    "grupo": "rob_rob2",
+    "codigo": "algumas_preocupacoes",
+    "n": 17,
+    "denominador": 23,
+    "pct": 73.9
+   },
+   {
+    "grupo": "rob_rob2",
+    "codigo": "alto",
+    "n": 6,
+    "denominador": 23,
+    "pct": 26.1
+   },
+   {
+    "grupo": "rob_robins_i",
+    "codigo": "grave",
+    "n": 8,
+    "denominador": 13,
+    "pct": 61.5
+   },
+   {
+    "grupo": "rob_robins_i",
+    "codigo": "critico",
+    "n": 3,
+    "denominador": 13,
+    "pct": 23.1
+   },
+   {
+    "grupo": "rob_robins_i",
+    "codigo": "moderado",
+    "n": 2,
+    "denominador": 13,
+    "pct": 15.4
+   },
+   {
+    "grupo": "rob_epoc",
+    "codigo": "alto",
+    "n": 6,
+    "denominador": 7,
+    "pct": 85.7
+   },
+   {
+    "grupo": "rob_epoc",
+    "codigo": "baixo",
+    "n": 1,
+    "denominador": 7,
+    "pct": 14.3
+   }
+  ]
+ },
+ "sof_n_por_estudo": {
+  "valor": 26,
+  "formatado": "26",
+  "formula": "n do efeito principal de cada estudo em cada célula (coluna n_amostra de swim_direcao.csv, junção por chave + grupo); unidade pela justificativa GRADE da célula (domínio de imprecisão, certeza.csv) ou, na falta, pela regra de unidade_do_fichamento (unidade_analise, nivel_desfecho e b2_n_total); pares com unidade da justificativa: 23, do fichamento: 1, sem unidade: 2",
+  "fontes": [
+   "06-analise/swim_principal/tabelas/swim_direcao.csv",
+   "09-documento-final/revista/celulas.json",
+   "06-analise/certeza.csv",
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "por_celula": {
+   "C01": [
+    {
+     "chave": "Agranov2017a",
+     "n": 300,
+     "unidade": "eleições de grupo",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Farjam2020a",
+     "n": 1113,
+     "unidade": "participantes",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Timotei2013a",
+     "n": 80,
+     "unidade": "respondentes",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Tyszler2015",
+     "n": 12,
+     "unidade": "eleitorados",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C02": [
+    {
+     "chave": "Tal2015a",
+     "n": null,
+     "unidade": null,
+     "fonte_unidade": null
+    },
+    {
+     "chave": "Lammers2022a",
+     "n": 100,
+     "unidade": null,
+     "fonte_unidade": null
+    },
+    {
+     "chave": "Fichnova2015a",
+     "n": 24,
+     "unidade": "respondentes",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Witsman2016a",
+     "n": 142,
+     "unidade": null,
+     "fonte_unidade": null
+    }
+   ],
+   "C03": [
+    {
+     "chave": "Boukouras2020a",
+     "n": 135,
+     "unidade": "observações",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C04": [
+    {
+     "chave": "Feltovich2022",
+     "n": null,
+     "unidade": null,
+     "fonte_unidade": null
+    }
+   ],
+   "C05": [
+    {
+     "chave": "Morton2015a",
+     "n": 60,
+     "unidade": "observações",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Chatterjee2019a",
+     "n": 1737,
+     "unidade": "distritos",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C06": [
+    {
+     "chave": "Araujo2021a",
+     "n": 453016,
+     "unidade": "seções eleitorais",
+     "fonte_unidade": "fichamento"
+    }
+   ],
+   "C07": [
+    {
+     "chave": "Cornejo2023a",
+     "n": 545,
+     "unidade": "respondentes",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C08": [
+    {
+     "chave": "Schlegel2023",
+     "n": null,
+     "unidade": null,
+     "fonte_unidade": null
+    },
+    {
+     "chave": "Freden2024a",
+     "n": 744,
+     "unidade": "respondentes",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C09": [
+    {
+     "chave": "Dahlgaard2016a",
+     "n": 1700,
+     "unidade": "respondentes",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C10": [
+    {
+     "chave": "Meer2015a",
+     "n": 10643,
+     "unidade": "respondentes",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C11": [
+    {
+     "chave": "Stolwijk2016a",
+     "n": 6384,
+     "unidade": "observações",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C12": [
+    {
+     "chave": "Agranov2017a",
+     "n": 135,
+     "unidade": "observações",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Groer2010a",
+     "n": 12,
+     "unidade": "eleitorados",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Erlich2023",
+     "n": 181,
+     "unidade": "participantes",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C13": [
+    {
+     "chave": "Gerber2020a",
+     "n": 126126,
+     "unidade": "pessoas",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C14": [
+    {
+     "chave": "Westwood2020a",
+     "n": 5845,
+     "unidade": "decisões",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C15": [
+    {
+     "chave": "Klor2017a",
+     "n": 84,
+     "unidade": "participantes",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C16": [
+    {
+     "chave": "Grillo2024c",
+     "n": 576,
+     "unidade": "observações",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C17": [
+    {
+     "chave": "Morton2015a",
+     "n": 1260,
+     "unidade": "observações",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Chatterjee2019a",
+     "n": 1737,
+     "unidade": "distritos",
+     "fonte_unidade": "justificativa GRADE"
+    }
+   ],
+   "C18": [
+    {
+     "chave": "Stolwijk2019b",
+     "n": 747,
+     "unidade": "respondentes",
+     "fonte_unidade": "justificativa GRADE"
+    },
+    {
+     "chave": "Brugarolas2021",
+     "n": null,
+     "unidade": null,
+     "fonte_unidade": null
+    }
+   ]
+  }
+ },
+ "transf_voto_obrigatorio_sim": {
+  "valor": 3,
+  "formatado": "3",
+  "formula": "estudos do master com voto_obrigatorio começando por 'sim'",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": [
+   "Araujo2021a",
+   "Feltovich2022",
+   "Tyszler2015"
+  ]
+ },
+ "transf_voto_obrigatorio_informado": {
+  "valor": 10,
+  "formatado": "10",
+  "formula": "estudos com voto_obrigatorio 'sim' ou 'não' (os demais: 999, não informado)",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": [
+   "Alabrese2024a",
+   "Araujo2021a",
+   "Feltovich2022",
+   "Geers2018",
+   "Gerber2020a",
+   "Grillo2024c",
+   "Tyszler2015",
+   "Unkelbach2022a",
+   "Urminsky2019",
+   "Yang2023d"
+  ]
+ },
+ "transf_voto_obrigatorio_sim_comparecimento": {
+  "valor": 0,
+  "formatado": "0",
+  "formula": "estudos com desfecho de comparecimento (construto com mobilizacao) e voto_obrigatorio 'sim'",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": []
+ },
+ "transf_comparecimento_estudos": {
+  "valor": 17,
+  "formatado": "17",
+  "formula": "estudos do master com mobilizacao no construto_outcome",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv",
+   "09-documento-final/insumos/tabelas/numeros.json"
+  ],
+  "chaves": [
+   "Agranov2017a",
+   "Alabrese2024a",
+   "Brugarolas2021",
+   "Bursztyn2023a",
+   "Chatterjee2019a",
+   "Erlich2023",
+   "Geers2018",
+   "Gerber2020a",
+   "Grillo2024c",
+   "Groer2010a",
+   "Kaplan2019a",
+   "Klor2017a",
+   "Morton2015a",
+   "Stolwijk2019b",
+   "Urminsky2019",
+   "Westwood2020a",
+   "Yang2023d"
+  ]
+ },
+ "transf_comparecimento_sintese": {
+  "valor": 11,
+  "formatado": "11",
+  "formula": "estudos nas células de comparecimento (bloco mobilizacao) da síntese principal",
+  "fontes": [
+   "09-documento-final/revista/celulas.json"
+  ],
+  "chaves": [
+   "Agranov2017a",
+   "Brugarolas2021",
+   "Chatterjee2019a",
+   "Erlich2023",
+   "Gerber2020a",
+   "Grillo2024c",
+   "Groer2010a",
+   "Klor2017a",
+   "Morton2015a",
+   "Stolwijk2019b",
+   "Westwood2020a"
+  ]
+ },
+ "transf_dois_turnos": {
+  "valor": 4,
+  "formatado": "4",
+  "formula": "estudos do master com sistema_eleitoral = maioria_dois_turnos",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": [
+   "Araujo2021a",
+   "Erlich2023",
+   "Grillo2024c",
+   "Morton2015a"
+  ]
+ },
+ "transf_regulacao": {
+  "valor": 3,
+  "formatado": "3",
+  "formula": "estudos cuja variação vem de regra de divulgação: comparador_tipo = antes_depois_proibicao, mais os que descrevem embargo ou blackout de pesquisas em intervencao_descricao ou comparador",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": [
+   "Chatterjee2019a",
+   "Lago2015",
+   "Morton2015a"
+  ]
+ },
+ "transf_regulacao_proibicao": {
+  "valor": 2,
+  "formatado": "2",
+  "formula": "estudos com comparador_tipo = antes_depois_proibicao (proibição de boca de urna)",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": [
+   "Chatterjee2019a",
+   "Morton2015a"
+  ]
+ },
+ "transf_regulacao_embargo": {
+  "valor": 1,
+  "formatado": "1",
+  "formula": "estudos que descrevem embargo ou blackout de pesquisas (intervencao_descricao ou comparador), fora os de proibição acima",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": [
+   "Lago2015"
+  ]
+ },
+ "transf_regulacao_na_sintese": {
+  "valor": 2,
+  "formatado": "2",
+  "formula": "desses, os que estão em alguma célula da síntese principal",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv",
+   "09-documento-final/revista/celulas.json"
+  ],
+  "chaves": [
+   "Chatterjee2019a",
+   "Morton2015a"
+  ]
+ },
+ "transf_confianca": {
+  "valor": 1,
+  "formatado": "1",
+  "formula": "estudos com confianca_pesquisas em moderadores_relatados",
+  "fontes": [
+   "05-decomposicao/fichamentos_master.csv"
+  ],
+  "chaves": [
+   "Gasperoni2015a"
+  ]
+ },
+ "efeitos_principais_valores": {
+  "valor": 70,
+  "formatado": "70",
+  "formula": "efeitos com modelo_principal = sim em 06-analise/efeitos.csv, com os campos que as tabelas do suplemento imprimem (yi, sei, efeito_pp, p0, p1, beta, n_total, n1, n2), sem arredondar",
+  "fontes": [
+   "06-analise/efeitos.csv"
+  ],
+  "valores": {
+   "Agranov2017a-E05": {
+    "yi": 0.198395295991519,
+    "sei": 0.225080665601446,
+    "p0": 0.43,
+    "p1": 0.52,
+    "n1": 72.0,
+    "n2": 63.0
+   },
+   "Agranov2017a-E13": {
+    "yi": 0.697140645563968,
+    "sei": 0.258649283698566,
+    "p0": 0.74,
+    "p1": 0.91,
+    "n1": 160.0,
+    "n2": 140.0
+   },
+   "Alabrese2024a-E002": {
+    "yi": -2.13921976957652,
+    "sei": 0.333684308924301,
+    "beta": -0.1763,
+    "n_total": 4676.0
+   },
+   "Alabrese2024a-E125": {
+    "yi": -0.695680614871833,
+    "sei": 0.900873477617941,
+    "beta": -0.0634,
+    "n_total": 2026.0
+   },
+   "Alabrese2024a-E126": {
+    "yi": -1.05532922516917,
+    "sei": 0.668160678130481,
+    "beta": -0.0984,
+    "n_total": 1706.0
+   },
+   "Alabrese2024a-E127": {
+    "yi": 5.98591649105944,
+    "sei": 0.770199348080125,
+    "beta": 0.5588,
+    "n_total": 1337.0
+   },
+   "Alabrese2024a-E128": {
+    "yi": -13.7639807622541,
+    "sei": 1.91410485486928,
+    "beta": -1.3001,
+    "n_total": 1252.0
+   },
+   "Araujo2021a-E01": {
+    "yi": 0.12748538855049,
+    "sei": 0.00330772763231476,
+    "efeito_pp": 5.69,
+    "p0": 0.4112,
+    "n_total": 452656.0
+   },
+   "Araujo2021a-E06": {
+    "yi": 0.263115974647232,
+    "sei": 0.00331638547983012,
+    "efeito_pp": 11.76,
+    "p0": 0.49,
+    "n_total": 453016.0
+   },
+   "Boukouras2020a-E01": {
+    "yi": 0.537315180579698,
+    "sei": 0.297610959198656,
+    "p0": 0.6,
+    "p1": 0.8,
+    "n_total": 120.0,
+    "n1": 60.0,
+    "n2": 60.0
+   },
+   "Boukouras2020a-E02": {
+    "yi": 0.294338170472824,
+    "sei": 0.28176754147707,
+    "p0": 0.616,
+    "p1": 0.733,
+    "n_total": 120.0,
+    "n1": 60.0,
+    "n2": 60.0
+   },
+   "Boukouras2020a-E03": {
+    "yi": 0.167612369937485,
+    "sei": 0.253477233911513,
+    "p0": 0.567,
+    "p1": 0.64,
+    "n_total": 135.0,
+    "n1": 75.0,
+    "n2": 60.0
+   },
+   "Brugarolas2021-E01": {
+    "yi": 0.259370047821368,
+    "sei": 0.109392663969401,
+    "efeito_pp": 5.1,
+    "p0": 0.849
+   },
+   "Bursztyn2023a-E01": {
+    "yi": 0.196038457426247,
+    "sei": 0.0872007171701387,
+    "beta": 0.3905,
+    "n_total": 766.0
+   },
+   "Bursztyn2023a-E17": {
+    "yi": -0.00347395159584862,
+    "sei": 0.00116711623015104,
+    "beta": 0.0634,
+    "n_total": 124032.0
+   },
+   "Chatterjee2019a-E02": {
+    "yi": -0.292816140586977,
+    "sei": 0.119893222917502,
+    "efeito_pp": -2.921,
+    "p0": 0.4404,
+    "beta": -2.921,
+    "n_total": 1352.0
+   },
+   "Chatterjee2019a-E08": {
+    "yi": -0.415972100273883,
+    "sei": 0.152665559632481,
+    "efeito_pp": -3.504,
+    "p0": 0.4665,
+    "beta": -3.504,
+    "n_total": 1737.0
+   },
+   "Chatterjee2019a-E14": {
+    "yi": -0.354170999280805,
+    "sei": 0.0970846980603991,
+    "efeito_pp": -4.706,
+    "p0": 0.605,
+    "beta": -4.706,
+    "n_total": 1355.0
+   },
+   "Chatterjee2019a-E16": {
+    "yi": 0.0757273810775756,
+    "sei": 0.109074444093899,
+    "efeito_pp": 0.897,
+    "p0": 0.6208,
+    "beta": 0.897,
+    "n_total": 1737.0
+   },
+   "Cornejo2023a-E05": {
+    "yi": 0.192698639367129,
+    "sei": 0.104607737725539,
+    "beta": 0.35,
+    "n_total": 545.0
+   },
+   "Dahlgaard2016a-E01": {
+    "yi": 0.11820878699185,
+    "sei": 0.080069483069557,
+    "efeito_pp": 3.4,
+    "p0": 0.181,
+    "p1": 0.215,
+    "n_total": 1700.0,
+    "n1": 600.0,
+    "n2": 600.0
+   },
+   "Erlich2023-E01": {
+    "yi": -0.0494301403573525,
+    "sei": 0.296468438757721,
+    "beta": -0.09,
+    "n_total": 181.0
+   },
+   "Farjam2020a-E02": {
+    "beta": 0.31,
+    "n_total": 1113.0
+   },
+   "Feltovich2022-E01": {
+    "beta": 0.248
+   },
+   "Feltovich2022-E02": {
+    "beta": 0.442
+   },
+   "Fichnova2015a-E09": {
+    "n_total": 11.0,
+    "n1": 5.0,
+    "n2": 6.0
+   },
+   "Fichnova2015a-E10": {
+    "yi": 0.891322112379345,
+    "sei": 0.45228599251097,
+    "n_total": 24.0,
+    "n1": 17.0,
+    "n2": 7.0
+   },
+   "Freden2024a-E01": {
+    "yi": -0.411559214129529,
+    "sei": 0.178139012307605,
+    "p0": 0.0408,
+    "p1": 0.0824,
+    "n1": 376.0,
+    "n2": 368.0
+   },
+   "Freden2024a-E04": {
+    "yi": -0.186309325636659,
+    "sei": 0.178567839603028,
+    "p0": 0.0493,
+    "p1": 0.0678,
+    "n1": 339.0,
+    "n2": 365.0
+   },
+   "Freden2024a-E07": {
+    "yi": 0.0375392086881616,
+    "sei": 0.129575738477809,
+    "p0": 0.1217,
+    "p1": 0.1146,
+    "n1": 349.0,
+    "n2": 345.0
+   },
+   "Gandhi2019-E01": {
+    "yi": -0.990340662645167,
+    "sei": 0.180781767624145,
+    "efeito_pp": -30.3,
+    "p0": 0.899,
+    "n_total": 1277.0
+   },
+   "Gandhi2019-E03": {
+    "yi": -0.370043031602715,
+    "sei": 0.166431197087779,
+    "efeito_pp": -7.8,
+    "p0": 0.901,
+    "n_total": 1277.0
+   },
+   "Gasperoni2015a-E01": {
+    "efeito_pp": 10.11,
+    "p1": 0.1011,
+    "n_total": 188.0,
+    "n1": 188.0
+   },
+   "Geers2018-E01": {
+    "beta": -30.835,
+    "n_total": 765.0
+   },
+   "Geers2018-E02": {
+    "beta": -5.675,
+    "n_total": 765.0
+   },
+   "Gerber2020a-E12": {
+    "yi": 0.00219429492091282,
+    "sei": 0.00905945286489264,
+    "efeito_pp": 0.08,
+    "p0": 0.721,
+    "n_total": 6688.0
+   },
+   "Gerber2020a-E31": {
+    "yi": 0.00775937621203611,
+    "sei": 0.00554528573965355,
+    "efeito_pp": 0.29,
+    "p0": 0.5345,
+    "p1": 0.538,
+    "n_total": 126126.0
+   },
+   "Grillo2024c-E02": {
+    "yi": -0.111857858773376,
+    "sei": 0.111693588688132,
+    "efeito_pp": -3.44,
+    "p0": 0.80072,
+    "n_total": 576.0
+   },
+   "Groer2010a-E01": {
+    "p0": 0.31,
+    "p1": 0.4,
+    "n_total": 12.0,
+    "n1": 6.0,
+    "n2": 6.0
+   },
+   "Groer2010a-E02": {
+    "p0": 0.37,
+    "p1": 0.45,
+    "n_total": 12.0,
+    "n1": 6.0,
+    "n2": 6.0
+   },
+   "Kaplan2019a-E01": {
+    "yi": -0.328467856970155,
+    "sei": 0.092210296605948,
+    "efeito_pp": -8.06,
+    "p0": 0.8763,
+    "p1": 0.7957,
+    "n_total": 186.0,
+    "n1": 186.0
+   },
+   "Klor2017a-E01": {
+    "beta": 0.305,
+    "n_total": 854.0
+   },
+   "Klor2017a-E06": {
+    "n_total": 84.0
+   },
+   "Lago2015-E01": {
+    "yi": 0.031705069124424,
+    "sei": 0.015852534562212,
+    "beta": -0.002,
+    "n_total": 46.0
+   },
+   "Lammers2022a-E06": {
+    "yi": 1.24503625665025,
+    "sei": 0.217115454154804,
+    "n_total": 100.0,
+    "n1": 50.0,
+    "n2": 50.0
+   },
+   "Lammers2022a-E07": {
+    "yi": -0.385896347793447,
+    "sei": 0.200332533521592,
+    "n_total": 100.0,
+    "n1": 50.0,
+    "n2": 50.0
+   },
+   "Lammers2022a-E08": {
+    "yi": 1.02533583680308,
+    "sei": 0.211293899396413,
+    "n_total": 100.0,
+    "n1": 50.0,
+    "n2": 50.0
+   },
+   "Lammers2022a-E09": {
+    "yi": 0.0601781917732245,
+    "sei": 0.198511085596759,
+    "n_total": 100.0,
+    "n1": 50.0,
+    "n2": 50.0
+   },
+   "Meer2015a-E01": {
+    "yi": 0.126796703859827,
+    "sei": 0.0716677046399382,
+    "beta": 0.23,
+    "n_total": 10643.0
+   },
+   "Meffert2011-E01": {
+    "yi": 0.280107279214106,
+    "sei": 0.285603701881205,
+    "p0": 0.246,
+    "beta": -0.51,
+    "n_total": 200.0
+   },
+   "Morton2015a-E12": {
+    "yi": -0.250826190104561,
+    "sei": 0.044239272291492,
+    "efeito_pp": -11.0,
+    "p0": 0.64,
+    "n_total": 1260.0
+   },
+   "Morton2015a-E41": {
+    "beta": 5.22,
+    "n_total": 60.0
+   },
+   "Schlegel2023-E01": {
+    "efeito_pp": 11.0
+   },
+   "Schlegel2023-E02": {
+    "efeito_pp": 17.0
+   },
+   "Stolwijk2016a-E01": {
+    "beta": 0.01,
+    "n_total": 6384.0
+   },
+   "Stolwijk2019b-E03": {
+    "p0": 0.365,
+    "p1": 0.504,
+    "n_total": 747.0
+   },
+   "Tal2015a-E01": {
+    "p0": 0.7,
+    "p1": 0.92
+   },
+   "Tal2015a-E02": {
+    "p0": 0.64,
+    "p1": 0.73
+   },
+   "Timotei2013a-E01": {
+    "yi": 0.133839462898274,
+    "sei": 0.345060147149819,
+    "p0": 0.4,
+    "p1": 0.46,
+    "n_total": 80.0,
+    "n1": 40.0,
+    "n2": 40.0
+   },
+   "Tyszler2015-E01": {
+    "yi": 0.302429775671195,
+    "sei": 1.0353026612991,
+    "p0": 0.88,
+    "p1": 0.93,
+    "n_total": 12.0,
+    "n1": 6.0,
+    "n2": 6.0
+   },
+   "Tyszler2015-E02": {
+    "yi": 1.13671747597497,
+    "sei": 1.1568252729335,
+    "p0": 0.72,
+    "p1": 0.96,
+    "n_total": 12.0,
+    "n1": 6.0,
+    "n2": 6.0
+   },
+   "Unkelbach2022a-E01": {
+    "yi": 0.020399983823142,
+    "sei": 0.0214987777377692,
+    "beta": 0.037,
+    "n_total": 5291.0
+   },
+   "Unkelbach2022a-E02": {
+    "yi": 0.0560366489153379,
+    "sei": 0.0226012791602189,
+    "beta": 0.102,
+    "n_total": 5291.0
+   },
+   "Unkelbach2022a-E03": {
+    "yi": 0.011564361440201,
+    "sei": 0.0391388004969645,
+    "beta": 0.021,
+    "n_total": 5291.0
+   },
+   "Unkelbach2022a-E04": {
+    "yi": 0.020930951607619,
+    "sei": 0.0214987777377692,
+    "beta": 0.038,
+    "n_total": 5291.0
+   },
+   "Unkelbach2022a-E05": {
+    "yi": 0.0518377657431154,
+    "sei": 0.0358312962296154,
+    "beta": 0.094,
+    "n_total": 5291.0
+   },
+   "Unkelbach2022a-E06": {
+    "yi": -0.0369309690877991,
+    "sei": 0.0380362990745148,
+    "beta": -0.067,
+    "n_total": 5291.0
+   },
+   "Urminsky2019-E01": {
+    "yi": -0.195340067340067,
+    "sei": 0.133203072885223,
+    "n_total": 225.0
+   },
+   "Westwood2020a-E01": {
+    "yi": -0.0954132660571214,
+    "sei": 0.0227261888631585,
+    "efeito_pp": -3.4,
+    "p0": 0.748,
+    "n_total": 5845.0
+   },
+   "Witsman2016a-E01": {
+    "yi": 0.900164106815191,
+    "sei": 0.240942941795629,
+    "p0": 0.547619,
+    "p1": 0.862069,
+    "n1": 58.0,
+    "n2": 84.0
+   }
+  }
  }
 }

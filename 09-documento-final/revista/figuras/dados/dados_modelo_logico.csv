@@ -1,0 +1,29 @@
+elemento,ordem,id,nome,rotulo,papel,tracejado,colisor
+no,1,AL,apoio_latente,apoio latente,confundidor,0,0
+no,2,P1,pesquisa_t1,pesquisa anterior,pesquisa,0,0
+no,3,Y1,apoio_ao_lider,apoio a quem aparece à frente,desfecho,0,0
+no,4,IP,interesse_politico,interesse político,confundidor,0,0
+no,5,X,exposicao,exposição à pesquisa,exposicao,0,0
+no,6,PP,preferencia_previa,preferência prévia,confundidor,0,0
+no,7,M1,percepcao_viabilidade,percepção de viabilidade,mediador,0,0
+no,8,M2,calculo_estrategico,cálculo estratégico,mecanismo,0,0
+no,9,M3,heuristica_consenso,heurística de consenso,mecanismo,0,0
+no,10,M4,conformidade,conformidade,mecanismo,0,0
+no,11,M5,simpatia_azarao,simpatia pelo azarão,mecanismo,0,0
+no,12,M6,emocoes,emoções,mecanismo,0,0
+no,13,PV,complacencia,complacência,perverso,1,0
+no,14,Y2,desmobilizacao,desmobilização,perverso,1,0
+no,15,DE,divulgacao_enviesada,divulgação enviesada,perverso,1,0
+no,16,S,resposta_ao_survey,resposta ao survey,colisor,0,1
+no,17,P2,pesquisa_t2,pesquisa seguinte,pesquisa,0,0
+moderador,1,Z01,,força da identificação partidária,moderador,0,0
+moderador,2,Z02,,sofisticação e interesse político,moderador,0,0
+moderador,3,Z03,,sistema eleitoral e número de competidores,moderador,0,0
+moderador,4,Z04,,competitividade da disputa,moderador,0,0
+moderador,5,Z05,,formato da exposição,moderador,0,0
+moderador,6,Z06,,momento da campanha,moderador,0,0
+moderador,7,Z07,,tipo de eleição,moderador,0,0
+moderador,8,Z08,,realismo do contexto,moderador,0,0
+moderador,9,Z09,,ano da eleição,moderador,0,0
+moderador,10,Z10,,região,moderador,0,0
+moderador,11,Z11,,confiança nas pesquisas,moderador,0,0

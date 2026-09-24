@@ -1,0 +1,11 @@
+| Dimensão | Resultado para pesquisa pré-eleitoral × apoio a quem aparece à frente | Evidência | Certeza |
+|---|---|---|---|
+| Escala | Não estimada. Não há meta-análise principal. As duas metas exploratórias deram g = 0,48 (IC 95% −1,51 a 2,47; 3 estudos) e g = 0,62 (IC 95% −0,48 a 1,72; 3 estudos), ambas com menos de 4 graus de liberdade | @sec-apoio; @fig-metas; suplemento, S6 | muito baixa (a das células) |
+| Força | Inconclusivo (randomizados: Inconclusivo, força insuficiente; não randomizados: Inconclusivo, força insuficiente). São 9 células com 16 estudos, somando o alvo principal, a viabilidade e o *momentum* | @sec-efeito; @tbl-sof; suplemento, S9 | muito baixa em todas as células |
+| Mecanismo | Descritivo. Voto estratégico e viabilidade é o canal com mais estudos e com testes diretos em laboratório; a heurística de consenso tem uma manipulação, em vinheta (@Lammers2022a); nenhum estudo isolou a conformidade | @sec-mecanismo; @tbl-hipoteses | sem GRADE (descritivo) |
+| Moderador | Descritivo. Na célula principal, todos os estudos hipotéticos ou induzidos vão na direção *bandwagon*, e só um experimento de pesquisa usou eleição real (@Farjam2020a); o partidarismo não atenuou o efeito no único teste pré-especificado dentro da síntese principal (@Cornejo2023a); nenhum moderador teve estudos suficientes para teste | @sec-moderadores; @fig-realismo | sem GRADE (descritivo) |
+| Implementação | Não se aplica: a exposição a pesquisas não é um programa implementado por um gestor. A caixa gerada registra "Não avaliada" por falta das variáveis de implementação | @sec-percepcao | não se aplica |
+| Percepção | Não se aplica: a revisão é só de efeito e não sintetizou achados qualitativos sobre como eleitores percebem as pesquisas | @sec-percepcao | não se aplica |
+| Custo | Não se aplica à exposição. A caixa gerada registra "Pendente" porque não há dado de custo no fichamento | @sec-percepcao; suplemento, S9 | não se aplica |
+
+: Caixa de ferramentas no formato OQF para a pergunta principal: pesquisa pré-eleitoral e apoio a quem aparece à frente. Rótulos pela regra `caixa-3`; a certeza GRADE qualifica a direção e é rascunho de IA não validado. {#tbl-oqf tbl-colwidths="[12,50,24,14]"}

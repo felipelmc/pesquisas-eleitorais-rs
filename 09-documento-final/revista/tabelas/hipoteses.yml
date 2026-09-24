@@ -1,0 +1,220 @@
+# Tab. 3 (tbl-hipoteses): hipóteses do protocolo × o que a evidência diz × certeza.
+# Lida por 09-documento-final/montar_revisao_final.py (@@TABELA hipoteses@@). O passe de estilo pode editar os textos;
+# não edite `id`, `celulas` nem `sem_teste_formal` sem mudar a fonte.
+#
+# Campos de cada linha:
+#   id                 E1 a E8 (elos da tabela por elo) ou R1 a R3 (teorias rivais), na ordem de 00-protocolo/teoria_programa.md
+#   hipotese           a hipótese do protocolo, com a direção esperada (fonte: teoria_programa.md, seção 2 ou 5)
+#   estudos            estudos que testam com dados; "suf" é o complemento da citação (tipo de teste)
+#   so_interpretacao   estudos em que o canal é só interpretação dos autores
+#   evidencia          o que a evidência diz (fonte: insumos/mecanismos_moderadores.md, seção indicada em `fonte`;
+#                      sem as marcas [C: n]); chaves de estudo como @chave
+#   celulas            IDs de revista/celulas.json cuja certeza vale para a linha; vazio = sem GRADE (descritivo)
+#   certeza_nota       qualificação da certeza (opcional)
+#   sem_teste_formal   true quando a hipótese pede teste por nível (moderação ou subgrupos) e nenhuma célula tem
+#                      4 estudos por nível: acrescenta "sem teste formal (menos de 4 estudos por nível)"; um texto no
+#                      lugar de true substitui o motivo entre parênteses
+#   fonte              de onde veio cada campo
+#
+# A certeza da coluna é calculada pelo montador a partir de `celulas` (⊕ e palavra). As marcas [C: n] da fonte
+# apontam para linhas de 06-analise/certeza.csv; a correspondência com os IDs de celulas.json está em `fonte`.
+
+linhas:
+  - id: E1
+    hipotese: "Exposição → percepção de viabilidade: o eleitor atualiza a expectativa de quem vence (elo intermediário)"
+    estudos:
+      - {chave: Gerber2020a, suf: mediação}
+      - {chave: Bursztyn2023a}
+      - {chave: Erlich2023}
+      - {chave: Westwood2020a}
+      - {chave: Boukouras2020a}
+      - {chave: Meffert2011}
+      - {chave: Lago2015}
+    so_interpretacao: [Feltovich2022, Meffert2012a]
+    evidencia: >-
+      A pesquisa move expectativas. O único teste formal, uma mediação em experimento de campo (@Gerber2020a),
+      não acha efeito da expectativa sobre o comparecimento; os demais estudos inferem o canal por contraste
+    celulas: [C13]
+    certeza_nota: "só para o efeito nulo de @Gerber2020a no comparecimento; o elo em si, sem GRADE"
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E1; evidência e estudos: mecanismos_moderadores.md, 2.10
+      (linha E1) e 2.1; certeza: 2.10 "moderada só para o nulo de Gerber2020a [C: 15]" (certeza.csv linha 15 = C13)
+
+  - id: E2
+    hipotese: "Viabilidade → cálculo estratégico → apoio: abandonar o candidato inviável e migrar para um viável (esperado: *bandwagon* ou migração para o segundo colocado competitivo)"
+    estudos:
+      - {chave: Tyszler2013}
+      - {chave: Tyszler2015}
+      - {chave: Tal2015a}
+      - {chave: Agranov2017a}
+      - {chave: Cornejo2023a}
+      - {chave: Freden2024a, suf: relato}
+      - {chave: Schlegel2023}
+      - {chave: Witsman2016a}
+      - {chave: Gandhi2019}
+      - {chave: Alabrese2024a}
+      - {chave: Lago2015}
+    so_interpretacao: [Grillo2024c, Groer2010a, Kaplan2019a, Gasperoni2015a, Meffert2012a]
+    evidencia: >-
+      É o canal com mais estudos e com os testes mais diretos (laboratório com incentivos). A direção de
+      viabilidade aparece no laboratório e no México (@Cornejo2023a); na Suécia, o voto de seguro vai contra a
+      deserção do partido pequeno (@Freden2024a)
+    celulas: [C07, C08]
+    certeza_nota: "nas duas células de viabilidade"
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E2; evidência: mecanismos_moderadores.md, 2.10 (linha E2) e 2.6
+      ("Força"); certeza: 2.10 "muito baixa [C: 11, 14]" (linhas 11 e 14 = C08 e C07)
+
+  - id: E3
+    hipotese: "Exposição → heurística de consenso → apoio: \"se muitos apoiam, deve ser bom\" (esperado: *bandwagon*)"
+    estudos:
+      - {chave: Lammers2022a, suf: manipulação}
+      - {chave: Meer2015a}
+      - {chave: Boukouras2020a}
+      - {chave: Tal2015a}
+      - {chave: Fichnova2015a}
+    so_interpretacao: [Unkelbach2022a]
+    evidencia: >-
+      Direção *bandwagon* sob processamento heurístico, e a ênfase em quem ganha pesa mais que o número. Um único
+      estudo manipula o canal, em vinheta hipotética (@Lammers2022a); os demais inferem o canal do padrão de
+      resultados
+    celulas: [C02, C10]
+    certeza_nota: "para o efeito nas células em que esses estudos estão; o canal em si, sem GRADE"
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E3; evidência: mecanismos_moderadores.md, 2.10 (linha E3) e 2.2
+      ("Força"); certeza: 2.10 "muito baixa [C: 6, 7]" (linhas 6 e 7 = C02 e C10)
+
+  - id: E4
+    hipotese: "Exposição → conformidade ou desejo de vencer → apoio: aderir ao lado vencedor (esperado: *bandwagon*)"
+    estudos:
+      - {chave: Agranov2017a}
+      - {chave: Stolwijk2019b, suf: mediação}
+      - {chave: Yang2023d, suf: relato}
+    so_interpretacao: [Morton2015a, Timotei2013a, Dahlgaard2016a, Unkelbach2022a, Gasperoni2015a, Kaplan2019a]
+    evidencia: >-
+      Padrão compatível em @Agranov2017a, em que a maioria vota mais com pesquisa; em @Stolwijk2019b, a mediação
+      aponta o interesse pela campanha, não a conformidade. Nenhum estudo isola o canal
+    celulas: []
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E4; evidência: mecanismos_moderadores.md, 2.10 (linha E4) e 2.3
+      ("Força"); certeza: 2.10 "descritivo, sem certeza GRADE"
+
+  - id: E5
+    hipotese: "Exposição → simpatia pelo azarão ou equidade → apoio a quem está atrás (esperado: *underdog*)"
+    estudos:
+      - {chave: Lammers2022a, suf: manipulação}
+      - {chave: Yang2023d, suf: relato}
+    so_interpretacao: [Dahlgaard2016a]
+    evidencia: >-
+      Direção *underdog* ou nula sob o motivo moral de igualdade, com sinais diferentes entre as duas replicações
+      de uma única manipulação, em vinheta (@Lammers2022a)
+    celulas: []
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E5; evidência: mecanismos_moderadores.md, 2.10 (linha E5) e 2.4
+      ("Força"); certeza: 2.10 "descritivo, sem certeza GRADE"
+
+  - id: E6
+    hipotese: "Exposição → emoções (ansiedade, entusiasmo) → apoio (direção esperada ambígua)"
+    estudos:
+      - {chave: Stolwijk2016a, suf: mediação}
+      - {chave: Yang2023d, suf: relato}
+    so_interpretacao: []
+    evidencia: >-
+      Efeitos indiretos positivos, maiores pelo entusiasmo que pela ansiedade, numa mediação observacional em painel
+      (@Stolwijk2016a)
+    celulas: []
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E6; evidência: mecanismos_moderadores.md, 2.10 (linha E6) e 2.5;
+      certeza: 2.10 "descritivo, sem certeza GRADE" (a decomposição por mediação não tem célula)
+
+  - id: E7
+    hipotese: "Exposição → complacência → desmobilização (efeito indesejado): apoiadores deixam de votar"
+    estudos:
+      - {chave: Gerber2020a}
+      - {chave: Westwood2020a}
+      - {chave: Klor2017a}
+      - {chave: Agranov2017a}
+      - {chave: Bursztyn2023a}
+      - {chave: Alabrese2024a}
+    so_interpretacao: [Morton2015a, Grillo2024c, Groer2010a, Kaplan2019a, Brugarolas2021]
+    evidencia: >-
+      Previsões que fazem a eleição parecer decidida (boca de urna, projeção probabilística) vão na direção de
+      desmobilização; a disputa apertada, na de mobilização; a crença de proximidade isolada não muda o
+      comparecimento. São estudos isolados em cada célula
+    celulas: [C12, C13, C14, C15, C16, C17, C18]
+    certeza_nota: "conforme a célula de comparecimento"
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E7; evidência: mecanismos_moderadores.md, 2.10 (linha
+      "Pivotalidade / proximidade (E7)") e 2.7 ("Força"); certeza: 2.10 "moderada (nulo, Gerber2020a) a muito baixa
+      [C: 1, 3, 4, 15 a 18]" (linhas 1, 3, 4 e 15 a 18 = C14, C17, C16, C13, C15, C12 e C18)
+
+  - id: E8
+    hipotese: "Divulgação estratégica de pesquisas enviesadas → exposição: quem tem interesse publica números favoráveis para induzir *bandwagon* (afeta o conteúdo da exposição, não o sinal do efeito)"
+    estudos:
+      - {chave: Boukouras2020a}
+    so_interpretacao: [Alabrese2024a, Farjam2020a, Lammers2022a, Morton2015a, Timotei2013a, Tyszler2015]
+    evidencia: >-
+      Só um estudo testa a divulgação seletiva: revelar apenas as pesquisas mais favoráveis a um candidato aumentou
+      a vitória dele nos três experimentos de laboratório, inclusive quando o eleitor foi avisado do viés
+      (@Boukouras2020a). Nos demais, o tema é só discussão, e @Timotei2013a usa uma pesquisa fabricada como
+      tratamento
+    celulas: [C03]
+    certeza_nota: "para o efeito na célula de @Boukouras2020a"
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 2, linha E8; evidência: mecanismos_moderadores.md, 4.1 (tabela e item
+      "Pesquisas enviesadas (E8)") e 2.1 (Boukouras2020a); certeza: 2.1 "Certeza: muito baixa [C: linha 10]"
+      (linha 10 = C03)
+
+  - id: R1
+    hipotese: "Teoria rival 1, efeitos que se anulam: *bandwagon* e *underdog* coexistem, e um efeito médio perto de zero esconde efeitos individuais opostos"
+    estudos:
+      - {chave: Cornejo2023a}
+      - {chave: Lammers2022a}
+    so_interpretacao: []
+    evidencia: >-
+      Seis estudos têm linhas de subgrupo com sinais opostos no apoio, mas só dois entre grupos de eleitores ou de
+      processamento (@Cornejo2023a; @Lammers2022a). O protocolo exige pelo menos três; a hipótese fica não testada
+    celulas: []
+    sem_teste_formal: "menos de 3 estudos com subgrupos de sinais opostos, como exige o protocolo"
+    fonte: >-
+      hipótese: teoria_programa.md, seção 5, item 1; regra de 3 estudos: protocolo, seção 8 [15d]; evidência:
+      mecanismos_moderadores.md, 3.6 ("Efeitos que se anulam (teoria rival 1)")
+
+  - id: R2
+    hipotese: "Teoria rival 2, efeito só de expectativa: a pesquisa muda expectativas, mas não o voto"
+    estudos:
+      - {chave: Gerber2020a, suf: mediação}
+    so_interpretacao: []
+    evidencia: >-
+      É o padrão de @Gerber2020a: a pesquisa de disputa apertada move a crença sobre a proximidade, mas não o
+      comparecimento. Nenhum estudo testa formalmente a mediação da expectativa para o apoio ao líder
+    celulas: [C13]
+    certeza_nota: "só para o comparecimento; para o apoio, sem GRADE"
+    sem_teste_formal: false
+    fonte: >-
+      hipótese: teoria_programa.md, seção 5, item 2; evidência: mecanismos_moderadores.md, 2.1 (Gerber2020a e
+      "Força"); certeza: 2.1 "Certeza: moderada [C: linha 15]" (linha 15 = C13)
+
+  - id: R3
+    hipotese: "Teoria rival 3, efeito artefatual do experimento: com candidatos hipotéticos, o efeito reflete a demanda do experimentador (esperado: maior em contextos hipotéticos e induzidos)"
+    estudos: []
+    so_interpretacao: []
+    evidencia: >-
+      No apoio a quem aparece à frente, os 9 estudos hipotéticos ou induzidos vão todos na direção *bandwagon*, e
+      um dos 4 em eleição real vai na direção oposta. No comparecimento, a direção majoritária muda com o
+      realismo. É comparação entre estudos, e o realismo é o principal motivo de rebaixamento por indireção nas
+      células de apoio
+    celulas: []
+    sem_teste_formal: true
+    fonte: >-
+      hipótese: teoria_programa.md, seção 5, item 3, e tabela Z (realismo do contexto); evidência:
+      mecanismos_moderadores.md, 3.3 ("Leitura"); sem teste formal: mecanismos_moderadores.md, "Como ler"
+      (nenhuma célula alcança 4 estudos por nível)

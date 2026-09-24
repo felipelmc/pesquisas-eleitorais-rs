@@ -112,7 +112,7 @@
   pendencias: none,
   doc,
 ) = {
-  set document(title: title, keywords: keywords)
+  set document(title: if rascunho [#title (RASCUNHO NÃO VALIDADO)] else { title }, keywords: keywords)
   set document(
     author: authors.map(author => content-to-string(author.name)).join(", ", last: " & "),
   ) if authors != none and authors != ()
