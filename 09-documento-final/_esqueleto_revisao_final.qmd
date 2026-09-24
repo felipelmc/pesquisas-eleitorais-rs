@@ -41,7 +41,10 @@ Todas as etapas depois do protocolo foram conduzidas por agentes de IA, sem vali
 ::: {.mensagens-principais}
 # Mensagens principais {#mensagens-principais .unnumbered}
 
-[Abertura: etapa 4]
+- **Apoio ao líder.** Nas duas células com mais estudos, os 4 experimentos de cada uma foram na direção *bandwagon*, quase todos em laboratório ou vinheta. A evidência é muito incerta sobre se ver uma pesquisa aumenta o apoio a quem ela mostra à frente (duas células, cada uma com [⊕◯◯◯]{.grade} certeza muito baixa). Uma decisão pendente pode tirar @Witsman2016a da célula do mesmo candidato atrás.
+- **Comparecimento.** Pesquisa apertada, frente a folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais (1 experimento de campo; [⊕⊕⊕◯]{.grade} certeza moderada). Ter visto pesquisas divulgadas pode aumentá-lo (2 estudos não randomizados; [⊕⊕◯◯]{.grade} certeza baixa), e projeções longe de 50:50 podem reduzi-lo (1 jogo *online*; [⊕⊕◯◯]{.grade} certeza baixa).
+- **Brasil.** O único estudo com dados só do Brasil [@Araujo2021a] trata da apuração parcial divulgada durante a votação, e não de pesquisa. A evidência é muito incerta sobre se ela aumenta o voto em quem aparece à frente (1 experimento natural; [⊕◯◯◯]{.grade} certeza muito baixa).
+- **O que não se sabe.** Se as pesquisas mudam o voto e, se mudam, quanto. Sozinha, a evidência não sustenta nem a restrição nem a manutenção das regras atuais de divulgação.
 
 :::
 
@@ -53,19 +56,59 @@ Todo o documento depende da P038: o autor ainda não leu nem confirmou o relato 
 
 # Resumo executivo {#resumo-executivo .unnumbered}
 
-[Abertura: etapa 4]
+Pesquisas eleitorais voltam ao centro do debate brasileiro a cada eleição em que as urnas se afastam das estimativas dos institutos. Depois do primeiro turno de 2022, projetos de lei propuseram tornar crime a publicação de pesquisa que divergisse do resultado além da margem de erro e punir as empresas [@BrasilCamara2022PL2567; @BrasilSenado2022PL2558]. Em 2006, o STF derrubou o embargo que vedava a divulgação a partir do décimo quinto dia anterior à eleição, com base no direito à informação, e não em evidência sobre o efeito das pesquisas [@STF2006ADI3741]. A pergunta de fundo, raramente respondida com dados, é se ver uma pesquisa muda o voto de quem a vê.
+
+A resposta curta é que se sabe pouco. Nos experimentos, a direção dominante é *bandwagon*, a favor de quem aparece à frente, com certeza muito baixa e sem estimativa de tamanho. No comparecimento, o quadro é misto, e o único achado com certeza moderada é um efeito nulo ou trivial. Sobre o Brasil, a principal mensagem é a lacuna. A evidência não diz de quanto é o efeito das pesquisas sobre o voto, e tampouco permite afirmar que elas não têm efeito.
+
+Esta é uma revisão sistemática rápida, com protocolo congelado antes da busca. A busca cobriu o OpenAlex, em inglês, português e espanhol, e a Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) em 19/09/2026 e seguiu as citações dos estudos incluídos até 20/09/2026. Entraram 41 estudos (55 relatos), publicados de 2010 a 2024, a maioria dos Estados Unidos e da Europa, entre experimentos de *survey* e de laboratório, um experimento de campo, experimentos naturais e painéis. A evidência foi separada em células, que só juntam estudos com a mesma comparação e o mesmo tipo de desenho. Em cada uma, agentes de IA contaram para que lado apontam as estimativas e julgaram a certeza pelo GRADE.
+
+Nas duas células com mais estudos, que comparam ver pesquisa com não ver e ver o mesmo candidato à frente ou atrás, todos os experimentos foram na direção *bandwagon*. A evidência é muito incerta sobre se ver uma pesquisa aumenta o apoio a quem ela mostra à frente (8 experimentos em duas células, cada uma com certeza muito baixa; quase todos em laboratório ou com vinheta hipotética). Duas meta-análises exploratórias, com 3 estudos cada, deram estimativas positivas com intervalos de confiança que cruzam zero e inferência robusta não confiável. A regularidade rareia quando se olha só para eleições reais. Voto estratégico e *momentum* têm 1 ou 2 estudos por célula, todos com certeza muito baixa.
+
+O achado mais firme sobre o comparecimento vem do único experimento de campo, com 126.126 eleitores nos Estados Unidos. Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 pontos percentuais para mais ou para menos (certeza moderada). É evidência de que o efeito, se houver, é menor que isso, e não ausência de evidência. Ter visto a divulgação de pesquisas pode aumentar a intenção de votar ou o comparecimento (2 estudos não randomizados em eleições reais; certeza baixa), e ver projeções que mostram probabilidade de vitória mais distante de 50:50 pode reduzir a decisão de votar (1 jogo *online*; certeza baixa). A evidência é muito incerta sobre se divulgar boca de urna antes do fechamento das urnas muda o apoio ao líder ou reduz o comparecimento, com certeza muito baixa em todas as células.
+
+O único estudo com dados só do Brasil [@Araujo2021a] trata da divulgação oficial da apuração parcial com a votação ainda em curso, na eleição presidencial de 2018, e não de pesquisa eleitoral. Nenhum estudo incluído estima, com dados só do Brasil, o efeito de pesquisas pré-eleitorais publicadas, e o país aparece apenas entre os 46 do corte transversal de @Lago2015, que ficou fora da contagem principal. Tampouco se sabe se o voto obrigatório fecha o canal da desmobilização, porque nenhum estudo de comparecimento da síntese foi feito sob voto obrigatório. Sozinha, a evidência não sustenta nem a restrição nem a manutenção das regras atuais de divulgação. A decisão cabe a quem tem mandato para tomá-la, e o fundamento do STF em 2006 não depende desta evidência.
+
+Este documento é um rascunho. Todas as etapas depois do protocolo foram conduzidas por agentes de IA, sem validação humana, e há 18 pendências humanas abertas. A validação pode mudar a composição das células e, com ela, estas mensagens. Decisões de julgamento que podem mover estudos entre células ou mudar a certeza de algumas delas ficaram em aberto para o autor (@sec-limitacoes-processo), e o [Apêndice A](#sec-pendencias) lista as pendências.
 
 ::: {.resumo}
 # Resumo {#resumo .unnumbered}
 
-[Abertura: etapa 4]
+**Contexto.** Regular a divulgação de pesquisas exige saber se elas mudam o voto.
+
+**Objetivos.** Avaliar se pesquisas eleitorais publicadas mudam o voto ou o comparecimento, e em que direção (*bandwagon* ou *underdog*).
+
+**Métodos.** Experimentos, experimentos naturais, quase-experimentos e painéis desde 2010, em qualquer idioma, sobre pesquisas, projeções, boca de urna ou apuração parcial. Busca no OpenAlex e na BDTD (19/09/2026) e por citação (20/09/2026). Risco de viés por RoB 2, ROBINS-I V2 e EPOC; contagem da direção por célula (SWiM); certeza GRADE. Agentes de IA fizeram tudo após o protocolo.
+
+**Resultados.** Dos 41 estudos incluídos (amostras em unidades diferentes), 27 formaram 18 células na síntese principal. Nas duas maiores, os 4 experimentos de cada uma foram *bandwagon*, quase todos em laboratório ou vinheta (IC 95% da proporção, 0,40 a 1,00), mas a evidência é muito incerta (cada uma com [⊕◯◯◯]{.grade} certeza muito baixa). Pesquisa apertada, frente a folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais ([⊕⊕⊕◯]{.grade} certeza moderada). Ter visto pesquisas pode aumentá-lo, e projeções longe de 50:50 podem reduzi-lo ([⊕⊕◯◯]{.grade} certeza baixa). A evidência sobre boca de urna é muito incerta. O único estudo com dados só do Brasil trata de apuração parcial, não de pesquisa.
+
+**Limitações.** Sem validação humana (18 pendências); 342 de 526 relatos não recuperados.
+
+**Conclusões.** A direção *bandwagon* nos experimentos tem certeza muito baixa, e não se sabe o tamanho do efeito, nem se ele existe.
+
+**Registro e financiamento.** Não registrada; sem financiamento.
+
+**Palavras-chave:** pesquisas eleitorais; efeito *bandwagon*; efeito *underdog*; comparecimento eleitoral; revisão sistemática rápida; síntese sem meta-análise; GRADE; Brasil.
 
 :::
 
 ::: {.resumo lang="en"}
 # Abstract {#abstract .unnumbered}
 
-[Abertura: etapa 4]
+**Background.** Regulating poll publication depends on knowing whether polls change votes.
+
+**Objectives.** To assess whether published election polls change vote choice or turnout, and in which direction (bandwagon or underdog).
+
+**Methods.** Experiments, natural experiments, quasi-experiments and panels since 2010, in any language, on polls, forecasts, exit polls or partial counts. OpenAlex, BDTD and citations were searched on 19 and 20 September 2026. Risk of bias by RoB 2, ROBINS-I V2 and EPOC; direction counts per cell (SWiM); GRADE certainty. AI agents did every stage after the protocol.
+
+**Results.** Of the 41 included studies (samples in different units), 27 formed 18 cells in the main synthesis. In each of the two largest, all 4 experiments pointed in the bandwagon direction, almost all in laboratories or vignettes (proportion 1.00; 95% CI 0.40 to 1.00), but the evidence is very uncertain (each with [⊕◯◯◯]{.grade} very low certainty). A close rather than a lopsided poll probably does not change turnout by more than 2 percentage points ([⊕⊕⊕◯]{.grade} moderate certainty). Having seen poll releases may increase turnout, and forecasts far from 50:50 may reduce it ([⊕⊕◯◯]{.grade} low certainty). We are very uncertain about exit polls. The only study with data from Brazil alone concerns partial counts, not polls.
+
+**Limitations.** No human validation (18 open tasks); 342 of 526 reports were not retrieved.
+
+**Conclusions.** The bandwagon direction in experiments has very low certainty, and neither the size nor the existence of an effect is known.
+
+**Registration and funding.** Not registered; no funding.
+
+**Keywords:** election polls; bandwagon effect; underdog effect; voter turnout; rapid systematic review; synthesis without meta-analysis; GRADE; Brazil.
 
 :::
 
@@ -279,7 +322,7 @@ A meta-análise exploratória dessa célula (@fig-metas, painel a), com os três
 
 Outros quatro experimentos compararam o mesmo candidato mostrado à frente ou atrás [@Tal2015a; @Lammers2022a; @Fichnova2015a; @Witsman2016a], todos em risco alto e em laboratório com preferências induzidas ou vinheta hipotética. Também aqui, foram 4 de 4 na direção *bandwagon* (proporção 1,00; IC 95% 0,40 a 1,00; p = 0,125). Em @Lammers2022a, os sinais se opõem conforme o raciocínio induzido (g = 1,25 e 1,03 no modo heurístico; −0,39 e 0,06 no moral), e o estudo recebeu a direção *bandwagon* pela regra de 70% (3 de 4 efeitos). A condição moral é compatível, dentro do estudo, com o canal de equidade (E5). [A evidência é muito incerta sobre se ver o candidato à frente numa pesquisa, em vez de atrás, aumenta o apoio a ele (4 de 4 estudos na direção bandwagon, todos de laboratório ou vinheta e em risco de viés alto; certeza muito baixa).]{.enunciado cel="C02"}
 
-A meta-análise dessa célula (@fig-metas, painel b), com 3 estudos e 6 efeitos [@Fichnova2015a; @Lammers2022a; @Witsman2016a], o mesmo modelo e δ = 0,044, deu g = 0,62 (IC 95% −0,48 a 1,72; p = 0,111), com 1,46 grau de liberdade e IC que cruza zero e ±δ. Os desfechos pouco se comparam: posto num *ranking* de 7 candidatos, probabilidade autodeclarada numa escala de 1 a 7 e proporção de voto. τ² = 0,41 (τ = 0,64), I² = 94% e o intervalo de predição, de −7,82 a 9,05, não são interpretados. Com ρ de 0,2, 0,5 e 0,8, g foi 0,61, 0,62 e 0,62. No *leave-one-out*, foi de 0,55 a 0,90, e o IC só deixou de cruzar zero sem @Lammers2022a (0,85 a 0,94). Como todos os efeitos estão em risco alto, a sensibilidade sem eles não pôde ser rodada, e a meta foi rodada depois do GRADE, que não a considerou. Com menos de dez estudos, não testamos assimetria. O autor de @Witsman2016a lê o contraste entre o candidato bem à frente e bem atrás como voto estratégico, e, se o alvo passar a viabilidade, o estudo sai da célula e da meta.
+A meta-análise dessa célula (@fig-metas, painel b), com 3 estudos e 6 efeitos [@Fichnova2015a; @Lammers2022a; @Witsman2016a], o mesmo modelo e δ = 0,044, deu g = 0,62 (IC 95% −0,48 a 1,72; p = 0,111), com 1,46 grau de liberdade e IC que cruza zero e ±δ. Os desfechos pouco se comparam: posto num *ranking* de 7 candidatos, probabilidade autodeclarada numa escala de 1 a 7 e proporção de voto. τ² = 0,41 (τ = 0,64), I² = 94% e o intervalo de predição, de −7,82 a 9,05, não são interpretados. Com ρ de 0,2, 0,5 e 0,8, g foi 0,61, 0,62 e 0,62. No *leave-one-out*, foi de 0,55 a 0,90, e o IC só deixou de cruzar zero sem @Lammers2022a (0,85 a 0,94). Como todos os efeitos estão em risco alto, a sensibilidade sem eles não pôde ser rodada, e a meta foi rodada depois do GRADE, que não a considerou. Com menos de dez estudos, não testamos assimetria. @Witsman2016a lê o contraste entre o candidato bem à frente e bem atrás como voto estratégico, e, se o alvo passar a viabilidade, o estudo sai da célula e da meta.
 
 @@FIGURA metas@@
 

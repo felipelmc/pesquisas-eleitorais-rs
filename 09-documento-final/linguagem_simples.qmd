@@ -1,0 +1,55 @@
+---
+title: "Pesquisas eleitorais e voto: experimentos apontam a favor de quem lidera, mas a evidência é muito incerta"
+lang: pt-BR
+date: 2026-09-25
+date-format: "DD/MM/YYYY"
+format:
+  html:
+    embed-resources: true
+---
+
+## A revisão em resumo
+
+Nos experimentos, ver uma pesquisa tende a favorecer quem aparece à frente, mas a evidência é muito incerta. Uma pesquisa de disputa apertada provavelmente não muda o comparecimento em mais de 2 em cada 100 eleitores. Nenhum estudo mede o efeito de pesquisas eleitorais com dados só do Brasil.
+
+::: {.callout-note}
+## O que esta revisão estudou
+
+A pergunta é se ver uma pesquisa eleitoral muda o voto e a decisão de ir votar. Entraram 41 estudos, de buscas até 19/09/2026 nas bases de dados e 20/09/2026 nas citações. Agentes de inteligência artificial fizeram quase todo o trabalho, e o texto é um rascunho com 18 pendências de revisão humana.
+:::
+
+## Do que trata esta revisão?
+
+No Brasil, as pesquisas eleitorais voltam ao debate a cada eleição em que as urnas se afastam do que os institutos mostravam. Depois de 2022, projetos de lei propuseram punir quem divulgasse pesquisas que errassem além da margem de erro. Em 2006, o Supremo Tribunal Federal derrubou a proibição de divulgar pesquisas nos 15 dias anteriores à eleição, em nome do direito à informação.
+
+A pergunta de fundo é se ver uma pesquisa muda o voto. Ela pode ajudar quem está na frente (o efeito *bandwagon*) ou quem está atrás (o efeito *underdog*). Também pode levar pessoas a não votar, por acharem que a eleição já está decidida.
+
+## Que estudos entraram?
+
+São 41 estudos publicados de 2010 a 2024, a maioria dos Estados Unidos e da Europa. Muitos são experimentos de laboratório ou com questionários, em que as pessoas escolhem entre candidatos inventados ou votam numa eleição simulada. Outros observam eleições reais.
+
+Os estudos comparam coisas diferentes, como ver ou não ver uma pesquisa, ou ver o mesmo candidato na frente ou atrás. A revisão só junta os que fazem a mesma comparação, e cada comparação tem de 1 a 4 estudos. O único estudo com dados só do Brasil trata da apuração parcial oficial da eleição de 2018, divulgada enquanto parte do eleitorado ainda votava, e não de pesquisa.
+
+## O que encontramos?
+
+Nas duas comparações com mais estudos, os 4 experimentos de cada uma apontam para mais apoio a quem a pesquisa mostra na frente. Mesmo assim, a evidência é muito incerta, porque são poucos estudos, quase todos de laboratório ou com candidatos inventados. Sabe-se muito pouco sobre o tamanho do efeito, porque as duas estimativas exploratórias vão de valores negativos a positivos.
+
+No comparecimento, os resultados variam. No único experimento de campo, com 126.126 eleitores nos Estados Unidos, receber uma pesquisa de disputa apertada, em vez de folgada, provavelmente não muda o comparecimento em mais de 2 em cada 100 eleitores. Ter visto pesquisas divulgadas pode aumentar a intenção de votar ou o comparecimento. Num jogo pela internet, ver projeções que davam a vitória como mais certa pode reduzir a decisão de votar. Sobre a boca de urna divulgada antes do fim da votação, a evidência é muito incerta.
+
+Sobre o voto estratégico (trocar um candidato sem chance por outro que pode ganhar) e sobre pesquisas que mostram um partido crescendo, há 1 ou 2 estudos por comparação, e a evidência é muito incerta.
+
+"Muito incerta" quer dizer que o efeito verdadeiro pode ser bem diferente do que os estudos sugerem. "Provavelmente" indica confiança moderada, e "pode", confiança baixa.
+
+## O que isso significa?
+
+A evidência não permite dizer que as pesquisas mudam o resultado das eleições, nem que não mudam. Sozinha, ela não sustenta nem a restrição nem a manutenção das regras atuais de divulgação, e a escolha cabe a quem tem mandato para fazê-la. Para a pesquisa, faltam estudos maiores com eleições reais no Brasil, que comparem quem vê uma pesquisa com quem não vê nenhuma e sejam registrados antes da coleta dos dados.
+
+## Quais são os limites?
+
+Agentes de inteligência artificial fizeram todo o trabalho depois do protocolo, o plano da revisão, e o autor ainda não o conferiu. Há 18 pendências de revisão humana. A busca usou só duas bases de dados e as citações dos estudos encontrados, e 342 dos 526 textos procurados não foram obtidos. Decisões ainda pendentes podem mudar estudos de uma comparação para outra.
+
+## Até quando vai a busca?
+
+A busca nas bases de dados foi feita em 19/09/2026, e a busca nas citações terminou em 20/09/2026. Esta é a versão de trabalho de 25/09/2026.
+
+Rascunho não validado; 18 pendências de revisão humana. [Leia a revisão completa](revisao.html)
