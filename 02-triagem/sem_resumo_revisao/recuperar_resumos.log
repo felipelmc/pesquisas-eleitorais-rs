@@ -1,0 +1,42 @@
+Início: 2026-09-23 22:11:32
+[22:11:32] Registros carregados: 336
+[22:11:32] Registros na sessão anterior: 367
+[22:11:35]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:11:42]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:11:46]   Semantic Scholar 429, aguardando 6s (tentativa 2)
+[22:11:56]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:11:59]   Semantic Scholar 429, aguardando 6s (tentativa 2)
+[22:12:11]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:12:17]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:12:26]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:12:30]   Semantic Scholar 429, aguardando 6s (tentativa 2)
+[22:12:39]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:12:43]   Semantic Scholar 429, aguardando 6s (tentativa 2)
+[22:12:53]   Semantic Scholar 429, aguardando 3s (tentativa 1)
+[22:12:56]   Semantic Scholar 429, aguardando 6s (tentativa 2)
+[22:13:03]   Semantic Scholar: pool público parece saturado (429 persistente); desligando esta fonte pelo resto da execução.
+[22:13:19] Progresso: 20/336 | {'sessao_anterior': 4, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 2, 'semantic_scholar_tldr': 1, 'nenhum': 13}
+[22:14:05] Progresso: 40/336 | {'sessao_anterior': 13, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 6, 'semantic_scholar_tldr': 3, 'nenhum': 18}
+[22:14:51] Progresso: 60/336 | {'sessao_anterior': 17, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 12, 'semantic_scholar_tldr': 3, 'nenhum': 28}
+[22:15:23]   ERRO de rede em http://www3.eeg.uminho.pt/economia/nipe/docs/2011/NIPE_WP_17_2011.pdf: HTTPConnectionPool(host='www3.eeg.uminho.pt', port=80): Max retries exceeded with url: /economia/nipe/docs/2011/NIPE_WP_17_2011.pdf (Caused by ConnectTimeoutError(<HTTPConnection(host='www3.eeg.uminho.pt', port=80) at 0x106eeab10>, 'Connection to www3.eeg.uminho.pt timed out. (connect timeout=25)'))
+[22:15:54] Progresso: 80/336 | {'sessao_anterior': 21, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 14, 'semantic_scholar_tldr': 3, 'nenhum': 42}
+[22:16:33] Progresso: 100/336 | {'sessao_anterior': 30, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 19, 'semantic_scholar_tldr': 3, 'nenhum': 48}
+[22:17:09] Progresso: 120/336 | {'sessao_anterior': 39, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 22, 'semantic_scholar_tldr': 3, 'nenhum': 56}
+[22:17:50] Progresso: 140/336 | {'sessao_anterior': 45, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 24, 'semantic_scholar_tldr': 3, 'nenhum': 68}
+[22:18:16] Progresso: 160/336 | {'sessao_anterior': 54, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 26, 'semantic_scholar_tldr': 3, 'nenhum': 77}
+[22:18:59] Progresso: 180/336 | {'sessao_anterior': 62, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 30, 'semantic_scholar_tldr': 3, 'nenhum': 85}
+[22:19:14] Progresso: 200/336 | {'sessao_anterior': 74, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 31, 'semantic_scholar_tldr': 3, 'nenhum': 92}
+[22:19:42] Progresso: 220/336 | {'sessao_anterior': 84, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 35, 'semantic_scholar_tldr': 3, 'nenhum': 98}
+[22:20:08] Progresso: 240/336 | {'sessao_anterior': 93, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 38, 'semantic_scholar_tldr': 3, 'nenhum': 106}
+[22:20:10]   ERRO de rede em https://doi.org/10.1057/9780230374959.0019: HTTPConnectionPool(host='www.palgraveconnect.com', port=80): Max retries exceeded with url: /doifinder/10.1057/9780230374959.0019 (Caused by NewConnectionError("HTTPConnection(host='www.palgraveconnect.com', port=80): Failed to establish a new connection: [Errno 61] Connection refused"))
+[22:20:49] Progresso: 260/336 | {'sessao_anterior': 102, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 41, 'semantic_scholar_tldr': 3, 'nenhum': 114}
+[22:21:32] Progresso: 280/336 | {'sessao_anterior': 105, 'openalex': 0, 'crossref': 0, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 44, 'semantic_scholar_tldr': 3, 'nenhum': 128}
+[22:21:43]   ERRO de rede em http://ebooks.cambridge.org/chapter.jsf?bid=CBO9780511781353&cid=CBO9780511781353A007: HTTPConnectionPool(host='ebooks.cambridge.org', port=80): Max retries exceeded with url: /chapter.jsf?bid=CBO9780511781353&cid=CBO9780511781353A007 (Caused by NameResolutionError("HTTPConnection(host='ebooks.cambridge.org', port=80): Failed to resolve 'ebooks.cambridge.org' ([Errno 8] nodename nor servname provided, or not known)"))
+[22:21:45]   ERRO de rede em http://ebooks.cambridge.org/chapter.jsf?bid=CBO9780511781353&cid=CBO9780511781353A008: HTTPConnectionPool(host='ebooks.cambridge.org', port=80): Max retries exceeded with url: /chapter.jsf?bid=CBO9780511781353&cid=CBO9780511781353A008 (Caused by NameResolutionError("HTTPConnection(host='ebooks.cambridge.org', port=80): Failed to resolve 'ebooks.cambridge.org' ([Errno 8] nodename nor servname provided, or not known)"))
+[22:22:19] Progresso: 300/336 | {'sessao_anterior': 105, 'openalex': 0, 'crossref': 5, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 46, 'semantic_scholar_tldr': 3, 'nenhum': 141}
+[22:23:37]   ERRO de rede em https://bibliotecadigital.tse.jus.br/xmlui/handle/bdtse/8291: HTTPSConnectionPool(host='bibliotecadigital.tse.jus.br', port=443): Read timed out. (read timeout=25)
+[22:24:19] Progresso: 320/336 | {'sessao_anterior': 105, 'openalex': 0, 'crossref': 8, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 49, 'semantic_scholar_tldr': 3, 'nenhum': 155}
+[22:24:49] Progresso: 336/336 | {'sessao_anterior': 105, 'openalex': 0, 'crossref': 13, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 49, 'semantic_scholar_tldr': 3, 'nenhum': 166}
+[22:24:49] Concluído. Estatísticas finais: {'sessao_anterior': 105, 'openalex': 0, 'crossref': 13, 'semantic_scholar': 0, 'europepmc': 0, 'landing_meta': 49, 'semantic_scholar_tldr': 3, 'nenhum': 166}
+[22:24:49] Erros: 0
+[22:24:49] Saída escrita em: /Users/felipelmc/Desktop/pesquisas-eleitorais-rs/02-triagem/sem_resumo_revisao/resumos_recuperados.csv
