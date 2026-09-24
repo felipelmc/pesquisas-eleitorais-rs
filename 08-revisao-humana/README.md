@@ -23,7 +23,7 @@ A ordem segue as etapas, porque decisões de busca e de triagem podem mudar o co
 | 5 | P006 | triagem T/A | amostra de validação cega: 141 registros, dois codificadores | `P006_P007_validacao/` | 2 × 1,5 h |
 | 6 | P007 | triagem T/A | amostra de elusão cega: 300 registros excluídos pela IA | `P006_P007_validacao/` | 2 h |
 | 7 | P008 | portão G4 | confirmar o G4 | seção abaixo | 5 min |
-| 8 | P040 | texto completo | 160 decisões de elegibilidade propostas pela IA (antes P028) | `P040_elegibilidade/` | 3 a 4 h |
+| 8 | P041 | texto completo | 165 decisões de elegibilidade propostas pela IA (antes P028) | `P041_elegibilidade/` | 3 a 4 h |
 | 9 | P023 | portão G5 | confirmar o G5 | seção abaixo | 5 min |
 | 10 | P025 | piloto | conferir os 3 estudos do piloto | `P025_piloto/` | 1 h |
 | 11 | P026 | portão G6 | confirmar o G6 | seção abaixo | 5 min |
@@ -53,7 +53,7 @@ Cada portão foi aprovado automaticamente com as checagens de artefato do skill.
 |---|---|---|---|
 | G3 (P004) | a busca: B05 no OpenAlex em inglês (substituiu a B01), B02, B03 e B04 em PT e ES, BDTD, e a bola de neve SN1 a SN3 | P001 | o PRESS só foi feito por IA. Lacunas: termos de proibição e de apuração parcial, e comparecimento na BDTD (`P001_press/`) |
 | G4 (P008) | a triagem de títulos e resumos, com a rodada ta_v1 e dois triadores de IA | P006, P007, P020 | não há validação humana nem recall calculado. A Emenda 6b refez por IA os 336 registros sem resumo |
-| G5 (P023) | a elegibilidade no texto completo: 55 relatos incluídos, 41 estudos (40 com efeitos) | P040 | propostas de IA; 17 decisões limítrofes suas; 3 extensões de regra feitas pela IA |
+| G5 (P023) | a elegibilidade no texto completo: 55 relatos incluídos, 41 estudos (40 com efeitos) | P041 | propostas de IA; 17 decisões limítrofes suas; 3 extensões de regra feitas pela IA |
 | G6 (P026) | o piloto de extração (3 estudos) e a Emenda 2 | P025 | a Emenda 2 foi decidida pela IA |
 | G8 (P035) | a síntese (SWiM) e o GRADE | P036 | decisões da Emenda 5 tomadas depois de ver os dados; GRADE rascunhado por IA |
 | G9 (P038) | o relato | todas as outras | o manuscrito foi redigido por IA a partir dos arquivos |

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1228" height="766" viewBox="0 0 1228 766" font-family="Helvetica, Arial, sans-serif" font-size="12">
 <title>PRISMA 2020 — RASCUNHO NÃO VALIDADO</title>
 <rect x="0" y="0" width="1228" height="766" fill="#ffffff"/>
-<text x="54" y="34" font-size="15" font-weight="bold" fill="#b91c1c">RASCUNHO NÃO VALIDADO — Pendências abertas: P001, P004, P006, P007, P008, P019, P020, P023, P025, P026, P028, P032, P033, P035, P036, P037</text>
+<text x="54" y="34" font-size="15" font-weight="bold" fill="#b91c1c">RASCUNHO NÃO VALIDADO — Pendências abertas: P001, P004, P006, P007, P008, P019, P020, P023, P025, P026, P033, P035, P036, P037, P038, P039, P041</text>
 <rect x="54" y="50" width="540" height="30" rx="4" fill="#d9e5f2" stroke="#333"/>
 <text x="324.0" y="70" text-anchor="middle" font-weight="bold">Identificação de estudos via bases de dados e registros</text>
 <rect x="664" y="50" width="540" height="30" rx="4" fill="#d9e5f2" stroke="#333"/>
@@ -45,47 +45,47 @@
 <text x="63" y="337">(n = 1573)</text>
 <rect x="344" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="353" y="321" font-weight="bold">Registros excluídos</text>
-<text x="353" y="337">(n = 1383)</text>
+<text x="353" y="337">(n = 1314)</text>
 <rect x="664" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="673" y="321" font-weight="bold">Registros triados</text>
 <text x="673" y="337">(n = 1054)</text>
 <rect x="954" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="963" y="321" font-weight="bold">Registros excluídos</text>
-<text x="963" y="337">(n = 898)</text>
+<text x="963" y="337">(n = 787)</text>
 <rect x="54" y="384" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="63" y="405" font-weight="bold">Relatórios buscados para</text>
 <text x="69" y="421" font-weight="bold">recuperação</text>
-<text x="63" y="437">(n = 190)</text>
+<text x="63" y="437">(n = 259)</text>
 <rect x="344" y="384" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="353" y="405" font-weight="bold">Relatórios não recuperados</text>
-<text x="353" y="421">(n = 95)</text>
+<text x="353" y="421">(n = 158)</text>
 <rect x="664" y="384" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="673" y="405" font-weight="bold">Relatórios buscados para</text>
 <text x="679" y="421" font-weight="bold">recuperação</text>
-<text x="673" y="437">(n = 156)</text>
+<text x="673" y="437">(n = 267)</text>
 <rect x="954" y="384" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="963" y="405" font-weight="bold">Relatórios não recuperados</text>
-<text x="963" y="421">(n = 82)</text>
+<text x="963" y="421">(n = 184)</text>
 <rect x="54" y="484" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="63" y="505" font-weight="bold">Relatórios avaliados para</text>
 <text x="69" y="521" font-weight="bold">elegibilidade</text>
-<text x="63" y="537">(n = 95)</text>
+<text x="63" y="537">(n = 101)</text>
 <rect x="344" y="484" width="250" height="98" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
-<text x="353" y="505" font-weight="bold">Relatórios excluídos: (n = 53)</text>
-<text x="359" y="521">c2_intervencao_estudada (n = 36)</text>
+<text x="353" y="505" font-weight="bold">Relatórios excluídos: (n = 59)</text>
+<text x="359" y="521">c2_intervencao_estudada (n = 39)</text>
 <text x="359" y="537">c4_desenho_elegivel (n = 10)</text>
-<text x="359" y="553">c1_populacao_contexto (n = 6)</text>
-<text x="359" y="569">c3_desfecho (n = 1)</text>
+<text x="359" y="553">c1_populacao_contexto (n = 8)</text>
+<text x="359" y="569">c3_desfecho (n = 2)</text>
 <rect x="664" y="484" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="673" y="505" font-weight="bold">Relatórios avaliados para</text>
 <text x="679" y="521" font-weight="bold">elegibilidade</text>
-<text x="673" y="537">(n = 74)</text>
+<text x="673" y="537">(n = 83)</text>
 <rect x="954" y="484" width="250" height="98" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
-<text x="963" y="505" font-weight="bold">Relatórios excluídos: (n = 61)</text>
-<text x="969" y="521">c2_intervencao_estudada (n = 44)</text>
-<text x="969" y="537">c1_populacao_contexto (n = 11)</text>
+<text x="963" y="505" font-weight="bold">Relatórios excluídos: (n = 70)</text>
+<text x="969" y="521">c2_intervencao_estudada (n = 50)</text>
+<text x="969" y="537">c1_populacao_contexto (n = 13)</text>
 <text x="969" y="553">c4_desenho_elegivel (n = 4)</text>
-<text x="969" y="569">c3_desfecho (n = 2)</text>
+<text x="969" y="569">c3_desfecho (n = 3)</text>
 <rect x="54" y="616" width="250" height="82" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="63" y="637" font-weight="bold">Estudos incluídos na revisão</text>
 <text x="63" y="653">(n = 41)</text>

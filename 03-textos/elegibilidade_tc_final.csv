@@ -42,6 +42,7 @@ RS1547,Fairstein2018a,incluir,,[decisão humana: revisor_humano_1] decisão do r
 RS1548,Stolwijk2016a,incluir,,,
 RS1556,Farjam2020a,incluir,,,
 RS1563,Klor2017a,incluir,,,
+RS1565,Prosser2015a,excluir,c2_intervencao_estudada,"""uses NEV and PNS national vote shares as if they were large scale opinion polls"" (p. 3)",3
 RS1573,Holmes2016a,excluir,c2_intervencao_estudada,"""Reviewing survey data, the dynamics of the campaign"" (p. 17); ""Figure 1 shows the pre-election preferences of the eventual five"" (p. 20)",17
 RS1575,Morton2013a,incluir,,,
 RS1577,Geers2018,incluir,,,
@@ -75,9 +76,11 @@ RS1901,Witsman2016a,incluir,,,
 RS1923,Alabrese2022a,incluir,,,
 RS1936,Daigle2010a,excluir,c4_desenho_elegivel,"""a pooled cross-section multivariate approach will be employed"" (p. 50); ""the current research will also utilize the pooled cross-section"" (p. 53)",50
 RS1939,Lengauer2012a,excluir,c2_intervencao_estudada,"""politics is portrayed as a competitive game or horse race"" (p. 79)",79
+RS1970,Magalhaes2012a,excluir,c2_intervencao_estudada,"""other forecasting approaches, such as opinion polls or political markets"" (p. 5); ""we employ this general political situation variable as a workable proxy"" (p. 6)",5
 RS1981,Denter2013b,excluir,c2_intervencao_estudada,"""we consider two polar cases: a situation without any poll"" (p. 10); ""In our model voters react only to expenditures of the candidates"" (p. 29)",10
 RS1982,Soroceanu2025a,excluir,c2_intervencao_estudada,"""By regularly publishing poll results, voters can observe"" (p. 206)",206
 RS1995,Schuck2011a,excluir,c2_intervencao_estudada,"""The core independent variable in this study is news exposure."" (p. 16); ""A strategy frame was considered to be present when a given"" (p. 13)",16
+RS1998,Wall2017,excluir,c3_desfecho,"""the dependent variable in this analysis is the daily"" (p. 19); ""the market-adjusted implied probability"" (p. 13)",19
 RS2053,Ragozzino2014c,excluir,c1_populacao_contexto,"""To test the effects of opinion polls on policy attitudes"" (p. 13); ""designed to assess their support for the proposed free trade agreement"" (p. 14)",13
 RS2144,Graefe2015a,excluir,c2_intervencao_estudada,"""public opinion polls are major predictors in election forecasting models"" (p. 7); ""tests the predictive performance of equal and regression weights"" (p. 7)",7
 RS2158,Ognibene2021a,excluir,c2_intervencao_estudada,"""pre-election polls are shown to be a relatively good proxy"" (p. 9); ""Support for a Party in the Home-Country (VoteSharePolls)"" (p. 9)",9
@@ -85,6 +88,7 @@ RS2170,Cochrane2017a,excluir,c2_intervencao_estudada,"""it is argued that the pu
 RS2200,Strijbis2017a,excluir,c1_populacao_contexto,"""Die Gegenüberstellung von Vorhersagemodellen vor nationalen Wahlen"" (p. 442)",442
 RS2240,Gerber2017c,incluir,,,
 RS2247,Boukouras2020a,incluir,,,
+RS2252,Poland2021a,excluir,c1_populacao_contexto,"""decisions surrounding whether to accept or reject a COVID-19 vaccine"" (p. 1547)",1547
 RS2328,Freden2024a,incluir,,,
 RS2333,Posavec2015a,excluir,c4_desenho_elegivel,"""u osnovi samoizvještavanje kojim je nemoguće utvrditi stvarni"" (p. 294)",294
 RS2444,Membery2021a,excluir,c4_desenho_elegivel,"""This thesis is based on extensive archival research"" (p. 24)",24
@@ -92,6 +96,7 @@ RS2496,Tal2015a,incluir,,,
 RS2507,Mavridis2016a,excluir,c4_desenho_elegivel,"[decisão humana: revisor_humano_1] Pesquisa entra como contagem agregada em evidencia descritiva e regressao transversal, sem manipulacao, variacao natural identificada nem painel individual. Decisao do revisor humano em 20/09/2026 (03-textos/fila_humana_tc_ciclo2.md, Grupo D).",
 RS2511,Kim2018b,excluir,c3_desfecho,"[decisão humana: revisor_humano_1] decisão do revisor humano em 19/09/2026 sobre caso limítrofe apontado pela ficha de elegibilidade (03-textos/fila_humana_tc_resumo.md): efeito de terceira pessoa; desfecho é reforço autorrelatado de preferência, não voto nem comparecimento",
 RS2536,Kim2025a,excluir,c1_populacao_contexto,"[decisão humana: revisor_humano_1] decisão do revisor humano em 19/09/2026 sobre caso limítrofe apontado pela ficha de elegibilidade (03-textos/fila_humana_tc_resumo.md): jogos em equipe (dilema do prisioneiro, stag hunt); a escolha não é eleitoral",
+RS2692,HashemPesaran2024a,excluir,c2_intervencao_estudada,"""We do not use poll data"" (p. 3); ""do not make use of any polling data"" (p. 2)",3
 RS2696,Verdun2025a,excluir,c2_intervencao_estudada,"""the (exit) polls, which predicted success for the far-right PVV"" (p. 420); ""but not as well as polls had predicted"" (p. 420)",420
 RS2747,Reveco2026,excluir,c2_intervencao_estudada,"[decisão humana: revisor_humano_1] decisão do revisor humano em 19/09/2026 sobre caso limítrofe apontado pela ficha de elegibilidade (03-textos/fila_humana_tc_resumo.md): a exposição junta boca de urna e contagem parcial oficial, sem separação; o efeito não é atribuível à pesquisa",
 RS2794,Hansen2012a,excluir,c2_intervencao_estudada,"""to examine which factors induce or prohibit late decisions"" (p. 133); ""in 1998 the opinion polls consistently predicted"" (p. 130)",133

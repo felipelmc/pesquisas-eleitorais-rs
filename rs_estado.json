@@ -1043,18 +1043,28 @@
       "descricao": "conferir 160 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P028]",
       "n": 160,
       "arquivo": "03-textos/elegibilidade_tc_final.csv",
+      "status": "fechada"
+    },
+    {
+      "id": "P041",
+      "tipo": "conferencia_elegibilidade_tc",
+      "etapa": "07_textos_elegibilidade",
+      "portao": "G5",
+      "descricao": "conferir 165 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P040]",
+      "n": 165,
+      "arquivo": "03-textos/elegibilidade_tc_final.csv",
       "status": "aberta"
     }
   ],
   "contagens_cache": {
     "prisma": {
-      "hash_insumos": "2de6da3e0562d2f42d6c083741407ac185e05dc699f4f5e37b43d5330005f677",
-      "gerado_em": "2026-09-23T19:52:01Z",
+      "hash_insumos": "c2df6bb378e3616e10743b48ae5f554a969b07f1bb5a68891600ea9da2c9dcb7",
+      "gerado_em": "2026-09-24T03:26:11Z",
       "incluidos": {
         "estudos": 41,
         "relatos": 55
       }
     }
   },
-  "ultimo_seq": 821
+  "ultimo_seq": 828
 }
