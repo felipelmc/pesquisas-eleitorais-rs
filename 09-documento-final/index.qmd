@@ -1,0 +1,49 @@
+---
+title: "Pesquisas eleitorais publicadas mudam o voto?"
+subtitle: "Revisão sistemática rápida sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
+author: "Felipe Lamarca (MAPE/IESP-UERJ)"
+lang: pt-BR
+format:
+  html:
+    toc: false
+    embed-resources: true
+    page-layout: article
+    css: index.css
+---
+
+::: {.callout-warning}
+## Rascunho não validado
+
+Toda etapa depois do protocolo foi feita por subagentes de IA, e ainda há pendências de revisão humana (lista no [guia da revisão humana](revisao-humana.html)). Não cite estes resultados como finais.
+:::
+
+Esta página reúne os produtos de uma revisão sistemática sobre uma pergunta que volta a cada eleição no Brasil: ver o resultado de uma pesquisa eleitoral muda o voto de alguém, ou a decisão de ir votar? Reunimos experimentos, experimentos naturais e estudos observacionais publicados desde 2010, avaliamos o risco de viés de cada um e sintetizamos a direção dos efeitos, com a certeza da evidência medida pelo GRADE.
+
+## Mensagens principais
+
+{{< include _mensagens_principais.md >}}
+
+## Documentos
+
+::: {.cartoes}
+
+::: {.cartao}
+### [Revisão final](revisao.html)
+O documento principal, no formato *O que funciona?* do MAPE: efeito, mecanismos, moderadores, caixa de ferramentas e o que a evidência permite dizer sobre o debate brasileiro. [Baixar .docx](revisao.docx)
+:::
+
+::: {.cartao}
+### [Relatório técnico](relatorio-tecnico.html)
+O manuscrito completo no padrão PRISMA 2020: métodos, tabelas estudo a estudo, risco de viés, sensibilidades e a declaração de uso de IA gerada do log. [Baixar .docx](relatorio-tecnico.docx)
+:::
+
+::: {.cartao}
+### [Guia da revisão humana](revisao-humana.html)
+As pendências que dependem de decisão humana, em ordem, com o pacote preparado para cada uma e o comando para registrar a decisão.
+:::
+
+:::
+
+## Como a revisão foi feita
+
+A revisão seguiu um protocolo congelado antes da triagem, com emendas registradas e declaradas quando decididas depois de ver os dados. A busca cobriu o OpenAlex (inglês, português e espanhol), a BDTD e rodadas de busca por citação. Todo o processo, do registro de cada decisão às análises em R, está num repositório versionado; os textos completos de terceiros não são redistribuídos. Os detalhes estão na seção de metodologia da revisão final e no relatório técnico.

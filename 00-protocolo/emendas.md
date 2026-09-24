@@ -155,3 +155,5 @@ O `rs_log.jsonl` e o `dados/decisoes.jsonl` só aceitam acréscimo. Por isso as 
 5. As decisões entram no ledger por `triagem override --por ia_coordenador_emenda6`, porque é o único caminho do `rs.py` para substituir as linhas antigas. O comando grava `tipo_ator = humano` fixo. Por isso o papel (`ia_coordenador_emenda6`) e o motivo de cada linha dizem que a decisão é da IA, e esta emenda documenta a limitação. Nenhuma dessas linhas conta como validação humana no relato.
 
 **Efeito.** Pode mudar o conjunto de incluídos. Se mudar, extração, RoB, síntese, GRADE e relato são refeitos pela cadeia do README. As contagens do PRISMA passam a mostrar as exclusões da etapa 6b à parte.
+
+**Nota de 24/09/2026 (efeito da Emenda 6 e das correções de efeitos de 23/09).** O δ da célula pesquisa_pre_eleitoral × apoio_ao_lider × sem_pesquisa × principal × randomizado, definido pela Emenda 5 (item 7) como 2 p.p. convertidos pela mediana dos p0 da célula, foi recalculado com os efeitos corrigidos: mediana de p0 = 0,73, δ = 0,0573 (antes 0,74 e 0,059). A regra não mudou; mudaram os dados de entrada (`06-analise/_delta_celula.txt`).
