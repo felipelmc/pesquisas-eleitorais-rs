@@ -1,85 +1,141 @@
 # Pesquisas eleitorais publicadas e voto: revisão sistemática (bandwagon × underdog)
 
-> **RASCUNHO NÃO VALIDADO.** Todas as etapas depois do protocolo foram feitas por subagentes de IA no modo autopiloto. Há 17 pendências humanas abertas (lista abaixo). Nenhum resultado deve ser citado ou divulgado antes de elas serem fechadas.
+> **RASCUNHO NÃO VALIDADO.** Todas as etapas depois do protocolo foram feitas por subagentes de IA no modo autopiloto. Há 18 pendências humanas abertas; a lista, a ordem e os pacotes prontos estão em [`08-revisao-humana/README.md`](08-revisao-humana/README.md). Nenhum resultado deve ser citado como final antes de elas serem fechadas.
+
+**Relatório no navegador:** <https://felipelmc.github.io/pesquisas-eleitorais-rs/>. O repositório é privado, mas a página do Pages é acessível a quem tiver o link. Na mesma página estão o guia da revisão humana e o `.docx`.
 
 ## Pergunta
 
 Qual é o efeito da exposição a resultados de pesquisas eleitorais publicadas (pesquisas pré-eleitorais, agregadores e projeções, boca de urna) sobre a intenção ou escolha de voto, e em que direção: *bandwagon* (apoio a quem aparece à frente) ou *underdog* (apoio a quem aparece atrás)? Desfecho secundário: mobilização (comparecimento, intenção de votar).
 
-- Tipo: efetividade com SWiM (síntese sem meta-análise), variante rápida, skill `revisao-sistematica`.
-- Recorte: relatos publicados desde 2010, escopo global, com seção própria para Brasil e América Latina.
-- Fontes: OpenAlex (EN, PT, ES), BDTD e bola de neve (citações para frente e para trás). Sem Web of Science, Scopus ou SciELO.
-- Portões: G1 e G2 aprovados pelo revisor humano em 19/09/2026; G3 a G9 aprovados pelo autopiloto, com a última aprovação (G9) em 23/09/2026.
+- **Tipo:** efetividade com SWiM (síntese sem meta-análise), variante rápida, skill `revisao-sistematica`.
+- **Recorte:** relatos publicados desde 2010, escopo global, com seção própria para Brasil e América Latina.
+- **Fontes:** OpenAlex (EN, PT, ES), BDTD e bola de neve (citações para frente e para trás). Não usa Web of Science, Scopus nem SciELO.
+- **Portões:**
+  - G1 e G2 foram aprovados pelo revisor humano em 19/09/2026.
+  - G3 a G9 foram aprovados pelo autopiloto; o último, o G9, em 23/09/2026.
+  - A sessão de 23 e 24/09/2026 corrigiu e refez etapas sem reaprovar portões (ver abaixo).
 
-## Resultados em rascunho
+## Resultados em rascunho (24/09/2026)
 
 | | |
 |---|---|
 | Registros | 1.767 nas bases (1.687 OpenAlex, 80 BDTD) e 1.706 por citação |
-| Incluídos | 41 estudos, 55 relatos |
-| Não recuperados | 95 relatos das bases e 82 dos outros métodos, só por fontes legítimas |
-| Efeitos extraídos | 554, nenhum conferido por humano |
+| Texto completo | 526 relatos buscados, 184 avaliados, 342 não recuperados, só por fontes legítimas |
+| Incluídos | 41 estudos, 55 relatos (40 estudos com efeitos) |
+| Efeitos extraídos | 560, nenhum conferido por humano; os principais foram re-extraídos às cegas e arbitrados por IA |
 
-A certeza GRADE (em `06-analise/certeza.csv`) qualifica a **direção** do efeito, não a magnitude:
+A certeza GRADE (`06-analise/certeza.csv`, rascunho de IA) qualifica a **direção** do efeito, não a magnitude.
 
 - **Apoio a quem a pesquisa mostra à frente, em experimentos.** A direção é *bandwagon*.
   - Na célula principal do protocolo (pesquisa pré-eleitoral × sem pesquisa × randomizado), 4 de 4 estudos apontam nessa direção (teste de sinal p = 0,125). A certeza é muito baixa.
-  - No agrupamento amplo randomizado, que é descritivo e foi decidido depois de ver os dados, são 8 de 8 (p = 0,008). A certeza é baixa.
-  - Quase tudo é laboratório ou vinheta hipotética: com só contexto real, sobra um experimento.
-- **Estudos não randomizados:** as direções se dividem, com certeza muito baixa.
-- **Mobilização:** sem direção consistente. Os três estudos de boca de urna apontam desmobilização, mas esse padrão foi notado depois de ver os dados.
-- **Tamanho do efeito:** não há meta-análise principal. A exploratória (k = 3) dá g = 0,46, com IC95% de −0,62 a 1,53.
+  - Na célula em que o mesmo candidato aparece à frente ou atrás (randomizado), também são 4 de 4 (p = 0,125), com certeza muito baixa. Três desses quatro estudos só entraram aqui depois das correções de 23/09.
+  - No agrupamento amplo randomizado, que é descritivo e foi decidido depois de ver os dados, são 9 de 9 (p = 0,004). A certeza é muito baixa, por causa do rebaixamento por viés de publicação; decidir isso é um ponto para o revisor.
+  - Quase tudo é laboratório ou vinheta hipotética: considerando só contexto real, sobra um experimento.
+- **Estudos não randomizados:** as direções se dividem (3 de 4 no agrupamento amplo), com certeza muito baixa.
+- **Mobilização:** não há direção consistente. Um experimento de campo (Gerber2020a) dá um efeito nulo ou trivial, com o IC inteiro dentro de ±2 p.p. (certeza moderada). Os estudos de boca de urna apontam desmobilização, com certeza muito baixa.
+- **Tamanho do efeito:** não há meta-análise principal. A exploratória (3 estudos e 4 efeitos, CHE + RVE) dá g = 0,48, com IC95% de −1,51 a 2,47. Os graus de liberdade de Satterthwaite ficam abaixo de 4, o que torna o RVE não confiável.
 - **Brasil:** o único estudo brasileiro, Araujo2021a, trata da apuração parcial oficial, não de pesquisa (Emenda 1).
 
-O manuscrito completo está em `07-relatorio/relatorio.html` e `07-relatorio/relatorio.docx` (fonte: `relatorio.qmd`).
+O manuscrito está em `07-relatorio/relatorio.html` e `07-relatorio/relatorio.docx` (fonte: `relatorio.qmd`). A versão publicada é `docs/index.html`.
+
+## Sessão de 23 e 24/09/2026: o que foi feito
+
+A sessão fez tudo o que não depende de decisão humana e preparou o que depende. Em ordem:
+
+1. **Correção de atribuição (Emenda 6a).**
+   - O revisor declarou que não conferiu decisões que estavam registradas como suas:
+     - 336 exclusões por título de registros sem resumo;
+     - 88 consensos de RoB "confirmados em bloco";
+     - 3 decisões de texto completo em que a IA estendeu uma regra dele;
+     - a Emenda 2;
+     - o fechamento da P034.
+   - A tabela está em `00-protocolo/correcao_atribuicao.csv`.
+   - Nos consensos de RoB, `resolvido_por` voltou a indicar a IA.
+   - O log e o ledger só aceitam acréscimo; a correção fica registrada na emenda.
+2. **Triagem complementar dos registros sem resumo (Emenda 6b).** Por decisão do revisor, nenhum registro é excluído só pelo título.
+   - Os resumos foram recuperados de fontes legítimas para 169 dos 336 registros.
+   - Dois triadores de IA independentes decidiram (concordância de 160 em 169): 156 exclusões e 180 registros seguindo ao texto completo.
+   - Dos 181 textos buscados, 15 foram obtidos e fichados; nenhum é elegível.
+   - O conjunto de incluídos não mudou. Os arquivos estão em `02-triagem/sem_resumo_revisao/`.
+3. **Relatos e versões.**
+   - Cinco relatos foram ligados ao estudo de origem: Grillo2024d e Grillo2024e, John2021a (pré-registro de Unkelbach2022a), Hodgson2025a e Granziersd.
+   - O Artigo 2 de Freden2016b é Freden2016a, para o qual não há cópia legítima.
+   - Para Klor2017a só existem manuscritos (2006 e 2014); os números são os mesmos nos dois.
+   - O relatório das buscas está em `03-textos/sessao_2026-09-23/`.
+4. **Conferência dos efeitos por IA** (preparação da P039, antes P032).
+   - **Re-extração cega** dos efeitos principais dos 40 estudos, por subagentes Opus, um PDF por agente.
+   - **Comparação** da re-extração com a original.
+   - **Arbitragem** de 28 estudos, com 771 correções aplicadas, uma a uma, em `05-decomposicao/correcoes_sessao_2026-09-23.csv`.
+   - **Erros reais encontrados:**
+     - em Freden2024a, os braços estavam trocados, o que invertia a direção;
+     - em Fichnova2015a e Lammers2022a, o contraste da exposição não tinha sido extraído (os g de 3,7 e 7,1 vinham de uma correlação entre rankings);
+     - Kaplan2019a tinha um efeito sem direção;
+     - o comparador `outro` foi usado em excesso e passou a `outro_resultado` ou `sem_pesquisa`;
+     - quatro estudos têm alvo de *momentum* pela Emenda 4b.
+   - **Pontos de julgamento para o revisor:** `08-revisao-humana/efeitos/pontos_para_o_revisor.md`.
+5. **Síntese refeita.**
+   - O dicionário `FORA` foi atualizado e a célula de *momentum* segue a Emenda 4b.
+   - A sensibilidade ICC 0,20 (Emenda 4c) voltou.
+   - A meta exploratória passou a usar CHE, como o protocolo manda quando um estudo tem mais de um efeito principal.
+   - As 58 mudanças de `ano_eleicao_pre2010` que faltavam foram registradas.
+6. **GRADE refeito por IA** (`06-analise/prompt_grade_v2.md`):
+   - a conta de rebaixamentos ficou coerente;
+   - os domínios de RoB estão nomeados;
+   - `validado_humano = 0`;
+   - o agrupamento amplo foi para `certeza_agrupamento_amplo.csv`.
+7. **Pacotes de revisão humana** para todas as 18 pendências, em `08-revisao-humana/`:
+   - sugestões de IA em colunas separadas e campos humanos vazios;
+   - terceiros leitores nas filas de triagem e de extração;
+   - pré-PRESS da string ativa;
+   - planilhas de RoB e de GRADE;
+   - resumo dos portões.
+8. **Relato:** PRISMA, lista de incluídos, manuscrito reescrito (`07-relatorio/prompt_redator_v2.md`), declaração de IA, render e publicação no GitHub Pages (`docs/`).
+
+Os commits da sessão vão de `0309f24` em diante (`git log`).
 
 ## Estrutura
 
 | Pasta | Conteúdo |
 |---|---|
-| `00-protocolo/` | pergunta, teoria do programa e DAG, protocolo congelado no G2, codebooks, âncoras, `emendas.md` (Emendas 1 a 5) |
+| `00-protocolo/` | pergunta, teoria do programa e DAG, protocolo congelado no G2, codebooks, âncoras, `emendas.md` (E001, E002 e Emendas 1 a 6), `correcao_atribuicao.csv` |
 | `01-busca/` | strings versionadas, `log_buscas.csv`, recall das âncoras, pré-PRESS por IA, pares de duplicata |
-| `02-triagem/` | lotes e respostas dos triadores A e B, árbitro, fila humana, amostras de validação e elusão (não codificadas) |
-| `03-textos/` | lista para baixar, relatório de PDFs, fichas de elegibilidade, `elegibilidade_tc_final.csv`, ligação de relatos. Os PDFs (`pdfs/`, `pdfs_descartados/`) **não são versionados** (ver abaixo) |
+| `02-triagem/` | lotes e respostas dos triadores A e B, árbitro, fila humana, amostras de validação e elusão (não codificadas), `sem_resumo_revisao/` (Emenda 6b) |
+| `03-textos/` | lista para baixar, relatório de PDFs, fichas de elegibilidade, `elegibilidade_tc_final.csv`, ligação de relatos, `sessao_2026-09-23/`. Os PDFs (`pdfs/`, `pdfs_descartados/`) **não são versionados** (ver abaixo) |
 | `04-qualidade/` | RoB 2, ROBINS-I V2 e EPOC: fichas A e B, propostas do árbitro (`arbitragem/`), consenso, `rob_geral.csv`, `notas_rob.md` |
-| `05-decomposicao/` | fichamentos (`fichamentos_master.csv`), efeitos por estudo (`efeitos/<chave>.csv`), verificação, validação da extração, `notas_extracao_completa.md` |
-| `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades), meta exploratória, `certeza.csv`, `revisao_metodologica_g8.md`. `_superado_pre_revisao_g8/` guarda a síntese anterior à Emenda 5, só para histórico |
-| `07-relatorio/` | manuscrito, PRISMA (contagens, SVG, PNG), checklists PRISMA e SWiM, `references.bib`, declaração de uso de IA |
+| `05-decomposicao/` | fichamentos (`fichamentos_master.csv`), efeitos por estudo (`efeitos/<chave>.csv`), verificação, validação da extração, `notas_extracao_completa.md`, `correcoes_revisao_g8.csv`, `correcoes_sessao_2026-09-23.csv` |
+| `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades, inclusive ICC 0,20), meta exploratória, `certeza.csv`, `certeza_agrupamento_amplo.csv`, `revisao_metodologica_g8.md`. `_superado_pre_revisao_g8/` guarda a síntese anterior à Emenda 5, só para histórico |
+| `07-relatorio/` | manuscrito, PRISMA (contagens, SVG, PNG), checklists PRISMA e SWiM, `references.bib`, declaração de uso de IA, prompts do redator |
+| `08-revisao-humana/` | pacotes das 18 pendências: índice, ordem, esforço, comandos, re-extração cega e arbitragens dos efeitos |
+| `docs/` | versão publicada no GitHub Pages: relatório autocontido (`index.html`), guia da revisão humana, `.docx` |
 | `dados/` | registros e decisões. Só a skill escreve aqui |
 | `rs_estado.json`, `rs_log.jsonl` | estado e registro de eventos da skill (append-only). Nunca editar à mão |
 | `ferramentas/` | conferências auxiliares: `checar_arbitros.py <raiz> [max_palavras] [subpasta]` confere vocabulário e trecho literal na página das propostas do árbitro de RoB; `achar_trecho.py <verificacao_citacoes.csv> <pasta_pdfs>` sugere o trecho literal mais próximo para citações reprovadas no gate |
 
 ## Cópia de trabalho e PDFs
 
-- **Cópia de trabalho:** `~/Desktop/pesquisas-eleitorais-rs`, clone deste repositório. A revisão foi conduzida até 23/09/2026 em `~/revisoes/pesquisas-eleitorais`; arquivos antigos (fichas, `pdf_path` de `05-decomposicao/fichamentos_master.csv`, prompts) guardam esse caminho como registro de proveniência. Não trabalhe em duas cópias ao mesmo tempo: `rs_estado.json` e `rs_log.jsonl` não se juntam bem.
-- **PDFs:** 181 em `03-textos/pdfs/` (textos completos obtidos, nomeados `<chave>.pdf`) e 20 em `03-textos/pdfs_descartados/` (cópias de outra versão do mesmo trabalho, só folha de rosto ou documento errado; motivos em `03-textos/conferencia_pdfs.csv`). Ficam **só no disco local** da cópia de trabalho, fora do Git (`.gitignore`), porque são obras de terceiros. Sem eles não rodam `rs analise verificar-efeitos`, a conferência humana dos efeitos (P032) nem os scripts de `ferramentas/`.
-- **Clone novo sem PDFs:** copie a pasta `03-textos/pdfs/` de uma cópia existente, ou baixe de novo com a skill `baixar-pdfs-academicos` a partir de `03-textos/para_baixar.csv` (`03-textos/relatorio_pdfs.csv` diz de onde veio cada um). Os que só vieram de páginas de autor ou repositórios podem não ser encontrados de novo; confira com `03-textos/verificacao_conteudo.csv`. Nunca use Sci-Hub ou fontes não autorizadas.
+- **Cópia de trabalho:** `~/Desktop/pesquisas-eleitorais-rs`, clone deste repositório. A revisão foi conduzida até 23/09/2026 em `~/revisoes/pesquisas-eleitorais`. Arquivos antigos (fichas, `pdf_path` de `05-decomposicao/fichamentos_master.csv`, prompts) guardam esse caminho como registro de proveniência. Não trabalhe em duas cópias ao mesmo tempo: `rs_estado.json` e `rs_log.jsonl` não se juntam bem.
+- **PDFs:** ficam **só no disco local** da cópia de trabalho, fora do Git (`.gitignore`), porque são obras de terceiros.
+  - `03-textos/pdfs/` tem 190 PDFs, os textos completos obtidos, nomeados `<chave>.pdf`, e uma página HTML.
+  - `03-textos/pdfs_descartados/` tem 20: cópias de outra versão do mesmo trabalho, só folha de rosto ou documento errado. Os motivos estão em `03-textos/conferencia_pdfs.csv`.
 
-## Pendências humanas abertas
+  Sem eles não rodam `rs analise verificar-efeitos`, a conferência humana dos efeitos (P039), as arbitragens nem os scripts de `ferramentas/`.
+- **Clone novo sem PDFs:** copie a pasta `03-textos/pdfs/` de uma cópia existente, ou baixe de novo com a skill `baixar-pdfs-academicos` a partir de `03-textos/para_baixar.csv`. O arquivo `03-textos/relatorio_pdfs.csv` diz de onde veio cada um. Os que só vieram de páginas de autor ou de repositórios podem não ser encontrados de novo; confira com `03-textos/verificacao_conteudo.csv`. Nunca use Sci-Hub ou fontes não autorizadas.
 
-Para listar: `rs --dir . pendencia listar`. Para fechar uma pendência só documental: `rs --dir . pendencia fechar <ID> --motivo "..." --por revisor_humano_1`. Pendência de dados fecha sozinha quando o comando correspondente é rodado de novo com a decisão humana registrada.
+## Pendências humanas abertas (18)
 
-Ordem sugerida: a das etapas, porque decisões de busca e triagem podem mudar o conjunto de incluídos, e isso muda tudo o que vem depois.
+A lista completa, a ordem sugerida, o esforço estimado, o pacote de cada uma e os comandos para registrar estão em **[`08-revisao-humana/README.md`](08-revisao-humana/README.md)**. Para listar: `rs --dir . pendencia listar`.
 
-| ID | Etapa | O que fazer | Arquivo | Como registrar |
-|---|---|---|---|---|
-| P001 | busca (G3) | PRESS 2015 humano da estratégia `S-oa-en-v4`. Só houve pré-revisão por IA | `01-busca/strings/S-oa-en-v4.txt`, `01-busca/prepress_*_ia.md` | gravar `01-busca/press_<revisor>.md`; se pedir nova string, nova versão com `buscar openalex --substituir` |
-| P004 | busca (G3) | confirmar a aprovação automática do G3 | — | `pendencia fechar` depois de P001 |
-| P019 | organização | revisar 145 pares candidatos de duplicata | `01-busca/dedup_pares.csv` | preencher `decisao` e rodar `rs dedup --revisar 01-busca/dedup_pares.csv --por revisor_humano_1` |
-| P020 | triagem T/A (G4) | resolver 81 divergências entre os triadores A e B (o árbitro de IA já opinou) | `02-triagem/fila_humana_ta_v1.csv` | preencher `decisao_humana`, `criterio_humano` e `motivo_humano`; `rs triagem override --fila 02-triagem/fila_humana_ta_v1.csv --etapa ta --por revisor_humano_1` |
-| P006 | triagem T/A (G4) | codificar em dupla, às cegas, a amostra de validação (141 registros) | `02-triagem/validacao/ta_v1/amostra01_cega.xlsx` | `rs validar calcular --planilha <xlsx> --finalidade validacao` |
-| P007 | triagem T/A (G4) | codificar em dupla, às cegas, a amostra de elusão (300 excluídos) | `02-triagem/validacao/ta_v1/elusao01_cega.xlsx` | `rs validar calcular --planilha <xlsx> --finalidade elusao` |
-| P008 | triagem T/A (G4) | confirmar a aprovação automática do G4 | — | `pendencia fechar` depois de P006, P007 e P020 |
-| P028 | textos (G5) | conferir 150 decisões de elegibilidade propostas a partir das fichas (incertos primeiro) | `03-textos/elegibilidade_tc_final.csv`, `03-textos/fichas_elegibilidade/` | `rs triagem override --etapa tc --id <id_rs> --decisao ... --criterio ... --motivo ... --por revisor_humano_1` (ou `--fila`) |
-| P023 | textos (G5) | confirmar a aprovação automática do G5 | — | `pendencia fechar` depois de P028 |
-| P025 | piloto (G6) | conferir fichas e efeitos dos 3 estudos do piloto contra os PDFs | `05-decomposicao/piloto_fichamentos_master.csv`, `05-decomposicao/piloto/revisao_coordenador.md` | `pendencia fechar` com o resultado da conferência |
-| P026 | piloto (G6) | confirmar a aprovação automática do G6 | — | `pendencia fechar` depois de P025 |
-| P032 | extração (G7) | conferir 100% dos 554 efeitos na página do PDF (números, sinal, DP × EP, n, estimando, modelo principal) | `05-decomposicao/efeitos_extraidos.csv`, `verificacao_efeitos.csv` | marcar `verificado_humano = sim` em `efeitos_extraidos.csv`; `rs analise verificar-efeitos` (fecha quando todas as linhas ficam aptas) |
-| P037 | extração | arbitrar a concordância da recodificação cega (58,5%; `alvo_efeito` e `comparador_tipo` em 50%) ou redefinir as variáveis e recodificar | `05-decomposicao/validacao_extracao/concordancia/` | corrigir `efeitos/<chave>.csv` ou `fichamentos_master.csv` e fechar com motivo |
-| P033 | RoB (G7) | validar o RoB: 23 resultados RoB 2, 13 ROBINS-I e 7 EPOC. Os 88 desacordos foram confirmados em bloco; as 171 concordâncias entre dois avaliadores de IA **não** contam como validação | `04-qualidade/rob_*_consenso.csv` | revisar as linhas, pôr `resolvido_por = revisor_humano_1` e rodar `rs qualidade consolidar --ferramenta <f> --consenso <csv> --por revisor_humano_1` (EPOC com `--ignorar-no-geral`, Emenda 4a) |
-| P036 | síntese | validar os 21 juízos GRADE. Decisão em aberto: rebaixar ou não por viés de publicação o agrupamento amplo randomizado de apoio, o que o levaria de baixa para muito baixa | `06-analise/certeza.csv` | preencher `validado_humano` e alterar o que discordar |
-| P035 | síntese (G8) | confirmar a aprovação automática do G8 | — | `pendencia fechar` depois de P036 |
-| P038 | relato (G9) | confirmar a aprovação automática do G9 (leitura do manuscrito) | `07-relatorio/relatorio.qmd` | `pendencia fechar` depois de todas as outras |
+| ID | Etapa | Em uma linha |
+|---|---|---|
+| P001, P004 | busca (G3) | PRESS humano da string ativa (v5) e confirmação do G3 |
+| P019 | organização | 145 pares candidatos de duplicata |
+| P020, P006, P007, P008 | triagem (G4) | 81 divergências; validação cega (141) e elusão (300); confirmação do G4 |
+| P041, P023 | texto completo (G5) | 165 decisões de elegibilidade propostas pela IA (antes P028 e P040); confirmação do G5 |
+| P025, P026 | piloto (G6) | conferir os 3 estudos do piloto; confirmação do G6 |
+| P039, P037, P033 | extração e RoB (G7) | conferir os 560 efeitos (antes P032); arbitrar 259 divergências da extração; validar 259 domínios de RoB |
+| P036, P042, P035 | síntese (G8) | validar o GRADE (a P042, aberta pelo `rs caixa`, pede o mesmo); confirmação do G8 |
+| P038 | relato (G9) | ler o manuscrito e confirmar o G9 |
 
 ## Refazer os produtos depois de fechar pendências
 
@@ -95,6 +151,11 @@ rs --dir . analise efeitos --in 05-decomposicao/efeitos_para_sintese.csv
 # 2. entradas da SWiM (células, efeitos fora da contagem, nulos por ±δ) e meta exploratória
 python3 06-analise/montar_entradas_swim.py
 python3 06-analise/montar_meta_exploratoria.py
+#    sensibilidade ICC 0,20 (Emenda 4c)
+python3 06-analise/montar_sens_icc020.py
+rs --dir . analise efeitos --in 06-analise/sens_icc020_entrada.csv --out 06-analise/sens_icc020_efeitos.csv
+python3 06-analise/montar_entradas_swim.py 06-analise/sens_icc020_efeitos.csv _icc020
+python3 06-analise/montar_meta_exploratoria.py _icc020
 
 # 3. SWiM principal e sensibilidades
 G=familia_intervencao,construto_outcome,comparador_tipo,celula_alvo; A=construto_outcome,celula_alvo
@@ -104,31 +165,40 @@ rs --dir . analise swim --in 06-analise/swim_entrada_principal.csv --out-dir 06-
 for s in com_excluidos so_contexto_real sem_pre2010 sem_araujo; do
   rs --dir . analise swim --in 06-analise/swim_entrada_$s.csv --out-dir 06-analise/swim_sens_${s}_amplo --grupo $A --separar-desenho sim --excluir-rob critico
 done
-rs --dir . analise meta --in 06-analise/meta_entrada_exploratoria.csv --out-dir 06-analise/meta_exploratoria \
-  --grupo familia_intervencao,construto_outcome,comparador_tipo --dependencia um_por_estudo \
-  --delta "$(cat 06-analise/_delta_celula.txt)" --separar-desenho sim --excluir-rob critico
+rs --dir . analise swim --in 06-analise/swim_entrada_principal_icc020.csv --out-dir 06-analise/swim_sens_icc020 --grupo $G --separar-desenho sim --excluir-rob critico
+for suf in "" _icc020; do
+  rs --dir . analise meta --in 06-analise/meta_entrada_exploratoria$suf.csv --out-dir 06-analise/meta_exploratoria$suf \
+    --grupo familia_intervencao,construto_outcome,comparador_tipo --dependencia che \
+    --delta "$(cat 06-analise/_delta_celula.txt)" --separar-desenho sim --excluir-rob critico
+done
 
-# 4. GRADE (06-analise/certeza.csv; rascunho por subagente com 06-analise/prompt_grade.md) e relato
+# 4. GRADE (06-analise/certeza.csv e certeza_agrupamento_amplo.csv; rascunho por subagente com 06-analise/prompt_grade_v2.md) e relato
 rs --dir . prisma            # regrava checklist_prisma.csv: preencha local_no_relato de novo depois
 rs --dir . incluidos
+rs --dir . pendencia listar > 07-relatorio/_pendencias_abertas.json
+# manuscrito: subagente com 07-relatorio/prompt_redator_v2.md
 rs --dir . declaracao-ia     # sempre por último, antes do render
-cd 07-relatorio && quarto render relatorio.qmd --to html && quarto render relatorio.qmd --to docx
+cd 07-relatorio && quarto render relatorio.qmd --to html && quarto render relatorio.qmd --to docx && cd ..
+bash docs/publicar.sh        # versão autocontida em docs/ (GitHub Pages)
 ```
 
 Cuidados:
 
 - `rs bib` regrava `07-relatorio/references.bib` e apaga as três referências acrescentadas à mão (Hardmeier2008, MoyRinke2012, Barnfield2019). Se rodar, acrescente-as de novo.
-- Os números do manuscrito foram copiados dos arquivos por um subagente redator (`07-relatorio/prompt_redator.md`). Se a síntese mudar, o texto precisa ser reescrito, não só renderizado.
+- Os números do manuscrito são copiados dos arquivos por um subagente redator. Se a síntese mudar, o texto precisa ser reescrito, não só renderizado.
+- `rs caixa` é opcional neste tipo de revisão. Rodá-lo abre a pendência `certeza_caixa`, que repete a validação do GRADE.
 - Quando a última pendência fechar, o `rs status` deixa de marcar rascunho. Aí tire a faixa "RASCUNHO NÃO VALIDADO" do topo do `relatorio.qmd`.
 
 ## Limitações declaradas
 
 - Triagem, elegibilidade, extração, RoB e GRADE foram feitos por subagentes de IA (Claude Sonnet e Opus, mesmo provedor), sem validação humana.
-- O árbitro do RoB foi do mesmo modelo do avaliador A e seguiu A em 79 de 88 domínios. Os 88 consensos foram confirmados em bloco.
-- A concordância da extração ficou abaixo do limiar (58,5%).
-- As âncoras e o PRESS foram feitos só por IA.
-- Foi usado ROBINS-I V2 no lugar de ROBINS-E (canônico para exposição).
-- As decisões da Emenda 5 foram tomadas depois de ver os dados.
+- Decisões registradas como humanas sem conferência humana foram corrigidas na Emenda 6a. Como o log só aceita acréscimo, as linhas antigas continuam lá.
+- A triagem dos registros sem resumo foi refeita só por IA (Emenda 6b), com a conferência dispensada pelo revisor. O comando do skill grava `tipo_ator = humano` fixo nessas linhas; o papel `ia_coordenador_emenda6` e o motivo de cada uma dizem que a decisão é da IA.
+- O árbitro do RoB foi do mesmo modelo do avaliador A e seguiu A em 79 de 88 domínios. Nenhum julgamento de RoB foi validado por humano.
+- A concordância da extração ficou abaixo do limiar (58,5%). Os efeitos principais foram re-extraídos às cegas e arbitrados por IA, mas nenhum número foi conferido por humano.
+- As âncoras e o PRESS foram feitos só por IA. O pré-PRESS da string ativa aponta lacunas de termos.
+- Foi usado ROBINS-I V2 no lugar do ROBINS-E, que é o canônico para exposição.
+- As decisões das Emendas 5 e 6b foram tomadas depois de ver os dados.
 - Nenhum PDF foi obtido por Sci-Hub, LibGen ou outra fonte não autorizada.
 
 Detalhes na seção de limitações do manuscrito e em `07-relatorio/declaracao_uso_ia_texto.md`.
