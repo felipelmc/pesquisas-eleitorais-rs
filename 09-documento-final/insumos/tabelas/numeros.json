@@ -1,0 +1,369 @@
+{
+ "estudos": 41,
+ "relatos": 55,
+ "estudos_com_efeitos": 40,
+ "efeitos": 560,
+ "efeitos_principais": 70,
+ "estudos_com_principal": 37,
+ "sem_principal": [
+  "Freden2016b",
+  "Meffert2012a",
+  "Tyszler2013",
+  "Yang2023d"
+ ],
+ "desenho": {
+  "lab_preferencias_induzidas": 9,
+  "outro": 5,
+  "experimento_natural": 6,
+  "survey_experiment": 14,
+  "lab_candidatos_reais": 3,
+  "painel_individual": 3,
+  "experimento_campo": 1
+ },
+ "familia": {
+  "pesquisa_pre_eleitoral": 33,
+  "apuracao_parcial": 1,
+  "boca_de_urna": 3,
+  "agregador_projecao": 4
+ },
+ "realismo": {
+  "induzido": 9,
+  "real": 25,
+  "hipotetico": 7
+ },
+ "eleicao": {
+  "simulada_abstrata": 8,
+  "candidato_partido": 32,
+  "referendo": 1
+ },
+ "construto": {
+  "apoio_ao_lider + mobilizacao": 7,
+  "apoio_ao_lider": 24,
+  "mobilizacao": 10
+ },
+ "regiao": {
+  "outro": 37,
+  "brasil": 1,
+  "america_latina": 1,
+  "999": 1,
+  "america_latina + brasil + outro": 1
+ },
+ "ano_min": 2010,
+ "ano_max": 2024,
+ "rob_resultados": 43,
+ "rob_estudos": 37,
+ "rob_por_ferr": {
+  "rob2": {
+   "algumas_preocupacoes": 17,
+   "alto": 6
+  },
+  "robins_i": {
+   "grave": 8,
+   "moderado": 2,
+   "critico": 3
+  },
+  "epoc": {
+   "alto": 6,
+   "baixo": 1
+  }
+ },
+ "rob2_D5_algumas": 21,
+ "robins_D1_grave_critico": 11,
+ "rob_dominios": {
+  "concordancia": 171,
+  "arbitro_ia": 88
+ },
+ "arbitro_segue": {
+  "A": 79,
+  "outro": 2,
+  "B": 7
+ },
+ "swim_principal_grupos": 19,
+ "swim_principal_celulas_com_estudo": 18,
+ "swim_principal_estudos": [
+  "Agranov2017a",
+  "Araujo2021a",
+  "Boukouras2020a",
+  "Brugarolas2021",
+  "Chatterjee2019a",
+  "Cornejo2023a",
+  "Dahlgaard2016a",
+  "Erlich2023",
+  "Farjam2020a",
+  "Feltovich2022",
+  "Fichnova2015a",
+  "Freden2024a",
+  "Gerber2020a",
+  "Grillo2024c",
+  "Groer2010a",
+  "Klor2017a",
+  "Lammers2022a",
+  "Meer2015a",
+  "Morton2015a",
+  "Schlegel2023",
+  "Stolwijk2016a",
+  "Stolwijk2019b",
+  "Tal2015a",
+  "Timotei2013a",
+  "Tyszler2015",
+  "Westwood2020a",
+  "Witsman2016a"
+ ],
+ "n_swim_principal_estudos": 27,
+ "criticos": [
+  "Gasperoni2015a",
+  "Kaplan2019a",
+  "Unkelbach2022a"
+ ],
+ "fora_estudos_so_fora": [
+  "Alabrese2024a",
+  "Bursztyn2023a",
+  "Gandhi2019",
+  "Geers2018",
+  "Lago2015",
+  "Meffert2011",
+  "Urminsky2019"
+ ],
+ "certeza_contagem": {
+  "baixa": 2,
+  "muito_baixa": 15,
+  "moderada": 1
+ },
+ "certeza_amplo_contagem": {
+  "muito_baixa": 7
+ },
+ "icc020_igual_principal": true,
+ "meta": {
+  "k_estudos": 3,
+  "k_efeitos": 4,
+  "estudos": [
+   "Agranov2017a",
+   "Timotei2013a",
+   "Tyszler2015"
+  ],
+  "modelo": "CHE (rma.mv estudo/efeito, REML) + RVE CR2 (Satterthwaite)",
+  "g": "0,48",
+  "ic": [
+   "−1,51",
+   "2,47"
+  ],
+  "p": "0,263",
+  "gl": "1,25",
+  "tau2": "0,04",
+  "I2": "15",
+  "pi": [
+   "−3,55",
+   "4,51"
+  ],
+  "delta": "0,0573",
+  "loo": [
+   "0,19",
+   "0,69"
+  ],
+  "loo_muda": [
+   "ES1876"
+  ],
+  "rho": [
+   [
+    0.2,
+    "0,49",
+    [
+     "−1,29",
+     "2,26"
+    ]
+   ],
+   [
+    0.5,
+    "0,48",
+    [
+     "−1,46",
+     "2,42"
+    ]
+   ],
+   [
+    0.8,
+    "0,47",
+    [
+     "−1,52",
+     "2,46"
+    ]
+   ]
+  ]
+ },
+ "meta_icc020": {
+  "g": "0,51",
+  "ic": [
+   "−0,97",
+   "1,98"
+  ],
+  "gl": "1,41"
+ },
+ "meta_loo": [
+  [
+   "ES1529",
+   "0,19",
+   "−1,71",
+   "2,08"
+  ],
+  [
+   "ES1876",
+   "0,69",
+   "0,40",
+   "0,98"
+  ],
+  [
+   "ES2996",
+   "0,46",
+   "−3,07",
+   "3,99"
+  ]
+ ],
+ "meta_mesmo_candidato": {
+  "k_estudos": 3,
+  "k_efeitos": 6,
+  "estudos": [
+   "Fichnova2015a",
+   "Lammers2022a",
+   "Witsman2016a"
+  ],
+  "delta": "0,044",
+  "g": "0,62",
+  "ic": [
+   "−0,48",
+   "1,72"
+  ],
+  "p": "0,111",
+  "gl": "1,46",
+  "rve_confiavel": false,
+  "tau2": "0,41",
+  "I2": "94",
+  "pi": [
+   "−7,82",
+   "9,05"
+  ],
+  "avisos": [
+   "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+  ],
+  "loo": [
+   [
+    "ES1803",
+    "0,57",
+    "−1,61",
+    "2,75"
+   ],
+   [
+    "ES1621",
+    "0,90",
+    "0,85",
+    "0,94"
+   ],
+   [
+    "ES1901",
+    "0,55",
+    "−1,43",
+    "2,53"
+   ]
+  ],
+  "rho": [
+   [
+    0.2,
+    "0,61",
+    [
+     "−0,52",
+     "1,74"
+    ]
+   ],
+   [
+    0.5,
+    "0,62",
+    [
+     "−0,49",
+     "1,72"
+    ]
+   ],
+   [
+    0.8,
+    "0,62",
+    [
+     "−0,46",
+     "1,70"
+    ]
+   ]
+  ]
+ },
+ "meta_mesmo_candidato_icc020": {
+  "k_estudos": 3,
+  "k_efeitos": 6,
+  "estudos": [
+   "Fichnova2015a",
+   "Lammers2022a",
+   "Witsman2016a"
+  ],
+  "delta": "0,044",
+  "g": "0,62",
+  "ic": [
+   "−0,48",
+   "1,72"
+  ],
+  "p": "0,111",
+  "gl": "1,46",
+  "rve_confiavel": false,
+  "tau2": "0,41",
+  "I2": "94",
+  "pi": [
+   "−7,82",
+   "9,05"
+  ],
+  "avisos": [
+   "vários outcomes no mesmo construto: conferir se medem o mesmo conceito"
+  ],
+  "loo": [
+   [
+    "ES1803",
+    "0,57",
+    "−1,61",
+    "2,75"
+   ],
+   [
+    "ES1621",
+    "0,90",
+    "0,85",
+    "0,94"
+   ],
+   [
+    "ES1901",
+    "0,55",
+    "−1,43",
+    "2,53"
+   ]
+  ],
+  "rho": [
+   [
+    0.2,
+    "0,61",
+    [
+     "−0,52",
+     "1,74"
+    ]
+   ],
+   [
+    0.5,
+    "0,62",
+    [
+     "−0,49",
+     "1,72"
+    ]
+   ],
+   [
+    0.8,
+    "0,62",
+    [
+     "−0,46",
+     "1,70"
+    ]
+   ]
+  ]
+ },
+ "voto_obrig_mob_sim": [],
+ "pendencias": 18
+}
