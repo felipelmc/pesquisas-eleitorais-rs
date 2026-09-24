@@ -49,7 +49,6 @@ format:
     citations-hover: true
     crossrefs-hover: true
     fig-cap-location: bottom
-    lightbox: true
     format-links: false
     embed-resources: true
     default-image-extension: png
