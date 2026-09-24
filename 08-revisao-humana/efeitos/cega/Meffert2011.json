@@ -1,0 +1,102 @@
+{
+ "chave": "Meffert2011",
+ "modelo_extrator": "claude-opus-5-5",
+ "construtos": [
+  "apoio_ao_lider"
+ ],
+ "criterio_modelo_principal": {
+  "apoio_ao_lider": "regra_do_protocolo ; regra_do_protocolo"
+ },
+ "localizacao_modelo_principal": {
+  "apoio_ao_lider": "Tabela 4, col. 'Without perceptions' (p. 25; folha 26) ; Tabela 4, col. 'With perceptions' (p. 25; folha 26)"
+ },
+ "notas_gerais": "Sem declaração de modelo preferido nem número repetido no resumo/conclusão; autores tratam os dois modelos da Tabela 4 como igualmente centrais ('the model is reported with and without the perceptions'). Mobilização não é analisada (voto único obrigatório na tarefa, sem opção de abstenção). A manipulação do sinal de coalizão não é exposição a pesquisa e não foi extraída. Atribuição ao estado foi condicional à preferência; só a condição de pesquisa e o sinal foram aleatorizados.",
+ "efeitos": [
+  {
+   "outcome": "Insincere vote (voto em partido diferente do mais preferido)",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratório randomizado (condição de pesquisa atribuída aleatoriamente no indivíduo; 3 condições com prob. 20/50/30, agrupadas em 'close' vs 'safe'), embutido em duas campanhas estaduais alemãs reais (2006)",
+   "cluster": "",
+   "pagina": 26,
+   "modelo": "Tabela 4, col. 'Without perceptions' (p. 25; folha 26): logit de insincere vote; preditor 'Close poll (manipulation)' (pesquisa fechada 5%/4% vs seguras 10%/7%); controles: 'Party no chance', coalition signal (manipulation), ideological distance, strength of PID, party preference, 'habitual party voter', knowledge, small party supporter, sex",
+   "estimando": "ATE",
+   "tipo_estatistica": "beta",
+   "beta": -0.18,
+   "se": 0.48,
+   "n_total": 200,
+   "p0": 0.246,
+   "p": "n.s.",
+   "evidencia": "Close poll (manipulation) -0.18 (0.48) -0.51 (0.52)",
+   "origem_valor": "impresso",
+   "nota": "Coeficiente logit não padronizado (não há efeito marginal em p.p. para a manipulação); OR aproximado = exp(-0.18) = 0.84. Não há teste do líder: o desfecho é deserção do partido preferido, que para apoiadores de partido pequeno (pesquisa 4%) é abandonar o partido abaixo da cláusula e para apoiadores de partido grande (pesquisa 5%) é 'voto de aluguel' para o pequeno no limiar, daí alvo nao_se_aplica. p0 = 24,6% de insincere vote nas condições seguras (texto, folha 25). Controles incluem medidas pós-tratamento ('Party no chance', coletada após o voto)."
+  },
+  {
+   "outcome": "Insincere vote (voto em partido diferente do mais preferido)",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratório randomizado (condição de pesquisa atribuída aleatoriamente no indivíduo; 3 condições com prob. 20/50/30, agrupadas em 'close' vs 'safe'), embutido em duas campanhas estaduais alemãs reais (2006)",
+   "cluster": "",
+   "pagina": 26,
+   "modelo": "Tabela 4, col. 'With perceptions' (p. 25; folha 26): mesmo logit acrescido de 'Perceived distance from threshold' e 'Coalition signal (perception)'",
+   "estimando": "ATE",
+   "tipo_estatistica": "beta",
+   "beta": -0.51,
+   "se": 0.52,
+   "n_total": 200,
+   "p0": 0.246,
+   "p": "n.s.",
+   "evidencia": "Close poll (manipulation) -0.18 (0.48) -0.51 (0.52)",
+   "origem_valor": "impresso",
+   "nota": "Ajustado pelo mediador (distância percebida do limiar, que a manipulação afeta: Figura 5), portanto efeito direto e não total (ajuste_mediador = Sim). Autores reportam os dois modelos lado a lado 'with and without the perceptions' sem declarar um preferido; pela regra do protocolo (mais controles) seria este, mas o contraste da exposição total é o da coluna 'Without perceptions'."
+  },
+  {
+   "outcome": "Insincere vote (voto em partido diferente do mais preferido)",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratório randomizado (condição de pesquisa atribuída aleatoriamente no indivíduo; 3 condições com prob. 20/50/30, agrupadas em 'close' vs 'safe'), embutido em duas campanhas estaduais alemãs reais (2006)",
+   "cluster": "",
+   "pagina": 25,
+   "modelo": "Comparação bivariada no texto (p. 24; folha 25): % de insincere vote nas condições fechada vs segura, sem controles (fora da Tabela 4; complementar, não é o modelo principal)",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "p1": 0.237,
+   "p0": 0.246,
+   "n1": 135,
+   "n2": 65,
+   "n_total": 200,
+   "efeito_pp": -0.9,
+   "evidencia": "They were equally likely to cast an insincere vote under close and safe condi- tions, with 23.7 and 24.6 per cent in each case.",
+   "origem_valor": "derivado",
+   "nota": "p1 e p0 impressos; efeito_pp = 23.7 - 24.6 = -0.9 e n1/n2 derivados: 10 votantes estratégicos = 7.4% da condição fechada -> n1 = 10/0.074 = 135, n2 = 200 - 135 = 65; confere com 48 insincere (0.237*135 = 32 + 0.246*65 = 16). Sem SE nem teste impressos."
+  },
+  {
+   "outcome": "Strategic vote (insincere vote com razão estratégica declarada espontaneamente)",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratório randomizado (condição de pesquisa atribuída aleatoriamente no indivíduo; 3 condições com prob. 20/50/30, agrupadas em 'close' vs 'safe'), embutido em duas campanhas estaduais alemãs reais (2006)",
+   "cluster": "",
+   "pagina": 25,
+   "modelo": "Comparação bivariada no texto (p. 24; folha 25): % de voto estratégico explícito nas condições fechada vs segura (complementar, não é o modelo principal)",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "p1": 0.074,
+   "p0": 0.0,
+   "n1": 135,
+   "n2": 65,
+   "n_total": 200,
+   "efeito_pp": 7.4,
+   "evidencia": "Explicit strategic voters, on the other hand, voted this way only when the polls suggested a close election (7.4 per cent). Without the incentive of a close election, and consistent with our expectation, not a single strategic voter was found.",
+   "origem_valor": "derivado",
+   "nota": "p1 = 7.4% impresso, p0 = 0 (nenhum votante estratégico nas condições seguras, texto); n1/n2 derivados como na linha anterior (10 votantes estratégicos no total). O desfecho é definido em parte por citar pesquisas/chances como razão, o que o torna dependente da manipulação; só 10 eventos, sem teste impresso."
+  }
+ ]
+}

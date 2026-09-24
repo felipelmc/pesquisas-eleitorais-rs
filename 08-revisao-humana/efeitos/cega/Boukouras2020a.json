@@ -1,0 +1,89 @@
+{
+ "chave": "Boukouras2020a",
+ "modelo_extrator": "claude-opus-5-5",
+ "construtos": [
+  "apoio_ao_lider"
+ ],
+ "criterio_modelo_principal": {
+  "apoio_ao_lider": "declarado_pelos_autores ; declarado_pelos_autores ; declarado_pelos_autores"
+ },
+ "evidencia_criterio": "Let us first provide an overall summary of the primary treatment effect across the three experiments: the rate of electoral success. Table VI illustrates the number of rounds won by each of the two parties in the treatment and control conditions across the three experiments. (folha 16)",
+ "localizacao_modelo_principal": {
+  "apoio_ao_lider": "E1: Tabela VI, col. E1 (p. 49; folha 50) ; E2: Tabela VI, col. E2 (p. 49; folha 50) ; E3: Tabela VI, col. E3 (p. 49; folha 50)"
+ },
+ "notas_gerais": "Três experimentos independentes (participantes próprios), tratados pelos autores como igualmente centrais; cada um é um estudo. A análise de Twitter (seção 3, Tabelas II-III) não mede voto e não entra. Mobilização não é analisada como desfecho (abstenção só aparece descritivamente na Tabela IX), por isso só apoio_ao_lider.",
+ "efeitos": [
+  {
+   "outcome": "number of elections (rounds) won by candidate K, the party favoured by the biased poll selection",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "",
+   "alvo_efeito": "lider",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratório randomizado (participantes alocados aleatoriamente entre a sessão de controle e a de tratamento de cada bloco de 30; tratamento atribuído por sessão de 15 eleitores; eleições incentivadas com dinheiro)",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "cluster": 15,
+   "pagina": 16,
+   "origem_valor": "impresso",
+   "experimento": "E1",
+   "modelo": "Tabela VI, coluna E1 (controle: as 5 pesquisas reveladas; tratamento: as 2 mais favoráveis a K, sem aviso); contagem de vitórias e teste exato de Fisher unilateral, sem controles (p. 49; folha 50); descrito na seção 5 (p. 15; folha 16)",
+   "n1": 60,
+   "n2": 60,
+   "n_total": 120,
+   "p1": 0.8,
+   "p0": 0.6,
+   "efeito_pp": 20.0,
+   "p": 0.0138,
+   "evidencia": "As can be seen, in E1 party K won 60% of all rounds in the control condition but 80% of the rounds in the treatment",
+   "nota": "Tratamento: K venceu 48 de 60; controle: 36 de 60 (Tabela VI). p0=36/60, p1=48/60, efeito_pp=80-60 (conta sobre impressos; os percentuais também estão impressos na folha 16). p unilateral (Fisher). 120 participantes, 4 sessões por braço; E1 C2 e E1 T2 ficaram sozinhas no bloco. Unidade do desfecho = eleição-rodada (15 rodadas por sessão; cluster=15 rodadas por sessão, ICC não relatado); as valências foram sorteadas uma vez e repetidas em todas as sessões. O desfecho é a vitória coletiva por maioria, não o voto individual. K é o candidato favorecido pela seleção enviesada (mostrado em situação melhor que a real), não necessariamente à frente em toda rodada. Na introdução (folha 5) os números 20, 11,7 e 7,3 p.p. são chamados de 'vote share', mas coincidem com as diferenças de taxa de vitória da Tabela VI; a Figura V (folha 58) sugere diferença de vote share de cerca de 16 p.p. em E1 (lido_de_figura, aproximado, não extraído como linha). O coeficiente 'Is treatment' dos Modelos 2 (Tabelas XIII-XV) é condicional à informação média das pesquisas reveladas (ajuste pelo mediador) e não foi tomado como principal."
+  },
+  {
+   "outcome": "number of elections (rounds) won by candidate K, the party favoured by the biased poll selection",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "",
+   "alvo_efeito": "lider",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratório randomizado (participantes alocados aleatoriamente entre a sessão de controle e a de tratamento de cada bloco de 30; tratamento atribuído por sessão de 15 eleitores; eleições incentivadas com dinheiro)",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "cluster": 15,
+   "pagina": 16,
+   "origem_valor": "impresso",
+   "experimento": "E2",
+   "modelo": "Tabela VI, coluna E2 (controle: 2 de 5 pesquisas sorteadas ao acaso, com aviso; tratamento: as 2 mais favoráveis a K, sem aviso); contagem de vitórias e teste exato de Fisher unilateral, sem controles (p. 49; folha 50); descrito na seção 5 (p. 15; folha 16)",
+   "n1": 60,
+   "n2": 60,
+   "n_total": 120,
+   "p1": 0.7333,
+   "p0": 0.6167,
+   "efeito_pp": 11.67,
+   "p": 0.121,
+   "evidencia": "In E2 party K won 61.6% of all rounds in the control but 73.3% of the rounds in the treatment,",
+   "nota": "Tratamento: K venceu 44 de 60; controle: 37 de 60 (Tabela VI). p0=37/60=0,6167 (o texto imprime 61,6%), p1=44/60=0,7333; efeito_pp derivado = 11,67 (a introdução imprime 11,7). p unilateral (Fisher). 120 participantes, 4 sessões por braço. Unidade do desfecho = eleição-rodada (15 rodadas por sessão; cluster=15 rodadas por sessão, ICC não relatado); as valências foram sorteadas uma vez e repetidas em todas as sessões. O desfecho é a vitória coletiva por maioria, não o voto individual. K é o candidato favorecido pela seleção enviesada (mostrado em situação melhor que a real), não necessariamente à frente em toda rodada. Na introdução (folha 5) os números 20, 11,7 e 7,3 p.p. são chamados de 'vote share', mas coincidem com as diferenças de taxa de vitória da Tabela VI; a Figura V (folha 58) sugere diferença de vote share de cerca de 16 p.p. em E1 (lido_de_figura, aproximado, não extraído como linha). O coeficiente 'Is treatment' dos Modelos 2 (Tabelas XIII-XV) é condicional à informação média das pesquisas reveladas (ajuste pelo mediador) e não foi tomado como principal."
+  },
+  {
+   "outcome": "number of elections (rounds) won by candidate K, the party favoured by the biased poll selection",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "",
+   "alvo_efeito": "lider",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratório randomizado (participantes alocados aleatoriamente entre a sessão de controle e a de tratamento de cada bloco de 30; tratamento atribuído por sessão de 15 eleitores; eleições incentivadas com dinheiro)",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "cluster": 15,
+   "pagina": 16,
+   "origem_valor": "impresso",
+   "experimento": "E3",
+   "modelo": "Tabela VI, coluna E3 (controle: as 5 pesquisas reveladas; tratamento: as 2 mais favoráveis a K, com a regra de seleção informada de antemão); contagem de vitórias e teste exato de Fisher unilateral, sem controles (p. 49; folha 50); descrito na seção 5 (p. 15; folha 16)",
+   "n1": 75,
+   "n2": 60,
+   "n_total": 135,
+   "p1": 0.64,
+   "p0": 0.5667,
+   "efeito_pp": 7.33,
+   "p": 0.245,
+   "evidencia": "while in E3 party K won 56.7% of all rounds in the control but 64% of the rounds in the treatment.",
+   "nota": "Tratamento: K venceu 48 de 75 (5 sessões); controle: 34 de 60 (4 sessões) (Tabela VI). p0=34/60, p1=48/75; efeito_pp derivado = 7,33 (a introdução imprime 7,3). p unilateral (Fisher). 135 participantes da Universidade de York; E3 T5 ficou sozinha no bloco. O braço de tratamento difere do de E1 por avisar a regra enviesada. Unidade do desfecho = eleição-rodada (15 rodadas por sessão; cluster=15 rodadas por sessão, ICC não relatado); as valências foram sorteadas uma vez e repetidas em todas as sessões. O desfecho é a vitória coletiva por maioria, não o voto individual. K é o candidato favorecido pela seleção enviesada (mostrado em situação melhor que a real), não necessariamente à frente em toda rodada. Na introdução (folha 5) os números 20, 11,7 e 7,3 p.p. são chamados de 'vote share', mas coincidem com as diferenças de taxa de vitória da Tabela VI; a Figura V (folha 58) sugere diferença de vote share de cerca de 16 p.p. em E1 (lido_de_figura, aproximado, não extraído como linha). O coeficiente 'Is treatment' dos Modelos 2 (Tabelas XIII-XV) é condicional à informação média das pesquisas reveladas (ajuste pelo mediador) e não foi tomado como principal."
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "chave": "Meffert2012a",
+ "modelo_extrator": "claude-opus-5-5",
+ "construtos": [
+  "apoio_ao_lider"
+ ],
+ "criterio_modelo_principal": {
+  "apoio_ao_lider": "regra_do_protocolo ; regra_do_protocolo ; regra_do_protocolo"
+ },
+ "localizacao_modelo_principal": {
+  "apoio_ao_lider": "Experimento economico: Tabela 2, Poll Only vs No Info, easy elections (p. 23; folha 24) ; Experimento economico: Tabela 2, Poll Only vs No Info, difficult elections (p. 23; folha 24) ; Experimento psicologico: modelo multivariado de voto insincero, nao apresentado (p. 15; folha 16)"
+ },
+ "nota_estudo": "Capitulo metodologico sobre triangulacao experimental de sinais de coalizao; a exposicao principal e o sinal de coalizao, nao a pesquisa. Nao ha declaracao de modelo principal nem resumo; os tres experimentos sao tratados como igualmente centrais. O terceiro (survey experiment austriaco de 2006, Tabela 3) manipula so sinais de coalizao em vinhetas, sem pesquisa, e por isso nao gera linha. Mobilizacao nao e analisada.",
+ "efeitos": [
+  {
+   "outcome": "share of optimal decisions (voto otimo com incentivo monetario, jogo de 4 partidos com preferencias induzidas)",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "easy elections (sinal de coalizao otimo)",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "sem_pesquisa",
+   "desenho": "experimento de laboratorio randomizado (disponibilidade da pesquisa sorteada por cenario de decisao, com probabilidade de 80%; intra-sujeito; preferencias induzidas)",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "cluster": "",
+   "evidencia": "participants were able to make optimal decisions in 51 per cent of the easy elections and 31 per cent of the difficult elections. The availability of polls increases the proportion of optimal decisions to 64 and 41 per cent, respectively.",
+   "pagina": 12,
+   "modelo": "Tabela 2, colunas 'Poll Only' vs 'No Info', linha 'Easy Elections'; proporcoes brutas sem controles, EP por bootstrap (p. 23 impressa; folha 24; descrita na p. 11, folha 12)",
+   "m1": 64.2,
+   "sd1": "",
+   "n1": 1097,
+   "m2": 51.7,
+   "sd2": "",
+   "n2": 269,
+   "n_total": 1366,
+   "p1": 0.642,
+   "p0": 0.517,
+   "efeito_pp": 12.5,
+   "se_pp": 3.44,
+   "origem_valor": "derivado",
+   "nota": "Proporcoes, EP bootstrap (BSE) e N impressos na Tabela 2 (EP braco pesquisa 1.5, braco sem informacao 3.1); efeito_pp = 64.2 - 51.7 = 12.5 e se_pp = sqrt(1.5^2 + 3.1^2) = 3.44 sao derivados. N sao decisoes, nao participantes: cada participante decidiu em varios cenarios (conglomerado por participante, tamanho nao relatado neste texto) e nao se diz se o bootstrap foi por participante. O desfecho e a qualidade da decisao estrategica (voto otimo), nao o apoio a opcao que a pesquisa mostra a frente; o contraste de exposicao existe, mas o estudo nao estima o construto apoio_ao_lider como definido no protocolo. A manipulacao central do capitulo e o sinal de coalizao; o PDF e o working paper SSOAR de 2010 (Meffert e Gschwend)."
+  },
+  {
+   "outcome": "share of optimal decisions (voto otimo com incentivo monetario, jogo de 4 partidos com preferencias induzidas)",
+   "construto_outcome": "apoio_ao_lider",
+   "subgrupo": "difficult elections (sinal de coalizao suboptimo)",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "sem_pesquisa",
+   "desenho": "experimento de laboratorio randomizado (disponibilidade da pesquisa sorteada por cenario de decisao, com probabilidade de 80%; intra-sujeito; preferencias induzidas)",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "cluster": "",
+   "evidencia": "participants were able to make optimal decisions in 51 per cent of the easy elections and 31 per cent of the difficult elections. The availability of polls increases the proportion of optimal decisions to 64 and 41 per cent, respectively.",
+   "pagina": 12,
+   "modelo": "Tabela 2, colunas 'Poll Only' vs 'No Info', linha 'Difficult Elections'; proporcoes brutas sem controles, EP por bootstrap (p. 23 impressa; folha 24; descrita na p. 11, folha 12)",
+   "m1": 40.8,
+   "sd1": "",
+   "n1": 1651,
+   "m2": 30.9,
+   "sd2": "",
+   "n2": 408,
+   "n_total": 2059,
+   "p1": 0.408,
+   "p0": 0.309,
+   "efeito_pp": 9.9,
+   "se_pp": 2.59,
+   "origem_valor": "derivado",
+   "nota": "Proporcoes, EP bootstrap (BSE) e N impressos na Tabela 2 (EP braco pesquisa 1.2, braco sem informacao 2.3); efeito_pp = 40.8 - 30.9 = 9.9 e se_pp = sqrt(1.2^2 + 2.3^2) = 2.59 sao derivados. N sao decisoes, nao participantes: cada participante decidiu em varios cenarios (conglomerado por participante, tamanho nao relatado neste texto) e nao se diz se o bootstrap foi por participante. O desfecho e a qualidade da decisao estrategica (voto otimo), nao o apoio a opcao que a pesquisa mostra a frente; o contraste de exposicao existe, mas o estudo nao estima o construto apoio_ao_lider como definido no protocolo. A manipulacao central do capitulo e o sinal de coalizao; o PDF e o working paper SSOAR de 2010 (Meffert e Gschwend)."
+  },
+  {
+   "outcome": "voto hipotetico na eleicao estadual (voto 'insincere' / estrategico no partido pequeno preferido)",
+   "construto_outcome": "apoio_ao_lider",
+   "modelo": "Experimento psicologico (Baden-Wurttemberg e Renania-Palatinado, jan. 2006): manipulacao da pesquisa do partido pequeno preferido acima vs abaixo/perto da clausula de 5%; 'multivariate model predicting insincere voting' citado mas nao apresentado (p. 15 impressa; folha 16)",
+   "subgrupo": "",
+   "alvo_efeito": "partido_abaixo_clausula",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "experimento de laboratorio randomizado (entre sujeitos; pesquisa e sinal de coalizao sorteados; estudantes; partidos e preferencias reais)",
+   "estimando": "ATE",
+   "tipo_estatistica": "outro",
+   "n_total": "",
+   "cluster": "",
+   "evidencia": "However, about a quarter of the participants did defect from their top-ranked party and voted ‘insincerely’ for some other party, independent of the poll manipulation.",
+   "pagina": 16,
+   "origem_valor": "nao_relatado",
+   "nota": "Nenhum numero do efeito da pesquisa e impresso: o texto so diz que a desercao do partido preferido (cerca de um quarto) ocorreu independentemente da manipulacao da pesquisa, e que so 10 participantes (7,5% dos das condicoes de pesquisa apertada, logo cerca de 133 nessas condicoes, conta 10/0,075) votaram estrategicamente. O modelo multivariado citado estima o efeito do sinal de coalizao, nao o da pesquisa; o N total e o numero de condicoes de pesquisa nao sao relatados neste texto (remete a Meffert e Gschwend, forthcoming, EJPR)."
+  }
+ ]
+}

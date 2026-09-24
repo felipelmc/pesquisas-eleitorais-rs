@@ -1,0 +1,60 @@
+{
+ "chave": "Morton2015a",
+ "modelo_extrator": "claude-opus-5-5",
+ "construtos": [
+  "mobilizacao",
+  "apoio_ao_lider"
+ ],
+ "criterio_modelo_principal": {
+  "mobilizacao": "usado_na_interpretacao",
+  "apoio_ao_lider": "regra_do_protocolo"
+ },
+ "localizacao_modelo_principal": {
+  "mobilizacao": "Tabela 3, col. 1 (DiD não paramétrico, 2002 x 2007, OST do leste como controle, sem dummy de turno, EP por block bootstrap; p. 21; folha 23)",
+  "apoio_ao_lider": "Tabela 8, coluna Full Sample, diferença δ entre inclinações pré e pós-2005, equação (2) (p. 32; folha 34)"
+ },
+ "efeitos": [
+  {
+   "outcome": "turnout (comparecimento por departamento, eleições presidenciais, 1º e 2º turnos de 2002 e 2007)",
+   "construto_outcome": "mobilizacao",
+   "modelo": "Tabela 3, col. 1: diferença-em-diferenças (eq. 1) com só 2002 e 2007 e só os OST do leste como controle; sem dummy de turno; sem ponderação; EP por block bootstrap por departamento; N = 36 (p. 21; folha 23)",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "antes_depois_proibicao",
+   "desenho": "experimento natural, diferença-em-diferenças (reforma de 2005 que antecipou o voto dos OST do oeste para antes da divulgação da boca de urna do continente)",
+   "estimando": "ATE",
+   "tipo_estatistica": "beta",
+   "beta": 0.11,
+   "se": 0.04,
+   "p": "<0.01 (***)",
+   "n_total": 36,
+   "efeito_pp": 11,
+   "se_pp": 4,
+   "cluster": "",
+   "evidencia": "This ﬁnding implies that knowing precise exit poll information decreases turnout by about 11 percentage points.",
+   "pagina": 23,
+   "origem_valor": "impresso",
+   "nota": "Sinal como impresso: +0,11 é o efeito da reforma (NÃO conhecer a boca de urna) sobre o comparecimento; o efeito da exposição é -0,11 (os autores: exposição 'decreases turnout by about 11 percentage points'); se_pp = 0,04 x 100 (derivado). Ambiguidade do modelo principal: a conclusão fala em 'about 12 percentage points in our preferred specification', mas nenhuma coluna do corpo dá 0,12 (só a Tabela 12, col. 6, do apêndice, sem o 1º turno de 2002); os 11 p.p. do resumo aparecem na Tab. 3 (cols. 1-4), Tab. 4 col. 6 (0,11; EP 0,02; N = 1260) e Tab. 5 col. 1 (0,11; EP 0,02; tendências lineares por departamento; N = 1260), e escolhi a Tab. 3 col. 1 porque a frase do resumo repete a do texto dessa tabela e ela é a primeira da tabela principal. Estimando: pelo codebook seria ATT (DiD), que não está no vocabulário deste prompt. Médias brutas (nota 30): leste 55% (2002) e 64% (2007); oeste 46% (2002) e 65% (2007). Tratamento atribuído a 5 departamentos (9 clusters no total); o EP já é block bootstrap por departamento, por isso cluster fica vazio."
+  },
+  {
+   "outcome": "∆s,t: diferença normalizada de votos entre o candidato à frente no continente e o segundo colocado, medida nos OST do oeste",
+   "construto_outcome": "apoio_ao_lider",
+   "modelo": "Tabela 8, coluna Full Sample: MQO da eq. (2), ∆_st = α + β∆_mainland,t + γ1[t>2005] + δ∆_mainland,t·1[t>2005]; δ = diferença entre as inclinações pós e pré-2005; sem outros controles; N = 60 (5 OST do oeste x 12 turnos) (p. 32; folha 34)",
+   "subgrupo": "",
+   "alvo_efeito": "lider",
+   "comparador_tipo": "antes_depois_proibicao",
+   "desenho": "experimento natural, comparação antes e depois da reforma de 2005 nas inclinações (só unidades tratadas no lado esquerdo)",
+   "estimando": "associacao",
+   "tipo_estatistica": "beta",
+   "beta": -5.22,
+   "se": 2.04,
+   "p": "<0.10 (*) com EP clusterizado",
+   "n_total": 60,
+   "cluster": "",
+   "evidencia": "The diﬀerence δ between both coeﬃcients is therefore negative (−5.22) and statistically signiﬁcant at the 10% level using ordinary clustered, and bootstrapped standard error estimates (middle of Table 8) in the t-test.",
+   "pagina": 33,
+   "origem_valor": "impresso",
+   "nota": "δ impresso = -5,22 (pós menos pré); δ negativo = bandwagon, pois a exposição existia ANTES da reforma; o efeito na direção da exposição é +5,22 em unidades de inclinação (não p.p.). Inclinações: pré 1,18 (EP 0,29), pós -4,04 (EP 2,89); o texto (folha 33) diz 1,17 e -4,05. A Tabela 8 dá quatro EPs para δ: MQO 2,91 (*), clusterizado por departamento 2,04 (*), bootstrap 1,23 (***), block bootstrap por departamento 1,73 (***); registrei o clusterizado (só 5 clusters). Excluding Outliers (N = 50): δ = -11,49, EPs 5,62/3,78/5,76/3,31, tratado como robustez. Estimando 'associacao' porque não há grupo controle no desfecho (antes e depois nas unidades tratadas); os autores dizem que não conseguem separar troca de voto de efeito via comparecimento."
+  }
+ ]
+}

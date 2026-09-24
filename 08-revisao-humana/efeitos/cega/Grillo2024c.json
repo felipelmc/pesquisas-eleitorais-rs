@@ -1,0 +1,60 @@
+{
+ "chave": "Grillo2024c",
+ "modelo_extrator": "claude-opus-5-5",
+ "construtos": [
+  "mobilizacao"
+ ],
+ "criterio_modelo_principal": {
+  "mobilizacao": "declarado_pelos_autores"
+ },
+ "localizacao_modelo_principal": {
+  "mobilizacao": "Tabela 1, col. (1), linhas '17h X 2nd Round' e 'Closure X 2nd Round' (p. 11; folha 13); especificação declarada como 'baseline estimation' na eq. (1), p. 5, folha 7"
+ },
+ "evidencia_criterio": "Standard errors are clustered at the department level and departments are weighted by the number of registered voters. The coeﬃcient of interest is β3.",
+ "nota_geral": "Working paper AMSE WP 2022-07 (mar. 2022). Os autores chamam a eq. (1) de 'Our baseline estimation' (ponderada, EP agrupado por departamento), o que corresponde à col. (1) da Tabela 1; cols. 2-4 são robustez (sem peso, clima, sem chuva) e a Tabela 2 (tripla diferença vs 2012/2007) é validação. O intervalo 3.1-4.1 p.p. do resumo e da conclusão cobre as quatro colunas da Tabela 1. apoio_ao_lider não é estimado: não há modelo de votação nos candidatos; o 'small underdog effect' (~1 p.p. na margem) do resumo é inferido de heterogeneidade do comparecimento (Tabela 4, col. 1, 'Closure X 2nd Round X Macron first' = -1.134, p = 0.099; col. 3 'Left Top 50%' a 17h = -1.121, p = 0.113), sem número de efeito sobre o voto no líder.",
+ "efeitos": [
+  {
+   "outcome": "Voter turnout at 17h (2017 presidential, 2nd round vs 1st round)",
+   "construto_outcome": "mobilizacao",
+   "modelo": "Tabela 1, col. (1): eq. (1) turnout_{t,r,d} = b1 time + b2 round + b3 time x round; diferenças em diferenças (12h como pré; 17h e fechamento como pós; 1º turno como controle), 96 departamentos metropolitanos, 576 obs., ponderado por eleitores inscritos, sem controles de clima, EP agrupado por departamento (p. 11; folha 13)",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "unidades_nao_expostas",
+   "desenho": "experimento natural observacional: diferenças em diferenças com dados agregados de comparecimento por departamento (2º turno de 2017 exposto à divulgação antecipada de boca de urna por mídia estrangeira; 1º turno como controle)",
+   "estimando": "ATT",
+   "tipo_estatistica": "beta",
+   "n_total": 576,
+   "cluster": "",
+   "pagina": 13,
+   "origem_valor": "impresso",
+   "beta": -3.821,
+   "p": "0.000",
+   "efeito_pp": -3.821,
+   "p0": 69.44,
+   "evidencia": "17h X 2nd Round -3.821∗∗∗ -3.368∗∗∗ -3.747∗∗∗ -4.137∗∗∗",
+   "nota": "Coeficiente '17h X 2nd Round' em pontos percentuais; só p-valor impresso (0.000), EP não relatado; 576 obs. = 96 departamentos x 2 turnos x 3 horários. p0 derivado: comparecimento às 17h no 1º turno = constante 28.55 + 40.89 = 69.44% (Tabela 1, col. 1). Estimando: codebook (regra 3, DiD sem atribuição aleatória) dá ATT, fora da lista curta do prompt; alternativa seria 'associacao'. Comparador: mesmo departamento no 1º turno (em que a boca de urna saiu mais tarde e com cautela), não ausência total de pesquisa."
+  },
+  {
+   "outcome": "Voter turnout at closure, 19:00 or 20:00 (2017 presidential, 2nd round vs 1st round)",
+   "construto_outcome": "mobilizacao",
+   "modelo": "Tabela 1, col. (1): eq. (1) turnout_{t,r,d} = b1 time + b2 round + b3 time x round; diferenças em diferenças (12h como pré; 17h e fechamento como pós; 1º turno como controle), 96 departamentos metropolitanos, 576 obs., ponderado por eleitores inscritos, sem controles de clima, EP agrupado por departamento (p. 11; folha 13)",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "unidades_nao_expostas",
+   "desenho": "experimento natural observacional: diferenças em diferenças com dados agregados de comparecimento por departamento (2º turno de 2017 exposto à divulgação antecipada de boca de urna por mídia estrangeira; 1º turno como controle)",
+   "estimando": "ATT",
+   "tipo_estatistica": "beta",
+   "n_total": 576,
+   "cluster": "",
+   "pagina": 13,
+   "origem_valor": "impresso",
+   "beta": -3.44,
+   "p": "0.000",
+   "efeito_pp": -3.44,
+   "p0": 80.02,
+   "sdy": 2.648,
+   "evidencia": "Closure X 2nd Round -3.440∗∗∗ -3.071∗∗∗ -3.618∗∗∗ -3.741∗∗∗",
+   "nota": "Coeficiente 'Closure X 2nd Round' em p.p. (comparecimento final, desfecho mais próximo da eleição); só p-valor impresso (0.000), EP não relatado. p0 derivado: 28.55 + 51.47 = 80.02% (Tabela 1, col. 1). sdy = DP entre departamentos do comparecimento final no 1º turno, não ponderado, Tabela 5 do apêndice (folha 17). Robustez na mesma tabela: col. 2 -3.071, col. 3 -3.618, col. 4 -3.741; tripla diferença na Tabela 2: -1.659 (vs 2012) e -0.349 (vs 2007)."
+  }
+ ]
+}

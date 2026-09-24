@@ -1,0 +1,41 @@
+chave,situacao,n_orig_principais,n_cega,construtos_orig,construtos_cega,criterio_cega,n_divergentes
+Agranov2017a,comparado,2,10,"apoio_ao_lider,mobilizacao","apoio_ao_lider,mobilizacao","{""mobilizacao"": ""regra_do_protocolo"", ""apoio_ao_lider"": ""usado_na_interpretacao""}",0
+Alabrese2024a,comparado,2,5,"apoio_ao_lider,mobilizacao","apoio_ao_lider,mobilizacao","{""mobilizacao"": ""declarado_pelos_autores"", ""apoio_ao_lider"": ""regra_do_protocolo ; regra_do_protocolo""}",2
+Araujo2021a,comparado,2,5,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores ; declarado_pelos_autores""}",0
+Boukouras2020a,comparado,3,3,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores ; declarado_pelos_autores ; declarado_pelos_autores""}",3
+Brugarolas2021,comparado,1,1,mobilizacao,mobilizacao,"{""mobilizacao"": ""declarado_pelos_autores""}",1
+Bursztyn2023a,comparado,2,10,"apoio_ao_lider,mobilizacao","apoio_ao_lider,mobilizacao","{""mobilizacao"": ""declarado_pelos_autores"", ""apoio_ao_lider"": ""regra_do_protocolo""}",2
+Chatterjee2019a,comparado,2,8,"apoio_ao_lider,mobilizacao","apoio_ao_lider,mobilizacao","{""apoio_ao_lider"": ""regra_do_protocolo ; regra_do_protocolo"", ""mobilizacao"": ""regra_do_protocolo ; regra_do_protocolo""}",2
+Cornejo2023a,comparado,1,8,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""regra_do_protocolo ; regra_do_protocolo""}",0
+Dahlgaard2016a,comparado,1,4,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores ; declarado_pelos_autores""}",0
+Erlich2023,comparado,1,2,mobilizacao,mobilizacao,"{""mobilizacao"": ""declarado_pelos_autores""}",0
+Farjam2020a,comparado,1,2,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""usado_na_interpretacao""}",0
+Feltovich2022,comparado,2,8,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores""}",2
+Fichnova2015a,comparado,2,6,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""regra_do_protocolo ; regra_do_protocolo""}",2
+Freden2024a,comparado,3,9,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""regra_do_protocolo ; regra_do_protocolo ; regra_do_protocolo""}",3
+Gandhi2019,comparado,2,5,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores ; declarado_pelos_autores""}",2
+Gasperoni2015a,comparado,1,4,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""usado_na_interpretacao""}",1
+Geers2018,comparado,1,4,mobilizacao,"apoio_ao_lider,mobilizacao","{""mobilizacao"": ""declarado_pelos_autores"", ""apoio_ao_lider"": ""declarado_pelos_autores""}",0
+Gerber2020a,comparado,2,7,mobilizacao,"apoio_ao_lider,mobilizacao","{""mobilizacao"": ""usado_na_interpretacao ; regra_do_protocolo ; declarado_pelos_autores"", ""apoio_ao_lider"": ""regra_do_protocolo""}",2
+Grillo2024c,comparado,1,2,mobilizacao,mobilizacao,"{""mobilizacao"": ""declarado_pelos_autores""}",1
+Groer2010a,comparado,2,2,mobilizacao,mobilizacao,"{""mobilizacao"": ""usado_na_interpretacao ; usado_na_interpretacao""}",0
+Kaplan2019a,comparado,1,3,mobilizacao,mobilizacao,"{""mobilizacao"": ""usado_na_interpretacao""}",1
+Klor2017a,comparado,2,9,"apoio_ao_lider,mobilizacao","apoio_ao_lider,mobilizacao","{""mobilizacao"": ""declarado_pelos_autores"", ""apoio_ao_lider"": ""regra_do_protocolo""}",2
+Lago2015,comparado,1,2,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""regra_do_protocolo""}",1
+Lammers2022a,comparado,2,5,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores ; declarado_pelos_autores ; declarado_pelos_autores""}",2
+Meer2015a,comparado,1,5,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""usado_na_interpretacao""}",1
+Meffert2011,comparado,1,4,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""regra_do_protocolo ; regra_do_protocolo""}",1
+Meffert2012a,comparado,0,3,,apoio_ao_lider,"{""apoio_ao_lider"": ""regra_do_protocolo ; regra_do_protocolo ; regra_do_protocolo""}",0
+Morton2015a,comparado,2,2,"apoio_ao_lider,mobilizacao","apoio_ao_lider,mobilizacao","{""mobilizacao"": ""usado_na_interpretacao"", ""apoio_ao_lider"": ""regra_do_protocolo""}",2
+Schlegel2023,comparado,2,8,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""usado_na_interpretacao ; usado_na_interpretacao""}",2
+Stolwijk2016a,comparado,1,1,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores""}",1
+Stolwijk2019b,comparado,1,1,mobilizacao,mobilizacao,"{""mobilizacao"": ""declarado_pelos_autores""}",1
+Tal2015a,comparado,2,2,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores""}",0
+Timotei2013a,comparado,1,2,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""usado_na_interpretacao""}",0
+Tyszler2013,comparado,0,4,,apoio_ao_lider,"{""apoio_ao_lider"": ""regra_do_protocolo""}",0
+Tyszler2015,comparado,1,4,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""usado_na_interpretacao ; usado_na_interpretacao""}",0
+Unkelbach2022a,comparado,1,6,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""declarado_pelos_autores""}",1
+Urminsky2019,comparado,1,4,mobilizacao,mobilizacao,"{""mobilizacao"": ""usado_na_interpretacao ; usado_na_interpretacao ; usado_na_interpretacao ; usado_na_interpretacao""}",1
+Westwood2020a,comparado,1,2,mobilizacao,mobilizacao,"{""mobilizacao"": ""regra_do_protocolo""}",1
+Witsman2016a,comparado,1,2,apoio_ao_lider,apoio_ao_lider,"{""apoio_ao_lider"": ""usado_na_interpretacao""}",1
+Yang2023d,comparado,0,5,,mobilizacao,"{""mobilizacao"": ""declarado_pelos_autores""}",0

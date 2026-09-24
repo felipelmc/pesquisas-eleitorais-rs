@@ -1,0 +1,30 @@
+{"chave": "Brugarolas2021", "modelo_extrator": "claude-opus-5-5",
+ "construtos": ["mobilizacao"],
+ "criterio_modelo_principal": {"mobilizacao": "declarado_pelos_autores"},
+ "localizacao_modelo_principal": {"mobilizacao": "Janela [-0.8, 0.8] da RD por randomização local (rdrandinf), diferença de médias sem controles; seleção da janela na seção 3.1 (p. 557; folha 4), Figura 2 (p. 558; folha 5) e resultado no texto da seção 3.2 (p. 559; folha 6)"},
+ "evidencia_criterio": "This is why we select the window [-0.8, 0.8] for our main analysis.",
+ "efeitos": [
+  {
+   "outcome": "turnout intention (proporção que diz que votaria nas eleições nacionais)",
+   "construto_outcome": "mobilizacao",
+   "modelo": "RD com randomização local, janela [-0.8, 0.8] (8 abr 14h05 a 10 abr 12h; 4 intervalos de cada lado; intervalo 12h05-14h de 9 abr removido como donut hole); estimativa por diferença de médias entre entrevistados do CIS Poll 2 depois e antes da divulgação do Poll 1 (rdrandinf), sem controles; IC do mesmo pacote. Seção 3.2, p. 559 (folha 6); Figura 2, p. 558 (folha 5)",
+   "subgrupo": "",
+   "alvo_efeito": "nao_se_aplica",
+   "comparador_tipo": "sem_pesquisa",
+   "desenho": "experimento natural; descontinuidade de regressão com janela local (variável de corte = horário da entrevista); não randomizado",
+   "estimando": "ITT",
+   "tipo_estatistica": "dif_prop",
+   "m1": "", "sd1": "", "n1": "", "m2": "", "sd2": "", "n2": "",
+   "t": "", "df": "", "f": "", "beta": "", "se": "", "sdy": "", "or_": "",
+   "ci_lo": 2.0, "ci_hi": 9.0,
+   "r": "", "p": "", "n_total": "",
+   "p0": 0.85, "p1": 0.90,
+   "efeito_pp": 5.1, "se_pp": "",
+   "cluster": "",
+   "evidencia": "We found that P ol l1’s release increased the turnout intention by 5.1% (CI: [2.0,9.0]).",
+   "pagina": 6,
+   "origem_valor": "impresso",
+   "origem_p0_p1": "lido_de_figura",
+   "nota": "Efeito e IC impressos como '5.1%' e [2.0,9.0]; pela Figura 2 (médias ~0,85 antes e ~0,90 depois, lido_de_figura) trata-se de pontos percentuais, não variação relativa; IC assimétrico (inferência por randomização), sem EP. O n da janela 0.8 não é dado no texto (só 296 na janela 0.2 e 3.047 na 2.6; 4.125 entrevistados depois da divulgação no Poll 2 inteiro). Estimando: os autores dizem que a exposição não foi medida e que a estimativa 'could be treated as an intention to treat (ITT) effect rather than as an ATE' (folha 4); comparador poderia também ser lido como unidades_nao_expostas (entrevistados antes da divulgação). Robustez: 13 janelas no apêndice SI com efeitos de 3,4% a 5,1%."
+  }
+ ]}

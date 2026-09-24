@@ -1,0 +1,60 @@
+{
+ "chave": "Witsman2016a",
+ "modelo_extrator": "claude-opus-5-5",
+ "construtos": [
+  "apoio_ao_lider"
+ ],
+ "criterio_modelo_principal": {
+  "apoio_ao_lider": "usado_na_interpretacao"
+ },
+ "localizacao_modelo_principal": {
+  "apoio_ao_lider": "Cenário 1: qui-quadrado de independência, 5 níveis de % do Independente x votou no Independente (sim/não), Tabela 6 (p. 27; folha 33)"
+ },
+ "efeitos": [
+  {
+   "outcome": "Voted for Independent Candidate (escolha binária: votou no Independente preferido vs. em R ou D)",
+   "construto_outcome": "apoio_ao_lider",
+   "modelo": "Cenário 1, qui-quadrado de independência omnibus 5x2 (níveis 5/15/25/35/45% x votou no Independente), sem controles; Tabela 6, p. 27 impressa, folha 33 do PDF",
+   "subgrupo": "",
+   "alvo_efeito": "terceiro_inviavel",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "survey experiment randomizado online (Qualtrics), entre sujeitos no cenário 1: cada participante recebe ao acaso 1 de 15 versões (5 níveis do Independente x 3 ordens dos candidatos); candidato preferido (Independente) atribuído pela instrução; eleição hipotética de três candidatos ao Senado",
+   "estimando": "ATE",
+   "tipo_estatistica": "outro",
+   "chi2": 22.444,
+   "df": 4,
+   "phi": 0.248,
+   "p": "< .001",
+   "n_total": 366,
+   "cluster": "",
+   "evidencia": "The results were significant [χ2 (4, n=366) = 22.444, p < .001, φ= .248], with frequencies of Independent voting continually increasing in the conditions in which the Independent candidate is carrying larger percentages in the poll",
+   "pagina": 33,
+   "origem_valor": "impresso",
+   "nota": "Teste omnibus de 4 gl, sem direção nem contraste único; o φ impresso (.248) é o V de Cramér, sqrt(22.444/366) = 0,2476. A monotonicidade (mais voto no Independente quanto maior o seu percentual) vem da Tabela 6. Proporções que votaram no Independente (Tabela 6): 5% = 46/84 (54,8%); 15% = 40/71 (56,3%); 25% = 52/76 (68,4%); 35% = 59/77 (76,6%); 45% = 50/58 (86,2%). Com R e D empatados (diferença de 1 p.p.), o Independente é terceiro a 5%, 15% e 25% e fica à frente a 35% e 45%. Critério: o único número do modelo que reaparece na discussão é o 'nearly 55%' do nível 5% (folha 47); o resumo não repete número."
+  },
+  {
+   "outcome": "Voted for Independent Candidate (proporção que votou no Independente preferido)",
+   "construto_outcome": "apoio_ao_lider",
+   "modelo": "Cenário 1, contraste derivado da Tabela 6 entre o nível 5% (Independente mostrado em terceiro, muito atrás: R e D perto de 47,5% cada) e o nível 45% (Independente mostrado à frente, R e D perto de 27,5% cada), sem controles; Tabela 6, p. 27 impressa, folha 33 do PDF",
+   "subgrupo": "",
+   "alvo_efeito": "terceiro_inviavel",
+   "comparador_tipo": "outro_resultado",
+   "desenho": "survey experiment randomizado online (Qualtrics), entre sujeitos no cenário 1: cada participante recebe ao acaso 1 de 15 versões (5 níveis do Independente x 3 ordens dos candidatos); candidato preferido (Independente) atribuído pela instrução; eleição hipotética de três candidatos ao Senado",
+   "estimando": "ATE",
+   "tipo_estatistica": "dif_prop",
+   "p1": 0.5476,
+   "n1": 84,
+   "p0": 0.8621,
+   "n2": 58,
+   "efeito_pp": -31.44,
+   "se_pp": 7.07,
+   "n_total": 142,
+   "cluster": "",
+   "evidencia": "Table 6 Percent in Polls * Voted for Independent Candidate Crosstabulation",
+   "pagina": 33,
+   "origem_valor": "derivado",
+   "nota": "Conta: p1 = 46/84 = 0,5476 (nível 5%, exposição 'terceiro inviável'); p0 = 50/58 = 0,8621 (nível 45%, mesmo candidato mostrado à frente); efeito = (0,5476 - 0,8621) x 100 = -31,44 p.p.; se = sqrt(p1(1-p1)/84 + p0(1-p0)/58) x 100 = 7,07 p.p. Escolhi 45% vs 5% porque é o contraste que a discussão nomeia (folha 43) e não há braço sem pesquisa. Ambiguidade de alvo: lido do lado do nível 45%, o mesmo contraste é +31,44 p.p. com alvo 'lider' e comparador 'mesmo_candidato_atras'; mas o 'atrás' aqui é terceiro lugar numa disputa de três, o que mistura deserção estratégica (viabilidade)."
+  }
+ ],
+ "nota_geral": "Não há mobilização: a resposta é só a escolha entre R, D e Independente, sem opção de abster. Fora do modelo principal: (a) Cenário 2 (folhas 35-36, Tabela 7): Independente a 25%, randomiza-se D 39/R 36 ou R 39/D 36; teste de aderência qui-quadrado (2, n=143) = 6,148, p = .046, w = .113, que usa como esperadas as frequências do braço com R à frente (n desse braço não impresso). D à frente: R 18, D 30, Ind 95 de 143; texto: D recebe 21% com D à frente vs 13,8% com R à frente, R recebe 15% com R à frente vs 12,5% com D à frente (contraste 'mesmo candidato à frente vs. atrás' para o segundo viável, sem n do braço R). (b) Cenário 3 (folhas 37-38, Tabela 8): tendência (queda/igual/alta) com o Independente no mesmo percentual final; qui-quadrado (2, n=384) = 1,676, p = .433; voto no Independente 84/115, 97/135, 105/134; o φ = .248 impresso ali repete o do cenário 1 (sqrt(1,676/384) = 0,066). n = 384 no cenário 3 excede os 377 questionários completos relatados (folha 26)."
+}

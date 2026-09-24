@@ -1,0 +1,99 @@
+{
+ "chave": "Geers2018",
+ "modelo_extrator": "claude-opus-5-5",
+ "construtos": [
+  "mobilizacao",
+  "apoio_ao_lider"
+ ],
+ "criterio_modelo_principal": {
+  "mobilizacao": "declarado_pelos_autores",
+  "apoio_ao_lider": "declarado_pelos_autores"
+ },
+ "localizacao_modelo_principal": {
+  "mobilizacao": "Tabela 2, col. Crystallization (vs abstention), linhas Poll news in newspapers ; Poll news on television (p. 533; folha 13)",
+  "apoio_ao_lider": "Tabela 2, col. Conversion (vs stable), linhas Poll news in newspapers ; Poll news on television (p. 533; folha 13)"
+ },
+ "nota_geral": "Único modelo no corpo do artigo (p. 531, folha 11: 'The effect of issue news and poll news on conversion and crystallization is tested with multinomial logistic regression analyses'); as alternativas (categorias fundidas, logit binário, exposição sem separar meios, interação com interesse) aparecem nas notas 14, 16 e 17 como robustez ou extensão. Critério 'declarado' é fraco: não há frase de 'preferred specification'; na falta, a regra do protocolo leva ao mesmo modelo. Jornais e TV são dois preditores igualmente centrais, por isso duas linhas por construto. Nenhum desfecho mede apoio a uma opção pela posição na pesquisa; o mapeamento de conversão para apoio_ao_lider é só aproximado e provavelmente não elegível para a célula principal. Base: 66% estáveis, 8% cristalizaram, 16% converteram, 10% se abstiveram (p. 528, folha 8).",
+ "efeitos": [
+  {
+   "subgrupo": "",
+   "comparador_tipo": "outro",
+   "desenho": "painel observacional (TNS NIPO, eleição legislativa holandesa de 2012, ondas t-1 e t) vinculado a análise de conteúdo; exposição a poll news medida no indivíduo (não randomizado)",
+   "estimando": "associacao",
+   "tipo_estatistica": "beta",
+   "n_total": 765,
+   "cluster": "",
+   "pagina": 13,
+   "origem_valor": "impresso",
+   "outcome": "crystallization (vs abstention)",
+   "construto_outcome": "mobilizacao",
+   "modelo": "Tabela 2 (p. 533; folha 13): regressão logística multinomial, N = 765; controles: sexo, educação, idade, ideologia, extremidade ideológica, interesse político, exposição a issue news em jornais e na TV e a poll news no outro meio; coeficientes não padronizados, EP entre parênteses; coluna Crystallization (vs abstention), linha Poll news - In newspapers",
+   "alvo_efeito": "nao_se_aplica",
+   "beta": -30.835,
+   "se": 15.597,
+   "p": "<0.05",
+   "evidencia": "decreases the chance of crystallization, and leads undecided voters to abstain from casting a vote. Hence, hypothesis 2a is not supported.",
+   "nota": "Categoria de base é abstenção em t (10% da amostra); cristalização = sem partido/indeciso/abstenção em t-1 e voto num partido em t (8%). Não é comparecimento puro: o log-odds opõe votar tendo estado indeciso a abster-se. Preditor contínuo: média, sobre 6 jornais (ou 9 programas de TV), de frequência de uso (0-4) x proporção de matérias com poll news no veículo; DP do preditor de poll news não relatado. Contraste de dose, sem grupo não exposto."
+  },
+  {
+   "subgrupo": "",
+   "comparador_tipo": "outro",
+   "desenho": "painel observacional (TNS NIPO, eleição legislativa holandesa de 2012, ondas t-1 e t) vinculado a análise de conteúdo; exposição a poll news medida no indivíduo (não randomizado)",
+   "estimando": "associacao",
+   "tipo_estatistica": "beta",
+   "n_total": 765,
+   "cluster": "",
+   "pagina": 13,
+   "origem_valor": "impresso",
+   "outcome": "crystallization (vs abstention)",
+   "construto_outcome": "mobilizacao",
+   "modelo": "Tabela 2 (p. 533; folha 13): regressão logística multinomial, N = 765; controles: sexo, educação, idade, ideologia, extremidade ideológica, interesse político, exposição a issue news em jornais e na TV e a poll news no outro meio; coeficientes não padronizados, EP entre parênteses; coluna Crystallization (vs abstention), linha Poll news - On television",
+   "alvo_efeito": "nao_se_aplica",
+   "beta": -5.675,
+   "se": 4.125,
+   "p": "n.s. (sem asterisco)",
+   "evidencia": "Entries are unstandardized regression coefficients from multinomial logistic regression models. Standard errors are reported in parentheses. N = 765",
+   "nota": "Mesmo modelo e mesma base (abstenção) do efeito anterior; valor só na tabela, não comentado no texto. Preditor contínuo: média, sobre 6 jornais (ou 9 programas de TV), de frequência de uso (0-4) x proporção de matérias com poll news no veículo; DP do preditor de poll news não relatado. Contraste de dose, sem grupo não exposto."
+  },
+  {
+   "subgrupo": "",
+   "comparador_tipo": "outro",
+   "desenho": "painel observacional (TNS NIPO, eleição legislativa holandesa de 2012, ondas t-1 e t) vinculado a análise de conteúdo; exposição a poll news medida no indivíduo (não randomizado)",
+   "estimando": "associacao",
+   "tipo_estatistica": "beta",
+   "n_total": 765,
+   "cluster": "",
+   "pagina": 13,
+   "origem_valor": "impresso",
+   "outcome": "conversion (vs stable)",
+   "construto_outcome": "apoio_ao_lider",
+   "modelo": "Tabela 2 (p. 533; folha 13): regressão logística multinomial, N = 765; controles: sexo, educação, idade, ideologia, extremidade ideológica, interesse político, exposição a issue news em jornais e na TV e a poll news no outro meio; coeficientes não padronizados, EP entre parênteses; coluna Conversion (vs stable), linha Poll news - In newspapers",
+   "alvo_efeito": "nao_se_aplica",
+   "beta": -11.093,
+   "se": 7.014,
+   "p": "n.s. (sem asterisco)",
+   "evidencia": "Entries are unstandardized regression coefficients from multinomial logistic regression models. Standard errors are reported in parentheses. N = 765",
+   "nota": "Conversão = trocar de partido entre t-1 e t (16%) vs manter o mesmo partido (66%). Desfecho sem direção pela posição nas pesquisas: não estima apoio ao líder nem ao azarão; registrado só como o que existe. Preditor contínuo: média, sobre 6 jornais (ou 9 programas de TV), de frequência de uso (0-4) x proporção de matérias com poll news no veículo; DP do preditor de poll news não relatado. Contraste de dose, sem grupo não exposto."
+  },
+  {
+   "subgrupo": "",
+   "comparador_tipo": "outro",
+   "desenho": "painel observacional (TNS NIPO, eleição legislativa holandesa de 2012, ondas t-1 e t) vinculado a análise de conteúdo; exposição a poll news medida no indivíduo (não randomizado)",
+   "estimando": "associacao",
+   "tipo_estatistica": "beta",
+   "n_total": 765,
+   "cluster": "",
+   "pagina": 13,
+   "origem_valor": "impresso",
+   "outcome": "conversion (vs stable)",
+   "construto_outcome": "apoio_ao_lider",
+   "modelo": "Tabela 2 (p. 533; folha 13): regressão logística multinomial, N = 765; controles: sexo, educação, idade, ideologia, extremidade ideológica, interesse político, exposição a issue news em jornais e na TV e a poll news no outro meio; coeficientes não padronizados, EP entre parênteses; coluna Conversion (vs stable), linha Poll news - On television",
+   "alvo_efeito": "nao_se_aplica",
+   "beta": 5.448,
+   "se": 2.124,
+   "p": "<0.05",
+   "evidencia": "Hypothesis 2b stated that exposure to poll news has a positive effect on conversion. Indeed, we find a significant positive effect of exposure to televised poll news on conversion.",
+   "nota": "Mesma ressalva: troca de partido não direcional, sem contraste de apoio a quem a pesquisa mostra à frente ou atrás; os autores deixam bandwagon vs voto estratégico para pesquisa futura. Preditor contínuo: média, sobre 6 jornais (ou 9 programas de TV), de frequência de uso (0-4) x proporção de matérias com poll news no veículo; DP do preditor de poll news não relatado. Contraste de dose, sem grupo não exposto."
+  }
+ ]
+}
