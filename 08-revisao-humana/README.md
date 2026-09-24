@@ -38,7 +38,7 @@ A ordem segue as etapas, porque decisões de busca e de triagem podem mudar o co
 
 - `efeitos/cega/<chave>.json`: re-extração **cega** dos efeitos principais dos 40 estudos, feita por outro agente sem ver a original.
 - `efeitos/comparacao_cega.csv`: original × cega, por efeito principal.
-- `efeitos/arbitragem/<chave>.json`: decisão de um árbitro de IA em 26 estudos com divergência, com trecho e página.
+- `efeitos/arbitragem/<chave>.json`: decisão de um árbitro de IA em 28 estudos com divergência, com trecho e página.
 - `05-decomposicao/correcoes_sessao_2026-09-23.csv`: as 771 correções aplicadas.
 - `efeitos/aplicacao_arbitragem.csv`: o que não foi aplicado, e por quê.
 - **`efeitos/pontos_para_o_revisor.md`**: decisões de julgamento que os árbitros deixaram para você. Entre elas: se Gerber2020a-E12, Feltovich2022-E01/E02 e Schlegel2023 entram no dicionário `FORA`; se Geers2018 volta à contagem; e o alvo de Witsman2016a-E01.
