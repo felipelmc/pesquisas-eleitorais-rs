@@ -20,19 +20,19 @@ Protocolo congelado: v1.0 em 19/09/2026 (G2, evento seq 8) | Registro: não regi
 
 | id | data | versão | seção afetada | tipo | etapa no momento | reexecução exigida |
 |---|---|---|---|---|---|---|
-
-Tipos: A contingência prevista acionada · B emenda antes da triagem · C emenda depois de ver dados ·
-D método planejado não executado · E correção de erro ou incoerência.
-
 | E001 | 2026-09-19 | v1.0 (protocolo não alterado) | seção 3, estratégia B01 | A | antes da busca definitiva | nenhuma |
 | E002 | 2026-09-19 | v1.0 (protocolo não alterado) | seção 3, estratégia B01 → B05 | A | após a busca, antes da triagem | re-deduplicação e recall |
 | Emenda 1 | 2026-09-20 | protocolo.md v2 | critério C2 | C | elegibilidade, ciclo 2 | não (afeta só Araujo2021/2021a) |
 | Emenda 2 | 2026-09-20 | codebook_v0_efetividade.csv v2 | b2_estimando, b2_modelo_principal, b2_criterio_modelo_principal | C | piloto de extração (G6) | não (piloto não repetido; recodificação nos 3 textos do piloto na rodada completa) |
-| Emenda 3 | 2026-09-23 | codebook_v0_rob2/robins_i/epoc.csv (novos) | seção 7, codebooks de risco de viés | E | extração e RoB (G7), antes de qualquer avaliação | não |
+| Emenda 3 | 2026-09-23 | codebook_v0_rob2/robins_i/epoc.csv (novos) | seções 7 e 10: codebooks de risco de viés e modelo do árbitro | E | extração e RoB (G7), antes de qualquer avaliação | não |
 | Emenda 4 | 2026-09-23 | v1.0 (protocolo não alterado) | seções 6 a 8: convenções de RoB geral EPOC, *momentum*, ICC imputado, consenso de RoB | C | depois da extração, antes de qualquer análise de efeito | não (4d substituída pela Emenda 6a) |
 | Emenda 5 | 2026-09-23 | v1.0 (protocolo não alterado) | seção 8, síntese | C | depois da primeira síntese (G8) | SWiM, meta exploratória e GRADE refeitos |
 | Emenda 6 | 2026-09-23 | v1.0 (protocolo não alterado) | seções 5 e 10: atribuição de decisões e registros sem resumo | E e C | depois do G9 | triagem complementar de 336 registros; texto completo dos que seguirem; síntese e relato refeitos |
-| Emenda 7 | 2026-09-30 | v1.0 (protocolo não alterado) | seções 5, 6, 7, 10 e 11: conferência do autor, etapas sem validação humana, rótulo e marcação dos produtos | C e D | depois do G9, na versão de entrega | não (nenhum dado de efeito, decisão em vigor ou contagem do PRISMA muda; relato reescrito) |
+| Emenda 7 | 2026-09-30 | v1.0 (protocolo não alterado) | seções 3, 5, 6, 7, 8, 10 e 11: conferência do autor, etapas sem validação humana, rótulo e marcação dos produtos | C e D | depois do G9, na versão de entrega | não (nenhum dado de efeito, decisão em vigor ou contagem do PRISMA muda; relato reescrito) |
+| Emenda 8 | 2026-09-30 | v1.0 (protocolo não alterado) | seção 5 [11a]: deduplicação aplicada depois da triagem e regra das decisões de registros absorvidos | C e E | depois do G9, na versão de entrega | filtro formal, consolidação da triagem, PRISMA e relato (contagens do fluxo); incluídos, efeitos e síntese inalterados |
+
+Tipos: A contingência prevista acionada · B emenda antes da triagem · C emenda depois de ver dados ·
+D método planejado não executado · E correção de erro ou incoerência.
 
 ## E001
 
@@ -155,7 +155,7 @@ O `rs_log.jsonl` e o `dados/decisoes.jsonl` só aceitam acréscimo. Por isso as 
 4. No texto completo, os registros que seguiram passam pelo fluxo usual: busca do PDF só em fontes legítimas, ficha de elegibilidade por subagente e `textos elegibilidade consolidar`. Os que não forem obtidos ficam como "não recuperados", nunca como excluídos.
 5. As decisões entram no ledger por `triagem override --por ia_coordenador_emenda6`, porque é o único caminho do `rs.py` para substituir as linhas antigas. O comando grava `tipo_ator = humano` fixo. Por isso o papel (`ia_coordenador_emenda6`) e o motivo de cada linha dizem que a decisão é da IA, e esta emenda documenta a limitação. Nenhuma dessas linhas conta como validação humana no relato.
 
-**Efeito.** Pode mudar o conjunto de incluídos. Se mudar, extração, RoB, síntese, GRADE e relato são refeitos pela cadeia do README. As contagens do PRISMA passam a mostrar as exclusões da etapa 6b à parte.
+**Efeito.** Pode mudar o conjunto de incluídos. Se mudar, extração, RoB, síntese, GRADE e relato são refeitos pela cadeia do README [nota de 30/09/2026: a cadeia está hoje no `REPRODUZIR.md`]. As contagens do PRISMA passam a mostrar as exclusões da etapa 6b à parte.
 
 **Nota de 24/09/2026 (efeito da Emenda 6 e das correções de efeitos de 23/09).** O δ da célula pesquisa_pre_eleitoral × apoio_ao_lider × sem_pesquisa × principal × randomizado, definido pela Emenda 5 (item 7) como 2 p.p. convertidos pela mediana dos p0 da célula, foi recalculado com os efeitos corrigidos: mediana de p0 = 0,73, δ = 0,0573 (antes 0,74 e 0,059). A regra não mudou; mudaram os dados de entrada (`06-analise/_delta_celula.txt`).
 
@@ -171,7 +171,7 @@ Decidida pelo revisor humano em 30/09/2026, depois do G9 e depois de ver os dado
 - Piloto: os 3 estudos foram mantidos, e a Emenda 2 (decidida pelo coordenador de IA, Emenda 6a) passa a ser endossada pelo autor. Fecha P025 e P026.
 - Efeitos: os 560 efeitos foram conferidos na página do PDF e marcados `verificado_humano = sim`. Os pontos de julgamento de `08-revisao-humana/efeitos/pontos_para_o_revisor.md` ficam no estado atual. Fecha P039.
 - Recodificação da extração: nas 259 divergências (`08-revisao-humana/P037_concordancia/arbitragem_humana.csv`), fica o valor original, inclusive nas 28 em que o terceiro leitor de IA sugeriu outro valor. Nenhuma delas é variável que define célula da síntese. Fecha P037.
-- Deduplicação: o autor concorda com as sugestões da IA nos 145 pares (66 fusões, 56 rejeições e 23 ligações). As decisões estão gravadas em `08-revisao-humana/P019_dedup/dedup_revisao_v1.csv`, mas **não foram aplicadas**. Numa simulação em memória feita por um agente revisor de IA, aplicá-las absorveria 58 registros, 44 deles já triados. O `rs prisma` falharia (`triagem_ids_desconhecidos`) e surgiriam 9 pares novos de versão, que o autor não viu. Os incluídos não mudariam. As estimativas para o PRISMA eram duplicatas de 46 e 4 para 91 e 17, registros a triar de 1.573 e 1.054 para 1.533 e 1.050, buscados de 526 para 521 e não recuperados de 342 para 337. A P019 fica aberta.
+- Deduplicação: o autor concorda com as sugestões da IA nos 145 pares (66 fusões, 56 rejeições e 23 ligações). As decisões estão gravadas em `08-revisao-humana/P019_dedup/dedup_revisao_v1.csv`, mas **não foram aplicadas**. Numa simulação em memória feita por um agente revisor de IA, aplicá-las absorveria 58 registros, 44 deles já triados. O `rs prisma` falharia (`triagem_ids_desconhecidos`) e surgiriam 9 pares novos de versão, que o autor não viu. Os incluídos não mudariam. As estimativas para o PRISMA eram duplicatas de 46 e 4 para 91 e 17, registros a triar de 1.573 e 1.054 para 1.533 e 1.050, buscados de 526 para 521 e não recuperados de 342 para 337. A P019 fica aberta. [Nota de 30/09/2026: aplicada no mesmo dia pela Emenda 8.]
 
 **7b. Métodos planejados e não executados (tipo D).**
 
@@ -189,3 +189,21 @@ Na versão de entrega, o autor declara essas etapas como feitas inteiramente por
 - A caixa de ferramentas no formato *O que funciona?* (opcional neste tipo de revisão) sai do artigo de entrega: com a certeza muito baixa e o GRADE não validado, nenhuma célula tem rótulo definido.
 - O material suplementar passa a apêndices do próprio artigo.
 - O repositório continua privado. Um pacote de replicação sem resumos e sem e-mails de terceiros é publicado pelo GitHub Pages (seção 11).
+
+[Nota de 30/09/2026: depois desta emenda, o autor leu e aprovou o artigo final com apêndices, e a P038 (G9) fechou com essa aprovação.]
+
+## Emenda 8 — 30/09/2026 — aplicação da deduplicação e correção da ferramenta (tipos C e E)
+
+Decidida pelo revisor humano em 30/09/2026, depois do G9 e depois de ver os dados, numa revisão geral do projeto feita com o coordenador de IA. O registro é a declaração do autor em chat, transcrita em `08-revisao-humana/P019_dedup/declaracao_autor_2026-09-30_dedup.md`. O protocolo não muda: a seção 5 [11a] já previa a deduplicação auditável; o que muda é o momento, depois da triagem, e a regra para as decisões dos registros absorvidos.
+
+**8a. Correção da ferramenta (tipo E).** O `rs.py dedup` aposentava os ids absorvidos, mas a consolidação da triagem mantinha as decisões deles no arquivo final, e o `rs.py prisma` falhava (`triagem_ids_desconhecidos`). O coordenador de IA corrigiu a skill `revisao-sistematica` (repositório espelho, branch `fix/dedup-ids-absorvidos`): `triagem consolidar` leva a decisão do absorvido ao registro que o absorveu, `textos elegibilidade consolidar` faz o mesmo com fichas e decisões humanas, e o `prisma` diz o que rodar de novo quando ainda há ids absorvidos nos arquivos finais. A regra ficou documentada em `references/03-organizacao-triagem.md`, seção 3, e tem testes de regressão.
+
+**8b. Regra para decisões divergentes (tipo C).** Vale a decisão mais inclusiva: decisão registrada por `triagem override` vence decisão de IA; depois, incluir > incerto > excluir, como na regra liberal da ta_v1. No empate, fica a decisão do registro que absorve; sem decisão nele, herda a do absorvido. A alternativa, descartar a decisão do absorvido, daria 521 relatórios buscados em vez de 522.
+
+**8c. Aplicação.**
+
+- Os 9 pares de versão que a aplicação deixaria como candidatos (a regra automática não liga dois publicados no mesmo estudo) foram ligados pelo autor, como a IA sugeriu: `08-revisao-humana/P019_dedup/dedup_revisao_v2_versoes.csv`.
+- As 145 decisões de `dedup_revisao_v1.csv` foram aplicadas (66 fusões, 56 rejeições e 23 ligações). As fusões absorveram 58 registros, 44 deles já triados. Nos 44, 42 decisões do registro que absorveu foram mantidas e 2 foram substituídas; as 4 divergências são RS1880 → RS1873 (excluir × incerto: incerto), RS1914 → RS1596 (incerto × incluir: incluir), RS2514 → RS1981 (excluir × incerto: incerto) e RS2740 → RS2124 (incerto × excluir: incerto).
+- Nenhum absorvido tinha decisão de texto completo nem estava entre os incluídos. O filtro formal, a consolidação da triagem (`--regra liberal`), o PRISMA e a lista de incluídos foram refeitos.
+
+**Efeito.** Registros únicos: 3.365 (antes 3.423). Duplicados removidos: 91 nas bases e 17 nos outros métodos (antes 46 e 4). Filtro de ano: 143 e 639 (antes 148 e 648). Triados: 1.533 e 1.050 (antes 1.573 e 1.054). Excluídos na triagem: 1.277 e 784 (antes 1.314 e 787). Buscados: 256 e 266, 522 no total (antes 526). Não recuperados: 155 e 183, 338 no total (antes 342). Avaliados no texto completo, excluídos, motivos, incluídos (41 estudos, 55 relatos), efeitos, risco de viés, síntese e certeza não mudaram. A P019 fechou.

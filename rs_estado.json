@@ -833,7 +833,7 @@
       "descricao": "145 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv) [substitui P015]",
       "n": 145,
       "arquivo": "01-busca/dedup_pares.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P020",
@@ -1068,13 +1068,13 @@
   ],
   "contagens_cache": {
     "prisma": {
-      "hash_insumos": "d4aff7871470b931eb98ad9f66c0c287976e257948a46b7ee6bc529a3e884202",
-      "gerado_em": "2026-09-30T17:59:01Z",
+      "hash_insumos": "2daddbca8a04f6b2567cc68b4ba71969b6cc7de68c6ece6110784a5cc5e93298",
+      "gerado_em": "2026-09-30T21:14:59Z",
       "incluidos": {
         "estudos": 41,
         "relatos": 55
       }
     }
   },
-  "ultimo_seq": 861
+  "ultimo_seq": 870
 }

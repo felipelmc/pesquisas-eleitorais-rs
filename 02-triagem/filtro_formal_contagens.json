@@ -4,54 +4,54 @@
   "dicionarios": {
     "assets/dicionarios/metodo_pt_en_es.csv": "6c64aa78ae8d8c955c9f6c7d1dba5778588c73b29d6d09f64cdf898237aada5c"
   },
-  "n_entrada": 3423,
-  "n_saida": 2627,
-  "n_excluidos": 796,
-  "n_etiquetados": 1560,
+  "n_entrada": 3365,
+  "n_saida": 2583,
+  "n_excluidos": 782,
+  "n_etiquetados": 1533,
   "filtros": [
     {
       "filtro": "ano",
       "tipo": "ano",
       "modo": "excluir",
-      "entrada": 3423,
-      "passa": 2624,
+      "entrada": 3365,
+      "passa": 2580,
       "etiqueta": 0,
-      "exclui": 796,
+      "exclui": 782,
       "sem_dado": 3,
-      "saida": 2627
+      "saida": 2583
     },
     {
       "filtro": "tipo",
       "tipo": "tipo",
       "modo": "etiquetar",
-      "entrada": 2627,
-      "passa": 2607,
+      "entrada": 2583,
+      "passa": 2563,
       "etiqueta": 20,
       "exclui": 0,
       "sem_dado": 0,
-      "saida": 2627
+      "saida": 2583
     },
     {
       "filtro": "idioma",
       "tipo": "idioma",
       "modo": "etiquetar",
-      "entrada": 2627,
-      "passa": 2438,
-      "etiqueta": 83,
+      "entrada": 2583,
+      "passa": 2405,
+      "etiqueta": 82,
       "exclui": 0,
-      "sem_dado": 106,
-      "saida": 2627
+      "sem_dado": 96,
+      "saida": 2583
     },
     {
       "filtro": "metodo",
       "tipo": "dicionario",
       "modo": "etiquetar",
-      "entrada": 2627,
-      "passa": 712,
-      "etiqueta": 1528,
+      "entrada": 2583,
+      "passa": 701,
+      "etiqueta": 1501,
       "exclui": 0,
-      "sem_dado": 387,
-      "saida": 2627
+      "sem_dado": 381,
+      "saida": 2583
     }
   ],
   "n_inativos_ignorados": 1211,
@@ -177,9 +177,7 @@
     {
       "ancora": "A17",
       "ids_rs": [
-        "RS1596",
-        "RS1805",
-        "RS1914"
+        "RS1596"
       ],
       "situacao": "etiquetada",
       "filtros": [

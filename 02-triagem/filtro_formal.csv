@@ -16,7 +16,6 @@ RS1225,ano,passa,ano=2019;faixa=2010..
 RS1226,ano,passa,ano=2024;faixa=2010..
 RS1227,ano,passa,ano=2017;faixa=2010..
 RS1228,ano,passa,ano=2022;faixa=2010..
-RS1229,ano,passa,ano=2022;faixa=2010..
 RS1230,ano,passa,ano=2018;faixa=2010..
 RS1231,ano,passa,ano=2012;faixa=2010..
 RS1232,ano,passa,ano=2015;faixa=2010..
@@ -28,7 +27,6 @@ RS1237,ano,passa,ano=2019;faixa=2010..
 RS1238,ano,passa,ano=2023;faixa=2010..
 RS1239,ano,passa,ano=2023;faixa=2010..
 RS1240,ano,passa,ano=2017;faixa=2010..
-RS1241,ano,passa,ano=2017;faixa=2010..
 RS1242,ano,passa,ano=2013;faixa=2010..
 RS1243,ano,passa,ano=2026;faixa=2010..
 RS1244,ano,passa,ano=2012;faixa=2010..
@@ -36,14 +34,12 @@ RS1245,ano,passa,ano=2018;faixa=2010..
 RS1246,ano,passa,ano=2022;faixa=2010..
 RS1247,ano,passa,ano=2023;faixa=2010..
 RS1248,ano,passa,ano=2016;faixa=2010..
-RS1249,ano,passa,ano=2016;faixa=2010..
 RS1250,ano,passa,ano=2026;faixa=2010..
 RS1251,ano,passa,ano=2024;faixa=2010..
 RS1252,ano,passa,ano=2014;faixa=2010..
 RS1253,ano,exclui,ano=2008;faixa=2010..
 RS1254,ano,passa,ano=2014;faixa=2010..
 RS1255,ano,passa,ano=2012;faixa=2010..
-RS1256,ano,passa,ano=2012;faixa=2010..
 RS1257,ano,passa,ano=2017;faixa=2010..
 RS1258,ano,passa,ano=2014;faixa=2010..
 RS1259,ano,passa,ano=2019;faixa=2010..
@@ -52,9 +48,6 @@ RS1261,ano,passa,ano=2022;faixa=2010..
 RS1262,ano,passa,ano=2021;faixa=2010..
 RS1263,ano,passa,ano=2019;faixa=2010..
 RS1264,ano,passa,ano=2026;faixa=2010..
-RS1265,ano,passa,ano=2026;faixa=2010..
-RS1266,ano,passa,ano=2026;faixa=2010..
-RS1267,ano,passa,ano=2026;faixa=2010..
 RS1268,ano,passa,ano=2014;faixa=2010..
 RS1269,ano,passa,ano=2023;faixa=2010..
 RS1270,ano,passa,ano=2018;faixa=2010..
@@ -177,7 +170,6 @@ RS1386,ano,passa,ano=2021;faixa=2010..
 RS1387,ano,passa,ano=2021;faixa=2010..
 RS1388,ano,passa,ano=2024;faixa=2010..
 RS1389,ano,passa,ano=2015;faixa=2010..
-RS1390,ano,passa,ano=2022;faixa=2010..
 RS1391,ano,passa,ano=2024;faixa=2010..
 RS1392,ano,passa,ano=2015;faixa=2010..
 RS1393,ano,passa,ano=2014;faixa=2010..
@@ -243,7 +235,6 @@ RS1452,ano,passa,ano=2024;faixa=2010..
 RS1453,ano,passa,ano=2025;faixa=2010..
 RS1454,ano,passa,ano=2018;faixa=2010..
 RS1455,ano,passa,ano=2015;faixa=2010..
-RS1456,ano,passa,ano=2015;faixa=2010..
 RS1457,ano,passa,ano=2015;faixa=2010..
 RS1458,ano,exclui,ano=2006;faixa=2010..
 RS1459,ano,exclui,ano=1996;faixa=2010..
@@ -435,7 +426,6 @@ RS1644,ano,passa,ano=2016;faixa=2010..
 RS1645,ano,passa,ano=2023;faixa=2010..
 RS1646,ano,passa,ano=2017;faixa=2010..
 RS1647,ano,passa,ano=2010;faixa=2010..
-RS1648,ano,passa,ano=2014;faixa=2010..
 RS1649,ano,passa,ano=2019;faixa=2010..
 RS1650,ano,passa,ano=2017;faixa=2010..
 RS1651,ano,passa,ano=2023;faixa=2010..
@@ -463,7 +453,6 @@ RS1672,ano,passa,ano=2019;faixa=2010..
 RS1673,ano,passa,ano=2021;faixa=2010..
 RS1674,ano,passa,ano=2017;faixa=2010..
 RS1675,ano,passa,ano=2015;faixa=2010..
-RS1676,ano,passa,ano=2018;faixa=2010..
 RS1677,ano,passa,ano=2016;faixa=2010..
 RS1678,ano,passa,ano=2012;faixa=2010..
 RS1679,ano,passa,ano=2014;faixa=2010..
@@ -592,7 +581,6 @@ RS1801,ano,passa,ano=2016;faixa=2010..
 RS1802,ano,passa,ano=2012;faixa=2010..
 RS1803,ano,passa,ano=2015;faixa=2010..
 RS1804,ano,exclui,ano=2009;faixa=2010..
-RS1805,ano,passa,ano=2024;faixa=2010..
 RS1806,ano,passa,ano=2015;faixa=2010..
 RS1807,ano,passa,ano=2015;faixa=2010..
 RS1808,ano,passa,ano=2021;faixa=2010..
@@ -640,8 +628,6 @@ RS1849,ano,passa,ano=2013;faixa=2010..
 RS1850,ano,passa,ano=2017;faixa=2010..
 RS1851,ano,passa,ano=2026;faixa=2010..
 RS1852,ano,passa,ano=2015;faixa=2010..
-RS1853,ano,passa,ano=2010;faixa=2010..
-RS1854,ano,passa,ano=2010;faixa=2010..
 RS1855,ano,exclui,ano=2008;faixa=2010..
 RS1856,ano,passa,ano=2020;faixa=2010..
 RS1857,ano,passa,ano=2020;faixa=2010..
@@ -667,7 +653,6 @@ RS1876,ano,passa,ano=2013;faixa=2010..
 RS1877,ano,passa,ano=2010;faixa=2010..
 RS1878,ano,exclui,ano=2008;faixa=2010..
 RS1879,ano,passa,ano=2018;faixa=2010..
-RS1880,ano,passa,ano=2026;faixa=2010..
 RS1881,ano,passa,ano=2011;faixa=2010..
 RS1882,ano,passa,ano=2012;faixa=2010..
 RS1883,ano,passa,ano=2011;faixa=2010..
@@ -701,7 +686,6 @@ RS1910,ano,passa,ano=2013;faixa=2010..
 RS1911,ano,passa,ano=2017;faixa=2010..
 RS1912,ano,passa,ano=2012;faixa=2010..
 RS1913,ano,exclui,ano=2009;faixa=2010..
-RS1914,ano,passa,ano=2024;faixa=2010..
 RS1915,ano,passa,ano=2012;faixa=2010..
 RS1916,ano,passa,ano=2021;faixa=2010..
 RS1917,ano,passa,ano=2023;faixa=2010..
@@ -773,7 +757,6 @@ RS1982,ano,passa,ano=2025;faixa=2010..
 RS1983,ano,passa,ano=2020;faixa=2010..
 RS1984,ano,passa,ano=2016;faixa=2010..
 RS1985,ano,passa,ano=2010;faixa=2010..
-RS1986,ano,passa,ano=2014;faixa=2010..
 RS1987,ano,passa,ano=2014;faixa=2010..
 RS1988,ano,passa,ano=2016;faixa=2010..
 RS1989,ano,passa,ano=2022;faixa=2010..
@@ -783,7 +766,6 @@ RS1992,ano,passa,ano=2012;faixa=2010..
 RS1993,ano,passa,ano=2025;faixa=2010..
 RS1994,ano,exclui,ano=2009;faixa=2010..
 RS1995,ano,passa,ano=2011;faixa=2010..
-RS1996,ano,exclui,ano=2009;faixa=2010..
 RS1997,ano,passa,ano=2025;faixa=2010..
 RS1998,ano,passa,ano=2017;faixa=2010..
 RS1999,ano,passa,ano=2015;faixa=2010..
@@ -809,7 +791,6 @@ RS2018,ano,passa,ano=2023;faixa=2010..
 RS2019,ano,passa,ano=2015;faixa=2010..
 RS2020,ano,passa,ano=2025;faixa=2010..
 RS2021,ano,passa,ano=2025;faixa=2010..
-RS2022,ano,passa,ano=2025;faixa=2010..
 RS2023,ano,passa,ano=2022;faixa=2010..
 RS2024,ano,passa,ano=2012;faixa=2010..
 RS2025,ano,passa,ano=2012;faixa=2010..
@@ -834,7 +815,6 @@ RS2043,ano,passa,ano=2022;faixa=2010..
 RS2044,ano,passa,ano=2026;faixa=2010..
 RS2045,ano,passa,ano=2026;faixa=2010..
 RS2046,ano,passa,ano=2015;faixa=2010..
-RS2047,ano,passa,ano=2024;faixa=2010..
 RS2048,ano,passa,ano=2022;faixa=2010..
 RS2049,ano,passa,ano=2020;faixa=2010..
 RS2050,ano,passa,ano=2013;faixa=2010..
@@ -891,7 +871,6 @@ RS2100,ano,passa,ano=2020;faixa=2010..
 RS2101,ano,passa,ano=2021;faixa=2010..
 RS2102,ano,passa,ano=2015;faixa=2010..
 RS2103,ano,exclui,ano=2008;faixa=2010..
-RS2104,ano,exclui,ano=2008;faixa=2010..
 RS2105,ano,passa,ano=2012;faixa=2010..
 RS2106,ano,passa,ano=2026;faixa=2010..
 RS2107,ano,passa,ano=2017;faixa=2010..
@@ -914,14 +893,12 @@ RS2123,ano,passa,ano=2026;faixa=2010..
 RS2124,ano,passa,ano=2024;faixa=2010..
 RS2125,ano,passa,ano=2010;faixa=2010..
 RS2126,ano,passa,ano=2025;faixa=2010..
-RS2127,ano,passa,ano=2026;faixa=2010..
 RS2128,ano,passa,ano=2025;faixa=2010..
 RS2129,ano,passa,ano=2025;faixa=2010..
 RS2130,ano,passa,ano=2019;faixa=2010..
 RS2131,ano,passa,ano=2026;faixa=2010..
 RS2132,ano,passa,ano=2015;faixa=2010..
 RS2133,ano,exclui,ano=2008;faixa=2010..
-RS2134,ano,exclui,ano=2008;faixa=2010..
 RS2135,ano,passa,ano=2025;faixa=2010..
 RS2136,ano,passa,ano=2026;faixa=2010..
 RS2137,ano,passa,ano=2023;faixa=2010..
@@ -930,7 +907,6 @@ RS2139,ano,passa,ano=2025;faixa=2010..
 RS2140,ano,passa,ano=2018;faixa=2010..
 RS2141,ano,passa,ano=2026;faixa=2010..
 RS2142,ano,exclui,ano=2008;faixa=2010..
-RS2143,ano,exclui,ano=2008;faixa=2010..
 RS2144,ano,passa,ano=2015;faixa=2010..
 RS2145,ano,passa,ano=2024;faixa=2010..
 RS2146,ano,passa,ano=2024;faixa=2010..
@@ -1029,7 +1005,6 @@ RS2238,ano,passa,ano=2021;faixa=2010..
 RS2239,ano,passa,ano=2018;faixa=2010..
 RS2240,ano,passa,ano=2017;faixa=2010..
 RS2241,ano,passa,ano=2024;faixa=2010..
-RS2242,ano,passa,ano=2018;faixa=2010..
 RS2243,ano,passa,ano=2011;faixa=2010..
 RS2244,ano,passa,ano=2016;faixa=2010..
 RS2245,ano,passa,ano=2013;faixa=2010..
@@ -1037,7 +1012,6 @@ RS2246,ano,passa,ano=2014;faixa=2010..
 RS2247,ano,passa,ano=2020;faixa=2010..
 RS2248,ano,passa,ano=2013;faixa=2010..
 RS2249,ano,passa,ano=2023;faixa=2010..
-RS2250,ano,passa,ano=2022;faixa=2010..
 RS2251,ano,passa,ano=2012;faixa=2010..
 RS2252,ano,passa,ano=2021;faixa=2010..
 RS2253,ano,passa,ano=2016;faixa=2010..
@@ -1170,7 +1144,6 @@ RS2379,ano,passa,ano=2015;faixa=2010..
 RS2380,ano,passa,ano=2015;faixa=2010..
 RS2381,ano,exclui,ano=2009;faixa=2010..
 RS2382,ano,passa,ano=2020;faixa=2010..
-RS2383,ano,passa,ano=2020;faixa=2010..
 RS2384,ano,passa,ano=2017;faixa=2010..
 RS2385,ano,passa,ano=2013;faixa=2010..
 RS2386,ano,passa,ano=2020;faixa=2010..
@@ -1216,7 +1189,6 @@ RS2425,ano,passa,ano=2017;faixa=2010..
 RS2426,ano,passa,ano=2012;faixa=2010..
 RS2427,ano,passa,ano=2013;faixa=2010..
 RS2428,ano,passa,ano=2013;faixa=2010..
-RS2429,ano,passa,ano=2013;faixa=2010..
 RS2430,ano,passa,ano=2025;faixa=2010..
 RS2431,ano,passa,ano=2024;faixa=2010..
 RS2432,ano,passa,ano=2017;faixa=2010..
@@ -1225,7 +1197,6 @@ RS2434,ano,passa,ano=2026;faixa=2010..
 RS2435,ano,passa,ano=2014;faixa=2010..
 RS2436,ano,passa,ano=2026;faixa=2010..
 RS2437,ano,passa,ano=2025;faixa=2010..
-RS2438,ano,passa,ano=2026;faixa=2010..
 RS2439,ano,passa,ano=2023;faixa=2010..
 RS2440,ano,passa,ano=2020;faixa=2010..
 RS2441,ano,passa,ano=2016;faixa=2010..
@@ -1264,7 +1235,6 @@ RS2473,ano,passa,ano=2022;faixa=2010..
 RS2474,ano,passa,ano=2018;faixa=2010..
 RS2475,ano,exclui,ano=2008;faixa=2010..
 RS2476,ano,passa,ano=2016;faixa=2010..
-RS2477,ano,passa,ano=2026;faixa=2010..
 RS2478,ano,passa,ano=2021;faixa=2010..
 RS2479,ano,passa,ano=2015;faixa=2010..
 RS2480,ano,passa,ano=2011;faixa=2010..
@@ -1301,7 +1271,6 @@ RS2510,ano,passa,ano=2020;faixa=2010..
 RS2511,ano,passa,ano=2018;faixa=2010..
 RS2512,ano,passa,ano=2019;faixa=2010..
 RS2513,ano,passa,ano=2025;faixa=2010..
-RS2514,ano,passa,ano=2013;faixa=2010..
 RS2515,ano,passa,ano=2026;faixa=2010..
 RS2516,ano,passa,ano=2023;faixa=2010..
 RS2517,ano,passa,ano=2014;faixa=2010..
@@ -1313,7 +1282,6 @@ RS2522,ano,passa,ano=2013;faixa=2010..
 RS2523,ano,passa,ano=2023;faixa=2010..
 RS2524,ano,passa,ano=2019;faixa=2010..
 RS2525,ano,passa,ano=2024;faixa=2010..
-RS2526,ano,passa,ano=2011;faixa=2010..
 RS2527,ano,passa,ano=2026;faixa=2010..
 RS2528,ano,passa,ano=2024;faixa=2010..
 RS2529,ano,passa,ano=2015;faixa=2010..
@@ -1427,7 +1395,6 @@ RS2636,ano,passa,ano=2010;faixa=2010..
 RS2637,ano,passa,ano=2018;faixa=2010..
 RS2638,ano,passa,ano=2014;faixa=2010..
 RS2639,ano,passa,ano=2011;faixa=2010..
-RS2640,ano,passa,ano=2017;faixa=2010..
 RS2641,ano,passa,ano=2026;faixa=2010..
 RS2642,ano,passa,ano=2013;faixa=2010..
 RS2643,ano,passa,ano=2016;faixa=2010..
@@ -1448,12 +1415,9 @@ RS2657,ano,passa,ano=2022;faixa=2010..
 RS2658,ano,passa,ano=2024;faixa=2010..
 RS2659,ano,passa,ano=2013;faixa=2010..
 RS2660,ano,passa,ano=2020;faixa=2010..
-RS2661,ano,passa,ano=2011;faixa=2010..
 RS2662,ano,passa,ano=2015;faixa=2010..
-RS2663,ano,passa,ano=2021;faixa=2010..
 RS2664,ano,passa,ano=2022;faixa=2010..
 RS2665,ano,passa,ano=2026;faixa=2010..
-RS2666,ano,passa,ano=2026;faixa=2010..
 RS2667,ano,passa,ano=2017;faixa=2010..
 RS2668,ano,exclui,ano=2009;faixa=2010..
 RS2669,ano,passa,ano=2019;faixa=2010..
@@ -1500,7 +1464,6 @@ RS2709,ano,passa,ano=2018;faixa=2010..
 RS2710,ano,passa,ano=2020;faixa=2010..
 RS2711,ano,passa,ano=2010;faixa=2010..
 RS2712,ano,passa,ano=2026;faixa=2010..
-RS2713,ano,passa,ano=2026;faixa=2010..
 RS2714,ano,passa,ano=2016;faixa=2010..
 RS2715,ano,passa,ano=2023;faixa=2010..
 RS2716,ano,passa,ano=2026;faixa=2010..
@@ -1527,7 +1490,6 @@ RS2736,ano,passa,ano=2019;faixa=2010..
 RS2737,ano,passa,ano=2017;faixa=2010..
 RS2738,ano,passa,ano=2026;faixa=2010..
 RS2739,ano,passa,ano=2023;faixa=2010..
-RS2740,ano,passa,ano=2025;faixa=2010..
 RS2741,ano,passa,ano=2021;faixa=2010..
 RS2742,ano,passa,ano=2012;faixa=2010..
 RS2743,ano,passa,ano=2025;faixa=2010..
@@ -1547,7 +1509,6 @@ RS2756,ano,exclui,ano=2008;faixa=2010..
 RS2757,ano,passa,ano=2017;faixa=2010..
 RS2758,ano,passa,ano=2015;faixa=2010..
 RS2759,ano,passa,ano=2015;faixa=2010..
-RS2760,ano,passa,ano=2026;faixa=2010..
 RS2761,ano,passa,ano=2026;faixa=2010..
 RS2762,ano,passa,ano=2018;faixa=2010..
 RS2763,ano,passa,ano=2026;faixa=2010..
@@ -1580,7 +1541,6 @@ RS2789,ano,passa,ano=2018;faixa=2010..
 RS2790,ano,passa,ano=2021;faixa=2010..
 RS2791,ano,passa,ano=2025;faixa=2010..
 RS2792,ano,passa,ano=2015;faixa=2010..
-RS2793,ano,passa,ano=2021;faixa=2010..
 RS2794,ano,passa,ano=2012;faixa=2010..
 RS2795,ano,passa,ano=2019;faixa=2010..
 RS2796,ano,passa,ano=2016;faixa=2010..
@@ -1596,12 +1556,9 @@ RS2805,ano,exclui,ano=2009;faixa=2010..
 RS2806,ano,passa,ano=2023;faixa=2010..
 RS2807,ano,passa,ano=2013;faixa=2010..
 RS2808,ano,passa,ano=2015;faixa=2010..
-RS2809,ano,exclui,ano=2009;faixa=2010..
 RS2810,ano,passa,ano=2016;faixa=2010..
 RS2811,ano,passa,ano=2013;faixa=2010..
 RS2812,ano,passa,ano=2026;faixa=2010..
-RS2813,ano,passa,ano=2026;faixa=2010..
-RS2814,ano,passa,ano=2026;faixa=2010..
 RS2815,ano,passa,ano=2013;faixa=2010..
 RS2816,ano,passa,ano=2011;faixa=2010..
 RS2817,ano,passa,ano=2015;faixa=2010..
@@ -1617,11 +1574,9 @@ RS2826,ano,passa,ano=2011;faixa=2010..
 RS2827,ano,passa,ano=2012;faixa=2010..
 RS2828,ano,exclui,ano=2009;faixa=2010..
 RS2829,ano,passa,ano=2024;faixa=2010..
-RS2830,ano,passa,ano=2011;faixa=2010..
 RS2831,ano,exclui,ano=2008;faixa=2010..
 RS2832,ano,passa,ano=2018;faixa=2010..
 RS2833,ano,passa,ano=2014;faixa=2010..
-RS2834,ano,passa,ano=2021;faixa=2010..
 RS2835,ano,passa,ano=2026;faixa=2010..
 RS2836,ano,passa,ano=2017;faixa=2010..
 RS2837,ano,passa,ano=2018;faixa=2010..
@@ -1803,7 +1758,6 @@ RS3012,ano,exclui,ano=1999;faixa=2010..
 RS3013,ano,exclui,ano=1980;faixa=2010..
 RS3014,ano,exclui,ano=2000;faixa=2010..
 RS3015,ano,passa,ano=2011;faixa=2010..
-RS3016,ano,exclui,ano=2007;faixa=2010..
 RS3017,ano,exclui,ano=1999;faixa=2010..
 RS3018,ano,exclui,ano=2000;faixa=2010..
 RS3019,ano,passa,ano=2011;faixa=2010..
@@ -2421,7 +2375,6 @@ RS3630,ano,passa,ano=2018;faixa=2010..
 RS3631,ano,passa,ano=2018;faixa=2010..
 RS3632,ano,passa,ano=2018;faixa=2010..
 RS3633,ano,passa,ano=2018;faixa=2010..
-RS3634,ano,exclui,ano=1992;faixa=2010..
 RS3635,ano,passa,ano=2018;faixa=2010..
 RS3636,ano,passa,ano=2010;faixa=2010..
 RS3637,ano,passa,ano=2018;faixa=2010..
@@ -2546,7 +2499,6 @@ RS3755,ano,passa,ano=2016;faixa=2010..
 RS3756,ano,exclui,ano=1996;faixa=2010..
 RS3757,ano,passa,ano=2020;faixa=2010..
 RS3758,ano,exclui,ano=2006;faixa=2010..
-RS3759,ano,passa,ano=2010;faixa=2010..
 RS3760,ano,exclui,ano=2002;faixa=2010..
 RS3761,ano,passa,ano=2010;faixa=2010..
 RS3762,ano,passa,ano=2020;faixa=2010..
@@ -2671,19 +2623,15 @@ RS3880,ano,passa,ano=2021;faixa=2010..
 RS3881,ano,exclui,ano=2007;faixa=2010..
 RS3882,ano,exclui,ano=2006;faixa=2010..
 RS3883,ano,exclui,ano=1998;faixa=2010..
-RS3884,ano,exclui,ano=1994;faixa=2010..
 RS3885,ano,exclui,ano=1971;faixa=2010..
 RS3886,ano,exclui,ano=2000;faixa=2010..
 RS3887,ano,passa,ano=2018;faixa=2010..
-RS3888,ano,exclui,ano=2000;faixa=2010..
-RS3889,ano,exclui,ano=1968;faixa=2010..
 RS3890,ano,exclui,ano=2004;faixa=2010..
 RS3891,ano,passa,ano=2014;faixa=2010..
 RS3892,ano,passa,ano=2019;faixa=2010..
 RS3893,ano,passa,ano=2020;faixa=2010..
 RS3894,ano,exclui,ano=1980;faixa=2010..
 RS3895,ano,passa,ano=2011;faixa=2010..
-RS3896,ano,exclui,ano=2006;faixa=2010..
 RS3897,ano,passa,ano=2014;faixa=2010..
 RS3898,ano,exclui,ano=2006;faixa=2010..
 RS3899,ano,passa,ano=2016;faixa=2010..
@@ -2694,7 +2642,6 @@ RS3903,ano,passa,ano=2018;faixa=2010..
 RS3904,ano,exclui,ano=1972;faixa=2010..
 RS3905,ano,passa,ano=2014;faixa=2010..
 RS3906,ano,passa,ano=2018;faixa=2010..
-RS3907,ano,exclui,ano=1989;faixa=2010..
 RS3908,ano,passa,ano=2019;faixa=2010..
 RS3909,ano,passa,ano=2018;faixa=2010..
 RS3910,ano,passa,ano=2021;faixa=2010..
@@ -2779,7 +2726,6 @@ RS3988,ano,passa,ano=2023;faixa=2010..
 RS3989,ano,passa,ano=2022;faixa=2010..
 RS3990,ano,passa,ano=2023;faixa=2010..
 RS3991,ano,passa,ano=2023;faixa=2010..
-RS3992,ano,passa,ano=2023;faixa=2010..
 RS3993,ano,passa,ano=2023;faixa=2010..
 RS3994,ano,passa,ano=2023;faixa=2010..
 RS3995,ano,passa,ano=2023;faixa=2010..
@@ -2817,7 +2763,6 @@ RS4026,ano,passa,ano=2024;faixa=2010..
 RS4027,ano,passa,ano=2024;faixa=2010..
 RS4028,ano,passa,ano=2024;faixa=2010..
 RS4029,ano,passa,ano=2024;faixa=2010..
-RS4030,ano,passa,ano=2024;faixa=2010..
 RS4031,ano,passa,ano=2024;faixa=2010..
 RS4032,ano,passa,ano=2024;faixa=2010..
 RS4033,ano,passa,ano=2024;faixa=2010..
@@ -2921,7 +2866,6 @@ RS4130,ano,passa,ano=2015;faixa=2010..
 RS4131,ano,passa,ano=2012;faixa=2010..
 RS4132,ano,exclui,ano=1994;faixa=2010..
 RS4133,ano,passa,ano=2015;faixa=2010..
-RS4134,ano,passa,ano=2010;faixa=2010..
 RS4135,ano,exclui,ano=1995;faixa=2010..
 RS4136,ano,passa,ano=2010;faixa=2010..
 RS4137,ano,passa,ano=2011;faixa=2010..
@@ -3205,7 +3149,6 @@ RS4414,ano,passa,ano=2022;faixa=2010..
 RS4415,ano,passa,ano=2022;faixa=2010..
 RS4416,ano,passa,ano=2022;faixa=2010..
 RS4417,ano,passa,ano=2022;faixa=2010..
-RS4418,ano,exclui,ano=1994;faixa=2010..
 RS4419,ano,passa,ano=2019;faixa=2010..
 RS4420,ano,exclui,ano=2006;faixa=2010..
 RS4421,ano,passa,ano=2021;faixa=2010..
@@ -3413,7 +3356,6 @@ RS4622,ano,passa,ano=2020;faixa=2010..
 RS4623,ano,exclui,ano=2002;faixa=2010..
 RS4624,ano,exclui,ano=2009;faixa=2010..
 RS4625,ano,passa,ano=2013;faixa=2010..
-RS4626,ano,exclui,ano=1982;faixa=2010..
 RS4627,ano,passa,ano=2022;faixa=2010..
 RS4628,ano,exclui,ano=1999;faixa=2010..
 RS4629,ano,passa,ano=2023;faixa=2010..
@@ -3439,7 +3381,6 @@ RS1225,tipo,passa,tipo=artigo
 RS1226,tipo,passa,tipo=outro
 RS1227,tipo,passa,tipo=tese
 RS1228,tipo,passa,tipo=outro
-RS1229,tipo,passa,tipo=outro
 RS1230,tipo,passa,tipo=artigo
 RS1231,tipo,passa,tipo=tese
 RS1232,tipo,passa,tipo=artigo
@@ -3451,7 +3392,6 @@ RS1237,tipo,passa,tipo=artigo
 RS1238,tipo,passa,tipo=artigo
 RS1239,tipo,passa,tipo=evento
 RS1240,tipo,passa,tipo=artigo
-RS1241,tipo,passa,tipo=artigo
 RS1242,tipo,passa,tipo=artigo
 RS1243,tipo,passa,tipo=preprint
 RS1244,tipo,passa,tipo=artigo
@@ -3459,13 +3399,11 @@ RS1245,tipo,passa,tipo=artigo
 RS1246,tipo,passa,tipo=evento
 RS1247,tipo,passa,tipo=artigo
 RS1248,tipo,passa,tipo=artigo
-RS1249,tipo,passa,tipo=artigo
 RS1250,tipo,passa,tipo=preprint
 RS1251,tipo,passa,tipo=livro
 RS1252,tipo,passa,tipo=artigo
 RS1254,tipo,passa,tipo=tese
 RS1255,tipo,passa,tipo=artigo
-RS1256,tipo,passa,tipo=artigo
 RS1257,tipo,passa,tipo=tese
 RS1258,tipo,passa,tipo=tese
 RS1259,tipo,passa,tipo=tese
@@ -3474,9 +3412,6 @@ RS1261,tipo,passa,tipo=tese
 RS1262,tipo,passa,tipo=artigo
 RS1263,tipo,passa,tipo=artigo
 RS1264,tipo,passa,tipo=relatorio
-RS1265,tipo,passa,tipo=relatorio
-RS1266,tipo,passa,tipo=relatorio
-RS1267,tipo,passa,tipo=relatorio
 RS1268,tipo,passa,tipo=artigo
 RS1269,tipo,passa,tipo=evento
 RS1270,tipo,passa,tipo=tese
@@ -3593,7 +3528,6 @@ RS1386,tipo,passa,tipo=artigo
 RS1387,tipo,passa,tipo=artigo
 RS1388,tipo,passa,tipo=artigo
 RS1389,tipo,passa,tipo=tese
-RS1390,tipo,passa,tipo=artigo
 RS1391,tipo,passa,tipo=artigo
 RS1392,tipo,passa,tipo=artigo
 RS1393,tipo,passa,tipo=livro
@@ -3659,7 +3593,6 @@ RS1452,tipo,passa,tipo=livro
 RS1453,tipo,passa,tipo=artigo
 RS1454,tipo,passa,tipo=artigo
 RS1455,tipo,passa,tipo=artigo
-RS1456,tipo,passa,tipo=artigo
 RS1457,tipo,passa,tipo=tese
 RS1461,tipo,passa,tipo=dissertacao
 RS1462,tipo,passa,tipo=tese
@@ -3829,7 +3762,6 @@ RS1644,tipo,passa,tipo=artigo
 RS1645,tipo,passa,tipo=artigo
 RS1646,tipo,passa,tipo=preprint
 RS1647,tipo,passa,tipo=artigo
-RS1648,tipo,passa,tipo=evento
 RS1649,tipo,passa,tipo=capitulo
 RS1650,tipo,passa,tipo=artigo
 RS1651,tipo,passa,tipo=artigo
@@ -3856,7 +3788,6 @@ RS1672,tipo,passa,tipo=outro
 RS1673,tipo,passa,tipo=preprint
 RS1674,tipo,passa,tipo=artigo
 RS1675,tipo,passa,tipo=artigo
-RS1676,tipo,passa,tipo=artigo
 RS1677,tipo,passa,tipo=artigo
 RS1678,tipo,passa,tipo=preprint
 RS1679,tipo,passa,tipo=artigo
@@ -3971,7 +3902,6 @@ RS1800,tipo,passa,tipo=artigo
 RS1801,tipo,passa,tipo=preprint
 RS1802,tipo,passa,tipo=evento
 RS1803,tipo,passa,tipo=artigo
-RS1805,tipo,passa,tipo=artigo
 RS1806,tipo,passa,tipo=artigo
 RS1807,tipo,passa,tipo=artigo
 RS1808,tipo,passa,tipo=artigo
@@ -4013,8 +3943,6 @@ RS1849,tipo,passa,tipo=artigo
 RS1850,tipo,passa,tipo=artigo
 RS1851,tipo,passa,tipo=outro
 RS1852,tipo,passa,tipo=artigo
-RS1853,tipo,passa,tipo=outro
-RS1854,tipo,passa,tipo=outro
 RS1856,tipo,passa,tipo=artigo
 RS1857,tipo,passa,tipo=artigo
 RS1858,tipo,passa,tipo=outro
@@ -4037,7 +3965,6 @@ RS1875,tipo,passa,tipo=artigo
 RS1876,tipo,passa,tipo=artigo
 RS1877,tipo,passa,tipo=preprint
 RS1879,tipo,passa,tipo=capitulo
-RS1880,tipo,passa,tipo=preprint
 RS1881,tipo,passa,tipo=artigo
 RS1882,tipo,passa,tipo=capitulo
 RS1883,tipo,passa,tipo=artigo
@@ -4070,7 +3997,6 @@ RS1909,tipo,passa,tipo=artigo
 RS1910,tipo,passa,tipo=artigo
 RS1911,tipo,passa,tipo=capitulo
 RS1912,tipo,passa,tipo=artigo
-RS1914,tipo,passa,tipo=artigo
 RS1915,tipo,passa,tipo=artigo
 RS1916,tipo,passa,tipo=outro
 RS1917,tipo,passa,tipo=artigo
@@ -4134,7 +4060,6 @@ RS1982,tipo,passa,tipo=evento
 RS1983,tipo,passa,tipo=artigo
 RS1984,tipo,passa,tipo=artigo
 RS1985,tipo,passa,tipo=capitulo
-RS1986,tipo,passa,tipo=artigo
 RS1987,tipo,passa,tipo=artigo
 RS1988,tipo,passa,tipo=artigo
 RS1989,tipo,passa,tipo=artigo
@@ -4166,7 +4091,6 @@ RS2018,tipo,passa,tipo=artigo
 RS2019,tipo,passa,tipo=outro
 RS2020,tipo,passa,tipo=preprint
 RS2021,tipo,passa,tipo=outro
-RS2022,tipo,passa,tipo=outro
 RS2023,tipo,passa,tipo=artigo
 RS2024,tipo,passa,tipo=artigo
 RS2025,tipo,passa,tipo=artigo
@@ -4190,7 +4114,6 @@ RS2043,tipo,passa,tipo=preprint
 RS2044,tipo,passa,tipo=outro
 RS2045,tipo,passa,tipo=outro
 RS2046,tipo,passa,tipo=capitulo
-RS2047,tipo,passa,tipo=artigo
 RS2048,tipo,passa,tipo=revisao
 RS2049,tipo,passa,tipo=outro
 RS2050,tipo,passa,tipo=outro
@@ -4265,7 +4188,6 @@ RS2123,tipo,passa,tipo=outro
 RS2124,tipo,passa,tipo=preprint
 RS2125,tipo,passa,tipo=artigo
 RS2126,tipo,passa,tipo=artigo
-RS2127,tipo,passa,tipo=outro
 RS2128,tipo,passa,tipo=artigo
 RS2129,tipo,passa,tipo=artigo
 RS2130,tipo,passa,tipo=artigo
@@ -4366,7 +4288,6 @@ RS2238,tipo,passa,tipo=preprint
 RS2239,tipo,passa,tipo=relatorio
 RS2240,tipo,passa,tipo=preprint
 RS2241,tipo,passa,tipo=artigo
-RS2242,tipo,passa,tipo=outro
 RS2243,tipo,passa,tipo=artigo
 RS2244,tipo,passa,tipo=artigo
 RS2245,tipo,passa,tipo=evento
@@ -4374,7 +4295,6 @@ RS2246,tipo,passa,tipo=preprint
 RS2247,tipo,passa,tipo=preprint
 RS2248,tipo,passa,tipo=preprint
 RS2249,tipo,passa,tipo=capitulo
-RS2250,tipo,passa,tipo=artigo
 RS2251,tipo,passa,tipo=outro
 RS2252,tipo,etiqueta,tipo=editorial
 RS2253,tipo,passa,tipo=artigo
@@ -4491,7 +4411,6 @@ RS2378,tipo,passa,tipo=livro
 RS2379,tipo,passa,tipo=artigo
 RS2380,tipo,passa,tipo=evento
 RS2382,tipo,passa,tipo=artigo
-RS2383,tipo,passa,tipo=artigo
 RS2384,tipo,passa,tipo=tese
 RS2385,tipo,passa,tipo=preprint
 RS2386,tipo,passa,tipo=artigo
@@ -4535,7 +4454,6 @@ RS2425,tipo,passa,tipo=evento
 RS2426,tipo,passa,tipo=capitulo
 RS2427,tipo,passa,tipo=artigo
 RS2428,tipo,passa,tipo=evento
-RS2429,tipo,passa,tipo=artigo
 RS2430,tipo,passa,tipo=artigo
 RS2431,tipo,passa,tipo=artigo
 RS2432,tipo,passa,tipo=artigo
@@ -4544,7 +4462,6 @@ RS2434,tipo,passa,tipo=artigo
 RS2435,tipo,passa,tipo=artigo
 RS2436,tipo,passa,tipo=preprint
 RS2437,tipo,passa,tipo=artigo
-RS2438,tipo,passa,tipo=preprint
 RS2439,tipo,passa,tipo=artigo
 RS2440,tipo,passa,tipo=capitulo
 RS2441,tipo,etiqueta,tipo=editorial
@@ -4579,7 +4496,6 @@ RS2472,tipo,passa,tipo=evento
 RS2473,tipo,passa,tipo=artigo
 RS2474,tipo,passa,tipo=capitulo
 RS2476,tipo,passa,tipo=artigo
-RS2477,tipo,passa,tipo=evento
 RS2478,tipo,passa,tipo=artigo
 RS2479,tipo,passa,tipo=artigo
 RS2480,tipo,passa,tipo=preprint
@@ -4613,7 +4529,6 @@ RS2510,tipo,passa,tipo=artigo
 RS2511,tipo,passa,tipo=artigo
 RS2512,tipo,passa,tipo=artigo
 RS2513,tipo,passa,tipo=capitulo
-RS2514,tipo,passa,tipo=preprint
 RS2515,tipo,passa,tipo=tese
 RS2516,tipo,passa,tipo=preprint
 RS2517,tipo,passa,tipo=artigo
@@ -4625,7 +4540,6 @@ RS2522,tipo,passa,tipo=artigo
 RS2523,tipo,passa,tipo=preprint
 RS2524,tipo,passa,tipo=artigo
 RS2525,tipo,passa,tipo=tese
-RS2526,tipo,passa,tipo=preprint
 RS2527,tipo,passa,tipo=outro
 RS2528,tipo,passa,tipo=artigo
 RS2529,tipo,passa,tipo=artigo
@@ -4731,7 +4645,6 @@ RS2636,tipo,passa,tipo=capitulo
 RS2637,tipo,passa,tipo=artigo
 RS2638,tipo,passa,tipo=artigo
 RS2639,tipo,passa,tipo=artigo
-RS2640,tipo,passa,tipo=outro
 RS2641,tipo,passa,tipo=artigo
 RS2642,tipo,passa,tipo=outro
 RS2643,tipo,passa,tipo=outro
@@ -4751,12 +4664,9 @@ RS2657,tipo,passa,tipo=outro
 RS2658,tipo,passa,tipo=artigo
 RS2659,tipo,passa,tipo=artigo
 RS2660,tipo,passa,tipo=artigo
-RS2661,tipo,passa,tipo=outro
 RS2662,tipo,passa,tipo=outro
-RS2663,tipo,passa,tipo=outro
 RS2664,tipo,passa,tipo=evento
 RS2665,tipo,passa,tipo=artigo
-RS2666,tipo,passa,tipo=artigo
 RS2667,tipo,passa,tipo=artigo
 RS2669,tipo,passa,tipo=evento
 RS2670,tipo,passa,tipo=artigo
@@ -4801,7 +4711,6 @@ RS2709,tipo,passa,tipo=artigo
 RS2710,tipo,passa,tipo=artigo
 RS2711,tipo,passa,tipo=artigo
 RS2712,tipo,passa,tipo=outro
-RS2713,tipo,passa,tipo=outro
 RS2714,tipo,passa,tipo=artigo
 RS2715,tipo,passa,tipo=outro
 RS2716,tipo,passa,tipo=artigo
@@ -4827,7 +4736,6 @@ RS2736,tipo,passa,tipo=capitulo
 RS2737,tipo,passa,tipo=artigo
 RS2738,tipo,passa,tipo=outro
 RS2739,tipo,passa,tipo=artigo
-RS2740,tipo,passa,tipo=preprint
 RS2741,tipo,passa,tipo=outro
 RS2742,tipo,passa,tipo=capitulo
 RS2743,tipo,passa,tipo=outro
@@ -4845,7 +4753,6 @@ RS2755,tipo,passa,tipo=artigo
 RS2757,tipo,passa,tipo=tese
 RS2758,tipo,passa,tipo=artigo
 RS2759,tipo,passa,tipo=artigo
-RS2760,tipo,passa,tipo=outro
 RS2761,tipo,passa,tipo=artigo
 RS2762,tipo,passa,tipo=artigo
 RS2763,tipo,passa,tipo=tese
@@ -4875,7 +4782,6 @@ RS2789,tipo,passa,tipo=artigo
 RS2790,tipo,passa,tipo=capitulo
 RS2791,tipo,passa,tipo=artigo
 RS2792,tipo,passa,tipo=artigo
-RS2793,tipo,passa,tipo=capitulo
 RS2794,tipo,passa,tipo=capitulo
 RS2795,tipo,passa,tipo=artigo
 RS2796,tipo,passa,tipo=capitulo
@@ -4892,8 +4798,6 @@ RS2808,tipo,passa,tipo=artigo
 RS2810,tipo,passa,tipo=artigo
 RS2811,tipo,passa,tipo=artigo
 RS2812,tipo,passa,tipo=artigo
-RS2813,tipo,passa,tipo=artigo
-RS2814,tipo,passa,tipo=artigo
 RS2815,tipo,passa,tipo=outro
 RS2816,tipo,passa,tipo=artigo
 RS2817,tipo,passa,tipo=tese
@@ -4908,10 +4812,8 @@ RS2825,tipo,passa,tipo=artigo
 RS2826,tipo,passa,tipo=capitulo
 RS2827,tipo,etiqueta,tipo=editorial
 RS2829,tipo,passa,tipo=artigo
-RS2830,tipo,passa,tipo=outro
 RS2832,tipo,passa,tipo=tese
 RS2833,tipo,passa,tipo=tese
-RS2834,tipo,passa,tipo=outro
 RS2835,tipo,passa,tipo=artigo
 RS2836,tipo,passa,tipo=artigo
 RS2837,tipo,passa,tipo=outro
@@ -5409,7 +5311,6 @@ RS3751,tipo,passa,tipo=preprint
 RS3752,tipo,passa,tipo=relatorio
 RS3755,tipo,passa,tipo=preprint
 RS3757,tipo,passa,tipo=artigo
-RS3759,tipo,passa,tipo=artigo
 RS3761,tipo,passa,tipo=artigo
 RS3762,tipo,passa,tipo=preprint
 RS3763,tipo,passa,tipo=preprint
@@ -5602,7 +5503,6 @@ RS3988,tipo,passa,tipo=artigo
 RS3989,tipo,passa,tipo=artigo
 RS3990,tipo,passa,tipo=capitulo
 RS3991,tipo,passa,tipo=artigo
-RS3992,tipo,passa,tipo=capitulo
 RS3993,tipo,passa,tipo=artigo
 RS3994,tipo,passa,tipo=artigo
 RS3995,tipo,passa,tipo=artigo
@@ -5638,7 +5538,6 @@ RS4026,tipo,passa,tipo=artigo
 RS4027,tipo,passa,tipo=relatorio
 RS4028,tipo,passa,tipo=capitulo
 RS4029,tipo,passa,tipo=artigo
-RS4030,tipo,passa,tipo=preprint
 RS4031,tipo,passa,tipo=artigo
 RS4032,tipo,passa,tipo=tese
 RS4033,tipo,passa,tipo=artigo
@@ -5737,7 +5636,6 @@ RS4129,tipo,passa,tipo=capitulo
 RS4130,tipo,passa,tipo=artigo
 RS4131,tipo,passa,tipo=artigo
 RS4133,tipo,passa,tipo=artigo
-RS4134,tipo,passa,tipo=capitulo
 RS4136,tipo,passa,tipo=outro
 RS4137,tipo,passa,tipo=artigo
 RS4138,tipo,passa,tipo=relatorio
@@ -6066,7 +5964,6 @@ RS1225,idioma,passa,idioma=pt
 RS1226,idioma,passa,idioma=pt
 RS1227,idioma,passa,idioma=pt
 RS1228,idioma,passa,idioma=pt
-RS1229,idioma,passa,idioma=pt
 RS1230,idioma,passa,idioma=pt
 RS1231,idioma,passa,idioma=pt
 RS1232,idioma,passa,idioma=pt
@@ -6078,7 +5975,6 @@ RS1237,idioma,passa,idioma=pt
 RS1238,idioma,passa,idioma=pt
 RS1239,idioma,passa,idioma=pt
 RS1240,idioma,passa,idioma=pt
-RS1241,idioma,passa,idioma=pt
 RS1242,idioma,passa,idioma=pt
 RS1243,idioma,sem_dado,idioma_ausente
 RS1244,idioma,passa,idioma=pt
@@ -6086,13 +5982,11 @@ RS1245,idioma,passa,idioma=pt
 RS1246,idioma,passa,idioma=pt
 RS1247,idioma,passa,idioma=pt
 RS1248,idioma,passa,idioma=pt
-RS1249,idioma,passa,idioma=pt
 RS1250,idioma,sem_dado,idioma_ausente
 RS1251,idioma,passa,idioma=pt
 RS1252,idioma,passa,idioma=pt
 RS1254,idioma,passa,idioma=pt
 RS1255,idioma,passa,idioma=pt
-RS1256,idioma,passa,idioma=pt
 RS1257,idioma,passa,idioma=pt
 RS1258,idioma,passa,idioma=pt
 RS1259,idioma,passa,idioma=pt
@@ -6101,9 +5995,6 @@ RS1261,idioma,passa,idioma=pt
 RS1262,idioma,passa,idioma=pt
 RS1263,idioma,passa,idioma=pt
 RS1264,idioma,passa,idioma=pt
-RS1265,idioma,passa,idioma=pt
-RS1266,idioma,passa,idioma=pt
-RS1267,idioma,passa,idioma=pt
 RS1268,idioma,passa,idioma=pt
 RS1269,idioma,passa,idioma=pt
 RS1270,idioma,passa,idioma=pt
@@ -6220,7 +6111,6 @@ RS1386,idioma,passa,idioma=es
 RS1387,idioma,passa,idioma=es
 RS1388,idioma,passa,idioma=en
 RS1389,idioma,passa,idioma=es
-RS1390,idioma,passa,idioma=en
 RS1391,idioma,passa,idioma=es
 RS1392,idioma,passa,idioma=es
 RS1393,idioma,passa,idioma=es
@@ -6286,7 +6176,6 @@ RS1452,idioma,passa,idioma=es
 RS1453,idioma,sem_dado,idioma_ausente
 RS1454,idioma,passa,idioma=es
 RS1455,idioma,passa,idioma=es
-RS1456,idioma,passa,idioma=es
 RS1457,idioma,passa,idioma=es
 RS1461,idioma,passa,idioma=pt
 RS1462,idioma,passa,idioma=pt
@@ -6456,7 +6345,6 @@ RS1644,idioma,passa,idioma=en
 RS1645,idioma,passa,idioma=en
 RS1646,idioma,passa,idioma=en
 RS1647,idioma,passa,idioma=en
-RS1648,idioma,passa,idioma=en
 RS1649,idioma,passa,idioma=en
 RS1650,idioma,passa,idioma=en
 RS1651,idioma,passa,idioma=en
@@ -6483,7 +6371,6 @@ RS1672,idioma,passa,idioma=en
 RS1673,idioma,passa,idioma=en
 RS1674,idioma,passa,idioma=en
 RS1675,idioma,passa,idioma=en
-RS1676,idioma,passa,idioma=en
 RS1677,idioma,passa,idioma=en
 RS1678,idioma,passa,idioma=en
 RS1679,idioma,passa,idioma=en
@@ -6598,7 +6485,6 @@ RS1800,idioma,passa,idioma=en
 RS1801,idioma,passa,idioma=en
 RS1802,idioma,passa,idioma=en
 RS1803,idioma,passa,idioma=en
-RS1805,idioma,etiqueta,idioma=fr
 RS1806,idioma,passa,idioma=en
 RS1807,idioma,passa,idioma=en
 RS1808,idioma,passa,idioma=en
@@ -6640,8 +6526,6 @@ RS1849,idioma,passa,idioma=en
 RS1850,idioma,passa,idioma=en
 RS1851,idioma,sem_dado,idioma_ausente
 RS1852,idioma,passa,idioma=en
-RS1853,idioma,passa,idioma=en
-RS1854,idioma,passa,idioma=en
 RS1856,idioma,passa,idioma=en
 RS1857,idioma,passa,idioma=en
 RS1858,idioma,passa,idioma=en
@@ -6658,13 +6542,12 @@ RS1869,idioma,passa,idioma=en
 RS1870,idioma,passa,idioma=en
 RS1871,idioma,passa,idioma=en
 RS1872,idioma,passa,idioma=en
-RS1873,idioma,sem_dado,idioma_ausente
+RS1873,idioma,passa,idioma=en
 RS1874,idioma,passa,idioma=en
 RS1875,idioma,passa,idioma=en
 RS1876,idioma,passa,idioma=en
 RS1877,idioma,passa,idioma=en
 RS1879,idioma,passa,idioma=en
-RS1880,idioma,passa,idioma=en
 RS1881,idioma,passa,idioma=en
 RS1882,idioma,passa,idioma=en
 RS1883,idioma,passa,idioma=es
@@ -6697,7 +6580,6 @@ RS1909,idioma,passa,idioma=en
 RS1910,idioma,passa,idioma=en
 RS1911,idioma,passa,idioma=en
 RS1912,idioma,passa,idioma=en
-RS1914,idioma,sem_dado,idioma_ausente
 RS1915,idioma,passa,idioma=en
 RS1916,idioma,passa,idioma=en
 RS1917,idioma,passa,idioma=en
@@ -6761,7 +6643,6 @@ RS1982,idioma,passa,idioma=en
 RS1983,idioma,passa,idioma=en
 RS1984,idioma,passa,idioma=en
 RS1985,idioma,passa,idioma=en
-RS1986,idioma,passa,idioma=en
 RS1987,idioma,passa,idioma=es
 RS1988,idioma,passa,idioma=en
 RS1989,idioma,passa,idioma=en
@@ -6793,7 +6674,6 @@ RS2018,idioma,passa,idioma=en
 RS2019,idioma,passa,idioma=en
 RS2020,idioma,passa,idioma=en
 RS2021,idioma,passa,idioma=en
-RS2022,idioma,passa,idioma=en
 RS2023,idioma,passa,idioma=en
 RS2024,idioma,passa,idioma=en
 RS2025,idioma,passa,idioma=en
@@ -6817,7 +6697,6 @@ RS2043,idioma,passa,idioma=en
 RS2044,idioma,sem_dado,idioma_ausente
 RS2045,idioma,sem_dado,idioma_ausente
 RS2046,idioma,passa,idioma=en
-RS2047,idioma,passa,idioma=en
 RS2048,idioma,passa,idioma=en
 RS2049,idioma,passa,idioma=en
 RS2050,idioma,passa,idioma=en
@@ -6892,7 +6771,6 @@ RS2123,idioma,passa,idioma=en
 RS2124,idioma,passa,idioma=en
 RS2125,idioma,passa,idioma=en
 RS2126,idioma,sem_dado,idioma_ausente
-RS2127,idioma,passa,idioma=en
 RS2128,idioma,passa,idioma=en
 RS2129,idioma,passa,idioma=en
 RS2130,idioma,passa,idioma=en
@@ -6993,7 +6871,6 @@ RS2238,idioma,passa,idioma=en
 RS2239,idioma,passa,idioma=en
 RS2240,idioma,passa,idioma=en
 RS2241,idioma,sem_dado,idioma_ausente
-RS2242,idioma,passa,idioma=en
 RS2243,idioma,passa,idioma=en
 RS2244,idioma,etiqueta,idioma=pl
 RS2245,idioma,passa,idioma=en
@@ -7001,7 +6878,6 @@ RS2246,idioma,passa,idioma=en
 RS2247,idioma,passa,idioma=en
 RS2248,idioma,passa,idioma=en
 RS2249,idioma,passa,idioma=en
-RS2250,idioma,passa,idioma=en
 RS2251,idioma,passa,idioma=en
 RS2252,idioma,passa,idioma=en
 RS2253,idioma,passa,idioma=en
@@ -7118,7 +6994,6 @@ RS2378,idioma,passa,idioma=en
 RS2379,idioma,passa,idioma=es
 RS2380,idioma,passa,idioma=en
 RS2382,idioma,passa,idioma=en
-RS2383,idioma,passa,idioma=en
 RS2384,idioma,passa,idioma=en
 RS2385,idioma,passa,idioma=en
 RS2386,idioma,passa,idioma=en
@@ -7162,7 +7037,6 @@ RS2425,idioma,passa,idioma=en
 RS2426,idioma,etiqueta,idioma=cs
 RS2427,idioma,passa,idioma=en
 RS2428,idioma,passa,idioma=en
-RS2429,idioma,passa,idioma=en
 RS2430,idioma,passa,idioma=en
 RS2431,idioma,passa,idioma=en
 RS2432,idioma,passa,idioma=en
@@ -7171,7 +7045,6 @@ RS2434,idioma,sem_dado,idioma_ausente
 RS2435,idioma,passa,idioma=en
 RS2436,idioma,sem_dado,idioma_ausente
 RS2437,idioma,passa,idioma=en
-RS2438,idioma,sem_dado,idioma_ausente
 RS2439,idioma,etiqueta,idioma=pl
 RS2440,idioma,passa,idioma=en
 RS2441,idioma,passa,idioma=es
@@ -7206,7 +7079,6 @@ RS2472,idioma,passa,idioma=en
 RS2473,idioma,passa,idioma=en
 RS2474,idioma,passa,idioma=en
 RS2476,idioma,passa,idioma=en
-RS2477,idioma,sem_dado,idioma_ausente
 RS2478,idioma,passa,idioma=en
 RS2479,idioma,passa,idioma=es
 RS2480,idioma,passa,idioma=en
@@ -7240,7 +7112,6 @@ RS2510,idioma,passa,idioma=en
 RS2511,idioma,passa,idioma=en
 RS2512,idioma,passa,idioma=en
 RS2513,idioma,passa,idioma=en
-RS2514,idioma,passa,idioma=en
 RS2515,idioma,etiqueta,idioma=sv
 RS2516,idioma,passa,idioma=en
 RS2517,idioma,passa,idioma=en
@@ -7252,7 +7123,6 @@ RS2522,idioma,passa,idioma=en
 RS2523,idioma,passa,idioma=en
 RS2524,idioma,passa,idioma=en
 RS2525,idioma,passa,idioma=en
-RS2526,idioma,passa,idioma=en
 RS2527,idioma,sem_dado,idioma_ausente
 RS2528,idioma,passa,idioma=en
 RS2529,idioma,passa,idioma=en
@@ -7358,7 +7228,6 @@ RS2636,idioma,passa,idioma=en
 RS2637,idioma,passa,idioma=es
 RS2638,idioma,passa,idioma=en
 RS2639,idioma,passa,idioma=en
-RS2640,idioma,sem_dado,idioma_ausente
 RS2641,idioma,passa,idioma=en
 RS2642,idioma,passa,idioma=en
 RS2643,idioma,passa,idioma=en
@@ -7378,12 +7247,9 @@ RS2657,idioma,passa,idioma=en
 RS2658,idioma,passa,idioma=en
 RS2659,idioma,passa,idioma=en
 RS2660,idioma,passa,idioma=pt
-RS2661,idioma,passa,idioma=en
 RS2662,idioma,passa,idioma=en
-RS2663,idioma,passa,idioma=en
 RS2664,idioma,passa,idioma=en
 RS2665,idioma,sem_dado,idioma_ausente
-RS2666,idioma,sem_dado,idioma_ausente
 RS2667,idioma,etiqueta,idioma=sv
 RS2669,idioma,passa,idioma=en
 RS2670,idioma,passa,idioma=en
@@ -7428,7 +7294,6 @@ RS2709,idioma,passa,idioma=en
 RS2710,idioma,passa,idioma=en
 RS2711,idioma,passa,idioma=en
 RS2712,idioma,sem_dado,idioma_ausente
-RS2713,idioma,sem_dado,idioma_ausente
 RS2714,idioma,passa,idioma=en
 RS2715,idioma,passa,idioma=en
 RS2716,idioma,sem_dado,idioma_ausente
@@ -7454,7 +7319,6 @@ RS2736,idioma,passa,idioma=en
 RS2737,idioma,passa,idioma=en
 RS2738,idioma,sem_dado,idioma_ausente
 RS2739,idioma,passa,idioma=en
-RS2740,idioma,passa,idioma=en
 RS2741,idioma,passa,idioma=en
 RS2742,idioma,passa,idioma=en
 RS2743,idioma,passa,idioma=en
@@ -7472,7 +7336,6 @@ RS2755,idioma,passa,idioma=en
 RS2757,idioma,etiqueta,idioma=cs
 RS2758,idioma,passa,idioma=en
 RS2759,idioma,passa,idioma=en
-RS2760,idioma,sem_dado,idioma_ausente
 RS2761,idioma,passa,idioma=en
 RS2762,idioma,passa,idioma=en
 RS2763,idioma,etiqueta,idioma=cs
@@ -7502,7 +7365,6 @@ RS2789,idioma,passa,idioma=en
 RS2790,idioma,passa,idioma=en
 RS2791,idioma,passa,idioma=en
 RS2792,idioma,etiqueta,idioma=ru
-RS2793,idioma,passa,idioma=en
 RS2794,idioma,passa,idioma=en
 RS2795,idioma,passa,idioma=en
 RS2796,idioma,passa,idioma=en
@@ -7518,9 +7380,7 @@ RS2807,idioma,passa,idioma=en
 RS2808,idioma,passa,idioma=en
 RS2810,idioma,passa,idioma=en
 RS2811,idioma,passa,idioma=en
-RS2812,idioma,sem_dado,idioma_ausente
-RS2813,idioma,sem_dado,idioma_ausente
-RS2814,idioma,passa,idioma=en
+RS2812,idioma,passa,idioma=en
 RS2815,idioma,passa,idioma=en
 RS2816,idioma,passa,idioma=en
 RS2817,idioma,passa,idioma=en
@@ -7535,10 +7395,8 @@ RS2825,idioma,passa,idioma=en
 RS2826,idioma,passa,idioma=en
 RS2827,idioma,passa,idioma=en
 RS2829,idioma,passa,idioma=en
-RS2830,idioma,passa,idioma=en
 RS2832,idioma,passa,idioma=en
 RS2833,idioma,passa,idioma=en
-RS2834,idioma,passa,idioma=en
 RS2835,idioma,sem_dado,idioma_ausente
 RS2836,idioma,passa,idioma=en
 RS2837,idioma,passa,idioma=en
@@ -8036,7 +7894,6 @@ RS3751,idioma,passa,idioma=en
 RS3752,idioma,passa,idioma=en
 RS3755,idioma,passa,idioma=en
 RS3757,idioma,passa,idioma=en
-RS3759,idioma,passa,idioma=en
 RS3761,idioma,passa,idioma=en
 RS3762,idioma,passa,idioma=en
 RS3763,idioma,passa,idioma=en
@@ -8229,7 +8086,6 @@ RS3988,idioma,passa,idioma=en
 RS3989,idioma,passa,idioma=en
 RS3990,idioma,passa,idioma=en
 RS3991,idioma,passa,idioma=en
-RS3992,idioma,passa,idioma=en
 RS3993,idioma,etiqueta,idioma=tr
 RS3994,idioma,passa,idioma=en
 RS3995,idioma,passa,idioma=en
@@ -8265,7 +8121,6 @@ RS4026,idioma,passa,idioma=en
 RS4027,idioma,passa,idioma=en
 RS4028,idioma,passa,idioma=en
 RS4029,idioma,passa,idioma=en
-RS4030,idioma,passa,idioma=en
 RS4031,idioma,passa,idioma=en
 RS4032,idioma,passa,idioma=en
 RS4033,idioma,etiqueta,idioma=de
@@ -8364,7 +8219,6 @@ RS4129,idioma,passa,idioma=en
 RS4130,idioma,passa,idioma=en
 RS4131,idioma,passa,idioma=en
 RS4133,idioma,passa,idioma=en
-RS4134,idioma,passa,idioma=en
 RS4136,idioma,passa,idioma=en
 RS4137,idioma,passa,idioma=en
 RS4138,idioma,passa,idioma=en
@@ -8693,7 +8547,6 @@ RS1225,metodo,etiqueta,nenhum_termo
 RS1226,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS1227,metodo,etiqueta,nenhum_termo
 RS1228,metodo,etiqueta,nenhum_termo
-RS1229,metodo,etiqueta,nenhum_termo
 RS1230,metodo,etiqueta,nenhum_termo
 RS1231,metodo,etiqueta,nenhum_termo
 RS1232,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
@@ -8705,7 +8558,6 @@ RS1237,metodo,etiqueta,nenhum_termo
 RS1238,metodo,etiqueta,nenhum_termo
 RS1239,metodo,etiqueta,nenhum_termo
 RS1240,metodo,etiqueta,nenhum_termo
-RS1241,metodo,etiqueta,nenhum_termo
 RS1242,metodo,etiqueta,nenhum_termo
 RS1243,metodo,passa,grupos=quantitativo;termos=efeitos fixos
 RS1244,metodo,etiqueta,nenhum_termo
@@ -8713,13 +8565,11 @@ RS1245,metodo,etiqueta,nenhum_termo
 RS1246,metodo,etiqueta,nenhum_termo
 RS1247,metodo,etiqueta,nenhum_termo
 RS1248,metodo,etiqueta,nenhum_termo
-RS1249,metodo,etiqueta,nenhum_termo
 RS1250,metodo,passa,grupos=quantitativo;termos=efeitos fixos
 RS1251,metodo,etiqueta,nenhum_termo
 RS1252,metodo,etiqueta,nenhum_termo
 RS1254,metodo,etiqueta,nenhum_termo
 RS1255,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
-RS1256,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS1257,metodo,etiqueta,nenhum_termo
 RS1258,metodo,passa,"grupos=experimental,quantitativo;termos=experiment*,experimentos,séries temporais"
 RS1259,metodo,etiqueta,nenhum_termo
@@ -8728,9 +8578,6 @@ RS1261,metodo,etiqueta,nenhum_termo
 RS1262,metodo,etiqueta,nenhum_termo
 RS1263,metodo,passa,"grupos=quantitativo;termos=análise fatorial,componentes principais"
 RS1264,metodo,etiqueta,nenhum_termo
-RS1265,metodo,etiqueta,nenhum_termo
-RS1266,metodo,etiqueta,nenhum_termo
-RS1267,metodo,etiqueta,nenhum_termo
 RS1268,metodo,etiqueta,nenhum_termo
 RS1269,metodo,etiqueta,nenhum_termo
 RS1270,metodo,passa,"grupos=experimental;termos=experiment*,experimento"
@@ -8847,7 +8694,6 @@ RS1386,metodo,etiqueta,nenhum_termo
 RS1387,metodo,etiqueta,nenhum_termo
 RS1388,metodo,etiqueta,nenhum_termo
 RS1389,metodo,etiqueta,nenhum_termo
-RS1390,metodo,etiqueta,nenhum_termo
 RS1391,metodo,etiqueta,nenhum_termo
 RS1392,metodo,etiqueta,nenhum_termo
 RS1393,metodo,etiqueta,nenhum_termo
@@ -8913,7 +8759,6 @@ RS1452,metodo,passa,grupos=quantitativo;termos=correlaciones
 RS1453,metodo,etiqueta,nenhum_termo
 RS1454,metodo,etiqueta,nenhum_termo
 RS1455,metodo,etiqueta,nenhum_termo
-RS1456,metodo,etiqueta,nenhum_termo
 RS1457,metodo,etiqueta,nenhum_termo
 RS1461,metodo,etiqueta,nenhum_termo
 RS1462,metodo,etiqueta,nenhum_termo
@@ -9083,7 +8928,6 @@ RS1644,metodo,passa,grupos=experimental;termos=experiment*
 RS1645,metodo,passa,grupos=experimental;termos=experiment*
 RS1646,metodo,passa,"grupos=causalidade;termos=causal,causal effect*"
 RS1647,metodo,etiqueta,nenhum_termo
-RS1648,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS1649,metodo,etiqueta,nenhum_termo
 RS1650,metodo,etiqueta,nenhum_termo
 RS1651,metodo,etiqueta,nenhum_termo
@@ -9110,7 +8954,6 @@ RS1672,metodo,passa,grupos=quantitativo;termos=regression
 RS1673,metodo,etiqueta,nenhum_termo
 RS1674,metodo,etiqueta,nenhum_termo
 RS1675,metodo,etiqueta,nenhum_termo
-RS1676,metodo,etiqueta,nenhum_termo
 RS1677,metodo,passa,grupos=quantitativo;termos=time series
 RS1678,metodo,etiqueta,nenhum_termo
 RS1679,metodo,etiqueta,nenhum_termo
@@ -9225,7 +9068,6 @@ RS1800,metodo,etiqueta,nenhum_termo
 RS1801,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS1802,metodo,etiqueta,nenhum_termo
 RS1803,metodo,passa,grupos=experimental;termos=experiment*
-RS1805,metodo,etiqueta,nenhum_termo
 RS1806,metodo,passa,grupos=experimental;termos=experiment*
 RS1807,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS1808,metodo,passa,"grupos=quantitativo;termos=logistic regression,regression"
@@ -9267,8 +9109,6 @@ RS1849,metodo,etiqueta,nenhum_termo
 RS1850,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS1851,metodo,etiqueta,nenhum_termo
 RS1852,metodo,etiqueta,nenhum_termo
-RS1853,metodo,etiqueta,nenhum_termo
-RS1854,metodo,etiqueta,nenhum_termo
 RS1856,metodo,etiqueta,nenhum_termo
 RS1857,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS1858,metodo,etiqueta,nenhum_termo
@@ -9285,13 +9125,12 @@ RS1869,metodo,etiqueta,nenhum_termo
 RS1870,metodo,etiqueta,nenhum_termo
 RS1871,metodo,passa,grupos=quantitativo;termos=time series
 RS1872,metodo,etiqueta,nenhum_termo
-RS1873,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
+RS1873,metodo,etiqueta,nenhum_termo
 RS1874,metodo,etiqueta,nenhum_termo
 RS1875,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS1876,metodo,passa,grupos=experimental;termos=experiment*
 RS1877,metodo,etiqueta,nenhum_termo
 RS1879,metodo,etiqueta,nenhum_termo
-RS1880,metodo,etiqueta,nenhum_termo
 RS1881,metodo,etiqueta,nenhum_termo
 RS1882,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS1883,metodo,passa,grupos=experimental;termos=experiment*
@@ -9324,7 +9163,6 @@ RS1909,metodo,etiqueta,nenhum_termo
 RS1910,metodo,etiqueta,nenhum_termo
 RS1911,metodo,etiqueta,nenhum_termo
 RS1912,metodo,passa,grupos=quantitativo;termos=event stud*
-RS1914,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS1915,metodo,etiqueta,nenhum_termo
 RS1916,metodo,etiqueta,nenhum_termo
 RS1917,metodo,etiqueta,nenhum_termo
@@ -9383,12 +9221,11 @@ RS1977,metodo,etiqueta,nenhum_termo
 RS1978,metodo,etiqueta,nenhum_termo
 RS1979,metodo,passa,grupos=quantitativo;termos=time series
 RS1980,metodo,passa,grupos=experimental;termos=experiment*
-RS1981,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
+RS1981,metodo,etiqueta,nenhum_termo
 RS1982,metodo,etiqueta,nenhum_termo
 RS1983,metodo,etiqueta,nenhum_termo
 RS1984,metodo,etiqueta,nenhum_termo
 RS1985,metodo,etiqueta,nenhum_termo
-RS1986,metodo,passa,"grupos=quantitativo;termos=structural equation model*,structural equation*"
 RS1987,metodo,etiqueta,nenhum_termo
 RS1988,metodo,etiqueta,nenhum_termo
 RS1989,metodo,passa,grupos=experimental;termos=experiment*
@@ -9420,7 +9257,6 @@ RS2018,metodo,etiqueta,nenhum_termo
 RS2019,metodo,etiqueta,nenhum_termo
 RS2020,metodo,etiqueta,nenhum_termo
 RS2021,metodo,etiqueta,nenhum_termo
-RS2022,metodo,etiqueta,nenhum_termo
 RS2023,metodo,etiqueta,nenhum_termo
 RS2024,metodo,etiqueta,nenhum_termo
 RS2025,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
@@ -9444,7 +9280,6 @@ RS2043,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2044,metodo,etiqueta,nenhum_termo
 RS2045,metodo,etiqueta,nenhum_termo
 RS2046,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
-RS2047,metodo,etiqueta,nenhum_termo
 RS2048,metodo,passa,"grupos=revisao;termos=meta-analys*,systematic review*"
 RS2049,metodo,etiqueta,nenhum_termo
 RS2050,metodo,etiqueta,nenhum_termo
@@ -9519,7 +9354,6 @@ RS2123,metodo,etiqueta,nenhum_termo
 RS2124,metodo,etiqueta,nenhum_termo
 RS2125,metodo,etiqueta,nenhum_termo
 RS2126,metodo,etiqueta,nenhum_termo
-RS2127,metodo,etiqueta,nenhum_termo
 RS2128,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2129,metodo,passa,"grupos=quantitativo;termos=bayesian,bayesian*"
 RS2130,metodo,etiqueta,nenhum_termo
@@ -9620,7 +9454,6 @@ RS2238,metodo,etiqueta,nenhum_termo
 RS2239,metodo,etiqueta,nenhum_termo
 RS2240,metodo,passa,"grupos=experimental;termos=experiment*,field experiment*"
 RS2241,metodo,etiqueta,nenhum_termo
-RS2242,metodo,passa,"grupos=experimental;termos=experiment*,field experiment*"
 RS2243,metodo,etiqueta,nenhum_termo
 RS2244,metodo,etiqueta,nenhum_termo
 RS2245,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
@@ -9628,7 +9461,6 @@ RS2246,metodo,passa,grupos=quantitativo;termos=time series
 RS2247,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2248,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2249,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
-RS2250,metodo,etiqueta,nenhum_termo
 RS2251,metodo,etiqueta,nenhum_termo
 RS2252,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2253,metodo,etiqueta,nenhum_termo
@@ -9745,7 +9577,6 @@ RS2378,metodo,etiqueta,nenhum_termo
 RS2379,metodo,etiqueta,nenhum_termo
 RS2380,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS2382,metodo,etiqueta,nenhum_termo
-RS2383,metodo,etiqueta,nenhum_termo
 RS2384,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS2385,metodo,etiqueta,nenhum_termo
 RS2386,metodo,passa,grupos=quantitativo;termos=regression
@@ -9789,7 +9620,6 @@ RS2425,metodo,etiqueta,nenhum_termo
 RS2426,metodo,etiqueta,nenhum_termo
 RS2427,metodo,etiqueta,nenhum_termo
 RS2428,metodo,etiqueta,nenhum_termo
-RS2429,metodo,etiqueta,nenhum_termo
 RS2430,metodo,etiqueta,nenhum_termo
 RS2431,metodo,etiqueta,nenhum_termo
 RS2432,metodo,etiqueta,nenhum_termo
@@ -9798,7 +9628,6 @@ RS2434,metodo,etiqueta,nenhum_termo
 RS2435,metodo,etiqueta,nenhum_termo
 RS2436,metodo,passa,"grupos=quantitativo;termos=bayesian,bayesian*"
 RS2437,metodo,etiqueta,nenhum_termo
-RS2438,metodo,passa,"grupos=quantitativo;termos=bayesian,bayesian*"
 RS2439,metodo,etiqueta,nenhum_termo
 RS2440,metodo,passa,grupos=quantitativo;termos=panel data
 RS2441,metodo,etiqueta,nenhum_termo
@@ -9833,10 +9662,9 @@ RS2472,metodo,passa,grupos=quantitativo;termos=fixed effect*
 RS2473,metodo,etiqueta,nenhum_termo
 RS2474,metodo,passa,grupos=experimental;termos=experiment*
 RS2476,metodo,etiqueta,nenhum_termo
-RS2477,metodo,etiqueta,nenhum_termo
 RS2478,metodo,etiqueta,nenhum_termo
 RS2479,metodo,etiqueta,nenhum_termo
-RS2480,metodo,passa,"grupos=quantitativo;termos=multilevel,multilevel model*"
+RS2480,metodo,passa,"grupos=quantitativo;termos=logistic regression,multilevel,multilevel model*,regression"
 RS2481,metodo,etiqueta,nenhum_termo
 RS2483,metodo,etiqueta,nenhum_termo
 RS2484,metodo,etiqueta,nenhum_termo
@@ -9867,7 +9695,6 @@ RS2510,metodo,etiqueta,nenhum_termo
 RS2511,metodo,etiqueta,nenhum_termo
 RS2512,metodo,passa,grupos=quantitativo;termos=correlation*
 RS2513,metodo,passa,"grupos=quantitativo;termos=bayesian,bayesian*,logistic regression,regression"
-RS2514,metodo,etiqueta,nenhum_termo
 RS2515,metodo,etiqueta,nenhum_termo
 RS2516,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2517,metodo,etiqueta,nenhum_termo
@@ -9879,7 +9706,6 @@ RS2522,metodo,etiqueta,nenhum_termo
 RS2523,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2524,metodo,passa,"grupos=quantitativo;termos=multilevel,regression"
 RS2525,metodo,etiqueta,nenhum_termo
-RS2526,metodo,passa,"grupos=quantitativo;termos=logistic regression,multilevel,multilevel model*,regression"
 RS2527,metodo,passa,grupos=quantitativo;termos=panel data
 RS2528,metodo,etiqueta,nenhum_termo
 RS2529,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
@@ -9985,7 +9811,6 @@ RS2636,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS2637,metodo,etiqueta,nenhum_termo
 RS2638,metodo,etiqueta,nenhum_termo
 RS2639,metodo,etiqueta,nenhum_termo
-RS2640,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS2641,metodo,etiqueta,nenhum_termo
 RS2642,metodo,etiqueta,nenhum_termo
 RS2643,metodo,etiqueta,nenhum_termo
@@ -10005,12 +9830,9 @@ RS2657,metodo,etiqueta,nenhum_termo
 RS2658,metodo,etiqueta,nenhum_termo
 RS2659,metodo,etiqueta,nenhum_termo
 RS2660,metodo,etiqueta,nenhum_termo
-RS2661,metodo,etiqueta,nenhum_termo
 RS2662,metodo,etiqueta,nenhum_termo
-RS2663,metodo,etiqueta,nenhum_termo
 RS2664,metodo,etiqueta,nenhum_termo
 RS2665,metodo,passa,"grupos=quantitativo;termos=logistic regression,regression"
-RS2666,metodo,passa,"grupos=quantitativo;termos=logistic regression,regression"
 RS2667,metodo,etiqueta,nenhum_termo
 RS2669,metodo,passa,"grupos=quantitativo;termos=bayesian,bayesian*"
 RS2670,metodo,etiqueta,nenhum_termo
@@ -10055,7 +9877,6 @@ RS2709,metodo,passa,grupos=quantitativo;termos=correlation*
 RS2710,metodo,etiqueta,nenhum_termo
 RS2711,metodo,etiqueta,nenhum_termo
 RS2712,metodo,etiqueta,nenhum_termo
-RS2713,metodo,etiqueta,nenhum_termo
 RS2714,metodo,etiqueta,nenhum_termo
 RS2715,metodo,passa,"grupos=quantitativo;termos=OLS,logistic regression,regression,regressions"
 RS2716,metodo,etiqueta,nenhum_termo
@@ -10081,7 +9902,6 @@ RS2736,metodo,etiqueta,nenhum_termo
 RS2737,metodo,passa,"grupos=quantitativo;termos=logistic regression,regression"
 RS2738,metodo,passa,grupos=quantitativo;termos=time series
 RS2739,metodo,etiqueta,nenhum_termo
-RS2740,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS2741,metodo,etiqueta,nenhum_termo
 RS2742,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS2743,metodo,passa,"grupos=experimental,quantitativo;termos=logistic regression,propensity score*,regression"
@@ -10099,7 +9919,6 @@ RS2755,metodo,etiqueta,nenhum_termo
 RS2757,metodo,passa,grupos=experimental;termos=experiment*
 RS2758,metodo,etiqueta,nenhum_termo
 RS2759,metodo,etiqueta,nenhum_termo
-RS2760,metodo,etiqueta,nenhum_termo
 RS2761,metodo,etiqueta,nenhum_termo
 RS2762,metodo,etiqueta,nenhum_termo
 RS2763,metodo,etiqueta,nenhum_termo
@@ -10129,7 +9948,6 @@ RS2789,metodo,etiqueta,nenhum_termo
 RS2790,metodo,etiqueta,nenhum_termo
 RS2791,metodo,etiqueta,nenhum_termo
 RS2792,metodo,etiqueta,nenhum_termo
-RS2793,metodo,etiqueta,nenhum_termo
 RS2794,metodo,etiqueta,nenhum_termo
 RS2795,metodo,etiqueta,nenhum_termo
 RS2796,metodo,etiqueta,nenhum_termo
@@ -10146,8 +9964,6 @@ RS2808,metodo,etiqueta,nenhum_termo
 RS2810,metodo,etiqueta,nenhum_termo
 RS2811,metodo,etiqueta,nenhum_termo
 RS2812,metodo,passa,"grupos=quantitativo;termos=fixed effect*,panel data"
-RS2813,metodo,passa,"grupos=quantitativo;termos=fixed effect*,panel data"
-RS2814,metodo,passa,"grupos=quantitativo;termos=fixed effect*,panel data"
 RS2815,metodo,etiqueta,nenhum_termo
 RS2816,metodo,etiqueta,nenhum_termo
 RS2817,metodo,etiqueta,nenhum_termo
@@ -10162,10 +9978,8 @@ RS2825,metodo,etiqueta,nenhum_termo
 RS2826,metodo,passa,grupos=experimental;termos=experiment*
 RS2827,metodo,passa,grupos=experimental;termos=experiment*
 RS2829,metodo,etiqueta,nenhum_termo
-RS2830,metodo,passa,grupos=experimental;termos=experiment*
 RS2832,metodo,etiqueta,nenhum_termo
 RS2833,metodo,passa,"grupos=quantitativo;termos=correlation*,factor analysis,logistic regression,regression,regression analysis"
-RS2834,metodo,etiqueta,nenhum_termo
 RS2835,metodo,etiqueta,nenhum_termo
 RS2836,metodo,etiqueta,nenhum_termo
 RS2837,metodo,etiqueta,nenhum_termo
@@ -10663,7 +10477,6 @@ RS3751,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS3752,metodo,etiqueta,nenhum_termo
 RS3755,metodo,passa,"grupos=causalidade,experimental;termos=causal,causal effect*,experiment*,randomized"
 RS3757,metodo,passa,"grupos=causalidade;termos=causality,exogenous variation"
-RS3759,metodo,passa,"grupos=experimental;termos=experiment*,natural experiment*"
 RS3761,metodo,passa,grupos=experimental;termos=experiment*
 RS3762,metodo,passa,grupos=experimental;termos=experiment*
 RS3763,metodo,etiqueta,nenhum_termo
@@ -10856,7 +10669,6 @@ RS3988,metodo,etiqueta,nenhum_termo
 RS3989,metodo,etiqueta,nenhum_termo
 RS3990,metodo,etiqueta,nenhum_termo
 RS3991,metodo,etiqueta,nenhum_termo
-RS3992,metodo,etiqueta,nenhum_termo
 RS3993,metodo,etiqueta,nenhum_termo
 RS3994,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS3995,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
@@ -10892,7 +10704,6 @@ RS4026,metodo,passa,grupos=causalidade;termos=counterfactual*
 RS4027,metodo,passa,"grupos=experimental;termos=experiment*,field experiment*"
 RS4028,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS4029,metodo,etiqueta,nenhum_termo
-RS4030,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS4031,metodo,passa,grupos=quantitativo;termos=event stud*
 RS4032,metodo,etiqueta,nenhum_termo
 RS4033,metodo,etiqueta,nenhum_termo
@@ -10991,7 +10802,6 @@ RS4129,metodo,passa,"grupos=experimental;termos=experiment*,experimental"
 RS4130,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
 RS4131,metodo,etiqueta,nenhum_termo
 RS4133,metodo,sem_dado,sem_resumo;nenhum_termo_no_restante
-RS4134,metodo,etiqueta,nenhum_termo
 RS4136,metodo,etiqueta,nenhum_termo
 RS4137,metodo,etiqueta,nenhum_termo
 RS4138,metodo,etiqueta,nenhum_termo

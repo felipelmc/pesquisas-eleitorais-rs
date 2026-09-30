@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1228" height="766" viewBox="0 0 1228 766" font-family="Helvetica, Arial, sans-serif" font-size="12">
 <title>PRISMA 2020 — RASCUNHO NÃO VALIDADO</title>
 <rect x="0" y="0" width="1228" height="766" fill="#ffffff"/>
-<text x="54" y="34" font-size="15" font-weight="bold" fill="#b91c1c">RASCUNHO NÃO VALIDADO — Pendências abertas: P006, P007, P008, P019, P033, P035, P036, P042</text>
+<text x="54" y="34" font-size="15" font-weight="bold" fill="#b91c1c">RASCUNHO NÃO VALIDADO — Pendências abertas: P006, P007, P008, P033, P035, P036, P042</text>
 <rect x="54" y="50" width="540" height="30" rx="4" fill="#d9e5f2" stroke="#333"/>
 <text x="324.0" y="70" text-anchor="middle" font-weight="bold">Identificação de estudos via bases de dados e registros</text>
 <rect x="664" y="50" width="540" height="30" rx="4" fill="#d9e5f2" stroke="#333"/>
@@ -22,10 +22,10 @@
 <text x="353" y="125" font-weight="bold">Registros removidos antes da</text>
 <text x="359" y="141" font-weight="bold">triagem:</text>
 <text x="353" y="157">Registros duplicados removidos</text>
-<text x="359" y="173">(n = 46)</text>
+<text x="359" y="173">(n = 91)</text>
 <text x="353" y="189">Marcados como inelegíveis por</text>
-<text x="359" y="205">automação (n = 148)</text>
-<text x="359" y="221">ano (n = 148)</text>
+<text x="359" y="205">automação (n = 143)</text>
+<text x="359" y="221">ano (n = 143)</text>
 <text x="353" y="237">Removidos por outros motivos</text>
 <text x="359" y="253">(n = 0)</text>
 <rect x="664" y="104" width="250" height="82" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
@@ -37,35 +37,35 @@
 <text x="963" y="125" font-weight="bold">Registros removidos antes da</text>
 <text x="969" y="141" font-weight="bold">triagem:</text>
 <text x="963" y="157">Duplicados ou já identificados nas</text>
-<text x="969" y="173">bases (n = 4)</text>
+<text x="969" y="173">bases (n = 17)</text>
 <text x="963" y="189">Marcados como inelegíveis por</text>
-<text x="969" y="205">automação (n = 648)</text>
+<text x="969" y="205">automação (n = 639)</text>
 <rect x="54" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="63" y="321" font-weight="bold">Registros triados</text>
-<text x="63" y="337">(n = 1573)</text>
+<text x="63" y="337">(n = 1533)</text>
 <rect x="344" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="353" y="321" font-weight="bold">Registros excluídos</text>
-<text x="353" y="337">(n = 1314)</text>
+<text x="353" y="337">(n = 1277)</text>
 <rect x="664" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="673" y="321" font-weight="bold">Registros triados</text>
-<text x="673" y="337">(n = 1054)</text>
+<text x="673" y="337">(n = 1050)</text>
 <rect x="954" y="300" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="963" y="321" font-weight="bold">Registros excluídos</text>
-<text x="963" y="337">(n = 787)</text>
+<text x="963" y="337">(n = 784)</text>
 <rect x="54" y="384" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="63" y="405" font-weight="bold">Relatórios buscados para</text>
 <text x="69" y="421" font-weight="bold">recuperação</text>
-<text x="63" y="437">(n = 259)</text>
+<text x="63" y="437">(n = 256)</text>
 <rect x="344" y="384" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="353" y="405" font-weight="bold">Relatórios não recuperados</text>
-<text x="353" y="421">(n = 158)</text>
+<text x="353" y="421">(n = 155)</text>
 <rect x="664" y="384" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="673" y="405" font-weight="bold">Relatórios buscados para</text>
 <text x="679" y="421" font-weight="bold">recuperação</text>
-<text x="673" y="437">(n = 267)</text>
+<text x="673" y="437">(n = 266)</text>
 <rect x="954" y="384" width="250" height="50" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="963" y="405" font-weight="bold">Relatórios não recuperados</text>
-<text x="963" y="421">(n = 184)</text>
+<text x="963" y="421">(n = 183)</text>
 <rect x="54" y="484" width="250" height="66" rx="4" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
 <text x="63" y="505" font-weight="bold">Relatórios avaliados para</text>
 <text x="69" y="521" font-weight="bold">elegibilidade</text>

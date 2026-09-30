@@ -16,7 +16,6 @@ RS1225,excluir,consenso,C5,0,0
 RS1226,incerto,humano,,0,1
 RS1227,excluir,consenso,C2,0,0
 RS1228,excluir,consenso,C2,0,0
-RS1229,excluir,consenso,C2,0,0
 RS1230,excluir,consenso,C2,0,0
 RS1231,excluir,consenso,C2,0,0
 RS1232,incerto,humano,,0,1
@@ -28,7 +27,6 @@ RS1237,excluir,consenso,C2,0,0
 RS1238,excluir,consenso,C2,0,0
 RS1239,excluir,consenso,C2,0,0
 RS1240,excluir,consenso,C2,0,0
-RS1241,excluir,consenso,C2,0,0
 RS1242,excluir,consenso,C2,0,0
 RS1243,excluir,consenso,C1|C2,0,0
 RS1244,excluir,consenso,C5,0,0
@@ -36,13 +34,11 @@ RS1245,excluir,consenso,C4,0,0
 RS1246,excluir,consenso,C1,0,0
 RS1247,excluir,consenso,C2,0,0
 RS1248,excluir,consenso,C2,0,0
-RS1249,excluir,consenso,C2,0,0
 RS1250,excluir,consenso,C1|C2,0,0
 RS1251,excluir,consenso,C2,0,0
 RS1252,excluir,consenso,C2,0,0
 RS1254,incerto,consenso,,0,0
 RS1255,excluir,consenso,C2,0,0
-RS1256,excluir,consenso,C2,0,0
 RS1257,excluir,consenso,C1,0,0
 RS1258,excluir,consenso,C2,0,0
 RS1259,excluir,consenso,C2,0,0
@@ -51,9 +47,6 @@ RS1261,excluir,consenso,C2,0,0
 RS1262,excluir,consenso,C2,0,0
 RS1263,excluir,consenso,C1,0,0
 RS1264,excluir,consenso,C1,0,0
-RS1265,excluir,consenso,C1,0,0
-RS1266,excluir,consenso,C1,0,0
-RS1267,excluir,consenso,C1,0,0
 RS1268,excluir,consenso,C4,0,0
 RS1269,excluir,consenso,C2,0,0
 RS1270,excluir,consenso,C2,0,0
@@ -170,7 +163,6 @@ RS1386,excluir,consenso,C2,0,0
 RS1387,excluir,consenso,C2,0,0
 RS1388,excluir,consenso,C4,0,0
 RS1389,incerto,humano,,1,1
-RS1390,excluir,consenso,C5,0,0
 RS1391,excluir,consenso,C2,0,0
 RS1392,excluir,consenso,C2,0,0
 RS1393,excluir,consenso,C2,0,0
@@ -236,7 +228,6 @@ RS1452,excluir,consenso,C2,0,0
 RS1453,excluir,consenso,C2,0,0
 RS1454,excluir,consenso,C2,0,0
 RS1455,excluir,consenso,C1,0,0
-RS1456,excluir,consenso,C1,0,0
 RS1457,excluir,consenso,C2,0,0
 RS1461,excluir,consenso,C2,0,0
 RS1462,excluir,consenso,C2,0,0
@@ -406,7 +397,6 @@ RS1644,excluir,consenso,C2,0,0
 RS1645,excluir,consenso,C2,0,0
 RS1646,incluir,consenso,,0,0
 RS1647,excluir,consenso,C4,0,0
-RS1648,excluir,humano,C2,0,1
 RS1649,excluir,consenso,C3|C2,0,0
 RS1650,excluir,consenso,C3,0,0
 RS1651,excluir,consenso,C4,0,0
@@ -433,7 +423,6 @@ RS1672,excluir,consenso,C2,0,0
 RS1673,excluir,consenso,C2,0,0
 RS1674,excluir,consenso,C2,0,0
 RS1675,excluir,consenso,C2,0,0
-RS1676,excluir,consenso,C2,0,0
 RS1677,excluir,consenso,C2,0,0
 RS1678,excluir,consenso,C2,0,0
 RS1679,excluir,consenso,C2|C4,0,0
@@ -548,7 +537,6 @@ RS1800,incluir,consenso,,0,0
 RS1801,incerto,humano,,0,1
 RS1802,incluir,consenso,,0,0
 RS1803,incluir,consenso,,0,0
-RS1805,incluir,consenso,,0,0
 RS1806,excluir,consenso,C2,0,0
 RS1807,incerto,humano,,0,1
 RS1808,excluir,consenso,C2,0,0
@@ -568,7 +556,7 @@ RS1824,excluir,consenso,C2,0,0
 RS1825,incerto,humano,,0,1
 RS1826,excluir,consenso,C1,0,0
 RS1827,excluir,consenso,C3,0,0
-RS1828,excluir,consenso,C4,0,0
+RS1828,excluir,humano,C4,0,1
 RS1830,excluir,consenso,C2,0,0
 RS1831,excluir,consenso,C5,0,0
 RS1832,incerto,consenso,,0,0
@@ -590,8 +578,6 @@ RS1849,excluir,consenso,C2,0,0
 RS1850,excluir,consenso,C2,0,0
 RS1851,excluir,consenso,C2,0,0
 RS1852,excluir,consenso,C2,0,0
-RS1853,excluir,consenso,C2,0,0
-RS1854,excluir,consenso,C2,0,0
 RS1856,excluir,consenso,C2,0,0
 RS1857,excluir,humano,C2,0,1
 RS1858,excluir,consenso,C2,0,0
@@ -614,7 +600,6 @@ RS1875,incerto,consenso,,0,0
 RS1876,incluir,consenso,,0,0
 RS1877,excluir,consenso,C4,0,0
 RS1879,excluir,consenso,C2,0,0
-RS1880,excluir,consenso,C2,0,0
 RS1881,excluir,consenso,C2,0,0
 RS1882,incerto,humano,,0,1
 RS1883,excluir,consenso,C2,0,0
@@ -647,7 +632,6 @@ RS1909,excluir,consenso,C2,0,0
 RS1910,excluir,consenso,C2,0,0
 RS1911,excluir,consenso,C5|C2,0,0
 RS1912,excluir,consenso,C2,0,0
-RS1914,incerto,consenso,,0,0
 RS1915,excluir,consenso,C2,0,0
 RS1916,excluir,consenso,C2,0,0
 RS1917,excluir,consenso,C5|C4,0,0
@@ -711,7 +695,6 @@ RS1982,incerto,consenso,,0,0
 RS1983,excluir,consenso,C2,0,0
 RS1984,excluir,consenso,C2,0,0
 RS1985,excluir,consenso,C2,0,0
-RS1986,excluir,humano,C4,0,1
 RS1987,excluir,consenso,C2,0,0
 RS1988,excluir,consenso,C5|C2,0,0
 RS1989,incluir,consenso,,0,0
@@ -743,7 +726,6 @@ RS2018,excluir,consenso,C5|C2,0,0
 RS2019,excluir,consenso,C2,0,0
 RS2020,excluir,consenso,C1|C2,0,0
 RS2021,excluir,consenso,C2,0,0
-RS2022,excluir,consenso,C2,0,0
 RS2023,excluir,consenso,C2,0,0
 RS2024,excluir,consenso,C1,0,0
 RS2025,incerto,humano,,0,1
@@ -767,7 +749,6 @@ RS2043,excluir,humano,C1,0,1
 RS2044,excluir,consenso,C2,0,0
 RS2045,excluir,consenso,C2,0,0
 RS2046,incerto,consenso,,0,0
-RS2047,excluir,consenso,C2,0,0
 RS2048,excluir,consenso,C1,0,0
 RS2049,excluir,consenso,C2,0,0
 RS2050,excluir,consenso,C2,0,0
@@ -839,10 +820,9 @@ RS2120,excluir,consenso,C2,0,0
 RS2121,excluir,consenso,C2,0,0
 RS2122,excluir,consenso,C4|C2,0,0
 RS2123,excluir,consenso,C1|C2,0,0
-RS2124,excluir,consenso,C2,0,0
+RS2124,incerto,humano,,0,1
 RS2125,excluir,consenso,C2,0,0
 RS2126,incerto,consenso,,0,0
-RS2127,excluir,consenso,C1|C2,0,0
 RS2128,incerto,humano,,0,1
 RS2129,excluir,consenso,C2,0,0
 RS2130,excluir,consenso,C1,0,0
@@ -943,7 +923,6 @@ RS2238,excluir,consenso,C2,0,0
 RS2239,excluir,consenso,C2,0,0
 RS2240,incluir,consenso,,0,0
 RS2241,excluir,consenso,C4,0,0
-RS2242,incluir,consenso,,0,0
 RS2243,excluir,consenso,C1,0,0
 RS2244,excluir,consenso,C2,0,0
 RS2245,incerto,humano,,0,1
@@ -951,7 +930,6 @@ RS2246,excluir,consenso,C2,0,0
 RS2247,incluir,consenso,,0,0
 RS2248,excluir,humano,C2,0,1
 RS2249,incerto,consenso,,0,0
-RS2250,excluir,consenso,C1,0,0
 RS2251,excluir,consenso,C2,0,0
 RS2252,incerto,humano,,0,1
 RS2253,excluir,consenso,C1,0,0
@@ -1068,7 +1046,6 @@ RS2378,excluir,consenso,C2|C1,0,0
 RS2379,excluir,consenso,C2,0,0
 RS2380,excluir,consenso,C1,0,0
 RS2382,excluir,consenso,C2,0,0
-RS2383,excluir,consenso,C2,0,0
 RS2384,excluir,consenso,C2,0,0
 RS2385,excluir,consenso,C5|C2,0,0
 RS2386,excluir,consenso,C2,0,0
@@ -1112,7 +1089,6 @@ RS2425,excluir,consenso,C2,0,0
 RS2426,excluir,consenso,C2,0,0
 RS2427,excluir,consenso,C3,0,0
 RS2428,excluir,consenso,C2,0,0
-RS2429,excluir,consenso,C3,0,0
 RS2430,excluir,consenso,C2,0,0
 RS2431,excluir,consenso,C2,0,0
 RS2432,excluir,consenso,C2,0,0
@@ -1121,7 +1097,6 @@ RS2434,excluir,consenso,C2|C1,0,0
 RS2435,excluir,consenso,C2,0,0
 RS2436,excluir,consenso,C2,0,0
 RS2437,excluir,consenso,C2,0,0
-RS2438,excluir,consenso,C2,0,0
 RS2439,excluir,consenso,C1,0,0
 RS2440,excluir,consenso,C4|C2,0,0
 RS2441,excluir,consenso,C1|C2,0,0
@@ -1156,7 +1131,6 @@ RS2472,excluir,consenso,C2,0,0
 RS2473,excluir,consenso,C1,0,0
 RS2474,excluir,consenso,C5|C2,0,0
 RS2476,excluir,consenso,C1,0,0
-RS2477,excluir,consenso,C2,0,0
 RS2478,excluir,consenso,C1,0,0
 RS2479,excluir,consenso,C2,0,0
 RS2480,excluir,humano,C2,0,1
@@ -1190,7 +1164,6 @@ RS2510,excluir,consenso,C1,0,0
 RS2511,incerto,humano,,1,1
 RS2512,excluir,consenso,C2,0,0
 RS2513,excluir,consenso,C2,0,0
-RS2514,excluir,consenso,C3,0,0
 RS2515,excluir,consenso,C2,0,0
 RS2516,incerto,consenso,,0,0
 RS2517,excluir,consenso,C1,0,0
@@ -1202,7 +1175,6 @@ RS2522,excluir,consenso,C2,0,0
 RS2523,excluir,humano,C2,0,1
 RS2524,excluir,consenso,C2,0,0
 RS2525,excluir,consenso,C2,0,0
-RS2526,excluir,consenso,C2,0,0
 RS2527,excluir,consenso,C2,0,0
 RS2528,excluir,consenso,C1,0,0
 RS2529,incerto,humano,,0,1
@@ -1308,7 +1280,6 @@ RS2636,excluir,consenso,C2,0,0
 RS2637,excluir,consenso,C2,0,0
 RS2638,excluir,consenso,C2,0,0
 RS2639,excluir,consenso,C2,0,0
-RS2640,excluir,consenso,C2,0,0
 RS2641,excluir,consenso,C2,0,0
 RS2642,excluir,consenso,C2,0,0
 RS2643,excluir,consenso,C2,0,0
@@ -1328,12 +1299,9 @@ RS2657,excluir,consenso,C2,0,0
 RS2658,excluir,consenso,C2,0,0
 RS2659,excluir,consenso,C1,0,0
 RS2660,excluir,consenso,C2,0,0
-RS2661,excluir,consenso,C2,0,0
 RS2662,excluir,consenso,C2,0,0
-RS2663,excluir,consenso,C2,0,0
 RS2664,excluir,consenso,C2,0,0
 RS2665,excluir,consenso,C2,0,0
-RS2666,excluir,consenso,C2,0,0
 RS2667,excluir,consenso,C2,0,0
 RS2669,excluir,consenso,C2,0,0
 RS2670,excluir,consenso,C2,0,0
@@ -1378,7 +1346,6 @@ RS2709,excluir,consenso,C2,0,0
 RS2710,excluir,consenso,C4|C2,0,0
 RS2711,excluir,consenso,C2,0,0
 RS2712,excluir,consenso,C5|C2,0,0
-RS2713,excluir,consenso,C2,0,0
 RS2714,excluir,consenso,C2,0,0
 RS2715,incerto,humano,,1,1
 RS2716,excluir,consenso,C1|C2,0,0
@@ -1404,7 +1371,6 @@ RS2736,excluir,consenso,C1,0,0
 RS2737,excluir,consenso,C1,0,0
 RS2738,excluir,consenso,C2,0,0
 RS2739,excluir,consenso,C1,0,0
-RS2740,incerto,humano,,0,1
 RS2741,excluir,consenso,C2,0,0
 RS2742,excluir,consenso,C1,0,0
 RS2743,excluir,consenso,C2,0,0
@@ -1422,7 +1388,6 @@ RS2755,excluir,consenso,C1,0,0
 RS2757,excluir,consenso,C1,0,0
 RS2758,excluir,consenso,C5|C2,0,0
 RS2759,excluir,consenso,C2,0,0
-RS2760,excluir,consenso,C2,0,0
 RS2761,excluir,consenso,C2,0,0
 RS2762,excluir,consenso,C2,0,0
 RS2763,excluir,consenso,C1,0,0
@@ -1452,7 +1417,6 @@ RS2789,excluir,consenso,C2,0,0
 RS2790,excluir,consenso,C1,0,0
 RS2791,excluir,consenso,C1,0,0
 RS2792,excluir,consenso,C1,0,0
-RS2793,excluir,consenso,C1,0,0
 RS2794,incerto,humano,,1,1
 RS2795,excluir,consenso,C2,0,0
 RS2796,excluir,consenso,C1,0,0
@@ -1469,8 +1433,6 @@ RS2808,excluir,consenso,C2,0,0
 RS2810,excluir,consenso,C2,0,0
 RS2811,excluir,consenso,C1,0,0
 RS2812,excluir,consenso,C2,0,0
-RS2813,excluir,consenso,C2,0,0
-RS2814,excluir,consenso,C2,0,0
 RS2815,excluir,consenso,C1,0,0
 RS2816,excluir,consenso,C1,0,0
 RS2817,excluir,consenso,C2,0,0
@@ -1485,10 +1447,8 @@ RS2825,excluir,consenso,C1,0,0
 RS2826,excluir,consenso,C5|C2,0,0
 RS2827,excluir,consenso,C5|C2,0,0
 RS2829,excluir,consenso,C1,0,0
-RS2830,excluir,consenso,C1|C2,0,0
 RS2832,excluir,consenso,C5|C4,0,0
 RS2833,excluir,consenso,C2,0,0
-RS2834,excluir,consenso,C1,0,0
 RS2835,excluir,consenso,C2,0,0
 RS2836,excluir,consenso,C1,0,0
 RS2837,excluir,consenso,C1,0,0
@@ -1986,7 +1946,6 @@ RS3751,excluir,humano,C1,0,1
 RS3752,excluir,consenso,C2,0,0
 RS3755,excluir,consenso,C1,0,0
 RS3757,excluir,consenso,C1,0,0
-RS3759,excluir,consenso,C2,0,0
 RS3761,incerto,consenso,,0,0
 RS3762,excluir,humano,C1,0,1
 RS3763,excluir,consenso,C2,0,0
@@ -2179,7 +2138,6 @@ RS3988,excluir,consenso,C1,0,0
 RS3989,excluir,consenso,C2,0,0
 RS3990,excluir,consenso,C1|C2,0,0
 RS3991,excluir,consenso,C2,0,0
-RS3992,excluir,consenso,C1|C2,0,0
 RS3993,excluir,consenso,C2,0,0
 RS3994,incerto,consenso,,0,0
 RS3995,excluir,consenso,C1,0,0
@@ -2215,7 +2173,6 @@ RS4026,excluir,consenso,C2,0,0
 RS4027,excluir,consenso,C1,0,0
 RS4028,incerto,humano,,0,1
 RS4029,excluir,consenso,C2,0,0
-RS4030,incerto,humano,,0,1
 RS4031,excluir,consenso,C2,0,0
 RS4032,incerto,consenso,,0,0
 RS4033,excluir,consenso,C1|C2,0,0
@@ -2314,7 +2271,6 @@ RS4129,incerto,humano,,0,1
 RS4130,incerto,humano,,0,1
 RS4131,excluir,consenso,C1|C2,0,0
 RS4133,incerto,consenso,,0,0
-RS4134,excluir,consenso,C2,0,0
 RS4136,excluir,consenso,C2,0,0
 RS4137,excluir,consenso,C2,0,0
 RS4138,excluir,consenso,C2,0,0

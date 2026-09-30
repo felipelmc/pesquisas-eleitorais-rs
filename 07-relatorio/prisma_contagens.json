@@ -2,7 +2,7 @@
   "schema": "rs-prisma/1",
   "tipo": "2020",
   "origem": "calculado",
-  "gerado_em": "2026-09-30T17:59:01Z",
+  "gerado_em": "2026-09-30T21:14:59Z",
   "bases": {
     "identificados": {
       "bases": 1767,
@@ -13,18 +13,18 @@
       }
     },
     "removidos_antes_triagem": {
-      "duplicatas": 46,
-      "automacao": 148,
+      "duplicatas": 91,
+      "automacao": 143,
       "outros_motivos": 0,
       "automacao_por_filtro": {
-        "ano": 148
+        "ano": 143
       }
     },
-    "a_triar": 1573,
-    "triados": 1573,
-    "excluidos_triagem": 1314,
-    "buscados": 259,
-    "nao_recuperados": 158,
+    "a_triar": 1533,
+    "triados": 1533,
+    "excluidos_triagem": 1277,
+    "buscados": 256,
+    "nao_recuperados": 155,
     "avaliados": 101,
     "excluidos_elegibilidade": {
       "total": 59,
@@ -45,18 +45,18 @@
       "outros": 0
     },
     "removidos_antes_triagem": {
-      "duplicatas": 4,
-      "automacao": 648,
+      "duplicatas": 17,
+      "automacao": 639,
       "outros_motivos": 0,
       "automacao_por_filtro": {
-        "ano": 648
+        "ano": 639
       }
     },
-    "a_triar": 1054,
-    "triados": 1054,
-    "excluidos_triagem": 787,
-    "buscados": 267,
-    "nao_recuperados": 184,
+    "a_triar": 1050,
+    "triados": 1050,
+    "excluidos_triagem": 784,
+    "buscados": 266,
+    "nao_recuperados": 183,
     "avaliados": 83,
     "excluidos_elegibilidade": {
       "total": 70,
@@ -80,13 +80,13 @@
       "nome": "identificacao_fecha",
       "ramo": "bases",
       "ok": true,
-      "detalhe": "identificados − removidos antes da triagem = a triar: 1573 = 1573"
+      "detalhe": "identificados − removidos antes da triagem = a triar: 1533 = 1533"
     },
     {
       "nome": "triagem_fecha",
       "ramo": "bases",
       "ok": true,
-      "detalhe": "triados = excluídos na triagem + buscados: 1573 = 1573"
+      "detalhe": "triados = excluídos na triagem + buscados: 1533 = 1533"
     },
     {
       "nome": "recuperacao_fecha",
@@ -110,13 +110,13 @@
       "nome": "identificacao_fecha",
       "ramo": "outros_metodos",
       "ok": true,
-      "detalhe": "identificados − removidos antes da triagem = a triar: 1054 = 1054"
+      "detalhe": "identificados − removidos antes da triagem = a triar: 1050 = 1050"
     },
     {
       "nome": "triagem_fecha",
       "ramo": "outros_metodos",
       "ok": true,
-      "detalhe": "triados = excluídos na triagem + buscados: 1054 = 1054"
+      "detalhe": "triados = excluídos na triagem + buscados: 1050 = 1050"
     },
     {
       "nome": "recuperacao_fecha",
@@ -155,9 +155,9 @@
   ],
   "insumos": {
     "dados/registros.csv": "0e15f164d9f4f868661442348fdef2ff73dba4982b76686812c234aef37026b0",
-    "dados/registros_unicos.csv": "73b52794319584fa2d5b423ccca6521da1e9af341b0e52f42b5d9c322e6818fd",
-    "02-triagem/filtro_formal.csv": "65ce2e985d785d6255b20c9a9841d53b171de8df46848addf9868bb2f0ef039b",
-    "02-triagem/triagem_ta_final.csv": "ad65136879574b724fc06cac8524b943a5d54c5978c6a04b367800a3a77b13a2",
+    "dados/registros_unicos.csv": "ccec4c01f63143e9af10175ced7743c51f62d9ae3d7e278ea14b140e70f3da97",
+    "02-triagem/filtro_formal.csv": "0b559ae8c3492fe7ddc8b7f7fe6f314122604d14a0e3d562e0537f320f04c8eb",
+    "02-triagem/triagem_ta_final.csv": "4219104f68b245ffe65501e2cb7b00290a37e5f772fc8f973c95b2b92cdaf797",
     "03-textos/relatorio_pdfs.csv": "898d1b3b0c24baa22b245ad03dedb3ab921337da36363b4d0d80f0b68db79751",
     "03-textos/elegibilidade_tc_final.csv": "60f1ae7a7812e4313afe158458d839db3db31a9c3b65326fd4af64c0dbbd3549",
     "03-textos/inventario_textos.csv": "3a84b7c665ab60053296b74a36f1f7cea0bdaa5a9723990c16cc2de8cf8bfaf9",
@@ -169,7 +169,6 @@
     "P006",
     "P007",
     "P008",
-    "P019",
     "P033",
     "P035",
     "P036",
@@ -177,7 +176,7 @@
   ],
   "buscas_truncadas": [],
   "motivos_rascunho": [
-    "8 pendências abertas"
+    "7 pendências abertas"
   ],
   "buscas_inativas": {
     "buscas": [

@@ -1,7 +1,7 @@
 {
   "ancoras_arquivo": "00-protocolo/ancoras_validacao.csv",
   "ancoras_sha256": "731f41e2233ff11c52144602e8a0685ec976554c5ac2b7867cfb9f3a2662de52",
-  "unicos_sha256": "cad646e0a5f855d0eebb56fee1cb13250080ab081a47f8fb03a2ec6b0d261702",
+  "unicos_sha256": "ccec4c01f63143e9af10175ced7743c51f62d9ae3d7e278ea14b140e70f3da97",
   "tem_indexada_em": true,
   "n_ancoras": 19,
   "n_sem_chave_de_casamento": 0,
@@ -457,9 +457,7 @@
       "ancora": "A17",
       "situacao": "etiquetada",
       "ids_rs": [
-        "RS1596",
-        "RS1805",
-        "RS1914"
+        "RS1596"
       ],
       "buscas": [
         "B05"
