@@ -22,3 +22,24 @@ __pycache__/
 09-documento-final/linguagem_simples.html
 09-documento-final/*_files/
 09-documento-final/.quarto/
+
+# >>> resumos de terceiros: só no disco local e no repositório privado -completo (CLAUDE.md; ferramentas/arquivar_privado.sh)
+/01-busca/brutos/
+/02-triagem/lotes/
+/02-triagem/fila_humana_ta_v1.csv
+/02-triagem/sem_resumo/registros.json
+/02-triagem/sem_resumo_sn1/registros.json
+/02-triagem/sem_resumo_revisao/lotes/
+/02-triagem/sem_resumo_revisao/respostas/
+/02-triagem/sem_resumo_revisao/resumos_recuperados.csv
+/02-triagem/validacao/ta_v1/amostra01_cega.xlsx
+/02-triagem/validacao/ta_v1/elusao01_cega.xlsx
+/08-revisao-humana/P006_P007_validacao/amostra01_h1.xlsx
+/08-revisao-humana/P006_P007_validacao/amostra01_h2.xlsx
+/08-revisao-humana/P019_dedup/dedup_revisao_v1.csv
+/08-revisao-humana/P020_triagem/fila_humana_ta_v1.csv
+/08-revisao-humana/P020_triagem/terceiro_leitor.json
+/dados/decisoes.jsonl
+/dados/registros.csv
+/dados/registros_unicos.csv
+# <<< resumos de terceiros
