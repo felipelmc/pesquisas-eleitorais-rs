@@ -14,7 +14,7 @@ Coordenador: `claude-opus-5-5` (Claude Code). Os agentes reescreveram o artigo d
 | `prompts_final/prompt_verificacao_entrega.md` | verificação independente | claude-opus-5-5 | `e7e183c223f25546…` |
 | `prompts_final/prompt_correcoes_estilo_entrega.md` | correções da verificação e passe de estilo (voz do autor e anti-IA) | claude-opus-5-5 | `0685e99373fcbd7b…` |
 
-Nenhuma dessas etapas valida o conteúdo. A verificação é de IA e não é revisão por especialista humano. A responsabilidade pelo conteúdo é do autor, que leu e aprovou esta versão antes da Emenda 8.
+Nenhuma dessas etapas valida o conteúdo. A verificação é de IA e não é revisão por especialista humano. A responsabilidade pelo conteúdo é do autor, que aprovou esta versão antes da entrega, já com a Emenda 8.
 
 ## Revisão geral de 30/09/2026, noite (Emenda 8)
 

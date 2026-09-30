@@ -20,6 +20,8 @@ Este arquivo transcreve as decisões que o autor (`revisor_humano_1`) tomou em c
 
 Esses pares estavam ligados automaticamente antes. Com as ligações humanas da v1, cada estudo passaria a ter dois registros publicados, e a regra automática não liga dois publicados no mesmo estudo; por isso voltaram a candidatos.
 
+4. **Aprovação da versão final.** Depois da Emenda 8, da verificação independente e da revisão visual, o autor aprovou em chat a versão final do artigo com apêndices (`docs/revisao.pdf`, 50 páginas, 30/09/2026). A aprovação anterior (P038, G9) era da versão sem a Emenda 8.
+
 ## O que o autor não decidiu aqui
 
 A revisão do risco de viés e dos juízos GRADE está em andamento. P033, P035, P036 e P042 continuam abertas até o autor declarar que a concluiu.

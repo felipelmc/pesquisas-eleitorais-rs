@@ -233,3 +233,5 @@ A declaração registra uma decisão única: "Ligar os 9 como versões do mesmo 
 - **Sem mudança:** O2, O6, O7 e O8 (ressalvas sem correção pedida).
 
 Depois das correções, a trava deu OK, com 0 falhas, 0 avisos e 8.492 palavras no corpo.
+
+**Atualização do E4.** Depois das correções, o autor aprovou em chat a versão final, já com a Emenda 8 (registro em `08-revisao-humana/P019_dedup/declaracao_autor_2026-09-30_dedup.md`, decisão 4). Os três trechos passaram a dizer que ele aprovou esta versão, já com a Emenda 8, antes da entrega.
