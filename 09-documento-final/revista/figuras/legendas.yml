@@ -49,14 +49,15 @@ prisma:
   largura: larga
   legenda: >-
     Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação (bases de dados e busca por citações). A
-    remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA. A triagem de
+    remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA, com as fusões
+    de duplicatas decididas pelo autor aplicadas depois da triagem (Emenda 8). A triagem de
     títulos e resumos ficou com agentes de IA, assim como a avaliação dos textos completos, conferida em bloco
     pelo autor (Emenda 7), exceto 16 casos limítrofes decididos pelo autor (8 inclusões e 8 exclusões). A triagem complementar da Emenda 6b entra no
     fluxo sem ramo próprio, e os relatos dela que não foram recuperados estão entre os não recuperados. As caixas
     do modelo PRISMA que não se aplicam a esta síntese (n = 0) foram omitidas. Os motivos de exclusão seguem os
     critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível contam como não
-    recuperados. Os 145 pares candidatos a duplicata foram revistos pelo autor, e as decisões não foram
-    aplicadas: aplicá-las mudaria contagens deste fluxo, e não os estudos incluídos (Apêndice G).
+    recuperados. Nos 44 registros já triados que as fusões absorveram, a decisão mais inclusiva passou ao
+    registro que os absorveu, e os estudos incluídos não mudaram (Apêndice G).
   alt: >-
     Fluxograma em dois ramos paralelos, bases de dados e busca por citações, que descem da identificação à
     triagem e convergem numa caixa final com os estudos e relatos incluídos.

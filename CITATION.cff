@@ -6,10 +6,12 @@ authors:
   - family-names: Lamarca
     given-names: Felipe
     affiliation: "MAPE/IESP-UERJ"
-version: "2026-10-01"
-date-released: 2026-10-01
+version: "v3-final-2026-09-30"
+date-released: 2026-09-30
 url: "https://felipelamarca.com/pesquisas-eleitorais-rs/"
-license: CC-BY-4.0
+license:
+  - CC-BY-4.0
+  - MIT
 keywords:
   - pesquisas eleitorais
   - efeito bandwagon

@@ -2,7 +2,7 @@
 
 Esta declaração complementa a declaração gerada do *log* (`07-relatorio/declaracao_uso_ia.md`), que não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. O estado atual das etapas sem validação humana está no Apêndice G do artigo (versão de entrega de 01/10/2026, Emenda 7).
 
-## Versão de entrega (01/10/2026)
+## Versão de entrega (30/09/2026)
 
 Coordenador: `claude-opus-5-5` (Claude Code). Os agentes reescreveram o artigo de 24/09/2026 como artigo único com apêndices, sem mudar a análise, e nenhum deles leu PDF de estudo incluído nem fez análise nova. O SHA256 é o do arquivo no commit desta versão.
 

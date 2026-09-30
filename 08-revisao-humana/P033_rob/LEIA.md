@@ -33,4 +33,4 @@ Ponto já levantado pelos árbitros de efeitos: em **Fichnova2015a**, 17 dos 37 
    ```
    Antes de rodar, confira na ajuda do comando o formato de `--ignorar-no-geral` (Emenda 4a).
 3. `rob_geral.csv` só recebe `validado_humano = 1` quando **todas** as linhas usadas no julgamento geral tiverem `resolvido_por` humano.
-4. Depois, refaça a cadeia do README a partir de `juntar_rob.py`.
+4. Depois, refaça a cadeia do `REPRODUZIR.md` a partir de `juntar_rob.py`.

@@ -21,4 +21,4 @@ As planilhas são **cegas**: não trazem nenhuma decisão de IA, e nada de IA fo
 
 Observação: a amostra de elusão foi sorteada antes da Emenda 6b. Alguns dos registros sem resumo dela voltaram depois ao texto completo. Codifique mesmo assim, porque a amostra mede a triagem de IA original.
 
-Depois das duas: `rs --dir . pendencia fechar P008 --motivo "..." --por revisor_humano_1`, junto com a P020.
+Depois das duas: `rs --dir . pendencia fechar P008 --motivo "..." --por revisor_humano_1` (a P020 já fechou em 30/09/2026).

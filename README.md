@@ -1,6 +1,6 @@
 # Pesquisas eleitorais publicadas mudam o voto?
 
-Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento. Felipe Lamarca (MAPE/IESP-UERJ), versão de entrega de 01/10/2026.
+Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento. Felipe Lamarca (MAPE/IESP-UERJ), versão de entrega de 30/09/2026.
 
 - **Artigo com apêndices (PDF único):** [`docs/revisao.pdf`](docs/revisao.pdf), também em <https://felipelamarca.com/pesquisas-eleitorais-rs/revisao.pdf>.
 - **Página do projeto:** <https://felipelamarca.com/pesquisas-eleitorais-rs/>. Traz a vitrine interativa, o artigo em HTML, os apêndices e o resumo em linguagem simples.
@@ -19,14 +19,13 @@ Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efei
 
 ## O que teve e o que não teve validação humana
 
-Agentes de IA conduziram as etapas depois do protocolo. O protocolo e a pergunta foram aprovados pelo autor. Em 30/09/2026, o autor declarou ter conferido **em bloco** a busca, a triagem, a elegibilidade, os efeitos (contra a página dos PDFs) e o relato, e ter mantido as decisões em vigor. O registro está em [`08-revisao-humana/declaracao_autor_2026-09-30.md`](08-revisao-humana/declaracao_autor_2026-09-30.md) e na Emenda 7.
+Agentes de IA conduziram as etapas depois do protocolo. O protocolo e a pergunta foram aprovados pelo autor. Em 30/09/2026, o autor declarou ter conferido **em bloco** partes da busca e da seleção (a pré-revisão PRESS por IA, as 81 divergências da triagem e as 165 propostas de elegibilidade), o piloto, os 560 efeitos (contra a página dos PDFs), as divergências da recodificação e o relato, e ter mantido as decisões em vigor. O registro está em [`08-revisao-humana/declaracao_autor_2026-09-30.md`](08-revisao-humana/declaracao_autor_2026-09-30.md) e na Emenda 7. No mesmo dia, a deduplicação que ele decidiu foi aplicada, depois de corrigida a ferramenta (Emenda 8): mudaram contagens do fluxo, e não os incluídos.
 
 Ficaram **sem validação humana**:
-- o risco de viés e a certeza da evidência, julgados só por IA;
-- a validação cega da triagem;
-- a aplicação da deduplicação dos 145 pares candidatos, que foi decidida e não aplicada.
+- o risco de viés e a certeza da evidência, julgados por IA e hoje em revisão pelo autor;
+- a validação cega da triagem.
 
-Essas pendências estão abertas para uma próxima versão ([`08-revisao-humana/README.md`](08-revisao-humana/README.md)). Por isso o `rs status` ainda marca o projeto como rascunho, e a declaração de uso de IA do artigo abre com "RASCUNHO NÃO VALIDADO".
+Essas pendências seguem abertas ([`08-revisao-humana/README.md`](08-revisao-humana/README.md)). Por isso o `rs status` ainda marca o projeto como rascunho, e a declaração de uso de IA do artigo abre com "RASCUNHO NÃO VALIDADO".
 
 ## O que há neste repositório
 
@@ -43,11 +42,11 @@ O material superado fica onde está, porque emendas e notas o citam. Ele não é
 - a síntese anterior à Emenda 5: `06-analise/_superado_pre_revisao_g8/`;
 - os backups de efeitos: `05-decomposicao/efeitos_backup_*`.
 
-As versões ficam nas tags `v1-oqf-2026-09-24` (formato *O que funciona?*) e `v2-rascunho-2026-09-24` (artigo de 24/09). A estrutura detalhada, os PDFs locais, a cadeia que refaz efeitos, síntese e produtos e o histórico das sessões estão em [`REPRODUZIR.md`](REPRODUZIR.md).
+A versão de entrega está na tag `v3-final-2026-09-30`; as anteriores, nas tags `v1-oqf-2026-09-24` (formato *O que funciona?*) e `v2-rascunho-2026-09-24` (artigo de 24/09). A estrutura detalhada, os PDFs locais, a cadeia que refaz efeitos, síntese e produtos e o histórico das sessões estão em [`REPRODUZIR.md`](REPRODUZIR.md).
 
 ## Como citar
 
-Lamarca, Felipe. 2026. *Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos* bandwagon *e* underdog *e o comparecimento*. Documento de trabalho, versão de 01/10/2026. <https://felipelamarca.com/pesquisas-eleitorais-rs/>. Ver também [`CITATION.cff`](CITATION.cff).
+Lamarca, Felipe. 2026. *Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos* bandwagon *e* underdog *e o comparecimento*. Documento de trabalho, versão de 30/09/2026. <https://felipelamarca.com/pesquisas-eleitorais-rs/>. Ver também [`CITATION.cff`](CITATION.cff).
 
 ## Licenças
 

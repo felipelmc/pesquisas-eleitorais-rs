@@ -2,7 +2,9 @@
 
 Em 30/09/2026, o autor declarou ter conferido as etapas abaixo e concordar com as decisões em vigor. A declaração está em `declaracao_autor_2026-09-30.md` e a emenda correspondente é a Emenda 7 (`00-protocolo/emendas.md`). A conferência foi **em bloco**: o autor não preencheu as planilhas item a item. O coordenador de IA preencheu os campos humanos a partir da declaração, e cada fechamento cita esse arquivo no motivo.
 
-Ficam abertas as pendências de risco de viés, certeza (GRADE), validação cega da triagem e aplicação da deduplicação. Na versão de entrega, essas etapas são declaradas como feitas só por IA. Numa evolução do projeto, precisam de revisão humana: os pacotes desta pasta continuam prontos para isso.
+No mesmo dia, a deduplicação que o autor decidiu foi aplicada, com a ferramenta corrigida, e os 9 pares de versão que a aplicação reabriu foram ligados por ele (Emenda 8; `P019_dedup/declaracao_autor_2026-09-30_dedup.md`).
+
+Ficam abertas as pendências de risco de viés, certeza (GRADE) e validação cega da triagem. Na versão de entrega, essas etapas são declaradas como feitas só por IA. O autor está revendo o risco de viés e o GRADE; quando concluir, a declaração dele fecha P033, P035, P036 e P042. Os pacotes desta pasta continuam prontos para isso.
 
 Definições de rs:
 
@@ -10,7 +12,7 @@ Definições de rs:
 rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }
 ```
 
-## Fechadas em 30/09/2026 (Emenda 7)
+## Fechadas em 30/09/2026 (Emendas 7 e 8)
 
 | Pendência | Etapa | O que o autor confirmou | Registro |
 |---|---|---|---|
@@ -21,21 +23,21 @@ rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }
 | P039 | extração (G7) | os 560 efeitos, conferidos na página do PDF (`verificado_humano = sim`); os pontos de `efeitos/pontos_para_o_revisor.md` no estado atual | `05-decomposicao/efeitos_extraidos.csv` |
 | P037 | extração | as 259 divergências da recodificação, com o valor original | `P037_concordancia/arbitragem_humana.csv` |
 | P038 | relato (G9) | leu e aprovou o artigo final com apêndices (versão de entrega) | motivo no log |
+| P019 | organização | as 145 decisões de deduplicação, aplicadas depois da triagem, com a decisão mais inclusiva nos 44 registros absorvidos já triados, e os 9 pares de versão, ligados por ele (Emenda 8) | `P019_dedup/declaracao_autor_2026-09-30_dedup.md` |
 
 
 ## Ordem sugerida e esforço
 
-Pendências que continuam abertas, para a próxima versão:
+Pendências que continuam abertas:
 
 | # | Pendência | Etapa | O que fazer | Pacote | Esforço |
 |---|---|---|---|---|---|
-| 1 | P019 | organização | aplicar as decisões de deduplicação já registradas nos 145 pares (66 fusões, 56 rejeições, 23 ligações). Antes, corrigir no `rs.py` a consolidação da triagem para registros absorvidos, rodar o filtro de novo e decidir os 9 pares de versão que surgirão; depois, refazer o PRISMA | `P019_dedup/` | 2 a 3 h |
-| 2 | P006 | triagem T/A | amostra de validação cega: 141 registros, dois codificadores que não viram as decisões da IA | `P006_P007_validacao/` | 2 × 1,5 h |
-| 3 | P007 | triagem T/A | amostra de elusão cega: 300 registros excluídos pela IA | `P006_P007_validacao/` | 2 h |
-| 4 | P008 | portão G4 | confirmar o G4 depois de P006 e P007 (recall da triagem por IA) | seção abaixo | 5 min |
-| 5 | P033 | extração e RoB (G7) | validar os 259 domínios de risco de viés (88 desacordos primeiro) e confirmar o G7 | `P033_rob/` | 4 a 6 h |
-| 6 | P036 e P042 | síntese | validar os juízos GRADE; a P042, aberta pelo `rs caixa`, pede o mesmo | `P036_grade/` | 1 h |
-| 7 | P035 | portão G8 | confirmar o G8 depois da P036 | seção abaixo | 5 min |
+| 1 | P006 | triagem T/A | amostra de validação cega: 141 registros, dois codificadores que não viram as decisões da IA | `P006_P007_validacao/` | 2 × 1,5 h |
+| 2 | P007 | triagem T/A | amostra de elusão cega: 300 registros excluídos pela IA | `P006_P007_validacao/` | 2 h |
+| 3 | P008 | portão G4 | confirmar o G4 depois de P006 e P007 (recall da triagem por IA) | seção abaixo | 5 min |
+| 4 | P033 | extração e RoB (G7) | validar os 259 domínios de risco de viés (88 desacordos primeiro) e confirmar o G7 | `P033_rob/` | 4 a 6 h |
+| 5 | P036 e P042 | síntese | validar os juízos GRADE; a P042, aberta pelo `rs caixa`, pede o mesmo | `P036_grade/` | 1 h |
+| 6 | P035 | portão G8 | confirmar o G8 depois da P036 | seção abaixo | 5 min |
 
 ## Portões
 
@@ -52,3 +54,12 @@ Troque `P008` por P035, conforme o portão.
 - Se RoB ou GRADE mudarem, refaça a cadeia do `REPRODUZIR.md` (seção "Refazer os produtos") e depois `bash ferramentas/refazer_produtos.sh`.
 - Se a certeza mudar, a sentinela de `09-documento-final/spec_final.md` aponta quais seções do artigo reescrever.
 - Com todas as pendências fechadas, o `rs status` deixa de marcar rascunho, e a linha "RASCUNHO NÃO VALIDADO" sai da declaração de uso de IA do artigo.
+
+## Para uma próxima versão (decisões sem pendência)
+
+As leituras críticas simuladas por IA de 24/09/2026 (`09-documento-final/resposta_pareceres.md`) deixaram decisões do autor que não têm pendência no `rs.py`. As ligadas a pendências já fechadas pela Emenda 7 (P037, P039) ficaram no estado atual; as ligadas à P036 entram na revisão do GRADE. Sobram estas, para uma evolução do projeto:
+
+- busca em registros de experimentos e pré-registros (AEA, OSF, EGAP);
+- versão datada do ROBINS-I V2 usada, datas de acesso e parâmetros dos modelos de IA, que não foram registrados;
+- tabela dos motivos de não recuperação dos 338 relatos buscados e tentativa por meios legítimos (acesso institucional, empréstimo, contato com autores);
+- fonte primária do voto obrigatório no Brasil (Constituição, art. 14) e uma medida publicada de confiança nas pesquisas eleitorais, para o contexto brasileiro.

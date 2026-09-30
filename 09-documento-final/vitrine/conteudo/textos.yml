@@ -10,10 +10,6 @@
 # - Linha do tempo do Brasil: cada item traz "confirmar", um trecho literal de insumos/contexto_brasil.md
 #   (ou de 00-protocolo/emendas.md, quando indicado); a montagem falha se o trecho não estiver lá.
 
-barra:
-  texto: "Síntese conduzida com agentes de IA · risco de viés e certeza sem validação humana"
-  link: "ver o que ficou sem validação"
-
 ferramentas:
   tema_claro: "Tema claro"
   tema_escuro: "Tema escuro"
@@ -167,10 +163,10 @@ pendencias:
   kicker: "Validação humana"
   titulo: "O que ficou sem validação humana"
   intro: >-
-    Agentes de IA conduziram as etapas depois do protocolo. Em 30/09/2026, o autor conferiu em bloco a busca, a
-    triagem, a elegibilidade, os efeitos e o relato, e fechou as pendências dessas etapas. As que seguem abaixo
-    ficam abertas para uma próxima versão: o risco de viés e a certeza foram julgados só por IA, a triagem não
-    teve validação cega e a deduplicação foi decidida, mas não aplicada.
+    Agentes de IA conduziram as etapas depois do protocolo. Em 30/09/2026, o autor conferiu em bloco partes da
+    busca, da seleção e da extração, aprovou o relato e fechou as pendências dessas etapas; a deduplicação que ele
+    decidiu foi aplicada (Emenda 8). As que seguem abaixo continuam abertas: o risco de viés e a certeza, julgados
+    por IA, estão em revisão pelo autor, e a triagem não teve validação cega.
   medidor: "{{numeros.pendencias_fechadas}} de {{numeros.pendencias_total}} fechadas"
   guia: "Etapas sem validação humana (Apêndice G)"
   esforco: "esforço estimado"
@@ -180,7 +176,7 @@ documentos:
   titulo: "Documentos e citação"
   em_preparacao: "em preparação"
   citar_titulo: "Como citar"
-  citar_nota: "Documento de trabalho, versão de 01/10/2026."
+  citar_nota: "Documento de trabalho, versão de 30/09/2026."
   copiar: "Copiar BibTeX"
   copiado: "Copiado"
   grupos:
@@ -238,7 +234,8 @@ processo:
   intro: >-
     A síntese foi feita entre {{numeros.data_inicio}} e {{numeros.data_fim}}, com agentes de IA em quase todas as etapas.
     O autor aprovou a pergunta e o protocolo. Os portões seguintes foram aprovados em modo automático, e o autor
-    conferiu em bloco a busca, a seleção, a extração e o relato no fim (Emenda 7).
+    conferiu em bloco partes da busca, da seleção e da extração e aprovou o relato no fim (Emenda 7). A
+    deduplicação foi aplicada depois (Emenda 8).
   nota: "O log registrava decisões de triagem como humanas, e a Emenda 6a corrigiu esse registro."
   legenda: "Portões, emendas e saídas finais de script ao longo da síntese, por quem decidiu (horário do log, UTC)."
   raias:
@@ -260,6 +257,7 @@ processo:
     "Emenda 5": "síntese pelas células do protocolo"
     "Emenda 6": "correção de atribuição e registros sem resumo"
     "Emenda 7": "conferência do autor em bloco e versão de entrega"
+    "Emenda 8": "deduplicação aplicada depois da triagem"
 
 brasil:
   kicker: "Contexto"
@@ -305,9 +303,10 @@ rodape:
   creditos: >-
     Fontes STIX Two Text e Fira Sans, sob a SIL Open Font License 1.1. Gráficos com D3 7.9.0, sob a licença ISC.
     Todo o código, os dados e as fontes estão embutidos nesta página, que não faz nenhuma requisição externa.
-  ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão do autor. Risco de viés e certeza sem validação humana."
-  versao: "Versão de entrega (commit `{{meta.commit}}`, de {{meta.data_versao}})."
+  ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão do autor."
+  versao: "Versão de entrega (tag `{{meta.tag}}`, de {{meta.data_versao}})."
   mudou_titulo: "O que mudou desde 24/09"
   mudou: >-
-    Esta versão registra a conferência do autor (Emenda 7) e junta o artigo e os apêndices num PDF só. As células,
-    as contagens e as certezas são as de 24/09/2026, guardadas na tag `{{meta.tag_anterior}}`.
+    Esta versão registra a conferência do autor (Emenda 7), aplica a deduplicação que ele decidiu (Emenda 8) e junta
+    o artigo e os apêndices num PDF só. As células e as certezas são as de 24/09/2026, guardadas na tag
+    `{{meta.tag_anterior}}`; mudaram só as contagens do fluxo.

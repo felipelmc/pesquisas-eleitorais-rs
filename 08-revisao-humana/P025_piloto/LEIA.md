@@ -1,6 +1,9 @@
 # P025: conferência humana do piloto de extração (G6)
 
-O piloto teve 3 textos: Meer2015a (survey experiment), Klor2017a (laboratório e eleições reais) e Araujo2021a (experimento natural, Emenda 1). Até aqui, só o coordenador de IA revisou o piloto (`05-decomposicao/piloto/revisao_coordenador.md`). A Emenda 2 saiu dessa revisão e foi decidida pela IA (Emenda 6a).
+> **Fechada em 30/09/2026 (Emenda 7).** O autor declarou ter conferido esta etapa em bloco e manteve o estado atual (`08-revisao-humana/declaracao_autor_2026-09-30.md`). O texto abaixo descreve o pacote como foi preparado em 23/09/2026.
+
+
+O piloto teve 3 textos: Meer2015a (survey experiment), Klor2017a (laboratório e eleições reais) e Araujo2021a (experimento natural, Emenda 1). Até 30/09/2026, só o coordenador de IA tinha revisado o piloto (`05-decomposicao/piloto/revisao_coordenador.md`). A Emenda 2 saiu dessa revisão e foi decidida pela IA (Emenda 6a).
 
 ## O que já foi feito por IA depois do piloto (não substitui a conferência)
 
@@ -31,4 +34,4 @@ rs --dir . pendencia fechar P025 --motivo "piloto conferido contra os PDFs: <res
 rs --dir . pendencia fechar P026 --motivo "G6 confirmado após P025" --por revisor_humano_1
 ```
 
-Se corrigir algum efeito, refaça a cadeia do README a partir de `preparar-efeitos`.
+Se corrigir algum efeito, refaça a cadeia do `REPRODUZIR.md` a partir de `preparar-efeitos`.

@@ -93,9 +93,11 @@ def arquivos():
                 "07-relatorio/incluidos.csv", "07-relatorio/prisma_contagens.json", "07-relatorio/prisma.svg",
                 "07-relatorio/checklist_prisma.csv", "07-relatorio/checklist_swim.csv",
                 "07-relatorio/declaracao_uso_ia.md", "07-relatorio/_pendencias_abertas.json",
-                "09-documento-final/declaracao_ia_v2.md", "08-revisao-humana/declaracao_autor_2026-09-30.md"):
+                "09-documento-final/declaracao_ia_v2.md", "08-revisao-humana/declaracao_autor_2026-09-30.md",
+                "08-revisao-humana/P019_dedup/declaracao_autor_2026-09-30_dedup.md",
+                "08-revisao-humana/P019_dedup/dedup_revisao_v2_versoes.csv"):
         add(rel)
-    # decisões de deduplicação registradas e não aplicadas (P019), sem os resumos truncados dos pares
+    # decisões de deduplicação do autor (P019, aplicadas pela Emenda 8), sem os resumos truncados dos pares
     linhas = list(csv.DictReader(open(R / "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv", encoding="utf-8-sig")))
     cols = [c for c in linhas[0] if not c.startswith("resumo_")]
     itens.append(("08-revisao-humana/P019_dedup/dedup_revisao_v1.csv",

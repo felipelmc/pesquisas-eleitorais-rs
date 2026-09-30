@@ -23,7 +23,7 @@ O arquivo é `grade_decisao_humana.csv`, com uma linha por célula. Traz a certe
 2. **Célula Stolwijk2019b + Brugarolas2021:** o rebaixamento por risco de viés foi de 1 nível, embora Stolwijk2019b seja grave. Com 2 níveis, a célula fica em muito baixa.
 3. **Viés de publicação:** houve rebaixamento onde há estudos pequenos, todos na mesma direção e sem nenhum nulo. No agrupamento amplo randomizado de apoio (9 de 9 *bandwagon*), é esse rebaixamento que leva a muito baixa; sem ele, a certeza seria baixa. É a mesma questão da versão anterior da P036.
 4. **Composição das células:** depende dos pontos em `08-revisao-humana/efeitos/pontos_para_o_revisor.md` (dicionário `FORA`, alvo de Witsman2016a-E01, comparador de Grillo2024c, ano em experimentos de laboratório). Se mudar algum, refaça a SWiM e o GRADE da célula.
-5. **RoB sem validação:** nenhum julgamento de RoB nem nenhum número de efeito foi validado por humano (P033 e P039). O GRADE herda isso.
+5. **RoB sem validação:** nenhum julgamento de RoB foi validado por humano (P033). Os números dos efeitos foram conferidos pelo autor em bloco em 30/09/2026 (P039, Emenda 7). O GRADE herda o RoB não validado.
 
 ## Como registrar
 
@@ -36,4 +36,4 @@ O arquivo é `grade_decisao_humana.csv`, com uma linha por célula. Traz a certe
    rs --dir . pendencia fechar P042 --motivo "mesma validação da P036" --por revisor_humano_1
    rs --dir . pendencia fechar P035 --motivo "G8 confirmado" --por revisor_humano_1
    ```
-5. Se alguma certeza mudar, reescreva as seções afetadas do relatório com `07-relatorio/prompt_redator_v2.md`.
+5. Se alguma certeza mudar, rode `bash ferramentas/refazer_produtos.sh`: a sentinela da `09-documento-final/spec_final.md` (seção 10) diz quais seções do artigo reescrever, com os prompts de `09-documento-final/prompts_final/`.

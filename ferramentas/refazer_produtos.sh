@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Refaz os produtos de relato depois que a síntese (06-analise/) ou as pendências mudarem, a partir da raiz:
 #   bash ferramentas/refazer_produtos.sh
-# Pré-requisito: a cadeia de análise do README ("Refazer os produtos depois de fechar pendências", passos 1 a 4)
+# Pré-requisito: a cadeia de análise do REPRODUZIR.md ("Refazer os produtos depois de fechar pendências", passos 1 a 4)
 # já rodou, com rs pendencia listar > 07-relatorio/_pendencias_abertas.json e rs declaracao-ia por último.
 #
 # 1. Sentinela: compara o SHA256 das fontes da síntese com o registrado em 09-documento-final/spec_final.md (seção 10).

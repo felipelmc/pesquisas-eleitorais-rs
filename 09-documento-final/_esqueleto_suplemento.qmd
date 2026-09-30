@@ -1,7 +1,7 @@
 ---
 title: "Apêndices"
 subtitle: "Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
-date: 2026-10-01
+date: 2026-09-30
 keywords: [pesquisas eleitorais, apêndices, síntese sistemática de evidências]
 paisagem: true
 suppress-bibliography: true

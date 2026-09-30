@@ -675,7 +675,7 @@ def main():
     for m_ in re.finditer(r"^\| (E00\d|Emenda \d) \| (\d{4}-\d{2}-\d{2}) \| [^|]* \| [^|]* \| ([A-E](?: e [A-E])?) \|", em_md, re.M):
         emendas.append({"id": m_.group(1), "data": m_.group(2), "tipo": m_.group(3),
                         "t": dt.datetime.strptime(m_.group(2), "%Y-%m-%d").replace(tzinfo=dt.timezone.utc).timestamp()})
-    confere(len(emendas) == 9, f"esperava 9 emendas (E001, E002 e Emendas 1 a 7) na tabela de emendas.md, achei {len(emendas)}")
+    confere(len(emendas) == 10, f"esperava 10 emendas (E001, E002 e Emendas 1 a 8) na tabela de emendas.md, achei {len(emendas)}")
     dias_log = collections.Counter()
     with open(RAIZ / "rs_log.jsonl", encoding="utf-8") as f:
         for linha in f:
@@ -783,7 +783,7 @@ def main():
                  "subtitulo": "Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos "
                               "bandwagon e underdog e o comparecimento",
                  "autor": "Felipe Lamarca", "afiliacao": "MAPE/IESP-UERJ", "data_versao": data_br,
-                 "commit": commit, "tag_anterior": "v2-rascunho-2026-09-24", "url": "https://felipelamarca.com/pesquisas-eleitorais-rs/",
+                 "commit": commit, "tag": TAG_VERSAO, "tag_anterior": "v2-rascunho-2026-09-24", "url": "https://felipelamarca.com/pesquisas-eleitorais-rs/",
                  "fontes": {rel: sha(rel) for rel in ("06-analise/certeza.csv", "06-analise/swim_principal/swim_resumo.json",
                                                       "07-relatorio/_pendencias_abertas.json",
                                                       "09-documento-final/revista/celulas.json")}},
@@ -809,6 +809,8 @@ def main():
 # ------------------------------------------------------------------ SCHEMA: campos permitidos por bloco
 # None = valor primitivo (ou lista de primitivos); dict = objeto com essas chaves; [dict] = lista de objetos;
 # "*" como chave = dicionário de chaves livres cujos valores seguem o esquema indicado.
+# Tag da versão publicada: o commit que leva docs/ é criado depois da montagem, então o rodapé cita a tag, e não o hash.
+TAG_VERSAO = "v3-final-2026-09-30"
 ROB_ITEM = {"construto": None, "ferramenta": None, "geral": None, "geral_rot": None, "simbolo": None, "nivel": None}
 J = {"j": None, "rot": None, "simbolo": None, "nivel": None, "n": None}
 GRUPO = {"rotulo": None, "classe_rot": None, "bloco": None, "pos_rot": None, "k": None, "n_dir": None, "n_pos": None,
@@ -816,7 +818,7 @@ GRUPO = {"rotulo": None, "classe_rot": None, "bloco": None, "pos_rot": None, "k"
          "certeza": None, "nivel": None, "certeza_rot": None, "estudos": None, "ordem": None}
 SCHEMA = {
     "meta": {"titulo": None, "subtitulo": None, "autor": None, "afiliacao": None, "data_versao": None, "commit": None,
-             "tag_anterior": None, "url": None, "fontes": {"*": None}},
+             "tag": None, "tag_anterior": None, "url": None, "fontes": {"*": None}},
     "numeros": {"*": None},
     "heroi": {"pontos": None},
     "mensagens": {"provisorio": None, "fonte": None, "itens": [{"titulo": None, "html": None}]},

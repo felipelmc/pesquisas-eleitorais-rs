@@ -6,20 +6,20 @@ Guia técnico do repositório: estrutura, PDFs locais, a cadeia que refaz efeito
 
 | Pasta | Conteúdo |
 |---|---|
-| `00-protocolo/` | pergunta, teoria do programa e DAG, protocolo congelado no G2, codebooks, âncoras, `emendas.md` (E001, E002 e Emendas 1 a 6), `correcao_atribuicao.csv` |
+| `00-protocolo/` | pergunta, teoria do programa e DAG, protocolo congelado no G2, codebooks, âncoras, `emendas.md` (E001, E002 e Emendas 1 a 8), `correcao_atribuicao.csv` |
 | `01-busca/` | strings versionadas, `log_buscas.csv`, recall das âncoras, pré-PRESS por IA, pares de duplicata |
 | `02-triagem/` | lotes e respostas dos triadores A e B, árbitro, fila humana, amostras de validação e elusão (não codificadas), `sem_resumo_revisao/` (Emenda 6b) |
 | `03-textos/` | lista para baixar, relatório de PDFs, fichas de elegibilidade, `elegibilidade_tc_final.csv`, ligação de relatos, `sessao_2026-09-23/`. Os PDFs (`pdfs/`, `pdfs_descartados/`) **não são versionados** (ver abaixo) |
 | `04-qualidade/` | RoB 2, ROBINS-I V2 e EPOC: fichas A e B, propostas do árbitro (`arbitragem/`), consenso, `rob_geral.csv`, `notas_rob.md` |
 | `05-decomposicao/` | fichamentos (`fichamentos_master.csv`), efeitos por estudo (`efeitos/<chave>.csv`), verificação, validação da extração, `notas_extracao_completa.md`, `correcoes_revisao_g8.csv`, `correcoes_sessao_2026-09-23.csv` |
 | `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades, inclusive ICC 0,20), meta exploratória, `certeza.csv`, `certeza_agrupamento_amplo.csv`, `revisao_metodologica_g8.md`. `_superado_pre_revisao_g8/` guarda a síntese anterior à Emenda 5, só para histórico |
-| `07-relatorio/` | manuscrito, PRISMA (contagens, SVG, PNG), checklists PRISMA e SWiM, `references.bib`, declaração de uso de IA, prompts do redator |
-| `08-revisao-humana/` | declaração do autor (30/09/2026), o que foi fechado e o que falta, pacotes das pendências abertas, re-extração cega e arbitragens dos efeitos |
-| `09-documento-final/` | artigo final. O texto fica em `_esqueleto_revisao_final.qmd`; `montar_revisao_final.py` insere figuras (`@@FIGURA@@`) e tabelas (`@@TABELA@@`) geradas dos arquivos e grava `revisao_final.qmd`. Os apêndices A a G saem de `_esqueleto_suplemento.qmd` por `montar_suplemento.py` (arquivo `suplemento.qmd`, publicado como `apendices.html` e juntado ao PDF do artigo), e o resumo em linguagem simples está em `linguagem_simples.qmd`. `revista/` guarda o template Typst, o filtro `inline.lua`, as fontes OFL, o CSL da APSA, `rotulos.yml` (contrato de rótulos), `celulas.json` e `numeros_v2.json` (únicas portas de número derivado), `referencias.json` e as figuras (`revista/figuras/`, dados em Python e desenho em R). As travas são `conferir_reestruturacao.py` (números, enunciados, callouts, rótulos, proibições) e `conferir_numeros.py` (passes de estilo). Também estão aqui: `spec_final.md` (especificação da versão de entrega, com a sentinela; `spec_v2.md` é a de 24/09), `insumos/` (livro, exemplares, Garritty, revisões anteriores, contexto brasileiro), `prompts_v2/`, `verificacao_v2.md`, `verificacao_final.md`, `auditoria_final*.md`, `resposta_pareceres.md`, `_leituras/`, `_avaliacao/`, `_qa/`, `declaracao_ia_v2.md` e a vitrine (`vitrine/`: exportação, fontes do JS e CSS, QA com Playwright) |
+| `07-relatorio/` | relatório técnico de 24/09 (`relatorio.qmd`, superado pelo artigo e não publicado), PRISMA (contagens, SVG, PNG), checklists PRISMA e SWiM, `references.bib`, declaração de uso de IA, prompts do redator |
+| `08-revisao-humana/` | declaração do autor (30/09/2026), o que foi fechado e o que falta, pacotes de cada pendência (abertas e fechadas), re-extração cega e arbitragens dos efeitos |
+| `09-documento-final/` | artigo final. O texto fica em `_esqueleto_revisao_final.qmd`; `montar_revisao_final.py` insere figuras (`@@FIGURA@@`) e tabelas (`@@TABELA@@`) geradas dos arquivos e grava `revisao_final.qmd`. Os apêndices A a G saem de `_esqueleto_suplemento.qmd` por `montar_suplemento.py` (arquivo `suplemento.qmd`, publicado como `apendices.html` e juntado ao PDF do artigo), e o resumo em linguagem simples está em `linguagem_simples.qmd`. `revista/` guarda o template Typst, o filtro `inline.lua`, as fontes OFL, o CSL da APSA, `rotulos.yml` (contrato de rótulos), `celulas.json` e `numeros_v2.json` (únicas portas de número derivado), `referencias.json` e as figuras (`revista/figuras/`, dados em Python e desenho em R). As travas são `conferir_reestruturacao.py` (números, enunciados, callouts, rótulos, proibições) e `conferir_numeros.py` (passes de estilo). Também estão aqui: `spec_final.md` (especificação da versão de entrega, com a sentinela; `spec_v2.md` é a de 24/09), `insumos/` (livro, exemplares, Garritty, revisões anteriores, contexto brasileiro), `prompts_final/` e `_blocos/` (redação da versão de entrega), `verificacao_entrega.md` (verificação independente da versão de entrega), os históricos `prompts_v2/`, `verificacao_v2.md` e `verificacao_final.md`, `auditoria_final*.md`, `resposta_pareceres.md`, `_leituras/`, `_avaliacao/`, `_qa/`, `declaracao_ia_v2.md` e a vitrine (`vitrine/`: exportação, fontes do JS e CSS, QA com Playwright) |
 | `docs/` | versão publicada no GitHub Pages (lista branca): `index.html` (vitrine), `revisao.pdf` (artigo e apêndices num PDF só), `revisao.html`, `apendices.html`, `linguagem-simples.html` e `pacote-replicacao.zip`. Tudo é gerado por `ferramentas/publicar.sh` |
 | `dados/` | registros e decisões. Só a skill escreve aqui |
 | `rs_estado.json`, `rs_log.jsonl` | estado e registro de eventos da skill (append-only). Nunca editar à mão |
-| `ferramentas/` | `publicar.sh` (gera e confere `docs/`), `refazer_produtos.sh` (sentinela, tabelas, caixa e publicação), `juntar_pdf.py` (artigo + apêndices), `montar_pacote.py` (pacote de replicação sanitizado; modelo do `LEIA.md` em `pacote/`), `barra_publicacao.py`, e conferências auxiliares: `checar_arbitros.py <raiz> [max_palavras] [subpasta]` confere vocabulário e trecho literal na página das propostas do árbitro de RoB; `achar_trecho.py <verificacao_citacoes.csv> <pasta_pdfs>` sugere o trecho literal mais próximo para citações reprovadas no gate |
+| `ferramentas/` | `publicar.sh` (gera e confere `docs/`), `refazer_produtos.sh` (sentinela, tabelas, caixa e publicação), `juntar_pdf.py` (artigo + apêndices), `montar_pacote.py` (pacote de replicação sanitizado; modelo do `LEIA.md` em `pacote/`), `propagar_verificado_humano.py` (leva a marca `verificado_humano` do arquivo combinado aos CSVs por estudo; dry run por padrão, `--aplicar` grava), `barra_publicacao.py`, e conferências auxiliares: `checar_arbitros.py <raiz> [max_palavras] [subpasta]` confere vocabulário e trecho literal na página das propostas do árbitro de RoB; `achar_trecho.py <verificacao_citacoes.csv> <pasta_pdfs>` sugere o trecho literal mais próximo para citações reprovadas no gate |
 
 ## Cópia de trabalho e PDFs
 
@@ -28,7 +28,7 @@ Guia técnico do repositório: estrutura, PDFs locais, a cadeia que refaz efeito
   - `03-textos/pdfs/` tem 190 PDFs, os textos completos obtidos, nomeados `<chave>.pdf`, e uma página HTML.
   - `03-textos/pdfs_descartados/` tem 20: cópias de outra versão do mesmo trabalho, só folha de rosto ou documento errado. Os motivos estão em `03-textos/conferencia_pdfs.csv`.
 
-  Sem eles não rodam `rs analise verificar-efeitos`, a conferência humana dos efeitos (P039), as arbitragens nem os scripts de `ferramentas/`.
+  Sem eles não rodam `rs analise verificar-efeitos`, uma nova conferência dos efeitos na página do PDF, as arbitragens nem os scripts de conferência de `ferramentas/`.
 - **Clone novo sem PDFs:** copie a pasta `03-textos/pdfs/` de uma cópia existente, ou baixe de novo com a skill `baixar-pdfs-academicos` a partir de `03-textos/para_baixar.csv`. O arquivo `03-textos/relatorio_pdfs.csv` diz de onde veio cada um. Os que só vieram de páginas de autor ou de repositórios podem não ser encontrados de novo; confira com `03-textos/verificacao_conteudo.csv`. Nunca use Sci-Hub ou fontes não autorizadas.
 
 ## Refazer os produtos depois de fechar pendências
@@ -74,7 +74,6 @@ done
 rs --dir . prisma            # regrava checklist_prisma.csv: preencha local_no_relato de novo depois
 rs --dir . incluidos
 rs --dir . pendencia listar > 07-relatorio/_pendencias_abertas.json
-# manuscrito: subagente com 07-relatorio/prompt_redator_v2.md
 rs --dir . declaracao-ia     # sempre por último, antes do render
 bash ferramentas/refazer_produtos.sh   # sentinela (spec_final.md), tabelas de insumo, caixa OQF e publicação (ferramentas/publicar.sh)
 ```
@@ -82,13 +81,15 @@ bash ferramentas/refazer_produtos.sh   # sentinela (spec_final.md), tabelas de i
 Cuidados:
 
 - `rs bib` regrava `07-relatorio/references.bib` e apaga as três referências acrescentadas à mão (Hardmeier2008, MoyRinke2012, Barnfield2019). Se rodar, acrescente-as de novo.
-- Os números do manuscrito e do artigo final são copiados dos arquivos por subagentes redatores. Se a síntese mudar, os dois textos precisam ser reescritos, não só renderizados. O `refazer_produtos.sh` para quando a sentinela de `09-documento-final/spec_final.md` (seção 10) muda, e a seção diz quais partes reescrever. No artigo, isso significa editar o esqueleto com os prompts de `09-documento-final/prompts_final/`, remontar, passar `conferir_reestruturacao.py`, rodar a verificação e passar `conferir_numeros.py` em todo passe de estilo.
-- `rs caixa` é opcional neste tipo de revisão. Rodá-lo abre a pendência `certeza_caixa`, que repete a validação do GRADE.
+- Os números do artigo são copiados dos arquivos por subagentes redatores. Se a síntese mudar, o texto precisa ser reescrito, não só renderizado (o relatório técnico de 24/09, `07-relatorio/relatorio.qmd`, está superado e não é mais mantido). O `refazer_produtos.sh` para quando a sentinela de `09-documento-final/spec_final.md` (seção 10) muda, e a seção diz quais partes reescrever. No artigo, isso significa editar o esqueleto com os prompts de `09-documento-final/prompts_final/`, remontar, passar `conferir_reestruturacao.py`, rodar a verificação e passar `conferir_numeros.py` em todo passe de estilo.
+- `rs caixa` é opcional neste tipo de revisão. Rodá-lo abre a pendência `certeza_caixa`, que repete a validação do GRADE; rodá-lo de novo mantém o ID enquanto o número de células pendentes não muda.
+- Os 40 arquivos `05-decomposicao/efeitos/<chave>.csv` trazem `verificado_humano = sim` desde 30/09/2026 (`ferramentas/propagar_verificado_humano.py`). Ao corrigir uma linha, apague a marca dela: o `preparar-efeitos` só derruba a marca que herda do arquivo combinado, e não a que já vem no arquivo por estudo.
+- Dedup depois da triagem (como a da Emenda 8): rode `filtrar`, `triagem consolidar --regra liberal`, `textos elegibilidade consolidar` (só se algum absorvido tiver decisão de texto completo), `prisma` e `incluidos`, nesta ordem, e confira que `incluidos.csv` não mudou.
 - Quando a última pendência fechar, o `rs status` deixa de marcar rascunho. Aí tire a linha "RASCUNHO NÃO VALIDADO" da abertura da declaração de uso de IA do artigo (Informações adicionais).
 
 ## Histórico das sessões
 
-A versão de entrega de 01/10/2026 (Emenda 7) registrou a conferência do autor e reescreveu o artigo como PDF único com apêndices, sem mudar a análise. A versão de 24/09/2026 está na tag `v2-rascunho-2026-09-24`; a anterior, no formato *O que funciona?*, na tag `v1-oqf-2026-09-24`. As seções abaixo descrevem o que foi feito até 24/09/2026, com os números daquela data.
+A versão de entrega de 30/09/2026 (tag `v3-final-2026-09-30`) registrou a conferência do autor (Emenda 7), reescreveu o artigo como PDF único com apêndices e aplicou a deduplicação decidida por ele (Emenda 8), sem mudar a análise; só as contagens do fluxo mudaram. A versão de 24/09/2026 está na tag `v2-rascunho-2026-09-24`; a anterior, no formato *O que funciona?*, na tag `v1-oqf-2026-09-24`. As seções abaixo descrevem o que foi feito até 24/09/2026, com os números daquela data.
 
 ### Sessão de 23 e 24/09/2026: o que foi feito
 

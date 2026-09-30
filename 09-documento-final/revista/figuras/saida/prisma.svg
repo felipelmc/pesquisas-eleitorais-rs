@@ -94,17 +94,17 @@
 <text x='35.02' y='84.19' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='42.25px' lengthAdjust='spacingAndGlyphs'>BDTD (n = 80)</text>
 <text x='147.35' y='52.94' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='86.92px' lengthAdjust='spacingAndGlyphs'>Removidos por script antes</text>
 <text x='147.35' y='61.87' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='63.62px' lengthAdjust='spacingAndGlyphs'>da triagem (sem IA):</text>
-<text x='154.07' y='70.80' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>duplicatas (n = 46)</text>
+<text x='154.07' y='70.80' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='57.62px' lengthAdjust='spacingAndGlyphs'>duplicatas (n = 91)</text>
 <text x='154.07' y='79.73' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='82.16px' lengthAdjust='spacingAndGlyphs'>publicados antes de 2010,</text>
-<text x='154.07' y='88.66' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='67.44px' lengthAdjust='spacingAndGlyphs'>filtro de ano (n = 148)</text>
+<text x='154.07' y='88.66' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='67.02px' lengthAdjust='spacingAndGlyphs'>filtro de ano (n = 143)</text>
 <text x='28.29' y='132.59' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='93.73px' lengthAdjust='spacingAndGlyphs'>Títulos e resumos triados por</text>
-<text x='28.29' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='38.56px' lengthAdjust='spacingAndGlyphs'>IA (n = 1.573)</text>
+<text x='28.29' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='39.02px' lengthAdjust='spacingAndGlyphs'>IA (n = 1.533)</text>
 <text x='147.35' y='132.59' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='71.08px' lengthAdjust='spacingAndGlyphs'>Registros excluídos na</text>
-<text x='147.35' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='77.88px' lengthAdjust='spacingAndGlyphs'>triagem por IA (n = 1.314)</text>
+<text x='147.35' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='77.25px' lengthAdjust='spacingAndGlyphs'>triagem por IA (n = 1.277)</text>
 <text x='28.29' y='176.53' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='71.97px' lengthAdjust='spacingAndGlyphs'>Relatos buscados para</text>
-<text x='28.29' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='67.89px' lengthAdjust='spacingAndGlyphs'>recuperação (n = 259)</text>
+<text x='28.29' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='67.95px' lengthAdjust='spacingAndGlyphs'>recuperação (n = 256)</text>
 <text x='147.35' y='176.53' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='79.27px' lengthAdjust='spacingAndGlyphs'>Relatos não recuperados</text>
-<text x='147.35' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='26.25px' lengthAdjust='spacingAndGlyphs'>(n = 158)</text>
+<text x='147.35' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='25.89px' lengthAdjust='spacingAndGlyphs'>(n = 155)</text>
 <text x='28.29' y='256.18' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='84.06px' lengthAdjust='spacingAndGlyphs'>Relatos avaliados no texto</text>
 <text x='28.29' y='265.11' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='57.55px' lengthAdjust='spacingAndGlyphs'>completo (n = 101)</text>
 <text x='147.35' y='220.47' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='82.16px' lengthAdjust='spacingAndGlyphs'>Relatos excluídos (n = 59):</text>
@@ -123,17 +123,17 @@
 <text x='378.46' y='52.94' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='63.62px' lengthAdjust='spacingAndGlyphs'>da triagem (sem IA):</text>
 <text x='385.18' y='61.87' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='50.86px' lengthAdjust='spacingAndGlyphs'>duplicatas ou já</text>
 <text x='385.18' y='70.80' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='74.59px' lengthAdjust='spacingAndGlyphs'>identificados nas bases</text>
-<text x='385.18' y='79.73' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='19.58px' lengthAdjust='spacingAndGlyphs'>(n = 4)</text>
+<text x='385.18' y='79.73' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='22.00px' lengthAdjust='spacingAndGlyphs'>(n = 17)</text>
 <text x='385.18' y='88.66' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='82.16px' lengthAdjust='spacingAndGlyphs'>publicados antes de 2010,</text>
-<text x='385.18' y='97.59' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='68.14px' lengthAdjust='spacingAndGlyphs'>filtro de ano (n = 648)</text>
+<text x='385.18' y='97.59' style='font-size: 7.00px;fill: #52514E; font-family: "Fira Sans";' textLength='67.67px' lengthAdjust='spacingAndGlyphs'>filtro de ano (n = 639)</text>
 <text x='259.40' y='132.59' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='93.73px' lengthAdjust='spacingAndGlyphs'>Títulos e resumos triados por</text>
-<text x='259.40' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='39.64px' lengthAdjust='spacingAndGlyphs'>IA (n = 1.054)</text>
+<text x='259.40' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='39.83px' lengthAdjust='spacingAndGlyphs'>IA (n = 1.050)</text>
 <text x='378.46' y='132.59' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='71.08px' lengthAdjust='spacingAndGlyphs'>Registros excluídos na</text>
-<text x='378.46' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='72.78px' lengthAdjust='spacingAndGlyphs'>triagem por IA (n = 787)</text>
+<text x='378.46' y='141.52' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='73.45px' lengthAdjust='spacingAndGlyphs'>triagem por IA (n = 784)</text>
 <text x='259.40' y='176.53' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='71.97px' lengthAdjust='spacingAndGlyphs'>Relatos buscados para</text>
-<text x='259.40' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='67.42px' lengthAdjust='spacingAndGlyphs'>recuperação (n = 267)</text>
+<text x='259.40' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='68.19px' lengthAdjust='spacingAndGlyphs'>recuperação (n = 266)</text>
 <text x='378.46' y='176.53' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='79.27px' lengthAdjust='spacingAndGlyphs'>Relatos não recuperados</text>
-<text x='378.46' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='26.47px' lengthAdjust='spacingAndGlyphs'>(n = 184)</text>
+<text x='378.46' y='185.46' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='26.25px' lengthAdjust='spacingAndGlyphs'>(n = 183)</text>
 <text x='259.40' y='256.18' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='84.06px' lengthAdjust='spacingAndGlyphs'>Relatos avaliados no texto</text>
 <text x='259.40' y='265.11' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='55.00px' lengthAdjust='spacingAndGlyphs'>completo (n = 83)</text>
 <text x='378.46' y='220.47' style='font-size: 7.00px;fill: #23221F; font-family: "Fira Sans";' textLength='82.00px' lengthAdjust='spacingAndGlyphs'>Relatos excluídos (n = 70):</text>

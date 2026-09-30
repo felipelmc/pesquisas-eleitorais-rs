@@ -1,12 +1,13 @@
-# Apêndice G (tbl-lacunas): uso de IA e conferência humana por etapa da síntese (versão de entrega, Emenda 7).
+# Apêndice G (tbl-lacunas): uso de IA e conferência humana por etapa da síntese (versão de entrega, Emendas 7 e 8).
 # Lida por montar_suplemento.py, função lacunas() (@@TABELA lacunas@@ em _esqueleto_suplemento.qmd).
 # Formato: `colunas` (cabeçalho), `larguras` (tbl-colwidths), `legenda` (uma linha, com {#tbl-lacunas} acrescentado
 # pela função) e `linhas` (lista de cinco células por linha, sem marcadores {arquivo:caminho}).
 # Texto da especificação spec_final.md, seção 3.3. Os números vêm da declaração de uso de IA gerada do log, de
 # 07-relatorio/declaracao_uso_ia_texto.md, da Emenda 7 (00-protocolo/emendas.md) e da declaração do autor de
-# 30/09/2026; nenhum número novo.
+# 30/09/2026, e da Emenda 8 (deduplicação aplicada) e sua declaração; nenhum número novo.
 # Trava (conferir_reestruturacao.py, modo final): a tabela cita exatamente as pendências abertas de
-# 07-relatorio/_pendencias_abertas.json, menos a P038 (G9): P006, P007, P008, P019, P033, P035, P036 e P042.
+# 07-relatorio/_pendencias_abertas.json, menos a P038 (G9): P006, P007, P008, P033, P035, P036 e P042 (a P019 fechou
+# com a Emenda 8).
 # A linha "Relato" já diz que o autor aprovou esta versão: a publicação só sai depois dessa aprovação, que fecha a
 # P038 (G9). Se o autor não aprovar, esta linha volta a dizer só "na versão de 24/09/2026".
 legenda: >-
@@ -35,13 +36,14 @@ linhas:
     - nenhuma
   - - Deduplicação
     - >-
-      *Script* da ferramenta de revisão (46 e 4 duplicatas removidas); sugestão por agente de IA nos 145 pares
-      incertos
+      *Script* da ferramenta de revisão (91 e 17 duplicatas removidas); sugestão por agente de IA nos 145 pares
+      incertos; ferramenta corrigida pelo coordenador de IA para aplicar as fusões depois da triagem (Emenda 8)
     - Não se aplica
     - >-
-      Em bloco pelo autor: concordou com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar); decisões
-      gravadas e não aplicadas; aplicá-las não mudaria os estudos incluídos
-    - P019
+      Em bloco pelo autor: concordou com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar), aplicadas
+      depois da triagem, com a decisão mais inclusiva nos 44 registros já triados; item a item nos 9 pares de
+      versão, ligados por ele (Emenda 8). Os estudos incluídos não mudaram
+    - nenhuma
   - - Triagem de títulos e resumos
     - >-
       `claude-sonnet-5` (A) e `claude-opus-5` (B), independentes, pela regra liberal; na triagem complementar dos
@@ -101,5 +103,5 @@ linhas:
       Não se aplica; verificação e leituras críticas por IA não validam o conteúdo
     - >-
       Em bloco pelo autor, na versão de 24/09/2026 (declaração de 30/09/2026); esta versão, que a reescreve sem mudar
-      a análise, foi lida e aprovada por ele antes da entrega (G9)
+      a análise, foi lida e aprovada por ele antes da entrega (G9), e as correções da Emenda 8 foram pedidas por ele
     - nenhuma

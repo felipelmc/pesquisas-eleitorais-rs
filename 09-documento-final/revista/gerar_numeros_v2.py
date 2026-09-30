@@ -189,9 +189,45 @@ def pendencias():
     p = ljson(F_PEND)
     abertas = [x["id"] for x in p["pendencias"] if x.get("status", "aberta") == "aberta"]
     confere(len(abertas) == p["abertas"], f"_pendencias_abertas.json: abertas = {p['abertas']}, lista = {len(abertas)}")
-    return {"pendencias_abertas": entrada(len(abertas), "pendências com status aberta em _pendencias_abertas.json "
-                                                        "(o JSON do PRISMA lista uma a menos, anterior à P042)",
+    return {"pendencias_abertas": entrada(len(abertas), "pendências com status aberta em _pendencias_abertas.json",
                                           [F_PEND], chaves=abertas)}
+
+
+# ---------------------------------------------------------------- entradas: deduplicação aplicada (Emenda 8)
+F_DEDUP_V1 = "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv"
+F_DEDUP_V2 = "08-revisao-humana/P019_dedup/dedup_revisao_v2_versoes.csv"
+F_LOG = "rs_log.jsonl"
+
+
+def dedup_p019():
+    v1, v2 = lcsv(F_DEDUP_V1), lcsv(F_DEDUP_V2)
+    decisoes = {d: sum(1 for l in v1 if l["decisao"] == d) for d in ("confirmado", "rejeitado", "ligado")}
+    confere(sum(decisoes.values()) == len(v1), f"{F_DEDUP_V1}: decisões fora de confirmado/rejeitado/ligado")
+    confere(all(l["decisao"] == "ligado" for l in v2), f"{F_DEDUP_V2}: nem todos os pares estão ligados")
+    eventos = [json.loads(l) for l in open(R / F_LOG, encoding="utf-8") if l.strip()]
+    dedup = [e for e in eventos if e.get("evento") == "dedup_executado" and "n_absorvidos" in (e.get("dados") or {})]
+    confere(dedup, "rs_log.jsonl sem dedup_executado com n_absorvidos (a Emenda 8 ainda não foi aplicada)")
+    ultimo = max(dedup, key=lambda e: (e["dados"]["n_absorvidos"], e["seq"]))["dados"]
+    cons = [e for e in eventos if e.get("evento") == "triagem_consolidada" and (e.get("dados") or {}).get("n_absorvidos_dedup")]
+    confere(cons, "rs_log.jsonl sem triagem_consolidada com n_absorvidos_dedup")
+    fundidos = cons[-1]["dados"]["absorvidos_dedup"]
+    divergentes = [f for f in fundidos if f["decisao_destino"] not in (None, f["decisao_absorvido"])]
+    confere(len(fundidos) == ultimo["n_absorvidos_com_triagem"], "absorvidos com triagem: dedup e consolidação discordam")
+    fonte_log = [F_DEDUP_V1, F_LOG]
+    return {
+        "dedup_pares_revistos": entrada(len(v1), "pares candidatos decididos em dedup_revisao_v1.csv", [F_DEDUP_V1]),
+        "dedup_fusoes": entrada(decisoes["confirmado"], "decisao = confirmado em dedup_revisao_v1.csv", [F_DEDUP_V1]),
+        "dedup_rejeicoes": entrada(decisoes["rejeitado"], "decisao = rejeitado em dedup_revisao_v1.csv", [F_DEDUP_V1]),
+        "dedup_ligacoes": entrada(decisoes["ligado"], "decisao = ligado em dedup_revisao_v1.csv", [F_DEDUP_V1]),
+        "dedup_pares_versao_autor": entrada(len(v2), "pares de versão ligados pelo autor em dedup_revisao_v2_versoes.csv",
+                                            [F_DEDUP_V2]),
+        "dedup_absorvidos": entrada(ultimo["n_absorvidos"], "n_absorvidos do dedup_executado que aplicou a v1", fonte_log),
+        "dedup_absorvidos_triados": entrada(ultimo["n_absorvidos_com_triagem"],
+                                            "n_absorvidos_com_triagem do mesmo dedup_executado", fonte_log),
+        "dedup_decisoes_divergentes": entrada(len(divergentes), "absorvidos com decisão de triagem diferente da do registro "
+                                                               "que os absorveu (triagem_consolidada.absorvidos_dedup)",
+                                              [F_LOG], chaves=[f"{f['absorvido']}>{f['destino']}" for f in divergentes]),
+    }
 
 
 # ---------------------------------------------------------------- entradas: Tab. 1 (características agregadas)
@@ -399,7 +435,7 @@ def efeitos_principais_valores():
         [F_EFEITOS], valores=valores)}
 
 
-ENTRADAS = [prisma_totais, prisma_filtro_ano, estudos_fora_da_sintese, pendencias, tab1_caracteristicas,
+ENTRADAS = [prisma_totais, prisma_filtro_ano, estudos_fora_da_sintese, pendencias, dedup_p019, tab1_caracteristicas,
             sof_n_por_estudo, transferibilidade, efeitos_principais_valores]
 
 

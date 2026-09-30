@@ -1,16 +1,16 @@
 {
  "relatos_buscados_total": {
-  "valor": 526,
-  "formatado": "526",
-  "formula": "relatos buscados para texto completo: bases.buscados + outros_metodos.buscados = 259 + 267",
+  "valor": 522,
+  "formatado": "522",
+  "formula": "relatos buscados para texto completo: bases.buscados + outros_metodos.buscados = 256 + 266",
   "fontes": [
    "07-relatorio/prisma_contagens.json"
   ]
  },
  "relatos_nao_recuperados_total": {
-  "valor": 342,
-  "formatado": "342",
-  "formula": "relatos buscados e não recuperados: bases.nao_recuperados + outros_metodos.nao_recuperados = 158 + 184",
+  "valor": 338,
+  "formatado": "338",
+  "formula": "relatos buscados e não recuperados: bases.nao_recuperados + outros_metodos.nao_recuperados = 155 + 183",
   "fontes": [
    "07-relatorio/prisma_contagens.json"
   ]
@@ -24,25 +24,25 @@
   ]
  },
  "excluidos_filtro_ano_bases": {
-  "valor": 148,
-  "formatado": "148",
+  "valor": 143,
+  "formatado": "143",
   "formula": "bases.removidos_antes_triagem.automacao_por_filtro.ano (exclusão automática por script, antes da triagem)",
   "fontes": [
    "07-relatorio/prisma_contagens.json"
   ]
  },
  "excluidos_filtro_ano_outros_metodos": {
-  "valor": 648,
-  "formatado": "648",
+  "valor": 639,
+  "formatado": "639",
   "formula": "outros_metodos.removidos_antes_triagem.automacao_por_filtro.ano (exclusão automática por script, antes da triagem)",
   "fontes": [
    "07-relatorio/prisma_contagens.json"
   ]
  },
  "excluidos_filtro_ano_total": {
-  "valor": 796,
-  "formatado": "796",
-  "formula": "soma dos dois ramos: bases = 148 + outros_metodos = 648",
+  "valor": 782,
+  "formatado": "782",
+  "formula": "soma dos dois ramos: bases = 143 + outros_metodos = 639",
   "fontes": [
    "07-relatorio/prisma_contagens.json"
   ]
@@ -131,9 +131,9 @@
   ]
  },
  "pendencias_abertas": {
-  "valor": 8,
-  "formatado": "8",
-  "formula": "pendências com status aberta em _pendencias_abertas.json (o JSON do PRISMA lista uma a menos, anterior à P042)",
+  "valor": 7,
+  "formatado": "7",
+  "formula": "pendências com status aberta em _pendencias_abertas.json",
   "fontes": [
    "07-relatorio/_pendencias_abertas.json"
   ],
@@ -141,11 +141,82 @@
    "P006",
    "P007",
    "P008",
-   "P019",
    "P033",
    "P035",
    "P036",
    "P042"
+  ]
+ },
+ "dedup_pares_revistos": {
+  "valor": 145,
+  "formatado": "145",
+  "formula": "pares candidatos decididos em dedup_revisao_v1.csv",
+  "fontes": [
+   "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv"
+  ]
+ },
+ "dedup_fusoes": {
+  "valor": 66,
+  "formatado": "66",
+  "formula": "decisao = confirmado em dedup_revisao_v1.csv",
+  "fontes": [
+   "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv"
+  ]
+ },
+ "dedup_rejeicoes": {
+  "valor": 56,
+  "formatado": "56",
+  "formula": "decisao = rejeitado em dedup_revisao_v1.csv",
+  "fontes": [
+   "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv"
+  ]
+ },
+ "dedup_ligacoes": {
+  "valor": 23,
+  "formatado": "23",
+  "formula": "decisao = ligado em dedup_revisao_v1.csv",
+  "fontes": [
+   "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv"
+  ]
+ },
+ "dedup_pares_versao_autor": {
+  "valor": 9,
+  "formatado": "9",
+  "formula": "pares de versão ligados pelo autor em dedup_revisao_v2_versoes.csv",
+  "fontes": [
+   "08-revisao-humana/P019_dedup/dedup_revisao_v2_versoes.csv"
+  ]
+ },
+ "dedup_absorvidos": {
+  "valor": 58,
+  "formatado": "58",
+  "formula": "n_absorvidos do dedup_executado que aplicou a v1",
+  "fontes": [
+   "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv",
+   "rs_log.jsonl"
+  ]
+ },
+ "dedup_absorvidos_triados": {
+  "valor": 44,
+  "formatado": "44",
+  "formula": "n_absorvidos_com_triagem do mesmo dedup_executado",
+  "fontes": [
+   "08-revisao-humana/P019_dedup/dedup_revisao_v1.csv",
+   "rs_log.jsonl"
+  ]
+ },
+ "dedup_decisoes_divergentes": {
+  "valor": 4,
+  "formatado": "4",
+  "formula": "absorvidos com decisão de triagem diferente da do registro que os absorveu (triagem_consolidada.absorvidos_dedup)",
+  "fontes": [
+   "rs_log.jsonl"
+  ],
+  "chaves": [
+   "RS1880>RS1873",
+   "RS1914>RS1596",
+   "RS2514>RS1981",
+   "RS2740>RS2124"
   ]
  },
  "tab1_caracteristicas": {

@@ -1,8 +1,11 @@
 # P041: conferência humana da elegibilidade no texto completo (antes P028 e P040)
 
+> **Fechada em 30/09/2026 (Emenda 7).** O autor declarou ter conferido esta etapa em bloco e manteve o estado atual (`08-revisao-humana/declaracao_autor_2026-09-30.md`). O texto abaixo descreve o pacote como foi preparado em 23/09/2026.
+
+
 A fila é `03-textos/fila_humana_tc.csv`, com 165 textos: 47 propostos para inclusão e 118 para exclusão. As propostas são de fichadores de IA (Opus, um PDF por agente). Cada linha traz o critério proposto, um trecho literal e a página. Esses trechos passaram pelo gate de citações.
 
-Na fila, os textos já decididos por você não aparecem. São as 17 decisões limítrofes que você tomou na conversa em 19 e 20/09 (Emenda 6a).
+Na fila, os textos já decididos por você não aparecem. São as 17 decisões limítrofes que você tomou na conversa em 19 e 20/09 (Emenda 6a; uma delas, a seq 557, era linha de teste, por isso o artigo fala em 16).
 
 ## Ordem sugerida
 
@@ -21,6 +24,6 @@ rs --dir . triagem override --fila 03-textos/fila_humana_tc.csv --etapa tc --por
 rs --dir . textos elegibilidade consolidar --master 03-textos/fichamentos_master.csv --codebook 00-protocolo/codebook_elegibilidade.csv
 ```
 
-A pendência fecha sozinha quando `n_pendentes_conferencia` chega a 0. Depois feche o portão: `rs --dir . pendencia fechar P023 --motivo "..." --por revisor_humano_1`.
+A pendência fecha sozinha quando `n_pendentes_conferencia` chega a 0. Depois feche o portão: `rs --dir . pendencia fechar P023 --motivo "..." --por revisor_humano_1` (fechada em 30/09/2026).
 
-Se uma decisão mudar o conjunto de incluídos, refaça a extração do estudo afetado e a cadeia do README.
+Se uma decisão mudar o conjunto de incluídos, refaça a extração do estudo afetado e a cadeia do `REPRODUZIR.md`.

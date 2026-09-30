@@ -49,7 +49,7 @@ button { font: inherit; color: inherit; }
 
 /* interface e números: Fira Sans */
 .kicker, .ui, button, .botao, .chip, .legenda-fig, figcaption, table, .contador, .selo, .dica, .painel-toque,
-.barra, .ferramentas, .gaveta, .rotulo-grafico, .nota, .filtros, .rodape, .etiqueta {
+.ferramentas, .gaveta, .rotulo-grafico, .nota, .filtros, .rodape, .etiqueta {
   font-family: var(--sans);
 }
 .kicker {
@@ -120,7 +120,7 @@ caption { text-align: left; padding: 8px 10px; color: var(--ink-3); font-size: 0
 /* cores forçadas (alto contraste do sistema) */
 @media (forced-colors: active) {
   .glifo path, .glifo polygon, .glifo circle { forced-color-adjust: auto; stroke: CanvasText; }
-  .barra, .provisorio { border: 1px solid CanvasText; }
+  .provisorio { border: 1px solid CanvasText; }
   .chip[aria-pressed="true"] { forced-color-adjust: none; background: Highlight; color: HighlightText; }
   .rob-simbolo { border: 1px solid CanvasText; }
   .celula-mapa { border: 1px solid CanvasText !important; }

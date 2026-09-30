@@ -1,5 +1,7 @@
 # Especificação do artigo final (versão de entrega, Emenda 7)
 
+> **Nota de 30/09/2026, noite (Emenda 8).** Depois desta especificação, a deduplicação decidida pelo autor foi aplicada, com a ferramenta corrigida e os 9 pares de versão ligados por ele (Emenda 8). Os trechos abaixo que dizem "decidida e não aplicada", citam a P019 como aberta ou trazem os números do fluxo anteriores (46 e 4 duplicados, 148 e 648 pelo filtro de ano, 1.573 e 1.054 triados, 342 de 526 não recuperados, "dez desvios") descrevem a redação anterior; o texto em vigor está no esqueleto e usa os números de `07-relatorio/prisma_contagens.json` (91 e 17, 143 e 639, 1.533 e 1.050, 338 de 522, onze desvios). A linha do δ (seções 1.2 e 2.7) passou a atribuir 0,044 e 0,046 à Emenda 5, em vez da mediana de cada célula que o protocolo pede; a versão e o período de uso de IA passaram a 30/09/2026. Os retratos do texto de partida (tamanho, pendências de 24/09, tarefas do coordenador) são históricos.
+
 Escrita em 30/09/2026 por subagente de IA (`claude-opus-5-5`, papel de arquiteto). É o contrato dos três redatores (seção 4), do coordenador (seção 6) e da verificação. A análise não muda (sentinela na seção 10). Onde esta especificação não diz nada, vale a `spec_v2.md`: seção 0 (notação das fontes de número), seção 4 (enunciados literais das células) e seção 6 (proibições). Deixa de valer tudo o que ela diz sobre aviso de rascunho, callouts, caixa OQF, suplemento, Apêndice A e **[A confirmar pelo autor]**.
 
 **Texto de partida.** `esq:Lnnn` é a linha nnn do esqueleto atual. Antes da redação, o coordenador copia o esqueleto para `_esqueleto_v2_2409.qmd`, com as mesmas linhas. "Sem mudança" quer dizer que o parágrafo fica, apenas com os ajustes da seção 1: nome do produto, remissão aos apêndices e nenhuma pendência no texto.
@@ -96,7 +98,7 @@ A trava aceita as datas do v1 e do protocolo, mais 24/09/2026, 25/09/2026, 30/09
 | 23/09/2026 | Emendas 3 a 6; pré-revisão PRESS |
 | 24/09/2026 | GRADE; consulta aos projetos de lei; versão anterior |
 | 30/09/2026 | declaração do autor; Emenda 7 |
-| 01/10/2026 | esta versão |
+| 30/09/2026 | esta versão (Emenda 8) |
 
 ### 1.6 Direção e certeza
 
@@ -170,7 +172,7 @@ Estas frases são usadas nas Mensagens, no Resumo, nas Conclusões e no resumo e
 O YAML é o de `esq:L1-28`, com quatro mudanças:
 
 - `subtitle: "Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"`;
-- `date: 2026-10-01`;
+- `date: 2026-09-30`;
 - a palavra-chave "revisão sistemática rápida" vira "síntese sistemática de evidências";
 - o formato `docx` sai.
 
@@ -245,7 +247,7 @@ Por seção de nível 1: Introdução 820, Métodos 2.000, Resultados 3.160, Dis
   - na linha "Fora da contagem", o link [S7] vira "(Apêndice E)";
   - a linha "Inconclusivo" sai;
   - a legenda vira "Glossário e como ler esta síntese.";
-  - a linha do δ (0,044; 0,046; 0,0573) e a linha "Célula" ficam literais.
+  - a linha do δ (0,044; 0,046; 0,0573) e a linha "Célula" ficam literais [nota de 30/09/2026: a linha do δ ganhou a atribuição de 0,044 e 0,046 à Emenda 5].
 - **1.3** (`esq:L168-170`):
   - sai a frase sobre a meta-análise de Hardmeier e Roth;
   - a última frase vira "Foi conduzida com agentes de IA, e o risco de viés e a certeza não tiveram validação humana (@sec-ia)."
@@ -418,7 +420,7 @@ Na ordem: FC-apoio, FC-apertada, FC-divulgação e FC-projeção, FC-boca, FC-n�
   - (iv) Privados, no repositório GitHub `felipelmc/pesquisas-eleitorais-rs`, com acesso sob pedido ao autor: os *prompts* dos agentes, as fichas com trechos, os pacotes de revisão humana e o *log* completo.
   - (v) Não há identificador persistente.
 - **IA-7 Declaração de uso de inteligência artificial** (280). O rótulo fica numa linha. O parágrafo seguinte começa literalmente assim: "**RASCUNHO NÃO VALIDADO.** Ficaram sem validação humana: (i) o risco de viés e a certeza da evidência, julgados só por agentes de IA (P033, P035, P036 e P042); (ii) a validação cega da triagem, que não foi feita (P006, P007 e P008); e (iii) a deduplicação, decidida pelo autor e não aplicada (P019)." Depois, em prosa:
-  - **Ferramentas.** Modelos da Anthropic, pelo Claude Code, entre 19/09/2026 e 01/10/2026. O coordenador foi `claude-opus-5-5`, e os subagentes, `claude-sonnet-5`, `claude-opus-5` e `claude-opus-5-5`. O *log* não registra o modelo do coordenador.
+  - **Ferramentas.** Modelos da Anthropic, pelo Claude Code, entre 19/09/2026 e 30/09/2026. O coordenador foi `claude-opus-5-5`, e os subagentes, `claude-sonnet-5`, `claude-opus-5` e `claude-opus-5-5`. O *log* não registra o modelo do coordenador.
   - **Finalidade.** A IA decidiu a triagem e a triagem complementar. Propôs a elegibilidade, a extração e as correções dos efeitos. Julgou o risco de viés e a certeza. Redigiu este texto, com a interpretação entre estudos, e o resumo em linguagem simples.
   - **Justificativa.** Foi escolha do autor, para a variante rápida, com um só revisor humano.
   - **Validação.** Só com métricas já na lista branca:
@@ -431,7 +433,7 @@ Na ordem: FC-apoio, FC-apertada, FC-divulgação e FC-projeção, FC-boca, FC-n�
   - **Interesses.** Nenhum conflito. Custo de acesso e termos de retenção dos dados não registrados.
   - **Limitações.** Um só provedor; árbitro do mesmo modelo; versões de modelo que mudam.
   - **Responsabilidade.** É humana, inclusive pela decisão de usar IA. A declaração completa, gerada do *log*, está no pacote, e o quadro por etapa, no Apêndice G.
-- **IA-8 Versão e citação**: "Versão de entrega de 01/10/2026. Reescreve a de 24/09/2026 como artigo único com apêndices, sem mudar células, contagens, certezas nem metas. Como citar: Lamarca, Felipe. 2026. *Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos* bandwagon *e* underdog *e o comparecimento*. Documento de trabalho, versão de 01/10/2026. <https://felipelamarca.com/pesquisas-eleitorais-rs/>."
+- **IA-8 Versão e citação**: "Versão de entrega de 30/09/2026. Reescreve a de 24/09/2026 como artigo único com apêndices, sem mudar células, certezas nem metas; a deduplicação aplicada mudou só contagens do fluxo. Como citar: Lamarca, Felipe. 2026. *Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos* bandwagon *e* underdog *e o comparecimento*. Documento de trabalho, versão de 01/10/2026. <https://felipelamarca.com/pesquisas-eleitorais-rs/>."
 
 Depois vêm `# Referências {#referencias .unnumbered}` e `::: {#refs}` / `:::`. A lista cobre também as chaves dos apêndices, que não têm lista própria.
 
@@ -473,7 +475,7 @@ Depois vêm `# Referências {#referencias .unnumbered}` e `::: {#refs}` / `:::`.
 ---
 title: "Apêndices"
 subtitle: "Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
-date: 2026-10-01
+date: 2026-09-30
 keywords: [pesquisas eleitorais, apêndices, síntese sistemática de evidências]
 paisagem: true
 suppress-bibliography: true
@@ -531,7 +533,7 @@ Legenda: "Uso de IA e conferência humana por etapa da síntese. Em bloco pelo a
 | Certeza da evidência (GRADE) | Um subagente `claude-opus-5-5`, sem segundo avaliador | Não se aplica (um só avaliador) | Não realizada | P035, P036, P042 |
 | Relato | Subagentes `claude-opus-5-5` e `claude-sonnet-5`, com números conferidos por programa | Não se aplica; verificação e leituras críticas por IA não validam o conteúdo | Em bloco pelo autor, na versão de 24/09/2026 (declaração de 30/09/2026); esta versão a reescreve sem mudar a análise | nenhuma |
 
-A trava exige na tabela exatamente as pendências abertas, menos a P038: P006, P007, P008, P019, P033, P035, P036 e P042. Nenhum outro ID entra. Se a P038 for fechada com a aprovação do autor a esta versão, a conferência do Relato passa a "Em bloco pelo autor, nesta versão".
+A trava exige na tabela exatamente as pendências abertas, menos a P038: hoje P006, P007, P008, P033, P035, P036 e P042 (a P019 fechou com a Emenda 8). Nenhum outro ID entra. Se a P038 for fechada com a aprovação do autor a esta versão, a conferência do Relato passa a "Em bloco pelo autor, nesta versão".
 
 **Agentes desta versão** (cerca de 100 palavras, depois da tabela). O parágrafo diz cinco coisas:
 
@@ -594,7 +596,7 @@ A remissão entre blocos é feita só pelos IDs da seção 2.11. Cada achado usa
 
 ## 5. Resumo em linguagem simples (Bloco 2; `linguagem_simples.qmd`, cerca de 700 palavras)
 
-- **YAML.** `date: 2026-10-01`; o título fica.
+- **YAML.** `date: 2026-09-30`; o título fica.
 - **Nome.** "Revisão" vira "síntese" (ou "este trabalho") em todo o texto e nos subtítulos. "A revisão em resumo" vira "A síntese em resumo".
 - **Quadro "O que esta síntese estudou".** Leva a pergunta; 41 estudos; buscas até 20/09/2026; agentes de IA fizeram a maior parte do trabalho; o autor conferiu a busca, a seleção dos estudos e os dados tirados de cada um; a qualidade dos estudos e a confiança na evidência foram julgadas só pela IA, sem conferência humana. Sai "rascunho, com 18 pendências".
 - **"O que encontramos?" e "O que isso significa?"** Ficam como estão.
@@ -607,7 +609,7 @@ A remissão entre blocos é feita só pelos IDs da seção 2.11. Cada achado usa
   - a falta de estudos brasileiros é, em parte, lacuna da busca.
 
   Saem "O autor ainda não conferiu o trabalho", "18 pendências" e "Decisões ainda pendentes".
-- **"Até quando vai a busca?"** As mesmas datas, mais "Esta é a versão de 01/10/2026".
+- **"Até quando vai a busca?"** As mesmas datas, mais "Esta é a versão de 30/09/2026".
 - **Frase nova.** "Este resumo também foi redigido por agentes de IA, a partir do artigo."
 - **Linha final.** Sai "Rascunho não validado; 18 pendências". Fica o link `[Leia a síntese completa, com os apêndices](revisao.pdf)`.
 - **Restrições.** Nenhum número novo, nenhum "rascunho", e as proibições da seção 1.4 (a trava roda com `--extra linguagem_simples.qmd`).
@@ -635,7 +637,7 @@ A remissão entre blocos é feita só pelos IDs da seção 2.11. Cada achado usa
 
 ## 10. Sentinela
 
-SHA256 das fontes da síntese, calculado em 30/09/2026 e atualizado depois do fechamento da P038 (aprovação do autor) com `shasum -a 256`, da raiz. Os valores de `certeza.csv`, `swim_resumo.json` e dos dois `meta_resumo.json` são os de 24/09/2026 (`spec_v2.md`, seção 10). Os dois primeiros desses quatro batem com o campo `fontes` de `revista/celulas.json`.
+SHA256 das fontes da síntese, calculado em 30/09/2026 e atualizado depois do fechamento da P038 (aprovação do autor) e da aplicação da deduplicação (Emenda 8: mudaram `prisma_contagens.json` e `_pendencias_abertas.json`, e as seções indicadas abaixo foram reescritas) com `shasum -a 256`, da raiz. Os valores de `certeza.csv`, `swim_resumo.json` e dos dois `meta_resumo.json` são os de 24/09/2026 (`spec_v2.md`, seção 10). Os dois primeiros desses quatro batem com o campo `fontes` de `revista/celulas.json`.
 
 ```
 c075097a6f119c0551beab82619cf9b01a5cc6adff640a324633e0bfff83beea  06-analise/certeza.csv
@@ -643,8 +645,8 @@ c075097a6f119c0551beab82619cf9b01a5cc6adff640a324633e0bfff83beea  06-analise/cer
 a140b57602eb755e3ae68274c2db794151c3210aa537faae63d113bfa50a8a80  06-analise/swim_principal/swim_resumo.json
 a40533e25689daf10dd94f5c5cb57e7fc88f21df9190fe3c38b990fdf69c15fb  06-analise/meta_exploratoria/meta_resumo.json
 7ca65f2853153ce63b44bbf618d4bd18c105577d0fcd82a334c2181754f7dca7  06-analise/meta_mesmo_candidato/meta_resumo.json
-12b64fb82815b98b5662e51c3888b5b89c903c1f5f60eda2cc6f5562c5598ee6  07-relatorio/prisma_contagens.json
-92f7abcb9484025039405419a1b88f1cec5150e85d20f2e8112df5dee02e87ed  07-relatorio/_pendencias_abertas.json
+414478c956e5c1a1150a2e8a61869cf6a4b0ab0d1ac699b19c1c05da8a94df1d  07-relatorio/prisma_contagens.json
+4733c9d10f1e1856b584684efb2cfa5cadaa492dcac9bf654fffa7a12b09e412  07-relatorio/_pendencias_abertas.json
 ```
 
 Antes de cada etapa, rode de novo o mesmo comando. Se um valor mudar, `celulas.json` e `numeros_v2.json` são regenerados, e as seções abaixo são reescritas:

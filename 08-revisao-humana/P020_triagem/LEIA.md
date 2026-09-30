@@ -1,5 +1,8 @@
 # P020: fila humana da triagem de títulos e resumos (ta_v1)
 
+> **Fechada em 30/09/2026 (Emenda 7).** O autor declarou ter conferido esta etapa em bloco e manteve o estado atual (`08-revisao-humana/declaracao_autor_2026-09-30.md`). O texto abaixo descreve o pacote como foi preparado em 23/09/2026.
+
+
 Esta pasta traz os 81 registros de `02-triagem/fila_humana_ta_v1.csv` que os dois triadores de IA não resolveram sozinhos. Cada um vem com a sugestão de um terceiro leitor.
 
 **A sugestão é de IA** (claude-opus-5-5), feita sem ver os pareceres. O terceiro leitor leu só `id_rs`, `titulo`, `resumo`, `ano` e `veiculo` e aplicou os critérios C1 a C5 de `02-triagem/prompts/ta_v1.md`, na ordem em que aparecem lá. Ele não viu a coluna `pareceres` nem outros arquivos do projeto. A sugestão não substitui a decisão humana: quem decide é o revisor.
@@ -7,7 +10,7 @@ Esta pasta traz os 81 registros de `02-triagem/fila_humana_ta_v1.csv` que os doi
 ## Arquivos
 
 - `terceiro_leitor.json`: uma entrada por registro, com `decisao`, `criterio_falhou`, `justificativa` e `trecho` (citação literal do título ou do resumo).
-- `fila_humana_ta_v1.csv`: a fila original com todas as colunas, na ordem original, incluindo `pareceres`. As colunas humanas estão vazias. No fim foram acrescentadas `sugestao_terceiro_leitor`, `criterio_sugerido`, `trecho_sugerido`, `justificativa_sugerida` e `ordem_revisao`. As linhas vêm ordenadas por `ordem_revisao`: 1 são as exclusões sugeridas, 2 os casos incertos e 3 as inclusões.
+- `fila_humana_ta_v1.csv`: a fila original com todas as colunas, na ordem original, incluindo `pareceres`. As colunas humanas estavam vazias até 30/09/2026; hoje trazem `decisao_humana = incerto` e o motivo da declaração do autor. No fim foram acrescentadas `sugestao_terceiro_leitor`, `criterio_sugerido`, `trecho_sugerido`, `justificativa_sugerida` e `ordem_revisao`. As linhas vêm ordenadas por `ordem_revisao`: 1 são as exclusões sugeridas, 2 os casos incertos e 3 as inclusões.
 
 O arquivo se chama `fila_humana_ta_v1.csv`, e não `..._com_sugestao.csv`, porque o `triagem override` tira a rodada do nome do arquivo (regex `fila_humana_(.+)\.csv`). Com o sufixo, a rodada lida seria `ta_v1_com_sugestao`.
 

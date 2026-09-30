@@ -505,7 +505,6 @@ def main():
                          "publicadas no voto e no comparecimento (Felipe Lamarca, MAPE/IESP-UERJ)."),
         "og_titulo": "Pesquisas eleitorais publicadas mudam o voto?",
         "pular": T["ferramentas"]["pular"], "movimento": T["ferramentas"]["movimento"], "fechar": T["gaveta"]["fechar"],
-        "barra_texto": T["barra"]["texto"], "barra_link": T["barra"]["link"],
         "heroi_kicker": T["heroi"]["kicker"], "titulo": esc(D["meta"]["titulo"]), "heroi_autoria": T["heroi"]["autoria"],
         "heroi_lede": T["heroi"]["lede"], "heroi_contadores": contadores(D, T), "heroi_pontos": T["heroi"]["pontos"],
         "mensagens": bloco_mensagens(D, T), "linguagem": bloco_linguagem(D, T), "prisma": bloco_prisma(D, T),

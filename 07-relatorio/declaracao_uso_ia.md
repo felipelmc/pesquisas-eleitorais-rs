@@ -1,10 +1,10 @@
 # Declaração de uso de inteligência artificial
 
-**RASCUNHO NÃO VALIDADO** (8 pendências abertas; decisões de IA na triagem sem validação calculada com finalidade validação da rodada ativa).
+**RASCUNHO NÃO VALIDADO** (7 pendências abertas; decisões de IA na triagem sem validação calculada com finalidade validação da rodada ativa; juízos de IA sem validação humana (seção 7)).
 
 Projeto: Exposição a pesquisas eleitorais publicadas → intenção de voto (bandwagon/underdog). Tipo de revisão: efetividade_swim. Modo de autonomia: autopiloto; triagem: subagentes.
 
-Gerado a partir de `rs_log.jsonl` até o evento seq 860 (sha256 dos eventos `2f9f93b4f5f1622d…`) e de `dados/decisoes.jsonl` (6511 decisões). Nenhum número foi digitado à mão.
+Gerado a partir de `rs_log.jsonl` até o evento seq 873 (sha256 dos eventos `3f8d501c50856764…`) e de `dados/decisoes.jsonl` (6511 decisões). Nenhum número foi digitado à mão.
 
 ## 1. Ferramentas e modelos
 
@@ -29,8 +29,9 @@ Gerado a partir de `rs_log.jsonl` até o evento seq 860 (sha256 dos eventos `2f9
 | 04_busca | script | rs.py buscar openalex | busca_registrada | 4 |
 | 04_busca | script | rs.py importar | busca_registrada, busca_substituida | 2 |
 | 04_busca | script | script | pendencia_aberta | 1 |
-| 05_organizacao | script | dedup | dedup_executado, pendencia_aberta, pendencia_fechada | 14 |
-| 05_organizacao | script | filtrar | filtro_formal | 6 |
+| 05_organizacao | humano | revisor_humano_1 | dedup_revisado | 2 |
+| 05_organizacao | script | dedup | dedup_executado, pendencia_aberta, pendencia_fechada | 17 |
+| 05_organizacao | script | filtrar | filtro_formal | 7 |
 | 05_organizacao | script | rs.py importar | importacao | 8 |
 | 06_triagem_ta | humano | ia_coordenador_emenda6 | decisao_override | 1 |
 | 06_triagem_ta | humano | revisor_humano_1 | decisao_override | 337 |
@@ -38,7 +39,7 @@ Gerado a partir de `rs_log.jsonl` até o evento seq 860 (sha256 dos eventos `2f9
 | 06_triagem_ta | ia_subagente | revisor_A | lote_mesclado | 114 |
 | 06_triagem_ta | ia_subagente | revisor_B | lote_mesclado | 114 |
 | 06_triagem_ta | script | autopiloto | pendencia_aberta | 1 |
-| 06_triagem_ta | script | triagem_lotes | lote_preparado, lote_rejeitado, pendencia_aberta, pendencia_fechada, triagem_consolidada | 33 |
+| 06_triagem_ta | script | triagem_lotes | lote_preparado, lote_rejeitado, pendencia_aberta, pendencia_fechada, triagem_consolidada | 34 |
 | 06_triagem_ta | script | validacao | artefato_versionado, lote_preparado, pendencia_aberta, validacao_calculada | 7 |
 | 07_textos_elegibilidade | humano | revisor_humano_1 | decisao_override, pendencia_fechada | 25 |
 | 07_textos_elegibilidade | ia_coordenador | autopiloto | portao | 1 |
@@ -53,20 +54,20 @@ Gerado a partir de `rs_log.jsonl` até o evento seq 860 (sha256 dos eventos `2f9
 | 09_extracao_rob | humano | revisor_humano_1 | pendencia_fechada | 2 |
 | 09_extracao_rob | ia_coordenador | autopiloto | portao | 1 |
 | 09_extracao_rob | script | autopiloto | pendencia_aberta | 1 |
-| 09_extracao_rob | script | rs.py analise | efeitos_verificados, extracao_consolidada, pendencia_aberta, pendencia_fechada | 23 |
+| 09_extracao_rob | script | rs.py analise | efeitos_verificados, extracao_consolidada, pendencia_aberta, pendencia_fechada | 25 |
 | 09_extracao_rob | script | rs.py qualidade | fila_gerada, pendencia_aberta, pendencia_fechada, rob_consolidado | 12 |
 | 09_extracao_rob | script | script | pendencia_aberta | 1 |
 | 10_sintese | humano | revisor_humano_1 | pendencia_fechada | 1 |
 | 10_sintese | ia_coordenador | autopiloto | portao | 1 |
 | 10_sintese | script | autopiloto | pendencia_aberta | 1 |
 | 10_sintese | script | rs.py analise | analise_executada | 39 |
-| 10_sintese | script | rs.py caixa | caixa_gerada, pendencia_aberta | 2 |
+| 10_sintese | script | rs.py caixa | caixa_gerada, pendencia_aberta | 3 |
 | 10_sintese | script | script | pendencia_aberta | 2 |
 | 11_relato | humano | revisor_humano_1 | pendencia_fechada | 1 |
 | 11_relato | ia_coordenador | autopiloto | portao | 1 |
 | 11_relato | script | autopiloto | pendencia_aberta | 1 |
-| 11_relato | script | prisma | erro, prisma_gerado | 7 |
-| 11_relato | script | rs.py handoff | relatorio_gerado | 5 |
+| 11_relato | script | prisma | erro, prisma_gerado | 8 |
+| 11_relato | script | rs.py handoff | relatorio_gerado | 6 |
 
 ## 3. Prompts, critérios e instrumentos arquivados
 
@@ -167,17 +168,37 @@ Nenhum evento do log traz custo ou uso de tokens de API. A triagem por subagente
 
 ## 6. Pendências abertas
 
-| Id | Tipo | Etapa | Portão | Descrição | N |
-|---|---|---|---|---|---|
-| P006 | validacao_humana | 06_triagem_ta | G4 | codificar em dupla, às cegas, a amostra amostra01 (141 registros) | 141 |
-| P007 | validacao_humana | 06_triagem_ta | G4 | codificar em dupla, às cegas, a amostra elusao01 (300 registros) | 300 |
-| P008 | revisao_humana_portao | 06_triagem_ta | G4 | confirmar a aprovação automática do G4: nenhuma validação humana (finalidade validacao) calculada para a rodada ativa ta_v1 (rs.py validar calcular); P005 aberta: resolver 47 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv`; P006 aberta: codificar em dupla, às cegas, a amostra amostra01 (141 registros); P007 aberta: codificar em dupla, às cegas, a amostra elusao01 (300 registros) |  |
-| P019 | dedup_candidatos | 05_organizacao |  | 145 pares candidatos de duplicata aguardando revisão (rs.py dedup --revisar 01-busca/dedup_pares.csv) [substitui P015] | 145 |
-| P033 | revisao_humana_portao | 09_extracao_rob | G7 | confirmar a aprovação automática do G7: 554 efeitos sem verificação humana na página do PDF (apto_g7 = 0; ex.: Agranov2017a-E01, Agranov2017a-E02, Agranov2017a-E03, Agranov2017a-E04, Agranov2017a-E05); RoB de rob2 (seq 745) com 23 de 23 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de robins_i (seq 747) com 13 de 13 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de epoc (seq 749) com 7 de 7 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; P032 aberta: conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P027] |  |
-| P035 | revisao_humana_portao | 10_sintese | G8 | confirmar a aprovação automática do G8: P034 aberta: GRADE das 7 células em 06-analise/certeza.csv rascunhado por subagente (claude-opus-5-5), validado_humano vazio; revisor humano deve confirmar ou alterar cada juízo (ver ponto sobre viés de publicação na célula 1) |  |
-| P036 | certeza_humana | 10_sintese |  | GRADE refeito após a Emenda 5: 21 linhas em 06-analise/certeza.csv (17 células do protocolo + 4 do agrupamento amplo descritivo), rascunhadas por subagente (claude-opus-5-5) com validado_humano vazio; decidir em especial o rebaixamento por viés de publicação no agrupamento amplo de apoio randomizado (baixa × moderada) |  |
-| P042 | certeza_caixa | 10_sintese | G8 | completar certeza (GRADE/CERQual) e enunciados das células pendentes | 22 |
+As descrições estão como foram registradas na abertura de cada pendência (data e seq do evento `pendencia_aberta` na coluna "Aberta em"): contagens e pendências citadas podem ter mudado desde então. Pendências citadas que já foram fechadas levam, entre colchetes, o fechamento e as sucessoras; a seção 7 traz o estado atual.
+
+| Id | Tipo | Etapa | Portão | Aberta em | Descrição (como registrada na abertura) | N |
+|---|---|---|---|---|---|---|
+| P006 | validacao_humana | 06_triagem_ta | G4 | 2026-09-19 (seq 165) | codificar em dupla, às cegas, a amostra amostra01 (141 registros) | 141 |
+| P007 | validacao_humana | 06_triagem_ta | G4 | 2026-09-19 (seq 167) | codificar em dupla, às cegas, a amostra elusao01 (300 registros) | 300 |
+| P008 | revisao_humana_portao | 06_triagem_ta | G4 | 2026-09-19 (seq 186) | confirmar a aprovação automática do G4: nenhuma validação humana (finalidade validacao) calculada para a rodada ativa ta_v1 (rs.py validar calcular); P005 aberta: resolver 47 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv`; P006 aberta: codificar em dupla, às cegas, a amostra amostra01 (141 registros); P007 aberta: codificar em dupla, às cegas, a amostra elusao01 (300 registros) [P005: fechada em 2026-09-19 (seq 402); substituída por P012 → P016 → P020, fechada em 2026-09-30] |  |
+| P033 | revisao_humana_portao | 09_extracao_rob | G7 | 2026-09-23 (seq 754) | confirmar a aprovação automática do G7: 554 efeitos sem verificação humana na página do PDF (apto_g7 = 0; ex.: Agranov2017a-E01, Agranov2017a-E02, Agranov2017a-E03, Agranov2017a-E04, Agranov2017a-E05); RoB de rob2 (seq 745) com 23 de 23 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de robins_i (seq 747) com 13 de 13 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de epoc (seq 749) com 7 de 7 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; P032 aberta: conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P027] [P032: fechada em 2026-09-24 (seq 799); substituída por P039, fechada em 2026-09-30] [P027: fechada em 2026-09-23 (seq 743); substituída por P032 → P039, fechada em 2026-09-30] |  |
+| P035 | revisao_humana_portao | 10_sintese | G8 | 2026-09-23 (seq 780) | confirmar a aprovação automática do G8: P034 aberta: GRADE das 7 células em 06-analise/certeza.csv rascunhado por subagente (claude-opus-5-5), validado_humano vazio; revisor humano deve confirmar ou alterar cada juízo (ver ponto sobre viés de publicação na célula 1) [P034: fechada em 2026-09-23 (seq 782); substituída por P036, aberta] |  |
+| P036 | certeza_humana | 10_sintese |  | 2026-09-23 (seq 781) | GRADE refeito após a Emenda 5: 21 linhas em 06-analise/certeza.csv (17 células do protocolo + 4 do agrupamento amplo descritivo), rascunhadas por subagente (claude-opus-5-5) com validado_humano vazio; decidir em especial o rebaixamento por viés de publicação no agrupamento amplo de apoio randomizado (baixa × moderada) |  |
+| P042 | certeza_caixa | 10_sintese | G8 | 2026-09-24 (seq 831) | completar certeza (GRADE/CERQual) e enunciados das células pendentes | 22 |
 
 ## 7. Declaração de responsabilidade
 
-As ferramentas de IA listadas foram usadas como apoio sob supervisão humana. Critérios, protocolo, juízos de risco de viés, de certeza (GRADE/CERQual), rótulos da caixa de ferramentas e conclusões são responsabilidade dos revisores humanos, que conferiram as saídas conforme os portões e as validações acima. Decisões de IA não validadas estão sinalizadas como pendências.
+As ferramentas de IA listadas foram usadas como apoio sob supervisão humana. A decisão de usar IA e a forma de uso, os critérios, o protocolo e as conclusões são responsabilidade dos revisores humanos, que conferiram as saídas conforme os portões e as validações acima, exceto nos juízos listados abaixo: eles foram feitos por IA sem validação humana registrada, são rascunhos de IA e devem ser relatados como tais.
+
+- Risco de viés (rob2): 23 de 23 resultados sem validação humana na consolidação (`rob_consolidado`, seq 745, 2026-09-23); a concordância entre avaliadores de IA não valida.
+- Risco de viés (robins_i): 13 de 13 resultados sem validação humana na consolidação (`rob_consolidado`, seq 747, 2026-09-23); a concordância entre avaliadores de IA não valida.
+- Risco de viés (epoc): 7 de 7 resultados sem validação humana na consolidação (`rob_consolidado`, seq 749, 2026-09-23); a concordância entre avaliadores de IA não valida.
+- Certeza da evidência (GRADE/CERQual) em `06-analise/certeza.csv` (sha256 `c075097a6f119c05…`): 18 de 18 linhas sem `validado_humano`.
+- Certeza da evidência (GRADE/CERQual) em `06-analise/certeza_agrupamento_amplo.csv` (sha256 `29878705b08a6fd1…`): 7 de 7 linhas sem `validado_humano`.
+- Rótulos da caixa de ferramentas: 22 de 22 linhas pendentes ou em rascunho (`caixa_gerada`, seq 873, 2026-09-30).
+- Portão G4 (06_triagem_ta), aprovado por autopiloto (ia_coordenador) em 2026-09-19 (seq 185): confirmação humana pendente (P008).
+- Portão G7 (09_extracao_rob), aprovado por autopiloto (ia_coordenador) em 2026-09-23 (seq 753): confirmação humana pendente (P033).
+- Portão G8 (10_sintese), aprovado por autopiloto (ia_coordenador) em 2026-09-23 (seq 779): confirmação humana pendente (P035).
+- Triagem de títulos e resumos: decisões de IA sem validação calculada com finalidade validação da rodada ativa (seção 4).
+- Pendências abertas em triagem de títulos e resumos (06_triagem_ta): P006 (validacao_humana), P007 (validacao_humana); descrição na seção 6.
+- Pendências abertas em síntese e certeza (10_sintese): P036 (certeza_humana), P042 (certeza_caixa); descrição na seção 6.
+
+Portões aprovados sem humano e confirmados depois por humano: G3 (P004, fechada em 2026-09-30, seq 855); G5 (P023, fechada em 2026-09-30, seq 844); G6 (P026, fechada em 2026-09-30, seq 846); G9 (P038, fechada em 2026-09-30, seq 859).
+
+Validação humana completa registrada: dados de efeito, 560 de 560 efeitos verificados por humano na página do PDF e aptos para o G7 (`efeitos_verificados`, seq 872, 2026-09-30).
+
+Decisões de IA não validadas estão sinalizadas como pendências.
