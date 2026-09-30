@@ -1,10 +1,10 @@
 # Declaração de uso de inteligência artificial
 
-**RASCUNHO NÃO VALIDADO** (9 pendências abertas; decisões de IA na triagem sem validação calculada com finalidade validação da rodada ativa).
+**RASCUNHO NÃO VALIDADO** (8 pendências abertas; decisões de IA na triagem sem validação calculada com finalidade validação da rodada ativa).
 
 Projeto: Exposição a pesquisas eleitorais publicadas → intenção de voto (bandwagon/underdog). Tipo de revisão: efetividade_swim. Modo de autonomia: autopiloto; triagem: subagentes.
 
-Gerado a partir de `rs_log.jsonl` até o evento seq 857 (sha256 dos eventos `d9ecb8802d765424…`) e de `dados/decisoes.jsonl` (6511 decisões). Nenhum número foi digitado à mão.
+Gerado a partir de `rs_log.jsonl` até o evento seq 860 (sha256 dos eventos `2f9f93b4f5f1622d…`) e de `dados/decisoes.jsonl` (6511 decisões). Nenhum número foi digitado à mão.
 
 ## 1. Ferramentas e modelos
 
@@ -62,9 +62,10 @@ Gerado a partir de `rs_log.jsonl` até o evento seq 857 (sha256 dos eventos `d9e
 | 10_sintese | script | rs.py analise | analise_executada | 39 |
 | 10_sintese | script | rs.py caixa | caixa_gerada, pendencia_aberta | 2 |
 | 10_sintese | script | script | pendencia_aberta | 2 |
+| 11_relato | humano | revisor_humano_1 | pendencia_fechada | 1 |
 | 11_relato | ia_coordenador | autopiloto | portao | 1 |
 | 11_relato | script | autopiloto | pendencia_aberta | 1 |
-| 11_relato | script | prisma | erro, prisma_gerado | 6 |
+| 11_relato | script | prisma | erro, prisma_gerado | 7 |
 | 11_relato | script | rs.py handoff | relatorio_gerado | 5 |
 
 ## 3. Prompts, critérios e instrumentos arquivados
@@ -175,7 +176,6 @@ Nenhum evento do log traz custo ou uso de tokens de API. A triagem por subagente
 | P033 | revisao_humana_portao | 09_extracao_rob | G7 | confirmar a aprovação automática do G7: 554 efeitos sem verificação humana na página do PDF (apto_g7 = 0; ex.: Agranov2017a-E01, Agranov2017a-E02, Agranov2017a-E03, Agranov2017a-E04, Agranov2017a-E05); RoB de rob2 (seq 745) com 23 de 23 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de robins_i (seq 747) com 13 de 13 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; RoB de epoc (seq 749) com 7 de 7 resultados sem validação humana (todos_validados_humano diferente de true): a concordância entre avaliadores não humanos não valida; resolva por humano no consenso e consolide de novo; P032 aberta: conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P027] |  |
 | P035 | revisao_humana_portao | 10_sintese | G8 | confirmar a aprovação automática do G8: P034 aberta: GRADE das 7 células em 06-analise/certeza.csv rascunhado por subagente (claude-opus-5-5), validado_humano vazio; revisor humano deve confirmar ou alterar cada juízo (ver ponto sobre viés de publicação na célula 1) |  |
 | P036 | certeza_humana | 10_sintese |  | GRADE refeito após a Emenda 5: 21 linhas em 06-analise/certeza.csv (17 células do protocolo + 4 do agrupamento amplo descritivo), rascunhadas por subagente (claude-opus-5-5) com validado_humano vazio; decidir em especial o rebaixamento por viés de publicação no agrupamento amplo de apoio randomizado (baixa × moderada) |  |
-| P038 | revisao_humana_portao | 11_relato | G9 | confirmar a aprovação automática do G9 |  |
 | P042 | certeza_caixa | 10_sintese | G8 | completar certeza (GRADE/CERQual) e enunciados das células pendentes | 22 |
 
 ## 7. Declaração de responsabilidade

@@ -131,8 +131,8 @@
   ]
  },
  "pendencias_abertas": {
-  "valor": 9,
-  "formatado": "9",
+  "valor": 8,
+  "formatado": "8",
   "formula": "pendências com status aberta em _pendencias_abertas.json (o JSON do PRISMA lista uma a menos, anterior à P042)",
   "fontes": [
    "07-relatorio/_pendencias_abertas.json"
@@ -145,7 +145,6 @@
    "P033",
    "P035",
    "P036",
-   "P038",
    "P042"
   ]
  },

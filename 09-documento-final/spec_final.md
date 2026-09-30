@@ -635,7 +635,7 @@ A remissão entre blocos é feita só pelos IDs da seção 2.11. Cada achado usa
 
 ## 10. Sentinela
 
-SHA256 das fontes da síntese, calculado em 30/09/2026 com `shasum -a 256`, da raiz. Os valores de `certeza.csv`, `swim_resumo.json` e dos dois `meta_resumo.json` são os de 24/09/2026 (`spec_v2.md`, seção 10). Os dois primeiros desses quatro batem com o campo `fontes` de `revista/celulas.json`.
+SHA256 das fontes da síntese, calculado em 30/09/2026 e atualizado depois do fechamento da P038 (aprovação do autor) com `shasum -a 256`, da raiz. Os valores de `certeza.csv`, `swim_resumo.json` e dos dois `meta_resumo.json` são os de 24/09/2026 (`spec_v2.md`, seção 10). Os dois primeiros desses quatro batem com o campo `fontes` de `revista/celulas.json`.
 
 ```
 c075097a6f119c0551beab82619cf9b01a5cc6adff640a324633e0bfff83beea  06-analise/certeza.csv
@@ -643,8 +643,8 @@ c075097a6f119c0551beab82619cf9b01a5cc6adff640a324633e0bfff83beea  06-analise/cer
 a140b57602eb755e3ae68274c2db794151c3210aa537faae63d113bfa50a8a80  06-analise/swim_principal/swim_resumo.json
 a40533e25689daf10dd94f5c5cb57e7fc88f21df9190fe3c38b990fdf69c15fb  06-analise/meta_exploratoria/meta_resumo.json
 7ca65f2853153ce63b44bbf618d4bd18c105577d0fcd82a334c2181754f7dca7  06-analise/meta_mesmo_candidato/meta_resumo.json
-c5291d5f7529627d2b505dd7e377cdb94b3a145e403c53fda244a3708baed105  07-relatorio/prisma_contagens.json
-ecaded94a7bbcfe73af65815dc10890706395925cbb4d17b9be54ff69d23e103  07-relatorio/_pendencias_abertas.json
+12b64fb82815b98b5662e51c3888b5b89c903c1f5f60eda2cc6f5562c5598ee6  07-relatorio/prisma_contagens.json
+92f7abcb9484025039405419a1b88f1cec5150e85d20f2e8112df5dee02e87ed  07-relatorio/_pendencias_abertas.json
 ```
 
 Antes de cada etapa, rode de novo o mesmo comando. Se um valor mudar, `celulas.json` e `numeros_v2.json` são regenerados, e as seções abaixo são reescritas:

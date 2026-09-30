@@ -1023,7 +1023,7 @@
       "descricao": "confirmar a aprovação automática do G9",
       "n": null,
       "arquivo": null,
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P039",
@@ -1068,13 +1068,13 @@
   ],
   "contagens_cache": {
     "prisma": {
-      "hash_insumos": "70fa8776a20ffac58db0cd1c37a00b5b4a5c5c8341291cec20aa48584b7cf981",
-      "gerado_em": "2026-09-30T16:10:51Z",
+      "hash_insumos": "d4aff7871470b931eb98ad9f66c0c287976e257948a46b7ee6bc529a3e884202",
+      "gerado_em": "2026-09-30T17:59:01Z",
       "incluidos": {
         "estudos": 41,
         "relatos": 55
       }
     }
   },
-  "ultimo_seq": 858
+  "ultimo_seq": 861
 }

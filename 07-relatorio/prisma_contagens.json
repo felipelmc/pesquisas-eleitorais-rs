@@ -2,7 +2,7 @@
   "schema": "rs-prisma/1",
   "tipo": "2020",
   "origem": "calculado",
-  "gerado_em": "2026-09-30T16:10:51Z",
+  "gerado_em": "2026-09-30T17:59:01Z",
   "bases": {
     "identificados": {
       "bases": 1767,
@@ -173,12 +173,11 @@
     "P033",
     "P035",
     "P036",
-    "P038",
     "P042"
   ],
   "buscas_truncadas": [],
   "motivos_rascunho": [
-    "9 pendências abertas"
+    "8 pendências abertas"
   ],
   "buscas_inativas": {
     "buscas": [

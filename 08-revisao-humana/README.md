@@ -20,8 +20,8 @@ rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }
 | P025, P026 | piloto (G6) | os 3 estudos do piloto e a Emenda 2 | motivo no log |
 | P039 | extração (G7) | os 560 efeitos, conferidos na página do PDF (`verificado_humano = sim`); os pontos de `efeitos/pontos_para_o_revisor.md` no estado atual | `05-decomposicao/efeitos_extraidos.csv` |
 | P037 | extração | as 259 divergências da recodificação, com o valor original | `P037_concordancia/arbitragem_humana.csv` |
+| P038 | relato (G9) | leu e aprovou o artigo final com apêndices (versão de entrega) | motivo no log |
 
-A P038 (G9, relato) fecha quando o autor aprovar o PDF final.
 
 ## Ordem sugerida e esforço
 
@@ -36,7 +36,6 @@ Pendências que continuam abertas, para a próxima versão:
 | 5 | P033 | extração e RoB (G7) | validar os 259 domínios de risco de viés (88 desacordos primeiro) e confirmar o G7 | `P033_rob/` | 4 a 6 h |
 | 6 | P036 e P042 | síntese | validar os juízos GRADE; a P042, aberta pelo `rs caixa`, pede o mesmo | `P036_grade/` | 1 h |
 | 7 | P035 | portão G8 | confirmar o G8 depois da P036 | seção abaixo | 5 min |
-| 8 | P038 | portão G9 | ler o artigo final (`docs/revisao.pdf`) e confirmar o G9 | artigo em `docs/revisao.pdf` | 1 h |
 
 ## Portões
 
@@ -46,7 +45,7 @@ Cada portão foi aprovado automaticamente pelas checagens de artefato da skill. 
 rs --dir . pendencia fechar P008 --motivo "G4 confirmado: <resumo>" --por revisor_humano_1
 ```
 
-Troque `P008` por P035 ou P038, conforme o portão.
+Troque `P008` por P035, conforme o portão.
 
 ## Depois de fechar pendências
 

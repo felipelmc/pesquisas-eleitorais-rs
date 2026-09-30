@@ -12,7 +12,7 @@ format:
   typst:
     number-sections: false
 # gerado por montar_revisao_final.py / montar_suplemento.py
-pendencias-abertas: 9
+pendencias-abertas: 8
 nocite: |
   @Agranov2012a, @Agranov2017a, @Alabrese2022a, @Alabrese2024a, @Araujo2021, @Araujo2021a, @Boukouras2020a, @Brugarolas2021, @Bursztyn2017b, @Bursztyn2017c, @Bursztyn2023a, @Chatterjee2019a, @Cornejo2023a, @Dahlgaard2015a, @Dahlgaard2015b, @Dahlgaard2016a, @Dahlgaard2017a, @Erlich2023, @Fairstein2018a, @Fairstein2019a, @Farjam2020a, @Feltovich2022, @Fichnova2015a, @Freden2016b, @Freden2024a, @Gandhi2019, @Gasperoni2015a, @Geers2018, @Gerber2017b, @Gerber2017c, @Gerber2020a, @Grillo2024c, @Groer2010a, @Kaplan2019a, @Klor2017a, @Lago2015, @Lammers2022a, @Meer2015a, @Meffert2011, @Meffert2012a, @Morton2013a, @Morton2015a, @Schlegel2023, @Stolwijk2016a, @Stolwijk2017a, @Stolwijk2019b, @Tal2015a, @Timotei2013a, @Tyszler2013, @Tyszler2015, @Unkelbach2022a, @Urminsky2019, @Westwood2020a, @Witsman2016a, @Yang2023d, @Garritty2024Rapid, @Kim2025a, @Bischoff2012, @Corbetta2013, @Hizen2025, @Morton2015b, @Reveco2026, @Scheuerman2019, @Scheuerman2020, @Scheuerman2021, @Yosef2017, @Kim2018b, @Freden2021, @Mavridis2016a
 apendices: true
