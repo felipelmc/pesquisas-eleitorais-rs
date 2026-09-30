@@ -378,7 +378,7 @@
    "certeza": "moderada",
    "enunciado": "Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 p.p. para mais ou para menos (efeito nulo ou trivial; 1 experimento de campo; certeza moderada).",
    "rotulo_caixa": "Inconclusivo",
-   "forca_caixa": "insuficiente",
+   "forca_caixa": "moderada",
    "validado_humano": "0"
   },
   {
@@ -430,7 +430,7 @@
    "certeza": "muito_baixa",
    "enunciado": "A evidência é muito incerta sobre se ver pesquisa, frente a não ver, aumenta ou reduz o comparecimento (2 estudos de laboratório na direção de mobilização e 1 com candidatos reais na de desmobilização; certeza muito baixa).",
    "rotulo_caixa": "Inconclusivo",
-   "forca_caixa": "insuficiente",
+   "forca_caixa": "moderada",
    "validado_humano": "0"
   },
   {
@@ -540,16 +540,16 @@
    "pi_lo": "",
    "pi_hi": "",
    "k": "",
-   "n_estudos": "1",
+   "n_estudos": "3",
    "pontos_implementacao": "",
    "criterios_implementacao": "",
    "enunciado": "",
    "regra_aplicada": "painel_corpo_unico",
    "regra_versao": "caixa-3",
-   "estudos": "Grillo2024c",
+   "estudos": "Chatterjee2019a|Grillo2024c|Morton2015a",
    "fontes": "caixa: boca_de_urna × mobilizacao [nao_randomizado]",
    "justificativa": "um só corpo de evidência: nao_randomizado: Inconclusivo (certeza muito_baixa)",
-   "assinatura": "fd4a64e0193ed118f1fbedbee727cda2bf3c197382851de295a9075db62006ef"
+   "assinatura": "61f3848304c5ee31d50eb06d622066c1f4078147d53f133283ccee9c1fbe47da"
   },
   {
    "celula_id": "outro × apoio_ao_lider [painel]",
@@ -600,16 +600,16 @@
    "pi_lo": "",
    "pi_hi": "",
    "k": "",
-   "n_estudos": "2",
+   "n_estudos": "16",
    "pontos_implementacao": "",
    "criterios_implementacao": "",
    "enunciado": "",
    "regra_aplicada": "painel_mesmo_rotulo",
    "regra_versao": "caixa-3",
-   "estudos": "Cornejo2023a|Feltovich2022",
+   "estudos": "Agranov2017a|Boukouras2020a|Cornejo2023a|Dahlgaard2016a|Farjam2020a|Feltovich2022|Fichnova2015a|Freden2024a|Lammers2022a|Meer2015a|Schlegel2023|Stolwijk2016a|Tal2015a|Timotei2013a|Tyszler2015|Witsman2016a",
    "fontes": "caixa: pesquisa_pre_eleitoral × apoio_ao_lider [nao_randomizado] ; caixa: pesquisa_pre_eleitoral × apoio_ao_lider [randomizado]",
    "justificativa": "corpos com o mesmo rótulo; vale a maior certeza: nao_randomizado: Inconclusivo (certeza muito_baixa); randomizado: Inconclusivo (certeza muito_baixa)",
-   "assinatura": "d616c8ee9c563d946c0975c0ec7b8265912590897c4980a41c6be9261d3e5f38"
+   "assinatura": "4d716e6b906175aeb9085ca299b2d69257c4effa8c5e1c8b033594d4c87215ad"
   },
   {
    "celula_id": "pesquisa_pre_eleitoral × mobilizacao [painel]",
@@ -620,8 +620,8 @@
    "rotulo": "Inconclusivo",
    "rotulo_proposto": "Inconclusivo",
    "status_rotulo": "rascunho",
-   "forca": "fraca",
-   "certeza": "baixa",
+   "forca": "moderada",
+   "certeza": "moderada",
    "abordagem_certeza": "GRADE",
    "escala": "não estimada",
    "estimativa": "",
@@ -630,16 +630,16 @@
    "pi_lo": "",
    "pi_hi": "",
    "k": "",
-   "n_estudos": "5",
+   "n_estudos": "7",
    "pontos_implementacao": "",
    "criterios_implementacao": "",
    "enunciado": "",
    "regra_aplicada": "painel_mesmo_rotulo",
    "regra_versao": "caixa-3",
-   "estudos": "Agranov2017a|Brugarolas2021|Erlich2023|Groer2010a|Stolwijk2019b",
+   "estudos": "Agranov2017a|Brugarolas2021|Erlich2023|Gerber2020a|Groer2010a|Klor2017a|Stolwijk2019b",
    "fontes": "caixa: pesquisa_pre_eleitoral × mobilizacao [nao_randomizado] ; caixa: pesquisa_pre_eleitoral × mobilizacao [randomizado]",
-   "justificativa": "corpos com o mesmo rótulo; vale a maior certeza: nao_randomizado: Inconclusivo (certeza baixa); randomizado: Inconclusivo (certeza muito_baixa)",
-   "assinatura": "b90ed5690fd0da375eaa68a2a39eaacfe910adc9a3c787d2314f5b6d1dab469b"
+   "justificativa": "corpos com o mesmo rótulo; vale a maior certeza: nao_randomizado: Inconclusivo (certeza baixa); randomizado: Inconclusivo (certeza moderada)",
+   "assinatura": "97636c62e81e1041ea3326f1a75caa0d56b07d2ab4dfd649387e2c3b806099a3"
   }
  ]
 }
