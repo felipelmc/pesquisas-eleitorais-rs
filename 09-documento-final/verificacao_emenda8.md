@@ -1,6 +1,6 @@
 # Verificação independente das mudanças de 30/09/2026, noite (Emenda 8)
 
-Verificador independente (agente de IA, `claude-opus-5-5`), que não escreveu nenhum dos textos conferidos. Feita em 30/09/2026 sobre a árvore de trabalho da branch `ajustes-2026-09-30`: commit `aa31429`, mais `docs/`, `REPRODUZIR.md` e dois insumos modificados e ainda não commitados. O `docs/` foi gerado às 18h19, depois da última edição das fontes, e o PDF, o HTML e o pacote conferidos são os que estão lá. O prompt é `prompts_final/prompt_verificacao_emenda8.md`. Nenhum arquivo foi alterado além deste. Não rodei `rs.py`, `montar_*.py` nem `publicar.sh`, e não abri PDF de estudo.
+Verificador independente (agente de IA, `claude-opus-5-5`), que não escreveu nenhum dos textos conferidos. Feita em 30/09/2026 sobre a árvore de trabalho da branch `ajustes-2026-09-30`: commit `e6c0117`, mais `docs/`, `REPRODUZIR.md` e dois insumos modificados e ainda não commitados. O `docs/` foi gerado às 18h19, depois da última edição das fontes, e o PDF, o HTML e o pacote conferidos são os que estão lá. O prompt é `prompts_final/prompt_verificacao_emenda8.md`. Nenhum arquivo foi alterado além deste. Não rodei `rs.py`, `montar_*.py` nem `publicar.sh`, e não abri PDF de estudo.
 
 **Mudanças feitas por outro processo durante a verificação.** Entre 18h34 e 18h38, fontes foram editadas e remontadas por outro processo, não por este verificador:
 
@@ -71,7 +71,7 @@ As declarações cobrem só a pré-revisão PRESS, as 81 divergências, as 165 p
 
 ### E4. "Leu e aprovou esta versão": nenhuma declaração cobre a versão posterior à Emenda 8
 
-A aprovação registrada é a da P038, no seq 859, cujo motivo diz "o autor leu e aprovou o artigo final com apêndices (versão de entrega de 01/10/2026, commit e377c50)". Depois dela, o texto mudou: contagens do fluxo, item (xi), frase do δ, datas, declaração de IA e Apêndice G. A declaração da deduplicação registra só três decisões (aplicar, a regra e os 9 pares) e nada diz sobre ler ou aprovar o texto resultante. Três trechos afirmam a aprovação desta versão:
+A aprovação registrada é a da P038, no seq 859, cujo motivo diz "o autor leu e aprovou o artigo final com apêndices (versão de entrega de 01/10/2026, commit 3b39259)". Depois dela, o texto mudou: contagens do fluxo, item (xi), frase do δ, datas, declaração de IA e Apêndice G. A declaração da deduplicação registra só três decisões (aplicar, a regra e os 9 pares) e nada diz sobre ler ou aprovar o texto resultante. Três trechos afirmam a aprovação desta versão:
 
 - `_esqueleto_revisao_final.qmd`, L222 (2.9): "... (vii) o relato da versão de 24/09/2026; e ele leu e aprovou esta versão antes da entrega."
 - `_esqueleto_revisao_final.qmd`, L388 (4.4): "O autor leu a versão de 24/09/2026, da qual esta deriva sem mudar a análise, e leu e aprovou esta antes da entrega."
@@ -94,7 +94,7 @@ A aprovação registrada é a da P038, no seq 859, cujo motivo diz "o autor leu 
 
 ### A1. A tag citada como a desta versão não existe
 
-README (L45), `CITATION.cff` (`version`), a vitrine (rodapé "tag `v3-final-2026-09-30`", via `vitrine/exportar_dados.py` L813) e `REPRODUZIR.md` (L105) citam `v3-final-2026-09-30`. Só existe `v3-final-2026-10-01`, local e no `origin`, apontando para `13b0db2`, a versão anterior à Emenda 8.
+README (L45), `CITATION.cff` (`version`), a vitrine (rodapé "tag `v3-final-2026-09-30`", via `vitrine/exportar_dados.py` L813) e `REPRODUZIR.md` (L105) citam `v3-final-2026-09-30`. Só existe `v3-final-2026-10-01`, local e no `origin`, apontando para `40bf0ef`, a versão anterior à Emenda 8.
 
 **Correção:** criar a tag `v3-final-2026-09-30` no commit final, antes de publicar o Pages e de dar *push*, como o `REPRODUZIR.md` (item 5) já prevê. Apagar a tag antiga no remoto é decisão do usuário. Se ela ficar, é histórico.
 
@@ -180,7 +180,7 @@ A declaração registra uma decisão única: "Ligar os 9 como versões do mesmo 
 - **O6.** Na 2.9, "Nenhuma decisão em vigor, dado de efeito ou contagem mudou (Emenda 7)" é verdade para a Emenda 7, e a "Versão e citação" registra que a Emenda 8 mudou contagens. Não exige mudança.
 - **O7. Declaração gerada do log.** As seções 6 e 7 estão corretas diante do estado e do log. Duas ressalvas de completude, que o artigo já declara:
   - as 336 decisões da Emenda 6b, gravadas como `humano` com o papel `ia_coordenador_emenda6`, entram na seção 7 só pela linha genérica "Triagem de títulos e resumos: decisões de IA sem validação calculada";
-  - "560 de 560 efeitos verificados por humano" reflete marcas postas pelo coordenador a partir da declaração em bloco (motivo da P039, seq 847) e propagadas por script aos 40 CSVs por estudo (commit `09bc3d6`).
+  - "560 de 560 efeitos verificados por humano" reflete marcas postas pelo coordenador a partir da declaração em bloco (motivo da P039, seq 847) e propagadas por script aos 40 CSVs por estudo (commit `00524ca`).
 
   A correção, se desejada, vai no gerador da skill (`rs declaracao-ia`), não no arquivo.
 - **O8. Contagem de palavras.** O corpo tinha 8.498 palavras na primeira rodada da trava (fontes de 18h19) e 8.493 na segunda (fontes de 18h40, depois das edições do outro processo), perto do teto de 8.500. O saldo das trocas no corpo sugeridas aqui é zero: A2 (0), A4 (0), A5 (−1), E4(b) (+2) e O1 (−1). Com E4(a), fica −2. Rode a trava de novo depois de qualquer troca.
@@ -229,7 +229,7 @@ A declaração registra uma decisão única: "Ligar os 9 como versões do mesmo 
 - **A4, A5, A10, O1, O3, O4, O5 e O9:** com o texto sugerido.
 - **A6 e O10:** notas na declaração de 30/09/2026, no LEIA do pacote e no LEIA da P019.
 - **A8:** "01/10/2026" saiu de `DATAS_FIXAS` e da `spec_final.md`; `teste_travas.sh` OK.
-- **A9:** o `CLAUDE.md` já tinha sido atualizado no commit `aa31429`; a leitura foi anterior.
+- **A9:** o `CLAUDE.md` já tinha sido atualizado no commit `e6c0117`; a leitura foi anterior.
 - **Sem mudança:** O2, O6, O7 e O8 (ressalvas sem correção pedida).
 
 Depois das correções, a trava deu OK, com 0 falhas, 0 avisos e 8.492 palavras no corpo.

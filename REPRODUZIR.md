@@ -108,6 +108,8 @@ Os autores estão revendo o risco de viés e o GRADE (P033, P035, P036 e P042).
 
 Na mesma noite, Lucas Berti (IESP-UERJ) passou a coautor, com contribuição igual à de Felipe Lamarca, e as conferências e decisões registradas foram declaradas dos dois (`08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`). Os produtos passaram de "o autor" a "os autores".
 
+Por fim, os autores abriram o repositório. O histórico completo foi copiado para o privado `felipelmc/pesquisas-eleitorais-rs-completo`. Depois, os arquivos com resumos de terceiros e os pareceres de triagem saíram de todos os commits (`git filter-repo`; lista no bloco "resumos de terceiros" do `.gitignore`), dois e-mails de terceiros viraram "[e-mail removido]", e o autor dos commits passou ao endereço noreply do GitHub. Os hashes mudaram; o mapa antigo → novo está em `publico/mapa_commits_reescrita.csv`. Os arquivos retirados seguem no disco local, e `ferramentas/arquivar_privado.sh` leva as mudanças deles ao privado.
+
 ### Sessão de 23 e 24/09/2026: o que foi feito
 
 A sessão fez tudo o que não depende de decisão humana e preparou o que depende. Em ordem:
@@ -162,7 +164,7 @@ A sessão fez tudo o que não depende de decisão humana e preparou o que depend
    - resumo dos portões.
 8. **Relato:** PRISMA, lista de incluídos, manuscrito reescrito (`07-relatorio/prompt_redator_v2.md`), declaração de IA, render e publicação no GitHub Pages (`docs/`).
 
-Os commits da sessão vão de `0309f24` em diante (`git log`).
+Os commits da sessão vão de `5aeceef` em diante (`git log`).
 
 ### Artigo final, PDF de *journal* e vitrine (24/09/2026, tarde)
 
