@@ -28,10 +28,21 @@ Defina a função `rs` em cada chamada de Bash (cada chamada abre um shell novo)
 
 Como ler o `status` (sai em JSON):
 - `etapa_atual` aparece como `05_organizacao` mesmo com G9 aprovado, porque a deduplicação (P019) segue aberta. Isso é esperado; o campo `proxima_acao` diz o que vem a seguir.
-- Algumas descrições de pendência citam IDs já substituídos (P005, P022, P034). Vale a lista de `pendencia listar`, não os IDs citados dentro do texto.
+- Algumas descrições de pendência citam IDs já substituídos (P005, P022, P032, P034). Vale a lista de `pendencia listar`, não os IDs citados dentro do texto.
 - `buscas_inativas: B01` é a busca em inglês substituída pela B05 (emenda E002). Não é um erro.
 
-Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`efeitos.R`, `swim.R`, `_cli.R`) ficam em `~/.claude/skills/revisao-sistematica/scripts/R/`, não no repositório. No repositório, os únicos scripts são os de junção e montagem da síntese (`05-decomposicao/juntar_rob.py`, `06-analise/montar_*.py`), os de conferência em `ferramentas/` (uso no README) e o `03-textos/prompts_fichamento/gate_sem_heuristica.py` (`<ficha.md> <pdf>`). Este último roda o gate de citação do `fichamento-sistematico` sem a heurística de "PDF sem texto", que reprova teses por engano.
+Ferramentas: `python3`, `Rscript`, `quarto` (o `publicar.sh` aborta se o Quarto não for 1.9.x ou o Typst embutido não for 0.14), poppler (`pdfinfo`, `pdffonts`, `pdftotext`, usados por `verificar_pdf.py`) e `node` (só para o QA da vitrine com Playwright). Os scripts R que o `rs` chama (`efeitos.R`, `swim.R`, `_cli.R`) ficam em `~/.claude/skills/revisao-sistematica/scripts/R/`, não no repositório. Na análise, os únicos scripts do repositório são os de junção e montagem da síntese (`05-decomposicao/juntar_rob.py`, `06-analise/montar_*.py`), os de conferência em `ferramentas/` (uso no README) e o `03-textos/prompts_fichamento/gate_sem_heuristica.py` (`<ficha.md> <pdf>`). Este último roda o gate de citação do `fichamento-sistematico` sem a heurística de "PDF sem texto", que reprova teses por engano. Os scripts do artigo, das figuras e da vitrine ficam em `09-documento-final/`; a ordem em que rodam é a do `ferramentas/publicar.sh`.
+
+Ciclo curto de edição do artigo (da raiz, sem publicar):
+
+```bash
+python3 09-documento-final/montar_revisao_final.py && python3 09-documento-final/conferir_reestruturacao.py
+python3 09-documento-final/conferir_numeros.py <copia_antes.qmd> 09-documento-final/_esqueleto_revisao_final.qmd  # passe de estilo: guarde a cópia antes; saída tem de ser vazia
+bash 09-documento-final/revista/teste_travas.sh   # testa as próprias travas contra o v1
+cd 09-documento-final && TYPST_IGNORE_SYSTEM_FONTS=true TYPST_IGNORE_EMBEDDED_FONTS=true quarto render revisao_final.qmd --to typst -M keep-typ:false --output revisao.pdf && python3 revista/verificar_pdf.py revisao.pdf --artigo
+```
+
+Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode antes os geradores do passo 1 do `publicar.sh` (`revista/gerar_*.py`, `preparar_referencias.py`, `figuras/preparar_dados_figuras.py`, `figuras/gerar_figuras.R`). A vitrine se monta com `python3 09-documento-final/vitrine/montar_vitrine.py` (detalhes e QA em `09-documento-final/vitrine/README.md`).
 
 ## Regras do usuário (valem em toda sessão)
 
@@ -87,7 +98,7 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
 - `desenho` precisa conter "randomizado" para o `_cli.R` classificar como randomizado. Ele já trata "não randomizado" como negação; não reclassifique por regex própria.
 - Conversões do `efeitos.R`: `dif_prop` precisa de `p0` e de `se_pp`, IC ou `n1 + n2`; `beta_sd` precisa de `sdy`; o ajuste de cluster precisa de `cluster` e `icc`.
 - Qualquer mudança num efeito derruba o `verificado_humano` da linha. Depois de corrigir `05-decomposicao/efeitos/<chave>.csv`, rode a cadeia inteira de novo, a partir de `preparar-efeitos`.
-- Os números do manuscrito foram escritos por subagente a partir dos arquivos. Se a síntese mudar, reescreva as seções afetadas do `relatorio.qmd` (use `07-relatorio/prompt_redator.md`); não basta renderizar.
+- Os números do manuscrito foram escritos por subagente a partir dos arquivos. Se a síntese mudar, reescreva as seções afetadas do `relatorio.qmd` (use `07-relatorio/prompt_redator_v2.md`; o `prompt_redator.md` é a versão de 23/09, com a raiz antiga); não basta renderizar.
 - Backups e versões superadas (`05-decomposicao/efeitos_backup_*`, `06-analise/_superado_pre_revisao_g8/`) são histórico. Não os use como entrada.
 - `rs triagem consolidar` usa a regra `consenso` por padrão. A rodada ta_v1 é **liberal**: passe sempre `--regra liberal`.
 - `rs triagem override` grava `tipo_ator = humano` fixo. Para registrar decisão de IA por ele (caso da Emenda 6b), use um `--por` que diga IA (`ia_coordenador_emenda6`) e um motivo explícito, e documente na emenda.
@@ -99,7 +110,7 @@ Ferramentas: `python3`, `Rscript` e `quarto`. Os scripts R que o `rs` chama (`ef
 - O gate de citações das fichas de elegibilidade é `03-textos/prompts_fichamento/gate_sem_heuristica.py <ficha> <pdf>`. Ficha reprovada vai para `_reprovadas/` como `<nome>.tentativaN.md` e é refeita por um fichador novo, nunca corrigida à mão.
 - Publicação:
   - `bash ferramentas/publicar.sh` gera e confere `docs/`: vitrine (`index.html`), artigo (`revisao.html/.pdf/.docx`), suplemento (`.html/.pdf`), `linguagem-simples.html`, relatório técnico e guia. Ele roda todas as travas, `verificar_pdf.py`, sanitização, textos, links e licenças, e limpa `docs/` por lista branca.
-  - O script saiu de `docs/`, onde ficava publicado. Nada de dados brutos, fichas ou PDFs de terceiros entra em `docs/`.
+  - O `publicar.sh` saiu de `docs/`, onde ficava publicado, para `ferramentas/`. Nada de dados brutos, fichas ou PDFs de terceiros entra em `docs/`.
   - `bash ferramentas/refazer_produtos.sh` roda a sentinela, as tabelas, a caixa e a publicação.
   - O endereço é <https://felipelamarca.com/pesquisas-eleitorais-rs/>, o domínio próprio do Pages do usuário.
 - Artigo final (`09-documento-final/`):
