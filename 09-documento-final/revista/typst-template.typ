@@ -123,7 +123,7 @@
 ) = {
   set document(title: if rascunho [#title (RASCUNHO NÃO VALIDADO)] else { title }, keywords: keywords)
   set document(
-    author: authors.map(author => content-to-string(author.name)).join(", ", last: " & "),
+    author: authors.map(author => content-to-string(author.name)).join(", ", last: " e "),
   ) if authors != none and authors != ()
 
   set page(

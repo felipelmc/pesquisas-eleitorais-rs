@@ -432,12 +432,12 @@ def bloco_documentos(D, T):
         h += '</div></div>'
     titulo_art = ("Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes "
                   "de IA, sobre os efeitos bandwagon e underdog e o comparecimento")
-    cit = (f'{esc(M["autor"].split()[-1])}, {esc(M["autor"].rsplit(" ", 1)[0])}. 2026. “Pesquisas eleitorais publicadas mudam o voto? '
+    cit = ('Lamarca, Felipe, e Lucas Berti. 2026. “Pesquisas eleitorais publicadas mudam o voto? '
            'Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos <i lang="en">bandwagon</i> e '
            '<i lang="en">underdog</i> e o comparecimento.” '
            f'{TD["citar_nota"]} {esc(M["afiliacao"])}. <span class="url">{esc(M["url"])}</span>')
     bib = ("@unpublished{Lamarca2026pesquisas,\n"
-           f"  author = {{{M['autor'].split()[-1]}, {M['autor'].rsplit(' ', 1)[0]}}},\n"
+           "  author = {Lamarca, Felipe and Berti, Lucas},\n"
            f"  title  = {{{titulo_art}}},\n"
            "  year   = {2026},\n"
            f"  note   = {{{re.sub('<[^>]+>', '', TD['citar_nota'])} {M['afiliacao']}}},\n"
@@ -502,7 +502,7 @@ def main():
     est = {
         "titulo_pagina": "Pesquisas eleitorais e voto",
         "descricao": esc("Síntese sistemática de evidências, conduzida com agentes de IA, sobre o efeito de pesquisas eleitorais "
-                         "publicadas no voto e no comparecimento (Felipe Lamarca, MAPE/IESP-UERJ)."),
+                         "publicadas no voto e no comparecimento (Felipe Lamarca, MAPE/IESP-UERJ, e Lucas Berti, IESP-UERJ)."),
         "og_titulo": "Pesquisas eleitorais publicadas mudam o voto?",
         "pular": T["ferramentas"]["pular"], "movimento": T["ferramentas"]["movimento"], "fechar": T["gaveta"]["fechar"],
         "heroi_kicker": T["heroi"]["kicker"], "titulo": esc(D["meta"]["titulo"]), "heroi_autoria": T["heroi"]["autoria"],

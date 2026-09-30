@@ -782,7 +782,7 @@ def main():
         "meta": {"titulo": "Pesquisas eleitorais publicadas mudam o voto?",
                  "subtitulo": "Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos "
                               "bandwagon e underdog e o comparecimento",
-                 "autor": "Felipe Lamarca", "afiliacao": "MAPE/IESP-UERJ", "data_versao": data_br,
+                 "autor": "Felipe Lamarca e Lucas Berti", "afiliacao": "IESP-UERJ", "data_versao": data_br,
                  "commit": commit, "tag": TAG_VERSAO, "tag_anterior": "v2-rascunho-2026-09-24", "url": "https://felipelamarca.com/pesquisas-eleitorais-rs/",
                  "fontes": {rel: sha(rel) for rel in ("06-analise/certeza.csv", "06-analise/swim_principal/swim_resumo.json",
                                                       "07-relatorio/_pendencias_abertas.json",

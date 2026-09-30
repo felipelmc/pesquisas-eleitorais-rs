@@ -1,6 +1,6 @@
 | Item | Onde no artigo | Situação | Observação |
 |---|---|---|---|
-| **1** Título: identificar o relato como revisão sistemática. | [Título e subtítulo](revisao.html) | parcial | O trabalho se identifica como síntese sistemática de evidências conduzida com agentes de IA, e não como revisão sistemática, pela regra do livro do autor sobre produtos de agentes. |
+| **1** Título: identificar o relato como revisão sistemática. | [Título e subtítulo](revisao.html) | parcial | O trabalho se identifica como síntese sistemática de evidências conduzida com agentes de IA, e não como revisão sistemática, pela regra do livro de método sobre produtos de agentes. |
 | **2** Objetivos: objetivo ou pergunta principal. | [Resumo](revisao.html#resumo), "Objetivos" | relatado | n.a. |
 | **3** Critérios de elegibilidade. | [Resumo](revisao.html#resumo), "Métodos" | relatado | Desenho, exposição e ano de publicação; os desfechos estão no objetivo. |
 | **4** Fontes de informação e data da última busca em cada uma. | [Resumo](revisao.html#resumo), "Métodos" | relatado | OpenAlex, BDTD e busca por citação, com as datas. |

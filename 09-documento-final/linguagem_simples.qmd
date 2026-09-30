@@ -15,7 +15,7 @@ Nos experimentos, as estimativas apontam a favor de quem aparece à frente, mas 
 ::: {.callout-note}
 ## O que esta síntese estudou
 
-A síntese pergunta se ver uma pesquisa eleitoral muda o voto e a decisão de ir votar. Entraram 41 estudos, de buscas feitas até 20/09/2026. Agentes de inteligência artificial (IA) fizeram a maior parte do trabalho. O autor conferiu partes da busca e da seleção e os números tirados de cada estudo. A qualidade dos estudos e a confiança na evidência foram julgadas só pela IA, sem conferência humana.
+A síntese pergunta se ver uma pesquisa eleitoral muda o voto e a decisão de ir votar. Entraram 41 estudos, de buscas feitas até 20/09/2026. Agentes de inteligência artificial (IA) fizeram a maior parte do trabalho. Os autores conferiram partes da busca e da seleção e os números tirados de cada estudo. A qualidade dos estudos e a confiança na evidência foram julgadas só pela IA, sem conferência humana.
 :::
 
 ## Do que trata esta síntese?
@@ -44,7 +44,7 @@ A evidência não permite dizer que as pesquisas mudam o resultado das eleiçõe
 
 ## Quais são os limites?
 
-Agentes de IA buscaram, escolheram e leram os estudos e redigiram o artigo. O autor aprovou o plano e conferiu partes da busca e da seleção e os números tirados dos estudos, mas o julgamento da qualidade dos estudos e da confiança na evidência não passou por uma pessoa. Não se estimou quantos estudos a triagem pela IA pode ter perdido. A busca usou só duas bases e as citações dos estudos, sem a principal base de revistas latino-americanas, e não obteve 338 dos 522 textos procurados. A falta de estudos brasileiros é, em parte, uma lacuna da busca.
+Agentes de IA buscaram, escolheram e leram os estudos e redigiram o artigo. Os autores aprovaram o plano e conferiram partes da busca e da seleção e os números tirados dos estudos, mas o julgamento da qualidade dos estudos e da confiança na evidência não passou por uma pessoa. Não se estimou quantos estudos a triagem pela IA pode ter perdido. A busca usou só duas bases e as citações dos estudos, sem a principal base de revistas latino-americanas, e não obteve 338 dos 522 textos procurados. A falta de estudos brasileiros é, em parte, uma lacuna da busca.
 
 ## Até quando vai a busca?
 

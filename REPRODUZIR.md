@@ -104,7 +104,9 @@ Uma revisão geral do projeto, por três auditorias de IA só de leitura (docume
 4. **Textos:** versão e período de uso de IA em 30/09/2026; o δ de 0,044 e 0,046 descrito como desvio da Emenda 5; o que o autor conferiu descrito como no artigo (partes da busca, da seleção e da extração) na vitrine, no README e no pacote; faixa de topo da vitrine retirada a pedido do autor; README, REPRODUZIR, LEIAs, `CITATION.cff` (licenças CC BY 4.0 e MIT) e tabela de emendas corrigidos.
 5. **Tag** `v3-final-2026-09-30`, no lugar da `v3-final-2026-10-01`.
 
-O autor está revendo o risco de viés e o GRADE (P033, P035, P036 e P042).
+Os autores estão revendo o risco de viés e o GRADE (P033, P035, P036 e P042).
+
+Na mesma noite, Lucas Berti (IESP-UERJ) passou a coautor, com contribuição igual à de Felipe Lamarca, e as conferências e decisões registradas foram declaradas dos dois (`08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`). Os produtos passaram de "o autor" a "os autores".
 
 ### Sessão de 23 e 24/09/2026: o que foi feito
 

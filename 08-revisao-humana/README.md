@@ -1,10 +1,10 @@
 # Revisão humana: o que foi conferido e o que falta
 
-Em 30/09/2026, o autor declarou ter conferido as etapas abaixo e concordar com as decisões em vigor. A declaração está em `declaracao_autor_2026-09-30.md` e a emenda correspondente é a Emenda 7 (`00-protocolo/emendas.md`). A conferência foi **em bloco**: o autor não preencheu as planilhas item a item. O coordenador de IA preencheu os campos humanos a partir da declaração, e cada fechamento cita esse arquivo no motivo.
+Em 30/09/2026, os autores declararam ter conferido as etapas abaixo e concordar com as decisões em vigor (a conferência foi dos dois, Felipe Lamarca e Lucas Berti, sem dupla independente; `declaracao_autores_2026-09-30_coautoria.md`). A declaração está em `declaracao_autor_2026-09-30.md` e a emenda correspondente é a Emenda 7 (`00-protocolo/emendas.md`). A conferência foi **em bloco**: os autores não preencheram as planilhas item a item. O coordenador de IA preencheu os campos humanos a partir da declaração, e cada fechamento cita esse arquivo no motivo.
 
-No mesmo dia, a deduplicação que o autor decidiu foi aplicada, com a ferramenta corrigida, e os 9 pares de versão que a aplicação reabriu foram ligados por ele (Emenda 8; `P019_dedup/declaracao_autor_2026-09-30_dedup.md`).
+No mesmo dia, a deduplicação que os autores decidiram foi aplicada, com a ferramenta corrigida, e os 9 pares de versão que a aplicação reabriu foram ligados por eles (Emenda 8; `P019_dedup/declaracao_autor_2026-09-30_dedup.md`).
 
-Ficam abertas as pendências de risco de viés, certeza (GRADE) e validação cega da triagem. Na versão de entrega, essas etapas são declaradas como feitas só por IA. O autor está revendo o risco de viés e o GRADE; quando concluir, a declaração dele fecha P033, P035, P036 e P042. Os pacotes desta pasta continuam prontos para isso.
+Ficam abertas as pendências de risco de viés, certeza (GRADE) e validação cega da triagem. Na versão de entrega, essas etapas são declaradas como feitas só por IA. Os autores estão revendo o risco de viés e o GRADE; quando concluírem, a declaração deles fecha P033, P035, P036 e P042. Os pacotes desta pasta continuam prontos para isso.
 
 Definições de rs:
 
@@ -14,7 +14,7 @@ rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }
 
 ## Fechadas em 30/09/2026 (Emendas 7 e 8)
 
-| Pendência | Etapa | O que o autor confirmou | Registro |
+| Pendência | Etapa | O que os autores confirmaram | Registro |
 |---|---|---|---|
 | P001, P004 | busca (G3) | conferência da pré-revisão PRESS da S-oa-en-v5 feita por IA; decisão (a): aceitar a v5 e declarar as lacunas | `01-busca/press_revisor_humano_1.md` |
 | P020 | triagem (G4) | as 81 divergências seguem ao texto completo pela regra liberal (estado atual) | `P020_triagem/fila_humana_ta_v1.csv` |
@@ -23,7 +23,7 @@ rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }
 | P039 | extração (G7) | os 560 efeitos, conferidos na página do PDF (`verificado_humano = sim`); os pontos de `efeitos/pontos_para_o_revisor.md` no estado atual | `05-decomposicao/efeitos_extraidos.csv` |
 | P037 | extração | as 259 divergências da recodificação, com o valor original | `P037_concordancia/arbitragem_humana.csv` |
 | P038 | relato (G9) | leu e aprovou o artigo final com apêndices (versão de entrega) | motivo no log |
-| P019 | organização | as 145 decisões de deduplicação, aplicadas depois da triagem, com a decisão mais inclusiva nos 44 registros absorvidos já triados, e os 9 pares de versão, ligados por ele (Emenda 8) | `P019_dedup/declaracao_autor_2026-09-30_dedup.md` |
+| P019 | organização | as 145 decisões de deduplicação, aplicadas depois da triagem, com a decisão mais inclusiva nos 44 registros absorvidos já triados, e os 9 pares de versão, ligados por eles (Emenda 8) | `P019_dedup/declaracao_autor_2026-09-30_dedup.md` |
 
 
 ## Ordem sugerida e esforço
@@ -57,7 +57,7 @@ Troque `P008` por P035, conforme o portão.
 
 ## Para uma próxima versão (decisões sem pendência)
 
-As leituras críticas simuladas por IA de 24/09/2026 (`09-documento-final/resposta_pareceres.md`) deixaram decisões do autor que não têm pendência no `rs.py`. As ligadas a pendências já fechadas pela Emenda 7 (P037, P039) ficaram no estado atual; as ligadas à P036 entram na revisão do GRADE. Sobram estas, para uma evolução do projeto:
+As leituras críticas simuladas por IA de 24/09/2026 (`09-documento-final/resposta_pareceres.md`) deixaram decisões dos autores que não têm pendência no `rs.py`. As ligadas a pendências já fechadas pela Emenda 7 (P037, P039) ficaram no estado atual; as ligadas à P036 entram na revisão do GRADE. Sobram estas, para uma evolução do projeto:
 
 - busca em registros de experimentos e pré-registros (AEA, OSF, EGAP);
 - versão datada do ROBINS-I V2 usada, datas de acesso e parâmetros dos modelos de IA, que não foram registrados;

@@ -11,8 +11,9 @@
 # A linha "Relato" já diz que o autor aprovou esta versão: a publicação só sai depois dessa aprovação, que fecha a
 # P038 (G9). Se o autor não aprovar, esta linha volta a dizer só "na versão de 24/09/2026".
 legenda: >-
-  Uso de IA e conferência humana por etapa da síntese. Em bloco pelo autor: em 30/09/2026, o autor declarou ter
-  revisto o que a coluna descreve e concordado com as decisões em vigor, sem registrar a conferência item a item (Emenda 7). A concordância entre agentes de IA mede consistência, e não
+  Uso de IA e conferência humana por etapa da síntese. Em bloco pelos autores: em 30/09/2026, os autores declararam
+  ter revisto juntos o que a coluna descreve, sem dupla conferência independente, e concordado com as decisões em
+  vigor, sem registrar a conferência item a item (Emenda 7). A concordância entre agentes de IA mede consistência, e não
   acurácia, e não vale como validação. Pendência aberta: tarefa de validação humana registrada e não concluída.
 larguras: [11, 23, 21, 36, 9]
 colunas:
@@ -30,7 +31,7 @@ linhas:
       Não se aplica (um agente por tarefa). *Recall* das âncoras de 19 de 19 na versão final da estratégia em
       inglês, não independente
     - >-
-      Em bloco pelo autor: conferência da pré-revisão PRESS por IA, com as lacunas declaradas; não é revisão PRESS
+      Em bloco pelos autores: conferência da pré-revisão PRESS por IA, com as lacunas declaradas; não é revisão PRESS
       independente
     - nenhuma
   - - Deduplicação
@@ -39,9 +40,9 @@ linhas:
       incertos; ferramenta corrigida pelo coordenador de IA para aplicar as fusões depois da triagem (Emenda 8)
     - Não se aplica
     - >-
-      Em bloco pelo autor: concordou com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar), aplicadas
+      Em bloco pelos autores: concordou com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar), aplicadas
       depois da triagem, com a decisão mais inclusiva nos 44 registros já triados; nos 9 pares de versão, ligados
-      por ele como a IA sugeriu (Emenda 8). Os estudos incluídos não mudaram
+      por eles como a IA sugeriu (Emenda 8). Os estudos incluídos não mudaram
     - nenhuma
   - - Triagem de títulos e resumos
     - >-
@@ -50,8 +51,8 @@ linhas:
     - >-
       A × B na primeira onda: 0,97 (κ 0,90; PABAK 0,94), sem IC; *recall* não calculado
     - >-
-      Em bloco pelo autor: 81 divergências mantidas no texto completo pela regra liberal. Validação cega não
-      realizada (amostras de 141 e 300 registros). Triagem complementar: conferência dispensada pelo autor
+      Em bloco pelos autores: 81 divergências mantidas no texto completo pela regra liberal. Validação cega não
+      realizada (amostras de 141 e 300 registros). Triagem complementar: conferência dispensada pelos autores
     - P006, P007, P008
   - - Elegibilidade no texto completo
     - >-
@@ -59,8 +60,8 @@ linhas:
       *script*
     - Sem dupla nem medida de concordância
     - >-
-      Em bloco pelo autor: 165 propostas mantidas e 3 extensões de regra endossadas; item a item nos 16 casos
-      limítrofes, decididos por ele
+      Em bloco pelos autores: 165 propostas mantidas e 3 extensões de regra endossadas; item a item nos 16 casos
+      limítrofes, decididos por eles
     - nenhuma
   - - Extração e efeitos
     - >-
@@ -70,7 +71,7 @@ linhas:
       Nos 56 efeitos principais de então, 15 concordaram, 23 tinham o mesmo valor com outra classificação, 12
       outro valor e 6 outro sinal; 772 correções, 240 estendidas sem nova arbitragem
     - >-
-      Em bloco pelo autor: os 560 efeitos, conferidos na página do PDF, e o piloto, mantidos
+      Em bloco pelos autores: os 560 efeitos, conferidos na página do PDF, e o piloto, mantidos
     - nenhuma
   - - Recodificação cega da extração
     - >-
@@ -79,12 +80,12 @@ linhas:
       58,5% em 560 comparações; 37 variáveis abaixo do limiar (κ ou PABAK de pelo menos 0,7 e 80%); contingência
       não acionada
     - >-
-      Em bloco pelo autor: 259 divergências resolvidas com o valor original
+      Em bloco pelos autores: 259 divergências resolvidas com o valor original
     - nenhuma
   - - Risco de viés
     - >-
       Avaliadores `claude-opus-5-5` (A) e `claude-sonnet-5` (B), independentes; árbitro `claude-opus-5-5`,
-      escolhido pelo autor por custo
+      escolhido pelos autores por custo
     - >-
       Consenso automático em 171 dos 259 domínios; nos 88 arbitrados, o árbitro seguiu A em 79
     - Não realizada
@@ -101,6 +102,6 @@ linhas:
     - >-
       Não se aplica; verificação e leituras críticas por IA não validam o conteúdo
     - >-
-      Em bloco pelo autor, na versão de 24/09/2026 (declaração de 30/09/2026); esta versão, que a reescreve sem mudar
-      a análise, foi aprovada por ele antes da entrega, já com a Emenda 8, que ele pediu (G9)
+      Em bloco pelos autores, na versão de 24/09/2026 (declaração de 30/09/2026); esta versão, que a reescreve sem mudar
+      a análise, foi aprovada por eles antes da entrega, já com a Emenda 8, que eles pediram (G9)
     - nenhuma

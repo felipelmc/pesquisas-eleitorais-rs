@@ -188,7 +188,7 @@ Na versão de entrega, o autor declara essas etapas como feitas inteiramente por
 - O protocolo (seção 10) manda marcar "RASCUNHO NÃO VALIDADO" nos produtos enquanto houver pendência aberta. Na versão de entrega, a marca sai da capa, do cabeçalho, da marca-d'água e dos avisos ao longo do texto. Ela fica só na primeira linha da declaração de uso de IA, seguida da lista do que não teve validação humana, como pede a regra R7.23. É um desvio parcial da seção 10.
 - A caixa de ferramentas no formato *O que funciona?* (opcional neste tipo de revisão) sai do artigo de entrega: com a certeza muito baixa e o GRADE não validado, nenhuma célula tem rótulo definido.
 - O material suplementar passa a apêndices do próprio artigo.
-- O repositório continua privado. Um pacote de replicação sem resumos e sem e-mails de terceiros é publicado pelo GitHub Pages (seção 11).
+- O repositório continua privado. Um pacote de replicação sem resumos e sem e-mails de terceiros é publicado pelo GitHub Pages (seção 11). [Nota de 30/09/2026: os autores decidiram abrir o repositório. O histórico público foi reescrito sem os resumos de terceiros, os lotes e os pareceres de triagem, que ficam num repositório privado com o histórico completo; ver `08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`.]
 
 [Nota de 30/09/2026: depois desta emenda, o autor leu e aprovou o artigo final com apêndices, e a P038 (G9) fechou com essa aprovação.]
 
@@ -207,3 +207,5 @@ Decidida pelo revisor humano em 30/09/2026, depois do G9 e depois de ver os dado
 - Nenhum absorvido tinha decisão de texto completo nem estava entre os incluídos. O filtro formal, a consolidação da triagem (`--regra liberal`), o PRISMA e a lista de incluídos foram refeitos.
 
 **Efeito.** Registros únicos: 3.365 (antes 3.423). Duplicados removidos: 91 nas bases e 17 nos outros métodos (antes 46 e 4). Filtro de ano: 143 e 639 (antes 148 e 648). Triados: 1.533 e 1.050 (antes 1.573 e 1.054). Excluídos na triagem: 1.277 e 784 (antes 1.314 e 787). Buscados: 256 e 266, 522 no total (antes 526). Não recuperados: 155 e 183, 338 no total (antes 342). Avaliados no texto completo, excluídos, motivos, incluídos (41 estudos, 55 relatos), efeitos, risco de viés, síntese e certeza não mudaram. A P019 fechou.
+
+[Nota de 30/09/2026 (coautoria, sem mudança de método): Lucas Berti (IESP-UERJ) é coautor da síntese, com contribuição igual à de Felipe Lamarca. As conferências e as decisões atribuídas ao revisor humano (`revisor_humano_1`) e ao autor nas Emendas 1 a 8 foram dos dois autores, sem dupla conferência independente. Registro: `08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`.]

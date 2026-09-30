@@ -152,21 +152,22 @@ def emenda7_atalho(aid, rec, dentro, porque):
     """Células da tabela de atalhos (garritty_2024.md, seção 4, de 24/09/2026) que ficariam falsas depois da
     conferência do autor (Emenda 7), trocadas aqui sem editar o insumo."""
     porque = re.sub(r"Ficaram 165 decisões propostas sem conferência humana(?: \([^)]*\))?\.",
-                    "As 165 decisões propostas foram conferidas em bloco e mantidas pelo autor (Emenda 7).", porque)
+                    "As 165 decisões propostas foram conferidas em bloco e mantidas pelos autores (Emenda 7).", porque)
+    porque = porque.replace("Os incertos residuais foram ao humano:", "Os incertos residuais foram aos autores:")
     if rec.startswith("Extração: 11"):
         dentro = dentro.replace("Dentro na forma; sem humano", "Dentro na forma")
         porque = re.sub(r"A conferência humana do piloto está pendente(?: \([^)]*\))?\.",
-                        "O autor conferiu o piloto em bloco e o manteve (Emenda 7).", porque)
+                        "Os autores conferiram o piloto em bloco e o mantiveram (Emenda 7).", porque)
     if rec.startswith("Extração: 12"):
         dentro = "Dentro, com ressalva" if dentro == "Fora" else dentro
         porque = re.sub(r"Nenhum dos 560 efeitos foi conferido por humano na página do PDF(?: \([^)]*\))?\.",
-                        "O autor declarou ter conferido os 560 efeitos na página do PDF, em bloco (Emenda 7).", porque)
+                        "Os autores declararam ter conferido os 560 efeitos na página do PDF, em bloco (Emenda 7).", porque)
     if rec.startswith("Certeza: 21"):
         dentro = dentro.replace("Dentro, como rascunho", "Dentro, julgado só por IA")
     if rec.startswith("Certeza: 23"):
         porque = "Um só agente de IA julgou, sem segundo verificador nem validação humana."
     if aid == "A4" and re.match(r"6\b", rec):
-        porque = porque.rstrip() + " O autor conferiu essa pré-revisão (Emenda 7), o que não equivale a revisão independente."
+        porque = porque.rstrip() + " Os autores conferiram essa pré-revisão (Emenda 7), o que não equivale a revisão independente."
     return [aid, rec, dentro, porque]
 
 
@@ -210,7 +211,7 @@ def s2_atalhos():
                 # não recuperados: o insumo é de 24/09/2026; os números vêm do PRISMA atual (Emenda 8 mudou o fluxo)
                 l = re.sub(r"\d+ das bases e \d+ dos outros métodos", nao_recuperados, l)
                 l = l.replace("**Texto completo:** exclusões erradas não são detectadas.",
-                              "**Texto completo:** exclusões erradas só seriam vistas na conferência do autor, feita em "
+                              "**Texto completo:** exclusões erradas só seriam vistas na conferência dos autores, feita em "
                               "bloco.")
                 itens.append(sem_caminhos(l))
             linhas_cons.append([f"**{aid}** {nome}", " ".join(itens)])
@@ -227,7 +228,7 @@ def s2_atalhos():
     t1 = bloco([mrf.pipe(["Atalho", "Recomendação de Garritty et al.", "Dentro ou fora", "Por quê"],
                          linhas_rec)],
                f"Atalhos declarados no protocolo frente às recomendações de @Garritty2024Rapid (número da "
-               f"recomendação no artigo). {nota_ia} Julgamento de IA, lido pelo autor na conferência do relato (Emenda 7).",
+               f"recomendação no artigo). {nota_ia} Julgamento de IA, lido pelos autores na conferência do relato (Emenda 7).",
                "tbl-s2-atalhos", [8, 24, 16, 52])
     t2 = bloco([mrf.pipe(["Atalho", "Consequência provável para os resultados"], linhas_cons)],
                "Consequência provável de cada atalho. É inferência, não resultado medido; na maior parte dos casos, a "
@@ -263,8 +264,8 @@ ANTES_DEPOIS = {"A": "antes de ver os dados dos estudos (contingência prevista 
 
 # Emenda 3: 00-protocolo/emendas.md, seção da Emenda 3 (codebooks copiados e troca do árbitro previsto no protocolo por
 # decisão de custo do autor) e linha do Resumo ("extração e RoB (G7), antes de qualquer avaliação")
-EMENDA3_OBJETO = ("codebooks de risco de viés copiados para o protocolo; troca do árbitro do RoB (decisão de custo do "
-                  "autor, antes de qualquer avaliação)")
+EMENDA3_OBJETO = ("codebooks de risco de viés copiados para o protocolo; troca do árbitro do RoB (decisão de custo dos "
+                  "autores, antes de qualquer avaliação)")
 EMENDA3_QUANDO = ("correção de registro (codebooks) e decisão de método (árbitro), ambas antes de qualquer avaliação de "
                   "risco de viés")
 
@@ -355,11 +356,11 @@ def s4_excluidos():
             raise SystemExit(f"ERRO: {k} não está como exclusão com critério conhecido em elegibilidade_tc_final.csv")
         cls, ator = quem.get(e["id_rs"], ("", ""))
         if (cls, ator) == ("mantida", "humano"):
-            decisor = "autor (caso limítrofe)"
+            decisor = "autores (caso limítrofe)"
         elif ator.startswith("ia_"):
-            decisor = "IA, estendendo regra do autor, endossada por ele"
+            decisor = "IA, estendendo regra dos autores, endossada por eles"
         elif not ator:
-            decisor = "IA, conferida em bloco pelo autor"
+            decisor = "IA, conferida em bloco pelos autores"
         else:
             raise SystemExit(f"ERRO: atribuição inesperada de {k} ({e['id_rs']}): {cls} / {ator}")
         linhas.append((e["criterio_falhou"], k.lower(), [f"@{k}", CRITERIO[e["criterio_falhou"]], decisor]))
@@ -368,7 +369,7 @@ def s4_excluidos():
                            linhas)],
                  "Estudos excluídos na leitura do texto completo que poderiam parecer elegíveis (PRISMA 16b), com o "
                  "critério de elegibilidade que não atenderam. As exclusões propostas pela IA foram conferidas em bloco "
-                 "e mantidas pelo autor (Emenda 7).", "tbl-s4-excluidos", [30, 45, 25])
+                 "e mantidas pelos autores (Emenda 7).", "tbl-s4-excluidos", [30, 45, 25])
 
 
 def recodificar_epoc(linhas):
@@ -408,7 +409,7 @@ def s6_efeitos():
               "Efeitos principais por estudo. g de Hedges alinhado: positivo = *bandwagon*, viabilidade, *momentum* a "
               "favor ou mobilização. EP = erro-padrão. NR = não calculado ou não relatado; nulo por ±δ = IC 95% inteiro "
               "dentro de ±δ. \"Na contagem?\" diz se o efeito entra no teste de sinal da síntese principal e, se não, "
-              "por quê. Os 560 efeitos extraídos, estes entre eles, foram conferidos pelo autor na página do texto, em "
+              "por quê. Os 560 efeitos extraídos, estes entre eles, foram conferidos pelos autores na página do texto, em "
               "bloco (Emenda 7).",
               "tbl-s6-efeitos", [14, 6, 9, 10, 13, 14, 24, 10])
     return envolver("tabela-larga", t)
@@ -416,7 +417,7 @@ def s6_efeitos():
 
 def s7_fora():
     linhas = [re.sub(r"conferência humana pendente \(([^)]*?);\s*ver [^)]*\)",
-                     r"fora da contagem, mantido pelo autor na conferência em bloco (Emenda 7; \1)", l)
+                     r"fora da contagem, mantido pelos autores na conferência em bloco (Emenda 7; \1)", l)
               for l in tabela_sem_legenda(INS / "tabelas/fora.md")]
     t = bloco(linhas,
               "Efeitos principais fora da contagem e motivo registrado para cada um, na versão depois das arbitragens "

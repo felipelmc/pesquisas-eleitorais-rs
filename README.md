@@ -1,6 +1,6 @@
 # Pesquisas eleitorais publicadas mudam o voto?
 
-Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento. Felipe Lamarca (MAPE/IESP-UERJ), versão de entrega de 30/09/2026.
+Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento. Felipe Lamarca (MAPE/IESP-UERJ) e Lucas Berti (IESP-UERJ), com contribuição igual; versão de entrega de 30/09/2026.
 
 - **Artigo com apêndices (PDF único):** [`docs/revisao.pdf`](docs/revisao.pdf), também em <https://felipelamarca.com/pesquisas-eleitorais-rs/revisao.pdf>.
 - **Página do projeto:** <https://felipelamarca.com/pesquisas-eleitorais-rs/>. Traz a vitrine interativa, o artigo em HTML, os apêndices e o resumo em linguagem simples.
@@ -19,10 +19,10 @@ Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efei
 
 ## O que teve e o que não teve validação humana
 
-Agentes de IA conduziram as etapas depois do protocolo. O protocolo e a pergunta foram aprovados pelo autor. Em 30/09/2026, o autor declarou ter conferido **em bloco** partes da busca e da seleção (a pré-revisão PRESS por IA, as 81 divergências da triagem e as 165 propostas de elegibilidade), o piloto, os 560 efeitos (contra a página dos PDFs), as divergências da recodificação e o relato, e ter mantido as decisões em vigor. O registro está em [`08-revisao-humana/declaracao_autor_2026-09-30.md`](08-revisao-humana/declaracao_autor_2026-09-30.md) e na Emenda 7. No mesmo dia, a deduplicação que ele decidiu foi aplicada, depois de corrigida a ferramenta (Emenda 8): mudaram contagens do fluxo, e não os incluídos.
+Agentes de IA conduziram as etapas depois do protocolo. O protocolo e a pergunta foram aprovados pelos autores. Em 30/09/2026, os autores declararam ter conferido **em bloco** partes da busca e da seleção (a pré-revisão PRESS por IA, as 81 divergências da triagem e as 165 propostas de elegibilidade), o piloto, os 560 efeitos (contra a página dos PDFs), as divergências da recodificação e o relato, e ter mantido as decisões em vigor, em bloco e sem dupla conferência independente. O registro está em [`08-revisao-humana/declaracao_autor_2026-09-30.md`](08-revisao-humana/declaracao_autor_2026-09-30.md), na Emenda 7 e na declaração de coautoria ([`08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`](08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md)). No mesmo dia, a deduplicação que eles decidiram foi aplicada, depois de corrigida a ferramenta (Emenda 8): mudaram contagens do fluxo, e não os incluídos.
 
 Ficaram **sem validação humana**:
-- o risco de viés e a certeza da evidência, julgados por IA e hoje em revisão pelo autor;
+- o risco de viés e a certeza da evidência, julgados por IA e hoje em revisão pelos autores;
 - a validação cega da triagem.
 
 Essas pendências seguem abertas ([`08-revisao-humana/README.md`](08-revisao-humana/README.md)). Por isso o `rs status` ainda marca o projeto como rascunho, e a declaração de uso de IA do artigo abre com "RASCUNHO NÃO VALIDADO".
@@ -46,10 +46,10 @@ A versão de entrega está na tag `v3-final-2026-09-30`; as anteriores, nas tags
 
 ## Como citar
 
-Lamarca, Felipe. 2026. *Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos* bandwagon *e* underdog *e o comparecimento*. Documento de trabalho, versão de 30/09/2026. <https://felipelamarca.com/pesquisas-eleitorais-rs/>. Ver também [`CITATION.cff`](CITATION.cff).
+Lamarca, Felipe, e Lucas Berti. 2026. *Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos* bandwagon *e* underdog *e o comparecimento*. Documento de trabalho, versão de 30/09/2026. <https://felipelamarca.com/pesquisas-eleitorais-rs/>. Ver também [`CITATION.cff`](CITATION.cff).
 
 ## Licenças
 
 O código é MIT ([`LICENSE`](LICENSE)). Textos, figuras e dados derivados são CC BY 4.0 ([`LICENSE-CC-BY-4.0.md`](LICENSE-CC-BY-4.0.md)); o mesmo arquivo lista o que mantém os termos de origem (metadados bibliográficos, trechos citados, estilo de citação, fontes, D3).
 
-Este repositório é privado, e o acesso é sob pedido ao autor. Ele guarda os PDFs de terceiros só no disco local, fora do Git. Nenhum PDF foi obtido por Sci-Hub, LibGen ou outra fonte não autorizada.
+Este repositório é público. Os PDFs de terceiros, os resumos de terceiros (exportações das buscas, registros com resumo, lotes, filas e amostras de triagem) e os pareceres dos triadores de IA, que citam trechos dos resumos, ficam só no disco local dos autores, fora do Git, e num repositório privado com o histórico completo, com acesso sob pedido aos autores. O histórico público foi reescrito em 30/09/2026 para tirar esses arquivos de todos os commits. A pasta [`publico/`](publico/) traz as versões abertas deles: os registros sem resumo, cada decisão de triagem sem os trechos citados e as decisões de deduplicação sem os resumos dos pares. Nenhum PDF foi obtido por Sci-Hub, LibGen ou outra fonte não autorizada.

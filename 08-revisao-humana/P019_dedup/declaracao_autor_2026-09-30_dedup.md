@@ -1,5 +1,7 @@
 # Declaração do autor sobre a aplicação da deduplicação (30/09/2026)
 
+> **Nota de 30/09/2026 (coautoria).** Esta é a transcrição do que Felipe Lamarca disse em chat. Depois, ele declarou que o trabalho foi feito com Lucas Berti (IESP-UERJ), coautor com contribuição igual, e que as conferências e decisões registradas aqui foram dos dois autores, sem dupla conferência independente (`08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`).
+
 Este arquivo transcreve as decisões que o autor (`revisor_humano_1`) tomou em chat com o coordenador de IA (Claude Code, `claude-opus-5-5`) em 30/09/2026, depois da versão de entrega, numa revisão geral do projeto. Completa a declaração de `08-revisao-humana/declaracao_autor_2026-09-30.md`, em que o autor já concordava com as sugestões da IA nos 145 pares candidatos, mas escolhera não aplicá-las. A Emenda 8 registra a aplicação.
 
 ## Decisões

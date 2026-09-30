@@ -1,5 +1,7 @@
 # Declaração do autor sobre a revisão humana (30/09/2026)
 
+> **Nota de 30/09/2026 (coautoria).** Esta é a transcrição do que Felipe Lamarca disse em chat. Depois, ele declarou que o trabalho foi feito com Lucas Berti (IESP-UERJ), coautor com contribuição igual, e que as conferências e decisões registradas aqui foram dos dois autores, sem dupla conferência independente (`08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`).
+
 Este arquivo transcreve o que o autor (`revisor_humano_1`) declarou em chat ao coordenador de IA (Claude Code, `claude-opus-5-5`) em 30/09/2026, ao pedir a versão final de entrega. Os fechamentos de pendência feitos com base nessa declaração citam este arquivo no motivo. O agente transcreveu; não houve conferência item a item registrada pelo próprio autor nas planilhas.
 
 ## Declaração geral, nas palavras do autor
@@ -47,4 +49,4 @@ O autor **não** marcou o bloco "RoB e GRADE" (259 domínios de risco de viés e
 
 - **Declarações para o artigo.** Sem conflito de interesses, nem relação com a Anthropic. Todos os papéis CRediT humanos são do autor.
 
-- **Repositório.** Segue privado. Um pacote de replicação sem resumos nem e-mails de terceiros é publicado pelo GitHub Pages, com MIT para o código e CC BY 4.0 para textos e dados.
+- **Repositório.** Segue privado [nota de 30/09/2026: depois, os autores decidiram abrir o repositório, com o histórico público sem resumos de terceiros; ver `declaracao_autores_2026-09-30_coautoria.md`]. Um pacote de replicação sem resumos nem e-mails de terceiros é publicado pelo GitHub Pages, com MIT para o código e CC BY 4.0 para textos e dados.

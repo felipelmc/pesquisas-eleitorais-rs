@@ -8,14 +8,17 @@ author:
   - name: Felipe Lamarca
     affiliations:
       - name: MAPE/IESP-UERJ
+  - name: Lucas Berti
+    affiliations:
+      - name: IESP-UERJ
 # estado: final (versão de entrega, Emenda 7): sem marca-d'água nem cabeçalho de rascunho; a marca
 # "RASCUNHO NÃO VALIDADO" fica só na abertura da declaração de uso de IA (R7.23). Lido por
 # montar_revisao_final.py, conferir_reestruturacao.py, verificar_pdf.py e barra_publicacao.py.
 estado: final
 revista:
   masthead: "Documento de trabalho · Síntese sistemática de evidências"
-  cabeca: "Lamarca · Pesquisas eleitorais e voto"
-  nota-ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão do autor. Ver a declaração de uso de IA."
+  cabeca: "Lamarca e Berti · Pesquisas eleitorais e voto"
+  nota-ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão dos autores. Ver a declaração de uso de IA."
   ultima-busca: "19/09/2026 (bases) e 20/09/2026 (busca por citação)"
 csl: revista/american-political-science-association.csl
 link-citations: true
