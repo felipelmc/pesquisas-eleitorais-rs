@@ -113,6 +113,12 @@
   rascunho: false,
   pendencias: none,
   paisagem: false,
+  // apêndices juntados ao artigo num PDF só: sem bloco de título, cabeçalho desde a 1ª página e numeração
+  // de página contínua a partir de pagina-inicial (publicar.sh passa o número de páginas do artigo + 1)
+  continuacao: false,
+  pagina-inicial: 1,
+  // apêndices: tabelas numeradas por apêndice (A1, A2, B1...), reiniciando a cada título de nível 1
+  apendices: false,
   doc,
 ) = {
   set document(title: if rascunho [#title (RASCUNHO NÃO VALIDADO)] else { title }, keywords: keywords)
@@ -125,7 +131,7 @@
     flipped: paisagem,
     margin: if paisagem { (x: 24mm, top: 24mm, bottom: 22mm) } else { (x: 35mm, top: 27mm, bottom: 25mm) },
     header: context {
-      if here().page() > 1 {
+      if continuacao or here().page() > 1 {
         set text(font: sans, size: 7.2pt, fill: luma(80))
         grid(columns: (1fr, auto), align: (left, right),
           cabeca,
@@ -135,7 +141,7 @@
       }
     },
     footer: context align(center, text(font: sans, size: 7.2pt, fill: luma(80),
-      counter(page).display("1 / 1", both: true))),
+      counter(page).display("1"))),
     background: if rascunho { context place(center + horizon, rotate(-38deg,
       text(font: sans, size: 50pt, weight: "bold", fill: verm.transparentize(94%))[RASCUNHO NÃO VALIDADO])) },
   )
@@ -170,6 +176,13 @@
   }
   show figure: set block(above: 1.4em, below: 1.4em)
   show figure: set align(left)
+  show heading.where(level: 1): it => if apendices {
+    counter("apendice").step()
+    counter(figure.where(kind: "quarto-float-tbl")).update(0)
+    it
+  } else { it }
+  show figure.where(kind: "quarto-float-tbl"): set figure(
+    numbering: n => numbering("A", calc.max(1, counter("apendice").get().first())) + str(n)) if apendices
   show figure.where(kind: "quarto-float-tbl"): set block(breakable: true)
   show figure.where(kind: "quarto-float-tbl"): set figure.caption(position: top)
   show figure.where(kind: "quarto-float-qdr"): set block(breakable: true)
@@ -192,8 +205,10 @@
   show <sec-pendencias>: it => { pagebreak(weak: true); it }
   show ref: set text(fill: acento)
 
+  if continuacao { counter(page).update(pagina-inicial) }
+
   // ------------------------------------------------ bloco de título (página 1)
-  block(width: 100%, below: 1.4em)[
+  if not continuacao { block(width: 100%, below: 1.4em)[
     #set par(first-line-indent: 0pt, justify: false)
     #if masthead != none {
       text(font: sans, size: 7.2pt, weight: "medium", tracking: 0.08em, fill: luma(70), upper(masthead))
@@ -221,7 +236,7 @@
       v(0.5em)
       text(font: sans, size: 7.8pt, style: "italic", fill: luma(70), nota-ia)
     }
-  ]
+  ] }
 
   doc
 }

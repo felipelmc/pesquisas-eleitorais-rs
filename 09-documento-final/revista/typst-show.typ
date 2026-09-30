@@ -52,5 +52,14 @@ $endif$
 $if(paisagem)$
   paisagem: true,
 $endif$
+$if(continuacao)$
+  continuacao: true,
+$endif$
+$if(pagina-inicial)$
+  pagina-inicial: $pagina-inicial$,
+$endif$
+$if(apendices)$
+  apendices: true,
+$endif$
   doc,
 )

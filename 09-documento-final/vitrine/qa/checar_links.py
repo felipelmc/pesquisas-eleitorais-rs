@@ -85,16 +85,13 @@ def main():
                 continue
             destino = (alvo.parent / arq).resolve()
             if not destino.exists():
-                avisos.append(f"{alvo.name}: {arq} ainda não existe em docs/ (documento não publicado)")
+                falhas.append(f"{alvo.name}: {arq} não existe em docs/ (documento não publicado)")
                 continue
             if anc:
                 if destino.name not in ids_cache:
                     ids_cache[destino.name] = coletar(destino)[0].ids if destino.suffix == ".html" else set()
                 if anc not in ids_cache[destino.name]:
-                    if anc in ctr:
-                        avisos.append(f"{alvo.name}: {arq}#{anc}: âncora do contrato do artigo novo, ainda ausente na versão publicada")
-                    else:
-                        falhas.append(f"{alvo.name}: {arq}#{anc}: âncora inexistente no destino")
+                    falhas.append(f"{alvo.name}: {arq}#{anc}: âncora inexistente no destino")
         print(f"{alvo.name}: {len(set(c.hrefs))} href(s) no HTML, {len(set(js))} gerado(s) pelo JS")
     for i in sorted(set(info)):
         print("INFO  ", i)

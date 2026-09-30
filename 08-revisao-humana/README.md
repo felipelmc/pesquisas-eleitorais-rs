@@ -1,8 +1,8 @@
-# Revisão humana: o que falta e como fazer
+# Revisão humana: o que foi conferido e o que falta
 
-A revisão tem **18 pendências abertas** (`rs --dir . pendencia listar`). Todas exigem decisão humana. A IA não fecha nenhuma: o skill registra fechamento só com ator humano, e as regras do projeto não permitem atribuir papel humano a decisões de IA.
+Em 30/09/2026, o autor declarou ter conferido as etapas abaixo e concordar com as decisões em vigor. A declaração está em `declaracao_autor_2026-09-30.md` e a emenda correspondente é a Emenda 7 (`00-protocolo/emendas.md`). A conferência foi **em bloco**: o autor não preencheu as planilhas item a item. O coordenador de IA preencheu os campos humanos a partir da declaração, e cada fechamento cita esse arquivo no motivo.
 
-Esta pasta prepara cada uma para decisão rápida. As sugestões de IA ficam sempre em colunas ou arquivos separados, e as colunas humanas vêm vazias. **Nenhuma sugestão de IA conta como validação.**
+Ficam abertas as pendências de risco de viés, certeza (GRADE), validação cega da triagem e aplicação da deduplicação. Na versão de entrega, essas etapas são declaradas como feitas só por IA. Numa evolução do projeto, precisam de revisão humana: os pacotes desta pasta continuam prontos para isso.
 
 Definições de rs:
 
@@ -10,62 +10,46 @@ Definições de rs:
 rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }
 ```
 
+## Fechadas em 30/09/2026 (Emenda 7)
+
+| Pendência | Etapa | O que o autor confirmou | Registro |
+|---|---|---|---|
+| P001, P004 | busca (G3) | conferência da pré-revisão PRESS da S-oa-en-v5 feita por IA; decisão (a): aceitar a v5 e declarar as lacunas | `01-busca/press_revisor_humano_1.md` |
+| P020 | triagem (G4) | as 81 divergências seguem ao texto completo pela regra liberal (estado atual) | `P020_triagem/fila_humana_ta_v1.csv` |
+| P041, P023 | texto completo (G5) | as 165 propostas de elegibilidade e as 3 extensões de regra (RS4220, RS4487, RS4361) | `03-textos/fila_humana_tc.csv` |
+| P025, P026 | piloto (G6) | os 3 estudos do piloto e a Emenda 2 | motivo no log |
+| P039 | extração (G7) | os 560 efeitos, conferidos na página do PDF (`verificado_humano = sim`); os pontos de `efeitos/pontos_para_o_revisor.md` no estado atual | `05-decomposicao/efeitos_extraidos.csv` |
+| P037 | extração | as 259 divergências da recodificação, com o valor original | `P037_concordancia/arbitragem_humana.csv` |
+
+A P038 (G9, relato) fecha quando o autor aprovar o PDF final.
+
 ## Ordem sugerida e esforço
 
-A ordem segue as etapas, porque decisões de busca e de triagem podem mudar o conjunto de incluídos, e isso muda tudo o que vem depois.
+Pendências que continuam abertas, para a próxima versão:
 
 | # | Pendência | Etapa | O que fazer | Pacote | Esforço |
 |---|---|---|---|---|---|
-| 1 | P001 | busca (G3) | PRESS humano da string **ativa**, S-oa-en-v5. A pendência cita a v4, que foi substituída | `P001_press/` | 2,5 a 3,5 h |
-| 2 | P004 | portão G3 | confirmar o G3 | seção abaixo | 5 min |
-| 3 | P019 | organização | 145 pares candidatos de duplicata, com sugestão da IA por par | `P019_dedup/` | 1 a 1,5 h |
-| 4 | P020 | triagem T/A | 81 divergências entre os triadores A e B, com sugestão de um terceiro leitor cego | `P020_triagem/` | 1 h |
-| 5 | P006 | triagem T/A | amostra de validação cega: 141 registros, dois codificadores | `P006_P007_validacao/` | 2 × 1,5 h |
-| 6 | P007 | triagem T/A | amostra de elusão cega: 300 registros excluídos pela IA | `P006_P007_validacao/` | 2 h |
-| 7 | P008 | portão G4 | confirmar o G4 | seção abaixo | 5 min |
-| 8 | P041 | texto completo | 165 decisões de elegibilidade propostas pela IA (antes P028) | `P041_elegibilidade/` | 3 a 4 h |
-| 9 | P023 | portão G5 | confirmar o G5 | seção abaixo | 5 min |
-| 10 | P025 | piloto | conferir os 3 estudos do piloto | `P025_piloto/` | 1 h |
-| 11 | P026 | portão G6 | confirmar o G6 | seção abaixo | 5 min |
-| 12 | P039 | extração | conferir os 560 efeitos na página do PDF (antes P032). Comece pelos principais e pelos pontos que os árbitros levantaram | `efeitos/` | 6 a 10 h |
-| 13 | P037 | extração | 259 divergências da recodificação cega, com sugestão de um terceiro leitor | `P037_concordancia/` | 2 a 3 h |
-| 14 | P033 | portão G7 e RoB | validar os 259 domínios de RoB (88 desacordos primeiro) | `P033_rob/` | 4 a 6 h |
-| 15 | P036 e P042 | síntese | validar os juízos GRADE. A P042 foi aberta pelo `rs caixa` em 24/09 e pede o mesmo | `P036_grade/` | 1 h |
-| 16 | P035 | portão G8 | confirmar o G8 | seção abaixo | 5 min |
-| 17 | P038 | portão G9 | ler o artigo (e o relatório técnico) e confirmar o G9; decidir o título e os marcadores [A confirmar pelo autor] | artigo em `docs/revisao.pdf` ou `revisao.html`; `09-documento-final/resposta_pareceres.md`; relatório técnico em `docs/relatorio-tecnico.html` | 3 h |
+| 1 | P019 | organização | aplicar as decisões de deduplicação já registradas nos 145 pares (66 fusões, 56 rejeições, 23 ligações). Antes, corrigir no `rs.py` a consolidação da triagem para registros absorvidos, rodar o filtro de novo e decidir os 9 pares de versão que surgirão; depois, refazer o PRISMA | `P019_dedup/` | 2 a 3 h |
+| 2 | P006 | triagem T/A | amostra de validação cega: 141 registros, dois codificadores que não viram as decisões da IA | `P006_P007_validacao/` | 2 × 1,5 h |
+| 3 | P007 | triagem T/A | amostra de elusão cega: 300 registros excluídos pela IA | `P006_P007_validacao/` | 2 h |
+| 4 | P008 | portão G4 | confirmar o G4 depois de P006 e P007 (recall da triagem por IA) | seção abaixo | 5 min |
+| 5 | P033 | extração e RoB (G7) | validar os 259 domínios de risco de viés (88 desacordos primeiro) e confirmar o G7 | `P033_rob/` | 4 a 6 h |
+| 6 | P036 e P042 | síntese | validar os juízos GRADE; a P042, aberta pelo `rs caixa`, pede o mesmo | `P036_grade/` | 1 h |
+| 7 | P035 | portão G8 | confirmar o G8 depois da P036 | seção abaixo | 5 min |
+| 8 | P038 | portão G9 | ler o artigo final (`docs/revisao.pdf`) e confirmar o G9 | artigo em `docs/revisao.pdf` | 1 h |
 
-## P039: conferência dos efeitos (pasta `efeitos/`)
+## Portões
 
-- `efeitos/cega/<chave>.json`: re-extração **cega** dos efeitos principais dos 40 estudos, feita por outro agente sem ver a original.
-- `efeitos/comparacao_cega.csv`: original × cega, por efeito principal.
-- `efeitos/arbitragem/<chave>.json`: decisão de um árbitro de IA em 28 estudos com divergência, com trecho e página.
-- `05-decomposicao/correcoes_sessao_2026-09-23.csv`: as 771 correções aplicadas.
-- `efeitos/aplicacao_arbitragem.csv`: o que não foi aplicado, e por quê.
-- **`efeitos/pontos_para_o_revisor.md`**: decisões de julgamento que os árbitros deixaram para você. Entre elas: se Gerber2020a-E12, Feltovich2022-E01/E02 e Schlegel2023 entram no dicionário `FORA`; se Geers2018 volta à contagem; e o alvo de Witsman2016a-E01.
-
-Como registrar: marque `verificado_humano = sim` em `05-decomposicao/efeitos_extraidos.csv` nas linhas que você conferir. Depois rode `rs --dir . analise verificar-efeitos`. A pendência fecha quando todas as linhas estiverem aptas. Qualquer correção de valor se faz em `05-decomposicao/efeitos/<chave>.csv`, e depois a cadeia do README roda de novo desde `preparar-efeitos`.
-
-## Portões aprovados pelo autopiloto (P004, P008, P023, P026, P035 e P038)
-
-Cada portão foi aprovado automaticamente com as checagens de artefato do skill. Confirmar um portão é declarar que você leu o que ele aprovou. Ordem de fechamento: **primeiro as pendências de conteúdo daquela etapa, depois o portão.**
-
-| Portão | Aprovou | Depende de | Riscos principais |
-|---|---|---|---|
-| G3 (P004) | a busca: B05 no OpenAlex em inglês (substituiu a B01), B02, B03 e B04 em PT e ES, BDTD, e a bola de neve SN1 a SN3 | P001 | o PRESS só foi feito por IA. Lacunas: termos de proibição e de apuração parcial, e comparecimento na BDTD (`P001_press/`) |
-| G4 (P008) | a triagem de títulos e resumos, com a rodada ta_v1 e dois triadores de IA | P006, P007, P020 | não há validação humana nem recall calculado. A Emenda 6b refez por IA os 336 registros sem resumo |
-| G5 (P023) | a elegibilidade no texto completo: 55 relatos incluídos, 41 estudos (40 com efeitos) | P041 | propostas de IA; 17 decisões limítrofes suas; 3 extensões de regra feitas pela IA |
-| G6 (P026) | o piloto de extração (3 estudos) e a Emenda 2 | P025 | a Emenda 2 foi decidida pela IA |
-| G8 (P035) | a síntese (SWiM) e o GRADE | P036 | decisões da Emenda 5 tomadas depois de ver os dados; GRADE rascunhado por IA |
-| G9 (P038) | o relato | todas as outras | o manuscrito foi redigido por IA a partir dos arquivos |
-
-Comando para fechar cada portão, **só depois** de fechar as pendências de que ele depende:
+Cada portão foi aprovado automaticamente pelas checagens de artefato da skill. Confirmar um portão é declarar que você leu o que ele aprovou. Feche primeiro as pendências de conteúdo daquela etapa, depois o portão:
 
 ```bash
-rs --dir . pendencia fechar P004 --motivo "G3 conferido: <resumo>" --por revisor_humano_1
+rs --dir . pendencia fechar P008 --motivo "G4 confirmado: <resumo>" --por revisor_humano_1
 ```
 
-Troque `P004` por P008, P023, P026, P035 ou P038 conforme o portão.
+Troque `P008` por P035 ou P038, conforme o portão.
 
 ## Depois de fechar pendências
 
-Refaça os produtos pela cadeia do `README.md` da raiz, seção "Refazer os produtos depois de fechar pendências". Quando a última pendência fechar, o `rs status` deixa de marcar rascunho. Aí tire a faixa "RASCUNHO NÃO VALIDADO" do `07-relatorio/relatorio.qmd`.
+- Se RoB ou GRADE mudarem, refaça a cadeia do `REPRODUZIR.md` (seção "Refazer os produtos") e depois `bash ferramentas/refazer_produtos.sh`.
+- Se a certeza mudar, a sentinela de `09-documento-final/spec_final.md` aponta quais seções do artigo reescrever.
+- Com todas as pendências fechadas, o `rs status` deixa de marcar rascunho, e a linha "RASCUNHO NÃO VALIDADO" sai da declaração de uso de IA do artigo.

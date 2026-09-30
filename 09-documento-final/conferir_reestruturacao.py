@@ -3,6 +3,16 @@
 USO (da raiz):
   python3 09-documento-final/conferir_reestruturacao.py [--v1 09-documento-final/_revisao_final_v1_oqf.qmd]
       [--novo 09-documento-final/revisao_final.qmd] [--suplemento 09-documento-final/suplemento.qmd]
+      [--modo rascunho|final] [--pendencias 07-relatorio/_pendencias_abertas.json]
+
+Modo (padrão: a chave `estado` de revista/_revista.yml; `final` se estiver lá, senão `rascunho`):
+  rascunho   11 callouts "Pendente de revisão humana" com os conjuntos de IDs do v1 e tabela tbl-pendencias no artigo
+             com as pendências abertas (versão de 24/09/2026).
+  final      versão de entrega (Emenda 7): nenhum callout "Pendente de revisão humana"; nenhum "[A confirmar pelo
+             autor]"; nenhuma menção a "suplemento" no artigo; "RASCUNHO NÃO VALIDADO" exatamente uma vez no artigo
+             (abertura da declaração de uso de IA, R7.23) e no máximo uma vez nos apêndices; a tabela tbl-lacunas
+             dos apêndices (suplemento.qmd) cita todas as pendências abertas, menos a P038 (G9), e nenhuma outra;
+             palavras de Introdução a Conclusões entre 7.500 e 8.500 (AVISO fora da faixa).
 
 Sai com 0 se passar e 1 se houver alguma FALHA. Imprime um relatório por categoria (FALHA / AVISO / OK).
 Só lê arquivos; não escreve nada.
@@ -76,8 +86,16 @@ REVISOES = D / "insumos/revisoes_anteriores.md"
 INCLUIDOS = R / "07-relatorio/incluidos.csv"
 TITULO_PENDENTE = "Pendente de revisão humana"
 N_CALLOUTS = 11
-DATAS_FIXAS = ["24/09/2026", "25/09/2026"]
+DATAS_FIXAS = ["24/09/2026", "25/09/2026", "30/09/2026", "01/10/2026"]
 MARCADOR_AUTOR = "[A confirmar pelo autor]"
+MARCA_RASCUNHO = "RASCUNHO NÃO VALIDADO"
+FAIXA_PALAVRAS = (7500, 8500)
+SECOES_CORPO = ("Introdução", "Conclusões")   # primeira e última seção de nível 1 do corpo
+
+
+def estado_revista():
+    m = re.search(r"(?m)^estado:\s*(\w+)", (REV / "_revista.yml").read_text(encoding="utf-8"))
+    return "final" if m and m.group(1) == "final" else "rascunho"
 NIVEIS = ["muito baixa", "baixa", "moderada", "alta"]
 POR_EXTENSO = {1: ["um", "uma", "único", "única"], 2: ["dois", "duas"], 3: ["três"], 4: ["quatro"], 5: ["cinco"],
                6: ["seis"], 7: ["sete"], 8: ["oito"], 9: ["nove"], 10: ["dez"]}
@@ -675,8 +693,15 @@ def callouts_pendentes(texto):
     return saida
 
 
-def conferir_callouts(novo, v1, rel):
+def conferir_callouts(novo, v1, rel, modo="rascunho"):
     cn, cv = callouts_pendentes(novo), callouts_pendentes(v1)
+    if modo == "final":
+        if cn:
+            rel.add("Estrutura: callouts", "FALHA", f"{len(cn)} callout(s) \"{TITULO_PENDENTE}\" na versão final "
+                                                    f"(linhas {[c['linha'] for c in cn]})")
+        else:
+            rel.add("Estrutura: callouts", "OK", f"nenhum callout \"{TITULO_PENDENTE}\" (versão final)")
+        return
     if len(cn) != N_CALLOUTS:
         rel.add("Estrutura: callouts", "FALHA", f"{len(cn)} callouts \"{TITULO_PENDENTE}\" (esperados {N_CALLOUTS}; "
                                                 f"o v1 tem {len(cv)})")
@@ -690,8 +715,82 @@ def conferir_callouts(novo, v1, rel):
         rel.add("Estrutura: callouts", "OK", f"{len(cn)} callouts com os mesmos conjuntos de IDs do v1")
 
 
-def conferir_apendice(novo, rel):
-    pend = json.load(open(PEND, encoding="utf-8"))
+def conferir_lacunas(sup, rel, pend_path=PEND):
+    """Versão final: a tabela {#tbl-lacunas} dos apêndices cita as pendências abertas, menos a P038 (G9, relato)."""
+    pend = json.load(open(pend_path, encoding="utf-8"))
+    esperados = {p["id"] for p in pend["pendencias"]} - {"P038"}
+    if sup is None:
+        rel.add("Estrutura: apêndice", "FALHA", "apêndices (suplemento.qmd) ausentes: tbl-lacunas não conferida")
+        return
+    linhas = sem_comentarios_e_codigo(sup).split("\n")
+    idx = next((i for i, l in enumerate(linhas) if re.match(r"^:\s.*\{#tbl-lacunas\b", l)), None)
+    if idx is None:
+        rel.add("Estrutura: apêndice", "FALHA", "tabela {#tbl-lacunas} não encontrada nos apêndices")
+        return
+    j, tabela = idx - 1, []
+    while j >= 0 and not linhas[j].strip():
+        j -= 1
+    while j >= 0 and linhas[j].lstrip().startswith("|"):
+        tabela.append(linhas[j])
+        j -= 1
+    ids = set(re.findall(r"\bP\d{3}\b", "\n".join(tabela)))
+    if ids == esperados:
+        rel.add("Estrutura: apêndice", "OK", f"tbl-lacunas cita as {len(esperados)} pendências abertas (sem a P038)")
+    else:
+        if esperados - ids:
+            rel.add("Estrutura: apêndice", "FALHA", f"pendências abertas fora de tbl-lacunas: {sorted(esperados - ids)}")
+        if ids - esperados:
+            rel.add("Estrutura: apêndice", "FALHA", f"IDs em tbl-lacunas que não estão abertos: {sorted(ids - esperados)}")
+
+
+def conferir_final(novo, sup, rel):
+    """Marcas que não podem sobrar na versão final (Emenda 7)."""
+    t = sem_comentarios_e_codigo(novo)
+    if MARCADOR_AUTOR in t:
+        rel.add("Proibições", "FALHA", f"novo: {t.count(MARCADOR_AUTOR)} marcador(es) \"{MARCADOR_AUTOR}\"")
+    for i, l in enumerate(t.split("\n")):
+        if re.search(r"\bsuplemento\b|suplemento\.html", l, re.I):
+            rel.add("Proibições", "FALHA", f"novo linha {i + 1}: menção a \"suplemento\" (use \"Apêndice X\"): "
+                                           f"…{l[:90]}…")
+    n = t.count(MARCA_RASCUNHO)
+    if n != 1:
+        rel.add("Proibições", "FALHA", f"novo: \"{MARCA_RASCUNHO}\" aparece {n} vez(es); na versão final, só na "
+                                       "abertura da declaração de uso de IA (R7.23)")
+    if sup is not None:
+        ts = sem_comentarios_e_codigo(sup)
+        if ts.count(MARCA_RASCUNHO) > 1:
+            rel.add("Proibições", "FALHA", f"apêndices: \"{MARCA_RASCUNHO}\" aparece {ts.count(MARCA_RASCUNHO)} vezes")
+        if MARCADOR_AUTOR in ts:
+            rel.add("Proibições", "FALHA", f"apêndices: marcador \"{MARCADOR_AUTOR}\"")
+
+
+def palavras_corpo(nome, texto, rel):
+    """Versão final: palavras de prosa de Introdução a Conclusões (seções de nível 1), sem tabelas e legendas."""
+    t = sem_comentarios_e_codigo(texto)
+    t = re.sub(r"^:::.*$|^@@.*@@\s*$", "", t, flags=re.M)
+    t = re.sub(r"\{(?=[#.]|[\w-]+=)[^{}\n]*\}", " ", t)
+    t = re.sub(r"\]\([^)\n]*\)", "]", t)
+    dentro, depois_da_ultima, total = False, False, 0
+    for l in t.split("\n"):
+        m = re.match(r"^#\s+(.*)$", l)
+        if m:
+            titulo = norm_espacos(m.group(1))
+            if titulo.startswith(SECOES_CORPO[0]):
+                dentro = True
+            elif depois_da_ultima:
+                dentro = False
+            depois_da_ultima = depois_da_ultima or (dentro and titulo.startswith(SECOES_CORPO[1]))
+            continue
+        # só prosa: sem tabelas, legendas de tabela, linhas de figura (![legenda](...)) e títulos de nível 2 ou mais
+        if dentro and not l.lstrip().startswith("|") and not re.match(r"^:\s|^!\[|^#{2,}\s", l):
+            total += contar_palavras(l)
+    lo, hi = FAIXA_PALAVRAS
+    rel.add("Relato", "INFO" if lo <= total <= hi else "AVISO",
+            f"{nome}: {total} palavras de {SECOES_CORPO[0]} a {SECOES_CORPO[1]} (alvo {lo} a {hi})")
+
+
+def conferir_apendice(novo, rel, pend_path=PEND):
+    pend = json.load(open(pend_path, encoding="utf-8"))
     esperados = {p["id"] for p in pend["pendencias"]}
     linhas = sem_comentarios_e_codigo(novo).split("\n")
     idx = next((i for i, l in enumerate(linhas) if re.match(r"^:?\s*:\s.*\{#tbl-pendencias\b", l)
@@ -930,7 +1029,16 @@ def main():
     ap.add_argument("--v1", default="09-documento-final/_revisao_final_v1_oqf.qmd")
     ap.add_argument("--novo", default="09-documento-final/revisao_final.qmd")
     ap.add_argument("--suplemento", default=None)
+    ap.add_argument("--extra", action="append", default=[], metavar="QMD",
+                    help="documento a mais (ex.: linguagem_simples.qmd): datas, números, citações, proibições e "
+                         "marcas da versão final, sem exigir spans nem apêndice")
+    ap.add_argument("--modo", choices=["rascunho", "final"], default=None,
+                    help="padrão: estado de revista/_revista.yml")
+    ap.add_argument("--pendencias", default=str(PEND.relative_to(R)),
+                    help="JSON de pendências abertas (padrão: 07-relatorio/_pendencias_abertas.json)")
     a = ap.parse_args()
+    modo = a.modo or estado_revista()
+    pend_path = resolver(a.pendencias)
     rel = Relatorio()
 
     p_v1, p_novo = resolver(a.v1), resolver(a.novo)
@@ -972,7 +1080,13 @@ def main():
     anos_v1 |= {c for _, _, c in datas_ok}
     anos_ok = anos_v1 | anos_bib | anos_incl
 
-    docs = [("novo", novo)] + ([("suplemento", sup)] if sup is not None else [])
+    extras = []
+    for e in a.extra:
+        pe = resolver(e)
+        if not pe.exists():
+            sys.exit(f"arquivo não encontrado: {pe}")
+        extras.append((pe.name, ler(pe)))
+    docs = [("novo", novo)] + ([("suplemento", sup)] if sup is not None else []) + extras
     total_nums = 0
     for nome, texto in docs:
         total_nums += conferir_datas_e_numeros(nome, texto, limpar(texto, rx_chaves), linhas_ingles(texto),
@@ -988,8 +1102,19 @@ def main():
     if sup is not None:
         conferir_celulas("suplemento", sup, celulas, rx_chaves, rel, exigir=False)
 
-    conferir_callouts(novo, v1, rel)
-    conferir_apendice(novo, rel)
+    rel.add("Relato", "INFO", f"modo {modo}")
+    conferir_callouts(novo, v1, rel, modo)
+    if modo == "final":
+        conferir_lacunas(sup, rel, pend_path)
+        conferir_final(novo, sup, rel)
+        for nome_e, texto_e in extras:
+            te = sem_comentarios_e_codigo(texto_e)
+            for marca in (MARCADOR_AUTOR, MARCA_RASCUNHO, TITULO_PENDENTE):
+                if marca.lower() in te.lower():
+                    rel.add("Proibições", "FALHA", f"{nome_e}: \"{marca}\" na versão final")
+        palavras_corpo("novo", novo, rel)
+    else:
+        conferir_apendice(novo, rel, pend_path)
     sup_ids = set(re.findall(r"\{[^{}\n]*#([\w-]+)", sup)) if sup is not None else None
     for nome, texto in docs:
         conferir_citacoes(nome, texto, chaves, rel)

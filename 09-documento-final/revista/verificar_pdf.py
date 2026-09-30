@@ -1,6 +1,6 @@
 """Aceite do PDF de journal (artigo ou suplemento).
 
-USO (da raiz):  python3 09-documento-final/revista/verificar_pdf.py <arquivo.pdf> [--artigo | --suplemento] [--log <render.log>]
+USO (da raiz):  python3 09-documento-final/revista/verificar_pdf.py <arquivo.pdf> [--artigo | --suplemento | --completo] [--log <render.log>]
                 [--segundo <outra_compilacao.pdf>]
 
 Checa:
@@ -13,6 +13,10 @@ Checa:
 - página 1, cabeças e rodapés: nenhum "journal", "vol.", "ISSN", "©", "recebido", "aceito", "revisado por pares";
 - mancha: nas páginas em pé, nenhum texto (exceto a marca-d'água) fora de x = 20 a 190 mm;
 - reprodutibilidade (se --segundo): os dois PDFs são idênticos byte a byte.
+Versão final (`estado: final` em revista/_revista.yml, Emenda 7): sem marca no título nem na p. 1 e sem caixas de
+pendência; "RASCUNHO NÃO VALIDADO" exatamente uma vez no artigo (declaração de uso de IA) e no máximo uma vez nos
+apêndices; nenhum "[A confirmar pelo autor]". Com --completo (PDF juntado: artigo + apêndices), confere também que as
+pendências abertas, menos a P038, aparecem no texto, e as caixas e ⊕ do artigo não são contadas.
 Sai com 1 se houver FALHA.
 """
 import json
@@ -51,12 +55,17 @@ def normalizar(t):
 def main():
     args = sys.argv[1:]
     pdf = Path(args[0])
-    artigo = "--suplemento" not in args
+    artigo = "--suplemento" not in args and "--completo" not in args
     log = args[args.index("--log") + 1] if "--log" in args else None
     segundo = args[args.index("--segundo") + 1] if "--segundo" in args else None
     pend = json.load(open(R / "07-relatorio/_pendencias_abertas.json", encoding="utf-8"))
     ids = [p["id"] for p in pend["pendencias"]]
-    rascunho = pend["n"] > 0
+    m_estado = re.search(r"(?m)^estado:\s*(\w+)", (R / "09-documento-final/revista/_revista.yml").read_text(encoding="utf-8"))
+    final = bool(m_estado and m_estado.group(1) == "final")
+    # rascunho: marca no título do PDF, na p. 1 e 11 caixas de pendência. Na versão final (Emenda 7), a marca
+    # fica só na abertura da declaração de uso de IA (R7.23), e as pendências abertas vão para os apêndices.
+    rascunho = pend["n"] > 0 and not final
+    completo = "--completo" in args   # PDF juntado (artigo + apêndices): confere também os IDs das pendências
 
     # log
     if log:
@@ -95,13 +104,25 @@ def main():
     texto = normalizar("\n".join(p.get_text() for p in doc))
 
     # conteúdo
+    n_marca = texto.count("RASCUNHO NÃO VALIDADO")
+    if final and artigo and n_marca != 1:
+        falha(f"'RASCUNHO NÃO VALIDADO' aparece {n_marca} vez(es) (versão final: só na declaração de uso de IA)")
+    if final and not artigo and not completo and n_marca > 1:
+        falha(f"'RASCUNHO NÃO VALIDADO' aparece {n_marca} vezes nos apêndices")
+    if final and "[A confirmar pelo autor]" in texto:
+        falha("marcador '[A confirmar pelo autor]' no PDF")
+    if final and completo:
+        faltam = [i for i in ids if i != "P038" and i not in texto]
+        if faltam:
+            falha(f"IDs de pendência abertos ausentes do PDF: {faltam}")
     if artigo:
         n_caixas = len(re.findall(r"PENDENTE DE REVISÃO HUMANA", texto, flags=re.I))
-        if n_caixas != 11:
-            falha(f"caixas 'Pendente de revisão humana': {n_caixas} (esperado 11)")
-        faltam = [i for i in ids if i not in texto]
-        if faltam:
-            falha(f"IDs de pendência ausentes do PDF: {faltam}")
+        if n_caixas != (0 if final else 11):
+            falha(f"caixas 'Pendente de revisão humana': {n_caixas} (esperado {0 if final else 11})")
+        if not final:
+            faltam = [i for i in ids if i not in texto]
+            if faltam:
+                falha(f"IDs de pendência ausentes do PDF: {faltam}")
         if texto.count("⊕") < 18:
             falha(f"símbolos ⊕: {texto.count('⊕')} (esperado ao menos 18)")
     for pad in ("?@", "@fig-", "@tbl-", "@sec-", "@qdr-", ":::", "{#", "@@", "[Abertura", "??"):

@@ -8,13 +8,13 @@
 #   Para seções sem número (Mensagens, Resumo executivo, Resumo, Abstract, Informações adicionais, Referências,
 #   Apêndice A), use link Markdown [texto](#id).
 # - Nada de classes column-* no .qmd (ligam a geometria de margem no Typst); use .tabela-larga / .figura-larga.
-# - Suplemento: não há referência cruzada entre documentos; use links suplemento.html#<id>.
+# - Apêndices (suplemento.qmd, versão final): no mesmo PDF, mas compilados à parte; o artigo se refere a eles só por
+#   texto ("Apêndice C"), sem link nem @tbl-.
 
 figuras:              # marcador -> rótulo
   modelo_logico: fig-modelo-logico     # Fig. 1  modelo lógico (DAG do protocolo)
   prisma:        fig-prisma            # Fig. 2  fluxo PRISMA 2020
   rob:           fig-rob               # Fig. 3  resumo do risco de viés por ferramenta e domínio
-  celulas:       fig-celulas           # Fig. 4  proporção na direção positiva por célula (Clopper-Pearson) e certeza
   direcao:       fig-direcao           # Fig. 5  direção do efeito por estudo (effect direction plot)
   metas:         fig-metas             # Fig. 6  metas exploratórias A e B
   realismo:      fig-realismo          # Fig. 7  direção por realismo do contexto (descritivo)
@@ -23,9 +23,6 @@ tabelas:              # marcador -> rótulo
   caracteristicas:   tbl-caracteristicas    # Tab. 1  características agregadas dos 41 estudos
   sof:               tbl-sof                # Tab. 2  resumo dos achados (SoF narrativa), página deitada
   hipoteses:         tbl-hipoteses          # Tab. 3  hipóteses do protocolo x evidência
-  oqf_principal:     tbl-oqf                # Tab. 4  caixa de ferramentas OQF da pergunta principal
-  transferibilidade: tbl-transferibilidade  # Tab. 5  transferibilidade ao Brasil
-  pendencias:        tbl-pendencias         # Apêndice A  pendências humanas abertas
 
 quadros:              # escritos pelo redator
   glossario: qdr-glossario   # Quadro 1  glossário e "como ler"
@@ -58,36 +55,28 @@ secoes:               # seções numeradas do artigo
   - sec-sensibilidades
   - sec-mecanismo
   - sec-moderadores
-  - sec-percepcao
   - sec-discussao
   - sec-achados
   - sec-revisoes-anteriores
   - sec-limitacoes-evidencia
   - sec-limitacoes-processo
   - sec-pratica
-  - sec-caixa
   - sec-brasil
   - sec-pesquisa-futura
   - sec-conclusoes
 
 ancoras_sem_numero:   # use [texto](#id)
   - mensagens-principais
-  - resumo-executivo
   - resumo
   - abstract
   - informacoes-adicionais
   - referencias
-  - sec-pendencias     # Apêndice A (mantém a âncora antiga)
 
-suplemento:           # suplemento.qmd, links suplemento.html#<id>
-  - s1-busca
-  - s2-atalhos
-  - s3-emendas
-  - s4-caracteristicas
-  - s5-risco-de-vies
-  - s6-efeitos
-  - s7-fora-da-contagem
-  - s8-sensibilidades
-  - s9-caixa
-  - s10-regional
-  - s11-checklists
+suplemento:           # apêndices A a G (suplemento.qmd, publicado como apendices.html); o nome da chave fica
+  - ap-a-busca
+  - ap-b-emendas
+  - ap-c-estudos
+  - ap-d-rob
+  - ap-e-efeitos
+  - ap-f-sensibilidades
+  - ap-g-ia

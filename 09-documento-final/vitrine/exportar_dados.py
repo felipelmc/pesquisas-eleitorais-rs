@@ -675,7 +675,7 @@ def main():
     for m_ in re.finditer(r"^\| (E00\d|Emenda \d) \| (\d{4}-\d{2}-\d{2}) \| [^|]* \| [^|]* \| ([A-E](?: e [A-E])?) \|", em_md, re.M):
         emendas.append({"id": m_.group(1), "data": m_.group(2), "tipo": m_.group(3),
                         "t": dt.datetime.strptime(m_.group(2), "%Y-%m-%d").replace(tzinfo=dt.timezone.utc).timestamp()})
-    confere(len(emendas) == 8, f"esperava 8 emendas na tabela de emendas.md, achei {len(emendas)}")
+    confere(len(emendas) == 9, f"esperava 9 emendas (E001, E002 e Emendas 1 a 7) na tabela de emendas.md, achei {len(emendas)}")
     dias_log = collections.Counter()
     with open(RAIZ / "rs_log.jsonl", encoding="utf-8") as f:
         for linha in f:
@@ -715,7 +715,7 @@ def main():
                     fazer[p] = {"fazer": txt, "esforco": m_.group(6).strip()}
     ids = [p["id"] for p in pend["pendencias"]]
     confere(pend["abertas"] == len(ids) == nv2["pendencias_abertas"]["valor"], "número de pendências diverge")
-    confere(set(ids) == set(fazer), f"pendências sem linha no README: {set(ids) ^ set(fazer)}")
+    confere(set(ids) <= set(fazer), f"pendências sem linha no README: {set(ids) - set(fazer)}")
     etapas = []
     for et, rotulo in ETAPAS_PEND:
         its = [p for p in pend["pendencias"] if p["etapa"] == et]
@@ -724,17 +724,22 @@ def main():
                        "itens": [{"id": p["id"], "fazer": fazer[p["id"]]["fazer"], "esforco": fazer[p["id"]]["esforco"],
                                   "portao": p["portao"]} for p in its]})
     confere(sum(len(e["itens"]) for e in etapas) == len(ids), "pendência em etapa não prevista")
-    pendencias = {"abertas": len(ids), "fechadas": 0, "etapas": etapas}
+    # fechadas: das pendências abertas em 24/09/2026 (tag v2-rascunho-2026-09-24, revista/pendencias_2026-09-24.json),
+    # as que o autor fechou depois (Emenda 7); total = as de 24/09 mais as abertas depois disso
+    v2 = {p["id"] for p in json.load(open(RAIZ / "09-documento-final/revista/pendencias_2026-09-24.json",
+                                          encoding="utf-8"))["pendencias"]}
+    fechadas = len(v2 - set(ids))
+    total = len(v2 | set(ids))
+    pendencias = {"abertas": len(ids), "fechadas": fechadas, "total": total, "etapas": etapas}
 
     # ---------- documentos (tamanho calculado na montagem)
-    DOCS = [("revisao.pdf", "Artigo em PDF", "A4, formato de artigo de revista, com a faixa de rascunho", "artigo"),
+    DOCS = [("revisao.pdf", "Artigo em PDF", "artigo e apêndices num só arquivo, A4", "artigo"),
             ("revisao.html", "Artigo em HTML", "o mesmo texto, com links para cada seção", "artigo"),
-            ("revisao.docx", "Artigo em .docx", "para comentar e editar", "artigo"),
-            ("suplemento.html", "Suplemento", "estratégias de busca, tabelas estudo a estudo e checklists", "suplemento"),
-            ("suplemento.pdf", "Suplemento em PDF", "as mesmas tabelas, para imprimir", "suplemento"),
-            ("linguagem-simples.html", "Resumo em linguagem simples", "o que a revisão encontrou, sem jargão", "apoio"),
-            ("relatorio-tecnico.html", "Relatório técnico", "o relatório completo gerado ao longo da revisão", "apoio"),
-            ("revisao-humana.html", "Guia da revisão humana", "o que falta conferir e como", "apoio")]
+            ("apendices.html", "Apêndices em HTML", "busca, emendas, estudos, risco de viés, efeitos, sensibilidades e "
+                                                    "uso de IA", "apendices"),
+            ("linguagem-simples.html", "Resumo em linguagem simples", "o que a síntese encontrou, sem jargão", "apoio"),
+            ("pacote-replicacao.zip", "Pacote de replicação", "protocolo, dados, síntese e código, sem resumos de "
+                                                              "terceiros", "apoio")]
     documentos = []
     for arq, rotulo, desc, grupo in DOCS:
         p = RAIZ / "docs" / arq
@@ -754,7 +759,7 @@ def main():
     numeros = {
         "estudos": str(len(gt.M)), "relatos": str(prisma["incluidos"]["relatos"]), "efeitos": inteiro(ntab["efeitos"]),
         "celulas": str(len(celulas)), "celulas_muito_baixa": str(n_mb), "pendencias": str(len(ids)),
-        "pendencias_fechadas": "0", "estudos_sintese": str(ntab["n_swim_principal_estudos"]),
+        "pendencias_fechadas": str(fechadas), "pendencias_total": str(total), "estudos_sintese": str(ntab["n_swim_principal_estudos"]),
         "criticos": str(len(criticos)), "so_fora": str(len(so_fora)), "sem_principal": str(len(sem_princ)),
         "estudos_com_efeitos": str(ntab["estudos_com_efeitos"]), "estudos_com_principal": str(ntab["estudos_com_principal"]),
         "registros_bases": inteiro(ramos[0]["identificados"]), "registros_citacoes": inteiro(ramos[1]["identificados"]),
@@ -775,9 +780,10 @@ def main():
 
     saida = {
         "meta": {"titulo": "Pesquisas eleitorais publicadas mudam o voto?",
-                 "subtitulo": "Revisão sistemática rápida sobre os efeitos bandwagon e underdog e o comparecimento",
+                 "subtitulo": "Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos "
+                              "bandwagon e underdog e o comparecimento",
                  "autor": "Felipe Lamarca", "afiliacao": "MAPE/IESP-UERJ", "data_versao": data_br,
-                 "commit": commit, "tag_anterior": "v1-oqf-2026-09-24", "url": "https://felipelamarca.com/pesquisas-eleitorais-rs/",
+                 "commit": commit, "tag_anterior": "v2-rascunho-2026-09-24", "url": "https://felipelamarca.com/pesquisas-eleitorais-rs/",
                  "fontes": {rel: sha(rel) for rel in ("06-analise/certeza.csv", "06-analise/swim_principal/swim_resumo.json",
                                                       "07-relatorio/_pendencias_abertas.json",
                                                       "09-documento-final/revista/celulas.json")}},
@@ -858,7 +864,7 @@ SCHEMA = {
     "paises": {"lista": [{"pais": None, "n": None}],
                "multinacional": [{"chave": None, "rotulo": None, "n_paises": None, "inclui_brasil": None}],
                "nao_relatado": None, "brasil": None},
-    "pendencias": {"abertas": None, "fechadas": None,
+    "pendencias": {"abertas": None, "fechadas": None, "total": None,
                    "etapas": [{"id": None, "rotulo": None, "portoes": None,
                                "itens": [{"id": None, "fazer": None, "esforco": None, "portao": None}]}]},
     "documentos": [{"arquivo": None, "rotulo": None, "desc": None, "grupo": None, "existe": None, "bytes": None,

@@ -6,6 +6,8 @@
 #    "nenhum span .enunciado" (18). As únicas outras falhas aceitas são as heranças da estrutura antiga do v1:
 #    "](../" nos caminhos de figura e @tbl- fora do contrato revista/rotulos.yml;
 # 3. roda conferir_numeros.py comparando o v1 com ele mesmo: saída vazia e código 0.
+# O v1 é conferido em modo rascunho contra a cópia congelada das 18 pendências de 24/09/2026
+# (revista/pendencias_2026-09-24.json), para o teste não depender do estado atual do projeto.
 # Sai com 0 se tudo sair como esperado.
 set -u
 RAIZ="$(cd "$(dirname "$0")/../.." && pwd)"
@@ -21,7 +23,8 @@ echo "## 2. gerar_numeros_v2.py"
 python3 09-documento-final/revista/gerar_numeros_v2.py || { echo "ERRO: gerar_numeros_v2.py"; exit 1; }
 
 echo "## 3. conferir_reestruturacao.py --novo $V1 (tem de falhar por falta de spans .enunciado)"
-python3 09-documento-final/conferir_reestruturacao.py --novo "$V1" > "$TMP/reest.txt"
+python3 09-documento-final/conferir_reestruturacao.py --novo "$V1" --modo rascunho \
+  --pendencias 09-documento-final/revista/pendencias_2026-09-24.json > "$TMP/reest.txt"
 rc=$?
 cat "$TMP/reest.txt"
 python3 - "$TMP/reest.txt" "$rc" <<'EOF' || ok=0

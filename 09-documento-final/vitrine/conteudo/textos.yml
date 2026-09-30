@@ -11,8 +11,8 @@
 #   (ou de 00-protocolo/emendas.md, quando indicado); a montagem falha se o trecho não estiver lá.
 
 barra:
-  texto: "Rascunho não validado · {{numeros.pendencias}} pendências humanas abertas"
-  link: "ver o que falta"
+  texto: "Síntese conduzida com agentes de IA · risco de viés e certeza sem validação humana"
+  link: "ver o que ficou sem validação"
 
 ferramentas:
   tema_claro: "Tema claro"
@@ -21,7 +21,7 @@ ferramentas:
   pular: "Pular para o conteúdo"
 
 heroi:
-  kicker: "Revisão sistemática rápida · versão de trabalho"
+  kicker: "Síntese sistemática de evidências · conduzida com agentes de IA"
   autoria: "Felipe Lamarca · MAPE/IESP-UERJ"
   lede: >-
     Reunimos os estudos causais publicados desde {{numeros.ano_min}} sobre o que acontece com o voto e com o
@@ -85,7 +85,7 @@ mapa:
   lacuna: "Lacuna: nenhum estudo"
   vazia: "sem estudo na análise principal"
   abrir: "Abrir detalhes"
-  caixa_nota: "Na caixa de ferramentas, as {{numeros.celulas_inconclusivo}} células estão como Inconclusivo."
+  caixa_nota: "Pela regra da caixa de ferramentas, com a certeza julgada só por IA, as {{numeros.celulas_inconclusivo}} células ficam como Inconclusivo."
   nota_momentum: "Pesquisas que mostram um partido ganhando ou perdendo apoio, sem mostrar a posição dele, ficam num bloco próprio."
 
 gaveta:
@@ -164,13 +164,15 @@ nao_sabemos:
       rotulo_alvo: "Ver o mapa"
 
 pendencias:
-  kicker: "O que falta"
-  titulo: "Pendências humanas"
+  kicker: "Validação humana"
+  titulo: "O que ficou sem validação humana"
   intro: >-
-    Todas as etapas depois do protocolo foram feitas por agentes de IA. Cada pendência abaixo é uma conferência que
-    só uma pessoa pode fechar. Enquanto houver uma aberta, tudo nesta página é rascunho.
-  medidor: "{{numeros.pendencias_fechadas}} de {{numeros.pendencias}} fechadas"
-  guia: "Guia da revisão humana"
+    Agentes de IA conduziram as etapas depois do protocolo. Em 30/09/2026, o autor conferiu em bloco a busca, a
+    triagem, a elegibilidade, os efeitos e o relato, e fechou as pendências dessas etapas. As que seguem abaixo
+    ficam abertas para uma próxima versão: o risco de viés e a certeza foram julgados só por IA, a triagem não
+    teve validação cega e a deduplicação foi decidida, mas não aplicada.
+  medidor: "{{numeros.pendencias_fechadas}} de {{numeros.pendencias_total}} fechadas"
+  guia: "Etapas sem validação humana (Apêndice G)"
   esforco: "esforço estimado"
 
 documentos:
@@ -178,12 +180,12 @@ documentos:
   titulo: "Documentos e citação"
   em_preparacao: "em preparação"
   citar_titulo: "Como citar"
-  citar_nota: "Versão de trabalho de {{meta.data_versao}}. Não citar como final."
+  citar_nota: "Documento de trabalho, versão de 01/10/2026."
   copiar: "Copiar BibTeX"
   copiado: "Copiado"
   grupos:
     artigo: "O artigo"
-    suplemento: "Suplemento"
+    apendices: "Os apêndices"
     apoio: "Para ir além"
 
 contagem:
@@ -234,10 +236,11 @@ processo:
   kicker: "Método"
   titulo: "O método em 60 segundos"
   intro: >-
-    A revisão foi feita entre {{numeros.data_inicio}} e {{numeros.data_fim}}, com agentes de IA em quase todas as etapas.
-    O autor aprovou a pergunta e o protocolo. Todo o resto passou por portões aprovados em modo automático.
+    A síntese foi feita entre {{numeros.data_inicio}} e {{numeros.data_fim}}, com agentes de IA em quase todas as etapas.
+    O autor aprovou a pergunta e o protocolo. Os portões seguintes foram aprovados em modo automático, e o autor
+    conferiu em bloco a busca, a seleção, a extração e o relato no fim (Emenda 7).
   nota: "O log registrava decisões de triagem como humanas, e a Emenda 6a corrigiu esse registro."
-  legenda: "Portões, emendas e saídas finais de script ao longo da revisão, por quem decidiu (horário do log, UTC)."
+  legenda: "Portões, emendas e saídas finais de script ao longo da síntese, por quem decidiu (horário do log, UTC)."
   raias:
     humano: "Humano"
     ia: "IA"
@@ -301,9 +304,9 @@ rodape:
   creditos: >-
     Fontes STIX Two Text e Fira Sans, sob a SIL Open Font License 1.1. Gráficos com D3 7.9.0, sob a licença ISC.
     Todo o código, os dados e as fontes estão embutidos nesta página, que não faz nenhuma requisição externa.
-  ia: "Rascunho redigido por IA a partir dos arquivos do projeto e ajustado ao estilo do autor; não revisado pelo autor (P038)."
-  versao: "Versão de trabalho de {{meta.data_versao}} (commit `{{meta.commit}}`). Não citar como final."
+  ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão do autor. Risco de viés e certeza sem validação humana."
+  versao: "Versão de entrega (commit `{{meta.commit}}`, de {{meta.data_versao}})."
   mudou_titulo: "O que mudou desde 24/09"
   mudou: >-
-    Esta página substitui a página de entrada publicada em 24/09/2026, guardada na tag `{{meta.tag_anterior}}`. Os
-    números, as certezas e as pendências são os mesmos. Só mudou a forma de apresentá-los.
+    Esta versão registra a conferência do autor (Emenda 7) e junta o artigo e os apêndices num PDF só. As células,
+    as contagens e as certezas são as de 24/09/2026, guardadas na tag `{{meta.tag_anterior}}`.

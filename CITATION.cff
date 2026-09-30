@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite-o assim."
+title: "Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos bandwagon e underdog e o comparecimento"
+type: report
+authors:
+  - family-names: Lamarca
+    given-names: Felipe
+    affiliation: "MAPE/IESP-UERJ"
+version: "2026-10-01"
+date-released: 2026-10-01
+url: "https://felipelamarca.com/pesquisas-eleitorais-rs/"
+license: CC-BY-4.0
+keywords:
+  - pesquisas eleitorais
+  - efeito bandwagon
+  - efeito underdog
+  - comparecimento eleitoral
+  - síntese de evidências

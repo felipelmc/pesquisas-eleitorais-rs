@@ -395,12 +395,16 @@ def bloco_processo(D, T):
     return h
 
 
+ANCORA_LACUNAS = "ap-g-ia"  # seção do Apêndice G em apendices.html (_esqueleto_suplemento.qmd)
+
+
 def bloco_pendencias(D, T):
     TP, P = T["pendencias"], D["pendencias"]
     h = ('<div class="pend-topo"><div>' + cab(T, "pendencias", "titulo-pendencias") + f'<p class="secao-intro revelar">{TP["intro"]}</p></div>'
-         f'<div class="medidor revelar" data-acao="pendencias"><p class="medidor-valor">{P["fechadas"]} <small>de {P["abertas"]} fechadas</small></p>'
-         '<div class="medidor-caixas" aria-hidden="true">' + "".join('<span class="medidor-caixa"></span>' for _ in range(P["abertas"])) +
-         f'</div><p class="nota"><a href="revisao-humana.html">{TP["guia"]}</a></p></div></div>')
+         f'<div class="medidor revelar" data-acao="pendencias"><p class="medidor-valor">{P["fechadas"]} <small>de {P["total"]} fechadas</small></p>'
+         '<div class="medidor-caixas" aria-hidden="true">'
+         + "".join(f'<span class="medidor-caixa{" fechada" if i < P["fechadas"] else ""}"></span>' for i in range(P["total"])) +
+         f'</div><p class="nota"><a href="apendices.html#{ANCORA_LACUNAS}">{TP["guia"]}</a></p></div></div>')
     h += '<ol class="pipeline">'
     for i, e in enumerate(P["etapas"], 1):
         port = f'<span class="etapa-portao">portão {", ".join(e["portoes"])}</span>' if e["portoes"] else ""
@@ -416,7 +420,7 @@ def bloco_pendencias(D, T):
 def bloco_documentos(D, T):
     TD, M = T["documentos"], D["meta"]
     h = cab(T, "documentos", "titulo-documentos")
-    for g in ("artigo", "suplemento", "apoio"):
+    for g in ("artigo", "apendices", "apoio"):
         h += f'<div class="docs-grupo"><h3>{TD["grupos"][g]}</h3><div class="docs-grade">'
         for d in [x for x in D["documentos"] if x["grupo"] == g]:
             inner = (f'<span class="doc-formato">{d["formato"]}</span><span class="doc-titulo">{esc(d["rotulo"])}</span>'
@@ -426,15 +430,17 @@ def bloco_documentos(D, T):
             else:
                 h += f'<div class="doc doc-indisponivel revelar">{inner}<span class="doc-tam">{TD["em_preparacao"]}</span></div>'
         h += '</div></div>'
-    titulo_art = "Pesquisas eleitorais publicadas mudam o voto? Revisão sistemática rápida sobre os efeitos bandwagon e underdog e o comparecimento"
+    titulo_art = ("Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes "
+                  "de IA, sobre os efeitos bandwagon e underdog e o comparecimento")
     cit = (f'{esc(M["autor"].split()[-1])}, {esc(M["autor"].rsplit(" ", 1)[0])}. 2026. “Pesquisas eleitorais publicadas mudam o voto? '
-           'Revisão sistemática rápida sobre os efeitos <i lang="en">bandwagon</i> e <i lang="en">underdog</i> e o comparecimento.” '
+           'Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos <i lang="en">bandwagon</i> e '
+           '<i lang="en">underdog</i> e o comparecimento.” '
            f'{TD["citar_nota"]} {esc(M["afiliacao"])}. <span class="url">{esc(M["url"])}</span>')
     bib = ("@unpublished{Lamarca2026pesquisas,\n"
            f"  author = {{{M['autor'].split()[-1]}, {M['autor'].rsplit(' ', 1)[0]}}},\n"
            f"  title  = {{{titulo_art}}},\n"
            "  year   = {2026},\n"
-           f"  note   = {{{re.sub('<[^>]+>', '', TD['citar_nota'])} Rascunho não validado; {M['afiliacao']}}},\n"
+           f"  note   = {{{re.sub('<[^>]+>', '', TD['citar_nota'])} {M['afiliacao']}}},\n"
            f"  url    = {{{M['url']}}}\n}}")
     h += (f'<div class="citacao"><div><h3 class="docs-grupo-titulo">{TD["citar_titulo"]}</h3><p class="citacao-texto">{cit}</p></div>'
           f'<div><pre id="bibtex"><code>{esc(bib)}</code></pre><button type="button" class="botao so-js" id="copiar-bibtex"><span>{TD["copiar"]}</span></button></div></div>')
@@ -494,10 +500,10 @@ def main():
 
     tpl = (VITRINE / "src/index.html").read_text(encoding="utf-8")
     est = {
-        "titulo_pagina": "Pesquisas eleitorais e voto · Rascunho não validado",
-        "descricao": esc("Rascunho não validado. Vitrine da revisão sistemática rápida sobre o efeito de pesquisas eleitorais "
+        "titulo_pagina": "Pesquisas eleitorais e voto",
+        "descricao": esc("Síntese sistemática de evidências, conduzida com agentes de IA, sobre o efeito de pesquisas eleitorais "
                          "publicadas no voto e no comparecimento (Felipe Lamarca, MAPE/IESP-UERJ)."),
-        "og_titulo": "Rascunho · Pesquisas eleitorais publicadas mudam o voto?",
+        "og_titulo": "Pesquisas eleitorais publicadas mudam o voto?",
         "pular": T["ferramentas"]["pular"], "movimento": T["ferramentas"]["movimento"], "fechar": T["gaveta"]["fechar"],
         "barra_texto": T["barra"]["texto"], "barra_link": T["barra"]["link"],
         "heroi_kicker": T["heroi"]["kicker"], "titulo": esc(D["meta"]["titulo"]), "heroi_autoria": T["heroi"]["autoria"],

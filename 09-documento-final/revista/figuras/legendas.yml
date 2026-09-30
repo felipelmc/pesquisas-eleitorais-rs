@@ -38,7 +38,8 @@ modelo_logico:
     político e preferência prévia são confundidores (em cinza). A resposta ao *survey* é um colisor, e condicionar
     a análise a ela abre um caminho espúrio entre exposição e apoio. A recorrência entre pesquisas e voto aparece
     desdobrada no tempo (pesquisa anterior e pesquisa seguinte). Os moderadores da teoria ficam fora do grafo, no
-    quadro à direita. O modelo é um rascunho de IA aprovado no G2, e nenhuma seta foi conferida em texto completo.
+    quadro à direita. O modelo foi proposto por IA e aprovado pelo autor no G2, e nenhuma seta foi conferida em texto
+    completo.
   alt: >-
     Diagrama de setas que liga a exposição à pesquisa ao apoio a quem aparece à frente por cinco mecanismos,
     com confundidores à esquerda, um colisor, efeitos indesejados tracejados e, à direita, um quadro com os
@@ -49,15 +50,13 @@ prisma:
   legenda: >-
     Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação (bases de dados e busca por citações). A
     remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA. A triagem de
-    títulos e resumos ficou com agentes de IA, assim como a avaliação dos textos completos, exceto 16 casos
-    limítrofes decididos pelo autor (8 inclusões e 8 exclusões). A triagem complementar da Emenda 6b entra no
+    títulos e resumos ficou com agentes de IA, assim como a avaliação dos textos completos, conferida em bloco
+    pelo autor (Emenda 7), exceto 16 casos limítrofes decididos pelo autor (8 inclusões e 8 exclusões). A triagem complementar da Emenda 6b entra no
     fluxo sem ramo próprio, e os relatos dela que não foram recuperados estão entre os não recuperados. As caixas
     do modelo PRISMA que não se aplicam a esta revisão (n = 0) foram omitidas. Os motivos de exclusão seguem os
     critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível contam como não
-    recuperados. O fluxo ainda é rascunho. Há {numeros_v2:pendencias_abertas.formatado} pendências humanas
-    abertas, entre elas (i) a revisão dos pares candidatos a duplicata (P019); (ii) a validação da triagem (P006,
-    P007 e P020); e (iii) a conferência das decisões de elegibilidade (P041). A lista completa está no
-    [Apêndice A](#sec-pendencias).
+    recuperados. Os 145 pares candidatos a duplicata foram revistos pelo autor, e as decisões não foram
+    aplicadas: aplicá-las mudaria contagens deste fluxo, e não os estudos incluídos (Apêndice G).
   alt: >-
     Fluxograma em dois ramos paralelos, bases de dados e busca por citações, que descem da identificação à
     triagem e convergem numa caixa final com os estudos e relatos incluídos.
@@ -86,7 +85,8 @@ celulas:
     denominador e aparecem entre parênteses. A linha tracejada marca a divisão meio a meio. O anel indica a célula
     só com efeitos nulos por ±δ, em que não há proporção a calcular. A célula sem estudo tem k = 0 porque o único
     estudo dela, @Kaplan2019a, está em risco crítico e saiu da análise principal. A certeza (GRADE) qualifica a
-    direção, não a magnitude, e é rascunho de IA não validado. O agrupamento amplo *post hoc* não aparece aqui.
+    direção, não a magnitude, e foi julgada só por IA, sem validação humana. O agrupamento amplo *post hoc* não
+    aparece aqui.
   alt: >-
     Gráfico de pontos com intervalos que mostra, para cada célula, a proporção de estudos a favor, com o número
     de estudos e a certeza em círculos à direita. As células estão em quatro blocos (apoio a quem aparece à

@@ -148,6 +148,28 @@ def _tabela_md(texto):
     return celulas(linhas[0]), [celulas(l) for l in linhas[2:]]
 
 
+def emenda7_atalho(aid, rec, dentro, porque):
+    """Células da tabela de atalhos (garritty_2024.md, seção 4, de 24/09/2026) que ficariam falsas depois da
+    conferência do autor (Emenda 7), trocadas aqui sem editar o insumo."""
+    porque = re.sub(r"Ficaram 165 decisões propostas sem conferência humana(?: \([^)]*\))?\.",
+                    "As 165 decisões propostas foram conferidas em bloco e mantidas pelo autor (Emenda 7).", porque)
+    if rec.startswith("Extração: 11"):
+        dentro = dentro.replace("Dentro na forma; sem humano", "Dentro na forma")
+        porque = re.sub(r"A conferência humana do piloto está pendente(?: \([^)]*\))?\.",
+                        "O autor conferiu o piloto em bloco e o manteve (Emenda 7).", porque)
+    if rec.startswith("Extração: 12"):
+        dentro = "Dentro, com ressalva" if dentro == "Fora" else dentro
+        porque = re.sub(r"Nenhum dos 560 efeitos foi conferido por humano na página do PDF(?: \([^)]*\))?\.",
+                        "O autor declarou ter conferido os 560 efeitos na página do PDF, em bloco (Emenda 7).", porque)
+    if rec.startswith("Certeza: 21"):
+        dentro = dentro.replace("Dentro, como rascunho", "Dentro, julgado só por IA")
+    if rec.startswith("Certeza: 23"):
+        porque = "Um só agente de IA julgou, sem segundo verificador nem validação humana."
+    if aid == "A4" and re.match(r"6\b", rec):
+        porque = porque.rstrip() + " O autor conferiu essa pré-revisão (Emenda 7), o que não equivale a revisão independente."
+    return [aid, rec, dentro, porque]
+
+
 def s2_atalhos():
     arq = INS / "garritty_2024.md"
     if not arq.exists():
@@ -172,8 +194,8 @@ def s2_atalhos():
                 if "Etapa" in d:
                     rec = f"{d['Etapa']}: {rec}"
                 porque = d.get("Por quê") or d.get("O que a revisão fez") or ""
-                linhas_rec.append([f"{aid}", sem_caminhos(rec), sem_caminhos(d.get("Dentro ou fora", "")),
-                                   sem_caminhos(porque)])
+                linhas_rec.append(emenda7_atalho(aid, sem_caminhos(rec), sem_caminhos(d.get("Dentro ou fora", "")),
+                                                 sem_caminhos(porque)))
             cons = resto.split("**Consequência provável.**", 1)[1] if "**Consequência provável.**" in resto else ""
             cons = re.split(r"\n#{2,3} ", cons)[0]
             itens = []
@@ -182,6 +204,9 @@ def s2_atalhos():
                 if not l:
                     continue
                 l = re.sub(r"^-\s+", "", l)
+                l = l.replace("**Texto completo:** exclusões erradas não são detectadas.",
+                              "**Texto completo:** exclusões erradas só seriam vistas na conferência do autor, feita em "
+                              "bloco.")
                 itens.append(sem_caminhos(l))
             linhas_cons.append([f"**{aid}** {nome}", " ".join(itens)])
         elif titulo.startswith("Outras recomendações"):
@@ -197,7 +222,7 @@ def s2_atalhos():
     t1 = bloco([mrf.pipe(["Atalho", "Recomendação de Garritty et al.", "Dentro ou fora", "Por quê"],
                          linhas_rec)],
                f"Atalhos declarados no protocolo frente às recomendações de @Garritty2024Rapid (número da "
-               f"recomendação no artigo). {nota_ia} Julgamento de IA, não conferido por humano.",
+               f"recomendação no artigo). {nota_ia} Julgamento de IA, lido pelo autor na conferência do relato (Emenda 7).",
                "tbl-s2-atalhos", [8, 24, 16, 52])
     t2 = bloco([mrf.pipe(["Atalho", "Consequência provável para os resultados"], linhas_cons)],
                "Consequência provável de cada atalho. É inferência, não resultado medido; na maior parte dos casos, a "
@@ -269,7 +294,7 @@ def s4_caracteristicas():
     t = bloco(linhas,
               "Características dos estudos incluídos, um por linha, com os relatos adicionais do mesmo estudo entre "
               "parênteses. Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por "
-              "resultado (ferramenta: julgamento), rascunho de IA não validado; \"não avaliado\" quando o estudo não "
+              "resultado (ferramenta: julgamento), julgado só por IA, sem validação humana; \"não avaliado\" quando o estudo não "
               "tem efeito principal.", "tbl-s4-caracteristicas", [15, 5, 15, 10, 13, 9, 7, 9, 17])
     return envolver("tabela-larga", t) + "\n\n" + s4_excluidos()
 
@@ -305,17 +330,18 @@ def s4_excluidos():
         if (cls, ator) == ("mantida", "humano"):
             decisor = "autor (caso limítrofe)"
         elif ator.startswith("ia_"):
-            decisor = "IA, estendendo regra do autor"
+            decisor = "IA, estendendo regra do autor, endossada por ele"
         elif not ator:
-            decisor = "IA"
+            decisor = "IA, conferida em bloco pelo autor"
         else:
             raise SystemExit(f"ERRO: atribuição inesperada de {k} ({e['id_rs']}): {cls} / {ator}")
         linhas.append((e["criterio_falhou"], k.lower(), [f"@{k}", CRITERIO[e["criterio_falhou"]], decisor]))
     linhas = [l for _, _, l in sorted(linhas)]
-    return bloco([mrf.pipe(["Estudo", "Motivo da exclusão (critério do protocolo)", "Quem decidiu"], linhas)],
+    return bloco([mrf.pipe(["Estudo", "Motivo da exclusão (critério do protocolo)", "Quem propôs e quem decidiu"],
+                           linhas)],
                  "Estudos excluídos na leitura do texto completo que poderiam parecer elegíveis (PRISMA 16b), com o "
-                 "critério de elegibilidade que não atenderam. As exclusões decididas pela IA aguardam conferência "
-                 "humana (P041).", "tbl-s4-excluidos", [30, 45, 25])
+                 "critério de elegibilidade que não atenderam. As exclusões propostas pela IA foram conferidas em bloco "
+                 "e mantidas pelo autor (Emenda 7).", "tbl-s4-excluidos", [30, 45, 25])
 
 
 def recodificar_epoc(linhas):
@@ -355,7 +381,8 @@ def s6_efeitos():
               "Efeitos principais por estudo. g de Hedges alinhado: positivo = *bandwagon*, viabilidade, *momentum* a "
               "favor ou mobilização. EP = erro-padrão. NR = não calculado ou não relatado; nulo por ±δ = IC 95% inteiro "
               "dentro de ±δ. \"Na contagem?\" diz se o efeito entra no teste de sinal da síntese principal e, se não, "
-              "por quê. Nenhum efeito foi conferido por humano na página do texto (P039).",
+              "por quê. Os 560 efeitos extraídos, estes entre eles, foram conferidos pelo autor na página do texto, em "
+              "bloco (Emenda 7).",
               "tbl-s6-efeitos", [14, 6, 9, 10, 13, 14, 24, 10])
     return envolver("tabela-larga", t)
 
@@ -379,7 +406,7 @@ def s8_sensibilidades():
     if len(amplo) <= 2:
         raise SystemExit("ERRO: sof.md sem linhas do agrupamento amplo")
     sof_amplo = bloco(amplo,
-                      "Resumo dos achados do agrupamento amplo, *post hoc* (GRADE, rascunho de IA não validado). n de "
+                      "Resumo dos achados do agrupamento amplo, *post hoc* (GRADE julgado só por IA, sem validação humana). n de "
                       "cada estudo como nas células do protocolo (artigo, Tabela 2). A certeza qualifica a direção, não "
                       "a magnitude. Esta análise não aparece no resumo dos achados do artigo.", "tbl-s8-sof-amplo",
                       [24, 26, 20, 8, 22])
@@ -511,15 +538,31 @@ def declaracao_ia_v2():
     return prosa + "\n\n" + envolver("tabela-larga", bloco(tabela, leg, "tbl-s11-agentes", [30, 40, 15, 15]))
 
 
-SECOES = {"s1_busca": s1_busca, "s2_atalhos": s2_atalhos, "s3_emendas": s3_emendas,
+def lacunas():
+    """Apêndice G (versão final, Emenda 7): uma linha por etapa, com executor, concordância entre IAs, conferência
+    humana e pendência aberta, de revista/tabelas/lacunas.yml (curado; nenhum número novo: os números vêm da
+    declaração de uso de IA gerada do log e dos arquivos citados no próprio yml). A P038 (G9) não entra, para que o
+    PDF aprovado pelo autor não mude quando ela fechar; conferir_reestruturacao.py confere os IDs no modo final."""
+    dados = mrf.lyaml(REV / "tabelas/lacunas.yml")
+    cab = dados["colunas"]
+    linhas = [[mrf.uma_linha(str(c)) for c in l] for l in dados["linhas"]]
+    for l in linhas:
+        if len(l) != len(cab):
+            raise SystemExit(f"ERRO: lacunas.yml: linha com {len(l)} colunas (esperadas {len(cab)}): {l[:1]}")
+    t = mrf.pipe(cab, linhas)
+    return t + "\n\n" + legenda(dados["legenda"], "tbl-lacunas", dados.get("larguras"))
+
+
+SECOES = {"s1_busca": s1_busca, "s2_atalhos": s2_atalhos, "s3_emendas": s3_emendas, "lacunas": lacunas,
           "s4_caracteristicas": s4_caracteristicas, "s5_rob": s5_rob, "s6_efeitos": s6_efeitos, "s7_fora": s7_fora,
           "s8_sensibilidades": s8_sensibilidades, "s9_caixa": s9_caixa, "s10_regional": s10_regional,
           "s11_checklists": s11_checklists}
 
 
 # ================================================================ montagem
-def montar_texto():
-    """Texto do suplemento.qmd montado, sem checar nem gravar (também usado por revista/gerar_rotulos_autor_ano.py)."""
+def corpo():
+    """Corpo dos apêndices montado, sem o YAML gerado (também usado por montar_revisao_final.chaves_apendices, para o
+    nocite comum aos dois documentos)."""
     esq = mrf.ler(ESQUELETO)
     esq = mrf.resolver_marcadores(esq, onde="_esqueleto_suplemento.qmd")
 
@@ -533,7 +576,13 @@ def montar_texto():
     # página em pé só com o título (o ::: {.landscape} continua no nível de cima)
     saida = re.sub(r"(?m)^(# [^\n]*\{#s\d+-[\w-]+[^}\n]*\}\n\n(?:(?!# |:::)[^\n]*\n+)*?)(::: \{\.landscape\}\n\n)",
                    r"\2\1", saida)
-    return mrf.metadados(saida, mrf.linhas_metadados())
+    return saida
+
+
+def montar_texto():
+    """Texto do suplemento.qmd montado, sem checar nem gravar (também usado por revista/gerar_rotulos_autor_ano.py)."""
+    # apendices: true liga, no Typst, a numeração das tabelas por apêndice (A1, B1...), sem colidir com as do artigo
+    return mrf.metadados(corpo(), mrf.linhas_metadados() + ["apendices: true"])
 
 
 def main():

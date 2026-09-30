@@ -2,17 +2,20 @@
 lang: pt-BR
 date-format: "DD/MM/YYYY"
 language:
-  title-block-published: "Versão de trabalho"
+  title-block-published: "Versão"
   title-block-author-single: "Autor"
 author:
   - name: Felipe Lamarca
     affiliations:
       - name: MAPE/IESP-UERJ
-rascunho: true
+# estado: final (versão de entrega, Emenda 7): sem marca-d'água nem cabeçalho de rascunho; a marca
+# "RASCUNHO NÃO VALIDADO" fica só na abertura da declaração de uso de IA (R7.23). Lido por
+# montar_revisao_final.py, conferir_reestruturacao.py, verificar_pdf.py e barra_publicacao.py.
+estado: final
 revista:
-  masthead: "Documento de trabalho · Revisão sistemática · Rascunho não validado"
+  masthead: "Documento de trabalho · Síntese sistemática de evidências"
   cabeca: "Lamarca · Pesquisas eleitorais e voto"
-  nota-ia: "Rascunho redigido por IA a partir dos arquivos do projeto e ajustado ao estilo do autor; não revisado pelo autor (P038)."
+  nota-ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão do autor. Ver a declaração de uso de IA."
   ultima-busca: "19/09/2026 (bases) e 20/09/2026 (busca por citação)"
 csl: revista/american-political-science-association.csl
 link-citations: true

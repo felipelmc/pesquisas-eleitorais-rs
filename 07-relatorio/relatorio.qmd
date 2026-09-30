@@ -22,6 +22,12 @@ As tabelas grandes foram geradas por 07-relatorio/gerar_tabelas_relatorio.py a p
 Rascunho redigido por subagente de IA (claude-opus-5-5).
 -->
 
+::: {.callout-note}
+## Substituído pelo artigo de 01/10/2026
+
+Este relatório técnico é a versão de 24/09/2026 e não é mais atualizado nem publicado. A versão de entrega é o artigo com apêndices (`docs/revisao.pdf`, Emenda 7), que registra a conferência do autor e as etapas sem validação humana. O estado das pendências descrito abaixo é o de 24/09/2026.
+:::
+
 ::: {.callout-warning}
 ## RASCUNHO NÃO VALIDADO — 18 pendências humanas abertas (lista no apêndice)
 

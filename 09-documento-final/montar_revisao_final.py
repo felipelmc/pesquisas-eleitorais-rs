@@ -38,7 +38,7 @@ Cada linha que contém só um marcador é trocada pelo conteúdo gerado dos arqu
   *bandwagon*, *underdog* e *momentum* em itálico (o texto, sem a ênfase, continua igual ao de certeza.csv).
 
 Metadados: no YAML do revisao_final.qmd montado (não no esqueleto), o script grava `pendencias-abertas: <n>` (de
-07-relatorio/_pendencias_abertas.json), `rascunho: true` se n > 0 e `nocite` com todas as chaves de
+07-relatorio/_pendencias_abertas.json), `rascunho: true` se n > 0 e revista/_revista.yml não declarar `estado: final`, e `nocite` com todas as chaves de
 07-relatorio/incluidos.csv, para que a desambiguação de citeproc ("2021a/b") seja a mesma do suplemento, das figuras
 e de revista/rotulos_autor_ano.json.
 
@@ -494,8 +494,8 @@ def t_caracteristicas():
     leg = (f"Características dos {num['estudos']} estudos incluídos. n (%) de estudos; no risco de viés, n (%) de "
            f"resultados avaliados com cada ferramenta ({num['rob_resultados']} resultados de {num['rob_estudos']} "
            "estudos; os julgamentos de IA não foram validados por humano). \"Outros desenhos\": painel de distritos, "
-           "campanha simulada, corte transversal de países, desenho múltiplo e *rolling cross-section*. Tabela "
-           "estudo a estudo no suplemento, S4 e S5.")
+           "campanha simulada, corte transversal de países, desenho múltiplo e *rolling cross-section*. "
+           "Estudo a estudo nos Apêndices C e D.")
     # só no Typst: a tabela (menos de uma página) flutua para o alto ou o pé da página em que cabe inteira, e o texto
     # preenche o resto; assim nenhuma linha de grupo fica sozinha no pé da página, separada das suas linhas
     # (a figura flutuante sai centrada no Typst; o show rule devolve as células à esquerda, como nas outras tabelas)
@@ -644,9 +644,9 @@ def t_sof():
     leg = ("Resumo dos achados por célula da síntese principal (SWiM, sem os estudos em risco de viés crítico). "
            "Direção: x de y = estudos na direção indicada entre os y que têm direção definida; estudos mistos e nulos "
            "por ±δ ficam fora do denominador; proporção com IC 95% de Clopper-Pearson. Certeza GRADE: ⊕⊕⊕⊕ alta, "
-           "⊕⊕⊕◯ moderada, ⊕⊕◯◯ baixa, ⊕◯◯◯ muito baixa; ela qualifica a direção, não a magnitude, e é rascunho de "
-           "IA não validado. n na unidade de cada estudo, quando a unidade está registrada; os n não são somados. "
-           "O agrupamento amplo, decidido depois de ver os dados, fica fora desta tabela (suplemento, S8).")
+           "⊕⊕⊕◯ moderada, ⊕⊕◯◯ baixa, ⊕◯◯◯ muito baixa; ela qualifica a direção, não a magnitude, e foi julgada "
+           "só por IA, sem validação humana. n na unidade de cada estudo, quando a unidade está registrada; os n não são somados. "
+           "O agrupamento amplo, decidido depois de ver os dados, fica fora desta tabela (Apêndice F).")
     linhas.append("*Notas.* " + " ".join(notas_txt) + extra)  # notas na última linha, nas seis colunas
     tabela = grade_md(cab, linhas, [15, 18, 17, 9, 33, 8])
     rot = ROTULOS["tabelas"]["sof"]
@@ -697,7 +697,7 @@ def t_hipoteses():
                        certeza_hipotese(l, por_id)])
     leg = ("Hipóteses e elos da teoria da exposição registrada no protocolo e o que a evidência incluída diz sobre "
            "cada um. E1 a E8: elos do modelo lógico; R1 a R3: teorias rivais. Síntese descritiva a partir do "
-           "fichamento por IA, não conferido por humano. A certeza GRADE só aparece quando a hipótese coincide com "
+           "fichamento por IA, conferido em bloco pelo autor (Emenda 7). A certeza GRADE só aparece quando a hipótese coincide com "
            "uma célula da síntese principal e qualifica a direção do efeito nessa célula, não o mecanismo; nas "
            "demais linhas, sem GRADE. Nenhuma célula tem 4 estudos por nível de moderador, e por isso nenhuma "
            "hipótese de moderação teve teste formal.")
@@ -823,13 +823,38 @@ def metadados(texto, extra_linhas):
     return "---\n" + "\n".join(extra_linhas) + "\n---\n\n" + texto
 
 
+def estado_revista():
+    """`final` se revista/_revista.yml declarar `estado: final` (versão de entrega, Emenda 7); senão `rascunho`."""
+    m = re.search(r"(?m)^estado:\s*(\w+)", ler(REV / "_revista.yml"))
+    return "final" if m and m.group(1) == "final" else "rascunho"
+
+
+def chaves_apendices():
+    """Chaves citadas nos apêndices (suplemento.qmd), na ordem em que aparecem. Na versão final, os apêndices vêm no
+    mesmo PDF do artigo e não têm lista própria (suppress-bibliography): estas chaves entram no nocite dos dois
+    documentos, para que a lista de referências do artigo cubra os apêndices e a desambiguação ("2021a/b") seja a
+    mesma nos dois."""
+    spec = importlib.util.spec_from_file_location("montar_suplemento_ap", D / "montar_suplemento.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    bib = chaves_bib()
+    vistas = []
+    for k in re.findall(r"@([\w-]+)", m.corpo()):
+        if k in bib and k not in vistas:
+            vistas.append(k)
+    return vistas
+
+
 def linhas_metadados():
     n = ljson(R / "07-relatorio/_pendencias_abertas.json")["abertas"]
     linhas = ["# gerado por montar_revisao_final.py / montar_suplemento.py", f"pendencias-abertas: {n}"]
-    if n > 0:
+    # rascunho: marca-d'água e cabeçalho. Na versão final (estado: final), a marca fica só na declaração de IA.
+    if n > 0 and estado_revista() != "final":
         linhas.append("rascunho: true")
+    chaves = chaves_incluidos()
+    chaves += [k for k in chaves_apendices() if k not in chaves]
     linhas.append("nocite: |")
-    linhas.append("  " + ", ".join("@" + k for k in chaves_incluidos()))
+    linhas.append("  " + ", ".join("@" + k for k in chaves))
     return linhas
 
 
