@@ -1,0 +1,123 @@
+# Resultados {#sec-resultados}
+
+## Estudos incluídos {#sec-incluidos}
+
+A busca identificou 1.767 registros nas bases e 1.706 pela busca por citação. Antes da triagem, saíram 46 e 4 duplicados e 148 e 648 relatos pelo filtro de ano (bases e outros métodos). Dos 1.573 e 1.054 registros triados, os triadores de IA excluíram 1.314 e 787. Não foram recuperados 158 dos 259 e 184 dos 267 relatos buscados (342 de 526). Dos 101 e 83 avaliados, 59 e 70 foram excluídos, sobretudo por exposição fora do critério C2 (39 e 50). Foram incluídos 41 estudos, em 55 relatos (42 das bases e 13 dos outros métodos), e a busca substituída (1.235 registros) ficou fora do fluxo (@fig-prisma).
+
+@@FIGURA prisma@@
+
+Pareciam elegíveis e foram excluídos jogos de laboratório com contagem de votos ou placar no lugar da pesquisa [@Bischoff2012; @Hizen2025; @Morton2015b; @Scheuerman2019; @Scheuerman2020; @Scheuerman2021; @Yosef2017, C2], um experimento natural no Peru que juntava boca de urna e contagem parcial [@Reveco2026, C2], um artigo que não analisa o experimento citado [@Corbetta2013, C2], um estudo de efeito de terceira pessoa [@Kim2018b, C3], jogos em equipe [@Kim2025a, C1] e estudos com a pesquisa como medida agregada [@Freden2021; @Mavridis2016a, C4] (lista com o critério e quem decidiu no Apêndice C).
+
+Publicados de 2010 a 2024, os estudos são sobretudo experimentos de *survey* (14) e de laboratório com preferências induzidas (9). A exposição é pesquisa pré-eleitoral em 33, e o contexto é real em 25. Quanto ao desfecho, 24 medem só o apoio, 10 só o comparecimento e 7 os dois. Há 1 estudo do Brasil, 1 do México e 1 multinacional com o Brasil, e os demais vêm sobretudo dos Estados Unidos e da Europa (@tbl-caracteristicas; estudo a estudo no Apêndice C).
+
+@@TABELA caracteristicas@@
+
+Dos 41 estudos, 27 entram na síntese principal, e os outros 14, só nos mecanismos, nos moderadores e nas sensibilidades: (i) 3 estão em risco de viés crítico [@Gasperoni2015a, também fora da contagem; @Kaplan2019a; @Unkelbach2022a]; (ii) 7 têm todos os efeitos principais fora da contagem [@Alabrese2024a; @Bursztyn2023a; @Gandhi2019; @Geers2018; @Lago2015; @Meffert2011; @Urminsky2019]; e (iii) 4 não têm efeito principal extraído [@Freden2016b, cujo PDF é só o capítulo introdutório da tese; @Meffert2012a; @Tyszler2013; @Yang2023d].
+
+## Risco de viés nos estudos {#sec-rob}
+
+Agentes de IA avaliaram 43 resultados de 37 estudos, sem validação humana: 23 com RoB 2 (17 com algumas preocupações e 6 em risco alto), 13 com ROBINS-I V2 (2 em risco moderado, 8 grave e 3 crítico) e 7 com EPOC (6 alto e 1 baixo). Nenhum resultado randomizado ficou em risco baixo. Nos experimentos, a preocupação mais comum foi a seleção do resultado relatado, sem plano de análise prévio (21 dos 23 resultados do RoB 2), e, nos não randomizados, o confundimento, grave ou crítico em 11 dos 13. Dos 259 domínios julgados, 171 tiveram consenso automático e 88 foram arbitrados, e o árbitro seguiu o avaliador A em 79. Como A e o árbitro são o mesmo modelo, pode haver viés de afinidade. Em @Fichnova2015a, 17 dos 37 respondentes eslovacos não aparecem nas tabelas, e o domínio de dados faltantes foi julgado baixo (@fig-rob; domínio a domínio no Apêndice D).
+
+@@FIGURA rob@@
+
+## Visão geral da síntese {#sec-efeito}
+
+Dos 41 estudos, 40 têm efeitos extraídos (560 no total), e 37 têm ao menos um efeito principal. A síntese principal reúne 27 estudos em 18 células, com n de 12 eleitorados de laboratório a 453.016 seções eleitorais. A célula de projeções frente a nenhuma pesquisa no comparecimento, não randomizada, ficou vazia com a exclusão de @Kaplan2019a, em risco crítico. No GRADE, julgado só por IA, 15 das 18 células ficaram com certeza muito baixa, 2 com baixa e 1 com moderada. A @tbl-sof as reúne numa só tabela, e não numa por comparação, desvio de formato que declaramos. O agrupamento amplo, decidido depois de ver os dados, está no Apêndice F.
+
+@@TABELA sof@@
+
+A @fig-direcao mostra a direção de cada estudo, ordenada por célula, desenho e risco de viés, e o Apêndice E traz os efeitos individuais. Nenhuma célula passa de 4 estudos, e mesmo 4 de 4 na mesma direção dão p = 0,125, quando p < 0,05 exigiria pelo menos 6. Aqui, p acima de 0,05 não indica ausência de efeito.
+
+@@FIGURA direcao@@
+
+## Apoio a quem aparece à frente {#sec-apoio}
+
+Quatro experimentos compararam ver uma pesquisa com não ver [@Agranov2017a; @Farjam2020a; @Timotei2013a; @Tyszler2015], todos com algumas preocupações de risco de viés. @Farjam2020a, o único fora do laboratório e da vinheta, é uma votação *online* sobre organizações políticas reais, sem eleição em curso. Em @Agranov2017a e @Tyszler2015, o desfecho é a eleição do grupo, e não o voto individual. A proporção ficou em 1,00 (IC 95% 0,40 a 1,00; p = 0,125). [A evidência é muito incerta sobre se ver pesquisa que mostra quem está à frente, frente a não ver pesquisa, aumenta o apoio ao líder (4 de 4 estudos na direção *bandwagon*, 3 deles de laboratório ou vinheta; certeza muito baixa).]{.enunciado cel="C01"}
+
+Parte desses achados admite outra leitura: @Tyszler2015 trata a informação como coordenação estratégica entre três opções, e, em @Agranov2017a, a maioria vota mais e a minoria menos com pesquisa. Nos jogos com preferências induzidas, o pagamento do voto é fixado pelo experimento, e a falta de *underdog* é, em parte, construção do desenho.
+
+A meta-análise exploratória dessa célula (@fig-metas, painel a), com os três estudos que têm g [@Agranov2017a; @Timotei2013a; @Tyszler2015] e 4 efeitos, deu g = 0,48 (IC 95% −1,51 a 2,47; p = 0,263), com 1,25 grau de liberdade e IC que cruza zero e ±δ (0,0573). τ², I² (15%) e o intervalo de predição, na @fig-metas, não são interpretados. Com ρ de 0,2 a 0,8 e com ICC de 0,20, g ficou entre 0,47 e 0,51. No *leave-one-out*, o IC só deixou de cruzar zero sem @Timotei2013a (0,40 a 0,98).
+
+Outros quatro experimentos compararam o mesmo candidato mostrado à frente ou atrás [@Tal2015a; @Lammers2022a; @Fichnova2015a; @Witsman2016a], de novo com proporção 1,00 (IC 95% 0,40 a 1,00; p = 0,125). @Tal2015a mede também o compromisso estratégico pelo segundo preferido, e @Witsman2016a lê seu contraste como voto estratégico. Lido como viabilidade, leitura possível e não adotada, o efeito sairia da célula e da meta. Em @Lammers2022a, os sinais se opõem conforme o raciocínio induzido (g = 1,25 e 1,03 no modo heurístico; −0,39 e 0,06 no moral), e a direção *bandwagon* veio da regra de 70% (3 de 4 efeitos). [A evidência é muito incerta sobre se ver o candidato à frente numa pesquisa, em vez de atrás, aumenta o apoio a ele (4 de 4 estudos na direção *bandwagon*, todos de laboratório ou vinheta e em risco de viés alto; certeza muito baixa).]{.enunciado cel="C02"}
+
+A meta-análise dessa célula (@fig-metas, painel b), com 3 estudos e 6 efeitos [@Fichnova2015a; @Lammers2022a; @Witsman2016a], deu g = 0,62 (IC 95% −0,48 a 1,72; p = 0,111), com 1,46 grau de liberdade e IC que cruza zero e ±δ (0,044), sobre desfechos pouco comparáveis. τ², I² (94%) e o intervalo de predição, na @fig-metas, não são interpretados. O ρ quase não mudou g (0,61 a 0,62). No *leave-one-out*, o IC só deixou de cruzar zero sem @Lammers2022a (0,85 a 0,94). Esta meta, rodada depois do GRADE, não entrou no juízo de certeza. As duas meta-análises exploratórias, com 3 estudos cada e menos de 4 graus de liberdade, têm intervalos que cruzam zero e não informam o tamanho do efeito.
+
+@@FIGURA metas@@
+
+Em @Boukouras2020a, com algumas preocupações de risco de viés, o grupo de comparação viu outras pesquisas da mesma eleição, e o desfecho é a taxa de vitória. [A evidência é muito incerta sobre se revelar um conjunto de pesquisas diferente, da mesma eleição, aumenta a vitória do candidato à frente (1 estudo de laboratório, 3 de 3 efeitos na direção *bandwagon*; certeza muito baixa).]{.enunciado cel="C03"}
+
+Na classe não randomizada, @Feltovich2022, em risco grave, foi na direção *bandwagon* (efeitos marginais de 0,25 e 0,44), mas a parcela do incumbente na prévia se confunde com o sinal de desempenho que todos recebem. [A evidência é muito incerta sobre se ver uma prévia com maior parcela do incumbente aumenta o voto nele (1 estudo de laboratório, com contraste não sorteado; certeza muito baixa).]{.enunciado cel="C04"}
+
+Nos dois experimentos naturais de proibição de boca de urna, ambos em risco alto no EPOC, @Morton2015a, nos territórios franceses de ultramar, foi na direção *bandwagon*, e @Chatterjee2019a, na Índia, na *underdog* (g −0,29 e −0,42), com os efeitos reorientados para o da exposição. A proporção ficou em 0,50 (IC 95% 0,01 a 0,99; p = 1). [A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas aumenta ou reduz o apoio ao líder (2 estudos em direções opostas; certeza muito baixa).]{.enunciado cel="C05"}
+
+Em @Araujo2021a, no Brasil, as urnas que seguiram recebendo votos depois da divulgação oficial da apuração parcial deram mais votos ao candidato à frente nos dois turnos presidenciais de 2018 (+5,69 e +11,76 pontos percentuais). O desfecho é a parcela do candidato em toda a urna, e não só nos votos dados depois da divulgação. O estudo está em risco grave e entrou pela Emenda 1, decidida depois de conhecê-lo. [A evidência é muito incerta sobre se a divulgação oficial de apuração parcial enquanto a votação continua aumenta o voto no candidato à frente (1 estudo brasileiro na direção *bandwagon*; certeza muito baixa).]{.enunciado cel="C06"}
+
+## Viabilidade e voto estratégico {#sec-viabilidade}
+
+Frente a nenhuma pesquisa, um experimento de *survey* no México [@Cornejo2023a], com 545 respondentes e algumas preocupações de risco de viés, foi na direção de viabilidade (g = 0,19, EP 0,105). É o único estudo latino-americano sobre pesquisa pré-eleitoral na análise principal. [A evidência é muito incerta sobre se ver pesquisa que mostra um candidato de oposição como segundo colocado viável aumenta o apoio a ele (1 estudo no México; certeza muito baixa).]{.enunciado cel="C07"}
+
+Frente a outro resultado de pesquisa, há dois experimentos. @Schlegel2023 (vinheta hipotética, Reino Unido) foi na direção da deserção (+11 e +17 pontos percentuais), mas seu contraste principal mistura a precisão da pesquisa com a retirada de carga cognitiva, e o contraste ficou na contagem. @Freden2024a (eleição real, Suécia) ficou misto, com 2 de 3 efeitos contrários: uma legenda pequena abaixo da cláusula de 4% ganhou votos (g = −0,41 na convenção da célula), o que os autores leem como voto de seguro. [A evidência é muito incerta sobre se pesquisas que mostram quais opções são viáveis levam eleitores a desertar para a opção viável (1 estudo a favor e 1 misto, com 2 de 3 efeitos contrários; certeza muito baixa).]{.enunciado cel="C08"}
+
+## *Momentum* {#sec-momentum}
+
+*Momentum* é a pesquisa que mostra um partido ganhando apoio sem mostrar sua posição. A célula veio da Emenda 4b, anterior à análise de efeitos, e os árbitros de IA reclassificaram para ela três dos quatro estudos de *momentum*, depois de ver os dados.
+
+@Dahlgaard2016a (*survey* na Dinamarca, 1.700 respondentes, algumas preocupações de risco de viés) deu +3,40 pontos percentuais (g = 0,12, EP 0,080), com IC que cruza zero. [A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio, frente a não ver pesquisa, aumenta o voto nele (*momentum*; 1 estudo; certeza muito baixa).]{.enunciado cel="C09"}
+
+@Meer2015a (*survey* nos Países Baixos, 10.643 respondentes) comparou o mesmo resultado com e sem enquadramento de crescimento (g = 0,13, EP 0,072), com IC que cruza zero. [A evidência é muito incerta sobre se ver pesquisa que mostra um partido ganhando apoio aumenta o voto nele (*momentum*; 1 estudo; certeza muito baixa).]{.enunciado cel="C10"}
+
+@Stolwijk2016a, painel na Alemanha em risco grave, favoreceu o partido com cobertura positiva, e @Unkelbach2022a ficou fora por risco crítico. [A evidência é muito incerta sobre se a cobertura de pesquisas favorável a um partido aumenta o voto nele (*momentum*; 1 estudo observacional; certeza muito baixa).]{.enunciado cel="C11"}
+
+## Comparecimento {#sec-comparecimento}
+
+Nos randomizados que comparam ver pesquisa com não ver, contraste sem sinal previsto (@sec-como-agiria), há três estudos: @Agranov2017a e @Groer2010a, de laboratório, e @Erlich2023, com candidatos reais e em risco alto. A proporção ficou em 0,67 (IC 95% 0,09 a 0,99; p = 1). [A evidência é muito incerta sobre se ver pesquisa, frente a não ver, aumenta ou reduz o comparecimento (2 estudos de laboratório na direção de mobilização e 1 com candidatos reais na de desmobilização; certeza muito baixa).]{.enunciado cel="C12"}
+
+No experimento de campo de @Gerber2020a, em eleições para governador nos Estados Unidos, 126.126 eleitores receberam por carta uma pesquisa de disputa apertada ou folgada, e o estimando é o efeito de receber a carta, sem saber quem a leu. As duas estimativas contadas, o efeito da carta, de 0,29 ponto percentual, e o de variável instrumental, de 0,08 ponto por ponto percentual de crença, tiveram IC 95% inteiro dentro de ±δ (0,046). Tirar a segunda, em outra escala, é leitura possível e não adotada, e não mudaria o nulo. A célula não foi rebaixada pela indireção do estimando nem pelo relato seletivo, e, com esse último rebaixamento, cairia um nível. [Receber pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 p.p. para mais ou para menos (efeito nulo ou trivial; 1 experimento de campo; certeza moderada).]{.enunciado cel="C13"}
+
+Num jogo *online* com preferências induzidas e 5.845 decisões de mais de mil participantes [@Westwood2020a], afastar de 50:50 a probabilidade de vitória exibida teve g = −0,10 (EP 0,023, com IC 95% inteiro abaixo de −δ), na direção que a complacência e a pivotalidade preveem. A extração não registra se o EP corrige o agrupamento das decisões por participante, e disso depende o rebaixamento por imprecisão. [Ver projeções de agregador que mostram probabilidade de vitória mais distante de 50:50 pode reduzir a decisão de votar (direção de desmobilização; 1 estudo; certeza baixa).]{.enunciado cel="C14"}
+
+@Klor2017a, em risco moderado, está na classe não randomizada pela Emenda 5 e foi na direção de mobilização. [A evidência é muito incerta sobre se revelar a distribuição de preferências do eleitorado aumenta o comparecimento (1 estudo de laboratório, antes e depois no mesmo sujeito; certeza muito baixa).]{.enunciado cel="C15"}
+
+@Grillo2024c, na França, compara momentos de divulgação de boca de urna, porque o turno de comparação também teve boca de urna da mídia estrangeira, divulgada mais tarde, e o comparador foi codificado como outro resultado. O estudo está em risco alto no EPOC. [A evidência é muito incerta sobre se a boca de urna divulgada mais cedo durante a votação reduz o comparecimento (1 estudo na direção de desmobilização, com IC que cruza zero; certeza muito baixa).]{.enunciado cel="C16"}
+
+Nos dois experimentos naturais de proibição de boca de urna, @Morton2015a foi na direção de desmobilização (−11 pontos percentuais), e @Chatterjee2019a ficou misto. A proporção ficou em 0,00 (IC 95% 0,00 a 0,98; p = 1). [A evidência é muito incerta sobre se a divulgação de boca de urna antes do fechamento das urnas reduz o comparecimento (1 estudo na direção de desmobilização e 1 misto; certeza muito baixa).]{.enunciado cel="C17"}
+
+O painel de jovens eleitores de @Stolwijk2019b, nos Países Baixos, com exposição e comparecimento autorrelatados e risco grave, e a descontinuidade no horário de divulgação de @Brugarolas2021, na Espanha, em risco moderado, foram na direção de mobilização (proporção 1,00; IC 95% 0,16 a 1,00; p = 0,5). @Stolwijk2019b estima uma associação, e o interesse político move tanto a atenção às pesquisas quanto o comparecimento. O rebaixamento por risco de viés foi de um nível, e não de dois, como nas outras células não randomizadas com risco grave, escolha do julgamento por IA, não validado. [Ter visto a divulgação de pesquisas pode aumentar a intenção de votar ou o comparecimento (2 estudos observacionais em eleições reais, ambos na direção de mobilização; certeza baixa).]{.enunciado cel="C18"}
+
+O contraste entre boca de urna e projeções, na direção de desmobilização, e pesquisas pré-eleitorais, na de mobilização, foi notado depois de ver os dados e se confunde com o desenho.
+
+## Sensibilidades e viés de relato {#sec-sensibilidades}
+
+Num agrupamento amplo decidido depois de ver os dados, que junta formatos e comparadores, 9 de 9 experimentos de apoio foram na direção *bandwagon* (proporção 1,00; IC 95% 0,66 a 1,00; p = 0,004), mas só @Farjam2020a tem contexto real, e ele não é uma eleição. Esse p, como os demais desta seção, vem de teste de sinal *post hoc*, não informa a magnitude e não define rótulo. O julgamento de IA rebaixou esse agrupamento a certeza muito baixa por viés de publicação (sem isso, baixa), e a lista de efeitos fora da contagem, decidida depois de ver os dados, tirou dele o único randomizado contrário [@Gandhi2019].
+
+Só com contexto real, o apoio randomizado se reduz a @Farjam2020a, e o não randomizado, a 2 estudos *bandwagon* e 1 *underdog*, todos sobre informação do dia da votação. A regularidade *bandwagon* repousa, assim, sobretudo em laboratório e vinheta.
+
+Com os estudos em risco crítico, @Kaplan2019a ocupa a célula vazia, na direção de desmobilização, e @Unkelbach2022a leva o *momentum* não randomizado a 2 de 2 (p = 0,5). O ICC de 0,20 não mudou nenhuma contagem. Com os efeitos fora da contagem, o apoio randomizado passa a 10 de 11 [@Gandhi2019 contra\; p = 0,012]. Sem dados anteriores a 2010, fica com 8 de 8 (p = 0,008), porque @Tyszler2015 sai pelo ano da coleta, regra codificada de modo inconsistente nos experimentos de laboratório. Sem @Araujo2021a, o apoio não randomizado fica com 2 de 3. Nenhuma dessas análises tem GRADE próprio (Apêndice F).
+
+Nenhuma célula teve 10 ou mais estudos, e não houve funil, teste de Egger nem modelo de seleção. O GRADE rebaixou por viés de publicação as duas células randomizadas de apoio e o agrupamento amplo randomizado, só com estudos positivos, de n entre 12 e 1.113. Nas demais células, a suspeita fica em aberto, pela limitação das fontes.
+
+Dez leituras alternativas, não adotadas, mudariam a composição de células, sobretudo o alvo de @Witsman2016a e a leitura de coordenação em @Agranov2017a, @Tyszler2015 e @Tal2015a. Nenhuma levaria uma célula a 6 estudos numa só direção, o mínimo para p < 0,05.
+
+## Mecanismos {#sec-mecanismo}
+
+Nenhuma célula permitiu síntese formal de mecanismos, e o que segue, tirado do fichamento por IA conferido em bloco pelo autor, é descritivo (@tbl-hipoteses). Dos 41 estudos, 34 marcam algum mecanismo como testado, só 3 por mediação, e os codificadores de IA concordaram em 60% dos casos sobre o mecanismo e em 40% sobre o tipo de evidência.
+
+Só @Gerber2020a testa por mediação se a crença na proximidade da disputa transmite o efeito: a pesquisa apertada move a crença, mas a crença quase não move o comparecimento (0,08 ponto por ponto percentual), padrão da teoria rival do efeito só de expectativa.
+
+@Lammers2022a, o único estudo que manipula o modo de processamento, acha *bandwagon* sob raciocínio heurístico e *underdog* ou efeito perto de zero sob o motivo moral de igualdade (E5).
+
+O voto estratégico é o canal mais estudado (25 estudos), com os testes mais diretos: em laboratório com incentivos, a informação sobre a distribuição de preferências aparece associada a mais deserção para a opção viável [@Tyszler2015; @Tal2015a; @Tyszler2013]. @Araujo2021a descartou esse canal no Brasil porque o efeito aparece maior no segundo turno, com dois candidatos, padrão também compatível com mudanças na composição de quem vota tarde.
+
+@@TABELA hipoteses@@
+
+## Moderadores {#sec-moderadores}
+
+Os moderadores também são descritivos: o protocolo pede pelo menos 3 estudos por nível para estimar por subgrupo, e 4 para testar, e nenhuma célula chegou lá. A direção prevista pelos elos E2 a E4 aparece em todos os experimentos do alvo principal, e a *underdog*, prevista pelo E5, só na condição moral de @Lammers2022a e numa proibição de boca de urna [@Chatterjee2019a].
+
+Quanto ao realismo, o *bandwagon* dos experimentos de apoio vem sobretudo de vinhetas e laboratórios, e nenhum dos 3 não randomizados em eleição real mede pesquisa pré-eleitoral: tratam do dia da votação, com 2 *bandwagon* e 1 *underdog*. No comparecimento, os 5 não randomizados em eleição real ficaram com 2 de mobilização, 2 de desmobilização e 1 misto, e o realismo se confunde com o formato, porque os de desmobilização são de boca de urna (@fig-realismo; comparação descritiva, sem teste).
+
+@@FIGURA realismo@@
+
+A direção não variou com o número de competidores: foram *bandwagon* os 4 randomizados com dois, em que não há deserção estratégica, e os 5 com três ou mais. Nos estudos que variam a proximidade, a disputa apertada aparece com mais comparecimento [@Bursztyn2023a; @Klor2017a; @Alabrese2024a], mas dois só têm efeitos fora da contagem, e, no desenho mais forte [@Gerber2020a], o padrão não aparece. As maiores estimativas vêm de exposições do dia da votação [@Araujo2021a; @Morton2015a], e ali o momento se confunde com o desenho.
+
+Em @Cornejo2023a, com heterogeneidade pré-especificada, o efeito de viabilidade foi maior entre partidários (g = 0,33) que entre independentes (0,09). Efeitos que se anulam exigiriam pelo menos 3 estudos com subgrupos de sinais opostos, e só 2 os têm [@Cornejo2023a; @Lammers2022a]. Nenhum dos 11 estudos de comparecimento da síntese tem voto obrigatório codificado como sim, e não se pode examinar se ele elimina o canal da desmobilização.

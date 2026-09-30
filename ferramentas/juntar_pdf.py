@@ -7,9 +7,12 @@ Os apêndices são compilados à parte (página deitada, pipeline de montar_supl
 metadados do artigo (título, autor, palavras-chave), o sumário lateral (outline) dos dois arquivos e acrescenta um item
 "Apêndices" no sumário, apontando para a primeira página deles.
 """
+import logging
 import sys
 
 from pypdf import PdfReader, PdfWriter
+
+logging.getLogger("pypdf").setLevel(logging.ERROR)  # avisos de tamanho de anotação ao juntar; os links ficam
 
 artigo, apendices, saida = sys.argv[1:4]
 ra, rb = PdfReader(artigo), PdfReader(apendices)

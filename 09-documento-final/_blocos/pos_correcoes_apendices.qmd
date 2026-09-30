@@ -21,7 +21,7 @@ format:
 
 # Apêndice A. Estratégias de busca {#ap-a-busca .unnumbered}
 
-Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01, substituída pela B05 (emenda E002), não conta entre os registros identificados. As sementes da busca por citação ficam no repositório do projeto, que é privado, com acesso sob pedido ao autor, e o pacote de replicação leva só as estratégias ativas, o registro das buscas e os *codebooks*.
+Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01 foi substituída pela B05 (emenda E002) e não conta entre os registros identificados. As sementes da busca por citação ficam no repositório do projeto, que é privado, com acesso sob pedido ao autor, e o pacote de replicação leva só as estratégias ativas, o registro das buscas e os *codebooks*.
 
 @@TABELA s1_busca@@
 
@@ -81,4 +81,4 @@ A tabela abaixo mostra, por etapa da síntese, quem executou e com que modelo, a
 
 ## Agentes desta versão {.unnumbered}
 
-A declaração gerada do *log* não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. A versão de 24/09/2026 foi preparada por agentes coordenados por `claude-opus-5-5`, quase todos `claude-opus-5-5`, com `claude-sonnet-5` nas referências de método e na revisão visual, e a tabela com *prompt*, papel, modelo e início do *hash* de cada um está no pacote de replicação. Esta versão a reescreve, sem mudar a análise, com agentes de IA: (i) um arquiteto, que especificou o texto; (ii) três redatores; (iii) um agente das listas de conferência; (iv) uma verificação independente; e (v) um agente de correções e estilo. Todos são `claude-opus-5-5`, exceto o das listas de conferência, `claude-sonnet-5`. Os *prompts* desses agentes ficam no repositório do projeto, e a tabela desta versão, com modelo e *hash*, está no pacote de replicação. Nenhum desses agentes leu PDF de estudo incluído nem fez análise nova.
+A declaração gerada do *log* não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. A versão de 24/09/2026 foi preparada por agentes coordenados por `claude-opus-5-5`, quase todos `claude-opus-5-5`, com `claude-sonnet-5` nas referências de método e na revisão visual, e a tabela com *prompt*, papel, modelo e início do *hash* de cada um está no pacote de replicação. Esta versão a reescreve, sem mudar a análise, com agentes de IA: um arquiteto, que especificou o texto; três redatores; um agente das listas de conferência; uma verificação independente; e um agente de correções e estilo. Todos são `claude-opus-5-5`, exceto o das listas de conferência, `claude-sonnet-5`. Os *prompts* desses agentes ficam no repositório do projeto, e a tabela desta versão, com modelo e *hash*, está no pacote de replicação. Nenhum desses agentes leu PDF de estudo incluído nem fez análise nova.

@@ -1,12 +1,10 @@
 ---
-title: "Material suplementar"
-subtitle: "Pesquisas eleitorais publicadas mudam o voto? Rascunho de revisão sistemática rápida, conduzida por agentes de IA e não validada, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
-date: 2026-09-24
-keywords:
-  - pesquisas eleitorais
-  - material suplementar
-  - revisão sistemática rápida
+title: "Apêndices"
+subtitle: "Pesquisas eleitorais publicadas mudam o voto? Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
+date: 2026-10-01
+keywords: [pesquisas eleitorais, apêndices, síntese sistemática de evidências]
 paisagem: true
+suppress-bibliography: true
 metadata-files: [revista/_revista.yml]
 bibliography: revista/referencias.json
 number-sections: false
@@ -14,23 +12,21 @@ format:
   typst:
     number-sections: false
 # gerado por montar_revisao_final.py / montar_suplemento.py
-pendencias-abertas: 18
-rascunho: true
+pendencias-abertas: 9
 nocite: |
-  @Agranov2012a, @Agranov2017a, @Alabrese2022a, @Alabrese2024a, @Araujo2021, @Araujo2021a, @Boukouras2020a, @Brugarolas2021, @Bursztyn2017b, @Bursztyn2017c, @Bursztyn2023a, @Chatterjee2019a, @Cornejo2023a, @Dahlgaard2015a, @Dahlgaard2015b, @Dahlgaard2016a, @Dahlgaard2017a, @Erlich2023, @Fairstein2018a, @Fairstein2019a, @Farjam2020a, @Feltovich2022, @Fichnova2015a, @Freden2016b, @Freden2024a, @Gandhi2019, @Gasperoni2015a, @Geers2018, @Gerber2017b, @Gerber2017c, @Gerber2020a, @Grillo2024c, @Groer2010a, @Kaplan2019a, @Klor2017a, @Lago2015, @Lammers2022a, @Meer2015a, @Meffert2011, @Meffert2012a, @Morton2013a, @Morton2015a, @Schlegel2023, @Stolwijk2016a, @Stolwijk2017a, @Stolwijk2019b, @Tal2015a, @Timotei2013a, @Tyszler2013, @Tyszler2015, @Unkelbach2022a, @Urminsky2019, @Westwood2020a, @Witsman2016a, @Yang2023d
+  @Agranov2012a, @Agranov2017a, @Alabrese2022a, @Alabrese2024a, @Araujo2021, @Araujo2021a, @Boukouras2020a, @Brugarolas2021, @Bursztyn2017b, @Bursztyn2017c, @Bursztyn2023a, @Chatterjee2019a, @Cornejo2023a, @Dahlgaard2015a, @Dahlgaard2015b, @Dahlgaard2016a, @Dahlgaard2017a, @Erlich2023, @Fairstein2018a, @Fairstein2019a, @Farjam2020a, @Feltovich2022, @Fichnova2015a, @Freden2016b, @Freden2024a, @Gandhi2019, @Gasperoni2015a, @Geers2018, @Gerber2017b, @Gerber2017c, @Gerber2020a, @Grillo2024c, @Groer2010a, @Kaplan2019a, @Klor2017a, @Lago2015, @Lammers2022a, @Meer2015a, @Meffert2011, @Meffert2012a, @Morton2013a, @Morton2015a, @Schlegel2023, @Stolwijk2016a, @Stolwijk2017a, @Stolwijk2019b, @Tal2015a, @Timotei2013a, @Tyszler2013, @Tyszler2015, @Unkelbach2022a, @Urminsky2019, @Westwood2020a, @Witsman2016a, @Yang2023d, @Garritty2024Rapid, @Kim2025a, @Bischoff2012, @Corbetta2013, @Hizen2025, @Morton2015b, @Reveco2026, @Scheuerman2019, @Scheuerman2020, @Scheuerman2021, @Yosef2017, @Kim2018b, @Freden2021, @Mavridis2016a
+apendices: true
 ---
 
-<!-- Esqueleto do suplemento. Não edite suplemento.qmd: ele é gerado por montar_suplemento.py, que troca cada
-     linha de marcador TABELA pelo conteúdo montado dos arquivos do projeto. Os IDs das seções seguem a lista
-     "suplemento" de revista/rotulos.yml; o artigo aponta para elas por links suplemento.html#<id>. -->
+<!-- Esqueleto dos apêndices A a G (versão de entrega, Emenda 7). Não edite o arquivo montado: o montador dos
+     apêndices troca cada linha de marcador de tabela pelo conteúdo montado dos arquivos do projeto. Os IDs das
+     seções seguem a lista de apêndices de revista/rotulos.yml. O artigo remete aos apêndices só por texto
+     ("Apêndice C"). As chaves citadas aqui entram no nocite comum do artigo, e os apêndices não têm lista de
+     referências própria. -->
 
-::: {.callout-warning title="RASCUNHO NÃO VALIDADO"}
-Este material acompanha o artigo da revisão e traz, seção por seção, o que não cabe no texto: estratégias de busca, atalhos da revisão rápida, emendas, dados estudo a estudo, risco de viés, efeitos, sensibilidades e a caixa de ferramentas. Triagem, extração, risco de viés e certeza foram feitos por agentes de IA e não foram validados por humano; há 18 pendências de revisão humana abertas, listadas no apêndice do artigo.
-:::
+# Apêndice A. Estratégias de busca {#ap-a-busca .unnumbered}
 
-# S1 Estratégias de busca {#s1-busca .unnumbered}
-
-Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01 foi substituída pela B05 (emenda E002) e não conta entre os registros identificados.
+Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01, substituída pela B05 (emenda E002), não conta entre os registros identificados. As sementes da busca por citação ficam no repositório do projeto, que é privado, com acesso sob pedido ao autor, e o pacote de replicação leva só as estratégias ativas, o registro das buscas e os *codebooks*.
 
 **B01, OpenAlex** (S-oa-en-v4; substituída pela B05 (E002); fora dos identificados). Campos: título e resumo (title_and_abstract, com stemming). Limites: publication_year:2008-2026. Data: 19/09/2026. Registros: 1.235. Observações: idioma da estratégia: inglês; substituída por B05: âncoras de validação A01, A07, A08, A19 perdidas na S-oa-en-v4 (emenda E002).
 
@@ -68,35 +64,37 @@ Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, dat
 
 **SN3, busca por citação no OpenAlex** (para trás e para frente). Sementes: 3. Registros importados: 106. Data: 20/09/2026. Sementes e proveniência nos arquivos da busca por citação do projeto.
 
-# S2 Atalhos da revisão rápida {#s2-atalhos .unnumbered}
+# Apêndice B. Atalhos da variante rápida e emendas ao protocolo {#ap-b-emendas .unnumbered}
 
-Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Garritty2024Rapid para revisões rápidas de efetividade, e a consequência provável para os resultados. O cruzamento é julgamento de IA, não conferido por humano.
+## Atalhos da variante rápida {.unnumbered}
 
-Três leituras das tabelas abaixo são generosas. Na recomendação 5, "no limite" quer dizer que a literatura internacional em periódicos dependeu de uma só base. Na recomendação 22, a certeza foi julgada em 18 células e no agrupamento amplo, com o alvo fixado depois de ver os dados, o que corresponde só em parte a limitá-la à comparação principal. E o prazo de seis meses ainda não se aplica, porque a revisão não terminou. Falta também o item sem número "It is advisable that rapid reviews are led only by experienced systematic reviewers", que esta revisão, conduzida por agentes de IA, não atende. Os casos limítrofes decididos pelo autor são 16 registros distintos (17 linhas no *log*, uma delas de teste).
+Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Garritty2024Rapid para revisões rápidas de efetividade, e a consequência provável para os resultados. O cruzamento é julgamento de IA, lido pelo autor na conferência do relato (Emenda 7).
+
+Duas leituras das tabelas abaixo são generosas. Na recomendação 5, "no limite" quer dizer que a literatura internacional em periódicos dependeu de uma só base. Na recomendação 22, a certeza foi julgada em 18 células e no agrupamento amplo, com o alvo fixado depois de ver os dados, o que corresponde só em parte a limitá-la à comparação principal. Falta também o item sem número "It is advisable that rapid reviews are led only by experienced systematic reviewers", que esta síntese, conduzida por agentes de IA, não atende. Os casos limítrofes decididos pelo autor são 16 registros distintos (17 linhas no *log*, uma delas de teste).
 
 ::: {.tabela-larga}
 
 | Atalho | Recomendação de Garritty et al. | Dentro ou fora | Por quê |
 |---|---|---|---|
 | A1 | 5 (pelo menos duas bases) | No limite | São duas fontes, mas a BDTD é um catálogo nacional de teses e dissertações. A literatura internacional em periódicos depende de uma única base, o OpenAlex, buscado com três estratégias. Para revisões com estudos não randomizados, a recomendação pede que a escolha das bases seja "carefully considered" e admite bases especializadas. Nenhuma base especializada foi buscada. A justificativa do protocolo é a cobertura do OpenAlex ("agrega Crossref, repositórios e boa parte do conteúdo indexado em WoS, Scopus e SciELO"). |
-| A1 | 7 (literatura cinzenta e busca suplementar, com justificativa) | Dentro | A recomendação sugere limitar a literatura cinzenta e a busca suplementar e cita a revisão das listas de referências dos incluídos. A revisão não buscou literatura cinzenta em sites e fez três rodadas de citação para trás e para frente (SN1 a SN3), o que vai além das listas de referências. As fontes estão justificadas. |
+| A1 | 7 (literatura cinzenta e busca suplementar, com justificativa) | Dentro | A recomendação sugere limitar a literatura cinzenta e a busca suplementar e cita a revisão das listas de referências dos incluídos. A síntese não buscou literatura cinzenta em sites e fez três rodadas de citação para trás e para frente (SN1 a SN3), o que vai além das listas de referências. As fontes estão justificadas. |
 | A2 | Triagem de títulos e resumos: 8 (piloto) | Fora | O protocolo não prevê piloto de triagem com revisores. Os exemplos do prompt saíram das âncoras de desenvolvimento. |
 | A2 | Triagem de títulos e resumos: 9 (dupla em parte dos registros, concordância, depois simples) | Fora quanto ao revisor humano; a forma foi excedida | Houve dupla independente em 100% dos registros (A = `claude-sonnet-5`, B = `claude-opus-5`), com regra liberal. A concordância A × B na primeira onda foi 0,97, com κ 0,90. Mas os dois revisores são agentes, e o recall não foi calculado, porque as amostras de validação e de elusão não foram codificadas. |
-| A2 | Elegibilidade no texto completo: 9 ("the same approach for full text screening") | Fora | Um subagente por PDF, com gate de citação, e um subagente novo quando a ficha era reprovada. Os incertos residuais foram ao humano: 16 casos. Ficaram 165 decisões propostas sem conferência humana. Não houve dupla em parte dos textos nem medida de concordância. |
-| A2 | Extração: 11 (piloto) | Dentro na forma; sem humano | Piloto com 2 a 3 estudos de desenhos diferentes e fichas conferidas por um segundo subagente. A conferência humana do piloto está pendente. |
-| A2 | Extração: 12 (uma pessoa extrai, outra verifica os dados críticos no texto completo) | Fora | Os efeitos foram extraídos por subagente, com trecho e página, e conferidos pelo `verificar-efeitos`. Houve recodificação cega das categóricas em 10 estudos, com concordância de 58,5%, e reextração cega dos efeitos principais dos 40 estudos, com arbitragem por IA e 772 correções. Nenhum dos 560 efeitos foi conferido por humano na página do PDF. |
+| A2 | Elegibilidade no texto completo: 9 ("the same approach for full text screening") | Fora | Um subagente por PDF, com gate de citação, e um subagente novo quando a ficha era reprovada. Os incertos residuais foram ao humano: 16 casos. As 165 decisões propostas foram conferidas em bloco e mantidas pelo autor (Emenda 7). Não houve dupla em parte dos textos nem medida de concordância. |
+| A2 | Extração: 11 (piloto) | Dentro na forma | Piloto com 2 a 3 estudos de desenhos diferentes e fichas conferidas por um segundo subagente. O autor conferiu o piloto em bloco e o manteve (Emenda 7). |
+| A2 | Extração: 12 (uma pessoa extrai, outra verifica os dados críticos no texto completo) | Dentro, com ressalva | Os efeitos foram extraídos por subagente, com trecho e página, e conferidos pelo `verificar-efeitos`. Houve recodificação cega das categóricas em 10 estudos, com concordância de 58,5%, e reextração cega dos efeitos principais dos 40 estudos, com arbitragem por IA e 772 correções. O autor declarou ter conferido os 560 efeitos na página do PDF, em bloco (Emenda 7). |
 | A2 | Risco de viés: 14 (ferramentas validadas e específicas por desenho) | Dentro, com ressalva | RoB 2, ROBINS-I V2 e EPOC por desenho. O artigo cita RoB 1, RoB 2 e ROBINS-I, não o EPOC. Para exposição não atribuída, usou-se ROBINS-I V2 no lugar do ROBINS-E. |
 | A2 | Risco de viés: 15 (foco nos desfechos mais importantes) | Dentro | Foram avaliados 43 resultados de 37 estudos, nos desfechos principais. |
 | A2 | Risco de viés: 16 (uma pessoa avalia, outra verifica) | Fora | Houve dois agentes independentes e um árbitro de IA do mesmo modelo do avaliador A. O árbitro seguiu A em 79 dos 88 domínios, e nenhum dos 259 julgamentos foi validado por humano. |
-| A2 | Certeza: 21 (GRADE) | Dentro, como rascunho | O GRADE foi aplicado por célula. |
+| A2 | Certeza: 21 (GRADE) | Dentro, julgado só por IA | O GRADE foi aplicado por célula. |
 | A2 | Certeza: 22 (limitar à comparação principal e aos desfechos críticos) | Dentro | Os desfechos da tabela de resumo foram escolhidos antes dos resultados: `apoio_ao_lider` por formato, comparador e classe de desenho, e `mobilizacao`. |
-| A2 | Certeza: 23 (uma pessoa avalia, outra verifica) | Fora | Houve um rascunho de um subagente, sem segundo verificador previsto. |
+| A2 | Certeza: 23 (uma pessoa avalia, outra verifica) | Fora | Um só agente de IA julgou, sem segundo verificador nem validação humana. |
 | A3 | Nenhuma recomendação correspondente | n.a. | As recomendações 4 e 6 tratam de quem desenha e revisa a estratégia (especialista em informação, PRESS). Nenhuma trata de validar a sensibilidade com um conjunto de estudos de referência. |
-| A4 | 6 (PRESS para revisão por outro especialista da estratégia principal) | No limite: dentro do mínimo alternativo, fora da revisão por outro especialista | O checklist PRESS foi usado, mas por um subagente que não escreveu a string, e não por outro especialista. A recomendação admite um mínimo quando o PRESS não é possível ("at a minimum search strategies should be double checked for typographical errors, missed key words, and overall structure"), e a pré-revisão por IA cumpre esse mínimo na forma. |
+| A4 | 6 (PRESS para revisão por outro especialista da estratégia principal) | No limite: dentro do mínimo alternativo, fora da revisão por outro especialista | O checklist PRESS foi usado, mas por um subagente que não escreveu a string, e não por outro especialista. A recomendação admite um mínimo quando o PRESS não é possível ("at a minimum search strategies should be double checked for typographical errors, missed key words, and overall structure"), e a pré-revisão por IA cumpre esse mínimo na forma. O autor conferiu essa pré-revisão (Emenda 7), o que não equivale a revisão independente. |
 | A4 | 4 (especialista em informação) | Fora (não declarado como atalho) | Os termos foram propostos pelo coordenador de IA, sem especialista em informação. |
-| A5 | Nenhuma recomendação correspondente | n.a. | As 24 recomendações e os itens sem número da Tabela 1 não tratam de contato com autores. |
+| A5 | Nenhuma recomendação correspondente | n.a. | As 24 recomendações e os itens sem número da Tabela 1 de @Garritty2024Rapid não tratam de contato com autores. |
 
-: Atalhos declarados no protocolo frente às recomendações de @Garritty2024Rapid (número da recomendação no artigo). Nenhuma das 24 recomendações trata de agentes de IA no lugar de revisores; quando a recomendação pede uma segunda pessoa, o atalho foi classificado como fora, mesmo com dois avaliadores de IA. Julgamento de IA, não conferido por humano. {#tbl-s2-atalhos tbl-colwidths="[8,24,16,52]"}
+: Atalhos declarados no protocolo frente às recomendações de @Garritty2024Rapid (número da recomendação no artigo). Nenhuma das 24 recomendações trata de agentes de IA no lugar de revisores; quando a recomendação pede uma segunda pessoa, o atalho foi classificado como fora, mesmo com dois avaliadores de IA. Julgamento de IA, lido pelo autor na conferência do relato (Emenda 7). {#tbl-s2-atalhos tbl-colwidths="[8,24,16,52]"}
 
 :::
 
@@ -105,7 +103,7 @@ Três leituras das tabelas abaixo são generosas. Na recomendação 5, "no limit
 | Atalho | Consequência provável para os resultados |
 |---|---|
 | **A1** Fontes restritas a OpenAlex e BDTD, mais bola de neve pelo OpenAlex | Perda de estudos indexados só em WoS, Scopus ou SciELO, ou sem resumo no OpenAlex (a busca usa o campo título e resumo), e de literatura cinzenta fora de repositórios. Se os estudos perdidos forem mais vezes relatórios e textos não publicados com resultado nulo, a proporção de efeitos na direção dominante fica superestimada: é o mesmo mecanismo do viés de publicação. Sobre *bandwagon* × *underdog*, a direção é indeterminada. A falta de busca direta na SciELO pesa mais na seção regional que na síntese geral. A bola de neve reduziu a perda: @Lago2015 e @Araujo2021a só vieram por ela. |
-| **A2** Triagem, elegibilidade, extração, risco de viés e certeza por subagentes de IA, sem validação humana | **Triagem de títulos e resumos:** a regra liberal empurra para a inclusão, o que reduz exclusões erradas nessa fase. O risco que sobra são exclusões concordantes e erradas dos dois agentes, que a concordância entre eles não detecta, porque os modelos são do mesmo provedor. Soma-se a triagem só por IA dos 336 registros sem resumo, com 156 exclusões (Emenda 6b). O efeito esperado é perda de sensibilidade, com direção indeterminada. **Texto completo:** exclusões erradas não são detectadas. A direção é indeterminada. **Extração:** o alvo, o comparador e o estimando decidem o sinal e a célula de cada efeito, e tiveram concordância baixa (κ 0,38, 0,38 e 0,15). Erros aleatórios de sinal aproximam a contagem por direção de 50%, atenuando a direção dominante. Erros sistemáticos, que são possíveis porque o mesmo modelo reextraiu e arbitrou, têm direção imprevisível. **Risco de viés e certeza:** sem calibração humana, os julgamentos podem pender para qualquer lado. Eles alteram o rebaixamento no GRADE e a exclusão por risco crítico (três estudos fora da análise principal). O que muda é a certeza atribuída, não o sinal dos efeitos. |
+| **A2** Triagem, elegibilidade, extração, risco de viés e certeza por subagentes de IA, sem validação humana (atalho como declarado no protocolo; conferência em bloco depois, Emenda 7) | **Triagem de títulos e resumos:** a regra liberal empurra para a inclusão, o que reduz exclusões erradas nessa fase. O risco que sobra são exclusões concordantes e erradas dos dois agentes, que a concordância entre eles não detecta, porque os modelos são do mesmo provedor. Soma-se a triagem só por IA dos 336 registros sem resumo, com 156 exclusões (Emenda 6b). O efeito esperado é perda de sensibilidade, com direção indeterminada. **Texto completo:** exclusões erradas só seriam vistas na conferência do autor, feita em bloco. A direção é indeterminada. **Extração:** o alvo, o comparador e o estimando decidem o sinal e a célula de cada efeito, e tiveram concordância baixa (κ 0,38, 0,38 e 0,15). Erros aleatórios de sinal aproximam a contagem por direção de 50%, atenuando a direção dominante. Erros sistemáticos, que são possíveis porque o mesmo modelo reextraiu e arbitrou, têm direção imprevisível. **Risco de viés e certeza:** sem calibração humana, os julgamentos podem pender para qualquer lado. Eles alteram o rebaixamento no GRADE e a exclusão por risco crítico (três estudos fora da análise principal). O que muda é a certeza atribuída, não o sinal dos efeitos. |
 | **A3** Âncoras de validação da busca montadas por subagente isolado | O atalho afeta a medida da sensibilidade, não a busca em si. Onze das 19 âncoras também serviram ao desenvolvimento, e as 4 perdidas na v4 orientaram a v5. Por isso, o recall final de 19 em 19 não é evidência independente. A sensibilidade da busca tende a ser superestimada. Sem âncoras em português e espanhol, B02 a B04 ficam sem validação. Se houve perda de estudos, o efeito sobre a direção depende de quais foram perdidos, e é indeterminado. |
 | **A4** PRESS feito só por subagente | A própria pré-revisão por IA da estratégia ativa (v5) achou lacunas que não foram corrigidas: não há vocabulário de proibição ou embargo nem de apuração parcial; o fio de comparecimento é estreito; nas estratégias em português e espanhol, faltam termos de boca de urna usados em Portugal e na Espanha, de proibição e de agregadores; na BDTD, não há termo de comparecimento. O artigo diz que "the absence of peer review of the search strategy often results in many missed studies". A direção provável é sub-representar desenhos de proibição e embargo (avaliados com EPOC) e estudos de comparecimento. Isso é compensado em parte pela bola de neve, e o corpo de evidência pende para experimentos de survey sobre escolha de voto. Sobre o sinal do efeito, o viés é indeterminado. |
 | **A5** Sem contato com autores para textos ou dados faltantes | Os relatos não recuperados ficam fora: 158 das bases e 184 dos outros métodos. Os efeitos sem dado utilizável entram só pela direção ou ficam fora da contagem, e 7 estudos só têm efeitos fora da contagem. Se o dado falta mais vezes em resultados nulos, que costumam ser relatados de forma incompleta, a contagem superestima a proporção de efeitos não nulos. O sinal *bandwagon* × *underdog* é indeterminado. |
@@ -114,7 +112,7 @@ Três leituras das tabelas abaixo são generosas. Na recomendação 5, "no limit
 
 :::
 
-| Recomendação | Situação nesta revisão |
+| Recomendação | Situação nesta síntese |
 |---|---|
 | 1 (envolver usuários do conhecimento) | Fora: não houve envolvimento de *stakeholders* |
 | 2 e item sem número "Register the protocol on a publicly available platform" | Protocolo PRISMA-P feito; registro, não |
@@ -123,13 +121,13 @@ Três leituras das tabelas abaixo são generosas. Na recomendação 5, "no limit
 | 4 (especialista em informação) | Fora |
 | 10 (limitar a extração aos campos essenciais) | Não aplicado: o codebook é amplo, com moderadores, mecanismos e variáveis próprias |
 | 24 (descrever os métodos restritos e suas limitações) | Dentro |
-| Prazo ("no longer than six months") | Dentro: a revisão rodou de 19/09 a 24/09/2026 |
+| Prazo ("no longer than six months") | Dentro: a síntese rodou de 19/09 a 01/10/2026 |
 
-: Outras recomendações que a revisão não segue ou segue em parte, fora dos atalhos declarados. {#tbl-s2-outras tbl-colwidths="[35,65]"}
+: Outras recomendações que a síntese não segue ou segue em parte, fora dos atalhos declarados. {#tbl-s2-outras tbl-colwidths="[35,65]"}
 
-# S3 Emendas e desvios do protocolo {#s3-emendas .unnumbered}
+## Emendas e desvios do protocolo {.unnumbered}
 
-Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da revisão no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados. Três ressalvas à tabela: a Emenda 2 foi decidida pelo coordenador de IA, e não pelo autor; a Emenda 3, além de copiar os *codebooks*, registrou uma decisão de método do autor, a troca do árbitro do risco de viés por custo, antes de qualquer avaliação; e a Emenda 4 veio depois da extração, com os efeitos já vistos.
+Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da síntese no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados. Quatro ressalvas à tabela: (i) a Emenda 2 foi decidida pelo coordenador de IA, e não pelo autor, que a endossou depois (Emenda 7); (ii) a Emenda 3, além de copiar os *codebooks*, registrou uma decisão de método do autor, a troca do árbitro do risco de viés por custo, antes de qualquer avaliação; (iii) a Emenda 4 veio depois da extração, com os efeitos já vistos; e (iv) a Emenda 7 registra a conferência em bloco do autor e as etapas sem validação humana, sem mudar dados, decisões em vigor nem contagens.
 
 ::: {.tabela-larga}
 
@@ -143,14 +141,15 @@ Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, c
 | Emenda 4 | 23/09/2026 | convenções de síntese decididas na etapa 9 (G7) | C (emenda depois de ver dados) | depois da extração, antes de qualquer análise de efeito | depois de ver os dados | não (4d substituída pela Emenda 6a) |
 | Emenda 5 | 23/09/2026 | correções da síntese após o revisor metodológico do G8 | C (emenda depois de ver dados) | depois da primeira síntese (G8) | depois de ver os dados | SWiM, meta exploratória e GRADE refeitos |
 | Emenda 6 | 23/09/2026 | correção de atribuição humana e triagem complementar dos registros sem resumo | E (correção de erro ou incoerência) e C (emenda depois de ver dados) | depois do G9 | 6a: correção de registro ou de omissão, sem nova decisão de método; 6b: depois de ver os dados | triagem complementar de 336 registros; texto completo dos que seguirem; síntese e relato refeitos |
+| Emenda 7 | 30/09/2026 | conferência do autor, etapas sem validação humana e versão de entrega | C (emenda depois de ver dados) e D (método planejado não executado) | depois do G9, na versão de entrega | depois de ver os dados; não se aplica | não (nenhum dado de efeito, decisão em vigor ou contagem do PRISMA muda; relato reescrito) |
 
 : Emendas ao protocolo, na ordem em que foram decididas. Tipos do log de emendas: A, contingência prevista acionada; B, emenda antes da triagem; C, emenda depois de ver dados; D, método planejado não executado; E, correção de erro ou incoerência. As emendas E001 e E002 aplicam regras de validação da busca previstas no protocolo e não mudaram o protocolo. {#tbl-s3-emendas tbl-colwidths="[9,9,20,16,16,18,12]"}
 
 :::
 
-# S4 Características dos estudos incluídos {#s4-caracteristicas .unnumbered}
+# Apêndice C. Estudos incluídos e excluídos {#ap-c-estudos .unnumbered}
 
-Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1). A segunda tabela lista os estudos excluídos na leitura do texto completo que poderiam parecer elegíveis, com o motivo de cada exclusão.
+Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1). A segunda tabela lista os estudos excluídos na leitura do texto completo que poderiam parecer elegíveis, com o motivo de cada exclusão e quem a propôs e decidiu.
 
 ::: {.tabela-larga}
 
@@ -198,31 +197,31 @@ Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses
 | @Witsman2016a | 2016 | experimento de survey | pesquisa pré-eleitoral | Estados Unidos (outras) | candidatos ou partidos | hipotético | apoio | RoB 2: alto |
 | @Yang2023d | 2023 | experimento de survey | agregador ou projeção | Estados Unidos (outras) | candidatos ou partidos | real | mobilização | não avaliado (nenhum efeito principal extraído) |
 
-: Características dos estudos incluídos, um por linha, com os relatos adicionais do mesmo estudo entre parênteses. Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por resultado (ferramenta: julgamento), rascunho de IA não validado; "não avaliado" quando o estudo não tem efeito principal. {#tbl-s4-caracteristicas tbl-colwidths="[15,5,15,10,13,9,7,9,17]"}
+: Características dos estudos incluídos, um por linha, com os relatos adicionais do mesmo estudo entre parênteses. Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por resultado (ferramenta: julgamento), julgado só por IA, sem validação humana; "não avaliado" quando o estudo não tem efeito principal. {#tbl-s4-caracteristicas tbl-colwidths="[15,5,15,10,13,9,7,9,17]"}
 
 :::
 
-| Estudo | Motivo da exclusão (critério do protocolo) | Quem decidiu |
+| Estudo | Motivo da exclusão (critério do protocolo) | Quem propôs e quem decidiu |
 |---|---|---|
 | @Kim2025a | C1: população ou contexto fora do escopo | autor (caso limítrofe) |
-| @Bischoff2012 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor |
-| @Corbetta2013 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor |
-| @Hizen2025 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor |
-| @Morton2015b | C2: pesquisa não é a exposição estudada | IA |
+| @Bischoff2012 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor, endossada por ele |
+| @Corbetta2013 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor, endossada por ele |
+| @Hizen2025 | C2: pesquisa não é a exposição estudada | IA, estendendo regra do autor, endossada por ele |
+| @Morton2015b | C2: pesquisa não é a exposição estudada | IA, conferida em bloco pelo autor |
 | @Reveco2026 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
 | @Scheuerman2019 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
 | @Scheuerman2020 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
 | @Scheuerman2021 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
 | @Yosef2017 | C2: pesquisa não é a exposição estudada | autor (caso limítrofe) |
 | @Kim2018b | C3: sem desfecho de voto ou comparecimento | autor (caso limítrofe) |
-| @Freden2021 | C4: desenho não elegível | IA |
+| @Freden2021 | C4: desenho não elegível | IA, conferida em bloco pelo autor |
 | @Mavridis2016a | C4: desenho não elegível | autor (caso limítrofe) |
 
-: Estudos excluídos na leitura do texto completo que poderiam parecer elegíveis (PRISMA 16b), com o critério de elegibilidade que não atenderam. As exclusões decididas pela IA aguardam conferência humana (P041). {#tbl-s4-excluidos tbl-colwidths="[30,45,25]"}
+: Estudos excluídos na leitura do texto completo que poderiam parecer elegíveis (PRISMA 16b), com o critério de elegibilidade que não atenderam. As exclusões propostas pela IA foram conferidas em bloco e mantidas pelo autor (Emenda 7). {#tbl-s4-excluidos tbl-colwidths="[30,45,25]"}
 
-# S5 Risco de viés por domínio {#s5-risco-de-vies .unnumbered}
+# Apêndice D. Risco de viés por domínio {#ap-d-rob .unnumbered}
 
-Julgamentos de consenso por domínio e o geral de cada resultado avaliado, com RoB 2, ROBINS-I V2 e EPOC. Todos são rascunho de IA: dois avaliadores independentes e um árbitro nos desacordos, sem validação humana.
+Julgamentos de consenso por domínio e o geral de cada resultado avaliado, com RoB 2, ROBINS-I V2 e EPOC. Foram feitos só por agentes de IA (dois avaliadores independentes e um árbitro nos desacordos), sem validação humana (Apêndice G).
 
 ::: {.tabela-larga}
 
@@ -286,7 +285,9 @@ Julgamentos de consenso por domínio e o geral de cada resultado avaliado, com R
 
 :::
 
-# S6 Efeitos principais por estudo {#s6-efeitos .unnumbered}
+# Apêndice E. Efeitos principais e efeitos fora da contagem {#ap-e-efeitos .unnumbered}
+
+## Efeitos principais por estudo {.unnumbered}
 
 Os efeitos principais de cada estudo, com a célula em que entram e a situação na contagem da síntese principal.
 
@@ -365,11 +366,11 @@ Os efeitos principais de cada estudo, com a célula em que entram e a situação
 | @Westwood2020a | E01 | mobilização | mobilização | outro resultado | −0,10 (0,023) | −3,40 p.p.; p0 = 0,75; conversão aproximada | sim |
 | @Witsman2016a | E01 | apoio | principal | mesmo candidato atrás | 0,90 (0,241) | p0 = 0,55; p1 = 0,86 | sim |
 
-: Efeitos principais por estudo. g de Hedges alinhado: positivo = *bandwagon*, viabilidade, *momentum* a favor ou mobilização. EP = erro-padrão. NR = não calculado ou não relatado; nulo por ±δ = IC 95% inteiro dentro de ±δ. "Na contagem?" diz se o efeito entra no teste de sinal da síntese principal e, se não, por quê. Nenhum efeito foi conferido por humano na página do texto (P039). {#tbl-s6-efeitos tbl-colwidths="[14,6,9,10,13,14,24,10]"}
+: Efeitos principais por estudo. g de Hedges alinhado: positivo = *bandwagon*, viabilidade, *momentum* a favor ou mobilização. EP = erro-padrão. NR = não calculado ou não relatado; nulo por ±δ = IC 95% inteiro dentro de ±δ. "Na contagem?" diz se o efeito entra no teste de sinal da síntese principal e, se não, por quê. Os 560 efeitos extraídos, estes entre eles, foram conferidos pelo autor na página do texto, em bloco (Emenda 7). {#tbl-s6-efeitos tbl-colwidths="[14,6,9,10,13,14,24,10]"}
 
 :::
 
-# S7 Efeitos fora da contagem {#s7-fora-da-contagem .unnumbered}
+## Efeitos fora da contagem {.unnumbered}
 
 Efeitos principais que não estimam o contraste da exposição e, por isso, ficaram fora do teste de sinal. Eles entram só na leitura de mecanismos e moderadores e na análise de sensibilidade com os efeitos excluídos.
 
@@ -387,7 +388,7 @@ Efeitos principais que não estimam o contraste da exposição e, por isso, fica
 | @Gandhi2019 | E01 | apoio | −0,99 (0,181) | interação tripla: diferença de efeito entre apoiadores (moderador não atribuído) |
 | @Gandhi2019 | E03 | apoio | −0,37 (0,166) | idem à linha anterior |
 | @Gasperoni2015a | E01 | apoio | 10,11 p.p.; sinal por efeito em p.p. | troca para o segundo preferido com alvos agregados (líder no Grupo 1, segundo viável no Grupo 2) |
-| @Geers2018 | E01 | mobilização | β = −30,835 | conferência humana pendente (o motivo anterior, β implausível, partia de leitura errada do DP; ver 08-revisao-humana/efeitos/pontos_para_o_revisor.md) |
+| @Geers2018 | E01 | mobilização | β = −30,835 | fora da contagem, mantido pelo autor na conferência em bloco (Emenda 7; o motivo anterior, β implausível, partia de leitura errada do DP) |
 | @Geers2018 | E02 | mobilização | β = −5,675 | idem à linha anterior (E02 passou a principal na arbitragem; mesmo tratamento que E01) |
 | @Klor2017a | E01 | apoio | β = 0,305 | coeficiente de pertencer ao time maior sobre a decisão de votar (não é apoio ao líder nem contraste de exposição) |
 | @Lago2015 | E01 | apoio | 0,03 (0,016) | interação dias de proibição × ENEP (moderador contínuo não atribuído) |
@@ -398,9 +399,9 @@ Efeitos principais que não estimam o contraste da exposição e, por isso, fica
 
 :::
 
-# S8 Agrupamento amplo e análises de sensibilidade {#s8-sensibilidades .unnumbered}
+# Apêndice F. Agrupamento amplo e análises de sensibilidade {#ap-f-sensibilidades .unnumbered}
 
-O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal. Os valores de p vêm de teste de sinal em agrupamentos *post hoc*: indicam só que a proporção numa direção difere de metade, não informam a magnitude nem distinguem estudos grandes de pequenos, e não definem rótulo.
+O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal. Os valores de p vêm de teste de sinal em agrupamentos *post hoc*: medem só o quanto a proporção numa direção se afasta de metade e não informam a magnitude nem distinguem estudos grandes de pequenos. A certeza do agrupamento amplo foi julgada só por IA, sem validação humana.
 
 ::: {.tabela-larga}
 
@@ -457,274 +458,28 @@ O agrupamento amplo junta formatos de exposição e comparadores que o protocolo
 | agrupamento amplo, *post hoc*; mobilização (mobilização); vários; não randomizado | @Klor2017a; @Stolwijk2019b; @Brugarolas2021; @Morton2015a; @Grillo2024c; @Chatterjee2019a | 3 mobilização; 2 desmobilização; 1 misto (0,60; 0,15 a 0,95) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida baixa) |
 | agrupamento amplo, *post hoc*; mobilização (mobilização); vários; randomizado | @Agranov2017a; @Groer2010a; @Westwood2020a; @Erlich2023; @Gerber2020a | 2 mobilização; 2 desmobilização; 1 nulo (0,50; 0,07 a 0,93) | muito baixa | risco de viés −1; inconsistência −1; indireção −1; imprecisão −1 (partida alta) |
 
-: Resumo dos achados do agrupamento amplo, *post hoc* (GRADE, rascunho de IA não validado). n de cada estudo como nas células do protocolo (artigo, Tabela 2). A certeza qualifica a direção, não a magnitude. Esta análise não aparece no resumo dos achados do artigo. {#tbl-s8-sof-amplo tbl-colwidths="[24,26,20,8,22]"}
+: Resumo dos achados do agrupamento amplo, *post hoc* (GRADE julgado só por IA, sem validação humana). n de cada estudo como nas células do protocolo (artigo, Tabela 2). A certeza qualifica a direção, não a magnitude. Esta análise não aparece no resumo dos achados do artigo. {#tbl-s8-sof-amplo tbl-colwidths="[24,26,20,8,22]"}
 
 :::
 
-# S9 Caixa de ferramentas célula a célula {#s9-caixa .unnumbered}
+# Apêndice G. Uso de IA e lacunas de validação humana {#ap-g-ia .unnumbered}
 
-A caixa de ferramentas no formato OQF, célula a célula e no painel por formato de exposição e desfecho. O rótulo segue a regra `caixa-3`, e a certeza é a GRADE da célula.
+A tabela abaixo mostra, por etapa da síntese, quem executou e com que modelo, a concordância medida entre agentes de IA, a conferência humana e a pendência de validação que segue aberta. "Em bloco" se refere à declaração do autor de 30/09/2026, transcrita pelo coordenador de IA, sem registro da conferência item a item. A declaração de uso de IA completa, gerada do *log* do projeto, está no pacote de replicação.
 
-::: {.tabela-larga}
-
-| Intervenção | Resultado | Comparador | Desenho | Estudos | Direção (a favor / contra / nulo) | p do teste de sinal | Rótulo | Certeza |
-|---|---|---|---|---|---|---|---|---|
-| Boca de urna | Apoio (a quem aparece à frente) | antes × depois da proibição | não randomizado | 2 (@Morton2015a, @Chatterjee2019a) | 1 / 1 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Apuração parcial oficial | Apoio (a quem aparece à frente) | unidades não expostas | não randomizado | 1 [@Araujo2021a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (*momentum*) | outro | randomizado | 1 [@Meer2015a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (*momentum*) | outro resultado | não randomizado | 1 [@Stolwijk2016a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (*momentum*) | sem pesquisa | randomizado | 1 [@Dahlgaard2016a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | mesmo candidato atrás | randomizado | 4 (@Tal2015a, @Lammers2022a, @Fichnova2015a, @Witsman2016a) | 4 / 0 / 0 | 0,125 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | outro resultado | não randomizado | 1 [@Feltovich2022] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | outro resultado | randomizado | 1 [@Boukouras2020a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (a quem aparece à frente) | sem pesquisa | randomizado | 4 (@Agranov2017a, @Farjam2020a, @Timotei2013a, @Tyszler2015) | 4 / 0 / 0 | 0,125 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (viabilidade) | outro resultado | randomizado | 2 (@Schlegel2023, @Freden2024a) | 1 / 0 / 0 (1 misto) | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Apoio (viabilidade) | sem pesquisa | randomizado | 1 [@Cornejo2023a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Agregador ou projeção | Comparecimento | outro resultado | randomizado | 1 [@Westwood2020a] | 0 / 1 / 0 | 1,000 | Inconclusivo | baixa |
-| Boca de urna | Comparecimento | antes × depois da proibição | não randomizado | 2 (@Morton2015a, @Chatterjee2019a) | 0 / 1 / 0 (1 misto) | 1,000 | Inconclusivo | muito baixa |
-| Boca de urna | Comparecimento | outro resultado | não randomizado | 1 [@Grillo2024c] | 0 / 1 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Comparecimento | outro resultado | randomizado | 1 [@Gerber2020a] | 0 / 0 / 1 | não se aplica | Inconclusivo | moderada |
-| Pesquisa pré-eleitoral | Comparecimento | sem pesquisa | não randomizado | 1 [@Klor2017a] | 1 / 0 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Comparecimento | sem pesquisa | randomizado | 3 (@Agranov2017a, @Groer2010a, @Erlich2023) | 2 / 1 / 0 | 1,000 | Inconclusivo | muito baixa |
-| Pesquisa pré-eleitoral | Comparecimento | unidades não expostas | não randomizado | 2 (@Stolwijk2019b, @Brugarolas2021) | 2 / 0 / 0 | 0,500 | Inconclusivo | baixa |
-
-: Caixa de ferramentas célula a célula. Direção: estudos a favor (*bandwagon*, viabilidade, *momentum* a favor ou mobilização), contra e nulos. Rótulo pela regra `caixa-3`, calculado no nível formato de exposição × desfecho × desenho e repetido em cada célula; certeza GRADE sobre a direção, rascunho de IA não validado. {#tbl-s9-celulas tbl-colwidths="[12,14,11,9,20,12,7,8,7]"}
-
-:::
-
-| Intervenção | Resultado | Rótulo | Força | Certeza | Estudos |
-|---|---|---|---|---|---|
-| Agregador ou projeção | Comparecimento | Inconclusivo | fraca | baixa | 1 |
-| Boca de urna | Apoio | Inconclusivo | insuficiente | muito baixa | 2 |
-| Boca de urna | Comparecimento | Inconclusivo | insuficiente | muito baixa | 3 |
-| Apuração parcial oficial | Apoio | Inconclusivo | insuficiente | muito baixa | 1 |
-| Pesquisa pré-eleitoral | Apoio | Inconclusivo | insuficiente | muito baixa | 16 |
-| Pesquisa pré-eleitoral | Comparecimento | Inconclusivo | fraca | moderada | 7 |
-
-: Painel OQF por formato de exposição e desfecho: rótulo e força pela regra `caixa-3`, como saíram da ferramenta da caixa; certeza GRADE (a maior entre as células do painel) e número de estudos (união das células) refeitos a partir das 18 células, porque a ferramenta leu uma só célula por formato × desfecho × desenho. Com todas as células, o rótulo segue Inconclusivo em todas as linhas; a força da linha de pesquisa pré-eleitoral × comparecimento foi calculada pela ferramenta com certeza baixa e depende da revisão da caixa (P042). {#tbl-s9-painel}
-
-# S10 Estudos da região e efeitos de viabilidade e *momentum* {#s10-regional .unnumbered}
-
-Os estudos com alguma ligação com o Brasil ou a América Latina e os efeitos principais de viabilidade e de *momentum*, que o artigo trata como achados secundários.
-
-::: {.tabela-larga}
-
-| Estudo | País e eleição | Exposição | Efeito principal, g (EP) | Risco de viés; certeza da célula |
+| Etapa | Quem executou (modelo) | Concordância entre agentes de IA | Conferência humana | Pendência aberta |
 |---|---|---|---|---|
-| @Araujo2021a | Brasil; ano da eleição codificado: 2018 | apuração parcial oficial | E01: 0,13 (0,003) (5,69 p.p.); E06: 0,26 (0,003) (11,76 p.p.) | ROBINS-I: grave; certeza: muito baixa |
-| @Cornejo2023a | México; ano da eleição codificado: 2015 | pesquisa pré-eleitoral | E05: 0,19 (0,105) | RoB 2: algumas preocupações; certeza: muito baixa |
-| @Lago2015 | 46 países, entre eles o Brasil; ano da eleição codificado: 2013 | pesquisa pré-eleitoral | E01: 0,03 (0,016) | ROBINS-I: grave; certeza: sem certeza atribuída; fora da contagem principal: interação dias de proibição × ENEP (moderador contínuo não atribuído) |
+| Busca | Coordenador de IA (`claude-opus-5-5`); âncoras por subagente isolado; pré-revisão PRESS da estratégia ativa por `claude-opus-5-5` | Não se aplica (um agente por tarefa). *Recall* das âncoras de 19 de 19 na versão final da estratégia em inglês, não independente | Em bloco pelo autor: conferência da pré-revisão PRESS por IA, com as lacunas declaradas; não é revisão PRESS independente | nenhuma |
+| Deduplicação | *Script* da ferramenta de revisão (46 e 4 duplicatas removidas); sugestão por agente de IA nos 145 pares incertos | Não se aplica | Em bloco pelo autor: concordou com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar); decisões gravadas e não aplicadas; aplicá-las não mudaria os estudos incluídos | P019 |
+| Triagem de títulos e resumos | `claude-sonnet-5` (A) e `claude-opus-5` (B), independentes, pela regra liberal; na triagem complementar dos 336 registros sem resumo (Emenda 6b), `claude-sonnet-5` (A) e `claude-opus-5-5` (B) | A × B na primeira onda: 0,97 (κ 0,90; PABAK 0,94), sem IC; *recall* não calculado | Em bloco pelo autor: 81 divergências mantidas no texto completo pela regra liberal. Validação cega não realizada (amostras de 141 e 300 registros). Triagem complementar: conferência dispensada pelo autor | P006, P007, P008 |
+| Elegibilidade no texto completo | Um subagente por PDF (`claude-opus-5`; `claude-opus-5-5` depois da Emenda 6b), com trecho conferido por *script* | Sem dupla nem medida de concordância | Em bloco pelo autor: 165 propostas mantidas e 3 extensões de regra endossadas; item a item nos 16 casos limítrofes, decididos por ele | nenhuma |
+| Extração e efeitos | Um subagente `claude-opus-5` por texto, depois de um piloto de 3 estudos; reextração cega e arbitragem dos efeitos principais por `claude-opus-5-5` | Nos 56 efeitos principais de então, 15 concordaram, 23 tinham o mesmo valor com outra classificação, 12 outro valor e 6 outro sinal; 772 correções, 240 estendidas sem nova arbitragem | Em bloco pelo autor: os 560 efeitos, conferidos na página do PDF, e o piloto, mantidos | nenhuma |
+| Recodificação cega da extração | `claude-sonnet-5`, em 10 estudos sorteados | 58,5% em 560 comparações; 37 variáveis abaixo do limiar (κ ou PABAK de pelo menos 0,7 e 80%); contingência não acionada | Em bloco pelo autor: 259 divergências resolvidas com o valor original | nenhuma |
+| Risco de viés | Avaliadores `claude-opus-5-5` (A) e `claude-sonnet-5` (B), independentes; árbitro `claude-opus-5-5`, escolhido pelo autor por custo | Consenso automático em 171 dos 259 domínios; nos 88 arbitrados, o árbitro seguiu A em 79 | Não realizada | P033 |
+| Certeza da evidência (GRADE) | Um subagente `claude-opus-5-5`, sem segundo avaliador | Não se aplica (um só avaliador) | Não realizada | P035, P036, P042 |
+| Relato | Subagentes `claude-opus-5-5` e `claude-sonnet-5`, com números conferidos por programa | Não se aplica; verificação e leituras críticas por IA não validam o conteúdo | Em bloco pelo autor, na versão de 24/09/2026 (declaração de 30/09/2026); esta versão, que a reescreve sem mudar a análise, foi lida e aprovada por ele antes da entrega (G9) | nenhuma |
 
-: Estudos codificados com região Brasil ou América Latina no fichamento. @Lago2015 é um corte transversal de 46 países, entre eles o Brasil. {#tbl-s10-regional tbl-colwidths="[13,20,14,23,30]"}
+: Uso de IA e conferência humana por etapa da síntese. Em bloco pelo autor: em 30/09/2026, o autor declarou ter revisto a etapa e concordado com as decisões em vigor, sem registrar a conferência item a item; a declaração foi transcrita pelo coordenador de IA (Emenda 7). A concordância entre agentes de IA mede consistência, e não acurácia, e não vale como validação. Pendência aberta: tarefa de validação humana registrada e não concluída. {#tbl-lacunas tbl-colwidths="[13,23,23,29,12]"}
 
-:::
+## Agentes desta versão {.unnumbered}
 
-::: {.tabela-larga}
-
-| Estudo | Efeito | Célula | Alvo | Comparador | Classe | g (EP) | Direção do estudo | Risco de viés | Certeza da célula |
-|---|---|---|---|---|---|---|---|---|---|
-| @Alabrese2024a | E126 | viabilidade | segundo viável | outro resultado | não randomizado | −1,06 (0,668) | NR | grave | fora da contagem principal (sem certeza) |
-| @Alabrese2024a | E127 | viabilidade | segundo viável | outro resultado | não randomizado | 5,99 (0,770) | NR | grave | fora da contagem principal (sem certeza) |
-| @Cornejo2023a | E05 | viabilidade | segundo viável | sem pesquisa | randomizado | 0,19 (0,105) | viabilidade | algumas preocupações | muito baixa |
-| @Freden2024a | E01 | viabilidade | partido perto da cláusula | outro resultado | randomizado | −0,41 (0,178) | misto | algumas preocupações | muito baixa |
-| @Freden2024a | E04 | viabilidade | partido perto da cláusula | outro resultado | randomizado | −0,19 (0,179) | misto | algumas preocupações | muito baixa |
-| @Freden2024a | E07 | viabilidade | partido perto da cláusula | outro resultado | randomizado | 0,04 (0,130) | misto | algumas preocupações | muito baixa |
-| @Lago2015 | E01 | viabilidade | terceiro inviável | unidades não expostas | não randomizado | 0,03 (0,016) | NR | grave | fora da contagem principal (sem certeza) |
-| @Schlegel2023 | E01 | viabilidade | segundo viável | outro resultado | randomizado | NR | viabilidade | algumas preocupações | muito baixa |
-| @Schlegel2023 | E02 | viabilidade | segundo viável | outro resultado | randomizado | NR | viabilidade | algumas preocupações | muito baixa |
-| @Dahlgaard2016a | E01 | *momentum* | não se aplica | sem pesquisa | randomizado | 0,12 (0,080) | a favor | algumas preocupações | muito baixa |
-| @Meer2015a | E01 | *momentum* | não se aplica | outro | randomizado | 0,13 (0,072) | a favor | algumas preocupações | muito baixa |
-| @Stolwijk2016a | E01 | *momentum* | não se aplica | outro resultado | não randomizado | NR | a favor | grave | muito baixa |
-| @Unkelbach2022a | E01 | *momentum* | não se aplica | outro resultado | não randomizado | 0,02 (0,021) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E02 | *momentum* | não se aplica | outro resultado | não randomizado | 0,06 (0,023) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E03 | *momentum* | não se aplica | outro resultado | não randomizado | 0,01 (0,039) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E04 | *momentum* | não se aplica | outro resultado | não randomizado | 0,02 (0,021) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E05 | *momentum* | não se aplica | outro resultado | não randomizado | 0,05 (0,036) | a favor | crítico | fora da análise principal (risco crítico) |
-| @Unkelbach2022a | E06 | *momentum* | não se aplica | outro resultado | não randomizado | −0,04 (0,038) | a favor | crítico | fora da análise principal (risco crítico) |
-
-: Efeitos principais de viabilidade e de *momentum*. Positivo = mais apoio à opção mostrada como viável, menos à mostrada como inviável ou abaixo da cláusula, ou mais apoio ao partido mostrado ganhando apoio. Direção do estudo na síntese principal (NR quando o estudo não entra nela). {#tbl-s10-viabilidade tbl-colwidths="[13,5,9,11,11,9,11,9,10,12]"}
-
-:::
-
-# S11 Listas de conferência {#s11-checklists .unnumbered}
-
-As listas do PRISMA 2020, com os 12 itens do resumo, do PRISMA-S, do SWiM e do PRISMA-trAIce dão, para cada item, o local no artigo ou neste suplemento e a situação do relato, que diz se o item está no texto, e não se a revisão o cumpre bem.
-
-::: {.tabela-larga}
-
-| Item | Onde no artigo | Situação | Observação |
-|---|---|---|---|
-| **1** Título: identificar o relato como revisão sistemática. | [Título e subtítulo](revisao.html) | relatado | O subtítulo diz que é uma revisão sistemática rápida, conduzida por agentes de IA e não validada. |
-| **2** Resumo: resumo estruturado, conforme o PRISMA 2020 para resumos. | [Resumo](revisao.html#resumo) e [Abstract](revisao.html#abstract) | parcial | Dois dos 12 itens do resumo saem em parte, o total de participantes e as implicações (tabela seguinte). |
-| **3** Justificativa: por que a revisão é necessária diante do que já se sabe. | [O problema e o debate brasileiro (seção 1.1)](revisao.html#sec-problema); [Por que esta revisão (seção 1.3)](revisao.html#sec-por-que) | relatado | n.a. |
-| **4** Objetivos: pergunta ou objetivos explícitos. | [Objetivos (seção 1.4)](revisao.html#sec-objetivos); [Quadro 2](revisao.html#qdr-picoc) | relatado | Pergunta principal do protocolo citada literalmente, com as secundárias. |
-| **5** Critérios de elegibilidade e agrupamento dos estudos para as sínteses. | [Critérios de elegibilidade (seção 2.2)](revisao.html#sec-elegibilidade); [Quadro 2](revisao.html#qdr-picoc); [Síntese (seção 2.7)](revisao.html#sec-sintese) | relatado | O agrupamento em células está na seção 2.7; o alvo do efeito entrou nas células depois de ver os dados (Emenda 5). |
-| **6** Fontes de informação, com a data da última consulta a cada uma. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca) | relatado | OpenAlex, BDTD e busca por citação, com a data de cada estratégia; o texto diz também o que não foi consultado (outras bases, SciELO, literatura cinzenta e registros de estudos). |
-| **7** Estratégia de busca completa de cada base, com filtros e limites. | [S1 Estratégias de busca](suplemento.html#s1-busca); [Fontes e busca (seção 2.3)](revisao.html#sec-busca) | relatado | Estratégias como executadas, com campos, limites, data e registros. |
-| **8** Processo de seleção: quantos revisores, se independentes e que ferramentas de automação. | [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao); [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia) | parcial | Triagem por dois agentes de IA independentes, com os modelos nomeados; no texto completo, o modelo do agente não é nomeado. Nenhuma pessoa triou, e a validação humana está pendente (P006, P007, P020 e P041). |
-| **9** Processo de coleta de dados: quantos revisores, independência, contato com autores e automação. | [Extração (seção 2.5)](revisao.html#sec-extracao) | relatado | Um agente de IA por texto, recodificação cega de 10 estudos e reextração cega com arbitragem por IA, com os modelos nomeados; sem contato com autores (atalho A5). Conferência humana pendente (P037 e P039). |
-| **10a** Itens de dados: desfechos buscados e se todos os resultados compatíveis foram coletados. | [Quadro 2](revisao.html#qdr-picoc); [Extração (seção 2.5)](revisao.html#sec-extracao); [Quadro 1](revisao.html#qdr-glossario) | parcial | Desfechos definidos no PICOC e regra do modelo principal relatada; o texto não diz se todas as medidas, momentos e análises de cada estudo foram coletados. |
-| **10b** Itens de dados: demais variáveis e pressupostos para informação ausente ou pouco clara. | [Extração (seção 2.5)](revisao.html#sec-extracao); [Tabela 1](revisao.html#tbl-caracteristicas); [S4 Características dos estudos incluídos](suplemento.html#s4-caracteristicas) | parcial | As variáveis aparecem nos resultados, sem lista nem definição nos métodos, e o *codebook* não é público; os pressupostos relatados são os das conversões e do ICC imputado. |
-| **11** Avaliação do risco de viés: ferramentas, quantos revisores, independência e automação. | [Risco de viés (seção 2.6)](revisao.html#sec-rob-metodos) | relatado | RoB 2, ROBINS-I V2 e EPOC; dois avaliadores de IA independentes e um árbitro do mesmo modelo do avaliador A. Validação humana pendente (P033). |
-| **12** Medidas de efeito de cada desfecho. | [Extração (seção 2.5)](revisao.html#sec-extracao); [Síntese (seção 2.7)](revisao.html#sec-sintese) | relatado | g de Hedges alinhado pelo alvo, direção da estimativa pontual e proporção de estudos na direção positiva por célula. |
-| **13a** Métodos de síntese: como se decidiu que estudos entram em cada síntese. | [Síntese (seção 2.7)](revisao.html#sec-sintese); [S7 Efeitos fora da contagem](suplemento.html#s7-fora-da-contagem) | relatado | Células, classes de desenho, risco crítico fora e lista de efeitos fora da contagem, parte decidida depois de ver os dados (Emenda 5). Relatado pelo SWiM, itens 1 e 4. |
-| **13b** Métodos de síntese: preparação dos dados, estatísticas ausentes e conversões. | [Extração (seção 2.5)](revisao.html#sec-extracao); [Síntese (seção 2.7)](revisao.html#sec-sintese) | relatado | Conversões pelo log da razão de chances, efeitos só pela direção quando faltou estatística, ICC imputado e sinal reorientado nas proibições. |
-| **13c** Métodos de síntese: tabulação e exibição gráfica dos resultados. | [Síntese (seção 2.7)](revisao.html#sec-sintese); [Visão geral da síntese (seção 3.3)](revisao.html#sec-efeito) | relatado | Resumo dos achados por célula, proporção por célula e gráfico de direção por estudo, com a ordem dos estudos dita na legenda da Figura 5. |
-| **13d** Métodos de síntese e justificativa; em meta-análise, modelo, heterogeneidade e *software*. | [Síntese (seção 2.7)](revisao.html#sec-sintese) | relatado | Sem meta-análise principal: contagem pela direção, proporção com IC de Clopper-Pearson e teste de sinal (SWiM, item 3). Nas metas exploratórias, modelo, estimadores e pacotes com versão; a versão do R depende do autor. |
-| **13e** Métodos de síntese: exploração das causas de heterogeneidade. | [Síntese (seção 2.7)](revisao.html#sec-sintese) | relatado | Nenhuma célula teve estudos suficientes por nível de moderador; a comparação foi descritiva, e subgrupos e meta-regressão planejados não foram feitos. |
-| **13f** Métodos de síntese: análises de sensibilidade. | [Síntese (seção 2.7)](revisao.html#sec-sintese) | relatado | Parte das sensibilidades é *post hoc*, no agrupamento amplo (Emenda 5). |
-| **14** Avaliação do risco de viés por resultados ausentes. | [Síntese (seção 2.7)](revisao.html#sec-sintese); [Certeza da evidência (seção 2.8)](revisao.html#sec-certeza) | relatado | Julgado no domínio de viés de publicação do GRADE; sem teste de assimetria (menos de dez estudos por célula) e sem busca em registros de pré-registro. |
-| **15** Avaliação da certeza da evidência. | [Certeza da evidência (seção 2.8)](revisao.html#sec-certeza) | relatado | GRADE por célula, rascunhado por um só agente de IA, sem segundo avaliador. Validação pendente (P036 e P042). |
-| **16a** Seleção dos estudos: resultado da busca e da seleção, com fluxograma. | [Estudos incluídos (seção 3.1)](revisao.html#sec-incluidos); [Figura 2](revisao.html#fig-prisma) | relatado | O fluxo separa a remoção por *script*, a triagem por IA e os casos decididos pelo autor; os pares de duplicata ainda sem decisão podem mudar as contagens (P019). |
-| **16b** Seleção dos estudos: estudos que pareciam elegíveis e foram excluídos, com o motivo. | [Estudos incluídos (seção 3.1)](revisao.html#sec-incluidos); [S4 Características dos estudos incluídos](suplemento.html#s4-caracteristicas) | relatado | Lista com o critério e quem decidiu no suplemento; as exclusões propostas pela IA aguardam conferência (P041). |
-| **17** Características dos estudos: citar cada estudo incluído e suas características. | [Estudos incluídos (seção 3.1)](revisao.html#sec-incluidos); [Tabela 1](revisao.html#tbl-caracteristicas); [S4 Características dos estudos incluídos](suplemento.html#s4-caracteristicas) | relatado | No artigo, as características são agregadas; estudo a estudo, só no suplemento. |
-| **18** Risco de viés de cada estudo incluído. | [Risco de viés nos estudos (seção 3.2)](revisao.html#sec-rob); [Figura 3](revisao.html#fig-rob); [S5 Risco de viés por domínio](suplemento.html#s5-risco-de-vies) | relatado | Domínio a domínio no suplemento; julgamentos de IA não validados (P033). |
-| **19** Resultados de cada estudo: estatísticas por grupo e estimativa de efeito com precisão. | [Figura 5](revisao.html#fig-direcao); [S6 Efeitos principais por estudo](suplemento.html#s6-efeitos); [S7 Efeitos fora da contagem](suplemento.html#s7-fora-da-contagem) | parcial | Só os efeitos principais, com g e EP quando calculáveis e proporções por grupo quando relatadas; os demais efeitos extraídos não são apresentados. Nenhum efeito foi conferido por humano (P039). |
-| **20a** Resultados das sínteses: características e risco de viés dos estudos de cada síntese. | seções 3.4 a 3.7, de [Apoio a quem aparece à frente](revisao.html#sec-apoio) a [Comparecimento](revisao.html#sec-comparecimento); [Tabela 2](revisao.html#tbl-sof) | relatado | Um parágrafo por célula, com desenho, contexto e risco de viés dos estudos. |
-| **20b** Resultados das sínteses; em meta-análise, estimativa, precisão e heterogeneidade. | [Visão geral da síntese (seção 3.3)](revisao.html#sec-efeito); seções 3.4 a 3.7, de [Apoio a quem aparece à frente](revisao.html#sec-apoio) a [Comparecimento](revisao.html#sec-comparecimento); [Tabela 2](revisao.html#tbl-sof); [Figura 4](revisao.html#fig-celulas); [Figura 6](revisao.html#fig-metas) | relatado | Sem meta-análise principal: proporção com IC e teste de sinal por célula; nas metas exploratórias, estimativa, IC e heterogeneidade, esta sem interpretação com menos de 5 estudos. |
-| **20c** Resultados das investigações de causas de heterogeneidade. | [Mecanismos (seção 3.9)](revisao.html#sec-mecanismo); [Moderadores (seção 3.10)](revisao.html#sec-moderadores); [Tabela 3](revisao.html#tbl-hipoteses); [Figura 7](revisao.html#fig-realismo) | relatado | Comparações descritivas, sem teste formal. |
-| **20d** Resultados das análises de sensibilidade. | [Sensibilidades e viés de relato (seção 3.8)](revisao.html#sec-sensibilidades); [S8 Agrupamento amplo e sensibilidades](suplemento.html#s8-sensibilidades) | relatado | Nenhuma sensibilidade tem GRADE próprio. |
-| **21** Risco de viés por resultados ausentes em cada síntese. | [Sensibilidades e viés de relato (seção 3.8)](revisao.html#sec-sensibilidades); [Tabela 2](revisao.html#tbl-sof), notas | relatado | Rebaixamento por viés de publicação nas duas células randomizadas de apoio e no agrupamento amplo randomizado; nas demais, a suspeita fica em aberto pela limitação de fontes. |
-| **22** Certeza da evidência de cada desfecho. | [Tabela 2](revisao.html#tbl-sof); parágrafo de cada célula, seções 3.4 a 3.7, de [Apoio a quem aparece à frente](revisao.html#sec-apoio) a [Comparecimento](revisao.html#sec-comparecimento) | relatado | Rascunho de IA não validado (P036 e P042). |
-| **23a** Discussão: interpretação geral à luz de outras evidências. | [Resumo dos achados (seção 4.1)](revisao.html#sec-achados); [Relação com revisões anteriores (seção 4.2)](revisao.html#sec-revisoes-anteriores) | relatado | n.a. |
-| **23b** Discussão: limitações da evidência incluída. | [Completude, aplicabilidade e limitações da evidência (seção 4.3)](revisao.html#sec-limitacoes-evidencia) | relatado | n.a. |
-| **23c** Discussão: limitações dos processos da revisão. | [Limitações do processo e da síntese (seção 4.4)](revisao.html#sec-limitacoes-processo) | relatado | Em subseção separada das limitações da evidência, etapa por etapa. |
-| **23d** Discussão: implicações para a prática, a política e a pesquisa. | [Da evidência à prática: implicações (seção 5)](revisao.html#sec-pratica) | relatado | Caixa de ferramentas, debate brasileiro e implicações para a pesquisa. |
-| **24a** Registro: nome e número do registro, ou declaração de que não houve. | [Informações adicionais](revisao.html#informacoes-adicionais), "Registro e protocolo"; [Resumo](revisao.html#resumo) | relatado | Não houve registro, por decisão do autor. |
-| **24b** Protocolo: onde acessá-lo, ou declaração de que não houve. | [Informações adicionais](revisao.html#informacoes-adicionais), "Registro e protocolo"; [Protocolo, tipo de revisão e desvios (seção 2.1)](revisao.html#sec-protocolo) | parcial | O protocolo existe e foi congelado, mas está no repositório privado, e o leitor não tem acesso a ele. |
-| **24c** Emendas ao registro ou ao protocolo, com justificativa. | [Informações adicionais](revisao.html#informacoes-adicionais), "Diferenças entre protocolo e revisão"; [Protocolo, tipo de revisão e desvios (seção 2.1)](revisao.html#sec-protocolo); [S3 Emendas e desvios do protocolo](suplemento.html#s3-emendas) | relatado | Cada emenda com data, momento (antes ou depois de ver os dados) e motivo. |
-| **25** Apoio financeiro ou não financeiro e papel dos financiadores. | [Informações adicionais](revisao.html#informacoes-adicionais), "Financiamento"; [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia) | parcial | Sem financiamento específico; quem pagou o acesso às ferramentas de IA não está registrado. |
-| **26** Conflitos de interesse dos autores. | [Informações adicionais](revisao.html#informacoes-adicionais), "Conflitos de interesse" | parcial | Depende do autor: a relação com o provedor das ferramentas de IA está marcada para confirmação. |
-| **27** Disponibilidade de dados, código e outros materiais: o que é público e onde. | [Informações adicionais](revisao.html#informacoes-adicionais), "Disponibilidade de dados, código e materiais" | relatado | O texto diz o que é aberto e o que é fechado. Formulários, dados extraídos, dados das análises e código não são públicos, não há identificador persistente, e a licença e as condições de acesso dependem do autor. |
-
-: Lista de conferência do PRISMA 2020 [@Page2021PRISMA; @Page2021PRISMAEE]: 27 itens, com os subitens. Os itens 13 e 20 são relatados também pelo SWiM (quarta tabela desta seção). Todo o texto depende da leitura e da confirmação do autor (P038). Situação: 34 relatados, 8 parciais. {#tbl-s11-prisma2020 tbl-colwidths="[28,28,10,34]"}
-
-:::
-
-::: {.tabela-larga}
-
-| Item | Onde no artigo | Situação | Observação |
-|---|---|---|---|
-| **1** Título: identificar o relato como revisão sistemática. | [Título e subtítulo](revisao.html) | relatado | n.a. |
-| **2** Objetivos: objetivo ou pergunta principal. | [Resumo](revisao.html#resumo), "Objetivos" | relatado | n.a. |
-| **3** Critérios de elegibilidade. | [Resumo](revisao.html#resumo), "Métodos" | relatado | Desenho, exposição e ano de publicação; os desfechos estão no objetivo. |
-| **4** Fontes de informação e data da última busca em cada uma. | [Resumo](revisao.html#resumo), "Métodos" | relatado | OpenAlex, BDTD e busca por citação, com as datas. |
-| **5** Risco de viés: métodos de avaliação. | [Resumo](revisao.html#resumo), "Métodos" | relatado | RoB 2, ROBINS-I V2 e EPOC. |
-| **6** Síntese: métodos para apresentar e sintetizar os resultados. | [Resumo](revisao.html#resumo), "Métodos" | relatado | Contagem da direção por célula (SWiM) e GRADE. |
-| **7** Estudos incluídos: número de estudos e de participantes e características relevantes. | [Resumo](revisao.html#resumo), "Resultados" e "Limitações" | parcial | Dá o número de estudos, os que entram na síntese, as células e a faixa dos n; não há total de participantes, porque os n estão em unidades diferentes. |
-| **8** Síntese dos resultados: desfechos principais, com número de estudos e direção do efeito. | [Resumo](revisao.html#resumo), "Resultados" | relatado | Sem meta-análise principal: direção, proporção com IC e certeza; o número de estudos aparece no apoio, e não no comparecimento. |
-| **9** Limitações da evidência. | [Resumo](revisao.html#resumo), "Limitações" | relatado | Estudos por célula, realismo, risco de viés, falta de validação humana e relatos não recuperados. |
-| **10** Interpretação geral e implicações importantes. | [Resumo](revisao.html#resumo), "Conclusões" | parcial | A interpretação está no resumo; as implicações ficam no [resumo executivo](revisao.html#resumo-executivo) e na seção 5. |
-| **11** Financiamento: fonte principal. | [Resumo](revisao.html#resumo), "Registro e financiamento" | relatado | Sem financiamento. |
-| **12** Registro: nome do registro e número. | [Resumo](revisao.html#resumo), "Registro e financiamento" | relatado | O resumo declara que a revisão não foi registrada. |
-
-: Lista de conferência do PRISMA 2020 para resumos [@Page2021PRISMA], 12 itens, aplicada ao Resumo; o *Abstract*, em inglês, tem a mesma estrutura e o mesmo conteúdo. Situação: 10 relatados, 2 parciais. {#tbl-s11-resumo tbl-colwidths="[28,28,10,34]"}
-
-:::
-
-::: {.tabela-larga}
-
-| Item | Onde no artigo | Situação | Observação |
-|---|---|---|---|
-| **1** Nome de cada base consultada e plataforma de cada uma. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [S1 Estratégias de busca](suplemento.html#s1-busca) | parcial | OpenAlex e BDTD nomeadas, com os campos de busca; o meio de acesso (a interface de programação de cada base) não é dito. |
-| **2** Busca simultânea em várias bases numa mesma plataforma. | n.a. | não se aplica | Cada base foi consultada em separado. |
-| **3** Registros de estudos consultados. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca) | relatado | O texto diz que não houve busca em registros de estudos. |
-| **4** Fontes *online* ou impressas buscadas ou folheadas, e como. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [Completude, aplicabilidade e limitações da evidência (seção 4.3)](revisao.html#sec-limitacoes-evidencia) | relatado | Não houve sites de literatura cinzenta nem leitura de periódicos e anais brasileiros, e o texto diz isso. |
-| **5** Busca por citação: referências citadas ou citantes e método. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [S1 Estratégias de busca](suplemento.html#s1-busca) | relatado | Três rodadas no OpenAlex, para trás e para frente, com o número de sementes; as sementes estão só nos arquivos do projeto. |
-| **6** Contato com autores, especialistas ou outros. | [Extração (seção 2.5)](revisao.html#sec-extracao); [Completude, aplicabilidade e limitações da evidência (seção 4.3)](revisao.html#sec-limitacoes-evidencia) | relatado | Não houve contato com autores (atalho A5) nem consulta a especialistas. |
-| **7** Outras fontes ou métodos de busca. | n.a. | não se aplica | Não houve outros métodos além das bases e da busca por citação. |
-| **8** Estratégias completas, copiadas exatamente como executadas. | [S1 Estratégias de busca](suplemento.html#s1-busca) | relatado | Inclui a estratégia substituída (B01). |
-| **9** Limites e restrições, com justificativa. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [Critérios de elegibilidade (seção 2.2)](revisao.html#sec-elegibilidade); [S1 Estratégias de busca](suplemento.html#s1-busca) | parcial | No OpenAlex, ano de publicação desde 2008; na BDTD, sem limite; o corte em 2010 veio depois, por *script*, e não houve limite de idioma. O próprio texto diz que o protocolo não argumentou o corte, e a margem de 2008 não é explicada. |
-| **10** Filtros de busca publicados. | n.a. | não relatado | As estratégias do suplemento não trazem filtro publicado, mas o texto não diz isso. |
-| **11** Estratégias de revisões anteriores reaproveitadas. | n.a. | não relatado | O texto não diz se alguma estratégia de outra revisão foi adaptada. |
-| **12** Métodos de atualização da busca. | n.a. | não se aplica | A busca não foi atualizada depois de 19/09/2026, nas bases, e de 20/09/2026, na busca por citação. |
-| **13** Data da última busca de cada estratégia. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [S1 Estratégias de busca](suplemento.html#s1-busca) | relatado | n.a. |
-| **14** Revisão da estratégia de busca por outro especialista (PRESS). | [Protocolo, tipo de revisão e desvios (seção 2.1)](revisao.html#sec-protocolo); [Fontes e busca (seção 2.3)](revisao.html#sec-busca) | relatado | Só revisão PRESS por agente de IA (atalho A4), com lacunas não corrigidas; sem revisão humana (P001). |
-| **15** Total de registros de cada base e de outras fontes. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [Estudos incluídos (seção 3.1)](revisao.html#sec-incluidos); [Figura 2](revisao.html#fig-prisma); [S1 Estratégias de busca](suplemento.html#s1-busca) | relatado | Por estratégia e por rodada da busca por citação. |
-| **16** Processo e *software* de deduplicação. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao) | parcial | Deduplicação pela ferramenta de revisão, com os pares incertos ainda sem decisão (P019); a regra de comparação dos registros não é descrita. |
-
-: Lista de conferência do PRISMA-S [@Rethlefsen2021PRISMAS], 16 itens sobre o relato da busca. Situação: 8 relatados, 3 parciais, 3 não se aplicam, 2 não relatados. {#tbl-s11-prisma-s tbl-colwidths="[28,28,10,34]"}
-
-:::
-
-::: {.tabela-larga}
-
-| Item | Onde no artigo | Situação | Observação |
-|---|---|---|---|
-| **1a** Agrupamento: grupos de estudos usados na síntese e sua justificativa. | [Síntese (seção 2.7)](revisao.html#sec-sintese); [Como a exposição poderia agir (seção 1.2)](revisao.html#sec-como-agiria); [Quadro 1](revisao.html#qdr-glossario) | relatado | Célula = formato de exposição × desfecho × comparador × alvo × classe de desenho, derivada do PICOC e do modelo lógico. |
-| **1b** Agrupamento: mudanças depois do protocolo, com justificativa. | [Protocolo, tipo de revisão e desvios (seção 2.1)](revisao.html#sec-protocolo); [Síntese (seção 2.7)](revisao.html#sec-sintese); [Informações adicionais](revisao.html#informacoes-adicionais), "Diferenças entre protocolo e revisão"; [S3 Emendas e desvios do protocolo](suplemento.html#s3-emendas) | relatado | Alvo do efeito e *momentum* (Emendas 4b e 5) e agrupamento amplo só descritivo, decididos depois de ver os dados. |
-| **2** Métrica padronizada: qual, por que e como os efeitos foram transformados. | [Extração (seção 2.5)](revisao.html#sec-extracao); [Síntese (seção 2.7)](revisao.html#sec-sintese) | parcial | g de Hedges e fórmulas de conversão relatados; o texto não diz por que o g foi escolhido nem cita a orientação metodológica das conversões. |
-| **3** Métodos de síntese sem meta-análise e sua justificativa. | [Síntese (seção 2.7)](revisao.html#sec-sintese) | relatado | Contagem pela direção da estimativa pontual, proporção com IC de Clopper-Pearson e teste de sinal, com o que o método responde e o que não responde. |
-| **4** Critérios para priorizar estudos na síntese principal. | [Síntese (seção 2.7)](revisao.html#sec-sintese); [Risco de viés (seção 2.6)](revisao.html#sec-rob-metodos) | relatado | Randomizados e não randomizados separados, risco crítico fora e efeitos que não estimam o contraste da exposição fora da contagem. |
-| **5** Heterogeneidade: métodos para examiná-la sem meta-análise. | [Síntese (seção 2.7)](revisao.html#sec-sintese); [Moderadores (seção 3.10)](revisao.html#sec-moderadores) | relatado | Comparação descritiva por moderador, porque nenhuma célula teve estudos suficientes por nível. |
-| **6** Certeza dos achados da síntese: métodos. | [Certeza da evidência (seção 2.8)](revisao.html#sec-certeza) | relatado | GRADE com domínios adaptados para síntese sem meta-análise. |
-| **7** Apresentação: métodos gráficos e tabulares e características usadas para ordenar os estudos. | [Síntese (seção 2.7)](revisao.html#sec-sintese); [Visão geral da síntese (seção 3.3)](revisao.html#sec-efeito); [Figura 5](revisao.html#fig-direcao) | relatado | Gráfico de direção ordenado por célula, desenho e risco de viés, com símbolo de tamanho constante, desvio declarado. |
-| **8** Resultados: achado de cada comparação e desfecho, com a certeza e os estudos que contribuem. | seções 3.4 a 3.7, de [Apoio a quem aparece à frente](revisao.html#sec-apoio) a [Comparecimento](revisao.html#sec-comparecimento); [Tabela 2](revisao.html#tbl-sof) | relatado | Um enunciado padronizado por célula, com o k e a certeza. |
-| **9** Limitações dos métodos de síntese e dos agrupamentos. | [Limitações do processo e da síntese (seção 4.4)](revisao.html#sec-limitacoes-processo); [Síntese (seção 2.7)](revisao.html#sec-sintese); [Sensibilidades e viés de relato (seção 3.8)](revisao.html#sec-sensibilidades) | relatado | Teste de sinal sem magnitude e com pouco poder, agrupamentos decididos depois de ver os dados e decisões em aberto que mudariam células. |
-
-: Lista de conferência do SWiM [@Campbell2020SWiM], 9 itens, o primeiro em duas partes; nas sínteses sem meta-análise, ele relata os itens 13 e 20 do PRISMA 2020. Situação: 9 relatados, 1 parcial. {#tbl-s11-swim tbl-colwidths="[28,28,10,34]"}
-
-:::
-
-::: {.tabela-larga}
-
-| Item | Onde no artigo | Situação | Observação |
-|---|---|---|---|
-| **T1** Título: indicar o uso de IA quando ela teve papel substancial. | [Título e subtítulo](revisao.html) | relatado | O subtítulo diz que a revisão foi conduzida por agentes de IA e não foi validada. |
-| **A1** Resumo: ferramentas de IA, etapas em que entraram e papel. | [Resumo](revisao.html#resumo), "Métodos" | parcial | Diz que agentes de IA conduziram as etapas depois do protocolo, sem nomear modelos nem etapas. |
-| **I1** Introdução: por que usar IA em tarefas da revisão. | [Por que esta revisão (seção 1.3)](revisao.html#sec-por-que); [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia) | parcial | A introdução só diz que o texto é rascunho de agentes; a razão, escolha do autor para uma revisão rápida, está nos métodos. |
-| **M1** Protocolo: uso de IA previsto no protocolo e desvios nesse uso. | [Protocolo, tipo de revisão e desvios (seção 2.1)](revisao.html#sec-protocolo); [Informações adicionais](revisao.html#informacoes-adicionais), "Diferenças entre protocolo e revisão"; [S2 Atalhos da revisão rápida](suplemento.html#s2-atalhos); [S3 Emendas e desvios do protocolo](suplemento.html#s3-emendas) | relatado | Atalhos A2 e A4 declarados no protocolo; desvios como a troca do árbitro (Emenda 3), a Emenda 2 decidida pelo coordenador de IA e a triagem por IA dos registros sem resumo (Emenda 6b). |
-| **M2** Identificação e acesso: nome, versão e provedor de cada ferramenta; ferramentas próprias. | [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia); [Informações adicionais](revisao.html#informacoes-adicionais), "Declaração de uso de inteligência artificial" | parcial | Identificadores dos modelos, provedor e Claude Code nomeados; a ferramenta de revisão que coordena os agentes não é pública nem descrita em detalhe. |
-| **M3** Etapa e tarefa de cada ferramenta. | seções 2.3 a 2.9, de [Fontes e busca](revisao.html#sec-busca) a [Uso de IA e supervisão humana](revisao.html#sec-ia) | relatado | Busca (âncoras e PRESS), triagem, elegibilidade, extração, risco de viés, certeza, coordenação e redação; o modelo é nomeado na triagem, na extração, no risco de viés e na certeza. |
-| **M4** Dados de entrada de cada ferramenta. | [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao); [Extração (seção 2.5)](revisao.html#sec-extracao); [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia) | relatado | Títulos e resumos na triagem e um texto completo por agente na elegibilidade e na extração. Nenhum modelo foi ajustado com dados da revisão, e a parte do item sobre treino não se aplica. |
-| **M5** Dados de saída: formato e pós-processamento automático. | [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao); [Extração (seção 2.5)](revisao.html#sec-extracao) | parcial | O texto diz que o trecho literal e a página de cada decisão foram conferidos por *script*, mas não descreve o formato das saídas. |
-| **M6** *Prompts*: texto ou estrutura, parâmetros do modelo e refinamento. | [Informações adicionais](revisao.html#informacoes-adicionais), "Disponibilidade de dados, código e materiais"; [Extração (seção 2.5)](revisao.html#sec-extracao) | parcial | Os *prompts* ficam no repositório privado; estrutura, parâmetros e refinamento não são relatados, e só um erro no *prompt* do árbitro é mencionado. |
-| **M7** Detalhes operacionais de ferramentas de IA que não são modelos de linguagem. | n.a. | não se aplica | Só foram usados modelos de linguagem; deduplicação e filtro de ano foram feitos por *scripts* determinísticos. |
-| **M8** Interação e supervisão humana: quantos revisores, independência, formação, proporção conferida e resolução de divergências. | [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia); [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao); [Apêndice A](revisao.html#sec-pendencias) | parcial | Um só humano, que decidiu emendas e 16 casos limítrofes; nenhuma saída de IA foi conferida por humano, e as divergências foram a um árbitro de IA ou ficaram na fila humana. A formação do autor e a forma como as saídas chegariam a ele não são relatadas. |
-| **M9** Avaliação do desempenho da IA: métodos. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao); [Extração (seção 2.5)](revisao.html#sec-extracao) | relatado | Âncoras na busca, amostras de validação e de elusão na triagem e limiares de concordância na extração; o padrão de referência humano não foi aplicado (P006 e P007). |
-| **M10** Governança dos dados e ética: armazenamento, privacidade, direitos autorais e termos de uso. | [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia); [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao); [Informações adicionais](revisao.html#informacoes-adicionais), "Disponibilidade de dados, código e materiais" | parcial | O texto diz que os termos de retenção do provedor não estão registrados, que os PDFs não são redistribuídos e que nenhum veio de fonte não autorizada; não descreve armazenamento nem privacidade. |
-| **R1** Seleção: separar no fluxo as decisões da IA das humanas. | [Figura 2](revisao.html#fig-prisma); [Estudos incluídos (seção 3.1)](revisao.html#sec-incluidos); [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao) | relatado | O fluxograma e o texto separam a remoção por *script*, a triagem por IA e os casos decididos pelo autor. |
-| **R2** Avaliação do desempenho da IA: resultados. | [Fontes e busca (seção 2.3)](revisao.html#sec-busca); [Seleção dos estudos (seção 2.4)](revisao.html#sec-selecao); [Extração (seção 2.5)](revisao.html#sec-extracao); [Risco de viés nos estudos (seção 3.2)](revisao.html#sec-rob) | relatado | Só concordância entre agentes de IA, que mede consistência e não acurácia; *recall* da triagem não calculado e sem comparação com humano. A recodificação da extração ficou abaixo do limiar do protocolo. |
-| **D1** Limitações do uso de IA e como afetaram a revisão. | [Limitações do processo e da síntese (seção 4.4)](revisao.html#sec-limitacoes-processo); [Informações adicionais](revisao.html#informacoes-adicionais), "Declaração de uso de inteligência artificial" | relatado | Etapa por etapa, com a direção provável de cada viés. |
-| **D2** Implicações do uso de IA: experiência, ganhos e desafios. | [Uso de IA e supervisão humana (seção 2.9)](revisao.html#sec-ia); [Implicações para a pesquisa (seção 5.3)](revisao.html#sec-pesquisa-futura) | parcial | O texto discute o estatuto do produto e pede revisão humana numa atualização, mas não trata de ganhos de eficiência nem da experiência de uso. |
-
-: PRISMA-trAIce, 17 itens, na versão publicada por @Holst2025PRISMAtrAIce, usado só como lista de conferência, sem declaração de conformidade: é uma proposta que o PRISMA Executive não endossa [@Moher2026PRISMAtrAIce], e o livro que orienta esta revisão manda usá-la ao lado dos itens 8, 9 e 11 do PRISMA 2020 [@Lamarca2026Livro]. Situação: 8 relatados, 8 parciais, 1 não se aplica. {#tbl-s11-traice tbl-colwidths="[28,28,10,34]"}
-
-:::
-
-**Agentes de IA desta versão.** A declaração de uso de IA gerada do *log* do projeto, no relatório técnico, não registra os agentes que prepararam esta versão do artigo, porque nenhum comando da ferramenta de revisão foi rodado nela. A tabela abaixo os lista. A coordenação foi de `claude-opus-5-5`, no Claude Code, e todos os subagentes foram Opus ou Sonnet. Nenhum deles leu o PDF de estudo incluído, e nenhum fez análise nova. As leituras de revisões exemplares, de revisões anteriores e de normas brasileiras usaram só fontes abertas e legítimas (PubMed Central, páginas oficiais, repositórios institucionais e, para páginas oficiais do TSE com acesso direto bloqueado, cópias do Internet Archive). Um agente Sonnet, com instruções escritas na própria chamada, conferiu as regras brasileiras do dia da eleição. Nenhuma dessas etapas valida o conteúdo, e o autor ainda não revisou o texto (P038).
-
-::: {.tabela-larga}
-
-| Prompt | Papel | Modelo | SHA256 (início) |
-|---|---|---|---|
-| `prompt_abertura.md` | abertura e resumo em linguagem simples | claude-opus-5-5 | `7801a66645366259…` |
-| `prompt_arquiteto.md` | especificação do artigo (spec_v2.md) | claude-opus-5-5 | `0da27e7c34e5e6a8…` |
-| `prompt_checklists.md` | listas de conferência do suplemento (S11) | claude-opus-5-5 | `a96b1c3f538aee3e…` |
-| `prompt_correcoes_finais.md` | correções finais da verificação e da revisão visual | claude-opus-5-5 | `6a9be5ddb4e3c0ce…` |
-| `prompt_correcoes_tecnicas.md` | correções técnicas da verificação | claude-opus-5-5 | `645f3824b5ae4251…` |
-| `prompt_estilo_v2.md` | passes de voz (my-voice) e anti-IA (tirar-cara-de-ia) | claude-opus-5-5 | `760c329e644ee871…` |
-| `prompt_exemplares.md` | movimentos das revisões exemplares e rubrica | claude-opus-5-5 | `274006471e8e25c8…` |
-| `prompt_figuras.md` | figuras do artigo | claude-opus-5-5 | `818984a268ea136b…` |
-| `prompt_garritty_revisoes.md` | recomendações de Garritty 2024 e revisões anteriores | claude-opus-5-5 | `5b18876801a327b5…` |
-| `prompt_leituras_criticas.md` | leituras críticas simuladas por IA (L1 métodos, L2 ciência política) | claude-opus-5-5 | `6da8e199d6161478…` |
-| `prompt_livro_regras.md` | regras do livro para o relato e auditoria final | claude-opus-5-5 | `941a8c11bb8eb843…` |
-| `prompt_qa_visual_pdf.md` | revisão visual dos PDFs | claude-opus-5-5 (artigo); claude-sonnet-5 (suplemento) | `76c67f287fc828a1…` |
-| `prompt_redator_v2.md` | redação do corpo do artigo | claude-opus-5-5 | `be5fa236142d951c…` |
-| `prompt_referencias_metodo.md` | referências metodológicas conferidas no Crossref | claude-sonnet-5 | `81f91b78d31f70ba…` |
-| `prompt_revisao_pareceres.md` | revisão depois das leituras críticas | claude-opus-5-5 | `9a65800cfbeb77f5…` |
-| `prompt_rubrica.md` | rubrica cega v1 × v2 | claude-opus-5-5 | `b82bd8dd5853d2ba…` |
-| `prompt_tabelas_montagem.md` | referências, tabelas, montagem e suplemento | claude-opus-5-5 | `df7fb46ef385b6da…` |
-| `prompt_travas.md` | travas da reescrita, células e números derivados | claude-opus-5-5 | `8140aba6e7f65bf6…` |
-| `prompt_verificacao_final.md` | verificação final e auditoria | claude-opus-5-5 | `a5a87e7f9e66b318…` |
-| `prompt_verificacao_v2.md` | verificação independente e auditoria | claude-opus-5-5 | `ee55809d49d30c84…` |
-| `prompt_vitrine.md` | vitrine interativa | claude-opus-5-5 | `d97f25516596655a…` |
-
-: Agentes de IA desta versão: *prompt* (guardado no repositório do projeto), papel, modelo e início do SHA256 do *prompt* no commit desta versão. {#tbl-s11-agentes tbl-colwidths="[30,40,15,15]"}
-
-:::
-
-# Referências {#referencias .unnumbered}
-
-::: {#refs}
-:::
+A declaração gerada do *log* não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. A versão de 24/09/2026 foi preparada por agentes coordenados por `claude-opus-5-5`, quase todos `claude-opus-5-5`, com `claude-sonnet-5` nas referências de método e na revisão visual, e a tabela com *prompt*, papel, modelo e início do *hash* de cada um está no pacote de replicação. Esta versão a reescreve, sem mudar a análise, com agentes de IA: (i) um arquiteto, que especificou o texto; (ii) três redatores; (iii) um agente das listas de conferência; (iv) uma verificação independente; e (v) um agente de correções e estilo. Todos são `claude-opus-5-5`, exceto o das listas de conferência, `claude-sonnet-5`. Os *prompts* desses agentes ficam no repositório do projeto, e a tabela desta versão, com modelo e *hash*, está no pacote de replicação. Nenhum desses agentes leu PDF de estudo incluído nem fez análise nova.

@@ -119,7 +119,7 @@ def arquivos():
             add_glob(f"{pasta.relative_to(R)}/**/*")
     add_glob("06-analise/tabelas/*")
     # tabelas que não entram nos apêndices do PDF: estudos da região, viabilidade e listas de conferência (PRISMA
-    # 2020, resumo, PRISMA-S, SWiM, PRISMA-trAIce), na versão de 24/09/2026, com os locais no texto daquela versão
+    # 2020, resumo, PRISMA-S, SWiM, PRISMA-trAIce), com o local de cada item no artigo final e nos apêndices
     for f in ("regional.md", "viabilidade.md"):
         add(f"09-documento-final/insumos/tabelas/{f}", f"tabelas-extras/{f}")
     for p in sorted((R / "09-documento-final/insumos/tabelas").glob("checklist_*.md")):

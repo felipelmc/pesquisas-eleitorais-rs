@@ -36,7 +36,7 @@ A lista está em `07-relatorio/_pendencias_abertas.json`.
 | `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades), metas exploratórias, certeza |
 | `07-relatorio/` | incluídos, contagens e diagrama PRISMA, listas PRISMA e SWiM, declaração de uso de IA gerada do log |
 | `skill-revisao-sistematica/` | cópia dos scripts da skill que rodou a revisão (`rs.py`, `rslib/`, `R/`), com a licença do autor |
-| `tabelas-extras/` | estudos da região e efeitos de viabilidade, e as listas de conferência (PRISMA 2020, resumo, PRISMA-S, SWiM, PRISMA-trAIce) na versão de 24/09/2026, cujos locais apontam para o texto daquela versão |
+| `tabelas-extras/` | estudos da região e efeitos de viabilidade, e as listas de conferência (PRISMA 2020, resumo, PRISMA-S, SWiM, PRISMA-trAIce), com o local de cada item no artigo final e nos apêndices |
 | `MANIFESTO.csv` | caminho, origem, tamanho e SHA256 de cada arquivo |
 
 ## O que se reproduz com este pacote

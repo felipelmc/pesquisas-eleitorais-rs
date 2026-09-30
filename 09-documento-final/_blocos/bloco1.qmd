@@ -1,0 +1,224 @@
+---
+title: "Pesquisas eleitorais publicadas mudam o voto?"
+subtitle: "Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efeitos *bandwagon* e *underdog* e o comparecimento"
+date: 2026-10-01
+keywords:
+  - pesquisas eleitorais
+  - efeito bandwagon
+  - efeito underdog
+  - comparecimento eleitoral
+  - síntese sistemática de evidências
+  - síntese sem meta-análise
+  - GRADE
+  - Brasil
+metadata-files: [revista/_revista.yml]
+bibliography: revista/referencias.json
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-title: "Sumário"
+    number-sections: true
+  typst: default
+---
+
+<!--
+Este esqueleto é a fonte do texto do artigo. O revisao_final.qmd é gerado a partir dele por montar_revisao_final.py,
+que troca cada marcador de figura ou tabela pelo conteúdo gerado dos arquivos do projeto. Não edite o revisao_final.qmd.
+-->
+
+::: {.mensagens-principais}
+# Mensagens principais {#mensagens-principais .unnumbered}
+
+- **Apoio ao líder.** Nas duas maiores células, os 8 experimentos apontaram a favor de quem lidera, mas a evidência é muito incerta ([⊕◯◯◯]{.grade} certeza muito baixa).
+- **Comparecimento.** Receber, por carta, pesquisa que mostra disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 pontos percentuais para mais ou para menos (1 experimento de campo; [⊕⊕⊕◯]{.grade} certeza moderada).
+- **Brasil.** Sem a SciELO na busca, o único estudo brasileiro [@Araujo2021a] trata de apuração parcial, não de pesquisa.
+- **O que não se sabe.** A evidência não diz de quanto é o efeito das pesquisas sobre o voto, e tampouco permite afirmar que elas não têm efeito. Sozinha, a evidência não demonstra que a divulgação de pesquisas muda votos, nem que é inócua.
+- **Como foi feita.** Agentes de IA conduziram as etapas depois do protocolo. O autor conferiu em bloco a busca, a seleção e a extração, e o risco de viés e a certeza da evidência foram julgados só por IA, sem validação humana.
+
+:::
+
+::: {.resumo}
+# Resumo {#resumo .unnumbered}
+
+**Contexto.** Regular pesquisas exige saber se mudam votos.
+
+**Objetivos.** Avaliar se pesquisas publicadas mudam voto ou comparecimento, e em que direção (*bandwagon* ou *underdog*).
+
+**Métodos.** Experimentos, quase-experimentos e painéis desde 2010 sobre pesquisas, projeções, boca de urna ou apuração parcial. Busca no OpenAlex, na BDTD e por citação (19 e 20/09/2026). Risco de viés (RoB 2, ROBINS-I V2, EPOC), direção por célula (SWiM) e GRADE. Agentes de IA conduziram as etapas pós-protocolo; o autor conferiu em bloco busca, seleção e extração.
+
+**Resultados.** Dos 41 estudos, 27 (n de 12 eleitorados a 453.016 seções) formaram 18 células. Nas duas maiores, os 8 experimentos apontaram a favor de quem lidera (proporção 1,00; IC 95% 0,40 a 1,00 em cada), mas a evidência é muito incerta ([⊕◯◯◯]{.grade} certeza muito baixa). Pesquisa apertada, em vez de folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais ([⊕⊕⊕◯]{.grade} certeza moderada). Ter visto pesquisas pode aumentá-lo; projeções longe de 50:50 podem reduzi-lo ([⊕⊕◯◯]{.grade} certeza baixa). O único estudo brasileiro trata de apuração parcial.
+
+**Limitações.** De 1 a 4 estudos por célula, quase só de laboratório e vinheta, todos os experimentos com algumas preocupações ou risco alto de viés; risco de viés e certeza julgados só por IA, e triagem sem validação cega; 342 de 526 relatos não recuperados.
+
+**Conclusões.** Não se sabe se pesquisas mudam o voto, nem em quanto.
+
+**Registro e financiamento.** Não registrada; sem financiamento.
+
+**Palavras-chave:** pesquisas eleitorais; efeito *bandwagon*; efeito *underdog*; comparecimento eleitoral; síntese sistemática de evidências; síntese sem meta-análise; GRADE; Brasil.
+
+:::
+
+::: {.resumo lang="en"}
+# Abstract {#abstract .unnumbered}
+
+**Background.** Regulating poll publication depends on knowing whether polls change votes.
+
+**Objectives.** To assess whether published polls change votes or turnout, and in which direction (bandwagon or underdog).
+
+**Methods.** Experiments, quasi-experiments and panels since 2010 on polls, forecasts, exit polls or partial counts. OpenAlex, BDTD and citation searches, September 2026. Risk of bias (RoB 2, ROBINS-I V2, EPOC), direction counts per cell (SWiM) and GRADE. AI agents conducted the post-protocol stages; the author checked search, selection and extraction en bloc.
+
+**Results.** Of 41 studies, 27 (n from 12 electorates to 453,016 polling stations) formed 18 cells. In each of the two largest, all 4 experiments pointed towards the leader (proportion 1.00; 95% CI 0.40 to 1.00), but we are very uncertain about this effect ([⊕◯◯◯]{.grade} very low certainty). A close rather than a lopsided poll probably does not change turnout by more than 2 percentage points ([⊕⊕⊕◯]{.grade} moderate certainty). Having seen poll releases may increase turnout, and forecasts far from 50:50 may reduce it ([⊕⊕◯◯]{.grade} low certainty). The only Brazilian study concerns partial counts.
+
+**Limitations.** One to four studies per cell, mostly laboratory or vignette studies, every experiment at some concerns or high risk of bias; risk of bias and certainty judged by AI alone; screening without blind validation; 342 of 526 reports not retrieved.
+
+**Conclusions.** Whether polls change votes, and by how much, is unknown.
+
+**Registration and funding.** Not registered; no funding.
+
+**Keywords:** election polls; bandwagon effect; underdog effect; voter turnout; systematic evidence synthesis; synthesis without meta-analysis; GRADE; Brazil.
+
+:::
+
+# Introdução {#sec-introducao}
+
+## O problema e o debate brasileiro {#sec-problema}
+
+Pesquisas eleitorais estão entre as informações mais difundidas de uma campanha. Regular sua divulgação depende de saber se ver uma pesquisa muda o voto de quem a vê e, se muda, a favor de quem lidera ou de quem está atrás.
+
+A Lei das Eleições obriga o registro da pesquisa eleitoral na Justiça Eleitoral até cinco dias antes da divulgação e trata como crime a divulgação de pesquisa fraudulenta [@Brasil1997Lei9504; @TSE2019Res23600]. Não há período de silêncio. O embargo criado pela Lei nº 11.300/2006 foi declarado inconstitucional pelo STF por restringir o direito do eleitor à informação, sem que o efeito das pesquisas sobre o voto entrasse no fundamento [@STF2006ADI3741].
+
+No dia da eleição, a pesquisa de boca de urna, feita no próprio dia (e não o crime eleitoral homônimo), só pode ser divulgada a partir das 17h de Brasília [@TSE2019Res23600]. Desde 2022, a votação termina nesse horário em todo o país, quando começa a divulgação da apuração [@TSE2021Res23669; @TSE2022Divulgacao17h]. Em 2018, a apuração para presidente só começou a ser divulgada às 19h [@TSE2018Totalizacao2Turno].
+
+Depois do primeiro turno de 2022, o PL nº 2.567/2022, na Câmara, propôs tornar crime a publicação de pesquisa que diverge do resultado além da margem de erro [@BrasilCamara2022PL2567], e o PL nº 2.558/2022, no Senado, propôs punir as empresas [@BrasilSenado2022PL2558]. Em 24/09/2026, nenhum dos dois tinha sido votado em plenário.
+
+O debate sobre os "erros das pesquisas" mistura outras duas perguntas, que não são a desta síntese. A primeira é a da precisão, que @Meireles2022, com mais de 2 mil pesquisas de 2012 a 2020, acham comparável à de outros países. A segunda é a da mudança de opinião na reta final, a que @PereiraNunes2024 atribuem parte da distância entre pesquisas e urnas em 2022.
+
+## Como a exposição poderia agir {#sec-como-agiria}
+
+Seguindo @Barnfield2019, o *bandwagon* é a mudança individual do voto ou da decisão de comparecer a favor de quem está mais popular ou ganhando popularidade, motivada por essa popularidade, e o *underdog* é o padrão oposto. O voto estratégico, movido pela viabilidade, pode ser confundido com *bandwagon*, e o efeito "Titanic", a abstenção de quem vê o próprio partido sem chance, também não é *bandwagon*.
+
+No modelo lógico do protocolo (@fig-modelo-logico), a exposição atualiza a percepção de viabilidade (E1), por onde só passa o cálculo estratégico (E2). Heurística de consenso (E3), conformidade (E4), simpatia pelo azarão (E5) e emoções (E6) saem direto da exposição. E2 a E4 levam ao *bandwagon*, E5 ao *underdog*, e E6 tem direção ambígua. O modelo foi proposto por IA e aprovado pelo autor no portão G2.
+
+@@FIGURA modelo_logico@@
+
+No comparecimento, o modelo tem só a complacência e deixa de fora canais que a literatura usa para prever o sinal: (i) a pivotalidade, em que a disputa apertada mobiliza e a folgada desmobiliza; (ii) o efeito "Titanic"; e (iii) a mobilização de quem está atrás. Como esses canais têm sinais opostos conforme o que a pesquisa mostra e o lado do eleitor, a comparação entre ver e não ver pesquisa não tem sinal previsto. Essa falta do modelo é também limitação desta síntese.
+
+No alvo principal, o apoio a quem a pesquisa mostra à frente, o *bandwagon* prevê estimativa positiva, e o *underdog*, negativa. O voto estratégico aparece na viabilidade, mas cai no alvo principal quando a opção viável é o próprio líder, e o *bandwagon* dinâmico aparece no *momentum*. O protocolo registrou ainda três teorias rivais: (i) efeitos que se anulam no agregado; (ii) efeito só sobre a expectativa, e não sobre o voto; e (iii) efeito artefatual, maior em laboratório e vinheta que em eleição real. O @qdr-glossario resume os termos.
+
+::: {#qdr-glossario tbl-colwidths="[24,76]"}
+
+| Termo | Como é usado nesta síntese |
+|------------------------|----------------------------------------------------------------------------|
+| Como ler | A síntese não estima o tamanho do efeito. Ela conta em que direção apontam os estudos de cada célula, e a certeza GRADE qualifica essa direção, e não a magnitude. |
+| Exposição | Contato com resultado de pesquisa eleitoral em quatro formatos: pesquisa pré-eleitoral; agregador ou projeção; pesquisa de boca de urna (levantamento feito no dia da votação, e não o crime eleitoral de mesmo nome) divulgada antes do fechamento das urnas; e, pela Emenda 1, decidida depois de ver o estudo brasileiro, apuração parcial oficial divulgada com a votação em curso. |
+| *Bandwagon* e *underdog* | Na síntese, rótulo operacional da estimativa positiva (*bandwagon*) ou negativa (*underdog*) no apoio a quem a pesquisa mostra à frente, no alvo principal. A direção *bandwagon* é compatível com adesão à maioria (E3, E4) e, quando a opção viável é o líder, com coordenação estratégica (E2); a síntese não separa as duas quando o estudo não tem alvo de viabilidade. |
+| Alvo do efeito | Quinta dimensão da célula, fixada pela Emenda 5 depois de ver os dados. Na tipologia de @Barnfield2019, o alvo principal é conversão estática, o *momentum* é conversão dinâmica e a mobilização é mobilização; a viabilidade corresponde ao voto estratégico. |
+| Viabilidade | Efeito sobre opções mostradas como viáveis ou inviáveis (segundo colocado viável, terceiro sem chance, partido perto da cláusula de barreira). Positivo quer dizer deserção para a opção viável. |
+| *Momentum* | Pesquisa que mostra um partido ganhando ou perdendo apoio sem mostrar sua posição (Emenda 4b). Positivo quer dizer a favor de quem ganha apoio. |
+| Mobilização e desmobilização | Efeito sobre o comparecimento ou a intenção de comparecer. Positivo quer dizer mobilização, e negativo, desmobilização. A teoria prevê os dois sinais, conforme o canal (pivotalidade, complacência, efeito "Titanic"). |
+| Célula | Formato de exposição × desfecho × comparador × alvo × classe de desenho. Estudos randomizados e não randomizados nunca se juntam. |
+| Direção e "x de y" | x estudos na direção positiva entre os y com direção definida. Estudos nulos e mistos ficam fora do denominador. A direção vem da estimativa pontual, nunca da significância. Um estudo com vários efeitos tem direção quando 70% deles apontam para o mesmo lado; se não, é misto. |
+| δ e nulo por ±δ | δ vale 2 pontos percentuais, isto é, 2 em cada 100 eleitores, convertidos em g: 0,044 no apoio, 0,046 no comparecimento e 0,0573 na célula de pesquisa frente a nenhuma pesquisa. Efeito com IC 95% inteiro dentro de ±δ é classificado como nulo por ±δ, regra da Emenda 5, decidida depois de ver os dados. Efeitos menores que δ podem decidir eleições apertadas, e a classificação nada diz sobre eles. |
+| Fora da contagem | Efeitos principais que não estimam o contraste da exposição (interações com moderadores contínuos, contrastes de formato da mesma previsão, alvos opostos somados) ou que ficaram fora num ponto de julgamento da extração, mantido pelo autor. Entram só na narrativa e numa sensibilidade (Apêndice E). |
+| Certeza (GRADE) | ⊕⊕⊕⊕ alta, ⊕⊕⊕◯ moderada, ⊕⊕◯◯ baixa e ⊕◯◯◯ muito baixa, com as frases "provavelmente" (moderada), "pode" (baixa) e "a evidência é muito incerta sobre" (muito baixa). |
+| Estudo e relato | Um estudo pode ter vários relatos (artigo, *working paper*, tese). |
+
+Glossário e como ler esta síntese.
+
+:::
+
+## Por que esta síntese {#sec-por-que}
+
+@Hardmeier2008 é um capítulo de síntese que, sem texto aberto, não verificamos. @MoyRinke2012, numa revisão narrativa sem método de seleção descrito, concluem que a literatura não permitia dizer se o *bandwagon* ou o *underdog* era mais comum. @Barnfield2019 é uma revisão conceitual, e @Cosgun2026, uma revisão sistemática sobre campanhas, numa só base e só em inglês. A checagem de 19/09/2026 (OpenAlex, OSF Registries e BDTD) não achou revisão sistemática ou meta-análise do tema posterior a 2008, nem revisão registrada em andamento.
+
+Esta síntese faz três contribuições: (i) um inventário, com protocolo congelado e busca documentada, da evidência causal publicada desde 2010; (ii) células que nunca juntam sorteio com observação e isolam o *momentum* e a deserção para o segundo colocado viável; e (iii) uma leitura dirigida ao debate brasileiro. Foi conduzida com agentes de IA, e o risco de viés e a certeza não tiveram validação humana (@sec-ia).
+
+## Objetivos {#sec-objetivos}
+
+A pergunta principal do protocolo é: "A exposição a resultados de pesquisas eleitorais publicadas altera a intenção ou a escolha de voto do eleitorado, em comparação com a não exposição ou com a exposição a outro resultado, e em que direção (*bandwagon* ou *underdog*)?" As perguntas secundárias são se ela reduz o comparecimento, por quais mecanismos, para quem, onde e quando, e se os achados diferem entre Brasil e América Latina e as demais regiões.
+
+De forma antecipada, nos experimentos as estimativas apontaram a favor de quem aparece à frente, mas a evidência é muito incerta. Pesquisa apertada, em vez de folgada, provavelmente não muda o comparecimento além de 2 pontos percentuais (certeza moderada). Nesta busca, sem a SciELO, o único estudo brasileiro trata de apuração parcial, e não de pesquisa.
+
+# Métodos {#sec-metodos}
+
+## Protocolo, tipo de síntese e desvios {#sec-protocolo}
+
+O autor aprovou o protocolo no portão G2, em 19/09/2026, e ele foi congelado com *hash* no *log*. Sem registro público anterior à busca, o leitor não confere quando cada decisão foi fixada. Protocolo, emendas e listas de conferência preenchidas estão no pacote de replicação. Trata-se de uma síntese de efetividade sem meta-análise (SWiM), na variante rápida [@Lamarca2026Livro], relatada pelo PRISMA 2020 [@Page2021PRISMA; @Page2021PRISMAEE], pelo PRISMA-S [@Rethlefsen2021PRISMAS] e pelo SWiM [@Campbell2020SWiM], com o PRISMA-trAIce [@Holst2025PRISMAtrAIce] só como lista de conferência.
+
+A variante rápida foi escolha do autor, sem prazo externo nem consulta a *stakeholders*. A diretriz de revisões rápidas [@Garritty2024Rapid] aconselha que elas sejam "led only by experienced systematic reviewers", e esta foi conduzida por agentes. Frente a ela, (i) as fontes restritas (A1) atendem à recomendação 5 só na forma, porque a BDTD é catálogo de teses; (ii) triagem, risco de viés e certeza só por agentes (A2) não correspondem a atalho aceito, porque as recomendações 9, 16 e 23 pedem uma segunda pessoa; e (iii) a pré-revisão PRESS por IA (A4), conferida pelo autor, atende à recomendação 6 só na forma mínima (Apêndice B).
+
+As contingências E001 e E002 foram acionadas antes da triagem, e a Emenda 3 veio antes de qualquer avaliação de risco de viés. As Emendas 1, 2 (decidida pelo coordenador de IA e endossada pelo autor), 4, 5, 6b e 7 vieram depois de ver dados. Os detalhes estão nas [Informações adicionais](#informacoes-adicionais) e no Apêndice B.
+
+## Critérios de elegibilidade {#sec-elegibilidade}
+
+Os critérios, resumidos no @qdr-picoc, foram população e contexto (C1), exposição estudada como objeto empírico (C2), desfecho de voto ou de comparecimento (C3), desenho experimental, experimento natural, quase-experimento com variação identificada ou painel individual com exposição medida antes do desfecho (C4), estudo primário (C5) e ausência de retratação (C6). Ficaram de fora a percepção autodeclarada de influência, simulações, estudos agregados sem variação identificada e os que usam a pesquisa só como fonte de dados. Valeram relatos publicados desde 01/01/2010, em qualquer idioma e status de publicação. Como o corte foi aplicado ao ano de publicação, entraram estudos com dados anteriores. Texto não obtido ficou como não recuperado, nunca como excluído.
+
+::: {#qdr-picoc tbl-colwidths="[18,82]"}
+
+| Elemento | Definição |
+|------------------|----------------------------------------------------------------------------------|
+| População (P) | Eleitores ou participantes que escolhem entre candidatos, partidos ou opções de referendo, em eleição real, hipotética ou de laboratório (inclusive com preferências induzidas), em qualquer país; unidades eleitorais agregadas |
+| Exposição (I) | Contato com resultado de pesquisa eleitoral, em três formatos: pesquisa pré-eleitoral, agregador ou projeção e pesquisa de boca de urna divulgada antes do fechamento das urnas; pela Emenda 1, decidida depois de ver o estudo brasileiro, também a divulgação oficial de apuração parcial durante a votação. Vale a exposição manipulada, a variação natural identificada e a exposição medida no indivíduo |
+| Comparador (C) | Nenhuma pesquisa; o mesmo candidato mostrado atrás; outro resultado de pesquisa; antes e depois de uma proibição; unidades não expostas |
+| Desfechos (O) | Apoio a quem a pesquisa mostra à frente (intenção de voto, escolha declarada ou incentivada, votação agregada), com sinal positivo para *bandwagon*; comparecimento (declarado, validado, agregado ou intenção), com sinal negativo para desmobilização |
+| Contexto (Co) | Estudos primários publicados desde 2010 (ano do OpenAlex e ano de defesa na BDTD), em qualquer idioma; Brasil e América Latina marcados para a análise regional |
+
+Pergunta e critérios no formato PICOC (protocolo, seções 2 e 4).
+
+:::
+
+## Fontes e busca {#sec-busca}
+
+Em 19/09/2026, a busca no OpenAlex usou título e resumo, com três estratégias: inglês (B05, 1.438 registros), português (B02, 118) e espanhol (B03, 131). Na BDTD, usou todos os campos (B04, 80). A busca por citação no OpenAlex, para trás e para frente, teve três rodadas: SN1 (38 sementes, 1.189 registros, 19/09/2026), SN2 (12, 411, 20/09/2026) e SN3 (3, 106, 20/09/2026). A B01 foi substituída pela B05 (E002), e seus 1.235 registros ficaram fora dos identificados. Não houve busca na Web of Science, na Scopus ou na SciELO, em sites de literatura cinzenta nem em registros de estudos. As estratégias estão no Apêndice A.
+
+Das 19 âncoras de validação, montadas por subagente isolado (A3), a v4 da estratégia em inglês recuperou 15, e a v5, 19, mas as 4 perdidas orientaram a correção, e esse *recall* não é evidência independente. Não houve âncora em português ou espanhol. Uma pré-revisão PRESS por IA da v5, em 23/09/2026, apontou lacunas não corrigidas: faltam termos de proibição, embargo e apuração parcial [@Lago2015; @Araujo2021a, só vieram pela busca por citação], e o fio de comparecimento é estreito. O autor conferiu essa pré-revisão e aceitou a v5 com as lacunas declaradas (Emenda 7), o que não equivale a uma revisão PRESS independente.
+
+## Seleção dos estudos {#sec-selecao}
+
+Antes da triagem, *scripts* removeram os duplicados (46 nas bases e 4 nos outros métodos) e os relatos publicados antes de 2010 (148 e 648). Nos 145 pares candidatos a duplicata, o autor concordou com as sugestões da IA, e as decisões foram gravadas sem aplicação: aplicá-las mudaria contagens do fluxo, e não os incluídos.
+
+Na triagem de títulos e resumos, dois triadores de IA independentes (A = `claude-sonnet-5`; B = `claude-opus-5`) aplicaram a regra liberal, em que bastava um incluir ou marcar incerto para o registro seguir. As 81 divergências seguiram ao texto completo, e o autor manteve esse estado. A concordância A × B na primeira onda foi de 0,97 (κ 0,90; PABAK 0,94), o que mede consistência, e não acurácia. O *recall* não foi calculado, porque as amostras de validação (141 registros) e de elusão (300) não foram codificadas às cegas por humanos. Pela Emenda 6b, os 336 registros sem resumo foram triados de novo por dois agentes de IA, e só saíam se ambos excluíssem: 156 saíram e 180 seguiram ao texto completo, onde 15 foram excluídos e 165 ficaram como não recuperados. O autor dispensou a conferência dessa etapa.
+
+No texto completo, um subagente por PDF propôs a elegibilidade, com trecho literal conferido por *script*. Os 184 relatos avaliados somam 165 propostas da IA (47 inclusões e 118 exclusões), conferidas em bloco e mantidas pelo autor, 16 casos limítrofes decididos por ele (8 inclusões e 8 exclusões) e 3 exclusões em que a IA estendeu uma regra dele a caso novo, endossadas pelo autor (Emenda 7). Relatos do mesmo estudo foram ligados antes da extração, e nenhum PDF veio de Sci-Hub ou de outra fonte não autorizada.
+
+## Extração {#sec-extracao}
+
+O piloto com três estudos [@Meer2015a; @Klor2017a; @Araujo2021a] levou à Emenda 2, e o autor o conferiu em bloco. Um subagente `claude-opus-5` por texto preencheu a ficha, com trecho e página conferidos por *script*, e extraiu 560 efeitos de 40 estudos, sem contato com autores (A5). O modelo principal seguiu regra escrita antes, nunca o de menor valor-p.
+
+Outro subagente (`claude-sonnet-5`) recodificou às cegas 10 estudos sorteados: 58,5% de concordância em 560 comparações, com 37 variáveis abaixo do limiar (κ ou PABAK de 0,7 e 80% de concordância), entre elas alvo e comparador (κ 0,38) e estimando (κ 0,15). Por esse limiar, a validação não aprovou a extração por IA. A contingência prevista, redefinir e recodificar, não foi acionada, e o autor resolveu as 259 divergências mantendo o valor original.
+
+Antes da síntese, um subagente `claude-opus-5-5` reextraiu às cegas os 56 efeitos principais de então: 15 concordaram, 23 tinham o mesmo valor com outra classificação, 12 outro valor e 6 outro sinal. Um árbitro de IA do mesmo modelo decidiu os 28 estudos com divergência, e o coordenador aplicou 772 correções, 240 estendidas sem nova arbitragem. O autor declarou ter conferido os 560 efeitos na página do PDF, em bloco (Emenda 7).
+
+O g de Hedges é a métrica comum (efeitos individuais no Apêndice E). Proporções, pontos percentuais e razões de chances foram convertidos por d = ln(OR)·√3/π, e o logit que não relatou efeito marginal, por OR = exp(β). O probit na mesma situação e os estudos sem t, β ou r entraram só pela direção. Nos conglomerados sem ICC relatado, imputou-se 0,05 (Emenda 4c), com sensibilidade em 0,20.
+
+## Risco de viés {#sec-rob-metodos}
+
+Experimentos aleatorizados foram avaliados com o RoB 2, inclusive na variante por conglomerado [@Sterne2019RoB2], e experimentos naturais, quase-experimentos e painéis, com o ROBINS-I V2, versão provisória [@Sterne2016ROBINSI; @Sterne2025ROBINSIV2], no lugar do ROBINS-E, que os *scripts* não traziam. Proibições e embargos com unidades agregadas tiveram os critérios EPOC [@EPOC2017RoB], sem sequência e ocultação no julgamento geral (Emenda 4a). Dois avaliadores de IA independentes (A = `claude-opus-5-5`; B = `claude-sonnet-5`) julgaram cada resultado, e um árbitro de IA do mesmo modelo de A, escolhido pelo autor por custo, decidiu os desacordos. Nenhum julgamento foi validado por humano, e o autor declarou esta etapa como feita só por IA nesta versão (Emenda 7). Os resultados em risco crítico saíram da análise principal.
+
+## Métodos de síntese {#sec-sintese}
+
+A unidade da síntese é a célula: formato de exposição × desfecho × comparador × alvo × classe de desenho. Randomizados e não randomizados nunca se juntaram, e contrastes antes e depois no mesmo sujeito foram à classe não randomizada. O alvo, fixado pela Emenda 5 depois da primeira síntese, isola o *momentum* e a deserção para o segundo colocado viável, mas não a deserção para o próprio líder (@qdr-glossario).
+
+O estimando segue a regra congelada do *codebook*. Nos randomizados, é o efeito causal da designação ao tratamento (ATE, ou ITT quando o estudo discute adesão imperfeita). Na diferença-em-diferenças sem sorteio, é o efeito nos tratados (ATT). No antes e depois só nos tratados, na interação com moderador não sorteado e na regressão com variáveis de controle, é uma associação. Como os estimandos diferem, as classes só se comparam pela direção.
+
+O sinal segue o alvo e, nas proibições [@Chatterjee2019a; @Morton2015a], foi reorientado para a exposição. A direção veio da estimativa pontual, nunca da significância [@Boon2021EffectDirection], e estudo com vários efeitos só teve direção com 70% deles do mesmo lado. Por célula, calcularam-se a proporção na direção positiva, com IC 95% exato de Clopper-Pearson [@Clopper1934IC], e o teste de sinal binomial exato bilateral [@Nikolakopoulos2020SignTest]. O δ de 2 pontos percentuais, fixado no protocolo sem *benchmark*, virou g de 0,044 no apoio, 0,046 no comparecimento e 0,0573 na célula de pesquisa frente a nenhuma pesquisa. Pela Emenda 5, posterior aos dados, efeito com IC 95% dentro de ±δ virou nulo, e os efeitos principais que não estimam o contraste da exposição saíram da contagem (Apêndice E). O teste de sinal não informa a magnitude, e, com poucos estudos pequenos, p acima de 0,05 não indica ausência de efeito.
+
+Nas duas células com 3 estudos com g, a meta-análise exploratória usou CHE (REML), variância robusta CR2, graus de liberdade de Satterthwaite e ρ = 0,6 (sensibilidade em 0,2, 0,5 e 0,8) [@Pustejovsky2022CHE], no metafor 5.0.1 [@Viechtbauer2010Metafor] e no clubSandwich 0.7.0 [@Pustejovsky2026ClubSandwich], em R 4.5.2. Menos de 4 graus de liberdade tornam a inferência robusta não confiável, e não houve IC de Wald nem de HKSJ. Com k < 5, τ², I² e intervalo de predição não são interpretados.
+
+Os moderadores ficaram descritivos, sem 3 estudos por nível em nenhuma célula. As sensibilidades foram (i) nas células, com os críticos e ICC de 0,20; (ii) no agrupamento amplo, *post hoc*, só com contexto real, sem dados anteriores a 2010, sem @Araujo2021a e com os efeitos fora da contagem; e (iii) nas metas, *leave-one-out*, ρ e ICC. O viés por resultados faltantes entrou no GRADE, sem teste de assimetria (k < 10). Não houve síntese de percepção, implementação ou custo, dimensões que não se aplicam a um fenômeno de informação sem gestor que o implemente.
+
+## Certeza da evidência {#sec-certeza}
+
+A certeza foi julgada pelo GRADE, por célula [@Guyatt2008GRADE], com os domínios adaptados para síntese sem meta-análise [@Murad2017GRADE]. Randomizados e não randomizados avaliados com ROBINS-I V2 partiram de alta, estes com rebaixamento por risco de viés, e corpos com EPOC, de baixa. A indireção considerou contexto eleitoral, realismo e estimando, e a imprecisão, número de estudos e de participantes e largura do IC da proporção. O limiar do juízo é zero para a direção e ±δ para a célula nula. Um subagente (`claude-opus-5-5`) julgou a certeza em 24/09/2026, sem segundo avaliador, e o juízo não foi validado por humano (Emenda 7). Cada rebaixamento foi justificado por escrito, e os enunciados usam as frases padronizadas [@Santesso2020GRADE].
+
+A caixa de ferramentas no formato *O que funciona?* [@Schaefer2025OQF], opcional neste tipo de síntese, não é relatada: com certeza muito baixa em 15 das 18 células e o GRADE não validado, nenhuma célula teria rótulo definido (Emenda 7).
+
+## Uso de IA e conferência humana {#sec-ia}
+
+Um coordenador de IA (`claude-opus-5-5`) rodou a ferramenta de revisão no Claude Code e distribuiu o trabalho entre subagentes, cujos modelos por etapa estão nos Métodos e no Apêndice G. O autor, único humano, aprovou a pergunta e o protocolo (portões G1 e G2), decidiu as Emendas 1, 4 (itens 4a a 4c) e 6b e 16 casos limítrofes de elegibilidade, e escolheu por custo o árbitro do risco de viés. Os portões G3 a G9 foram aprovados em autopiloto. Em 23/09/2026, a Emenda 6a corrigiu decisões que o *log* atribuía ao autor sem que ele as tivesse conferido.
+
+Em 30/09/2026, o autor declarou ao coordenador de IA ter revisto e aprovado, em bloco, as decisões em vigor sobre: (i) a busca, pela conferência da pré-revisão PRESS feita por IA, que não é uma revisão PRESS independente; (ii) a triagem, com as 81 divergências mantidas no texto completo pela regra liberal; (iii) a elegibilidade, com as 165 propostas da IA e as 3 extensões de regra; (iv) o piloto de extração; (v) os 560 efeitos, contra a página do PDF; (vi) as 259 divergências da recodificação, mantido o valor original; e (vii) o relato. O coordenador transcreveu a declaração, e o autor não preencheu as planilhas item a item. Nenhuma decisão em vigor, dado de efeito ou contagem mudou (Emenda 7).
+
+Ficaram só com a IA, e assim são declarados, o risco de viés e a certeza da evidência. A validação cega da triagem não foi feita, e a deduplicação foi decidida e não aplicada. Agentes redigiram este texto, inclusive a interpretação entre estudos, uso que o livro de método não admite [@Lamarca2026Livro]. Pelo mesmo livro, "Nenhum produto desse tipo conta como revisão sistemática", daí o rótulo do título. As lacunas por etapa estão no Apêndice G, e a declaração de uso de IA, nas [Informações adicionais](#informacoes-adicionais).

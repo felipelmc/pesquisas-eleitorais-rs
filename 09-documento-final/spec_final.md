@@ -161,7 +161,7 @@ Estas frases são usadas nas Mensagens, no Resumo, nas Conclusões e no resumo e
 - **FC-Brasil.** Nesta busca, que não incluiu a SciELO, o único estudo com dados só do Brasil [@Araujo2021a] trata da divulgação oficial da apuração parcial com a votação em curso, e não de pesquisa eleitoral.
 - **FC-não-diz.** A evidência não diz de quanto é o efeito das pesquisas sobre o voto, e tampouco permite afirmar que elas não têm efeito.
 - **FC-regulação.** Sozinha, a evidência não demonstra que a divulgação de pesquisas muda votos, nem que é inócua.
-- **FC-IA.** Agentes de IA conduziram as etapas depois do protocolo. O autor conferiu em bloco a busca, a seleção e a extração, e o risco de viés e a certeza da evidência foram julgados só por IA, sem validação humana.
+- **FC-IA.** Agentes de IA conduziram as etapas depois do protocolo. O autor conferiu em bloco partes da busca, da seleção e da extração (Apêndice G), e o risco de viés e a certeza da evidência foram julgados só por IA, sem validação humana.
 
 ## 2. Estrutura do artigo
 

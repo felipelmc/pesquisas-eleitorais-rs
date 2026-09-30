@@ -1,6 +1,26 @@
-# Declaração complementar de uso de IA: versão do artigo de 24/09/2026
+# Declaração complementar de uso de IA: agentes que prepararam o texto
 
-RASCUNHO NÃO VALIDADO: 18 pendências humanas abertas.
+Esta declaração complementa a declaração gerada do *log* (`07-relatorio/declaracao_uso_ia.md`), que não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. O estado atual das etapas sem validação humana está no Apêndice G do artigo (versão de entrega de 01/10/2026, Emenda 7).
+
+## Versão de entrega (01/10/2026)
+
+Coordenador: `claude-opus-5-5` (Claude Code). Os agentes reescreveram o artigo de 24/09/2026 como artigo único com apêndices, sem mudar a análise, e nenhum deles leu PDF de estudo incluído nem fez análise nova. O SHA256 é o do arquivo no commit desta versão.
+
+| Prompt | Papel | Modelo | SHA256 (início) |
+|---|---|---|---|
+| `spec_final.md` (escrita pelo arquiteto, com *prompt* na própria chamada) | arquiteto: especificação da versão de entrega | claude-opus-5-5 | `e52db9e8fc97f536…` |
+| `prompts_final/prompt_redator_final.md` | três redatores, um por bloco (abertura e métodos; resultados e linguagem simples; discussão, informações adicionais e apêndices) | claude-opus-5-5 | `803cd53bf0254c55…` |
+| `prompts_final/prompt_checklists_entrega.md` | listas de conferência (PRISMA 2020, resumo, PRISMA-S, SWiM, PRISMA-trAIce) e locais no relato | claude-sonnet-5 | `10b06df06719ded0…` |
+| `prompts_final/prompt_verificacao_entrega.md` | verificação independente | claude-opus-5-5 | `e7e183c223f25546…` |
+| `prompts_final/prompt_correcoes_estilo_entrega.md` | correções da verificação e passe de estilo (voz do autor e anti-IA) | claude-opus-5-5 | `0685e99373fcbd7b…` |
+
+Nenhuma dessas etapas valida o conteúdo. A verificação é de IA e não é revisão por especialista humano. A responsabilidade pelo conteúdo é do autor, que leu e aprovou esta versão antes da entrega.
+
+## Versão de 24/09/2026 (histórico)
+
+O texto abaixo é o da declaração daquela versão, mantido como registro. As marcas de rascunho e de pendências abertas nele se referem a 24/09/2026.
+
+Em 24/09/2026, o artigo saía marcado como rascunho não validado, com 18 pendências humanas abertas.
 
 Esta declaração complementa a declaração gerada do *log* (`07-relatorio/declaracao_uso_ia.md`), que não registra os agentes desta versão porque nenhum comando `rs` foi rodado nela. Ela lista os agentes que prepararam o artigo, o suplemento, o resumo em linguagem simples e a vitrine, a partir dos arquivos do projeto e sem nenhuma análise nova. Coordenação: `claude-opus-5-5`, no Claude Code. Todos os subagentes foram Opus ou Sonnet; nenhum foi Fable. Nenhum leu PDF de estudo incluído. As leituras de exemplares, das revisões anteriores e das normas brasileiras usaram só fontes abertas e legítimas: PMC, páginas oficiais, repositórios institucionais e o Internet Archive para páginas oficiais do TSE com acesso direto bloqueado.
 

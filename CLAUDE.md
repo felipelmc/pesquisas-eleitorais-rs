@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## O que é este projeto
 
-Revisão sistemática conduzida com a skill `revisao-sistematica` (e as irmãs `baixar-pdfs-academicos`, `fichamento-sistematico`, `gerar-bibtex`). O tema é o efeito da exposição a pesquisas eleitorais publicadas no voto, com a direção *bandwagon* × *underdog*. Tipo `efetividade_swim`, variante rápida, autopiloto, triagem por subagentes. Pergunta, resultados, estrutura de pastas e pendências estão no `README.md`; leia-o antes de qualquer trabalho.
+Revisão sistemática conduzida com a skill `revisao-sistematica` (e as irmãs `baixar-pdfs-academicos`, `fichamento-sistematico`, `gerar-bibtex`). O tema é o efeito da exposição a pesquisas eleitorais publicadas no voto, com a direção *bandwagon* × *underdog*. Tipo `efetividade_swim`, variante rápida, autopiloto, triagem por subagentes. Pergunta, resultado e o mapa do repositório estão no `README.md` (curto); estrutura detalhada, cadeia de refazer e histórico, no `REPRODUZIR.md`. Leia os dois antes de qualquer trabalho.
 
 Estado em 24/09/2026: G1 e G2 aprovados pelo revisor humano, G3 a G9 pelo autopiloto. A sessão de 23 e 24/09 fez tudo o que não depende de humano:
 - Emenda 6: correção de atribuição e triagem complementar dos registros sem resumo;
@@ -15,7 +15,7 @@ Estado em 24/09/2026: G1 e G2 aprovados pelo revisor humano, G3 a G9 pelo autopi
 
 Na tarde de 24/09, o documento final foi reescrito como artigo de revisão sistemática (padrão Campbell/Cochrane mais o relatório OQF do livro do usuário). Saem dele um PDF de *journal* em Typst, o suplemento S1 a S11, um resumo em linguagem simples e uma vitrine interativa, que é a página de entrada. Nada mudou na análise. A versão anterior está na tag `v1-oqf-2026-09-24`.
 
-Os produtos saem como **RASCUNHO NÃO VALIDADO**, com **18 pendências humanas abertas**. A ordem e os pacotes estão em `08-revisao-humana/README.md`. O que falta é trabalho humano; o papel do agente é preparar esse trabalho, registrá-lo pelos comandos da skill e refazer os produtos.
+**Versão de entrega (30/09 e 01/10/2026, Emenda 7).** O autor declarou ter conferido **em bloco** busca, triagem, elegibilidade, os 560 efeitos, a recodificação, o piloto e o relato, mantendo o estado em vigor (`08-revisao-humana/declaracao_autor_2026-09-30.md`). Com isso fecharam P001, P004, P020, P041, P023, P025, P026, P039 e P037 com `--por revisor_humano_1`. Ficam **abertas** P006, P007 e P008 (validação cega não feita), P019 (deduplicação decidida e **não aplicada**), P033 (RoB), P035, P036 e P042 (GRADE): essas etapas são declaradas como feitas só por IA. A P038 fecha só quando o autor aprovar o PDF final. O produto passou a se chamar "síntese sistemática de evidências conduzida com agentes de IA" (regra R7.28 do livro do usuário). A entrega é um PDF único, `docs/revisao.pdf`: o artigo (~8 mil palavras) seguido dos apêndices A a G, sem marca-d'água; "RASCUNHO NÃO VALIDADO" fica só na abertura da declaração de uso de IA (R7.23). O repositório segue privado; um pacote de replicação sanitizado sai no Pages. A versão de 24/09 está na tag `v2-rascunho-2026-09-24`. O que falta é trabalho humano (`08-revisao-humana/README.md`).
 
 ## Como começar uma sessão
 
@@ -24,14 +24,14 @@ rs() { python3 ~/.claude/skills/revisao-sistematica/scripts/rs.py "$@"; }; rs --
 rs --dir ~/Desktop/pesquisas-eleitorais-rs pendencia listar
 ```
 
-Defina a função `rs` em cada chamada de Bash (cada chamada abre um shell novo). Não deduza o estado da conversa: o `status` e o `rs_log.jsonl` são a fonte. A cadeia completa para refazer efeitos, síntese e relato está no `README.md`, seção "Refazer os produtos depois de fechar pendências".
+Defina a função `rs` em cada chamada de Bash (cada chamada abre um shell novo). Não deduza o estado da conversa: o `status` e o `rs_log.jsonl` são a fonte. A cadeia completa para refazer efeitos, síntese e relato está no `REPRODUZIR.md`, seção "Refazer os produtos depois de fechar pendências".
 
 Como ler o `status` (sai em JSON):
 - `etapa_atual` aparece como `05_organizacao` mesmo com G9 aprovado, porque a deduplicação (P019) segue aberta. Isso é esperado; o campo `proxima_acao` diz o que vem a seguir.
 - Algumas descrições de pendência citam IDs já substituídos (P005, P022, P032, P034). Vale a lista de `pendencia listar`, não os IDs citados dentro do texto.
 - `buscas_inativas: B01` é a busca em inglês substituída pela B05 (emenda E002). Não é um erro.
 
-Ferramentas: `python3`, `Rscript`, `quarto` (o `publicar.sh` aborta se o Quarto não for 1.9.x ou o Typst embutido não for 0.14), poppler (`pdfinfo`, `pdffonts`, `pdftotext`, usados por `verificar_pdf.py`) e `node` (só para o QA da vitrine com Playwright). Os scripts R que o `rs` chama (`efeitos.R`, `swim.R`, `_cli.R`) ficam em `~/.claude/skills/revisao-sistematica/scripts/R/`, não no repositório. Na análise, os únicos scripts do repositório são os de junção e montagem da síntese (`05-decomposicao/juntar_rob.py`, `06-analise/montar_*.py`), os de conferência em `ferramentas/` (uso no README) e o `03-textos/prompts_fichamento/gate_sem_heuristica.py` (`<ficha.md> <pdf>`). Este último roda o gate de citação do `fichamento-sistematico` sem a heurística de "PDF sem texto", que reprova teses por engano. Os scripts do artigo, das figuras e da vitrine ficam em `09-documento-final/`; a ordem em que rodam é a do `ferramentas/publicar.sh`.
+Ferramentas: `python3`, `Rscript`, `quarto` (o `publicar.sh` aborta se o Quarto não for 1.9.x ou o Typst embutido não for 0.14), poppler (`pdfinfo`, `pdffonts`, `pdftotext`, usados por `verificar_pdf.py`) e `node` (só para o QA da vitrine com Playwright). Os scripts R que o `rs` chama (`efeitos.R`, `swim.R`, `_cli.R`) ficam em `~/.claude/skills/revisao-sistematica/scripts/R/`, não no repositório. Na análise, os únicos scripts do repositório são os de junção e montagem da síntese (`05-decomposicao/juntar_rob.py`, `06-analise/montar_*.py`), os de conferência em `ferramentas/` (uso no `REPRODUZIR.md`) e o `03-textos/prompts_fichamento/gate_sem_heuristica.py` (`<ficha.md> <pdf>`). Este último roda o gate de citação do `fichamento-sistematico` sem a heurística de "PDF sem texto", que reprova teses por engano. Os scripts do artigo, das figuras e da vitrine ficam em `09-documento-final/`; a ordem em que rodam é a do `ferramentas/publicar.sh`.
 
 Ciclo curto de edição do artigo (da raiz, sem publicar):
 
@@ -52,7 +52,7 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 - Subagentes só em Sonnet (volume) e Opus (texto completo, julgamentos difíceis). Nunca Fable.
 - Registro sem resumo nunca é excluído por filtro ou por LLM.
 - PDFs de terceiros nunca vão para o GitHub (`03-textos/pdfs/` e `03-textos/pdfs_descartados/` estão no `.gitignore`). Repositório remoto: `felipelmc/pesquisas-eleitorais-rs`, privado.
-- Cópia de trabalho: `~/Desktop/pesquisas-eleitorais-rs`, com os PDFs só no disco local (README, seção "Cópia de trabalho e PDFs"). O caminho antigo `~/revisoes/pesquisas-eleitorais` que aparece em fichas, prompts e no `pdf_path` do master é proveniência: não reescreva esses registros. Em prompts reaproveitados, troque a raiz pela da cópia de trabalho.
+- Cópia de trabalho: `~/Desktop/pesquisas-eleitorais-rs`, com os PDFs só no disco local (`REPRODUZIR.md`, seção "Cópia de trabalho e PDFs"). O caminho antigo `~/revisoes/pesquisas-eleitorais` que aparece em fichas, prompts e no `pdf_path` do master é proveniência: não reescreva esses registros. Em prompts reaproveitados, troque a raiz pela da cópia de trabalho.
 - Commits terminam com `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Commit e push só quando o usuário pedir.
 
 ## Regras da skill que mais pesam aqui
@@ -72,7 +72,8 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
   - `08-revisao-humana/P037_concordancia/prompt_terceiro_leitor.md`;
   - `02-triagem/sem_resumo_revisao/INSTRUCOES_triagem.md`;
   - `09-documento-final/prompt_redator_final.md`, `prompt_estilo.md` e `prompt_verificacao.md` (versão OQF, histórico);
-  - `09-documento-final/prompts_v2/` (artigo atual): arquiteto, redator, abertura, verificação (`prompt_verificacao_final.md`), rubrica, leituras críticas, revisão, estilo (`prompt_estilo_v2.md`), figuras, tabelas e montagem, vitrine, checklists e revisão visual do PDF. A lista com modelo e SHA256 está em `09-documento-final/declaracao_ia_v2.md`.
+  - `09-documento-final/prompts_final/` (versão de entrega: redator por bloco; a especificação é `spec_final.md`);
+  - `09-documento-final/prompts_v2/` (artigo de 24/09, histórico e base dos passes): arquiteto, redator, abertura, verificação (`prompt_verificacao_final.md`), rubrica, leituras críticas, revisão, estilo (`prompt_estilo_v2.md`), figuras, tabelas e montagem, vitrine, checklists e revisão visual do PDF. A lista com modelo e SHA256 está em `09-documento-final/declaracao_ia_v2.md`.
 
 ## Convenções da síntese (Emenda 5)
 
@@ -87,7 +88,7 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 - Estudos com RoB crítico saem da análise principal (`--excluir-rob critico`) e entram na sensibilidade `com_critico`.
 - ICC imputado 0,05 em desenhos com cluster, com sensibilidade 0,20 (Emenda 4c). No EPOC, sequência e ocultação são ignoradas no geral (Emenda 4a, `--ignorar-no-geral`).
 - Não há meta-análise principal. Há duas metas exploratórias: a da célula "mesmo candidato atrás" (`meta_mesmo_candidato/`, 3 estudos) e a da célula principal "sem pesquisa" (3 estudos, 4 efeitos, inclui Tyszler2015 lido de figura). Esta última sai de `06-analise/montar_meta_exploratoria.py`, com `--dependencia che` (protocolo, seção 8), porque Tyszler2015 tem dois efeitos principais.
-- Sensibilidade ICC 0,20: `06-analise/montar_sens_icc020.py` e os argumentos opcionais dos dois scripts `montar_*` (cadeia no README).
+- Sensibilidade ICC 0,20: `06-analise/montar_sens_icc020.py` e os argumentos opcionais dos dois scripts `montar_*` (cadeia no `REPRODUZIR.md`).
 
 ## Armadilhas já encontradas
 
@@ -105,20 +106,23 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 - `rs textos elegibilidade consolidar` exige `--master 03-textos/fichamentos_master.csv --codebook 00-protocolo/codebook_elegibilidade.csv`. Para fichas novas, gere as linhas com `consolida.py` do fichamento-sistematico numa pasta temporária e acrescente ao master; não refaça o master inteiro.
 - `rs prisma` quebra a invariante `recuperacao_fecha` quando há PDF recuperado sem decisão de texto completo. Isso acontece, por exemplo, com PDFs que já estavam em disco quando o registro voltou ao texto completo. Fiche esses textos.
 - `07-relatorio/_pendencias_abertas.json` não é gerado por comando da skill. Refaça-o com `rs --dir . pendencia listar > 07-relatorio/_pendencias_abertas.json`.
+- `rs emenda` só registra mudança de artefato **congelado** (ex.: `protocolo.md`). Emenda que não altera artefato congelado (como a 7) vai só em `00-protocolo/emendas.md`, com linha na tabela Resumo de 7 colunas e título `## Emenda N — dd/mm/aaaa — …`, que `montar_suplemento.s3_emendas` e a vitrine leem (a vitrine confere o número de emendas).
+- **Não aplique a deduplicação da P019 com `rs dedup --revisar` sem antes corrigir a skill.** Simulado em 30/09: as 66 fusões absorvem 58 registros, 44 já triados; o `triagem consolidar` não retira os absorvidos e o `rs prisma` falha com `triagem_ids_desconhecidos`; surgem 9 pares novos de versão. As decisões estão gravadas em `08-revisao-humana/P019_dedup/dedup_revisao_v1.csv`, sem aplicar.
+- Fechamentos com `--por revisor_humano_1` só com declaração do usuário; na versão de entrega, a declaração em bloco está em `08-revisao-humana/declaracao_autor_2026-09-30.md` e cobre só as etapas listadas lá (RoB, GRADE e validação cega **não**).
 - `rs caixa` é opcional neste tipo de revisão, e rodá-lo abre uma pendência `certeza_caixa` (foi o que criou a P042, que repete a P036).
 - Pendências mudam de ID quando o comando as reabre: P032 virou P039, e P028 virou P040 e depois P041. Confira no `rs pendencia listar`.
 - O gate de citações das fichas de elegibilidade é `03-textos/prompts_fichamento/gate_sem_heuristica.py <ficha> <pdf>`. Ficha reprovada vai para `_reprovadas/` como `<nome>.tentativaN.md` e é refeita por um fichador novo, nunca corrigida à mão.
 - Publicação:
-  - `bash ferramentas/publicar.sh` gera e confere `docs/`: vitrine (`index.html`), artigo (`revisao.html/.pdf/.docx`), suplemento (`.html/.pdf`), `linguagem-simples.html`, relatório técnico e guia. Ele roda todas as travas, `verificar_pdf.py`, sanitização, textos, links e licenças, e limpa `docs/` por lista branca.
+  - `bash ferramentas/publicar.sh` gera e confere `docs/`: `revisao.pdf` (artigo em pé + apêndices deitados, compilados à parte e juntados por `ferramentas/juntar_pdf.py`, com a página inicial dos apêndices = páginas do artigo + 1), `revisao.html`, `apendices.html`, `linguagem-simples.html`, `pacote-replicacao.zip` (`ferramentas/montar_pacote.py`, que falha se achar e-mail, caminho local ou trecho de resumo de terceiro) e a vitrine (`index.html`). Ele roda todas as travas, `verificar_pdf.py` (artigo, apêndices e `--completo`), sanitização, textos, links (arquivo ou âncora ausente = FALHA) e licenças, e limpa `docs/` por lista branca. Relatório técnico, suplemento separado, guia e `.docx` não são mais publicados.
   - O `publicar.sh` saiu de `docs/`, onde ficava publicado, para `ferramentas/`. Nada de dados brutos, fichas ou PDFs de terceiros entra em `docs/`.
-  - `bash ferramentas/refazer_produtos.sh` roda a sentinela, as tabelas, a caixa e a publicação.
+  - `bash ferramentas/refazer_produtos.sh` roda a sentinela (`spec_final.md`, seção 10), as tabelas, a caixa e a publicação.
   - O endereço é <https://felipelamarca.com/pesquisas-eleitorais-rs/>, o domínio próprio do Pages do usuário.
 - Artigo final (`09-documento-final/`):
-  - Edite só `_esqueleto_revisao_final.qmd` (e `_esqueleto_suplemento.qmd`, `linguagem_simples.qmd`, `revista/figuras/legendas.yml`, `revista/tabelas/*.yml`) e depois rode `montar_revisao_final.py` e `montar_suplemento.py`, que sobrescrevem `revisao_final.qmd` e `suplemento.qmd`.
+  - Edite só `_esqueleto_revisao_final.qmd` (e `_esqueleto_suplemento.qmd`, que agora são os **apêndices A a G**, `linguagem_simples.qmd`, `revista/figuras/legendas.yml`, `revista/tabelas/*.yml`, inclusive `lacunas.yml`, a tabela do Apêndice G) e depois rode `montar_revisao_final.py` e `montar_suplemento.py`, que sobrescrevem `revisao_final.qmd` e `suplemento.qmd`. O artigo cita os apêndices só por texto ("Apêndice C"). Os apêndices não têm lista de referências (`suppress-bibliography`): as chaves citadas neles entram no `nocite` comum (`montar_revisao_final.chaves_apendices`).
   - Figuras e tabelas entram só por marcador (`@@FIGURA nome@@`, `@@TABELA nome@@`), com os rótulos de `revista/rotulos.yml`. Número derivado novo entra só por `revista/gerar_numeros_v2.py`.
-  - As travas: `conferir_reestruturacao.py` confere a lista branca de números, os 18 spans `[enunciado]{.enunciado cel="Cxx"}` idênticos a `certeza.csv`, os 11 callouts com os mesmos IDs, rótulos, citações e proibições. `conferir_numeros.py` fica vazio em todo passe de estilo (`prompts_v2/prompt_estilo_v2.md`).
-  - Se `certeza.csv`, `swim_resumo.json`, as metas ou `_pendencias_abertas.json` mudarem, a sentinela da `spec_v2.md` (seção 10) diz quais seções reescrever.
-  - Os callouts "Pendente de revisão humana", o apêndice de pendências e os marcadores **[A confirmar pelo autor]** ficam até o usuário fechá-los. O subtítulo marca o produto como rascunho conduzido por agentes, pela regra R7.28 do livro do usuário; o título definitivo é decisão dele (P038).
+  - As travas: `conferir_reestruturacao.py` confere a lista branca de números, os 18 spans `[enunciado]{.enunciado cel="Cxx"}` idênticos a `certeza.csv`, rótulos, citações e proibições. O modo vem de `estado:` em `revista/_revista.yml` (`final` hoje): nenhum callout de pendência, nenhum "[A confirmar pelo autor]", nenhum "suplemento" no artigo, "RASCUNHO NÃO VALIDADO" uma vez só (declaração de IA), `tbl-lacunas` com as abertas menos a P038, corpo entre 7.500 e 8.500 palavras; `--extra linguagem_simples.qmd` confere o resumo. O modo `rascunho` (11 callouts do v1) só serve ao `teste_travas.sh`, com o JSON congelado `revista/pendencias_2026-09-24.json`. `conferir_numeros.py` fica vazio em todo passe de estilo (`prompts_v2/prompt_estilo_v2.md`).
+  - Se `certeza.csv`, `swim_resumo.json`, as metas, `prisma_contagens.json` ou `_pendencias_abertas.json` mudarem, a sentinela da `spec_final.md` (seção 10) diz quais seções reescrever.
+  - Com `estado: final`, `montar_revisao_final.linhas_metadados` não grava `rascunho: true` (sem marca-d'água nem cabeçalho), `verificar_pdf.py` não exige a marca e `barra_publicacao.py` não põe aviso nem `noindex`. Quando todas as pendências fecharem, tire a linha "RASCUNHO NÃO VALIDADO" da declaração de IA (IA-7) e ajuste `lacunas.yml`.
 - Typst e PDF (`revista/`):
   - O Typst só lê arquivos abaixo da pasta do `.qmd`: nada de `../` em figura, CSL ou fonte.
   - Tabela com legenda vira `figure`, que não quebra sem `breakable: true` (já no template).
@@ -126,7 +130,7 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
   - Classe `column-*` no `.qmd` liga a geometria de margem do Typst: use `.tabela-larga` e `.figura-larga`.
   - `@sec-` só para seção numerada.
   - Renderize com `TYPST_IGNORE_SYSTEM_FONTS=true TYPST_IGNORE_EMBEDDED_FONTS=true`, porque as fontes do projeto ficam em `revista/fontes/otf` e o STIX Two do macOS é variável e não tem negrito para o Typst.
-  - O suplemento é inteiro em paisagem (`paisagem: true`); não use `.landscape` dentro dele.
+  - Os apêndices (`suplemento.qmd`) são inteiros em paisagem (`paisagem: true`); não use `.landscape` dentro deles. No PDF juntado, o template recebe `continuacao: true` (sem bloco de título, cabeçalho desde a 1ª página), `pagina-inicial` e `apendices: true` (tabelas numeradas A1, B1...).
   - `quarto typst --version` escreve no stderr.
 - Vitrine (`09-documento-final/vitrine/`): `exportar_dados.py` usa lista de campos permitidos; `montar_vitrine.py --final` falha se houver texto provisório. O QA com Playwright (`qa/capturar.mjs`) usa `node_modules` fora do git. A sanitização (`qa/testar_sanitizacao.py docs`) é estrita na vitrine e, nos documentos, reprova só e-mail, caminho local, citação literal de PDF e resumo de registro não incluído.
 
@@ -139,4 +143,5 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 - Conferência dos efeitos por IA em 23/09: `08-revisao-humana/efeitos/` (re-extração cega, comparação, arbitragens, `pontos_para_o_revisor.md`), `05-decomposicao/correcoes_sessao_2026-09-23.csv`.
 - Revisão humana: `08-revisao-humana/README.md` (ordem, esforço, pacote e comando de cada pendência).
 - Uso de IA: `07-relatorio/declaracao_uso_ia.md` (gerada do log) e `07-relatorio/declaracao_uso_ia_texto.md`.
-- Artigo final: `09-documento-final/spec_v2.md` (estrutura, parágrafo a parágrafo, com fontes e sentinela), `resposta_pareceres.md` (o que foi aceito das leituras críticas e o que ficou como decisão do autor), `verificacao_v2.md`, `verificacao_final.md`, `auditoria_final_v2.md` (itens A1 a A36 do livro), `_avaliacao/rubrica.md` (v1 × v2 na rubrica dos exemplares), `_qa/` (revisão visual dos PDFs) e `declaracao_ia_v2.md` (agentes desta versão).
+- Versão de entrega: `09-documento-final/spec_final.md` (estrutura, orçamentos, apêndices, lacunas e sentinela), Emenda 7 e `08-revisao-humana/declaracao_autor_2026-09-30.md`.
+- Artigo de 24/09: `09-documento-final/spec_v2.md` (estrutura, parágrafo a parágrafo, com fontes e sentinela), `resposta_pareceres.md` (o que foi aceito das leituras críticas e o que ficou como decisão do autor), `verificacao_v2.md`, `verificacao_final.md`, `auditoria_final_v2.md` (itens A1 a A36 do livro), `_avaliacao/rubrica.md` (v1 × v2 na rubrica dos exemplares), `_qa/` (revisão visual dos PDFs) e `declaracao_ia_v2.md` (agentes desta versão).

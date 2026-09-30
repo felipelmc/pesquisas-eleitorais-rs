@@ -228,10 +228,20 @@ def s2_atalhos():
                "Consequência provável de cada atalho. É inferência, não resultado medido; na maior parte dos casos, a "
                "direção do viés sobre *bandwagon* × *underdog* é indeterminada.", "tbl-s2-consequencias", [22, 78])
     t1, t2 = sem_pares(t1), sem_pares(t2)
+    # o insumo é de 24/09/2026 e chama o próprio trabalho de "revisão"; na versão de entrega ele é uma síntese (R7.28)
+    for velho, novo in (("A revisão não buscou", "A síntese não buscou"),
+                        ("os itens sem número da Tabela 1 não tratam", "os itens sem número da Tabela 1 de @Garritty2024Rapid não tratam"),
+                        ("certeza por subagentes de IA, sem validação humana |",
+                         "certeza por subagentes de IA, sem validação humana (atalho como declarado no protocolo; conferência em bloco depois, Emenda 7) |"),
+                        ("Dentro: a revisão rodou de 19/09 a 24/09/2026", "Dentro: a síntese rodou de 19/09 a 01/10/2026")):
+        t1, t2 = t1.replace(velho, novo), t2.replace(velho, novo)
     partes = [envolver("tabela-larga", t1), envolver("tabela-larga", t2)]
     if outras:
-        t3 = bloco([mrf.pipe(["Recomendação", "Situação nesta revisão"], outras)],
-                   "Outras recomendações que a revisão não segue ou segue em parte, fora dos atalhos declarados.",
+        outras = [[c.replace("A revisão não buscou", "A síntese não buscou")
+                   .replace("Dentro: a revisão rodou de 19/09 a 24/09/2026", "Dentro: a síntese rodou de 19/09 a 01/10/2026")
+                   for c in l] for l in outras]
+        t3 = bloco([mrf.pipe(["Recomendação", "Situação nesta síntese"], outras)],
+                   "Outras recomendações que a síntese não segue ou segue em parte, fora dos atalhos declarados.",
                    "tbl-s2-outras", [35, 65])
         partes.append(sem_pares(t3))
     return "\n\n".join(partes)
@@ -388,7 +398,10 @@ def s6_efeitos():
 
 
 def s7_fora():
-    t = bloco(tabela_sem_legenda(INS / "tabelas/fora.md"),
+    linhas = [re.sub(r"conferência humana pendente \(([^)]*?);\s*ver [^)]*\)",
+                     r"fora da contagem, mantido pelo autor na conferência em bloco (Emenda 7; \1)", l)
+              for l in tabela_sem_legenda(INS / "tabelas/fora.md")]
+    t = bloco(linhas,
               "Efeitos principais fora da contagem e motivo registrado para cada um, na versão depois das arbitragens "
               "de 23/09/2026.", "tbl-s7-fora", [14, 6, 9, 16, 55])
     return envolver("tabela-larga", t)

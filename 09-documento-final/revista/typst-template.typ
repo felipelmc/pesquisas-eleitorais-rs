@@ -177,6 +177,7 @@
   show figure: set block(above: 1.4em, below: 1.4em)
   show figure: set align(left)
   show heading.where(level: 1): it => if apendices {
+    pagebreak(weak: true)   // cada apêndice abre página: título e introdução ficam junto da tabela
     counter("apendice").step()
     counter(figure.where(kind: "quarto-float-tbl")).update(0)
     it
