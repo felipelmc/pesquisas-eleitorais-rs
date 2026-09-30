@@ -760,7 +760,7 @@ fig_realismo <- function() {
   b <- painel("T14", "Comparecimento", TRUE)
   if (!all(cats %in% d$cat[d$tabela == "T14"])) stop("a legenda do painel de comparecimento não cobre todas as categorias")
   g <- (a + theme(legend.position = "none")) / b
-  gravar_figura(g, "realismo", "texto", altura_mm = 92)
+  gravar_figura(g, "realismo", "larga", altura_mm = 92)
 }
 
 # ================================================================ principal

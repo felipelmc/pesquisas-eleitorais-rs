@@ -15,7 +15,7 @@ estado: final
 revista:
   masthead: "Documento de trabalho · Síntese sistemática de evidências"
   cabeca: "Lamarca · Pesquisas eleitorais e voto"
-  nota-ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão do autor. Ver a declaração de uso de IA."
+  nota-ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão do autor. Ver a declaração de uso de IA."
   ultima-busca: "19/09/2026 (bases) e 20/09/2026 (busca por citação)"
 csl: revista/american-political-science-association.csl
 link-citations: true

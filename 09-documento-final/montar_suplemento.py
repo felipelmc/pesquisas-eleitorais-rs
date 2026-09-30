@@ -182,6 +182,9 @@ def s2_atalhos():
     subs = re.split(r"(?m)^### ", corpo)
     intro = subs[0]
     linhas_rec, linhas_cons, outras = [], [], []
+    prisma = json.load(open(R / "07-relatorio/prisma_contagens.json", encoding="utf-8"))
+    nao_recuperados = (f"{prisma['bases']['nao_recuperados']} das bases e "
+                       f"{prisma['outros_metodos']['nao_recuperados']} dos outros métodos")
     for s in subs[1:]:
         titulo, resto = s.split("\n", 1)
         m = re.match(r"(A\d)\.\s*(.*)", titulo.strip())
@@ -204,6 +207,8 @@ def s2_atalhos():
                 if not l:
                     continue
                 l = re.sub(r"^-\s+", "", l)
+                # não recuperados: o insumo é de 24/09/2026; os números vêm do PRISMA atual (Emenda 8 mudou o fluxo)
+                l = re.sub(r"\d+ das bases e \d+ dos outros métodos", nao_recuperados, l)
                 l = l.replace("**Texto completo:** exclusões erradas não são detectadas.",
                               "**Texto completo:** exclusões erradas só seriam vistas na conferência do autor, feita em "
                               "bloco.")
@@ -280,6 +285,8 @@ def s3_emendas():
         quando = "; ".join(ANTES_DEPOIS[t] for t in tipos)
         if idd == "Emenda 6":
             quando = "6a: " + ANTES_DEPOIS["E"] + "; 6b: " + ANTES_DEPOIS["C"]
+        if idd == "Emenda 8":  # 8a corrige a ferramenta; 8b é regra nova, decidida depois de ver os dados
+            quando = "8a: correção da ferramenta, sem nova decisão de método; 8b: " + ANTES_DEPOIS["C"]
         if idd == "Emenda 3":  # tipo E, mas a emenda também registrou uma decisão de método do autor
             objeto = EMENDA3_OBJETO
             quando = EMENDA3_QUANDO
@@ -293,17 +300,27 @@ def s3_emendas():
               "acionada; B, emenda antes da triagem; C, emenda depois de ver dados; D, método planejado não "
               "executado; E, correção de erro ou incoerência. As emendas E001 e E002 aplicam regras de validação "
               "da busca previstas no protocolo e não mudaram o protocolo.", "tbl-s3-emendas",
-              [9, 9, 20, 16, 16, 18, 12])
+              [7, 7, 19, 15, 15, 17, 20])
     return envolver("tabela-larga", t)
 
 
 # ================================================================ S4 a S10: tabelas copiadas
+def _relatos_adicionais(linha):
+    """'| @A (@B; @C) |' -> '| @A; também @B e @C |'. Entre colchetes logo depois de @A, o Pandoc lê os relatos
+    adicionais como sufixo da citação narrativa e deforma o texto ("Autor 2012, 2017; Autor")."""
+    def troca(m):
+        extras = [c.strip() for c in m.group(2).split(";")]
+        lista = extras[0] if len(extras) == 1 else ", ".join(extras[:-1]) + " e " + extras[-1]
+        return f"{m.group(1)}; também {lista}"
+    return re.sub(r"^(\|\s*@[\w-]+)\s*\((@[\w-]+(?:;\s*@[\w-]+)*)\)", troca, linha)
+
+
 def s4_caracteristicas():
-    linhas = [l.replace("(sem efeito principal extraído)", "(nenhum efeito principal extraído)")
+    linhas = [_relatos_adicionais(l.replace("(sem efeito principal extraído)", "(nenhum efeito principal extraído)"))
               for l in tabela_sem_legenda(INS / "tabelas/caracteristicas.md")]
     t = bloco(linhas,
-              "Características dos estudos incluídos, um por linha, com os relatos adicionais do mesmo estudo entre "
-              "parênteses. Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por "
+              "Características dos estudos incluídos, um por linha, com os relatos adicionais do mesmo estudo depois "
+              "de \"também\". Ano do relato principal. Construto: desfechos extraídos do estudo. Risco de viés geral por "
               "resultado (ferramenta: julgamento), julgado só por IA, sem validação humana; \"não avaliado\" quando o estudo não "
               "tem efeito principal.", "tbl-s4-caracteristicas", [15, 5, 15, 10, 13, 9, 7, 9, 17])
     return envolver("tabela-larga", t) + "\n\n" + s4_excluidos()
@@ -382,7 +399,7 @@ def s5_rob():
                  "EPOC por critério (consenso), para proibições e comparações com unidades agregadas. B = baixo; "
                  "A = alto; I = incerto; n.a. = critério que não se aplica ao desenho. GC = critérios para desenho com "
                  "grupo controle; ITS = série temporal interrompida. Sequência aleatória e ocultação da alocação ficam "
-                 "fora do geral (Emenda 4a). † como nas tabelas anteriores.", "tbl-s5-epoc", [10, 7] + [5] * 16 + [3])
+                 "fora do geral (Emenda 4a). † como nas tabelas anteriores.", "tbl-s5-epoc", [9, 7] + [5] * 16 + [4])
     return envolver("tabela-larga", rob2 + "\n\n" + robins + "\n\n" + epoc)
 
 
@@ -563,7 +580,7 @@ def lacunas():
         if len(l) != len(cab):
             raise SystemExit(f"ERRO: lacunas.yml: linha com {len(l)} colunas (esperadas {len(cab)}): {l[:1]}")
     t = mrf.pipe(cab, linhas)
-    return t + "\n\n" + legenda(dados["legenda"], "tbl-lacunas", dados.get("larguras"))
+    return envolver("tabela-larga", t + "\n\n" + legenda(dados["legenda"], "tbl-lacunas", dados.get("larguras")))
 
 
 SECOES = {"s1_busca": s1_busca, "s2_atalhos": s2_atalhos, "s3_emendas": s3_emendas, "lacunas": lacunas,

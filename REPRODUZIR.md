@@ -91,6 +91,21 @@ Cuidados:
 
 A versão de entrega de 30/09/2026 (tag `v3-final-2026-09-30`) registrou a conferência do autor (Emenda 7), reescreveu o artigo como PDF único com apêndices e aplicou a deduplicação decidida por ele (Emenda 8), sem mudar a análise; só as contagens do fluxo mudaram. A versão de 24/09/2026 está na tag `v2-rascunho-2026-09-24`; a anterior, no formato *O que funciona?*, na tag `v1-oqf-2026-09-24`. As seções abaixo descrevem o que foi feito até 24/09/2026, com os números daquela data.
 
+### Revisão geral de 30/09/2026, noite (Emenda 8)
+
+Uma revisão geral do projeto, por três auditorias de IA só de leitura (documentação, artigo e produtos, dados), achou os dados consistentes e os problemas em textos, datas e numa ferramenta. O que o autor decidiu e o que foi feito:
+
+1. **Skill `revisao-sistematica` v1.4** (repositório espelho `~/Desktop/Systematic-Review`, branch `fix/dedup-ids-absorvidos`, com testes de regressão):
+   - a consolidação da triagem e da elegibilidade leva a decisão de um registro absorvido pelo dedup ao que o absorveu, e o `prisma` acusa ids absorvidos com invariantes que dizem o que rodar;
+   - a caixa de ferramentas agrega as linhas de certeza mais finas que a célula dela (`subcelulas-1`), sem esconder a de maior certeza, e a P042 manteve o ID;
+   - a declaração de uso de IA anota, na seção 6, o fechamento das pendências citadas nas descrições e lista, na seção 7, os juízos de IA sem validação humana, em vez de um texto fixo.
+2. **P019 aplicada (Emenda 8):** as 145 decisões do autor e os 9 pares de versão que ele ligou; a regra "a decisão mais inclusiva vence" nos 44 registros absorvidos já triados. Mudaram só contagens do fluxo (522 buscados, 338 não recuperados); incluídos, efeitos e síntese ficaram iguais.
+3. **Marca `verificado_humano`** propagada aos 40 CSVs por estudo (`ferramentas/propagar_verificado_humano.py`); os arquivos combinados ficaram idênticos.
+4. **Textos:** versão e período de uso de IA em 30/09/2026; o δ de 0,044 e 0,046 descrito como desvio da Emenda 5; o que o autor conferiu descrito como no artigo (partes da busca, da seleção e da extração) na vitrine, no README e no pacote; faixa de topo da vitrine retirada a pedido do autor; README, REPRODUZIR, LEIAs, `CITATION.cff` (licenças CC BY 4.0 e MIT) e tabela de emendas corrigidos.
+5. **Tag** `v3-final-2026-09-30`, no lugar da `v3-final-2026-10-01`.
+
+O autor está revendo o risco de viés e o GRADE (P033, P035, P036 e P042).
+
 ### Sessão de 23 e 24/09/2026: o que foi feito
 
 A sessão fez tudo o que não depende de decisão humana e preparou o que depende. Em ordem:

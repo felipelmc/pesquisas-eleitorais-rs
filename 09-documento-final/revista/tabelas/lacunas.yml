@@ -12,10 +12,9 @@
 # P038 (G9). Se o autor não aprovar, esta linha volta a dizer só "na versão de 24/09/2026".
 legenda: >-
   Uso de IA e conferência humana por etapa da síntese. Em bloco pelo autor: em 30/09/2026, o autor declarou ter
-  revisto a etapa e concordado com as decisões em vigor, sem registrar a conferência item a item; a declaração foi
-  transcrita pelo coordenador de IA (Emenda 7). A concordância entre agentes de IA mede consistência, e não
+  revisto o que a coluna descreve e concordado com as decisões em vigor, sem registrar a conferência item a item (Emenda 7). A concordância entre agentes de IA mede consistência, e não
   acurácia, e não vale como validação. Pendência aberta: tarefa de validação humana registrada e não concluída.
-larguras: [13, 23, 23, 29, 12]
+larguras: [11, 23, 21, 36, 9]
 colunas:
   - Etapa
   - Quem executou (modelo)
@@ -41,8 +40,8 @@ linhas:
     - Não se aplica
     - >-
       Em bloco pelo autor: concordou com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar), aplicadas
-      depois da triagem, com a decisão mais inclusiva nos 44 registros já triados; item a item nos 9 pares de
-      versão, ligados por ele (Emenda 8). Os estudos incluídos não mudaram
+      depois da triagem, com a decisão mais inclusiva nos 44 registros já triados; nos 9 pares de versão, ligados
+      por ele como a IA sugeriu (Emenda 8). Os estudos incluídos não mudaram
     - nenhuma
   - - Triagem de títulos e resumos
     - >-
@@ -103,5 +102,5 @@ linhas:
       Não se aplica; verificação e leituras críticas por IA não validam o conteúdo
     - >-
       Em bloco pelo autor, na versão de 24/09/2026 (declaração de 30/09/2026); esta versão, que a reescreve sem mudar
-      a análise, foi lida e aprovada por ele antes da entrega (G9), e as correções da Emenda 8 foram pedidas por ele
+      a análise, foi lida e aprovada por ele antes da Emenda 8 (G9), cuja aplicação ele pediu
     - nenhuma

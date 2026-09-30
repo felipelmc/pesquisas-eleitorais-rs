@@ -277,7 +277,7 @@ def fig_prisma():
             add("o_ident", ramo, "identificacao", "sites e organizações (n = {n})", f"{j}.identificados.sites_organizacoes")
             add("o_ident", ramo, "identificacao", "outros (n = {n})", f"{j}.identificados.outros")
         c = f"{pre}_removidos"
-        add(c, ramo, "identificacao", "Removidos por script antes da triagem (sem IA):", None, "titulo")
+        add(c, ramo, "identificacao", "Removidos por script:", None, "titulo")
         add(c, ramo, "identificacao", ("duplicatas (n = {n})" if ramo == "bases" else
                                         "duplicatas ou já identificados nas bases (n = {n})"),
             f"{j}.removidos_antes_triagem.duplicatas")
@@ -300,7 +300,7 @@ def fig_prisma():
                 sys.exit(f"ERRO: motivo de exclusão sem rótulo ou fora do codebook: {m_}")
             add(f"{pre}_excl_tc", ramo, "triagem", f"{MOTIVO[m_]} (n = {{n}})", f"{j}.excluidos_elegibilidade.motivos.{m_}")
         add(f"{pre}_seta_incl", ramo, "inclusao", "{n} relatos", f"{j}.incluidos_relatos", "seta")
-    add("incluidos", "geral", "inclusao", "Estudos incluídos na revisão (n = {n})", "incluidos.estudos", "titulo")
+    add("incluidos", "geral", "inclusao", "Estudos incluídos na síntese (n = {n})", "incluidos.estudos", "titulo")
     add("incluidos", "geral", "inclusao", "Relatos dos estudos incluídos (n = {n})", "incluidos.relatos", "titulo")
     gravar("dados_prisma.csv", linhas, ["caixa", "ramo", "fase", "linha", "texto", "n", "caminho_json", "estilo"])
 

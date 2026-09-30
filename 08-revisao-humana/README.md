@@ -61,5 +61,5 @@ As leituras críticas simuladas por IA de 24/09/2026 (`09-documento-final/respos
 
 - busca em registros de experimentos e pré-registros (AEA, OSF, EGAP);
 - versão datada do ROBINS-I V2 usada, datas de acesso e parâmetros dos modelos de IA, que não foram registrados;
-- tabela dos motivos de não recuperação dos 338 relatos buscados e tentativa por meios legítimos (acesso institucional, empréstimo, contato com autores);
+- tabela dos motivos de não recuperação dos 338 relatos buscados e não recuperados e tentativa por meios legítimos (acesso institucional, empréstimo, contato com autores);
 - fonte primária do voto obrigatório no Brasil (Constituição, art. 14) e uma medida publicada de confiança nas pesquisas eleitorais, para o contexto brasileiro.

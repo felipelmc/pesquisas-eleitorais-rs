@@ -16,7 +16,7 @@ Triagem, elegibilidade, extração, risco de viés e certeza foram feitos por ag
 - as divergências da recodificação;
 - o relato.
 
-A deduplicação dos 145 pares candidatos, decidida pelo autor, foi aplicada depois da triagem, com os 9 pares de versão ligados por ele (Emenda 8; `08-revisao-humana/P019_dedup/`).
+A deduplicação dos 145 pares candidatos, decidida pelo autor, foi aplicada depois da triagem, com os 9 pares de versão ligados por ele (Emenda 8; `08-revisao-humana/P019_dedup/`). O `motivo` das 145 linhas de `dedup_revisao_v1.csv` foi escrito na Emenda 7 ("decisão registrada e não aplicada nesta versão"); as decisões foram aplicadas em 30/09/2026 pela Emenda 8.
 
 **Não** tiveram validação humana:
 - o risco de viés;

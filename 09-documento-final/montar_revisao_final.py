@@ -574,9 +574,9 @@ def estudos_sof(cid, n_por_celula):
     partes = []
     for e in n_por_celula[cid]:
         if e["n"] is None:
-            partes.append(f"@{e['chave']}, n não relatado")
+            partes.append(f"@{e['chave']}, n\u00a0não relatado")
         else:
-            partes.append(f"@{e['chave']}, n = {pt(e['n'])}" + (f" {e['unidade']}" if e["unidade"] else ""))
+            partes.append(f"@{e['chave']}, n\u00a0=\u00a0{pt(e['n'])}" + (f" {e['unidade']}" if e["unidade"] else ""))
     return f"{k} estudo{'s' if k > 1 else ''}: " + "; ".join(partes)
 
 

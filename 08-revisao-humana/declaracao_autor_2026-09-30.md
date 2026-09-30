@@ -37,6 +37,7 @@ O autor **não** marcou o bloco "RoB e GRADE" (259 domínios de risco de viés e
   - O autor concorda com as sugestões da IA nos 145 pares.
   - Antes, tinha escolhido aplicar essas sugestões. Informado de que aplicar quebraria o `rs prisma` e criaria 9 pares novos, que ele não viu, escolheu **registrar as decisões e não aplicá-las** nesta versão.
   - A P019 fica aberta.
+  - [Nota de 30/09/2026: aplicadas no mesmo dia, a pedido do autor (Emenda 8; `P019_dedup/declaracao_autor_2026-09-30_dedup.md`). A P019 fechou.]
 
 - **Rótulo.** O produto passa a se chamar "síntese sistemática de evidências conduzida com agentes de IA", pela regra R7.28 do livro do autor, sem o adjetivo "rápida".
 

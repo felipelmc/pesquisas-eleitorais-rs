@@ -49,15 +49,16 @@ prisma:
   largura: larga
   legenda: >-
     Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação (bases de dados e busca por citações). A
-    remoção antes da triagem (duplicatas e filtro de ano de publicação) foi feita por script, sem IA, com as fusões
-    de duplicatas decididas pelo autor aplicadas depois da triagem (Emenda 8). A triagem de
+    remoção de duplicatas e o filtro de ano de publicação foram feitos por script; nos 145 pares incertos, o autor
+    concordou com as sugestões da IA, e essas fusões (58 registros, 44 já triados) foram aplicadas depois da triagem
+    (Emenda 8). A triagem de
     títulos e resumos ficou com agentes de IA, assim como a avaliação dos textos completos, conferida em bloco
     pelo autor (Emenda 7), exceto 16 casos limítrofes decididos pelo autor (8 inclusões e 8 exclusões). A triagem complementar da Emenda 6b entra no
     fluxo sem ramo próprio, e os relatos dela que não foram recuperados estão entre os não recuperados. As caixas
     do modelo PRISMA que não se aplicam a esta síntese (n = 0) foram omitidas. Os motivos de exclusão seguem os
     critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível contam como não
-    recuperados. Nos 44 registros já triados que as fusões absorveram, a decisão mais inclusiva passou ao
-    registro que os absorveu, e os estudos incluídos não mudaram (Apêndice G).
+    recuperados. Nos 44 registros já triados que as fusões absorveram, o registro que absorveu ficou com a decisão
+    mais inclusiva do par, e os estudos incluídos não mudaram (Apêndice G).
   alt: >-
     Fluxograma em dois ramos paralelos, bases de dados e busca por citações, que descem da identificação à
     triagem e convergem numa caixa final com os estudos e relatos incluídos.
@@ -103,8 +104,7 @@ direcao:
     na síntese principal, seja porque o efeito principal não estima o contraste da exposição, seja por risco
     crítico ou por alvo sem posição única de líder ou azarão ("outro alvo", em que o sinal é só positivo ou
     negativo). A direção vem do estimador pontual, e o efeito é nulo quando o intervalo de 95% fica inteiro
-    dentro de ±δ. O tamanho do símbolo é constante porque os estudos medem em unidades diferentes. O risco de viés
-    usa os símbolos do robvis, e os julgamentos são de IA, não validados.
+    dentro de ±δ. O risco de viés segue a @fig-rob, com julgamentos de IA.
   alt: >-
     Tabela gráfica com um estudo por linha: triângulo azul para cima quando o efeito aponta a favor, triângulo
     laranja para baixo quando aponta contra, losango para misto e anel para nulo, com o risco de viés num
@@ -131,7 +131,7 @@ metas:
     faixa estreita em torno de zero. Nos dois painéis, o intervalo combinado cruza o zero.
 
 realismo:
-  largura: texto
+  largura: larga
   legenda: >-
     Direção do efeito por realismo do contexto (eleição hipotética, preferências induzidas em laboratório ou
     eleição real), separada por classe de desenho, no apoio a quem aparece à frente (célula principal) e no

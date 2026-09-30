@@ -1,5 +1,7 @@
 # P019 — Revisão humana dos candidatos a duplicata
 
+> **30/09/2026: decididos pelo autor e aplicados pela Emenda 8** (`declaracao_autor_2026-09-30_dedup.md`), depois de corrigida a ferramenta; os 9 pares de versão que a aplicação reabriu estão em `dedup_revisao_v2_versoes.csv`. O texto abaixo descreve o pacote como foi preparado em 23/09/2026: não rode os comandos dele de novo.
+
 ## O que é esta planilha
 
 `dedup_revisao_v1.csv` contém os **145 pares** que `01-busca/dedup_pares.csv` marcou como

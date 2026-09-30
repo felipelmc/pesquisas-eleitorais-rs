@@ -1,6 +1,6 @@
 # Declaração complementar de uso de IA: agentes que prepararam o texto
 
-Esta declaração complementa a declaração gerada do *log* (`07-relatorio/declaracao_uso_ia.md`), que não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. O estado atual das etapas sem validação humana está no Apêndice G do artigo (versão de entrega de 01/10/2026, Emenda 7).
+Esta declaração complementa a declaração gerada do *log* (`07-relatorio/declaracao_uso_ia.md`), que não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. O estado atual das etapas sem validação humana está no Apêndice G do artigo (versão de entrega de 30/09/2026, Emendas 7 e 8).
 
 ## Versão de entrega (30/09/2026)
 
@@ -14,7 +14,22 @@ Coordenador: `claude-opus-5-5` (Claude Code). Os agentes reescreveram o artigo d
 | `prompts_final/prompt_verificacao_entrega.md` | verificação independente | claude-opus-5-5 | `e7e183c223f25546…` |
 | `prompts_final/prompt_correcoes_estilo_entrega.md` | correções da verificação e passe de estilo (voz do autor e anti-IA) | claude-opus-5-5 | `0685e99373fcbd7b…` |
 
-Nenhuma dessas etapas valida o conteúdo. A verificação é de IA e não é revisão por especialista humano. A responsabilidade pelo conteúdo é do autor, que leu e aprovou esta versão antes da entrega.
+Nenhuma dessas etapas valida o conteúdo. A verificação é de IA e não é revisão por especialista humano. A responsabilidade pelo conteúdo é do autor, que leu e aprovou esta versão antes da Emenda 8.
+
+## Revisão geral de 30/09/2026, noite (Emenda 8)
+
+Coordenador: `claude-opus-5-5` (Claude Code). A pedido do autor, agentes revisaram o projeto inteiro, corrigiram a ferramenta de revisão e conferiram o texto refeito. Nenhum deles leu PDF de estudo incluído nem fez análise nova. As decisões (aplicar a deduplicação, a regra das decisões divergentes, os 9 pares de versão, as datas, a frase do δ, a faixa da vitrine) são do autor, tomadas em chat.
+
+| Prompt | Papel | Modelo | SHA256 (início) |
+|---|---|---|---|
+| na própria chamada | três auditorias só de leitura (documentação; artigo e produtos; dados) | agente de busca do Claude Code, modelo não registrado | — |
+| na própria chamada | dois planejamentos só de leitura (correção da deduplicação; caixa, declaração de IA e marca de verificação) | agente de planejamento do Claude Code, modelo não registrado | — |
+| na própria chamada | correção da caixa de ferramentas na skill, com testes | claude-opus-5-5 | — |
+| na própria chamada | correção da declaração de uso de IA na skill, com testes | claude-opus-5-5 | — |
+| `prompts_final/prompt_verificacao_emenda8.md` | verificação independente das mudanças (`verificacao_emenda8.md`) | claude-opus-5-5 | `6bd5d11560eebeb1…` |
+| `prompts_v2/prompt_qa_visual_pdf.md`, adaptado na chamada | revisão visual do PDF (`_qa/qa_visual_entrega_emenda8.md`) | claude-opus-5-5 | — |
+
+O coordenador fez a correção da deduplicação na skill, aplicou a Emenda 8 com o `rs.py` e as correções apontadas pela verificação e pela revisão visual. Nenhuma dessas etapas valida o conteúdo.
 
 ## Versão de 24/09/2026 (histórico)
 

@@ -152,6 +152,12 @@
           first-line-indent: (amount: 1.2em, all: false))
   show regex("\\b(bandwagon|underdog|momentum|survey|surveys|leave-one-out|forest plot|harvest plot)\\b"): it => text(lang: "en", hyphenate: false, it)
   show raw: set text(font: mono, size: 0.88em)
+  // identificador curto em código (nome de modelo, comando) não quebra no hífen; as strings de busca longas, sim
+  show raw.where(block: false): it => if it.text.len() <= 30 { box(it) } else { it }
+  // blocos de código do Quarto (Skylighting, fundo #f1f3f5): sem justificar, para não esticar os espaços
+  show block.where(fill: rgb("#f1f3f5")): set par(justify: false)
+  // apêndices: parágrafos sem recuo de primeira linha, para as entradas paralelas (estratégias de busca) ficarem iguais
+  set par(first-line-indent: 0pt, spacing: 0.8em) if apendices
   show math.equation: set text(font: "STIX Two Math")
 
   set heading(numbering: sectionnumbering)

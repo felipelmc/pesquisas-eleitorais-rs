@@ -88,7 +88,7 @@ Escrita em 30/09/2026 por subagente de IA (`claude-opus-5-5`, papel de arquiteto
 
 ### 1.5 Datas
 
-A trava aceita as datas do v1 e do protocolo, mais 24/09/2026, 25/09/2026, 30/09/2026 e 01/10/2026. Use só estas:
+A trava aceita as datas do v1 e do protocolo, mais 24/09/2026, 25/09/2026 e 30/09/2026. Use só estas:
 
 | Data | Para quê |
 |---|---|

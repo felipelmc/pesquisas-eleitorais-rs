@@ -157,7 +157,7 @@ def diagrama_prisma(D):
         titulo = "Via bases de dados" if r["id"] == "bases" else "Via outros métodos"
         h += _diag_ramo(r, titulo, fontes, mot)
     h += '</div>'
-    h += (f'<p class="pd-final"><span class="pd-etapa">Incluídos na revisão</span>Estudos: <strong>n = {P["estudos"]}</strong> · '
+    h += (f'<p class="pd-final"><span class="pd-etapa">Incluídos na síntese</span>Estudos: <strong>n = {P["estudos"]}</strong> · '
           f'relatos: <strong>n = {P["relatos"]}</strong></p>')
     return h
 
@@ -169,7 +169,7 @@ def _fmt(n):
 def _diag_ramo(r, titulo, fontes, mot):
     linhas = [
         ("Identificação", f'Registros identificados: <strong>n = {r["identificados_fmt"]}</strong><br>{fontes}',
-         f'Removidos antes da triagem:<br>duplicatas (n = {_fmt(r["duplicatas"])})<br>por automação, filtro de ano (n = {_fmt(r["automacao"])})'),
+         f'Removidos por script:<br>duplicatas (n = {_fmt(r["duplicatas"])})<br>por automação, filtro de ano (n = {_fmt(r["automacao"])})'),
         ("Triagem", f'Registros triados: <strong>n = {_fmt(r["triados"])}</strong>', f'Registros excluídos: n = {_fmt(r["excluidos_triagem"])}'),
         ("", f'Relatos buscados para recuperação: <strong>n = {_fmt(r["buscados"])}</strong>', f'Relatos não recuperados: n = {_fmt(r["nao_recuperados"])}'),
         ("", f'Relatos avaliados para elegibilidade: <strong>n = {_fmt(r["avaliados"])}</strong>',
