@@ -653,7 +653,7 @@
       "descricao": "PRESS 2015 da estratégia S-oa-en-v4 por revisor humano; houve só pré-revisão por subagente (atalho A4; 01-busca/prepress_S-oa-en-v3_ia.md)",
       "n": null,
       "arquivo": "01-busca/strings/S-oa-en-v4.txt",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P002",
@@ -683,7 +683,7 @@
       "descricao": "confirmar a aprovação automática do G3: P001 aberta: PRESS 2015 da estratégia S-oa-en-v4 por revisor humano; houve só pré-revisão por subagente (atalho A4; 01-busca/prepress_S-oa-en-v3_ia.md)",
       "n": null,
       "arquivo": null,
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P005",
@@ -843,7 +843,7 @@
       "descricao": "resolver 81 divergências da triagem (ta_v1) com `triagem override --fila 02-triagem/fila_humana_ta_v1.csv` [substitui P016]",
       "n": 81,
       "arquivo": "02-triagem/fila_humana_ta_v1.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P021",
@@ -873,7 +873,7 @@
       "descricao": "confirmar a aprovação automática do G5: P022 aberta: conferir 149 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P021]",
       "n": null,
       "arquivo": null,
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P024",
@@ -893,7 +893,7 @@
       "descricao": "conferir fichas e efeitos do piloto contra os PDFs (revisão de coordenador de IA já feita e documentada em 05-decomposicao/piloto/revisao_coordenador.md; falta conferência humana)",
       "n": 3,
       "arquivo": "05-decomposicao/piloto_fichamentos_master.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P026",
@@ -903,7 +903,7 @@
       "descricao": "confirmar a aprovação automática do G6: P025 aberta: conferir fichas e efeitos do piloto contra os PDFs (revisão de coordenador de IA já feita e documentada em 05-decomposicao/piloto/revisao_coordenador.md; falta conferência humana)",
       "n": null,
       "arquivo": null,
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P027",
@@ -1013,7 +1013,7 @@
       "descricao": "Recodificação cega (Sonnet) de 10 estudos: concordância de valores 58,5% (560 comparações), 37 variáveis sinalizadas, entre elas alvo_efeito (50%, κ 0,38), comparador_tipo (50%, κ 0,38), b2_estimando (60%, κ 0,15) e direção do principal (50%); humano deve arbitrar as divergências em 05-decomposicao/validacao_extracao/concordancia/concordancia.csv ou redefinir e recodificar",
       "n": null,
       "arquivo": null,
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P038",
@@ -1033,7 +1033,7 @@
       "descricao": "conferir 100% dos dados de efeito na página do PDF e marcar verificado_humano [substitui P032]",
       "n": 560,
       "arquivo": "05-decomposicao/verificacao_efeitos.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P040",
@@ -1053,7 +1053,7 @@
       "descricao": "conferir 165 decisões de elegibilidade propostas a partir das fichas (humano decide com `triagem override --etapa tc`; incertos primeiro) [substitui P040]",
       "n": 165,
       "arquivo": "03-textos/elegibilidade_tc_final.csv",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "P042",
@@ -1068,13 +1068,13 @@
   ],
   "contagens_cache": {
     "prisma": {
-      "hash_insumos": "c2df6bb378e3616e10743b48ae5f554a969b07f1bb5a68891600ea9da2c9dcb7",
-      "gerado_em": "2026-09-24T03:26:11Z",
+      "hash_insumos": "70fa8776a20ffac58db0cd1c37a00b5b4a5c5c8341291cec20aa48584b7cf981",
+      "gerado_em": "2026-09-30T16:10:51Z",
       "incluidos": {
         "estudos": 41,
         "relatos": 55
       }
     }
   },
-  "ultimo_seq": 834
+  "ultimo_seq": 857
 }

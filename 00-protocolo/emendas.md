@@ -32,6 +32,7 @@ D método planejado não executado · E correção de erro ou incoerência.
 | Emenda 4 | 2026-09-23 | v1.0 (protocolo não alterado) | seções 6 a 8: convenções de RoB geral EPOC, *momentum*, ICC imputado, consenso de RoB | C | depois da extração, antes de qualquer análise de efeito | não (4d substituída pela Emenda 6a) |
 | Emenda 5 | 2026-09-23 | v1.0 (protocolo não alterado) | seção 8, síntese | C | depois da primeira síntese (G8) | SWiM, meta exploratória e GRADE refeitos |
 | Emenda 6 | 2026-09-23 | v1.0 (protocolo não alterado) | seções 5 e 10: atribuição de decisões e registros sem resumo | E e C | depois do G9 | triagem complementar de 336 registros; texto completo dos que seguirem; síntese e relato refeitos |
+| Emenda 7 | 2026-09-30 | v1.0 (protocolo não alterado) | seções 5, 6, 7, 10 e 11: conferência do autor, etapas sem validação humana, rótulo e marcação dos produtos | C e D | depois do G9, na versão de entrega | não (nenhum dado de efeito, decisão em vigor ou contagem do PRISMA muda; relato reescrito) |
 
 ## E001
 
@@ -157,3 +158,34 @@ O `rs_log.jsonl` e o `dados/decisoes.jsonl` só aceitam acréscimo. Por isso as 
 **Efeito.** Pode mudar o conjunto de incluídos. Se mudar, extração, RoB, síntese, GRADE e relato são refeitos pela cadeia do README. As contagens do PRISMA passam a mostrar as exclusões da etapa 6b à parte.
 
 **Nota de 24/09/2026 (efeito da Emenda 6 e das correções de efeitos de 23/09).** O δ da célula pesquisa_pre_eleitoral × apoio_ao_lider × sem_pesquisa × principal × randomizado, definido pela Emenda 5 (item 7) como 2 p.p. convertidos pela mediana dos p0 da célula, foi recalculado com os efeitos corrigidos: mediana de p0 = 0,73, δ = 0,0573 (antes 0,74 e 0,059). A regra não mudou; mudaram os dados de entrada (`06-analise/_delta_celula.txt`).
+
+## Emenda 7 — 30/09/2026 — conferência do autor, etapas sem validação humana e versão de entrega (tipos C e D)
+
+Decidida pelo revisor humano em 30/09/2026, depois do G9 e depois de ver os dados, ao pedir a versão final de entrega. O registro é a declaração do autor em chat, transcrita pelo coordenador de IA em `08-revisao-humana/declaracao_autor_2026-09-30.md`. Foi uma declaração em bloco: o autor diz ter revisado as etapas listadas em 7a e concordar com as decisões em vigor, mas não preencheu as planilhas item a item. Os campos humanos foram preenchidos pelo coordenador com base nessa declaração.
+
+**7a. Etapas conferidas pelo autor (tipo C).** O autor declarou ter revisado as etapas abaixo e confirmou o **estado atual**. Nenhuma decisão em vigor, nenhum dado de efeito e nenhuma contagem do PRISMA mudou.
+
+- Busca: conferência da pré-revisão PRESS da S-oa-en-v5 feita por IA, com a decisão (a), que aceita a v5 e declara as lacunas (`01-busca/press_revisor_humano_1.md`). Não é uma revisão PRESS independente. Fecha P001 e P004.
+- Triagem de títulos e resumos: as 81 divergências seguem ao texto completo pela regra liberal (`decisao_humana = incerto`). A `decisao_final` de `02-triagem/triagem_ta_final.csv` não mudou. Fecha P020.
+- Texto completo: as 165 propostas de elegibilidade foram mantidas. As 3 decisões em que a IA estendeu uma regra do autor (RS4220, RS4487 e RS4361, seq 669 a 671) passam a ser endossadas por ele, o que reverte em parte a Emenda 6a. O conjunto de incluídos segue com 41 estudos e 55 relatos. Fecha P041 e P023.
+- Piloto: os 3 estudos foram mantidos, e a Emenda 2 (decidida pelo coordenador de IA, Emenda 6a) passa a ser endossada pelo autor. Fecha P025 e P026.
+- Efeitos: os 560 efeitos foram conferidos na página do PDF e marcados `verificado_humano = sim`. Os pontos de julgamento de `08-revisao-humana/efeitos/pontos_para_o_revisor.md` ficam no estado atual. Fecha P039.
+- Recodificação da extração: nas 259 divergências (`08-revisao-humana/P037_concordancia/arbitragem_humana.csv`), fica o valor original, inclusive nas 28 em que o terceiro leitor de IA sugeriu outro valor. Nenhuma delas é variável que define célula da síntese. Fecha P037.
+- Deduplicação: o autor concorda com as sugestões da IA nos 145 pares (66 fusões, 56 rejeições e 23 ligações). As decisões estão gravadas em `08-revisao-humana/P019_dedup/dedup_revisao_v1.csv`, mas **não foram aplicadas**. Numa simulação em memória feita por um agente revisor de IA, aplicá-las absorveria 58 registros, 44 deles já triados. O `rs prisma` falharia (`triagem_ids_desconhecidos`) e surgiriam 9 pares novos de versão, que o autor não viu. Os incluídos não mudariam. As estimativas para o PRISMA eram duplicatas de 46 e 4 para 91 e 17, registros a triar de 1.573 e 1.054 para 1.533 e 1.050, buscados de 526 para 521 e não recuperados de 342 para 337. A P019 fica aberta.
+
+**7b. Métodos planejados e não executados (tipo D).**
+
+- Validação cega da triagem (seção 5): as amostras de validação (141) e de elusão (300) não foram codificadas por humanos, e o *recall* da triagem por IA não foi estimado. Concordar com a IA depois de ver as decisões não vale como codificação cega. P006, P007 e o G4 (P008) ficam abertos.
+- Risco de viés (seção 7): o protocolo pede que o `revisor_humano_1` confirme o consenso dos desacordos. Isso não foi feito. Os 259 domínios foram julgados só por IA (avaliadores A e B e árbitro), e `validado_humano = 0` continua em todo o RoB. A P033 (G7) fica aberta.
+- Certeza (seção 8): os juízos GRADE foram feitos só por IA e não foram validados. P036, P042 e o G8 (P035) ficam abertos.
+- Dupla extração (seção 6): a recodificação cega ficou abaixo do limiar do protocolo (58,5% de concordância nos valores, contra o mínimo de 80% e κ ou PABAK de pelo menos 0,7 por variável). A contingência prevista, redefinir e recodificar, não foi acionada. O autor resolveu as divergências como em 7a.
+
+Na versão de entrega, o autor declara essas etapas como feitas inteiramente por IA. Numa evolução do projeto, elas precisam de validação humana.
+
+**7c. Rótulo e marcação dos produtos (tipo C).**
+
+- Pela regra R7.28 do livro que orienta a revisão, um produto executado por agentes não conta como revisão sistemática. O artigo de entrega passa a se chamar "síntese sistemática de evidências conduzida com agentes de IA", e o protocolo e os métodos não mudam.
+- O protocolo (seção 10) manda marcar "RASCUNHO NÃO VALIDADO" nos produtos enquanto houver pendência aberta. Na versão de entrega, a marca sai da capa, do cabeçalho, da marca-d'água e dos avisos ao longo do texto. Ela fica só na primeira linha da declaração de uso de IA, seguida da lista do que não teve validação humana, como pede a regra R7.23. É um desvio parcial da seção 10.
+- A caixa de ferramentas no formato *O que funciona?* (opcional neste tipo de revisão) sai do artigo de entrega: com a certeza muito baixa e o GRADE não validado, nenhuma célula tem rótulo definido.
+- O material suplementar passa a apêndices do próprio artigo.
+- O repositório continua privado. Um pacote de replicação sem resumos e sem e-mails de terceiros é publicado pelo GitHub Pages (seção 11).
