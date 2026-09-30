@@ -6,16 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Revisão sistemática conduzida com a skill `revisao-sistematica` (e as irmãs `baixar-pdfs-academicos`, `fichamento-sistematico`, `gerar-bibtex`). O tema é o efeito da exposição a pesquisas eleitorais publicadas no voto, com a direção *bandwagon* × *underdog*. Tipo `efetividade_swim`, variante rápida, autopiloto, triagem por subagentes. Pergunta, resultado e o mapa do repositório estão no `README.md` (curto); estrutura detalhada, cadeia de refazer e histórico, no `REPRODUZIR.md`. Leia os dois antes de qualquer trabalho.
 
-Estado em 24/09/2026: G1 e G2 aprovados pelo revisor humano, G3 a G9 pelo autopiloto. A sessão de 23 e 24/09 fez tudo o que não depende de humano:
-- Emenda 6: correção de atribuição e triagem complementar dos registros sem resumo;
-- re-extração cega e arbitragem dos efeitos, com 771 correções;
-- síntese e GRADE refeitos;
-- pacotes de revisão humana;
-- publicação no GitHub Pages.
+**Estado atual: versão de entrega (30/09 e 01/10/2026, Emenda 7), publicada e marcada na tag `v3-final-2026-10-01`.** G1 e G2 foram aprovados pelo revisor humano; G3 a G9, pelo autopiloto. O autor declarou ter conferido **em bloco** busca, triagem, elegibilidade, os 560 efeitos, a recodificação, o piloto e o relato, mantendo o estado em vigor (`08-revisao-humana/declaracao_autor_2026-09-30.md`). Com isso fecharam P001, P004, P020, P041, P023, P025, P026, P039 e P037 com `--por revisor_humano_1`. Ficam **abertas** P006, P007 e P008 (validação cega não feita), P019 (deduplicação decidida e **não aplicada**), P033 (RoB), P035, P036 e P042 (GRADE): essas etapas são declaradas como feitas só por IA. A P038 (G9) fechou em 30/09/2026, quando o autor leu e aprovou o PDF final (commit `e377c50`). O produto passou a se chamar "síntese sistemática de evidências conduzida com agentes de IA" (regra R7.28 do livro do usuário). A entrega é um PDF único, `docs/revisao.pdf`: o artigo (~8 mil palavras) seguido dos apêndices A a G, sem marca-d'água; "RASCUNHO NÃO VALIDADO" fica só na abertura da declaração de uso de IA (R7.23). O repositório segue privado; um pacote de replicação sanitizado sai no Pages. O que falta é trabalho humano (`08-revisao-humana/README.md`).
 
-Na tarde de 24/09, o documento final foi reescrito como artigo de revisão sistemática (padrão Campbell/Cochrane mais o relatório OQF do livro do usuário). Saem dele um PDF de *journal* em Typst, o suplemento S1 a S11, um resumo em linguagem simples e uma vitrine interativa, que é a página de entrada. Nada mudou na análise. A versão anterior está na tag `v1-oqf-2026-09-24`.
-
-**Versão de entrega (30/09 e 01/10/2026, Emenda 7).** O autor declarou ter conferido **em bloco** busca, triagem, elegibilidade, os 560 efeitos, a recodificação, o piloto e o relato, mantendo o estado em vigor (`08-revisao-humana/declaracao_autor_2026-09-30.md`). Com isso fecharam P001, P004, P020, P041, P023, P025, P026, P039 e P037 com `--por revisor_humano_1`. Ficam **abertas** P006, P007 e P008 (validação cega não feita), P019 (deduplicação decidida e **não aplicada**), P033 (RoB), P035, P036 e P042 (GRADE): essas etapas são declaradas como feitas só por IA. A P038 (G9) fechou em 30/09/2026, quando o autor leu e aprovou o PDF final (commit `e377c50`). O produto passou a se chamar "síntese sistemática de evidências conduzida com agentes de IA" (regra R7.28 do livro do usuário). A entrega é um PDF único, `docs/revisao.pdf`: o artigo (~8 mil palavras) seguido dos apêndices A a G, sem marca-d'água; "RASCUNHO NÃO VALIDADO" fica só na abertura da declaração de uso de IA (R7.23). O repositório segue privado; um pacote de replicação sanitizado sai no Pages. A versão de 24/09 está na tag `v2-rascunho-2026-09-24`. O que falta é trabalho humano (`08-revisao-humana/README.md`).
+Versões anteriores: `v1-oqf-2026-09-24` (relatório no formato OQF) e `v2-rascunho-2026-09-24` (artigo de 24/09, com suplemento S1 a S11). O que as sessões de 23 e 24/09 fizeram (Emenda 6, re-extração cega e arbitragem dos efeitos com 771 correções, síntese e GRADE refeitos, pacotes de revisão humana, reescrita como artigo) está no histórico do `REPRODUZIR.md`.
 
 ## Como começar uma sessão
 
@@ -42,7 +35,7 @@ bash 09-documento-final/revista/teste_travas.sh   # testa as próprias travas co
 cd 09-documento-final && TYPST_IGNORE_SYSTEM_FONTS=true TYPST_IGNORE_EMBEDDED_FONTS=true quarto render revisao_final.qmd --to typst -M keep-typ:false --output revisao.pdf && python3 revista/verificar_pdf.py revisao.pdf --artigo
 ```
 
-Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode antes os geradores do passo 1 do `publicar.sh` (`revista/gerar_*.py`, `preparar_referencias.py`, `figuras/preparar_dados_figuras.py`, `figuras/gerar_figuras.R`). A vitrine se monta com `python3 09-documento-final/vitrine/montar_vitrine.py` (detalhes e QA em `09-documento-final/vitrine/README.md`).
+Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode antes os geradores do passo 1 do `publicar.sh` (`revista/gerar_*.py`, `preparar_referencias.py`, `figuras/preparar_dados_figuras.py`, `figuras/gerar_figuras.R`, `figuras/verificar_figuras.py`). A vitrine se monta com `python3 09-documento-final/vitrine/montar_vitrine.py` (detalhes e QA em `09-documento-final/vitrine/README.md`).
 
 ## Regras do usuário (valem em toda sessão)
 
@@ -58,7 +51,7 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 ## Regras da skill que mais pesam aqui
 
 - Nunca edite à mão `rs_estado.json`, `rs_log.jsonl`, `dados/`. Só `rs.py` escreve neles.
-- O protocolo está congelado desde o G2. Qualquer mudança de método é emenda em `00-protocolo/emendas.md` registrada com `rs emenda`, declarando se foi decidida antes ou depois de ver os dados. Hoje há E001 e E002 (busca) e as Emendas 1 a 6. A 5 (pós-revisão metodológica do G8) define a síntese. A 6 corrige atribuições humanas indevidas (`00-protocolo/correcao_atribuicao.csv`) e define a triagem complementar por IA dos registros sem resumo (6b, dispensada de conferência pelo revisor).
+- O protocolo está congelado desde o G2. Qualquer mudança de método é emenda em `00-protocolo/emendas.md` registrada com `rs emenda`, declarando se foi decidida antes ou depois de ver os dados. Hoje há E001 e E002 (busca) e as Emendas 1 a 7. A 5 (pós-revisão metodológica do G8) define a síntese. A 6 corrige atribuições humanas indevidas (`00-protocolo/correcao_atribuicao.csv`) e define a triagem complementar por IA dos registros sem resumo (6b, dispensada de conferência pelo revisor). A 7 registra a conferência em bloco do autor e a versão de entrega.
 - `resolvido_por`, `verificado_humano`, `validado_humano` e `--por revisor_humano_1` só recebem papel humano quando o usuário declarar que fez aquela revisão. Concordância entre dois avaliadores de IA não valida nada.
 - Direção pelo estimador, nunca pela significância. A certeza GRADE qualifica a direção, não a magnitude.
 - Junções só por `id_rs`, `id_registro`, `chave` ou `chave + construto_outcome`, nunca por título.
@@ -66,13 +59,13 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
   - `05-decomposicao/prompt_complemento_efeitos.md`;
   - `04-qualidade/prompt_arbitro_rob.md`;
   - `06-analise/prompt_grade_v2.md`;
-  - `07-relatorio/prompt_redator_v2.md`;
+  - `07-relatorio/prompt_redator_v2.md` (relatório técnico de 24/09, histórico);
   - `03-textos/prompts_fichamento/fichador_elegibilidade.md`, com a raiz trocada;
   - `08-revisao-humana/efeitos/prompt_reextracao_cega.md` e `prompt_arbitro_efeitos.md`;
   - `08-revisao-humana/P037_concordancia/prompt_terceiro_leitor.md`;
   - `02-triagem/sem_resumo_revisao/INSTRUCOES_triagem.md`;
   - `09-documento-final/prompt_redator_final.md`, `prompt_estilo.md` e `prompt_verificacao.md` (versão OQF, histórico);
-  - `09-documento-final/prompts_final/` (versão de entrega: redator por bloco; a especificação é `spec_final.md`);
+  - `09-documento-final/prompts_final/` (versão de entrega: redator por bloco, verificação independente, correções de estilo e listas de conferência; a especificação é `spec_final.md`);
   - `09-documento-final/prompts_v2/` (artigo de 24/09, histórico e base dos passes): arquiteto, redator, abertura, verificação (`prompt_verificacao_final.md`), rubrica, leituras críticas, revisão, estilo (`prompt_estilo_v2.md`), figuras, tabelas e montagem, vitrine, checklists e revisão visual do PDF. A lista com modelo e SHA256 está em `09-documento-final/declaracao_ia_v2.md`.
 
 ## Convenções da síntese (Emenda 5)
@@ -99,7 +92,7 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 - `desenho` precisa conter "randomizado" para o `_cli.R` classificar como randomizado. Ele já trata "não randomizado" como negação; não reclassifique por regex própria.
 - Conversões do `efeitos.R`: `dif_prop` precisa de `p0` e de `se_pp`, IC ou `n1 + n2`; `beta_sd` precisa de `sdy`; o ajuste de cluster precisa de `cluster` e `icc`.
 - Qualquer mudança num efeito derruba o `verificado_humano` da linha. Depois de corrigir `05-decomposicao/efeitos/<chave>.csv`, rode a cadeia inteira de novo, a partir de `preparar-efeitos`.
-- Os números do manuscrito foram escritos por subagente a partir dos arquivos. Se a síntese mudar, reescreva as seções afetadas do `relatorio.qmd` (use `07-relatorio/prompt_redator_v2.md`; o `prompt_redator.md` é a versão de 23/09, com a raiz antiga); não basta renderizar.
+- Os números do artigo foram escritos por subagentes a partir dos arquivos. Se a síntese mudar, não basta renderizar: o `refazer_produtos.sh` para na sentinela da `spec_final.md` (seção 10), que diz quais seções do esqueleto reescrever com os prompts de `09-documento-final/prompts_final/`. O `07-relatorio/relatorio.qmd` (relatório técnico de 24/09, redigido com `prompt_redator_v2.md`) está superado e não é mais publicado.
 - Backups e versões superadas (`05-decomposicao/efeitos_backup_*`, `06-analise/_superado_pre_revisao_g8/`) são histórico. Não os use como entrada.
 - `rs triagem consolidar` usa a regra `consenso` por padrão. A rodada ta_v1 é **liberal**: passe sempre `--regra liberal`.
 - `rs triagem override` grava `tipo_ator = humano` fixo. Para registrar decisão de IA por ele (caso da Emenda 6b), use um `--por` que diga IA (`ia_coordenador_emenda6`) e um motivo explícito, e documente na emenda.
@@ -114,7 +107,7 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 - O gate de citações das fichas de elegibilidade é `03-textos/prompts_fichamento/gate_sem_heuristica.py <ficha> <pdf>`. Ficha reprovada vai para `_reprovadas/` como `<nome>.tentativaN.md` e é refeita por um fichador novo, nunca corrigida à mão.
 - Publicação:
   - `bash ferramentas/publicar.sh` gera e confere `docs/`: `revisao.pdf` (artigo em pé + apêndices deitados, compilados à parte e juntados por `ferramentas/juntar_pdf.py`, com a página inicial dos apêndices = páginas do artigo + 1), `revisao.html`, `apendices.html`, `linguagem-simples.html`, `pacote-replicacao.zip` (`ferramentas/montar_pacote.py`, que falha se achar e-mail, caminho local ou trecho de resumo de terceiro) e a vitrine (`index.html`). Ele roda todas as travas, `verificar_pdf.py` (artigo, apêndices e `--completo`), sanitização, textos, links (arquivo ou âncora ausente = FALHA) e licenças, e limpa `docs/` por lista branca. Relatório técnico, suplemento separado, guia e `.docx` não são mais publicados.
-  - O `publicar.sh` saiu de `docs/`, onde ficava publicado, para `ferramentas/`. Nada de dados brutos, fichas ou PDFs de terceiros entra em `docs/`.
+  - Nada de dados brutos, fichas ou PDFs de terceiros entra em `docs/`.
   - `bash ferramentas/refazer_produtos.sh` roda a sentinela (`spec_final.md`, seção 10), as tabelas, a caixa e a publicação.
   - O endereço é <https://felipelamarca.com/pesquisas-eleitorais-rs/>, o domínio próprio do Pages do usuário.
 - Artigo final (`09-documento-final/`):
@@ -143,5 +136,5 @@ Se mexer em `celulas.json`, `numeros_v2.json`, referências ou figuras, rode ant
 - Conferência dos efeitos por IA em 23/09: `08-revisao-humana/efeitos/` (re-extração cega, comparação, arbitragens, `pontos_para_o_revisor.md`), `05-decomposicao/correcoes_sessao_2026-09-23.csv`.
 - Revisão humana: `08-revisao-humana/README.md` (ordem, esforço, pacote e comando de cada pendência).
 - Uso de IA: `07-relatorio/declaracao_uso_ia.md` (gerada do log) e `07-relatorio/declaracao_uso_ia_texto.md`.
-- Versão de entrega: `09-documento-final/spec_final.md` (estrutura, orçamentos, apêndices, lacunas e sentinela), Emenda 7 e `08-revisao-humana/declaracao_autor_2026-09-30.md`.
+- Versão de entrega: `09-documento-final/spec_final.md` (estrutura, orçamentos, apêndices, lacunas e sentinela), `verificacao_entrega.md` (verificação independente por IA), Emenda 7 e `08-revisao-humana/declaracao_autor_2026-09-30.md`.
 - Artigo de 24/09: `09-documento-final/spec_v2.md` (estrutura, parágrafo a parágrafo, com fontes e sentinela), `resposta_pareceres.md` (o que foi aceito das leituras críticas e o que ficou como decisão do autor), `verificacao_v2.md`, `verificacao_final.md`, `auditoria_final_v2.md` (itens A1 a A36 do livro), `_avaliacao/rubrica.md` (v1 × v2 na rubrica dos exemplares), `_qa/` (revisão visual dos PDFs) e `declaracao_ia_v2.md` (agentes desta versão).
