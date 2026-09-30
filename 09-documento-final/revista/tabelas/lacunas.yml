@@ -3,13 +3,13 @@
 # Formato: `colunas` (cabeçalho), `larguras` (tbl-colwidths), `legenda` (uma linha, com {#tbl-lacunas} acrescentado
 # pela função) e `linhas` (lista de cinco células por linha, sem marcadores {arquivo:caminho}).
 # Texto da especificação spec_final.md, seção 3.3. Os números vêm da declaração de uso de IA gerada do log, de
-# 07-relatorio/declaracao_uso_ia_texto.md, da Emenda 7 (00-protocolo/emendas.md) e da declaração do autor de
+# 07-relatorio/declaracao_uso_ia_texto.md, da Emenda 7 (00-protocolo/emendas.md) e da declaração dos autores de
 # 30/09/2026, e da Emenda 8 (deduplicação aplicada) e sua declaração; nenhum número novo.
 # Trava (conferir_reestruturacao.py, modo final): a tabela cita exatamente as pendências abertas de
 # 07-relatorio/_pendencias_abertas.json, menos a P038 (G9): P006, P007, P008, P033, P035, P036 e P042 (a P019 fechou
 # com a Emenda 8).
-# A linha "Relato" já diz que o autor aprovou esta versão: a publicação só sai depois dessa aprovação, que fecha a
-# P038 (G9). Se o autor não aprovar, esta linha volta a dizer só "na versão de 24/09/2026".
+# A linha "Relato" já diz que os autores aprovaram esta versão: a publicação só sai depois dessa aprovação, que fecha a
+# P038 (G9). Se os autores não aprovarem, esta linha volta a dizer só "na versão de 24/09/2026".
 legenda: >-
   Uso de IA e conferência humana por etapa da síntese. Em bloco pelos autores: em 30/09/2026, os autores declararam
   ter revisto juntos o que a coluna descreve, sem dupla conferência independente, e concordado com as decisões em
@@ -40,9 +40,9 @@ linhas:
       incertos; ferramenta corrigida pelo coordenador de IA para aplicar as fusões depois da triagem (Emenda 8)
     - Não se aplica
     - >-
-      Em bloco pelos autores: concordou com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar), aplicadas
-      depois da triagem, com a decisão mais inclusiva nos 44 registros já triados; nos 9 pares de versão, ligados
-      por eles como a IA sugeriu (Emenda 8). Os estudos incluídos não mudaram
+      Em bloco pelos autores: concordância com as sugestões da IA nos 145 pares (fundir, rejeitar ou ligar), aplicadas
+      depois da triagem, com a decisão mais inclusiva nos 44 registros já triados; os 9 pares de versão foram ligados
+      por eles, como a IA sugeriu (Emenda 8). Os estudos incluídos não mudaram
     - nenhuma
   - - Triagem de títulos e resumos
     - >-

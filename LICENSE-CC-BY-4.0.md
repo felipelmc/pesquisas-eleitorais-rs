@@ -1,6 +1,6 @@
 # Licença dos textos, figuras e dados derivados
 
-Copyright (c) 2026 Felipe Lamarca.
+Copyright (c) 2026 Felipe Lamarca e Lucas Berti.
 
 Os textos (artigo, apêndices, resumo em linguagem simples, protocolo e emendas), as figuras e os dados derivados
 produzidos neste projeto (decisões, fichamentos, efeitos extraídos e calculados, julgamentos de risco de viés e de
@@ -9,7 +9,7 @@ certeza, saídas da síntese) são licenciados sob a **Creative Commons Atribui�
 
 O código (scripts `.py`, `.R` e `.sh`) é licenciado sob a licença MIT (arquivo `LICENSE`).
 
-## O que não é do autor e mantém os termos de origem
+## O que não é dos autores e mantém os termos de origem
 
 | Material | Termos |
 |---|---|

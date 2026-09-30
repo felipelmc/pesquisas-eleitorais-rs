@@ -21,7 +21,7 @@ format:
 
 # Apêndice A. Estratégias de busca {#ap-a-busca .unnumbered}
 
-Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01, substituída pela B05 (emenda E002), não conta entre os registros identificados. As sementes da busca por citação ficam no repositório público do projeto, e o pacote de replicação leva só as estratégias ativas, o registro das buscas e os *codebooks*.
+Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01, substituída pela B05 (emenda E002), não conta entre os registros identificados. As sementes da busca por citação ficam no repositório público do projeto; as exportações brutas das buscas, que trazem resumos de terceiros, ficam só com os autores. O pacote de replicação leva só as estratégias ativas, o registro das buscas e os *codebooks*.
 
 @@TABELA s1_busca@@
 

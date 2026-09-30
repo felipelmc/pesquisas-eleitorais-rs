@@ -188,7 +188,7 @@ Na versão de entrega, o autor declara essas etapas como feitas inteiramente por
 - O protocolo (seção 10) manda marcar "RASCUNHO NÃO VALIDADO" nos produtos enquanto houver pendência aberta. Na versão de entrega, a marca sai da capa, do cabeçalho, da marca-d'água e dos avisos ao longo do texto. Ela fica só na primeira linha da declaração de uso de IA, seguida da lista do que não teve validação humana, como pede a regra R7.23. É um desvio parcial da seção 10.
 - A caixa de ferramentas no formato *O que funciona?* (opcional neste tipo de revisão) sai do artigo de entrega: com a certeza muito baixa e o GRADE não validado, nenhuma célula tem rótulo definido.
 - O material suplementar passa a apêndices do próprio artigo.
-- O repositório continua privado. Um pacote de replicação sem resumos e sem e-mails de terceiros é publicado pelo GitHub Pages (seção 11). [Nota de 30/09/2026: os autores decidiram abrir o repositório. O histórico público foi reescrito sem os resumos de terceiros, os lotes e os pareceres de triagem, que ficam num repositório privado com o histórico completo; ver `08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`.]
+- O repositório continua privado. Um pacote de replicação sem resumos e sem e-mails de terceiros é publicado pelo GitHub Pages (seção 11). [Nota de 30/09/2026: os autores decidiram abrir o repositório. O histórico público foi reescrito sem os resumos de terceiros, os lotes e os pareceres de triagem e o registro de decisões, que ficam num repositório privado com o histórico completo; ver `08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`.]
 
 [Nota de 30/09/2026: depois desta emenda, o autor leu e aprovou o artigo final com apêndices, e a P038 (G9) fechou com essa aprovação.]
 

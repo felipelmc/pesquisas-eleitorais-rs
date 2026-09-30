@@ -36,4 +36,4 @@ Os e-mails de terceiros que sobravam em arquivos públicos foram trocados por "[
 
 - No `rs_log.jsonl` e no `rs_estado.json`, `revisor_humano_1` é um papel, e não uma pessoa. As conferências e os fechamentos registrados com esse papel valem para os dois autores. O log só aceita acréscimo e não foi reescrito.
 - Os produtos (artigo, apêndices, resumo em linguagem simples, vitrine, README e pacote de replicação) passam a dizer "os autores" onde antes diziam "o autor", sem afirmar dupla conferência independente.
-- O risco de viés e a certeza da evidência seguem julgados só por IA, e P006, P007, P008, P033, P035, P036 e P042 continuam abertas.
+- O risco de viés e a certeza da evidência seguem julgados só por IA, e P006, P007, P008, P033, P035, P036 e P042 continuam abertas. Na mesma conversa, Felipe Lamarca disse que os autores estão revendo esse trabalho; quando concluírem, a declaração deles fecha essas pendências.

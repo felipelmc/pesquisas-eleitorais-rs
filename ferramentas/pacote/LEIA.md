@@ -54,7 +54,7 @@ Os autores estão revendo o risco de viés e o GRADE. A lista das pendências ab
 
   Use os comandos de `rs.py analise …` e os scripts `06-analise/montar_*.py`, na ordem descrita no artigo (seção de métodos): preparar os efeitos, calculá-los, montar as entradas da SWiM e as metas exploratórias e rodar a SWiM principal e as sensibilidades.
 - **Depende dos PDFs**, que não podem ser redistribuídos: conferir os trechos e as páginas citados nas fichas e nos efeitos. As referências completas dos estudos estão no artigo.
-- **Fica fora do pacote**, por conter resumos de terceiros: a triagem registro a registro (lotes, pareceres dos triadores de IA), e também as fichas em Markdown, os *prompts* e o log bruto. As fichas, os *prompts* e o log estão no repositório público do projeto (<https://github.com/felipelmc/pesquisas-eleitorais-rs>); a triagem registro a registro e os resumos de terceiros ficam só com os autores, com acesso sob pedido.
+- **Fica fora do pacote**: os lotes de triagem e os pareceres dos triadores de IA, que citam trechos dos resumos de terceiros, e também as fichas em Markdown, os *prompts* e o log bruto. As fichas, os *prompts*, o log e as decisões de triagem registro a registro sem os trechos (`publico/decisoes_sem_trechos.csv`) estão no repositório público do projeto (<https://github.com/felipelmc/pesquisas-eleitorais-rs>). Os resumos de terceiros, os lotes, os pareceres e o registro de decisões com trechos ficam só com os autores, com acesso sob pedido.
 
 ## Licenças
 

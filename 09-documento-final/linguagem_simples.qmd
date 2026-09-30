@@ -3,6 +3,13 @@ title: "Pesquisas eleitorais e voto: experimentos apontam a favor de quem lidera
 lang: pt-BR
 date: 2026-09-30
 date-format: "DD/MM/YYYY"
+author:
+  - name: Felipe Lamarca
+    affiliations:
+      - name: MAPE/IESP-UERJ
+  - name: Lucas Berti
+    affiliations:
+      - name: IESP-UERJ
 format:
   html:
     embed-resources: true

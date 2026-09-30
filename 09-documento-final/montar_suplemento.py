@@ -288,6 +288,8 @@ def s3_emendas():
             quando = "6a: " + ANTES_DEPOIS["E"] + "; 6b: " + ANTES_DEPOIS["C"]
         if idd == "Emenda 8":  # 8a corrige a ferramenta; 8b é regra nova, decidida depois de ver os dados
             quando = "8a: correção da ferramenta, sem nova decisão de método; 8b: " + ANTES_DEPOIS["C"]
+        if idd == "Emenda 7":  # o título histórico diz "do autor"; as conferências foram dos dois autores (coautoria)
+            objeto = "conferência dos autores, etapas sem validação humana e versão de entrega"
         if idd == "Emenda 3":  # tipo E, mas a emenda também registrou uma decisão de método do autor
             objeto = EMENDA3_OBJETO
             quando = EMENDA3_QUANDO
