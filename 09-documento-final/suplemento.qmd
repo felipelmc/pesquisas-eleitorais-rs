@@ -465,7 +465,7 @@ O agrupamento amplo junta formatos de exposição e comparadores que o protocolo
 
 # Apêndice G. Uso de IA e lacunas de validação humana {#ap-g-ia .unnumbered}
 
-A tabela abaixo mostra, por etapa da síntese, quem executou e com que modelo, a concordância medida entre agentes de IA, a conferência humana e a pendência de validação que segue aberta. "Em bloco" se refere à nossa declaração de 30/09/2026, transcrita pelo coordenador de IA: conferimos juntos, sem dupla conferência independente e sem registro item a item. A declaração de uso de IA completa, gerada do *log* do projeto, está no pacote de replicação.
+A tabela abaixo mostra, por etapa da síntese, quem executou e com que modelo, a concordância medida entre agentes de IA, a conferência humana e a pendência de validação que segue aberta. "Em bloco" se refere à nossa conferência de 30/09/2026: conferimos juntos, sem dupla conferência independente e sem registro item a item. A declaração de uso de IA completa, gerada do *log* do projeto, está no pacote de replicação.
 
 ::: {.tabela-larga}
 

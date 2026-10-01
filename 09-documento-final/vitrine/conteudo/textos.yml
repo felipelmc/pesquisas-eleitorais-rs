@@ -186,9 +186,8 @@ como_foi_feita:
     - "**G8**: a síntese e a certeza da evidência"
     - "**G9**: o relato"
   portoes_nota: >-
-    Nesta síntese, aprovamos G1 e G2. De G3 a G9, os portões foram aprovados em autopiloto, quando as
-    conferências automáticas passavam, e confirmamos depois G3, G5, G6 e G9; G4, G7 e G8 seguem sem
-    confirmação humana.
+    Nesta síntese, aprovamos G1 e G2 e revisamos o trabalho dos agentes em G3, G5, G6 e G9. Em G4 e G7, a revisão
+    humana foi parcial, e, em G8, a certeza da evidência segue sem validação humana.
 
 pendencias:
   kicker: "Validação humana"
