@@ -7,7 +7,7 @@
 
 ## O que foi e o que não foi validado por humano
 
-Triagem, elegibilidade, extração, risco de viés e certeza foram feitos por agentes de IA. Os autores conferiram, em bloco e sem dupla conferência independente, as partes abaixo e confirmaram as decisões em vigor (`08-revisao-humana/declaracao_autor_2026-09-30.md` e `declaracao_autores_2026-09-30_coautoria.md`; Emenda 7 em `00-protocolo/emendas.md`):
+Triagem, elegibilidade, extração, risco de viés e certeza foram feitos por agentes de IA. Conferimos, em bloco e sem dupla conferência independente, as partes abaixo e confirmamos as decisões em vigor (`08-revisao-humana/declaracao_autor_2026-09-30.md` e `declaracao_autores_2026-09-30_coautoria.md`; Emenda 7 em `00-protocolo/emendas.md`):
 - na busca, a pré-revisão PRESS feita por IA;
 - na triagem, as 81 divergências entre os triadores de IA;
 - na elegibilidade, as 165 propostas da IA e as 3 extensões de regra;
@@ -16,14 +16,14 @@ Triagem, elegibilidade, extração, risco de viés e certeza foram feitos por ag
 - as divergências da recodificação;
 - o relato.
 
-A deduplicação dos 145 pares candidatos, decidida pelos autores, foi aplicada depois da triagem, com os 9 pares de versão ligados por eles (Emenda 8; `08-revisao-humana/P019_dedup/`). O `motivo` das 145 linhas de `dedup_revisao_v1.csv` foi escrito na Emenda 7 ("decisão registrada e não aplicada nesta versão"); as decisões foram aplicadas em 30/09/2026 pela Emenda 8.
+A deduplicação que decidimos para os 145 pares candidatos foi aplicada depois da triagem, com os 9 pares de versão que ligamos (Emenda 8; `08-revisao-humana/P019_dedup/`). O `motivo` das 145 linhas de `dedup_revisao_v1.csv` foi escrito na Emenda 7 ("decisão registrada e não aplicada nesta versão"); as decisões, no entanto, foram aplicadas em 30/09/2026 pela Emenda 8.
 
 **Não** tiveram validação humana:
 - o risco de viés;
 - os juízos de certeza (GRADE);
 - a validação cega da triagem.
 
-Os autores estão revendo o risco de viés e o GRADE. A lista das pendências abertas está em `07-relatorio/_pendencias_abertas.json`. As descrições dessa lista são as registradas na abertura de cada pendência; a declaração de uso de IA (`07-relatorio/declaracao_uso_ia.md`, seções 6 e 7) anota o que mudou desde então, como a conferência dos 560 efeitos, citada ainda como pendente na descrição da P033.
+Estamos revendo o risco de viés e o GRADE. A lista das pendências abertas está em `07-relatorio/_pendencias_abertas.json`. As descrições dessa lista são as registradas na abertura de cada pendência; a declaração de uso de IA (`07-relatorio/declaracao_uso_ia.md`, seções 6 e 7) anota o que mudou desde então, como a conferência dos 560 efeitos, que a descrição da P033 ainda cita como pendente.
 
 ## Conteúdo
 
@@ -37,7 +37,7 @@ Os autores estão revendo o risco de viés e o GRADE. A lista das pendências ab
 | `05-decomposicao/` | fichamentos (sem o caminho local do PDF) e efeitos por estudo, com trecho e página |
 | `06-analise/` | efeitos calculados, entradas e saídas da SWiM (principal e sensibilidades), metas exploratórias, certeza |
 | `07-relatorio/` | incluídos, contagens e diagrama PRISMA, listas PRISMA e SWiM, declaração de uso de IA gerada do log |
-| `08-revisao-humana/` | declarações dos autores (conferência em bloco, deduplicação e coautoria) e as decisões de deduplicação dos pares (sem resumos) |
+| `08-revisao-humana/` | nossas declarações (conferência em bloco, deduplicação e coautoria) e as decisões de deduplicação dos pares (sem resumos) |
 | `09-documento-final/` | `declaracao_ia_v2.md`: os agentes de IA que prepararam o texto, com modelo e *hash* dos *prompts* |
 | `skill-revisao-sistematica/` | cópia dos scripts da skill que rodou a revisão (`rs.py`, `rslib/`, `R/`), com a licença do autor da skill |
 | `tabelas-extras/` | estudos da região e efeitos de viabilidade, e as listas de conferência (PRISMA 2020, resumo, PRISMA-S, SWiM, PRISMA-trAIce), com o local de cada item no artigo final e nos apêndices |
@@ -54,7 +54,7 @@ Os autores estão revendo o risco de viés e o GRADE. A lista das pendências ab
 
   Use os comandos de `rs.py analise …` e os scripts `06-analise/montar_*.py`, na ordem descrita no artigo (seção de métodos): preparar os efeitos, calculá-los, montar as entradas da SWiM e as metas exploratórias e rodar a SWiM principal e as sensibilidades.
 - **Depende dos PDFs**, que não podem ser redistribuídos: conferir os trechos e as páginas citados nas fichas e nos efeitos. As referências completas dos estudos estão no artigo.
-- **Fica fora do pacote**: os lotes de triagem e os pareceres dos triadores de IA, que citam trechos dos resumos de terceiros, e também as fichas em Markdown, os *prompts* e o log bruto. As fichas, os *prompts*, o log e as decisões de triagem registro a registro sem os trechos (`publico/decisoes_sem_trechos.csv`) estão no repositório público do projeto (<https://github.com/felipelmc/pesquisas-eleitorais-rs>). Os resumos de terceiros, os lotes, os pareceres e o registro de decisões com trechos ficam só com os autores, com acesso sob pedido.
+- **Fica fora do pacote**: os lotes de triagem e os pareceres dos triadores de IA, que citam trechos dos resumos de terceiros, e também as fichas em Markdown, os *prompts* e o log bruto. Já as fichas, os *prompts*, o log e as decisões de triagem registro a registro sem os trechos (`publico/decisoes_sem_trechos.csv`) estão no repositório público do projeto (<https://github.com/felipelmc/pesquisas-eleitorais-rs>), enquanto os resumos de terceiros, os lotes, os pareceres e o registro de decisões com trechos ficam só conosco, com acesso sob pedido.
 
 ## Licenças
 

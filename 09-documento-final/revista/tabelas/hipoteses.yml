@@ -33,8 +33,8 @@ linhas:
     so_interpretacao: [Feltovich2022, Meffert2012a]
     evidencia: >-
       A pesquisa move expectativas. O único teste formal, uma mediação em experimento de campo [@Gerber2020a],
-      trata da crença sobre a proximidade da disputa e não encontra efeito dela sobre o comparecimento. A
-      expectativa de quem vence, que importa para o apoio ao líder, não foi testada por mediação. Os demais
+      trata da crença sobre a proximidade da disputa e não encontra efeito dela no comparecimento. Já a
+      expectativa de quem vence, que importa para o apoio ao líder, não foi testada por mediação; os demais
       estudos inferem o canal por contraste
     celulas: [C13]
     certeza_nota: "só para o efeito nulo de @Gerber2020a no comparecimento (o elo em si fica sem GRADE)"
@@ -59,10 +59,10 @@ linhas:
       - {chave: Lago2015}
     so_interpretacao: [Grillo2024c, Groer2010a, Kaplan2019a, Gasperoni2015a, Meffert2012a]
     evidencia: >-
-      É o canal com mais estudos e com os testes mais diretos (laboratório com incentivos). Dois desses testes
+      É o canal com mais estudos e os testes mais diretos (laboratório com incentivos). Dois desses testes
       [@Tyszler2015; @Tal2015a], no entanto, estão nas células de apoio principal, contados como *bandwagon*, e não
       nas de viabilidade, a que a certeza desta linha se refere. A direção de viabilidade aparece no México
-      [@Cornejo2023a]. Na Suécia, o voto de seguro vai contra a deserção do partido pequeno [@Freden2024a]
+      [@Cornejo2023a], enquanto, na Suécia, o voto de seguro vai contra a deserção do partido pequeno [@Freden2024a]
     celulas: [C07, C08]
     certeza_nota: "nas duas células de viabilidade, sem os testes de laboratório"
     sem_teste_formal: false
@@ -81,8 +81,8 @@ linhas:
     so_interpretacao: [Unkelbach2022a]
     evidencia: >-
       Direção *bandwagon* sob processamento heurístico, e a ênfase em quem ganha pesa mais que o número. Um único
-      estudo manipula o canal, em vinheta hipotética [@Lammers2022a]. Os demais inferem o canal a partir do padrão
-      de resultados
+      estudo manipula o canal, em vinheta hipotética [@Lammers2022a]; os demais o inferem a partir do padrão de
+      resultados
     celulas: [C02, C10]
     certeza_nota: "para o efeito nas células em que esses estudos estão (o canal em si fica sem GRADE)"
     sem_teste_formal: false
@@ -148,7 +148,7 @@ linhas:
     so_interpretacao: [Morton2015a, Grillo2024c, Groer2010a, Kaplan2019a, Brugarolas2021]
     evidencia: >-
       No desenho mais forte, um experimento de campo [@Gerber2020a], a pesquisa apertada, frente à folgada,
-      provavelmente não muda o comparecimento além de ±2 p.p. Esse é também o único estudo que isola a crença de
+      provavelmente não muda o comparecimento além de ±2 p.p. Trata-se também do único estudo que isola a crença de
       proximidade, e ela não mostrou efeito sobre o comparecimento. Previsões que fazem a eleição parecer decidida
       (boca de urna, projeção probabilística) vão na direção de desmobilização, em estudos isolados em cada célula.
       O modelo não inclui a pivotalidade, o efeito Titanic nem a mobilização de quem está atrás, que preveem sinais
@@ -202,7 +202,7 @@ linhas:
     so_interpretacao: []
     evidencia: >-
       É o padrão de @Gerber2020a, em que a pesquisa de disputa apertada move a crença sobre a proximidade, mas
-      provavelmente não o comparecimento além de ±2 p.p. O achado vale só para o comparecimento. Nenhum estudo
+      provavelmente não o comparecimento além de ±2 p.p. O achado vale só para o comparecimento: nenhum estudo
       testa a mediação da expectativa de quem vence para o apoio ao líder
     celulas: [C13]
     certeza_nota: "só para o comparecimento (para o apoio, sem GRADE)"
@@ -216,8 +216,8 @@ linhas:
     estudos: []
     so_interpretacao: []
     evidencia: >-
-      No alvo principal de apoio, os 8 experimentos hipotéticos ou induzidos e o estudo de laboratório não
-      randomizado vão na direção *bandwagon*. Nenhum estudo, porém, mede pesquisa pré-eleitoral numa eleição real.
+      No alvo principal de apoio, os 8 experimentos hipotéticos ou induzidos e o de laboratório não randomizado
+      vão na direção *bandwagon*. Nenhum estudo, no entanto, mede pesquisa pré-eleitoral numa eleição real.
       O único experimento em contexto real é uma votação experimental [@Farjam2020a], e os 3 não randomizados em
       eleição real tratam de informação do dia da votação. No comparecimento, a direção muda com o realismo, que se
       confunde com o formato (os estudos reais de desmobilização são de boca de urna). A comparação é descritiva, e

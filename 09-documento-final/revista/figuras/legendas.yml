@@ -35,11 +35,10 @@ modelo_logico:
     a heurística de consenso e a conformidade dependam da percepção de popularidade. Complacência e divulgação
     enviesada (E7 e E8) são efeitos não intencionais e aparecem em tracejado. No comparecimento, o modelo não
     inclui a pivotalidade, o efeito Titanic nem a mobilização de quem está atrás. Apoio latente, interesse
-    político e preferência prévia são confundidores (em cinza). A resposta ao *survey* é um colisor, e condicionar
-    a análise a ela abre um caminho espúrio entre exposição e apoio. A recorrência entre pesquisas e voto aparece
-    desdobrada no tempo (pesquisa anterior e pesquisa seguinte). Os moderadores da teoria ficam fora do grafo, no
-    quadro à direita. O modelo foi proposto por IA e aprovado pelos autores no G2, e nenhuma seta foi conferida em texto
-    completo.
+    político e preferência prévia são confundidores (em cinza). A resposta ao *survey* é um colisor:
+    condicionar a análise a ela abre um caminho espúrio entre exposição e apoio. A recorrência entre pesquisas e
+    voto aparece desdobrada no tempo (pesquisa anterior e pesquisa seguinte). Os moderadores da teoria ficam fora do grafo, no
+    quadro à direita. Aprovamos no G2 o modelo, proposto por IA, e nenhuma seta foi conferida em texto completo.
   alt: >-
     Diagrama de setas que liga a exposição à pesquisa ao apoio a quem aparece à frente por cinco mecanismos,
     com confundidores à esquerda, um colisor, efeitos indesejados tracejados e, à direita, um quadro com os
@@ -49,13 +48,12 @@ prisma:
   largura: larga
   legenda: >-
     Fluxo PRISMA 2020 da seleção, com os dois ramos de identificação (bases de dados e busca por citações). A
-    remoção de duplicatas e o filtro de ano de publicação foram feitos por script; nos 145 pares incertos, os autores
-    concordaram com as sugestões da IA, e essas fusões (58 registros, 44 já triados) foram aplicadas depois da triagem
-    (Emenda 8). A triagem de
-    títulos e resumos ficou com agentes de IA, assim como a avaliação dos textos completos, conferida em bloco
-    pelos autores (Emenda 7), exceto 16 casos limítrofes decididos pelos autores (8 inclusões e 8 exclusões). A triagem complementar da Emenda 6b entra no
-    fluxo sem ramo próprio, e os relatos dela que não foram recuperados estão entre os não recuperados. As caixas
-    do modelo PRISMA que não se aplicam a esta síntese (n = 0) foram omitidas. Os motivos de exclusão seguem os
+    remoção de duplicatas e o filtro de ano de publicação foram feitos por script; nos 145 pares incertos,
+    concordamos com as sugestões da IA, e essas fusões (58 registros, 44 já triados) foram aplicadas depois da
+    triagem (Emenda 8). A triagem de títulos e resumos ficou com agentes de IA, assim como a avaliação dos textos
+    completos, que conferimos em bloco (Emenda 7), exceto 16 casos limítrofes decididos por nós (8 inclusões
+    e 8 exclusões). A triagem complementar da Emenda 6b entra no fluxo sem ramo próprio, e os relatos dela que não
+    foram recuperados estão entre os não recuperados. As caixas do modelo PRISMA que não se aplicam a esta síntese (n = 0) foram omitidas. Os motivos de exclusão seguem os
     critérios de elegibilidade do protocolo, e os relatos sem cópia legítima acessível contam como não
     recuperados. Nos 44 registros já triados que as fusões absorveram, o registro que absorveu ficou com a decisão
     mais inclusiva do par, e os estudos incluídos não mudaram (Apêndice G).
@@ -138,7 +136,7 @@ realismo:
     comparecimento. Cada bloco é um estudo numa célula da síntese principal. O bloco claro e tracejado é um estudo
     em risco crítico, fora do teste de sinal. No apoio, o único experimento em contexto real [@Farjam2020a] é uma
     votação experimental com organizações reais, sem eleição em curso, e os estudos reais não randomizados tratam
-    de informação do dia da votação. Trata-se de uma comparação descritiva, sem teste.
+    de informação do dia da votação. A comparação é descritiva, sem teste.
   alt: >-
     Barras horizontais feitas de blocos, um por estudo, coloridos pela direção do efeito, para cada nível de
     realismo do contexto, em painéis por desfecho e classe de desenho.

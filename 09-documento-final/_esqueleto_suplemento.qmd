@@ -21,7 +21,7 @@ format:
 
 # Apêndice A. Estratégias de busca {#ap-a-busca .unnumbered}
 
-Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01, substituída pela B05 (emenda E002), não conta entre os registros identificados. As sementes da busca por citação ficam no repositório público do projeto; as exportações brutas das buscas, que trazem resumos de terceiros, ficam só com os autores. O pacote de replicação leva só as estratégias ativas, o registro das buscas e os *codebooks*.
+As estratégias abaixo estão como foram executadas, no formato do PRISMA-S, com fonte, campos, limites, data e número de registros. A estratégia B01, que a B05 substituiu (emenda E002), não conta entre os registros identificados. As sementes da busca por citação estão no repositório público do projeto; já as exportações brutas das buscas, que trazem resumos de terceiros, ficam só conosco. O pacote de replicação leva apenas as estratégias ativas, o registro das buscas e os *codebooks*.
 
 @@TABELA s1_busca@@
 
@@ -29,27 +29,27 @@ Estratégias executadas, no formato do PRISMA-S, com fonte, campos, limites, dat
 
 ## Atalhos da variante rápida {.unnumbered}
 
-Cada atalho declarado no protocolo (A1 a A5), frente às recomendações de @Garritty2024Rapid para revisões rápidas de efetividade, e a consequência provável para os resultados. O cruzamento é julgamento de IA, lido pelos autores na conferência do relato (Emenda 7).
+Para cada atalho declarado no protocolo (A1 a A5), as tabelas abaixo trazem o que @Garritty2024Rapid recomendam para revisões rápidas de efetividade e a consequência provável para os resultados. O cruzamento é julgamento de IA, que lemos na conferência do relato (Emenda 7).
 
-Duas leituras das tabelas abaixo são generosas. Na recomendação 5, "no limite" quer dizer que a literatura internacional em periódicos dependeu de uma só base. Na recomendação 22, a certeza foi julgada em 18 células e no agrupamento amplo, com o alvo fixado depois de ver os dados, o que corresponde só em parte a limitá-la à comparação principal. Falta também o item sem número "It is advisable that rapid reviews are led only by experienced systematic reviewers", que esta síntese, conduzida por agentes de IA, não atende. Os casos limítrofes decididos pelos autores são 16 registros distintos (17 linhas no *log*, uma delas de teste).
+Na recomendação 5, a leitura é generosa, porque "no limite" quer dizer que a literatura internacional em periódicos dependeu de uma só base. Também é generosa na recomendação 22, em que a certeza foi julgada em 18 células e no agrupamento amplo, com o alvo fixado depois de ver os dados, o que corresponde só em parte a limitá-la à comparação principal. Falta ainda o item sem número "It is advisable that rapid reviews are led only by experienced systematic reviewers", que esta síntese, conduzida por agentes de IA, não atende. Os casos limítrofes que decidimos são 16 registros distintos (17 linhas no *log*, uma delas de teste).
 
 @@TABELA s2_atalhos@@
 
 ## Emendas e desvios do protocolo {.unnumbered}
 
-Emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da síntese no momento da decisão e a indicação de terem sido decididas antes ou depois de ver os dados. Cinco ressalvas à tabela: (i) a Emenda 2 foi decidida pelo coordenador de IA, e não pelos autores, que a endossaram depois (Emenda 7); (ii) a Emenda 3, além de copiar os *codebooks*, registrou uma decisão de método dos autores, a troca do árbitro do risco de viés por custo, antes de qualquer avaliação; (iii) a Emenda 4 veio depois da extração, com os efeitos já vistos; (iv) a Emenda 7 registra a conferência em bloco dos autores e as etapas sem validação humana, sem mudar dados, decisões em vigor nem contagens; e (v) na Emenda 8, o coordenador de IA corrigiu a ferramenta (8a), e os autores decidiram, depois de ver os dados, a regra da decisão mais inclusiva (8b), que mudou contagens do fluxo, mas não os incluídos.
+A tabela traz as emendas ao protocolo congelado em 19/09/2026, na ordem em que foram decididas, com a etapa da síntese no momento da decisão, e diz se cada uma veio antes ou depois de ver os dados. Cinco delas pedem ressalva: (i) a Emenda 2 foi decidida pelo coordenador de IA, e não por nós, que a endossamos depois (Emenda 7); (ii) a Emenda 3, além de copiar os *codebooks*, registrou uma decisão de método nossa -- isto é, a troca do árbitro do risco de viés por custo --, antes de qualquer avaliação; (iii) a Emenda 4 veio depois da extração, com os efeitos já vistos; (iv) a Emenda 7 registra a nossa conferência em bloco e as etapas sem validação humana, sem mudar dados, decisões em vigor nem contagens; e (v) na Emenda 8, o coordenador de IA corrigiu a ferramenta (8a), e nós decidimos, depois de ver os dados, a regra da decisão mais inclusiva (8b), que mudou contagens do fluxo, mas não os incluídos.
 
 @@TABELA s3_emendas@@
 
 # Apêndice C. Estudos incluídos e excluídos {#ap-c-estudos .unnumbered}
 
-Um estudo por linha, com os relatos adicionais do mesmo estudo entre parênteses. A tabela agregada está no artigo (Tabela 1). A segunda tabela lista os estudos excluídos na leitura do texto completo que poderiam parecer elegíveis, com o motivo de cada exclusão e quem a propôs e decidiu.
+Cada linha da primeira tabela é um estudo, com os relatos adicionais entre parênteses; a versão agregada está no artigo (Tabela 1). A segunda lista os estudos excluídos na leitura do texto completo que poderiam parecer elegíveis, com o motivo de cada exclusão e quem a propôs e decidiu.
 
 @@TABELA s4_caracteristicas@@
 
 # Apêndice D. Risco de viés por domínio {#ap-d-rob .unnumbered}
 
-Julgamentos de consenso por domínio e o geral de cada resultado avaliado, com RoB 2, ROBINS-I V2 e EPOC. Foram feitos só por agentes de IA (dois avaliadores independentes e um árbitro nos desacordos), sem validação humana (Apêndice G).
+São os julgamentos de consenso por domínio e o geral de cada resultado avaliado, com RoB 2, ROBINS-I V2 e EPOC, feitos só por agentes de IA (dois avaliadores independentes e um árbitro nos desacordos), sem validação humana (Apêndice G).
 
 @@TABELA s5_rob@@
 
@@ -57,28 +57,28 @@ Julgamentos de consenso por domínio e o geral de cada resultado avaliado, com R
 
 ## Efeitos principais por estudo {.unnumbered}
 
-Os efeitos principais de cada estudo, com a célula em que entram e a situação na contagem da síntese principal.
+Cada estudo aparece com seus efeitos principais, a célula em que entram e a situação na contagem da síntese principal.
 
 @@TABELA s6_efeitos@@
 
 ## Efeitos fora da contagem {.unnumbered}
 
-Efeitos principais que não estimam o contraste da exposição e, por isso, ficaram fora do teste de sinal. Eles entram só na leitura de mecanismos e moderadores e na análise de sensibilidade com os efeitos excluídos.
+Os efeitos principais abaixo não estimam o contraste da exposição e, por isso, ficaram fora do teste de sinal; entram só na leitura de mecanismos e moderadores e na análise de sensibilidade com os efeitos excluídos.
 
 @@TABELA s7_fora@@
 
 # Apêndice F. Agrupamento amplo e análises de sensibilidade {#ap-f-sensibilidades .unnumbered}
 
-O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Foi decidido depois de ver os dados (Emenda 5), é descritivo e não substitui as células da síntese principal. Os valores de p vêm de teste de sinal em agrupamentos *post hoc*: medem só o quanto a proporção numa direção se afasta de metade e não informam a magnitude nem distinguem estudos grandes de pequenos. A certeza do agrupamento amplo foi julgada só por IA, sem validação humana.
+O agrupamento amplo junta formatos de exposição e comparadores que o protocolo manda separar. Trata-se de uma análise descritiva, decidida depois de ver os dados (Emenda 5), que não substitui as células da síntese principal. Os valores de p vêm de teste de sinal em agrupamentos *post hoc* e medem só o quanto a proporção numa direção se afasta de metade, sem informar a magnitude nem distinguir estudos grandes de pequenos. A certeza do agrupamento amplo foi julgada só por IA, sem validação humana.
 
 @@TABELA s8_sensibilidades@@
 
 # Apêndice G. Uso de IA e lacunas de validação humana {#ap-g-ia .unnumbered}
 
-A tabela abaixo mostra, por etapa da síntese, quem executou e com que modelo, a concordância medida entre agentes de IA, a conferência humana e a pendência de validação que segue aberta. "Em bloco" se refere à declaração dos autores de 30/09/2026, transcrita pelo coordenador de IA: os dois conferiram juntos, sem dupla conferência independente e sem registro item a item. A declaração de uso de IA completa, gerada do *log* do projeto, está no pacote de replicação.
+A tabela abaixo mostra, por etapa da síntese, quem executou e com que modelo, a concordância medida entre agentes de IA, a conferência humana e a pendência de validação que segue aberta. "Em bloco" se refere à nossa declaração de 30/09/2026, transcrita pelo coordenador de IA: conferimos juntos, sem dupla conferência independente e sem registro item a item. A declaração de uso de IA completa, gerada do *log* do projeto, está no pacote de replicação.
 
 @@TABELA lacunas@@
 
 ## Agentes desta versão {.unnumbered}
 
-A declaração gerada do *log* não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. A versão de 24/09/2026 foi preparada por agentes coordenados por `claude-opus-5-5`, quase todos `claude-opus-5-5`, com `claude-sonnet-5` nas referências de método e na revisão visual, e a tabela com *prompt*, papel, modelo e início do *hash* de cada um está no pacote de replicação. Esta versão a reescreve, sem mudar a análise, com agentes de IA: (i) um arquiteto, que especificou o texto; (ii) três redatores; (iii) um agente das listas de conferência; (iv) uma verificação independente; e (v) um agente de correções e estilo. Todos são `claude-opus-5-5`, exceto o das listas de conferência, `claude-sonnet-5`. Os *prompts* desses agentes ficam no repositório do projeto, e a tabela desta versão, com modelo e *hash*, está no pacote de replicação. Nenhum desses agentes leu PDF de estudo incluído nem fez análise nova. Na noite de 30/09/2026, com a Emenda 8, outros agentes de IA revisaram o projeto, corrigiram a ferramenta de revisão, conferiram de novo o texto, revisaram o PDF e passaram o texto para os dois autores, também sem ler PDF de estudo nem fazer análise nova.
+A declaração gerada do *log* não registra os agentes que prepararam o texto, porque eles não rodaram comandos da ferramenta de revisão. A versão de 24/09/2026 foi preparada por agentes coordenados por `claude-opus-5-5`, quase todos `claude-opus-5-5`, com `claude-sonnet-5` nas referências de método e na revisão visual, e a tabela com *prompt*, papel, modelo e início do *hash* de cada um está no pacote de replicação. Já esta versão, que a reescreve sem mudar a análise, foi preparada por agentes de IA: (i) um arquiteto, que especificou o texto; (ii) três redatores; (iii) um agente das listas de conferência; (iv) uma verificação independente; e (v) um agente de correções e estilo. Todos são `claude-opus-5-5`, exceto o das listas de conferência, `claude-sonnet-5`; os *prompts* deles ficam no repositório do projeto, e a tabela desta versão, com modelo e *hash*, está no pacote de replicação. Nenhum desses agentes leu PDF de estudo incluído nem fez análise nova. Na noite de 30/09/2026, com a Emenda 8, outros agentes, também sem ler PDF de estudo nem fazer análise nova, revisaram o projeto e o PDF, corrigiram a ferramenta de revisão, conferiram de novo o texto e o ajustaram à nossa coautoria e, no estilo, à voz do primeiro autor, a partir de textos dele escritos sem IA.

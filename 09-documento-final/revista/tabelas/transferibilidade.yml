@@ -13,13 +13,13 @@
 legenda: >-
   Fatores de transferibilidade previstos no protocolo e a evidência incluída. As contagens vêm da codificação dos
   estudos no fichamento por IA, não conferida por humano. O juízo de preocupação por fator não foi feito e fica
-  com os autores.
+  conosco.
 larguras: [14, 32, 24, 30]
 linhas:
   - fator: Voto obrigatório
     brasil: >-
-      O levantamento de contexto desta revisão não tratou deste fator. O único estudo brasileiro incluído registra
-      que o voto é obrigatório, com multa pequena para quem não vota [@Araujo2021a].
+      O levantamento de contexto não tratou deste fator, mas o único estudo brasileiro incluído registra que o
+      voto é obrigatório, com multa pequena para quem não vota [@Araujo2021a].
     estudos: >-
       {nv2:transf_voto_obrigatorio_sim} de {num:estudos} estudos têm voto obrigatório codificado
       {nv2cit:transf_voto_obrigatorio_sim}, dois deles por regra do jogo de laboratório, e
@@ -28,7 +28,7 @@ linhas:
       a informação)
     dizer: >-
       A hipótese de que o voto obrigatório elimina o canal da desmobilização não pode ser examinada com estes
-      estudos. O estudo brasileiro não teve o comparecimento como desfecho extraído.
+      estudos, e o brasileiro não teve o comparecimento como desfecho extraído.
     fonte: >-
       brasil: fichamento de Araujo2021a, voto_obrigatorio__evidencia ("although voting is compulsory, the penalty
       for not voting is a small", p. 5); contexto_brasil.md não trata do voto obrigatório. estudos: numeros_v2.json
@@ -43,9 +43,9 @@ linhas:
       {nv2:transf_dois_turnos} de {num:estudos} estudos em sistema de maioria em dois turnos
       {nv2cit:transf_dois_turnos}
     dizer: >-
-      O estudo brasileiro encontrou a mesma direção nos dois turnos. Os experimentos de viabilidade vêm de sistemas
-      de pluralidade [@Cornejo2023a; @Schlegel2023] ou proporcionais [@Freden2024a]. Nenhum deles trata do primeiro
-      turno de uma eleição em dois turnos, onde opera o voto útil a que @PereiraNunes2024 atribuem parte da distância
+      O estudo brasileiro encontrou a mesma direção nos dois turnos. Já os experimentos de viabilidade vêm de
+      sistemas de pluralidade [@Cornejo2023a; @Schlegel2023] ou proporcionais [@Freden2024a]; nenhum trata do
+      primeiro turno de uma eleição em dois turnos, onde opera o voto útil a que @PereiraNunes2024 atribuem parte da distância
       entre pesquisas e urnas em 2022.
     fonte: >-
       brasil: contexto_brasil.md, seções 3 e 4 (primeiro turno de 2022; Pereira e Nunes 2024); Araujo2021a nos dois
@@ -80,8 +80,8 @@ linhas:
     brasil: >-
       O levantamento de contexto não traz medida da confiança do público nas pesquisas. Depois do primeiro turno de
       2022, houve projetos de lei e um pedido de CPI contra os institutos [@BrasilCamara2022PL2567;
-      @SenadoNoticias2022CPIPesquisas]. Entre 2012 e 2020, o desempenho das pesquisas brasileiras foi comparável ao
-      de outros países [@Meireles2022].
+      @SenadoNoticias2022CPIPesquisas]. @Meireles2022 acham o desempenho das pesquisas brasileiras de 2012 a 2020
+      comparável ao de outros países.
     estudos: >-
       {nv2:transf_confianca} estudo relata a confiança nas pesquisas como moderador {nv2cit:transf_confianca}, em
       risco de viés crítico

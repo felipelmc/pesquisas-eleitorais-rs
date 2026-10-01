@@ -31,6 +31,30 @@ Coordenador: `claude-opus-5-5` (Claude Code). A pedido dos autores, agentes revi
 
 O coordenador fez a correção da deduplicação na skill, aplicou a Emenda 8 com o `rs.py` e as correções apontadas pela verificação e pela revisão visual. Nenhuma dessas etapas valida o conteúdo.
 
+## Coautoria, repositório público e voz do autor (30/09/2026, noite)
+
+Coordenador: `claude-opus-5-5` (Claude Code). A pedido dos autores, agentes fizeram três coisas:
+- passaram o texto para a coautoria de Lucas Berti;
+- conferiram os textos de acesso ao repositório público;
+- ajustaram o estilo de todo o texto publicado à voz do primeiro autor.
+
+O ajuste de estilo passou pelo artigo, pelos apêndices, pelo resumo em linguagem simples, pela vitrine, pelo README e pelo LEIA do pacote. Ele partiu de textos de Felipe Lamarca escritos sem IA, reunidos em `insumos/amostras_voz_v2.md`:
+- o artigo de 2021 na revista *Mosaico*;
+- o *midterm* e as notas de aula do repositório Intro-Legislative-Studies;
+- as listas do Lego-I, numa versão anterior ao polimento por IA.
+
+Esse passe também levou à primeira pessoa do plural o que os autores fizeram. Nenhum dos agentes leu PDF de estudo incluído nem fez análise nova, e as travas (`conferir_numeros.py`, `conferir_reestruturacao.py`) confirmaram que números, chaves de citação, enunciados e certezas ficaram iguais. A seção "Como esta síntese foi feita" foi escrita pelo coordenador, a partir do pedido dos autores.
+
+| Prompt | Papel | Modelo | SHA256 (início) |
+|---|---|---|---|
+| `prompts_final/prompt_coautoria.md` | coautoria: "o autor" passa a "os autores" | claude-opus-5-5 | `fa43233944e87fb3…` |
+| `prompts_final/prompt_verificacao_coautoria.md` | verificação independente da coautoria e do acesso (`verificacao_coautoria.md`) | claude-opus-5-5 | `37e959865afc4209…` |
+| na própria chamada | dois levantamentos de estilo, só de leitura (artigo da *Mosaico*; repositórios Intro-Legislative-Studies e Lego-I) | agente de busca do Claude Code, modelo não registrado | — |
+| `prompts_final/prompt_voz_autor.md` | oito redatores do passe de voz, um por bloco (abertura; métodos; resultados, em duas partes; discussão e informações adicionais; apêndices e listas de conferência; linguagem simples, legendas e tabelas; vitrine, README e LEIA) | claude-opus-5-5 | `dfe3eed930c5f55b…` |
+| `prompts_final/prompt_leitura_controle_voz.md` | leitura de controle do passe de voz (`_qa/controle_voz.md`) | claude-opus-5-5 | `4533587b548432ee…` |
+
+Nenhuma dessas etapas valida o conteúdo. Os autores pediram o passe de voz e são responsáveis pelo texto que dele resultou.
+
 ## Versão de 24/09/2026 (histórico)
 
 O texto abaixo é o da declaração daquela versão, mantido como registro. As marcas de rascunho e de pendências abertas nele se referem a 24/09/2026.

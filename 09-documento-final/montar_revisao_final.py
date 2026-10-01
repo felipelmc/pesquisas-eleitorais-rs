@@ -697,7 +697,7 @@ def t_hipoteses():
                        certeza_hipotese(l, por_id)])
     leg = ("Hipóteses e elos da teoria da exposição registrada no protocolo e o que a evidência incluída diz sobre "
            "cada um. E1 a E8: elos do modelo lógico; R1 a R3: teorias rivais. Síntese descritiva a partir do "
-           "fichamento por IA; da codificação de mecanismos, os autores conferiram em bloco só as divergências da recodificação "
+           "fichamento por IA; da codificação de mecanismos, conferimos em bloco só as divergências da recodificação "
            "cega de 10 estudos (Emenda 7). A certeza GRADE só aparece quando a hipótese coincide com "
            "uma célula da síntese principal e qualifica a direção do efeito nessa célula, não o mecanismo; nas "
            "demais linhas, sem GRADE. Nenhuma célula tem 4 estudos por nível de moderador, e por isso nenhuma "

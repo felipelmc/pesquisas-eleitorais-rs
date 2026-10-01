@@ -112,6 +112,23 @@ Por fim, os autores abriram o repositório. O histórico completo foi copiado pa
 
 Por último, a pedido dos autores, o artigo e a vitrine ganharam a seção "Como esta síntese foi feita", antes da Introdução, que explica a *skill*, o livro de método (<https://felipelamarca.com/Systematic-Review/>) e os portões G1 a G9. No repositório de skills, a `tirar-cara-de-ia` saiu, e a `revisao-sistematica` deixou de mandar rodar um passe de estilo.
 
+Depois, também a pedido dos autores, todo o texto publicado passou por um passe de voz:
+- **Abrangência:** o artigo, os apêndices, a linguagem simples, as legendas, a tabela de lacunas, as listas de conferência, a vitrine, o README e o LEIA do pacote.
+- **O que mudou:**
+  - saíram as marcas de texto de IA (critérios da `tirar-cara-de-ia`);
+  - a prosa foi reescrita na voz de Felipe Lamarca, a partir do guia e de 33 trechos de textos dele escritos sem IA (`09-documento-final/insumos/amostras_voz_v2.md`: o artigo da *Mosaico*, o *midterm* e as notas de Intro-Legislative-Studies, e as listas do Lego-I antes do polimento por IA);
+  - o que os autores fizeram passou à primeira pessoa do plural.
+- **Como foi feito:** um redator Opus por bloco, com `09-documento-final/prompts_final/prompt_voz_autor.md`, e depois uma leitura de controle independente (`prompt_leitura_controle_voz.md`, saída em `09-documento-final/_qa/controle_voz.md`).
+- **Travas:**
+  - `conferir_numeros.py` ficou vazio, com números, chaves, enunciados e certezas iguais;
+  - `conferir_reestruturacao.py` deu OK;
+  - o corpo ficou abaixo de 8.500 palavras.
+
+Para refazer um trecho na mesma voz:
+- use o mesmo *prompt*;
+- divida o esqueleto em blocos com uma cópia "antes", porque a trava compara antes e depois;
+- respeite as cotas de conectivos e o teto de palavras por seção.
+
 ### Sessão de 23 e 24/09/2026: o que foi feito
 
 A sessão fez tudo o que não depende de decisão humana e preparou o que depende. Em ordem:

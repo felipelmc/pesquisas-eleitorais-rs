@@ -229,7 +229,7 @@ def conf_prisma(textos_svg, legenda=""):
     if "(n = 0)" in textos_svg["prisma"]:
         erro("PRISMA: caixa ou item com n = 0 desenhado (deveria ser omitido)")
     n, ni, ne = casos_limitrofes()
-    frase = f"exceto {n} casos limítrofes decididos pelos autores ({ni} inclusões e {ne} exclusões)"
+    frase = f"exceto {n} casos limítrofes decididos por nós ({ni} inclusões e {ne} exclusões)"
     if frase not in re.sub(r"\s+", " ", legenda):
         erro(f"PRISMA: a legenda não traz '{frase}' (contagem de correcao_atribuicao.csv e rs_log.jsonl)")
     for ramo in ("bases", "outros_metodos"):
