@@ -8,8 +8,7 @@
 # Trava (conferir_reestruturacao.py, modo final): a tabela cita exatamente as pendências abertas de
 # 07-relatorio/_pendencias_abertas.json, menos a P038 (G9): P006, P007, P008, P033, P035, P036 e P042 (a P019 fechou
 # com a Emenda 8).
-# A linha "Relato" já diz que aprovamos o conteúdo desta versão: a publicação só sai depois dessa aprovação, que fecha a
-# P038 (G9). Se não o aprovarmos, esta linha volta a dizer só "na versão de 24/09/2026".
+# Sem linha "Relato" desde 01/10/2026, a pedido dos autores; a aprovação do relato (G9, P038) está nos Métodos.
 legenda: >-
   Uso de IA e conferência humana por etapa da síntese. Em bloco: em 30/09/2026, declaramos ter revisto juntos o que a
   coluna descreve, sem dupla conferência independente, e concordado com as decisões em vigor, sem registrar a
@@ -95,12 +94,3 @@ linhas:
     - Não se aplica (um só avaliador)
     - Não realizada
     - P035, P036, P042
-  - - Relato
-    - >-
-      Subagentes `claude-opus-5-5` e `claude-sonnet-5`, com números conferidos por programa
-    - >-
-      Não se aplica; verificação e leituras críticas por IA não validam o conteúdo
-    - >-
-      Em bloco, na versão de 24/09/2026 (declaração de 30/09/2026); antes da entrega, aprovamos o conteúdo desta versão, que a
-      reescreve sem mudar a análise, já com a Emenda 8, que pedimos (G9)
-    - nenhuma
