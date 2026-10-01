@@ -53,12 +53,12 @@ No Brasil, as pesquisas feitas no dia da eleição já só podem ser divulgadas 
 
 ## Quais são os limites?
 
-Agentes de IA buscaram, escolheram e leram os estudos e redigiram o artigo. Aprovamos o plano e conferimos em bloco partes da busca e da seleção e os números tirados dos estudos, mas ninguém conferiu como a IA julgou a qualidade dos estudos e a confiança na evidência. Tampouco se estimou quantos estudos a triagem pela IA pode ter perdido.
+Agentes de IA buscaram, escolheram e leram os estudos. Aprovamos o plano e conferimos em bloco partes da busca e da seleção e os números tirados dos estudos, mas ninguém conferiu como a IA julgou a qualidade dos estudos e a confiança na evidência. Tampouco se estimou quantos estudos a triagem pela IA pode ter perdido.
 
 A busca usou só duas bases e as citações dos estudos, sem a principal base de revistas latino-americanas, e não obteve 338 dos 522 textos procurados. A falta de estudos brasileiros é, em parte, uma lacuna da busca.
 
 ## Até quando vai a busca?
 
-As bases de dados foram consultadas em 19/09/2026, e as citações dos estudos, até 20/09/2026. Esta é a versão de 30/09/2026. Este resumo também foi redigido por agentes de IA, a partir do artigo.
+As bases de dados foram consultadas em 19/09/2026, e as citações dos estudos, até 20/09/2026. Esta é a versão de 30/09/2026.
 
 [Leia a síntese completa, com os apêndices](revisao.pdf)
