@@ -219,3 +219,7 @@ dialog.gaveta::backdrop { background: var(--veu); animation: veu-entra var(--dur
   padding: 18px 18px calc(18px + env(safe-area-inset-bottom)); font-size: 0.92rem;
 }
 .painel-toque-fechar { margin-top: 12px; min-height: 44px; width: 100%; border-radius: 999px; border: 1px solid var(--line-2); background: var(--bg); cursor: pointer; }
+
+/* como esta síntese foi feita: lista dos portões */
+.lista-portoes { columns: 2 15rem; column-gap: 2.5rem; padding-left: 1.4em; margin: 0.4rem 0 1rem; font-family: var(--sans); font-size: 0.95em; }
+.lista-portoes li { break-inside: avoid; margin-bottom: 0.25rem; }

@@ -326,6 +326,15 @@ def bloco_rob(D, T):
     return h
 
 
+def bloco_como_foi_feita(D, T):
+    TC = T["como_foi_feita"]
+    h = cab(T, "como_foi_feita", "titulo-como-foi-feita")
+    h += '<div class="prosa revelar">' + "".join(f"<p>{p}</p>" for p in TC["paragrafos"]) + "</div>"
+    h += (f'<div class="prosa revelar"><p>{TC["portoes_intro"]}</p><ol class="lista-portoes">'
+          + "".join(f"<li>{g}</li>" for g in TC["portoes"]) + f'</ol><p class="nota">{TC["portoes_nota"]}</p></div>')
+    return h
+
+
 def bloco_nao_sabemos(D, T):
     TN = T["nao_sabemos"]
     h = cab(T, "nao_sabemos", "titulo-nao-sabemos") + '<div class="cartoes cartoes-nao">'
@@ -507,7 +516,8 @@ def main():
         "pular": T["ferramentas"]["pular"], "movimento": T["ferramentas"]["movimento"], "fechar": T["gaveta"]["fechar"],
         "heroi_kicker": T["heroi"]["kicker"], "titulo": esc(D["meta"]["titulo"]), "heroi_autoria": T["heroi"]["autoria"],
         "heroi_lede": T["heroi"]["lede"], "heroi_contadores": contadores(D, T), "heroi_pontos": T["heroi"]["pontos"],
-        "mensagens": bloco_mensagens(D, T), "linguagem": bloco_linguagem(D, T), "prisma": bloco_prisma(D, T),
+        "mensagens": bloco_mensagens(D, T), "como_foi_feita": bloco_como_foi_feita(D, T),
+        "linguagem": bloco_linguagem(D, T), "prisma": bloco_prisma(D, T),
         "mapa": bloco_mapa(D, T), "direcao": bloco_direcao(D, T), "contagem": bloco_contagem(D, T),
         "forest": bloco_forest(D, T), "rob": bloco_rob(D, T), "nao_sabemos": bloco_nao_sabemos(D, T),
         "onde": bloco_onde(D, T), "brasil": bloco_brasil(D, T), "processo": bloco_processo(D, T),

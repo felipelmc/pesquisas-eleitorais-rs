@@ -159,6 +159,37 @@ nao_sabemos:
       alvo: "#mapa"
       rotulo_alvo: "Ver o mapa"
 
+como_foi_feita:
+  kicker: "A ferramenta"
+  titulo: "Como esta síntese foi feita"
+  paragrafos:
+    - >-
+      Parte do trabalho foi construir a ferramenta que conduziu a síntese: a *skill* `revisao-sistematica`, para o
+      Claude Code, desenvolvida por Felipe Lamarca com agentes de IA. Ela divide o trabalho entre pessoas, modelos de
+      linguagem e *scripts*. Um coordenador de IA distribui as tarefas em volume, como triar registros e ler textos
+      completos, entre subagentes. Os *scripts* fazem o que não pede julgamento, como a deduplicação e as contas da
+      síntese. Cada comando fica num registro que só aceita acréscimos, e o que pede julgamento humano vira uma
+      pendência.
+    - >-
+      As regras de cada etapa estão no [livro de método](https://felipelamarca.com/Systematic-Review/) que especifica a
+      *skill*. Ele parte da proposta "O que funciona?" e a estende com as normas de Cochrane, Campbell, PRISMA e
+      GRADE. A cópia da *skill* usada aqui vai no [pacote de replicação](pacote-replicacao.zip).
+  portoes_intro: "Cada etapa termina num portão, um ponto de aprovação antes da etapa seguinte:"
+  portoes:
+    - "**G1**: a pergunta"
+    - "**G2**: o protocolo"
+    - "**G3**: a busca"
+    - "**G4**: a triagem de títulos e resumos"
+    - "**G5**: a elegibilidade no texto completo"
+    - "**G6**: o piloto de extração"
+    - "**G7**: a extração e o risco de viés"
+    - "**G8**: a síntese e a certeza da evidência"
+    - "**G9**: o relato"
+  portoes_nota: >-
+    Nesta síntese, os autores aprovaram G1 e G2. De G3 a G9, os portões foram aprovados em autopiloto, quando as
+    conferências automáticas passavam; os autores confirmaram depois G3, G5, G6 e G9, e G4, G7 e G8 seguem sem
+    confirmação humana.
+
 pendencias:
   kicker: "Validação humana"
   titulo: "O que ficou sem validação humana"

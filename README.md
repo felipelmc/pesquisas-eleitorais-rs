@@ -17,6 +17,10 @@ Síntese sistemática de evidências, conduzida com agentes de IA, sobre os efei
 - **Comparecimento:** receber pesquisa de disputa apertada, em vez de folgada, provavelmente não muda o comparecimento além de ±2 pontos percentuais (um experimento de campo; certeza moderada).
 - **Tamanho do efeito:** a evidência não diz de quanto é o efeito, nem permite afirmar que não há efeito.
 
+## Como foi feita
+
+A síntese foi conduzida com a *skill* `revisao-sistematica` para o Claude Code, desenvolvida por Felipe Lamarca com agentes de IA, que divide o trabalho entre pessoas, modelos de linguagem e *scripts*. Cada etapa termina num portão de aprovação (G1, a pergunta, a G9, o relato), e o que pede julgamento humano vira uma pendência. O livro de método que a especifica, com os protocolos de cada etapa, está em <https://felipelamarca.com/Systematic-Review/>, e a cópia da *skill* usada aqui vai no pacote de replicação (`skill-revisao-sistematica/`). O artigo explica isso na seção "Como esta síntese foi feita", antes da Introdução.
+
 ## O que teve e o que não teve validação humana
 
 Agentes de IA conduziram as etapas depois do protocolo. O protocolo e a pergunta foram aprovados pelos autores. Em 30/09/2026, os autores declararam ter conferido **em bloco** partes da busca e da seleção (a pré-revisão PRESS por IA, as 81 divergências da triagem e as 165 propostas de elegibilidade), o piloto, os 560 efeitos (contra a página dos PDFs), as divergências da recodificação e o relato, e ter mantido as decisões em vigor, em bloco e sem dupla conferência independente. O registro está em [`08-revisao-humana/declaracao_autor_2026-09-30.md`](08-revisao-humana/declaracao_autor_2026-09-30.md), na Emenda 7 e na declaração de coautoria ([`08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md`](08-revisao-humana/declaracao_autores_2026-09-30_coautoria.md)). No mesmo dia, a deduplicação que eles decidiram foi aplicada, depois de corrigida a ferramenta (Emenda 8): mudaram contagens do fluxo, e não os incluídos.

@@ -85,6 +85,16 @@ que troca cada marcador de figura ou tabela pelo conteúdo gerado dos arquivos d
 
 :::
 
+# Como esta síntese foi feita {#como-foi-feita .unnumbered}
+
+Parte deste trabalho foi construir a ferramenta que o conduziu. Felipe Lamarca desenvolveu, com apoio de agentes de IA, a *skill* `revisao-sistematica` para o Claude Code, com três *skills* irmãs (download de textos completos por fontes legítimas, fichamento por *codebook* e referências em BibTeX), e o livro de método *Revisão sistemática de ponta a ponta* [@Lamarca2026Livro], publicado em <https://felipelamarca.com/Systematic-Review/>. O livro traz os protocolos, as regras e os critérios de cada etapa que a *skill* executa. Ele parte da proposta *O que funciona?* [@Schaefer2025OQF] e a estende com as normas de Cochrane, Campbell, PRISMA e GRADE. A cópia da *skill* usada nesta síntese está no pacote de replicação.
+
+A *skill* divide o trabalho entre pessoas, modelos de linguagem e *scripts*. Um coordenador de IA roda a ferramenta e distribui as tarefas em volume, como triar registros e ler textos completos, entre subagentes, que são outras instâncias de modelos. Os *scripts* fazem o que não pede julgamento: a deduplicação, o fluxo PRISMA, a conferência dos trechos citados e as contas da síntese. Cada comando grava um registro (*log*) que só aceita acréscimos, com o que foi feito, por quem e quando. O que pede julgamento humano vira uma pendência, e os produtos da ferramenta saem marcados como rascunho enquanto houver pendência aberta.
+
+A revisão anda por etapas, e cada uma termina num portão, um ponto de aprovação antes da etapa seguinte: G1, a pergunta; G2, o protocolo; G3, a busca; G4, a triagem de títulos e resumos; G5, a elegibilidade no texto completo; G6, o piloto de extração; G7, a extração e o risco de viés; G8, a síntese e a certeza da evidência; e G9, o relato. Num portão, a ferramenta confere os arquivos da etapa e, no modo de autopiloto, aprova sozinha quando as conferências passam, deixando como pendência o que precisaria de confirmação humana. Nesta síntese, os autores aprovaram G1 e G2. De G3 a G9, os portões foram aprovados em autopiloto, e os autores confirmaram depois G3, G5, G6 e G9; G4, G7 e G8 seguem sem confirmação humana, com as pendências listadas no Apêndice G.
+
+Mudanças de método depois do protocolo viraram emendas numeradas, com data e o momento em relação aos dados (Apêndice B). O restante do texto relata a síntese: o problema, os métodos, os resultados e o que eles implicam.
+
 # Introdução {#sec-introducao}
 
 ## O problema e o debate brasileiro {#sec-problema}

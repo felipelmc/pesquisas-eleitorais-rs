@@ -22,7 +22,7 @@ Nos experimentos, as estimativas apontam a favor de quem aparece à frente, mas 
 ::: {.callout-note}
 ## O que esta síntese estudou
 
-A síntese pergunta se ver uma pesquisa eleitoral muda o voto e a decisão de ir votar. Entraram 41 estudos, de buscas feitas até 20/09/2026. Agentes de inteligência artificial (IA) fizeram a maior parte do trabalho. Os autores conferiram partes da busca e da seleção e os números tirados de cada estudo. A qualidade dos estudos e a confiança na evidência foram julgadas só pela IA, sem conferência humana.
+A síntese pergunta se ver uma pesquisa eleitoral muda o voto e a decisão de ir votar. Entraram 41 estudos, de buscas feitas até 20/09/2026. Agentes de inteligência artificial (IA) fizeram a maior parte do trabalho, com uma ferramenta, desenvolvida por um dos autores, que divide as tarefas entre pessoas e modelos de IA e está descrita em <https://felipelamarca.com/Systematic-Review/>. Os autores conferiram partes da busca e da seleção e os números tirados de cada estudo. A qualidade dos estudos e a confiança na evidência foram julgadas só pela IA, sem conferência humana.
 :::
 
 ## Do que trata esta síntese?
