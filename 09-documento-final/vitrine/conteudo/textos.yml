@@ -334,7 +334,7 @@ rodape:
   creditos: >-
     Fontes STIX Two Text e Fira Sans, sob a SIL Open Font License 1.1. Gráficos com D3 7.9.0, sob a licença ISC.
     Todo o código, os dados e as fontes estão embutidos nesta página, que não faz nenhuma requisição externa.
-  ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob a nossa supervisão."
+  ia: "A escrita dessa síntese de evidências se valeu amplamente do uso de modelos de inteligência artificial. Para mais detalhes, ver a [declaração de uso de IA](revisao.html#informacoes-adicionais)."
   versao: "Versão de entrega (tag `{{meta.tag}}`, de {{meta.data_versao}})."
   mudou_titulo: "O que mudou desde 24/09"
   mudou: >-

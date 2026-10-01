@@ -18,7 +18,7 @@ estado: final
 revista:
   masthead: "Documento de trabalho · Síntese sistemática de evidências"
   cabeca: "Lamarca e Berti · Pesquisas eleitorais e voto"
-  nota-ia: "Redigido por agentes de IA a partir dos arquivos do projeto, sob supervisão dos autores. Ver a declaração de uso de IA."
+  nota-ia: "A escrita dessa síntese de evidências se valeu amplamente do uso de modelos de inteligência artificial. Para mais detalhes, ver a declaração de uso de IA, nas Informações adicionais."
   ultima-busca: "19/09/2026 (bases) e 20/09/2026 (busca por citação)"
 csl: revista/american-political-science-association.csl
 link-citations: true
