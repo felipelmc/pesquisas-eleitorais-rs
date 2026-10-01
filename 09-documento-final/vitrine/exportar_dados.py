@@ -752,7 +752,11 @@ def main():
 
     # ---------- meta e números para os marcadores
     commit = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True, cwd=RAIZ).stdout.strip()
-    data_iso = subprocess.run(["git", "log", "-1", "--format=%cs"], capture_output=True, text=True, cwd=RAIZ).stdout.strip()
+    # data da versão = a do artigo (campo date do esqueleto), não a do último commit, que muda com correções posteriores
+    m_data = re.search(r"^date:\s*(\d{4}-\d{2}-\d{2})\s*$",
+                       (RAIZ / "09-documento-final/_esqueleto_revisao_final.qmd").read_text(encoding="utf-8"), flags=re.M)
+    data_iso = m_data.group(1) if m_data else subprocess.run(["git", "log", "-1", "--format=%cs"], capture_output=True,
+                                                             text=True, cwd=RAIZ).stdout.strip()
     data_br = dt.datetime.strptime(data_iso, "%Y-%m-%d").strftime("%d/%m/%Y") if data_iso else "NR"
     n_mb = sum(1 for c in celulas if c["certeza"] == "muito_baixa")
     confere(n_mb == ntab["certeza_contagem"]["muito_baixa"], "contagem de células com certeza muito baixa diverge")
