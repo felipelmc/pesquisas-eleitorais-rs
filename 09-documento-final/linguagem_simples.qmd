@@ -59,6 +59,6 @@ A busca usou só duas bases e as citações dos estudos, sem a principal base de
 
 ## Até quando vai a busca?
 
-As bases de dados foram consultadas em 19/09/2026, e as citações dos estudos, até 20/09/2026. Esta é a versão de 30/09/2026. Este resumo também foi redigido por agentes de IA, a partir do artigo, e ajustado à voz do primeiro autor.
+As bases de dados foram consultadas em 19/09/2026, e as citações dos estudos, até 20/09/2026. Esta é a versão de 30/09/2026. Este resumo também foi redigido por agentes de IA, a partir do artigo.
 
 [Leia a síntese completa, com os apêndices](revisao.pdf)
